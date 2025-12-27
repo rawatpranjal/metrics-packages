@@ -12,7 +12,7 @@
       "experimentation",
       "Bayesian"
     ],
-    "best_for": "Production A/B testing with simple Thompson Sampling setup"
+    "best_for": "Sharing knowledge across arms for sparse high-dimensional features"
   },
   {
     "name": "ContextualBandits",
@@ -27,7 +27,7 @@
       "experimentation",
       "machine learning"
     ],
-    "best_for": "Researchers comparing bandit algorithms or prototyping new approaches"
+    "best_for": "Off-policy learning from logged data with any sklearn classifier"
   },
   {
     "name": "MABWiser",
@@ -41,7 +41,7 @@
       "A/B testing",
       "experimentation"
     ],
-    "best_for": "Production recommender systems needing speed and algorithmic flexibility"
+    "best_for": "Fidelity-tested with built-in parallelization and policy tuning"
   },
   {
     "name": "Open Bandit Pipeline (OBP)",
@@ -55,7 +55,7 @@
       "A/B testing",
       "experimentation"
     ],
-    "best_for": "Evaluating bandit policies offline before deployment"
+    "best_for": "Benchmarking OPE methods with real ZOZO e-commerce dataset"
   },
   {
     "name": "PyXAB",
@@ -69,7 +69,7 @@
       "A/B testing",
       "experimentation"
     ],
-    "best_for": "Hyperparameter tuning over continuous parameter spaces"
+    "best_for": "Continuous action spaces with hierarchical partitioning"
   },
   {
     "name": "SMPyBandits",
@@ -83,7 +83,7 @@
       "A/B testing",
       "experimentation"
     ],
-    "best_for": "Academic research comparing many bandit algorithms"
+    "best_for": "Multi-player bandits with collision handling (65+ algorithms)"
   },
   {
     "name": "Bambi",
@@ -97,7 +97,7 @@
       "Bayesian",
       "inference"
     ],
-    "best_for": "Bayesian GLMs with R-style formula syntax (y ~ x)"
+    "best_for": "Mixed-effects models with auto priors and R-style formulas"
   },
   {
     "name": "LightweightMMM",
@@ -111,7 +111,7 @@
       "Bayesian",
       "inference"
     ],
-    "best_for": "Marketing mix modeling with uncertainty quantification"
+    "best_for": "Google's MMM with geo-level modeling and budget optimizer"
   },
   {
     "name": "NumPyro",
@@ -125,7 +125,7 @@
       "Bayesian",
       "inference"
     ],
-    "best_for": "GPU-accelerated Bayesian inference with JAX"
+    "best_for": "JAX backend with JIT-compiled NUTS for GPU/TPU speed"
   },
   {
     "name": "PyMC",
@@ -139,7 +139,7 @@
       "Bayesian",
       "inference"
     ],
-    "best_for": "General Bayesian modeling with rich ecosystem and tutorials"
+    "best_for": "Largest ecosystem with books, tutorials, and domain extensions"
   },
   {
     "name": "Ananke",
@@ -153,7 +153,7 @@
       "causal inference",
       "graphs"
     ],
-    "best_for": "Causal identification theory - checking if effects can be estimated"
+    "best_for": "ID algorithm checking if causal effects are identifiable from DAG"
   },
   {
     "name": "Causal Discovery Toolbox (CDT)",
@@ -167,7 +167,7 @@
       "causal inference",
       "graphs"
     ],
-    "best_for": "Comparing many discovery algorithms with GPU support"
+    "best_for": "Wraps R packages (bnlearn, pcalg) with GPU and pairwise methods"
   },
   {
     "name": "CausalNex",
@@ -182,7 +182,7 @@
       "graphs",
       "Bayesian"
     ],
-    "best_for": "Combining domain expertise with data-driven Bayesian networks"
+    "best_for": "McKinsey's BN tool with expert knowledge and what-if analysis"
   },
   {
     "name": "LiNGAM",
@@ -196,7 +196,7 @@
       "causal inference",
       "graphs"
     ],
-    "best_for": "Discovering causal direction with non-Gaussian data"
+    "best_for": "Exploits non-Gaussianity to identify causal direction"
   },
   {
     "name": "Tigramite",
@@ -210,7 +210,7 @@
       "causal inference",
       "graphs"
     ],
-    "best_for": "Time series causal discovery with lagged relationships"
+    "best_for": "PCMCI algorithm for time series with lagged causal links"
   },
   {
     "name": "causal-learn",
@@ -224,7 +224,7 @@
       "causal inference",
       "graphs"
     ],
-    "best_for": "Classical Tetrad algorithms in native Python"
+    "best_for": "PyWhy's native Python port of Tetrad (PC, GES, FCI, etc.)"
   },
   {
     "name": "gCastle",
@@ -238,7 +238,7 @@
       "causal inference",
       "graphs"
     ],
-    "best_for": "Large-scale discovery with gradient-based methods (NOTEARS)"
+    "best_for": "Huawei's gradient-based discovery (NOTEARS, GOLEM, neural)"
   },
   {
     "name": "py-tetrad",
@@ -252,7 +252,7 @@
       "causal inference",
       "graphs"
     ],
-    "best_for": "Direct access to full Tetrad Java library via Python"
+    "best_for": "JPype bridge to full Tetrad Java for exclusive algorithms"
   },
   {
     "name": "CausalInference",
@@ -266,7 +266,7 @@
       "causal inference",
       "matching"
     ],
-    "best_for": "Traditional propensity score methods with clear statistical foundations"
+    "best_for": "Simple API for matching, blocking, weighting, and stratification"
   },
   {
     "name": "CausalLib",
@@ -280,7 +280,7 @@
       "causal inference",
       "matching"
     ],
-    "best_for": "Plugging any sklearn model into causal meta-algorithms"
+    "best_for": "IBM's modular meta-learners with any sklearn estimator"
   },
   {
     "name": "CausalML",
@@ -294,7 +294,7 @@
       "causal inference",
       "matching"
     ],
-    "best_for": "Uplift modeling for personalized marketing interventions"
+    "best_for": "Uber's production CATE/ITE with T-learner, X-learner, SHAP"
   },
   {
     "name": "CausalMatch",
@@ -308,7 +308,7 @@
       "causal inference",
       "matching"
     ],
-    "best_for": "Large-scale PSM/CEM matching at tech company scale"
+    "best_for": "ByteDance's PSM/CEM with auto model selection and balance checks"
   },
     {
     "name": "CausalPy",
@@ -322,7 +322,7 @@
       "causal inference",
       "matching"
     ],
-    "best_for": "Bayesian quasi-experiments (DiD, SC, RDD) with uncertainty"
+    "best_for": "PyMC Labs' Bayesian DiD, RDD, SC, and IV with credible intervals"
   },
   {
     "name": "DoWhy",
@@ -336,7 +336,7 @@
       "causal inference",
       "matching"
     ],
-    "best_for": "End-to-end causal workflow with explicit assumption documentation"
+    "best_for": "End-to-end workflow with refutation tests and assumption checking"
   },
   {
     "name": "fastmatch",
@@ -350,7 +350,7 @@
       "causal inference",
       "matching"
     ],
-    "best_for": "Fast KNN matching on millions of observations"
+    "best_for": "FAISS/Voyager GPU-accelerated matching at massive scale"
   },
   {
     "name": "scikit-uplift",
@@ -364,7 +364,7 @@
       "causal inference",
       "matching"
     ],
-    "best_for": "Simple sklearn-style uplift modeling with AUUC metrics"
+    "best_for": "Most uplift metrics (AUUC, Qini) with sklearn pipelines"
   },
   {
     "name": "Scikit-learn",
@@ -518,7 +518,7 @@
       "machine learning",
       "causal inference"
     ],
-    "best_for": "Canonical DML implementation with rigorous inference"
+    "best_for": "Chernozhukov et al. DML with Neyman orthogonal scores"
   },
   {
     "name": "EconML",
@@ -532,7 +532,7 @@
       "machine learning",
       "causal inference"
     ],
-    "best_for": "Production CATE estimation with multiple methods"
+    "best_for": "Microsoft's causal forests with valid confidence intervals"
   },
   {
     "name": "pydoublelasso",
@@ -731,7 +731,7 @@
       "panel data",
       "fixed effects"
     ],
-    "best_for": "Traditional panel econometrics with broad estimator coverage"
+    "best_for": "Panel, IV, SUR, 3SLS, and Fama-MacBeth in one package"
   },
   {
     "name": "PyFixest",
@@ -745,7 +745,7 @@
       "panel data",
       "fixed effects"
     ],
-    "best_for": "Fast fixest-style estimation with formula interface"
+    "best_for": "R fixest port with multi-way FE and wild bootstrap"
   },
   {
     "name": "duckreg",
@@ -1504,7 +1504,7 @@
       "forecasting",
       "time series"
     ],
-    "best_for": "Business forecasting with trend and seasonality"
+    "best_for": "Meta's holidays + seasonality for non-statisticians"
   },
   {
     "name": "StatsForecast",
@@ -1518,7 +1518,7 @@
       "forecasting",
       "time series"
     ],
-    "best_for": "High-performance statistical forecasting (ETS, ARIMA)"
+    "best_for": "20x faster than pmdarima with Spark/Dask/Ray scaling"
   },
   {
     "name": "pmdarima",
@@ -1561,7 +1561,7 @@
       "machine learning",
       "prediction"
     ],
-    "best_for": "Categorical features with minimal preprocessing"
+    "best_for": "Native categorical encoding with ordered boosting"
   },
   {
     "name": "LightGBM",
@@ -1575,7 +1575,7 @@
       "machine learning",
       "prediction"
     ],
-    "best_for": "Speed and memory efficiency on large datasets"
+    "best_for": "Histogram + leaf-wise growth for speed and low memory"
   },
   {
     "name": "NGBoost",
