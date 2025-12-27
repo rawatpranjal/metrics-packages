@@ -1,54 +1,5 @@
 [
   {
-    "name": "Netflix Tech Blog - Experimentation",
-    "description": "1000+ engineers, millions of users, zero guesswork. Real case studies on how Netflix actually runs A/B tests at scale.",
-    "category": "Industry Blogs",
-    "url": "https://netflixtechblog.com/tagged/experimentation",
-    "type": "Blog"
-  },
-  {
-    "name": "Uber Engineering - Economics",
-    "description": "Surge pricing, marketplace design, causal inference at scale. See how economists tackle real problems at Uber.",
-    "category": "Industry Blogs",
-    "url": "https://www.uber.com/blog/engineering/",
-    "type": "Blog"
-  },
-  {
-    "name": "Airbnb Engineering - Data Science",
-    "description": "Experimentation platform design, interference in experiments, and applied causal inference from Airbnb's data science team.",
-    "category": "Industry Blogs",
-    "url": "https://medium.com/airbnb-engineering/data/home",
-    "type": "Blog"
-  },
-  {
-    "name": "Spotify R&D - Machine Learning",
-    "description": "How do you recommend songs to 500M users? Personalization, search, and ML at audio scale. Serious engineering, not marketing fluff.",
-    "category": "Industry Blogs",
-    "url": "https://research.atspotify.com/",
-    "type": "Blog"
-  },
-  {
-    "name": "DoorDash Engineering",
-    "description": "Marketplace economics, delivery optimization, and experimentation. Great posts on real-time pricing and logistics.",
-    "category": "Industry Blogs",
-    "url": "https://doordash.engineering/category/data-science-and-machine-learning/",
-    "type": "Blog"
-  },
-  {
-    "name": "Lyft Engineering",
-    "description": "Rideshare economics, causal inference, and marketplace experiments. Practical posts from Lyft's economics and data science teams.",
-    "category": "Industry Blogs",
-    "url": "https://eng.lyft.com/tagged/data-science",
-    "type": "Blog"
-  },
-  {
-    "name": "Stitch Fix Algorithms Blog",
-    "description": "Demand forecasting, inventory optimization, and personalization. Unique blend of fashion retail + serious data science.",
-    "category": "Industry Blogs",
-    "url": "https://multithreaded.stitchfix.com/algorithms/blog/",
-    "type": "Blog"
-  },
-  {
     "name": "Causal Inference for the Brave and True",
     "description": "The best free intro to causal inference. DiD, IV, RDD, synthetic control — all with Python code you can run. No fluff.",
     "category": "Causal Inference",
@@ -336,10 +287,101 @@
     "type": "Course Notes"
   },
   {
-    "name": "Amazon Economist Interview Guide",
-    "description": "Insider guide to Amazon's economist tracks: Forecasting, Causal Analysis, and Empirical IO. Leadership Principles meet econometrics.",
-    "category": "Career",
-    "url": "https://leonwei.com/amazon-economist-interview-guide-e81bd76a65de",
-    "type": "Guide"
+    "name": "Netflix Tech Blog - Experimentation",
+    "description": "1000+ engineers, millions of users, zero guesswork. Real case studies on how Netflix actually runs A/B tests at scale.",
+    "category": "Industry Blogs",
+    "url": "https://netflixtechblog.com/tagged/experimentation",
+    "type": "Blog"
+  },
+  {
+    "name": "Uber Engineering",
+    "description": "Surge pricing, marketplace design, causal inference at scale. See how economists tackle real problems at Uber.",
+    "category": "Industry Blogs",
+    "url": "https://www.uber.com/blog/engineering/",
+    "type": "Blog"
+  },
+  {
+    "name": "Airbnb Engineering - Data Science",
+    "description": "Experimentation platform design, interference in experiments, and applied causal inference from Airbnb's data science team.",
+    "category": "Industry Blogs",
+    "url": "https://medium.com/airbnb-engineering/data/home",
+    "type": "Blog"
+  },
+  {
+    "name": "Spotify R&D",
+    "description": "How do you recommend songs to 500M users? Personalization, search, and ML at audio scale.",
+    "category": "Industry Blogs",
+    "url": "https://research.atspotify.com/",
+    "type": "Blog"
+  },
+  {
+    "name": "DoorDash Engineering",
+    "description": "Marketplace economics, delivery optimization, and experimentation. Great posts on real-time pricing and logistics.",
+    "category": "Industry Blogs",
+    "url": "https://doordash.engineering/category/data-science-and-machine-learning/",
+    "type": "Blog"
+  },
+  {
+    "name": "Lyft Engineering",
+    "description": "Rideshare economics, causal inference, and marketplace experiments. Practical posts from Lyft's economics and data science teams.",
+    "category": "Industry Blogs",
+    "url": "https://eng.lyft.com/tagged/data-science",
+    "type": "Blog"
+  },
+  {
+    "name": "Stitch Fix Algorithms Blog",
+    "description": "Demand forecasting, inventory optimization, and personalization. Unique blend of fashion retail + serious data science.",
+    "category": "Industry Blogs",
+    "url": "https://multithreaded.stitchfix.com/algorithms/blog/",
+    "type": "Blog"
+  },
+  {
+    "name": "Meta Engineering - Data Science",
+    "description": "Large-scale experimentation, ML infrastructure, and data discovery at Facebook scale. Posts on causal inference and data tools.",
+    "category": "Industry Blogs",
+    "url": "https://engineering.fb.com/category/data-infrastructure/",
+    "type": "Blog"
+  },
+  {
+    "name": "LinkedIn Engineering - Experimentation",
+    "description": "41K concurrent A/B tests on 700M members. Network effects, inclusive product testing, and experimentation infrastructure.",
+    "category": "Industry Blogs",
+    "url": "https://www.linkedin.com/blog/engineering/ab-testing-experimentation",
+    "type": "Blog"
+  },
+  {
+    "name": "Pinterest Engineering - Data Science",
+    "description": "Visual discovery engine, recommendation systems, and ML at scale. Feature engineering and personalization.",
+    "category": "Industry Blogs",
+    "url": "https://medium.com/pinterest-engineering/tagged/data-science",
+    "type": "Blog"
+  },
+  {
+    "name": "Instacart Tech Blog",
+    "description": "Marketplace balancing, delivery optimization, demand forecasting. Making on-demand grocery profitable.",
+    "category": "Industry Blogs",
+    "url": "https://tech.instacart.com/",
+    "type": "Blog"
+  },
+  {
+    "name": "Stripe Engineering",
+    "description": "Payment economics, fraud detection ML, financial data infrastructure. Building economic infrastructure for the internet.",
+    "category": "Industry Blogs",
+    "url": "https://stripe.com/blog/engineering",
+    "type": "Blog"
+  },
+  {
+    "name": "Booking.com Tech Blog",
+    "description": "Travel marketplace experimentation at massive scale. A/B testing, recommender systems, and pricing optimization.",
+    "category": "Industry Blogs",
+    "url": "https://blog.booking.com/",
+    "type": "Blog"
+  },
+  {
+    "name": "Amazon Science",
+    "description": "Research from Amazon's scientists. Causal inference, supply chain optimization, pricing, and forecasting.",
+    "category": "Industry Blogs",
+    "url": "https://www.amazon.science/",
+    "type": "Blog"
   }
 ]

@@ -10,9 +10,9 @@
                     <path d="m21 21-4.35-4.35"></path>
                 </svg>
                 <input type="text"
-                       id="resource-search"
+                       id="career-search"
                        class="search-input"
-                       placeholder="Search resources..."
+                       placeholder="Search career resources..."
                        autocomplete="off">
                 <button id="clear-search" class="clear-btn" type="button" aria-label="Clear search">
                     <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
@@ -23,29 +23,24 @@
         </div>
 
         <!-- Category Dropdown -->
-        {{ $categories := slice }}
-        {{ range .Site.Data.resources }}
-            {{ if not (in $categories .category) }}
-                {{ $categories = $categories | append .category }}
-            {{ end }}
-        {{ end }}
+        {{ $categoryOrder := slice "Job Hunting" "Interview Prep" "Negotiation" }}
         <select id="category-select" class="category-select">
             <option value="all">All Categories</option>
-            {{ range $cat := sort $categories }}
+            {{ range $cat := $categoryOrder }}
             <option value="{{ $cat }}">{{ $cat }}</option>
             {{ end }}
         </select>
     </div>
 
-    <div id="result-count" class="result-count">{{ len .Site.Data.resources }} resources</div>
+    <div id="result-count" class="result-count">{{ len .Site.Data.career }} resources</div>
 
-    <!-- Resources Grid -->
-    <div id="resources-view" class="resources-grid">
-        {{ range $cat := $categories }}
+    <!-- Career Grid -->
+    <div id="career-view" class="resources-grid">
+        {{ range $cat := $categoryOrder }}
         <div class="category-section" data-section-category="{{ $cat }}">
             <h2 class="category-title">{{ $cat }}</h2>
             <div class="cards-row">
-                {{ range $.Site.Data.resources }}
+                {{ range $.Site.Data.career }}
                 {{ if eq .category $cat }}
                 <div class="resource-card"
                      data-name="{{ .name | lower }}"
@@ -77,14 +72,14 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <p>Curated learning resources for tech economists and data scientists</p>
+        <p>Career resources for tech economists</p>
     </footer>
 </div>
 
 <script>
-// Resources page search and filter functionality
+// Career page search and filter functionality
 document.addEventListener('DOMContentLoaded', function() {
-    const searchInput = document.getElementById('resource-search');
+    const searchInput = document.getElementById('career-search');
     const clearBtn = document.getElementById('clear-search');
     const categorySelect = document.getElementById('category-select');
     const cards = document.querySelectorAll('.resource-card');

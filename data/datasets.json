@@ -711,15 +711,6 @@
     "tags": ["grocery", "India", "Flipkart"]
   },
   {
-    "name": "Instacart Market Basket",
-    "description": "3 million grocery orders from 200k+ users for market basket analysis",
-    "category": "Supermarkets & Grocery",
-    "url": "https://www.kaggle.com/competitions/instacart-market-basket-analysis/data",
-    "docs_url": null,
-    "github_url": null,
-    "tags": ["grocery", "market basket", "Kaggle competition"]
-  },
-  {
     "name": "Israeli Grocery",
     "description": "Grocery purchase data from Israel",
     "category": "Supermarkets & Grocery",
@@ -864,15 +855,6 @@
     "tags": ["hotels", "bookings", "travel search"]
   },
   {
-    "name": "Trivago Travel",
-    "description": "User interactions with hotel listings from Trivago",
-    "category": "Travel",
-    "url": "https://recsys.trivago.cloud/challenge/dataset/",
-    "docs_url": null,
-    "github_url": null,
-    "tags": ["hotels", "recommendations", "RecSys"]
-  },
-  {
     "name": "Airline Delay",
     "description": "Airline flight delays and carrier information",
     "category": "Travel",
@@ -891,15 +873,6 @@
     "tags": ["music", "streaming", "INFORMS", "China"]
   },
   {
-    "name": "Spotify Datasets",
-    "description": "Million Playlist Dataset and challenge datasets from Spotify",
-    "category": "Music",
-    "url": "https://research.atspotify.com/datasets/",
-    "docs_url": null,
-    "github_url": null,
-    "tags": ["music", "playlists", "Spotify", "streaming"]
-  },
-  {
     "name": "Bandcamp Music Sales",
     "description": "Music sales data (digital/physical) from Bandcamp platform",
     "category": "Music",
@@ -907,15 +880,6 @@
     "docs_url": null,
     "github_url": null,
     "tags": ["music", "sales", "independent artists"]
-  },
-  {
-    "name": "Yahoo Music Reviews",
-    "description": "User ratings and play counts from Yahoo Webscope",
-    "category": "Music",
-    "url": "https://webscope.sandbox.yahoo.com/catalog.php?datatype=c",
-    "docs_url": null,
-    "github_url": null,
-    "tags": ["music", "ratings", "Yahoo"]
   },
   {
     "name": "Online Auctions Collection",
@@ -972,15 +936,6 @@
     "tags": ["cars", "Pakistan", "listings"]
   },
   {
-    "name": "Bidoo Penny Auctions",
-    "description": "Data from penny auctions on Bidoo platform",
-    "category": "Auctions & Procurement",
-    "url": "https://www.kaggle.com/datasets/federicominutoli/bidoo-closed-auctions",
-    "docs_url": null,
-    "github_url": null,
-    "tags": ["penny auctions", "bidding", "behavioral"]
-  },
-  {
     "name": "Ipinyou RTB",
     "description": "Real-time bidding (RTB) dataset for CTR prediction",
     "category": "Display Advertising",
@@ -1033,15 +988,6 @@
     "docs_url": null,
     "github_url": null,
     "tags": ["sponsored search", "KDD", "CTR"]
-  },
-  {
-    "name": "Yahoo Advertising",
-    "description": "Advertising and search logs via Yahoo Webscope",
-    "category": "Display Advertising",
-    "url": "https://webscope.sandbox.yahoo.com/catalog.php?datatype=a",
-    "docs_url": null,
-    "github_url": null,
-    "tags": ["advertising", "search logs", "Yahoo"]
   },
   {
     "name": "Real-Time Advertisers Auction",
@@ -1134,24 +1080,6 @@
     "tags": ["drones", "delivery", "autonomous"]
   },
   {
-    "name": "Brewery Operations",
-    "description": "Brewery operations and market analysis dataset",
-    "category": "Logistics",
-    "url": "https://www.kaggle.com/datasets/ankurnapa/brewery-operations-and-market-analysis-dataset",
-    "docs_url": null,
-    "github_url": null,
-    "tags": ["brewery", "operations", "manufacturing"]
-  },
-  {
-    "name": "Shipping and Pricing",
-    "description": "Supply chain data on shipment modes and costs",
-    "category": "Logistics",
-    "url": "https://catalog.data.gov/dataset/supply-chain-shipment-pricing-data-07d29",
-    "docs_url": null,
-    "github_url": null,
-    "tags": ["shipping", "pricing", "government data"]
-  },
-  {
     "name": "Natural Driving in Ohio",
     "description": "ADAS-equipped vehicles with driving behavior events",
     "category": "Mobility & GPS",
@@ -1204,15 +1132,6 @@
     "docs_url": null,
     "github_url": null,
     "tags": ["real estate", "NYC", "transactions", "government"]
-  },
-  {
-    "name": "Yahoo Webscope",
-    "description": "Search logs, advertising, ratings, and graph data from Yahoo",
-    "category": "Research Collections",
-    "url": "https://webscope.sandbox.yahoo.com/",
-    "docs_url": null,
-    "github_url": null,
-    "tags": ["search", "ratings", "graphs", "Yahoo"]
   },
   {
     "name": "Yelp Dataset",

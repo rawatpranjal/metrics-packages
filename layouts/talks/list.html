@@ -10,9 +10,9 @@
                     <path d="m21 21-4.35-4.35"></path>
                 </svg>
                 <input type="text"
-                       id="resource-search"
+                       id="talk-search"
                        class="search-input"
-                       placeholder="Search resources..."
+                       placeholder="Search talks..."
                        autocomplete="off">
                 <button id="clear-search" class="clear-btn" type="button" aria-label="Clear search">
                     <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
@@ -24,7 +24,7 @@
 
         <!-- Category Dropdown -->
         {{ $categories := slice }}
-        {{ range .Site.Data.resources }}
+        {{ range .Site.Data.talks }}
             {{ if not (in $categories .category) }}
                 {{ $categories = $categories | append .category }}
             {{ end }}
@@ -37,20 +37,41 @@
         </select>
     </div>
 
-    <div id="result-count" class="result-count">{{ len .Site.Data.resources }} resources</div>
+    <div id="result-count" class="result-count">{{ len .Site.Data.talks }} talks</div>
 
-    <!-- Resources Grid -->
-    <div id="resources-view" class="resources-grid">
+    <!-- Talks Grid -->
+    <div id="talks-view" class="resources-grid">
         {{ range $cat := $categories }}
         <div class="category-section" data-section-category="{{ $cat }}">
             <h2 class="category-title">{{ $cat }}</h2>
             <div class="cards-row">
-                {{ range $.Site.Data.resources }}
+                {{ range $.Site.Data.talks }}
                 {{ if eq .category $cat }}
                 <div class="resource-card"
                      data-name="{{ .name | lower }}"
                      data-description="{{ .description | lower }}"
                      data-category="{{ .category }}">
+                    {{ if .image_url }}
+                    <a href="{{ .url }}" target="_blank" class="talk-thumbnail-link">
+                        <img src="{{ .image_url }}"
+                             alt=""
+                             class="talk-thumbnail"
+                             loading="lazy">
+                    </a>
+                    {{ else if findRE "youtube\\.com|youtu\\.be" .url }}
+                    {{ $videoId := replaceRE ".*(?:v=|youtu\\.be/)([^&?]+).*" "$1" .url }}
+                    <a href="{{ .url }}" target="_blank" class="talk-thumbnail-link">
+                        <img src="https://img.youtube.com/vi/{{ $videoId }}/mqdefault.jpg"
+                             alt=""
+                             class="talk-thumbnail"
+                             loading="lazy">
+                        <div class="play-overlay">
+                            <svg viewBox="0 0 24 24" width="48" height="48" fill="white">
+                                <polygon points="5,3 19,12 5,21"></polygon>
+                            </svg>
+                        </div>
+                    </a>
+                    {{ end }}
                     <div class="card-header">
                         <img class="resource-favicon"
                              src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32"
@@ -77,14 +98,14 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <p>Curated learning resources for tech economists and data scientists</p>
+        <p>Curated talks, podcasts, and interviews for tech economists</p>
     </footer>
 </div>
 
 <script>
-// Resources page search and filter functionality
+// Talks page search and filter functionality
 document.addEventListener('DOMContentLoaded', function() {
-    const searchInput = document.getElementById('resource-search');
+    const searchInput = document.getElementById('talk-search');
     const clearBtn = document.getElementById('clear-search');
     const categorySelect = document.getElementById('category-select');
     const cards = document.querySelectorAll('.resource-card');
@@ -132,7 +153,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         // Update result count
-        resultCount.textContent = visibleCount + ' resources';
+        resultCount.textContent = visibleCount + ' talks';
 
         // Toggle clear button
         clearBtn.style.display = query ? 'flex' : 'none';
