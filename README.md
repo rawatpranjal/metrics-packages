@@ -26,7 +26,7 @@ hugo
 
 ## Contributing
 
-Submit new packages or resources via [GitHub Issues](https://github.com/rawatpranjal/metrics-packages/issues/new?template=submit-package.yml).
+Submit new packages or resources via [GitHub Issues](https://github.com/rawatpranjal/tech-econ/issues/new?template=submit-package.yml).
 
 ## Author
 
