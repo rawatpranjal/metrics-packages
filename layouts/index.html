@@ -4,9 +4,7 @@
     <header class="header">
         <h1>{{ .Site.Title }}</h1>
         <p class="subtitle">{{ .Site.Params.description }}</p>
-        {{ if .Site.Params.formUrl }}
-        <a href="{{ .Site.Params.formUrl }}" class="btn-suggest" target="_blank">Suggest a Package</a>
-        {{ end }}
+        <a href="https://github.com/rawatpranjal/metrics-packages/issues/new?template=submit-package.yml" class="btn-suggest" target="_blank">Submit a Package</a>
     </header>
 
     <!-- Search -->

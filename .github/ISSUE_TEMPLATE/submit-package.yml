@@ -1,0 +1,89 @@
+name: Submit a Package
+description: Suggest a Python package to add to the Econometrics Directory
+title: "[Package]: "
+labels: ["package-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a package! Please fill out the form below.
+
+  - type: input
+    id: package-name
+    attributes:
+      label: Package Name
+      description: The name of the Python package
+      placeholder: e.g., statsmodels
+    validations:
+      required: true
+
+  - type: input
+    id: package-url
+    attributes:
+      label: Package URL
+      description: Link to GitHub repository or PyPI page
+      placeholder: https://github.com/...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category best fits this package?
+      options:
+        - Adaptive Experimentation & Bandits
+        - Bayesian Econometrics
+        - Causal Discovery & Graphical Models
+        - Causal Inference & Matching
+        - Core Libraries & Linear Models
+        - Dimensionality Reduction
+        - Discrete Choice Models
+        - Double/Debiased Machine Learning (DML)
+        - Instrumental Variables (IV) & GMM
+        - Marketing Mix Models (MMM) & Business Analytics
+        - Natural Language Processing for Economics
+        - Numerical Optimization & Computational Tools
+        - Panel Data & Fixed Effects
+        - Power Simulation & Design of Experiments
+        - Program Evaluation Methods (DiD, SC, RDD)
+        - Quantile Regression & Distributional Methods
+        - Spatial Econometrics
+        - Standard Errors, Bootstrapping & Reporting
+        - State Space & Volatility Models
+        - Statistical Inference & Hypothesis Testing
+        - Structural Econometrics & Estimation
+        - Synthetic Data Generation
+        - Time Series Econometrics
+        - Time Series Forecasting
+        - Tree & Ensemble Methods for Prediction
+        - Other (please specify in description)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief description of what the package does (1-2 sentences)
+      placeholder: A library for estimating treatment effects using...
+    validations:
+      required: true
+
+  - type: input
+    id: install
+    attributes:
+      label: Installation Command
+      description: How to install the package
+      placeholder: pip install package-name
+    validations:
+      required: false
+
+  - type: input
+    id: docs-url
+    attributes:
+      label: Documentation URL
+      description: Link to documentation (if different from package URL)
+      placeholder: https://package.readthedocs.io/
+    validations:
+      required: false
