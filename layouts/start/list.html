@@ -12,34 +12,23 @@
     <!-- Roadmaps Section -->
     <section class="roadmaps-section">
         <h2 class="section-title">Learning Paths</h2>
-        <p class="section-desc">Choose a roadmap based on what you want to learn. Each includes recommended packages and datasets to practice with.</p>
+        <p class="section-desc">Choose a roadmap based on what you want to learn. Each includes recommended resources and packages to get started.</p>
 
         <div class="roadmaps-grid">
             {{ range sort .Site.Data.roadmaps "order" }}
             <div class="roadmap-card" data-roadmap="{{ .name }}">
                 <div class="roadmap-header">
                     <div class="roadmap-icon">
-                        {{ if eq .icon "chart" }}
+                        {{ if eq .icon "code" }}
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                        {{ else if eq .icon "chart" }}
                         <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
                             <line x1="18" y1="20" x2="18" y2="10"></line>
                             <line x1="12" y1="20" x2="12" y2="4"></line>
                             <line x1="6" y1="20" x2="6" y2="14"></line>
-                        </svg>
-                        {{ else if eq .icon "target" }}
-                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <circle cx="12" cy="12" r="6"></circle>
-                            <circle cx="12" cy="12" r="2"></circle>
-                        </svg>
-                        {{ else if eq .icon "trending" }}
-                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
-                            <polyline points="17 6 23 6 23 12"></polyline>
-                        </svg>
-                        {{ else if eq .icon "flask" }}
-                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M9 3h6v5.5l4 7.5H5l4-7.5V3z"></path>
-                            <path d="M9 3h6"></path>
                         </svg>
                         {{ else if eq .icon "brain" }}
                         <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
@@ -49,6 +38,40 @@
                             <path d="M6 16a6 6 0 0 0 12 0"></path>
                             <path d="M12 22v-2"></path>
                         </svg>
+                        {{ else if eq .icon "target" }}
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <circle cx="12" cy="12" r="6"></circle>
+                            <circle cx="12" cy="12" r="2"></circle>
+                        </svg>
+                        {{ else if eq .icon "flask" }}
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 3h6v5.5l4 7.5H5l4-7.5V3z"></path>
+                            <path d="M9 3h6"></path>
+                        </svg>
+                        {{ else if eq .icon "database" }}
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                            <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                            <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                        </svg>
+                        {{ else if eq .icon "puzzle" }}
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19.439 7.85c-.049.322.059.648.289.878l1.568 1.568c.47.47.706 1.087.706 1.704s-.235 1.233-.706 1.704l-1.611 1.611a.98.98 0 0 1-.837.276c-.47-.07-.802-.48-.968-.925a2.501 2.501 0 1 0-3.214 3.214c.446.166.855.497.925.968a.979.979 0 0 1-.276.837l-1.61 1.611a2.404 2.404 0 0 1-1.705.706 2.404 2.404 0 0 1-1.704-.706l-1.568-1.568a1.026 1.026 0 0 0-.878-.29c-.493.074-.84.504-1.02.968a2.5 2.5 0 1 1-3.237-3.237c.464-.18.894-.527.967-1.02a1.026 1.026 0 0 0-.289-.878l-1.568-1.568A2.404 2.404 0 0 1 1.5 12c0-.617.236-1.234.706-1.704L3.817 8.685a.98.98 0 0 1 .837-.276c.47.07.802.48.968.925a2.501 2.501 0 1 0 3.214-3.214c-.446-.166-.855-.497-.925-.968a.979.979 0 0 1 .276-.837l1.611-1.611a2.404 2.404 0 0 1 1.704-.706c.617 0 1.234.236 1.704.706l1.568 1.568c.23.23.556.338.878.29.493-.074.84-.504 1.02-.968a2.5 2.5 0 1 1 3.237 3.237c-.464.18-.894.527-.967 1.02Z"></path>
+                        </svg>
+                        {{ else if eq .icon "robot" }}
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="11" width="18" height="10" rx="2"></rect>
+                            <circle cx="12" cy="5" r="2"></circle>
+                            <path d="M12 7v4"></path>
+                            <line x1="8" y1="16" x2="8" y2="16"></line>
+                            <line x1="16" y1="16" x2="16" y2="16"></line>
+                        </svg>
+                        {{ else if eq .icon "trending" }}
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                            <polyline points="17 6 23 6 23 12"></polyline>
+                        </svg>
                         {{ end }}
                     </div>
                     <h3 class="roadmap-title">{{ .name }}</h3>
@@ -56,23 +79,25 @@
                 <p class="roadmap-desc">{{ .description }}</p>
 
                 <div class="roadmap-content">
-                    <div class="roadmap-packages">
-                        <h4>Packages</h4>
+                    {{ if .resources }}
+                    <div class="roadmap-resources">
+                        <h4>Resources</h4>
                         <ul>
-                            {{ range .packages }}
+                            {{ range .resources }}
                             <li>
-                                <strong>{{ .name }}</strong>
+                                <a href="{{ .url }}" target="_blank" rel="noopener"><strong>{{ .name }}</strong></a>
                                 <span class="why">{{ .why }}</span>
                             </li>
                             {{ end }}
                         </ul>
                     </div>
+                    {{ end }}
 
-                    {{ if .datasets }}
-                    <div class="roadmap-datasets">
-                        <h4>Practice Datasets</h4>
+                    {{ if .packages }}
+                    <div class="roadmap-packages">
+                        <h4>Packages</h4>
                         <ul>
-                            {{ range .datasets }}
+                            {{ range .packages }}
                             <li>
                                 <strong>{{ .name }}</strong>
                                 <span class="why">{{ .why }}</span>

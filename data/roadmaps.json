@@ -1,80 +1,131 @@
 [
   {
-    "name": "ML Fundamentals",
-    "description": "Build and evaluate machine learning models with the industry-standard tools",
-    "icon": "chart",
-    "packages": [
-      {"name": "scikit-learn", "why": "The go-to library for classical ML algorithms"},
-      {"name": "pandas", "why": "Data manipulation and analysis"},
-      {"name": "XGBoost", "why": "Gradient boosting for tabular data"},
-      {"name": "LightGBM", "why": "Fast gradient boosting from Microsoft"}
+    "name": "Learn Python",
+    "description": "Programming fundamentals for economists — data manipulation, visualization, and workflows",
+    "icon": "code",
+    "resources": [
+      {"name": "Coding for Economists", "why": "Built specifically for econ researchers", "url": "https://aeturrell.github.io/coding-for-economists/"},
+      {"name": "The Missing Semester (MIT)", "why": "Git, shell, debugging — skills they don't teach in PhD programs", "url": "https://missing.csail.mit.edu/"},
+      {"name": "Python for Econometrics", "why": "NumPy, pandas, statsmodels from Kevin Sheppard", "url": "https://www.kevinsheppard.com/teaching/python/"}
     ],
-    "datasets": [
-      {"name": "Brazilian eCommerce", "why": "100K orders with rich relational structure"},
-      {"name": "Instacart Market Basket", "why": "3M grocery orders for recommendation practice"}
+    "packages": [
+      {"name": "pandas", "why": "Data manipulation and analysis"},
+      {"name": "numpy", "why": "Numerical computing foundation"},
+      {"name": "matplotlib", "why": "Basic visualization"},
+      {"name": "jupyter", "why": "Interactive notebooks for exploration"}
     ],
     "order": 1
   },
   {
-    "name": "Causal Inference",
-    "description": "Estimate treatment effects and understand causal relationships in data",
-    "icon": "target",
-    "packages": [
-      {"name": "DoWhy", "why": "End-to-end causal inference from Microsoft"},
-      {"name": "EconML", "why": "Heterogeneous treatment effects with ML"},
-      {"name": "DoubleML", "why": "Double/debiased machine learning"},
-      {"name": "CausalML", "why": "Uber's toolkit for uplift modeling"}
+    "name": "Learn Statistics",
+    "description": "Hypothesis testing, inference, and distributions — the foundation for empirical work",
+    "icon": "chart",
+    "resources": [
+      {"name": "Think Stats", "why": "Probability and statistics with Python", "url": "https://greenteapress.com/thinkstats2/"},
+      {"name": "Statistical Rethinking", "why": "The book that changed how many think about inference", "url": "https://xcelab.net/rm/statistical-rethinking/"},
+      {"name": "Scipy.stats Documentation", "why": "Reference for distributions and tests", "url": "https://docs.scipy.org/doc/scipy/reference/stats.html"}
     ],
-    "datasets": [
-      {"name": "LaLonde (NSW)", "why": "Classic job training program evaluation"},
-      {"name": "Oregon Health Insurance", "why": "Randomized experiment on healthcare"}
+    "packages": [
+      {"name": "scipy", "why": "Statistical functions and distributions"},
+      {"name": "statsmodels", "why": "OLS, GLM, and classical econometrics"},
+      {"name": "pingouin", "why": "ANOVA, t-tests, and correlations made easy"},
+      {"name": "lifelines", "why": "Survival analysis and hazard models"}
     ],
     "order": 2
   },
   {
-    "name": "Time Series & Forecasting",
-    "description": "Analyze and forecast temporal data for business and economics",
-    "icon": "trending",
-    "packages": [
-      {"name": "statsmodels", "why": "Classical econometric models (ARIMA, VAR)"},
-      {"name": "Prophet", "why": "Facebook's forecasting at scale"},
-      {"name": "arch", "why": "GARCH models for volatility"},
-      {"name": "sktime", "why": "Unified interface for time series ML"}
+    "name": "Learn ML",
+    "description": "Prediction, tree models, and cross-validation — for forecasting and pattern recognition",
+    "icon": "brain",
+    "resources": [
+      {"name": "Introduction to Statistical Learning", "why": "Free, runnable Python code, intuition first", "url": "https://www.statlearning.com/"},
+      {"name": "fast.ai Practical Deep Learning", "why": "Code first, theory second", "url": "https://course.fast.ai/"},
+      {"name": "The Elements of Statistical Learning", "why": "The more rigorous sibling of ISLR", "url": "https://hastie.su.domains/ElemStatLearn/"}
     ],
-    "datasets": [
-      {"name": "M5 Forecasting", "why": "Walmart sales forecasting competition"},
-      {"name": "FRED Economic Data", "why": "Macroeconomic time series"}
+    "packages": [
+      {"name": "scikit-learn", "why": "The go-to library for classical ML"},
+      {"name": "XGBoost", "why": "Gradient boosting for tabular data"},
+      {"name": "LightGBM", "why": "Fast gradient boosting from Microsoft"},
+      {"name": "CatBoost", "why": "Handles categorical features natively"}
     ],
     "order": 3
   },
   {
-    "name": "Experimentation & A/B Testing",
-    "description": "Design, run, and analyze experiments at scale",
-    "icon": "flask",
-    "packages": [
-      {"name": "Spotify Confidence", "why": "Production-grade A/B testing"},
-      {"name": "GrowthBook SDK", "why": "Feature flags and experiments"},
-      {"name": "Ax", "why": "Meta's adaptive experimentation platform"},
-      {"name": "planout", "why": "Facebook's experiment framework"}
+    "name": "Learn Causal Inference",
+    "description": "Treatment effects, DiD, RDD, and IV — answer 'what if' questions with data",
+    "icon": "target",
+    "resources": [
+      {"name": "Causal Inference for the Brave and True", "why": "The best free intro with Python code", "url": "https://matheusfacure.github.io/python-causality-handbook/"},
+      {"name": "The Effect", "why": "DAGs that don't suck, readable and modern", "url": "https://theeffectbook.net/"},
+      {"name": "Causal Inference: The Mixtape", "why": "Reads like a conversation, not a textbook", "url": "https://mixtape.scunning.com/"}
     ],
-    "datasets": [
-      {"name": "Open Bandit Pipeline", "why": "Real e-commerce bandit data from ZOZO"}
+    "packages": [
+      {"name": "DoWhy", "why": "End-to-end causal inference with DAGs"},
+      {"name": "EconML", "why": "Heterogeneous treatment effects from Microsoft"},
+      {"name": "CausalML", "why": "Uber's toolkit for uplift modeling"},
+      {"name": "DoubleML", "why": "Double/debiased machine learning"}
     ],
     "order": 4
   },
   {
-    "name": "Deep Learning",
-    "description": "Neural networks for complex pattern recognition (more advanced)",
-    "icon": "brain",
-    "packages": [
-      {"name": "PyTorch", "why": "Flexible deep learning framework"},
-      {"name": "Hugging Face Transformers", "why": "State-of-the-art NLP models"},
-      {"name": "PyTorch Lightning", "why": "Organized PyTorch training"}
+    "name": "Learn Product Sense",
+    "description": "Metrics, experimentation, and business thinking — bridge economics and product decisions",
+    "icon": "flask",
+    "resources": [
+      {"name": "Eppo's Experimentation Guides", "why": "Practical, written by practitioners", "url": "https://www.geteppo.com/blog"},
+      {"name": "Evan Miller: How Not To Run an A/B Test", "why": "Short, lethal, career-saving", "url": "https://www.evanmiller.org/how-not-to-run-an-ab-test.html"},
+      {"name": "Netflix Tech Blog - Experimentation", "why": "Real case studies at scale", "url": "https://netflixtechblog.com/tagged/experimentation"}
     ],
-    "datasets": [
-      {"name": "LMSYS-Chat-1M", "why": "1M real conversations with LLMs"},
-      {"name": "Arena Human Preference", "why": "Human preference data for RLHF"}
+    "packages": [
+      {"name": "Spotify Confidence", "why": "Production-grade A/B testing"},
+      {"name": "GrowthBook SDK", "why": "Feature flags and experiments"},
+      {"name": "Ax", "why": "Meta's adaptive experimentation platform"}
     ],
     "order": 5
+  },
+  {
+    "name": "Learn SQL",
+    "description": "Querying data, joins, and aggregations — essential for any data role",
+    "icon": "database",
+    "resources": [
+      {"name": "Mode SQL Tutorial", "why": "Interactive lessons with real database", "url": "https://mode.com/sql-tutorial/"},
+      {"name": "SQLBolt", "why": "No setup, run queries in browser", "url": "https://sqlbolt.com/"},
+      {"name": "LeetCode SQL 50", "why": "Essential problems for interviews", "url": "https://leetcode.com/studyplan/top-sql-50/"}
+    ],
+    "packages": [
+      {"name": "duckdb", "why": "Modern SQL on your laptop, reads Parquet"},
+      {"name": "sqlalchemy", "why": "Python's database toolkit"},
+      {"name": "pandasql", "why": "SQL syntax on pandas DataFrames"}
+    ],
+    "order": 6
+  },
+  {
+    "name": "Learn LeetCode",
+    "description": "Data structures and algorithms for coding interviews — the basics",
+    "icon": "puzzle",
+    "resources": [
+      {"name": "NeetCode", "why": "Curated roadmap with video explanations", "url": "https://neetcode.io/"},
+      {"name": "Blind 75", "why": "The 75 problems you need to master", "url": "https://www.techinterviewhandbook.org/grind75"},
+      {"name": "LeetCode Patterns", "why": "14 patterns to solve any question", "url": "https://seanprashad.com/leetcode-patterns/"}
+    ],
+    "packages": [],
+    "order": 7
+  },
+  {
+    "name": "Learn Automation",
+    "description": "Web scraping, APIs, and workflow automation — collect and process data at scale",
+    "icon": "robot",
+    "resources": [
+      {"name": "Automate the Boring Stuff with Python", "why": "Free, practical skills for data work", "url": "https://automatetheboringstuff.com/"},
+      {"name": "Scrapy Documentation", "why": "Industrial-strength web scraping", "url": "https://docs.scrapy.org/"},
+      {"name": "Real Python: Web Scraping", "why": "BeautifulSoup and requests guide", "url": "https://realpython.com/beautiful-soup-web-scraper-python/"}
+    ],
+    "packages": [
+      {"name": "scrapy", "why": "Production web scraping framework"},
+      {"name": "beautifulsoup4", "why": "Parse HTML the simple way"},
+      {"name": "selenium", "why": "Automate browsers for dynamic sites"},
+      {"name": "requests", "why": "HTTP for humans"}
+    ],
+    "order": 8
   }
 ]

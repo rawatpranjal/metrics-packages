@@ -495,5 +495,103 @@
     "category": "Industry Blogs",
     "url": "https://www.amazon.science/",
     "type": "Blog"
+  },
+  {
+    "name": "Mode SQL Tutorial",
+    "description": "Interactive SQL lessons from basic to advanced. Great for learning JOINs, window functions, and subqueries with a real database.",
+    "category": "SQL",
+    "url": "https://mode.com/sql-tutorial/",
+    "type": "Tutorial"
+  },
+  {
+    "name": "SQLBolt",
+    "description": "Learn SQL with interactive exercises. No setup required — run queries right in the browser. Perfect for beginners.",
+    "category": "SQL",
+    "url": "https://sqlbolt.com/",
+    "type": "Interactive Course"
+  },
+  {
+    "name": "LeetCode SQL 50",
+    "description": "50 essential SQL problems to master for interviews. CTEs, window functions, and common patterns used at FAANG.",
+    "category": "SQL",
+    "url": "https://leetcode.com/studyplan/top-sql-50/",
+    "type": "Practice Problems"
+  },
+  {
+    "name": "DuckDB Documentation",
+    "description": "Modern in-process SQL database. Runs on your laptop, reads Parquet directly, and is perfect for analytics. The new pandas killer.",
+    "category": "SQL",
+    "url": "https://duckdb.org/docs/",
+    "type": "Docs"
+  },
+  {
+    "name": "NeetCode",
+    "description": "Curated LeetCode roadmap organized by pattern. Video explanations that actually make sense. The modern way to prep for coding interviews.",
+    "category": "LeetCode",
+    "url": "https://neetcode.io/",
+    "type": "Course + Practice"
+  },
+  {
+    "name": "Blind 75",
+    "description": "The 75 most important LeetCode problems. Arrays, strings, trees, graphs, DP — if you can solve these, you can handle any interview.",
+    "category": "LeetCode",
+    "url": "https://www.techinterviewhandbook.org/grind75",
+    "type": "Problem Set"
+  },
+  {
+    "name": "LeetCode Patterns",
+    "description": "14 patterns to solve any coding interview question. Two pointers, sliding window, BFS/DFS, and more — with Python templates.",
+    "category": "LeetCode",
+    "url": "https://seanprashad.com/leetcode-patterns/",
+    "type": "Study Guide"
+  },
+  {
+    "name": "Automate the Boring Stuff with Python",
+    "description": "The best free Python book for non-programmers. Web scraping, Excel automation, file management — practical skills for data work.",
+    "category": "Automation",
+    "url": "https://automatetheboringstuff.com/",
+    "type": "Online Book"
+  },
+  {
+    "name": "Scrapy Documentation",
+    "description": "The industrial-strength web scraping framework for Python. Build spiders, handle anti-bot measures, and scale to millions of pages.",
+    "category": "Automation",
+    "url": "https://docs.scrapy.org/",
+    "type": "Docs"
+  },
+  {
+    "name": "Real Python: Web Scraping",
+    "description": "Practical guide to scraping with BeautifulSoup and requests. Parse HTML, handle pagination, and extract structured data.",
+    "category": "Automation",
+    "url": "https://realpython.com/beautiful-soup-web-scraper-python/",
+    "type": "Tutorial"
+  },
+  {
+    "name": "Python for Econometrics",
+    "description": "Kevin Sheppard's comprehensive intro for economists. NumPy, pandas, statsmodels, and econometric applications.",
+    "category": "Coding",
+    "url": "https://www.kevinsheppard.com/teaching/python/",
+    "type": "Online Book"
+  },
+  {
+    "name": "Think Stats",
+    "description": "Introduction to probability and statistics with Python. Exploratory data analysis, hypothesis testing, and Bayesian methods.",
+    "category": "Statistics",
+    "url": "https://greenteapress.com/thinkstats2/",
+    "type": "Online Book"
+  },
+  {
+    "name": "Statistical Rethinking",
+    "description": "Richard McElreath's Bayesian approach to statistics. PyMC3 translations available. The book that changed how many think about inference.",
+    "category": "Statistics",
+    "url": "https://xcelab.net/rm/statistical-rethinking/",
+    "type": "Book + Lectures"
+  },
+  {
+    "name": "Scipy.stats Documentation",
+    "description": "Python's statistical functions. Distributions, hypothesis tests, and descriptive stats. The foundation for statistical computing.",
+    "category": "Statistics",
+    "url": "https://docs.scipy.org/doc/scipy/reference/stats.html",
+    "type": "Docs"
   }
 ]

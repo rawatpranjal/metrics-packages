@@ -1,5 +1,104 @@
 [
   {
+    "name": "ASSA Annual Meeting",
+    "description": "Allied Social Science Associations annual meeting. The largest gathering of economists with sessions on tech economics, market design, and causal inference.",
+    "category": "Conferences",
+    "url": "https://www.aeaweb.org/conference/",
+    "type": "Annual Conference",
+    "location": "Various US cities",
+    "dates": "January (annually)"
+  },
+  {
+    "name": "ACM EC (Economics and Computation)",
+    "description": "ACM Conference on Economics and Computation. Premier venue for market design, mechanism design, and algorithmic game theory research.",
+    "category": "Conferences",
+    "url": "https://ec.sigecom.org/",
+    "type": "Annual Conference",
+    "location": "Various",
+    "dates": "June-July (annually)"
+  },
+  {
+    "name": "Causal Data Science Meeting",
+    "description": "Annual conference bringing together researchers and practitioners in causal inference and machine learning. Endorsed by Nobel laureate Guido Imbens.",
+    "category": "Conferences",
+    "url": "https://www.causalscience.org/",
+    "type": "Annual Conference",
+    "location": "Various",
+    "dates": "November (annually)"
+  },
+  {
+    "name": "CODE@MIT Conference",
+    "description": "Conference on Digital Experimentation at MIT. Focused on experimentation, A/B testing, and causal inference in digital platforms.",
+    "category": "Conferences",
+    "url": "https://ide.mit.edu/events/code/",
+    "type": "Annual Conference",
+    "location": "Cambridge, MA",
+    "dates": "October-November (annually)"
+  },
+  {
+    "name": "Econometric Society World Congress",
+    "description": "The focal point of the Econometric Society's meetings where researchers from all regions convene. Covers all aspects of economics including causal inference and econometrics.",
+    "category": "Conferences",
+    "url": "https://www.econometricsociety.org/",
+    "type": "Quinquennial Conference",
+    "location": "Seoul, Korea (2025)",
+    "dates": "August (every 5 years)"
+  },
+  {
+    "name": "European Causal Inference Meeting (EuroCIM)",
+    "description": "Forum for researchers interested in causal inference to meet informally. Covers health, economic, and social sciences applications.",
+    "category": "Conferences",
+    "url": "https://eurocim.org/",
+    "type": "Annual Conference",
+    "location": "Various Europe",
+    "dates": "April (annually)"
+  },
+  {
+    "name": "ICML",
+    "description": "International Conference on Machine Learning. One of the three premier ML conferences alongside NeurIPS and ICLR. Strong focus on statistical learning theory and optimization.",
+    "category": "Conferences",
+    "url": "https://icml.cc/",
+    "type": "Annual Conference",
+    "location": "Vancouver, Canada (2025)",
+    "dates": "July (annually)"
+  },
+  {
+    "name": "INFORMS Analytics+ Conference",
+    "description": "Premier analytics conference bringing together 700+ professionals in operations research, analytics, and data science. Features practical applications and networking.",
+    "category": "Conferences",
+    "url": "https://www.informs.org/Meetings-Conferences/INFORMS-Conference-Calendar/2025-INFORMS-Analytics-Conference",
+    "type": "Annual Conference",
+    "location": "Indianapolis, IN (2025)",
+    "dates": "April (annually)"
+  },
+  {
+    "name": "INFORMS Annual Meeting",
+    "description": "Largest annual gathering for operations research and analytics professionals. Covers optimization, decision analysis, and data-driven methods.",
+    "category": "Conferences",
+    "url": "https://meetings.informs.org/wordpress/annual/",
+    "type": "Annual Conference",
+    "location": "Atlanta, GA (2025)",
+    "dates": "October (annually)"
+  },
+  {
+    "name": "KDD",
+    "description": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining. Major venue for applied ML and data science with industry participation.",
+    "category": "Conferences",
+    "url": "https://kdd.org/",
+    "type": "Annual Conference",
+    "location": "Various",
+    "dates": "August (annually)"
+  },
+  {
+    "name": "ML in Economics Summer Conference",
+    "description": "Hosted by Chicago Booth's Center for Applied AI. Brings together researchers working at the intersection of machine learning and economics.",
+    "category": "Conferences",
+    "url": "https://www.chicagobooth.edu/research/center-for-applied-artificial-intelligence",
+    "type": "Annual Conference",
+    "location": "Chicago, IL",
+    "dates": "August (annually)"
+  },
+  {
     "name": "NABE Annual Conference",
     "description": "National Association for Business Economics annual meeting. Brings together economists from industry, academia, and government to discuss economic policy and forecasting.",
     "category": "Conferences",
@@ -14,7 +113,34 @@
     "category": "Conferences",
     "url": "https://neurips.cc/",
     "type": "Annual Conference",
-    "location": "San Diego, CA (2024)",
+    "location": "Various",
+    "dates": "December (annually)"
+  },
+  {
+    "name": "RecSys",
+    "description": "ACM Conference on Recommender Systems. Premier forum for recommendation algorithms, evaluation metrics, and applications in e-commerce and content platforms.",
+    "category": "Conferences",
+    "url": "https://recsys.acm.org/",
+    "type": "Annual Conference",
+    "location": "Prague, Czech Republic (2025)",
+    "dates": "September (annually)"
+  },
+  {
+    "name": "The Web Conference (WWW)",
+    "description": "Premier conference on understanding the Web through computer science, economics, and policy. Features dedicated economics and e-commerce research tracks.",
+    "category": "Conferences",
+    "url": "https://thewebconf.org/",
+    "type": "Annual Conference",
+    "location": "Sydney, Australia (2025)",
+    "dates": "April-May (annually)"
+  },
+  {
+    "name": "WINE",
+    "description": "Conference on Web and Internet Economics. Focuses on game theory, mechanism design, and economic aspects of internet and web systems.",
+    "category": "Conferences",
+    "url": "https://wine-conference.org/",
+    "type": "Annual Conference",
+    "location": "Rutgers, NJ (2025)",
     "dates": "December (annually)"
   },
   {
@@ -27,6 +153,42 @@
     "dates": "Weekly during academic year"
   },
   {
+    "name": "DataTalks.Club",
+    "description": "Large Slack community (74,000+ members) for data scientists, ML engineers, and analysts. Free courses, weekly events, and active discussions on ML and data engineering.",
+    "category": "Online",
+    "url": "https://datatalks.club/",
+    "type": "Slack Community",
+    "location": "Online",
+    "dates": "Ongoing"
+  },
+  {
+    "name": "dbt Community",
+    "description": "Slack community (66,000+ members) for analytics engineers. Discussions on data transformation, SQL best practices, and modern data stack. Global meetup groups.",
+    "category": "Online",
+    "url": "https://www.getdbt.com/community/",
+    "type": "Slack Community",
+    "location": "Online",
+    "dates": "Ongoing"
+  },
+  {
+    "name": "Locally Optimistic",
+    "description": "Slack community (8,000+ members) for analytics leaders. Exchange experiences and advice on building data teams, analytics strategy, and career growth.",
+    "category": "Online",
+    "url": "https://locallyoptimistic.com/community/",
+    "type": "Slack Community",
+    "location": "Online",
+    "dates": "Ongoing"
+  },
+  {
+    "name": "R for Data Science",
+    "description": "Slack community (17,000+ members) for R users learning data science. Welcoming community for beginners with book clubs, mentorship, and project help.",
+    "category": "Online",
+    "url": "https://www.rfordatasci.com/",
+    "type": "Slack Community",
+    "location": "Online",
+    "dates": "Ongoing"
+  },
+  {
     "name": "Tech Economists LinkedIn Group",
     "description": "Active LinkedIn community for economists working in tech. Job postings, industry discussions, and networking opportunities.",
     "category": "Online",
@@ -34,41 +196,5 @@
     "type": "LinkedIn Group",
     "location": "Online",
     "dates": "Ongoing"
-  },
-  {
-    "name": "ASSA Annual Meeting",
-    "description": "Allied Social Science Associations annual meeting. The largest gathering of economists with sessions on tech economics, market design, and causal inference.",
-    "category": "Conferences",
-    "url": "https://www.aeaweb.org/conference/",
-    "type": "Annual Conference",
-    "location": "Various US cities",
-    "dates": "January (annually)"
-  },
-  {
-    "name": "ACM EC (Economics and Computation)",
-    "description": "ACM Conference on Economics and Computation. Premier venue for market design, mechanism design, and algorithmic game theory research.",
-    "category": "Conferences",
-    "url": "https://ec24.sigecom.org/",
-    "type": "Annual Conference",
-    "location": "Various",
-    "dates": "June-July (annually)"
-  },
-  {
-    "name": "KDD",
-    "description": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining. Major venue for applied ML and data science with industry participation.",
-    "category": "Conferences",
-    "url": "https://kdd.org/",
-    "type": "Annual Conference",
-    "location": "Various",
-    "dates": "August (annually)"
-  },
-  {
-    "name": "CODE@MIT Conference",
-    "description": "Conference on Digital Experimentation at MIT. Focused on experimentation, A/B testing, and causal inference in digital platforms.",
-    "category": "Conferences",
-    "url": "https://ide.mit.edu/events/2024-conference-on-digital-experimentation-mit-codemit/",
-    "type": "Annual Conference",
-    "location": "Cambridge, MA",
-    "dates": "October-November (annually)"
   }
 ]

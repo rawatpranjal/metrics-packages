@@ -1,0 +1,108 @@
+{{- $index := slice -}}
+
+{{/* Packages */}}
+{{- range $.Site.Data.packages -}}
+  {{- $item := dict
+    "id" (printf "pkg-%s" (.name | urlize))
+    "type" "package"
+    "name" .name
+    "description" .description
+    "category" .category
+    "tags" (default (slice) .tags)
+    "url" .url
+    "best_for" (default "" .best_for)
+  -}}
+  {{- $index = $index | append $item -}}
+{{- end -}}
+
+{{/* Datasets */}}
+{{- range $.Site.Data.datasets -}}
+  {{- $item := dict
+    "id" (printf "data-%s" (.name | urlize))
+    "type" "dataset"
+    "name" .name
+    "description" .description
+    "category" .category
+    "tags" (default (slice) .tags)
+    "url" .url
+    "best_for" ""
+  -}}
+  {{- $index = $index | append $item -}}
+{{- end -}}
+
+{{/* Resources */}}
+{{- range $.Site.Data.resources -}}
+  {{- $item := dict
+    "id" (printf "res-%s" (.name | urlize))
+    "type" "resource"
+    "name" .name
+    "description" .description
+    "category" .category
+    "tags" (slice)
+    "url" .url
+    "best_for" ""
+  -}}
+  {{- $index = $index | append $item -}}
+{{- end -}}
+
+{{/* Career */}}
+{{- range $.Site.Data.career -}}
+  {{- $item := dict
+    "id" (printf "career-%s" (.name | urlize))
+    "type" "career"
+    "name" .name
+    "description" .description
+    "category" .category
+    "tags" (slice)
+    "url" .url
+    "best_for" ""
+  -}}
+  {{- $index = $index | append $item -}}
+{{- end -}}
+
+{{/* Talks */}}
+{{- range $.Site.Data.talks -}}
+  {{- $item := dict
+    "id" (printf "talk-%s" (.name | urlize))
+    "type" "talk"
+    "name" .name
+    "description" .description
+    "category" .category
+    "tags" (slice)
+    "url" .url
+    "best_for" ""
+  -}}
+  {{- $index = $index | append $item -}}
+{{- end -}}
+
+{{/* Community */}}
+{{- range $.Site.Data.community -}}
+  {{- $item := dict
+    "id" (printf "community-%s" (.name | urlize))
+    "type" "community"
+    "name" .name
+    "description" .description
+    "category" .category
+    "tags" (slice)
+    "url" .url
+    "best_for" ""
+  -}}
+  {{- $index = $index | append $item -}}
+{{- end -}}
+
+{{/* Roadmaps */}}
+{{- range $.Site.Data.roadmaps -}}
+  {{- $item := dict
+    "id" (printf "roadmap-%s" (.name | urlize))
+    "type" "roadmap"
+    "name" .name
+    "description" .description
+    "category" "Getting Started"
+    "tags" (slice)
+    "url" "/start/"
+    "best_for" ""
+  -}}
+  {{- $index = $index | append $item -}}
+{{- end -}}
+
+{{- return $index -}}

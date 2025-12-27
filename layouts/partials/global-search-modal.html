@@ -1,0 +1,46 @@
+<!-- Global Search Modal -->
+<div id="global-search-modal" class="global-search-modal" style="display: none;">
+  <div class="global-search-backdrop"></div>
+  <div class="global-search-container">
+    <div class="global-search-header">
+      <div class="global-search-input-wrapper">
+        <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20">
+          <circle cx="11" cy="11" r="8" fill="none" stroke="currentColor" stroke-width="2"/>
+          <path d="m21 21-4.35-4.35" fill="none" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        <input
+          type="text"
+          id="global-search-input"
+          class="global-search-input"
+          placeholder="Search packages, datasets, resources..."
+          autocomplete="off"
+        />
+        <kbd class="global-search-kbd">ESC</kbd>
+      </div>
+    </div>
+    <div class="global-search-body">
+      <div id="global-search-results" class="global-search-results">
+        <!-- Results rendered here -->
+      </div>
+      <div id="global-search-empty" class="global-search-empty" style="display: none;">
+        <p>No results found</p>
+      </div>
+      <div id="global-search-hint" class="global-search-hint">
+        <p>Start typing to search across all content</p>
+        <div class="type-filters">
+          <span class="type-badge type-package">Packages</span>
+          <span class="type-badge type-dataset">Datasets</span>
+          <span class="type-badge type-resource">Resources</span>
+          <span class="type-badge type-talk">Talks</span>
+          <span class="type-badge type-career">Career</span>
+          <span class="type-badge type-community">Community</span>
+        </div>
+      </div>
+    </div>
+    <div class="global-search-footer">
+      <span><kbd>↑</kbd><kbd>↓</kbd> Navigate</span>
+      <span><kbd>↵</kbd> Open</span>
+      <span><kbd>ESC</kbd> Close</span>
+    </div>
+  </div>
+</div>
