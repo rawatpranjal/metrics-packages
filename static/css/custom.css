@@ -358,7 +358,7 @@ a:hover {
 }
 
 .resource-card {
-    background: white;
+    background: var(--bg-card);
     border-radius: 10px;
     padding: 1.25rem;
     box-shadow: 0 1px 3px rgba(0,0,0,0.08);
@@ -444,9 +444,10 @@ a:hover {
 .category-select {
     padding: 0.6rem 2rem 0.6rem 1rem;
     font-size: 0.9rem;
-    border: 2px solid #e5e5e5;
+    border: 2px solid var(--border-color);
     border-radius: 8px;
-    background: white url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23666' d='M6 8L1 3h10z'/%3E%3C/svg%3E") no-repeat right 0.75rem center;
+    background: var(--bg-input) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23666' d='M6 8L1 3h10z'/%3E%3C/svg%3E") no-repeat right 0.75rem center;
+    color: var(--text-primary);
     appearance: none;
     cursor: pointer;
     font-family: inherit;
@@ -475,9 +476,10 @@ a:hover {
     width: 100%;
     padding: 10px 40px 10px 40px;
     font-size: 0.9rem;
-    border: 2px solid #e5e5e5;
+    border: 2px solid var(--border-color);
     border-radius: 8px;
-    background: var(--bg-card);
+    background: var(--bg-input);
+    color: var(--text-primary);
     transition: border-color 0.2s, box-shadow 0.2s;
     font-family: inherit;
 }
@@ -548,7 +550,7 @@ a:hover {
 }
 
 .filter-scroll-container::-webkit-scrollbar-thumb {
-    background: #ccc;
+    background: var(--text-placeholder);
     border-radius: 3px;
 }
 
@@ -590,7 +592,7 @@ a:hover {
     padding: 0.2rem 0.5rem;
     font-size: 0.7rem;
     font-weight: 500;
-    color: #5a5a5a;
+    color: var(--text-secondary);
     background: var(--bg-hover);
     border-radius: 12px;
     cursor: pointer;
@@ -615,6 +617,20 @@ a:hover {
 .use-case-tag[data-tag="matching"] { background: #e0f2f1; color: #00796b; }
 .use-case-tag[data-tag="DiD"] { background: #fff8e1; color: #ff8f00; }
 .use-case-tag[data-tag="synthetic control"] { background: #fbe9e7; color: #d84315; }
+
+/* Tag dark mode overrides */
+[data-theme="dark"] .use-case-tag[data-tag="causal inference"] { background: #1a3a5c; color: #64b5f6; }
+[data-theme="dark"] .use-case-tag[data-tag="machine learning"] { background: #3d2a4d; color: #ce93d8; }
+[data-theme="dark"] .use-case-tag[data-tag="time series"] { background: #1b3a2a; color: #81c784; }
+[data-theme="dark"] .use-case-tag[data-tag="Bayesian"] { background: #3d2a1a; color: #ffb74d; }
+[data-theme="dark"] .use-case-tag[data-tag="forecasting"] { background: #1a3a3d; color: #4dd0e1; }
+[data-theme="dark"] .use-case-tag[data-tag="panel data"] { background: #3d1a2a; color: #f48fb1; }
+[data-theme="dark"] .use-case-tag[data-tag="regression"] { background: #2a3a1a; color: #aed581; }
+[data-theme="dark"] .use-case-tag[data-tag="bootstrap"] { background: #2a1a3d; color: #b39ddb; }
+[data-theme="dark"] .use-case-tag[data-tag="A/B testing"] { background: #1a2a4d; color: #7986cb; }
+[data-theme="dark"] .use-case-tag[data-tag="matching"] { background: #1a3a3a; color: #4db6ac; }
+[data-theme="dark"] .use-case-tag[data-tag="DiD"] { background: #3d3a1a; color: #ffd54f; }
+[data-theme="dark"] .use-case-tag[data-tag="synthetic control"] { background: #3d2a1a; color: #ff8a65; }
 
 /* Card Animation for Filtering */
 .package-card {
@@ -655,7 +671,7 @@ a:hover {
 }
 
 .no-results svg {
-    color: #ccc;
+    color: var(--text-placeholder);
     margin-bottom: 1rem;
 }
 
@@ -674,7 +690,7 @@ a:hover {
     font-size: 0.9rem;
     color: var(--accent);
     background: transparent;
-    border: 1px solid #0066cc;
+    border: 1px solid var(--accent);
     border-radius: 6px;
     cursor: pointer;
     transition: all 0.2s;
@@ -716,8 +732,8 @@ a:hover {
 }
 
 .toggle-btn.active {
-    background: #1a1a1a;
-    color: white;
+    background: var(--text-primary);
+    color: var(--bg-primary);
     border-color: var(--text-primary);
 }
 
@@ -943,7 +959,7 @@ a:hover {
 .package-table td {
     padding: 0.8rem 1rem;
     text-align: left;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--border-light);
 }
 
 .package-table th {
@@ -1108,7 +1124,7 @@ a:hover {
 
 /* CTA Banner */
 .cta-banner {
-    background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-hover) 100%);
     border-radius: 12px;
     padding: 2rem;
     margin-bottom: 3rem;
@@ -1212,7 +1228,7 @@ a:hover {
 }
 
 .section-icon svg {
-    stroke: #0066cc;
+    stroke: var(--accent);
 }
 
 .section-card h3 {
@@ -1413,7 +1429,7 @@ a:hover {
 }
 
 .roadmap-icon svg {
-    stroke: #0066cc;
+    stroke: var(--accent);
 }
 
 .roadmap-title {
@@ -1704,7 +1720,7 @@ a:hover {
     padding: 0.5rem 0.75rem;
     background: var(--accent-bg);
     border-radius: 6px;
-    border: 1px solid #d0e3ff;
+    border: 1px solid var(--border-color);
 }
 
 .online-community a {
@@ -1985,6 +2001,13 @@ a:hover {
 .type-badge.type-talk { background: #fff3e0; color: #e65100; }
 .type-badge.type-career { background: #fce4ec; color: #c2185b; }
 .type-badge.type-community { background: #e0f2f1; color: #00796b; }
+
+/* Type badge dark mode overrides */
+[data-theme="dark"] .type-badge.type-dataset { background: #1b3a2a; color: #81c784; }
+[data-theme="dark"] .type-badge.type-resource { background: #3d2a4d; color: #ce93d8; }
+[data-theme="dark"] .type-badge.type-talk { background: #3d2a1a; color: #ffb74d; }
+[data-theme="dark"] .type-badge.type-career { background: #3d1a2a; color: #f48fb1; }
+[data-theme="dark"] .type-badge.type-community { background: #1a3a3a; color: #4db6ac; }
 
 /* Footer */
 .global-search-footer {

@@ -10,21 +10,70 @@
                 We never send mail, except on major updates, likely quarterly.
             </p>
 
-            <p style="margin-bottom: 1.5rem;">
-                Subscribe via RSS to stay updated:
-            </p>
-
-            <div class="about-links">
-                <a href="{{ "feed.xml" | relURL }}" target="_blank" class="about-link">
-                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M4 11a9 9 0 0 1 9 9"></path>
-                        <path d="M4 4a16 16 0 0 1 16 16"></path>
-                        <circle cx="5" cy="19" r="1"></circle>
-                    </svg>
-                    RSS Feed
-                </a>
-            </div>
+            <form action="https://formspree.io/f/xnjqdebp" method="POST" class="subscribe-form">
+                <div class="subscribe-input-group">
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="your@email.com"
+                        required
+                        class="subscribe-input"
+                    >
+                    <button type="submit" class="subscribe-button">Subscribe</button>
+                </div>
+            </form>
         </section>
     </div>
 </div>
+
+<style>
+.subscribe-form {
+    max-width: 400px;
+}
+
+.subscribe-input-group {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.subscribe-input {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.subscribe-input:focus {
+    border-color: #0066cc;
+}
+
+.subscribe-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    background: #0066cc;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.subscribe-button:hover {
+    background: #0052a3;
+}
+
+@media (max-width: 480px) {
+    .subscribe-input-group {
+        flex-direction: column;
+    }
+
+    .subscribe-button {
+        width: 100%;
+    }
+}
+</style>
 {{ end }}

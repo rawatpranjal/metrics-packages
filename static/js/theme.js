@@ -2,11 +2,11 @@
 (function() {
     const STORAGE_KEY = 'theme-preference';
 
-    // Get theme preference: localStorage > system preference > light
+    // Get theme preference: localStorage > light (default)
     function getThemePreference() {
         const stored = localStorage.getItem(STORAGE_KEY);
         if (stored) return stored;
-        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        return 'light';
     }
 
     // Apply theme to document
