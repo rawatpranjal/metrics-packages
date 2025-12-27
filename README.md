@@ -7,7 +7,7 @@ A curated directory of resources for tech economists, data scientists, and appli
 ## What's Inside
 
 - **Packages** - Python libraries for econometrics, causal inference, and time series
-- **Datasets** - 135+ industry datasets for e-commerce, advertising, experimentation, and more
+- **Datasets** - 175+ industry datasets for e-commerce, advertising, experimentation, and more
 - **Learning** - Books, courses, and blogs for applied economics and data science
 - **Talks** - Interviews and podcasts from chief economists at Google, Amazon, Uber, Spotify
 - **Early Career** - Job boards and career resources for tech economists
