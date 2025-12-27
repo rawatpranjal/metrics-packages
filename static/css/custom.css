@@ -125,6 +125,12 @@ body::before {
     color: rgba(255,255,255,0.35);
     font-style: italic;
     line-height: 1.45;
+    pointer-events: none;
+}
+
+.sidebar-footer-link {
+    position: relative;
+    z-index: 10;
 }
 
 /* Main Content Area */
