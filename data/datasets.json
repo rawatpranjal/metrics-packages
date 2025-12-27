@@ -2209,22 +2209,6 @@
     ]
   },
   {
-    "name": "Meta CRAG (KDD Cup 2024)",
-    "description": "Comprehensive RAG benchmark with web search results and knowledge graphs across 5 domains, messy real-world retrieval",
-    "category": "Data Portals",
-    "url": "https://www.aicrowd.com/challenges/meta-comprehensive-rag-benchmark-kdd-cup-2024",
-    "docs_url": null,
-    "github_url": null,
-    "tags": [
-      "KDD",
-      "Meta",
-      "RAG",
-      "knowledge graphs",
-      "2024",
-      "real-world"
-    ]
-  },
-  {
     "name": "DrivenData Water Supply Forecasting (2024)",
     "description": "Western US water supply data from Bureau of Reclamation, $500K prize pool for seasonal forecasting",
     "category": "Data Portals",
@@ -2306,48 +2290,95 @@
     ]
   },
   {
-    "name": "IMDB JOB Workload",
-    "description": "Query optimizer benchmark database from real IMDB data, used in 'How Good are Query Optimizers, Really?'",
-    "category": "Entertainment & Media",
-    "url": "https://github.com/gregrahn/join-order-benchmark",
-    "docs_url": null,
-    "github_url": "https://github.com/gregrahn/join-order-benchmark",
-    "tags": [
-      "database dump",
-      "PostgreSQL",
-      "benchmark",
-      "query optimization",
-      "movies"
-    ]
-  },
-  {
-    "name": "Freebase Data Dump",
-    "description": "22GB compressed knowledge base of structured data about people, places, and things (archived by Google)",
-    "category": "Data Portals",
-    "url": "https://developers.google.com/freebase",
+    "name": "Redfin Housing Market Data",
+    "description": "Downloadable housing market data: home prices, sales, inventory, listings by metro/city/zip. Updated weekly from MLS",
+    "category": "Real Estate",
+    "url": "https://www.redfin.com/news/data-center/",
     "docs_url": null,
     "github_url": null,
     "tags": [
-      "knowledge graph",
+      "real estate",
+      "housing prices",
       "large-scale",
-      "entities",
-      "Google",
-      "archived"
+      "real-world",
+      "time series"
     ]
   },
   {
-    "name": "Mouse Genome Database (MGI)",
-    "description": "1.9GB compressed (tens of GB restored) PostgreSQL dump from Mouse Genome Informatics, frequently updated",
-    "category": "Data Portals",
-    "url": "http://www.informatics.jax.org/downloads/database_backups/",
+    "name": "Zillow Research Data",
+    "description": "Home values (ZHVI), rents (ZORI), inventory, and market heat indices across US metros and zip codes",
+    "category": "Real Estate",
+    "url": "https://www.zillow.com/research/data/",
     "docs_url": null,
     "github_url": null,
     "tags": [
-      "database dump",
-      "PostgreSQL",
-      "biology",
+      "real estate",
+      "housing prices",
+      "rents",
+      "large-scale",
+      "time series"
+    ]
+  },
+  {
+    "name": "IEEE-CIS Fraud Detection",
+    "description": "590K card-not-present transactions with 393 features from Vesta Corp. Real messy fraud data (3.5% fraud rate)",
+    "category": "Financial Services",
+    "url": "https://www.kaggle.com/c/ieee-fraud-detection",
+    "docs_url": null,
+    "github_url": "https://github.com/amazon-science/fraud-dataset-benchmark",
+    "tags": [
+      "fraud detection",
+      "transactions",
+      "large-scale",
+      "messy data",
+      "fintech",
+      "competition"
+    ]
+  },
+  {
+    "name": "MSOM Pharma Manufacturing (2024)",
+    "description": "Continuous pharmaceutical manufacturing data from MSD. Real production processes for operations management research",
+    "category": "Logistics & Supply Chain",
+    "url": "https://pubsonline.informs.org/page/msom/data-driven-challenge",
+    "docs_url": "https://pubsonline.informs.org/doi/10.1287/msom.2024.0860",
+    "github_url": null,
+    "tags": [
+      "manufacturing",
+      "operations",
+      "INFORMS",
+      "2024",
       "real-world",
-      "large-scale"
+      "competition"
+    ]
+  },
+  {
+    "name": "NBER Public Use Data Archive",
+    "description": "Eclectic mix of economic, demographic, and enterprise data from NBER-affiliated research projects",
+    "category": "Data Portals",
+    "url": "https://www.nber.org/research/data",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "economics",
+      "research",
+      "NBER",
+      "demographics",
+      "enterprise"
+    ]
+  },
+  {
+    "name": "PaySim Synthetic Transactions",
+    "description": "6M+ mobile money transactions simulating real fraud patterns. Agent-based model calibrated on real African mobile money logs",
+    "category": "Financial Services",
+    "url": "https://www.kaggle.com/datasets/ealaxi/paysim1",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "fraud detection",
+      "mobile payments",
+      "transactions",
+      "large-scale",
+      "synthetic"
     ]
   }
 ]
