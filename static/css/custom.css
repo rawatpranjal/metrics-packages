@@ -946,3 +946,425 @@ a:hover {
         max-width: 200px;
     }
 }
+
+/* ========================================
+   HOMEPAGE STYLES
+   ======================================== */
+
+.homepage {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 0 0.5rem 0;
+    letter-spacing: -0.02em;
+}
+
+.hero-tagline {
+    font-size: 1.4rem;
+    color: #555;
+    margin: 0 0 1rem 0;
+    font-weight: 400;
+}
+
+.hero-subtitle {
+    font-size: 1.1rem;
+    color: #666;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.hero-note {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    color: #888;
+    font-style: italic;
+}
+
+/* CTA Banner */
+.cta-banner {
+    background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.cta-content {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.cta-icon {
+    width: 56px;
+    height: 56px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.cta-icon svg {
+    stroke: white;
+}
+
+.cta-text {
+    flex: 1;
+    min-width: 200px;
+}
+
+.cta-text h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0 0 0.25rem 0;
+}
+
+.cta-text p {
+    margin: 0;
+    opacity: 0.9;
+    font-size: 0.95rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background: white;
+    color: #0066cc;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.cta-button:hover {
+    background: #f0f0f0;
+    text-decoration: none;
+    transform: translateY(-1px);
+}
+
+/* Section Grid */
+.section-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.25rem;
+    margin-bottom: 3rem;
+}
+
+.section-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 1px solid #e5e5e5;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.section-card:hover {
+    border-color: #0066cc;
+    box-shadow: 0 4px 12px rgba(0,102,204,0.1);
+    transform: translateY(-2px);
+    text-decoration: none;
+}
+
+.section-icon {
+    width: 48px;
+    height: 48px;
+    background: #e8f4ff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-icon svg {
+    stroke: #0066cc;
+}
+
+.section-card h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: 0;
+    color: #1a1a1a;
+}
+
+.section-card p {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Homepage Footer */
+.homepage-footer {
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px solid #e5e5e5;
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.homepage-footer a {
+    color: #0066cc;
+}
+
+/* Homepage Mobile Responsive */
+@media (max-width: 768px) {
+    .homepage {
+        padding: 2rem 1rem;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+    }
+
+    .hero-tagline {
+        font-size: 1.1rem;
+    }
+
+    .cta-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cta-button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ========================================
+   GETTING STARTED PAGE STYLES
+   ======================================== */
+
+.start-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+/* Start Hero */
+.start-hero {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.start-hero h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 0 0.75rem 0;
+}
+
+.start-subtitle {
+    font-size: 1.15rem;
+    color: #666;
+    margin: 0;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0 0 0.5rem 0;
+}
+
+.section-desc {
+    color: #666;
+    font-size: 1rem;
+    margin: 0 0 1.5rem 0;
+}
+
+/* Roadmaps Section */
+.roadmaps-section {
+    margin-bottom: 4rem;
+}
+
+.roadmaps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 1.5rem;
+}
+
+.roadmap-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 1px solid #e5e5e5;
+    transition: all 0.2s;
+}
+
+.roadmap-card:hover {
+    border-color: #0066cc;
+    box-shadow: 0 4px 12px rgba(0,102,204,0.08);
+}
+
+.roadmap-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.roadmap-icon {
+    width: 40px;
+    height: 40px;
+    background: #e8f4ff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.roadmap-icon svg {
+    stroke: #0066cc;
+}
+
+.roadmap-title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: 0;
+    color: #1a1a1a;
+}
+
+.roadmap-desc {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0 0 1.25rem 0;
+    line-height: 1.5;
+}
+
+.roadmap-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.roadmap-packages h4,
+.roadmap-datasets h4 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0 0 0.5rem 0;
+}
+
+.roadmap-packages ul,
+.roadmap-datasets ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.roadmap-packages li,
+.roadmap-datasets li {
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.roadmap-packages li strong,
+.roadmap-datasets li strong {
+    color: #1a1a1a;
+}
+
+.roadmap-packages li .why,
+.roadmap-datasets li .why {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+/* Quick Links Section */
+.quick-links-section {
+    margin-bottom: 2rem;
+}
+
+.quick-links-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.quick-link-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem 1rem;
+    border: 1px solid #e5e5e5;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.quick-link-card:hover {
+    border-color: #0066cc;
+    box-shadow: 0 4px 12px rgba(0,102,204,0.1);
+    text-decoration: none;
+}
+
+.quick-link-count {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0066cc;
+}
+
+.quick-link-label {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Getting Started Mobile Responsive */
+@media (max-width: 768px) {
+    .start-page {
+        padding: 1.5rem 1rem;
+    }
+
+    .start-hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .roadmaps-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .quick-links-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

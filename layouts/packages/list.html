@@ -1,0 +1,155 @@
+{{ define "main" }}
+<!-- Search Index Data for Fuse.js -->
+<script id="search-data" type="application/json">
+[{{ range $i, $pkg := .Site.Data.packages }}{{ if $i }},{{ end }}{"name":"{{ .name }}","description":"{{ .description | htmlEscape }}","category":"{{ .category }}","tags":"{{ delimit .tags "," }}","best_for":"{{ .best_for | htmlEscape }}"}{{ end }}]
+</script>
+
+<div class="container">
+    <!-- Search and Filters Row -->
+    <div class="search-filters-row">
+        <!-- Search Bar -->
+        <div class="search-container">
+            <div class="search-input-wrapper">
+                <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.35-4.35"></path>
+                </svg>
+                <input type="text"
+                       id="package-search"
+                       class="search-input"
+                       placeholder="Search packages..."
+                       autocomplete="off">
+                <button id="clear-search" class="clear-btn" type="button" aria-label="Clear search">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 6L6 18M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Category Dropdown -->
+        {{ $categories := slice }}
+        {{ range .Site.Data.packages }}
+            {{ if not (in $categories .category) }}
+                {{ $categories = $categories | append .category }}
+            {{ end }}
+        {{ end }}
+        <select id="category-select" class="category-select">
+            <option value="all">All Categories</option>
+            {{ range $cat := sort $categories }}
+            <option value="{{ $cat }}">{{ $cat }}</option>
+            {{ end }}
+        </select>
+
+        <!-- View Toggle -->
+        <div class="view-toggle">
+            <button id="btn-cards" class="toggle-btn active">Cards</button>
+            <button id="btn-table" class="toggle-btn">Table</button>
+        </div>
+    </div>
+
+    <div id="result-count" class="result-count">{{ len .Site.Data.packages }} packages</div>
+
+    <!-- Cards View -->
+    <div id="cards-view" class="package-grid">
+        {{ range $cat := $categories }}
+        <div class="category-section" data-section-category="{{ $cat }}">
+            <h2 class="category-title">{{ $cat }}</h2>
+            <div class="cards-row">
+                {{ range $.Site.Data.packages }}
+                {{ if eq .category $cat }}
+                <div class="package-card"
+                     data-name="{{ .name | lower }}"
+                     data-description="{{ .description | lower }}"
+                     data-category="{{ .category }}"
+                     data-tags="{{ delimit .tags "," | lower }}">
+                    <div class="card-header">
+                        {{ if .github_url }}
+                        {{ $owner := replaceRE "https://github.com/([^/]+)/.*" "$1" .github_url }}
+                        <img src="https://github.com/{{ $owner }}.png?size=32"
+                             alt=""
+                             class="package-logo"
+                             loading="lazy"
+                             onerror="this.style.display='none'">
+                        {{ end }}
+                        <h3 class="package-name">
+                            <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+                        </h3>
+                    </div>
+                    <p class="package-desc">{{ .description }}</p>
+                    {{ if .tags }}
+                    <div class="tag-container">
+                        {{ range .tags }}
+                        <span class="use-case-tag" data-tag="{{ . }}">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                    <div class="card-footer">
+                        <span class="category-badge">{{ .category }}</span>
+                        <div class="card-links">
+                            {{ if .docs_url }}
+                            <a href="{{ .docs_url }}" target="_blank" class="link-btn" title="Documentation">Docs</a>
+                            {{ end }}
+                            {{ if .github_url }}
+                            <a href="{{ .github_url }}" target="_blank" class="link-btn" title="GitHub">GitHub</a>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+
+    <!-- No Results Message -->
+    <div id="no-results" class="no-results" style="display: none;">
+        <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.35-4.35"></path>
+        </svg>
+        <p>No packages found matching "<span id="search-term"></span>"</p>
+        <button id="reset-filters" class="btn-reset">Clear filters</button>
+    </div>
+
+    <!-- Table View -->
+    <div id="table-view" class="package-table-wrapper" style="display: none;">
+        <table class="package-table">
+            <thead>
+                <tr>
+                    <th>Package</th>
+                    <th>Description</th>
+                    <th>Best For</th>
+                    <th>Category</th>
+                    <th>Links</th>
+                    <th>Install</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{ range .Site.Data.packages }}
+                <tr>
+                    <td class="pkg-name">
+                        <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+                    </td>
+                    <td class="pkg-desc">{{ .description }}</td>
+                    <td class="pkg-best-for">{{ .best_for }}</td>
+                    <td class="pkg-cat"><span class="category-badge-sm">{{ .category }}</span></td>
+                    <td class="pkg-links">
+                        {{ if .docs_url }}<a href="{{ .docs_url }}" target="_blank">Docs</a>{{ end }}
+                        {{ if and .docs_url .github_url }} | {{ end }}
+                        {{ if .github_url }}<a href="{{ .github_url }}" target="_blank">GitHub</a>{{ end }}
+                    </td>
+                    <td class="pkg-install"><code>{{ .install }}</code></td>
+                </tr>
+                {{ end }}
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Data sourced from <a href="https://github.com/rawatpranjal/econometrics-in-python" target="_blank">econometrics-in-python</a></p>
+    </footer>
+</div>
+{{ end }}

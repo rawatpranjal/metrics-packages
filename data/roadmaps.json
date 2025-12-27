@@ -1,0 +1,80 @@
+[
+  {
+    "name": "ML Fundamentals",
+    "description": "Build and evaluate machine learning models with the industry-standard tools",
+    "icon": "chart",
+    "packages": [
+      {"name": "scikit-learn", "why": "The go-to library for classical ML algorithms"},
+      {"name": "pandas", "why": "Data manipulation and analysis"},
+      {"name": "XGBoost", "why": "Gradient boosting for tabular data"},
+      {"name": "LightGBM", "why": "Fast gradient boosting from Microsoft"}
+    ],
+    "datasets": [
+      {"name": "Brazilian eCommerce", "why": "100K orders with rich relational structure"},
+      {"name": "Instacart Market Basket", "why": "3M grocery orders for recommendation practice"}
+    ],
+    "order": 1
+  },
+  {
+    "name": "Causal Inference",
+    "description": "Estimate treatment effects and understand causal relationships in data",
+    "icon": "target",
+    "packages": [
+      {"name": "DoWhy", "why": "End-to-end causal inference from Microsoft"},
+      {"name": "EconML", "why": "Heterogeneous treatment effects with ML"},
+      {"name": "DoubleML", "why": "Double/debiased machine learning"},
+      {"name": "CausalML", "why": "Uber's toolkit for uplift modeling"}
+    ],
+    "datasets": [
+      {"name": "LaLonde (NSW)", "why": "Classic job training program evaluation"},
+      {"name": "Oregon Health Insurance", "why": "Randomized experiment on healthcare"}
+    ],
+    "order": 2
+  },
+  {
+    "name": "Time Series & Forecasting",
+    "description": "Analyze and forecast temporal data for business and economics",
+    "icon": "trending",
+    "packages": [
+      {"name": "statsmodels", "why": "Classical econometric models (ARIMA, VAR)"},
+      {"name": "Prophet", "why": "Facebook's forecasting at scale"},
+      {"name": "arch", "why": "GARCH models for volatility"},
+      {"name": "sktime", "why": "Unified interface for time series ML"}
+    ],
+    "datasets": [
+      {"name": "M5 Forecasting", "why": "Walmart sales forecasting competition"},
+      {"name": "FRED Economic Data", "why": "Macroeconomic time series"}
+    ],
+    "order": 3
+  },
+  {
+    "name": "Experimentation & A/B Testing",
+    "description": "Design, run, and analyze experiments at scale",
+    "icon": "flask",
+    "packages": [
+      {"name": "Spotify Confidence", "why": "Production-grade A/B testing"},
+      {"name": "GrowthBook SDK", "why": "Feature flags and experiments"},
+      {"name": "Ax", "why": "Meta's adaptive experimentation platform"},
+      {"name": "planout", "why": "Facebook's experiment framework"}
+    ],
+    "datasets": [
+      {"name": "Open Bandit Pipeline", "why": "Real e-commerce bandit data from ZOZO"}
+    ],
+    "order": 4
+  },
+  {
+    "name": "Deep Learning",
+    "description": "Neural networks for complex pattern recognition (more advanced)",
+    "icon": "brain",
+    "packages": [
+      {"name": "PyTorch", "why": "Flexible deep learning framework"},
+      {"name": "Hugging Face Transformers", "why": "State-of-the-art NLP models"},
+      {"name": "PyTorch Lightning", "why": "Organized PyTorch training"}
+    ],
+    "datasets": [
+      {"name": "LMSYS-Chat-1M", "why": "1M real conversations with LLMs"},
+      {"name": "Arena Human Preference", "why": "Human preference data for RLHF"}
+    ],
+    "order": 5
+  }
+]

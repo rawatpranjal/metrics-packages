@@ -1,0 +1,115 @@
+{{ define "main" }}
+<div class="start-page">
+    <!-- Hero Section -->
+    <header class="start-hero">
+        <h1>Getting Started</h1>
+        <p class="start-subtitle">
+            New to tech economics? This curated guide helps you focus on what matters most.
+            Pick a path below based on your goals.
+        </p>
+    </header>
+
+    <!-- Roadmaps Section -->
+    <section class="roadmaps-section">
+        <h2 class="section-title">Learning Paths</h2>
+        <p class="section-desc">Choose a roadmap based on what you want to learn. Each includes recommended packages and datasets to practice with.</p>
+
+        <div class="roadmaps-grid">
+            {{ range sort .Site.Data.roadmaps "order" }}
+            <div class="roadmap-card" data-roadmap="{{ .name }}">
+                <div class="roadmap-header">
+                    <div class="roadmap-icon">
+                        {{ if eq .icon "chart" }}
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="20" x2="18" y2="10"></line>
+                            <line x1="12" y1="20" x2="12" y2="4"></line>
+                            <line x1="6" y1="20" x2="6" y2="14"></line>
+                        </svg>
+                        {{ else if eq .icon "target" }}
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <circle cx="12" cy="12" r="6"></circle>
+                            <circle cx="12" cy="12" r="2"></circle>
+                        </svg>
+                        {{ else if eq .icon "trending" }}
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                            <polyline points="17 6 23 6 23 12"></polyline>
+                        </svg>
+                        {{ else if eq .icon "flask" }}
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 3h6v5.5l4 7.5H5l4-7.5V3z"></path>
+                            <path d="M9 3h6"></path>
+                        </svg>
+                        {{ else if eq .icon "brain" }}
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2a4 4 0 0 1 4 4c0 1.1-.9 2-2 2h-4a2 2 0 0 1-2-2 4 4 0 0 1 4-4z"></path>
+                            <path d="M8 8v2a6 6 0 0 0 8 0V8"></path>
+                            <path d="M6 12a6 6 0 0 0 12 0"></path>
+                            <path d="M6 16a6 6 0 0 0 12 0"></path>
+                            <path d="M12 22v-2"></path>
+                        </svg>
+                        {{ end }}
+                    </div>
+                    <h3 class="roadmap-title">{{ .name }}</h3>
+                </div>
+                <p class="roadmap-desc">{{ .description }}</p>
+
+                <div class="roadmap-content">
+                    <div class="roadmap-packages">
+                        <h4>Packages</h4>
+                        <ul>
+                            {{ range .packages }}
+                            <li>
+                                <strong>{{ .name }}</strong>
+                                <span class="why">{{ .why }}</span>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+
+                    {{ if .datasets }}
+                    <div class="roadmap-datasets">
+                        <h4>Practice Datasets</h4>
+                        <ul>
+                            {{ range .datasets }}
+                            <li>
+                                <strong>{{ .name }}</strong>
+                                <span class="why">{{ .why }}</span>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+
+    <!-- Quick Links Section -->
+    <section class="quick-links-section">
+        <h2 class="section-title">Explore the Full Database</h2>
+        <p class="section-desc">Ready to dive deeper? Browse the complete collection.</p>
+
+        <div class="quick-links-grid">
+            <a href="{{ "packages/" | relURL }}" class="quick-link-card">
+                <span class="quick-link-count">{{ len .Site.Data.packages }}</span>
+                <span class="quick-link-label">Packages</span>
+            </a>
+            <a href="{{ "datasets/" | relURL }}" class="quick-link-card">
+                <span class="quick-link-count">{{ len .Site.Data.datasets }}</span>
+                <span class="quick-link-label">Datasets</span>
+            </a>
+            <a href="{{ "resources/" | relURL }}" class="quick-link-card">
+                <span class="quick-link-count">{{ len .Site.Data.resources }}</span>
+                <span class="quick-link-label">Learning Resources</span>
+            </a>
+            <a href="{{ "talks/" | relURL }}" class="quick-link-card">
+                <span class="quick-link-count">{{ len .Site.Data.talks }}</span>
+                <span class="quick-link-label">Talks</span>
+            </a>
+        </div>
+    </section>
+</div>
+{{ end }}
