@@ -1603,7 +1603,11 @@ a:hover {
     font-size: 1rem;
     color: var(--text-primary);
     line-height: 1.7;
-    margin: 0;
+    margin: 0 0 1rem 0;
+}
+
+.about-section p:last-child {
+    margin-bottom: 0;
 }
 
 .about-links {
