@@ -112,6 +112,20 @@
     "type": "Guides"
   },
   {
+    "name": "A/B Testing on Social Networks",
+    "description": "Simulates a social graph in Python to prove why network effects ruin experiments, then shows cluster-based fixes.",
+    "category": "Experimentation",
+    "url": "https://bytepawn.com/ab-testing-on-social-networks.html",
+    "type": "Tutorial"
+  },
+  {
+    "name": "Switchback Testing Guide",
+    "description": "Why standard A/B tests fail in marketplaces (Uber, DoorDash) and how to fix it with time-based randomization.",
+    "category": "Experimentation",
+    "url": "https://www.nextmv.io/docs/using-nextmv/experiments/switchback",
+    "type": "Guide"
+  },
+  {
     "name": "Statsig Resources",
     "description": "Deep dives on sequential testing, variance reduction, and experiment analysis. Free stats engine docs.",
     "category": "Experimentation",
@@ -217,11 +231,32 @@
     "type": "Podcast"
   },
   {
+    "name": "Empirical IO: Coding BLP",
+    "description": "Matteo Courthoud's code-first walkthrough of the BLP demand model. The 'Brave and True' for structural economics.",
+    "category": "Pricing & Demand",
+    "url": "https://matteocourthoud.github.io/course/empirical-io/12_blp_1995/",
+    "type": "Tutorial"
+  },
+  {
+    "name": "PyBLP: Demand Estimation",
+    "description": "QuantEcon tutorial on estimating demand curves with Python. Turns PhD-level IO into a solvable Problem().solve().",
+    "category": "Pricing & Demand",
+    "url": "https://quantecon.org/2019/06/17/demand-curve-estimation.html",
+    "type": "Tutorial"
+  },
+  {
     "name": "QuantEcon: First-Price & Second-Price Auctions",
     "description": "Python simulations proving Revenue Equivalence. Code to solve BNE when closed-form solutions don't exist.",
     "category": "Auctions & Market Design",
     "url": "https://python.quantecon.org/two_auctions.html",
     "type": "Tutorial"
+  },
+  {
+    "name": "MatchingMarkets.py",
+    "description": "Gale-Shapley stable matching in Python. How to match riders to drivers, students to schools, organs to patients.",
+    "category": "Auctions & Market Design",
+    "url": "https://github.com/QuantEcon/MatchingMarkets.py",
+    "type": "Code"
   },
   {
     "name": "Auctions in Ad Tech (Sanjiv Das)",
