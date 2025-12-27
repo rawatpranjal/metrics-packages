@@ -1,7 +1,7 @@
 [
   {
     "name": "Netflix Tech Blog - Experimentation",
-    "description": "How Netflix runs experiments at scale. Real case studies on A/B testing, quasi-experiments, and metric design from their experimentation team.",
+    "description": "1000+ engineers, millions of users, zero guesswork. Real case studies on how Netflix actually runs A/B tests at scale.",
     "category": "Industry Blogs",
     "url": "https://netflixtechblog.com/tagged/experimentation",
     "type": "Blog"
@@ -22,7 +22,7 @@
   },
   {
     "name": "Spotify R&D - Machine Learning",
-    "description": "Recommendation systems, search, and personalization. How Spotify applies ML to audio and user behavior.",
+    "description": "How do you recommend songs to 500M users? Personalization, search, and ML at audio scale. Serious engineering, not marketing fluff.",
     "category": "Industry Blogs",
     "url": "https://research.atspotify.com/",
     "type": "Blog"
@@ -57,7 +57,7 @@
   },
   {
     "name": "The Effect",
-    "description": "Nick Huntington-Klein's modern causal inference book. Clear writing, great DAG explanations, and free online.",
+    "description": "DAGs that don't suck. Nick HK explains causality like he's at a whiteboard, not a lectern. Free, modern, and actually enjoyable to read.",
     "category": "Causal Inference",
     "url": "https://theeffectbook.net/",
     "type": "Online Book"
@@ -70,11 +70,25 @@
     "type": "Online Book"
   },
   {
+    "name": "CausalML (Uber) Documentation",
+    "description": "Synthetic data tutorials that feel like a game. Generate fake users, apply treatment, challenge yourself to recover the effect using Random Forest.",
+    "category": "Causal Inference",
+    "url": "https://causalml.readthedocs.io/en/latest/examples/causal_trees_with_synthetic_data.html",
+    "type": "Tutorial"
+  },
+  {
     "name": "EconML Documentation",
     "description": "Microsoft's library for ML-based causal inference. Tutorials on heterogeneous treatment effects, double ML, and more.",
     "category": "Causal Inference",
     "url": "https://econml.azurewebsites.net/",
     "type": "Docs + Tutorials"
+  },
+  {
+    "name": "Uber Engineering: Causal Inference",
+    "description": "How Uber uses synthetic control and causal ML at scale. Real-world applications of methods from 'Brave and True'.",
+    "category": "Causal Inference",
+    "url": "https://eng.uber.com/causal-inference-at-uber/",
+    "type": "Blog"
   },
   {
     "name": "DoWhy Library",
@@ -119,11 +133,32 @@
     "type": "Tutorial"
   },
   {
-    "name": "Switchback Testing Guide",
-    "description": "Why standard A/B tests fail in marketplaces (Uber, DoorDash) and how to fix it with time-based randomization.",
+    "name": "DoorDash: Switchback Tests",
+    "description": "Why treating one user affects another in marketplaces. Clear diagrams explaining interference as a living organism, not a static dataset.",
+    "category": "Experimentation",
+    "url": "https://doordash.engineering/2019/02/20/switchback-tests-and-randomized-experimentation-under-network-effects-at-doordash/",
+    "type": "Blog"
+  },
+  {
+    "name": "Nextmv: Switchback Testing",
+    "description": "Documentation that reads like a tutorial. Exact logic to split time into windows and washout periods for network A/B tests in Python.",
     "category": "Experimentation",
     "url": "https://www.nextmv.io/docs/using-nextmv/experiments/switchback",
     "type": "Guide"
+  },
+  {
+    "name": "Matteo Courthoud: Understanding CUPED",
+    "description": "The closest author to Matheus Facure. Explains CUPED not as statistical theorem, but as simple linear regression adjustment in 3 lines of pandas.",
+    "category": "Experimentation",
+    "url": "https://matteocourthoud.github.io/post/cuped/",
+    "type": "Tutorial"
+  },
+  {
+    "name": "Bytepawn: CUPED in Python",
+    "description": "Short, punchy script simulating 1,000 experiments to prove variance actually goes down. Very satisfying to run.",
+    "category": "Experimentation",
+    "url": "https://bytepawn.com/reducing-variance-in-ab-testing-with-cuped.html",
+    "type": "Tutorial"
   },
   {
     "name": "Statsig Resources",
@@ -145,6 +180,27 @@
     "category": "Experimentation",
     "url": "https://www.evanmiller.org/ab-testing/",
     "type": "Tools + Guides"
+  },
+  {
+    "name": "Evan Miller: How Not To Run an A/B Test",
+    "description": "The article that taught the industry why peeking at p-values is a sin. Short, lethal, career-saving.",
+    "category": "Experimentation",
+    "url": "https://www.evanmiller.org/how-not-to-run-an-ab-test.html",
+    "type": "Blog"
+  },
+  {
+    "name": "Sean Taylor: When Do We Need Causal Inference?",
+    "description": "Former Lyft/Facebook DS lead. This talk saves you from over-engineering. Know when correlation is enough.",
+    "category": "Experimentation",
+    "url": "https://www.youtube.com/watch?v=2dv7NrYExzo",
+    "type": "Video"
+  },
+  {
+    "name": "Andrew Chen: The Cold Start Problem",
+    "description": "How to bootstrap network effects from zero. The definitive guide to marketplace dynamics — no code, pure systems thinking.",
+    "category": "Auctions & Market Design",
+    "url": "https://andrewchen.com/cold-start-problem/",
+    "type": "Blog"
   },
   {
     "name": "QuantEcon Lectures",
@@ -176,7 +232,7 @@
   },
   {
     "name": "fast.ai Practical Deep Learning",
-    "description": "Learn deep learning top-down with working code. No PhD required. The most accessible serious ML course online.",
+    "description": "Train a model in 10 minutes. Understand why it works later. Jeremy Howard's famous 'code first, theory second' approach to deep learning.",
     "category": "ML & Data Science",
     "url": "https://course.fast.ai/",
     "type": "Course"
@@ -197,10 +253,10 @@
   },
   {
     "name": "Introduction to Statistical Learning",
-    "description": "The friendly ML/stats book. Free online with Python and R code. Less intimidating than ESL, still rigorous.",
+    "description": "The 'I actually finished this one' ML book. Free with runnable Python code. Math when you need it, intuition first.",
     "category": "ML & Data Science",
     "url": "https://www.statlearning.com/",
-    "type": "Textbook"
+    "type": "Online Book"
   },
   {
     "name": "Forecasting: Principles and Practice",
@@ -211,7 +267,7 @@
   },
   {
     "name": "Casual Inference Podcast",
-    "description": "Lucy D'Agostino McGowan and Ellie Murray chat about causal inference. Accessible, fun, and educational.",
+    "description": "Lucy D'Agostino McGowan and Ellie Murray make causal inference actually fun to listen to. Like chatting with smart friends.",
     "category": "Podcasts & Talks",
     "url": "https://casualinfer.libsyn.com/",
     "type": "Podcast"
@@ -229,6 +285,27 @@
     "category": "Podcasts & Talks",
     "url": "https://freakonomics.com/podcasts/",
     "type": "Podcast"
+  },
+  {
+    "name": "Dynamic Pricing with Contextual Bandits",
+    "description": "Exploration-exploitation trade-off using a restaurant menu example. Simulate greedy vs Thompson Sampling to see which makes more money.",
+    "category": "Pricing & Demand",
+    "url": "https://towardsdatascience.com/dynamic-pricing-with-contextual-bandits-learning-by-doing-b88e49f55894/",
+    "type": "Tutorial"
+  },
+  {
+    "name": "Stanford: Thompson Sampling Tutorial",
+    "description": "Don't let 'Stanford' scare you. The accompanying Python code is the industry standard for bandit algorithms from scratch.",
+    "category": "Pricing & Demand",
+    "url": "https://web.stanford.edu/~bvr/pubs/TS_Tutorial.pdf",
+    "type": "Paper + Code"
+  },
+  {
+    "name": "Stitch Fix: Algorithms Tour",
+    "description": "The single best piece of data journalism in tech. Interactive, animated tour of how they combine styles, logistics, and feedback loops.",
+    "category": "Pricing & Demand",
+    "url": "https://algorithms-tour.stitchfix.com/",
+    "type": "Interactive"
   },
   {
     "name": "Empirical IO: Coding BLP",
@@ -281,10 +358,17 @@
   },
   {
     "name": "ML for Pricing & Auctions (ICML Tutorial)",
-    "description": "How to use ML to design auction mechanisms (RegretNet). Goes beyond just bidding to mechanism design.",
+    "description": "Design the mechanism, don't just bid in it. RegretNet and deep learning for auction design. The frontier.",
     "category": "Auctions & Market Design",
     "url": "https://www.youtube.com/watch?v=gsPWQqVhb74",
     "type": "Video"
+  },
+  {
+    "name": "CS269I: Incentives in Computer Science",
+    "description": "Roughgarden's famous course. Why Bitcoin is an auction, how selfish routing breaks the internet, and Price of Anarchy — explained for coders.",
+    "category": "Auctions & Market Design",
+    "url": "https://timroughgarden.org/f16/f16.html",
+    "type": "Course Notes"
   },
   {
     "name": "Susan Athey: Causal Forests",
@@ -323,9 +407,30 @@
   },
   {
     "name": "Dan Garrett: Regression",
-    "description": "Practical econometrics lectures with a focus on what matters for tech applications.",
+    "description": "Practical econometrics lectures focused on what actually matters for tech applications. Clean, clear, useful.",
     "category": "Causal Inference",
     "url": "https://danggarrett.com/",
     "type": "Lectures"
+  },
+  {
+    "name": "Tech Econ Job Market Guide",
+    "description": "How to actually land a tech economist role. Resume tips, interview prep, and what companies look for beyond the PhD.",
+    "category": "Career",
+    "url": "https://www.techtecheconomist.com/",
+    "type": "Guide"
+  },
+  {
+    "name": "Econ Twitter / X",
+    "description": "See what tech economists are reading, join the debates. Start with @caaborwn, @nickchk, @gaborcsardi.",
+    "category": "Career",
+    "url": "https://twitter.com/search?q=tech%20economist",
+    "type": "Community"
+  },
+  {
+    "name": "Data Science Interview Prep",
+    "description": "Stats, ML, and product sense interviews. Built for the economist-to-tech transition. Ace the Loop knows the pain.",
+    "category": "Career",
+    "url": "https://www.acetl.com/",
+    "type": "Guide"
   }
 ]
