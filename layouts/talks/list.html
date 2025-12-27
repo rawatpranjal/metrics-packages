@@ -35,12 +35,18 @@
             <option value="{{ $cat }}">{{ $cat }}</option>
             {{ end }}
         </select>
+
+        <!-- View Toggle -->
+        <div class="view-toggle">
+            <button id="btn-cards" class="toggle-btn active">Cards</button>
+            <button id="btn-table" class="toggle-btn">Table</button>
+        </div>
     </div>
 
     <div id="result-count" class="result-count">{{ len .Site.Data.talks }} talks</div>
 
-    <!-- Talks Grid -->
-    <div id="talks-view" class="resources-grid">
+    <!-- Cards View -->
+    <div id="cards-view" class="resources-grid">
         {{ range $cat := $categories }}
         <div class="category-section" data-section-category="{{ $cat }}">
             <h2 class="category-title">{{ $cat }}</h2>
@@ -50,7 +56,8 @@
                 <div class="resource-card"
                      data-name="{{ .name | lower }}"
                      data-description="{{ .description | lower }}"
-                     data-category="{{ .category }}">
+                     data-category="{{ .category }}"
+                     data-type="{{ .type | lower }}">
                     {{ if .image_url }}
                     <a href="{{ .url }}" target="_blank" class="talk-thumbnail-link">
                         <img src="{{ .image_url }}"
@@ -96,6 +103,39 @@
         {{ end }}
     </div>
 
+    <!-- Table View -->
+    <div id="table-view" class="package-table-wrapper" style="display: none;">
+        <table class="package-table" id="talks-table">
+            <thead>
+                <tr>
+                    <th class="sortable" data-sort="name">Name <span class="sort-icon">↕</span></th>
+                    <th class="sortable" data-sort="type">Format <span class="sort-icon">↕</span></th>
+                    <th class="sortable" data-sort="category">Topic <span class="sort-icon">↕</span></th>
+                    <th>Description</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{ range .Site.Data.talks }}
+                <tr data-name="{{ .name | lower }}"
+                    data-description="{{ .description | lower }}"
+                    data-category="{{ .category }}"
+                    data-type="{{ .type | lower }}">
+                    <td class="pkg-name">
+                        <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+                    </td>
+                    <td><span class="category-badge-sm">{{ .type }}</span></td>
+                    <td><span class="category-badge-sm">{{ .category }}</span></td>
+                    <td class="pkg-desc">{{ .description }}</td>
+                    <td class="pkg-links">
+                        <a href="{{ .url }}" target="_blank">Visit</a>
+                    </td>
+                </tr>
+                {{ end }}
+            </tbody>
+        </table>
+    </div>
+
     <!-- Footer -->
     <footer class="footer">
         <p>Curated talks, podcasts, and interviews for tech economists</p>
@@ -103,17 +143,73 @@
 </div>
 
 <script>
-// Talks page search and filter functionality
+// Talks page search, filter, view toggle, and sorting functionality
 document.addEventListener('DOMContentLoaded', function() {
     const searchInput = document.getElementById('talk-search');
     const clearBtn = document.getElementById('clear-search');
     const categorySelect = document.getElementById('category-select');
+    const cardsView = document.getElementById('cards-view');
+    const tableView = document.getElementById('table-view');
+    const btnCards = document.getElementById('btn-cards');
+    const btnTable = document.getElementById('btn-table');
     const cards = document.querySelectorAll('.resource-card');
     const sections = document.querySelectorAll('.category-section');
+    const tableRows = document.querySelectorAll('#talks-table tbody tr');
     const resultCount = document.getElementById('result-count');
+    const sortableHeaders = document.querySelectorAll('.sortable');
 
     let activeCategory = 'all';
     let debounceTimer;
+    let currentSort = { column: null, direction: 'asc' };
+
+    // View toggle
+    btnCards.addEventListener('click', function() {
+        cardsView.style.display = 'block';
+        tableView.style.display = 'none';
+        btnCards.classList.add('active');
+        btnTable.classList.remove('active');
+    });
+
+    btnTable.addEventListener('click', function() {
+        cardsView.style.display = 'none';
+        tableView.style.display = 'block';
+        btnTable.classList.add('active');
+        btnCards.classList.remove('active');
+    });
+
+    // Sorting
+    sortableHeaders.forEach(function(header) {
+        header.addEventListener('click', function() {
+            const column = this.dataset.sort;
+            const direction = (currentSort.column === column && currentSort.direction === 'asc') ? 'desc' : 'asc';
+            currentSort = { column, direction };
+
+            // Update sort icons
+            sortableHeaders.forEach(function(h) {
+                h.querySelector('.sort-icon').textContent = '↕';
+            });
+            this.querySelector('.sort-icon').textContent = direction === 'asc' ? '↑' : '↓';
+
+            // Sort table
+            const tbody = document.querySelector('#talks-table tbody');
+            const rows = Array.from(tableRows);
+
+            rows.sort(function(a, b) {
+                let aVal = a.dataset[column] || '';
+                let bVal = b.dataset[column] || '';
+
+                if (direction === 'asc') {
+                    return aVal.localeCompare(bVal);
+                } else {
+                    return bVal.localeCompare(aVal);
+                }
+            });
+
+            rows.forEach(function(row) {
+                tbody.appendChild(row);
+            });
+        });
+    });
 
     function filterItems() {
         const query = searchInput.value.toLowerCase().trim();
@@ -124,11 +220,13 @@ document.addEventListener('DOMContentLoaded', function() {
             const name = card.dataset.name || '';
             const desc = card.dataset.description || '';
             const category = card.dataset.category || '';
+            const type = card.dataset.type || '';
 
             const matchesSearch = !query ||
                 name.includes(query) ||
                 desc.includes(query) ||
-                category.toLowerCase().includes(query);
+                category.toLowerCase().includes(query) ||
+                type.includes(query);
 
             const matchesCategory = activeCategory === 'all' || category === activeCategory;
 
@@ -139,6 +237,28 @@ document.addEventListener('DOMContentLoaded', function() {
             } else {
                 card.classList.add('hidden');
                 card.classList.remove('visible');
+            }
+        });
+
+        // Filter table rows
+        tableRows.forEach(function(row) {
+            const name = row.dataset.name || '';
+            const desc = row.dataset.description || '';
+            const category = row.dataset.category || '';
+            const type = row.dataset.type || '';
+
+            const matchesSearch = !query ||
+                name.includes(query) ||
+                desc.includes(query) ||
+                category.toLowerCase().includes(query) ||
+                type.includes(query);
+
+            const matchesCategory = activeCategory === 'all' || category === activeCategory;
+
+            if (matchesSearch && matchesCategory) {
+                row.style.display = '';
+            } else {
+                row.style.display = 'none';
             }
         });
 

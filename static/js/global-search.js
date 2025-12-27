@@ -20,7 +20,10 @@
     },
     debounceMs: 150,
     maxResultsPerType: 5,
-    maxTotalResults: 20
+    maxTotalResults: 20,
+    recentSearchesKey: 'global-recent-searches',
+    maxRecentSearches: 5,
+    suggestions: ['causal inference', 'experimentation', 'pricing', 'machine learning', 'A/B testing']
   };
 
   // Type display configuration
@@ -157,6 +160,9 @@
 
     if (!fuse) return;
 
+    // Save to recent searches
+    addRecentSearch(query);
+
     var results = fuse.search(query);
     currentResults = results.slice(0, CONFIG.maxTotalResults);
 
@@ -164,11 +170,22 @@
       showEmpty();
       flatResults = [];
     } else {
-      renderResults(currentResults);
+      renderResults(currentResults, query);
     }
   }
 
-  function renderResults(results) {
+  function highlightText(text, query) {
+    if (!text || !query) return escapeHtml(text);
+    var escaped = escapeHtml(text);
+    var regex = new RegExp('(' + escapeRegex(query) + ')', 'gi');
+    return escaped.replace(regex, '<mark>$1</mark>');
+  }
+
+  function escapeRegex(str) {
+    return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  function renderResults(results, query) {
     hint.style.display = 'none';
     emptyState.style.display = 'none';
 
@@ -209,8 +226,8 @@
         html += 'data-index="' + globalIndex + '" ';
         html += 'target="_blank" rel="noopener">';
         html += '<div class="result-content">';
-        html += '<span class="result-name">' + escapeHtml(item.name) + '</span>';
-        html += '<span class="result-description">' + escapeHtml(truncate(item.description, 80)) + '</span>';
+        html += '<span class="result-name">' + highlightText(item.name, query) + '</span>';
+        html += '<span class="result-description">' + highlightText(truncate(item.description, 80), query) + '</span>';
         html += '</div>';
         html += '<span class="result-category">' + escapeHtml(item.category) + '</span>';
         html += '</a>';
@@ -227,9 +244,76 @@
   }
 
   function showHint() {
-    resultsContainer.innerHTML = '';
     emptyState.style.display = 'none';
-    hint.style.display = 'block';
+    hint.style.display = 'none';
+
+    var recent = getRecentSearches();
+    var html = '';
+
+    if (recent.length > 0) {
+      html += '<div class="global-suggestions-section">';
+      html += '<div class="global-suggestions-header"><span>Recent searches</span><button class="clear-recent-global">Clear</button></div>';
+      html += '<div class="global-suggestion-chips">';
+      recent.forEach(function(s) {
+        html += '<button class="global-suggestion-chip" data-query="' + escapeHtml(s) + '">' + escapeHtml(s) + '</button>';
+      });
+      html += '</div></div>';
+    }
+
+    html += '<div class="global-suggestions-section">';
+    html += '<div class="global-suggestions-header"><span>Try searching</span></div>';
+    html += '<div class="global-suggestion-chips">';
+    CONFIG.suggestions.forEach(function(s) {
+      html += '<button class="global-suggestion-chip" data-query="' + escapeHtml(s) + '">' + escapeHtml(s) + '</button>';
+    });
+    html += '</div></div>';
+
+    resultsContainer.innerHTML = html;
+
+    // Bind click events
+    resultsContainer.querySelectorAll('.global-suggestion-chip').forEach(function(chip) {
+      chip.addEventListener('click', function() {
+        var query = this.dataset.query;
+        input.value = query;
+        addRecentSearch(query);
+        performSearch();
+      });
+    });
+
+    var clearBtn = resultsContainer.querySelector('.clear-recent-global');
+    if (clearBtn) {
+      clearBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        clearRecentSearches();
+        showHint();
+      });
+    }
+  }
+
+  // Recent searches helpers
+  function getRecentSearches() {
+    try {
+      return JSON.parse(localStorage.getItem(CONFIG.recentSearchesKey)) || [];
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function addRecentSearch(query) {
+    if (!query || query.length < 2) return;
+    var recent = getRecentSearches();
+    recent = recent.filter(function(s) { return s.toLowerCase() !== query.toLowerCase(); });
+    recent.unshift(query);
+    recent = recent.slice(0, CONFIG.maxRecentSearches);
+    try {
+      localStorage.setItem(CONFIG.recentSearchesKey, JSON.stringify(recent));
+    } catch (e) {}
+  }
+
+  function clearRecentSearches() {
+    try {
+      localStorage.removeItem(CONFIG.recentSearchesKey);
+    } catch (e) {}
   }
 
   function showEmpty() {

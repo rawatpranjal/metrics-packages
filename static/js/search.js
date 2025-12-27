@@ -2,11 +2,17 @@
 (function() {
     'use strict';
 
+    // Constants
+    var RECENT_SEARCHES_KEY = 'recent-searches';
+    var MAX_RECENT_SEARCHES = 5;
+    var SUGGESTIONS = ['causal inference', 'CUPED', 'diff-in-diff', 'synthetic control', 'A/B testing'];
+
     // DOM Elements
     let searchInput, clearBtn, resultCount, categorySelect, cardsView, tableView;
     let noResults, searchTermDisplay, resetFiltersBtn;
     let cards, tableRows, categorySections;
     let flatContainer = null;
+    let suggestionsContainer = null;
 
     // State
     let currentCategory = 'all';
@@ -53,6 +59,11 @@
                 currentSearch = e.target.value.trim();
                 filterPackages();
                 toggleClearButton();
+                updateURL(currentSearch);
+                hideSuggestions();
+                if (currentSearch) {
+                    addRecentSearch(currentSearch);
+                }
             }, 150);
         });
 
@@ -87,9 +98,146 @@
             resetFiltersBtn.addEventListener('click', resetAllFilters);
         }
 
+        // Create suggestions container
+        createSuggestionsContainer();
+
         // Initial state
         toggleClearButton();
         updateResultCount(totalPackages);
+
+        // Check URL for search query
+        loadFromURL();
+
+        // Show suggestions on focus when empty
+        searchInput.addEventListener('focus', function() {
+            if (!searchInput.value.trim()) {
+                showSuggestions();
+            }
+        });
+
+        // Hide suggestions on blur (with delay for clicks)
+        searchInput.addEventListener('blur', function() {
+            setTimeout(hideSuggestions, 200);
+        });
+    }
+
+    // URL Query Params
+    function loadFromURL() {
+        var params = new URLSearchParams(window.location.search);
+        var q = params.get('q');
+        if (q) {
+            searchInput.value = q;
+            currentSearch = q;
+            filterPackages();
+            toggleClearButton();
+        }
+    }
+
+    function updateURL(query) {
+        var url = new URL(window.location);
+        if (query) {
+            url.searchParams.set('q', query);
+        } else {
+            url.searchParams.delete('q');
+        }
+        history.replaceState(null, '', url);
+    }
+
+    // Recent Searches
+    function getRecentSearches() {
+        try {
+            return JSON.parse(localStorage.getItem(RECENT_SEARCHES_KEY)) || [];
+        } catch (e) {
+            return [];
+        }
+    }
+
+    function addRecentSearch(query) {
+        if (!query || query.length < 2) return;
+        var recent = getRecentSearches();
+        // Remove if exists, add to front
+        recent = recent.filter(function(s) { return s.toLowerCase() !== query.toLowerCase(); });
+        recent.unshift(query);
+        recent = recent.slice(0, MAX_RECENT_SEARCHES);
+        try {
+            localStorage.setItem(RECENT_SEARCHES_KEY, JSON.stringify(recent));
+        } catch (e) {}
+    }
+
+    function clearRecentSearches() {
+        try {
+            localStorage.removeItem(RECENT_SEARCHES_KEY);
+        } catch (e) {}
+        showSuggestions();
+    }
+
+    // Suggestions Container
+    function createSuggestionsContainer() {
+        suggestionsContainer = document.createElement('div');
+        suggestionsContainer.className = 'search-suggestions';
+        suggestionsContainer.style.display = 'none';
+        var wrapper = searchInput.closest('.search-input-wrapper') || searchInput.parentNode;
+        wrapper.style.position = 'relative';
+        wrapper.appendChild(suggestionsContainer);
+    }
+
+    function showSuggestions() {
+        if (!suggestionsContainer) return;
+        var recent = getRecentSearches();
+        var html = '';
+
+        if (recent.length > 0) {
+            html += '<div class="suggestions-section">';
+            html += '<div class="suggestions-header"><span>Recent</span><button class="clear-recent">Clear</button></div>';
+            recent.forEach(function(s) {
+                html += '<button class="suggestion-chip recent-chip" data-query="' + escapeHtml(s) + '">' + escapeHtml(s) + '</button>';
+            });
+            html += '</div>';
+        }
+
+        html += '<div class="suggestions-section">';
+        html += '<div class="suggestions-header"><span>Try searching</span></div>';
+        SUGGESTIONS.forEach(function(s) {
+            html += '<button class="suggestion-chip" data-query="' + escapeHtml(s) + '">' + escapeHtml(s) + '</button>';
+        });
+        html += '</div>';
+
+        suggestionsContainer.innerHTML = html;
+        suggestionsContainer.style.display = 'block';
+
+        // Bind click events
+        suggestionsContainer.querySelectorAll('.suggestion-chip').forEach(function(chip) {
+            chip.addEventListener('click', function() {
+                var query = this.dataset.query;
+                searchInput.value = query;
+                currentSearch = query;
+                filterPackages();
+                toggleClearButton();
+                updateURL(query);
+                addRecentSearch(query);
+                hideSuggestions();
+            });
+        });
+
+        var clearBtn = suggestionsContainer.querySelector('.clear-recent');
+        if (clearBtn) {
+            clearBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                clearRecentSearches();
+            });
+        }
+    }
+
+    function hideSuggestions() {
+        if (suggestionsContainer) {
+            suggestionsContainer.style.display = 'none';
+        }
+    }
+
+    function escapeHtml(str) {
+        var div = document.createElement('div');
+        div.textContent = str;
+        return div.innerHTML;
     }
 
     function createFlatContainer() {
@@ -327,6 +475,7 @@
         currentSearch = '';
         filterPackages();
         toggleClearButton();
+        updateURL('');
         searchInput.focus();
     }
 

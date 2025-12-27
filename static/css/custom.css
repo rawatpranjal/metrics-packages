@@ -971,6 +971,25 @@ a:hover {
     font-size: 0.9rem;
 }
 
+.package-table th.sortable {
+    cursor: pointer;
+    user-select: none;
+}
+
+.package-table th.sortable:hover {
+    background: var(--bg-hover);
+}
+
+.sort-icon {
+    margin-left: 0.25rem;
+    opacity: 0.5;
+    font-size: 0.8rem;
+}
+
+.package-table th.sortable:hover .sort-icon {
+    opacity: 1;
+}
+
 .package-table tbody tr:hover {
     background: var(--bg-primary);
 }
@@ -1763,6 +1782,99 @@ a:hover {
 }
 
 /* ========================================
+   SEARCH SUGGESTIONS & HIGHLIGHTING
+   ======================================== */
+
+/* Search Suggestions Dropdown */
+.search-suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 0.5rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    z-index: 100;
+    padding: 0.75rem;
+}
+
+.suggestions-section {
+    margin-bottom: 0.75rem;
+}
+
+.suggestions-section:last-child {
+    margin-bottom: 0;
+}
+
+.suggestions-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.suggestions-header .clear-recent {
+    background: none;
+    border: none;
+    color: var(--accent);
+    font-size: 0.7rem;
+    cursor: pointer;
+    padding: 0;
+    font-family: inherit;
+}
+
+.suggestions-header .clear-recent:hover {
+    text-decoration: underline;
+}
+
+.suggestion-chip {
+    display: inline-block;
+    padding: 0.35rem 0.75rem;
+    margin: 0.2rem;
+    background: var(--bg-hover);
+    border: 1px solid var(--border-light);
+    border-radius: 16px;
+    font-size: 0.85rem;
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: inherit;
+}
+
+.suggestion-chip:hover {
+    background: var(--accent-bg);
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.suggestion-chip.recent-chip {
+    background: var(--accent-bg);
+    border-color: transparent;
+}
+
+/* Search Highlighting */
+.search-highlight,
+mark {
+    background: #fff3cd;
+    color: inherit;
+    padding: 0.1em 0.2em;
+    border-radius: 2px;
+}
+
+[data-theme="dark"] .search-highlight,
+[data-theme="dark"] mark {
+    background: #5c4a00;
+    color: #ffe066;
+}
+
+/* ========================================
    GLOBAL SEARCH STYLES
    ======================================== */
 
@@ -1983,6 +2095,61 @@ a:hover {
 
 .global-search-hint p {
     margin: 0 0 1rem 0;
+}
+
+/* Global Search Suggestions */
+.global-suggestions-section {
+    padding: 0.75rem 1rem;
+}
+
+.global-suggestions-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.global-suggestions-header .clear-recent-global {
+    background: none;
+    border: none;
+    color: var(--accent);
+    font-size: 0.7rem;
+    cursor: pointer;
+    padding: 0;
+    font-family: inherit;
+}
+
+.global-suggestions-header .clear-recent-global:hover {
+    text-decoration: underline;
+}
+
+.global-suggestion-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.global-suggestion-chip {
+    padding: 0.4rem 0.85rem;
+    background: var(--bg-hover);
+    border: 1px solid var(--border-light);
+    border-radius: 16px;
+    font-size: 0.85rem;
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: inherit;
+}
+
+.global-suggestion-chip:hover {
+    background: var(--accent-bg);
+    border-color: var(--accent);
+    color: var(--accent);
 }
 
 .type-filters {

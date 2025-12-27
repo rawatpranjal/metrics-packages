@@ -302,7 +302,7 @@
     "description": "Implements Propensity Score Matching (PSM) and Coarsened Exact Matching (CEM) with ML flexibility for propensity score estimation.",
     "category": "Causal Inference & Matching",
     "docs_url": "https://github.com/bytedance/CausalMatch",
-    "github_url": null,
+    "github_url": "https://github.com/bytedance/CausalMatch",
     "url": "https://github.com/bytedance/CausalMatch",
     "install": "pip install causalmatch",
     "tags": [
@@ -311,7 +311,7 @@
     ],
     "best_for": "ByteDance's PSM/CEM with auto model selection and balance checks"
   },
-    {
+  {
     "name": "CausalPy",
     "description": "Developed by PyMC Labs, focuses specifically on causal inference in quasi-experimental settings. Specializes in scenarios where randomization is impossible or expensive.",
     "category": "Causal Inference & Matching",
@@ -345,7 +345,7 @@
     "description": "Fast k-nearest-neighbor matching for large datasets using Facebook's FAISS library.",
     "category": "Causal Inference & Matching",
     "docs_url": "https://github.com/py-econometrics/fastmatch",
-    "github_url": null,
+    "github_url": "https://github.com/py-econometrics/fastmatch",
     "url": "https://github.com/py-econometrics/fastmatch",
     "install": "pip install fastmatch",
     "tags": [
@@ -572,7 +572,7 @@
     "description": "Lightweight package for setting up and estimating custom GMM models based on user-defined moment conditions.",
     "category": "Instrumental Variables (IV) & GMM",
     "docs_url": "https://github.com/py-econometrics/gmm",
-    "github_url": null,
+    "github_url": "https://github.com/py-econometrics/gmm",
     "url": "https://github.com/py-econometrics/gmm",
     "install": "pip install gmm",
     "tags": [
@@ -743,7 +743,7 @@
     "description": "Fast estimation of linear models with multiple high-dimensional fixed effects (like R's `fixest`). Supports OLS, IV, Poisson, robust/cluster SEs.",
     "category": "Panel Data & Fixed Effects",
     "docs_url": "https://github.com/py-econometrics/pyfixest",
-    "github_url": null,
+    "github_url": "https://github.com/py-econometrics/pyfixest",
     "url": "https://github.com/py-econometrics/pyfixest",
     "install": "pip install pyfixest",
     "tags": [
@@ -757,7 +757,7 @@
     "description": "Out-of-core regression (OLS/IV) for very large datasets using DuckDB aggregation. Handles data that doesn't fit in memory.",
     "category": "Panel Data & Fixed Effects",
     "docs_url": "https://github.com/py-econometrics/duckreg",
-    "github_url": null,
+    "github_url": "https://github.com/py-econometrics/duckreg",
     "url": "https://github.com/py-econometrics/duckreg",
     "install": "pip install duckreg",
     "tags": [
@@ -980,7 +980,7 @@
     "description": "Fast quantile regression solver using interior point methods, supporting robust and clustered standard errors.",
     "category": "Quantile Regression & Distributional Methods",
     "docs_url": "https://github.com/mozjay0619/pyqreg",
-    "github_url": null,
+    "github_url": "https://github.com/mozjay0619/pyqreg",
     "url": "https://github.com/mozjay0619/pyqreg",
     "install": "pip install pyqreg",
     "tags": [
@@ -994,7 +994,7 @@
     "description": "Recentered Influence\u2011Function (RIF) regression for unconditional quantile & distributional effects (Firpo\u202fet\u202fal.,\u202f2008).",
     "category": "Quantile Regression & Distributional Methods",
     "docs_url": "https://github.com/vyasenov/pyrifreg",
-    "github_url": null,
+    "github_url": "https://github.com/vyasenov/pyrifreg",
     "url": "https://github.com/vyasenov/pyrifreg",
     "install": "pip install pyrifreg",
     "tags": [
@@ -1271,7 +1271,7 @@
     ],
     "best_for": "Bayesian state-space with MCMC parameter estimation"
   },
-    {
+  {
     "name": "Pingouin",
     "description": "User-friendly interface for common statistical tests (ANOVA, ANCOVA, t-tests, correlations, chi\u00b2, reliability) built on pandas & scipy.",
     "category": "Statistical Inference & Hypothesis Testing",
