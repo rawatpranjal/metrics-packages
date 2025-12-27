@@ -49,6 +49,34 @@
     "type": "Online Book"
   },
   {
+    "name": "Causal Inference and Discovery in Python",
+    "description": "Aleksander Molak's hands-on guide. Graph-based causal inference, discovery algorithms, and Python implementations. Perfect for engineers.",
+    "category": "Causal Inference",
+    "url": "https://www.packtpub.com/product/causal-inference-and-discovery-in-python/9781804612989",
+    "type": "Book"
+  },
+  {
+    "name": "PyMC Labs Blog",
+    "description": "Bayesian causal inference done right. MCMC, probabilistic programming, and causal models from the PyMC team.",
+    "category": "Causal Inference",
+    "url": "https://www.pymc-labs.com/blog-posts/",
+    "type": "Blog"
+  },
+  {
+    "name": "CausalPy",
+    "description": "Synthetic controls that feel like scikit-learn. Built on PyMC, perfect for quasi-experiments when you can't randomize.",
+    "category": "Causal Inference",
+    "url": "https://causalpy.readthedocs.io/",
+    "type": "Docs + Tutorials"
+  },
+  {
+    "name": "Andrew Gelman's Blog",
+    "description": "Stats, causal inference, experiment pitfalls. Frank, often funny, always insightful. The most-read stats blog for good reason.",
+    "category": "Causal Inference",
+    "url": "https://statmodeling.stat.columbia.edu/",
+    "type": "Blog"
+  },
+  {
     "name": "Causal Inference (Wager)",
     "description": "Stefan Wager's Stanford course notes. Rigorous treatment of causal forests, AIPW, and ML for causal inference.",
     "category": "Causal Inference",
@@ -88,6 +116,20 @@
     "description": "Why treating one user affects another in marketplaces. Clear diagrams explaining interference as a living organism, not a static dataset.",
     "category": "Experimentation",
     "url": "https://doordash.engineering/2019/02/20/switchback-tests-and-randomized-experimentation-under-network-effects-at-doordash/",
+    "type": "Blog"
+  },
+  {
+    "name": "Understanding Switchback Experiments (2024)",
+    "description": "A modern take on SUTVA violations. Why you randomize time, not users, in marketplaces. The 30-minute window trick explained.",
+    "category": "Experimentation",
+    "url": "https://towardsdatascience.com/what-is-switchback-testing-for-decision-models-e26d2007325a/",
+    "type": "Blog"
+  },
+  {
+    "name": "Uber: Making Experiment Evaluation 100x Faster",
+    "description": "When your p-value calculation has billions of rows. The engineering reality of running causal inference at Uber scale.",
+    "category": "Experimentation",
+    "url": "https://www.uber.com/blog/making-ubers-experiment-evaluation-engine-100x-faster/",
     "type": "Blog"
   },
   {
@@ -327,6 +369,76 @@
     "category": "Industry Blogs",
     "url": "https://eng.lyft.com/tagged/data-science",
     "type": "Blog"
+  },
+  {
+    "name": "Lyft: Causal Forecasting at Scale",
+    "description": "How Lyft combines causal inference with forecasting for pricing. The bridge between 'what happened' and 'what will happen'.",
+    "category": "Industry Blogs",
+    "url": "https://eng.lyft.com/causal-forecasting-at-lyft-part-1-14cca6ff3d6d",
+    "type": "Blog"
+  },
+  {
+    "name": "Digitopoly (Joshua Gans)",
+    "description": "Platform economics and digital strategy from a leading IO economist. Network effects, two-sided markets, and antitrust.",
+    "category": "Industry Blogs",
+    "url": "https://digitopoly.org/",
+    "type": "Blog"
+  },
+  {
+    "name": "Stratechery (Ben Thompson)",
+    "description": "The gold standard for tech strategy analysis. Aggregation theory, platform dynamics, and business model breakdowns.",
+    "category": "Industry Blogs",
+    "url": "https://stratechery.com/",
+    "type": "Blog"
+  },
+  {
+    "name": "The Operating System (John Brewton)",
+    "description": "The firm as a mechanism design problem. How zero marginal costs and network effects rewrote the economics of tech companies.",
+    "category": "Industry Blogs",
+    "url": "https://www.operatingbyjohnbrewton.com/",
+    "type": "Substack"
+  },
+  {
+    "name": "Lyft: Quantifying Efficiency in Ridesharing",
+    "description": "Efficiency isn't speed—it's an economic equilibrium. A masterclass in defining the objective function for marketplace optimization.",
+    "category": "Industry Blogs",
+    "url": "https://eng.lyft.com/quantifying-efficiency-in-ridesharing-marketplaces-affd53043db2",
+    "type": "Blog"
+  },
+  {
+    "name": "Noahpinion (Noah Smith)",
+    "description": "Tech economics, AI, innovation, growth. Deep dives with data, accessible to non-specialists. The economist's tech newsletter.",
+    "category": "Industry Blogs",
+    "url": "https://noahpinion.substack.com/",
+    "type": "Substack"
+  },
+  {
+    "name": "New Things Under the Sun (Matt Clancy)",
+    "description": "Innovation economics research summaries. Academic findings on R&D, productivity, and science — in plain language.",
+    "category": "Industry Blogs",
+    "url": "https://www.newthingsunderthesun.com/",
+    "type": "Blog"
+  },
+  {
+    "name": "Platform Papers",
+    "description": "Platform competition and network effects. Academics summarizing their own research on marketplaces and big tech.",
+    "category": "Industry Blogs",
+    "url": "https://platformpapers.substack.com/",
+    "type": "Substack"
+  },
+  {
+    "name": "Marginal Revolution (Tyler Cowen)",
+    "description": "The econ blog. Tech, innovation, markets — prolific, eclectic, and influential. A daily must-read.",
+    "category": "Industry Blogs",
+    "url": "https://marginalrevolution.com/",
+    "type": "Blog"
+  },
+  {
+    "name": "Ben Evans Newsletter",
+    "description": "Tech market trends and strategic analysis. What's happening in tech and why it matters.",
+    "category": "Industry Blogs",
+    "url": "https://www.ben-evans.com/newsletter",
+    "type": "Newsletter"
   },
   {
     "name": "Stitch Fix Algorithms Blog",
