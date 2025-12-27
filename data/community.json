@@ -14,73 +14,45 @@
     "type": "Guide"
   },
   {
-    "name": "Econ Job Market Rumors - Industry",
-    "description": "Forum for industry economics jobs. Salary discussions, interview experiences, company reviews.",
+    "name": "Levels.fyi - Economist Salaries",
+    "description": "Real salary data for economist and data scientist roles at FAANG and tech companies.",
     "category": "Career",
-    "url": "https://www.econjobrumors.com/forum/industry",
-    "type": "Forum"
-  },
-  {
-    "name": "Glassdoor Economist Salaries",
-    "description": "Salary data for economist roles at tech companies. Filter by company, level, and location.",
-    "category": "Career",
-    "url": "https://www.glassdoor.com/Salaries/economist-salary-SRCH_KO0,9.htm",
+    "url": "https://www.levels.fyi/t/economist",
     "type": "Data"
   },
   {
+    "name": "Blind - Tech Economist",
+    "description": "Anonymous discussions about comp, interviews, and career moves at tech companies.",
+    "category": "Career",
+    "url": "https://www.teamblind.com/",
+    "type": "Forum"
+  },
+  {
     "name": "Econ Twitter / X",
-    "description": "Follow tech economists, join the conversation. @caaborwn, @nickchk, @gaborcsardi, @instrumenthull.",
+    "description": "Follow tech economists, join the conversation. @caaborwn, @nickchk, @instrumenthull, @peaborwn.",
     "category": "Community",
     "url": "https://twitter.com/search?q=tech%20economist",
     "type": "Social"
   },
   {
-    "name": "Economics Stack Exchange",
-    "description": "Q&A for professional economists. Great for technical questions on methods and theory.",
-    "category": "Community",
-    "url": "https://economics.stackexchange.com/",
-    "type": "Forum"
-  },
-  {
-    "name": "Cross Validated (Stats SE)",
-    "description": "Q&A for statistics and ML. Essential for causal inference and econometrics questions.",
-    "category": "Community",
-    "url": "https://stats.stackexchange.com/",
-    "type": "Forum"
-  },
-  {
-    "name": "r/econometrics",
-    "description": "Reddit community for econometrics. Mix of students, academics, and industry practitioners.",
-    "category": "Community",
-    "url": "https://www.reddit.com/r/econometrics/",
-    "type": "Forum"
-  },
-  {
     "name": "Causal Inference Discord",
     "description": "Active community discussing causal inference methods. Research papers, code help, job postings.",
     "category": "Community",
-    "url": "https://discord.gg/causalinference",
+    "url": "https://discord.gg/cxg3RK2k",
     "type": "Chat"
   },
   {
-    "name": "NBER Working Papers",
-    "description": "Latest economics research papers. Filter by program (IO, Labor, Public) to stay current.",
-    "category": "Research",
-    "url": "https://www.nber.org/papers",
-    "type": "Papers"
+    "name": "r/datascience",
+    "description": "Reddit community for data scientists. Industry discussions, career advice, tech stack debates.",
+    "category": "Community",
+    "url": "https://www.reddit.com/r/datascience/",
+    "type": "Forum"
   },
   {
-    "name": "arXiv econ.EM",
-    "description": "Preprints in econometrics. Where new methods appear before journals.",
-    "category": "Research",
-    "url": "https://arxiv.org/list/econ.EM/recent",
-    "type": "Papers"
-  },
-  {
-    "name": "SSRN Economics",
-    "description": "Working papers across economics. Good for finding applied work before publication.",
-    "category": "Research",
-    "url": "https://www.ssrn.com/index.cfm/en/ern/",
-    "type": "Papers"
+    "name": "Locally Optimistic Slack",
+    "description": "Slack community for data practitioners. Analytics engineering, experimentation, career growth.",
+    "category": "Community",
+    "url": "https://locallyoptimistic.com/community/",
+    "type": "Chat"
   }
 ]
