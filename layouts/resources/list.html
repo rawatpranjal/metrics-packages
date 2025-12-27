@@ -42,6 +42,11 @@
                      data-description="{{ .description | lower }}"
                      data-category="{{ .category }}">
                     <div class="card-header">
+                        <img class="resource-favicon"
+                             src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32"
+                             alt=""
+                             loading="lazy"
+                             onerror="this.style.display='none'">
                         <h3 class="resource-name">
                             <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
                         </h3>

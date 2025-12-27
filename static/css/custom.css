@@ -71,6 +71,7 @@ body {
     color: white;
     background: rgba(0, 102, 204, 0.3);
     border-left: 3px solid #0066cc;
+    cursor: pointer;
 }
 
 .sidebar-link svg {
@@ -284,15 +285,23 @@ a:hover {
 
 .resource-card .card-header {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
+    gap: 0.5rem;
     margin-bottom: 0.5rem;
+}
+
+.resource-favicon {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    flex-shrink: 0;
 }
 
 .resource-name {
     font-size: 1.1rem;
     font-weight: 600;
     margin: 0;
+    flex: 1;
 }
 
 .resource-name a {
