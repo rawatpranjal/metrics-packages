@@ -258,8 +258,10 @@
 
         if (currentSearch) {
             rowsArray.sort(function(a, b) {
-                var nameA = a.querySelector('.pkg-name')?.textContent.toLowerCase() || '';
-                var nameB = b.querySelector('.pkg-name')?.textContent.toLowerCase() || '';
+                var elA = a.querySelector('.pkg-name');
+                var elB = b.querySelector('.pkg-name');
+                var nameA = elA ? elA.textContent.toLowerCase() : '';
+                var nameB = elB ? elB.textContent.toLowerCase() : '';
                 var scoreA = scoreMap.has(nameA) ? scoreMap.get(nameA) : 1;
                 var scoreB = scoreMap.has(nameB) ? scoreMap.get(nameB) : 1;
                 return scoreA - scoreB;

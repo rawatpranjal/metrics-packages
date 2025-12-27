@@ -263,15 +263,6 @@ a:hover {
     text-decoration: none;
 }
 
-/* Best For Field */
-.best-for {
-    display: none;
-}
-
-.best-for strong {
-    color: #333;
-}
-
 .pkg-best-for {
     font-size: 0.85rem;
     color: #555;
@@ -422,12 +413,12 @@ a:hover {
 
 .clear-btn {
     position: absolute;
-    right: 12px;
+    right: 8px;
     display: none;
     align-items: center;
     justify-content: center;
-    width: 28px;
-    height: 28px;
+    width: 44px;
+    height: 44px;
     padding: 0;
     border: none;
     border-radius: 50%;

@@ -77,9 +77,6 @@
                         </h3>
                     </div>
                     <p class="package-desc">{{ .description }}</p>
-                    {{ if .best_for }}
-                    <p class="best-for"><strong>Best for:</strong> {{ .best_for }}</p>
-                    {{ end }}
                     {{ if .tags }}
                     <div class="tag-container">
                         {{ range .tags }}
