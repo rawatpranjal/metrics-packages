@@ -733,5 +733,124 @@
     "category": "Blogs",
     "url": "https://christophm.github.io/",
     "type": "Blog"
+  },
+  {
+    "name": "Causal Inference (Wager)",
+    "description": "Stefan Wager's Stanford STATS 361 notes. Causal forests, HTE, and prescriptive policy learning — the exact tools used in tech companies.",
+    "category": "Monographs",
+    "url": "https://web.stanford.edu/~swager/stats361.pdf",
+    "type": "Lecture Notes"
+  },
+  {
+    "name": "Advanced Data Analysis (Shalizi)",
+    "description": "Cosma Shalizi's 600-page CMU manuscript. Geometry of regression, DAGs, heavy-tailed distributions. Mercilessly rigorous yet chatty.",
+    "category": "Monographs",
+    "url": "https://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/",
+    "type": "Manuscript"
+  },
+  {
+    "name": "Patterns, Predictions, and Actions",
+    "description": "Hardt & Recht's living book grounding ML in decision theory. Why models fail in the real world and how to think about prediction as action.",
+    "category": "Monographs",
+    "url": "https://mlstory.org/",
+    "type": "Online Book"
+  },
+  {
+    "name": "Geometric Deep Learning",
+    "description": "Bronstein et al.'s proto-book unifying CNNs, GNNs, and Transformers under symmetry and group theory. The GNN bible.",
+    "category": "Monographs",
+    "url": "https://arxiv.org/abs/2104.13478",
+    "type": "Monograph"
+  },
+  {
+    "name": "Probabilistic Modeling Case Studies",
+    "description": "Michael Betancourt's Stan case studies. HMC geometry, divergences, hierarchical modeling — the Bayesian technical standard.",
+    "category": "Monographs",
+    "url": "https://betanalpha.github.io/writing/",
+    "type": "Case Studies"
+  },
+  {
+    "name": "Bandit Algorithms",
+    "description": "Lattimore & Szepesvári's definitive reference. UCB, Thompson Sampling, Contextual Bandits — experimentation beyond A/B testing.",
+    "category": "Monographs",
+    "url": "https://tor-lattimore.com/downloads/book/book.pdf",
+    "type": "Book"
+  },
+  {
+    "name": "RL: Theory and Algorithms",
+    "description": "Agarwal, Jiang, Kakade's working draft. Statistical learning theory of RL — 'How many samples to learn this policy?'",
+    "category": "Monographs",
+    "url": "https://rltheorybook.github.io/",
+    "type": "Draft"
+  },
+  {
+    "name": "Causal Inference and ML (Imbens)",
+    "description": "Guido Imbens' Nobel lectures. Matrix completion for synthetic controls, the rigorous foundation for tech metrics.",
+    "category": "Monographs",
+    "url": "https://www.nobelprize.org/uploads/2024/11/imbens-lecture.pdf",
+    "type": "Lecture"
+  },
+  {
+    "name": "Double ML (Chernozhukov)",
+    "description": "Belloni & Chernozhukov on Post-Double Selection Lasso. Use ML as controls while getting valid p-values.",
+    "category": "Monographs",
+    "url": "https://arxiv.org/abs/1608.00060",
+    "type": "Paper"
+  },
+  {
+    "name": "Econometrics (Hansen)",
+    "description": "Bruce Hansen's modern reference. Asymptotics, cluster-robust SEs, panel data — the technical backbone.",
+    "category": "Monographs",
+    "url": "https://www.ssc.wisc.edu/~bhansen/econometrics/",
+    "type": "Book"
+  },
+  {
+    "name": "Microeconomic Theory (Rubinstein)",
+    "description": "Ariel Rubinstein's free lecture notes. Game theory, rational choice, bargaining — for mechanism design work.",
+    "category": "Monographs",
+    "url": "https://arielrubinstein.tau.ac.il/books.html",
+    "type": "Lecture Notes"
+  },
+  {
+    "name": "Market Design (Roth)",
+    "description": "Alvin Roth's Nobel lecture on matching markets. Stability, unraveling — essential for marketplace economics.",
+    "category": "Monographs",
+    "url": "https://www.nobelprize.org/uploads/2018/06/roth-lecture.pdf",
+    "type": "Lecture"
+  },
+  {
+    "name": "Adam Fishman Newsletter",
+    "description": "Ex-Patreon/Reforge. Growth loops, product strategy, and how to structure product analytics.",
+    "category": "Economics & Strategy",
+    "url": "https://www.fishmanafnewsletter.com/",
+    "type": "Newsletter"
+  },
+  {
+    "name": "Sequoia: Data-Informed Product Building",
+    "description": "Metric hierarchies, North Star metrics, and building data-informed products. The definitive framework for product metrics.",
+    "category": "Experimentation",
+    "url": "https://www.sequoiacap.com/article/data-informed-product-building/",
+    "type": "Guide"
+  },
+  {
+    "name": "MeasuringU",
+    "description": "Survey science, conjoint analysis, and quantitative UX research. Statistical rigor for product research.",
+    "category": "Statistics",
+    "url": "https://measuringu.com/",
+    "type": "Blog"
+  },
+  {
+    "name": "Staff Engineer (Will Larson)",
+    "description": "Technical leadership, glue work, and navigating org complexity. Essential for senior ICs in tech.",
+    "category": "Monographs",
+    "url": "https://staffeng.com/book",
+    "type": "Book"
+  },
+  {
+    "name": "Designing Data-Intensive Applications",
+    "description": "Martin Kleppmann's engineering bible. Stream vs batch, distributed systems, and data infrastructure.",
+    "category": "Monographs",
+    "url": "https://dataintensive.net/",
+    "type": "Book"
   }
 ]
