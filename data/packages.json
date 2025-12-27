@@ -3,9 +3,9 @@
     "name": "BayesianBandits",
     "description": "Lightweight microframework for Bayesian bandits (Thompson Sampling) with support for contextual/restless/delayed rewards.",
     "category": "Adaptive Experimentation & Bandits",
-    "docs_url": "https://rukulkarni.com/projects/bayesianbandits/",
-    "github_url": "https://github.com/IntelyCare/bayesianbandits",
-    "url": "https://github.com/IntelyCare/bayesianbandits",
+    "docs_url": "https://bayesianbandits.readthedocs.io/en/latest/",
+    "github_url": "https://github.com/bayesianbandits/bayesianbandits",
+    "url": "https://github.com/bayesianbandits/bayesianbandits",
     "install": "pip install bayesianbandits",
     "tags": [
       "A/B testing",
@@ -62,8 +62,8 @@
     "description": "Library for advanced bandit problems: X-armed bandits (continuous/structured action spaces) and online optimization.",
     "category": "Adaptive Experimentation & Bandits",
     "docs_url": "https://pyxab.readthedocs.io/en/latest/",
-    "github_url": "https://github.com/huanzhang12/pyxab",
-    "url": "https://github.com/huanzhang12/pyxab",
+    "github_url": "https://github.com/WilliamLwj/PyXAB",
+    "url": "https://github.com/WilliamLwj/PyXAB",
     "install": "pip install pyxab",
     "tags": [
       "A/B testing",
@@ -146,8 +146,8 @@
     "description": "Causal inference using graphical models (DAGs), including identification theory and effect estimation.",
     "category": "Causal Discovery & Graphical Models",
     "docs_url": "https://ananke.readthedocs.io/",
-    "github_url": "[https://github.com/py-why/Ananke](https://github.com/ghosthamlet/ananke",
-    "url": "[https://github.com/py-why/Ananke](https://github.com/ghosthamlet/ananke",
+    "github_url": "https://github.com/ghosthamlet/ananke",
+    "url": "https://github.com/ghosthamlet/ananke",
     "install": "pip install ananke-causal",
     "tags": [
       "causal inference",
@@ -174,8 +174,8 @@
     "description": "Uses Bayesian Networks for causal reasoning, combining ML with expert knowledge to model relationships.",
     "category": "Causal Discovery & Graphical Models",
     "docs_url": null,
-    "github_url": "https://github.com/microsoft/causalnex",
-    "url": "https://github.com/microsoft/causalnex",
+    "github_url": "https://github.com/mckinsey/causalnex",
+    "url": "https://github.com/mckinsey/causalnex",
     "install": "pip install causalnex",
     "tags": [
       "causal inference",
@@ -202,7 +202,7 @@
     "name": "Tigramite",
     "description": "Specialized package for causal inference in time series data implementing PCMCI, PCMCIplus, LPCMCI algorithms with conditional independence tests.",
     "category": "Causal Discovery & Graphical Models",
-    "docs_url": "https://tigramite.readthedocs.io/",
+    "docs_url": "https://jakobrunge.github.io/tigramite/",
     "github_url": "https://github.com/jakobrunge/tigramite",
     "url": "https://github.com/jakobrunge/tigramite",
     "install": "pip install tigramite",
@@ -245,8 +245,8 @@
     "description": "Python interface to Tetrad Java library using JPype, providing direct access to Tetrad's causal discovery algorithms with efficient data translation.",
     "category": "Causal Discovery & Graphical Models",
     "docs_url": null,
-    "github_url": "https://github.com/py-why/py-tetrad",
-    "url": "https://github.com/py-why/py-tetrad",
+    "github_url": "https://github.com/cmu-phil/py-tetrad",
+    "url": "https://github.com/cmu-phil/py-tetrad",
     "install": "Available on GitHub (installation via git clone)",
     "tags": [
       "causal inference",
@@ -310,21 +310,7 @@
     ],
     "best_for": "Large-scale PSM/CEM matching at tech company scale"
   },
-  {
-    "name": "CausalPlayground",
-    "description": "Python library for causal research that addresses the scarcity of real-world datasets with known causal relations. Provides fine-grained control over structural causal models.",
-    "category": "Causal Inference & Matching",
-    "docs_url": "https://causal-playground.readthedocs.io/",
-    "github_url": "https://github.com/causal-playground/causal-playground",
-    "url": "https://github.com/causal-playground/causal-playground",
-    "install": "pip install causal-playground",
-    "tags": [
-      "causal inference",
-      "matching"
-    ],
-    "best_for": "Generating synthetic causal datasets with known ground truth"
-  },
-  {
+    {
     "name": "CausalPy",
     "description": "Developed by PyMC Labs, focuses specifically on causal inference in quasi-experimental settings. Specializes in scenarios where randomization is impossible or expensive.",
     "category": "Causal Inference & Matching",
@@ -793,7 +779,7 @@
     "name": "ADOpy",
     "description": "Bayesian Adaptive Design Optimization (ADO) for tuning experiments in real-time, with models for psychometric tasks.",
     "category": "Power Simulation & Design of Experiments",
-    "docs_url": "https://adopy.readthedocs.io/en/latest/",
+    "docs_url": "https://docs.adopy.org/en/stable/",
     "github_url": "https://github.com/adopy/adopy",
     "url": "https://github.com/adopy/adopy",
     "install": "pip install adopy",
@@ -836,7 +822,7 @@
     "name": "pyDOE2",
     "description": "Implements classical Design of Experiments: factorial (full/fractional), response surface (Box-Behnken, CCD), Latin Hypercube.",
     "category": "Power Simulation & Design of Experiments",
-    "docs_url": "https://pythonhosted.org/pyDOE2/",
+    "docs_url": "https://github.com/clicumu/pyDOE2",
     "github_url": "https://github.com/clicumu/pyDOE2",
     "url": "https://github.com/clicumu/pyDOE2",
     "install": "pip install pyDOE2",
@@ -850,7 +836,7 @@
     "name": "CausalImpact",
     "description": "Python port of Google's R package for estimating causal effects of interventions on time series using Bayesian structural time-series models.",
     "category": "Program Evaluation Methods (DiD, SC, RDD)",
-    "docs_url": "https://google.github.io/CausalImpact/CausalImpact/CausalImpact.html",
+    "docs_url": "https://github.com/WillianFuks/tfcausalimpact",
     "github_url": "https://github.com/tcassou/causal_impact",
     "url": "https://github.com/tcassou/causal_impact",
     "install": "pip install causalimpact",
@@ -912,8 +898,8 @@
     "description": "Implements advanced synthetic control methods: forward DiD, cluster SC, factor models, and proximal SC. Designed for single-treated-unit settings.",
     "category": "Program Evaluation Methods (DiD, SC, RDD)",
     "docs_url": "https://mlsynth.readthedocs.io/en/latest/",
-    "github_url": "https://github.com/jaredjgreathouse/mlsynth",
-    "url": "https://github.com/jaredjgreathouse/mlsynth",
+    "github_url": "https://github.com/jgreathouse9/mlsynth",
+    "url": "https://github.com/jgreathouse9/mlsynth",
     "install": "pip install mlsynth",
     "tags": [
       "DiD",
@@ -1143,9 +1129,9 @@
     "name": "Python for Econometrics",
     "description": "Comprehensive intro notes by Kevin Sheppard covering Python basics, core libraries, and econometrics applications.",
     "category": "Standard Errors, Bootstrapping & Reporting",
-    "docs_url": "https://www.kevinsheppard.com/files/teaching/python/notes/python_introduction_2023.pdf",
-    "github_url": null,
-    "url": "https://www.kevinsheppard.com/files/teaching/python/notes/python_introduction_2023.pdf",
+    "docs_url": "https://www.kevinsheppard.com/teaching/python/notes/",
+    "github_url": "https://github.com/bashtage/python-for-econometrics-statistics-data-analysis",
+    "url": "https://www.kevinsheppard.com/teaching/python/",
     "install": "",
     "tags": [
       "bootstrap",
@@ -1269,9 +1255,9 @@
     "name": "PyMC Statespace",
     "description": "(See Bayesian) Bayesian state-space modeling using PyMC, integrating Kalman filtering within MCMC for parameter estimation.",
     "category": "State Space & Volatility Models",
-    "docs_url": "https://pymc-statespace.readthedocs.io/en/latest/",
-    "github_url": "https://github.com/pymc-devs/pymc-statespace",
-    "url": "https://github.com/pymc-devs/pymc-statespace",
+    "docs_url": "https://www.pymc.io/projects/extras/en/latest/statespace/generated/pymc_extras.statespace.core.PyMCStateSpace.html",
+    "github_url": "https://github.com/pymc-devs/pymc-extras",
+    "url": "https://github.com/pymc-devs/pymc-extras",
     "install": "pip install pymc-statespace",
     "tags": [
       "volatility",
@@ -1280,22 +1266,7 @@
     ],
     "best_for": "Bayesian state-space with MCMC parameter estimation"
   },
-  {
-    "name": "stochvol",
-    "description": "Efficient Bayesian estimation of stochastic volatility (SV) models using MCMC.",
-    "category": "State Space & Volatility Models",
-    "docs_url": "https://stochvol.readthedocs.io/en/latest/",
-    "github_url": "https://github.com/rektory/stochvol",
-    "url": "https://github.com/rektory/stochvol",
-    "install": "pip install stochvol",
-    "tags": [
-      "volatility",
-      "state space",
-      "Bayesian"
-    ],
-    "best_for": "Bayesian stochastic volatility models"
-  },
-  {
+    {
     "name": "Pingouin",
     "description": "User-friendly interface for common statistical tests (ANOVA, ANCOVA, t-tests, correlations, chi\u00b2, reliability) built on pandas & scipy.",
     "category": "Statistical Inference & Hypothesis Testing",
@@ -1313,7 +1284,7 @@
     "name": "PyWhy-Stats",
     "description": "Part of the PyWhy ecosystem providing statistical methods specifically for causal applications, including various independence tests and power-divergence methods.",
     "category": "Statistical Inference & Hypothesis Testing",
-    "docs_url": "https://pywhy-stats.readthedocs.io/",
+    "docs_url": "https://github.com/py-why/pywhy-stats",
     "github_url": "https://github.com/py-why/pywhy-stats",
     "url": "https://github.com/py-why/pywhy-stats",
     "install": "pip install pywhy-stats",
@@ -1383,7 +1354,7 @@
     "name": "HARK",
     "description": "Toolkit for solving, simulating, and estimating models with heterogeneous agents (e.g., consumption-saving).",
     "category": "Structural Econometrics & Estimation",
-    "docs_url": "https://hark.readthedocs.io/en/latest/",
+    "docs_url": "https://docs.econ-ark.org/",
     "github_url": "https://github.com/econ-ark/HARK",
     "url": "https://github.com/econ-ark/HARK",
     "install": "pip install econ-ark",
@@ -1510,7 +1481,7 @@
     "name": "NeuralForecast",
     "description": "Deep learning models (N-BEATS, N-HiTS, Transformers, RNNs) for time series forecasting, built on PyTorch Lightning.",
     "category": "Time Series Forecasting",
-    "docs_url": "https://nixtla.github.io/neuralforecast/",
+    "docs_url": "https://nixtlaverse.nixtla.io/neuralforecast/",
     "github_url": "https://github.com/Nixtla/neuralforecast",
     "url": "https://github.com/Nixtla/neuralforecast",
     "install": "pip install neuralforecast",
@@ -1892,8 +1863,8 @@
     "description": "Applied Econometrics Library bridging Stata-like syntax with Python. Built on statsmodels with convenient API.",
     "category": "Core Libraries & Linear Models",
     "docs_url": "https://appelpy.readthedocs.io/",
-    "github_url": "https://github.com/mfarragower/appelpy",
-    "url": "https://github.com/mfarragower/appelpy",
+    "github_url": "https://github.com/mfarragher/appelpy",
+    "url": "https://github.com/mfarragher/appelpy",
     "install": "pip install appelpy",
     "tags": [
       "regression",
@@ -1974,20 +1945,5 @@
       "resources"
     ],
     "best_for": "Comprehensive economics resource directory"
-  },
-  {
-    "name": "Applied Econometrics Notes (Lal)",
-    "description": "Applied econometrics notes and code by Apoorva Lal covering modern causal inference methods.",
-    "category": "Standard Errors, Bootstrapping & Reporting",
-    "docs_url": "https://apoorvalal.github.io/notebook/causal_inference_notes/",
-    "github_url": null,
-    "url": "https://apoorvalal.github.io/notebook/",
-    "install": "",
-    "tags": [
-      "causal inference",
-      "education",
-      "notes"
-    ],
-    "best_for": "Modern causal inference methods with code"
   }
 ]

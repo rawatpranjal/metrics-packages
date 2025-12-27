@@ -10,7 +10,7 @@
     "name": "Uber Engineering - Economics",
     "description": "Surge pricing, marketplace design, causal inference at scale. See how economists tackle real problems at Uber.",
     "category": "Industry Blogs",
-    "url": "https://www.uber.com/blog/houston/engineering/",
+    "url": "https://www.uber.com/blog/engineering/",
     "type": "Blog"
   },
   {
@@ -83,14 +83,7 @@
     "url": "https://econml.azurewebsites.net/",
     "type": "Docs + Tutorials"
   },
-  {
-    "name": "Uber Engineering: Causal Inference",
-    "description": "How Uber uses synthetic control and causal ML at scale. Real-world applications of methods from 'Brave and True'.",
-    "category": "Causal Inference",
-    "url": "https://eng.uber.com/causal-inference-at-uber/",
-    "type": "Blog"
-  },
-  {
+    {
     "name": "DoWhy Library",
     "description": "Microsoft's causal inference library. Great for understanding causal graphs and robustness checks.",
     "category": "Causal Inference",
@@ -109,6 +102,13 @@
     "description": "Stefan Wager's Stanford course notes. Rigorous treatment of causal forests, AIPW, and ML for causal inference.",
     "category": "Causal Inference",
     "url": "https://web.stanford.edu/~swager/stats361.pdf",
+    "type": "Course Notes"
+  },
+  {
+    "name": "Applied Econometrics Notes (Lal)",
+    "description": "Applied econometrics notes and code by Apoorva Lal covering modern causal inference methods.",
+    "category": "Causal Inference",
+    "url": "https://apoorvalal.github.io/notebook/",
     "type": "Course Notes"
   },
   {
@@ -168,13 +168,6 @@
     "type": "Docs + Guides"
   },
   {
-    "name": "Ronny Kohavi's Experimentation Talks",
-    "description": "The godfather of online experimentation. His talks distill decades of A/B testing wisdom from Microsoft and Amazon.",
-    "category": "Experimentation",
-    "url": "https://www.exp-platform.com/",
-    "type": "Talks + Papers"
-  },
-  {
     "name": "Evan Miller's A/B Testing Tools",
     "description": "Sample size calculators, stats explainers, and practical A/B testing guides. Bookmark-worthy tools.",
     "category": "Experimentation",
@@ -186,20 +179,6 @@
     "description": "The article that taught the industry why peeking at p-values is a sin. Short, lethal, career-saving.",
     "category": "Experimentation",
     "url": "https://www.evanmiller.org/how-not-to-run-an-ab-test.html",
-    "type": "Blog"
-  },
-  {
-    "name": "Sean Taylor: When Do We Need Causal Inference?",
-    "description": "Former Lyft/Facebook DS lead. This talk saves you from over-engineering. Know when correlation is enough.",
-    "category": "Experimentation",
-    "url": "https://www.youtube.com/watch?v=2dv7NrYExzo",
-    "type": "Video"
-  },
-  {
-    "name": "Andrew Chen: The Cold Start Problem",
-    "description": "How to bootstrap network effects from zero. The definitive guide to marketplace dynamics — no code, pure systems thinking.",
-    "category": "Auctions & Market Design",
-    "url": "https://andrewchen.com/cold-start-problem/",
     "type": "Blog"
   },
   {
@@ -224,13 +203,6 @@
     "type": "Course"
   },
   {
-    "name": "Python for Econometrics",
-    "description": "Kevin Sheppard's notes on Python for financial econometrics. NumPy, pandas, statsmodels — the practical toolkit.",
-    "category": "Coding",
-    "url": "https://www.kevinsheppard.com/teaching/python/notes/",
-    "type": "Course Notes"
-  },
-  {
     "name": "fast.ai Practical Deep Learning",
     "description": "Train a model in 10 minutes. Understand why it works later. Jeremy Howard's famous 'code first, theory second' approach to deep learning.",
     "category": "ML & Data Science",
@@ -238,24 +210,17 @@
     "type": "Course"
   },
   {
-    "name": "Google ML Crash Course",
-    "description": "Free, fast intro to ML fundamentals from Google. Great refresher on the basics with TensorFlow examples.",
-    "category": "ML & Data Science",
-    "url": "https://developers.google.com/machine-learning/crash-course",
-    "type": "Course"
-  },
-  {
-    "name": "Kaggle Learn",
-    "description": "Bite-sized ML tutorials you can finish in an afternoon. Python, pandas, ML basics, feature engineering.",
-    "category": "ML & Data Science",
-    "url": "https://www.kaggle.com/learn",
-    "type": "Tutorials"
-  },
-  {
     "name": "Introduction to Statistical Learning",
     "description": "The 'I actually finished this one' ML book. Free with runnable Python code. Math when you need it, intuition first.",
     "category": "ML & Data Science",
     "url": "https://www.statlearning.com/",
+    "type": "Online Book"
+  },
+  {
+    "name": "The Elements of Statistical Learning",
+    "description": "The more rigorous sibling of ISLR. Hastie, Tibshirani, and Friedman's classic on statistical learning theory. Free PDF from Stanford.",
+    "category": "ML & Data Science",
+    "url": "https://hastie.su.domains/ElemStatLearn/",
     "type": "Online Book"
   },
   {
@@ -266,25 +231,32 @@
     "type": "Online Book"
   },
   {
-    "name": "Casual Inference Podcast",
-    "description": "Lucy D'Agostino McGowan and Ellie Murray make causal inference actually fun to listen to. Like chatting with smart friends.",
-    "category": "Podcasts & Talks",
-    "url": "https://casualinfer.libsyn.com/",
-    "type": "Podcast"
+    "name": "Reinforcement Learning: An Introduction",
+    "description": "Sutton & Barto's classic. The definitive RL textbook, free from the authors.",
+    "category": "ML & Data Science",
+    "url": "http://incompleteideas.net/book/the-book-2nd.html",
+    "type": "Online Book"
   },
   {
-    "name": "Not So Standard Deviations",
-    "description": "Roger Peng and Hilary Parker on data science in the real world. Great for understanding the craft.",
-    "category": "Podcasts & Talks",
-    "url": "https://nssdeviations.com/",
-    "type": "Podcast"
+    "name": "OpenAI Spinning Up",
+    "description": "OpenAI's intro to deep RL. Clear explanations of policy gradients, Q-learning, and working code.",
+    "category": "ML & Data Science",
+    "url": "https://spinningup.openai.com/",
+    "type": "Tutorial"
   },
   {
-    "name": "Freakonomics Radio",
-    "description": "Economics applied to everything. Not technical, but great for economic intuition and communication.",
-    "category": "Podcasts & Talks",
-    "url": "https://freakonomics.com/podcasts/",
-    "type": "Podcast"
+    "name": "David Silver RL Course",
+    "description": "DeepMind's David Silver teaches RL from scratch. The lectures that trained a generation of RL researchers.",
+    "category": "ML & Data Science",
+    "url": "https://www.davidsilver.uk/teaching/",
+    "type": "Lectures"
+  },
+  {
+    "name": "The Theory and Practice of Revenue Management",
+    "description": "Talluri & van Ryzin's comprehensive textbook. Dynamic pricing, capacity allocation, overbooking — the bible of RM.",
+    "category": "Pricing & Demand",
+    "url": "http://ndl.ethernet.edu.et/bitstream/123456789/21707/1/306.pdf",
+    "type": "Online Book"
   },
   {
     "name": "Dynamic Pricing with Contextual Bandits",
@@ -343,27 +315,6 @@
     "type": "Online Book"
   },
   {
-    "name": "Auction Simulation (Munk-Nielsen)",
-    "description": "GitHub repo with Python code for simulating and solving auctions. Companion to QuantEcon lectures.",
-    "category": "Auctions & Market Design",
-    "url": "https://github.com/Mnke/AuctionSimulation",
-    "type": "Code"
-  },
-  {
-    "name": "Gym-AdServer",
-    "description": "OpenAI Gym environment for RL in online advertising. Train bidding agents against a simulated ad server.",
-    "category": "Auctions & Market Design",
-    "url": "https://github.com/falox/gym-adserver",
-    "type": "Code"
-  },
-  {
-    "name": "ML for Pricing & Auctions (ICML Tutorial)",
-    "description": "Design the mechanism, don't just bid in it. RegretNet and deep learning for auction design. The frontier.",
-    "category": "Auctions & Market Design",
-    "url": "https://www.youtube.com/watch?v=gsPWQqVhb74",
-    "type": "Video"
-  },
-  {
     "name": "CS269I: Incentives in Computer Science",
     "description": "Roughgarden's famous course. Why Bitcoin is an auction, how selfish routing breaks the internet, and Price of Anarchy — explained for coders.",
     "category": "Auctions & Market Design",
@@ -371,66 +322,24 @@
     "type": "Course Notes"
   },
   {
-    "name": "Susan Athey: Causal Forests",
-    "description": "Leading researcher bridging ML and economics. Essential talks on causal forests and policy evaluation.",
+    "name": "Susan Athey: ML & Causal Inference Course",
+    "description": "Stanford GSB's ML and Causal Inference short course. Videos, slides, and tutorials on causal forests, treatment effects, and policy evaluation.",
     "category": "Causal Inference",
-    "url": "https://www.youtube.com/results?search_query=susan+athey+causal+inference",
-    "type": "Video"
+    "url": "https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil/research/methods/ai-machine-learning/short-course",
+    "type": "Course"
   },
   {
-    "name": "Hal Varian: Ad Auctions & Platforms",
-    "description": "Google's Chief Economist on ad auctions, two-sided markets, and how economics shapes tech.",
+    "name": "Michael Ostrovsky: Market Design Course",
+    "description": "Stanford GSB's market design expert. Course materials on auctions, matching markets, and platform economics. Advised Airbnb, LinkedIn, Google.",
     "category": "Auctions & Market Design",
-    "url": "https://www.youtube.com/results?search_query=hal+varian+google+economics",
-    "type": "Video"
+    "url": "https://web.stanford.edu/~ost/",
+    "type": "Course Notes"
   },
   {
-    "name": "Michael Ostrovsky: Marketplace Design",
-    "description": "Stanford economist on matching markets, auction design, and platform economics.",
-    "category": "Auctions & Market Design",
-    "url": "https://www.youtube.com/results?search_query=michael+ostrovsky+marketplace+design",
-    "type": "Video"
-  },
-  {
-    "name": "Pat Bajari (Amazon)",
-    "description": "Amazon's Chief Economist on combining ML with economic models for demand estimation and pricing.",
-    "category": "Tech Interviews",
-    "url": "https://www.youtube.com/results?search_query=pat+bajari+amazon+econometrics",
-    "type": "Video"
-  },
-  {
-    "name": "Emily Oster",
-    "description": "Brown economist who makes rigorous analysis accessible. Great for learning how to communicate uncertainty.",
-    "category": "Tech Interviews",
-    "url": "https://www.youtube.com/results?search_query=emily+oster+economics",
-    "type": "Video"
-  },
-  {
-    "name": "Dan Garrett: Regression",
-    "description": "Practical econometrics lectures focused on what actually matters for tech applications. Clean, clear, useful.",
-    "category": "Causal Inference",
-    "url": "https://danggarrett.com/",
-    "type": "Lectures"
-  },
-  {
-    "name": "Tech Econ Job Market Guide",
-    "description": "How to actually land a tech economist role. Resume tips, interview prep, and what companies look for beyond the PhD.",
+    "name": "Amazon Economist Interview Guide",
+    "description": "Insider guide to Amazon's economist tracks: Forecasting, Causal Analysis, and Empirical IO. Leadership Principles meet econometrics.",
     "category": "Career",
-    "url": "https://www.techtecheconomist.com/",
-    "type": "Guide"
-  },
-  {
-    "name": "Econ Twitter / X",
-    "description": "See what tech economists are reading, join the debates. Start with @caaborwn, @nickchk, @gaborcsardi.",
-    "category": "Career",
-    "url": "https://twitter.com/search?q=tech%20economist",
-    "type": "Community"
-  },
-  {
-    "name": "Data Science Interview Prep",
-    "description": "Stats, ML, and product sense interviews. Built for the economist-to-tech transition. Ace the Loop knows the pain.",
-    "category": "Career",
-    "url": "https://www.acetl.com/",
+    "url": "https://leonwei.com/amazon-economist-interview-guide-e81bd76a65de",
     "type": "Guide"
   }
 ]

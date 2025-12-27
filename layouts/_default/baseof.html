@@ -40,7 +40,7 @@
                 </a>
             </li>
             <li>
-                <a href="{{ "datasets/" | absURL }}" class="sidebar-link{{ if hasPrefix .RelPermalink "/datasets" }} active{{ end }}">
+                <a href="{{ "datasets/" | absURL }}" class="sidebar-link{{ if eq .Section "datasets" }} active{{ end }}">
                     <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
                         <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
                         <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
@@ -50,7 +50,7 @@
                 </a>
             </li>
             <li>
-                <a href="{{ "resources/" | absURL }}" class="sidebar-link{{ if hasPrefix .RelPermalink "/resources" }} active{{ end }}">
+                <a href="{{ "resources/" | absURL }}" class="sidebar-link{{ if eq .Section "resources" }} active{{ end }}">
                     <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
                         <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
@@ -58,8 +58,20 @@
                     Learning
                 </a>
             </li>
+            <li>
+                <a href="{{ "talks/" | absURL }}" class="sidebar-link{{ if eq .Section "talks" }} active{{ end }}">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                        <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                        <line x1="12" y1="19" x2="12" y2="23"></line>
+                        <line x1="8" y1="23" x2="16" y2="23"></line>
+                    </svg>
+                    Talks
+                </a>
+            </li>
         </ul>
         <div class="sidebar-footer">
+            <div class="sidebar-joke" id="sidebar-joke"></div>
             <a href="https://github.com/rawatpranjal/metrics-packages/issues/new?template=submit-package.yml" target="_blank" class="sidebar-submit-btn">
                 <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
                     <line x1="12" y1="5" x2="12" y2="19"></line>
@@ -98,6 +110,53 @@
                 document.body.classList.remove('sidebar-open');
             }
         });
+        // Random economist/statistician jokes
+        var jokes = [
+            "Why did the economist break up? Too many sunk costs.",
+            "Economists have predicted 9 of the last 5 recessions.",
+            "A statistician drowned crossing a river that was 3 feet deep on average.",
+            "Why do economists exist? To make weather forecasters look good.",
+            "There are two types of economists: those who can't forecast, and those who don't know they can't.",
+            "An economist is someone who didn't have enough personality to become an accountant.",
+            "99% of all statistics only tell 49% of the story.",
+            "A statistician's wife had twins. He was delighted. He rang everyone he knew to tell them the news. \"The next one is due in October.\"",
+            "Why did the Bayesian cross the road? You need more data to tell.",
+            "Econometrics: the art of drawing a crooked line from an unproved assumption to a foregone conclusion.",
+            "The first law of economists: For every economist, there exists an equal and opposite economist. The second law: They're both wrong.",
+            "Definition of an economist: Someone who didn't have enough charisma to be an actuary.",
+            "Q: How many econometricians does it take to change a light bulb? A: We'll need more data.",
+            "A regression walks into a bar. The bartender asks, \"What can I get you?\" The regression replies, \"Just fit me a line.\"",
+            "Why are statisticians never lonely? Because they're always looking for random encounters.",
+            "How many Chicago School economists does it take to change a light bulb? None. If the light bulb needed changing, the market would have already done it.",
+            "Two economists were shipwrecked on a desert island. Over three years, they made millions selling their hats to each other.",
+            "An economist is an expert who will know tomorrow why the things he predicted yesterday didn't happen today.",
+            "Economic forecasters assume everything, except responsibility.",
+            "I asked a statistician for her phone number... she gave me an estimate.",
+            "Statistics means never having to say you're certain.",
+            "Did you hear about the statistician who was thrown in jail? He now has zero degrees of freedom.",
+            "Variance is what any two statisticians are at.",
+            "An econometrician and an astrologer are arguing. The astrologer says: \"Your models are useless.\" The econometrician replies: \"Yes, but yours are even more useless.\"",
+            "Three econometricians went hunting. The first shot a foot to the left. The second shot a foot to the right. The third shouted: \"We got it!\"",
+            "An econometrician's wife had twins. He baptized one and kept the other as a control.",
+            "A mathematician, an accountant, and an economist apply for the same job. The interviewer asks \"What's 2+2?\" The mathematician says \"4.\" The accountant says \"It depends on what you want it to be.\" The economist whispers \"What do you want it to be?\"",
+            "Put two economists in a room and you get two opinions—unless one of them is Lord Keynes, in which case you get three. — Winston Churchill",
+            "An economist can have his head in an oven and his feet in ice, and on average he'll say he feels fine.",
+            "Why did the economist bring a ladder to the bar? Because they heard the drinks were on the house!",
+            "Economists do it with models.",
+            "Old econometricians never die—they just get OLS.",
+            "A statistician's lifetime ambition: to be wrong only 5% of the time.",
+            "Roses are red, violets are blue, my model's unbiased, with an R-squared of .02.",
+            "There are two things you're better off not watching in the making: sausages and econometric estimates.",
+            "I'm not arguing, I'm just explaining why my prior was correct.",
+            "Parallel lines have so much in common. It's a shame they'll never meet... unlike my confidence intervals.",
+            "Why do economists love nature? Because of all the natural experiments.",
+            "I told my wife she was drawing her eyebrows too high. She looked surprised. That's selection bias.",
+            "What's an economist's favorite candy? Supply-side Skittles."
+        ];
+        var jokeEl = document.getElementById('sidebar-joke');
+        if (jokeEl) {
+            jokeEl.textContent = jokes[Math.floor(Math.random() * jokes.length)];
+        }
     </script>
 </body>
 </html>

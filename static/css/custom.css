@@ -139,6 +139,16 @@ body::before {
     text-decoration: none;
 }
 
+.sidebar-joke {
+    padding: 0.75rem 0;
+    margin-bottom: 0.75rem;
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.7);
+    font-style: italic;
+    line-height: 1.5;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
 /* Main Content Area */
 .main-content {
     margin-left: 220px;
