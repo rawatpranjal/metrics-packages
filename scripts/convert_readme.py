@@ -10,8 +10,15 @@ import subprocess
 import sys
 
 
-def fetch_readme():
-    """Fetch the raw README.md from GitHub using curl."""
+def fetch_readme() -> str:
+    """Fetch the raw README.md from GitHub using curl.
+
+    Returns:
+        The raw markdown content of the README file.
+
+    Raises:
+        SystemExit: If the curl command fails to fetch the README.
+    """
     url = "https://raw.githubusercontent.com/rawatpranjal/econometrics-in-python/main/README.md"
     result = subprocess.run(
         ['curl', '-sL', url],
@@ -24,8 +31,18 @@ def fetch_readme():
     return result.stdout
 
 
-def parse_links(links_cell):
-    """Extract Docs and GitHub URLs from a links cell like '[Docs](url) . [GitHub](url)'."""
+def parse_links(links_cell: str) -> tuple[str | None, str | None]:
+    """Extract Docs and GitHub URLs from a markdown links cell.
+
+    Parses markdown link syntax like '[Docs](url) . [GitHub](url)' and
+    categorizes URLs based on link text.
+
+    Args:
+        links_cell: A string containing markdown-formatted links.
+
+    Returns:
+        A tuple of (docs_url, github_url), where either may be None if not found.
+    """
     docs_url = None
     github_url = None
 
@@ -43,8 +60,98 @@ def parse_links(links_cell):
     return docs_url, github_url
 
 
-def parse_readme(content):
-    """Parse the README content and extract package data."""
+# Category to tag mapping for use-case based filtering
+CATEGORY_TAG_MAP: dict[str, list[str]] = {
+    "Adaptive Experimentation & Bandits": ["A/B testing", "experimentation"],
+    "Bayesian Econometrics": ["Bayesian", "inference"],
+    "Causal Discovery & Graphical Models": ["causal inference", "graphs"],
+    "Causal Inference & Matching": ["causal inference", "matching"],
+    "Core Libraries & Linear Models": ["regression", "linear models"],
+    "Dimensionality Reduction": ["machine learning", "dimensionality"],
+    "Discrete Choice Models": ["discrete choice", "logit"],
+    "Double/Debiased Machine Learning (DML)": ["machine learning", "causal inference"],
+    "Instrumental Variables (IV) & GMM": ["IV", "GMM"],
+    "Marketing Mix Models (MMM) & Business Analytics": ["marketing", "analytics"],
+    "Natural Language Processing for Economics": ["NLP", "text analysis"],
+    "Numerical Optimization & Computational Tools": ["optimization", "computation"],
+    "Panel Data & Fixed Effects": ["panel data", "fixed effects"],
+    "Power Simulation & Design of Experiments": ["power analysis", "experiments"],
+    "Program Evaluation Methods (DiD, SC, RDD)": ["DiD", "synthetic control", "RDD"],
+    "Quantile Regression & Distributional Methods": ["quantile", "regression"],
+    "Spatial Econometrics": ["spatial", "geography"],
+    "Standard Errors, Bootstrapping & Reporting": ["bootstrap", "standard errors"],
+    "State Space & Volatility Models": ["volatility", "state space"],
+    "Statistical Inference & Hypothesis Testing": ["inference", "hypothesis testing"],
+    "Structural Econometrics & Estimation": ["structural", "estimation"],
+    "Synthetic Data Generation": ["synthetic data", "simulation"],
+    "Time Series Econometrics": ["time series", "econometrics"],
+    "Time Series Forecasting": ["forecasting", "time series"],
+    "Tree & Ensemble Methods for Prediction": ["machine learning", "prediction"],
+}
+
+# Keywords in descriptions that map to additional tags
+KEYWORD_TAGS: dict[str, str] = {
+    "propensity": "matching",
+    "treatment effect": "causal inference",
+    "ARIMA": "time series",
+    "GARCH": "volatility",
+    "bayesian": "Bayesian",
+    "neural": "machine learning",
+    "deep learning": "machine learning",
+    "random forest": "machine learning",
+    "xgboost": "machine learning",
+    "gradient boost": "machine learning",
+}
+
+
+def generate_tags(category: str, description: str) -> list[str]:
+    """Generate use-case tags from category and description keywords.
+
+    Args:
+        category: The package category.
+        description: The package description.
+
+    Returns:
+        A list of 2-4 relevant use-case tags.
+    """
+    tags: list[str] = []
+
+    # Add category-based tags
+    if category in CATEGORY_TAG_MAP:
+        tags.extend(CATEGORY_TAG_MAP[category])
+
+    # Add keyword-based tags from description
+    desc_lower = description.lower()
+    for keyword, tag in KEYWORD_TAGS.items():
+        if keyword in desc_lower and tag not in tags:
+            tags.append(tag)
+
+    # Limit to 4 tags max and remove duplicates while preserving order
+    seen: set[str] = set()
+    unique_tags: list[str] = []
+    for tag in tags:
+        if tag not in seen:
+            seen.add(tag)
+            unique_tags.append(tag)
+            if len(unique_tags) >= 4:
+                break
+
+    return unique_tags
+
+
+def parse_readme(content: str) -> list[dict[str, str | None]]:
+    """Parse the README content and extract package data.
+
+    Processes markdown tables organized by category headers and extracts
+    package information including name, description, links, and install commands.
+
+    Args:
+        content: The full markdown content of the README file.
+
+    Returns:
+        A list of package dictionaries with keys: name, description,
+        category, docs_url, github_url, url, install.
+    """
     packages = []
     current_category = None
 
@@ -75,8 +182,8 @@ def parse_readme(content):
             if len(cells) >= 3:
                 # Extract package name (remove bold markers)
                 name_raw = cells[0]
-                name = re.sub(r'\*\*([^*]+)\*\*', r'\1', name_raw).strip()
-                name = re.sub(r'\*([^*]+)\*', r'\1', name).strip()
+                # Remove markdown bold/italic markers
+                name = re.sub(r'\*{1,2}([^*]+)\*{1,2}', r'\1', name_raw).strip()
 
                 if not name or name.lower() in ['package', 'name']:
                     i += 1
@@ -110,19 +217,26 @@ def parse_readme(content):
     return packages
 
 
-def main():
+def main() -> None:
+    """Main entry point for the README conversion script.
+
+    Fetches the upstream README, parses packages, removes duplicates,
+    and saves the result to data/packages.json.
+    """
     print("Fetching README from GitHub...")
     content = fetch_readme()
 
     print("Parsing packages...")
     packages = parse_readme(content)
 
-    # Remove duplicates by name
+    # Remove duplicates by name and add tags
     seen = set()
     unique_packages = []
     for pkg in packages:
         if pkg['name'] not in seen:
             seen.add(pkg['name'])
+            # Generate use-case tags for each package
+            pkg['tags'] = generate_tags(pkg['category'], pkg['description'])
             unique_packages.append(pkg)
 
     # Sort by category then name

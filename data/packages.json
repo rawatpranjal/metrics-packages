@@ -1,246 +1,357 @@
 [
   {
     "name": "BayesianBandits",
-    "description": "Lightweight microframework for Bayesian bandits (Thompson Sampling) with support for contextual/restless/delayed rewards.",
+    "description": "Minimal Thompson Sampling implementation for teams wanting a simple, focused bandit solution. Unlike MABWiser (full-featured) or ContextualBandits (research-oriented), this prioritizes ease of integration with support for contextual, restless, and delayed reward scenarios. Best for: production A/B testing where you want Bayesian exploration without complexity.",
     "category": "Adaptive Experimentation & Bandits",
     "docs_url": "https://rukulkarni.com/projects/bayesianbandits/",
     "github_url": "https://github.com/IntelyCare/bayesianbandits",
     "url": "https://github.com/IntelyCare/bayesianbandits",
-    "install": "pip install bayesianbandits"
+    "install": "pip install bayesianbandits",
+    "tags": [
+      "A/B testing",
+      "experimentation",
+      "Bayesian"
+    ]
   },
   {
     "name": "ContextualBandits",
-    "description": "Implements a wide range of contextual bandit algorithms (linear, tree-based, neural) and off-policy evaluation methods.",
+    "description": "Research-oriented library with the widest algorithm variety (LinUCB, Thompson Sampling, Offset Tree, Doubly-Robust). Accepts any scikit-learn classifier as a black-box oracle. Unlike MABWiser (production focus), this prioritizes flexibility for comparing algorithms. Best for: researchers benchmarking methods or prototyping new approaches.",
     "category": "Adaptive Experimentation & Bandits",
     "docs_url": "https://contextual-bandits.readthedocs.io/",
     "github_url": "https://github.com/david-cortes/contextualbandits",
     "url": "https://github.com/david-cortes/contextualbandits",
-    "install": "pip install contextualbandits"
+    "install": "pip install contextualbandits",
+    "tags": [
+      "A/B testing",
+      "experimentation",
+      "machine learning"
+    ]
   },
   {
     "name": "MABWiser",
-    "description": "Production-ready, scikit-learn style library for contextual & stochastic bandits with parallelism and simulation tools.",
+    "description": "Production-grade bandit library from Fidelity with scikit-learn API and built-in parallelization. Supports context-free, parametric, and non-parametric contextual bandits. Unlike research-focused alternatives, emphasizes reliability, testing, and real-world deployment. Best for: production recommender systems and optimization requiring both speed and algorithmic flexibility.",
     "category": "Adaptive Experimentation & Bandits",
     "docs_url": "https://fidelity.github.io/mabwiser/",
     "github_url": "https://github.com/fidelity/mabwiser",
     "url": "https://github.com/fidelity/mabwiser",
-    "install": "pip install mabwiser"
+    "install": "pip install mabwiser",
+    "tags": [
+      "A/B testing",
+      "experimentation"
+    ]
   },
   {
     "name": "Open Bandit Pipeline (OBP)",
-    "description": "Framework for **offline evaluation (OPE)** of bandit policies using logged data. Implements IPS, DR, DM estimators.",
+    "description": "Specialized framework for offline policy evaluation—estimating how new policies would perform using only logged data. Implements IPS, Doubly Robust, and Self-Normalized estimators. Uniquely includes real-world Open Bandit Dataset from ZOZO's e-commerce platform. Best for: safely evaluating bandit policies before deployment without live A/B tests.",
     "category": "Adaptive Experimentation & Bandits",
     "docs_url": "https://zr-obp.readthedocs.io/en/latest/",
     "github_url": "https://github.com/st-tech/zr-obp",
     "url": "https://github.com/st-tech/zr-obp",
-    "install": "pip install obp"
+    "install": "pip install obp",
+    "tags": [
+      "A/B testing",
+      "experimentation"
+    ]
   },
   {
     "name": "PyXAB",
-    "description": "Library for advanced bandit problems: X-armed bandits (continuous/structured action spaces) and online optimization.",
+    "description": "Solves X-armed bandit problems where action spaces are continuous or structured (unlike discrete-arm libraries). Implements Zooming, StoSOO, HCT, and GPO algorithms for black-box optimization. Best for: hyperparameter tuning and online optimization where you need to search continuous parameter spaces efficiently.",
     "category": "Adaptive Experimentation & Bandits",
     "docs_url": "https://pyxab.readthedocs.io/en/latest/",
     "github_url": "https://github.com/huanzhang12/pyxab",
     "url": "https://github.com/huanzhang12/pyxab",
-    "install": "pip install pyxab"
+    "install": "pip install pyxab",
+    "tags": [
+      "A/B testing",
+      "experimentation"
+    ]
   },
   {
     "name": "SMPyBandits",
-    "description": "Comprehensive research framework for single/multi-player MAB algorithms (stochastic, adversarial, contextual).",
+    "description": "Most comprehensive bandit research framework with 65+ algorithms including UCB variants, kl-UCB, Thompson Sampling, and multi-player algorithms (MusicalChair, MEGA). Supports stochastic, adversarial, Bayesian, and Markovian environments. Best for: academic research requiring extensive algorithm comparisons with publication-quality visualizations.",
     "category": "Adaptive Experimentation & Bandits",
     "docs_url": "https://smpybandits.github.io/",
     "github_url": "https://github.com/SMPyBandits/SMPyBandits",
     "url": "https://github.com/SMPyBandits/SMPyBandits",
-    "install": "pip install SMPyBandits"
+    "install": "pip install SMPyBandits",
+    "tags": [
+      "A/B testing",
+      "experimentation"
+    ]
   },
   {
     "name": "Bambi",
-    "description": "High-level interface for building Bayesian GLMMs, built on top of PyMC. Uses formula syntax similar to R's `lme4`.",
+    "description": "High-level Bayesian modeling with R-style formula syntax (y ~ x1 + x2) built on PyMC. Unlike raw PyMC (more flexible but verbose), Bambi makes standard models trivial to specify. Best for: economists/social scientists who want Bayesian GLMs and mixed-effects models without learning probabilistic programming.",
     "category": "Bayesian Econometrics",
     "docs_url": "https://bambinos.github.io/bambi/",
     "github_url": "https://github.com/bambinos/bambi",
     "url": "https://github.com/bambinos/bambi",
-    "install": "pip install bambi"
+    "install": "pip install bambi",
+    "tags": [
+      "Bayesian",
+      "inference"
+    ]
   },
   {
     "name": "LightweightMMM",
-    "description": "Bayesian Marketing Mix Modeling (see Marketing Mix Models section).",
+    "description": "Google's Bayesian Marketing Mix Modeling library built on NumPyro/JAX. Estimates channel attribution with uncertainty quantification. Supports Adstock, Hill-Adstock, and Carryover models plus hierarchical geographic breakdowns. Best for: marketing teams needing production-ready MMM with budget optimization and ROI estimation.",
     "category": "Bayesian Econometrics",
     "docs_url": null,
     "github_url": "https://github.com/google/lightweight_mmm",
     "url": "https://github.com/google/lightweight_mmm",
-    "install": "pip install lightweight_mmm"
+    "install": "pip install lightweight_mmm",
+    "tags": [
+      "Bayesian",
+      "inference"
+    ]
   },
   {
     "name": "NumPyro",
-    "description": "Probabilistic programming library built on JAX for scalable Bayesian inference, often faster than PyMC.",
+    "description": "Lightweight probabilistic programming on JAX with GPU/TPU acceleration and JIT compilation. Faster than PyMC for large models due to hardware acceleration. Unlike PyMC (larger ecosystem, more tutorials), NumPyro prioritizes speed and functional programming style. Best for: performance-critical inference, GPU-accelerated MCMC, or JAX-based workflows.",
     "category": "Bayesian Econometrics",
     "docs_url": "https://num.pyro.ai/",
     "github_url": "https://github.com/pyro-ppl/numpyro",
     "url": "https://github.com/pyro-ppl/numpyro",
-    "install": "pip install numpyro"
+    "install": "pip install numpyro",
+    "tags": [
+      "Bayesian",
+      "inference"
+    ]
   },
   {
     "name": "PyMC",
-    "description": "Flexible probabilistic programming library for Bayesian modeling and inference using MCMC algorithms (NUTS).",
+    "description": "The most popular Python Bayesian library with intuitive syntax and NUTS sampler for complex models. Rich ecosystem (Bambi, CausalPy, PyMC-Marketing) and extensive documentation. Unlike NumPyro (faster but steeper learning curve), PyMC prioritizes accessibility and community support. Best for: most Bayesian modeling needs—the default choice unless you need GPU acceleration.",
     "category": "Bayesian Econometrics",
     "docs_url": "https://www.pymc.io/",
     "github_url": "https://github.com/pymc-devs/pymc",
     "url": "https://github.com/pymc-devs/pymc",
-    "install": "pip install pymc"
+    "install": "pip install pymc",
+    "tags": [
+      "Bayesian",
+      "inference"
+    ]
   },
   {
     "name": "Ananke",
-    "description": "Causal inference using graphical models (DAGs), including identification theory and effect estimation.",
+    "description": "Focused on causal identification theory—determining when causal effects can be estimated from DAGs. Implements ID algorithm and frontdoor/backdoor criteria. Unlike discovery tools (causal-learn, CDT), Ananke assumes you have a DAG and asks 'can I estimate this effect?' Best for: researchers working on identification problems in structural causal models.",
     "category": "Causal Discovery & Graphical Models",
     "docs_url": "https://ananke.readthedocs.io/",
     "github_url": "[https://github.com/py-why/Ananke](https://github.com/ghosthamlet/ananke",
     "url": "[https://github.com/py-why/Ananke](https://github.com/ghosthamlet/ananke",
-    "install": "pip install ananke-causal"
+    "install": "pip install ananke-causal",
+    "tags": [
+      "causal inference",
+      "graphs"
+    ]
   },
   {
     "name": "Causal Discovery Toolbox (CDT)",
-    "description": "Implements algorithms for causal discovery (recovering causal graph structure) from observational data.",
+    "description": "Comprehensive discovery toolkit with graph inference (PC, GES, LiNGAM, CAM) and pairwise methods (ANM, IGCI). Integrates R packages (bnlearn, pcalg) in unified Python API with GPU support. Unlike causal-learn (Tetrad focus), CDT emphasizes pairwise methods and hardware flexibility. Best for: researchers needing diverse algorithms with CPU/GPU computation.",
     "category": "Causal Discovery & Graphical Models",
     "docs_url": "https://fentechsolutions.github.io/CausalDiscoveryToolbox/html/index.html",
     "github_url": "https://github.com/FenTechSolutions/CausalDiscoveryToolbox",
     "url": "https://github.com/FenTechSolutions/CausalDiscoveryToolbox",
-    "install": "pip install cdt"
+    "install": "pip install cdt",
+    "tags": [
+      "causal inference",
+      "graphs"
+    ]
   },
   {
     "name": "CausalNex",
-    "description": "Uses Bayesian Networks for causal reasoning, combining ML with expert knowledge to model relationships.",
+    "description": "McKinsey/QuantumBlack toolkit combining Bayesian Networks with domain expertise. Unique focus on integrating expert knowledge into structure learning, plus do-calculus for intervention analysis. Unlike pure-ML tools, designed for business practitioners who know their domain. Best for: applied causal analysis where you want to encode domain knowledge alongside data-driven discovery.",
     "category": "Causal Discovery & Graphical Models",
     "docs_url": null,
     "github_url": "https://github.com/microsoft/causalnex",
     "url": "https://github.com/microsoft/causalnex",
-    "install": "pip install causalnex"
+    "install": "pip install causalnex",
+    "tags": [
+      "causal inference",
+      "graphs",
+      "Bayesian"
+    ]
   },
   {
     "name": "LiNGAM",
-    "description": "Specialized package for learning non-Gaussian linear causal models, implementing various versions of the LiNGAM algorithm including ICA-based methods.",
+    "description": "Exploits non-Gaussianity to identify causal directions—unique capability unavailable with Gaussian assumptions. Implements ICA-LiNGAM, DirectLiNGAM, VAR-LiNGAM for time series, and variants for latent confounders. Unlike constraint-based methods (PC), identifies unique causal orderings. Best for: discovering causal structure when your data is non-Gaussian (most real-world data).",
     "category": "Causal Discovery & Graphical Models",
     "docs_url": "https://lingam.readthedocs.io/",
     "github_url": "https://github.com/cdt15/lingam",
     "url": "https://github.com/cdt15/lingam",
-    "install": "pip install lingam"
+    "install": "pip install lingam",
+    "tags": [
+      "causal inference",
+      "graphs"
+    ]
   },
   {
     "name": "Tigramite",
-    "description": "Specialized package for causal inference in time series data implementing PCMCI, PCMCIplus, LPCMCI algorithms with conditional independence tests.",
+    "description": "Purpose-built for time series causal discovery with PCMCI, PCMCIplus, and LPCMCI algorithms. Handles lagged relationships, autocorrelation, and contemporaneous effects. Multiple conditional independence tests (ParCorr, CMIknn). Unlike cross-sectional methods, explicitly models temporal structure. Best for: discovering causal relationships in panel/time series data where timing matters.",
     "category": "Causal Discovery & Graphical Models",
     "docs_url": "https://tigramite.readthedocs.io/",
     "github_url": "https://github.com/jakobrunge/tigramite",
     "url": "https://github.com/jakobrunge/tigramite",
-    "install": "pip install tigramite"
+    "install": "pip install tigramite",
+    "tags": [
+      "causal inference",
+      "graphs"
+    ]
   },
   {
     "name": "causal-learn",
-    "description": "Comprehensive Python package serving as Python translation and extension of Java-based Tetrad toolkit for causal discovery algorithms.",
+    "description": "Python translation of CMU's Tetrad with constraint-based, score-based, and functional causal model methods. Most comprehensive pure-Python option for classical algorithms plus utilities (independence tests, graph operations). Unlike CDT (more pairwise focus), emphasizes Tetrad's proven algorithms. Best for: researchers wanting Tetrad's methods in native Python with good documentation.",
     "category": "Causal Discovery & Graphical Models",
     "docs_url": "https://causal-learn.readthedocs.io/",
     "github_url": "https://github.com/py-why/causal-learn",
     "url": "https://github.com/py-why/causal-learn",
-    "install": "pip install causal-learn"
+    "install": "pip install causal-learn",
+    "tags": [
+      "causal inference",
+      "graphs"
+    ]
   },
   {
     "name": "gCastle",
-    "description": "Huawei Noah's Ark Lab end-to-end causal structure learning toolchain emphasizing gradient-based methods with GPU acceleration (NOTEARS, GOLEM).",
+    "description": "Huawei's gradient-based causal discovery toolchain with NOTEARS, GOLEM, and neural approaches (CausalVAE, GAE). GPU-accelerated for scalability. Unlike constraint-based methods (PC, FCI), frames structure learning as continuous optimization. Best for: large-scale discovery problems where gradient methods outperform combinatorial search.",
     "category": "Causal Discovery & Graphical Models",
     "docs_url": "https://gcastle.readthedocs.io/",
     "github_url": "https://github.com/huawei-noah/trustworthyAI",
     "url": "https://github.com/huawei-noah/trustworthyAI",
-    "install": "pip install gcastle"
+    "install": "pip install gcastle",
+    "tags": [
+      "causal inference",
+      "graphs"
+    ]
   },
   {
     "name": "py-tetrad",
-    "description": "Python interface to Tetrad Java library using JPype, providing direct access to Tetrad's causal discovery algorithms with efficient data translation.",
+    "description": "Direct Python interface to CMU's Tetrad Java library via JPype—access to ALL Tetrad algorithms, not just translated ones. Unlike causal-learn (native Python subset), provides complete Tetrad functionality including latest research methods. Best for: users needing Tetrad's full algorithm library or specific methods not yet ported to causal-learn.",
     "category": "Causal Discovery & Graphical Models",
     "docs_url": null,
     "github_url": "https://github.com/py-why/py-tetrad",
     "url": "https://github.com/py-why/py-tetrad",
-    "install": "Available on GitHub (installation via git clone)"
+    "install": "Available on GitHub (installation via git clone)",
+    "tags": [
+      "causal inference",
+      "graphs"
+    ]
   },
   {
     "name": "CausalInference",
-    "description": "Implements classical causal inference methods like propensity score matching, inverse probability weighting, stratification.",
+    "description": "Classic econometric toolkit for propensity score methods: matching, IPW, subclassification, and blocking. Includes covariate balance diagnostics and trimming. Unlike ML-heavy alternatives (CausalML, EconML), focuses on transparent, well-understood methods. Best for: researchers wanting traditional program evaluation methods with clear statistical foundations.",
     "category": "Causal Inference & Matching",
     "docs_url": "https://causalinferenceinpython.org",
     "github_url": "https://github.com/laurencium/causalinference",
     "url": "https://github.com/laurencium/causalinference",
-    "install": "pip install CausalInference"
+    "install": "pip install CausalInference",
+    "tags": [
+      "causal inference",
+      "matching"
+    ]
   },
   {
     "name": "CausalLib",
-    "description": "IBM-developed package that provides a scikit-learn-inspired API for causal inference with meta-algorithms supporting arbitrary machine learning models.",
+    "description": "Scikit-learn-style API where you plug ANY ML model into causal meta-algorithms (IPW, standardization). Supports fit/predict workflow and out-of-bag estimation for honest inference. Unlike fixed-algorithm packages, maximizes flexibility in model choice. Best for: practitioners who want to use their preferred ML models within a principled causal framework.",
     "category": "Causal Inference & Matching",
     "docs_url": "https://causallib.readthedocs.io/",
     "github_url": "https://github.com/IBM/causallib",
     "url": "https://github.com/IBM/causallib",
-    "install": "pip install causallib"
+    "install": "pip install causallib",
+    "tags": [
+      "causal inference",
+      "matching"
+    ]
   },
   {
     "name": "CausalML",
-    "description": "Focuses on uplift modeling and heterogeneous treatment effect estimation using machine learning techniques.",
+    "description": "Uber's library for heterogeneous treatment effects and uplift modeling. Implements meta-learners (T/S/X/R-learner), causal forests, TMLE, and deep learning approaches. Unlike EconML (more DML focus), emphasizes marketing applications and individual-level targeting. Best for: identifying which customers respond to interventions, personalized treatment assignment.",
     "category": "Causal Inference & Matching",
     "docs_url": "https://causalml.readthedocs.io/",
     "github_url": "https://github.com/uber/causalml",
     "url": "https://github.com/uber/causalml",
-    "install": "pip install causalml"
+    "install": "pip install causalml",
+    "tags": [
+      "causal inference",
+      "matching"
+    ]
   },
   {
     "name": "CausalMatch",
-    "description": "Implements Propensity Score Matching (PSM) and Coarsened Exact Matching (CEM) with ML flexibility for propensity score estimation.",
+    "description": "ByteDance's matching library with Propensity Score Matching (PSM) and Coarsened Exact Matching (CEM). Allows any ML model for propensity estimation. Unlike traditional matching packages, designed for large-scale production matching at tech company scale. Best for: large-scale observational studies where you need fast, flexible matching.",
     "category": "Causal Inference & Matching",
     "docs_url": "https://github.com/bytedance/CausalMatch",
     "github_url": null,
     "url": "https://github.com/bytedance/CausalMatch",
-    "install": "pip install causalmatch"
+    "install": "pip install causalmatch",
+    "tags": [
+      "causal inference",
+      "matching"
+    ]
   },
   {
     "name": "CausalPlayground",
-    "description": "Python library for causal research that addresses the scarcity of real-world datasets with known causal relations. Provides fine-grained control over structural causal models.",
+    "description": "Synthetic data generator for causal research—create datasets with known ground-truth causal structures. Fine-grained control over structural causal models for benchmarking algorithms. Unlike real datasets (unknown truth), enables rigorous method validation. Best for: developing and testing causal discovery/inference algorithms where you need ground truth.",
     "category": "Causal Inference & Matching",
     "docs_url": "https://causal-playground.readthedocs.io/",
     "github_url": "https://github.com/causal-playground/causal-playground",
     "url": "https://github.com/causal-playground/causal-playground",
-    "install": "pip install causal-playground"
+    "install": "pip install causal-playground",
+    "tags": [
+      "causal inference",
+      "matching"
+    ]
   },
   {
     "name": "CausalPy",
-    "description": "Developed by PyMC Labs, focuses specifically on causal inference in quasi-experimental settings. Specializes in scenarios where randomization is impossible or expensive.",
+    "description": "PyMC Labs' Bayesian toolkit for quasi-experiments: synthetic control, DiD, regression discontinuity, interrupted time series, and IV regression. Provides uncertainty quantification via Bayesian methods. Unlike frequentist packages, gives full posterior distributions. Best for: policy evaluation when you need Bayesian credible intervals, not just point estimates.",
     "category": "Causal Inference & Matching",
     "docs_url": "https://www.pymc-marketing.io/",
     "github_url": "https://github.com/pymc-labs/pymc-marketing",
     "url": "https://github.com/pymc-labs/pymc-marketing",
-    "install": "pip install CausalPy"
+    "install": "pip install CausalPy",
+    "tags": [
+      "causal inference",
+      "matching"
+    ]
   },
   {
     "name": "DoWhy",
-    "description": "End-to-end framework for causal inference based on causal graphs (DAGs) and potential outcomes. Covers identification, estimation, refutation.",
+    "description": "Microsoft's end-to-end causal framework combining graphical models and potential outcomes. Unique 4-step workflow: Model (define DAG) → Identify (check estimability) → Estimate (compute effects) → Refute (validate assumptions). Unlike single-method packages, enforces disciplined causal reasoning. Best for: rigorous causal analysis where you want explicit assumption documentation and robustness checks.",
     "category": "Causal Inference & Matching",
     "docs_url": "https://www.pywhy.org/dowhy/",
     "github_url": "https://github.com/py-why/dowhy",
     "url": "https://github.com/py-why/dowhy",
-    "install": "pip install dowhy"
+    "install": "pip install dowhy",
+    "tags": [
+      "causal inference",
+      "matching"
+    ]
   },
   {
     "name": "fastmatch",
-    "description": "Fast k-nearest-neighbor matching for large datasets using Facebook's FAISS library.",
+    "description": "High-performance k-nearest-neighbor matching using Facebook's FAISS library. Optimized for millions of observations where traditional matching is too slow. Unlike standard matching implementations, designed for big data scale. Best for: propensity score or covariate matching on massive datasets where speed is critical.",
     "category": "Causal Inference & Matching",
     "docs_url": "https://github.com/py-econometrics/fastmatch",
     "github_url": null,
     "url": "https://github.com/py-econometrics/fastmatch",
-    "install": "pip install fastmatch"
+    "install": "pip install fastmatch",
+    "tags": [
+      "causal inference",
+      "matching"
+    ]
   },
   {
     "name": "scikit-uplift",
-    "description": "Focuses on uplift modeling and estimating heterogeneous treatment effects using various ML-based methods.",
+    "description": "Sklearn-compatible uplift modeling with AUUC, Qini metrics, and visualization tools. Works with any sklearn estimator (XGBoost, LightGBM, etc.). Unlike CausalML (more comprehensive), prioritizes simplicity and sklearn integration. Best for: marketing teams wanting straightforward uplift modeling that fits into existing sklearn pipelines.",
     "category": "Causal Inference & Matching",
     "docs_url": "https://scikit-uplift.readthedocs.io/en/latest/",
     "github_url": "https://github.com/maks-sh/scikit-uplift",
     "url": "https://github.com/maks-sh/scikit-uplift",
-    "install": "pip install scikit-uplift"
+    "install": "pip install scikit-uplift",
+    "tags": [
+      "causal inference",
+      "matching"
+    ]
   },
   {
     "name": "Scikit-learn",
@@ -249,7 +360,11 @@
     "docs_url": "https://scikit-learn.org/",
     "github_url": "https://github.com/scikit-learn/scikit-learn",
     "url": "https://github.com/scikit-learn/scikit-learn",
-    "install": "pip install scikit-learn"
+    "install": "pip install scikit-learn",
+    "tags": [
+      "regression",
+      "linear models"
+    ]
   },
   {
     "name": "Statsmodels",
@@ -258,7 +373,11 @@
     "docs_url": "https://www.statsmodels.org/",
     "github_url": "https://github.com/statsmodels/statsmodels",
     "url": "https://github.com/statsmodels/statsmodels",
-    "install": "pip install statsmodels"
+    "install": "pip install statsmodels",
+    "tags": [
+      "regression",
+      "linear models"
+    ]
   },
   {
     "name": "FactorAnalyzer",
@@ -267,7 +386,11 @@
     "docs_url": "https://factor-analyzer.readthedocs.io/en/latest/",
     "github_url": "https://github.com/EducationalTestingService/factor_analyzer",
     "url": "https://github.com/EducationalTestingService/factor_analyzer",
-    "install": "pip install factor_analyzer"
+    "install": "pip install factor_analyzer",
+    "tags": [
+      "machine learning",
+      "dimensionality"
+    ]
   },
   {
     "name": "openTSNE",
@@ -276,7 +399,11 @@
     "docs_url": "https://opentsne.readthedocs.io/en/stable/",
     "github_url": "https://github.com/pavlin-policar/openTSNE",
     "url": "https://github.com/pavlin-policar/openTSNE",
-    "install": "pip install opentsne"
+    "install": "pip install opentsne",
+    "tags": [
+      "machine learning",
+      "dimensionality"
+    ]
   },
   {
     "name": "umap-learn",
@@ -285,7 +412,11 @@
     "docs_url": "https://umap-learn.readthedocs.io/en/latest/",
     "github_url": "https://github.com/lmcinnes/umap",
     "url": "https://github.com/lmcinnes/umap",
-    "install": "pip install umap-learn"
+    "install": "pip install umap-learn",
+    "tags": [
+      "machine learning",
+      "dimensionality"
+    ]
   },
   {
     "name": "Biogeme",
@@ -294,7 +425,11 @@
     "docs_url": "https://biogeme.epfl.ch/index.html",
     "github_url": "https://github.com/michelbierlaire/biogeme",
     "url": "https://github.com/michelbierlaire/biogeme",
-    "install": "pip install biogeme"
+    "install": "pip install biogeme",
+    "tags": [
+      "discrete choice",
+      "logit"
+    ]
   },
   {
     "name": "PyBLP",
@@ -303,7 +438,11 @@
     "docs_url": "https://pyblp.readthedocs.io/",
     "github_url": "https://github.com/jeffgortmaker/pyblp",
     "url": "https://github.com/jeffgortmaker/pyblp",
-    "install": "pip install pyblp"
+    "install": "pip install pyblp",
+    "tags": [
+      "discrete choice",
+      "logit"
+    ]
   },
   {
     "name": "PyLogit",
@@ -312,7 +451,11 @@
     "docs_url": null,
     "github_url": "https://github.com/timothyb0912/pylogit",
     "url": "https://github.com/timothyb0912/pylogit",
-    "install": "pip install pylogit"
+    "install": "pip install pylogit",
+    "tags": [
+      "discrete choice",
+      "logit"
+    ]
   },
   {
     "name": "XLogit",
@@ -321,7 +464,11 @@
     "docs_url": "https://xlogit.readthedocs.io/",
     "github_url": "https://github.com/arteagac/xlogit",
     "url": "https://github.com/arteagac/xlogit",
-    "install": "pip install xlogit"
+    "install": "pip install xlogit",
+    "tags": [
+      "discrete choice",
+      "logit"
+    ]
   },
   {
     "name": "torch-choice",
@@ -330,7 +477,11 @@
     "docs_url": "https://gsbdbi.github.io/torch-choice/",
     "github_url": "https://github.com/gsbDBI/torch-choice",
     "url": "https://github.com/gsbDBI/torch-choice",
-    "install": "pip install torch-choice"
+    "install": "pip install torch-choice",
+    "tags": [
+      "discrete choice",
+      "logit"
+    ]
   },
   {
     "name": "DoubleML",
@@ -339,7 +490,11 @@
     "docs_url": "https://docs.doubleml.org/",
     "github_url": "https://github.com/DoubleML/doubleml-for-py",
     "url": "https://github.com/DoubleML/doubleml-for-py",
-    "install": "pip install DoubleML"
+    "install": "pip install DoubleML",
+    "tags": [
+      "machine learning",
+      "causal inference"
+    ]
   },
   {
     "name": "EconML",
@@ -348,7 +503,11 @@
     "docs_url": "https://econml.azurewebsites.net/",
     "github_url": "https://github.com/py-why/EconML",
     "url": "https://github.com/py-why/EconML",
-    "install": "pip install econml"
+    "install": "pip install econml",
+    "tags": [
+      "machine learning",
+      "causal inference"
+    ]
   },
   {
     "name": "pydoublelasso",
@@ -357,7 +516,11 @@
     "docs_url": "https://pypi.org/project/pydoublelasso/",
     "github_url": null,
     "url": "https://pypi.org/project/pydoublelasso/",
-    "install": "pip install pydoublelasso"
+    "install": "pip install pydoublelasso",
+    "tags": [
+      "machine learning",
+      "causal inference"
+    ]
   },
   {
     "name": "pyhtelasso",
@@ -366,7 +529,11 @@
     "docs_url": "https://pypi.org/project/pyhtelasso/",
     "github_url": null,
     "url": "https://pypi.org/project/pyhtelasso/",
-    "install": "pip install pyhtelasso"
+    "install": "pip install pyhtelasso",
+    "tags": [
+      "machine learning",
+      "causal inference"
+    ]
   },
   {
     "name": "py-econometrics `gmm`",
@@ -375,7 +542,11 @@
     "docs_url": "https://github.com/py-econometrics/gmm",
     "github_url": null,
     "url": "https://github.com/py-econometrics/gmm",
-    "install": "pip install gmm"
+    "install": "pip install gmm",
+    "tags": [
+      "IV",
+      "GMM"
+    ]
   },
   {
     "name": "Lifetimes",
@@ -384,7 +555,11 @@
     "docs_url": "https://lifetimes.readthedocs.io/en/latest/",
     "github_url": "https://github.com/CamDavidsonPilon/lifetimes",
     "url": "https://github.com/CamDavidsonPilon/lifetimes",
-    "install": "pip install lifetimes"
+    "install": "pip install lifetimes",
+    "tags": [
+      "marketing",
+      "analytics"
+    ]
   },
   {
     "name": "MaMiMo",
@@ -393,7 +568,11 @@
     "docs_url": null,
     "github_url": "https://github.com/Garve/mamimo",
     "url": "https://github.com/Garve/mamimo",
-    "install": "pip install mamimo"
+    "install": "pip install mamimo",
+    "tags": [
+      "marketing",
+      "analytics"
+    ]
   },
   {
     "name": "PyMC Marketing",
@@ -402,7 +581,12 @@
     "docs_url": "https://www.pymc-marketing.io/",
     "github_url": "https://github.com/pymc-labs/pymc-marketing",
     "url": "https://github.com/pymc-labs/pymc-marketing",
-    "install": "pip install pymc-marketing"
+    "install": "pip install pymc-marketing",
+    "tags": [
+      "marketing",
+      "analytics",
+      "Bayesian"
+    ]
   },
   {
     "name": "mmm_stan",
@@ -411,7 +595,12 @@
     "docs_url": null,
     "github_url": "https://github.com/sibylhe/mmm_stan",
     "url": "https://github.com/sibylhe/mmm_stan",
-    "install": "GitHub Repository"
+    "install": "GitHub Repository",
+    "tags": [
+      "marketing",
+      "analytics",
+      "Bayesian"
+    ]
   },
   {
     "name": "Gensim",
@@ -420,7 +609,11 @@
     "docs_url": "https://radimrehurek.com/gensim/",
     "github_url": "https://github.com/RaRe-Technologies/gensim",
     "url": "https://github.com/RaRe-Technologies/gensim",
-    "install": "pip install gensim"
+    "install": "pip install gensim",
+    "tags": [
+      "NLP",
+      "text analysis"
+    ]
   },
   {
     "name": "Transformers",
@@ -429,7 +622,11 @@
     "docs_url": "https://huggingface.co/transformers/",
     "github_url": "https://github.com/huggingface/transformers",
     "url": "https://github.com/huggingface/transformers",
-    "install": "pip install transformers"
+    "install": "pip install transformers",
+    "tags": [
+      "NLP",
+      "text analysis"
+    ]
   },
   {
     "name": "spaCy",
@@ -438,7 +635,11 @@
     "docs_url": "https://spacy.io/",
     "github_url": "https://github.com/explosion/spaCy",
     "url": "https://github.com/explosion/spaCy",
-    "install": "pip install spacy"
+    "install": "pip install spacy",
+    "tags": [
+      "NLP",
+      "text analysis"
+    ]
   },
   {
     "name": "JAX",
@@ -447,7 +648,11 @@
     "docs_url": "https://jax.readthedocs.io/",
     "github_url": "https://github.com/google/jax",
     "url": "https://github.com/google/jax",
-    "install": "pip install jax"
+    "install": "pip install jax",
+    "tags": [
+      "optimization",
+      "computation"
+    ]
   },
   {
     "name": "PyTorch",
@@ -456,7 +661,12 @@
     "docs_url": "https://pytorch.org/",
     "github_url": "https://github.com/pytorch/pytorch",
     "url": "https://github.com/pytorch/pytorch",
-    "install": "(See PyTorch website)"
+    "install": "(See PyTorch website)",
+    "tags": [
+      "optimization",
+      "computation",
+      "machine learning"
+    ]
   },
   {
     "name": "FixedEffectModelPyHDFE",
@@ -465,7 +675,11 @@
     "docs_url": "https://pypi.org/project/FixedEffectModelPyHDFE/",
     "github_url": null,
     "url": "https://pypi.org/project/FixedEffectModelPyHDFE/",
-    "install": "pip install FixedEffectModelPyHDFE"
+    "install": "pip install FixedEffectModelPyHDFE",
+    "tags": [
+      "panel data",
+      "fixed effects"
+    ]
   },
   {
     "name": "Linearmodels",
@@ -474,7 +688,11 @@
     "docs_url": "https://bashtage.github.io/linearmodels/",
     "github_url": "https://github.com/bashtage/linearmodels",
     "url": "https://github.com/bashtage/linearmodels",
-    "install": "pip install linearmodels"
+    "install": "pip install linearmodels",
+    "tags": [
+      "panel data",
+      "fixed effects"
+    ]
   },
   {
     "name": "PyFixest",
@@ -483,7 +701,11 @@
     "docs_url": "https://github.com/py-econometrics/pyfixest",
     "github_url": null,
     "url": "https://github.com/py-econometrics/pyfixest",
-    "install": "pip install pyfixest"
+    "install": "pip install pyfixest",
+    "tags": [
+      "panel data",
+      "fixed effects"
+    ]
   },
   {
     "name": "duckreg",
@@ -492,7 +714,11 @@
     "docs_url": "https://github.com/py-econometrics/duckreg",
     "github_url": null,
     "url": "https://github.com/py-econometrics/duckreg",
-    "install": "pip install duckreg"
+    "install": "pip install duckreg",
+    "tags": [
+      "panel data",
+      "fixed effects"
+    ]
   },
   {
     "name": "pydynpd",
@@ -501,7 +727,11 @@
     "docs_url": "https://doi.org/10.21105/joss.04416",
     "github_url": "https://github.com/dazhwu/pydynpd",
     "url": "https://github.com/dazhwu/pydynpd",
-    "install": "pip install pydynpd"
+    "install": "pip install pydynpd",
+    "tags": [
+      "panel data",
+      "fixed effects"
+    ]
   },
   {
     "name": "ADOpy",
@@ -510,7 +740,12 @@
     "docs_url": "https://adopy.readthedocs.io/en/latest/",
     "github_url": "https://github.com/adopy/adopy",
     "url": "https://github.com/adopy/adopy",
-    "install": "pip install adopy"
+    "install": "pip install adopy",
+    "tags": [
+      "power analysis",
+      "experiments",
+      "Bayesian"
+    ]
   },
   {
     "name": "Adaptive",
@@ -519,7 +754,11 @@
     "docs_url": "https://adaptive.readthedocs.io/en/latest/",
     "github_url": "https://github.com/python-adaptive/adaptive",
     "url": "https://github.com/python-adaptive/adaptive",
-    "install": "pip install adaptive"
+    "install": "pip install adaptive",
+    "tags": [
+      "power analysis",
+      "experiments"
+    ]
   },
   {
     "name": "DoEgen",
@@ -528,7 +767,11 @@
     "docs_url": null,
     "github_url": "https://github.com/sebhaan/DoEgen",
     "url": "https://github.com/sebhaan/DoEgen",
-    "install": "pip install DoEgen"
+    "install": "pip install DoEgen",
+    "tags": [
+      "power analysis",
+      "experiments"
+    ]
   },
   {
     "name": "pyDOE2",
@@ -537,7 +780,11 @@
     "docs_url": "https://pythonhosted.org/pyDOE2/",
     "github_url": "https://github.com/clicumu/pyDOE2",
     "url": "https://github.com/clicumu/pyDOE2",
-    "install": "pip install pyDOE2"
+    "install": "pip install pyDOE2",
+    "tags": [
+      "power analysis",
+      "experiments"
+    ]
   },
   {
     "name": "CausalImpact",
@@ -546,7 +793,13 @@
     "docs_url": "https://google.github.io/CausalImpact/CausalImpact/CausalImpact.html",
     "github_url": "https://github.com/tcassou/causal_impact",
     "url": "https://github.com/tcassou/causal_impact",
-    "install": "pip install causalimpact"
+    "install": "pip install causalimpact",
+    "tags": [
+      "DiD",
+      "synthetic control",
+      "RDD",
+      "Bayesian"
+    ]
   },
   {
     "name": "Differences",
@@ -555,7 +808,12 @@
     "docs_url": "https://bernardodionisi.github.io/differences/",
     "github_url": "https://github.com/bernardodionisi/differences",
     "url": "https://github.com/bernardodionisi/differences",
-    "install": "pip install differences"
+    "install": "pip install differences",
+    "tags": [
+      "DiD",
+      "synthetic control",
+      "RDD"
+    ]
   },
   {
     "name": "SyntheticControlMethods",
@@ -564,7 +822,12 @@
     "docs_url": null,
     "github_url": "https://github.com/OscarEngelbrektson/SyntheticControlMethods",
     "url": "https://github.com/OscarEngelbrektson/SyntheticControlMethods",
-    "install": "pip install SyntheticControlMethods"
+    "install": "pip install SyntheticControlMethods",
+    "tags": [
+      "DiD",
+      "synthetic control",
+      "RDD"
+    ]
   },
   {
     "name": "csdid",
@@ -573,7 +836,12 @@
     "docs_url": null,
     "github_url": "https://github.com/d2cml-ai/csdid",
     "url": "https://github.com/d2cml-ai/csdid",
-    "install": "pip install csdid"
+    "install": "pip install csdid",
+    "tags": [
+      "DiD",
+      "synthetic control",
+      "RDD"
+    ]
   },
   {
     "name": "mlsynth",
@@ -582,7 +850,12 @@
     "docs_url": "https://mlsynth.readthedocs.io/en/latest/",
     "github_url": "https://github.com/jaredjgreathouse/mlsynth",
     "url": "https://github.com/jaredjgreathouse/mlsynth",
-    "install": "pip install mlsynth"
+    "install": "pip install mlsynth",
+    "tags": [
+      "DiD",
+      "synthetic control",
+      "RDD"
+    ]
   },
   {
     "name": "pycinc",
@@ -591,7 +864,13 @@
     "docs_url": "https://pypi.org/project/pycinc/",
     "github_url": null,
     "url": "https://pypi.org/project/pycinc/",
-    "install": "pip install pycinc"
+    "install": "pip install pycinc",
+    "tags": [
+      "DiD",
+      "synthetic control",
+      "RDD",
+      "causal inference"
+    ]
   },
   {
     "name": "pyleebounds",
@@ -600,7 +879,13 @@
     "docs_url": "https://pypi.org/project/pyleebounds/",
     "github_url": null,
     "url": "https://pypi.org/project/pyleebounds/",
-    "install": "pip install pyleebounds"
+    "install": "pip install pyleebounds",
+    "tags": [
+      "DiD",
+      "synthetic control",
+      "RDD",
+      "causal inference"
+    ]
   },
   {
     "name": "rdd",
@@ -609,7 +894,12 @@
     "docs_url": null,
     "github_url": "https://github.com/evan-magnusson/rdd",
     "url": "https://github.com/evan-magnusson/rdd",
-    "install": "pip install rdd"
+    "install": "pip install rdd",
+    "tags": [
+      "DiD",
+      "synthetic control",
+      "RDD"
+    ]
   },
   {
     "name": "rdrobust",
@@ -618,7 +908,12 @@
     "docs_url": "https://pypi.org/project/rdrobust/",
     "github_url": "https://github.com/rdpackages/rdrobust",
     "url": "https://github.com/rdpackages/rdrobust",
-    "install": "pip install rdrobust"
+    "install": "pip install rdrobust",
+    "tags": [
+      "DiD",
+      "synthetic control",
+      "RDD"
+    ]
   },
   {
     "name": "pyqreg",
@@ -627,7 +922,11 @@
     "docs_url": "https://github.com/mozjay0619/pyqreg",
     "github_url": null,
     "url": "https://github.com/mozjay0619/pyqreg",
-    "install": "pip install pyqreg"
+    "install": "pip install pyqreg",
+    "tags": [
+      "quantile",
+      "regression"
+    ]
   },
   {
     "name": "pyrifreg",
@@ -636,7 +935,11 @@
     "docs_url": "https://github.com/vyasenov/pyrifreg",
     "github_url": null,
     "url": "https://github.com/vyasenov/pyrifreg",
-    "install": "pip install pyrifreg"
+    "install": "pip install pyrifreg",
+    "tags": [
+      "quantile",
+      "regression"
+    ]
   },
   {
     "name": "quantile-forest",
@@ -645,7 +948,11 @@
     "docs_url": "https://zillow.github.io/quantile-forest/",
     "github_url": "https://github.com/zillow/quantile-forest",
     "url": "https://github.com/zillow/quantile-forest",
-    "install": "pip install quantile-forest"
+    "install": "pip install quantile-forest",
+    "tags": [
+      "quantile",
+      "regression"
+    ]
   },
   {
     "name": "(PySAL Core)",
@@ -654,7 +961,11 @@
     "docs_url": "https://pysal.org/",
     "github_url": "https://github.com/pysal/pysal",
     "url": "https://github.com/pysal/pysal",
-    "install": "pip install pysal"
+    "install": "pip install pysal",
+    "tags": [
+      "spatial",
+      "geography"
+    ]
   },
   {
     "name": "PySAL (spreg)",
@@ -663,7 +974,11 @@
     "docs_url": "https://pysal.org/spreg/",
     "github_url": "https://github.com/pysal/spreg",
     "url": "https://github.com/pysal/spreg",
-    "install": "pip install spreg"
+    "install": "pip install spreg",
+    "tags": [
+      "spatial",
+      "geography"
+    ]
   },
   {
     "name": "Awesome Quant",
@@ -672,7 +987,11 @@
     "docs_url": "https://wilsonfreitas.github.io/awesome-quant/",
     "github_url": null,
     "url": "https://wilsonfreitas.github.io/awesome-quant/",
-    "install": ""
+    "install": "",
+    "tags": [
+      "bootstrap",
+      "standard errors"
+    ]
   },
   {
     "name": "Beyond Jupyter (TransferLab)",
@@ -681,7 +1000,11 @@
     "docs_url": "https://transferlab.ai/trainings/beyond-jupyter/",
     "github_url": null,
     "url": "https://transferlab.ai/trainings/beyond-jupyter/",
-    "install": ""
+    "install": "",
+    "tags": [
+      "bootstrap",
+      "standard errors"
+    ]
   },
   {
     "name": "Causal Inference for the Brave and True",
@@ -690,7 +1013,11 @@
     "docs_url": "https://matheusfacure.github.io/python-causality-handbook/",
     "github_url": null,
     "url": "https://matheusfacure.github.io/python-causality-handbook/",
-    "install": ""
+    "install": "",
+    "tags": [
+      "bootstrap",
+      "standard errors"
+    ]
   },
   {
     "name": "Coding for Economists",
@@ -699,7 +1026,11 @@
     "docs_url": "https://aeturrell.github.io/coding-for-economists/",
     "github_url": null,
     "url": "https://aeturrell.github.io/coding-for-economists/",
-    "install": ""
+    "install": "",
+    "tags": [
+      "bootstrap",
+      "standard errors"
+    ]
   },
   {
     "name": "Deep Learning Specialization (Coursera)",
@@ -708,7 +1039,12 @@
     "docs_url": "https://www.coursera.org/specializations/deep-learning",
     "github_url": null,
     "url": "https://www.coursera.org/specializations/deep-learning",
-    "install": ""
+    "install": "",
+    "tags": [
+      "bootstrap",
+      "standard errors",
+      "machine learning"
+    ]
   },
   {
     "name": "Machine Learning Specialization (Coursera)",
@@ -717,7 +1053,11 @@
     "docs_url": "https://www.coursera.org/specializations/machine-learning-introduction/",
     "github_url": null,
     "url": "https://www.coursera.org/specializations/machine-learning-introduction/",
-    "install": ""
+    "install": "",
+    "tags": [
+      "bootstrap",
+      "standard errors"
+    ]
   },
   {
     "name": "Python for Econometrics",
@@ -726,7 +1066,11 @@
     "docs_url": "https://www.kevinsheppard.com/files/teaching/python/notes/python_introduction_2023.pdf",
     "github_url": null,
     "url": "https://www.kevinsheppard.com/files/teaching/python/notes/python_introduction_2023.pdf",
-    "install": ""
+    "install": "",
+    "tags": [
+      "bootstrap",
+      "standard errors"
+    ]
   },
   {
     "name": "QuantEcon Lectures",
@@ -735,7 +1079,11 @@
     "docs_url": "https://quantecon.org/lectures/",
     "github_url": null,
     "url": "https://quantecon.org/lectures/",
-    "install": ""
+    "install": "",
+    "tags": [
+      "bootstrap",
+      "standard errors"
+    ]
   },
   {
     "name": "SciPy Bootstrap",
@@ -744,7 +1092,11 @@
     "docs_url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.bootstrap.html",
     "github_url": "https://github.com/scipy/scipy",
     "url": "https://github.com/scipy/scipy",
-    "install": "pip install scipy"
+    "install": "pip install scipy",
+    "tags": [
+      "bootstrap",
+      "standard errors"
+    ]
   },
   {
     "name": "Stargazer",
@@ -753,7 +1105,11 @@
     "docs_url": null,
     "github_url": "https://github.com/StatsReporting/stargazer",
     "url": "https://github.com/StatsReporting/stargazer",
-    "install": "pip install stargazer"
+    "install": "pip install stargazer",
+    "tags": [
+      "bootstrap",
+      "standard errors"
+    ]
   },
   {
     "name": "The Missing Semester of Your CS Education (MIT)",
@@ -762,7 +1118,11 @@
     "docs_url": "https://missing.csail.mit.edu/",
     "github_url": null,
     "url": "https://missing.csail.mit.edu/",
-    "install": ""
+    "install": "",
+    "tags": [
+      "bootstrap",
+      "standard errors"
+    ]
   },
   {
     "name": "wildboottest",
@@ -771,7 +1131,11 @@
     "docs_url": "https://py-econometrics.github.io/wildboottest/",
     "github_url": "https://github.com/py-econometrics/wildboottest",
     "url": "https://github.com/py-econometrics/wildboottest",
-    "install": "pip install wildboottest"
+    "install": "pip install wildboottest",
+    "tags": [
+      "bootstrap",
+      "standard errors"
+    ]
   },
   {
     "name": "FilterPy",
@@ -780,7 +1144,11 @@
     "docs_url": "https://filterpy.readthedocs.io/en/latest/",
     "github_url": "https://github.com/rlabbe/filterpy",
     "url": "https://github.com/rlabbe/filterpy",
-    "install": "pip install filterpy"
+    "install": "pip install filterpy",
+    "tags": [
+      "volatility",
+      "state space"
+    ]
   },
   {
     "name": "Metran",
@@ -789,7 +1157,11 @@
     "docs_url": null,
     "github_url": "https://github.com/pastas/metran",
     "url": "https://github.com/pastas/metran",
-    "install": "pip install metran"
+    "install": "pip install metran",
+    "tags": [
+      "volatility",
+      "state space"
+    ]
   },
   {
     "name": "PyKalman",
@@ -798,7 +1170,11 @@
     "docs_url": "https://pypi.org/project/pykalman/",
     "github_url": "https://github.com/pykalman/pykalman",
     "url": "https://github.com/pykalman/pykalman",
-    "install": "pip install pykalman"
+    "install": "pip install pykalman",
+    "tags": [
+      "volatility",
+      "state space"
+    ]
   },
   {
     "name": "PyMC Statespace",
@@ -807,7 +1183,12 @@
     "docs_url": "https://pymc-statespace.readthedocs.io/en/latest/",
     "github_url": "https://github.com/pymc-devs/pymc-statespace",
     "url": "https://github.com/pymc-devs/pymc-statespace",
-    "install": "pip install pymc-statespace"
+    "install": "pip install pymc-statespace",
+    "tags": [
+      "volatility",
+      "state space",
+      "Bayesian"
+    ]
   },
   {
     "name": "stochvol",
@@ -816,7 +1197,12 @@
     "docs_url": "https://stochvol.readthedocs.io/en/latest/",
     "github_url": "https://github.com/rektory/stochvol",
     "url": "https://github.com/rektory/stochvol",
-    "install": "pip install stochvol"
+    "install": "pip install stochvol",
+    "tags": [
+      "volatility",
+      "state space",
+      "Bayesian"
+    ]
   },
   {
     "name": "Pingouin",
@@ -825,7 +1211,11 @@
     "docs_url": "https://pingouin-stats.org/",
     "github_url": "https://github.com/raphaelvallat/pingouin",
     "url": "https://github.com/raphaelvallat/pingouin",
-    "install": "pip install pingouin"
+    "install": "pip install pingouin",
+    "tags": [
+      "inference",
+      "hypothesis testing"
+    ]
   },
   {
     "name": "PyWhy-Stats",
@@ -834,7 +1224,11 @@
     "docs_url": "https://pywhy-stats.readthedocs.io/",
     "github_url": "https://github.com/py-why/pywhy-stats",
     "url": "https://github.com/py-why/pywhy-stats",
-    "install": "pip install pywhy-stats"
+    "install": "pip install pywhy-stats",
+    "tags": [
+      "inference",
+      "hypothesis testing"
+    ]
   },
   {
     "name": "Scipy.stats",
@@ -843,7 +1237,11 @@
     "docs_url": "https://docs.scipy.org/doc/scipy/reference/stats.html",
     "github_url": "https://github.com/scipy/scipy",
     "url": "https://github.com/scipy/scipy",
-    "install": "pip install scipy"
+    "install": "pip install scipy",
+    "tags": [
+      "inference",
+      "hypothesis testing"
+    ]
   },
   {
     "name": "hypothetical",
@@ -852,7 +1250,11 @@
     "docs_url": null,
     "github_url": "https://github.com/aschleg/hypothetical",
     "url": "https://github.com/aschleg/hypothetical",
-    "install": "pip install hypothetical"
+    "install": "pip install hypothetical",
+    "tags": [
+      "inference",
+      "hypothesis testing"
+    ]
   },
   {
     "name": "lifelines",
@@ -861,7 +1263,11 @@
     "docs_url": "https://lifelines.readthedocs.io/en/latest/",
     "github_url": "https://github.com/CamDavidsonPilon/lifelines",
     "url": "https://github.com/CamDavidsonPilon/lifelines",
-    "install": "pip install lifelines"
+    "install": "pip install lifelines",
+    "tags": [
+      "inference",
+      "hypothesis testing"
+    ]
   },
   {
     "name": "Dolo",
@@ -870,7 +1276,11 @@
     "docs_url": "https://dolo.readthedocs.io/en/latest/",
     "github_url": "https://github.com/EconForge/dolo",
     "url": "https://github.com/EconForge/dolo",
-    "install": "pip install dolo"
+    "install": "pip install dolo",
+    "tags": [
+      "structural",
+      "estimation"
+    ]
   },
   {
     "name": "HARK",
@@ -879,7 +1289,11 @@
     "docs_url": "https://hark.readthedocs.io/en/latest/",
     "github_url": "https://github.com/econ-ark/HARK",
     "url": "https://github.com/econ-ark/HARK",
-    "install": "pip install econ-ark"
+    "install": "pip install econ-ark",
+    "tags": [
+      "structural",
+      "estimation"
+    ]
   },
   {
     "name": "QuantEcon.py",
@@ -888,7 +1302,11 @@
     "docs_url": "https://quantecon.org/python-lectures/",
     "github_url": "https://github.com/QuantEcon/QuantEcon.py",
     "url": "https://github.com/QuantEcon/QuantEcon.py",
-    "install": "pip install quantecon"
+    "install": "pip install quantecon",
+    "tags": [
+      "structural",
+      "estimation"
+    ]
   },
   {
     "name": "respy",
@@ -897,7 +1315,11 @@
     "docs_url": "https://respy.readthedocs.io/en/latest/",
     "github_url": "https://github.com/OpenSourceEconomics/respy",
     "url": "https://github.com/OpenSourceEconomics/respy",
-    "install": "pip install respy"
+    "install": "pip install respy",
+    "tags": [
+      "structural",
+      "estimation"
+    ]
   },
   {
     "name": "SDV (Synthetic Data Vault)",
@@ -906,7 +1328,11 @@
     "docs_url": "https://sdv.dev/",
     "github_url": "https://github.com/sdv-dev/SDV",
     "url": "https://github.com/sdv-dev/SDV",
-    "install": "pip install sdv"
+    "install": "pip install sdv",
+    "tags": [
+      "synthetic data",
+      "simulation"
+    ]
   },
   {
     "name": "Synthpop",
@@ -915,7 +1341,11 @@
     "docs_url": null,
     "github_url": "https://github.com/alan-turing-institute/synthpop",
     "url": "https://github.com/alan-turing-institute/synthpop",
-    "install": "pip install synthpop"
+    "install": "pip install synthpop",
+    "tags": [
+      "synthetic data",
+      "simulation"
+    ]
   },
   {
     "name": "ARCH",
@@ -924,7 +1354,11 @@
     "docs_url": "https://arch.readthedocs.io/",
     "github_url": "https://github.com/bashtage/arch",
     "url": "https://github.com/bashtage/arch",
-    "install": "pip install arch"
+    "install": "pip install arch",
+    "tags": [
+      "time series",
+      "econometrics"
+    ]
   },
   {
     "name": "Kats",
@@ -933,7 +1367,11 @@
     "docs_url": "https://facebookresearch.github.io/Kats/",
     "github_url": "https://github.com/facebookresearch/Kats",
     "url": "https://github.com/facebookresearch/Kats",
-    "install": "pip install kats"
+    "install": "pip install kats",
+    "tags": [
+      "time series",
+      "econometrics"
+    ]
   },
   {
     "name": "LocalProjections",
@@ -942,7 +1380,11 @@
     "docs_url": null,
     "github_url": "https://github.com/elenev/localprojections",
     "url": "https://github.com/elenev/localprojections",
-    "install": "Install from source"
+    "install": "Install from source",
+    "tags": [
+      "time series",
+      "econometrics"
+    ]
   },
   {
     "name": "MLForecast",
@@ -951,7 +1393,12 @@
     "docs_url": "https://nixtla.github.io/mlforecast/",
     "github_url": "https://github.com/Nixtla/mlforecast",
     "url": "https://github.com/Nixtla/mlforecast",
-    "install": "pip install mlforecast"
+    "install": "pip install mlforecast",
+    "tags": [
+      "forecasting",
+      "time series",
+      "machine learning"
+    ]
   },
   {
     "name": "NeuralForecast",
@@ -960,7 +1407,12 @@
     "docs_url": "https://nixtla.github.io/neuralforecast/",
     "github_url": "https://github.com/Nixtla/neuralforecast",
     "url": "https://github.com/Nixtla/neuralforecast",
-    "install": "pip install neuralforecast"
+    "install": "pip install neuralforecast",
+    "tags": [
+      "forecasting",
+      "time series",
+      "machine learning"
+    ]
   },
   {
     "name": "Prophet",
@@ -969,7 +1421,11 @@
     "docs_url": "https://facebook.github.io/prophet/",
     "github_url": "https://github.com/facebook/prophet",
     "url": "https://github.com/facebook/prophet",
-    "install": "pip install prophet"
+    "install": "pip install prophet",
+    "tags": [
+      "forecasting",
+      "time series"
+    ]
   },
   {
     "name": "StatsForecast",
@@ -978,7 +1434,11 @@
     "docs_url": "https://nixtla.github.io/statsforecast/",
     "github_url": "https://github.com/Nixtla/statsforecast",
     "url": "https://github.com/Nixtla/statsforecast",
-    "install": "pip install statsforecast"
+    "install": "pip install statsforecast",
+    "tags": [
+      "forecasting",
+      "time series"
+    ]
   },
   {
     "name": "pmdarima",
@@ -987,7 +1447,11 @@
     "docs_url": "https://alkaline-ml.com/pmdarima/",
     "github_url": "https://github.com/alkaline-ml/pmdarima",
     "url": "https://github.com/alkaline-ml/pmdarima",
-    "install": "pip install pmdarima"
+    "install": "pip install pmdarima",
+    "tags": [
+      "forecasting",
+      "time series"
+    ]
   },
   {
     "name": "sktime",
@@ -996,7 +1460,12 @@
     "docs_url": "https://www.sktime.net/en/latest/",
     "github_url": "https://github.com/sktime/sktime",
     "url": "https://github.com/sktime/sktime",
-    "install": "pip install sktime"
+    "install": "pip install sktime",
+    "tags": [
+      "forecasting",
+      "time series",
+      "machine learning"
+    ]
   },
   {
     "name": "CatBoost",
@@ -1005,7 +1474,11 @@
     "docs_url": "https://catboost.ai/docs/",
     "github_url": "https://github.com/catboost/catboost",
     "url": "https://github.com/catboost/catboost",
-    "install": "pip install catboost"
+    "install": "pip install catboost",
+    "tags": [
+      "machine learning",
+      "prediction"
+    ]
   },
   {
     "name": "LightGBM",
@@ -1014,7 +1487,11 @@
     "docs_url": "https://lightgbm.readthedocs.io/",
     "github_url": "https://github.com/microsoft/LightGBM",
     "url": "https://github.com/microsoft/LightGBM",
-    "install": "pip install lightgbm"
+    "install": "pip install lightgbm",
+    "tags": [
+      "machine learning",
+      "prediction"
+    ]
   },
   {
     "name": "NGBoost",
@@ -1023,7 +1500,11 @@
     "docs_url": "https://stanfordmlgroup.github.io/ngboost/",
     "github_url": "https://github.com/stanfordmlgroup/ngboost",
     "url": "https://github.com/stanfordmlgroup/ngboost",
-    "install": "pip install ngboost"
+    "install": "pip install ngboost",
+    "tags": [
+      "machine learning",
+      "prediction"
+    ]
   },
   {
     "name": "Scikit-learn Ens.",
@@ -1032,7 +1513,11 @@
     "docs_url": "https://scikit-learn.org/stable/modules/ensemble.html#random-forests",
     "github_url": "https://github.com/scikit-learn/scikit-learn",
     "url": "https://github.com/scikit-learn/scikit-learn",
-    "install": "pip install scikit-learn"
+    "install": "pip install scikit-learn",
+    "tags": [
+      "machine learning",
+      "prediction"
+    ]
   },
   {
     "name": "XGBoost",
@@ -1041,7 +1526,11 @@
     "docs_url": "https://xgboost.readthedocs.io/",
     "github_url": "https://github.com/dmlc/xgboost",
     "url": "https://github.com/dmlc/xgboost",
-    "install": "pip install xgboost"
+    "install": "pip install xgboost",
+    "tags": [
+      "machine learning",
+      "prediction"
+    ]
   },
   {
     "name": "cuML (RAPIDS)",
@@ -1050,6 +1539,10 @@
     "docs_url": "https://docs.rapids.ai/api/cuml/stable/",
     "github_url": "https://github.com/rapidsai/cuml",
     "url": "https://github.com/rapidsai/cuml",
-    "install": "conda install ... (See RAPIDS docs)"
+    "install": "conda install ... (See RAPIDS docs)",
+    "tags": [
+      "machine learning",
+      "prediction"
+    ]
   }
 ]

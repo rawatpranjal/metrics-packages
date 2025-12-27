@@ -64,23 +64,245 @@ a:hover {
     text-decoration: none;
 }
 
-/* Search */
-.search-wrapper {
+/* Enhanced Search Container */
+.search-container {
     max-width: 700px;
     margin: 0 auto 1.5rem;
 }
 
-/* Pagefind UI overrides */
-.pagefind-ui__search-input {
-    font-size: 1rem !important;
-    padding: 0.8rem 1rem !important;
-    border-radius: 8px !important;
-    border: 2px solid #e5e5e5 !important;
+.search-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
-.pagefind-ui__search-input:focus {
-    border-color: #0066cc !important;
-    outline: none !important;
+.search-icon {
+    position: absolute;
+    left: 16px;
+    color: #888;
+    pointer-events: none;
+}
+
+.search-input {
+    width: 100%;
+    padding: 14px 48px 14px 48px;
+    font-size: 1rem;
+    border: 2px solid #e5e5e5;
+    border-radius: 12px;
+    background: white;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    font-family: inherit;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #0066cc;
+    box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+.search-input::placeholder {
+    color: #999;
+}
+
+.clear-btn {
+    position: absolute;
+    right: 12px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: #f0f0f0;
+    cursor: pointer;
+    transition: background 0.2s;
+    color: #666;
+}
+
+.clear-btn:hover {
+    background: #e0e0e0;
+}
+
+.result-count {
+    text-align: center;
+    margin-top: 0.75rem;
+    color: #666;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+}
+
+.result-count.no-match {
+    color: #d32f2f;
+}
+
+/* Category Filter Buttons */
+.category-filters {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.filter-scroll-container {
+    display: flex;
+    gap: 0.5rem;
+    overflow-x: auto;
+    padding: 0.5rem 0;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc transparent;
+    -webkit-overflow-scrolling: touch;
+}
+
+.filter-scroll-container::-webkit-scrollbar {
+    height: 6px;
+}
+
+.filter-scroll-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.filter-scroll-container::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+}
+
+.category-btn {
+    flex-shrink: 0;
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #555;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+    font-family: inherit;
+}
+
+.category-btn:hover {
+    background: #f5f5f5;
+    border-color: #ccc;
+}
+
+.category-btn.active {
+    background: #0066cc;
+    color: white;
+    border-color: #0066cc;
+}
+
+/* Use-Case Tags */
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 0.75rem;
+}
+
+.use-case-tag {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #5a5a5a;
+    background: #f0f0f0;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.use-case-tag:hover {
+    background: #e0e0e0;
+    color: #333;
+}
+
+/* Tag color variations */
+.use-case-tag[data-tag="causal inference"] { background: #e3f2fd; color: #1565c0; }
+.use-case-tag[data-tag="machine learning"] { background: #f3e5f5; color: #7b1fa2; }
+.use-case-tag[data-tag="time series"] { background: #e8f5e9; color: #2e7d32; }
+.use-case-tag[data-tag="Bayesian"] { background: #fff3e0; color: #e65100; }
+.use-case-tag[data-tag="forecasting"] { background: #e0f7fa; color: #00838f; }
+.use-case-tag[data-tag="panel data"] { background: #fce4ec; color: #c2185b; }
+.use-case-tag[data-tag="regression"] { background: #f1f8e9; color: #558b2f; }
+.use-case-tag[data-tag="bootstrap"] { background: #ede7f6; color: #512da8; }
+.use-case-tag[data-tag="A/B testing"] { background: #e8eaf6; color: #3949ab; }
+.use-case-tag[data-tag="matching"] { background: #e0f2f1; color: #00796b; }
+.use-case-tag[data-tag="DiD"] { background: #fff8e1; color: #ff8f00; }
+.use-case-tag[data-tag="synthetic control"] { background: #fbe9e7; color: #d84315; }
+
+/* Card Animation for Filtering */
+.package-card {
+    transition: opacity 0.25s ease, transform 0.25s ease, box-shadow 0.2s;
+}
+
+.package-card.hidden {
+    opacity: 0;
+    transform: scale(0.95);
+    pointer-events: none;
+    position: absolute;
+    visibility: hidden;
+}
+
+.package-card.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Category Section Hiding */
+.category-section {
+    transition: opacity 0.25s ease, max-height 0.3s ease;
+}
+
+.category-section.section-hidden {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* No Results State */
+.no-results {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    text-align: center;
+    color: #666;
+}
+
+.no-results svg {
+    color: #ccc;
+    margin-bottom: 1rem;
+}
+
+.no-results p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.no-results #search-term {
+    font-weight: 600;
+    color: #333;
+}
+
+.btn-reset {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    color: #0066cc;
+    background: transparent;
+    border: 1px solid #0066cc;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: inherit;
+}
+
+.btn-reset:hover {
+    background: #0066cc;
+    color: white;
 }
 
 /* Controls */
@@ -322,6 +544,31 @@ a:hover {
 
     .header h1 {
         font-size: 1.8rem;
+    }
+
+    .search-input {
+        padding: 12px 44px 12px 44px;
+        font-size: 16px; /* Prevents zoom on iOS */
+    }
+
+    .category-filters {
+        margin: 0 -1rem 1.5rem;
+        padding: 0 1rem;
+    }
+
+    .filter-scroll-container {
+        padding-left: 0;
+        padding-right: 1rem;
+    }
+
+    .category-btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    .use-case-tag {
+        font-size: 0.65rem;
+        padding: 0.15rem 0.4rem;
     }
 
     .cards-row {

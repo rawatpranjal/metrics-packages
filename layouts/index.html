@@ -7,9 +7,41 @@
         <a href="https://github.com/rawatpranjal/metrics-packages/issues/new?template=submit-package.yml" class="btn-suggest" target="_blank">Submit a Package</a>
     </header>
 
-    <!-- Search -->
-    <div class="search-wrapper">
-        <div id="search"></div>
+    <!-- Enhanced Search Bar -->
+    <div class="search-container">
+        <div class="search-input-wrapper">
+            <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="m21 21-4.35-4.35"></path>
+            </svg>
+            <input type="text"
+                   id="package-search"
+                   class="search-input"
+                   placeholder="Search packages by name, description, or use case..."
+                   autocomplete="off">
+            <button id="clear-search" class="clear-btn" type="button" aria-label="Clear search">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6L6 18M6 6l12 12"></path>
+                </svg>
+            </button>
+        </div>
+        <div id="result-count" class="result-count">{{ len .Site.Data.packages }} packages</div>
+    </div>
+
+    <!-- Category Filter Buttons -->
+    <div class="category-filters">
+        <div class="filter-scroll-container">
+            <button class="category-btn active" data-category="all">All</button>
+            {{ $categories := slice }}
+            {{ range .Site.Data.packages }}
+                {{ if not (in $categories .category) }}
+                    {{ $categories = $categories | append .category }}
+                {{ end }}
+            {{ end }}
+            {{ range $cat := sort $categories }}
+            <button class="category-btn" data-category="{{ $cat }}">{{ $cat }}</button>
+            {{ end }}
+        </div>
     </div>
 
     <!-- View Toggle -->
@@ -18,33 +50,34 @@
             <button id="btn-cards" class="toggle-btn active">Cards</button>
             <button id="btn-table" class="toggle-btn">Table</button>
         </div>
-        <div class="package-count">
-            <span id="count">{{ len .Site.Data.packages }}</span> packages
-        </div>
     </div>
 
     <!-- Cards View -->
-    <div id="cards-view" class="package-grid" data-pagefind-body>
-        {{ $categories := slice }}
-        {{ range .Site.Data.packages }}
-            {{ if not (in $categories .category) }}
-                {{ $categories = $categories | append .category }}
-            {{ end }}
-        {{ end }}
-
+    <div id="cards-view" class="package-grid">
         {{ range $cat := $categories }}
-        <div class="category-section">
+        <div class="category-section" data-section-category="{{ $cat }}">
             <h2 class="category-title">{{ $cat }}</h2>
             <div class="cards-row">
                 {{ range $.Site.Data.packages }}
                 {{ if eq .category $cat }}
-                <div class="package-card">
+                <div class="package-card"
+                     data-name="{{ .name | lower }}"
+                     data-description="{{ .description | lower }}"
+                     data-category="{{ .category }}"
+                     data-tags="{{ delimit .tags "," | lower }}">
                     <div class="card-header">
                         <h3 class="package-name">
                             <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
                         </h3>
                     </div>
                     <p class="package-desc">{{ .description }}</p>
+                    {{ if .tags }}
+                    <div class="tag-container">
+                        {{ range .tags }}
+                        <span class="use-case-tag" data-tag="{{ . }}">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
                     <div class="card-footer">
                         <span class="category-badge">{{ .category }}</span>
                         <div class="card-links">
@@ -56,14 +89,22 @@
                             {{ end }}
                         </div>
                     </div>
-                    <!-- Hidden text for search -->
-                    <span hidden>{{ .category }} {{ .install }}</span>
                 </div>
                 {{ end }}
                 {{ end }}
             </div>
         </div>
         {{ end }}
+    </div>
+
+    <!-- No Results Message -->
+    <div id="no-results" class="no-results" style="display: none;">
+        <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.35-4.35"></path>
+        </svg>
+        <p>No packages found matching "<span id="search-term"></span>"</p>
+        <button id="reset-filters" class="btn-reset">Clear filters</button>
     </div>
 
     <!-- Table View -->
@@ -78,7 +119,7 @@
                     <th>Install</th>
                 </tr>
             </thead>
-            <tbody data-pagefind-body>
+            <tbody>
                 {{ range .Site.Data.packages }}
                 <tr>
                     <td class="pkg-name">
@@ -103,16 +144,4 @@
         <p>Data sourced from <a href="https://github.com/rawatpranjal/econometrics-in-python" target="_blank">econometrics-in-python</a></p>
     </footer>
 </div>
-
-<script>
-    // Initialize Pagefind
-    window.addEventListener('DOMContentLoaded', () => {
-        new PagefindUI({
-            element: "#search",
-            showSubResults: false,
-            showImages: false,
-            excerptLength: 0
-        });
-    });
-</script>
 {{ end }}

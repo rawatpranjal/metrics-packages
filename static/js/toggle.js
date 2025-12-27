@@ -5,33 +5,48 @@ document.addEventListener('DOMContentLoaded', function() {
     const cardsView = document.getElementById('cards-view');
     const tableView = document.getElementById('table-view');
 
-    // Load saved preference
-    const savedView = localStorage.getItem('packageView') || 'cards';
-    if (savedView === 'table') {
-        showTable();
+    // Guard clause - exit if required elements missing
+    if (!btnCards || !btnTable || !cardsView || !tableView) {
+        console.warn('Toggle: Required DOM elements not found');
+        return;
+    }
+
+    // Load saved preference with fallback
+    let savedView = 'cards';
+    try {
+        savedView = localStorage.getItem('packageView') || 'cards';
+    } catch (e) {
+        // localStorage unavailable (private browsing)
+    }
+
+    function savePreference(view) {
+        try {
+            localStorage.setItem('packageView', view);
+        } catch (e) {
+            // Silently fail if localStorage unavailable
+        }
+    }
+
+    function setView(view) {
+        const isCards = view === 'cards';
+        cardsView.style.display = isCards ? 'flex' : 'none';
+        tableView.style.display = isCards ? 'none' : 'block';
+        btnCards.classList.toggle('active', isCards);
+        btnTable.classList.toggle('active', !isCards);
     }
 
     btnCards.addEventListener('click', function() {
-        showCards();
-        localStorage.setItem('packageView', 'cards');
+        setView('cards');
+        savePreference('cards');
     });
 
     btnTable.addEventListener('click', function() {
-        showTable();
-        localStorage.setItem('packageView', 'table');
+        setView('table');
+        savePreference('table');
     });
 
-    function showCards() {
-        cardsView.style.display = 'flex';
-        tableView.style.display = 'none';
-        btnCards.classList.add('active');
-        btnTable.classList.remove('active');
-    }
-
-    function showTable() {
-        cardsView.style.display = 'none';
-        tableView.style.display = 'block';
-        btnCards.classList.remove('active');
-        btnTable.classList.add('active');
+    // Initialize view based on saved preference
+    if (savedView === 'table') {
+        setView('table');
     }
 });

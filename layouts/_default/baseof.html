@@ -6,19 +6,16 @@
     <title>{{ .Site.Title }}</title>
     <meta name="description" content="{{ .Site.Params.description }}">
 
-    <!-- Pagefind CSS -->
-    <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
 </head>
 <body>
     <main>
         {{ block "main" . }}{{ end }}
     </main>
 
-    <!-- Pagefind JS -->
-    <script src="/pagefind/pagefind-ui.js"></script>
-    <script src="/js/toggle.js"></script>
+    <!-- Custom JS -->
+    <script src="{{ "js/search.js" | relURL }}"></script>
+    <script src="{{ "js/toggle.js" | relURL }}"></script>
 </body>
 </html>
