@@ -1661,5 +1661,333 @@
       "prediction"
     ],
     "best_for": "GPU-accelerated random forests for massive scale"
+  },
+  {
+    "name": "synthlearners",
+    "description": "Fast synthetic control estimators for panel data problems. Optimized ATT estimation with multiple SC algorithms.",
+    "category": "Program Evaluation Methods (DiD, SC, RDD)",
+    "docs_url": null,
+    "github_url": "https://github.com/apoorvalal/synthlearners",
+    "url": "https://github.com/apoorvalal/synthlearners",
+    "install": "pip install synthlearners",
+    "tags": [
+      "synthetic control",
+      "causal inference",
+      "panel data"
+    ],
+    "best_for": "Optimized synthetic control with multiple algorithm options"
+  },
+  {
+    "name": "aipyw",
+    "description": "Minimal, fast AIPW (Augmented Inverse Probability Weighting) implementation for discrete treatments. Sklearn-compatible with cross-fitting.",
+    "category": "Causal Inference & Matching",
+    "docs_url": null,
+    "github_url": "https://github.com/apoorvalal/aipyw",
+    "url": "https://github.com/apoorvalal/aipyw",
+    "install": "pip install aipyw",
+    "tags": [
+      "causal inference",
+      "AIPW",
+      "treatment effects"
+    ],
+    "best_for": "Fast AIPW estimation with sklearn models"
+  },
+  {
+    "name": "torchonometrics",
+    "description": "Econometrics implementations in PyTorch. Leverages autodiff and GPU acceleration for econometric methods.",
+    "category": "Numerical Optimization & Computational Tools",
+    "docs_url": null,
+    "github_url": "https://github.com/apoorvalal/torchonometrics",
+    "url": "https://github.com/apoorvalal/torchonometrics",
+    "install": "GitHub Repository",
+    "tags": [
+      "optimization",
+      "computation",
+      "PyTorch"
+    ],
+    "best_for": "GPU-accelerated econometrics with PyTorch autodiff"
+  },
+  {
+    "name": "econpizza",
+    "description": "Solve nonlinear heterogeneous agent models (HANK) with perfect foresight. Efficient perturbation and projection methods.",
+    "category": "Structural Econometrics & Estimation",
+    "docs_url": "https://econpizza.readthedocs.io/",
+    "github_url": "https://github.com/gboehl/econpizza",
+    "url": "https://github.com/gboehl/econpizza",
+    "install": "pip install econpizza",
+    "tags": [
+      "structural",
+      "DSGE",
+      "HANK"
+    ],
+    "best_for": "Nonlinear HANK models with aggregate shocks"
+  },
+  {
+    "name": "pydsge",
+    "description": "DSGE model simulation, filtering, and Bayesian estimation. Handles occasionally binding constraints.",
+    "category": "Structural Econometrics & Estimation",
+    "docs_url": null,
+    "github_url": "https://github.com/gboehl/pydsge",
+    "url": "https://github.com/gboehl/pydsge",
+    "install": "pip install pydsge",
+    "tags": [
+      "structural",
+      "DSGE",
+      "Bayesian"
+    ],
+    "best_for": "DSGE estimation with occasionally binding constraints"
+  },
+  {
+    "name": "gEconpy",
+    "description": "DSGE modeling tools inspired by R's gEcon. Automatic first-order condition derivation with Dynare export.",
+    "category": "Structural Econometrics & Estimation",
+    "docs_url": null,
+    "github_url": "https://github.com/jessegrabowski/gEconpy",
+    "url": "https://github.com/jessegrabowski/gEconpy",
+    "install": "pip install gEconpy",
+    "tags": [
+      "structural",
+      "DSGE",
+      "estimation"
+    ],
+    "best_for": "Symbolic DSGE derivation with Dynare compatibility"
+  },
+  {
+    "name": "pynare",
+    "description": "Python wrapper/interface to Dynare for DSGE model solving. Bridge between Python workflows and Dynare.",
+    "category": "Structural Econometrics & Estimation",
+    "docs_url": null,
+    "github_url": "https://github.com/gboehl/pynare",
+    "url": "https://github.com/gboehl/pynare",
+    "install": "pip install pynare",
+    "tags": [
+      "structural",
+      "DSGE",
+      "Dynare"
+    ],
+    "best_for": "Running Dynare models from Python"
+  },
+  {
+    "name": "dcegm",
+    "description": "JAX-compatible DC-EGM algorithm for discrete-continuous dynamic programming (Iskhakov et al. 2017).",
+    "category": "Structural Econometrics & Estimation",
+    "docs_url": null,
+    "github_url": "https://github.com/OpenSourceEconomics/dcegm",
+    "url": "https://github.com/OpenSourceEconomics/dcegm",
+    "install": "pip install dcegm",
+    "tags": [
+      "structural",
+      "dynamic programming",
+      "JAX"
+    ],
+    "best_for": "Discrete-continuous choice models with EGM"
+  },
+  {
+    "name": "upper-envelope",
+    "description": "Fast upper envelope scan for discrete-continuous dynamic programming. JAX and numba implementations.",
+    "category": "Structural Econometrics & Estimation",
+    "docs_url": null,
+    "github_url": "https://github.com/OpenSourceEconomics/upper-envelope",
+    "url": "https://github.com/OpenSourceEconomics/upper-envelope",
+    "install": "pip install upper-envelope",
+    "tags": [
+      "structural",
+      "dynamic programming",
+      "optimization"
+    ],
+    "best_for": "Fast upper envelope computation for DC-EGM"
+  },
+  {
+    "name": "maketables",
+    "description": "Publication-ready regression tables for pyfixest, statsmodels, linearmodels. Outputs HTML (great-tables), LaTeX, Word.",
+    "category": "Standard Errors, Bootstrapping & Reporting",
+    "docs_url": null,
+    "github_url": "https://github.com/py-econometrics/maketables",
+    "url": "https://github.com/py-econometrics/maketables",
+    "install": "pip install maketables",
+    "tags": [
+      "reporting",
+      "tables",
+      "visualization"
+    ],
+    "best_for": "Multi-format regression tables from pyfixest/statsmodels"
+  },
+  {
+    "name": "jaxonometrics",
+    "description": "JAX-ecosystem implementations of standard econometrics routines for GPU computation.",
+    "category": "Numerical Optimization & Computational Tools",
+    "docs_url": null,
+    "github_url": "https://github.com/py-econometrics/jaxonometrics",
+    "url": "https://github.com/py-econometrics/jaxonometrics",
+    "install": "GitHub Repository",
+    "tags": [
+      "optimization",
+      "JAX",
+      "GPU"
+    ],
+    "best_for": "GPU-accelerated econometrics with JAX"
+  },
+  {
+    "name": "y0",
+    "description": "Causal inference framework providing tools for causal graph manipulation and effect identification.",
+    "category": "Causal Inference & Matching",
+    "docs_url": "https://y0.readthedocs.io/",
+    "github_url": "https://github.com/y0-causal-inference/y0",
+    "url": "https://github.com/y0-causal-inference/y0",
+    "install": "pip install y0",
+    "tags": [
+      "causal inference",
+      "graphs",
+      "identification"
+    ],
+    "best_for": "Causal graph manipulation and do-calculus"
+  },
+  {
+    "name": "pysyncon",
+    "description": "Synthetic control method implementation compatible with R's Synth and augsynth packages.",
+    "category": "Program Evaluation Methods (DiD, SC, RDD)",
+    "docs_url": null,
+    "github_url": "https://github.com/sdfordham/pysyncon",
+    "url": "https://github.com/sdfordham/pysyncon",
+    "install": "pip install pysyncon",
+    "tags": [
+      "synthetic control",
+      "causal inference",
+      "panel data"
+    ],
+    "best_for": "R Synth-compatible synthetic control in Python"
+  },
+  {
+    "name": "synthdid",
+    "description": "Synthetic difference-in-differences (Arkhangelsky et al. 2019). Combines SC and DiD for staggered adoption.",
+    "category": "Program Evaluation Methods (DiD, SC, RDD)",
+    "docs_url": null,
+    "github_url": null,
+    "url": "https://pypi.org/project/synthdid/",
+    "install": "pip install synthdid",
+    "tags": [
+      "DiD",
+      "synthetic control",
+      "causal inference"
+    ],
+    "best_for": "Synthetic DiD combining SC and DiD methods"
+  },
+  {
+    "name": "FixedEffectModel",
+    "description": "Panel data modeling with IV tests (weak IV, over-identification, endogeneity) and 2-step GMM estimation.",
+    "category": "Panel Data & Fixed Effects",
+    "docs_url": null,
+    "github_url": "https://github.com/ksecology/FixedEffectModel",
+    "url": "https://github.com/ksecology/FixedEffectModel",
+    "install": "pip install FixedEffectModel",
+    "tags": [
+      "panel data",
+      "fixed effects",
+      "IV"
+    ],
+    "best_for": "Panel regression with comprehensive IV diagnostics"
+  },
+  {
+    "name": "appelpy",
+    "description": "Applied Econometrics Library bridging Stata-like syntax with Python. Built on statsmodels with convenient API.",
+    "category": "Core Libraries & Linear Models",
+    "docs_url": "https://appelpy.readthedocs.io/",
+    "github_url": "https://github.com/mfarragower/appelpy",
+    "url": "https://github.com/mfarragower/appelpy",
+    "install": "pip install appelpy",
+    "tags": [
+      "regression",
+      "linear models",
+      "Stata"
+    ],
+    "best_for": "Stata-like econometrics workflow in Python"
+  },
+  {
+    "name": "First Course in Causal Inference (Python)",
+    "description": "Python implementation of Peng Ding's textbook 'A First Course in Causal Inference'. Educational resource with code examples.",
+    "category": "Standard Errors, Bootstrapping & Reporting",
+    "docs_url": "https://github.com/apoorvalal/ding_causalInference_python",
+    "github_url": "https://github.com/apoorvalal/ding_causalInference_python",
+    "url": "https://github.com/apoorvalal/ding_causalInference_python",
+    "install": "",
+    "tags": [
+      "causal inference",
+      "education",
+      "textbook"
+    ],
+    "best_for": "Learning causal inference with Peng Ding's textbook"
+  },
+  {
+    "name": "Computational Methods for Economists",
+    "description": "Open-source textbook by Richard Evans on computational methods for economists using Python.",
+    "category": "Standard Errors, Bootstrapping & Reporting",
+    "docs_url": "https://opensourceecon.github.io/CompMethods/",
+    "github_url": "https://github.com/OpenSourceEcon/CompMethods",
+    "url": "https://opensourceecon.github.io/CompMethods/",
+    "install": "",
+    "tags": [
+      "education",
+      "computation",
+      "textbook"
+    ],
+    "best_for": "Comprehensive computational economics course"
+  },
+  {
+    "name": "Econ Project Templates",
+    "description": "Cookiecutter templates for reproducible economics research projects. Standardized project structure.",
+    "category": "Standard Errors, Bootstrapping & Reporting",
+    "docs_url": "https://econ-project-templates.readthedocs.io/",
+    "github_url": "https://github.com/OpenSourceEconomics/econ-project-templates",
+    "url": "https://github.com/OpenSourceEconomics/econ-project-templates",
+    "install": "",
+    "tags": [
+      "reproducibility",
+      "templates",
+      "workflow"
+    ],
+    "best_for": "Starting reproducible economics projects"
+  },
+  {
+    "name": "Python Packages for Applied Economists",
+    "description": "Curated collection of Python packages for applied economists organized by functionality.",
+    "category": "Standard Errors, Bootstrapping & Reporting",
+    "docs_url": null,
+    "github_url": "https://github.com/clibassi/python-packages-for-applied-economists",
+    "url": "https://github.com/clibassi/python-packages-for-applied-economists",
+    "install": "",
+    "tags": [
+      "curated list",
+      "resources"
+    ],
+    "best_for": "Discovering econometrics packages by use case"
+  },
+  {
+    "name": "Awesome Economics",
+    "description": "Curated list of economics resources including datasets, software, courses, and blogs.",
+    "category": "Standard Errors, Bootstrapping & Reporting",
+    "docs_url": null,
+    "github_url": "https://github.com/antontarasenko/awesome-economics",
+    "url": "https://github.com/antontarasenko/awesome-economics",
+    "install": "",
+    "tags": [
+      "curated list",
+      "resources"
+    ],
+    "best_for": "Comprehensive economics resource directory"
+  },
+  {
+    "name": "Applied Econometrics Notes (Lal)",
+    "description": "Applied econometrics notes and code by Apoorva Lal covering modern causal inference methods.",
+    "category": "Standard Errors, Bootstrapping & Reporting",
+    "docs_url": "https://apoorvalal.github.io/notebook/causal_inference_notes/",
+    "github_url": null,
+    "url": "https://apoorvalal.github.io/notebook/",
+    "install": "",
+    "tags": [
+      "causal inference",
+      "education",
+      "notes"
+    ],
+    "best_for": "Modern causal inference methods with code"
   }
 ]
