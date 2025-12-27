@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="about-page">
+    <header class="about-header">
+        <h1>Subscribe</h1>
+    </header>
+
+    <div class="about-content">
+        <section class="about-section">
+            <p style="font-size: 1.1rem; color: #666; margin-bottom: 2rem;">
+                We never send mail, except on major updates, likely quarterly.
+            </p>
+
+            <p style="margin-bottom: 1.5rem;">
+                Subscribe via RSS to stay updated:
+            </p>
+
+            <div class="about-links">
+                <a href="{{ "feed.xml" | relURL }}" target="_blank" class="about-link">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 11a9 9 0 0 1 9 9"></path>
+                        <path d="M4 4a16 16 0 0 1 16 16"></path>
+                        <circle cx="5" cy="19" r="1"></circle>
+                    </svg>
+                    RSS Feed
+                </a>
+            </div>
+        </section>
+    </div>
+</div>
+{{ end }}

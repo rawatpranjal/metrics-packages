@@ -29,6 +29,7 @@
             <span class="sidebar-logo">tech-econ</span>
         </div>
         <ul class="sidebar-nav">
+            <!-- Home -->
             <li>
                 <a href="{{ "" | relURL }}" class="sidebar-link{{ if .IsHome }} active{{ end }}">
                     <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
@@ -38,32 +39,16 @@
                     Home
                 </a>
             </li>
+
+            <li class="sidebar-divider"></li>
+
+            <!-- Learning Group -->
             <li>
                 <a href="{{ "start/" | relURL }}" class="sidebar-link{{ if eq .Section "start" }} active{{ end }}">
                     <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
                         <polygon points="5 3 19 12 5 21 5 3"></polygon>
                     </svg>
                     Getting Started
-                </a>
-            </li>
-            <li>
-                <a href="{{ "packages/" | relURL }}" class="sidebar-link{{ if eq .Section "packages" }} active{{ end }}">
-                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
-                        <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                        <line x1="12" y1="22.08" x2="12" y2="12"></line>
-                    </svg>
-                    Packages
-                </a>
-            </li>
-            <li>
-                <a href="{{ "datasets/" | relURL }}" class="sidebar-link{{ if eq .Section "datasets" }} active{{ end }}">
-                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
-                        <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
-                        <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
-                        <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
-                    </svg>
-                    Datasets
                 </a>
             </li>
             <li>
@@ -87,15 +72,6 @@
                 </a>
             </li>
             <li>
-                <a href="{{ "career/" | relURL }}" class="sidebar-link{{ if eq .Section "career" }} active{{ end }}">
-                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
-                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
-                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-                    </svg>
-                    Early Career
-                </a>
-            </li>
-            <li>
                 <a href="{{ "community/" | relURL }}" class="sidebar-link{{ if eq .Section "community" }} active{{ end }}">
                     <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
@@ -106,6 +82,34 @@
                     Community
                 </a>
             </li>
+
+            <li class="sidebar-divider"></li>
+
+            <!-- Data Group -->
+            <li>
+                <a href="{{ "packages/" | relURL }}" class="sidebar-link{{ if eq .Section "packages" }} active{{ end }}">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                        <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                        <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                    </svg>
+                    Packages
+                </a>
+            </li>
+            <li>
+                <a href="{{ "datasets/" | relURL }}" class="sidebar-link{{ if eq .Section "datasets" }} active{{ end }}">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                        <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                        <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                        <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                    </svg>
+                    Datasets
+                </a>
+            </li>
+
+            <li class="sidebar-divider"></li>
+
+            <!-- Info -->
             <li>
                 <a href="{{ "about/" | relURL }}" class="sidebar-link{{ if eq .Section "about" }} active{{ end }}">
                     <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
@@ -147,13 +151,13 @@
                 </svg>
                 Feedback
             </a>
-            <a href="{{ "feed.xml" | relURL }}" target="_blank" class="sidebar-footer-link">
+            <a href="{{ "subscribe/" | relURL }}" class="sidebar-footer-link{{ if eq .Section "subscribe" }} active{{ end }}">
                 <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M4 11a9 9 0 0 1 9 9"></path>
                     <path d="M4 4a16 16 0 0 1 16 16"></path>
                     <circle cx="5" cy="19" r="1"></circle>
                 </svg>
-                RSS Feed
+                Subscribe
             </a>
             <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
                 <svg class="sun-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
@@ -188,7 +192,7 @@
 
     <!-- Global Search Data -->
     <script id="global-search-data" type="application/json">
-        {{ partial "global-search-index.html" . | jsonify }}
+        {{ partial "global-search-index.html" . | safeJS }}
     </script>
 
     <!-- Custom JS -->

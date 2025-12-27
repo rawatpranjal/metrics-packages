@@ -105,4 +105,4 @@
   {{- $index = $index | append $item -}}
 {{- end -}}
 
-{{- return $index -}}
+{{- $index | jsonify -}}
