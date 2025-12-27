@@ -1305,7 +1305,7 @@
     "name": "Spotify Music Streaming Sessions (MSSD)",
     "description": "150M+ listening sessions with skips, track features, and playlist context. The largest public music streaming behavior dataset",
     "category": "Entertainment & Media",
-    "url": "https://research.atspotify.com/datasets",
+    "url": "https://paperswithcode.com/dataset/mssd",
     "docs_url": "https://arxiv.org/abs/1901.09851",
     "github_url": null,
     "tags": [
@@ -2293,6 +2293,795 @@
       "transactions",
       "large-scale",
       "synthetic"
+    ]
+  },
+  {
+    "name": "Chicago TNC Trips",
+    "description": "100M+ rideshare trips with fares (unlike NYC which lacks fare data). Trip-level pricing for Uber/Lyft economic analysis",
+    "category": "Transportation & Mobility",
+    "url": "https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips/m6dm-c72p",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "rideshare",
+      "fares",
+      "Uber",
+      "Lyft",
+      "Chicago",
+      "pricing"
+    ]
+  },
+  {
+    "name": "Criteo Counterfactual Learning",
+    "description": "25M logged interactions with counterfactual propensity scores. Gold standard for offline policy evaluation and causal inference in ads",
+    "category": "Advertising",
+    "url": "https://ailab.criteo.com/criteo-uplift-prediction-dataset/",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "causal inference",
+      "counterfactual",
+      "advertising",
+      "uplift modeling",
+      "offline evaluation"
+    ]
+  },
+  {
+    "name": "OTTO Session-based Recommendations",
+    "description": "12M+ e-commerce sessions with click → cart → order sequences. Real multi-stage conversion funnel data from German retailer",
+    "category": "E-Commerce",
+    "url": "https://www.kaggle.com/competitions/otto-recommender-system",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "sessions",
+      "conversion funnel",
+      "Kaggle",
+      "recommendations",
+      "e-commerce"
+    ]
+  },
+  {
+    "name": "LendingClub Loans",
+    "description": "2.7M loans (2007-2019) with 151 features. Interest rates, credit scores, defaults. The canonical P2P lending dataset for credit risk modeling",
+    "category": "Financial Services",
+    "url": "https://www.kaggle.com/datasets/wordsforthewise/lending-club",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "P2P lending",
+      "credit risk",
+      "loans",
+      "defaults",
+      "fintech"
+    ]
+  },
+  {
+    "name": "Amazon Fraud Detection Benchmark",
+    "description": "9 consolidated fraud datasets with unified format. Includes IEEE-CIS, credit card, e-commerce fraud. Benchmark for fraud ML research",
+    "category": "Financial Services",
+    "url": "https://github.com/amazon-science/fraud-dataset-benchmark",
+    "docs_url": null,
+    "github_url": "https://github.com/amazon-science/fraud-dataset-benchmark",
+    "tags": [
+      "fraud detection",
+      "benchmark",
+      "Amazon",
+      "ML",
+      "fintech"
+    ]
+  },
+  {
+    "name": "ORBITAAL Bitcoin Transactions",
+    "description": "13 years of Bitcoin transaction graphs (2009-2022). Complete blockchain with labeled entities. Network economics at scale",
+    "category": "Financial Services",
+    "url": "https://zenodo.org/records/7958648",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "Bitcoin",
+      "blockchain",
+      "transactions",
+      "network economics",
+      "cryptocurrency"
+    ]
+  },
+  {
+    "name": "LOBSTER Order Book",
+    "description": "NASDAQ limit order book data at millisecond precision. Level 1-10 depth, message-by-message reconstruction. Market microstructure research",
+    "category": "Financial Services",
+    "url": "https://lobsterdata.com/",
+    "docs_url": "https://lobsterdata.com/info/DataStructure.php",
+    "github_url": null,
+    "tags": [
+      "order book",
+      "NASDAQ",
+      "high-frequency",
+      "market microstructure",
+      "trading"
+    ]
+  },
+  {
+    "name": "FI-2010 Limit Order Book",
+    "description": "4.3M samples of NASDAQ Nordic limit order book data. 10 depth levels, 5 stocks, normalized features. Benchmark for price prediction",
+    "category": "Financial Services",
+    "url": "https://etsin.fairdata.fi/dataset/73eb48d7-4dbc-4a10-a52a-da745b47a649",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "order book",
+      "limit orders",
+      "NASDAQ",
+      "price prediction",
+      "benchmark"
+    ]
+  },
+  {
+    "name": "OPTN Organ Transplant",
+    "description": "Complete US organ donation records since 1987. Waiting lists, donor-recipient matches, outcomes. Market design and matching research",
+    "category": "Healthcare",
+    "url": "https://optn.transplant.hrsa.gov/data/",
+    "docs_url": "https://optn.transplant.hrsa.gov/data/about-data/",
+    "github_url": null,
+    "tags": [
+      "organ transplant",
+      "matching",
+      "market design",
+      "healthcare",
+      "waitlists"
+    ]
+  },
+  {
+    "name": "FCC Spectrum Auctions",
+    "description": "87+ auctions (1994-present) with round-by-round bidding data. Complete bid histories, reserve prices, winners. Auction theory empirics",
+    "category": "Auctions & Marketplaces",
+    "url": "https://www.fcc.gov/auctions/auction-results",
+    "docs_url": "https://www.fcc.gov/auction/",
+    "github_url": null,
+    "tags": [
+      "spectrum auctions",
+      "FCC",
+      "bidding",
+      "auction theory",
+      "telecommunications"
+    ]
+  },
+  {
+    "name": "USASpending Federal Awards",
+    "description": "All federal contracts, grants, loans since 2001. 400+ variables, $50T+ in awards. Government procurement economics",
+    "category": "Data Portals",
+    "url": "https://www.usaspending.gov/download_center/award_data_archive",
+    "docs_url": "https://www.usaspending.gov/data-dictionary",
+    "github_url": null,
+    "tags": [
+      "government",
+      "procurement",
+      "contracts",
+      "grants",
+      "federal spending"
+    ]
+  },
+  {
+    "name": "Census Business Dynamics Statistics",
+    "description": "8M+ establishments with firm age data. Job creation/destruction, startups, exits. Longitudinal firm dynamics since 1977",
+    "category": "Data Portals",
+    "url": "https://www.census.gov/programs-surveys/bds.html",
+    "docs_url": "https://www.census.gov/programs-surveys/bds/documentation.html",
+    "github_url": null,
+    "tags": [
+      "Census",
+      "firm dynamics",
+      "startups",
+      "employment",
+      "longitudinal"
+    ]
+  },
+  {
+    "name": "PatentsView",
+    "description": "13M+ US patents (1976-present) with citations, inventors, assignees. Full patent text and claims. Innovation economics at scale",
+    "category": "Data Portals",
+    "url": "https://patentsview.org/download/data-download-tables",
+    "docs_url": "https://patentsview.org/download/data-download-dictionary",
+    "github_url": null,
+    "tags": [
+      "patents",
+      "innovation",
+      "USPTO",
+      "citations",
+      "intellectual property"
+    ]
+  },
+  {
+    "name": "EU TED Procurement",
+    "description": "800K+ procurement notices annually. All EU public contracts above thresholds. Structured XML since 2006. Cross-country procurement research",
+    "category": "Auctions & Marketplaces",
+    "url": "https://ted.europa.eu/TED/browse/browseByMap.do",
+    "docs_url": "https://simap.ted.europa.eu/web/simap/standard-forms-for-public-procurement",
+    "github_url": null,
+    "tags": [
+      "EU",
+      "procurement",
+      "tenders",
+      "government",
+      "cross-country"
+    ]
+  },
+  {
+    "name": "CMS Hospital Price Transparency",
+    "description": "Hospital pricing data mandated since 2021. Negotiated rates, chargemaster prices across 6,000+ hospitals. Healthcare pricing research",
+    "category": "Healthcare",
+    "url": "https://www.cms.gov/hospital-price-transparency",
+    "docs_url": "https://www.cms.gov/hospital-price-transparency/resources",
+    "github_url": null,
+    "tags": [
+      "healthcare",
+      "hospital pricing",
+      "transparency",
+      "CMS",
+      "insurance"
+    ]
+  },
+  {
+    "name": "Mendeley Food Delivery Reviews",
+    "description": "1.69M reviews from DoorDash, Grubhub, Uber Eats. Ratings, text reviews, restaurant metadata. Gig economy platform research",
+    "category": "Food & Delivery",
+    "url": "https://data.mendeley.com/datasets/nsjn32yhx6/1",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "food delivery",
+      "reviews",
+      "DoorDash",
+      "Grubhub",
+      "Uber Eats",
+      "gig economy"
+    ]
+  },
+  {
+    "name": "DiDi GAIA Open Data",
+    "description": "Billions of GPS points and ride trajectories from China's largest ride-hailing platform. Driver behavior and urban mobility patterns",
+    "category": "Transportation & Mobility",
+    "url": "https://gaia.didichuxing.com/",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "rideshare",
+      "GPS",
+      "trajectories",
+      "China",
+      "DiDi",
+      "mobility"
+    ]
+  },
+  {
+    "name": "Prosper Loans",
+    "description": "113K P2P loans with borrower characteristics, credit grades, and loan outcomes. Alternative to LendingClub for P2P lending research",
+    "category": "Financial Services",
+    "url": "https://www.prosper.com/plp/about/",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "P2P lending",
+      "loans",
+      "credit",
+      "fintech"
+    ]
+  },
+  {
+    "name": "Google BigQuery Crypto",
+    "description": "8 complete blockchain histories (Bitcoin, Ethereum, etc.) with daily updates. Transaction-level data for crypto economics research",
+    "category": "Financial Services",
+    "url": "https://cloud.google.com/bigquery/public-data",
+    "docs_url": "https://cloud.google.com/blog/products/data-analytics/introducing-six-new-cryptocurrencies-in-bigquery-public-datasets",
+    "github_url": null,
+    "tags": [
+      "blockchain",
+      "cryptocurrency",
+      "Bitcoin",
+      "Ethereum",
+      "BigQuery"
+    ]
+  },
+  {
+    "name": "Netflix Viewing Behavior",
+    "description": "1.7M episodes/movies watched by 1,060 users over 1 year. Watch patterns, session length, preferences, predictability metrics",
+    "category": "Entertainment & Media",
+    "url": "https://ieeexplore.ieee.org/document/9500874",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "Netflix",
+      "streaming",
+      "viewing behavior",
+      "sessions",
+      "video"
+    ]
+  },
+  {
+    "name": "Netflix Engagement Reports",
+    "description": "Hours viewed for every Netflix title (original and licensed) watched >50K hours. First public streaming metrics since 2021",
+    "category": "Entertainment & Media",
+    "url": "https://about.netflix.com/en/news/what-we-watched-a-netflix-engagement-report",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "Netflix",
+      "streaming",
+      "engagement",
+      "viewership",
+      "hours watched"
+    ]
+  },
+  {
+    "name": "YouTube User Watch History",
+    "description": "1.8M videos watched by 243 users over 1.5 years. Recommendation engine performance, caching research, viewing patterns",
+    "category": "Entertainment & Media",
+    "url": "https://netsg.cs.sfu.ca/youtubedata/",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "YouTube",
+      "watch history",
+      "recommendations",
+      "video",
+      "user behavior"
+    ]
+  },
+  {
+    "name": "YouTube Engagement Dataset",
+    "description": "5M videos with watch percentage, engagement maps, Freebase topic labels. Video-level engagement metrics for content research",
+    "category": "Entertainment & Media",
+    "url": "https://github.com/avalanchesiqi/youtube-engagement",
+    "docs_url": null,
+    "github_url": "https://github.com/avalanchesiqi/youtube-engagement",
+    "tags": [
+      "YouTube",
+      "engagement",
+      "video",
+      "watch time",
+      "topics"
+    ]
+  },
+  {
+    "name": "YouTube-8M",
+    "description": "8M videos with video-level features for large-scale video understanding. Google Research benchmark for video classification",
+    "category": "Entertainment & Media",
+    "url": "https://research.google.com/youtube8m/",
+    "docs_url": "https://research.google.com/youtube8m/download.html",
+    "github_url": null,
+    "tags": [
+      "YouTube",
+      "video",
+      "classification",
+      "benchmark",
+      "Google Research"
+    ]
+  },
+  {
+    "name": "Twitch Gamers Social Network",
+    "description": "168K nodes with mutual follower relationships. 6 ML tasks including churn, affiliate status, view count prediction",
+    "category": "Entertainment & Media",
+    "url": "https://snap.stanford.edu/data/twitch-social-networks.html",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "Twitch",
+      "social network",
+      "gaming",
+      "followers",
+      "SNAP"
+    ]
+  },
+  {
+    "name": "Twitch Streaming Dataset",
+    "description": "16 days of viewer counts, stream metadata, game categories from Oct 2017. Live streaming platform economics",
+    "category": "Entertainment & Media",
+    "url": "https://github.com/mingt2019/twitch-streamers-social-network",
+    "docs_url": null,
+    "github_url": "https://github.com/mingt2019/twitch-streamers-social-network",
+    "tags": [
+      "Twitch",
+      "live streaming",
+      "viewership",
+      "gaming"
+    ]
+  },
+  {
+    "name": "LastFM-1B",
+    "description": "1 billion listening events with long-term user histories. Music recommendation and listening behavior research",
+    "category": "Entertainment & Media",
+    "url": "http://www.cp.jku.at/datasets/LFM-1b/",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "music",
+      "listening",
+      "recommendations",
+      "large-scale",
+      "LastFM"
+    ]
+  },
+  {
+    "name": "Spotify Million Playlist",
+    "description": "1M playlists with 2M unique tracks from 300K artists. RecSys 2018 Challenge for playlist continuation research",
+    "category": "Entertainment & Media",
+    "url": "https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "Spotify",
+      "playlists",
+      "music",
+      "recommendations",
+      "RecSys"
+    ]
+  },
+  {
+    "name": "YFCC100M",
+    "description": "100M Flickr photos/videos with metadata under Creative Commons. Yahoo/Flickr dataset for multimedia research",
+    "category": "Entertainment & Media",
+    "url": "https://multimediacommons.wordpress.com/yfcc100m-core-dataset/",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "Flickr",
+      "photos",
+      "video",
+      "multimedia",
+      "Creative Commons"
+    ]
+  },
+  {
+    "name": "Meta Content Library",
+    "description": "Full Facebook/Instagram public archive via ICPSR application. Posts, Pages, groups, events for academic research",
+    "category": "Social & Web",
+    "url": "https://transparency.meta.com/researchtools/meta-content-library",
+    "docs_url": "https://transparency.meta.com/researchtools/meta-content-library/documentation",
+    "github_url": null,
+    "tags": [
+      "Facebook",
+      "Instagram",
+      "Meta",
+      "social media",
+      "posts"
+    ]
+  },
+  {
+    "name": "Facebook URL Shares",
+    "description": "38M URLs with 10T exposure numbers, fact-checking flags, interaction types (2017-2019). Social Science One initiative",
+    "category": "Social & Web",
+    "url": "https://socialscience.one/our-facebook-partnership",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "Facebook",
+      "URL sharing",
+      "misinformation",
+      "fact-checking",
+      "social media"
+    ]
+  },
+  {
+    "name": "SNAP Facebook Ego Networks",
+    "description": "4K users with social circles and anonymized node features. Stanford Network Analysis Project dataset",
+    "category": "Social & Web",
+    "url": "https://snap.stanford.edu/data/ego-Facebook.html",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "Facebook",
+      "social network",
+      "ego networks",
+      "SNAP",
+      "Stanford"
+    ]
+  },
+  {
+    "name": "US 2020 Election Study",
+    "description": "Facebook/Instagram impact on political attitudes. Published in Science/Nature 2023. SOMAR Michigan access",
+    "category": "Social & Web",
+    "url": "https://www.icpsr.umich.edu/web/ICPSR/series/2045",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "Facebook",
+      "Instagram",
+      "elections",
+      "politics",
+      "social media"
+    ]
+  },
+  {
+    "name": "MobileRec",
+    "description": "19.3M user reviews from 700K users across 10K apps in 48 categories. Google Play app recommendation research",
+    "category": "App Stores",
+    "url": "https://github.com/JianmoBian/MobileRec",
+    "docs_url": null,
+    "github_url": "https://github.com/JianmoBian/MobileRec",
+    "tags": [
+      "mobile apps",
+      "reviews",
+      "Google Play",
+      "recommendations",
+      "app store"
+    ]
+  },
+  {
+    "name": "Google Play Store Dataset",
+    "description": "2.3M apps with ratings, reviews, categories, sizes, installs. Android app marketplace data",
+    "category": "App Stores",
+    "url": "https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "Google Play",
+      "Android",
+      "apps",
+      "ratings",
+      "Kaggle"
+    ]
+  },
+  {
+    "name": "Apple App Store Dataset",
+    "description": "7,200 iOS apps with pricing, ratings, genres, in-app purchases. Apple app marketplace analysis",
+    "category": "App Stores",
+    "url": "https://www.kaggle.com/datasets/ramamet4/app-store-apple-data-set-10k-apps",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "Apple",
+      "iOS",
+      "apps",
+      "pricing",
+      "App Store"
+    ]
+  },
+  {
+    "name": "JobHop (Flanders)",
+    "description": "2.3M occupations and 391K resumes with real career trajectories mapped to ESCO codes. Labor mobility research",
+    "category": "Labor Markets",
+    "url": "https://huggingface.co/datasets/VDAB-Research/JobHop",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "careers",
+      "resumes",
+      "occupations",
+      "labor mobility",
+      "ESCO"
+    ]
+  },
+  {
+    "name": "BLS JOLTS",
+    "description": "Monthly job openings, hires, separations by industry since 2000. Bureau of Labor Statistics time series",
+    "category": "Labor Markets",
+    "url": "https://www.bls.gov/jlt/",
+    "docs_url": "https://www.bls.gov/jlt/jltover.htm",
+    "github_url": null,
+    "tags": [
+      "jobs",
+      "labor",
+      "openings",
+      "hires",
+      "BLS"
+    ]
+  },
+  {
+    "name": "Glassdoor Reviews",
+    "description": "Company ratings, salary reports, interview experiences. Employer review platform data for labor economics",
+    "category": "Labor Markets",
+    "url": "https://www.glassdoor.com/research/",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "salaries",
+      "company reviews",
+      "interviews",
+      "employer ratings"
+    ]
+  },
+  {
+    "name": "Revelio Labs COSMOS",
+    "description": "4.1B job postings from 6.6M companies. Deduplicated, parsed, enriched workforce data (commercial/academic partnerships)",
+    "category": "Labor Markets",
+    "url": "https://www.reveliolabs.com/",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "job postings",
+      "workforce",
+      "companies",
+      "labor",
+      "commercial"
+    ]
+  },
+  {
+    "name": "HateXplain",
+    "description": "20K social media posts with human rationales across 10 hate speech target categories. Explainable AI for content moderation",
+    "category": "Content Moderation",
+    "url": "https://github.com/hate-alert/HateXplain",
+    "docs_url": null,
+    "github_url": "https://github.com/hate-alert/HateXplain",
+    "tags": [
+      "hate speech",
+      "explainability",
+      "NLP",
+      "content moderation",
+      "annotations"
+    ]
+  },
+  {
+    "name": "HateDay",
+    "description": "Global representative sample of real-world hate speech across languages. 2024 benchmark for content moderation",
+    "category": "Content Moderation",
+    "url": "https://arxiv.org/abs/2404.06465",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "hate speech",
+      "multilingual",
+      "benchmark",
+      "content moderation"
+    ]
+  },
+  {
+    "name": "ETHOS Hate Speech",
+    "description": "998 online comments labeled for hate speech detection in English. Binary and multi-label annotations",
+    "category": "Content Moderation",
+    "url": "https://zenodo.org/records/4459923",
+    "docs_url": null,
+    "github_url": "https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset",
+    "tags": [
+      "hate speech",
+      "NLP",
+      "annotations",
+      "English"
+    ]
+  },
+  {
+    "name": "Hate Speech Data Catalogue",
+    "description": "50+ hate speech datasets across languages compiled at hatespeechdata.com. Meta-resource for content moderation research",
+    "category": "Content Moderation",
+    "url": "https://hatespeechdata.com/",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "hate speech",
+      "catalogue",
+      "multilingual",
+      "meta-dataset"
+    ]
+  },
+  {
+    "name": "CoAID COVID Misinformation",
+    "description": "4,251 news articles and 296K claims about COVID-19 healthcare misinformation. Fact-checked with ground truth labels",
+    "category": "Content Moderation",
+    "url": "https://github.com/cuilimeng/CoAID",
+    "docs_url": null,
+    "github_url": "https://github.com/cuilimeng/CoAID",
+    "tags": [
+      "COVID-19",
+      "misinformation",
+      "fact-checking",
+      "healthcare",
+      "fake news"
+    ]
+  },
+  {
+    "name": "LIAR Fact-Checking",
+    "description": "12.8K fact-checked political statements with speaker metadata and 6-way truthfulness labels. Politifact benchmark",
+    "category": "Content Moderation",
+    "url": "https://www.cs.ucsb.edu/~william/data/liar_dataset.zip",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "fact-checking",
+      "politics",
+      "misinformation",
+      "NLP",
+      "Politifact"
+    ]
+  },
+  {
+    "name": "FakeNewsNet",
+    "description": "23K news articles labeled fake/real with social context. Includes PolitiFact and GossipCop sources",
+    "category": "Content Moderation",
+    "url": "https://github.com/KaiDMML/FakeNewsNet",
+    "docs_url": null,
+    "github_url": "https://github.com/KaiDMML/FakeNewsNet",
+    "tags": [
+      "fake news",
+      "misinformation",
+      "social media",
+      "fact-checking"
+    ]
+  },
+  {
+    "name": "Patreon Creator Data",
+    "description": "279K+ active creators with membership tiers and patron counts. Creator economy platform metrics from Graphtreon",
+    "category": "Creator Economy",
+    "url": "https://graphtreon.com/",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "Patreon",
+      "creators",
+      "memberships",
+      "subscriptions",
+      "creator economy"
+    ]
+  },
+  {
+    "name": "Social Blade",
+    "description": "Public subscriber/follower counts and growth metrics across YouTube, Twitch, Instagram, Twitter, TikTok",
+    "category": "Creator Economy",
+    "url": "https://socialblade.com/",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "YouTube",
+      "Twitch",
+      "Instagram",
+      "followers",
+      "growth metrics"
+    ]
+  },
+  {
+    "name": "Creator Economy Reports",
+    "description": "Survey-based earnings breakdowns by platform (YouTube, TikTok, Instagram, Twitch). Influencer Marketing Factory research",
+    "category": "Creator Economy",
+    "url": "https://theinfluencermarketingfactory.com/creator-economy/",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "creator economy",
+      "earnings",
+      "influencers",
+      "surveys"
+    ]
+  },
+  {
+    "name": "Medicare Provider Utilization",
+    "description": "All Medicare providers with service utilization and payment data. CMS public use files for healthcare economics",
+    "category": "Healthcare",
+    "url": "https://data.cms.gov/provider-summary-by-type-of-service",
+    "docs_url": "https://data.cms.gov/",
+    "github_url": null,
+    "tags": [
+      "Medicare",
+      "healthcare",
+      "providers",
+      "payments",
+      "CMS"
+    ]
+  },
+  {
+    "name": "Google Dataset Search",
+    "description": "Universal search engine for datasets across the web. Meta-tool for discovering research data",
+    "category": "Data Portals",
+    "url": "https://datasetsearch.research.google.com/",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "search engine",
+      "datasets",
+      "discovery",
+      "Google"
+    ]
+  },
+  {
+    "name": "Hugging Face Datasets",
+    "description": "ML/NLP datasets hub with 100K+ datasets. Easy loading via Python library. Community-driven repository",
+    "category": "Data Portals",
+    "url": "https://huggingface.co/datasets",
+    "docs_url": "https://huggingface.co/docs/datasets",
+    "github_url": null,
+    "tags": [
+      "ML",
+      "NLP",
+      "datasets",
+      "Hugging Face",
+      "community"
     ]
   }
 ]

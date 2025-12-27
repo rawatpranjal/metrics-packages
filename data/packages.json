@@ -2233,7 +2233,7 @@
     "name": "gegravity",
     "description": "General equilibrium structural gravity modeling for trade policy analysis. Only Python package for Anderson-van Wincoop GE gravity.",
     "category": "Structural Econometrics & Estimation",
-    "docs_url": "https://gegravity.readthedocs.io/",
+    "docs_url": null,
     "github_url": "https://github.com/USITC-Gravity-Group/gegravity",
     "url": "https://github.com/USITC-Gravity-Group/gegravity",
     "install": "pip install gegravity",
@@ -2318,5 +2318,305 @@
       "regime switching"
     ],
     "best_for": "State-dependent causal discovery"
+  },
+  {
+    "name": "MAPIE",
+    "description": "Scikit-learn-contrib library for conformal prediction intervals. Provides model-agnostic uncertainty quantification for regression and classification.",
+    "category": "Conformal Prediction & Uncertainty",
+    "docs_url": "https://mapie.readthedocs.io/",
+    "github_url": "https://github.com/scikit-learn-contrib/MAPIE",
+    "url": "https://github.com/scikit-learn-contrib/MAPIE",
+    "install": "pip install mapie",
+    "tags": [
+      "conformal prediction",
+      "uncertainty",
+      "intervals"
+    ],
+    "best_for": "Model-agnostic prediction intervals"
+  },
+  {
+    "name": "TorchCP",
+    "description": "PyTorch-native conformal prediction for DNNs, GNNs, and LLMs with GPU acceleration.",
+    "category": "Conformal Prediction & Uncertainty",
+    "docs_url": "https://torchcp.readthedocs.io/",
+    "github_url": "https://github.com/thu-ml/TorchCP",
+    "url": "https://github.com/thu-ml/TorchCP",
+    "install": "pip install torchcp",
+    "tags": [
+      "conformal prediction",
+      "PyTorch",
+      "deep learning"
+    ],
+    "best_for": "Conformal prediction for neural networks"
+  },
+  {
+    "name": "crepes",
+    "description": "Lightweight library for conformal regressors and predictive systems. Simple API for calibrated prediction intervals.",
+    "category": "Conformal Prediction & Uncertainty",
+    "docs_url": "https://github.com/henrikbostrom/crepes",
+    "github_url": "https://github.com/henrikbostrom/crepes",
+    "url": "https://github.com/henrikbostrom/crepes",
+    "install": "pip install crepes",
+    "tags": [
+      "conformal prediction",
+      "regression",
+      "intervals"
+    ],
+    "best_for": "Simple conformal regressors"
+  },
+  {
+    "name": "puncc",
+    "description": "IRT Lab's library for predictive uncertainty with conformal prediction. Supports various conformal methods.",
+    "category": "Conformal Prediction & Uncertainty",
+    "docs_url": "https://github.com/deel-ai/puncc",
+    "github_url": "https://github.com/deel-ai/puncc",
+    "url": "https://github.com/deel-ai/puncc",
+    "install": "pip install puncc",
+    "tags": [
+      "conformal prediction",
+      "uncertainty",
+      "calibration"
+    ],
+    "best_for": "Calibrated prediction sets"
+  },
+  {
+    "name": "fortuna",
+    "description": "AWS library for uncertainty quantification in deep learning. Bayesian and conformal methods.",
+    "category": "Conformal Prediction & Uncertainty",
+    "docs_url": "https://aws-fortuna.readthedocs.io/",
+    "github_url": "https://github.com/awslabs/fortuna",
+    "url": "https://github.com/awslabs/fortuna",
+    "install": "pip install fortuna",
+    "tags": [
+      "uncertainty",
+      "Bayesian",
+      "deep learning"
+    ],
+    "best_for": "Deep learning uncertainty quantification"
+  },
+  {
+    "name": "CausalMotifs",
+    "description": "Meta's library for estimating heterogeneous spillover effects in A/B tests. Handles network interference.",
+    "category": "Interference & Spillovers",
+    "docs_url": "https://github.com/facebookresearch/CausalMotifs",
+    "github_url": "https://github.com/facebookresearch/CausalMotifs",
+    "url": "https://github.com/facebookresearch/CausalMotifs",
+    "install": "pip install causal-motifs",
+    "tags": [
+      "network interference",
+      "spillovers",
+      "A/B testing"
+    ],
+    "best_for": "Spillover effects in social networks"
+  },
+  {
+    "name": "latenetwork",
+    "description": "Causal inference under noncompliance and network interference. Handles partial compliance in networked settings.",
+    "category": "Interference & Spillovers",
+    "docs_url": "https://github.com/tkhdyanagi/latenetwork",
+    "github_url": "https://github.com/tkhdyanagi/latenetwork",
+    "url": "https://github.com/tkhdyanagi/latenetwork",
+    "install": "pip install latenetwork",
+    "tags": [
+      "network interference",
+      "noncompliance",
+      "causal inference"
+    ],
+    "best_for": "LATE with network effects"
+  },
+  {
+    "name": "testinterference",
+    "description": "Statistical tests for SUTVA violations and spillover hypotheses. Detects network interference in experiments.",
+    "category": "Interference & Spillovers",
+    "docs_url": "https://github.com/tkhdyanagi/testinterference",
+    "github_url": "https://github.com/tkhdyanagi/testinterference",
+    "url": "https://github.com/tkhdyanagi/testinterference",
+    "install": "pip install testinterference",
+    "tags": [
+      "SUTVA",
+      "spillovers",
+      "hypothesis testing"
+    ],
+    "best_for": "Testing for spillover effects"
+  },
+  {
+    "name": "spilled_t",
+    "description": "Treatment and spillover effect estimation under network interference. Separates direct and indirect effects.",
+    "category": "Interference & Spillovers",
+    "docs_url": "https://github.com/mpleung/spilled_t",
+    "github_url": "https://github.com/mpleung/spilled_t",
+    "url": "https://github.com/mpleung/spilled_t",
+    "install": "pip install spilled_t",
+    "tags": [
+      "network interference",
+      "spillovers",
+      "treatment effects"
+    ],
+    "best_for": "Separating direct and spillover effects"
+  },
+  {
+    "name": "didet",
+    "description": "DiD with general treatment patterns. Handles effective treatment timing beyond simple staggered adoption.",
+    "category": "Program Evaluation Methods (DiD, SC, RDD)",
+    "docs_url": "https://github.com/tkhdyanagi/didet",
+    "github_url": "https://github.com/tkhdyanagi/didet",
+    "url": "https://github.com/tkhdyanagi/didet",
+    "install": "pip install didet",
+    "tags": [
+      "DiD",
+      "treatment timing",
+      "causal inference"
+    ],
+    "best_for": "DiD with general treatment patterns"
+  },
+  {
+    "name": "didhetero",
+    "description": "Doubly robust estimation for group-time conditional average treatment effects. UCB for heterogeneous DiD.",
+    "category": "Program Evaluation Methods (DiD, SC, RDD)",
+    "docs_url": "https://github.com/tkhdyanagi/didhetero",
+    "github_url": "https://github.com/tkhdyanagi/didhetero",
+    "url": "https://github.com/tkhdyanagi/didhetero",
+    "install": "pip install didhetero",
+    "tags": [
+      "DiD",
+      "heterogeneous effects",
+      "doubly robust"
+    ],
+    "best_for": "Heterogeneous treatment effects in DiD"
+  },
+  {
+    "name": "panelhetero",
+    "description": "Heterogeneity analysis across units in panel data. Detects and characterizes unit-level variation.",
+    "category": "Panel Data & Fixed Effects",
+    "docs_url": "https://github.com/tkhdyanagi/panelhetero",
+    "github_url": "https://github.com/tkhdyanagi/panelhetero",
+    "url": "https://github.com/tkhdyanagi/panelhetero",
+    "install": "pip install panelhetero",
+    "tags": [
+      "panel data",
+      "heterogeneity",
+      "unit effects"
+    ],
+    "best_for": "Unit heterogeneity in panels"
+  },
+  {
+    "name": "abracadabra",
+    "description": "Sequential testing with always-valid inference. Supports continuous monitoring of A/B tests.",
+    "category": "Adaptive Experimentation & Bandits",
+    "docs_url": "https://github.com/quizlet/abracadabra",
+    "github_url": "https://github.com/quizlet/abracadabra",
+    "url": "https://github.com/quizlet/abracadabra",
+    "install": "pip install abracadabra",
+    "tags": [
+      "sequential testing",
+      "A/B testing",
+      "always-valid"
+    ],
+    "best_for": "Continuous experiment monitoring"
+  },
+  {
+    "name": "TFP CausalImpact",
+    "description": "TensorFlow Probability port of Google's CausalImpact. Bayesian structural time-series for intervention effects.",
+    "category": "Program Evaluation Methods (DiD, SC, RDD)",
+    "docs_url": "https://github.com/google/tfp-causalimpact",
+    "github_url": "https://github.com/google/tfp-causalimpact",
+    "url": "https://github.com/google/tfp-causalimpact",
+    "install": "pip install tfcausalimpact",
+    "tags": [
+      "causal impact",
+      "time series",
+      "Bayesian"
+    ],
+    "best_for": "TensorFlow-based causal impact analysis"
+  },
+  {
+    "name": "Benchpress",
+    "description": "Benchmarking 41+ structure learning algorithms for causal discovery. Standardized evaluation framework.",
+    "category": "Causal Discovery & Graphical Models",
+    "docs_url": "https://benchpressdocs.readthedocs.io/",
+    "github_url": "https://github.com/felixleopoldo/benchpress",
+    "url": "https://github.com/felixleopoldo/benchpress",
+    "install": "pip install benchpress",
+    "tags": [
+      "causal discovery",
+      "benchmarking",
+      "structure learning"
+    ],
+    "best_for": "Comparing causal discovery algorithms"
+  },
+  {
+    "name": "causal-llm-bfs",
+    "description": "LLM + BFS hybrid for efficient causal graph discovery. Uses language models to guide structure search.",
+    "category": "Causal Discovery & Graphical Models",
+    "docs_url": "https://github.com/superkaiba/causal-llm-bfs",
+    "github_url": "https://github.com/superkaiba/causal-llm-bfs",
+    "url": "https://github.com/superkaiba/causal-llm-bfs",
+    "install": "pip install causal-llm-bfs",
+    "tags": [
+      "causal discovery",
+      "LLM",
+      "graphs"
+    ],
+    "best_for": "LLM-assisted causal discovery"
+  },
+  {
+    "name": "Doubly-Debiased-Lasso",
+    "description": "High-dimensional inference under hidden confounding. Doubly debiased Lasso for valid inference.",
+    "category": "Double/Debiased Machine Learning (DML)",
+    "docs_url": "https://github.com/zijguo/Doubly-Debiased-Lasso",
+    "github_url": "https://github.com/zijguo/Doubly-Debiased-Lasso",
+    "url": "https://github.com/zijguo/Doubly-Debiased-Lasso",
+    "install": "Install from GitHub",
+    "tags": [
+      "high-dimensional",
+      "Lasso",
+      "debiased"
+    ],
+    "best_for": "High-dim inference with confounding"
+  },
+  {
+    "name": "deep-opt-auctions",
+    "description": "Neural network optimal auction design. Implements RegretNet, RochetNet for mechanism design.",
+    "category": "Market Design & Matching",
+    "docs_url": "https://github.com/saisrivatsan/deep-opt-auctions",
+    "github_url": "https://github.com/saisrivatsan/deep-opt-auctions",
+    "url": "https://github.com/saisrivatsan/deep-opt-auctions",
+    "install": "Install from GitHub",
+    "tags": [
+      "auctions",
+      "mechanism design",
+      "deep learning"
+    ],
+    "best_for": "Neural network auction design"
+  },
+  {
+    "name": "causal-curve",
+    "description": "Continuous treatment dose-response curve estimation. GPS and TMLE methods for continuous treatments.",
+    "category": "Causal Inference & Matching",
+    "docs_url": "https://causal-curve.readthedocs.io/",
+    "github_url": "https://github.com/ronikobrosly/causal-curve",
+    "url": "https://github.com/ronikobrosly/causal-curve",
+    "install": "pip install causal-curve",
+    "tags": [
+      "dose-response",
+      "continuous treatment",
+      "GPS"
+    ],
+    "best_for": "Dose-response curves for continuous treatments"
+  },
+  {
+    "name": "pyregadj",
+    "description": "Regression and ML adjustments to treatment effects in RCTs. Implements List et al. (2024) methods.",
+    "category": "Causal Inference & Matching",
+    "docs_url": "https://github.com/vyasenov/pyregadj",
+    "github_url": "https://github.com/vyasenov/pyregadj",
+    "url": "https://github.com/vyasenov/pyregadj",
+    "install": "pip install pyregadj",
+    "tags": [
+      "RCT",
+      "regression adjustment",
+      "treatment effects"
+    ],
+    "best_for": "Covariate adjustment in experiments"
   }
 ]

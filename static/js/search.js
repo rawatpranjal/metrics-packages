@@ -273,7 +273,7 @@
                     { name: 'description', weight: 1 },
                     { name: 'category', weight: 0.5 }
                 ],
-                threshold: 0.6,
+                threshold: 0.35,
                 ignoreLocation: true,
                 includeScore: true,
                 minMatchCharLength: 2
