@@ -416,12 +416,10 @@ a:hover {
 
 .filter-scroll-container {
     display: flex;
+    flex-wrap: wrap;
     gap: 0.5rem;
-    overflow-x: auto;
     padding: 0.5rem 0;
-    scrollbar-width: thin;
-    scrollbar-color: #ccc transparent;
-    -webkit-overflow-scrolling: touch;
+    justify-content: center;
 }
 
 .filter-scroll-container::-webkit-scrollbar {
@@ -438,7 +436,6 @@ a:hover {
 }
 
 .category-btn {
-    flex-shrink: 0;
     padding: 0.5rem 1rem;
     font-size: 0.85rem;
     font-weight: 500;
