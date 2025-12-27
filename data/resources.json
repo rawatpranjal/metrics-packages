@@ -217,31 +217,80 @@
     "type": "Podcast"
   },
   {
-    "name": "Susan Athey - ML + Causal Inference Talks",
+    "name": "QuantEcon: First-Price & Second-Price Auctions",
+    "description": "Python simulations proving Revenue Equivalence. Code to solve BNE when closed-form solutions don't exist.",
+    "category": "Auctions & Market Design",
+    "url": "https://python.quantecon.org/two_auctions.html",
+    "type": "Tutorial"
+  },
+  {
+    "name": "Auctions in Ad Tech (Sanjiv Das)",
+    "description": "GSP auctions, quality scores, AdRank — how Google/Meta ad auctions actually work. Chapter 21.",
+    "category": "Auctions & Market Design",
+    "url": "https://srdas.github.io/MLBook/Auctions.html",
+    "type": "Online Book"
+  },
+  {
+    "name": "Auction Simulation (Munk-Nielsen)",
+    "description": "GitHub repo with Python code for simulating and solving auctions. Companion to QuantEcon lectures.",
+    "category": "Auctions & Market Design",
+    "url": "https://github.com/Mnke/AuctionSimulation",
+    "type": "Code"
+  },
+  {
+    "name": "Gym-AdServer",
+    "description": "OpenAI Gym environment for RL in online advertising. Train bidding agents against a simulated ad server.",
+    "category": "Auctions & Market Design",
+    "url": "https://github.com/falox/gym-adserver",
+    "type": "Code"
+  },
+  {
+    "name": "ML for Pricing & Auctions (ICML Tutorial)",
+    "description": "How to use ML to design auction mechanisms (RegretNet). Goes beyond just bidding to mechanism design.",
+    "category": "Auctions & Market Design",
+    "url": "https://www.youtube.com/watch?v=gsPWQqVhb74",
+    "type": "Video"
+  },
+  {
+    "name": "Susan Athey: ML + Causal Inference",
     "description": "Leading researcher bridging ML and economics. Her talks on causal forests and policy evaluation are essential.",
-    "category": "Podcasts & Talks",
+    "category": "Tech Economist Videos",
     "url": "https://www.youtube.com/results?search_query=susan+athey+causal+inference",
     "type": "Talks"
   },
   {
-    "name": "Tech Econ Job Market Guide",
-    "description": "How to land a tech economist role. Resume tips, interview prep, and what companies actually look for.",
-    "category": "Career",
-    "url": "https://www.techtecheconomist.com/",
-    "type": "Guide"
+    "name": "Hal Varian: Economics of the Internet",
+    "description": "Google's Chief Economist on ad auctions, two-sided markets, and how economics shapes tech.",
+    "category": "Tech Economist Videos",
+    "url": "https://www.youtube.com/results?search_query=hal+varian+google+economics",
+    "type": "Talks"
   },
   {
-    "name": "Econ Twitter / X",
-    "description": "Follow tech economists, see what they're reading, join the conversation. Start with @caaborwn, @nickchk, @gaborcsardi.",
-    "category": "Career",
-    "url": "https://twitter.com/search?q=tech%20economist",
-    "type": "Community"
+    "name": "Pat Bajari: ML + Structural Econometrics",
+    "description": "Amazon's Chief Economist on combining ML with economic models for demand estimation and pricing.",
+    "category": "Tech Economist Videos",
+    "url": "https://www.youtube.com/results?search_query=pat+bajari+amazon+econometrics",
+    "type": "Talks"
   },
   {
-    "name": "Data Science Interview Prep",
-    "description": "Ace the Loop's guide to stats, ML, and product sense interviews. Good for economist → tech transitions.",
-    "category": "Career",
-    "url": "https://www.acetl.com/",
-    "type": "Guide"
+    "name": "Emily Oster: Data-Driven Decisions",
+    "description": "Brown economist who makes rigorous analysis accessible. Great for learning how to communicate uncertainty.",
+    "category": "Tech Economist Videos",
+    "url": "https://www.youtube.com/results?search_query=emily+oster+economics",
+    "type": "Talks"
+  },
+  {
+    "name": "Michael Ostrovsky: Marketplace Design",
+    "description": "Stanford economist on matching markets, auction design, and platform economics.",
+    "category": "Tech Economist Videos",
+    "url": "https://www.youtube.com/results?search_query=michael+ostrovsky+marketplace+design",
+    "type": "Talks"
+  },
+  {
+    "name": "Dan Garrett: Regression for Economists",
+    "description": "Practical econometrics lectures with a focus on what matters for tech applications.",
+    "category": "Tech Economist Videos",
+    "url": "https://danggarrett.com/",
+    "type": "Lectures"
   }
 ]

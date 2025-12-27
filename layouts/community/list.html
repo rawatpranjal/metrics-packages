@@ -2,11 +2,11 @@
 <div class="container">
     <!-- Header -->
     <header class="header">
-        <h1>Resources for Tech Economists</h1>
-        <p class="subtitle">No boring tomes — just practical guides, industry blogs, and hands-on tutorials</p>
+        <h1>Community</h1>
+        <p class="subtitle">Connect with tech economists — careers, forums, and research</p>
         <div class="header-links">
             <a href="{{ "/" | relURL }}" class="btn-resources">Packages</a>
-            <a href="{{ "community/" | relURL }}" class="btn-resources">Community</a>
+            <a href="{{ "resources/" | relURL }}" class="btn-resources">Learning</a>
         </div>
     </header>
 
@@ -15,7 +15,7 @@
         <div class="filter-scroll-container">
             <button class="category-btn active" data-category="all">All</button>
             {{ $categories := slice }}
-            {{ range .Site.Data.resources }}
+            {{ range .Site.Data.community }}
                 {{ if not (in $categories .category) }}
                     {{ $categories = $categories | append .category }}
                 {{ end }}
@@ -29,7 +29,7 @@
     <!-- Resource Count -->
     <div class="controls">
         <div class="resource-count">
-            <span id="result-count">{{ len .Site.Data.resources }} resources</span>
+            <span id="result-count">{{ len .Site.Data.community }} resources</span>
         </div>
     </div>
 
@@ -39,7 +39,7 @@
         <div class="category-section" data-section-category="{{ $cat }}">
             <h2 class="category-title">{{ $cat }}</h2>
             <div class="cards-row">
-                {{ range $.Site.Data.resources }}
+                {{ range $.Site.Data.community }}
                 {{ if eq .category $cat }}
                 <div class="resource-card"
                      data-name="{{ .name | lower }}"
@@ -66,12 +66,12 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <p>Curated learning resources for tech economists and data scientists</p>
+        <p>Connect with the tech economics community</p>
     </footer>
 </div>
 
 <script>
-// Simple category filter for resources page
+// Simple category filter for community page
 document.addEventListener('DOMContentLoaded', function() {
     const categoryBtns = document.querySelectorAll('.category-btn');
     const cards = document.querySelectorAll('.resource-card');
