@@ -2,47 +2,68 @@
   {
     "name": "LMSYS-Chat-1M",
     "description": "1M real-world conversations with 25 state-of-the-art LLMs spanning 154 languages",
-    "category": "LLM Interaction",
+    "category": "AI & LLM",
     "url": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m",
     "docs_url": null,
     "github_url": null,
-    "tags": ["LLM", "conversations", "multilingual", "chatbot"]
+    "tags": [
+      "LLM",
+      "conversations",
+      "multilingual",
+      "chatbot"
+    ]
   },
   {
     "name": "DiQAD",
     "description": "100K real-world user dialogues with comprehensive 6-dimension quality assessment",
-    "category": "LLM Interaction",
+    "category": "AI & LLM",
     "url": "https://github.com/yukunZhao/Dataset_Dialogue_quality_evaluation",
     "docs_url": null,
     "github_url": "https://github.com/yukunZhao/Dataset_Dialogue_quality_evaluation",
-    "tags": ["dialogue", "quality assessment", "NLP"]
+    "tags": [
+      "dialogue",
+      "quality assessment",
+      "NLP"
+    ]
   },
   {
     "name": "USS (User Satisfaction Simulation)",
     "description": "6,800 dialogues with 5-level satisfaction scale labels across multiple domains",
-    "category": "LLM Interaction",
+    "category": "AI & LLM",
     "url": "https://github.com/sunnweiwei/user-satisfaction-simulation",
     "docs_url": null,
     "github_url": "https://github.com/sunnweiwei/user-satisfaction-simulation",
-    "tags": ["user satisfaction", "dialogue", "simulation"]
+    "tags": [
+      "user satisfaction",
+      "dialogue",
+      "simulation"
+    ]
   },
   {
     "name": "ConvAI Dataset",
     "description": "4,750 human-to-bot dialogues with thumbs up/down feedback plus quality scores",
-    "category": "LLM Interaction",
+    "category": "AI & LLM",
     "url": "http://convai.io/2017/data/dataset_description.pdf",
     "docs_url": "http://convai.io/2017/data/dataset_description.pdf",
     "github_url": null,
-    "tags": ["chatbot", "human feedback", "dialogue quality"]
+    "tags": [
+      "chatbot",
+      "human feedback",
+      "dialogue quality"
+    ]
   },
   {
     "name": "Arena Human Preference (55K)",
     "description": "55K+ real-world conversations with human preference labels from Chatbot Arena",
-    "category": "LLM Interaction",
+    "category": "AI & LLM",
     "url": "https://huggingface.co/datasets/lmarena-ai/arena-human-preference-55k",
     "docs_url": null,
     "github_url": null,
-    "tags": ["human preference", "LLM evaluation", "chatbot arena"]
+    "tags": [
+      "human preference",
+      "LLM evaluation",
+      "chatbot arena"
+    ]
   },
   {
     "name": "Brazilian eCommerce",
@@ -51,7 +72,12 @@
     "url": "https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce",
     "docs_url": null,
     "github_url": null,
-    "tags": ["orders", "Brazil", "relational data", "Kaggle"]
+    "tags": [
+      "orders",
+      "Brazil",
+      "relational data",
+      "Kaggle"
+    ]
   },
   {
     "name": "Open CDP",
@@ -60,7 +86,11 @@
     "url": "https://rees46.com/en/datasets",
     "docs_url": null,
     "github_url": null,
-    "tags": ["omnichannel", "customer data", "identity resolution"]
+    "tags": [
+      "omnichannel",
+      "customer data",
+      "identity resolution"
+    ]
   },
   {
     "name": "JD.com (2011-2014)",
@@ -69,7 +99,12 @@
     "url": "https://www.yongfeng.me/dataset/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["reviews", "products", "China", "large-scale"]
+    "tags": [
+      "reviews",
+      "products",
+      "China",
+      "large-scale"
+    ]
   },
   {
     "name": "JD.com 2020 (MSOM-20)",
@@ -78,7 +113,12 @@
     "url": "https://connect.informs.org/msom/events/datadriven2020",
     "docs_url": null,
     "github_url": null,
-    "tags": ["customers", "SKUs", "INFORMS", "operations"]
+    "tags": [
+      "customers",
+      "SKUs",
+      "INFORMS",
+      "operations"
+    ]
   },
   {
     "name": "Alibaba Ads (IJCAI-18)",
@@ -87,7 +127,12 @@
     "url": "https://tianchi.aliyun.com/dataset/147588",
     "docs_url": null,
     "github_url": null,
-    "tags": ["advertising", "clicks", "large-scale", "Alibaba"]
+    "tags": [
+      "advertising",
+      "clicks",
+      "large-scale",
+      "Alibaba"
+    ]
   },
   {
     "name": "Alibaba Mobile (6GB)",
@@ -96,7 +141,12 @@
     "url": "https://www.yongfeng.me/dataset/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["mobile", "user behavior", "clicks", "purchases"]
+    "tags": [
+      "mobile",
+      "user behavior",
+      "clicks",
+      "purchases"
+    ]
   },
   {
     "name": "Coveo Shopping (SIGIR-21)",
@@ -105,7 +155,12 @@
     "url": "https://github.com/coveooss/SIGIR-ecom-data-challenge",
     "docs_url": null,
     "github_url": "https://github.com/coveooss/SIGIR-ecom-data-challenge",
-    "tags": ["browsing", "search", "embeddings", "SIGIR"]
+    "tags": [
+      "browsing",
+      "search",
+      "embeddings",
+      "SIGIR"
+    ]
   },
   {
     "name": "Retail Rocket",
@@ -114,7 +169,11 @@
     "url": "https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset",
     "docs_url": null,
     "github_url": null,
-    "tags": ["user events", "conversions", "Kaggle"]
+    "tags": [
+      "user events",
+      "conversions",
+      "Kaggle"
+    ]
   },
   {
     "name": "Google Merchandise",
@@ -123,7 +182,11 @@
     "url": "https://support.google.com/analytics/answer/7586738",
     "docs_url": "https://support.google.com/analytics/answer/7586738",
     "github_url": null,
-    "tags": ["Google Analytics", "GA4", "web analytics"]
+    "tags": [
+      "Google Analytics",
+      "GA4",
+      "web analytics"
+    ]
   },
   {
     "name": "Shopee",
@@ -132,7 +195,11 @@
     "url": "https://www.kaggle.com/datasets/davydev/shopee-code-league-20",
     "docs_url": null,
     "github_url": null,
-    "tags": ["Shopee", "competition", "Southeast Asia"]
+    "tags": [
+      "Shopee",
+      "competition",
+      "Southeast Asia"
+    ]
   },
   {
     "name": "Flipkart",
@@ -141,7 +208,11 @@
     "url": "https://www.kaggle.com/datasets/iyumrahul/flipkartsalesdataset",
     "docs_url": null,
     "github_url": null,
-    "tags": ["India", "sales", "Kaggle"]
+    "tags": [
+      "India",
+      "sales",
+      "Kaggle"
+    ]
   },
   {
     "name": "Pakistan e-commerce",
@@ -150,16 +221,24 @@
     "url": "https://www.kaggle.com/datasets/zusmani/pakistans-largest-ecommerce-dataset",
     "docs_url": null,
     "github_url": null,
-    "tags": ["Pakistan", "transactions", "Kaggle"]
+    "tags": [
+      "Pakistan",
+      "transactions",
+      "Kaggle"
+    ]
   },
   {
     "name": "Instacart",
     "description": "3.4M orders, 206k+ users, 49k+ products with reorder behavior",
-    "category": "E-Commerce",
+    "category": "Food & Delivery",
     "url": "https://mdporter.github.io/DS6030/other/instacart.html",
     "docs_url": null,
     "github_url": null,
-    "tags": ["grocery", "orders", "reorder prediction"]
+    "tags": [
+      "grocery",
+      "orders",
+      "reorder prediction"
+    ]
   },
   {
     "name": "Open E-Commerce 1.0 (MIT)",
@@ -168,1284 +247,2107 @@
     "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YGAVK9",
     "docs_url": null,
     "github_url": null,
-    "tags": ["Amazon", "demographics", "purchases", "households", "MIT"]
+    "tags": [
+      "Amazon",
+      "demographics",
+      "purchases",
+      "households",
+      "MIT"
+    ]
   },
   {
     "name": "Upworthy News Headlines",
     "description": "32,487 headline/image experiments on 538M assignments",
-    "category": "A/B Tests & Experiments",
+    "category": "Advertising",
     "url": "https://upworthy.natematias.com/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["A/B testing", "headlines", "media", "experimentation"]
+    "tags": [
+      "A/B testing",
+      "headlines",
+      "media",
+      "experimentation"
+    ]
   },
   {
     "name": "ASSISTments Dataset",
     "description": "Data from online tutoring platform for educational data mining",
-    "category": "A/B Tests & Experiments",
+    "category": "Education",
     "url": "https://sites.google.com/site/las2016data/home",
     "docs_url": null,
     "github_url": null,
-    "tags": ["education", "tutoring", "learning analytics"]
+    "tags": [
+      "education",
+      "tutoring",
+      "learning analytics"
+    ]
   },
   {
     "name": "Gamified Learning",
     "description": "Experiments on gamification in learning environments",
-    "category": "A/B Tests & Experiments",
+    "category": "Education",
     "url": "https://www.sciencedirect.com/science/article/pii/S2352340917301646",
     "docs_url": null,
     "github_url": null,
-    "tags": ["gamification", "education", "experiments"]
+    "tags": [
+      "gamification",
+      "education",
+      "experiments"
+    ]
   },
   {
     "name": "Stanford GSB Experiment Collection",
     "description": "Datasets for experimentation analysis from Stanford Graduate School of Business",
-    "category": "A/B Tests & Experiments",
+    "category": "Education",
     "url": "https://github.com/gsbDBI/ExperimentData",
     "docs_url": null,
     "github_url": "https://github.com/gsbDBI/ExperimentData",
-    "tags": ["Stanford", "causal inference", "experiments"]
+    "tags": [
+      "Stanford",
+      "causal inference",
+      "experiments"
+    ]
   },
   {
     "name": "Athey's Course Datasets",
     "description": "Datasets related to causal inference and experimental design from Susan Athey",
-    "category": "A/B Tests & Experiments",
+    "category": "Education",
     "url": "https://github.com/itamarcaspi/experimentdatar",
     "docs_url": null,
     "github_url": "https://github.com/itamarcaspi/experimentdatar",
-    "tags": ["causal inference", "experiments", "economics"]
+    "tags": [
+      "causal inference",
+      "experiments",
+      "economics"
+    ]
   },
   {
     "name": "PEP Experimental Research",
     "description": "Experimental research datasets from Partnership for Economic Policy",
-    "category": "A/B Tests & Experiments",
+    "category": "Education",
     "url": "https://www.pep-net.org/publications/datasets/experimental-research-datasets",
     "docs_url": null,
     "github_url": null,
-    "tags": ["development economics", "RCT", "policy"]
+    "tags": [
+      "development economics",
+      "RCT",
+      "policy"
+    ]
   },
   {
     "name": "Computational Neuroscience",
     "description": "Experimental data from neural recordings and behavior",
-    "category": "A/B Tests & Experiments",
+    "category": "Education",
     "url": "https://crcns.org/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["neuroscience", "neural data", "behavior"]
+    "tags": [
+      "neuroscience",
+      "neural data",
+      "behavior"
+    ]
   },
   {
     "name": "ASOS Experiments",
     "description": "99 real e-commerce experiments with daily checkpoints from ASOS",
-    "category": "A/B Tests & Experiments",
+    "category": "Fashion & Apparel",
     "url": "https://www.kaggle.com/datasets/marinazmieva/asos-digital-experiments-dataset",
     "docs_url": null,
     "github_url": null,
-    "tags": ["A/B testing", "e-commerce", "fashion", "Kaggle"]
+    "tags": [
+      "A/B testing",
+      "e-commerce",
+      "fashion",
+      "Kaggle"
+    ]
   },
   {
     "name": "Amazon Sessions (KDD Cup 23)",
     "description": "Sessions from 6 locales with 40k-500k products per locale",
-    "category": "Browsing & Search",
+    "category": "E-Commerce",
     "url": "https://www.aicrowd.com/challenges/amazon-kdd-cup-23-multilingual-recommendation-challenge",
     "docs_url": null,
     "github_url": null,
-    "tags": ["Amazon", "sessions", "multilingual", "KDD"]
+    "tags": [
+      "Amazon",
+      "sessions",
+      "multilingual",
+      "KDD"
+    ]
   },
   {
     "name": "JD.com Search",
     "description": "170,000 users' real search queries (2021-2022) from JD.com",
-    "category": "Browsing & Search",
+    "category": "E-Commerce",
     "url": "https://github.com/rucliujn/JDsearch",
     "docs_url": null,
     "github_url": "https://github.com/rucliujn/JDsearch",
-    "tags": ["search queries", "e-commerce search", "China"]
+    "tags": [
+      "search queries",
+      "e-commerce search",
+      "China"
+    ]
   },
   {
     "name": "JD-pretrain-data",
     "description": "Encoded search queries and item data for intent detection",
-    "category": "Browsing & Search",
+    "category": "E-Commerce",
     "url": "https://github.com/jdcomsearch/jd-pretrain-data",
     "docs_url": null,
     "github_url": "https://github.com/jdcomsearch/jd-pretrain-data",
-    "tags": ["search", "intent detection", "embeddings"]
+    "tags": [
+      "search",
+      "intent detection",
+      "embeddings"
+    ]
   },
   {
     "name": "BestBuy",
     "description": "Mobile website clicks (~42k) for Xbox games from BestBuy",
-    "category": "Browsing & Search",
+    "category": "E-Commerce",
     "url": "https://www.kaggle.com/c/acm-sf-chapter-hackathon-big/data",
     "docs_url": null,
     "github_url": null,
-    "tags": ["clicks", "mobile", "gaming", "hackathon"]
+    "tags": [
+      "clicks",
+      "mobile",
+      "gaming",
+      "hackathon"
+    ]
   },
   {
     "name": "Rakuten SIGIR",
     "description": "E-commerce dataset for SIGIR workshop from Rakuten",
-    "category": "Browsing & Search",
+    "category": "E-Commerce",
     "url": "https://sigir-ecom.github.io/ecom2018/data-task.html",
     "docs_url": null,
     "github_url": null,
-    "tags": ["SIGIR", "e-commerce", "search"]
+    "tags": [
+      "SIGIR",
+      "e-commerce",
+      "search"
+    ]
   },
   {
     "name": "Wayfair Search (WANDS)",
     "description": "233k human-annotated query-product judgments, 43k products",
-    "category": "Browsing & Search",
+    "category": "E-Commerce",
     "url": "https://github.com/wayfair/WANDS",
     "docs_url": null,
     "github_url": "https://github.com/wayfair/WANDS",
-    "tags": ["search relevance", "annotations", "furniture"]
+    "tags": [
+      "search relevance",
+      "annotations",
+      "furniture"
+    ]
   },
   {
     "name": "Criteo Display Advertising",
     "description": "342GB total with 13 integer features, 26 hashed categorical features",
-    "category": "Browsing & Search",
+    "category": "Advertising",
     "url": "https://ailab.criteo.com/ressources/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["CTR prediction", "advertising", "large-scale"]
+    "tags": [
+      "CTR prediction",
+      "advertising",
+      "large-scale"
+    ]
   },
   {
     "name": "Avazu",
     "description": "Dataset for click-through rate prediction on mobile ads",
-    "category": "Browsing & Search",
+    "category": "Advertising",
     "url": "https://www.kaggle.com/competitions/avazu-ctr-prediction/overview",
     "docs_url": null,
     "github_url": null,
-    "tags": ["CTR", "mobile ads", "Kaggle competition"]
+    "tags": [
+      "CTR",
+      "mobile ads",
+      "Kaggle competition"
+    ]
   },
   {
     "name": "Yoyi",
     "description": "Computational advertising dataset from Chinese ad platform",
-    "category": "Browsing & Search",
+    "category": "Advertising",
     "url": "https://apex.sjtu.edu.cn/datasets/7",
     "docs_url": null,
     "github_url": null,
-    "tags": ["advertising", "China", "computational ads"]
+    "tags": [
+      "advertising",
+      "China",
+      "computational ads"
+    ]
   },
   {
     "name": "Ele.me Search",
     "description": "Search log dataset from Ele.me (Chinese food delivery)",
-    "category": "Browsing & Search",
+    "category": "Food & Delivery",
     "url": "https://tianchi.aliyun.com/dataset/120281",
     "docs_url": null,
     "github_url": null,
-    "tags": ["food delivery", "search logs", "China"]
+    "tags": [
+      "food delivery",
+      "search logs",
+      "China"
+    ]
   },
   {
     "name": "Ele.me Clickstream",
     "description": "Clickstream data from Ele.me food delivery platform",
-    "category": "Browsing & Search",
+    "category": "Food & Delivery",
     "url": "https://tianchi.aliyun.com/dataset/131047",
     "docs_url": null,
     "github_url": null,
-    "tags": ["clickstream", "food delivery", "user behavior"]
+    "tags": [
+      "clickstream",
+      "food delivery",
+      "user behavior"
+    ]
   },
   {
     "name": "Alibaba Industrial Dump (150GB)",
     "description": "Large-scale industrial dataset from Alibaba (150GB)",
-    "category": "Browsing & Search",
+    "category": "E-Commerce",
     "url": "https://tianchi.aliyun.com/dataset/81505",
     "docs_url": null,
     "github_url": null,
-    "tags": ["large-scale", "industrial", "Alibaba"]
+    "tags": [
+      "large-scale",
+      "industrial",
+      "Alibaba"
+    ]
   },
   {
     "name": "Alibaba Fashion Combo",
     "description": "Fashion item combinations from Alibaba for outfit recommendation",
-    "category": "Browsing & Search",
+    "category": "Fashion & Apparel",
     "url": "https://tianchi.aliyun.com/dataset/131519",
     "docs_url": null,
     "github_url": null,
-    "tags": ["fashion", "outfit", "recommendation"]
+    "tags": [
+      "fashion",
+      "outfit",
+      "recommendation"
+    ]
   },
   {
     "name": "Alibaba Brick and Mortar (IJCAI-16)",
     "description": "Online and offline check-ins/purchases from 1,000+ stores",
-    "category": "Browsing & Search",
+    "category": "E-Commerce",
     "url": "https://tianchi.aliyun.com/dataset/53",
     "docs_url": null,
     "github_url": null,
-    "tags": ["O2O", "offline", "retail", "IJCAI"]
+    "tags": [
+      "O2O",
+      "offline",
+      "retail",
+      "IJCAI"
+    ]
   },
   {
     "name": "Alibaba Mobile 2021",
     "description": "Mobile user behavior data from Alibaba (2021)",
-    "category": "Browsing & Search",
+    "category": "E-Commerce",
     "url": "https://tianchi.aliyun.com/dataset/109858",
     "docs_url": null,
     "github_url": null,
-    "tags": ["mobile", "user behavior", "Alibaba"]
+    "tags": [
+      "mobile",
+      "user behavior",
+      "Alibaba"
+    ]
   },
   {
     "name": "Alibaba Clickstream 2018",
     "description": "Clickstream data from Alibaba platforms (2018)",
-    "category": "Browsing & Search",
+    "category": "E-Commerce",
     "url": "https://tianchi.aliyun.com/dataset/56",
     "docs_url": null,
     "github_url": null,
-    "tags": ["clickstream", "Alibaba", "user behavior"]
+    "tags": [
+      "clickstream",
+      "Alibaba",
+      "user behavior"
+    ]
   },
   {
     "name": "Alibaba Cloud Theme",
     "description": "Themed dataset related to Alibaba Cloud services",
-    "category": "Browsing & Search",
+    "category": "E-Commerce",
     "url": "https://tianchi.aliyun.com/dataset/9716",
     "docs_url": null,
     "github_url": null,
-    "tags": ["cloud", "Alibaba", "themed"]
+    "tags": [
+      "cloud",
+      "Alibaba",
+      "themed"
+    ]
   },
   {
     "name": "Alibaba Ads Dataset",
     "description": "Advertising dataset from Alibaba for ad targeting and prediction",
-    "category": "Browsing & Search",
+    "category": "Advertising",
     "url": "https://tianchi.aliyun.com/dataset/148347",
     "docs_url": null,
     "github_url": null,
-    "tags": ["advertising", "targeting", "Alibaba"]
+    "tags": [
+      "advertising",
+      "targeting",
+      "Alibaba"
+    ]
   },
   {
     "name": "Alibaba User Behavior 2018",
     "description": "649M user interactions (clicks, carts, buys) on 25M items",
-    "category": "Browsing & Search",
+    "category": "E-Commerce",
     "url": "https://tianchi.aliyun.com/dataset/649",
     "docs_url": null,
     "github_url": null,
-    "tags": ["user behavior", "large-scale", "interactions"]
+    "tags": [
+      "user behavior",
+      "large-scale",
+      "interactions"
+    ]
   },
   {
     "name": "Alibaba Personalized Re-Ranking",
     "description": "Mobile shopping user click data on recommended items",
-    "category": "Browsing & Search",
+    "category": "E-Commerce",
     "url": "http://yongfeng.me/dataset/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["re-ranking", "personalization", "recommendations"]
+    "tags": [
+      "re-ranking",
+      "personalization",
+      "recommendations"
+    ]
   },
   {
     "name": "Online Shopping Intention",
     "description": "12,330 user sessions with numerical and categorical features for purchase prediction",
-    "category": "Browsing & Search",
+    "category": "E-Commerce",
     "url": "https://www.kaggle.com/datasets/henrysue/online-shoppers-intention",
     "docs_url": null,
     "github_url": null,
-    "tags": ["purchase prediction", "sessions", "Kaggle"]
+    "tags": [
+      "purchase prediction",
+      "sessions",
+      "Kaggle"
+    ]
   },
   {
     "name": "MicroLens",
     "description": "1 billion interactions from 34 million users on 1 million micro-videos",
-    "category": "Video & Streaming",
+    "category": "Entertainment & Media",
     "url": "https://github.com/westlake-repl/MicroLens",
     "docs_url": null,
     "github_url": "https://github.com/westlake-repl/MicroLens",
-    "tags": ["video", "micro-video", "large-scale", "recommendations"]
+    "tags": [
+      "video",
+      "micro-video",
+      "large-scale",
+      "recommendations"
+    ]
   },
   {
     "name": "KuaiSAR",
     "description": "5M search actions, 14.6M recommendation events from 25k users",
-    "category": "Video & Streaming",
+    "category": "Entertainment & Media",
     "url": "https://kuaisar.github.io/",
     "docs_url": "https://kuaisar.github.io/",
     "github_url": null,
-    "tags": ["search", "recommendations", "video", "Kuaishou"]
+    "tags": [
+      "search",
+      "recommendations",
+      "video",
+      "Kuaishou"
+    ]
   },
   {
     "name": "Amazon Reviews (2023)",
     "description": "571M reviews (1996-2023), 33 categories, 48M items - comprehensive Amazon review dataset",
-    "category": "Products & Reviews",
+    "category": "E-Commerce",
     "url": "https://cseweb.ucsd.edu/~jmcauley/datasets.html#amazon_reviews",
     "docs_url": null,
     "github_url": null,
-    "tags": ["reviews", "Amazon", "large-scale", "sentiment"]
+    "tags": [
+      "reviews",
+      "Amazon",
+      "large-scale",
+      "sentiment"
+    ]
   },
   {
     "name": "M5Product",
     "description": "5 modalities (image, text, table, video, audio), 6M+ samples for multimodal learning",
-    "category": "Products & Reviews",
+    "category": "E-Commerce",
     "url": "https://xiaodongsuper.github.io/M5Product_dataset/index.html",
     "docs_url": "https://xiaodongsuper.github.io/M5Product_dataset/index.html",
     "github_url": null,
-    "tags": ["multimodal", "product data", "images", "video"]
+    "tags": [
+      "multimodal",
+      "product data",
+      "images",
+      "video"
+    ]
   },
   {
     "name": "Tmall Reviews",
     "description": "Product reviews from Tmall (Alibaba's B2C platform)",
-    "category": "Products & Reviews",
+    "category": "E-Commerce",
     "url": "https://tianchi.aliyun.com/dataset/140281",
     "docs_url": null,
     "github_url": null,
-    "tags": ["reviews", "Tmall", "China", "B2C"]
+    "tags": [
+      "reviews",
+      "Tmall",
+      "China",
+      "B2C"
+    ]
   },
   {
     "name": "Home Depot Product Search",
     "description": "Human-rated relevance scores (1-3) for search terms and products",
-    "category": "Products & Reviews",
+    "category": "E-Commerce",
     "url": "https://www.kaggle.com/datasets/thedevastator/the-home-depot-products-dataset",
     "docs_url": null,
     "github_url": null,
-    "tags": ["search relevance", "retail", "Kaggle"]
+    "tags": [
+      "search relevance",
+      "retail",
+      "Kaggle"
+    ]
   },
   {
     "name": "Innerwear Data",
     "description": "Data scraped from Victoria's Secret and other innerwear retailers",
-    "category": "Products & Reviews",
+    "category": "Fashion & Apparel",
     "url": "https://www.kaggle.com/datasets/PromptCloudHQ/innerwear-data-from-victorias-secret-and-others",
     "docs_url": null,
     "github_url": null,
-    "tags": ["fashion", "retail", "scraped data"]
+    "tags": [
+      "fashion",
+      "retail",
+      "scraped data"
+    ]
   },
   {
     "name": "Flipkart Products",
     "description": "Product information scraped from Flipkart e-commerce platform",
-    "category": "Products & Reviews",
+    "category": "E-Commerce",
     "url": "https://www.kaggle.com/datasets/PromptCloudHQ/flipkart-products",
     "docs_url": null,
     "github_url": null,
-    "tags": ["products", "India", "e-commerce"]
+    "tags": [
+      "products",
+      "India",
+      "e-commerce"
+    ]
   },
   {
     "name": "Stanford Amazon/Beer",
     "description": "Amazon product data and BeerAdvocate reviews from Stanford SNAP",
-    "category": "Products & Reviews",
+    "category": "Entertainment & Media",
     "url": "https://snap.stanford.edu/data/#amazon",
     "docs_url": null,
     "github_url": null,
-    "tags": ["reviews", "Stanford", "beer", "Amazon"]
+    "tags": [
+      "reviews",
+      "Stanford",
+      "beer",
+      "Amazon"
+    ]
   },
   {
     "name": "Metacritic Video Games",
     "description": "Video game reviews and metadata from Metacritic",
-    "category": "Products & Reviews",
+    "category": "Entertainment & Media",
     "url": "https://tianchi.aliyun.com/dataset/144719",
     "docs_url": null,
     "github_url": null,
-    "tags": ["video games", "reviews", "ratings"]
+    "tags": [
+      "video games",
+      "reviews",
+      "ratings"
+    ]
   },
   {
     "name": "Goodreads",
     "description": "Book information and user reviews from Goodreads platform",
-    "category": "Products & Reviews",
+    "category": "Entertainment & Media",
     "url": "https://mengtingwan.github.io/data/goodreads.html#datasets",
     "docs_url": null,
     "github_url": null,
-    "tags": ["books", "reviews", "recommendations"]
+    "tags": [
+      "books",
+      "reviews",
+      "recommendations"
+    ]
   },
   {
     "name": "Walmart (M5)",
     "description": "Hierarchical sales data for 3,049 products across 10 stores",
-    "category": "Sales & Forecasting",
+    "category": "Grocery & Supermarkets",
     "url": "https://www.kaggle.com/competitions/m5-forecasting-accuracy/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["forecasting", "hierarchical", "Walmart", "M5 competition"]
+    "tags": [
+      "forecasting",
+      "hierarchical",
+      "Walmart",
+      "M5 competition"
+    ]
   },
   {
     "name": "Ecuador Grocery (Favorita)",
     "description": "Unit sales data with store/item metadata and oil prices from Ecuador",
-    "category": "Sales & Forecasting",
+    "category": "Grocery & Supermarkets",
     "url": "https://www.kaggle.com/competitions/favorita-grocery-sales-forecasting/data",
     "docs_url": null,
     "github_url": null,
-    "tags": ["grocery", "sales forecasting", "Ecuador", "Kaggle"]
+    "tags": [
+      "grocery",
+      "sales forecasting",
+      "Ecuador",
+      "Kaggle"
+    ]
   },
   {
     "name": "Ukraine eCommerce (Fozzy)",
     "description": "E-commerce sales data from Fozzy Group retail chain in Ukraine",
-    "category": "Sales & Forecasting",
+    "category": "Grocery & Supermarkets",
     "url": "https://www.kaggle.com/datasets/picklenik/fozzy-group-hack4retail/data",
     "docs_url": null,
     "github_url": null,
-    "tags": ["retail", "Ukraine", "sales"]
+    "tags": [
+      "retail",
+      "Ukraine",
+      "sales"
+    ]
   },
   {
     "name": "Office Supplies (DMDA 2023)",
     "description": "Office supply sales for DMDA 2023 workshop challenge",
-    "category": "Sales & Forecasting",
+    "category": "Grocery & Supermarkets",
     "url": "https://sites.google.com/view/dmdaworkshop2023/data-challenge",
     "docs_url": null,
     "github_url": null,
-    "tags": ["office supplies", "forecasting", "workshop"]
+    "tags": [
+      "office supplies",
+      "forecasting",
+      "workshop"
+    ]
   },
   {
     "name": "Brazilian Drugs (ANVISA)",
     "description": "Sales data for controlled substances reported by ANVISA",
-    "category": "Sales & Forecasting",
+    "category": "Grocery & Supermarkets",
     "url": "https://www.kaggle.com/datasets/tiagoacardoso/venda-medicamentos-controlados-anvisa",
     "docs_url": null,
     "github_url": null,
-    "tags": ["pharmaceuticals", "Brazil", "regulated"]
+    "tags": [
+      "pharmaceuticals",
+      "Brazil",
+      "regulated"
+    ]
   },
   {
     "name": "Indian Sales",
     "description": "Sales forecasting dataset for small basket items in India",
-    "category": "Sales & Forecasting",
+    "category": "Grocery & Supermarkets",
     "url": "https://www.kaggle.com/datasets/girishvutukuri/sales-forecasting-for-small-basket",
     "docs_url": null,
     "github_url": null,
-    "tags": ["India", "forecasting", "retail"]
+    "tags": [
+      "India",
+      "forecasting",
+      "retail"
+    ]
   },
   {
     "name": "Walmart Sales",
     "description": "General sales data including CPI and unemployment rate",
-    "category": "Sales & Forecasting",
+    "category": "Grocery & Supermarkets",
     "url": "https://www.kaggle.com/datasets/yogesh174/wallmart-sales/data",
     "docs_url": null,
     "github_url": null,
-    "tags": ["Walmart", "macroeconomics", "sales"]
+    "tags": [
+      "Walmart",
+      "macroeconomics",
+      "sales"
+    ]
   },
   {
     "name": "Montgomery Liquor",
     "description": "Warehouse and retail liquor sales from Montgomery County, Maryland",
-    "category": "Sales & Forecasting",
+    "category": "Grocery & Supermarkets",
     "url": "https://data.montgomerycountymd.gov/Community-Recreation/Warehouse-and-Retail-Sales/v76h-r7br",
     "docs_url": null,
     "github_url": null,
-    "tags": ["liquor", "retail", "government data"]
+    "tags": [
+      "liquor",
+      "retail",
+      "government data"
+    ]
   },
   {
     "name": "Iowa Liquor",
     "description": "Monthly Class E liquor sales data with volume and pricing from Iowa",
-    "category": "Sales & Forecasting",
+    "category": "Grocery & Supermarkets",
     "url": "https://data.iowa.gov/Sales-Distribution/Iowa-Liquor-Sales/m3tr-qhgy/data",
     "docs_url": null,
     "github_url": null,
-    "tags": ["liquor", "government data", "Iowa"]
+    "tags": [
+      "liquor",
+      "government data",
+      "Iowa"
+    ]
   },
   {
     "name": "Brazil Medical",
     "description": "Medicine sales data in Brazil",
-    "category": "Sales & Forecasting",
+    "category": "Grocery & Supermarkets",
     "url": "https://www.kaggle.com/datasets/tgomesjuliana/brazil-medicine-sales",
     "docs_url": null,
     "github_url": null,
-    "tags": ["pharmaceuticals", "Brazil", "healthcare"]
+    "tags": [
+      "pharmaceuticals",
+      "Brazil",
+      "healthcare"
+    ]
   },
   {
     "name": "Store Item Demand",
     "description": "50 items across 10 different stores over 5 years",
-    "category": "Sales & Forecasting",
+    "category": "Grocery & Supermarkets",
     "url": "https://www.kaggle.com/c/demand-forecasting-kernels-only/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["demand forecasting", "Kaggle competition", "time series"]
+    "tags": [
+      "demand forecasting",
+      "Kaggle competition",
+      "time series"
+    ]
   },
   {
     "name": "Italian Grocers",
     "description": "Receipt-level sales data from Italian grocery stores",
-    "category": "Sales & Forecasting",
+    "category": "Grocery & Supermarkets",
     "url": "https://data.mendeley.com/datasets/s8dgbs3rng/1",
     "docs_url": null,
     "github_url": null,
-    "tags": ["grocery", "Italy", "receipts"]
+    "tags": [
+      "grocery",
+      "Italy",
+      "receipts"
+    ]
   },
   {
     "name": "Tesco Grocery 1.0",
     "description": "Grocery purchases from Tesco stores via loyalty cards",
-    "category": "Supermarkets & Grocery",
+    "category": "Grocery & Supermarkets",
     "url": "https://figshare.com/collections/Tesco_Grocery_1_0/4769354",
     "docs_url": null,
     "github_url": null,
-    "tags": ["grocery", "loyalty cards", "UK", "Tesco"]
+    "tags": [
+      "grocery",
+      "loyalty cards",
+      "UK",
+      "Tesco"
+    ]
   },
   {
     "name": "Rossmann Store Sales",
     "description": "1,115 Rossmann drug stores historical sales data",
-    "category": "Supermarkets & Grocery",
+    "category": "Grocery & Supermarkets",
     "url": "https://www.kaggle.com/c/rossmann-store-sales",
     "docs_url": null,
     "github_url": null,
-    "tags": ["retail", "Germany", "Kaggle competition"]
+    "tags": [
+      "retail",
+      "Germany",
+      "Kaggle competition"
+    ]
   },
   {
     "name": "Polish Grocery",
     "description": "Yearly sales data (2018) from Polish grocery shop",
-    "category": "Supermarkets & Grocery",
+    "category": "Grocery & Supermarkets",
     "url": "https://www.kaggle.com/datasets/agatii/total-sale-2018-yearly-data-of-grocery-shop/data",
     "docs_url": null,
     "github_url": null,
-    "tags": ["grocery", "Poland", "yearly data"]
+    "tags": [
+      "grocery",
+      "Poland",
+      "yearly data"
+    ]
   },
   {
     "name": "UK Gift Shop (Online Retail)",
     "description": "Online retail transactions (2010-2011) from UK gift retailer",
-    "category": "Supermarkets & Grocery",
+    "category": "Grocery & Supermarkets",
     "url": "http://archive.ics.uci.edu/dataset/352/online+retail",
     "docs_url": null,
     "github_url": null,
-    "tags": ["retail", "UK", "UCI", "transactions"]
+    "tags": [
+      "retail",
+      "UK",
+      "UCI",
+      "transactions"
+    ]
   },
   {
     "name": "Turkish Drugs",
     "description": "Drug sales data from Turkey",
-    "category": "Supermarkets & Grocery",
+    "category": "Grocery & Supermarkets",
     "url": "https://www.kaggle.com/datasets/emrahaydemr/drug-sales-data",
     "docs_url": null,
     "github_url": null,
-    "tags": ["pharmaceuticals", "Turkey", "sales"]
+    "tags": [
+      "pharmaceuticals",
+      "Turkey",
+      "sales"
+    ]
   },
   {
     "name": "NYC Shopping",
     "description": "Large sales dataset from New York City retail",
-    "category": "Supermarkets & Grocery",
+    "category": "Grocery & Supermarkets",
     "url": "https://www.kaggle.com/datasets/pigment/big-sales-data",
     "docs_url": null,
     "github_url": null,
-    "tags": ["NYC", "retail", "large-scale"]
+    "tags": [
+      "NYC",
+      "retail",
+      "large-scale"
+    ]
   },
   {
     "name": "Mexican Grocery",
     "description": "Data from a Mexican grocery store",
-    "category": "Supermarkets & Grocery",
+    "category": "Grocery & Supermarkets",
     "url": "https://www.kaggle.com/datasets/martinezjosegpe/grocery-store/data",
     "docs_url": null,
     "github_url": null,
-    "tags": ["grocery", "Mexico", "retail"]
+    "tags": [
+      "grocery",
+      "Mexico",
+      "retail"
+    ]
   },
   {
     "name": "Vietnam Supermarket",
     "description": "Sales and inventory snapshot data from Vietnamese supermarket",
-    "category": "Supermarkets & Grocery",
+    "category": "Grocery & Supermarkets",
     "url": "https://www.kaggle.com/datasets/tienanh2003/sales-and-inventory-snapshot-data",
     "docs_url": null,
     "github_url": null,
-    "tags": ["supermarket", "Vietnam", "inventory"]
+    "tags": [
+      "supermarket",
+      "Vietnam",
+      "inventory"
+    ]
   },
   {
     "name": "Indian Grocery (Flipkart Supermart)",
     "description": "Flipkart Supermart transaction and product details",
-    "category": "Supermarkets & Grocery",
+    "category": "Grocery & Supermarkets",
     "url": "https://www.kaggle.com/datasets/aryansingh95/flipkart-grocery-transaction-and-product-details",
     "docs_url": null,
     "github_url": null,
-    "tags": ["grocery", "India", "Flipkart"]
+    "tags": [
+      "grocery",
+      "India",
+      "Flipkart"
+    ]
   },
   {
     "name": "Israeli Grocery",
     "description": "Grocery purchase data from Israel",
-    "category": "Supermarkets & Grocery",
+    "category": "Grocery & Supermarkets",
     "url": "https://www.kaggle.com/datasets/arielpazsawicki/kimonaim",
     "docs_url": null,
     "github_url": null,
-    "tags": ["grocery", "Israel", "purchases"]
+    "tags": [
+      "grocery",
+      "Israel",
+      "purchases"
+    ]
   },
   {
     "name": "Brazilian Store Chain",
     "description": "Sales data from Brazilian retail chain",
-    "category": "Supermarkets & Grocery",
+    "category": "Grocery & Supermarkets",
     "url": "https://www.kaggle.com/datasets/marcio486/sales-data-for-a-chain-of-brazilian-stores",
     "docs_url": null,
     "github_url": null,
-    "tags": ["retail", "Brazil", "chain stores"]
+    "tags": [
+      "retail",
+      "Brazil",
+      "chain stores"
+    ]
   },
   {
     "name": "Dominicks Soft Drinks",
     "description": "Weekly scanner data on soft drink purchases from Dominick's Finer Foods",
-    "category": "Supermarkets & Grocery",
+    "category": "Grocery & Supermarkets",
     "url": "https://www.chicagobooth.edu/research/kilts/research-data/dominicks",
     "docs_url": null,
     "github_url": null,
-    "tags": ["scanner data", "soft drinks", "Chicago Booth"]
+    "tags": [
+      "scanner data",
+      "soft drinks",
+      "Chicago Booth"
+    ]
   },
   {
     "name": "Hashed Multimodal Banking",
     "description": "Banking transactions and product purchases with hashed identifiers",
-    "category": "Financial",
+    "category": "Financial Services",
     "url": "https://github.com/dzhambo/mbd",
     "docs_url": null,
     "github_url": "https://github.com/dzhambo/mbd",
-    "tags": ["banking", "transactions", "privacy-preserving"]
+    "tags": [
+      "banking",
+      "transactions",
+      "privacy-preserving"
+    ]
   },
   {
     "name": "SEC EDGAR Filings",
     "description": "21M+ public company filings since 1994. 10-Ks, 8-Ks, proxy statements. Full text + structured XBRL data",
-    "category": "Financial",
+    "category": "Financial Services",
     "url": "https://www.sec.gov/search-filings",
     "docs_url": "https://www.sec.gov/os/accessing-edgar-data",
     "github_url": "https://github.com/datasets/edgar",
-    "tags": ["SEC", "corporate filings", "10-K", "disclosure", "large-scale"]
+    "tags": [
+      "SEC",
+      "corporate filings",
+      "10-K",
+      "disclosure",
+      "large-scale"
+    ]
   },
   {
     "name": "Indonesian Fashion",
     "description": "Fashion items for image classification tasks from Indonesia",
-    "category": "Fashion",
+    "category": "Fashion & Apparel",
     "url": "https://www.kaggle.com/datasets/latifahhukma/fashion-campus",
     "docs_url": null,
     "github_url": null,
-    "tags": ["fashion", "image classification", "Indonesia"]
+    "tags": [
+      "fashion",
+      "image classification",
+      "Indonesia"
+    ]
   },
   {
     "name": "Diginetica Fashion",
     "description": "Clickstream and purchase data for fashion e-commerce",
-    "category": "Fashion",
+    "category": "Fashion & Apparel",
     "url": "https://competitions.codalab.org/competitions/11161",
     "docs_url": null,
     "github_url": null,
-    "tags": ["fashion", "clickstream", "competition"]
+    "tags": [
+      "fashion",
+      "clickstream",
+      "competition"
+    ]
   },
   {
     "name": "Dressipi Fashion (RecSys 2022)",
     "description": "Session interactions and item features from styling service",
-    "category": "Fashion",
+    "category": "Fashion & Apparel",
     "url": "http://www.recsyschallenge.com/2022/dataset.html",
     "docs_url": null,
     "github_url": null,
-    "tags": ["fashion", "RecSys", "styling", "sessions"]
+    "tags": [
+      "fashion",
+      "RecSys",
+      "styling",
+      "sessions"
+    ]
   },
   {
     "name": "Fashion-MNIST",
     "description": "70,000 28x28 grayscale images of 10 fashion categories from Zalando",
-    "category": "Fashion",
+    "category": "Fashion & Apparel",
     "url": "https://github.com/zalandoresearch/fashion-mnist",
     "docs_url": null,
     "github_url": "https://github.com/zalandoresearch/fashion-mnist",
-    "tags": ["image classification", "benchmark", "deep learning"]
+    "tags": [
+      "image classification",
+      "benchmark",
+      "deep learning"
+    ]
   },
   {
     "name": "BLP US Car Data",
     "description": "Classic dataset (1971-1990) for demand model estimation",
-    "category": "Automobiles",
+    "category": "Automotive",
     "url": "https://pyblp.readthedocs.io/en/stable/_notebooks/tutorial/blp.html",
     "docs_url": "https://pyblp.readthedocs.io/en/stable/_notebooks/tutorial/blp.html",
     "github_url": null,
-    "tags": ["demand estimation", "BLP", "economics", "classic"]
+    "tags": [
+      "demand estimation",
+      "BLP",
+      "economics",
+      "classic"
+    ]
   },
   {
     "name": "European Car Market",
     "description": "Car information including prices and attributes (1970-1999)",
-    "category": "Automobiles",
+    "category": "Automotive",
     "url": "https://sites.google.com/site/frankverbo/data-and-software/data-set-on-the-european-car-market",
     "docs_url": null,
     "github_url": null,
-    "tags": ["cars", "Europe", "prices", "IO"]
+    "tags": [
+      "cars",
+      "Europe",
+      "prices",
+      "IO"
+    ]
   },
   {
     "name": "Russian Car Market",
     "description": "Car sales information in Russia",
-    "category": "Automobiles",
+    "category": "Automotive",
     "url": "https://www.kaggle.com/datasets/ekibee/car-sales-information",
     "docs_url": null,
     "github_url": null,
-    "tags": ["cars", "Russia", "sales"]
+    "tags": [
+      "cars",
+      "Russia",
+      "sales"
+    ]
   },
   {
     "name": "German Used Cars",
     "description": "Used car listings or sales in Germany",
-    "category": "Automobiles",
+    "category": "Automotive",
     "url": "https://www.kaggle.com/datasets/gogotchuri/myautogecardetails",
     "docs_url": null,
     "github_url": null,
-    "tags": ["used cars", "Germany", "listings"]
+    "tags": [
+      "used cars",
+      "Germany",
+      "listings"
+    ]
   },
   {
     "name": "Indian Automobiles (Telangana)",
     "description": "Vehicle sales data for Telangana, India (2023)",
-    "category": "Automobiles",
+    "category": "Automotive",
     "url": "https://www.kaggle.com/datasets/zubairatha/revving-up-telangana-vehicle-sales-2023",
     "docs_url": null,
     "github_url": null,
-    "tags": ["vehicles", "India", "regional sales"]
+    "tags": [
+      "vehicles",
+      "India",
+      "regional sales"
+    ]
   },
   {
     "name": "Fliggy Travel",
     "description": "Travel-related data from Alibaba's online travel platform",
-    "category": "Travel",
+    "category": "Travel & Hospitality",
     "url": "https://tianchi.aliyun.com/dataset/113649",
     "docs_url": null,
     "github_url": null,
-    "tags": ["travel", "Alibaba", "bookings"]
+    "tags": [
+      "travel",
+      "Alibaba",
+      "bookings"
+    ]
   },
   {
     "name": "Fliggy Transfers",
     "description": "Transfer-related data (flights, ground transport) from Fliggy",
-    "category": "Travel",
+    "category": "Travel & Hospitality",
     "url": "https://tianchi.aliyun.com/dataset/140721",
     "docs_url": null,
     "github_url": null,
-    "tags": ["travel", "transfers", "transportation"]
+    "tags": [
+      "travel",
+      "transfers",
+      "transportation"
+    ]
   },
   {
     "name": "Expedia Hotel",
     "description": "Hotel booking and search data from Expedia",
-    "category": "Travel",
+    "category": "Travel & Hospitality",
     "url": "https://www.kaggle.com/datasets/vijeetnigam26/expedia-hotel",
     "docs_url": null,
     "github_url": null,
-    "tags": ["hotels", "bookings", "travel search"]
+    "tags": [
+      "hotels",
+      "bookings",
+      "travel search"
+    ]
   },
   {
     "name": "Airline Delay",
     "description": "Airline flight delays and carrier information",
-    "category": "Travel",
+    "category": "Transportation & Mobility",
     "url": "https://www.kaggle.com/datasets/sriharshaeedala/airline-delay",
     "docs_url": null,
     "github_url": null,
-    "tags": ["airlines", "delays", "transportation"]
+    "tags": [
+      "airlines",
+      "delays",
+      "transportation"
+    ]
   },
   {
     "name": "NetEase Music (INFORMS)",
     "description": "Data from NetEase Cloud Music for INFORMS competition",
-    "category": "Music",
+    "category": "Entertainment & Media",
     "url": "https://connect.informs.org/rmp/awards/data-competition",
     "docs_url": null,
     "github_url": null,
-    "tags": ["music", "streaming", "INFORMS", "China"]
+    "tags": [
+      "music",
+      "streaming",
+      "INFORMS",
+      "China"
+    ]
   },
   {
     "name": "Bandcamp Music Sales",
     "description": "Music sales data (digital/physical) from Bandcamp platform",
-    "category": "Music",
+    "category": "Entertainment & Media",
     "url": "https://components.one/datasets/bandcamp-sales",
     "docs_url": null,
     "github_url": null,
-    "tags": ["music", "sales", "independent artists"]
+    "tags": [
+      "music",
+      "sales",
+      "independent artists"
+    ]
   },
   {
     "name": "Spotify Music Streaming Sessions (MSSD)",
     "description": "150M+ listening sessions with skips, track features, and playlist context. The largest public music streaming behavior dataset",
-    "category": "Music",
+    "category": "Entertainment & Media",
     "url": "https://research.atspotify.com/datasets",
     "docs_url": "https://arxiv.org/abs/1901.09851",
     "github_url": null,
-    "tags": ["Spotify", "streaming", "sessions", "skips", "large-scale"]
+    "tags": [
+      "Spotify",
+      "streaming",
+      "sessions",
+      "skips",
+      "large-scale"
+    ]
   },
   {
     "name": "Online Auctions Collection",
     "description": "Collection of datasets from eBay and experimental auctions",
-    "category": "Auctions & Procurement",
+    "category": "Auctions & Marketplaces",
     "url": "https://www.modelingonlineauctions.com/datasets",
     "docs_url": null,
     "github_url": null,
-    "tags": ["auctions", "eBay", "bidding"]
+    "tags": [
+      "auctions",
+      "eBay",
+      "bidding"
+    ]
   },
   {
     "name": "Crypto Art (SuperRare)",
     "description": "Bids and transactions from SuperRare NFT platform",
-    "category": "Auctions & Procurement",
+    "category": "Auctions & Marketplaces",
     "url": "https://www.kaggle.com/datasets/franceschet/superrare",
     "docs_url": null,
     "github_url": null,
-    "tags": ["NFT", "crypto", "art", "auctions"]
+    "tags": [
+      "NFT",
+      "crypto",
+      "art",
+      "auctions"
+    ]
   },
   {
     "name": "Ukraine Procurement (ProZorro)",
     "description": "Public procurement data from ProZorro system",
-    "category": "Auctions & Procurement",
+    "category": "Auctions & Marketplaces",
     "url": "https://www.kaggle.com/datasets/oleksastepaniuk/prozorro-public-procurement-dataset",
     "docs_url": null,
     "github_url": null,
-    "tags": ["procurement", "government", "Ukraine"]
+    "tags": [
+      "procurement",
+      "government",
+      "Ukraine"
+    ]
   },
   {
     "name": "Romania Tenders",
     "description": "Public tender data (2007-2016) from Romania",
-    "category": "Auctions & Procurement",
+    "category": "Auctions & Marketplaces",
     "url": "https://www.kaggle.com/datasets/gpreda/public-tenders-romania-20072016",
     "docs_url": null,
     "github_url": null,
-    "tags": ["tenders", "government", "Romania"]
+    "tags": [
+      "tenders",
+      "government",
+      "Romania"
+    ]
   },
   {
     "name": "Art Auction (Artists for Lahaina)",
     "description": "Artists for Lahaina benefit art auction data (2023)",
-    "category": "Auctions & Procurement",
+    "category": "Auctions & Marketplaces",
     "url": "https://www.kaggle.com/datasets/quillen/artists-for-lahaina-2023",
     "docs_url": null,
     "github_url": null,
-    "tags": ["art", "charity", "auctions"]
+    "tags": [
+      "art",
+      "charity",
+      "auctions"
+    ]
   },
   {
     "name": "Used Car Auction (PakWheels)",
     "description": "Listings from PakWheels Pakistani automobile marketplace",
-    "category": "Auctions & Procurement",
+    "category": "Auctions & Marketplaces",
     "url": "https://www.kaggle.com/datasets/asimzahid/pakistans-largest-pakwheels-automobiles-listings",
     "docs_url": null,
     "github_url": null,
-    "tags": ["cars", "Pakistan", "listings"]
+    "tags": [
+      "cars",
+      "Pakistan",
+      "listings"
+    ]
   },
   {
     "name": "Ipinyou RTB",
     "description": "Real-time bidding (RTB) dataset for CTR prediction",
-    "category": "Display Advertising",
+    "category": "Advertising",
     "url": "http://contest.ipinyou.com/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["RTB", "advertising", "CTR", "programmatic"]
+    "tags": [
+      "RTB",
+      "advertising",
+      "CTR",
+      "programmatic"
+    ]
   },
   {
     "name": "Alibaba Advertising",
     "description": "Advertising dataset (sponsored search or display ads) from Alibaba",
-    "category": "Display Advertising",
+    "category": "Advertising",
     "url": "https://tianchi.aliyun.com/dataset/148347",
     "docs_url": null,
     "github_url": null,
-    "tags": ["advertising", "Alibaba", "sponsored"]
+    "tags": [
+      "advertising",
+      "Alibaba",
+      "sponsored"
+    ]
   },
   {
     "name": "Adform Display",
     "description": "Display advertising dataset with impressions and clicks",
-    "category": "Display Advertising",
+    "category": "Advertising",
     "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TADBY7",
     "docs_url": null,
     "github_url": null,
-    "tags": ["display ads", "impressions", "Harvard Dataverse"]
+    "tags": [
+      "display ads",
+      "impressions",
+      "Harvard Dataverse"
+    ]
   },
   {
     "name": "Tencent Social Ads",
     "description": "Social ad CTR prediction dataset from Tencent",
-    "category": "Display Advertising",
+    "category": "Advertising",
     "url": "https://algo.qq.com/index.html",
     "docs_url": null,
     "github_url": null,
-    "tags": ["social ads", "CTR", "Tencent", "China"]
+    "tags": [
+      "social ads",
+      "CTR",
+      "Tencent",
+      "China"
+    ]
   },
   {
     "name": "Outbrain Click Prediction",
     "description": "Click prediction based on browsing history from Outbrain",
-    "category": "Display Advertising",
+    "category": "Advertising",
     "url": "https://www.kaggle.com/c/outbrain-click-prediction",
     "docs_url": null,
     "github_url": null,
-    "tags": ["click prediction", "content", "Kaggle"]
+    "tags": [
+      "click prediction",
+      "content",
+      "Kaggle"
+    ]
   },
   {
     "name": "Soso (KDD Cup 2012)",
     "description": "KDD Cup 2012 Track 2 for sponsored search CTR prediction",
-    "category": "Display Advertising",
+    "category": "Advertising",
     "url": "https://www.kaggle.com/competitions/kddcup2012-track2/overview",
     "docs_url": null,
     "github_url": null,
-    "tags": ["sponsored search", "KDD", "CTR"]
+    "tags": [
+      "sponsored search",
+      "KDD",
+      "CTR"
+    ]
   },
   {
     "name": "Real-Time Advertisers Auction",
     "description": "Real-time advertiser auction dataset for RTB research",
-    "category": "Display Advertising",
+    "category": "Advertising",
     "url": "https://www.kaggle.com/datasets/saurav9786/real-time-advertisers-auction",
     "docs_url": null,
     "github_url": null,
-    "tags": ["RTB", "auctions", "programmatic"]
+    "tags": [
+      "RTB",
+      "auctions",
+      "programmatic"
+    ]
   },
   {
     "name": "ICPSR Auction Studies",
     "description": "Search results for auction studies from ICPSR",
-    "category": "Display Advertising",
+    "category": "Advertising",
     "url": "https://www.openicpsr.org/openicpsr/search/studies",
     "docs_url": null,
     "github_url": null,
-    "tags": ["auctions", "research", "social science"]
+    "tags": [
+      "auctions",
+      "research",
+      "social science"
+    ]
   },
   {
     "name": "Harvard Dataverse Auctions",
     "description": "Auction-related replication datasets from Harvard Dataverse",
-    "category": "Display Advertising",
+    "category": "Advertising",
     "url": "https://dataverse.harvard.edu/dataverse/harvard",
     "docs_url": null,
     "github_url": null,
-    "tags": ["auctions", "replication", "academic"]
+    "tags": [
+      "auctions",
+      "replication",
+      "academic"
+    ]
   },
   {
     "name": "Cainiao Last-Mile (MSOM18)",
     "description": "Cainiao Last-Mile Delivery dataset from MSOM 2018",
-    "category": "Logistics",
+    "category": "Food & Delivery",
     "url": "https://tianchi.aliyun.com/competition/entrance/231623/information",
     "docs_url": null,
     "github_url": null,
-    "tags": ["last-mile", "delivery", "Cainiao", "MSOM"]
+    "tags": [
+      "last-mile",
+      "delivery",
+      "Cainiao",
+      "MSOM"
+    ]
   },
   {
     "name": "JD.com Logistics (MSOM20)",
     "description": "JD.com Logistics data for e-commerce fulfillment",
-    "category": "Logistics",
+    "category": "Logistics & Supply Chain",
     "url": "https://connect.informs.org/msom/events/datadriven2020",
     "docs_url": null,
     "github_url": null,
-    "tags": ["logistics", "fulfillment", "JD.com", "MSOM"]
+    "tags": [
+      "logistics",
+      "fulfillment",
+      "JD.com",
+      "MSOM"
+    ]
   },
   {
     "name": "Dmall Fresh Food (MSOM21)",
     "description": "Dmall Fresh Food Delivery dataset from MSOM 2021",
-    "category": "Logistics",
+    "category": "Food & Delivery",
     "url": "https://pubsonline.informs.org/page/msom/data-driven-challenge",
     "docs_url": null,
     "github_url": null,
-    "tags": ["fresh food", "delivery", "grocery", "MSOM"]
+    "tags": [
+      "fresh food",
+      "delivery",
+      "grocery",
+      "MSOM"
+    ]
   },
   {
     "name": "BTS Airline On-Time Performance",
     "description": "All US flights since 1987. Delays, cancellations, fares, capacity. Revenue management research goldmine",
-    "category": "Logistics",
+    "category": "Transportation & Mobility",
     "url": "https://www.transtats.bts.gov/ontime/",
     "docs_url": "https://www.bts.gov/topics/airline-time-tables",
     "github_url": null,
-    "tags": ["airline", "flights", "delays", "pricing", "large-scale"]
+    "tags": [
+      "airline",
+      "flights",
+      "delays",
+      "pricing",
+      "large-scale"
+    ]
   },
   {
     "name": "Amazon Last Mile",
     "description": "9,184 historical routes across 5 US metro areas",
-    "category": "Logistics",
+    "category": "Logistics & Supply Chain",
     "url": "https://registry.opendata.aws/amazon-last-mile-challenges/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["routing", "last-mile", "Amazon", "AWS"]
+    "tags": [
+      "routing",
+      "last-mile",
+      "Amazon",
+      "AWS"
+    ]
   },
   {
     "name": "LaDe Last-Mile Delivery",
     "description": "10.6M+ packages, 619k trajectories with GPS data",
-    "category": "Logistics",
+    "category": "Logistics & Supply Chain",
     "url": "https://arxiv.org/html/2306.10675v2",
     "docs_url": null,
     "github_url": null,
-    "tags": ["last-mile", "GPS", "trajectories", "large-scale"]
+    "tags": [
+      "last-mile",
+      "GPS",
+      "trajectories",
+      "large-scale"
+    ]
   },
   {
     "name": "DataCo Supply Chain",
     "description": "Synthetic supply chain dataset covering sales and returns",
-    "category": "Logistics",
+    "category": "Logistics & Supply Chain",
     "url": "https://tianchi.aliyun.com/dataset/89959",
     "docs_url": null,
     "github_url": null,
-    "tags": ["supply chain", "synthetic", "returns"]
+    "tags": [
+      "supply chain",
+      "synthetic",
+      "returns"
+    ]
   },
   {
     "name": "Drone Delivery",
     "description": "Drone delivery logistics and operations dataset",
-    "category": "Logistics",
+    "category": "Logistics & Supply Chain",
     "url": "https://tianchi.aliyun.com/dataset/89726",
     "docs_url": null,
     "github_url": null,
-    "tags": ["drones", "delivery", "autonomous"]
+    "tags": [
+      "drones",
+      "delivery",
+      "autonomous"
+    ]
   },
   {
     "name": "Natural Driving in Ohio",
     "description": "ADAS-equipped vehicles with driving behavior events",
-    "category": "Mobility & GPS",
+    "category": "Transportation & Mobility",
     "url": "https://data.transportation.gov/Automobiles/Advanced-Driver-Assistance-System-ADAS-Equipped-Si/iie8-uenj/about_data",
     "docs_url": null,
     "github_url": null,
-    "tags": ["driving", "ADAS", "behavior", "government"]
+    "tags": [
+      "driving",
+      "ADAS",
+      "behavior",
+      "government"
+    ]
   },
   {
     "name": "NGSIM Vehicle Trajectories",
     "description": "Vehicle trajectory data for traffic flow modeling",
-    "category": "Mobility & GPS",
+    "category": "Transportation & Mobility",
     "url": "https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Vehicle-Trajector/8ect-6jqj/about_data",
     "docs_url": null,
     "github_url": null,
-    "tags": ["trajectories", "traffic", "simulation"]
+    "tags": [
+      "trajectories",
+      "traffic",
+      "simulation"
+    ]
   },
   {
     "name": "Grab Driving GPS Traces",
     "description": "GPS trace data from Grab ride-hailing platform",
-    "category": "Mobility & GPS",
+    "category": "Transportation & Mobility",
     "url": "https://engineering.grab.com/grab-posisi",
     "docs_url": null,
     "github_url": null,
-    "tags": ["GPS", "ride-hailing", "Southeast Asia"]
+    "tags": [
+      "GPS",
+      "ride-hailing",
+      "Southeast Asia"
+    ]
   },
   {
     "name": "NYC TLC Trip Records",
     "description": "3B+ taxi and rideshare trips since 2009. Fares, tips, surge pricing, driver pay. The gold standard for marketplace economics",
-    "category": "Mobility & GPS",
+    "category": "Transportation & Mobility",
     "url": "https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page",
     "docs_url": "https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf",
     "github_url": "https://github.com/toddwschneider/nyc-taxi-data",
-    "tags": ["taxi", "Uber", "Lyft", "surge pricing", "NYC", "large-scale"]
+    "tags": [
+      "taxi",
+      "Uber",
+      "Lyft",
+      "surge pricing",
+      "NYC",
+      "large-scale"
+    ]
   },
   {
     "name": "Uber Movement",
     "description": "Zone-to-zone travel times and street speeds for 50+ cities worldwide. Congestion patterns from actual Uber rides",
-    "category": "Mobility & GPS",
+    "category": "Transportation & Mobility",
     "url": "https://movement.uber.com/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["Uber", "travel times", "congestion", "cities", "transportation"]
+    "tags": [
+      "Uber",
+      "travel times",
+      "congestion",
+      "cities",
+      "transportation"
+    ]
   },
   {
     "name": "AirBnb (Inside Airbnb)",
     "description": "6M+ listings, 190M+ reviews with pricing and amenities",
-    "category": "Housing",
+    "category": "Real Estate",
     "url": "http://insideairbnb.com/explore",
     "docs_url": null,
     "github_url": null,
-    "tags": ["Airbnb", "rentals", "pricing", "global"]
+    "tags": [
+      "Airbnb",
+      "rentals",
+      "pricing",
+      "global"
+    ]
   },
   {
     "name": "Chicago Property Data",
     "description": "Property assessment values and sales data from Cook County",
-    "category": "Housing",
+    "category": "Real Estate",
     "url": "https://datacatalog.cookcountyil.gov/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["property", "Chicago", "assessments", "government"]
+    "tags": [
+      "property",
+      "Chicago",
+      "assessments",
+      "government"
+    ]
   },
   {
     "name": "NYC Property Sales",
     "description": "NYC property sales transactions across all boroughs",
-    "category": "Housing",
+    "category": "Real Estate",
     "url": "https://data.cityofnewyork.us/Housing-Development/NYC-Calendar-Sales-Archive-/uzf5-f8n2/about_data",
     "docs_url": null,
     "github_url": null,
-    "tags": ["real estate", "NYC", "transactions", "government"]
+    "tags": [
+      "real estate",
+      "NYC",
+      "transactions",
+      "government"
+    ]
   },
   {
     "name": "Yelp Dataset",
     "description": "Business attributes, reviews, user data, and check-ins",
-    "category": "Research Collections",
+    "category": "Social & Web",
     "url": "https://www.yelp.com/dataset",
     "docs_url": null,
     "github_url": null,
-    "tags": ["reviews", "businesses", "local", "NLP"]
+    "tags": [
+      "reviews",
+      "businesses",
+      "local",
+      "NLP"
+    ]
   },
   {
     "name": "Wikipedia Pageviews",
     "description": "296B views/year since 2007. Hourly pageview data for all Wikimedia projects. Attention economics at scale",
-    "category": "Research Collections",
+    "category": "Social & Web",
     "url": "https://dumps.wikimedia.org/other/pageviews/",
     "docs_url": "https://dumps.wikimedia.org/other/pageviews/readme.html",
     "github_url": null,
-    "tags": ["Wikipedia", "pageviews", "attention", "time-series", "large-scale"]
+    "tags": [
+      "Wikipedia",
+      "pageviews",
+      "attention",
+      "time-series",
+      "large-scale"
+    ]
   },
   {
     "name": "Pushshift Reddit Archive",
     "description": "5.6B comments, 651M posts since 2005. Full Reddit history for social/economic research. 100+ papers published",
-    "category": "Research Collections",
+    "category": "Social & Web",
     "url": "https://arxiv.org/abs/2001.08435",
     "docs_url": null,
     "github_url": null,
-    "tags": ["Reddit", "social media", "comments", "NLP", "large-scale"]
+    "tags": [
+      "Reddit",
+      "social media",
+      "comments",
+      "NLP",
+      "large-scale"
+    ]
   },
   {
     "name": "Stack Overflow Data Dump",
     "description": "Full Q&A archive + annual developer survey (49K+ responses). Salaries, tech adoption, developer economics",
-    "category": "Research Collections",
+    "category": "Social & Web",
     "url": "https://archive.org/details/stackexchange",
     "docs_url": "https://survey.stackoverflow.co/",
     "github_url": null,
-    "tags": ["developers", "salaries", "tech", "survey", "Q&A"]
+    "tags": [
+      "developers",
+      "salaries",
+      "tech",
+      "survey",
+      "Q&A"
+    ]
   },
   {
     "name": "Common Crawl",
     "description": "250TB/month web crawl. 9.5 PB archive since 2008. Product listings, pricing, economic text at web scale",
-    "category": "Research Collections",
+    "category": "Social & Web",
     "url": "https://commoncrawl.org/",
     "docs_url": "https://commoncrawl.org/the-data/get-started/",
     "github_url": null,
-    "tags": ["web crawl", "text", "pricing", "petabyte-scale"]
+    "tags": [
+      "web crawl",
+      "text",
+      "pricing",
+      "petabyte-scale"
+    ]
   },
   {
     "name": "Google Trends Datastore",
     "description": "Search interest data for nowcasting. Economic indicators, demand prediction, event detection",
-    "category": "Research Collections",
+    "category": "Social & Web",
     "url": "https://googletrends.github.io/data/",
     "docs_url": "https://developers.google.com/search/apis/trends",
     "github_url": null,
-    "tags": ["search trends", "nowcasting", "economics", "time-series"]
+    "tags": [
+      "search trends",
+      "nowcasting",
+      "economics",
+      "time-series"
+    ]
   },
   {
     "name": "Yandex Datasets",
     "description": "Search ranking, translation quality, and ML task datasets",
-    "category": "Research Collections",
+    "category": "Data Portals",
     "url": "https://research.yandex.com/datasets",
     "docs_url": null,
     "github_url": null,
-    "tags": ["search ranking", "translation", "ML", "Russia"]
+    "tags": [
+      "search ranking",
+      "translation",
+      "ML",
+      "Russia"
+    ]
   },
   {
     "name": "Meta (Facebook) Research",
     "description": "1.1B+ public FB/IG posts with engagement metrics",
-    "category": "Research Collections",
+    "category": "Social & Web",
     "url": "https://fort.fb.com/researcher-datasets",
     "docs_url": null,
     "github_url": null,
-    "tags": ["social media", "Facebook", "Instagram", "engagement"]
+    "tags": [
+      "social media",
+      "Facebook",
+      "Instagram",
+      "engagement"
+    ]
   },
   {
     "name": "Microsoft Research",
     "description": "Research tools and datasets across multiple domains",
-    "category": "Research Collections",
+    "category": "Data Portals",
     "url": "https://www.microsoft.com/en-us/research/tools/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["Microsoft", "research", "various domains"]
+    "tags": [
+      "Microsoft",
+      "research",
+      "various domains"
+    ]
   },
   {
     "name": "Amazon AWS Open Data",
     "description": "Registry of Open Data with analysis-ready datasets",
-    "category": "Research Collections",
+    "category": "Data Portals",
     "url": "https://registry.opendata.aws/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["AWS", "open data", "cloud", "various"]
+    "tags": [
+      "AWS",
+      "open data",
+      "cloud",
+      "various"
+    ]
   },
   {
     "name": "Netflix Prize",
     "description": "100M+ anonymous movie ratings from 480k users",
-    "category": "Research Collections",
+    "category": "Entertainment & Media",
     "url": "https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data",
     "docs_url": null,
     "github_url": null,
-    "tags": ["movies", "ratings", "recommendations", "classic"]
+    "tags": [
+      "movies",
+      "ratings",
+      "recommendations",
+      "classic"
+    ]
   },
   {
     "name": "JD.com Open Datasets",
     "description": "Open dataset portal for e-commerce and logistics from JD.com",
-    "category": "Research Collections",
+    "category": "Data Portals",
     "url": "https://datascience.jd.com/page/opendataset.html",
     "docs_url": null,
     "github_url": null,
-    "tags": ["JD.com", "e-commerce", "logistics", "China"]
+    "tags": [
+      "JD.com",
+      "e-commerce",
+      "logistics",
+      "China"
+    ]
   },
   {
     "name": "Rakuten Data Release",
     "description": "E-commerce, advertising, and multimedia datasets from Rakuten",
-    "category": "Research Collections",
+    "category": "Data Portals",
     "url": "https://rit.rakuten.com/data_release/#access",
     "docs_url": null,
     "github_url": null,
-    "tags": ["Rakuten", "e-commerce", "multimedia"]
+    "tags": [
+      "Rakuten",
+      "e-commerce",
+      "multimedia"
+    ]
   },
   {
     "name": "IBM Developer Data",
     "description": "AI, data science, healthcare, and weather datasets from IBM",
-    "category": "Research Collections",
+    "category": "Data Portals",
     "url": "https://developer.ibm.com/technologies/artificial-intelligence/data/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["IBM", "AI", "healthcare", "weather"]
+    "tags": [
+      "IBM",
+      "AI",
+      "healthcare",
+      "weather"
+    ]
   },
   {
     "name": "Baidu AI Datasets",
     "description": "AI, NLP, computer vision, and autonomous driving datasets",
-    "category": "Research Collections",
+    "category": "Data Portals",
     "url": "https://ai.baidu.com/broad/download",
     "docs_url": null,
     "github_url": null,
-    "tags": ["Baidu", "NLP", "computer vision", "autonomous"]
+    "tags": [
+      "Baidu",
+      "NLP",
+      "computer vision",
+      "autonomous"
+    ]
   },
   {
     "name": "Inside Airbnb Raw Data",
     "description": "Raw data files from Inside Airbnb project",
-    "category": "Research Collections",
+    "category": "Data Portals",
     "url": "http://insideairbnb.com/get-the-data/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["Airbnb", "raw data", "rentals"]
+    "tags": [
+      "Airbnb",
+      "raw data",
+      "rentals"
+    ]
   },
   {
     "name": "Yongfeng Dataset Collection",
     "description": "E-commerce and recommendation system datasets",
-    "category": "Research Collections",
+    "category": "Data Portals",
     "url": "https://www.yongfeng.me/dataset/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["recommendations", "e-commerce", "academic"]
+    "tags": [
+      "recommendations",
+      "e-commerce",
+      "academic"
+    ]
   },
   {
     "name": "Julian McAuley Datasets",
     "description": "Reviews, recommendations, and social network data",
-    "category": "Research Collections",
+    "category": "Data Portals",
     "url": "https://cseweb.ucsd.edu/~jmcauley/datasets.html",
     "docs_url": null,
     "github_url": null,
-    "tags": ["reviews", "recommendations", "UCSD", "academic"]
+    "tags": [
+      "reviews",
+      "recommendations",
+      "UCSD",
+      "academic"
+    ]
   },
   {
     "name": "Makridakis Competitions",
     "description": "Time series data for forecasting competitions (M1-M5)",
-    "category": "Research Collections",
+    "category": "Data Portals",
     "url": "https://forecasters.org/resources/time-series-data/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["time series", "forecasting", "M competitions"]
+    "tags": [
+      "time series",
+      "forecasting",
+      "M competitions"
+    ]
   },
   {
     "name": "RecSys Datasets Collection",
     "description": "Datasets from ACM Recommender Systems challenges",
-    "category": "Competitions",
+    "category": "Data Portals",
     "url": "https://github.com/RUCAIBox/RecSysDatasets",
     "docs_url": null,
     "github_url": "https://github.com/RUCAIBox/RecSysDatasets",
-    "tags": ["RecSys", "recommendations", "ACM"]
+    "tags": [
+      "RecSys",
+      "recommendations",
+      "ACM"
+    ]
   },
   {
     "name": "NeurIPS Competition Data",
     "description": "Top-tier conference with competitions and benchmarks",
-    "category": "Competitions",
+    "category": "Data Portals",
     "url": "https://nips.cc/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["NeurIPS", "ML", "benchmarks"]
+    "tags": [
+      "NeurIPS",
+      "ML",
+      "benchmarks"
+    ]
   },
   {
     "name": "IJCAI Competitions",
     "description": "International AI conference with competitions",
-    "category": "Competitions",
+    "category": "Data Portals",
     "url": "https://www.ijcai.org/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["IJCAI", "AI", "competitions"]
+    "tags": [
+      "IJCAI",
+      "AI",
+      "competitions"
+    ]
   },
   {
     "name": "MSOM Data Challenges",
     "description": "Manufacturing & Service Operations Management challenges",
-    "category": "Competitions",
+    "category": "Data Portals",
     "url": "https://pubsonline.informs.org/journal/msom",
     "docs_url": null,
     "github_url": null,
-    "tags": ["MSOM", "operations", "INFORMS"]
+    "tags": [
+      "MSOM",
+      "operations",
+      "INFORMS"
+    ]
   },
   {
     "name": "Data Mining Cup",
     "description": "Industry-sponsored data mining competitions",
-    "category": "Competitions",
+    "category": "Data Portals",
     "url": "https://www.data-mining-cup.com/reviews/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["data mining", "industry", "competitions"]
+    "tags": [
+      "data mining",
+      "industry",
+      "competitions"
+    ]
   },
   {
     "name": "KDD Cup",
     "description": "ACM SIGKDD annual data mining competition",
-    "category": "Competitions",
+    "category": "Data Portals",
     "url": "https://kdd.org/kdd-cup",
     "docs_url": null,
     "github_url": null,
-    "tags": ["KDD", "data mining", "ACM"]
+    "tags": [
+      "KDD",
+      "data mining",
+      "ACM"
+    ]
   },
   {
     "name": "Marketing Science Databases",
     "description": "INFORMS conference with data-focused opportunities",
-    "category": "Competitions",
+    "category": "Data Portals",
     "url": "https://pubsonline.informs.org/page/mksc/online-databases",
     "docs_url": null,
     "github_url": null,
-    "tags": ["marketing", "INFORMS", "databases"]
+    "tags": [
+      "marketing",
+      "INFORMS",
+      "databases"
+    ]
   },
   {
     "name": "DrivenData",
     "description": "Data science competitions for social impact",
-    "category": "Competitions",
+    "category": "Data Portals",
     "url": "https://www.drivendata.org/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["social impact", "competitions", "non-profit"]
+    "tags": [
+      "social impact",
+      "competitions",
+      "non-profit"
+    ]
   },
   {
     "name": "CodaLab",
     "description": "Platform for competitions, benchmarks, and reproducible research",
-    "category": "Competitions",
+    "category": "Data Portals",
     "url": "https://codalab.lisn.upsaclay.fr/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["benchmarks", "reproducibility", "competitions"]
+    "tags": [
+      "benchmarks",
+      "reproducibility",
+      "competitions"
+    ]
   },
   {
     "name": "OpenML",
     "description": "Platform for sharing datasets, tasks, and ML code",
-    "category": "Competitions",
+    "category": "Data Portals",
     "url": "https://www.openml.org/",
     "docs_url": null,
     "github_url": null,
-    "tags": ["ML", "open science", "benchmarks"]
+    "tags": [
+      "ML",
+      "open science",
+      "benchmarks"
+    ]
+  },
+  {
+    "name": "RecSys Challenge 2025 (Synerise)",
+    "description": "1M users, 6 months of real e-commerce behavior logs with 5 event types for universal behavioral modeling",
+    "category": "Data Portals",
+    "url": "https://recsys.synerise.com/data-set",
+    "docs_url": "https://recsys.synerise.com/",
+    "github_url": "https://github.com/Synerise/recsys2025",
+    "tags": [
+      "RecSys",
+      "e-commerce",
+      "large-scale",
+      "real-world",
+      "2025",
+      "user behavior"
+    ]
+  },
+  {
+    "name": "RecSys Challenge 2024 (EB-NeRD)",
+    "description": "2.3M users, 380M+ news impressions from Ekstra Bladet for news recommendation research",
+    "category": "Data Portals",
+    "url": "https://www.recsyschallenge.com/2024/",
+    "docs_url": null,
+    "github_url": "https://github.com/recsyspolimi/recsys-challenge-2024-ekstrabladet",
+    "tags": [
+      "RecSys",
+      "news",
+      "large-scale",
+      "real-world",
+      "2024",
+      "impressions"
+    ]
+  },
+  {
+    "name": "Amazon ShopBench (KDD Cup 2024)",
+    "description": "57 tasks, 20K questions derived from real Amazon shopping data for LLM shopping assistants",
+    "category": "Data Portals",
+    "url": "https://www.aicrowd.com/challenges/amazon-kdd-cup-2024-multi-task-online-shopping-challenge-for-llms",
+    "docs_url": null,
+    "github_url": "https://github.com/fzp0424/ec-guide-kddup-2024",
+    "tags": [
+      "KDD",
+      "Amazon",
+      "e-commerce",
+      "LLM",
+      "2024",
+      "multi-task"
+    ]
+  },
+  {
+    "name": "Meta CRAG (KDD Cup 2024)",
+    "description": "Comprehensive RAG benchmark with web search results and knowledge graphs across 5 domains, messy real-world retrieval",
+    "category": "Data Portals",
+    "url": "https://www.aicrowd.com/challenges/meta-comprehensive-rag-benchmark-kdd-cup-2024",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "KDD",
+      "Meta",
+      "RAG",
+      "knowledge graphs",
+      "2024",
+      "real-world"
+    ]
+  },
+  {
+    "name": "DrivenData Water Supply Forecasting (2024)",
+    "description": "Western US water supply data from Bureau of Reclamation, $500K prize pool for seasonal forecasting",
+    "category": "Data Portals",
+    "url": "https://www.drivendata.org/competitions/",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "climate",
+      "forecasting",
+      "2024",
+      "government data",
+      "real-world",
+      "time series"
+    ]
+  },
+  {
+    "name": "Stack Overflow SQL Database (2024)",
+    "description": "202GB SQL Server database dump of all Q&A since 2008, available for PostgreSQL. Real messy developer data",
+    "category": "Social & Web",
+    "url": "https://archive.org/details/stackexchange",
+    "docs_url": "https://www.brentozar.com/archive/2015/10/how-to-download-the-stack-overflow-database-via-bittorrent/",
+    "github_url": "https://github.com/BrentOzarULTD/soddi",
+    "tags": [
+      "database dump",
+      "SQL Server",
+      "PostgreSQL",
+      "large-scale",
+      "Q&A",
+      "real-world",
+      "messy data"
+    ]
+  },
+  {
+    "name": "OpenStreetMap Planet",
+    "description": "84GB PBF (2TB+ uncompressed) complete world map database with full edit history, weekly updates",
+    "category": "Social & Web",
+    "url": "https://planet.openstreetmap.org/",
+    "docs_url": "https://wiki.openstreetmap.org/wiki/Planet.osm",
+    "github_url": null,
+    "tags": [
+      "database dump",
+      "geospatial",
+      "large-scale",
+      "real-world",
+      "PostgreSQL",
+      "messy data"
+    ]
+  },
+  {
+    "name": "Wikipedia Full Database Dump",
+    "description": "Complete Wikipedia content and metadata in SQL/XML format, includes all revisions and edit history",
+    "category": "Social & Web",
+    "url": "https://dumps.wikimedia.org/",
+    "docs_url": "https://en.wikipedia.org/wiki/Wikipedia:Database_download",
+    "github_url": null,
+    "tags": [
+      "database dump",
+      "SQL",
+      "large-scale",
+      "text",
+      "real-world",
+      "encyclopedic"
+    ]
+  },
+  {
+    "name": "UK Land Registry Price Paid",
+    "description": "4.3GB of UK property sales transactions going back decades, messy real-world government data",
+    "category": "Real Estate",
+    "url": "https://www.gov.uk/government/collections/price-paid-data",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "real estate",
+      "UK",
+      "government data",
+      "large-scale",
+      "transactions",
+      "messy data"
+    ]
+  },
+  {
+    "name": "IMDB JOB Workload",
+    "description": "Query optimizer benchmark database from real IMDB data, used in 'How Good are Query Optimizers, Really?'",
+    "category": "Entertainment & Media",
+    "url": "https://github.com/gregrahn/join-order-benchmark",
+    "docs_url": null,
+    "github_url": "https://github.com/gregrahn/join-order-benchmark",
+    "tags": [
+      "database dump",
+      "PostgreSQL",
+      "benchmark",
+      "query optimization",
+      "movies"
+    ]
+  },
+  {
+    "name": "Freebase Data Dump",
+    "description": "22GB compressed knowledge base of structured data about people, places, and things (archived by Google)",
+    "category": "Data Portals",
+    "url": "https://developers.google.com/freebase",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "knowledge graph",
+      "large-scale",
+      "entities",
+      "Google",
+      "archived"
+    ]
+  },
+  {
+    "name": "Mouse Genome Database (MGI)",
+    "description": "1.9GB compressed (tens of GB restored) PostgreSQL dump from Mouse Genome Informatics, frequently updated",
+    "category": "Data Portals",
+    "url": "http://www.informatics.jax.org/downloads/database_backups/",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "database dump",
+      "PostgreSQL",
+      "biology",
+      "real-world",
+      "large-scale"
+    ]
   }
 ]
