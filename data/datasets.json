@@ -162,6 +162,15 @@
     "tags": ["grocery", "orders", "reorder prediction"]
   },
   {
+    "name": "Open E-Commerce 1.0 (MIT)",
+    "description": "1.8M Amazon purchases with demographics (age, gender, location). Real household e-commerce behavior at scale",
+    "category": "E-Commerce",
+    "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YGAVK9",
+    "docs_url": null,
+    "github_url": null,
+    "tags": ["Amazon", "demographics", "purchases", "households", "MIT"]
+  },
+  {
     "name": "Upworthy News Headlines",
     "description": "32,487 headline/image experiments on 538M assignments",
     "category": "A/B Tests & Experiments",
@@ -891,6 +900,15 @@
     "tags": ["music", "sales", "independent artists"]
   },
   {
+    "name": "Spotify Music Streaming Sessions (MSSD)",
+    "description": "150M+ listening sessions with skips, track features, and playlist context. The largest public music streaming behavior dataset",
+    "category": "Music",
+    "url": "https://research.atspotify.com/datasets",
+    "docs_url": "https://arxiv.org/abs/1901.09851",
+    "github_url": null,
+    "tags": ["Spotify", "streaming", "sessions", "skips", "large-scale"]
+  },
+  {
     "name": "Online Auctions Collection",
     "description": "Collection of datasets from eBay and experimental auctions",
     "category": "Auctions & Procurement",
@@ -1132,6 +1150,15 @@
     "docs_url": "https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf",
     "github_url": "https://github.com/toddwschneider/nyc-taxi-data",
     "tags": ["taxi", "Uber", "Lyft", "surge pricing", "NYC", "large-scale"]
+  },
+  {
+    "name": "Uber Movement",
+    "description": "Zone-to-zone travel times and street speeds for 50+ cities worldwide. Congestion patterns from actual Uber rides",
+    "category": "Mobility & GPS",
+    "url": "https://movement.uber.com/",
+    "docs_url": null,
+    "github_url": null,
+    "tags": ["Uber", "travel times", "congestion", "cities", "transportation"]
   },
   {
     "name": "AirBnb (Inside Airbnb)",
