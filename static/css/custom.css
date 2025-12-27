@@ -2331,3 +2331,56 @@ mark {
 [data-theme="dark"] .global-search-result.selected {
     background: var(--bg-card);
 }
+
+/* ========================================
+   ENHANCED CARD HOVER EFFECTS
+   ======================================== */
+
+.package-card,
+.resource-card,
+.section-card,
+.roadmap-card,
+.staff-pick-card,
+.quick-link-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.package-card:hover,
+.resource-card:hover,
+.section-card:hover,
+.roadmap-card:hover,
+.staff-pick-card:hover,
+.quick-link-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+}
+
+[data-theme="dark"] .package-card:hover,
+[data-theme="dark"] .resource-card:hover,
+[data-theme="dark"] .section-card:hover,
+[data-theme="dark"] .roadmap-card:hover,
+[data-theme="dark"] .staff-pick-card:hover,
+[data-theme="dark"] .quick-link-card:hover {
+    box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+}
+
+/* ========================================
+   READING PROGRESS BAR
+   ======================================== */
+
+.reading-progress {
+    position: fixed;
+    top: 0;
+    left: 220px;
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent), var(--accent-hover));
+    z-index: 1001;
+    transition: width 0.1s ease-out;
+}
+
+@media (max-width: 768px) {
+    .reading-progress {
+        left: 0;
+    }
+}

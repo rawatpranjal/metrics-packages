@@ -541,7 +541,7 @@
   },
   {
     "name": "pydoublelasso",
-    "description": "Double\u2011post\u00a0Lasso estimator for high\u2011dimensional treatment effects (Belloni\u2011Chernozhukov\u2011Hansen\u202f2014).",
+    "description": "Double‑post Lasso estimator for high‑dimensional treatment effects (Belloni‑Chernozhukov‑Hansen 2014).",
     "category": "Double/Debiased Machine Learning (DML)",
     "docs_url": "https://pypi.org/project/pydoublelasso/",
     "github_url": null,
@@ -555,7 +555,7 @@
   },
   {
     "name": "pyhtelasso",
-    "description": "Debiased\u2011Lasso detector of heterogeneous treatment effects in randomized experiments.",
+    "description": "Debiased‑Lasso detector of heterogeneous treatment effects in randomized experiments.",
     "category": "Double/Debiased Machine Learning (DML)",
     "docs_url": "https://pypi.org/project/pyhtelasso/",
     "github_url": null,
@@ -715,7 +715,7 @@
     "description": "Solves linear models with high-dimensional fixed effects, supporting robust variance calculation and IV.",
     "category": "Panel Data & Fixed Effects",
     "docs_url": "https://pypi.org/project/FixedEffectModelPyHDFE/",
-    "github_url": null,
+    "github_url": "https://github.com/ksecology/FixedEffectModel",
     "url": "https://pypi.org/project/FixedEffectModelPyHDFE/",
     "install": "pip install FixedEffectModelPyHDFE",
     "tags": [
@@ -885,7 +885,7 @@
   },
   {
     "name": "csdid",
-    "description": "Python adaptation of the R `did` package. Implements multi-period DiD with staggered treatment timing (Callaway & Sant\u2019Anna).",
+    "description": "Python adaptation of the R `did` package. Implements multi-period DiD with staggered treatment timing (Callaway & Sant’Anna).",
     "category": "Program Evaluation Methods (DiD, SC, RDD)",
     "docs_url": null,
     "github_url": "https://github.com/d2cml-ai/csdid",
@@ -915,10 +915,10 @@
   },
   {
     "name": "pycinc",
-    "description": "Changes\u2011in\u2011Changes (CiC) estimator for distributional treatment effects (Athey\u00a0&\u00a0Imbens\u202f2006).",
+    "description": "Changes‑in‑Changes (CiC) estimator for distributional treatment effects (Athey & Imbens 2006).",
     "category": "Program Evaluation Methods (DiD, SC, RDD)",
     "docs_url": "https://pypi.org/project/pycinc/",
-    "github_url": null,
+    "github_url": "https://github.com/vyasenov/pycinc",
     "url": "https://pypi.org/project/pycinc/",
     "install": "pip install pycinc",
     "tags": [
@@ -931,7 +931,7 @@
   },
   {
     "name": "pyleebounds",
-    "description": "Lee\u00a0(2009) sample\u2011selection bounds for treatment effects; trims treated distribution to match selection rates.",
+    "description": "Lee (2009) sample‑selection bounds for treatment effects; trims treated distribution to match selection rates.",
     "category": "Program Evaluation Methods (DiD, SC, RDD)",
     "docs_url": "https://pypi.org/project/pyleebounds/",
     "github_url": null,
@@ -991,7 +991,7 @@
   },
   {
     "name": "pyrifreg",
-    "description": "Recentered Influence\u2011Function (RIF) regression for unconditional quantile & distributional effects (Firpo\u202fet\u202fal.,\u202f2008).",
+    "description": "Recentered Influence‑Function (RIF) regression for unconditional quantile & distributional effects (Firpo et al., 2008).",
     "category": "Quantile Regression & Distributional Methods",
     "docs_url": "https://github.com/vyasenov/pyrifreg",
     "github_url": "https://github.com/vyasenov/pyrifreg",
@@ -1044,48 +1044,6 @@
       "geography"
     ],
     "best_for": "Spatial lag/error models with IV and diagnostics"
-  },
-  {
-    "name": "Awesome Quant",
-    "description": "Curated list of quantitative finance libraries and resources (many statistical/TS tools overlap with econometrics).",
-    "category": "Standard Errors, Bootstrapping & Reporting",
-    "docs_url": "https://wilsonfreitas.github.io/awesome-quant/",
-    "github_url": null,
-    "url": "https://wilsonfreitas.github.io/awesome-quant/",
-    "install": "",
-    "tags": [
-      "bootstrap",
-      "standard errors"
-    ],
-    "best_for": "Curated list of quantitative finance resources"
-  },
-  {
-    "name": "Beyond Jupyter (TransferLab)",
-    "description": "Teaches software design principles for ML\u2014modularity, abstraction, and reproducibility\u2014going beyond ad hoc Jupyter workflows. Focus on maintainable, production-quality ML code.",
-    "category": "Standard Errors, Bootstrapping & Reporting",
-    "docs_url": "https://transferlab.ai/trainings/beyond-jupyter/",
-    "github_url": null,
-    "url": "https://transferlab.ai/trainings/beyond-jupyter/",
-    "install": "",
-    "tags": [
-      "bootstrap",
-      "standard errors"
-    ],
-    "best_for": "Learning production-quality ML code design"
-  },
-  {
-    "name": "Machine Learning Specialization (Coursera)",
-    "description": "Beginner-friendly 3-course series by Andrew Ng covering core ML methods (regression, classification, clustering, trees, NN) with hands-on projects.",
-    "category": "Standard Errors, Bootstrapping & Reporting",
-    "docs_url": "https://www.coursera.org/specializations/machine-learning-introduction/",
-    "github_url": null,
-    "url": "https://www.coursera.org/specializations/machine-learning-introduction/",
-    "install": "",
-    "tags": [
-      "bootstrap",
-      "standard errors"
-    ],
-    "best_for": "Beginner-friendly ML fundamentals course"
   },
   {
     "name": "SciPy Bootstrap",
@@ -1188,7 +1146,7 @@
   },
   {
     "name": "Pingouin",
-    "description": "User-friendly interface for common statistical tests (ANOVA, ANCOVA, t-tests, correlations, chi\u00b2, reliability) built on pandas & scipy.",
+    "description": "User-friendly interface for common statistical tests (ANOVA, ANCOVA, t-tests, correlations, chi², reliability) built on pandas & scipy.",
     "category": "Statistical Inference & Hypothesis Testing",
     "docs_url": "https://pingouin-stats.org/",
     "github_url": "https://github.com/raphaelvallat/pingouin",
@@ -1216,7 +1174,7 @@
   },
   {
     "name": "Scipy.stats",
-    "description": "Foundational module within SciPy for a wide range of statistical functions, distributions, and hypothesis tests (t-tests, ANOVA, chi\u00b2, KS, etc.).",
+    "description": "Foundational module within SciPy for a wide range of statistical functions, distributions, and hypothesis tests (t-tests, ANOVA, chi², KS, etc.).",
     "category": "Statistical Inference & Hypothesis Testing",
     "docs_url": "https://docs.scipy.org/doc/scipy/reference/stats.html",
     "github_url": "https://github.com/scipy/scipy",
@@ -1370,7 +1328,7 @@
   },
   {
     "name": "LocalProjections",
-    "description": "Community implementations of Jord\u00e0 (2005) Local Projections for estimating impulse responses without VAR assumptions.",
+    "description": "Community implementations of Jordà (2005) Local Projections for estimating impulse responses without VAR assumptions.",
     "category": "Time Series Econometrics",
     "docs_url": null,
     "github_url": "https://github.com/elenev/localprojections",
@@ -1754,8 +1712,8 @@
     "name": "synthdid",
     "description": "Synthetic difference-in-differences (Arkhangelsky et al. 2019). Combines SC and DiD for staggered adoption.",
     "category": "Program Evaluation Methods (DiD, SC, RDD)",
-    "docs_url": null,
-    "github_url": null,
+    "docs_url": "https://github.com/d2cml-ai/synthdid.py",
+    "github_url": "https://github.com/d2cml-ai/synthdid.py",
     "url": "https://pypi.org/project/synthdid/",
     "install": "pip install synthdid",
     "tags": [

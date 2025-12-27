@@ -92,7 +92,7 @@
                 <div class="cards-row">
                     {{ range $.Site.Data.community }}
                     {{ if eq .category $cat }}
-                    <div class="resource-card"
+                    <div class="resource-card" data-aos="fade-up"
                          data-name="{{ .name | lower }}"
                          data-description="{{ .description | lower }}"
                          data-category="{{ .category }}"

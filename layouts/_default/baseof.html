@@ -14,8 +14,14 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+
+    <!-- AOS (Animate on Scroll) -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 </head>
 <body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="reading-progress"></div>
+
     <!-- Mobile Menu Toggle -->
     <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle navigation">
         <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
@@ -201,6 +207,36 @@
     <script src="{{ "js/search.js" | relURL }}"></script>
     <script src="{{ "js/toggle.js" | relURL }}"></script>
     <script src="{{ "js/global-search.js" | relURL }}"></script>
+
+    <!-- AOS Init -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 600,
+            easing: 'ease-out-cubic',
+            once: true,
+            offset: 50
+        });
+    </script>
+
+    <!-- Reading Progress Bar -->
+    <script>
+        (function() {
+            var progressBar = document.getElementById('reading-progress');
+            if (!progressBar) return;
+
+            function updateProgress() {
+                var scrollTop = window.scrollY;
+                var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+                var progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+                progressBar.style.width = progress + '%';
+            }
+
+            window.addEventListener('scroll', updateProgress, { passive: true });
+            updateProgress();
+        })();
+    </script>
+
     <script>
         // Mobile menu toggle
         document.getElementById('mobile-menu-toggle').addEventListener('click', function() {

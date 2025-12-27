@@ -77,13 +77,6 @@
     "type": "Blog"
   },
   {
-    "name": "Causal Inference (Wager)",
-    "description": "Stefan Wager's Stanford course notes. Rigorous treatment of causal forests, AIPW, and ML for causal inference.",
-    "category": "Causal Inference",
-    "url": "https://web.stanford.edu/~swager/stats361.pdf",
-    "type": "Course Notes"
-  },
-  {
     "name": "Applied Econometrics Notes (Lal)",
     "description": "Applied econometrics notes and code by Apoorva Lal covering modern causal inference methods.",
     "category": "Causal Inference",
@@ -852,5 +845,40 @@
     "category": "Monographs",
     "url": "https://dataintensive.net/",
     "type": "Book"
+  },
+  {
+    "name": "Nathan Lambert",
+    "description": "Interconnects. The primary chronicler of RLHF. RLHF as mechanism design for AI: eliciting preferences and training reward models.",
+    "category": "Blogs",
+    "url": "https://www.interconnects.ai/",
+    "type": "Blog"
+  },
+  {
+    "name": "Andrej Karpathy",
+    "description": "Neural nets from scratch, LLMs as operating systems. Explains the intuition of optimization landscapes, not just how to write code.",
+    "category": "Blogs",
+    "url": "https://karpathy.ai/",
+    "type": "Blog"
+  },
+  {
+    "name": "Lilian Weng",
+    "description": "Lil'Log. OpenAI Safety Systems lead. The single best technical summaries on DL, agents, and RL. Often cited as primary sources in papers.",
+    "category": "Blogs",
+    "url": "https://lilianweng.github.io/",
+    "type": "Blog"
+  },
+  {
+    "name": "Sebastian Raschka",
+    "description": "Ahead of AI. PyTorch, LLM training, efficient finetuning (LoRA). Bridges academic papers and 'will this run on my GPU?' practicality.",
+    "category": "Blogs",
+    "url": "https://magazine.sebastianraschka.com/",
+    "type": "Blog"
+  },
+  {
+    "name": "Tor Lattimore",
+    "description": "DeepMind. The definitive resource on bandit algorithms. Essential for pricing, dynamic allocation, and experimentation.",
+    "category": "Blogs",
+    "url": "https://tor-lattimore.com/",
+    "type": "Blog"
   }
 ]

@@ -53,7 +53,7 @@
             <div class="cards-row">
                 {{ range $.Site.Data.datasets }}
                 {{ if eq .category $cat }}
-                <div class="package-card dataset-card"
+                <div class="package-card dataset-card" data-aos="fade-up"
                      data-name="{{ .name | lower }}"
                      data-description="{{ .description | lower }}"
                      data-category="{{ .category }}"

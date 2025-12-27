@@ -16,7 +16,7 @@
 
         <div class="roadmaps-grid">
             {{ range sort .Site.Data.roadmaps "order" }}
-            <div class="roadmap-card" data-roadmap="{{ .name }}">
+            <div class="roadmap-card" data-roadmap="{{ .name }}" data-aos="fade-up">
                 <div class="roadmap-header">
                     <div class="roadmap-icon">
                         {{ if eq .icon "code" }}
@@ -118,19 +118,19 @@
         <p class="section-desc">Ready to dive deeper? Browse the complete collection.</p>
 
         <div class="quick-links-grid">
-            <a href="{{ "packages/" | relURL }}" class="quick-link-card">
+            <a href="{{ "packages/" | relURL }}" class="quick-link-card" data-aos="fade-up">
                 <span class="quick-link-count">{{ len .Site.Data.packages }}</span>
                 <span class="quick-link-label">Packages</span>
             </a>
-            <a href="{{ "datasets/" | relURL }}" class="quick-link-card">
+            <a href="{{ "datasets/" | relURL }}" class="quick-link-card" data-aos="fade-up" data-aos-delay="50">
                 <span class="quick-link-count">{{ len .Site.Data.datasets }}</span>
                 <span class="quick-link-label">Datasets</span>
             </a>
-            <a href="{{ "learning/" | relURL }}" class="quick-link-card">
+            <a href="{{ "learning/" | relURL }}" class="quick-link-card" data-aos="fade-up" data-aos-delay="100">
                 <span class="quick-link-count">{{ len .Site.Data.resources }}</span>
                 <span class="quick-link-label">Learning Resources</span>
             </a>
-            <a href="{{ "talks/" | relURL }}" class="quick-link-card">
+            <a href="{{ "talks/" | relURL }}" class="quick-link-card" data-aos="fade-up" data-aos-delay="150">
                 <span class="quick-link-count">{{ len .Site.Data.talks }}</span>
                 <span class="quick-link-label">Talks</span>
             </a>

@@ -58,7 +58,7 @@
             <div class="cards-row">
                 {{ range $.Site.Data.packages }}
                 {{ if eq .category $cat }}
-                <div class="package-card"
+                <div class="package-card" data-aos="fade-up"
                      data-name="{{ .name | lower }}"
                      data-description="{{ .description | lower }}"
                      data-category="{{ .category }}"
