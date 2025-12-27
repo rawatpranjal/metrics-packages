@@ -355,7 +355,7 @@
   },
   {
     "name": "Scikit-learn",
-    "description": "Foundational ML library with regression models (incl. regularized), model selection, cross-validation, evaluation metrics.",
+    "description": "The foundational ML library: regression (Ridge, Lasso, ElasticNet), classification, clustering, model selection, and pipelines. Industry standard with consistent API across all algorithms. Unlike statsmodels (inference focus), prioritizes prediction and cross-validation. Best for: ML-based prediction tasks, feature engineering, and model selection workflows.",
     "category": "Core Libraries & Linear Models",
     "docs_url": "https://scikit-learn.org/",
     "github_url": "https://github.com/scikit-learn/scikit-learn",
@@ -368,7 +368,7 @@
   },
   {
     "name": "Statsmodels",
-    "description": "Comprehensive library for estimating statistical models (OLS, GLM, etc.), conducting tests, and data exploration. Core tool.",
+    "description": "The core econometrics library: OLS, GLM, time series (ARIMA, VAR), panel data, and comprehensive hypothesis testing. Provides R-style summary tables with standard errors, t-stats, and diagnostics. Unlike sklearn (prediction focus), emphasizes statistical inference. Best for: traditional econometric analysis where you need interpretable coefficients and test statistics.",
     "category": "Core Libraries & Linear Models",
     "docs_url": "https://www.statsmodels.org/",
     "github_url": "https://github.com/statsmodels/statsmodels",
@@ -381,7 +381,7 @@
   },
   {
     "name": "FactorAnalyzer",
-    "description": "Specialized library for Exploratory (EFA) and Confirmatory (CFA) Factor Analysis with rotation options for interpretability.",
+    "description": "Dedicated to factor analysis: EFA with multiple rotation methods (varimax, promax, oblimin) and CFA for testing measurement models. Includes adequacy tests (KMO, Bartlett's). Unlike general dimensionality tools (PCA), specifically designed for latent variable extraction. Best for: psychometrics, survey analysis, and constructing latent constructs from observed variables.",
     "category": "Dimensionality Reduction",
     "docs_url": "https://factor-analyzer.readthedocs.io/en/latest/",
     "github_url": "https://github.com/EducationalTestingService/factor_analyzer",
@@ -394,7 +394,7 @@
   },
   {
     "name": "openTSNE",
-    "description": "Optimized, parallel implementation of t-distributed Stochastic Neighbor Embedding (t-SNE) for large datasets.",
+    "description": "Fast, parallel t-SNE optimized for large datasets (millions of points). Supports partial fitting and embedding new points without retraining. Unlike sklearn's t-SNE (slower, no incremental learning), designed for production-scale visualization. Best for: visualizing high-dimensional data clusters when UMAP's assumptions don't fit.",
     "category": "Dimensionality Reduction",
     "docs_url": "https://opentsne.readthedocs.io/en/stable/",
     "github_url": "https://github.com/pavlin-policar/openTSNE",
@@ -407,7 +407,7 @@
   },
   {
     "name": "umap-learn",
-    "description": "Fast and scalable implementation of Uniform Manifold Approximation and Projection (UMAP) for non-linear reduction.",
+    "description": "Modern alternative to t-SNE: faster, preserves more global structure, and supports supervised dimensionality reduction. Works with sparse data and integrates with sklearn pipelines. Unlike t-SNE (local structure only), balances local and global relationships. Best for: visualization and preprocessing when you need both speed and structure preservation.",
     "category": "Dimensionality Reduction",
     "docs_url": "https://umap-learn.readthedocs.io/en/latest/",
     "github_url": "https://github.com/lmcinnes/umap",
@@ -420,7 +420,7 @@
   },
   {
     "name": "Biogeme",
-    "description": "Maximum likelihood estimation of parametric models, with strong support for complex discrete choice models.",
+    "description": "Academic gold-standard for discrete choice: nested logit, mixed logit, latent class models, and complex nesting structures. Extensive model specification flexibility from Swiss transport research. Unlike simpler packages, handles the most complex utility specifications. Best for: transport economics, detailed choice modeling research requiring maximum flexibility.",
     "category": "Discrete Choice Models",
     "docs_url": "https://biogeme.epfl.ch/index.html",
     "github_url": "https://github.com/michelbierlaire/biogeme",
@@ -433,7 +433,7 @@
   },
   {
     "name": "PyBLP",
-    "description": "Tools for estimating demand for differentiated products using the Berry-Levinsohn-Pakes (BLP) method.",
+    "description": "Implements the famous Berry-Levinsohn-Pakes (BLP) demand estimator for differentiated products markets. Handles endogeneity via instruments, random coefficients, and market-level data. The standard for IO economists studying market structure. Best for: industrial organization research estimating demand with market-level price endogeneity.",
     "category": "Discrete Choice Models",
     "docs_url": "https://pyblp.readthedocs.io/",
     "github_url": "https://github.com/jeffgortmaker/pyblp",
@@ -446,7 +446,7 @@
   },
   {
     "name": "PyLogit",
-    "description": "Flexible implementation of conditional/multinomial logit models with utilities for data preparation.",
+    "description": "Flexible conditional and multinomial logit with choice-specific coefficients and panel data support. Handles asymmetric substitution patterns and nested structures. Unlike XLogit (speed focus), emphasizes model flexibility and data preparation utilities. Best for: choice modeling with complex substitution patterns or panel data structures.",
     "category": "Discrete Choice Models",
     "docs_url": null,
     "github_url": "https://github.com/timothyb0912/pylogit",
@@ -459,7 +459,7 @@
   },
   {
     "name": "XLogit",
-    "description": "Fast estimation of Multinomial Logit and Mixed Logit models, optimized for performance.",
+    "description": "GPU-accelerated mixed logit estimation—orders of magnitude faster than CPU alternatives. Implements simulated maximum likelihood with Halton draws. Unlike Biogeme (flexibility focus), optimized purely for speed. Best for: large-scale mixed logit estimation where computation time is the bottleneck.",
     "category": "Discrete Choice Models",
     "docs_url": "https://xlogit.readthedocs.io/",
     "github_url": "https://github.com/arteagac/xlogit",
@@ -472,7 +472,7 @@
   },
   {
     "name": "torch-choice",
-    "description": "PyTorch framework for flexible estimation of complex discrete choice models, leveraging GPU acceleration.",
+    "description": "Stanford GSB's PyTorch-based choice modeling with neural network components. GPU acceleration and automatic differentiation for custom utility functions. Unlike traditional packages, enables deep learning extensions to choice models. Best for: researchers exploring neural network approaches to choice modeling or needing custom GPU-accelerated estimation.",
     "category": "Discrete Choice Models",
     "docs_url": "https://gsbdbi.github.io/torch-choice/",
     "github_url": "https://github.com/gsbDBI/torch-choice",
@@ -485,7 +485,7 @@
   },
   {
     "name": "DoubleML",
-    "description": "Implements the double/debiased ML framework (Chernozhukov et al.) for estimating causal parameters (ATE, LATE, POM) with ML nuisances.",
+    "description": "Reference implementation of Chernozhukov et al.'s double/debiased ML for ATE, LATE, and partially linear models. Cross-fitting with arbitrary ML learners. Unlike EconML (broader scope), focuses specifically on DML theory with rigorous inference. Best for: researchers implementing DML papers who want the canonical framework.",
     "category": "Double/Debiased Machine Learning (DML)",
     "docs_url": "https://docs.doubleml.org/",
     "github_url": "https://github.com/DoubleML/doubleml-for-py",
@@ -498,7 +498,7 @@
   },
   {
     "name": "EconML",
-    "description": "Microsoft toolkit for estimating heterogeneous treatment effects using DML, causal forests, meta-learners, and orthogonal ML methods.",
+    "description": "Microsoft's comprehensive toolkit for heterogeneous treatment effects: DML, causal forests, meta-learners (T/S/X/DR), and orthogonal ML. Integrates with DoWhy for end-to-end workflows. Unlike DoubleML (theory focus), provides broader algorithm coverage. Best for: practitioners needing production-ready CATE estimation with multiple method options.",
     "category": "Double/Debiased Machine Learning (DML)",
     "docs_url": "https://econml.azurewebsites.net/",
     "github_url": "https://github.com/py-why/EconML",
@@ -511,7 +511,7 @@
   },
   {
     "name": "pydoublelasso",
-    "description": "Double\u2011post\u00a0Lasso estimator for high\u2011dimensional treatment effects (Belloni\u2011Chernozhukov\u2011Hansen\u202f2014).",
+    "description": "Implements Belloni-Chernozhukov-Hansen double-post-selection Lasso for high-dimensional treatment effects. Uses Lasso to select controls, then estimates effects on selected variables. Unlike general DML, specifically implements the 2014 BCH procedure. Best for: high-dimensional settings with many potential controls.",
     "category": "Double/Debiased Machine Learning (DML)",
     "docs_url": "https://pypi.org/project/pydoublelasso/",
     "github_url": null,
@@ -524,7 +524,7 @@
   },
   {
     "name": "pyhtelasso",
-    "description": "Debiased\u2011Lasso detector of heterogeneous treatment effects in randomized experiments.",
+    "description": "Detects heterogeneous treatment effects in experiments using debiased Lasso. Tests whether effects vary across subgroups defined by covariates. Unlike CATE estimators (estimate effects), focuses on testing for heterogeneity. Best for: RCT analysis testing whether effects differ across subgroups.",
     "category": "Double/Debiased Machine Learning (DML)",
     "docs_url": "https://pypi.org/project/pyhtelasso/",
     "github_url": null,
@@ -537,7 +537,7 @@
   },
   {
     "name": "py-econometrics `gmm`",
-    "description": "Lightweight package for setting up and estimating custom GMM models based on user-defined moment conditions.",
+    "description": "Flexible GMM estimation with user-defined moment conditions. Specify your own moment functions for custom estimators beyond built-in IV/2SLS. Unlike linearmodels (pre-built estimators), lets you define arbitrary moment conditions. Best for: structural estimation and custom GMM applications where standard packages don't have your estimator.",
     "category": "Instrumental Variables (IV) & GMM",
     "docs_url": "https://github.com/py-econometrics/gmm",
     "github_url": null,

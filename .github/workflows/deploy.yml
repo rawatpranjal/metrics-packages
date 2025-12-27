@@ -41,15 +41,12 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Build site
-        run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-
-      - name: Index with Pagefind
-        run: npx pagefind --site public
-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
+
+      - name: Build site
+        run: hugo --minify
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
