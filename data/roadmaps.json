@@ -95,9 +95,11 @@
     "description": "Querying data, joins, and aggregations — essential for any data role",
     "icon": "database",
     "resources": [
+      {"name": "SQLBolt", "why": "No setup, run queries in browser — start here", "url": "https://sqlbolt.com/"},
       {"name": "Mode SQL Tutorial", "why": "Interactive lessons with real database", "url": "https://mode.com/sql-tutorial/"},
-      {"name": "SQLBolt", "why": "No setup, run queries in browser", "url": "https://sqlbolt.com/"},
-      {"name": "LeetCode SQL 50", "why": "Essential problems for interviews", "url": "https://leetcode.com/studyplan/top-sql-50/"}
+      {"name": "SELECT Star SQL", "why": "Interactive book teaching SQL through meaningful analysis", "url": "https://selectstarsql.com/"},
+      {"name": "8 Week SQL Challenge (Danny Ma)", "why": "8 business case studies with CTEs and window functions", "url": "https://8weeksqlchallenge.com/"},
+      {"name": "DataLemur", "why": "Real DS interview questions with business context", "url": "https://datalemur.com/"}
     ],
     "packages": [
       {"name": "duckdb", "why": "Modern SQL on your laptop, reads Parquet"},
@@ -108,11 +110,13 @@
   },
   {
     "name": "Learn LeetCode",
-    "description": "Data structures and algorithms for coding interviews — the basics",
+    "description": "Data structures and algorithms for coding interviews — learn foundations first, then grind",
     "icon": "puzzle",
     "resources": [
+      {"name": "Structy", "why": "Designed for true beginners, progressive difficulty ($60/yr)", "url": "https://structy.net/"},
+      {"name": "Abdul Bari (YouTube)", "why": "Exceptional whiteboard DSA explanations", "url": "https://www.youtube.com/@abdul_bari"},
       {"name": "NeetCode", "why": "Curated roadmap with video explanations", "url": "https://neetcode.io/"},
-      {"name": "Blind 75", "why": "The 75 problems you need to master", "url": "https://www.techinterviewhandbook.org/grind75"},
+      {"name": "Blind 75 / Grind 75", "why": "The 75 problems you need to master", "url": "https://www.techinterviewhandbook.org/grind75"},
       {"name": "LeetCode Patterns", "why": "14 patterns to solve any question", "url": "https://seanprashad.com/leetcode-patterns/"}
     ],
     "packages": [],
@@ -124,14 +128,16 @@
     "icon": "robot",
     "resources": [
       {"name": "Automate the Boring Stuff with Python", "why": "Free, practical skills for data work", "url": "https://automatetheboringstuff.com/"},
-      {"name": "Scrapy Documentation", "why": "Industrial-strength web scraping", "url": "https://docs.scrapy.org/"},
-      {"name": "Real Python: Web Scraping", "why": "BeautifulSoup and requests guide", "url": "https://realpython.com/beautiful-soup-web-scraper-python/"}
+      {"name": "Postman Academy", "why": "Free API certification path — often more useful than scraping", "url": "https://academy.postman.com/"},
+      {"name": "Real Python: Web Scraping", "why": "BeautifulSoup and requests guide", "url": "https://realpython.com/beautiful-soup-web-scraper-python/"},
+      {"name": "Playwright for Python", "why": "Modern browser automation (faster than Selenium)", "url": "https://playwright.dev/python/"},
+      {"name": "Scrapy Documentation", "why": "Industrial-strength web scraping", "url": "https://docs.scrapy.org/"}
     ],
     "packages": [
-      {"name": "scrapy", "why": "Production web scraping framework"},
+      {"name": "requests", "why": "HTTP for humans — start here"},
       {"name": "beautifulsoup4", "why": "Parse HTML the simple way"},
-      {"name": "selenium", "why": "Automate browsers for dynamic sites"},
-      {"name": "requests", "why": "HTTP for humans"}
+      {"name": "playwright", "why": "Modern browser automation from Microsoft"},
+      {"name": "scrapy", "why": "Production web scraping framework"}
     ],
     "order": 8
   }

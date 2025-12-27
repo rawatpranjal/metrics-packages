@@ -1048,7 +1048,7 @@
   {
     "name": "SciPy Bootstrap",
     "description": "(`scipy.stats.bootstrap`) Computes bootstrap confidence intervals for various statistics using percentile, BCa methods.",
-    "category": "Standard Errors, Bootstrapping & Reporting",
+    "category": "Inference & Reporting Tools",
     "docs_url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.bootstrap.html",
     "github_url": "https://github.com/scipy/scipy",
     "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.bootstrap.html",
@@ -1062,7 +1062,7 @@
   {
     "name": "Stargazer",
     "description": "Python port of R's stargazer for creating publication-quality regression tables (HTML, LaTeX) from `statsmodels` & `linearmodels` results.",
-    "category": "Standard Errors, Bootstrapping & Reporting",
+    "category": "Inference & Reporting Tools",
     "docs_url": null,
     "github_url": "https://github.com/StatsReporting/stargazer",
     "url": "https://github.com/StatsReporting/stargazer",
@@ -1076,7 +1076,7 @@
   {
     "name": "wildboottest",
     "description": "Fast implementation of various wild cluster bootstrap algorithms (WCR, WCU) for robust inference, especially with few clusters.",
-    "category": "Standard Errors, Bootstrapping & Reporting",
+    "category": "Inference & Reporting Tools",
     "docs_url": "https://py-econometrics.github.io/wildboottest/",
     "github_url": "https://github.com/py-econometrics/wildboottest",
     "url": "https://github.com/py-econometrics/wildboottest",
@@ -1651,7 +1651,7 @@
   {
     "name": "maketables",
     "description": "Publication-ready regression tables for pyfixest, statsmodels, linearmodels. Outputs HTML (great-tables), LaTeX, Word.",
-    "category": "Standard Errors, Bootstrapping & Reporting",
+    "category": "Inference & Reporting Tools",
     "docs_url": null,
     "github_url": "https://github.com/py-econometrics/maketables",
     "url": "https://github.com/py-econometrics/maketables",
@@ -1756,7 +1756,7 @@
   {
     "name": "First Course in Causal Inference (Python)",
     "description": "Python implementation of Peng Ding's textbook 'A First Course in Causal Inference'. Educational resource with code examples.",
-    "category": "Standard Errors, Bootstrapping & Reporting",
+    "category": "Inference & Reporting Tools",
     "docs_url": "https://github.com/apoorvalal/ding_causalInference_python",
     "github_url": "https://github.com/apoorvalal/ding_causalInference_python",
     "url": "https://github.com/apoorvalal/ding_causalInference_python",
@@ -1771,7 +1771,7 @@
   {
     "name": "Computational Methods for Economists",
     "description": "Open-source textbook by Richard Evans on computational methods for economists using Python.",
-    "category": "Standard Errors, Bootstrapping & Reporting",
+    "category": "Inference & Reporting Tools",
     "docs_url": "https://opensourceecon.github.io/CompMethods/",
     "github_url": "https://github.com/OpenSourceEcon/CompMethods",
     "url": "https://opensourceecon.github.io/CompMethods/",
@@ -1786,7 +1786,7 @@
   {
     "name": "Econ Project Templates",
     "description": "Cookiecutter templates for reproducible economics research projects. Standardized project structure.",
-    "category": "Standard Errors, Bootstrapping & Reporting",
+    "category": "Inference & Reporting Tools",
     "docs_url": "https://econ-project-templates.readthedocs.io/",
     "github_url": "https://github.com/OpenSourceEconomics/econ-project-templates",
     "url": "https://github.com/OpenSourceEconomics/econ-project-templates",
@@ -1801,7 +1801,7 @@
   {
     "name": "Python Packages for Applied Economists",
     "description": "Curated collection of Python packages for applied economists organized by functionality.",
-    "category": "Standard Errors, Bootstrapping & Reporting",
+    "category": "Inference & Reporting Tools",
     "docs_url": null,
     "github_url": "https://github.com/clibassi/python-packages-for-applied-economists",
     "url": "https://github.com/clibassi/python-packages-for-applied-economists",
@@ -1815,7 +1815,7 @@
   {
     "name": "Awesome Economics",
     "description": "Curated list of economics resources including datasets, software, courses, and blogs.",
-    "category": "Standard Errors, Bootstrapping & Reporting",
+    "category": "Inference & Reporting Tools",
     "docs_url": null,
     "github_url": "https://github.com/antontarasenko/awesome-economics",
     "url": "https://github.com/antontarasenko/awesome-economics",
@@ -2127,7 +2127,7 @@
   {
     "name": "fairpy",
     "description": "Fair division algorithms from academic papers. Implements cake-cutting and item allocation procedures.",
-    "category": "Fair Division & Allocation",
+    "category": "Game Theory & Mechanism Design",
     "docs_url": "https://fairpy.readthedocs.io/",
     "github_url": "https://github.com/erelsgl/fairpy",
     "url": "https://github.com/erelsgl/fairpy",
@@ -2142,7 +2142,7 @@
   {
     "name": "fairpyx",
     "description": "Course-seat allocation with capacity constraints. Practical fair division for university course assignment.",
-    "category": "Fair Division & Allocation",
+    "category": "Game Theory & Mechanism Design",
     "docs_url": null,
     "github_url": "https://github.com/ariel-research/fairpyx",
     "url": "https://github.com/ariel-research/fairpyx",
@@ -2277,7 +2277,7 @@
   {
     "name": "clusterbootstraps",
     "description": "Wild cluster bootstrap and pairs cluster bootstrap implementations for clustered standard errors.",
-    "category": "Standard Errors, Bootstrapping & Reporting",
+    "category": "Inference & Reporting Tools",
     "docs_url": null,
     "github_url": "https://github.com/jmonteroers/clusterbootstraps",
     "url": "https://github.com/jmonteroers/clusterbootstraps",
@@ -2577,7 +2577,7 @@
   {
     "name": "deep-opt-auctions",
     "description": "Neural network optimal auction design. Implements RegretNet, RochetNet for mechanism design.",
-    "category": "Market Design & Matching",
+    "category": "Matching & Market Design",
     "docs_url": "https://github.com/saisrivatsan/deep-opt-auctions",
     "github_url": "https://github.com/saisrivatsan/deep-opt-auctions",
     "url": "https://github.com/saisrivatsan/deep-opt-auctions",
