@@ -196,6 +196,13 @@
     "type": "Course"
   },
   {
+    "name": "Beyond Jupyter",
+    "description": "Software design principles for ML applications. Go from messy notebooks to maintainable, modular code with OOP essentials and refactoring guides.",
+    "category": "Coding",
+    "url": "https://github.com/aai-institute/beyond-jupyter",
+    "type": "Tutorial"
+  },
+  {
     "name": "fast.ai Practical Deep Learning",
     "description": "Train a model in 10 minutes. Understand why it works later. Jeremy Howard's famous 'code first, theory second' approach to deep learning.",
     "category": "ML & Data Science",
@@ -243,6 +250,20 @@
     "category": "ML & Data Science",
     "url": "https://www.davidsilver.uk/teaching/",
     "type": "Lectures"
+  },
+  {
+    "name": "Machine Learning Specialization",
+    "description": "Andrew Ng's foundational ML course on Coursera. Covers supervised/unsupervised learning, neural networks, and best practices.",
+    "category": "ML & Data Science",
+    "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+    "type": "Course"
+  },
+  {
+    "name": "Deep Learning Specialization",
+    "description": "Andrew Ng's deep learning sequence. CNNs, RNNs, transformers, and practical AI project structuring.",
+    "category": "ML & Data Science",
+    "url": "https://www.coursera.org/specializations/deep-learning",
+    "type": "Course"
   },
   {
     "name": "The Theory and Practice of Revenue Management",
@@ -634,6 +655,13 @@
     "description": "Microsoft economist. Demand estimation, cloud pricing, Julia packages for IO.",
     "category": "Blogs",
     "url": "https://www.jamesbrandecon.com/",
+    "type": "Blog"
+  },
+  {
+    "name": "Eugene Yan",
+    "description": "Principal Applied Scientist at Amazon. RecSys, LLMs, and ML systems. Author of applied-llms.org and applyingml.com. Prolific writer on building ML products at scale.",
+    "category": "Blogs",
+    "url": "https://eugeneyan.com/",
     "type": "Blog"
   }
 ]

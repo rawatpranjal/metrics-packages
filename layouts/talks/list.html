@@ -30,9 +30,23 @@
             {{ end }}
         {{ end }}
         <select id="category-select" class="category-select">
-            <option value="all">All Categories</option>
+            <option value="all">All Topics</option>
             {{ range $cat := sort $categories }}
             <option value="{{ $cat }}">{{ $cat }}</option>
+            {{ end }}
+        </select>
+
+        <!-- Format Dropdown -->
+        {{ $formats := slice }}
+        {{ range .Site.Data.talks }}
+            {{ if not (in $formats .type) }}
+                {{ $formats = $formats | append .type }}
+            {{ end }}
+        {{ end }}
+        <select id="format-select" class="category-select">
+            <option value="all">All Formats</option>
+            {{ range $fmt := sort $formats }}
+            <option value="{{ $fmt }}">{{ $fmt }}</option>
             {{ end }}
         </select>
 
@@ -148,6 +162,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const searchInput = document.getElementById('talk-search');
     const clearBtn = document.getElementById('clear-search');
     const categorySelect = document.getElementById('category-select');
+    const formatSelect = document.getElementById('format-select');
     const cardsView = document.getElementById('cards-view');
     const tableView = document.getElementById('table-view');
     const btnCards = document.getElementById('btn-cards');
@@ -159,6 +174,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const sortableHeaders = document.querySelectorAll('.sortable');
 
     let activeCategory = 'all';
+    let activeFormat = 'all';
     let debounceTimer;
     let currentSort = { column: null, direction: 'asc' };
 
@@ -229,8 +245,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 type.includes(query);
 
             const matchesCategory = activeCategory === 'all' || category === activeCategory;
+            const matchesFormat = activeFormat === 'all' || type === activeFormat.toLowerCase();
 
-            if (matchesSearch && matchesCategory) {
+            if (matchesSearch && matchesCategory && matchesFormat) {
                 card.classList.remove('hidden');
                 card.classList.add('visible');
                 visibleCount++;
@@ -254,8 +271,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 type.includes(query);
 
             const matchesCategory = activeCategory === 'all' || category === activeCategory;
+            const matchesFormat = activeFormat === 'all' || type === activeFormat.toLowerCase();
 
-            if (matchesSearch && matchesCategory) {
+            if (matchesSearch && matchesCategory && matchesFormat) {
                 row.style.display = '';
             } else {
                 row.style.display = 'none';
@@ -295,6 +313,12 @@ document.addEventListener('DOMContentLoaded', function() {
     // Category dropdown
     categorySelect.addEventListener('change', function() {
         activeCategory = this.value;
+        filterItems();
+    });
+
+    // Format dropdown
+    formatSelect.addEventListener('change', function() {
+        activeFormat = this.value;
         filterItems();
     });
 });

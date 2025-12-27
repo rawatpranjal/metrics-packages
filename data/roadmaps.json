@@ -6,7 +6,8 @@
     "resources": [
       {"name": "Coding for Economists", "why": "Built specifically for econ researchers", "url": "https://aeturrell.github.io/coding-for-economists/"},
       {"name": "The Missing Semester (MIT)", "why": "Git, shell, debugging — skills they don't teach in PhD programs", "url": "https://missing.csail.mit.edu/"},
-      {"name": "Python for Econometrics", "why": "NumPy, pandas, statsmodels from Kevin Sheppard", "url": "https://www.kevinsheppard.com/teaching/python/"}
+      {"name": "Python for Econometrics", "why": "NumPy, pandas, statsmodels from Kevin Sheppard", "url": "https://www.kevinsheppard.com/teaching/python/"},
+      {"name": "Beyond Jupyter", "why": "Level up from notebooks to production code", "url": "https://github.com/aai-institute/beyond-jupyter"}
     ],
     "packages": [
       {"name": "pandas", "why": "Data manipulation and analysis"},
@@ -40,7 +41,9 @@
     "resources": [
       {"name": "Introduction to Statistical Learning", "why": "Free, runnable Python code, intuition first", "url": "https://www.statlearning.com/"},
       {"name": "fast.ai Practical Deep Learning", "why": "Code first, theory second", "url": "https://course.fast.ai/"},
-      {"name": "The Elements of Statistical Learning", "why": "The more rigorous sibling of ISLR", "url": "https://hastie.su.domains/ElemStatLearn/"}
+      {"name": "The Elements of Statistical Learning", "why": "The more rigorous sibling of ISLR", "url": "https://hastie.su.domains/ElemStatLearn/"},
+      {"name": "Andrew Ng's ML Specialization", "why": "The classic introduction, now updated", "url": "https://www.coursera.org/specializations/machine-learning-introduction"},
+      {"name": "Andrew Ng's Deep Learning Specialization", "why": "CNNs, RNNs, and transformers from the master", "url": "https://www.coursera.org/specializations/deep-learning"}
     ],
     "packages": [
       {"name": "scikit-learn", "why": "The go-to library for classical ML"},
