@@ -203,7 +203,7 @@
     "name": "Instacart",
     "description": "3.4M orders, 206k+ users, 49k+ products with reorder behavior",
     "category": "Food & Delivery",
-    "url": "https://mdporter.github.io/DS6030/other/instacart.html",
+    "url": "https://www.kaggle.com/c/instacart-market-basket-analysis",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -3237,38 +3237,10 @@
     ]
   },
   {
-    "name": "Instacart Market Basket",
-    "description": "3M+ orders from 200K+ users with product sequences, reorder flags, temporal patterns",
-    "category": "Grocery & Supermarkets",
-    "url": "https://www.instacart.com/datasets/grocery-shopping-2017",
-    "docs_url": null,
-    "github_url": null,
-    "tags": [
-      "grocery",
-      "orders",
-      "sequences",
-      "Instacart"
-    ]
-  },
-  {
-    "name": "Favorita Ecuador Grocery",
-    "description": "125M rows of unit sales with store/item metadata and oil prices for demand forecasting",
-    "category": "Grocery & Supermarkets",
-    "url": "https://www.kaggle.com/c/favorita-grocery-sales-forecasting",
-    "docs_url": null,
-    "github_url": null,
-    "tags": [
-      "grocery",
-      "forecasting",
-      "Ecuador",
-      "Kaggle"
-    ]
-  },
-  {
     "name": "LendingClub P2P Loans",
     "description": "2.7M loans (2007-2019) with borrower income, DTI, employment, defaults, and state macro variables",
     "category": "Financial Services",
-    "url": "https://data.mendeley.com/datasets/w6xk892fgr/1",
+    "url": "https://www.kaggle.com/datasets/wordsforthewise/lending-club",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -3282,7 +3254,7 @@
     "name": "Prosper Loan Data",
     "description": "113K P2P loans with borrower characteristics and outcomes",
     "category": "Financial Services",
-    "url": "https://www.prosper.com/about-us",
+    "url": "https://www.kaggle.com/datasets/henryokam/prosper-loan-data",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -3317,20 +3289,6 @@
       "mobile money",
       "synthetic",
       "Africa"
-    ]
-  },
-  {
-    "name": "LOBSTER",
-    "description": "Millisecond precision reconstructed NASDAQ order books for market microstructure research",
-    "category": "Financial Services",
-    "url": "https://lobsterdata.com/",
-    "docs_url": null,
-    "github_url": null,
-    "tags": [
-      "order book",
-      "NASDAQ",
-      "market microstructure",
-      "HFT"
     ]
   },
   {
