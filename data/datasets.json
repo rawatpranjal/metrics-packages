@@ -747,6 +747,15 @@
     "tags": ["banking", "transactions", "privacy-preserving"]
   },
   {
+    "name": "SEC EDGAR Filings",
+    "description": "21M+ public company filings since 1994. 10-Ks, 8-Ks, proxy statements. Full text + structured XBRL data",
+    "category": "Financial",
+    "url": "https://www.sec.gov/search-filings",
+    "docs_url": "https://www.sec.gov/os/accessing-edgar-data",
+    "github_url": "https://github.com/datasets/edgar",
+    "tags": ["SEC", "corporate filings", "10-K", "disclosure", "large-scale"]
+  },
+  {
     "name": "Indonesian Fashion",
     "description": "Fashion items for image classification tasks from Indonesia",
     "category": "Fashion",
@@ -1044,6 +1053,15 @@
     "tags": ["fresh food", "delivery", "grocery", "MSOM"]
   },
   {
+    "name": "BTS Airline On-Time Performance",
+    "description": "All US flights since 1987. Delays, cancellations, fares, capacity. Revenue management research goldmine",
+    "category": "Logistics",
+    "url": "https://www.transtats.bts.gov/ontime/",
+    "docs_url": "https://www.bts.gov/topics/airline-time-tables",
+    "github_url": null,
+    "tags": ["airline", "flights", "delays", "pricing", "large-scale"]
+  },
+  {
     "name": "Amazon Last Mile",
     "description": "9,184 historical routes across 5 US metro areas",
     "category": "Logistics",
@@ -1107,6 +1125,15 @@
     "tags": ["GPS", "ride-hailing", "Southeast Asia"]
   },
   {
+    "name": "NYC TLC Trip Records",
+    "description": "3B+ taxi and rideshare trips since 2009. Fares, tips, surge pricing, driver pay. The gold standard for marketplace economics",
+    "category": "Mobility & GPS",
+    "url": "https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page",
+    "docs_url": "https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf",
+    "github_url": "https://github.com/toddwschneider/nyc-taxi-data",
+    "tags": ["taxi", "Uber", "Lyft", "surge pricing", "NYC", "large-scale"]
+  },
+  {
     "name": "AirBnb (Inside Airbnb)",
     "description": "6M+ listings, 190M+ reviews with pricing and amenities",
     "category": "Housing",
@@ -1141,6 +1168,51 @@
     "docs_url": null,
     "github_url": null,
     "tags": ["reviews", "businesses", "local", "NLP"]
+  },
+  {
+    "name": "Wikipedia Pageviews",
+    "description": "296B views/year since 2007. Hourly pageview data for all Wikimedia projects. Attention economics at scale",
+    "category": "Research Collections",
+    "url": "https://dumps.wikimedia.org/other/pageviews/",
+    "docs_url": "https://dumps.wikimedia.org/other/pageviews/readme.html",
+    "github_url": null,
+    "tags": ["Wikipedia", "pageviews", "attention", "time-series", "large-scale"]
+  },
+  {
+    "name": "Pushshift Reddit Archive",
+    "description": "5.6B comments, 651M posts since 2005. Full Reddit history for social/economic research. 100+ papers published",
+    "category": "Research Collections",
+    "url": "https://arxiv.org/abs/2001.08435",
+    "docs_url": null,
+    "github_url": null,
+    "tags": ["Reddit", "social media", "comments", "NLP", "large-scale"]
+  },
+  {
+    "name": "Stack Overflow Data Dump",
+    "description": "Full Q&A archive + annual developer survey (49K+ responses). Salaries, tech adoption, developer economics",
+    "category": "Research Collections",
+    "url": "https://archive.org/details/stackexchange",
+    "docs_url": "https://survey.stackoverflow.co/",
+    "github_url": null,
+    "tags": ["developers", "salaries", "tech", "survey", "Q&A"]
+  },
+  {
+    "name": "Common Crawl",
+    "description": "250TB/month web crawl. 9.5 PB archive since 2008. Product listings, pricing, economic text at web scale",
+    "category": "Research Collections",
+    "url": "https://commoncrawl.org/",
+    "docs_url": "https://commoncrawl.org/the-data/get-started/",
+    "github_url": null,
+    "tags": ["web crawl", "text", "pricing", "petabyte-scale"]
+  },
+  {
+    "name": "Google Trends Datastore",
+    "description": "Search interest data for nowcasting. Economic indicators, demand prediction, event detection",
+    "category": "Research Collections",
+    "url": "https://googletrends.github.io/data/",
+    "docs_url": "https://developers.google.com/search/apis/trends",
+    "github_url": null,
+    "tags": ["search trends", "nowcasting", "economics", "time-series"]
   },
   {
     "name": "Yandex Datasets",
