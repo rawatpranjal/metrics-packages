@@ -22,35 +22,94 @@
     loadAnalytics();
   }
 
-  function getStatsEndpoint() {
-    // Get the tracker endpoint from config and convert to stats endpoint
-    if (window.TRACKER_CONFIG && window.TRACKER_CONFIG.endpoint) {
-      var endpoint = window.TRACKER_CONFIG.endpoint;
-      // Replace /events with /stats
-      return endpoint.replace(/\/events\/?$/, '/stats');
-    }
-    return null;
-  }
+  // Stats endpoint URL
+  var STATS_ENDPOINT = 'https://tech-econ-analytics.rawat-pranjal010.workers.dev/stats';
+
+  // Demo data for when no real data exists
+  var DEMO_DATA = {
+    updated: Date.now(),
+    totalEvents: 0,
+    summary: {
+      pageviews: 1247,
+      sessions: 328,
+      searches: 89,
+      clicks: 412,
+      avgTimeOnPage: 145
+    },
+    topSearches: [
+      { name: 'causal inference', count: 23 },
+      { name: 'machine learning', count: 18 },
+      { name: 'econometrics', count: 15 },
+      { name: 'python packages', count: 12 },
+      { name: 'time series', count: 11 },
+      { name: 'panel data', count: 9 },
+      { name: 'regression', count: 8 },
+      { name: 'statistics', count: 7 }
+    ],
+    topPages: [
+      { name: '/', count: 412 },
+      { name: '/packages/', count: 287 },
+      { name: '/datasets/', count: 198 },
+      { name: '/learning/', count: 156 },
+      { name: '/start/', count: 94 }
+    ],
+    topClicks: {
+      packages: [
+        { name: 'DoWhy', count: 34 },
+        { name: 'statsmodels', count: 28 },
+        { name: 'scikit-learn', count: 25 }
+      ],
+      datasets: [
+        { name: 'UCI ML Repository', count: 19 },
+        { name: 'Kaggle Datasets', count: 15 }
+      ],
+      learning: [
+        { name: 'Causal Inference Book', count: 22 },
+        { name: 'ML Course', count: 18 }
+      ]
+    },
+    dailyPageviews: (function() {
+      var data = {};
+      for (var i = 6; i >= 0; i--) {
+        var d = new Date();
+        d.setDate(d.getDate() - i);
+        var key = d.toISOString().split('T')[0];
+        data[key] = Math.floor(Math.random() * 100) + 120;
+      }
+      return data;
+    })(),
+    countries: [
+      { name: 'US', count: 145 },
+      { name: 'IN', count: 67 },
+      { name: 'GB', count: 42 },
+      { name: 'DE', count: 31 },
+      { name: 'CA', count: 23 }
+    ],
+    performance: {
+      lcp: { avg: 1850, samples: 234 },
+      fid: { avg: 45, samples: 189 },
+      cls: { avg: 0.08, samples: 234 }
+    },
+    isDemo: true
+  };
 
   function loadAnalytics() {
-    var endpoint = getStatsEndpoint();
-
-    if (!endpoint) {
-      showError('Analytics endpoint not configured. Set trackerEndpoint in hugo.toml.');
-      return;
-    }
-
-    fetch(endpoint)
+    fetch(STATS_ENDPOINT)
       .then(function(response) {
         if (!response.ok) throw new Error('Failed to fetch stats');
         return response.json();
       })
       .then(function(data) {
+        // Use demo data if no real data yet
+        if (data.totalEvents === 0) {
+          data = DEMO_DATA;
+        }
         renderDashboard(data);
       })
       .catch(function(err) {
         console.error('Analytics error:', err);
-        showError('Unable to load analytics data. ' + err.message);
+        // Fall back to demo data on error
+        renderDashboard(DEMO_DATA);
       });
   }
 
@@ -95,10 +154,10 @@
     renderCountries(data.countries || []);
 
     // Last updated
-    if (data.updated) {
-      document.getElementById('last-updated').textContent =
-        'Last updated: ' + new Date(data.updated).toLocaleString();
-    }
+    var updateText = data.isDemo
+      ? 'Showing demo data (real data will appear as users visit)'
+      : 'Last updated: ' + new Date(data.updated).toLocaleString();
+    document.getElementById('last-updated').textContent = updateText;
   }
 
   function renderPageviewsChart(dailyData) {
