@@ -6,9 +6,9 @@ A curated directory of resources for tech economists, data scientists, and appli
 
 ## What's Inside
 
-- **Packages** - 180 Python/R libraries for econometrics, causal inference, and experimentation
+- **Packages** - 188 Python/R libraries for econometrics, causal inference, and experimentation
 - **Datasets** - 243 industry datasets for e-commerce, advertising, experimentation, and more
-- **Learning** - 103 books, courses, and blogs for applied economics
+- **Learning** - 111 books, courses, and blogs for applied economics
 - **Talks** - 50 interviews and podcasts from chief economists at Google, Amazon, Uber, Spotify
 - **Career** - 13 resources for job hunting and interviews
 - **Community** - 63 conferences, research labs, and events in tech economics
