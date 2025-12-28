@@ -170,29 +170,39 @@
     "icon": "shield",
     "resources": [
       {
-        "name": "GeeksforGeeks: Credit Card Fraud Detection",
-        "why": "Supervised/unsupervised ML for imbalanced data \u2014 free tutorial",
-        "url": "https://www.geeksforgeeks.org/ml-credit-card-fraud-detection/"
+        "name": "MIT 15.S08 FinTech (Gary Gensler)",
+        "why": "12 lectures from former SEC Chair on AI in finance, risk, and compliance — free",
+        "url": "https://ocw.mit.edu/courses/15-s08-fintech-shaping-the-financial-world-spring-2020/"
       },
       {
-        "name": "Credit Risk Modelling (GitHub)",
-        "why": "PD, LGD, EAD with Basel compliance \u2014 free tutorials",
-        "url": "https://github.com/levist7/Credit_Risk_Modelling"
-      },
-      {
-        "name": "PyOD: Anomaly Detection",
-        "why": "50+ outlier/fraud detection algorithms \u2014 free docs",
-        "url": "https://pyod.readthedocs.io/en/latest/example.html"
-      },
-      {
-        "name": "Stripe ML for Fraud Protection",
-        "why": "How Radar processes $1T+ annually",
+        "name": "Stripe: ML for Fraud Protection",
+        "why": "The definitive intro: features, precision-recall tradeoffs, break-even calculations",
         "url": "https://stripe.com/guides/primer-on-machine-learning-for-fraud-protection"
       },
       {
-        "name": "Credit Risk Analytics (Baesens)",
-        "why": "Gold standard for PD/LGD/EAD modeling",
-        "url": "https://www.bartbaesens.com/book/6/credit-risk-analytics"
+        "name": "Fraud Detection Handbook (ULB)",
+        "why": "From the team that created the Kaggle dataset — rigorous methodology",
+        "url": "https://fraud-detection-handbook.github.io/fraud-detection-handbook/"
+      },
+      {
+        "name": "PayPal: Graph Database for Fraud",
+        "why": "Real-time fraud ring detection using graph analytics",
+        "url": "https://medium.com/paypal-tech/uncovering-unknown-unknowns-using-graphs-for-fraud-detection-95aff8d6c523"
+      },
+      {
+        "name": "Stanford FinTech Lab: Rob Wang (Block)",
+        "why": "Industry talk on fraud ML tradeoffs from Block's Head of Data Science",
+        "url": "https://www.youtube.com/watch?v=rHSpab1Wi9k"
+      },
+      {
+        "name": "IEEE-CIS Fraud: 1st Place Solution (Chris Deotte)",
+        "why": "Kaggle Grandmaster walkthrough: 262 features, RAPIDS GPU acceleration",
+        "url": "https://www.kaggle.com/c/ieee-fraud-detection/discussion/111284"
+      },
+      {
+        "name": "Google Research: Self-Supervised Anomaly Detection",
+        "why": "Contrastive learning and CutPaste algorithm for anomaly detection",
+        "url": "https://ai.googleblog.com/2021/04/self-supervised-learning-for-detecting.html"
       }
     ],
     "packages": [
@@ -202,19 +212,19 @@
         "url": "https://pyod.readthedocs.io/"
       },
       {
-        "name": "scorecardpy",
-        "why": "WOE binning, IV calculation for credit",
-        "url": "https://github.com/ShichenXie/scorecardpy"
-      },
-      {
-        "name": "optbinning",
-        "why": "ING Bank's optimal binning for scorecards",
-        "url": "https://gnpalencia.org/optbinning/"
-      },
-      {
         "name": "imbalanced-learn",
         "why": "SMOTE, ADASYN for class imbalance",
         "url": "https://imbalanced-learn.org/"
+      },
+      {
+        "name": "scikit-learn",
+        "why": "IsolationForest, OneClassSVM for anomaly detection",
+        "url": "https://scikit-learn.org/"
+      },
+      {
+        "name": "networkx",
+        "why": "Graph analytics for fraud ring detection",
+        "url": "https://networkx.org/"
       }
     ],
     "order": 4
