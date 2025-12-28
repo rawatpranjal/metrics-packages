@@ -331,55 +331,50 @@
   },
   {
     "name": "Logistics & Supply Chain",
-    "description": "Operations research for routing, inventory, and demand forecasting \u2014 constrained optimization and dynamic programming",
+    "description": "Minimal starter kit for routing, dispatch, and demand forecasting — free, practitioner-focused resources",
     "icon": "truck",
     "resources": [
       {
-        "name": "MIT MicroMasters: Supply Chain (edX)",
-        "why": "Graduate-level demand forecasting, inventory, network design",
-        "url": "https://www.edx.org/micromasters/mitx-supply-chain-management"
-      },
-      {
-        "name": "Google OR-Tools Documentation",
-        "why": "VRP tutorials with Python code",
-        "url": "https://developers.google.com/optimization"
-      },
-      {
-        "name": "Georgia Tech: 10 Rules for Supply Chain Optimization",
-        "why": "H. Donald Ratliff's practical optimization framework \u2014 free PDF",
+        "name": "Georgia Tech (Ratliff): 10 Rules for Supply Chain Optimization",
+        "why": "Practitioner checklist for scoping, data readiness, constraints, deployment — free PDF",
         "url": "https://www.scl.gatech.edu/sites/default/files/downloads/gtscl-10_rules_supply_chain_logistics_optimization_2.pdf"
       },
       {
-        "name": "Data Science for Supply Chain (Vandeput)",
-        "why": "Python demand forecasting implementation",
-        "url": "https://supchains.com/"
+        "name": "Google OR-Tools: VRP + VRPTW Tutorial",
+        "why": "Core logistics vocabulary (depot, fleet, constraints) with working Python baseline",
+        "url": "https://developers.google.com/optimization/routing/vrp"
       },
       {
-        "name": "DoorDash Engineering",
-        "why": "Real-time optimization for delivery",
-        "url": "https://doordash.engineering/"
+        "name": "DoorDash: ML + Optimization for Dispatch",
+        "why": "Clearest 'real system' explanation: predictions feed optimizer, then simulation closes the loop",
+        "url": "https://careersatdoordash.com/blog/using-ml-and-optimization-to-solve-doordashs-dispatch-problem/"
+      },
+      {
+        "name": "StatsForecast: Intermittent/Sparse Data Tutorial",
+        "why": "Demand is often intermittent (lots of zeros) — learn baselines built for that",
+        "url": "https://nixtlaverse.nixtla.io/statsforecast/docs/tutorials/intermittentdata.html"
       }
     ],
     "packages": [
       {
-        "name": "OR-Tools",
-        "why": "Google's industry-standard VRP solver",
+        "name": "ortools",
+        "why": "Routing/assignment baselines you can actually run and extend",
         "url": "https://developers.google.com/optimization"
       },
       {
-        "name": "Pyomo",
-        "why": "Flexible, solver-agnostic optimization",
-        "url": "https://www.pyomo.org/"
+        "name": "statsforecast",
+        "why": "Fast statistical forecasting incl. intermittent-demand models",
+        "url": "https://nixtlaverse.nixtla.io/statsforecast/"
       },
       {
-        "name": "Prophet",
-        "why": "Meta's univariate demand forecasting",
-        "url": "https://facebook.github.io/prophet/"
+        "name": "networkx",
+        "why": "Road/fulfillment networks as graphs; shortest paths + graph algorithms",
+        "url": "https://networkx.org/"
       },
       {
-        "name": "PyVRP",
-        "why": "State-of-the-art vehicle routing",
-        "url": "https://pyvrp.org/"
+        "name": "mlforecast",
+        "why": "Optional: feature engineering + backtesting for ML on many time series",
+        "url": "https://nixtlaverse.nixtla.io/mlforecast/"
       }
     ],
     "order": 7
