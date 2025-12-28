@@ -34,7 +34,7 @@
         </div>
 
         <!-- Category Dropdown -->
-        {{ $categoryOrder := slice "SQL & Data" "Stats & Probability" "A/B Testing" "Causal Inference" "Product Sense" "Behavioral" "ML Fundamentals" "ML System Design" "Take-Home" "General Prep" "Negotiation" }}
+        {{ $categoryOrder := slice "General Prep" "SQL & Data" "Stats & Probability" "A/B Testing" "Causal Inference" "Product Sense" "Behavioral" "ML Fundamentals" "ML System Design" "Take-Home" "Negotiation" }}
         <select id="category-select" class="category-select">
             <option value="all">All Categories</option>
             {{ range $cat := $categoryOrder }}
