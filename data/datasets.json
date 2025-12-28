@@ -69,7 +69,7 @@
     "name": "Brazilian eCommerce",
     "description": "100,000 orders (2016-2018) structured in 9 relational tables from Olist",
     "category": "E-Commerce",
-    "url": "https://www.kaggle.com/olistbr/brazilian-ecommerce",
+    "url": "https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -138,7 +138,7 @@
     "name": "Retail Rocket",
     "description": "2.76M events (views, carts, purchases) from 1.4M visitors",
     "category": "E-Commerce",
-    "url": "https://www.kaggle.com/retailrocket/ecommerce-dataset",
+    "url": "https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -151,7 +151,7 @@
     "name": "Google Merchandise",
     "description": "3 months obfuscated GA4 e-commerce data (Nov 2020-Jan 2021)",
     "category": "E-Commerce",
-    "url": "https://support.google.com/analytics/answer/7586738",
+    "url": "https://www.kaggle.com/datasets/bigquery/google-analytics-sample",
     "docs_url": "https://support.google.com/analytics/answer/7586738",
     "github_url": null,
     "tags": [
@@ -164,7 +164,7 @@
     "name": "Shopee",
     "description": "Dataset from Shopee's 2020 Code League competition",
     "category": "E-Commerce",
-    "url": "https://www.kaggle.com/davydev/shopee-code-league-20",
+    "url": "https://www.kaggle.com/competitions/shopee-code-league",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -177,7 +177,7 @@
     "name": "Flipkart",
     "description": "Sales dataset from Indian e-commerce platform Flipkart",
     "category": "E-Commerce",
-    "url": "https://www.kaggle.com/iyumrahul/flipkartsalesdataset",
+    "url": "https://www.kaggle.com/datasets/iyumrahul/flipkartsalesdataset",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -203,7 +203,7 @@
     "name": "Instacart",
     "description": "3.4M orders, 206k+ users, 49k+ products with reorder behavior",
     "category": "Food & Delivery",
-    "url": "https://www.kaggle.com/competitions/instacart-market-basket-analysis",
+    "url": "https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -430,7 +430,7 @@
     "name": "Avazu",
     "description": "Dataset for click-through rate prediction on mobile ads",
     "category": "Advertising",
-    "url": "https://www.kaggle.com/competitions/avazu-ctr-prediction/overview",
+    "url": "https://www.kaggle.com/competitions/avazu-ctr-prediction",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -600,7 +600,7 @@
     "name": "Online Shopping Intention",
     "description": "12,330 user sessions with numerical and categorical features for purchase prediction",
     "category": "E-Commerce",
-    "url": "https://www.kaggle.com/henrysue/online-shoppers-intention",
+    "url": "https://www.kaggle.com/datasets/henrysue/online-shoppers-intention",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -683,7 +683,7 @@
     "name": "Home Depot Product Search",
     "description": "Human-rated relevance scores (1-3) for search terms and products",
     "category": "E-Commerce",
-    "url": "https://www.kaggle.com/thedevastator/the-home-depot-products-dataset",
+    "url": "https://www.kaggle.com/datasets/thedevastator/the-home-depot-products-dataset",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -709,7 +709,7 @@
     "name": "Flipkart Products",
     "description": "Product information scraped from Flipkart e-commerce platform",
     "category": "E-Commerce",
-    "url": "https://www.kaggle.com/PromptCloudHQ/flipkart-products",
+    "url": "https://www.kaggle.com/datasets/PromptCloudHQ/flipkart-products",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -762,7 +762,7 @@
     "name": "Walmart (M5)",
     "description": "Hierarchical sales data for 3,049 products across 10 stores",
     "category": "Grocery & Supermarkets",
-    "url": "https://www.kaggle.com/competitions/m5-forecasting-accuracy/",
+    "url": "https://www.kaggle.com/competitions/m5-forecasting-accuracy",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -776,7 +776,7 @@
     "name": "Ecuador Grocery (Favorita)",
     "description": "Unit sales data with store/item metadata and oil prices from Ecuador",
     "category": "Grocery & Supermarkets",
-    "url": "https://www.kaggle.com/competitions/favorita-grocery-sales-forecasting/data",
+    "url": "https://www.kaggle.com/competitions/favorita-grocery-sales-forecasting",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -894,7 +894,7 @@
     "name": "Store Item Demand",
     "description": "50 items across 10 different stores over 5 years",
     "category": "Grocery & Supermarkets",
-    "url": "https://www.kaggle.com/competitions/demand-forecasting-kernels-only/",
+    "url": "https://www.kaggle.com/competitions/demand-forecasting-kernels-only",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -1644,7 +1644,7 @@
     "name": "Uber Movement",
     "description": "Zone-to-zone travel times and street speeds for 50+ cities worldwide. Congestion patterns from actual Uber rides",
     "category": "Transportation & Mobility",
-    "url": "https://movement.uber.com/",
+    "url": "https://www.kaggle.com/datasets/ishandutta/uber-travel-movement-data-2-billion-trips",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -1843,7 +1843,7 @@
     "name": "Netflix Prize",
     "description": "100M+ anonymous movie ratings from 480k users",
     "category": "Entertainment & Media",
-    "url": "https://www.kaggle.com/netflix-inc/netflix-prize-data",
+    "url": "https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -2284,7 +2284,7 @@
     "name": "PaySim Synthetic Transactions",
     "description": "6M+ mobile money transactions simulating real fraud patterns. Agent-based model calibrated on real African mobile money logs",
     "category": "Financial Services",
-    "url": "https://www.kaggle.com/ealaxi/paysim1",
+    "url": "https://www.kaggle.com/datasets/ealaxi/paysim1",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -2330,7 +2330,7 @@
     "name": "OTTO Session-based Recommendations",
     "description": "12M+ e-commerce sessions with click \u2192 cart \u2192 order sequences. Real multi-stage conversion funnel data from German retailer",
     "category": "E-Commerce",
-    "url": "https://www.kaggle.com/competitions/otto-recommender-system",
+    "url": "https://www.kaggle.com/datasets/otto/recsys-dataset",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -2345,7 +2345,7 @@
     "name": "LendingClub Loans",
     "description": "2.7M loans (2007-2019) with 151 features. Interest rates, credit scores, defaults. The canonical P2P lending dataset for credit risk modeling",
     "category": "Financial Services",
-    "url": "https://www.kaggle.com/wordsforthewise/lending-club",
+    "url": "https://www.kaggle.com/datasets/wordsforthewise/lending-club",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -2810,7 +2810,7 @@
     "name": "Google Play Store Dataset",
     "description": "2.3M apps with ratings, reviews, categories, sizes, installs. Android app marketplace data",
     "category": "App Stores",
-    "url": "https://www.kaggle.com/gauthamp10/google-playstore-apps",
+    "url": "https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -2825,7 +2825,7 @@
     "name": "Apple App Store Dataset",
     "description": "7,200 iOS apps with pricing, ratings, genres, in-app purchases. Apple app marketplace analysis",
     "category": "App Stores",
-    "url": "https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps",
+    "url": "https://www.kaggle.com/datasets/ramamet4/app-store-apple-data-set-10k-apps",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -3240,7 +3240,7 @@
     "name": "LendingClub P2P Loans",
     "description": "2.7M loans (2007-2019) with borrower income, DTI, employment, defaults, and state macro variables",
     "category": "Financial Services",
-    "url": "https://www.kaggle.com/wordsforthewise/lending-club",
+    "url": "https://www.kaggle.com/datasets/wordsforthewise/lending-club",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -3254,7 +3254,7 @@
     "name": "Prosper Loan Data",
     "description": "113K P2P loans with borrower characteristics and outcomes",
     "category": "Financial Services",
-    "url": "https://www.kaggle.com/henryokam/prosper-loan-data",
+    "url": "https://www.kaggle.com/datasets/henryokam/prosper-loan-data",
     "docs_url": null,
     "github_url": null,
     "tags": [
@@ -3281,7 +3281,7 @@
     "name": "PaySim Synthetic",
     "description": "6M+ mobile money transactions from agent-based model calibrated on African mobile money logs",
     "category": "Financial Services",
-    "url": "https://www.kaggle.com/ealaxi/paysim1",
+    "url": "https://www.kaggle.com/datasets/ealaxi/paysim1",
     "docs_url": null,
     "github_url": null,
     "tags": [
