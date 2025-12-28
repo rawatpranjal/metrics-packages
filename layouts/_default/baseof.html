@@ -46,8 +46,9 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
 
-    <!-- AOS (Animate on Scroll) -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <!-- AOS (Animate on Scroll) - loaded async to avoid render blocking -->
+    <link rel="preload" href="https://unpkg.com/aos@2.3.4/dist/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css"></noscript>
 </head>
 <body>
     <!-- Skip to Content (Accessibility) -->
@@ -316,25 +317,25 @@
     </script>
 
     <!-- Supabase Client -->
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
 
     <!-- Custom JS -->
-    <script src="{{ "js/theme.js" | relURL }}"></script>
-    <script src="{{ "js/supabase-client.js" | relURL }}"></script>
-    <script src="{{ "js/auth-ui.js" | relURL }}"></script>
-    <script src="{{ "js/favorites-ui.js" | relURL }}"></script>
+    <script src="{{ "js/theme.js" | relURL }}" defer></script>
+    <script src="{{ "js/supabase-client.js" | relURL }}" defer></script>
+    <script src="{{ "js/auth-ui.js" | relURL }}" defer></script>
+    <script src="{{ "js/favorites-ui.js" | relURL }}" defer></script>
 
     <!-- Fuse.js for page search -->
-    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0" defer></script>
 
     <!-- Unified Search System (MiniSearch + Transformers.js) -->
-    <script src="{{ "js/search/search-synonyms.js" | relURL }}"></script>
-    <script src="{{ "js/search/search-cache.js" | relURL }}"></script>
-    <script src="{{ "js/search/unified-search.js" | relURL }}"></script>
-    <script src="{{ "js/toggle.js" | relURL }}"></script>
+    <script src="{{ "js/search/search-synonyms.js" | relURL }}" defer></script>
+    <script src="{{ "js/search/search-cache.js" | relURL }}" defer></script>
+    <script src="{{ "js/search/unified-search.js" | relURL }}" defer></script>
+    <script src="{{ "js/toggle.js" | relURL }}" defer></script>
 
     <!-- AOS Init -->
-    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js" defer></script>
     <script>
         try {
             AOS.init({
@@ -443,9 +444,19 @@
             .catch(function() {});
     </script>
 
-    <!-- Chatbase AI Chatbot -->
+    <!-- Chatbase AI Chatbot - lazy loaded on scroll or after 5s -->
     <script>
-    (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="62TKxaUCBMbZP1tK2BDK6";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+    (function(){
+      var chatLoaded = false;
+      function loadChatbase() {
+        if (chatLoaded) return;
+        chatLoaded = true;
+        if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}
+        const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="62TKxaUCBMbZP1tK2BDK6";script.domain="www.chatbase.co";document.body.appendChild(script);
+      }
+      document.addEventListener('scroll', loadChatbase, {once: true, passive: true});
+      setTimeout(loadChatbase, 5000);
+    })();
     </script>
 
     <!-- User Analytics Tracker -->
