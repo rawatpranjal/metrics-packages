@@ -196,7 +196,7 @@
             <div class="sidebar-updated">
                 Updated {{ now.Format "Jan 2006" }}
             </div>
-            <div class="sidebar-visitors" id="visitor-count"></div>
+            <div class="sidebar-visitors"><span id="visitor-count"></span> visits</div>
         </div>
     </nav>
 
@@ -312,18 +312,15 @@
     <!-- GoatCounter Analytics -->
     <script data-goatcounter="https://tech-econ.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
     <script>
-        // Display visitor count once GoatCounter loads
-        (function check() {
-            if (window.goatcounter && window.goatcounter.visit_count) {
-                window.goatcounter.visit_count({
-                    append: '#visitor-count',
-                    type: 'html',
-                    no_branding: true
-                });
-            } else {
-                setTimeout(check, 100);
-            }
-        })();
+        // Fetch visitor count from GoatCounter
+        fetch('https://tech-econ.goatcounter.com/counter/TOTAL.json')
+            .then(function(r) { return r.json(); })
+            .then(function(data) {
+                document.getElementById('visitor-count').textContent = data.count;
+            })
+            .catch(function() {
+                document.getElementById('visitor-count').textContent = '0';
+            });
     </script>
 </body>
 </html>
