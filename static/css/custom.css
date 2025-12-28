@@ -463,7 +463,7 @@ a:hover {
     color: #2e7d32;
 }
 
-.difficulty-intermediate {
+.difficulty-medium {
     background: #fff3e0;
     color: #e65100;
 }
@@ -479,7 +479,7 @@ a:hover {
     color: #81c784;
 }
 
-[data-theme="dark"] .difficulty-intermediate {
+[data-theme="dark"] .difficulty-medium {
     background: #3d2a1a;
     color: #ffb74d;
 }
