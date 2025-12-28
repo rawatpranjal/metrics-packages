@@ -12,12 +12,12 @@
           "application": "Product experiments, sample size, metrics",
           "papers": [
             {
-              "title": "Online Controlled Experiments at Large Scale",
-              "authors": "Ron Kohavi, Alex Deng, Brian Frasca, et al.",
-              "year": 2013,
-              "tag": "Industry",
-              "description": "How Microsoft runs thousands of experiments on millions of users, with practical lessons on metric selection and sample ratio mismatch.",
-              "url": "https://www.kdd.org/kdd2013/papers/p1168-kohavi.pdf"
+              "title": "Controlled Experiments on the Web: Survey and Practical Guide",
+              "authors": "Ron Kohavi, Roger Longbotham, Dan Sommerfield, Randal M. Henne",
+              "year": 2009,
+              "tag": "Seminal",
+              "description": "THE foundational paper on web experimentation. Covers hypothesis testing, sample size, metrics, and common pitfalls. 2000+ citations.",
+              "url": "https://link.springer.com/article/10.1007/s10618-008-0114-1"
             },
             {
               "title": "Overlapping Experiment Infrastructure: More, Better, Faster Experimentation",
@@ -3421,31 +3421,196 @@
           "id": "time-series-foundations",
           "name": "Time Series Foundations",
           "application": "ARIMA, exponential smoothing, state space",
-          "papers": []
+          "papers": [
+            {
+              "title": "Time Series Analysis: Forecasting and Control",
+              "authors": "George E.P. Box, Gwilym M. Jenkins",
+              "year": 1970,
+              "tag": "Classic",
+              "description": "Foundational text establishing ARIMA and the Box-Jenkins approach to model identification.",
+              "url": "https://www.wiley.com/en-us/Time+Series+Analysis%3A+Forecasting+and+Control%2C+5th+Edition-p-9781118675021"
+            },
+            {
+              "title": "A State Space Framework for Automatic Forecasting using Exponential Smoothing",
+              "authors": "Rob J. Hyndman, Anne B. Koehler, Ralph D. Snyder, Simone Grose",
+              "year": 2002,
+              "tag": "Classic",
+              "description": "Establishes ETS state space framework enabling model selection, prediction intervals, and likelihood calculation.",
+              "url": "https://robjhyndman.com/papers/hksg.pdf"
+            },
+            {
+              "title": "The M3-Competition: Results, Conclusions and Implications",
+              "authors": "Spyros Makridakis, Michele Hibon",
+              "year": 2000,
+              "tag": "Classic",
+              "description": "Landmark 3,003-series competition establishing that simpler methods often outperform complex ones.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0169207000000571"
+            },
+            {
+              "title": "The M4 Competition: 100,000 Time Series and 61 Forecasting Methods",
+              "authors": "Spyros Makridakis, Evangelos Spiliotis, Vassilios Assimakopoulos",
+              "year": 2020,
+              "tag": "SOTA",
+              "description": "100,000 series showing hybrid statistical-ML methods dominate; pure ML underperformed.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0169207018300785"
+            }
+          ]
         },
         {
           "id": "ml-forecasting",
           "name": "ML for Forecasting",
           "application": "GBM, neural forecasters, transformers",
-          "papers": []
+          "papers": [
+            {
+              "title": "DeepAR: Probabilistic Forecasting with Autoregressive Recurrent Networks",
+              "authors": "David Salinas, Valentin Flunkert, Jan Gasthaus, Tim Januschowski",
+              "year": 2020,
+              "tag": "Industry",
+              "description": "Amazon's global probabilistic forecasting model; pioneered cross-learning for scale-diverse series.",
+              "url": "https://arxiv.org/abs/1704.04110"
+            },
+            {
+              "title": "Forecasting at Scale (Prophet)",
+              "authors": "Sean J. Taylor, Benjamin Letham",
+              "year": 2018,
+              "tag": "Industry",
+              "description": "Meta's additive model with trend, seasonality, holidays; designed for analyst-in-the-loop forecasting.",
+              "url": "https://peerj.com/preprints/3190/"
+            },
+            {
+              "title": "N-BEATS: Neural Basis Expansion Analysis for Interpretable Time Series Forecasting",
+              "authors": "Boris N. Oreshkin, Dmitri Carpov, Nicolas Chapados, Yoshua Bengio",
+              "year": 2020,
+              "tag": "SOTA",
+              "description": "First pure DL model to beat M4 winner; interpretable version decomposes into trend and seasonality.",
+              "url": "https://arxiv.org/abs/1905.10437"
+            },
+            {
+              "title": "Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting",
+              "authors": "Bryan Lim, Sercan Ö. Arık, Nicolas Loeff, Tomas Pfister",
+              "year": 2021,
+              "tag": "Industry",
+              "description": "Google's attention architecture handling static covariates, known future inputs, observed past-only features.",
+              "url": "https://arxiv.org/abs/1912.09363"
+            },
+            {
+              "title": "M5 Accuracy Competition: Results, Findings, and Conclusions",
+              "authors": "Spyros Makridakis, Evangelos Spiliotis, Vassilios Assimakopoulos",
+              "year": 2022,
+              "tag": "SOTA",
+              "description": "42,840 Walmart series; LightGBM and DL dominated; 22% improvement over best benchmark.",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0169207021001874"
+            }
+          ]
         },
         {
           "id": "hierarchical-forecasting",
           "name": "Hierarchical & Grouped Forecasting",
           "application": "SKU rollups, geographic aggregation",
-          "papers": []
+          "papers": [
+            {
+              "title": "The Combination of Forecasts",
+              "authors": "John M. Bates, Clive W.J. Granger",
+              "year": 1969,
+              "tag": "Classic",
+              "description": "Seminal paper showing combined forecasts yield lower MSE than individuals; foundation for ensemble methods.",
+              "url": "https://www.jstor.org/stable/3008764"
+            },
+            {
+              "title": "Optimal Forecast Reconciliation for Hierarchical and Grouped Time Series Through Trace Minimization",
+              "authors": "Shanika L. Wickramasuriya, George Athanasopoulos, Rob J. Hyndman",
+              "year": 2019,
+              "tag": "SOTA",
+              "description": "MinT optimal reconciliation method minimizing forecast variance; outperforms bottom-up and top-down.",
+              "url": "https://robjhyndman.com/publications/mint/"
+            },
+            {
+              "title": "Chapter 4: Forecast Combinations",
+              "authors": "Allan Timmermann",
+              "year": 2006,
+              "tag": "Classic",
+              "description": "Authoritative review explaining why simple averages often beat optimal weights (estimation error, instability).",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S1574070605010049"
+            },
+            {
+              "title": "Forecast Reconciliation: A Review",
+              "authors": "George Athanasopoulos, Rob J. Hyndman, Nikolaos Kourentzes, Anastasios Panagiotelis",
+              "year": 2024,
+              "tag": "SOTA",
+              "description": "Comprehensive review covering cross-sectional, temporal, and cross-temporal reconciliation.",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0169207023001097"
+            }
+          ]
         },
         {
           "id": "probabilistic-forecasting",
           "name": "Probabilistic Forecasting",
           "application": "Quantile regression, uncertainty",
-          "papers": []
+          "papers": [
+            {
+              "title": "Strictly Proper Scoring Rules, Prediction, and Estimation",
+              "authors": "Tilmann Gneiting, Adrian E. Raftery",
+              "year": 2007,
+              "tag": "Classic",
+              "description": "Definitive treatment of proper scoring rules; introduces CRPS, energy score, interval score.",
+              "url": "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jasa.pdf"
+            },
+            {
+              "title": "Regression Quantiles",
+              "authors": "Roger Koenker, Gilbert Bassett Jr.",
+              "year": 1978,
+              "tag": "Classic",
+              "description": "Introduced quantile regression for estimating conditional quantiles; foundation for distributional forecasting.",
+              "url": "https://www.jstor.org/stable/1913643"
+            },
+            {
+              "title": "Probabilistic Energy Forecasting: Global Energy Forecasting Competition 2014 and Beyond",
+              "authors": "Tao Hong, Pierre Pinson, Shu Fan, Hamidreza Zareipour, Alberto Troccoli, Rob J. Hyndman",
+              "year": 2016,
+              "tag": "SOTA",
+              "description": "GEFCom2014 establishing practical standards for probabilistic forecast evaluation.",
+              "url": "https://ideas.repec.org/a/eee/intfor/v32y2016i3p896-913.html"
+            }
+          ]
         },
         {
           "id": "causal-impact",
           "name": "Causal Impact & Intervention",
           "application": "Shock detection, launch measurement",
-          "papers": []
+          "papers": [
+            {
+              "title": "Inferring Causal Impact Using Bayesian Structural Time-Series Models",
+              "authors": "Kay H. Brodersen, Fabian Gallusser, Jim Koehler, Nicolas Remy, Steven L. Scott",
+              "year": 2015,
+              "tag": "Industry",
+              "description": "Google's CausalImpact for estimating causal effects from observational time series; widely used for attribution.",
+              "url": "https://arxiv.org/abs/1506.00356"
+            },
+            {
+              "title": "Synthetic Control Methods for Comparative Case Studies",
+              "authors": "Alberto Abadie, Alexis Diamond, Jens Hainmueller",
+              "year": 2010,
+              "tag": "Classic",
+              "description": "Foundational synthetic control paper; 'most important innovation in evaluation literature in 15 years'.",
+              "url": "https://www.tandfonline.com/doi/abs/10.1198/jasa.2009.ap08746"
+            },
+            {
+              "title": "Using Synthetic Controls: Feasibility, Data Requirements, and Methodological Aspects",
+              "authors": "Alberto Abadie",
+              "year": 2021,
+              "tag": "SOTA",
+              "description": "Comprehensive methodological review covering feasibility, inference, and best practices.",
+              "url": "https://www.aeaweb.org/content/file?id=12409"
+            },
+            {
+              "title": "Predicting the Present with Bayesian Structural Time Series",
+              "authors": "Steven L. Scott, Hal R. Varian",
+              "year": 2014,
+              "tag": "Industry",
+              "description": "Google's BSTS framework for nowcasting with spike-and-slab regression for variable selection.",
+              "url": "https://research.google/pubs/pub41854/"
+            }
+          ]
         }
       ]
     },
