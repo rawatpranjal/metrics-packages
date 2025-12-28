@@ -584,7 +584,7 @@
     "name": "Python for Econometrics",
     "description": "Kevin Sheppard's comprehensive intro for economists. NumPy, pandas, statsmodels, and econometric applications.",
     "category": "Coding",
-    "url": "https://www.kevinsheppard.com/teaching/python/",
+    "url": "https://bashtage.github.io/kevinsheppard.com/teaching/python/notes/",
     "type": "Online Book"
   },
   {
@@ -735,17 +735,17 @@
     "type": "Lectures"
   },
   {
-    "name": "Discrete Optimization (Coursera)",
-    "description": "Van Hentenryck's course on constraint programming, local search, and MIP. Actually makes you implement.",
+    "name": "Modeling Discrete Optimization (Coursera)",
+    "description": "University of Melbourne's course on constraint programming, local search, and MIP. Covers MiniZinc modeling language.",
     "category": "Optimization",
-    "url": "https://www.coursera.org/learn/discrete-optimization",
+    "url": "https://www.coursera.org/learn/basic-modeling",
     "type": "Course"
   },
   {
     "name": "CVXPY Short Course",
     "description": "Hands-on convex optimization in Python. Learn to model and solve real problems with CVXPY.",
     "category": "Optimization",
-    "url": "https://www.cvxpy.org/short_course/index.html",
+    "url": "https://www.cvxgrp.org/cvx_short_course/docs/index.html",
     "type": "Tutorial"
   },
   {
