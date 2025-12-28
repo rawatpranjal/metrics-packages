@@ -2665,7 +2665,7 @@ mark {
 .hero-community { background-image: url('/images/hero/community-hero.jpg'); }
 .hero-start { background-image: url('/images/hero/start-hero.jpg'); }
 .hero-books { background-image: url('/images/hero/books-hero.jpg'); }
-.hero-papers { background-image: url('/images/hero/papers-hero.jpg'); }
+.hero-papers { background-image: url('https://source.unsplash.com/1920x600/?research,papers,academic'); }
 
 /* Book author styling */
 .resource-author {
