@@ -57,7 +57,7 @@
     <div class="reading-progress" id="reading-progress"></div>
 
     <!-- Mobile Menu Toggle -->
-    <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle navigation">
+    <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
         <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M3 12h18M3 6h18M3 18h18"></path>
         </svg>
@@ -277,15 +277,19 @@
 
     <script>
         // Mobile menu toggle
-        document.getElementById('mobile-menu-toggle').addEventListener('click', function() {
-            document.getElementById('sidebar').classList.toggle('open');
+        var menuToggle = document.getElementById('mobile-menu-toggle');
+        menuToggle.addEventListener('click', function() {
+            var sidebar = document.getElementById('sidebar');
+            var isOpen = sidebar.classList.toggle('open');
             document.body.classList.toggle('sidebar-open');
+            menuToggle.setAttribute('aria-expanded', isOpen);
         });
         // Close sidebar when clicking outside on mobile
         document.querySelector('.main-content').addEventListener('click', function() {
             if (window.innerWidth <= 768) {
                 document.getElementById('sidebar').classList.remove('open');
                 document.body.classList.remove('sidebar-open');
+                menuToggle.setAttribute('aria-expanded', 'false');
             }
         });
         // Economist & statistician jokes

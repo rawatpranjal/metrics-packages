@@ -31,7 +31,7 @@
     function toggleTheme() {
         const current = document.documentElement.getAttribute('data-theme') || 'light';
         const next = current === 'dark' ? 'light' : 'dark';
-        localStorage.setItem(STORAGE_KEY, next);
+        try { localStorage.setItem(STORAGE_KEY, next); } catch(e) {}
         applyTheme(next);
     }
 
@@ -50,7 +50,11 @@
 
     // Listen for system preference changes
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
-        if (!localStorage.getItem(STORAGE_KEY)) {
+        try {
+            if (!localStorage.getItem(STORAGE_KEY)) {
+                applyTheme(e.matches ? 'dark' : 'light');
+            }
+        } catch(err) {
             applyTheme(e.matches ? 'dark' : 'light');
         }
     });
