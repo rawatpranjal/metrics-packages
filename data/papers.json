@@ -2509,25 +2509,149 @@
           "id": "reward-inference",
           "name": "Reward Inference from Behavior",
           "application": "Inferring objectives from actions",
-          "papers": []
+          "papers": [
+            {
+              "title": "Algorithms for Inverse Reinforcement Learning",
+              "authors": "Andrew Y. Ng, Stuart Russell",
+              "year": 2000,
+              "tag": "Classic",
+              "description": "Foundational IRL paper formalizing reward extraction from observed optimal behavior.",
+              "url": "https://ai.stanford.edu/~ang/papers/icml00-irl.pdf"
+            },
+            {
+              "title": "Apprenticeship Learning via Inverse Reinforcement Learning",
+              "authors": "Pieter Abbeel, Andrew Y. Ng",
+              "year": 2004,
+              "tag": "Classic",
+              "description": "Extends IRL to practical apprenticeship learning with feature expectation matching.",
+              "url": "https://ai.stanford.edu/~ang/papers/icml04-apprentice.pdf"
+            },
+            {
+              "title": "Maximum Entropy Inverse Reinforcement Learning",
+              "authors": "Brian D. Ziebart, Andrew L. Maas, J. Andrew Bagnell, Anind K. Dey",
+              "year": 2008,
+              "tag": "Classic",
+              "description": "Resolves IRL ambiguity using maximum entropy principle; now the standard IRL formulation.",
+              "url": "https://cdn.aaai.org/AAAI/2008/AAAI08-227.pdf"
+            },
+            {
+              "title": "Cooperative Inverse Reinforcement Learning",
+              "authors": "Dylan Hadfield-Menell, Anca Dragan, Pieter Abbeel, Stuart Russell",
+              "year": 2016,
+              "tag": "SOTA",
+              "description": "Frames value alignment as cooperative game; foundational for AI safety.",
+              "url": "https://people.eecs.berkeley.edu/~russell/papers/russell-nips16-cirl.pdf"
+            }
+          ]
         },
         {
           "id": "imitation-learning",
           "name": "Imitation Learning",
           "application": "Learning from demonstrations",
-          "papers": []
+          "papers": [
+            {
+              "title": "ALVINN: An Autonomous Land Vehicle in a Neural Network",
+              "authors": "Dean A. Pomerleau",
+              "year": 1989,
+              "tag": "Classic",
+              "description": "Pioneering behavioral cloning; first end-to-end neural network steering for autonomous vehicles.",
+              "url": "https://proceedings.neurips.cc/paper/1988/file/812b4ba287f5ee0bc9d43bbf5bbe87fb-Paper.pdf"
+            },
+            {
+              "title": "A Reduction of Imitation Learning to No-Regret Online Learning (DAgger)",
+              "authors": "Stéphane Ross, Geoffrey J. Gordon, J. Andrew Bagnell",
+              "year": 2011,
+              "tag": "Classic",
+              "description": "Solves distribution shift in behavioral cloning; reduces imitation to online learning with O(T) error.",
+              "url": "https://arxiv.org/abs/1011.0686"
+            },
+            {
+              "title": "Generative Adversarial Imitation Learning (GAIL)",
+              "authors": "Jonathan Ho, Stefano Ermon",
+              "year": 2016,
+              "tag": "SOTA",
+              "description": "GAN-style adversarial training directly learning policy without reward recovery.",
+              "url": "https://arxiv.org/abs/1606.03476"
+            }
+          ]
         },
         {
           "id": "revealed-preference",
           "name": "Revealed Preference at Scale",
           "application": "Rationalizing observed choices",
-          "papers": []
+          "papers": [
+            {
+              "title": "Construction of a Utility Function from Expenditure Data",
+              "authors": "Sydney N. Afriat",
+              "year": 1967,
+              "tag": "Classic",
+              "description": "Foundational theorem: data is rationalizable iff it satisfies GARP; basis for computational revealed preference.",
+              "url": "https://ideas.repec.org/a/ier/iecrev/v8y1967i1p67-77.html"
+            },
+            {
+              "title": "The Nonparametric Approach to Demand Analysis",
+              "authors": "Hal R. Varian",
+              "year": 1982,
+              "tag": "Classic",
+              "description": "Makes Afriat computationally tractable; shows how to test and recover preferences nonparametrically.",
+              "url": "https://www.econometricsociety.org/publications/econometrica/1982/07/01/nonparametric-approach-demand-analysis"
+            },
+            {
+              "title": "Revealed Preference Theory",
+              "authors": "Christopher P. Chambers, Federico Echenique",
+              "year": 2016,
+              "tag": "SOTA",
+              "description": "Comprehensive modern treatment covering GARP extensions, complexity, and mechanism design applications.",
+              "url": "https://www.cambridge.org/core/books/revealed-preference-theory/8B1F9B3F0C1B6E9B6B0B4B6B0B4B6B0B"
+            },
+            {
+              "title": "Nonparametric Engel Curves and Revealed Preference",
+              "authors": "Richard Blundell, Martin Browning, Ian Crawford",
+              "year": 2008,
+              "tag": "SOTA",
+              "description": "Combines revealed preference with nonparametric estimation; sharp bounds on counterfactual demands.",
+              "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0262.2008.00854.x"
+            }
+          ]
         },
         {
           "id": "human-feedback-rlhf",
           "name": "Human Feedback & RLHF",
           "application": "Preference alignment, reward modeling",
-          "papers": []
+          "papers": [
+            {
+              "title": "Deep Reinforcement Learning from Human Preferences",
+              "authors": "Paul Christiano, Jan Leike, Tom Brown et al.",
+              "year": 2017,
+              "tag": "Classic",
+              "description": "Foundational RLHF paper learning rewards from preference comparisons with ~1% feedback.",
+              "url": "https://arxiv.org/abs/1706.03741"
+            },
+            {
+              "title": "Training Language Models to Follow Instructions with Human Feedback (InstructGPT)",
+              "authors": "Long Ouyang, Jeff Wu et al. (OpenAI)",
+              "year": 2022,
+              "tag": "Industry",
+              "description": "1.3B InstructGPT outperforms 175B GPT-3 on human preferences; foundation for ChatGPT.",
+              "url": "https://arxiv.org/abs/2203.02155"
+            },
+            {
+              "title": "Constitutional AI: Harmlessness from AI Feedback",
+              "authors": "Yuntao Bai et al. (Anthropic)",
+              "year": 2022,
+              "tag": "Industry",
+              "description": "RLAIF using AI self-critique against constitutional principles; Claude's training methodology.",
+              "url": "https://arxiv.org/abs/2212.08073"
+            },
+            {
+              "title": "Direct Preference Optimization (DPO)",
+              "authors": "Rafael Rafailov, Archit Sharma, Eric Mitchell et al.",
+              "year": 2023,
+              "tag": "SOTA",
+              "description": "Eliminates reward model and RL loop; preference optimization via simple classification loss.",
+              "url": "https://arxiv.org/abs/2305.18290"
+            }
+          ]
         }
       ]
     },
@@ -2541,31 +2665,204 @@
           "id": "credit-scoring",
           "name": "Credit Scoring & Risk Models",
           "application": "Default prediction, underwriting",
-          "papers": []
+          "papers": [
+            {
+              "title": "Financial Ratios, Discriminant Analysis and the Prediction of Corporate Bankruptcy",
+              "authors": "Edward I. Altman",
+              "year": 1968,
+              "tag": "Classic",
+              "description": "The Z-score model using MDA; 10,000+ citations and still the benchmark for bankruptcy prediction.",
+              "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1968.tb00843.x"
+            },
+            {
+              "title": "Financial Ratios and the Probabilistic Prediction of Bankruptcy",
+              "authors": "James A. Ohlson",
+              "year": 1980,
+              "tag": "Classic",
+              "description": "Introduced logistic regression to default prediction; established logit as industry workhorse.",
+              "url": "https://www.jstor.org/stable/2490395"
+            },
+            {
+              "title": "On the Pricing of Corporate Debt: The Risk Structure of Interest Rates",
+              "authors": "Robert C. Merton",
+              "year": 1974,
+              "tag": "Classic",
+              "description": "Structural model treating equity as call option; foundation for KMV/Moody's EDF.",
+              "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1974.tb03058.x"
+            },
+            {
+              "title": "Credit Rationing in Markets with Imperfect Information",
+              "authors": "Joseph E. Stiglitz, Andrew Weiss",
+              "year": 1981,
+              "tag": "Classic",
+              "description": "Explains equilibrium credit rationing from adverse selection; essential for lending market theory.",
+              "url": "https://www.jstor.org/stable/1802787"
+            },
+            {
+              "title": "XGBoost: A Scalable Tree Boosting System",
+              "authors": "Tianqi Chen, Carlos Guestrin",
+              "year": 2016,
+              "tag": "SOTA",
+              "description": "Dominant ML algorithm for credit scoring; consistently outperforms logistic regression.",
+              "url": "https://arxiv.org/abs/1603.02754"
+            }
+          ]
         },
         {
           "id": "fair-lending",
           "name": "Fair Lending & Disparate Impact",
           "application": "Discrimination, protected classes",
-          "papers": []
+          "papers": [
+            {
+              "title": "Mortgage Lending in Boston: Interpreting HMDA Data",
+              "authors": "Alicia H. Munnell, Geoffrey M.B. Tootell, Lynn E. Browne, James McEneaney",
+              "year": 1996,
+              "tag": "Classic",
+              "description": "Seminal Boston Fed study documenting lending discrimination; foundational for fair lending enforcement.",
+              "url": "https://www.jstor.org/stable/2118254"
+            },
+            {
+              "title": "Consumer-Lending Discrimination in the FinTech Era",
+              "authors": "Robert Bartlett, Adair Morse, Richard Stanton, Nancy Wallace",
+              "year": 2022,
+              "tag": "SOTA",
+              "description": "Latinx/African-American borrowers pay 7.9 bps more; FinTech reduces but doesn't eliminate discrimination.",
+              "url": "https://www.nber.org/papers/w25943"
+            },
+            {
+              "title": "Predictably Unequal? The Effects of Machine Learning on Credit Markets",
+              "authors": "Andreas Fuster, Paul Goldsmith-Pinkham, Tarun Ramadorai, Ansgar Walther",
+              "year": 2022,
+              "tag": "SOTA",
+              "description": "ML models create distributional impacts favoring advantaged groups even without using race.",
+              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3072038"
+            },
+            {
+              "title": "How Costly is Noise? Data and Disparities in Consumer Credit",
+              "authors": "Laura Blattner, Scott Nelson",
+              "year": 2021,
+              "tag": "SOTA",
+              "description": "Credit scores are noisier for minority borrowers; quantifies how data disparities translate to lending disparities.",
+              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3504921"
+            }
+          ]
         },
         {
           "id": "pricing-credit",
           "name": "Pricing Credit Products",
           "application": "Interest rates, risk-based pricing",
-          "papers": []
+          "papers": [
+            {
+              "title": "The Failure of Competition in the Credit Card Market",
+              "authors": "Lawrence M. Ausubel",
+              "year": 1991,
+              "tag": "Classic",
+              "description": "Documented sticky credit card rates; introduced adverse selection explanations establishing the field.",
+              "url": "https://econ.umd.edu/sites/www.econ.umd.edu/files/pubs/aerhigh.pdf"
+            },
+            {
+              "title": "Adverse Selection in the Credit Card Market",
+              "authors": "Lawrence M. Ausubel",
+              "year": 1999,
+              "tag": "Classic",
+              "description": "First direct evidence of adverse selection using randomized solicitations.",
+              "url": "https://jfhoude.wiscweb.wisc.edu/wp-content/uploads/sites/769/2019/09/Asubel_wp1999.pdf"
+            },
+            {
+              "title": "Estimating Welfare in Insurance Markets Using Variation in Prices",
+              "authors": "Liran Einav, Amy Finkelstein, Mark R. Cullen",
+              "year": 2010,
+              "tag": "SOTA",
+              "description": "Demand-and-cost curve framework for analyzing selection; widely applied to credit markets.",
+              "url": "https://www.nber.org/papers/w13839"
+            },
+            {
+              "title": "Selection in Insurance Markets: Theory and Empirics in Pictures",
+              "authors": "Liran Einav, Amy Finkelstein",
+              "year": 2011,
+              "tag": "SOTA",
+              "description": "Intuitive graphical framework for understanding selection and welfare in credit/insurance.",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/jep.25.1.115"
+            }
+          ]
         },
         {
           "id": "collections-recovery",
           "name": "Collections & Recovery",
           "application": "Delinquency, workout strategies",
-          "papers": []
+          "papers": [
+            {
+              "title": "An Empirical Analysis of Personal Bankruptcy and Delinquency",
+              "authors": "David B. Gross, Nicholas S. Souleles",
+              "year": 2002,
+              "tag": "Classic",
+              "description": "Landmark study finding increased default propensity independent of risk composition; suggests declining stigma.",
+              "url": "https://www.nber.org/papers/w8409"
+            },
+            {
+              "title": "What Do We Know About Loss Given Default?",
+              "authors": "Til Schuermann",
+              "year": 2004,
+              "tag": "Industry",
+              "description": "Comprehensive LGD estimation review; go-to reference for Basel II/III recovery models.",
+              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=525702"
+            },
+            {
+              "title": "LossCalc: Model for Predicting Loss Given Default",
+              "authors": "Greg M. Gupton, Roger M. Stein (Moody's)",
+              "year": 2002,
+              "tag": "Industry",
+              "description": "Industry-standard LGD model using debt type, seniority, and macro factors.",
+              "url": "http://www.rogermstein.com/wp-content/uploads/losscalc.pdf"
+            },
+            {
+              "title": "Measuring LGD on Commercial Loans: An 18-Year Internal Study",
+              "authors": "Michel Araten, Michael Jacobs, Peeyush Varshney",
+              "year": 2004,
+              "tag": "Industry",
+              "description": "JPMorgan Chase's 18-year study of 3,761 defaults establishing key LGD drivers.",
+              "url": "https://www.researchgate.net/publication/228217633_Measuring_LGD_on_Commercial_Loans_An_18-Year_Internal_Study"
+            }
+          ]
         },
         {
           "id": "alternative-data",
           "name": "Alternative Data",
           "application": "Non-traditional signals, thin-file borrowers",
-          "papers": []
+          "papers": [
+            {
+              "title": "Behavior Revealed in Mobile Phone Usage Predicts Credit Repayment",
+              "authors": "Daniel Björkegren, Darrell Grissen",
+              "year": 2020,
+              "tag": "SOTA",
+              "description": "Mobile behavioral data outperforms credit bureaus for thin-file borrowers; foundational fintech paper.",
+              "url": "https://academic.oup.com/wber/article/34/3/618/5622690"
+            },
+            {
+              "title": "Invisible Primes: Fintech Lending with Alternative Data",
+              "authors": "Marco Di Maggio, Dimuthu Ratnadiwakara, Don Carmichael",
+              "year": 2022,
+              "tag": "SOTA",
+              "description": "Alternative data identifies 'invisible primes' overlooked by traditional scores.",
+              "url": "https://www.nber.org/papers/w29840"
+            },
+            {
+              "title": "Predicting Poverty and Wealth from Mobile Phone Metadata",
+              "authors": "Joshua Blumenstock, Gabriel Cadamuro, Robert On",
+              "year": 2015,
+              "tag": "SOTA",
+              "description": "Mobile metadata predicts socioeconomic status; opened mobile-based credit scoring in developing countries.",
+              "url": "https://science.sciencemag.org/content/350/6264/1073"
+            },
+            {
+              "title": "Use of Alternative Data in Credit Process",
+              "authors": "CFPB",
+              "year": 2017,
+              "tag": "Industry",
+              "description": "Documents 45 million 'credit invisible' Americans; foundational regulatory framework.",
+              "url": "https://www.consumerfinance.gov/about-us/newsroom/cfpb-explores-impact-alternative-data-credit-access-consumers-who-are-credit-invisible/"
+            }
+          ]
         }
       ]
     },
