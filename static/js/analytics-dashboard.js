@@ -25,6 +25,10 @@
   // Stats endpoint URL
   var STATS_ENDPOINT = 'https://tech-econ-analytics.rawat-pranjal010.workers.dev/stats';
 
+  // State
+  var useLiveData = false;
+  var lastLiveData = null;
+
   // Demo data for when no real data exists
   var DEMO_DATA = {
     updated: Date.now(),
@@ -100,8 +104,9 @@
         return response.json();
       })
       .then(function(data) {
-        // Use demo data if no real data yet
-        if (data.totalEvents === 0) {
+        lastLiveData = data;
+        // Use demo data if no real data yet AND toggle is off
+        if (data.totalEvents === 0 && !useLiveData) {
           data = DEMO_DATA;
         }
         renderDashboard(data);
@@ -112,6 +117,19 @@
         renderDashboard(DEMO_DATA);
       });
   }
+
+  // Toggle between demo and live data
+  window.toggleDataSource = function() {
+    var checkbox = document.getElementById('use-live-data');
+    useLiveData = checkbox.checked;
+    if (useLiveData && lastLiveData) {
+      renderDashboard(lastLiveData);
+    } else if (!useLiveData && lastLiveData && lastLiveData.totalEvents === 0) {
+      renderDashboard(DEMO_DATA);
+    } else {
+      loadAnalytics();
+    }
+  };
 
   function showError(message) {
     document.getElementById('analytics-loading').style.display = 'none';

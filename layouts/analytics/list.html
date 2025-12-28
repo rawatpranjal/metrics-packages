@@ -22,39 +22,7 @@
     <!-- Dashboard Content -->
     <div id="analytics-content" style="display: none;">
 
-        <!-- Summary Cards -->
-        <section class="metrics-grid">
-            <div class="metric-card">
-                <div class="metric-value" id="metric-pageviews">-</div>
-                <div class="metric-label">Page Views</div>
-                <div class="metric-period">Last 7 days</div>
-            </div>
-            <div class="metric-card">
-                <div class="metric-value" id="metric-sessions">-</div>
-                <div class="metric-label">Unique Sessions</div>
-                <div class="metric-period">Last 7 days</div>
-            </div>
-            <div class="metric-card">
-                <div class="metric-value" id="metric-time">-</div>
-                <div class="metric-label">Avg Time on Page</div>
-                <div class="metric-period">Last 7 days</div>
-            </div>
-            <div class="metric-card highlight">
-                <div class="metric-value" id="metric-top-search">-</div>
-                <div class="metric-label">Top Search</div>
-                <div class="metric-period">Most searched term</div>
-            </div>
-        </section>
-
-        <!-- Charts Row -->
-        <section class="charts-section">
-            <div class="chart-card">
-                <h3>Daily Page Views</h3>
-                <canvas id="chart-pageviews"></canvas>
-            </div>
-        </section>
-
-        <!-- Top Content Grid -->
+        <!-- 1. TOP SECTION: What's Trending -->
         <section class="top-content-grid">
             <div class="top-card">
                 <h3>Top Searches</h3>
@@ -93,43 +61,81 @@
             </div>
         </section>
 
-        <!-- Performance Section -->
-        <section class="performance-section">
-            <h3>Core Web Vitals</h3>
-            <div class="vitals-grid">
-                <div class="vital-card" id="vital-lcp">
-                    <div class="vital-metric">LCP</div>
-                    <div class="vital-value">-</div>
-                    <div class="vital-label">Largest Contentful Paint</div>
-                    <div class="vital-target">Target: &lt; 2.5s</div>
-                </div>
-                <div class="vital-card" id="vital-fid">
-                    <div class="vital-metric">FID</div>
-                    <div class="vital-value">-</div>
-                    <div class="vital-label">First Input Delay</div>
-                    <div class="vital-target">Target: &lt; 100ms</div>
-                </div>
-                <div class="vital-card" id="vital-cls">
-                    <div class="vital-metric">CLS</div>
-                    <div class="vital-value">-</div>
-                    <div class="vital-label">Cumulative Layout Shift</div>
-                    <div class="vital-target">Target: &lt; 0.1</div>
-                </div>
+        <!-- 2. MIDDLE SECTION: Stats & Chart -->
+        <section class="metrics-grid">
+            <div class="metric-card">
+                <div class="metric-value" id="metric-pageviews">-</div>
+                <div class="metric-label">Page Views</div>
+                <div class="metric-period">Last 7 days</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value" id="metric-sessions">-</div>
+                <div class="metric-label">Unique Sessions</div>
+                <div class="metric-period">Last 7 days</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value" id="metric-time">-</div>
+                <div class="metric-label">Avg Time on Page</div>
+                <div class="metric-period">Last 7 days</div>
+            </div>
+            <div class="metric-card highlight">
+                <div class="metric-value" id="metric-top-search">-</div>
+                <div class="metric-label">Top Search</div>
+                <div class="metric-period">Most searched term</div>
             </div>
         </section>
 
-        <!-- Countries Section -->
-        <section class="countries-section">
-            <h3>Visitor Countries</h3>
-            <div id="countries-list" class="countries-grid">
-                <span class="placeholder">No data yet</span>
+        <section class="charts-section">
+            <div class="chart-card">
+                <h3>Daily Page Views</h3>
+                <canvas id="chart-pageviews"></canvas>
+            </div>
+        </section>
+
+        <!-- 3. BOTTOM SECTION: Technical -->
+        <section class="bottom-grid">
+            <div class="performance-section">
+                <h3>Core Web Vitals</h3>
+                <div class="vitals-grid">
+                    <div class="vital-card" id="vital-lcp">
+                        <div class="vital-metric">LCP</div>
+                        <div class="vital-value">-</div>
+                        <div class="vital-label">Largest Contentful Paint</div>
+                        <div class="vital-target">Target: &lt; 2.5s</div>
+                    </div>
+                    <div class="vital-card" id="vital-fid">
+                        <div class="vital-metric">FID</div>
+                        <div class="vital-value">-</div>
+                        <div class="vital-label">First Input Delay</div>
+                        <div class="vital-target">Target: &lt; 100ms</div>
+                    </div>
+                    <div class="vital-card" id="vital-cls">
+                        <div class="vital-metric">CLS</div>
+                        <div class="vital-value">-</div>
+                        <div class="vital-label">Cumulative Layout Shift</div>
+                        <div class="vital-target">Target: &lt; 0.1</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="countries-section">
+                <h3>Visitor Countries</h3>
+                <div id="countries-list" class="countries-grid">
+                    <span class="placeholder">No data yet</span>
+                </div>
             </div>
         </section>
 
         <!-- Last Updated -->
         <div class="analytics-footer">
             <span id="last-updated">Last updated: -</span>
-            <button id="refresh-btn" onclick="refreshAnalytics()">Refresh</button>
+            <div class="footer-controls">
+                <label class="data-toggle">
+                    <input type="checkbox" id="use-live-data" onchange="toggleDataSource()">
+                    <span class="toggle-label">Live Data</span>
+                </label>
+                <button id="refresh-btn" onclick="refreshAnalytics()">Refresh</button>
+            </div>
         </div>
 
     </div>
@@ -401,9 +407,27 @@
     margin-top: 0.25rem;
 }
 
+/* Bottom Grid (Vitals + Countries) */
+.bottom-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 900px) {
+    .bottom-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.bottom-grid .performance-section {
+    margin-bottom: 0;
+}
+
 /* Countries */
 .countries-section {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
 }
 
 .countries-section h3 {
@@ -447,6 +471,29 @@
     border-top: 1px solid var(--border-color);
     font-size: 0.85rem;
     color: var(--text-muted);
+}
+
+.footer-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.data-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.data-toggle input {
+    width: 18px;
+    height: 18px;
+    accent-color: var(--accent-color);
+}
+
+.toggle-label {
+    font-size: 0.85rem;
 }
 
 #refresh-btn {

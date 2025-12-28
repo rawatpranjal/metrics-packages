@@ -26,65 +26,13 @@
         </div>
     </div>
 
-    <!-- Weekly Highlight Section -->
-    <div class="weekly-highlight" data-aos="fade-up">
-        <div class="highlight-header">
-            <span class="highlight-badge">Weekly Highlight</span>
-            <h2>Cold Start in Recommendations</h2>
-            <p class="highlight-subtitle">Solving the new user/new item problem with hybrid approaches</p>
-        </div>
-
-        <div class="highlight-content">
-            <!-- Featured Book -->
-            <div class="highlight-featured">
-                <div class="featured-icon">📖</div>
-                <div class="featured-text">
-                    <h4>Featured Read</h4>
-                    <a href="https://www.coldstart.com/" target="_blank">The Cold Start Problem</a>
-                    <p>Andrew Chen's guide to building network effects and overcoming the cold start challenge</p>
-                </div>
-            </div>
-
-            <!-- Resources Grid -->
-            <div class="highlight-grid">
-                <!-- Package -->
-                <a href="https://making.lyst.com/lightfm/docs/home.html" target="_blank" class="highlight-item">
-                    <span class="item-type">Package</span>
-                    <h4>LightFM</h4>
-                    <p>Hybrid cold-start with content features</p>
-                </a>
-
-                <!-- Course -->
-                <a href="https://developers.google.com/machine-learning/recommendation" target="_blank" class="highlight-item">
-                    <span class="item-type">Course</span>
-                    <h4>Google ML Recs</h4>
-                    <p>Free 4-hour course: candidate generation to re-ranking</p>
-                </a>
-
-                <!-- Dataset -->
-                <a href="https://grouplens.org/datasets/movielens/" target="_blank" class="highlight-item">
-                    <span class="item-type">Dataset</span>
-                    <h4>MovieLens</h4>
-                    <p>Classic benchmark for recommendation algorithms</p>
-                </a>
-
-                <!-- Video -->
-                <a href="https://www.youtube.com/watch?v=Fmtorg_dmM0" target="_blank" class="highlight-item">
-                    <span class="item-type">Video</span>
-                    <h4>StatQuest</h4>
-                    <p>Visual explanation of collaborative filtering</p>
-                </a>
-            </div>
-
-            <!-- Deep Dive Links -->
-            <div class="highlight-more">
-                <span>Go deeper:</span>
-                <a href="https://github.com/hse-econ-data-science/recsys-itmo" target="_blank">HSE RecSys Course</a>
-                <a href="https://course.fast.ai/Lessons/lesson7.html" target="_blank">Fast.ai Lesson 7</a>
-                <a href="{{ "papers/recommender-systems/" | relURL }}">Research Papers →</a>
-            </div>
-        </div>
-    </div>
+    <!-- Weekly Highlight Teaser -->
+    <a href="{{ "weekly-highlights/" | relURL }}" class="weekly-highlight-teaser" data-aos="fade-up">
+        <div class="teaser-badge">This Week's Deep Dive</div>
+        <h2>Cold Start in Recommendations</h2>
+        <p>How to bootstrap personalization when you have no data. Python code, real-world applications from Spotify to Netflix, and essential resources.</p>
+        <span class="teaser-link">Read the full article →</span>
+    </a>
 
     <!-- Section Cards Grid -->
     <div class="section-grid">
