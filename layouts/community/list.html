@@ -1,4 +1,10 @@
 {{ define "main" }}
+<!-- Hero Section -->
+<header class="hero hero-with-image hero-community">
+    <h1 class="hero-title">Community & Events</h1>
+    <p class="hero-tagline">{{ len .Site.Data.community }} conferences, meetups, and online groups.</p>
+</header>
+
 <!-- Search Index Data for Fuse.js -->
 <script id="search-data" type="application/json">
 [{{ range $i, $item := .Site.Data.community }}{{ if $i }},{{ end }}{"name":"{{ .name }}","description":"{{ .description | htmlEscape }}","category":"{{ .category }}","location":"{{ .location | htmlEscape }}","dates":"{{ .dates }}","type":"{{ .type }}"}{{ end }}]

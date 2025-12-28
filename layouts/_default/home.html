@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="homepage">
-    <!-- Hero Section -->
-    <header class="hero">
+    <!-- Hero Section with Background Image -->
+    <header class="hero hero-with-image hero-home">
         <h1 class="hero-title">tech-econ</h1>
         <p class="hero-tagline">Real tools for applied researchers.</p>
         <p class="hero-subtitle">
@@ -28,76 +28,94 @@
 
     <!-- Section Cards Grid -->
     <div class="section-grid">
-        <a href="{{ "packages/" | relURL }}" class="section-card" data-aos="fade-up">
-            <div class="section-icon">
-                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
-                    <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                    <line x1="12" y1="22.08" x2="12" y2="12"></line>
-                </svg>
+        <a href="{{ "packages/" | relURL }}" class="section-card section-card-with-image" data-aos="fade-up">
+            <div class="card-bg" style="background-image: url('/images/cards/packages-card.jpg')"></div>
+            <div class="card-content">
+                <div class="section-icon">
+                    <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                        <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                        <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                    </svg>
+                </div>
+                <h3>Packages</h3>
+                <p>{{ len .Site.Data.packages }} Python libraries for ML, causal inference, time series, and more</p>
             </div>
-            <h3>Packages</h3>
-            <p>{{ len .Site.Data.packages }} Python libraries for ML, causal inference, time series, and more</p>
         </a>
 
-        <a href="{{ "datasets/" | relURL }}" class="section-card" data-aos="fade-up" data-aos-delay="50">
-            <div class="section-icon">
-                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
-                    <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
-                    <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
-                    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
-                </svg>
+        <a href="{{ "datasets/" | relURL }}" class="section-card section-card-with-image" data-aos="fade-up" data-aos-delay="50">
+            <div class="card-bg" style="background-image: url('/images/cards/datasets-card.jpg')"></div>
+            <div class="card-content">
+                <div class="section-icon">
+                    <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                        <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                        <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                        <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                    </svg>
+                </div>
+                <h3>Datasets</h3>
+                <p>{{ len .Site.Data.datasets }} industry datasets across e-commerce, economics, and ML</p>
             </div>
-            <h3>Datasets</h3>
-            <p>{{ len .Site.Data.datasets }} industry datasets across e-commerce, economics, and ML</p>
         </a>
 
-        <a href="{{ "learning/" | relURL }}" class="section-card" data-aos="fade-up" data-aos-delay="100">
-            <div class="section-icon">
-                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
-                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
-                </svg>
+        <a href="{{ "learning/" | relURL }}" class="section-card section-card-with-image" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-bg" style="background-image: url('/images/cards/learning-card.jpg')"></div>
+            <div class="card-content">
+                <div class="section-icon">
+                    <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                    </svg>
+                </div>
+                <h3>Learning</h3>
+                <p>{{ len .Site.Data.resources }} books, courses, and blogs to level up your skills</p>
             </div>
-            <h3>Learning</h3>
-            <p>{{ len .Site.Data.resources }} books, courses, and blogs to level up your skills</p>
         </a>
 
-        <a href="{{ "talks/" | relURL }}" class="section-card" data-aos="fade-up" data-aos-delay="150">
-            <div class="section-icon">
-                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
-                    <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
-                    <line x1="12" y1="19" x2="12" y2="23"></line>
-                    <line x1="8" y1="23" x2="16" y2="23"></line>
-                </svg>
+        <a href="{{ "talks/" | relURL }}" class="section-card section-card-with-image" data-aos="fade-up" data-aos-delay="150">
+            <div class="card-bg" style="background-image: url('/images/cards/talks-card.jpg')"></div>
+            <div class="card-content">
+                <div class="section-icon">
+                    <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                        <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                        <line x1="12" y1="19" x2="12" y2="23"></line>
+                        <line x1="8" y1="23" x2="16" y2="23"></line>
+                    </svg>
+                </div>
+                <h3>Talks</h3>
+                <p>{{ len .Site.Data.talks }} interviews and podcasts from chief economists</p>
             </div>
-            <h3>Talks</h3>
-            <p>{{ len .Site.Data.talks }} interviews and podcasts from chief economists</p>
         </a>
 
-        <a href="{{ "career/" | relURL }}" class="section-card" data-aos="fade-up" data-aos-delay="200">
-            <div class="section-icon">
-                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
-                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
-                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-                </svg>
+        <a href="{{ "career/" | relURL }}" class="section-card section-card-with-image" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-bg" style="background-image: url('/images/cards/career-card.jpg')"></div>
+            <div class="card-content">
+                <div class="section-icon">
+                    <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                    </svg>
+                </div>
+                <h3>Early Career</h3>
+                <p>{{ len .Site.Data.career }} resources for job hunting and interviews</p>
             </div>
-            <h3>Early Career</h3>
-            <p>{{ len .Site.Data.career }} resources for job hunting and interviews</p>
         </a>
 
-        <a href="{{ "community/" | relURL }}" class="section-card" data-aos="fade-up" data-aos-delay="250">
-            <div class="section-icon">
-                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                    <circle cx="9" cy="7" r="4"></circle>
-                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                </svg>
+        <a href="{{ "community/" | relURL }}" class="section-card section-card-with-image" data-aos="fade-up" data-aos-delay="250">
+            <div class="card-bg" style="background-image: url('/images/cards/community-card.jpg')"></div>
+            <div class="card-content">
+                <div class="section-icon">
+                    <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                </div>
+                <h3>Community & Events</h3>
+                <p>{{ len .Site.Data.community }} conferences, meetups, and online groups</p>
             </div>
-            <h3>Community & Events</h3>
-            <p>{{ len .Site.Data.community }} conferences, meetups, and online groups</p>
         </a>
     </div>
 

@@ -1,4 +1,10 @@
 {{ define "main" }}
+<!-- Hero Section -->
+<header class="hero hero-with-image hero-career">
+    <h1 class="hero-title">Early Career</h1>
+    <p class="hero-tagline">{{ len .Site.Data.career }} resources for job hunting and interviews.</p>
+</header>
+
 <!-- Search Index Data for Fuse.js -->
 <script id="search-data" type="application/json">
 [{{ range $i, $item := .Site.Data.career }}{{ if $i }},{{ end }}{"name":"{{ .name }}","description":"{{ .description | htmlEscape }}","category":"{{ .category }}","type":"{{ .type }}"}{{ end }}]

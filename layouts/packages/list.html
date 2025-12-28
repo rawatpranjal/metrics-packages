@@ -1,4 +1,10 @@
 {{ define "main" }}
+<!-- Hero Section -->
+<header class="hero hero-with-image hero-packages">
+    <h1 class="hero-title">Packages</h1>
+    <p class="hero-tagline">{{ len .Site.Data.packages }} Python libraries for ML, causal inference, time series, and more.</p>
+</header>
+
 <!-- Search Index Data for Fuse.js -->
 <script id="search-data" type="application/json">
 [{{ range $i, $pkg := .Site.Data.packages }}{{ if $i }},{{ end }}{"name":"{{ .name }}","description":"{{ .description | htmlEscape }}","category":"{{ .category }}","tags":"{{ delimit .tags "," }}","best_for":"{{ .best_for | htmlEscape }}"}{{ end }}]

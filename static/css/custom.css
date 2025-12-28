@@ -2496,3 +2496,99 @@ mark {
         scroll-behavior: auto !important;
     }
 }
+
+/* ========================================
+   HERO WITH BACKGROUND IMAGES
+   ======================================== */
+
+.hero-with-image {
+    position: relative;
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    border-radius: 16px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-with-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.4) 100%);
+    z-index: 1;
+}
+
+.hero-with-image > * {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-with-image .hero-title,
+.hero-with-image .hero-tagline,
+.hero-with-image .hero-subtitle {
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.hero-with-image .hero-tagline {
+    color: rgba(255,255,255,0.9);
+}
+
+.hero-with-image .hero-subtitle {
+    color: rgba(255,255,255,0.8);
+}
+
+/* Page-specific hero backgrounds */
+.hero-home { background-image: url('/images/hero/home-hero.jpg'); }
+.hero-packages { background-image: url('/images/hero/packages-hero.jpg'); }
+.hero-datasets { background-image: url('/images/hero/datasets-hero.jpg'); }
+.hero-learning { background-image: url('/images/hero/learning-hero.jpg'); }
+.hero-talks { background-image: url('/images/hero/talks-hero.jpg'); }
+.hero-career { background-image: url('/images/hero/career-hero.jpg'); }
+.hero-community { background-image: url('/images/hero/community-hero.jpg'); }
+.hero-start { background-image: url('/images/hero/start-hero.jpg'); }
+
+/* ========================================
+   SECTION CARDS WITH IMAGES
+   ======================================== */
+
+.section-card-with-image {
+    position: relative;
+    overflow: hidden;
+    min-height: 180px;
+}
+
+.section-card-with-image .card-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.15;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.section-card-with-image:hover .card-bg {
+    opacity: 0.25;
+    transform: scale(1.05);
+}
+
+[data-theme="dark"] .section-card-with-image .card-bg {
+    opacity: 0.2;
+}
+
+[data-theme="dark"] .section-card-with-image:hover .card-bg {
+    opacity: 0.3;
+}
+
+.section-card-with-image .card-content {
+    position: relative;
+    z-index: 2;
+}
