@@ -225,29 +225,64 @@
     "icon": "star",
     "resources": [
       {
-        "name": "Coursera RecSys Specialization (UMN)",
-        "why": "Comprehensive: collaborative, content-based, matrix factorization",
-        "url": "https://www.coursera.org/specializations/recommender-systems"
+        "name": "Google ML Recommendation Course",
+        "why": "Free, 4 hours, candidate generation through re-ranking. Gold standard starter",
+        "url": "https://developers.google.com/machine-learning/recommendation"
       },
       {
         "name": "HSE RecSys Course (GitHub)",
-        "why": "Full course materials: collaborative filtering, matrix factorization, A/B testing \u2014 free",
-        "url": "https://github.com/anamarina/RecSys_course"
+        "why": "Full course: collaborative filtering, matrix factorization, A/B testing",
+        "url": "https://github.com/hse-econ-data-science/recsys-itmo"
       },
       {
-        "name": "Netflix Tech Blog: Recommendations",
-        "why": "Production systems and foundation models",
-        "url": "https://netflixtechblog.com/tagged/recommendations"
+        "name": "Fast.ai Lesson 7: Collaborative Filtering",
+        "why": "Jeremy Howard's accessible deep dive, embeddings explained intuitively",
+        "url": "https://course.fast.ai/Lessons/lesson7.html"
       },
       {
-        "name": "Microsoft Recommenders (GitHub)",
-        "why": "Best practices with Jupyter notebooks \u2014 free",
-        "url": "https://github.com/recommenders-team/recommenders"
+        "name": "Microsoft Recommenders Notebooks",
+        "why": "Production-quality examples, scikit-learn style",
+        "url": "https://github.com/recommenders-team/recommenders/tree/main/examples"
       },
       {
-        "name": "Deep Learning for Choice Modeling",
-        "why": "Bridges economic choice theory with deep learning",
-        "url": "https://arxiv.org/abs/2208.09325"
+        "name": "StatQuest: Collaborative Filtering",
+        "why": "Josh Starmer's visual, jargon-free explanation",
+        "url": "https://www.youtube.com/watch?v=Fmtorg_dmM0"
+      },
+      {
+        "name": "Ritvikmath: Recommendation Systems",
+        "why": "Clear math intuition without overwhelming notation",
+        "url": "https://www.youtube.com/watch?v=n3RKsY2H-NE"
+      },
+      {
+        "name": "Jeremy Howard's Kaggle Deep Dive",
+        "why": "Matrix factorization from scratch",
+        "url": "https://www.kaggle.com/code/jhoward/collaborative-filtering-deep-dive"
+      },
+      {
+        "name": "TFRS Quickstart Colab",
+        "why": "Movie recommender in minutes",
+        "url": "https://colab.research.google.com/github/tensorflow/recommenders/blob/main/docs/examples/quickstart.ipynb"
+      },
+      {
+        "name": "Spotify Recommendations Explainer",
+        "why": "Plain-language taste profiles",
+        "url": "https://www.spotify.com/us/safetyandprivacy/understanding-recommendations"
+      },
+      {
+        "name": "Netflix: How Recommendations Work",
+        "why": "Official non-technical overview",
+        "url": "https://help.netflix.com/en/node/100639"
+      },
+      {
+        "name": "IBM Collaborative Filtering",
+        "why": "Authoritative enterprise perspective",
+        "url": "https://www.ibm.com/think/topics/collaborative-filtering"
+      },
+      {
+        "name": "Music Tomorrow: Spotify Deep Dive",
+        "why": "Audio features, accessible depth",
+        "url": "https://www.music-tomorrow.com/blog/how-spotify-recommendation-system-works-complete-guide"
       }
     ],
     "packages": [
@@ -331,12 +366,12 @@
   },
   {
     "name": "Logistics & Supply Chain",
-    "description": "Minimal starter kit for routing, dispatch, and demand forecasting — free, practitioner-focused resources",
+    "description": "Minimal starter kit for routing, dispatch, and demand forecasting \u2014 free, practitioner-focused resources",
     "icon": "truck",
     "resources": [
       {
         "name": "Georgia Tech (Ratliff): 10 Rules for Supply Chain Optimization",
-        "why": "Practitioner checklist for scoping, data readiness, constraints, deployment — free PDF",
+        "why": "Practitioner checklist for scoping, data readiness, constraints, deployment \u2014 free PDF",
         "url": "https://www.scl.gatech.edu/sites/default/files/downloads/gtscl-10_rules_supply_chain_logistics_optimization_2.pdf"
       },
       {
@@ -351,7 +386,7 @@
       },
       {
         "name": "StatsForecast: Intermittent/Sparse Data Tutorial",
-        "why": "Demand is often intermittent (lots of zeros) — learn baselines built for that",
+        "why": "Demand is often intermittent (lots of zeros) \u2014 learn baselines built for that",
         "url": "https://nixtlaverse.nixtla.io/statsforecast/docs/tutorials/intermittentdata.html"
       }
     ],
