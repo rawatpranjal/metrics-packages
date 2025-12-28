@@ -206,53 +206,168 @@
   },
   {
     "name": "Learn Product Sense",
-    "description": "Metrics, experimentation, and business thinking \u2014 bridge economics and product decisions",
+    "description": "PM thinking, metrics selection, and product strategy \u2014 build intuition for what to build and why",
+    "icon": "flask",
+    "resources": [
+      {
+        "name": "Ken Norton: How to Hire a PM",
+        "why": "Defines what a PM does by revealing hiring criteria \u2014 the map of competencies to develop",
+        "url": "https://www.bringthedonuts.com/essays/productmanager.html"
+      },
+      {
+        "name": "SVPG: Product Management Start Here",
+        "why": "Distinguishes 'empowered teams' from 'feature teams' \u2014 exposes PM theater",
+        "url": "https://www.svpg.com/product-management-start-here/"
+      },
+      {
+        "name": "Shreyas Doshi: LNO Framework",
+        "why": "Leverage, Neutral, Overhead prioritization \u2014 breakthrough model from Stripe/Google",
+        "url": "https://shreyasdoshi.com/"
+      },
+      {
+        "name": "Intercom: RICE + Product Management Book",
+        "why": "The RICE framework (Reach, Impact, Confidence, Effort) originated here \u2014 industry standard",
+        "url": "https://www.intercom.com/resources/books/intercom-product-management"
+      },
+      {
+        "name": "Gibson Biddle: DHM Strategy Framework",
+        "why": "13-essay series on how Netflix built product strategy \u2014 case study depth",
+        "url": "https://gibsonbiddle.medium.com/intro-to-product-strategy-60bdf72b17e3"
+      },
+      {
+        "name": "Teresa Torres: Opportunity Solution Trees",
+        "why": "Connects outcomes \u2192 opportunities \u2192 solutions \u2192 experiments with visual rigor",
+        "url": "https://www.producttalk.org/opportunity-solution-trees/"
+      },
+      {
+        "name": "Marty Cagan: INSPIRED",
+        "why": "THE definitive PM book \u2014 empowered teams, discovery vs delivery, how Amazon/Google operate",
+        "url": "https://www.svpg.com/books/inspired-how-to-create-tech-products-customers-love-2nd-edition/"
+      },
+      {
+        "name": "Atlassian: How to Write Product Requirements",
+        "why": "Practical PRD guide with templates \u2014 from the makers of Jira",
+        "url": "https://www.atlassian.com/agile/product-management/requirements"
+      },
+      {
+        "name": "Amplitude: Product Lessons with Shreyas Doshi",
+        "why": "Deep dive on 'Impact, Execution, Optics' \u2014 how metrics connect to strategy",
+        "url": "https://amplitude.com/blog/shreyas-doshi-product-lessons"
+      },
+      {
+        "name": "Lenny's Newsletter & Podcast",
+        "why": "700k+ subscribers, interviews with world-class PMs \u2014 the ongoing 'product sense' resource",
+        "url": "https://www.lennysnewsletter.com/"
+      }
+    ],
+    "packages": [
+      {
+        "name": "Amplitude",
+        "why": "Product analytics \u2014 funnels, retention, user journeys",
+        "url": "https://amplitude.com/"
+      },
+      {
+        "name": "Mixpanel",
+        "why": "User behavior analytics \u2014 event tracking and cohorts",
+        "url": "https://mixpanel.com/"
+      },
+      {
+        "name": "Heap",
+        "why": "Autocapture analytics \u2014 retroactive analysis without instrumentation",
+        "url": "https://heap.io/"
+      },
+      {
+        "name": "PostHog",
+        "why": "Open-source product analytics \u2014 self-hosted option",
+        "url": "https://posthog.com/"
+      }
+    ],
+    "order": 5
+  },
+  {
+    "name": "Learn Experimentation",
+    "description": "A/B testing, power analysis, and statistical rigor \u2014 bridge your training to industry experiments",
     "icon": "flask",
     "resources": [
       {
         "name": "Trustworthy Online Controlled Experiments (Kohavi)",
-        "why": "THE definitive book \u2014 praised by Jeff Dean and Adam D'Angelo",
+        "why": "THE 400-page industry bible \u2014 Kohavi (Microsoft), Tang (Google), Xu (LinkedIn)",
         "url": "https://experimentguide.com/"
       },
       {
-        "name": "Eppo's Experimentation Guides",
-        "why": "Practical, written by practitioners",
-        "url": "https://www.geteppo.com/blog"
+        "name": "Spotify: Choosing Sequential Testing Framework",
+        "why": "GST vs mSPRT vs GAVI \u2014 production comparison with simulations",
+        "url": "https://engineering.atspotify.com/2023/03/choosing-sequential-testing-framework-comparisons-and-discussions/"
       },
       {
-        "name": "GrowthBook Documentation",
-        "why": "Free, open-source, structured learning path",
-        "url": "https://docs.growthbook.io/"
+        "name": "Always Valid Inference (Johari et al.)",
+        "why": "Foundational paper solving the 'peeking problem' \u2014 Stanford + Optimizely",
+        "url": "https://arxiv.org/abs/1512.04922"
       },
       {
-        "name": "Evan Miller: How Not To Run an A/B Test",
-        "why": "Short, lethal, career-saving",
-        "url": "https://www.evanmiller.org/how-not-to-run-an-ab-test.html"
+        "name": "Understanding CUPED (Matteo Courthoud)",
+        "why": "Most accessible CUPED explanation \u2014 derives variance reduction math clearly",
+        "url": "https://matteocourthoud.github.io/post/cuped/"
       },
       {
-        "name": "Netflix Tech Blog - Experimentation",
-        "why": "Real case studies at scale",
-        "url": "https://netflixtechblog.com/tagged/experimentation"
+        "name": "Airbnb: Variance Reduction Using In-Experiment Data",
+        "why": "Extends CUPED for delayed outcomes \u2014 real booking flow examples (KDD 2023)",
+        "url": "https://alexdeng.github.io/public/files/kdd2023-inexp.pdf"
+      },
+      {
+        "name": "Netflix Tech Blog: Experimentation Series",
+        "why": "Platform architecture, sequential testing, contextual bandits at scale",
+        "url": "https://netflixtechblog.com/reimagining-experimentation-analysis-at-netflix-71356393af21"
+      },
+      {
+        "name": "Uber: Supercharging A/B Testing",
+        "why": "Rebuilding experimentation from ground-up \u2014 1,000+ concurrent experiments",
+        "url": "https://www.uber.com/blog/supercharging-a-b-testing-at-uber/"
+      },
+      {
+        "name": "LinkedIn: A/B Testing Platform Technical Paper",
+        "why": "41,000+ simultaneous tests on 700M members \u2014 network-specific challenges",
+        "url": "https://engineering.linkedin.com/ab-testing/introduction-technical-paper-linkedins-ab-testing-platform"
+      },
+      {
+        "name": "Reducing Interference Bias (Holtz et al.)",
+        "why": "Proves standard A/B can overstate effects 100% in marketplaces \u2014 Management Science",
+        "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2020.01157"
+      },
+      {
+        "name": "Evan Miller's A/B Testing Tools",
+        "why": "Best-in-class interactive calculators \u2014 understand stats under the hood",
+        "url": "https://www.evanmiller.org/ab-testing/"
+      },
+      {
+        "name": "150 Successful ML Models (Booking.com)",
+        "why": "Model performance \u2260 business performance \u2014 why RCTs matter for ML (KDD 2019)",
+        "url": "https://dl.acm.org/doi/10.1145/3292500.3330744"
+      },
+      {
+        "name": "Stitch Fix: Multi-Armed Bandits Integration",
+        "why": "Thompson Sampling vs \u03b5-greedy in production \u2014 practical tradeoffs explained",
+        "url": "https://multithreaded.stitchfix.com/blog/2020/08/05/bandits/"
       }
     ],
     "packages": [
       {
         "name": "Spotify Confidence",
-        "why": "Production-grade A/B testing",
+        "why": "Production-grade sequential A/B testing",
         "url": "https://github.com/spotify/confidence"
       },
       {
         "name": "GrowthBook SDK",
-        "why": "Feature flags and experiments",
+        "why": "Feature flags and experiments \u2014 open source",
         "url": "https://docs.growthbook.io/"
       },
       {
         "name": "Ax",
-        "why": "Meta's adaptive experimentation platform",
+        "why": "Meta's adaptive experimentation platform \u2014 Bayesian optimization",
         "url": "https://ax.dev/"
       }
     ],
-    "order": 5
+    "order": 6
   },
   {
     "name": "Learn SQL",
@@ -302,7 +417,7 @@
         "url": "https://github.com/yhat/pandasql"
       }
     ],
-    "order": 6
+    "order": 7
   },
   {
     "name": "Learn LeetCode",
@@ -336,7 +451,7 @@
       }
     ],
     "packages": [],
-    "order": 7
+    "order": 8
   },
   {
     "name": "Learn Automation",
@@ -391,7 +506,7 @@
         "url": "https://scrapy.org/"
       }
     ],
-    "order": 8
+    "order": 9
   },
   {
     "name": "Learn Optimization (OR)",
@@ -441,7 +556,7 @@
         "url": "https://www.gurobi.com/"
       }
     ],
-    "order": 9
+    "order": 10
   },
   {
     "name": "Learn Agentic Workflows",
@@ -491,6 +606,6 @@
         "url": "https://github.com/openai/openai-agents-python"
       }
     ],
-    "order": 10
+    "order": 11
   }
 ]

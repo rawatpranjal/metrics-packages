@@ -161,7 +161,7 @@
   },
   {
     "name": "Matteo Courthoud: Understanding CUPED",
-    "description": "The closest author to Matheus Facure. Explains CUPED not as statistical theorem, but as simple linear regression adjustment in 3 lines of pandas.",
+    "description": "The most accessible yet rigorous CUPED explanation. Derives the math showing variance reduction is proportional to (1-\u03c1\u00b2), compares with autoregression and difference-in-differences. Perfect for economists.",
     "category": "Experimentation",
     "url": "https://matteocourthoud.github.io/post/cuped/",
     "type": "Tutorial",
@@ -185,7 +185,7 @@
   },
   {
     "name": "Evan Miller's A/B Testing Tools",
-    "description": "Sample size calculators, stats explainers, and practical A/B testing guides. Bookmark-worthy tools.",
+    "description": "Best-in-class visual, interactive calculators for sample size, chi-squared tests, sequential sampling. Cited in Udacity's Google A/B testing course. Helps practitioners understand 'under the hood' statistics while planning experiments.",
     "category": "Experimentation",
     "url": "https://www.evanmiller.org/ab-testing/",
     "type": "Tools + Guides",
@@ -401,7 +401,7 @@
   },
   {
     "name": "Netflix Tech Blog - Experimentation",
-    "description": "1000+ engineers, millions of users, zero guesswork. Real case studies on how Netflix actually runs A/B tests at scale.",
+    "description": "Multiple posts covering platform architecture, sequential testing implementation, confidence intervals for non-normal distributions, and contextual bandits. Demonstrates how a world-class experimentation platform enables science at scale.",
     "category": "Industry Blogs",
     "url": "https://netflixtechblog.com/tagged/experimentation",
     "type": "Blog",
@@ -1261,6 +1261,158 @@
     "category": "Strategy & Analytics",
     "url": "https://articles.sequoiacap.com/measuring-product-health",
     "type": "Article",
+    "level": "Medium"
+  },
+  {
+    "name": "Ken Norton: How to Hire a Product Manager",
+    "description": "Former Google PM (14+ years) who led Docs, Calendar, Mobile Maps. This essay defines what a PM does by revealing hiring criteria \u2014 the map of competencies to develop.",
+    "category": "Product Sense",
+    "url": "https://www.bringthedonuts.com/essays/productmanager.html",
+    "type": "Essay",
+    "level": "Easy"
+  },
+  {
+    "name": "SVPG: Product Management Start Here",
+    "description": "Silicon Valley Product Group's curated entry point distinguishing 'empowered product teams' from 'feature teams' \u2014 exposes why most PM work is 'product management theater'.",
+    "category": "Product Sense",
+    "url": "https://www.svpg.com/product-management-start-here/",
+    "type": "Knowledge Base",
+    "level": "Easy"
+  },
+  {
+    "name": "Shreyas Doshi: LNO Framework",
+    "description": "Former PM leader at Stripe, Twitter, Google. The LNO Framework (Leverage, Neutral, Overhead tasks) is a breakthrough prioritization model \u2014 distinguishes good from exceptional PM thinking.",
+    "category": "Product Sense",
+    "url": "https://shreyasdoshi.com/",
+    "type": "Essays",
+    "level": "Medium"
+  },
+  {
+    "name": "Intercom: RICE Prioritization Framework",
+    "description": "The RICE framework (Reach, Impact, Confidence, Effort) originated here and is now industry standard \u2014 provides quantitative structure for prioritization.",
+    "category": "Product Sense",
+    "url": "https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/",
+    "type": "Blog",
+    "level": "Easy"
+  },
+  {
+    "name": "Intercom: On Product Management (Free Book)",
+    "description": "Beautifully designed, practical product content from Intercom's product team led by Des Traynor. Free downloadable PDF covering PM fundamentals.",
+    "category": "Product Sense",
+    "url": "https://www.intercom.com/resources/books/intercom-product-management",
+    "type": "Online Book",
+    "level": "Easy"
+  },
+  {
+    "name": "Gibson Biddle: DHM Product Strategy Framework",
+    "description": "Former VP Product at Netflix (2005-2010). A 13-essay series walking through exactly how Netflix built its product strategy using DHM (Delight, Hard-to-copy, Margin-enhancing).",
+    "category": "Product Sense",
+    "url": "https://gibsonbiddle.medium.com/intro-to-product-strategy-60bdf72b17e3",
+    "type": "Essay Series",
+    "level": "Medium"
+  },
+  {
+    "name": "Teresa Torres: Opportunity Solution Trees",
+    "description": "Product discovery coach who has trained 17,000+ PMs. The Opportunity Solution Tree framework connects business outcomes \u2192 customer opportunities \u2192 solutions \u2192 experiments.",
+    "category": "Product Sense",
+    "url": "https://www.producttalk.org/opportunity-solution-trees/",
+    "type": "Blog + Book",
+    "level": "Medium"
+  },
+  {
+    "name": "Marty Cagan: INSPIRED",
+    "description": "THE definitive book on modern product management from SVPG founder. Explains empowered teams, product discovery vs. delivery, and how Amazon, Google, Netflix actually operate.",
+    "category": "Product Sense",
+    "url": "https://www.svpg.com/books/inspired-how-to-create-tech-products-customers-love-2nd-edition/",
+    "type": "Book",
+    "level": "Easy"
+  },
+  {
+    "name": "Atlassian: How to Write Product Requirements",
+    "description": "Practical guide to writing PRDs in an agile environment from the makers of Jira and Confluence. Includes templates and explains modern, lightweight documentation.",
+    "category": "Product Sense",
+    "url": "https://www.atlassian.com/agile/product-management/requirements",
+    "type": "Guide",
+    "level": "Easy"
+  },
+  {
+    "name": "Amplitude: Product Lessons with Shreyas Doshi",
+    "description": "Deep conversation on 'The Fundamental Framework of Product Work' (Impact, Execution, Optics levels) \u2014 demonstrates how metrics connect to strategy at sophisticated level.",
+    "category": "Product Sense",
+    "url": "https://amplitude.com/blog/shreyas-doshi-product-lessons",
+    "type": "Interview",
+    "level": "Medium"
+  },
+  {
+    "name": "Lenny's Newsletter & Podcast",
+    "description": "Former Airbnb PM, #1 business newsletter on Substack with 700k+ subscribers. The most comprehensive ongoing resource for developing 'product sense' with concrete, tactical frameworks.",
+    "category": "Product Sense",
+    "url": "https://www.lennysnewsletter.com/",
+    "type": "Newsletter + Podcast",
+    "level": "Easy"
+  },
+  {
+    "name": "Spotify: Choosing a Sequential Testing Framework",
+    "description": "Practical comparison of Group Sequential Tests (GST), mSPRT, GAVI, and corrected-alpha approaches with simulation results. Clarifies when to use each method.",
+    "category": "Experimentation",
+    "url": "https://engineering.atspotify.com/2023/03/choosing-sequential-testing-framework-comparisons-and-discussions/",
+    "type": "Blog",
+    "level": "Hard"
+  },
+  {
+    "name": "Always Valid Inference: Continuous Monitoring of A/B Tests",
+    "description": "Foundational paper on always-valid p-values and confidence intervals from Stanford/Optimizely. Solves the 'peeking problem' that invalidates most industry A/B tests.",
+    "category": "Experimentation",
+    "url": "https://arxiv.org/abs/1512.04922",
+    "type": "Paper",
+    "level": "Hard"
+  },
+  {
+    "name": "Airbnb: Variance Reduction Using In-Experiment Data (KDD 2023)",
+    "description": "Extends CUPED to use in-experiment data for variance reduction. Addresses delayed outcomes and sparse signals in marketplace experimentation with real booking flow examples.",
+    "category": "Experimentation",
+    "url": "https://alexdeng.github.io/public/files/kdd2023-inexp.pdf",
+    "type": "Paper",
+    "level": "Hard"
+  },
+  {
+    "name": "Uber: Supercharging A/B Testing at Uber",
+    "description": "Rebuilding experimentation from ground-up: logging architecture, statistics engine for A/B/N tests, metric recommendation, and flicker detection for 1,000+ concurrent experiments.",
+    "category": "Experimentation",
+    "url": "https://www.uber.com/blog/supercharging-a-b-testing-at-uber/",
+    "type": "Blog",
+    "level": "Medium"
+  },
+  {
+    "name": "LinkedIn: A/B Testing Platform Technical Paper",
+    "description": "41,000+ simultaneous A/B tests on 700M+ members. Addresses network-specific challenges: viewer/viewee experiments, email experiments with selection bias, interaction effects.",
+    "category": "Experimentation",
+    "url": "https://engineering.linkedin.com/ab-testing/introduction-technical-paper-linkedins-ab-testing-platform",
+    "type": "Paper",
+    "level": "Hard"
+  },
+  {
+    "name": "Reducing Interference Bias in Marketplace Experiments (Holtz et al.)",
+    "description": "Empirical evidence that standard experiments can overstate treatment effects by up to 100% in marketplace settings. Provides practical cluster randomization solutions.",
+    "category": "Experimentation",
+    "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2020.01157",
+    "type": "Paper",
+    "level": "Hard"
+  },
+  {
+    "name": "150 Successful ML Models at Booking.com (KDD 2019)",
+    "description": "Reveals that model performance \u2260 business performance. Demonstrates why RCTs are critical for validating ML models in production with framework for hypothesis-driven iteration.",
+    "category": "Experimentation",
+    "url": "https://dl.acm.org/doi/10.1145/3292500.3330744",
+    "type": "Paper",
+    "level": "Medium"
+  },
+  {
+    "name": "Stitch Fix: Multi-Armed Bandits Integration",
+    "description": "How to integrate Thompson Sampling and \u03b5-greedy bandits into an existing A/B testing platform. Covers deterministic allocation via hashing and practical tradeoffs.",
+    "category": "Experimentation",
+    "url": "https://multithreaded.stitchfix.com/blog/2020/08/05/bandits/",
+    "type": "Blog",
     "level": "Medium"
   }
 ]
