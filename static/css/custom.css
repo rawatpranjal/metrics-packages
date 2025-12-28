@@ -183,42 +183,59 @@ body::before {
     pointer-events: none;
 }
 
-.sidebar-updated {
-    font-size: 0.7rem;
-    color: rgba(255,255,255,0.4);
-    margin-top: 0.75rem;
-    padding-top: 0.75rem;
-    border-top: 1px solid rgba(255,255,255,0.1);
-}
-
-.sidebar-visitors {
-    font-size: 0.7rem;
-    color: rgba(255,255,255,0.4);
-    margin-top: 0.25rem;
-}
-
-/* Theme Toggle Button */
-.theme-toggle {
+/* Sidebar Footer Meta Row */
+.sidebar-footer-meta {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 0.5rem 0;
-    margin-top: 0.5rem;
-    background: none;
-    border: none;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    flex-wrap: wrap;
+}
+
+/* Updated Badge - Pill Style */
+.sidebar-updated {
+    font-size: 0.65rem;
+    padding: 0.2rem 0.5rem;
+    background: rgba(255,255,255,0.05);
+    border-radius: 12px;
+    color: rgba(255,255,255,0.4);
+    white-space: nowrap;
+}
+
+.sidebar-visitors {
+    font-size: 0.65rem;
+    color: rgba(255,255,255,0.35);
+    margin-left: auto;
+}
+
+/* Theme Toggle Button - Pill Style */
+.theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.3rem 0.6rem;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 16px;
     color: rgba(255,255,255,0.6);
-    font-size: 0.85rem;
+    font-size: 0.7rem;
     cursor: pointer;
-    transition: color 0.2s;
+    transition: all 0.2s ease;
     font-family: inherit;
 }
 
 .theme-toggle:hover {
     color: white;
+    background: rgba(255,255,255,0.12);
+    box-shadow: 0 0 10px rgba(255,255,255,0.08);
 }
 
 .theme-toggle svg {
     flex-shrink: 0;
+    width: 12px;
+    height: 12px;
 }
 
 .sidebar-footer-link {

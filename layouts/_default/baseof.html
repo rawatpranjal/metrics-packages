@@ -4,18 +4,34 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ .Site.Title }}</title>
-    <meta name="description" content="{{ .Site.Params.description }}">
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <link rel="canonical" href="{{ .Permalink }}">
 
     <!-- Open Graph / Social Preview -->
-    <meta property="og:title" content="{{ .Site.Title }}">
-    <meta property="og:description" content="Real tools for applied economists in tech. Packages, datasets, and learning resources.">
+    <meta property="og:title" content="{{ if .Title }}{{ .Title }} | {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}">
+    <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}Real tools for applied economists in tech. Packages, datasets, and learning resources.{{ end }}">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ .Site.BaseURL }}">
+    <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:image" content="{{ .Site.BaseURL }}og-image.png">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ .Site.Title }}">
-    <meta name="twitter:description" content="Real tools for applied economists in tech.">
+    <meta name="twitter:title" content="{{ if .Title }}{{ .Title }} | {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}">
+    <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}Real tools for applied economists in tech.{{ end }}">
     <meta name="twitter:image" content="{{ .Site.BaseURL }}og-image.png">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "{{ .Site.Title }}",
+      "url": "{{ .Site.BaseURL }}",
+      "description": "{{ .Site.Params.description }}",
+      "author": {
+        "@type": "Person",
+        "name": "{{ .Site.Params.author }}"
+      }
+    }
+    </script>
 
     <!-- Favicons -->
     <link rel="icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}">
@@ -177,27 +193,27 @@
                 </svg>
                 Subscribe
             </a>
-            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
-                <svg class="sun-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
-                    <circle cx="12" cy="12" r="5"></circle>
-                    <line x1="12" y1="1" x2="12" y2="3"></line>
-                    <line x1="12" y1="21" x2="12" y2="23"></line>
-                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                    <line x1="1" y1="12" x2="3" y2="12"></line>
-                    <line x1="21" y1="12" x2="23" y2="12"></line>
-                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                </svg>
-                <svg class="moon-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                </svg>
-                <span>Theme</span>
-            </button>
-            <div class="sidebar-updated">
-                Updated {{ now.Format "Jan 2006" }}
+            <div class="sidebar-footer-meta">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                    <svg class="sun-icon" viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <span>Theme</span>
+                </button>
+                <div class="sidebar-updated">{{ now.Format "Jan 2006" }}</div>
+                <div class="sidebar-visitors" id="visitor-count"></div>
             </div>
-            <div class="sidebar-visitors" id="visitor-count"></div>
         </div>
     </nav>
 
