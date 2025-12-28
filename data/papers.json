@@ -1,0 +1,799 @@
+{
+  "topics": [
+    {
+      "id": "experimentation",
+      "name": "Experimentation",
+      "description": "A/B testing, variance reduction, sequential testing, interference",
+      "subtopics": [
+        {
+          "id": "ab-test-design",
+          "name": "A/B Test Design & Analysis",
+          "application": "Product experiments, sample size, metrics",
+          "papers": []
+        },
+        {
+          "id": "variance-reduction",
+          "name": "Variance Reduction",
+          "application": "CUPED, stratification, regression adjustment",
+          "papers": []
+        },
+        {
+          "id": "sequential-adaptive",
+          "name": "Sequential & Adaptive Testing",
+          "application": "Always-valid inference, early stopping, peeking",
+          "papers": []
+        },
+        {
+          "id": "interference-spillovers",
+          "name": "Interference & Spillovers",
+          "application": "Network effects, marketplace cannibalization",
+          "papers": []
+        },
+        {
+          "id": "switchback-geo",
+          "name": "Switchback & Geo-Experiments",
+          "application": "Pricing tests, market-level interventions",
+          "papers": []
+        },
+        {
+          "id": "long-run-surrogates",
+          "name": "Long-run Effects & Surrogates",
+          "application": "LTV, delayed outcomes, surrogate index",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "observational-causal-inference",
+      "name": "Observational Causal Inference",
+      "description": "Matching, DiD, synthetic control, IV, RDD, double ML",
+      "subtopics": [
+        {
+          "id": "matching-propensity",
+          "name": "Matching & Propensity Scores",
+          "application": "Program evaluation, ad exposure",
+          "papers": []
+        },
+        {
+          "id": "difference-in-differences",
+          "name": "Difference-in-Differences",
+          "application": "Policy changes, feature rollouts, staggered adoption",
+          "papers": []
+        },
+        {
+          "id": "synthetic-control",
+          "name": "Synthetic Control",
+          "application": "Geo lift, market entry, one-treated-unit settings",
+          "papers": []
+        },
+        {
+          "id": "instrumental-variables",
+          "name": "Instrumental Variables & LATE",
+          "application": "Non-compliance, demand shocks",
+          "papers": []
+        },
+        {
+          "id": "regression-discontinuity",
+          "name": "Regression Discontinuity",
+          "application": "Eligibility cutoffs, rating thresholds",
+          "papers": []
+        },
+        {
+          "id": "double-ml-cate",
+          "name": "Double ML & Heterogeneous Effects",
+          "application": "CATE, personalization, targeting",
+          "papers": []
+        },
+        {
+          "id": "sensitivity-bounds",
+          "name": "Sensitivity & Bounds",
+          "application": "Robustness, partial identification",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "name": "Pricing",
+      "description": "Dynamic pricing, surge, markdown, demand estimation",
+      "subtopics": [
+        {
+          "id": "dynamic-pricing",
+          "name": "Dynamic Pricing & Revenue Management",
+          "application": "Airlines, hotels, e-commerce",
+          "papers": []
+        },
+        {
+          "id": "markdown-clearance",
+          "name": "Markdown & Clearance",
+          "application": "Retail, fashion, perishables",
+          "papers": []
+        },
+        {
+          "id": "surge-realtime",
+          "name": "Surge & Real-time Pricing",
+          "application": "Rideshare, delivery, congestion pricing",
+          "papers": []
+        },
+        {
+          "id": "personalized-pricing",
+          "name": "Personalized Pricing",
+          "application": "Price discrimination, welfare, fairness",
+          "papers": []
+        },
+        {
+          "id": "demand-estimation",
+          "name": "Demand Estimation & Elasticity",
+          "application": "Price sensitivity, substitution patterns",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "subscriptions-retention",
+      "name": "Subscriptions & Retention",
+      "description": "Churn, CLV, engagement, freemium",
+      "subtopics": [
+        {
+          "id": "churn-prediction",
+          "name": "Churn Prediction & Prevention",
+          "application": "SaaS, streaming, telecom",
+          "papers": []
+        },
+        {
+          "id": "lifetime-value",
+          "name": "Lifetime Value Estimation",
+          "application": "CLV models, discounting, cohort analysis",
+          "papers": []
+        },
+        {
+          "id": "free-to-paid",
+          "name": "Free-to-Paid Conversion",
+          "application": "Freemium, trials, paywall optimization",
+          "papers": []
+        },
+        {
+          "id": "renewal-cancellation",
+          "name": "Renewal & Cancellation Dynamics",
+          "application": "Winback, save offers, contract design",
+          "papers": []
+        },
+        {
+          "id": "engagement-habit",
+          "name": "Engagement & Habit Formation",
+          "application": "Stickiness, frequency, retention loops",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "advertising",
+      "name": "Advertising",
+      "description": "Ad auctions, attribution, targeting, brand measurement",
+      "subtopics": [
+        {
+          "id": "ad-auctions",
+          "name": "Ad Auctions (GSP, VCG)",
+          "application": "Sponsored search, display, reserve prices",
+          "papers": []
+        },
+        {
+          "id": "autobidding-pacing",
+          "name": "Autobidding & Budget Pacing",
+          "application": "Advertiser automation, value optimization",
+          "papers": []
+        },
+        {
+          "id": "attribution-incrementality",
+          "name": "Attribution & Incrementality",
+          "application": "Ghost ads, conversion lift, multi-touch",
+          "papers": []
+        },
+        {
+          "id": "targeting-lookalikes",
+          "name": "Targeting & Lookalikes",
+          "application": "Behavioral targeting, audience expansion",
+          "papers": []
+        },
+        {
+          "id": "brand-performance",
+          "name": "Brand vs. Performance",
+          "application": "Long-run effects, lift studies, upper funnel",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "marketing-growth",
+      "name": "Marketing & Growth",
+      "description": "Acquisition, referrals, promotions, uplift modeling",
+      "subtopics": [
+        {
+          "id": "acquisition-referrals",
+          "name": "Acquisition & Referrals",
+          "application": "CAC, referral programs, viral loops",
+          "papers": []
+        },
+        {
+          "id": "network-effects",
+          "name": "Network Effects & Viral Growth",
+          "application": "Platform adoption, critical mass",
+          "papers": []
+        },
+        {
+          "id": "promotions-discounts",
+          "name": "Promotions & Discounts",
+          "application": "Coupon optimization, price promotions",
+          "papers": []
+        },
+        {
+          "id": "marketing-mix",
+          "name": "Marketing Mix Modeling",
+          "application": "Budget allocation, channel effectiveness",
+          "papers": []
+        },
+        {
+          "id": "uplift-modeling",
+          "name": "Uplift Modeling",
+          "application": "Treatment targeting, persuadables vs. sure things",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "recommender-systems",
+      "name": "Recommender Systems",
+      "description": "Collaborative filtering, deep recs, debiasing, cold start",
+      "subtopics": [
+        {
+          "id": "collaborative-filtering",
+          "name": "Collaborative Filtering & Matrix Factorization",
+          "application": "User-item interactions, implicit feedback",
+          "papers": []
+        },
+        {
+          "id": "deep-recommenders",
+          "name": "Deep Recommenders",
+          "application": "Two-tower, transformers, sequential recs",
+          "papers": []
+        },
+        {
+          "id": "causal-recommendations",
+          "name": "Causal Recommendations & Debiasing",
+          "application": "Exposure bias, counterfactual evaluation",
+          "papers": []
+        },
+        {
+          "id": "exploration-diversity",
+          "name": "Exploration & Diversity",
+          "application": "Novelty, serendipity, filter bubbles",
+          "papers": []
+        },
+        {
+          "id": "cold-start",
+          "name": "Cold Start",
+          "application": "New users, new items, hybrid approaches",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "search-ranking",
+      "name": "Search & Ranking",
+      "description": "Learning to rank, query understanding, position bias",
+      "subtopics": [
+        {
+          "id": "learning-to-rank",
+          "name": "Learning to Rank",
+          "application": "Pairwise, listwise, LambdaMART",
+          "papers": []
+        },
+        {
+          "id": "query-understanding",
+          "name": "Query Understanding",
+          "application": "Intent classification, query rewriting",
+          "papers": []
+        },
+        {
+          "id": "relevance-engagement",
+          "name": "Relevance vs. Engagement",
+          "application": "Short-term clicks vs. satisfaction",
+          "papers": []
+        },
+        {
+          "id": "position-bias",
+          "name": "Position Bias & Debiasing",
+          "application": "Click models, unbiased LTR",
+          "papers": []
+        },
+        {
+          "id": "semantic-search",
+          "name": "Semantic Search & Embeddings",
+          "application": "Dense retrieval, vector search",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "matching-marketplaces",
+      "name": "Matching & Marketplaces",
+      "description": "Two-sided markets, matching algorithms, reputation",
+      "subtopics": [
+        {
+          "id": "two-sided-markets",
+          "name": "Two-Sided Markets",
+          "application": "Platform economics, chicken-and-egg",
+          "papers": []
+        },
+        {
+          "id": "search-matching-frictions",
+          "name": "Search & Matching Frictions",
+          "application": "Job platforms, e-commerce discovery",
+          "papers": []
+        },
+        {
+          "id": "matching-algorithms",
+          "name": "Matching Algorithms",
+          "application": "Ride dispatch, labor, dating, kidney exchange",
+          "papers": []
+        },
+        {
+          "id": "reputation-reviews",
+          "name": "Reputation & Reviews",
+          "application": "Trust, rating systems, fake reviews",
+          "papers": []
+        },
+        {
+          "id": "congestion-rationing",
+          "name": "Congestion & Rationing",
+          "application": "Waitlists, overbooking, capacity limits",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "mechanism-design-auctions",
+      "name": "Mechanism Design & Auctions",
+      "description": "Auction theory, market design, information design",
+      "subtopics": [
+        {
+          "id": "auction-theory",
+          "name": "Auction Theory Foundations",
+          "application": "IPV, revenue equivalence, optimal auctions",
+          "papers": []
+        },
+        {
+          "id": "multi-unit-combinatorial",
+          "name": "Multi-unit & Combinatorial Auctions",
+          "application": "Spectrum, procurement, ad slots",
+          "papers": []
+        },
+        {
+          "id": "dynamic-auctions",
+          "name": "Dynamic Auctions & Repeated Games",
+          "application": "Learning bidders, long-run equilibria",
+          "papers": []
+        },
+        {
+          "id": "market-design",
+          "name": "Market Design",
+          "application": "School choice, organ allocation, spectrum",
+          "papers": []
+        },
+        {
+          "id": "information-design",
+          "name": "Information Design & Signaling",
+          "application": "Bayesian persuasion, cheap talk",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "structural-estimation",
+      "name": "Structural Estimation",
+      "description": "Demand estimation, entry models, auction estimation",
+      "subtopics": [
+        {
+          "id": "demand-estimation-blp",
+          "name": "Demand Estimation (BLP)",
+          "application": "Differentiated products, market shares",
+          "papers": []
+        },
+        {
+          "id": "entry-competition",
+          "name": "Entry & Competition",
+          "application": "Market structure, firm behavior",
+          "papers": []
+        },
+        {
+          "id": "dynamic-structural",
+          "name": "Dynamic Structural Models",
+          "application": "Durable goods, firm dynamics",
+          "papers": []
+        },
+        {
+          "id": "auction-estimation",
+          "name": "Auction Estimation",
+          "application": "Bid inference, unobserved heterogeneity",
+          "papers": []
+        },
+        {
+          "id": "production-cost",
+          "name": "Production & Cost Estimation",
+          "application": "Efficiency, scale economies",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "choice-models-dynamic-choice",
+      "name": "Choice Models & Dynamic Choice",
+      "description": "Discrete choice, consideration sets, dynamic decisions",
+      "subtopics": [
+        {
+          "id": "discrete-choice",
+          "name": "Discrete Choice (Logit, Mixed Logit)",
+          "application": "Product choice, mode choice",
+          "papers": []
+        },
+        {
+          "id": "consideration-sets",
+          "name": "Consideration Sets & Attention",
+          "application": "Bounded rationality, search costs",
+          "papers": []
+        },
+        {
+          "id": "dynamic-discrete-choice",
+          "name": "Dynamic Discrete Choice",
+          "application": "Durable purchases, renewal, switching",
+          "papers": []
+        },
+        {
+          "id": "intertemporal-substitution",
+          "name": "Intertemporal Substitution",
+          "application": "Stockpiling, timing of purchases",
+          "papers": []
+        },
+        {
+          "id": "choice-architecture",
+          "name": "Choice Architecture & Nudges",
+          "application": "Defaults, framing, option design",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "name": "Reinforcement Learning",
+      "description": "Bandits, Thompson sampling, off-policy, batch RL",
+      "subtopics": [
+        {
+          "id": "multi-armed-bandits",
+          "name": "Multi-Armed Bandits",
+          "application": "Content optimization, test allocation",
+          "papers": []
+        },
+        {
+          "id": "contextual-bandits",
+          "name": "Contextual Bandits",
+          "application": "Personalized interventions, ad selection",
+          "papers": []
+        },
+        {
+          "id": "thompson-sampling",
+          "name": "Thompson Sampling & Bayesian Bandits",
+          "application": "Exploration with uncertainty",
+          "papers": []
+        },
+        {
+          "id": "off-policy-evaluation",
+          "name": "Off-Policy Evaluation",
+          "application": "Counterfactual policy assessment",
+          "papers": []
+        },
+        {
+          "id": "batch-offline-rl",
+          "name": "Batch/Offline RL",
+          "application": "Learning from logs, no exploration",
+          "papers": []
+        },
+        {
+          "id": "rl-bidding-pricing",
+          "name": "RL for Bidding & Pricing",
+          "application": "Automated bidding, dynamic pricing agents",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "inverse-rl-preference-learning",
+      "name": "Inverse RL & Preference Learning",
+      "description": "Reward inference, imitation learning, RLHF",
+      "subtopics": [
+        {
+          "id": "reward-inference",
+          "name": "Reward Inference from Behavior",
+          "application": "Inferring objectives from actions",
+          "papers": []
+        },
+        {
+          "id": "imitation-learning",
+          "name": "Imitation Learning",
+          "application": "Learning from demonstrations",
+          "papers": []
+        },
+        {
+          "id": "revealed-preference",
+          "name": "Revealed Preference at Scale",
+          "application": "Rationalizing observed choices",
+          "papers": []
+        },
+        {
+          "id": "human-feedback-rlhf",
+          "name": "Human Feedback & RLHF",
+          "application": "Preference alignment, reward modeling",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "credit-lending",
+      "name": "Credit & Lending",
+      "description": "Credit scoring, fair lending, alternative data",
+      "subtopics": [
+        {
+          "id": "credit-scoring",
+          "name": "Credit Scoring & Risk Models",
+          "application": "Default prediction, underwriting",
+          "papers": []
+        },
+        {
+          "id": "fair-lending",
+          "name": "Fair Lending & Disparate Impact",
+          "application": "Discrimination, protected classes",
+          "papers": []
+        },
+        {
+          "id": "pricing-credit",
+          "name": "Pricing Credit Products",
+          "application": "Interest rates, risk-based pricing",
+          "papers": []
+        },
+        {
+          "id": "collections-recovery",
+          "name": "Collections & Recovery",
+          "application": "Delinquency, workout strategies",
+          "papers": []
+        },
+        {
+          "id": "alternative-data",
+          "name": "Alternative Data",
+          "application": "Non-traditional signals, thin-file borrowers",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "trust-safety",
+      "name": "Trust & Safety",
+      "description": "Fraud detection, spam, content moderation, abuse",
+      "subtopics": [
+        {
+          "id": "fraud-detection",
+          "name": "Fraud Detection",
+          "application": "Payments, account takeover, transaction fraud",
+          "papers": []
+        },
+        {
+          "id": "spam-abuse",
+          "name": "Spam & Abuse",
+          "application": "Fake accounts, bot detection",
+          "papers": []
+        },
+        {
+          "id": "content-moderation",
+          "name": "Content Moderation & Toxicity",
+          "application": "Hate speech, misinformation",
+          "papers": []
+        },
+        {
+          "id": "claims-insurance",
+          "name": "Claims & Insurance Fraud",
+          "application": "False claims, anomaly detection",
+          "papers": []
+        },
+        {
+          "id": "account-security",
+          "name": "Account Security & Identity",
+          "application": "Authentication, verification",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "logistics-operations",
+      "name": "Logistics & Operations",
+      "description": "Routing, inventory, ETA prediction, capacity planning",
+      "subtopics": [
+        {
+          "id": "routing-dispatch",
+          "name": "Routing & Dispatch",
+          "application": "Vehicle routing, driver assignment",
+          "papers": []
+        },
+        {
+          "id": "inventory-fulfillment",
+          "name": "Inventory & Fulfillment",
+          "application": "Stock positioning, warehouse optimization",
+          "papers": []
+        },
+        {
+          "id": "eta-delivery",
+          "name": "ETA & Delivery Prediction",
+          "application": "Arrival time estimation",
+          "papers": []
+        },
+        {
+          "id": "capacity-planning",
+          "name": "Capacity Planning",
+          "application": "Demand-supply balancing, staffing",
+          "papers": []
+        },
+        {
+          "id": "last-mile",
+          "name": "Last-Mile Optimization",
+          "application": "Delivery efficiency, batching",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "privacy",
+      "name": "Privacy",
+      "description": "Differential privacy, federated learning, synthetic data",
+      "subtopics": [
+        {
+          "id": "differential-privacy",
+          "name": "Differential Privacy",
+          "application": "Noise injection, privacy budgets",
+          "papers": []
+        },
+        {
+          "id": "federated-learning",
+          "name": "Federated Learning",
+          "application": "On-device training, decentralized ML",
+          "papers": []
+        },
+        {
+          "id": "privacy-measurement",
+          "name": "Privacy-Preserving Measurement",
+          "application": "Aggregated attribution, clean rooms",
+          "papers": []
+        },
+        {
+          "id": "synthetic-data",
+          "name": "Synthetic Data",
+          "application": "Data generation, utility-privacy tradeoff",
+          "papers": []
+        },
+        {
+          "id": "anonymization",
+          "name": "Anonymization & De-identification",
+          "application": "k-anonymity, re-identification risk",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "forecasting",
+      "name": "Forecasting",
+      "description": "Time series, ML forecasting, hierarchical, probabilistic",
+      "subtopics": [
+        {
+          "id": "time-series-foundations",
+          "name": "Time Series Foundations",
+          "application": "ARIMA, exponential smoothing, state space",
+          "papers": []
+        },
+        {
+          "id": "ml-forecasting",
+          "name": "ML for Forecasting",
+          "application": "GBM, neural forecasters, transformers",
+          "papers": []
+        },
+        {
+          "id": "hierarchical-forecasting",
+          "name": "Hierarchical & Grouped Forecasting",
+          "application": "SKU rollups, geographic aggregation",
+          "papers": []
+        },
+        {
+          "id": "probabilistic-forecasting",
+          "name": "Probabilistic Forecasting",
+          "application": "Quantile regression, uncertainty",
+          "papers": []
+        },
+        {
+          "id": "causal-impact",
+          "name": "Causal Impact & Intervention",
+          "application": "Shock detection, launch measurement",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "spatial-geo",
+      "name": "Spatial & Geo",
+      "description": "Geospatial demand, location choice, mobility patterns",
+      "subtopics": [
+        {
+          "id": "geospatial-demand",
+          "name": "Geospatial Demand Modeling",
+          "application": "Heatmaps, demand surfaces",
+          "papers": []
+        },
+        {
+          "id": "location-choice",
+          "name": "Location Choice & Site Selection",
+          "application": "Store placement, coverage optimization",
+          "papers": []
+        },
+        {
+          "id": "spatial-econometrics",
+          "name": "Spatial Econometrics",
+          "application": "Spatial autocorrelation, spillovers",
+          "papers": []
+        },
+        {
+          "id": "mapping-geocoding",
+          "name": "Mapping & Geocoding",
+          "application": "Address parsing, POI matching",
+          "papers": []
+        },
+        {
+          "id": "mobility-patterns",
+          "name": "Mobility & Movement Patterns",
+          "application": "Travel behavior, flow prediction",
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "clustering-segmentation",
+      "name": "Clustering & Segmentation",
+      "description": "Customer segmentation, mixture models, deep clustering",
+      "subtopics": [
+        {
+          "id": "customer-segmentation",
+          "name": "Customer Segmentation",
+          "application": "Behavioral clusters, personas",
+          "papers": []
+        },
+        {
+          "id": "kmeans-hierarchical",
+          "name": "K-Means & Hierarchical Clustering",
+          "application": "Classic approaches",
+          "papers": []
+        },
+        {
+          "id": "model-based-clustering",
+          "name": "Model-Based Clustering",
+          "application": "Mixture models, latent classes",
+          "papers": []
+        },
+        {
+          "id": "embedding-clustering",
+          "name": "Embedding-Based Clustering",
+          "application": "Deep clustering, representation learning",
+          "papers": []
+        },
+        {
+          "id": "segmentation-targeting",
+          "name": "Segmentation for Targeting",
+          "application": "Heterogeneity, personalization groups",
+          "papers": []
+        }
+      ]
+    }
+  ]
+}

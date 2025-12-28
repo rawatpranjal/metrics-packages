@@ -1,0 +1,50 @@
+{{ define "main" }}
+<!-- Hero Section -->
+<header class="hero hero-with-image hero-papers">
+    <h1 class="hero-title">Papers</h1>
+    {{ $totalPapers := 0 }}
+    {{ $totalSubtopics := 0 }}
+    {{ range .Site.Data.papers.topics }}
+        {{ range .subtopics }}
+            {{ $totalSubtopics = add $totalSubtopics 1 }}
+            {{ $totalPapers = add $totalPapers (len .papers) }}
+        {{ end }}
+    {{ end }}
+    <p class="hero-tagline">Curated reading list for tech economists &bull; {{ len .Site.Data.papers.topics }} topics &bull; {{ $totalSubtopics }} subtopics{{ if gt $totalPapers 0 }} &bull; {{ $totalPapers }} papers{{ end }}</p>
+</header>
+
+<div class="container">
+    <!-- Topics Grid -->
+    <div class="topics-grid">
+        {{ range .Site.Data.papers.topics }}
+        {{ $topic := . }}
+        {{ $paperCount := 0 }}
+        {{ range .subtopics }}
+            {{ $paperCount = add $paperCount (len .papers) }}
+        {{ end }}
+        <a href="{{ printf "papers/%s/" .id | relURL }}" class="topic-card" data-aos="fade-up">
+            <div class="topic-card-content">
+                <h3 class="topic-name">{{ .name }}</h3>
+                <p class="topic-description">{{ .description }}</p>
+                <div class="topic-meta">
+                    <span class="topic-stat">{{ len .subtopics }} subtopics</span>
+                    {{ if gt $paperCount 0 }}
+                    <span class="topic-stat">&bull; {{ $paperCount }} papers</span>
+                    {{ end }}
+                </div>
+            </div>
+            <div class="topic-arrow">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 18l6-6-6-6"></path>
+                </svg>
+            </div>
+        </a>
+        {{ end }}
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Must-read papers for tech economists and applied researchers</p>
+    </footer>
+</div>
+{{ end }}

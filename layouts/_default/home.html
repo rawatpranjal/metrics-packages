@@ -28,7 +28,24 @@
 
     <!-- Section Cards Grid -->
     <div class="section-grid">
-        <a href="{{ "packages/" | relURL }}" class="section-card section-card-with-image" data-aos="fade-up">
+        <a href="{{ "papers/" | relURL }}" class="section-card section-card-with-image" data-aos="fade-up">
+            <div class="card-bg" style="background-image: url('/images/cards/papers-card.jpg')"></div>
+            <div class="card-content">
+                <div class="section-icon">
+                    <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                        <polyline points="10 9 9 9 8 9"></polyline>
+                    </svg>
+                </div>
+                <h3>Papers</h3>
+                <p>{{ len .Site.Data.papers.topics }} curated reading lists for tech economists</p>
+            </div>
+        </a>
+
+        <a href="{{ "packages/" | relURL }}" class="section-card section-card-with-image" data-aos="fade-up" data-aos-delay="50">
             <div class="card-bg" style="background-image: url('/images/cards/packages-card.jpg')"></div>
             <div class="card-content">
                 <div class="section-icon">

@@ -1,0 +1,73 @@
+{{ define "main" }}
+{{ $topicId := .Params.topic_id }}
+{{ $topic := index (where .Site.Data.papers.topics "id" $topicId) 0 }}
+
+<!-- Hero Section -->
+<header class="hero hero-with-image hero-papers">
+    <div class="hero-breadcrumb">
+        <a href="{{ "papers/" | relURL }}">Papers</a>
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 18l6-6-6-6"></path>
+        </svg>
+    </div>
+    <h1 class="hero-title">{{ $topic.name }}</h1>
+    {{ $paperCount := 0 }}
+    {{ range $topic.subtopics }}
+        {{ $paperCount = add $paperCount (len .papers) }}
+    {{ end }}
+    <p class="hero-tagline">{{ $topic.description }}{{ if gt $paperCount 0 }} &bull; {{ $paperCount }} papers{{ end }}</p>
+</header>
+
+<div class="container">
+    <!-- Subtopics -->
+    <div class="subtopics-container">
+        {{ range $topic.subtopics }}
+        <section class="subtopic-section" id="{{ .id }}">
+            <div class="subtopic-header">
+                <h2 class="subtopic-name">{{ .name }}</h2>
+                <p class="subtopic-application">{{ .application }}</p>
+            </div>
+
+            {{ if .papers }}
+            <div class="papers-grid">
+                {{ range .papers }}
+                <div class="paper-card" data-aos="fade-up">
+                    <div class="paper-header">
+                        <span class="paper-tag tag-{{ .tag | lower }}">{{ .tag }}</span>
+                        <span class="paper-year">{{ .year }}</span>
+                    </div>
+                    <h3 class="paper-title">
+                        <a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>
+                    </h3>
+                    <p class="paper-authors">{{ .authors }}</p>
+                    {{ if .description }}
+                    <p class="paper-description">{{ .description }}</p>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+            {{ else }}
+            <div class="papers-empty">
+                <p>Papers coming soon</p>
+            </div>
+            {{ end }}
+        </section>
+        {{ end }}
+    </div>
+
+    <!-- Back to Topics -->
+    <div class="back-link">
+        <a href="{{ "papers/" | relURL }}">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M15 18l-6-6 6-6"></path>
+            </svg>
+            Back to all topics
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Must-read papers for tech economists and applied researchers</p>
+    </footer>
+</div>
+{{ end }}
