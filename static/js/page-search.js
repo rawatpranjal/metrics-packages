@@ -540,8 +540,9 @@
     PageSearch.prototype.showCategoryLayout = function() {
         var self = this;
 
-        // Show category sections
+        // Reset section visibility (remove section-hidden from previous filter)
         this.sections.forEach(function(section) {
+            section.classList.remove('section-hidden');
             var cat = section.dataset.sectionCategory;
             var shouldShow = self.currentCategory === 'all' || cat === self.currentCategory;
             section.style.display = shouldShow ? '' : 'none';

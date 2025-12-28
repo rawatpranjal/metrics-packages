@@ -51,7 +51,7 @@
         <select id="format-select" class="category-select">
             <option value="all">All Formats</option>
             {{ range $fmt := sort $formats }}
-            <option value="{{ $fmt }}">{{ $fmt }}</option>
+            <option value="{{ $fmt | lower }}">{{ $fmt }}</option>
             {{ end }}
         </select>
 
