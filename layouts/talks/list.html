@@ -1,15 +1,13 @@
 {{ define "main" }}
 <!-- Hero Section -->
 <header class="hero hero-with-image hero-talks">
-    <h1 class="hero-title">Learn</h1>
-    <p class="hero-tagline">Podcasts, videos, blogs, and books for tech economists.</p>
+    <h1 class="hero-title">Talks</h1>
+    <p class="hero-tagline">Podcasts and videos from tech economists.</p>
 </header>
 
 {{/* Count items for each tab */}}
 {{ $podcasts := where .Site.Data.talks "type" "in" (slice "Podcast" "Podcast Series") }}
 {{ $videos := where .Site.Data.talks "type" "in" (slice "Video" "YouTube Channel" "Interview" "Video Series" "Talks + Papers") }}
-{{ $blogs := where .Site.Data.community "category" "Blogs" }}
-{{ $books := where .Site.Data.resources "type" "in" (slice "Online Book" "Book" "Book + Lectures") }}
 
 <div class="container">
     <!-- Main Tabs -->
@@ -19,12 +17,6 @@
         </button>
         <button class="main-tab" data-tab="videos">
             Videos <span class="tab-count">{{ len $videos }}</span>
-        </button>
-        <button class="main-tab" data-tab="blogs">
-            Blogs <span class="tab-count">{{ len $blogs }}</span>
-        </button>
-        <button class="main-tab" data-tab="books">
-            Books <span class="tab-count">{{ len $books }}</span>
         </button>
     </div>
 
@@ -167,105 +159,9 @@
         </div>
     </div>
 
-    <!-- ========== BLOGS TAB ========== -->
-    <div id="tab-blogs" class="tab-content">
-        <div class="search-filters-row">
-            <div class="search-container">
-                <div class="search-input-wrapper">
-                    <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="11" cy="11" r="8"></circle>
-                        <path d="m21 21-4.35-4.35"></path>
-                    </svg>
-                    <input type="text" id="blogs-search" class="search-input" placeholder="Search blogs..." autocomplete="off">
-                </div>
-            </div>
-        </div>
-
-        <div id="blogs-count" class="result-count">{{ len $blogs }} blogs</div>
-
-        <div class="resources-grid">
-            <div class="category-section">
-                <div class="cards-row">
-                    {{ range $blogs }}
-                    <div class="resource-card" data-name="{{ .name | lower }}" data-description="{{ .description | lower }}">
-                        <div class="card-header">
-                            <img class="resource-favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
-                            <h3 class="resource-name">
-                                <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
-                            </h3>
-                        </div>
-                        <p class="resource-desc">{{ .description }}</p>
-                        <div class="card-footer">
-                            <a href="{{ .url }}" target="_blank" class="link-btn">Read</a>
-                        </div>
-                    </div>
-                    {{ end }}
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- ========== BOOKS TAB ========== -->
-    <div id="tab-books" class="tab-content">
-        {{ $bookCategories := slice }}
-        {{ range $books }}
-            {{ if not (in $bookCategories .category) }}
-                {{ $bookCategories = $bookCategories | append .category }}
-            {{ end }}
-        {{ end }}
-
-        <div class="search-filters-row">
-            <div class="search-container">
-                <div class="search-input-wrapper">
-                    <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="11" cy="11" r="8"></circle>
-                        <path d="m21 21-4.35-4.35"></path>
-                    </svg>
-                    <input type="text" id="books-search" class="search-input" placeholder="Search books..." autocomplete="off">
-                </div>
-            </div>
-            <select id="books-category" class="category-select">
-                <option value="all">All Topics</option>
-                {{ range $cat := sort $bookCategories }}
-                <option value="{{ $cat }}">{{ $cat }}</option>
-                {{ end }}
-            </select>
-        </div>
-
-        <div id="books-count" class="result-count">{{ len $books }} books</div>
-
-        <div class="resources-grid">
-            {{ range $cat := $bookCategories }}
-            <div class="category-section" data-section-category="{{ $cat }}">
-                <h2 class="category-title">{{ $cat }}</h2>
-                <div class="cards-row">
-                    {{ range $books }}
-                    {{ if eq .category $cat }}
-                    <div class="resource-card" data-name="{{ .name | lower }}" data-description="{{ .description | lower }}" data-category="{{ .category }}">
-                        <div class="card-header">
-                            <img class="resource-favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
-                            <h3 class="resource-name">
-                                <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
-                            </h3>
-                            <span class="resource-type">{{ .type }}</span>
-                        </div>
-                        <p class="resource-desc">{{ .description }}</p>
-                        <div class="card-footer">
-                            <span class="category-badge">{{ .category }}</span>
-                            <a href="{{ .url }}" target="_blank" class="link-btn">Read</a>
-                        </div>
-                    </div>
-                    {{ end }}
-                    {{ end }}
-                </div>
-            </div>
-            {{ end }}
-        </div>
-    </div>
-
     <!-- Footer -->
     <footer class="footer">
-        <p>Curated learning resources for tech economists</p>
+        <p>Curated talks and podcasts for tech economists</p>
     </footer>
 </div>
 
@@ -343,8 +239,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     setupTabSearch('podcasts-search', 'podcasts-category', 'podcasts-count', 'podcasts');
     setupTabSearch('videos-search', 'videos-category', 'videos-count', 'videos');
-    setupTabSearch('blogs-search', null, 'blogs-count', 'blogs');
-    setupTabSearch('books-search', 'books-category', 'books-count', 'books');
 });
 </script>
 {{ end }}
