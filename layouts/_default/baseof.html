@@ -6,6 +6,17 @@
     <title>{{ .Site.Title }}</title>
     <meta name="description" content="{{ .Site.Params.description }}">
 
+    <!-- Open Graph / Social Preview -->
+    <meta property="og:title" content="{{ .Site.Title }}">
+    <meta property="og:description" content="Real tools for applied economists in tech. Packages, datasets, and learning resources.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ .Site.BaseURL }}">
+    <meta property="og:image" content="{{ .Site.BaseURL }}og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ .Site.Title }}">
+    <meta name="twitter:description" content="Real tools for applied economists in tech.">
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}og-image.png">
+
     <!-- Favicons -->
     <link rel="icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}">
@@ -185,6 +196,7 @@
             <div class="sidebar-updated">
                 Updated {{ now.Format "Jan 2006" }}
             </div>
+            <div class="sidebar-visitors" id="visitor-count"></div>
         </div>
     </nav>
 
@@ -299,5 +311,19 @@
 
     <!-- GoatCounter Analytics -->
     <script data-goatcounter="https://tech-econ.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <script>
+        // Display visitor count once GoatCounter loads
+        (function check() {
+            if (window.goatcounter && window.goatcounter.visit_count) {
+                window.goatcounter.visit_count({
+                    append: '#visitor-count',
+                    type: 'html',
+                    no_branding: true
+                });
+            } else {
+                setTimeout(check, 100);
+            }
+        })();
+    </script>
 </body>
 </html>

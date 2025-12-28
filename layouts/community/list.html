@@ -67,9 +67,24 @@
             {{ end }}
         </div>
 
+        <!-- Practitioner Blogs -->
+        <div class="always-available">
+            <h3>Practitioner Blogs</h3>
+            <div class="online-communities">
+                {{ range .Site.Data.community }}
+                {{ if eq .category "Blogs" }}
+                <div class="online-community">
+                    <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+                    <span class="community-type">{{ .type }}</span>
+                </div>
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+
         <!-- Always Available - Online Communities -->
         <div class="always-available">
-            <h3>Always Available - Online Communities</h3>
+            <h3>Online Communities</h3>
             <div class="online-communities">
                 {{ range .Site.Data.community }}
                 {{ if eq .category "Online" }}
