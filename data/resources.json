@@ -208,10 +208,10 @@
     "level": "Intermediate"
   },
   {
-    "name": "Coding for Economists",
+    "name": "Coding for practitioners",
     "description": "Arthur Turrell's practical guide. Python basics through advanced workflows \u2014 built specifically for econ researchers.",
     "category": "Coding",
-    "url": "https://aeturrell.github.io/coding-for-economists/",
+    "url": "https://aeturrell.github.io/coding-for-researchers/",
     "type": "Online Book",
     "level": "Intro"
   },
@@ -393,7 +393,7 @@
   },
   {
     "name": "Michael Ostrovsky: Market Design Course",
-    "description": "Stanford GSB's market design expert. Course materials on auctions, matching markets, and platform economics. Advised Airbnb, LinkedIn, Google.",
+    "description": "Stanford GSB's market design expert. Course materials on auctions, matching markets, and platform dynamics. Advised Airbnb, LinkedIn, Google.",
     "category": "Auctions & Market Design",
     "url": "https://web.stanford.edu/~ost/",
     "type": "Course Notes",
@@ -409,7 +409,7 @@
   },
   {
     "name": "Uber Engineering",
-    "description": "Surge pricing, marketplace design, causal inference at scale. See how economists tackle real problems at Uber.",
+    "description": "Surge pricing, marketplace design, causal inference at scale. See how researchers tackle real problems at Uber.",
     "category": "Industry Blogs",
     "url": "https://www.uber.com/blog/engineering/",
     "type": "Blog",
@@ -433,7 +433,7 @@
   },
   {
     "name": "DoorDash Engineering",
-    "description": "Marketplace economics, delivery optimization, and experimentation. Great posts on real-time pricing and logistics.",
+    "description": "marketplace analytics, delivery optimization, and experimentation. Great posts on real-time pricing and logistics.",
     "category": "Industry Blogs",
     "url": "https://doordash.engineering/category/data-science-and-machine-learning/",
     "type": "Blog",
@@ -457,8 +457,8 @@
   },
   {
     "name": "Digitopoly (Joshua Gans)",
-    "description": "Platform economics and digital strategy from a leading IO economist. Network effects, two-sided markets, and antitrust.",
-    "category": "Economics & Strategy",
+    "description": "platform dynamics and digital strategy from a leading IO researcher. Network effects, two-sided markets, and antitrust.",
+    "category": "Strategy & Analytics",
     "url": "https://digitopoly.org/",
     "type": "Blog",
     "level": "Intermediate"
@@ -466,7 +466,7 @@
   {
     "name": "Stratechery (Ben Thompson)",
     "description": "The gold standard for tech strategy analysis. Aggregation theory, platform dynamics, and business model breakdowns.",
-    "category": "Economics & Strategy",
+    "category": "Strategy & Analytics",
     "url": "https://stratechery.com/",
     "type": "Blog",
     "level": "Advanced"
@@ -474,7 +474,7 @@
   {
     "name": "The Operating System (John Brewton)",
     "description": "The firm as a mechanism design problem. How zero marginal costs and network effects rewrote the economics of tech companies.",
-    "category": "Economics & Strategy",
+    "category": "Strategy & Analytics",
     "url": "https://www.operatingbyjohnbrewton.com/",
     "type": "Substack",
     "level": "Intermediate"
@@ -489,16 +489,16 @@
   },
   {
     "name": "Noahpinion (Noah Smith)",
-    "description": "Tech economics, AI, innovation, growth. Deep dives with data, accessible to non-specialists. The economist's tech newsletter.",
-    "category": "Economics & Strategy",
+    "description": "applied analytics, AI, innovation, growth. Deep dives with data, accessible to non-specialists. The researcher's tech newsletter.",
+    "category": "Strategy & Analytics",
     "url": "https://noahpinion.substack.com/",
     "type": "Substack",
     "level": "Intermediate"
   },
   {
     "name": "New Things Under the Sun (Matt Clancy)",
-    "description": "Innovation economics research summaries. Academic findings on R&D, productivity, and science \u2014 in plain language.",
-    "category": "Economics & Strategy",
+    "description": "innovation research research summaries. Academic findings on R&D, productivity, and science \u2014 in plain language.",
+    "category": "Strategy & Analytics",
     "url": "https://www.newthingsunderthesun.com/",
     "type": "Blog",
     "level": "Intermediate"
@@ -506,7 +506,7 @@
   {
     "name": "Platform Papers",
     "description": "Platform competition and network effects. Academics summarizing their own research on marketplaces and big tech.",
-    "category": "Economics & Strategy",
+    "category": "Strategy & Analytics",
     "url": "https://platformpapers.substack.com/",
     "type": "Substack",
     "level": "Advanced"
@@ -514,7 +514,7 @@
   {
     "name": "Marginal Revolution (Tyler Cowen)",
     "description": "The econ blog. Tech, innovation, markets \u2014 prolific, eclectic, and influential. A daily must-read.",
-    "category": "Economics & Strategy",
+    "category": "Strategy & Analytics",
     "url": "https://marginalrevolution.com/",
     "type": "Blog",
     "level": "Intermediate"
@@ -522,7 +522,7 @@
   {
     "name": "Ben Evans Newsletter",
     "description": "Tech market trends and strategic analysis. What's happening in tech and why it matters.",
-    "category": "Economics & Strategy",
+    "category": "Strategy & Analytics",
     "url": "https://www.ben-evans.com/newsletter",
     "type": "Newsletter",
     "level": "Intermediate"
@@ -673,7 +673,7 @@
   },
   {
     "name": "Python for Econometrics",
-    "description": "Kevin Sheppard's comprehensive intro for economists. NumPy, pandas, statsmodels, and econometric applications.",
+    "description": "Kevin Sheppard's comprehensive intro for researchers. NumPy, pandas, statsmodels, and econometric applications.",
     "category": "Coding",
     "url": "https://bashtage.github.io/kevinsheppard.com/teaching/python/notes/",
     "type": "Online Book",
@@ -785,7 +785,7 @@
   },
   {
     "name": "Market Design (Roth)",
-    "description": "Alvin Roth's Nobel lecture on matching markets. Stability, unraveling \u2014 essential for marketplace economics.",
+    "description": "Alvin Roth's Nobel lecture on matching markets. Stability, unraveling \u2014 essential for marketplace analytics.",
     "category": "Monographs",
     "url": "https://www.nobelprize.org/uploads/2018/06/roth-lecture.pdf",
     "type": "Lecture",
@@ -794,7 +794,7 @@
   {
     "name": "Adam Fishman Newsletter",
     "description": "Ex-Patreon/Reforge. Growth loops, product strategy, and how to structure product analytics.",
-    "category": "Economics & Strategy",
+    "category": "Strategy & Analytics",
     "url": "https://www.fishmanafnewsletter.com/",
     "type": "Newsletter",
     "level": "Intermediate"

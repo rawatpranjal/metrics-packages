@@ -290,7 +290,7 @@
     "tags": [
       "causal inference",
       "experiments",
-      "economics"
+      "research"
     ]
   },
   {
@@ -301,7 +301,7 @@
     "docs_url": null,
     "github_url": null,
     "tags": [
-      "development economics",
+      "development",
       "RCT",
       "policy"
     ]
@@ -847,7 +847,7 @@
     "github_url": null,
     "tags": [
       "Walmart",
-      "macroeconomics",
+      "macro",
       "sales"
     ]
   },
@@ -1165,7 +1165,7 @@
     "tags": [
       "demand estimation",
       "BLP",
-      "economics",
+      "research",
       "classic"
     ]
   },
@@ -1626,7 +1626,7 @@
   },
   {
     "name": "NYC TLC Trip Records",
-    "description": "3B+ taxi and rideshare trips since 2009. Fares, tips, surge pricing, driver pay. The gold standard for marketplace economics",
+    "description": "3B+ taxi and rideshare trips since 2009. Fares, tips, surge pricing, driver pay. The gold standard for marketplace analytics",
     "category": "Transportation & Mobility",
     "url": "https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page",
     "docs_url": "https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf",
@@ -1713,7 +1713,7 @@
   },
   {
     "name": "Wikipedia Pageviews",
-    "description": "296B views/year since 2007. Hourly pageview data for all Wikimedia projects. Attention economics at scale",
+    "description": "296B views/year since 2007. Hourly pageview data for all Wikimedia projects. attention metrics at scale",
     "category": "Social & Web",
     "url": "https://dumps.wikimedia.org/other/pageviews/",
     "docs_url": "https://dumps.wikimedia.org/other/pageviews/readme.html",
@@ -1743,7 +1743,7 @@
   },
   {
     "name": "Stack Overflow Data Dump",
-    "description": "Full Q&A archive + annual developer survey (49K+ responses). Salaries, tech adoption, developer economics",
+    "description": "Full Q&A archive + annual developer survey (49K+ responses). Salaries, tech adoption, developer analytics",
     "category": "Social & Web",
     "url": "https://archive.org/details/stackexchange",
     "docs_url": "https://survey.stackoverflow.co/",
@@ -1780,7 +1780,7 @@
     "tags": [
       "search trends",
       "nowcasting",
-      "economics",
+      "research",
       "time-series"
     ]
   },
@@ -2273,7 +2273,7 @@
     "docs_url": null,
     "github_url": null,
     "tags": [
-      "economics",
+      "research",
       "research",
       "NBER",
       "demographics",
@@ -2373,7 +2373,7 @@
   },
   {
     "name": "ORBITAAL Bitcoin Transactions",
-    "description": "13 years of Bitcoin transaction graphs (2009-2022). Complete blockchain with labeled entities. Network economics at scale",
+    "description": "13 years of Bitcoin transaction graphs (2009-2022). Complete blockchain with labeled entities. network analysis at scale",
     "category": "Financial Services",
     "url": "https://zenodo.org/records/7958648",
     "docs_url": null,
@@ -2382,7 +2382,7 @@
       "Bitcoin",
       "blockchain",
       "transactions",
-      "network economics",
+      "network analysis",
       "cryptocurrency"
     ]
   },
@@ -2448,7 +2448,7 @@
   },
   {
     "name": "USASpending Federal Awards",
-    "description": "All federal contracts, grants, loans since 2001. 400+ variables, $50T+ in awards. Government procurement economics",
+    "description": "All federal contracts, grants, loans since 2001. 400+ variables, $50T+ in awards. Government procurement analytics",
     "category": "Data Portals",
     "url": "https://www.usaspending.gov/download_center/award_data_archive",
     "docs_url": "https://www.usaspending.gov/data-dictionary",
@@ -2478,7 +2478,7 @@
   },
   {
     "name": "PatentsView",
-    "description": "13M+ US patents (1976-present) with citations, inventors, assignees. Full patent text and claims. Innovation economics at scale",
+    "description": "13M+ US patents (1976-present) with citations, inventors, assignees. Full patent text and claims. innovation research at scale",
     "category": "Data Portals",
     "url": "https://patentsview.org/download/data-download-tables",
     "docs_url": "https://patentsview.org/download/data-download-dictionary",
@@ -2569,7 +2569,7 @@
   },
   {
     "name": "Google BigQuery Crypto",
-    "description": "8 complete blockchain histories (Bitcoin, Ethereum, etc.) with daily updates. Transaction-level data for crypto economics research",
+    "description": "8 complete blockchain histories (Bitcoin, Ethereum, etc.) with daily updates. Transaction-level data for crypto analytics research",
     "category": "Financial Services",
     "url": "https://cloud.google.com/bigquery/public-data",
     "docs_url": "https://cloud.google.com/blog/products/data-analytics/introducing-six-new-cryptocurrencies-in-bigquery-public-datasets",
@@ -2674,7 +2674,7 @@
   },
   {
     "name": "Twitch Streaming Dataset",
-    "description": "16 days of viewer counts, stream metadata, game categories from Oct 2017. Live streaming platform economics",
+    "description": "16 days of viewer counts, stream metadata, game categories from Oct 2017. Live streaming platform dynamics",
     "category": "Entertainment & Media",
     "url": "https://github.com/mingt2019/Twitch-Dataset",
     "docs_url": null,
@@ -2868,7 +2868,7 @@
   },
   {
     "name": "Glassdoor Reviews",
-    "description": "Company ratings, salary reports, interview experiences. Employer review platform data for labor economics",
+    "description": "Company ratings, salary reports, interview experiences. Employer review platform data for labor analytics",
     "category": "Labor Markets",
     "url": "https://www.glassdoor.com/research/",
     "docs_url": null,
@@ -3042,7 +3042,7 @@
   },
   {
     "name": "Medicare Provider Utilization",
-    "description": "All Medicare providers with service utilization and payment data. CMS public use files for healthcare economics",
+    "description": "All Medicare providers with service utilization and payment data. CMS public use files for healthcare analytics",
     "category": "Healthcare",
     "url": "https://data.cms.gov/provider-summary-by-type-of-service",
     "docs_url": "https://data.cms.gov/",
@@ -3169,7 +3169,7 @@
   },
   {
     "name": "Stack Overflow Developer Survey",
-    "description": "49K+ annual responses with salaries, tech adoption, and developer economics",
+    "description": "49K+ annual responses with salaries, tech adoption, and developer analytics",
     "category": "Labor Markets",
     "url": "https://survey.stackoverflow.co/",
     "docs_url": null,

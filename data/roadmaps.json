@@ -1,179 +1,495 @@
 [
   {
     "name": "Learn Python",
-    "description": "Programming fundamentals for economists — data manipulation, visualization, and workflows",
+    "description": "Programming fundamentals for researchers \u2014 data manipulation, visualization, and workflows",
     "icon": "code",
     "resources": [
-      {"name": "Coding for Economists", "why": "Built specifically for econ researchers", "url": "https://aeturrell.github.io/coding-for-economists/"},
-      {"name": "The Missing Semester (MIT)", "why": "Git, shell, debugging — skills they don't teach in PhD programs", "url": "https://missing.csail.mit.edu/"},
-      {"name": "Python for Econometrics", "why": "NumPy, pandas, statsmodels from Kevin Sheppard", "url": "https://www.kevinsheppard.com/teaching/python/"},
-      {"name": "Python Data Science Handbook", "why": "Free reference for NumPy, Pandas, Matplotlib", "url": "https://jakevdp.github.io/PythonDataScienceHandbook/"}
+      {
+        "name": "Coding for practitioners",
+        "why": "Built specifically for econ researchers",
+        "url": "https://aeturrell.github.io/coding-for-researchers/"
+      },
+      {
+        "name": "The Missing Semester (MIT)",
+        "why": "Git, shell, debugging \u2014 skills they don't teach in PhD programs",
+        "url": "https://missing.csail.mit.edu/"
+      },
+      {
+        "name": "Python for Econometrics",
+        "why": "NumPy, pandas, statsmodels from Kevin Sheppard",
+        "url": "https://www.kevinsheppard.com/teaching/python/"
+      },
+      {
+        "name": "Python Data Science Handbook",
+        "why": "Free reference for NumPy, Pandas, Matplotlib",
+        "url": "https://jakevdp.github.io/PythonDataScienceHandbook/"
+      }
     ],
     "packages": [
-      {"name": "pandas", "why": "Data manipulation and analysis", "url": "https://pandas.pydata.org/"},
-      {"name": "numpy", "why": "Numerical computing foundation", "url": "https://numpy.org/"},
-      {"name": "matplotlib", "why": "Basic visualization", "url": "https://matplotlib.org/"},
-      {"name": "jupyter", "why": "Interactive notebooks for exploration", "url": "https://jupyter.org/"}
+      {
+        "name": "pandas",
+        "why": "Data manipulation and analysis",
+        "url": "https://pandas.pydata.org/"
+      },
+      {
+        "name": "numpy",
+        "why": "Numerical computing foundation",
+        "url": "https://numpy.org/"
+      },
+      {
+        "name": "matplotlib",
+        "why": "Basic visualization",
+        "url": "https://matplotlib.org/"
+      },
+      {
+        "name": "jupyter",
+        "why": "Interactive notebooks for exploration",
+        "url": "https://jupyter.org/"
+      }
     ],
     "order": 1
   },
   {
     "name": "Learn Statistics",
-    "description": "Hypothesis testing, inference, and distributions — the foundation for empirical work",
+    "description": "Hypothesis testing, inference, and distributions \u2014 the foundation for empirical work",
     "icon": "chart",
     "resources": [
-      {"name": "StatQuest (Josh Starmer)", "why": "Visual intuition for stats — the 'Bill Nye of Statistics'", "url": "https://www.youtube.com/@statquest"},
-      {"name": "Seeing Theory (Brown)", "why": "Beautiful interactive visualizations for building intuition", "url": "https://seeing-theory.brown.edu/"},
-      {"name": "Think Stats", "why": "Programming-first approach with real datasets", "url": "https://greenteapress.com/thinkstats2/"},
-      {"name": "Scipy.stats Documentation", "why": "Reference for distributions and tests", "url": "https://docs.scipy.org/doc/scipy/reference/stats.html"}
+      {
+        "name": "StatQuest (Josh Starmer)",
+        "why": "Visual intuition for stats \u2014 the 'Bill Nye of Statistics'",
+        "url": "https://www.youtube.com/@statquest"
+      },
+      {
+        "name": "Seeing Theory (Brown)",
+        "why": "Beautiful interactive visualizations for building intuition",
+        "url": "https://seeing-theory.brown.edu/"
+      },
+      {
+        "name": "Think Stats",
+        "why": "Programming-first approach with real datasets",
+        "url": "https://greenteapress.com/thinkstats2/"
+      },
+      {
+        "name": "Scipy.stats Documentation",
+        "why": "Reference for distributions and tests",
+        "url": "https://docs.scipy.org/doc/scipy/reference/stats.html"
+      }
     ],
     "packages": [
-      {"name": "scipy", "why": "Statistical functions and distributions", "url": "https://scipy.org/"},
-      {"name": "statsmodels", "why": "OLS, GLM, and classical econometrics", "url": "https://www.statsmodels.org/"},
-      {"name": "pingouin", "why": "ANOVA, t-tests, and correlations made easy", "url": "https://pingouin-stats.org/"},
-      {"name": "lifelines", "why": "Survival analysis and hazard models", "url": "https://lifelines.readthedocs.io/"}
+      {
+        "name": "scipy",
+        "why": "Statistical functions and distributions",
+        "url": "https://scipy.org/"
+      },
+      {
+        "name": "statsmodels",
+        "why": "OLS, GLM, and classical econometrics",
+        "url": "https://www.statsmodels.org/"
+      },
+      {
+        "name": "pingouin",
+        "why": "ANOVA, t-tests, and correlations made easy",
+        "url": "https://pingouin-stats.org/"
+      },
+      {
+        "name": "lifelines",
+        "why": "Survival analysis and hazard models",
+        "url": "https://lifelines.readthedocs.io/"
+      }
     ],
     "order": 2
   },
   {
     "name": "Learn ML",
-    "description": "Prediction, tree models, and cross-validation — for forecasting and pattern recognition",
+    "description": "Prediction, tree models, and cross-validation \u2014 for forecasting and pattern recognition",
     "icon": "brain",
     "resources": [
-      {"name": "Introduction to Statistical Learning", "why": "Free, runnable Python code, intuition first", "url": "https://www.statlearning.com/"},
-      {"name": "Google ML Crash Course", "why": "130+ interactive exercises, refreshed 2024", "url": "https://developers.google.com/machine-learning/crash-course"},
-      {"name": "Hands-On Machine Learning (Géron)", "why": "Production-focused, complements ISLR's statistical focus", "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/"},
-      {"name": "fast.ai Practical Deep Learning", "why": "Code first, theory second", "url": "https://course.fast.ai/"},
-      {"name": "Andrew Ng's ML Specialization", "why": "The classic introduction, rebuilt 2022 with Python", "url": "https://www.coursera.org/specializations/machine-learning-introduction"},
-      {"name": "Andrew Ng's Deep Learning Specialization", "why": "CNNs, RNNs, and transformers from the master", "url": "https://www.coursera.org/specializations/deep-learning"}
+      {
+        "name": "Introduction to Statistical Learning",
+        "why": "Free, runnable Python code, intuition first",
+        "url": "https://www.statlearning.com/"
+      },
+      {
+        "name": "Google ML Crash Course",
+        "why": "130+ interactive exercises, refreshed 2024",
+        "url": "https://developers.google.com/machine-learning/crash-course"
+      },
+      {
+        "name": "Hands-On Machine Learning (G\u00e9ron)",
+        "why": "Production-focused, complements ISLR's statistical focus",
+        "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/"
+      },
+      {
+        "name": "fast.ai Practical Deep Learning",
+        "why": "Code first, theory second",
+        "url": "https://course.fast.ai/"
+      },
+      {
+        "name": "Andrew Ng's ML Specialization",
+        "why": "The classic introduction, rebuilt 2022 with Python",
+        "url": "https://www.coursera.org/specializations/machine-learning-introduction"
+      },
+      {
+        "name": "Andrew Ng's Deep Learning Specialization",
+        "why": "CNNs, RNNs, and transformers from the master",
+        "url": "https://www.coursera.org/specializations/deep-learning"
+      }
     ],
     "packages": [
-      {"name": "scikit-learn", "why": "The go-to library for classical ML", "url": "https://scikit-learn.org/"},
-      {"name": "XGBoost", "why": "Gradient boosting for tabular data", "url": "https://xgboost.readthedocs.io/"},
-      {"name": "LightGBM", "why": "Fast gradient boosting from Microsoft", "url": "https://lightgbm.readthedocs.io/"},
-      {"name": "CatBoost", "why": "Handles categorical features natively", "url": "https://catboost.ai/"}
+      {
+        "name": "scikit-learn",
+        "why": "The go-to library for classical ML",
+        "url": "https://scikit-learn.org/"
+      },
+      {
+        "name": "XGBoost",
+        "why": "Gradient boosting for tabular data",
+        "url": "https://xgboost.readthedocs.io/"
+      },
+      {
+        "name": "LightGBM",
+        "why": "Fast gradient boosting from Microsoft",
+        "url": "https://lightgbm.readthedocs.io/"
+      },
+      {
+        "name": "CatBoost",
+        "why": "Handles categorical features natively",
+        "url": "https://catboost.ai/"
+      }
     ],
     "order": 3
   },
   {
     "name": "Learn Causal Inference",
-    "description": "Treatment effects, DiD, RDD, and IV — answer 'what if' questions with data",
+    "description": "Treatment effects, DiD, RDD, and IV \u2014 answer 'what if' questions with data",
     "icon": "target",
     "resources": [
-      {"name": "Causal Inference for the Brave and True", "why": "The best free intro with Python code", "url": "https://matheusfacure.github.io/python-causality-handbook/"},
-      {"name": "The Effect", "why": "DAGs that don't suck, readable and modern", "url": "https://theeffectbook.net/"},
-      {"name": "Causal Inference: The Mixtape", "why": "Reads like a conversation, not a textbook", "url": "https://mixtape.scunning.com/"}
+      {
+        "name": "Causal Inference for the Brave and True",
+        "why": "The best free intro with Python code",
+        "url": "https://matheusfacure.github.io/python-causality-handbook/"
+      },
+      {
+        "name": "The Effect",
+        "why": "DAGs that don't suck, readable and modern",
+        "url": "https://theeffectbook.net/"
+      },
+      {
+        "name": "Causal Inference: The Mixtape",
+        "why": "Reads like a conversation, not a textbook",
+        "url": "https://mixtape.scunning.com/"
+      }
     ],
     "packages": [
-      {"name": "DoWhy", "why": "End-to-end causal inference with DAGs", "url": "https://www.pywhy.org/dowhy/"},
-      {"name": "EconML", "why": "Heterogeneous treatment effects from Microsoft", "url": "https://econml.azurewebsites.net/"},
-      {"name": "CausalML", "why": "Uber's toolkit for uplift modeling", "url": "https://causalml.readthedocs.io/"},
-      {"name": "DoubleML", "why": "Double/debiased machine learning", "url": "https://docs.doubleml.org/"}
+      {
+        "name": "DoWhy",
+        "why": "End-to-end causal inference with DAGs",
+        "url": "https://www.pywhy.org/dowhy/"
+      },
+      {
+        "name": "EconML",
+        "why": "Heterogeneous treatment effects from Microsoft",
+        "url": "https://econml.azurewebsites.net/"
+      },
+      {
+        "name": "CausalML",
+        "why": "Uber's toolkit for uplift modeling",
+        "url": "https://causalml.readthedocs.io/"
+      },
+      {
+        "name": "DoubleML",
+        "why": "Double/debiased machine learning",
+        "url": "https://docs.doubleml.org/"
+      }
     ],
     "order": 4
   },
   {
     "name": "Learn Product Sense",
-    "description": "Metrics, experimentation, and business thinking — bridge economics and product decisions",
+    "description": "Metrics, experimentation, and business thinking \u2014 bridge economics and product decisions",
     "icon": "flask",
     "resources": [
-      {"name": "Trustworthy Online Controlled Experiments (Kohavi)", "why": "THE definitive book — praised by Jeff Dean and Adam D'Angelo", "url": "https://experimentguide.com/"},
-      {"name": "Eppo's Experimentation Guides", "why": "Practical, written by practitioners", "url": "https://www.geteppo.com/blog"},
-      {"name": "GrowthBook Documentation", "why": "Free, open-source, structured learning path", "url": "https://docs.growthbook.io/"},
-      {"name": "Evan Miller: How Not To Run an A/B Test", "why": "Short, lethal, career-saving", "url": "https://www.evanmiller.org/how-not-to-run-an-ab-test.html"},
-      {"name": "Netflix Tech Blog - Experimentation", "why": "Real case studies at scale", "url": "https://netflixtechblog.com/tagged/experimentation"}
+      {
+        "name": "Trustworthy Online Controlled Experiments (Kohavi)",
+        "why": "THE definitive book \u2014 praised by Jeff Dean and Adam D'Angelo",
+        "url": "https://experimentguide.com/"
+      },
+      {
+        "name": "Eppo's Experimentation Guides",
+        "why": "Practical, written by practitioners",
+        "url": "https://www.geteppo.com/blog"
+      },
+      {
+        "name": "GrowthBook Documentation",
+        "why": "Free, open-source, structured learning path",
+        "url": "https://docs.growthbook.io/"
+      },
+      {
+        "name": "Evan Miller: How Not To Run an A/B Test",
+        "why": "Short, lethal, career-saving",
+        "url": "https://www.evanmiller.org/how-not-to-run-an-ab-test.html"
+      },
+      {
+        "name": "Netflix Tech Blog - Experimentation",
+        "why": "Real case studies at scale",
+        "url": "https://netflixtechblog.com/tagged/experimentation"
+      }
     ],
     "packages": [
-      {"name": "Spotify Confidence", "why": "Production-grade A/B testing", "url": "https://github.com/spotify/confidence"},
-      {"name": "GrowthBook SDK", "why": "Feature flags and experiments", "url": "https://docs.growthbook.io/"},
-      {"name": "Ax", "why": "Meta's adaptive experimentation platform", "url": "https://ax.dev/"}
+      {
+        "name": "Spotify Confidence",
+        "why": "Production-grade A/B testing",
+        "url": "https://github.com/spotify/confidence"
+      },
+      {
+        "name": "GrowthBook SDK",
+        "why": "Feature flags and experiments",
+        "url": "https://docs.growthbook.io/"
+      },
+      {
+        "name": "Ax",
+        "why": "Meta's adaptive experimentation platform",
+        "url": "https://ax.dev/"
+      }
     ],
     "order": 5
   },
   {
     "name": "Learn SQL",
-    "description": "Querying data, joins, and aggregations — essential for any data role",
+    "description": "Querying data, joins, and aggregations \u2014 essential for any data role",
     "icon": "database",
     "resources": [
-      {"name": "SQLBolt", "why": "No setup, run queries in browser — start here", "url": "https://sqlbolt.com/"},
-      {"name": "Mode SQL Tutorial", "why": "Interactive lessons with real database", "url": "https://mode.com/sql-tutorial/"},
-      {"name": "SELECT Star SQL", "why": "Interactive book teaching SQL through meaningful analysis", "url": "https://selectstarsql.com/"},
-      {"name": "8 Week SQL Challenge (Danny Ma)", "why": "8 business case studies with CTEs and window functions", "url": "https://8weeksqlchallenge.com/"},
-      {"name": "DataLemur", "why": "Real DS interview questions with business context", "url": "https://datalemur.com/"}
+      {
+        "name": "SQLBolt",
+        "why": "No setup, run queries in browser \u2014 start here",
+        "url": "https://sqlbolt.com/"
+      },
+      {
+        "name": "Mode SQL Tutorial",
+        "why": "Interactive lessons with real database",
+        "url": "https://mode.com/sql-tutorial/"
+      },
+      {
+        "name": "SELECT Star SQL",
+        "why": "Interactive book teaching SQL through meaningful analysis",
+        "url": "https://selectstarsql.com/"
+      },
+      {
+        "name": "8 Week SQL Challenge (Danny Ma)",
+        "why": "8 business case studies with CTEs and window functions",
+        "url": "https://8weeksqlchallenge.com/"
+      },
+      {
+        "name": "DataLemur",
+        "why": "Real DS interview questions with business context",
+        "url": "https://datalemur.com/"
+      }
     ],
     "packages": [
-      {"name": "duckdb", "why": "Modern SQL on your laptop, reads Parquet", "url": "https://duckdb.org/"},
-      {"name": "sqlalchemy", "why": "Python's database toolkit", "url": "https://www.sqlalchemy.org/"},
-      {"name": "pandasql", "why": "SQL syntax on pandas DataFrames", "url": "https://github.com/yhat/pandasql"}
+      {
+        "name": "duckdb",
+        "why": "Modern SQL on your laptop, reads Parquet",
+        "url": "https://duckdb.org/"
+      },
+      {
+        "name": "sqlalchemy",
+        "why": "Python's database toolkit",
+        "url": "https://www.sqlalchemy.org/"
+      },
+      {
+        "name": "pandasql",
+        "why": "SQL syntax on pandas DataFrames",
+        "url": "https://github.com/yhat/pandasql"
+      }
     ],
     "order": 6
   },
   {
     "name": "Learn LeetCode",
-    "description": "Data structures and algorithms for coding interviews — learn foundations first, then grind",
+    "description": "Data structures and algorithms for coding interviews \u2014 learn foundations first, then grind",
     "icon": "puzzle",
     "resources": [
-      {"name": "Structy", "why": "Designed for true beginners, progressive difficulty ($60/yr)", "url": "https://structy.net/"},
-      {"name": "Abdul Bari (YouTube)", "why": "Exceptional whiteboard DSA explanations", "url": "https://www.youtube.com/@abdul_bari"},
-      {"name": "NeetCode", "why": "Curated roadmap with video explanations", "url": "https://neetcode.io/"},
-      {"name": "Blind 75 / Grind 75", "why": "The 75 problems you need to master", "url": "https://www.techinterviewhandbook.org/grind75"},
-      {"name": "LeetCode Patterns", "why": "14 patterns to solve any question", "url": "https://seanprashad.com/leetcode-patterns/"}
+      {
+        "name": "Structy",
+        "why": "Designed for true beginners, progressive difficulty ($60/yr)",
+        "url": "https://structy.net/"
+      },
+      {
+        "name": "Abdul Bari (YouTube)",
+        "why": "Exceptional whiteboard DSA explanations",
+        "url": "https://www.youtube.com/@abdul_bari"
+      },
+      {
+        "name": "NeetCode",
+        "why": "Curated roadmap with video explanations",
+        "url": "https://neetcode.io/"
+      },
+      {
+        "name": "Blind 75 / Grind 75",
+        "why": "The 75 problems you need to master",
+        "url": "https://www.techinterviewhandbook.org/grind75"
+      },
+      {
+        "name": "LeetCode Patterns",
+        "why": "14 patterns to solve any question",
+        "url": "https://seanprashad.com/leetcode-patterns/"
+      }
     ],
     "packages": [],
     "order": 7
   },
   {
     "name": "Learn Automation",
-    "description": "Web scraping, APIs, and workflow automation — collect and process data at scale",
+    "description": "Web scraping, APIs, and workflow automation \u2014 collect and process data at scale",
     "icon": "robot",
     "resources": [
-      {"name": "Automate the Boring Stuff with Python", "why": "Free, practical skills for data work", "url": "https://automatetheboringstuff.com/"},
-      {"name": "Postman Academy", "why": "Free API certification path — often more useful than scraping", "url": "https://academy.postman.com/"},
-      {"name": "Real Python: Web Scraping", "why": "BeautifulSoup and requests guide", "url": "https://realpython.com/beautiful-soup-web-scraper-python/"},
-      {"name": "Playwright for Python", "why": "Modern browser automation (faster than Selenium)", "url": "https://playwright.dev/python/"},
-      {"name": "Scrapy Documentation", "why": "Industrial-strength web scraping", "url": "https://docs.scrapy.org/"}
+      {
+        "name": "Automate the Boring Stuff with Python",
+        "why": "Free, practical skills for data work",
+        "url": "https://automatetheboringstuff.com/"
+      },
+      {
+        "name": "Postman Academy",
+        "why": "Free API certification path \u2014 often more useful than scraping",
+        "url": "https://academy.postman.com/"
+      },
+      {
+        "name": "Real Python: Web Scraping",
+        "why": "BeautifulSoup and requests guide",
+        "url": "https://realpython.com/beautiful-soup-web-scraper-python/"
+      },
+      {
+        "name": "Playwright for Python",
+        "why": "Modern browser automation (faster than Selenium)",
+        "url": "https://playwright.dev/python/"
+      },
+      {
+        "name": "Scrapy Documentation",
+        "why": "Industrial-strength web scraping",
+        "url": "https://docs.scrapy.org/"
+      }
     ],
     "packages": [
-      {"name": "requests", "why": "HTTP for humans — start here", "url": "https://requests.readthedocs.io/"},
-      {"name": "beautifulsoup4", "why": "Parse HTML the simple way", "url": "https://www.crummy.com/software/BeautifulSoup/"},
-      {"name": "playwright", "why": "Modern browser automation from Microsoft", "url": "https://playwright.dev/python/"},
-      {"name": "scrapy", "why": "Production web scraping framework", "url": "https://scrapy.org/"}
+      {
+        "name": "requests",
+        "why": "HTTP for humans \u2014 start here",
+        "url": "https://requests.readthedocs.io/"
+      },
+      {
+        "name": "beautifulsoup4",
+        "why": "Parse HTML the simple way",
+        "url": "https://www.crummy.com/software/BeautifulSoup/"
+      },
+      {
+        "name": "playwright",
+        "why": "Modern browser automation from Microsoft",
+        "url": "https://playwright.dev/python/"
+      },
+      {
+        "name": "scrapy",
+        "why": "Production web scraping framework",
+        "url": "https://scrapy.org/"
+      }
     ],
     "order": 8
   },
   {
     "name": "Learn Optimization (OR)",
-    "description": "Linear programming, convex optimization, and combinatorial methods — solve pricing, scheduling, and allocation problems",
+    "description": "Linear programming, convex optimization, and combinatorial methods \u2014 solve pricing, scheduling, and allocation problems",
     "icon": "trending",
     "resources": [
-      {"name": "Convex Optimization (Boyd & Vandenberghe)", "why": "The bible — free online, universally cited", "url": "https://web.stanford.edu/~boyd/cvxbook/"},
-      {"name": "Stanford EE364A (YouTube)", "why": "Boyd's legendary lectures — the gold standard", "url": "https://www.youtube.com/playlist?list=PL3940DD956CDF0622"},
-      {"name": "Discrete Optimization (Coursera)", "why": "Van Hentenryck's course — actually makes you implement", "url": "https://www.coursera.org/learn/solving-algorithms-discrete-optimization"},
-      {"name": "CVXPY Short Course", "why": "Hands-on convex optimization in Python", "url": "https://web.stanford.edu/~boyd/papers/cvx_short_course.html"}
+      {
+        "name": "Convex Optimization (Boyd & Vandenberghe)",
+        "why": "The bible \u2014 free online, universally cited",
+        "url": "https://web.stanford.edu/~boyd/cvxbook/"
+      },
+      {
+        "name": "Stanford EE364A (YouTube)",
+        "why": "Boyd's legendary lectures \u2014 the gold standard",
+        "url": "https://www.youtube.com/playlist?list=PL3940DD956CDF0622"
+      },
+      {
+        "name": "Discrete Optimization (Coursera)",
+        "why": "Van Hentenryck's course \u2014 actually makes you implement",
+        "url": "https://www.coursera.org/learn/solving-algorithms-discrete-optimization"
+      },
+      {
+        "name": "CVXPY Short Course",
+        "why": "Hands-on convex optimization in Python",
+        "url": "https://web.stanford.edu/~boyd/papers/cvx_short_course.html"
+      }
     ],
     "packages": [
-      {"name": "cvxpy", "why": "Write math as code — the standard for convex problems", "url": "https://www.cvxpy.org/"},
-      {"name": "scipy.optimize", "why": "Built into SciPy — start here for basics", "url": "https://docs.scipy.org/doc/scipy/reference/optimize.html"},
-      {"name": "OR-Tools", "why": "Google's production-ready combinatorial optimization", "url": "https://developers.google.com/optimization"},
-      {"name": "Gurobi", "why": "Best-in-class solver — free for academics", "url": "https://www.gurobi.com/"}
+      {
+        "name": "cvxpy",
+        "why": "Write math as code \u2014 the standard for convex problems",
+        "url": "https://www.cvxpy.org/"
+      },
+      {
+        "name": "scipy.optimize",
+        "why": "Built into SciPy \u2014 start here for basics",
+        "url": "https://docs.scipy.org/doc/scipy/reference/optimize.html"
+      },
+      {
+        "name": "OR-Tools",
+        "why": "Google's production-ready combinatorial optimization",
+        "url": "https://developers.google.com/optimization"
+      },
+      {
+        "name": "Gurobi",
+        "why": "Best-in-class solver \u2014 free for academics",
+        "url": "https://www.gurobi.com/"
+      }
     ],
     "order": 9
   },
   {
     "name": "Learn Agentic Workflows",
-    "description": "Build AI agents that reason, plan, and execute — tool use, multi-agent systems, and orchestration",
+    "description": "Build AI agents that reason, plan, and execute \u2014 tool use, multi-agent systems, and orchestration",
     "icon": "robot",
     "resources": [
-      {"name": "Agentic AI (DeepLearning.AI)", "why": "Andrew Ng on the four design patterns — start here", "url": "https://www.deeplearning.ai/short-courses/ai-agentic-design-patterns-with-autogen/"},
-      {"name": "AI Agents in LangGraph (DeepLearning.AI)", "why": "Build agents from scratch with Harrison Chase", "url": "https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/"},
-      {"name": "Building Effective Agents (Anthropic)", "why": "Design patterns from Claude's creators — best practitioner guide", "url": "https://www.anthropic.com/research/building-effective-agents"},
-      {"name": "LangGraph Documentation", "why": "Official docs — the industry standard framework", "url": "https://langchain-ai.github.io/langgraph/"}
+      {
+        "name": "Agentic AI (DeepLearning.AI)",
+        "why": "Andrew Ng on the four design patterns \u2014 start here",
+        "url": "https://www.deeplearning.ai/short-courses/ai-agentic-design-patterns-with-autogen/"
+      },
+      {
+        "name": "AI Agents in LangGraph (DeepLearning.AI)",
+        "why": "Build agents from scratch with Harrison Chase",
+        "url": "https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/"
+      },
+      {
+        "name": "Building Effective Agents (Anthropic)",
+        "why": "Design patterns from Claude's creators \u2014 best practitioner guide",
+        "url": "https://www.anthropic.com/research/building-effective-agents"
+      },
+      {
+        "name": "LangGraph Documentation",
+        "why": "Official docs \u2014 the industry standard framework",
+        "url": "https://langchain-ai.github.io/langgraph/"
+      }
     ],
     "packages": [
-      {"name": "langgraph", "why": "Graph-based agent workflows — production standard", "url": "https://langchain-ai.github.io/langgraph/"},
-      {"name": "langchain", "why": "LLM framework — chains, tools, memory", "url": "https://python.langchain.com/"},
-      {"name": "crewai", "why": "Role-based multi-agent teams — intuitive orchestration", "url": "https://docs.crewai.com/"},
-      {"name": "openai-agents", "why": "OpenAI's lightweight SDK — fast prototyping", "url": "https://github.com/openai/openai-agents-python"}
+      {
+        "name": "langgraph",
+        "why": "Graph-based agent workflows \u2014 production standard",
+        "url": "https://langchain-ai.github.io/langgraph/"
+      },
+      {
+        "name": "langchain",
+        "why": "LLM framework \u2014 chains, tools, memory",
+        "url": "https://python.langchain.com/"
+      },
+      {
+        "name": "crewai",
+        "why": "Role-based multi-agent teams \u2014 intuitive orchestration",
+        "url": "https://docs.crewai.com/"
+      },
+      {
+        "name": "openai-agents",
+        "why": "OpenAI's lightweight SDK \u2014 fast prototyping",
+        "url": "https://github.com/openai/openai-agents-python"
+      }
     ],
     "order": 10
   }

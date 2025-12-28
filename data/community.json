@@ -1,7 +1,7 @@
 [
   {
     "name": "ASSA Annual Meeting",
-    "description": "Allied Social Science Associations annual meeting. The largest gathering of economists with sessions on tech economics, market design, and causal inference.",
+    "description": "Allied Social Science Associations annual meeting. The largest gathering of researchers with sessions on applied analytics, market design, and causal inference.",
     "category": "Conferences",
     "url": "https://www.aeaweb.org/conference/",
     "type": "Annual Conference",
@@ -91,7 +91,7 @@
   },
   {
     "name": "MIT Platform Strategy Summit",
-    "description": "Summit on platform economics, digital markets, and antitrust. Covers AI's effects on innovation, labor, and policy implications for tech platforms.",
+    "description": "Summit on platform dynamics, digital markets, and antitrust. Covers AI's effects on innovation, labor, and policy implications for tech platforms.",
     "category": "Conferences",
     "url": "https://ide.mit.edu/events/2025-mit-platform-strategy-summit/",
     "type": "Annual Summit",
@@ -109,7 +109,7 @@
   },
   {
     "name": "NABE Annual Conference",
-    "description": "National Association for Business Economics annual meeting. Brings together economists from industry, academia, and government to discuss economic policy and forecasting.",
+    "description": "National Association for Business Economics annual meeting. Brings together researchers from industry, academia, and government to discuss economic policy and forecasting.",
     "category": "Conferences",
     "url": "https://nabe.com/NABE/Events/Event_List",
     "type": "Annual Conference",
@@ -117,8 +117,8 @@
     "dates": "September (annually)"
   },
   {
-    "name": "NABE Tech Economics Conference",
-    "description": "NABE's conference for tech economists. Covers causal inference, AI, and experiments in action. Practitioners from major tech companies share insights.",
+    "name": "NABE applied analytics Conference",
+    "description": "NABE's conference for applied researchers. Covers causal inference, AI, and experiments in action. Practitioners from major tech companies share insights.",
     "category": "Conferences",
     "url": "https://www.nabe.com/",
     "type": "Annual Conference",
@@ -127,7 +127,7 @@
   },
   {
     "name": "NBER Summer Institute: Digital Economics",
-    "description": "NBER session on Digital Economics and AI. Research on digital surveillance, AI labor effects, and human-AI collaboration. Top academic economists.",
+    "description": "NBER session on Digital Economics and AI. Research on digital surveillance, AI labor effects, and human-AI collaboration. Top academic researchers.",
     "category": "Conferences",
     "url": "https://www.nber.org/conferences/si-2025-digital-economics-and-artificial-intelligence",
     "type": "Annual Conference",
@@ -145,7 +145,7 @@
   },
   {
     "name": "Stanford SITE",
-    "description": "Stanford Institute for Theoretical Economics summer sessions. Includes Empirical Market Design and Market Failures tracks relevant to tech economists.",
+    "description": "Stanford Institute for Theoretical Economics summer sessions. Includes Empirical Market Design and Market Failures tracks relevant to applied researchers.",
     "category": "Conferences",
     "url": "https://economics.stanford.edu/site/site-2025",
     "type": "Summer Institute",
@@ -244,7 +244,7 @@
   },
   {
     "name": "Apoorva Lal",
-    "description": "Amazon/Netflix economist. Causal inference notes, pyfixest maintainer, clean Python implementations of econometric methods.",
+    "description": "Amazon/Netflix researcher. Causal inference notes, pyfixest maintainer, clean Python implementations of econometric methods.",
     "category": "Blogs",
     "url": "https://apoorvalal.github.io/",
     "type": "Personal Blog",
@@ -280,7 +280,7 @@
   },
   {
     "name": "James Brand",
-    "description": "Microsoft economist. Demand estimation, cloud pricing, Julia packages for IO.",
+    "description": "Microsoft researcher. Demand estimation, cloud pricing, Julia packages for IO.",
     "category": "Blogs",
     "url": "https://www.jamesbrandecon.com/",
     "type": "Personal Blog",
@@ -298,7 +298,7 @@
   },
   {
     "name": "Paul Goldsmith-Pinkham",
-    "description": "Yale economist. 'A Causal Affair' substack with Reader's Digest breakdowns of Econometrica papers. Accessible yet rigorous causal inference.",
+    "description": "Yale researcher. 'A Causal Affair' substack with Reader's Digest breakdowns of Econometrica papers. Accessible yet rigorous causal inference.",
     "category": "Blogs",
     "url": "https://paulgp.substack.com/",
     "type": "Personal Blog",
@@ -334,7 +334,7 @@
   },
   {
     "name": "David McKenzie",
-    "description": "World Bank economist. Legendary methodology posts on randomization, power calculations, and missing data \u2014 directly applicable to A/B testing.",
+    "description": "World Bank researcher. Legendary methodology posts on randomization, power calculations, and missing data \u2014 directly applicable to A/B testing.",
     "category": "Blogs",
     "url": "https://blogs.worldbank.org/en/team/d/david-mckenzie",
     "type": "Personal Blog",
@@ -442,7 +442,7 @@
   },
   {
     "name": "Pranjal Rawat",
-    "description": "Tech economist. Posts on applied economics, causal inference, and data science in industry.",
+    "description": "applied researcher. Posts on applied research, causal inference, and data science in industry.",
     "category": "Blogs",
     "url": "https://pranjalrawat42.substack.com/",
     "type": "Personal Blog",
@@ -478,7 +478,7 @@
   },
   {
     "name": "Meta Core Data Science",
-    "description": "Experimentation at scale, network effects, peer effects, advertising economics. Led by Nicolas Stier-Moses (VP).",
+    "description": "Experimentation at scale, network effects, peer effects, advertising analytics. Led by Nicolas Stier-Moses (VP).",
     "category": "Research Labs",
     "url": "https://research.facebook.com/",
     "type": "Tech Lab",
@@ -505,7 +505,7 @@
   },
   {
     "name": "Amazon Science Economics",
-    "description": "Pricing Labs for A/B testing price changes, switchback experiments, marketplace economics at scale.",
+    "description": "Pricing Labs for A/B testing price changes, switchback experiments, marketplace analytics at scale.",
     "category": "Research Labs",
     "url": "https://amazon.science/research-areas/economics",
     "type": "Tech Lab",
@@ -525,7 +525,7 @@
     "name": "Salesforce AI Economist",
     "description": "Open-source framework for economic policy simulation using reinforcement learning. Multi-agent economic environments.",
     "category": "Research Labs",
-    "url": "https://github.com/salesforce/ai-economist",
+    "url": "https://github.com/salesforce/ai-researcher",
     "type": "Tech Lab",
     "location": "Salesforce",
     "dates": "Active"
@@ -568,7 +568,7 @@
   },
   {
     "name": "Opportunity Insights",
-    "description": "Raj Chetty's lab. Opportunity Atlas, Social Capital Atlas, Economic Tracker. Most widely-used public economics big data.",
+    "description": "Raj Chetty's lab. Opportunity Atlas, Social Capital Atlas, Economic Tracker. Most widely-used public policy big data.",
     "category": "Research Labs",
     "url": "https://opportunityinsights.org/",
     "type": "Academic Lab",

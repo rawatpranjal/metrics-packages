@@ -1770,8 +1770,8 @@
     "best_for": "Learning causal inference with Peng Ding's textbook"
   },
   {
-    "name": "Computational Methods for Economists",
-    "description": "Open-source textbook by Richard Evans on computational methods for economists using Python.",
+    "name": "Computational Methods for practitioners",
+    "description": "Open-source textbook by Richard Evans on computational methods for researchers using Python.",
     "category": "Inference & Reporting Tools",
     "docs_url": "https://opensourceecon.github.io/CompMethods/",
     "github_url": "https://github.com/OpenSourceEcon/CompMethods",
@@ -1801,11 +1801,11 @@
   },
   {
     "name": "Python Packages for Applied Economists",
-    "description": "Curated collection of Python packages for applied economists organized by functionality.",
+    "description": "Curated collection of Python packages for applied researchers organized by functionality.",
     "category": "Inference & Reporting Tools",
     "docs_url": null,
-    "github_url": "https://github.com/clibassi/python-packages-for-applied-economists",
-    "url": "https://github.com/clibassi/python-packages-for-applied-economists",
+    "github_url": "https://github.com/clibassi/python-packages-for-applied-researchers",
+    "url": "https://github.com/clibassi/python-packages-for-applied-researchers",
     "install": "",
     "tags": [
       "curated list",
@@ -2622,7 +2622,7 @@
   },
   {
     "name": "cvxpy",
-    "description": "Domain-specific language for convex optimization problems. Write math as code — the standard for convex problems.",
+    "description": "Domain-specific language for convex optimization problems. Write math as code \u2014 the standard for convex problems.",
     "category": "Optimization",
     "docs_url": "https://www.cvxpy.org/",
     "github_url": "https://github.com/cvxpy/cvxpy",
@@ -2648,7 +2648,7 @@
       "minimization",
       "root finding"
     ],
-    "best_for": "General-purpose optimization — start here for basics"
+    "best_for": "General-purpose optimization \u2014 start here for basics"
   },
   {
     "name": "ortools",
@@ -2680,7 +2680,7 @@
       "MIP",
       "commercial"
     ],
-    "best_for": "Best-in-class solver — free for academics"
+    "best_for": "Best-in-class solver \u2014 free for academics"
   },
   {
     "name": "langgraph",
@@ -2712,7 +2712,7 @@
       "tools",
       "RAG"
     ],
-    "best_for": "LLM framework — chains, tools, memory"
+    "best_for": "LLM framework \u2014 chains, tools, memory"
   },
   {
     "name": "crewai",
@@ -2744,6 +2744,6 @@
       "tools",
       "lightweight"
     ],
-    "best_for": "OpenAI's lightweight SDK — fast prototyping"
+    "best_for": "OpenAI's lightweight SDK \u2014 fast prototyping"
   }
 ]
