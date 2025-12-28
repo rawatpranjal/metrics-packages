@@ -31,9 +31,16 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: pip install sentence-transformers
 
       - name: Update package data
         run: python3 scripts/convert_readme.py
+
+      - name: Generate search embeddings
+        run: python3 scripts/generate_embeddings.py
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3

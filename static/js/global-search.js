@@ -23,7 +23,9 @@
     maxTotalResults: 20,
     recentSearchesKey: 'global-recent-searches',
     maxRecentSearches: 5,
-    suggestions: ['causal inference', 'experimentation', 'pricing', 'machine learning', 'A/B testing']
+    suggestions: ['causal inference', 'experimentation', 'pricing', 'machine learning', 'A/B testing'],
+    useVectorSearch: true,  // Enable semantic search
+    vectorSearchFallback: true  // Fall back to Fuse.js if vector search fails
   };
 
   // Type display configuration
@@ -70,6 +72,15 @@
       try {
         searchIndex = JSON.parse(dataEl.textContent);
         initFuse();
+
+        // Load vector embeddings asynchronously for semantic search
+        if (CONFIG.useVectorSearch && typeof VectorSearch !== 'undefined') {
+          VectorSearch.loadEmbeddings().then(function(loaded) {
+            if (loaded) {
+              console.log('[GlobalSearch] Vector search enabled');
+            }
+          });
+        }
       } catch (e) {
         console.error('Failed to parse search index:', e);
       }
@@ -163,9 +174,19 @@
     // Save to recent searches
     addRecentSearch(query);
 
-    var results = fuse.search(query);
+    var results;
+
+    // Try vector search first if available
+    if (CONFIG.useVectorSearch && typeof VectorSearch !== 'undefined' && VectorSearch.isLoaded) {
+      results = VectorSearch.search(query, fuse, CONFIG.maxTotalResults);
+    } else {
+      // Fall back to Fuse.js
+      results = fuse.search(query);
+    }
+
     currentResults = results.slice(0, CONFIG.maxTotalResults);
 
+    // Vector search always returns results, but check anyway
     if (currentResults.length === 0) {
       showEmpty();
       flatResults = [];

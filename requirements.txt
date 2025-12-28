@@ -1,3 +1,5 @@
-# Required for the README parser script
-# Note: The script uses only stdlib (subprocess, json, re)
-# No external dependencies needed
+# Required for scripts
+# convert_readme.py: uses stdlib only (subprocess, json, re)
+# generate_embeddings.py: requires sentence-transformers for vector search
+
+sentence-transformers>=2.2.0
