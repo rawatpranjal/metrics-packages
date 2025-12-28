@@ -1118,11 +1118,11 @@ a:hover {
 }
 
 .hero-logo {
-    width: 120px;
-    height: 120px;
-    margin-bottom: 1rem;
+    width: 64px;
+    height: 64px;
+    margin-bottom: 0.75rem;
     border-radius: 50%;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .hero-title {
