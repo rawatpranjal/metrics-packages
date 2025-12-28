@@ -9,7 +9,7 @@
 {{ $videos := where .Site.Data.talks "type" "in" (slice "Video" "YouTube Channel" "Interview" "Video Series" "Talks + Papers") }}
 {{ $podcasts := where .Site.Data.talks "type" "in" (slice "Podcast" "Podcast Series") }}
 {{ $blogs := where .Site.Data.community "category" "Blogs" }}
-{{ $books := where .Site.Data.resources "type" "in" (slice "Online Book" "Book" "Book + Lectures") }}
+{{ $books := .Site.Data.books }}
 
 <div class="container">
     <!-- Main Tabs -->
@@ -273,16 +273,17 @@
                     {{ if eq .category $cat }}
                     <div class="resource-card" data-name="{{ .name | lower }}" data-description="{{ .description | lower }}" data-category="{{ .category }}">
                         <div class="card-header">
-                            <img class="resource-favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
+                            <img class="resource-favicon" src="https://www.google.com/s2/favicons?domain=amazon.com&sz=32" alt="" loading="lazy">
                             <h3 class="resource-name">
                                 <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
                             </h3>
-                            <span class="resource-type">{{ .type }}</span>
+                            <span class="resource-type">{{ .year }}</span>
                         </div>
+                        <p class="resource-author">{{ .author }}</p>
                         <p class="resource-desc">{{ .description }}</p>
                         <div class="card-footer">
                             <span class="category-badge">{{ .category }}</span>
-                            <a href="{{ .url }}" target="_blank" class="link-btn">Read</a>
+                            <a href="{{ .url }}" target="_blank" class="link-btn">Amazon</a>
                         </div>
                     </div>
                     {{ end }}
