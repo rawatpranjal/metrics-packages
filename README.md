@@ -6,27 +6,26 @@ A curated directory of resources for tech economists, data scientists, and appli
 
 ## What's Inside
 
-- **Packages** - Python libraries for econometrics, causal inference, and time series
-- **Datasets** - 175+ industry datasets for e-commerce, advertising, experimentation, and more
-- **Learning** - Books, courses, and blogs for applied economics and data science
-- **Talks** - Interviews and podcasts from chief economists at Google, Amazon, Uber, Spotify
-- **Early Career** - Job boards and career resources for tech economists
+- **Packages** - 180 Python/R libraries for econometrics, causal inference, and experimentation
+- **Datasets** - 243 industry datasets for e-commerce, advertising, experimentation, and more
+- **Learning** - 103 books, courses, and blogs for applied economics
+- **Talks** - 50 interviews and podcasts from chief economists at Google, Amazon, Uber, Spotify
+- **Career** - 13 resources for job hunting and interviews
+- **Community** - 63 conferences, research labs, and events in tech economics
+- **Getting Started** - Curated learning paths for different goals
 
 ## Development
 
 Built with [Hugo](https://gohugo.io/). Data lives in JSON files under `/data/`.
 
 ```bash
-# Run locally
-hugo server
-
-# Build
-hugo
+hugo server  # Run locally
+hugo         # Build
 ```
 
 ## Contributing
 
-Submit new packages or resources via [GitHub Issues](https://github.com/rawatpranjal/tech-econ/issues/new?template=submit-package.yml).
+Submit new packages or resources via the [Submit form](https://rawatpranjal.github.io/tech-econ/submit/) or [GitHub Issues](https://github.com/rawatpranjal/tech-econ/issues).
 
 ## Author
 
