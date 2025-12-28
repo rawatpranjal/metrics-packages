@@ -160,6 +160,7 @@ function aggregateEvents(events, now) {
     },
     dailyPageviews: {},
     countries: {},
+    _countryBySid: {},  // Track unique country+session pairs
     performance: {
       lcp: [],
       fid: [],
@@ -225,9 +226,13 @@ function aggregateEvents(events, now) {
         break;
     }
 
-    // Countries
-    if (event._country && event._country !== 'unknown') {
-      stats.countries[event._country] = (stats.countries[event._country] || 0) + 1;
+    // Countries (count by unique session, not every event)
+    if (event._country && event._country !== 'unknown' && event.sid) {
+      const key = `${event._country}:${event.sid}`;
+      if (!stats._countryBySid[key]) {
+        stats._countryBySid[key] = true;
+        stats.countries[event._country] = (stats.countries[event._country] || 0) + 1;
+      }
     }
   }
 
@@ -264,6 +269,9 @@ function aggregateEvents(events, now) {
     .sort((a, b) => a[0].localeCompare(b[0]))
     .slice(-7);
   stats.dailyPageviews = Object.fromEntries(sortedDaily);
+
+  // Remove helper properties
+  delete stats._countryBySid;
 
   return stats;
 }
