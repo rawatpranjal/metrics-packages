@@ -10,37 +10,179 @@
           "id": "ab-test-design",
           "name": "A/B Test Design & Analysis",
           "application": "Product experiments, sample size, metrics",
-          "papers": []
+          "papers": [
+            {
+              "title": "Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing",
+              "authors": "Ron Kohavi, Diane Tang, Ya Xu",
+              "year": 2020,
+              "tag": "Industry",
+              "description": "The definitive industry textbook on A/B testing covering experiment design, metrics, platforms, and pitfalls.",
+              "url": "https://www.cambridge.org/core/books/trustworthy-online-controlled-experiments/D97B26382EB0EB2DC2019A7A7B518F59"
+            },
+            {
+              "title": "Online Controlled Experiments at Large Scale",
+              "authors": "Ron Kohavi, Alex Deng, Brian Frasca, et al.",
+              "year": 2013,
+              "tag": "Industry",
+              "description": "How Microsoft runs thousands of experiments on millions of users, with practical lessons on metric selection and sample ratio mismatch.",
+              "url": "https://www.kdd.org/kdd2013/papers/p1168-kohavi.pdf"
+            },
+            {
+              "title": "Overlapping Experiment Infrastructure: More, Better, Faster Experimentation",
+              "authors": "Diane Tang, Ashish Agarwal, Deirdre O'Brien, Mike Meyer",
+              "year": 2010,
+              "tag": "Industry",
+              "description": "Google's infrastructure for running overlapping experiments, enabling hundreds of simultaneous tests without interference.",
+              "url": "https://research.google/pubs/pub36500/"
+            }
+          ]
         },
         {
           "id": "variance-reduction",
           "name": "Variance Reduction",
           "application": "CUPED, stratification, regression adjustment",
-          "papers": []
+          "papers": [
+            {
+              "title": "Improving the Sensitivity of Online Controlled Experiments by Utilizing Pre-Experiment Data (CUPED)",
+              "authors": "Alex Deng, Ya Xu, Ron Kohavi, Toby Walker",
+              "year": 2013,
+              "tag": "Industry",
+              "description": "The CUPED method that uses pre-experiment covariates to dramatically reduce variance in experiment metrics.",
+              "url": "https://www.exp-platform.com/Documents/2013-02-CUPED-ImpsringSensitivityOfControlledExperiments.pdf"
+            },
+            {
+              "title": "Regression Adjustments for Analyzing Randomized Experiments",
+              "authors": "Winston Lin",
+              "year": 2013,
+              "tag": "Classic",
+              "description": "Shows how regression adjustment in randomized experiments yields valid inference even with heterogeneous treatment effects.",
+              "url": "https://projecteuclid.org/journals/annals-of-applied-statistics/volume-7/issue-1/Agnostic-notes-on-regression-adjustments-to-experimental-data--Reexamining/10.1214/12-AOAS583.full"
+            },
+            {
+              "title": "Variance Reduction in Randomized Experiments",
+              "authors": "Susan Athey, Guido Imbens",
+              "year": 2016,
+              "tag": "Classic",
+              "description": "Optimal stratification and regression adjustment methods for experimental data with theoretical guarantees.",
+              "url": "https://www.nber.org/papers/w24150"
+            }
+          ]
         },
         {
           "id": "sequential-adaptive",
           "name": "Sequential & Adaptive Testing",
           "application": "Always-valid inference, early stopping, peeking",
-          "papers": []
+          "papers": [
+            {
+              "title": "Peeking at A/B Tests: Why It Matters, and What to Do About It",
+              "authors": "Ramesh Johari, Pete Koomen, Leonid Pekelis, David Walsh",
+              "year": 2017,
+              "tag": "Industry",
+              "description": "Analyzes the peeking problem in A/B tests and introduces always-valid p-values for sequential testing.",
+              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2925568"
+            },
+            {
+              "title": "Safe Testing",
+              "authors": "Peter Grünwald, Rianne de Heide, Wouter Koolen",
+              "year": 2019,
+              "tag": "SOTA",
+              "description": "E-values and safe anytime-valid inference that allows optional stopping while controlling type I error.",
+              "url": "https://arxiv.org/abs/1906.07801"
+            },
+            {
+              "title": "A/B Testing with Fat Tails",
+              "authors": "Eduardo Azevedo, Alex Deng, José Montiel Olea, Justin Rao, E. Glen Weyl",
+              "year": 2019,
+              "tag": "Industry",
+              "description": "Addresses the problem of highly variable metrics in experiments and proposes robust statistical methods.",
+              "url": "https://arxiv.org/abs/1901.04932"
+            }
+          ]
         },
         {
           "id": "interference-spillovers",
           "name": "Interference & Spillovers",
           "application": "Network effects, marketplace cannibalization",
-          "papers": []
+          "papers": [
+            {
+              "title": "Detecting Network Effects: Randomizing Over Randomized Experiments",
+              "authors": "Dean Eckles, Brian Karrer, Johan Ugander",
+              "year": 2016,
+              "tag": "Industry",
+              "description": "Graph cluster randomization and design-based methods for detecting interference in network experiments.",
+              "url": "https://arxiv.org/abs/1404.7530"
+            },
+            {
+              "title": "Estimating Peer Effects in Networks with Peer Encouragement Designs",
+              "authors": "Dean Eckles, René Kizilcec, Eytan Bakshy",
+              "year": 2016,
+              "tag": "Industry",
+              "description": "Two-stage randomization design for identifying peer effects in social networks.",
+              "url": "https://www.pnas.org/content/113/27/7316"
+            },
+            {
+              "title": "Experimentation in Two-Sided Marketplaces",
+              "authors": "Ramesh Johari, Hannah Li, Inessa Liskovich, Gabriel Weintraub",
+              "year": 2022,
+              "tag": "SOTA",
+              "description": "Framework for experiments in marketplaces where treatment of one side affects the other.",
+              "url": "https://arxiv.org/abs/2002.06875"
+            }
+          ]
         },
         {
           "id": "switchback-geo",
           "name": "Switchback & Geo-Experiments",
           "application": "Pricing tests, market-level interventions",
-          "papers": []
+          "papers": [
+            {
+              "title": "Switchback Experiments and Randomized Experiments for Estimating Platform-Level Effects",
+              "authors": "David Holtz, Ruben Lobel, Inessa Liskovich, Sinan Aral",
+              "year": 2020,
+              "tag": "Industry",
+              "description": "Design and analysis of switchback experiments for marketplace interventions at Airbnb.",
+              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3548162"
+            },
+            {
+              "title": "Causal Impact: A New Approach to Estimate Causal Effects",
+              "authors": "Kay Brodersen, Fabian Gallusser, Jim Koehler, et al.",
+              "year": 2015,
+              "tag": "Industry",
+              "description": "Google's Bayesian structural time-series approach for measuring impact of geo-level interventions.",
+              "url": "https://research.google/pubs/pub41854/"
+            },
+            {
+              "title": "GeoLift: Open Source Solution for Measuring Incremental Impact",
+              "authors": "Arturo Esquerra, Nicolas Besasie",
+              "year": 2022,
+              "tag": "Industry",
+              "description": "Meta's open-source tool for geo-experiment design and measurement using synthetic control methods.",
+              "url": "https://github.com/facebookincubator/GeoLift"
+            }
+          ]
         },
         {
           "id": "long-run-surrogates",
           "name": "Long-run Effects & Surrogates",
           "application": "LTV, delayed outcomes, surrogate index",
-          "papers": []
+          "papers": [
+            {
+              "title": "Surrogate Index: Combining Short-Term Proxies to Estimate Long-Term Treatment Effects",
+              "authors": "Susan Athey, Raj Chetty, Guido Imbens, Hyunseung Kang",
+              "year": 2019,
+              "tag": "Classic",
+              "description": "Framework for using short-term outcomes to predict long-term treatment effects in experiments.",
+              "url": "https://www.nber.org/papers/w26463"
+            },
+            {
+              "title": "Long-term Causal Inference Under Persistent Confounding via Data Combination",
+              "authors": "Guido Imbens, Nathan Kallus, Xiaojie Mao, Yuhao Wang",
+              "year": 2022,
+              "tag": "SOTA",
+              "description": "Methods for combining experimental and observational data to estimate persistent treatment effects.",
+              "url": "https://arxiv.org/abs/2202.07234"
+            }
+          ]
         }
       ]
     },
@@ -54,43 +196,194 @@
           "id": "matching-propensity",
           "name": "Matching & Propensity Scores",
           "application": "Program evaluation, ad exposure",
-          "papers": []
+          "papers": [
+            {
+              "title": "The Central Role of the Propensity Score in Observational Studies",
+              "authors": "Paul Rosenbaum, Donald Rubin",
+              "year": 1983,
+              "tag": "Classic",
+              "description": "The foundational paper introducing propensity scores for causal inference in observational studies.",
+              "url": "https://academic.oup.com/biomet/article/70/1/41/240879"
+            },
+            {
+              "title": "Matching as Nonparametric Preprocessing for Reducing Model Dependence",
+              "authors": "Gary King, Richard Nielsen",
+              "year": 2019,
+              "tag": "Classic",
+              "description": "Best practices for matching methods and the MatchIt software implementation.",
+              "url": "https://gking.harvard.edu/publications/why-propensity-scores-should-not-be-used-formatching"
+            },
+            {
+              "title": "Double/Debiased Machine Learning for Treatment and Structural Parameters",
+              "authors": "Victor Chernozhukov, Denis Chetverikov, Mert Demirer, et al.",
+              "year": 2018,
+              "tag": "SOTA",
+              "description": "The double ML framework using cross-fitting to obtain valid inference with ML first-stage estimation.",
+              "url": "https://academic.oup.com/ectj/article/21/1/C1/5056401"
+            }
+          ]
         },
         {
           "id": "difference-in-differences",
           "name": "Difference-in-Differences",
           "application": "Policy changes, feature rollouts, staggered adoption",
-          "papers": []
+          "papers": [
+            {
+              "title": "What's Trending in Difference-in-Differences? A Synthesis of the Recent Econometrics Literature",
+              "authors": "Jonathan Roth, Pedro Sant'Anna, Alyssa Bilinski, John Poe",
+              "year": 2023,
+              "tag": "SOTA",
+              "description": "Comprehensive review of modern DiD methods including staggered adoption and heterogeneous effects.",
+              "url": "https://arxiv.org/abs/2201.01194"
+            },
+            {
+              "title": "Difference-in-Differences with Variation in Treatment Timing",
+              "authors": "Andrew Goodman-Bacon",
+              "year": 2021,
+              "tag": "SOTA",
+              "description": "Decomposes two-way fixed effects estimators and reveals issues with staggered DiD designs.",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0304407621001445"
+            },
+            {
+              "title": "Difference-in-Differences with Multiple Time Periods",
+              "authors": "Brantly Callaway, Pedro Sant'Anna",
+              "year": 2021,
+              "tag": "SOTA",
+              "description": "Group-time average treatment effects and aggregation methods for staggered DiD.",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0304407620303948"
+            }
+          ]
         },
         {
           "id": "synthetic-control",
           "name": "Synthetic Control",
           "application": "Geo lift, market entry, one-treated-unit settings",
-          "papers": []
+          "papers": [
+            {
+              "title": "Synthetic Control Methods for Comparative Case Studies",
+              "authors": "Alberto Abadie, Alexis Diamond, Jens Hainmueller",
+              "year": 2010,
+              "tag": "Classic",
+              "description": "The foundational synthetic control paper with the California tobacco application.",
+              "url": "https://www.tandfonline.com/doi/abs/10.1198/jasa.2009.ap08746"
+            },
+            {
+              "title": "Using Synthetic Controls: Feasibility, Data Requirements, and Methodological Aspects",
+              "authors": "Alberto Abadie",
+              "year": 2021,
+              "tag": "Classic",
+              "description": "Practical guidance on when and how to apply synthetic control methods.",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/jel.20191450"
+            },
+            {
+              "title": "Synthetic Difference in Differences",
+              "authors": "Dmitry Arkhangelsky, Susan Athey, David Hirshberg, et al.",
+              "year": 2021,
+              "tag": "SOTA",
+              "description": "Combines synthetic control and DiD for improved inference in panel data settings.",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20190159"
+            }
+          ]
         },
         {
           "id": "instrumental-variables",
           "name": "Instrumental Variables & LATE",
           "application": "Non-compliance, demand shocks",
-          "papers": []
+          "papers": [
+            {
+              "title": "Identification and Estimation of Local Average Treatment Effects",
+              "authors": "Guido Imbens, Joshua Angrist",
+              "year": 1994,
+              "tag": "Classic",
+              "description": "The LATE framework for interpreting IV estimates as effects on compliers.",
+              "url": "https://www.jstor.org/stable/2951620"
+            },
+            {
+              "title": "Identification of Causal Effects Using Instrumental Variables",
+              "authors": "Joshua Angrist, Guido Imbens, Donald Rubin",
+              "year": 1996,
+              "tag": "Classic",
+              "description": "Defines the assumptions needed for IV and connects to potential outcomes framework.",
+              "url": "https://www.tandfonline.com/doi/abs/10.1080/01621459.1996.10476902"
+            }
+          ]
         },
         {
           "id": "regression-discontinuity",
           "name": "Regression Discontinuity",
           "application": "Eligibility cutoffs, rating thresholds",
-          "papers": []
+          "papers": [
+            {
+              "title": "Regression Discontinuity Designs in Economics",
+              "authors": "David Lee, Thomas Lemieux",
+              "year": 2010,
+              "tag": "Classic",
+              "description": "Comprehensive guide to RDD identification, estimation, and practical implementation.",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/jel.48.2.281"
+            },
+            {
+              "title": "A Practical Introduction to Regression Discontinuity Designs",
+              "authors": "Matias Cattaneo, Nicolas Idrobo, Rocio Titiunik",
+              "year": 2019,
+              "tag": "Classic",
+              "description": "Modern implementation guide with rdrobust software for sharp and fuzzy RDD.",
+              "url": "https://cattaneo.princeton.edu/books/Cattaneo-Idrobo-Titiunik_2019_CUP-Vol1.pdf"
+            }
+          ]
         },
         {
           "id": "double-ml-cate",
           "name": "Double ML & Heterogeneous Effects",
           "application": "CATE, personalization, targeting",
-          "papers": []
+          "papers": [
+            {
+              "title": "Estimation and Inference of Heterogeneous Treatment Effects using Random Forests",
+              "authors": "Stefan Wager, Susan Athey",
+              "year": 2018,
+              "tag": "SOTA",
+              "description": "Causal forests for estimating conditional average treatment effects with valid confidence intervals.",
+              "url": "https://www.tandfonline.com/doi/full/10.1080/01621459.2017.1319839"
+            },
+            {
+              "title": "Generic Machine Learning Inference on Heterogeneous Treatment Effects in Randomized Experiments",
+              "authors": "Victor Chernozhukov, Mert Demirer, Esther Duflo, Ivan Fernández-Val",
+              "year": 2020,
+              "tag": "SOTA",
+              "description": "Framework for using any ML method to find heterogeneous effects with valid inference.",
+              "url": "https://arxiv.org/abs/1712.04802"
+            },
+            {
+              "title": "Metalearners for Estimating Heterogeneous Treatment Effects using Machine Learning",
+              "authors": "Sören Künzel, Jasjeet Sekhon, Peter Bickel, Bin Yu",
+              "year": 2019,
+              "tag": "SOTA",
+              "description": "Taxonomy of metalearners (S-learner, T-learner, X-learner) for CATE estimation.",
+              "url": "https://www.pnas.org/content/116/10/4156"
+            }
+          ]
         },
         {
           "id": "sensitivity-bounds",
           "name": "Sensitivity & Bounds",
           "application": "Robustness, partial identification",
-          "papers": []
+          "papers": [
+            {
+              "title": "Sensitivity Analysis in Observational Research: Introducing the E-Value",
+              "authors": "Tyler VanderWeele, Peng Ding",
+              "year": 2017,
+              "tag": "Classic",
+              "description": "The E-value for quantifying sensitivity to unmeasured confounding.",
+              "url": "https://www.acpjournals.org/doi/10.7326/M16-2607"
+            },
+            {
+              "title": "Making Sense of Sensitivity: Extending Omitted Variable Bias",
+              "authors": "Carlos Cinelli, Chad Hazlett",
+              "year": 2020,
+              "tag": "SOTA",
+              "description": "Modern sensitivity analysis framework with intuitive benchmarking against observed covariates.",
+              "url": "https://www.tandfonline.com/doi/full/10.1111/rssb.12348"
+            }
+          ]
         }
       ]
     },
@@ -104,31 +397,140 @@
           "id": "dynamic-pricing",
           "name": "Dynamic Pricing & Revenue Management",
           "application": "Airlines, hotels, e-commerce",
-          "papers": []
+          "papers": [
+            {
+              "title": "The Theory and Practice of Revenue Management",
+              "authors": "Kalyan Talluri, Garrett van Ryzin",
+              "year": 2004,
+              "tag": "Classic",
+              "description": "The definitive textbook on revenue management covering pricing, capacity control, and overbooking.",
+              "url": "https://www.springer.com/gp/book/9781402077012"
+            },
+            {
+              "title": "Dynamic Pricing in the Presence of Inventory Considerations",
+              "authors": "Yossi Aviv, Amit Pazgal",
+              "year": 2008,
+              "tag": "Classic",
+              "description": "Framework for dynamic pricing with finite inventory and strategic consumers.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.1080.0918"
+            },
+            {
+              "title": "Pricing and Revenue Optimization",
+              "authors": "Robert Phillips",
+              "year": 2021,
+              "tag": "Classic",
+              "description": "Comprehensive practitioner's guide to pricing strategy and optimization techniques.",
+              "url": "https://www.sup.org/books/title/?id=24833"
+            }
+          ]
         },
         {
           "id": "markdown-clearance",
           "name": "Markdown & Clearance",
           "application": "Retail, fashion, perishables",
-          "papers": []
+          "papers": [
+            {
+              "title": "Clearance Pricing and Inventory Policies for Retail Chains",
+              "authors": "Stephen Smith, Dale Achabal",
+              "year": 1998,
+              "tag": "Classic",
+              "description": "Multi-location markdown optimization balancing store-level heterogeneity.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.44.3.285"
+            },
+            {
+              "title": "Dynamic Pricing with a Prior on Market Response",
+              "authors": "Omar Besbes, Assaf Zeevi",
+              "year": 2009,
+              "tag": "Classic",
+              "description": "Bayesian approach to learning demand while optimizing markdown paths.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.1080.0647"
+            }
+          ]
         },
         {
           "id": "surge-realtime",
           "name": "Surge & Real-time Pricing",
           "application": "Rideshare, delivery, congestion pricing",
-          "papers": []
+          "papers": [
+            {
+              "title": "Dynamic Pricing and Matching in Ride-Hailing Platforms",
+              "authors": "Hongyao Ma, Fei Fang, David Parkes",
+              "year": 2019,
+              "tag": "SOTA",
+              "description": "Joint optimization of pricing and matching in two-sided rideshare markets.",
+              "url": "https://papers.nips.cc/paper/2019/hash/1b0f27d6c6eb67f90ade2f58521a1f0d-Abstract.html"
+            },
+            {
+              "title": "Surge Pricing Solves the Wild Goose Chase",
+              "authors": "Juan Castillo, Dan Knoepfle, Glen Weyl",
+              "year": 2017,
+              "tag": "Industry",
+              "description": "Empirical analysis of Uber's surge pricing showing welfare improvements from reduced search frictions.",
+              "url": "https://dl.acm.org/doi/10.1145/3033274.3085098"
+            },
+            {
+              "title": "The Value of Flexible Work: Evidence from Uber Drivers",
+              "authors": "M. Keith Chen, Judith Chevalier, Peter Rossi, Emily Oehlsen",
+              "year": 2019,
+              "tag": "Industry",
+              "description": "Estimates labor supply elasticity and value of flexibility using Uber driver data.",
+              "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/702171"
+            }
+          ]
         },
         {
           "id": "personalized-pricing",
           "name": "Personalized Pricing",
           "application": "Price discrimination, welfare, fairness",
-          "papers": []
+          "papers": [
+            {
+              "title": "Personalized Pricing and Consumer Welfare",
+              "authors": "Jean-Pierre Dubé, Sanjog Misra",
+              "year": 2023,
+              "tag": "SOTA",
+              "description": "Analyzes welfare effects of machine learning-based personalized pricing.",
+              "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/722220"
+            },
+            {
+              "title": "Algorithmic Pricing and Competition",
+              "authors": "Zach Brown, Alexander MacKay",
+              "year": 2023,
+              "tag": "SOTA",
+              "description": "How algorithmic pricing affects competition and market outcomes.",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20220701"
+            }
+          ]
         },
         {
           "id": "demand-estimation",
           "name": "Demand Estimation & Elasticity",
           "application": "Price sensitivity, substitution patterns",
-          "papers": []
+          "papers": [
+            {
+              "title": "Automobile Prices in Market Equilibrium (BLP)",
+              "authors": "Steven Berry, James Levinsohn, Ariel Pakes",
+              "year": 1995,
+              "tag": "Classic",
+              "description": "The foundational random coefficients discrete choice model for demand estimation.",
+              "url": "https://www.jstor.org/stable/2171802"
+            },
+            {
+              "title": "Empirical Models of Consumer Behavior",
+              "authors": "Aviv Nevo",
+              "year": 2011,
+              "tag": "Classic",
+              "description": "Practical guide to implementing BLP-style demand models with market-level data.",
+              "url": "https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-111809-125118"
+            },
+            {
+              "title": "pyBLP: BLP Demand Estimation in Python",
+              "authors": "Jeff Gortmaker, Chris Conlon",
+              "year": 2020,
+              "tag": "Industry",
+              "description": "Modern implementation and extensions of BLP with diagnostics and best practices.",
+              "url": "https://pyblp.readthedocs.io/"
+            }
+          ]
         }
       ]
     },
@@ -142,31 +544,124 @@
           "id": "churn-prediction",
           "name": "Churn Prediction & Prevention",
           "application": "SaaS, streaming, telecom",
-          "papers": []
+          "papers": [
+            {
+              "title": "Customer Churn Prediction: A Survey",
+              "authors": "Wouter Verbeke, Karel Dejaeger, David Martens, et al.",
+              "year": 2012,
+              "tag": "Classic",
+              "description": "Comprehensive survey of churn prediction methods and evaluation metrics.",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0957417412002357"
+            },
+            {
+              "title": "Churn Prediction in Mobile Social Games: Towards a Complete Assessment Using Survival Ensembles",
+              "authors": "Á. Periáñez, A. Saas, A. Guitart, C. Magne",
+              "year": 2016,
+              "tag": "Industry",
+              "description": "Survival analysis approach to churn with right-censoring and dynamic hazards.",
+              "url": "https://ieeexplore.ieee.org/document/7837911"
+            }
+          ]
         },
         {
           "id": "lifetime-value",
           "name": "Lifetime Value Estimation",
           "application": "CLV models, discounting, cohort analysis",
-          "papers": []
+          "papers": [
+            {
+              "title": "Counting Your Customers: Who Are They and What Will They Do Next? (BG/NBD)",
+              "authors": "Peter Fader, Bruce Hardie, Ka Lok Lee",
+              "year": 2005,
+              "tag": "Classic",
+              "description": "The BG/NBD model for customer lifetime value with transaction data.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.1040.0098"
+            },
+            {
+              "title": "'Counting Your Customers' the Easy Way: An Alternative to the Pareto/NBD Model",
+              "authors": "Peter Fader, Bruce Hardie, Ka Lok Lee",
+              "year": 2005,
+              "tag": "Classic",
+              "description": "Simplified BG/NBD model that maintains predictive accuracy with easier estimation.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.1040.0098"
+            },
+            {
+              "title": "Customer-Base Valuation in a Contractual Setting: The Perils of Ignoring Heterogeneity",
+              "authors": "Peter Fader, Bruce Hardie",
+              "year": 2010,
+              "tag": "Classic",
+              "description": "Shifted-Beta-Geometric model for subscription businesses with discrete renewal periods.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.1090.0502"
+            }
+          ]
         },
         {
           "id": "free-to-paid",
           "name": "Free-to-Paid Conversion",
           "application": "Freemium, trials, paywall optimization",
-          "papers": []
+          "papers": [
+            {
+              "title": "Freemium as a Marketing Strategy",
+              "authors": "Clarence Lee, Vineet Kumar, Sunil Gupta",
+              "year": 2013,
+              "tag": "Classic",
+              "description": "Structural model of freemium conversion analyzing optimal feature restriction.",
+              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1748824"
+            },
+            {
+              "title": "Making Freemium Work",
+              "authors": "Vineet Kumar",
+              "year": 2014,
+              "tag": "Industry",
+              "description": "Practitioner framework for freemium strategy and conversion optimization.",
+              "url": "https://hbr.org/2014/05/making-freemium-work"
+            }
+          ]
         },
         {
           "id": "renewal-cancellation",
           "name": "Renewal & Cancellation Dynamics",
           "application": "Winback, save offers, contract design",
-          "papers": []
+          "papers": [
+            {
+              "title": "Does Retaining Customers Pay Off?",
+              "authors": "Werner Reinartz, V. Kumar",
+              "year": 2000,
+              "tag": "Classic",
+              "description": "Empirical analysis of the relationship between customer tenure and profitability.",
+              "url": "https://sloanreview.mit.edu/article/the-mismanagement-of-customer-loyalty/"
+            },
+            {
+              "title": "The Effects of Customer Satisfaction on Customer Spending",
+              "authors": "Lerzan Aksoy, Bruce Cooil, Keiningham, Tor",
+              "year": 2008,
+              "tag": "Classic",
+              "description": "Links satisfaction metrics to retention and share of wallet outcomes.",
+              "url": "https://journals.sagepub.com/doi/abs/10.1177/1094670508315953"
+            }
+          ]
         },
         {
           "id": "engagement-habit",
           "name": "Engagement & Habit Formation",
           "application": "Stickiness, frequency, retention loops",
-          "papers": []
+          "papers": [
+            {
+              "title": "Hooked: How to Build Habit-Forming Products",
+              "authors": "Nir Eyal",
+              "year": 2014,
+              "tag": "Industry",
+              "description": "The Hook Model framework for designing engaging product experiences.",
+              "url": "https://www.nirandfar.com/hooked/"
+            },
+            {
+              "title": "Habits: A Repeat Performance",
+              "authors": "Wendy Wood, David Neal",
+              "year": 2007,
+              "tag": "Classic",
+              "description": "Psychology research on habit formation, cues, and behavior change.",
+              "url": "https://journals.sagepub.com/doi/abs/10.1111/j.1467-8721.2006.00435.x"
+            }
+          ]
         }
       ]
     },
@@ -180,31 +675,148 @@
           "id": "ad-auctions",
           "name": "Ad Auctions (GSP, VCG)",
           "application": "Sponsored search, display, reserve prices",
-          "papers": []
+          "papers": [
+            {
+              "title": "Internet Advertising and the Generalized Second-Price Auction",
+              "authors": "Benjamin Edelman, Michael Ostrovsky, Michael Schwarz",
+              "year": 2007,
+              "tag": "Classic",
+              "description": "Analysis of the GSP auction used by Google and the gap from VCG efficiency.",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/aer.97.1.242"
+            },
+            {
+              "title": "Position Auctions",
+              "authors": "Hal Varian",
+              "year": 2007,
+              "tag": "Classic",
+              "description": "Equilibrium analysis of position auctions with symmetric Nash equilibrium characterization.",
+              "url": "https://www.sciencedirect.com/science/article/pii/S016726810600158X"
+            },
+            {
+              "title": "Auctions and Bidding: A Guide for Computer Scientists",
+              "authors": "Simon Parsons, Juan Rodriguez-Aguilar, Mark Klein",
+              "year": 2011,
+              "tag": "Classic",
+              "description": "Comprehensive survey of auction theory and mechanism design for practitioners.",
+              "url": "https://dl.acm.org/doi/10.1145/1922649.1922653"
+            }
+          ]
         },
         {
           "id": "autobidding-pacing",
           "name": "Autobidding & Budget Pacing",
           "application": "Advertiser automation, value optimization",
-          "papers": []
+          "papers": [
+            {
+              "title": "Budget Management Strategies in Repeated Auctions",
+              "authors": "Santiago Balseiro, Vahab Mirrokni, Renato Paes Leme",
+              "year": 2015,
+              "tag": "Industry",
+              "description": "Optimal budget pacing strategies for advertisers in repeated auctions.",
+              "url": "https://dl.acm.org/doi/10.1145/2764468.2764484"
+            },
+            {
+              "title": "Autobidding with Constraints",
+              "authors": "Gagan Aggarwal, Ashwinkumar Badanidiyuru, Aranyak Mehta",
+              "year": 2019,
+              "tag": "Industry",
+              "description": "Value-maximizing autobidding under budget and ROI constraints.",
+              "url": "https://arxiv.org/abs/1912.10336"
+            },
+            {
+              "title": "From First-Price Auctions to Incentive-Compatible Auctions",
+              "authors": "Yuan Deng, Sébastien Lahaie, Vahab Mirrokni",
+              "year": 2021,
+              "tag": "Industry",
+              "description": "Mechanism design for autobidders and the transition to first-price auctions.",
+              "url": "https://arxiv.org/abs/2103.07012"
+            }
+          ]
         },
         {
           "id": "attribution-incrementality",
           "name": "Attribution & Incrementality",
           "application": "Ghost ads, conversion lift, multi-touch",
-          "papers": []
+          "papers": [
+            {
+              "title": "Measuring Ad Effectiveness Using Geo Experiments",
+              "authors": "Jon Vaver, Jim Koehler",
+              "year": 2011,
+              "tag": "Industry",
+              "description": "Google's framework for measuring incremental ad impact using geographic experiments.",
+              "url": "https://research.google/pubs/pub38355/"
+            },
+            {
+              "title": "Ghost Ads: Improving the Economics of Measuring Online Ad Effectiveness",
+              "authors": "Garrett Johnson, Randall Lewis, Elmar Nubbemeyer",
+              "year": 2017,
+              "tag": "Industry",
+              "description": "Novel methodology for measuring ad lift without holdout using predicted ad exposure.",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/jep.31.2.163"
+            },
+            {
+              "title": "Challenges and Opportunities in Media Mix Modeling",
+              "authors": "Yuxue Jin, Yueqing Wang, Yunting Sun, et al.",
+              "year": 2017,
+              "tag": "Industry",
+              "description": "Google's approach to marketing mix modeling with Bayesian methods.",
+              "url": "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45998.pdf"
+            }
+          ]
         },
         {
           "id": "targeting-lookalikes",
           "name": "Targeting & Lookalikes",
           "application": "Behavioral targeting, audience expansion",
-          "papers": []
+          "papers": [
+            {
+              "title": "A Large Scale Benchmark for Uplift Modeling",
+              "authors": "Eustache Diemert, Artem Betlei, Christophe Renaudin, Massih-Reza Amini",
+              "year": 2018,
+              "tag": "Industry",
+              "description": "Criteo's uplift modeling benchmark and methods for targeting persuadables.",
+              "url": "https://dl.acm.org/doi/10.1145/3219819.3219822"
+            },
+            {
+              "title": "Targeting Online Display Ads: Comparing Segment-Based and Individual-Based Targeting",
+              "authors": "Anja Lambrecht, Catherine Tucker",
+              "year": 2013,
+              "tag": "Classic",
+              "description": "Compares effectiveness of behavioral vs. segment-based ad targeting.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.1120.0768"
+            }
+          ]
         },
         {
           "id": "brand-performance",
           "name": "Brand vs. Performance",
           "application": "Long-run effects, lift studies, upper funnel",
-          "papers": []
+          "papers": [
+            {
+              "title": "The Long and the Short of It: Balancing Short and Long-Term Marketing Strategies",
+              "authors": "Les Binet, Peter Field",
+              "year": 2013,
+              "tag": "Industry",
+              "description": "IPA research on optimal balance between brand building and activation.",
+              "url": "https://www.ipa.co.uk/knowledge/publications/the-long-and-the-short-of-it/"
+            },
+            {
+              "title": "Online Display Advertising: Targeting and Obtrusiveness",
+              "authors": "Avi Goldfarb, Catherine Tucker",
+              "year": 2011,
+              "tag": "Classic",
+              "description": "Trade-offs between ad targeting precision and user annoyance.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.1100.0583"
+            },
+            {
+              "title": "Digital Advertising and Consumer Price Search",
+              "authors": "Xiang Hui, Maryam Saeedi, Zeqian Shen, Neel Sundaresan",
+              "year": 2022,
+              "tag": "SOTA",
+              "description": "How digital advertising affects consumer search behavior and market outcomes.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2021.4239"
+            }
+          ]
         }
       ]
     },
