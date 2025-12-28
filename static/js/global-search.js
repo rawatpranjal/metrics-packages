@@ -6,17 +6,18 @@
   var CONFIG = {
     fuseOptions: {
       keys: [
-        { name: 'name', weight: 2 },
+        { name: 'name', weight: 3 },
         { name: 'tags', weight: 1.5 },
         { name: 'best_for', weight: 1.2 },
         { name: 'description', weight: 1 },
         { name: 'category', weight: 0.8 }
       ],
-      threshold: 0.4,
+      threshold: 0.35,
       ignoreLocation: true,
       includeScore: true,
       includeMatches: true,
-      minMatchCharLength: 2
+      minMatchCharLength: 2,
+      findAllMatches: true
     },
     debounceMs: 150,
     maxResultsPerType: 5,
@@ -302,6 +303,35 @@
     'finance': ['finance', 'financial', 'trading']
   };
 
+  // Generate bidirectional synonym mappings
+  // So "difference-in-differences" also finds DiD packages
+  (function() {
+    var reverseMap = {};
+    Object.keys(SYNONYMS).forEach(function(key) {
+      SYNONYMS[key].forEach(function(syn) {
+        var synLower = syn.toLowerCase();
+        if (!reverseMap[synLower]) {
+          reverseMap[synLower] = [];
+        }
+        if (reverseMap[synLower].indexOf(key) === -1) {
+          reverseMap[synLower].push(key);
+        }
+      });
+    });
+    // Merge reverse mappings into SYNONYMS
+    Object.keys(reverseMap).forEach(function(key) {
+      if (!SYNONYMS[key]) {
+        SYNONYMS[key] = reverseMap[key];
+      } else {
+        reverseMap[key].forEach(function(val) {
+          if (SYNONYMS[key].indexOf(val) === -1) {
+            SYNONYMS[key].push(val);
+          }
+        });
+      }
+    });
+  })();
+
   // Type display configuration
   var TYPE_CONFIG = {
     package: { label: 'Package', icon: 'pkg', color: '#0066cc', href: '/packages/' },
@@ -448,6 +478,14 @@
     // Save to recent searches
     addRecentSearch(query);
 
+    // Adaptive threshold: stricter matching for short queries (abbreviations like DiD, IV)
+    var originalThreshold = fuse.options.threshold;
+    if (query.length <= 4) {
+      fuse.options.threshold = 0.2;  // Stricter for abbreviations
+    } else if (query.length <= 6) {
+      fuse.options.threshold = 0.3;  // Medium strictness
+    }
+
     var results;
 
     // Expand query with synonyms
@@ -486,6 +524,12 @@
     }
 
     currentResults = results.slice(0, CONFIG.maxTotalResults);
+
+    // Boost exact matches for better relevance (especially for abbreviations)
+    currentResults = boostExactMatches(currentResults, query);
+
+    // Restore original threshold
+    fuse.options.threshold = originalThreshold;
 
     // Always try to show results
     if (currentResults.length === 0) {
@@ -684,6 +728,75 @@
     }
   }
 
+  // Boost exact matches in search results (lower score = better in Fuse.js)
+  function boostExactMatches(results, query) {
+    var queryLower = query.toLowerCase().trim();
+
+    // Get synonyms for this query to boost items matching any synonym
+    var synonymsToBoost = SYNONYMS[queryLower] || [];
+
+    return results.map(function(result) {
+      var item = result.item;
+      var nameLower = (item.name || '').toLowerCase();
+      var categoryLower = (item.category || '').toLowerCase();
+      var boost = 0;
+
+      // Exact name match - strongest boost
+      if (nameLower === queryLower) {
+        boost = 0.6;
+      }
+      // Name starts with query
+      else if (nameLower.startsWith(queryLower)) {
+        boost = 0.4;
+      }
+      // Name contains query as whole word
+      else if (new RegExp('\\b' + escapeRegex(queryLower) + '\\b', 'i').test(nameLower)) {
+        boost = 0.3;
+      }
+
+      // Check tags for exact match (handles abbreviations like DiD, IV, CUPED)
+      if (Array.isArray(item.tags)) {
+        var exactTagMatch = item.tags.some(function(tag) {
+          return tag.toLowerCase() === queryLower;
+        });
+        if (exactTagMatch) {
+          boost = Math.max(boost, 0.35);
+        }
+
+        // Boost if tag matches any synonym of the query
+        var synonymTagMatch = item.tags.some(function(tag) {
+          var tagLower = tag.toLowerCase();
+          return synonymsToBoost.some(function(syn) {
+            return tagLower === syn.toLowerCase();
+          });
+        });
+        if (synonymTagMatch) {
+          boost = Math.max(boost, 0.25);
+        }
+      }
+
+      // Boost if category contains the abbreviation (e.g., "DiD" in "Program Evaluation Methods (DiD, SC, RDD)")
+      if (new RegExp('\\b' + escapeRegex(query) + '\\b', 'i').test(item.category || '')) {
+        boost = Math.max(boost, 0.3);
+      }
+
+      // Boost if best_for contains the query
+      if (new RegExp('\\b' + escapeRegex(queryLower) + '\\b', 'i').test((item.best_for || '').toLowerCase())) {
+        boost = Math.max(boost, 0.2);
+      }
+
+      return {
+        item: result.item,
+        score: Math.max(0, (result.score || 0) - boost),
+        refIndex: result.refIndex,
+        matches: result.matches,
+        boosted: boost > 0
+      };
+    }).sort(function(a, b) {
+      return a.score - b.score;
+    });
+  }
+
   // Expand query with synonyms
   function expandQuery(query) {
     var words = query.toLowerCase().split(/\s+/);
@@ -700,18 +813,29 @@
     return expanded;
   }
 
-  // Search with multiple queries and combine results
+  // Search with multiple queries and combine results, prioritizing original query
   function searchWithExpansion(queries, maxResults) {
     var seen = {};
     var combined = [];
 
-    queries.forEach(function(q) {
+    queries.forEach(function(q, queryIndex) {
       var results = fuse.search(q);
       results.forEach(function(r) {
         var key = r.item.name + r.item.type;
         if (!seen[key]) {
           seen[key] = true;
-          combined.push(r);
+          // Apply penalty to synonym matches (not the original query)
+          var penalizedScore = r.score;
+          if (queryIndex > 0) {
+            // Slight penalty for matches from synonym expansion
+            penalizedScore = Math.min(1, r.score + 0.1);
+          }
+          combined.push({
+            item: r.item,
+            score: penalizedScore,
+            refIndex: r.refIndex,
+            matches: r.matches
+          });
         }
       });
     });
