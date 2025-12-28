@@ -1,4 +1,9 @@
 {{ define "main" }}
+<!-- Search Index Data for Fuse.js -->
+<script id="search-data" type="application/json">
+[{{ range $i, $item := .Site.Data.datasets }}{{ if $i }},{{ end }}{"name":"{{ .name }}","description":"{{ .description | htmlEscape }}","category":"{{ .category }}","tags":"{{ delimit .tags "," }}"}{{ end }}]
+</script>
+
 <div class="container">
     <!-- Search and Filters Row -->
     <div class="search-filters-row">
@@ -151,136 +156,31 @@
 </div>
 
 <script>
-// Datasets page search and filter functionality
 document.addEventListener('DOMContentLoaded', function() {
-    const searchInput = document.getElementById('dataset-search');
-    const clearBtn = document.getElementById('clear-search');
-    const categorySelect = document.getElementById('category-select');
-    const cards = document.querySelectorAll('.package-card');
-    const tableRows = document.querySelectorAll('.package-table tbody tr');
-    const sections = document.querySelectorAll('.category-section');
-    const resultCount = document.getElementById('result-count');
-    const noResults = document.getElementById('no-results');
-    const searchTerm = document.getElementById('search-term');
-    const resetBtn = document.getElementById('reset-filters');
-
-    let activeCategory = 'all';
-    let debounceTimer;
-
-    function filterItems() {
-        const query = searchInput.value.toLowerCase().trim();
-        let visibleCount = 0;
-
-        // Filter cards
-        cards.forEach(function(card) {
-            const name = card.dataset.name || '';
-            const desc = card.dataset.description || '';
-            const category = card.dataset.category || '';
-            const tags = card.dataset.tags || '';
-
-            const matchesSearch = !query ||
-                name.includes(query) ||
-                desc.includes(query) ||
-                tags.includes(query) ||
-                category.toLowerCase().includes(query);
-
-            const matchesCategory = activeCategory === 'all' || category === activeCategory;
-
-            if (matchesSearch && matchesCategory) {
-                card.classList.remove('hidden');
-                card.classList.add('visible');
-                visibleCount++;
-            } else {
-                card.classList.add('hidden');
-                card.classList.remove('visible');
-            }
-        });
-
-        // Filter table rows
-        tableRows.forEach(function(row) {
-            const name = row.dataset.name || '';
-            const desc = row.dataset.description || '';
-            const category = row.dataset.category || '';
-            const tags = row.dataset.tags || '';
-
-            const matchesSearch = !query ||
-                name.includes(query) ||
-                desc.includes(query) ||
-                tags.includes(query) ||
-                category.toLowerCase().includes(query);
-
-            const matchesCategory = activeCategory === 'all' || category === activeCategory;
-
-            if (matchesSearch && matchesCategory) {
-                row.style.display = '';
-            } else {
-                row.style.display = 'none';
-            }
-        });
-
-        // Update section visibility
-        sections.forEach(function(section) {
-            const visibleCards = section.querySelectorAll('.package-card:not(.hidden)');
-            if (visibleCards.length === 0) {
-                section.classList.add('section-hidden');
-            } else {
-                section.classList.remove('section-hidden');
-            }
-        });
-
-        // Update result count
-        resultCount.textContent = visibleCount + ' datasets';
-
-        // Show/hide no results message
-        if (visibleCount === 0 && query) {
-            noResults.style.display = 'flex';
-            searchTerm.textContent = query;
-        } else {
-            noResults.style.display = 'none';
-        }
-
-        // Toggle clear button
-        clearBtn.style.display = query ? 'flex' : 'none';
-    }
-
-    // Search input with debounce
-    searchInput.addEventListener('input', function() {
-        clearTimeout(debounceTimer);
-        debounceTimer = setTimeout(filterItems, 150);
+    // Initialize PageSearch with Fuse.js
+    new PageSearch({
+        searchInputId: 'dataset-search',
+        cardSelector: '.package-card',
+        tableRowSelector: '.package-table tbody tr',
+        itemLabel: 'datasets',
+        fuseKeys: [
+            { name: 'name', weight: 2 },
+            { name: 'tags', weight: 1.5 },
+            { name: 'description', weight: 1 },
+            { name: 'category', weight: 0.5 }
+        ]
     });
 
-    // Clear search
-    clearBtn.addEventListener('click', function() {
-        searchInput.value = '';
-        filterItems();
-        searchInput.focus();
-    });
-
-    // Category dropdown
-    categorySelect.addEventListener('change', function() {
-        activeCategory = this.value;
-        filterItems();
-    });
-
-    // Reset filters
-    if (resetBtn) {
-        resetBtn.addEventListener('click', function() {
-            searchInput.value = '';
-            activeCategory = 'all';
-            categorySelect.value = 'all';
-            filterItems();
-        });
-    }
-
-    // Tag clicks
+    // Tag clicks (page-specific)
     document.addEventListener('click', function(e) {
         if (e.target.classList.contains('use-case-tag')) {
+            var searchInput = document.getElementById('dataset-search');
             searchInput.value = e.target.dataset.tag;
-            filterItems();
+            searchInput.dispatchEvent(new Event('input'));
         }
     });
 
-    // View toggle
+    // View toggle (page-specific)
     const btnCards = document.getElementById('btn-cards');
     const btnTable = document.getElementById('btn-table');
     const cardsView = document.getElementById('cards-view');
