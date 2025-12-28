@@ -1,13 +1,14 @@
 name = "tech-econ-analytics"
 main = "index.js"
 compatibility_date = "2024-01-01"
+workers_dev = true
 
 # KV Namespace for storing analytics events
 # Run: wrangler kv:namespace create ANALYTICS_EVENTS
 # Then update the id below with your namespace ID
 [[kv_namespaces]]
 binding = "ANALYTICS_EVENTS"
-id = "YOUR_KV_NAMESPACE_ID"
+id = "55666fb0baa64b12a16c9bc307483781"
 
 # To deploy:
 # 1. Install wrangler: npm install -g wrangler

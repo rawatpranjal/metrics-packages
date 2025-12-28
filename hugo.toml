@@ -8,8 +8,7 @@ title = 'tech-econ'
   formUrl = ""  # Add your Google Form URL here
 
   # Analytics Tracker Configuration
-  # Set trackerEndpoint to your Cloudflare Worker URL to enable tracking
-  # trackerEndpoint = "https://your-analytics.workers.dev/events"
+  trackerEndpoint = "https://tech-econ-analytics.rawat-pranjal010.workers.dev/events"
   trackerEnabled = true
   trackerDebug = false
 
