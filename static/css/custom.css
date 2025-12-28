@@ -2632,6 +2632,15 @@ mark {
 .hero-career { background-image: url('/images/hero/career-hero.jpg'); }
 .hero-community { background-image: url('/images/hero/community-hero.jpg'); }
 .hero-start { background-image: url('/images/hero/start-hero.jpg'); }
+.hero-books { background-image: url('/images/hero/books-hero.jpg'); }
+
+/* Book author styling */
+.resource-author {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin: 0 0 0.5rem 0;
+    font-style: italic;
+}
 
 /* ========================================
    SECTION CARDS WITH IMAGES
@@ -2685,4 +2694,96 @@ mark {
 
 .section-card-with-image .section-icon svg {
     stroke: white;
+}
+
+/* ========================================
+   MAIN CONTENT TABS (Talks Page)
+   ======================================== */
+
+.main-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.main-tab {
+    padding: 0.875rem 1.5rem;
+    border: none;
+    background: transparent;
+    color: var(--text-secondary);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.2s, background 0.2s;
+}
+
+.main-tab:hover {
+    color: var(--text-primary);
+    background: var(--bg-hover);
+}
+
+.main-tab.active {
+    color: var(--accent);
+}
+
+.main-tab.active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--accent);
+}
+
+.main-tab .tab-count {
+    display: inline-block;
+    margin-left: 0.5rem;
+    padding: 0.125rem 0.5rem;
+    font-size: 0.75rem;
+    background: var(--bg-hover);
+    border-radius: 10px;
+    color: var(--text-muted);
+}
+
+.main-tab.active .tab-count {
+    background: var(--accent-bg);
+    color: var(--accent);
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Dark mode tabs */
+[data-theme="dark"] .main-tab:hover {
+    background: var(--bg-hover);
+}
+
+[data-theme="dark"] .main-tab.active {
+    color: var(--accent);
+}
+
+/* Mobile responsive tabs */
+@media (max-width: 600px) {
+    .main-tabs {
+        flex-wrap: wrap;
+    }
+
+    .main-tab {
+        flex: 1 1 50%;
+        text-align: center;
+        padding: 0.75rem 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .main-tab .tab-count {
+        display: none;
+    }
 }

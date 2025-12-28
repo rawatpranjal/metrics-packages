@@ -1,251 +1,350 @@
 {{ define "main" }}
 <!-- Hero Section -->
 <header class="hero hero-with-image hero-talks">
-    <h1 class="hero-title">Talks</h1>
-    <p class="hero-tagline">{{ len .Site.Data.talks }} interviews and podcasts from chief economists.</p>
+    <h1 class="hero-title">Learn</h1>
+    <p class="hero-tagline">Podcasts, videos, blogs, and books for tech economists.</p>
 </header>
 
-<!-- Search Index Data for Fuse.js -->
-<script id="search-data" type="application/json">
-[{{ range $i, $item := .Site.Data.talks }}{{ if $i }},{{ end }}{"name":"{{ .name }}","description":"{{ .description | htmlEscape }}","category":"{{ .category }}","type":"{{ .type }}"}{{ end }}]
-</script>
+{{/* Count items for each tab */}}
+{{ $podcasts := where .Site.Data.talks "type" "in" (slice "Podcast" "Podcast Series") }}
+{{ $videos := where .Site.Data.talks "type" "in" (slice "Video" "YouTube Channel" "Interview" "Video Series" "Talks + Papers") }}
+{{ $blogs := where .Site.Data.community "category" "Blogs" }}
+{{ $books := where .Site.Data.resources "type" "in" (slice "Online Book" "Book" "Book + Lectures") }}
 
 <div class="container">
-    <!-- Search and Filters Row -->
-    <div class="search-filters-row">
-        <!-- Search Bar -->
-        <div class="search-container">
-            <div class="search-input-wrapper">
-                <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
-                    <circle cx="11" cy="11" r="8"></circle>
-                    <path d="m21 21-4.35-4.35"></path>
-                </svg>
-                <input type="text"
-                       id="talk-search"
-                       class="search-input"
-                       placeholder="Search talks..."
-                       autocomplete="off">
-                <button id="clear-search" class="clear-btn" type="button" aria-label="Clear search">
-                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M18 6L6 18M6 6l12 12"></path>
+    <!-- Main Tabs -->
+    <div class="main-tabs">
+        <button class="main-tab active" data-tab="podcasts">
+            Podcasts <span class="tab-count">{{ len $podcasts }}</span>
+        </button>
+        <button class="main-tab" data-tab="videos">
+            Videos <span class="tab-count">{{ len $videos }}</span>
+        </button>
+        <button class="main-tab" data-tab="blogs">
+            Blogs <span class="tab-count">{{ len $blogs }}</span>
+        </button>
+        <button class="main-tab" data-tab="books">
+            Books <span class="tab-count">{{ len $books }}</span>
+        </button>
+    </div>
+
+    <!-- ========== PODCASTS TAB ========== -->
+    <div id="tab-podcasts" class="tab-content active">
+        {{ $podcastCategories := slice }}
+        {{ range $podcasts }}
+            {{ if not (in $podcastCategories .category) }}
+                {{ $podcastCategories = $podcastCategories | append .category }}
+            {{ end }}
+        {{ end }}
+
+        <div class="search-filters-row">
+            <div class="search-container">
+                <div class="search-input-wrapper">
+                    <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
                     </svg>
-                </button>
-            </div>
-        </div>
-
-        <!-- Category Dropdown -->
-        {{ $categories := slice }}
-        {{ range .Site.Data.talks }}
-            {{ if not (in $categories .category) }}
-                {{ $categories = $categories | append .category }}
-            {{ end }}
-        {{ end }}
-        <select id="category-select" class="category-select">
-            <option value="all">All Topics</option>
-            {{ range $cat := sort $categories }}
-            <option value="{{ $cat }}">{{ $cat }}</option>
-            {{ end }}
-        </select>
-
-        <!-- Format Dropdown -->
-        {{ $formats := slice }}
-        {{ range .Site.Data.talks }}
-            {{ if not (in $formats .type) }}
-                {{ $formats = $formats | append .type }}
-            {{ end }}
-        {{ end }}
-        <select id="format-select" class="category-select">
-            <option value="all">All Formats</option>
-            {{ range $fmt := sort $formats }}
-            <option value="{{ $fmt | lower }}">{{ $fmt }}</option>
-            {{ end }}
-        </select>
-
-        <!-- View Toggle -->
-        <div class="view-toggle">
-            <button id="btn-cards" class="toggle-btn active">Cards</button>
-            <button id="btn-table" class="toggle-btn">Table</button>
-        </div>
-    </div>
-
-    <div id="result-count" class="result-count">{{ len .Site.Data.talks }} talks</div>
-
-    <!-- Cards View -->
-    <div id="cards-view" class="resources-grid">
-        {{ range $cat := $categories }}
-        <div class="category-section" data-section-category="{{ $cat }}">
-            <h2 class="category-title">{{ $cat }}</h2>
-            <div class="cards-row">
-                {{ range $.Site.Data.talks }}
-                {{ if eq .category $cat }}
-                <div class="resource-card" data-aos="fade-up"
-                     data-name="{{ .name | lower }}"
-                     data-description="{{ .description | lower }}"
-                     data-category="{{ .category }}"
-                     data-type="{{ .type | lower }}">
-                    {{ if .image_url }}
-                    <a href="{{ .url }}" target="_blank" class="talk-thumbnail-link">
-                        <img src="{{ .image_url }}"
-                             alt=""
-                             class="talk-thumbnail"
-                             loading="lazy">
-                    </a>
-                    {{ else if findRE "youtube\\.com/@|youtube\\.com/c/" .url }}
-                    {{/* YouTube Channel - use red YouTube-themed placeholder */}}
-                    <a href="{{ .url }}" target="_blank" class="talk-thumbnail-link talk-thumbnail-yt-channel">
-                        <div class="yt-channel-placeholder">
-                            <svg viewBox="0 0 24 24" width="48" height="48" fill="white">
-                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-                            </svg>
-                        </div>
-                    </a>
-                    {{ else if findRE "youtube\\.com|youtu\\.be" .url }}
-                    {{ $videoId := replaceRE ".*(?:v=|youtu\\.be/)([^&?]+).*" "$1" .url }}
-                    <a href="{{ .url }}" target="_blank" class="talk-thumbnail-link">
-                        <img src="https://img.youtube.com/vi/{{ $videoId }}/mqdefault.jpg"
-                             alt=""
-                             class="talk-thumbnail"
-                             loading="lazy">
-                        <div class="play-overlay">
-                            <svg viewBox="0 0 24 24" width="48" height="48" fill="white">
-                                <polygon points="5,3 19,12 5,21"></polygon>
-                            </svg>
-                        </div>
-                    </a>
-                    {{ end }}
-                    <div class="card-header">
-                        <img class="resource-favicon"
-                             src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32"
-                             alt=""
-                             loading="lazy"
-                             onerror="this.style.display='none'">
-                        <h3 class="resource-name">
-                            <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
-                        </h3>
-                        <span class="resource-type">{{ .type }}</span>
-                    </div>
-                    <p class="resource-desc">{{ .description }}</p>
-                    <div class="card-footer">
-                        <span class="category-badge">{{ .category }}</span>
-                        <a href="{{ .url }}" target="_blank" class="link-btn">Visit</a>
-                    </div>
+                    <input type="text" id="podcasts-search" class="search-input" placeholder="Search podcasts..." autocomplete="off">
                 </div>
-                {{ end }}
-                {{ end }}
             </div>
+            <select id="podcasts-category" class="category-select">
+                <option value="all">All Topics</option>
+                {{ range $cat := sort $podcastCategories }}
+                <option value="{{ $cat }}">{{ $cat }}</option>
+                {{ end }}
+            </select>
         </div>
-        {{ end }}
+
+        <div id="podcasts-count" class="result-count">{{ len $podcasts }} podcasts</div>
+
+        <div class="resources-grid">
+            {{ range $cat := $podcastCategories }}
+            <div class="category-section" data-section-category="{{ $cat }}">
+                <h2 class="category-title">{{ $cat }}</h2>
+                <div class="cards-row">
+                    {{ range $podcasts }}
+                    {{ if eq .category $cat }}
+                    <div class="resource-card" data-name="{{ .name | lower }}" data-description="{{ .description | lower }}" data-category="{{ .category }}">
+                        <div class="card-header">
+                            <img class="resource-favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
+                            <h3 class="resource-name">
+                                <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+                            </h3>
+                            <span class="resource-type">{{ .type }}</span>
+                        </div>
+                        <p class="resource-desc">{{ .description }}</p>
+                        <div class="card-footer">
+                            <span class="category-badge">{{ .category }}</span>
+                            <a href="{{ .url }}" target="_blank" class="link-btn">Listen</a>
+                        </div>
+                    </div>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
     </div>
 
-    <!-- Table View -->
-    <div id="table-view" class="package-table-wrapper" style="display: none;">
-        <table class="package-table" id="talks-table">
-            <thead>
-                <tr>
-                    <th class="sortable" data-sort="name">Name <span class="sort-icon">↕</span></th>
-                    <th class="sortable" data-sort="type">Format <span class="sort-icon">↕</span></th>
-                    <th class="sortable" data-sort="category">Topic <span class="sort-icon">↕</span></th>
-                    <th>Description</th>
-                    <th>Link</th>
-                </tr>
-            </thead>
-            <tbody>
-                {{ range .Site.Data.talks }}
-                <tr data-name="{{ .name | lower }}"
-                    data-description="{{ .description | lower }}"
-                    data-category="{{ .category }}"
-                    data-type="{{ .type | lower }}">
-                    <td class="pkg-name">
-                        <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
-                    </td>
-                    <td><span class="category-badge-sm">{{ .type }}</span></td>
-                    <td><span class="category-badge-sm">{{ .category }}</span></td>
-                    <td class="pkg-desc">{{ .description }}</td>
-                    <td class="pkg-links">
-                        <a href="{{ .url }}" target="_blank">Visit</a>
-                    </td>
-                </tr>
+    <!-- ========== VIDEOS TAB ========== -->
+    <div id="tab-videos" class="tab-content">
+        {{ $videoCategories := slice }}
+        {{ range $videos }}
+            {{ if not (in $videoCategories .category) }}
+                {{ $videoCategories = $videoCategories | append .category }}
+            {{ end }}
+        {{ end }}
+
+        <div class="search-filters-row">
+            <div class="search-container">
+                <div class="search-input-wrapper">
+                    <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <input type="text" id="videos-search" class="search-input" placeholder="Search videos..." autocomplete="off">
+                </div>
+            </div>
+            <select id="videos-category" class="category-select">
+                <option value="all">All Topics</option>
+                {{ range $cat := sort $videoCategories }}
+                <option value="{{ $cat }}">{{ $cat }}</option>
                 {{ end }}
-            </tbody>
-        </table>
+            </select>
+        </div>
+
+        <div id="videos-count" class="result-count">{{ len $videos }} videos</div>
+
+        <div class="resources-grid">
+            {{ range $cat := $videoCategories }}
+            <div class="category-section" data-section-category="{{ $cat }}">
+                <h2 class="category-title">{{ $cat }}</h2>
+                <div class="cards-row">
+                    {{ range $videos }}
+                    {{ if eq .category $cat }}
+                    <div class="resource-card" data-name="{{ .name | lower }}" data-description="{{ .description | lower }}" data-category="{{ .category }}">
+                        {{ if .image_url }}
+                        <a href="{{ .url }}" target="_blank" class="talk-thumbnail-link">
+                            <img src="{{ .image_url }}" alt="" class="talk-thumbnail" loading="lazy">
+                        </a>
+                        {{ else if findRE "youtube\\.com/@|youtube\\.com/c/|youtube\\.com/channel/" .url }}
+                        <a href="{{ .url }}" target="_blank" class="talk-thumbnail-link talk-thumbnail-yt-channel">
+                            <div class="yt-channel-placeholder">
+                                <svg viewBox="0 0 24 24" width="48" height="48" fill="white">
+                                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                                </svg>
+                            </div>
+                        </a>
+                        {{ else if findRE "youtube\\.com|youtu\\.be" .url }}
+                        {{ $videoId := replaceRE ".*(?:v=|youtu\\.be/)([^&?]+).*" "$1" .url }}
+                        <a href="{{ .url }}" target="_blank" class="talk-thumbnail-link">
+                            <img src="https://img.youtube.com/vi/{{ $videoId }}/mqdefault.jpg" alt="" class="talk-thumbnail" loading="lazy">
+                            <div class="play-overlay">
+                                <svg viewBox="0 0 24 24" width="48" height="48" fill="white">
+                                    <polygon points="5,3 19,12 5,21"></polygon>
+                                </svg>
+                            </div>
+                        </a>
+                        {{ end }}
+                        <div class="card-header">
+                            <img class="resource-favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
+                            <h3 class="resource-name">
+                                <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+                            </h3>
+                            <span class="resource-type">{{ .type }}</span>
+                        </div>
+                        <p class="resource-desc">{{ .description }}</p>
+                        <div class="card-footer">
+                            <span class="category-badge">{{ .category }}</span>
+                            <a href="{{ .url }}" target="_blank" class="link-btn">Watch</a>
+                        </div>
+                    </div>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+
+    <!-- ========== BLOGS TAB ========== -->
+    <div id="tab-blogs" class="tab-content">
+        <div class="search-filters-row">
+            <div class="search-container">
+                <div class="search-input-wrapper">
+                    <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <input type="text" id="blogs-search" class="search-input" placeholder="Search blogs..." autocomplete="off">
+                </div>
+            </div>
+        </div>
+
+        <div id="blogs-count" class="result-count">{{ len $blogs }} blogs</div>
+
+        <div class="resources-grid">
+            <div class="category-section">
+                <div class="cards-row">
+                    {{ range $blogs }}
+                    <div class="resource-card" data-name="{{ .name | lower }}" data-description="{{ .description | lower }}">
+                        <div class="card-header">
+                            <img class="resource-favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
+                            <h3 class="resource-name">
+                                <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+                            </h3>
+                        </div>
+                        <p class="resource-desc">{{ .description }}</p>
+                        <div class="card-footer">
+                            <a href="{{ .url }}" target="_blank" class="link-btn">Read</a>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== BOOKS TAB ========== -->
+    <div id="tab-books" class="tab-content">
+        {{ $bookCategories := slice }}
+        {{ range $books }}
+            {{ if not (in $bookCategories .category) }}
+                {{ $bookCategories = $bookCategories | append .category }}
+            {{ end }}
+        {{ end }}
+
+        <div class="search-filters-row">
+            <div class="search-container">
+                <div class="search-input-wrapper">
+                    <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <input type="text" id="books-search" class="search-input" placeholder="Search books..." autocomplete="off">
+                </div>
+            </div>
+            <select id="books-category" class="category-select">
+                <option value="all">All Topics</option>
+                {{ range $cat := sort $bookCategories }}
+                <option value="{{ $cat }}">{{ $cat }}</option>
+                {{ end }}
+            </select>
+        </div>
+
+        <div id="books-count" class="result-count">{{ len $books }} books</div>
+
+        <div class="resources-grid">
+            {{ range $cat := $bookCategories }}
+            <div class="category-section" data-section-category="{{ $cat }}">
+                <h2 class="category-title">{{ $cat }}</h2>
+                <div class="cards-row">
+                    {{ range $books }}
+                    {{ if eq .category $cat }}
+                    <div class="resource-card" data-name="{{ .name | lower }}" data-description="{{ .description | lower }}" data-category="{{ .category }}">
+                        <div class="card-header">
+                            <img class="resource-favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
+                            <h3 class="resource-name">
+                                <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+                            </h3>
+                            <span class="resource-type">{{ .type }}</span>
+                        </div>
+                        <p class="resource-desc">{{ .description }}</p>
+                        <div class="card-footer">
+                            <span class="category-badge">{{ .category }}</span>
+                            <a href="{{ .url }}" target="_blank" class="link-btn">Read</a>
+                        </div>
+                    </div>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
     </div>
 
     <!-- Footer -->
     <footer class="footer">
-        <p>Curated talks, podcasts, and interviews for tech economists</p>
+        <p>Curated learning resources for tech economists</p>
     </footer>
 </div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // Initialize PageSearch with Fuse.js
-    new PageSearch({
-        searchInputId: 'talk-search',
-        cardSelector: '.resource-card',
-        sectionSelector: '.category-section',
-        tableRowSelector: '#talks-table tbody tr',
-        itemLabel: 'talks',
-        fuseKeys: [
-            { name: 'name', weight: 2 },
-            { name: 'description', weight: 1 },
-            { name: 'type', weight: 0.8 },
-            { name: 'category', weight: 0.5 }
-        ],
-        extraFilters: [
-            { selectId: 'format-select', dataKey: 'type' }
-        ]
+    // Tab switching
+    const tabs = document.querySelectorAll('.main-tab');
+    const tabContents = document.querySelectorAll('.tab-content');
+
+    function switchTab(tabId) {
+        tabs.forEach(t => t.classList.remove('active'));
+        tabContents.forEach(tc => tc.classList.remove('active'));
+
+        document.querySelector(`[data-tab="${tabId}"]`).classList.add('active');
+        document.getElementById(`tab-${tabId}`).classList.add('active');
+
+        // Update URL hash
+        history.replaceState(null, null, `#${tabId}`);
+    }
+
+    tabs.forEach(tab => {
+        tab.addEventListener('click', () => switchTab(tab.dataset.tab));
     });
 
-    // View toggle (page-specific)
-    const cardsView = document.getElementById('cards-view');
-    const tableView = document.getElementById('table-view');
-    const btnCards = document.getElementById('btn-cards');
-    const btnTable = document.getElementById('btn-table');
+    // Handle URL hash on load
+    const hash = window.location.hash.slice(1);
+    if (hash && document.getElementById(`tab-${hash}`)) {
+        switchTab(hash);
+    }
 
-    btnCards.addEventListener('click', function() {
-        cardsView.style.display = 'block';
-        tableView.style.display = 'none';
-        btnCards.classList.add('active');
-        btnTable.classList.remove('active');
-    });
+    // Simple search and filter for each tab
+    function setupTabSearch(searchId, categoryId, countId, itemLabel) {
+        const searchInput = document.getElementById(searchId);
+        const categorySelect = document.getElementById(categoryId);
+        const countEl = document.getElementById(countId);
+        const tabContent = searchInput.closest('.tab-content');
+        const cards = tabContent.querySelectorAll('.resource-card');
+        const sections = tabContent.querySelectorAll('.category-section');
 
-    btnTable.addEventListener('click', function() {
-        cardsView.style.display = 'none';
-        tableView.style.display = 'block';
-        btnTable.classList.add('active');
-        btnCards.classList.remove('active');
-    });
+        function filterItems() {
+            const searchTerm = searchInput.value.toLowerCase();
+            const selectedCategory = categorySelect ? categorySelect.value : 'all';
+            let visibleCount = 0;
 
-    // Table sorting (page-specific)
-    const sortableHeaders = document.querySelectorAll('.sortable');
-    const tableRows = document.querySelectorAll('#talks-table tbody tr');
-    let currentSort = { column: null, direction: 'asc' };
+            cards.forEach(card => {
+                const name = card.dataset.name || '';
+                const desc = card.dataset.description || '';
+                const category = card.dataset.category || '';
 
-    sortableHeaders.forEach(function(header) {
-        header.addEventListener('click', function() {
-            const column = this.dataset.sort;
-            const direction = (currentSort.column === column && currentSort.direction === 'asc') ? 'desc' : 'asc';
-            currentSort = { column, direction };
+                const matchesSearch = !searchTerm || name.includes(searchTerm) || desc.includes(searchTerm);
+                const matchesCategory = selectedCategory === 'all' || category === selectedCategory;
 
-            sortableHeaders.forEach(function(h) {
-                h.querySelector('.sort-icon').textContent = '↕';
-            });
-            this.querySelector('.sort-icon').textContent = direction === 'asc' ? '↑' : '↓';
-
-            const tbody = document.querySelector('#talks-table tbody');
-            const rows = Array.from(tableRows);
-
-            rows.sort(function(a, b) {
-                let aVal = a.dataset[column] || '';
-                let bVal = b.dataset[column] || '';
-                return direction === 'asc' ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+                if (matchesSearch && matchesCategory) {
+                    card.style.display = '';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
             });
 
-            rows.forEach(function(row) {
-                tbody.appendChild(row);
+            // Hide empty sections
+            sections.forEach(section => {
+                const visibleCards = section.querySelectorAll('.resource-card:not([style*="display: none"])');
+                section.style.display = visibleCards.length ? '' : 'none';
             });
-        });
-    });
+
+            countEl.textContent = `${visibleCount} ${itemLabel}`;
+        }
+
+        searchInput.addEventListener('input', filterItems);
+        if (categorySelect) {
+            categorySelect.addEventListener('change', filterItems);
+        }
+    }
+
+    setupTabSearch('podcasts-search', 'podcasts-category', 'podcasts-count', 'podcasts');
+    setupTabSearch('videos-search', 'videos-category', 'videos-count', 'videos');
+    setupTabSearch('blogs-search', null, 'blogs-count', 'blogs');
+    setupTabSearch('books-search', 'books-category', 'books-count', 'books');
 });
 </script>
 {{ end }}
