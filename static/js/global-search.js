@@ -455,18 +455,26 @@
 
     // Try vector search first if available
     if (CONFIG.useVectorSearch && typeof VectorSearch !== 'undefined' && VectorSearch.isLoaded) {
-      // Use expanded queries for better vector search seeding
-      results = VectorSearch.search(query, fuse, CONFIG.maxTotalResults);
+      // Use expanded queries to seed VectorSearch (fixes synonym lookup)
+      var fuseSeedResults = searchWithExpansion(expandedQueries, 10);
 
-      // If vector search returns few results, also try expanded Fuse.js
-      if (results.length < 5 && expandedQueries.length > 1) {
-        var fuseExpanded = searchWithExpansion(expandedQueries, CONFIG.maxTotalResults);
-        // Merge results, avoiding duplicates
+      if (fuseSeedResults.length > 0) {
+        // Create a mock fuse that returns our expanded results
+        var mockFuse = { search: function() { return fuseSeedResults; } };
+        results = VectorSearch.search(expandedQueries[0], mockFuse, CONFIG.maxTotalResults);
+      } else {
+        // No matches even with expansion - use vector search's fallback
+        results = VectorSearch.search(query, fuse, CONFIG.maxTotalResults);
+      }
+
+      // Supplement with more expanded results if needed
+      if (results.length < CONFIG.maxTotalResults) {
         var seen = {};
         results.forEach(function(r) { seen[r.item.name + r.item.type] = true; });
-        fuseExpanded.forEach(function(r) {
+        var more = searchWithExpansion(expandedQueries, CONFIG.maxTotalResults);
+        more.forEach(function(r) {
           var key = r.item.name + r.item.type;
-          if (!seen[key]) {
+          if (!seen[key] && results.length < CONFIG.maxTotalResults) {
             seen[key] = true;
             results.push(r);
           }
