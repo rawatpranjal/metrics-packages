@@ -3015,46 +3015,6 @@ mark {
     margin-bottom: 0.75rem;
 }
 
-.paper-tag {
-    display: inline-block;
-    padding: 0.2rem 0.6rem;
-    font-size: 0.7rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    border-radius: 4px;
-}
-
-.tag-classic {
-    background: #e8f5e9;
-    color: #2e7d32;
-}
-
-.tag-sota {
-    background: #e3f2fd;
-    color: #1565c0;
-}
-
-.tag-industry {
-    background: #fff3e0;
-    color: #e65100;
-}
-
-[data-theme="dark"] .tag-classic {
-    background: #1b3a20;
-    color: #81c784;
-}
-
-[data-theme="dark"] .tag-sota {
-    background: #0d2137;
-    color: #64b5f6;
-}
-
-[data-theme="dark"] .tag-industry {
-    background: #3a2510;
-    color: #ffb74d;
-}
-
 .paper-year {
     font-size: 0.85rem;
     color: var(--text-muted);

@@ -43,7 +43,6 @@
                 {{ range .papers }}
                 <div class="paper-card" data-aos="fade-up">
                     <div class="paper-header">
-                        <span class="paper-tag tag-{{ .tag | lower }}">{{ .tag }}</span>
                         <span class="paper-year">{{ .year }}</span>
                     </div>
                     <h3 class="paper-title">
@@ -65,7 +64,6 @@
                             <th>Title</th>
                             <th>Authors</th>
                             <th>Year</th>
-                            <th>Tag</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -77,7 +75,6 @@
                             </td>
                             <td class="paper-authors-cell">{{ .authors }}</td>
                             <td class="paper-year-cell">{{ .year }}</td>
-                            <td class="paper-tag-cell"><span class="paper-tag tag-{{ .tag | lower }}">{{ .tag }}</span></td>
                         </tr>
                         {{ end }}
                     </tbody>
