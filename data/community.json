@@ -439,5 +439,131 @@
     "type": "Personal Blog",
     "location": "Online",
     "dates": "Ongoing"
+  },
+  {
+    "name": "Microsoft Research ALICE (EconML/DoWhy)",
+    "description": "Most widely-adopted causal ML tools. EconML for heterogeneous treatment effects, DoWhy for causal inference. Key researchers: Vasilis Syrgkanis, Amit Sharma.",
+    "category": "Research Labs",
+    "url": "https://github.com/py-why/EconML",
+    "type": "Tech Lab",
+    "location": "Microsoft Research",
+    "dates": "Active"
+  },
+  {
+    "name": "Uber CausalML",
+    "description": "Industry standard for uplift modeling and CATE estimation. Meta-learners (S, T, X, R). Key researchers: Huigang Chen, Totte Harinen.",
+    "category": "Research Labs",
+    "url": "https://github.com/uber/causalml",
+    "type": "Tech Lab",
+    "location": "Uber",
+    "dates": "Active"
+  },
+  {
+    "name": "Google Market Algorithms",
+    "description": "Auction design, mechanism design, autobidding systems. Led by Vahab Mirrokni. Shapes Google's advertising marketplace.",
+    "category": "Research Labs",
+    "url": "https://research.google/teams/market-algorithms/",
+    "type": "Tech Lab",
+    "location": "Google Research",
+    "dates": "Active"
+  },
+  {
+    "name": "Meta Core Data Science",
+    "description": "Experimentation at scale, network effects, peer effects, advertising economics. Led by Nicolas Stier-Moses (VP).",
+    "category": "Research Labs",
+    "url": "https://research.facebook.com/",
+    "type": "Tech Lab",
+    "location": "Meta",
+    "dates": "Active"
+  },
+  {
+    "name": "Netflix Causal Inference",
+    "description": "Causal inference for recommender systems. CompCI project, annual CIDER roundtable. Research advisor: Nathan Kallus (Cornell).",
+    "category": "Research Labs",
+    "url": "https://research.netflix.com/research-area/experimentation-and-causal-inference",
+    "type": "Tech Lab",
+    "location": "Netflix",
+    "dates": "Active"
+  },
+  {
+    "name": "Spotify Causal Inference Lab",
+    "description": "Synthetic control, long-term causal effects. Published in Nature Machine Intelligence (2023). Led by Ciarán Gilligan-Lee.",
+    "category": "Research Labs",
+    "url": "https://research.atspotify.com/causal-inference",
+    "type": "Tech Lab",
+    "location": "Spotify",
+    "dates": "Active"
+  },
+  {
+    "name": "Amazon Science Economics",
+    "description": "Pricing Labs for A/B testing price changes, switchback experiments, marketplace economics at scale.",
+    "category": "Research Labs",
+    "url": "https://amazon.science/research-areas/economics",
+    "type": "Tech Lab",
+    "location": "Amazon",
+    "dates": "Active"
+  },
+  {
+    "name": "LinkedIn Economic Graph",
+    "description": "Labor market analysis using LinkedIn's professional network data. Skills taxonomy, workforce trends.",
+    "category": "Research Labs",
+    "url": "https://economicgraph.linkedin.com/",
+    "type": "Tech Lab",
+    "location": "LinkedIn",
+    "dates": "Active"
+  },
+  {
+    "name": "Salesforce AI Economist",
+    "description": "Open-source framework for economic policy simulation using reinforcement learning. Multi-agent economic environments.",
+    "category": "Research Labs",
+    "url": "https://github.com/salesforce/ai-economist",
+    "type": "Tech Lab",
+    "location": "Salesforce",
+    "dates": "Active"
+  },
+  {
+    "name": "Stanford Golub Capital Social Impact Lab (GRF)",
+    "description": "Created Generalized Random Forests (grf R package). Susan Athey, Stefan Wager, Guido Imbens (Nobel). The gold standard for causal forests.",
+    "category": "Research Labs",
+    "url": "https://grf-labs.github.io/grf/",
+    "type": "Academic Lab",
+    "location": "Stanford GSB",
+    "dates": "Active"
+  },
+  {
+    "name": "MIT Economics & Data Science",
+    "description": "Costis Daskalakis (mechanism design), Parag Pathak (school choice, NBER Market Design), Nikhil Agarwal (empirical market design).",
+    "category": "Research Labs",
+    "url": "https://economics.mit.edu/",
+    "type": "Academic Lab",
+    "location": "MIT",
+    "dates": "Active"
+  },
+  {
+    "name": "Harvard EconCS Group",
+    "description": "Mechanism design, computational social choice, AI for markets. David Parkes, Milind Tambe, Yiling Chen. GemNet won EC'24 Exemplary Paper.",
+    "category": "Research Labs",
+    "url": "https://econcs.seas.harvard.edu/",
+    "type": "Academic Lab",
+    "location": "Harvard SEAS",
+    "dates": "Active"
+  },
+  {
+    "name": "UC Berkeley Simons Institute",
+    "description": "World's premier collaborative programs in theoretical CS and economics. Semester programs on Economics and Computation.",
+    "category": "Research Labs",
+    "url": "https://simons.berkeley.edu/",
+    "type": "Academic Lab",
+    "location": "UC Berkeley",
+    "dates": "Active"
+  },
+  {
+    "name": "Opportunity Insights",
+    "description": "Raj Chetty's lab. Opportunity Atlas, Social Capital Atlas, Economic Tracker. Most widely-used public economics big data.",
+    "category": "Research Labs",
+    "url": "https://opportunityinsights.org/",
+    "type": "Academic Lab",
+    "location": "Harvard",
+    "dates": "Active"
   }
 ]

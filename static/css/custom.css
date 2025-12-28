@@ -1141,7 +1141,8 @@ a:hover {
 .hero-logo {
     width: 120px;
     height: auto;
-    margin-bottom: 1rem;
+    display: block;
+    margin: 0 auto 1rem auto;
 }
 
 .hero-title {
