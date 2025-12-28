@@ -1,0 +1,173 @@
+[
+  {
+    "name": "Pricing & Subscriptions",
+    "description": "Dynamic pricing, subscription economics, and revenue optimization — price elasticity estimation and causal inference form the core toolkit",
+    "icon": "dollar",
+    "resources": [
+      {"name": "Coursera Pricing Strategy Optimization (UVA/BCG)", "why": "Price elasticity, WTP estimation, segmentation — free to audit", "url": "https://www.coursera.org/specializations/uva-darden-bcg-pricing-strategy"},
+      {"name": "Maven: The Art of SaaS Pricing", "why": "Usage-based pricing and Good-Better-Best from Ajit Ghuman", "url": "https://maven.com/ajit-ghuman/saas-pricing"},
+      {"name": "Monetizing Innovation (Ramanujam)", "why": "The industry bible — design products around price, not vice versa", "url": "https://www.amazon.com/Monetizing-Innovation-Companies-Design-Product/dp/1119240867"},
+      {"name": "OpenView SaaS Pricing Guide", "why": "Free playbooks on usage-based pricing", "url": "https://openviewpartners.com/blog/saas-pricing-resource-guide/"},
+      {"name": "Lenny's Podcast: Madhavan Ramanujam", "why": "90 minutes on WTP conversations and behavioral pricing", "url": "https://www.lennyspodcast.com/the-art-and-science-of-pricing-madhavan-ramanujam-simon-kucher/"}
+    ],
+    "packages": [
+      {"name": "EconML", "why": "Heterogeneous treatment effects — built by Microsoft for economists", "url": "https://econml.azurewebsites.net/"},
+      {"name": "CausalML", "why": "Uber's uplift modeling for price optimization", "url": "https://causalml.readthedocs.io/"},
+      {"name": "DoWhy", "why": "Causal graph framework with refutation tests", "url": "https://www.pywhy.org/dowhy/"},
+      {"name": "statsmodels", "why": "OLS regression for elasticity estimation", "url": "https://www.statsmodels.org/"}
+    ],
+    "order": 1
+  },
+  {
+    "name": "Ads & Auctions",
+    "description": "Mechanism design and auction theory in industry — economists with game theory backgrounds have direct advantages here",
+    "icon": "megaphone",
+    "resources": [
+      {"name": "Roughgarden: Algorithmic Game Theory (40 lectures)", "why": "Free Stanford lectures — theoretical foundation", "url": "https://timroughgarden.org/videos.html"},
+      {"name": "Twenty Lectures on Algorithmic Game Theory", "why": "Bridges CS and economics with ad case studies", "url": "https://www.amazon.com/Twenty-Lectures-Algorithmic-Game-Theory/dp/131662479X"},
+      {"name": "Display Advertising with Real-Time Bidding", "why": "Free comprehensive RTB coverage on arXiv", "url": "https://arxiv.org/abs/1610.03013"},
+      {"name": "GSP Auction Paper (Edelman et al., AER 2007)", "why": "Foundational paper on search advertising auctions", "url": "https://www.benedelman.org/publications/gsp-060801.pdf"},
+      {"name": "AdKDD Workshop Papers", "why": "Applied research from Google, Meta, Amazon", "url": "https://www.adkdd.org/"}
+    ],
+    "packages": [
+      {"name": "PyMC-Marketing", "why": "Bayesian MMM with adstock and saturation", "url": "https://www.pymc-marketing.io/"},
+      {"name": "Google Meridian", "why": "New MMM framework released January 2025", "url": "https://developers.google.com/meridian"},
+      {"name": "GeoLift (Meta)", "why": "Geo-experiments using synthetic control", "url": "https://github.com/facebookincubator/GeoLift"},
+      {"name": "CausalImpact", "why": "Bayesian structural time-series for interventions", "url": "https://google.github.io/CausalImpact/"}
+    ],
+    "order": 2
+  },
+  {
+    "name": "Marketing Analytics",
+    "description": "CLV modeling, attribution, and retention analytics — economists' panel data experience transfers directly to cohort analysis",
+    "icon": "chart-pie",
+    "resources": [
+      {"name": "DataCamp: ML for Marketing in Python", "why": "CLV basics, RFM analysis, segmentation", "url": "https://www.datacamp.com/courses/machine-learning-for-marketing-in-python"},
+      {"name": "PyMC-Marketing Documentation", "why": "BG/NBD and Gamma-Gamma CLV tutorials", "url": "https://www.pymc-marketing.io/en/stable/"},
+      {"name": "Data Analytics for Marketing (Diaz-Berrio)", "why": "Bridges econometrics with marketing ML", "url": "https://www.packtpub.com/product/data-analytics-for-marketing/9781803241609"},
+      {"name": "Bruce Hardie's CLV Papers", "why": "Mathematical foundations of CLV models", "url": "https://www.brucehardie.com/"},
+      {"name": "Lyft Engineering: LTV Curves", "why": "Production CLV and Thompson sampling", "url": "https://eng.lyft.com/"}
+    ],
+    "packages": [
+      {"name": "PyMC-Marketing", "why": "Unified CLV + MMM, Bayesian, production-ready", "url": "https://www.pymc-marketing.io/"},
+      {"name": "lifetimes", "why": "BG/NBD, Gamma-Gamma CLV (maintenance mode)", "url": "https://lifetimes.readthedocs.io/"},
+      {"name": "lifelines", "why": "Survival analysis for retention and churn", "url": "https://lifelines.readthedocs.io/"},
+      {"name": "scikit-learn", "why": "K-Means, DBSCAN for customer segmentation", "url": "https://scikit-learn.org/"}
+    ],
+    "order": 3
+  },
+  {
+    "name": "Risk, Safety & Trust",
+    "description": "Fraud detection, credit risk, and trust & safety ML — causal inference handles adversarial, imbalanced problems",
+    "icon": "shield",
+    "resources": [
+      {"name": "DataCamp: Fraud Detection in Python", "why": "Supervised/unsupervised ML for imbalanced data", "url": "https://www.datacamp.com/courses/fraud-detection-in-python"},
+      {"name": "365 Data Science: Credit Risk Modeling", "why": "PD, LGD, EAD with Basel compliance", "url": "https://365datascience.com/courses/credit-risk-modeling-python/"},
+      {"name": "Fight Fraud with ML (Manning, 2024)", "why": "Phishing, card fraud, deepfakes, graph CNNs", "url": "https://www.manning.com/books/fight-fraud-with-machine-learning"},
+      {"name": "Stripe ML for Fraud Protection", "why": "How Radar processes $1T+ annually", "url": "https://stripe.com/guides/primer-on-machine-learning-for-fraud-protection"},
+      {"name": "Credit Risk Analytics (Baesens)", "why": "Gold standard for PD/LGD/EAD modeling", "url": "https://www.amazon.com/Credit-Risk-Analytics-Measurement-Applications/dp/1119143985"}
+    ],
+    "packages": [
+      {"name": "PyOD", "why": "50+ anomaly detection algorithms, 26M+ downloads", "url": "https://pyod.readthedocs.io/"},
+      {"name": "scorecardpy", "why": "WOE binning, IV calculation for credit", "url": "https://github.com/ShichenXie/scorecardpy"},
+      {"name": "optbinning", "why": "ING Bank's optimal binning for scorecards", "url": "https://gnpalencia.org/optbinning/"},
+      {"name": "imbalanced-learn", "why": "SMOTE, ADASYN for class imbalance", "url": "https://imbalanced-learn.org/"}
+    ],
+    "order": 4
+  },
+  {
+    "name": "Recommendation Systems",
+    "description": "Random utility models underpin collaborative filtering — preference elicitation mirrors revealed preference theory",
+    "icon": "star",
+    "resources": [
+      {"name": "Coursera RecSys Specialization (UMN)", "why": "Comprehensive: collaborative, content-based, matrix factorization", "url": "https://www.coursera.org/specializations/recommender-systems"},
+      {"name": "Recommender Systems: The Textbook (Aggarwal)", "why": "700+ references, classical through advanced", "url": "https://www.springer.com/gp/book/9783319296579"},
+      {"name": "Netflix Tech Blog: Recommendations", "why": "Production systems and foundation models", "url": "https://netflixtechblog.com/tagged/recommendations"},
+      {"name": "Practical Recommender Systems (Manning)", "why": "Python implementations from baselines to transformers", "url": "https://www.manning.com/books/practical-recommender-systems"},
+      {"name": "Deep Learning for Choice Modeling", "why": "Bridges economic choice theory with deep learning", "url": "https://arxiv.org/abs/2208.09325"}
+    ],
+    "packages": [
+      {"name": "Surprise", "why": "scikit-learn-like API for explicit ratings", "url": "https://surpriselib.com/"},
+      {"name": "LightFM", "why": "Hybrid cold-start with content features", "url": "https://making.lyst.com/lightfm/docs/home.html"},
+      {"name": "implicit", "why": "Optimized for implicit feedback (clicks/views)", "url": "https://benfred.github.io/implicit/"},
+      {"name": "RecBole", "why": "100+ deep learning models, PyTorch-based", "url": "https://recbole.io/"}
+    ],
+    "order": 5
+  },
+  {
+    "name": "Search & Ranking",
+    "description": "Learning-to-rank combines ML with causal inference — counterfactual learning addresses position bias like selection bias correction",
+    "icon": "search",
+    "resources": [
+      {"name": "Introduction to Information Retrieval (Manning)", "why": "Canonical free text at Stanford", "url": "https://nlp.stanford.edu/IR-book/"},
+      {"name": "Learning to Rank for IR (Tie-Yan Liu)", "why": "Pointwise, pairwise, listwise approaches", "url": "https://www.microsoft.com/en-us/research/publication/learning-to-rank-for-information-retrieval/"},
+      {"name": "Relevant Search (Manning)", "why": "Industry-focused Elasticsearch/Solr with LTR", "url": "https://www.manning.com/books/relevant-search"},
+      {"name": "Airbnb Engineering: Search", "why": "Embedding retrieval and experimentation", "url": "https://medium.com/airbnb-engineering/search/home"},
+      {"name": "Joachims: Counterfactual LTR", "why": "Econometric causal inference for ranking", "url": "https://www.cs.cornell.edu/people/tj/"}
+    ],
+    "packages": [
+      {"name": "XGBoost (XGBRanker)", "why": "LambdaMART with rank:ndcg objective", "url": "https://xgboost.readthedocs.io/"},
+      {"name": "LightGBM (LGBMRanker)", "why": "Microsoft's efficient LambdaRank", "url": "https://lightgbm.readthedocs.io/"},
+      {"name": "sentence-transformers", "why": "Pre-trained Sentence-BERT embeddings", "url": "https://www.sbert.net/"},
+      {"name": "FAISS", "why": "Facebook's vector similarity search at scale", "url": "https://faiss.ai/"}
+    ],
+    "order": 6
+  },
+  {
+    "name": "Logistics & Supply Chain",
+    "description": "Operations research for routing, inventory, and demand forecasting — constrained optimization and dynamic programming",
+    "icon": "truck",
+    "resources": [
+      {"name": "MIT MicroMasters: Supply Chain (edX)", "why": "Graduate-level demand forecasting, inventory, network design", "url": "https://www.edx.org/micromasters/mitx-supply-chain-management"},
+      {"name": "Google OR-Tools Documentation", "why": "VRP tutorials with Python code", "url": "https://developers.google.com/optimization"},
+      {"name": "The Logic of Logistics (Simchi-Levi)", "why": "State-of-the-art theory", "url": "https://www.amazon.com/Logic-Logistics-Management-Springer-Business/dp/1461432006"},
+      {"name": "Data Science for Supply Chain (Vandeput)", "why": "Python demand forecasting implementation", "url": "https://www.amazon.com/Data-Science-Supply-Chain-Forecasting/dp/3110671107"},
+      {"name": "DoorDash Engineering", "why": "Real-time optimization for delivery", "url": "https://doordash.engineering/"}
+    ],
+    "packages": [
+      {"name": "OR-Tools", "why": "Google's industry-standard VRP solver", "url": "https://developers.google.com/optimization"},
+      {"name": "Pyomo", "why": "Flexible, solver-agnostic optimization", "url": "https://www.pyomo.org/"},
+      {"name": "Prophet", "why": "Meta's univariate demand forecasting", "url": "https://facebook.github.io/prophet/"},
+      {"name": "PyVRP", "why": "State-of-the-art vehicle routing", "url": "https://pyvrp.org/"}
+    ],
+    "order": 7
+  },
+  {
+    "name": "Financial Data Science",
+    "description": "Quantitative finance applies economists' time series econometrics — GARCH models, portfolio theory, and risk metrics",
+    "icon": "coins",
+    "resources": [
+      {"name": "MIT MicroMasters: Quantitative Finance (edX)", "why": "Stochastic processes, optimization, computational", "url": "https://www.edx.org/micromasters/mitx-finance"},
+      {"name": "ML for Algorithmic Trading (Jansen)", "why": "Comprehensive Python from scikit-learn to RL", "url": "https://www.amazon.com/Machine-Learning-Algorithmic-Trading-alternative/dp/1839217715"},
+      {"name": "Advances in Financial ML (Lopez de Prado)", "why": "Practitioner challenges like backtest overfitting", "url": "https://www.amazon.com/Advances-Financial-Machine-Learning-Marcos/dp/1119482089"},
+      {"name": "QuantStart", "why": "Portfolio optimization, backtesting tutorials", "url": "https://www.quantstart.com/"},
+      {"name": "Analysis of Financial Time Series (Tsay)", "why": "Bridges academic econometrics with applications", "url": "https://www.amazon.com/Analysis-Financial-Time-Ruey-Tsay/dp/0470414359"}
+    ],
+    "packages": [
+      {"name": "PyPortfolioOpt", "why": "Mean-variance, HRP, efficient frontier", "url": "https://pyportfolioopt.readthedocs.io/"},
+      {"name": "arch", "why": "GARCH volatility for financial econometrics", "url": "https://arch.readthedocs.io/"},
+      {"name": "vectorbt", "why": "Vectorized backtesting for rapid iteration", "url": "https://vectorbt.dev/"},
+      {"name": "pyfolio", "why": "Sharpe, drawdowns, risk tear sheets", "url": "https://quantopian.github.io/pyfolio/"}
+    ],
+    "order": 8
+  },
+  {
+    "name": "Growth Data Science",
+    "description": "Growth loops, funnel analysis, and experimentation — diff-in-diff and regression discontinuity power incrementality testing",
+    "icon": "rocket",
+    "resources": [
+      {"name": "Reforge: Growth Foundations", "why": "Industry gold standard on retention, engagement, acquisition", "url": "https://www.reforge.com/growth-series"},
+      {"name": "DataCamp: A/B Testing in Python", "why": "Experiment design with scipy, statsmodels, pingouin", "url": "https://www.datacamp.com/courses/ab-testing-in-python"},
+      {"name": "Lean Analytics (Croll & Yoskovitz)", "why": "One Metric That Matters framework", "url": "https://www.amazon.com/Lean-Analytics-Better-Startup-Faster/dp/1449335675"},
+      {"name": "The Cold Start Problem (Andrew Chen)", "why": "Network effects and viral growth", "url": "https://www.amazon.com/Cold-Start-Problem-Andrew-Chen/dp/0062969749"},
+      {"name": "Lenny's Podcast: Ronny Kohavi", "why": "Experimentation from Amazon, Microsoft, Airbnb", "url": "https://www.lennyspodcast.com/the-ultimate-guide-to-ab-testing-ronny-kohavi/"}
+    ],
+    "packages": [
+      {"name": "scipy.stats", "why": "T-tests, z-tests, chi-squared for A/B", "url": "https://docs.scipy.org/doc/scipy/reference/stats.html"},
+      {"name": "lifelines", "why": "Survival analysis for retention curves", "url": "https://lifelines.readthedocs.io/"},
+      {"name": "DoWhy", "why": "Observational causal analysis when A/B isn't feasible", "url": "https://www.pywhy.org/dowhy/"},
+      {"name": "pingouin", "why": "Simple syntax for statistical tests", "url": "https://pingouin-stats.org/"}
+    ],
+    "order": 9
+  }
+]

@@ -112,6 +112,105 @@
         </div>
     </section>
 
+    <!-- Industry Domains Section -->
+    <section class="roadmaps-section" id="domains-section">
+        <h2 class="section-title">Industry Domains</h2>
+        <p class="section-desc">Nine core domains where economists thrive in tech — covering the courses, books, Python packages, and practitioner resources that will accelerate your transition from academic to applied work.</p>
+
+        <div class="roadmaps-grid">
+            {{ range sort .Site.Data.domains "order" }}
+            <div class="roadmap-card" data-domain="{{ .name }}" data-aos="fade-up">
+                <div class="roadmap-header">
+                    <div class="roadmap-icon">
+                        {{ if eq .icon "dollar" }}
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="12" y1="1" x2="12" y2="23"></line>
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg>
+                        {{ else if eq .icon "megaphone" }}
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 11l18-5v12L3 13v-2z"></path>
+                            <path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"></path>
+                        </svg>
+                        {{ else if eq .icon "chart-pie" }}
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+                            <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
+                        </svg>
+                        {{ else if eq .icon "shield" }}
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                        {{ else if eq .icon "star" }}
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        {{ else if eq .icon "search" }}
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        {{ else if eq .icon "truck" }}
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="1" y="3" width="15" height="13"></rect>
+                            <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                            <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                            <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                        </svg>
+                        {{ else if eq .icon "coins" }}
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="8" cy="8" r="6"></circle>
+                            <path d="M18.09 10.37A6 6 0 1 1 10.34 18"></path>
+                            <line x1="7" y1="6" x2="7.01" y2="6"></line>
+                            <line x1="9" y1="10" x2="9.01" y2="10"></line>
+                        </svg>
+                        {{ else if eq .icon "rocket" }}
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path>
+                            <path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path>
+                            <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
+                            <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+                        </svg>
+                        {{ end }}
+                    </div>
+                    <h3 class="roadmap-title">{{ .name }}</h3>
+                </div>
+                <p class="roadmap-desc">{{ .description }}</p>
+
+                <div class="roadmap-content">
+                    {{ if .resources }}
+                    <div class="roadmap-resources">
+                        <h4>Learning Resources</h4>
+                        <ul>
+                            {{ range .resources }}
+                            <li>
+                                <a href="{{ .url }}" target="_blank" rel="noopener"><strong>{{ .name }}</strong></a>
+                                <span class="why">{{ .why }}</span>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                    {{ end }}
+
+                    {{ if .packages }}
+                    <div class="roadmap-packages">
+                        <h4>Python Packages</h4>
+                        <ul>
+                            {{ range .packages }}
+                            <li>
+                                {{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener"><strong>{{ .name }}</strong></a>{{ else }}<strong>{{ .name }}</strong>{{ end }}
+                                <span class="why">{{ .why }}</span>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+
     <!-- Quick Links Section -->
     <section class="quick-links-section">
         <h2 class="section-title">Explore the Full Database</h2>
