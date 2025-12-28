@@ -3,6 +3,176 @@
 (function() {
     'use strict';
 
+    // Comprehensive synonym mappings for domain terms
+    var SYNONYMS = {
+        // Causal Inference
+        'did': ['DiD', 'difference-in-differences', 'diff-in-diff', 'staggered DiD'],
+        'diff': ['DiD', 'difference-in-differences', 'diff-in-diff'],
+        'sc': ['synthetic control', 'Abadie', 'synth'],
+        'synthetic': ['synthetic control', 'SC'],
+        'rdd': ['regression discontinuity', 'sharp RDD', 'fuzzy RDD'],
+        'iv': ['instrumental variable', 'instrumental variables', '2SLS'],
+        'instrumental': ['IV', 'instrumental variable', '2SLS'],
+        '2sls': ['two-stage least squares', 'IV'],
+        // Treatment Effects
+        'ate': ['average treatment effect', 'ATE', 'treatment effect'],
+        'att': ['average treatment effect on treated', 'ATT'],
+        'cate': ['conditional average treatment effect', 'CATE', 'heterogeneous'],
+        'hte': ['heterogeneous treatment effects', 'HTE', 'CATE'],
+        'treatment': ['treatment effect', 'causal effect', 'ATE'],
+        // Matching & Propensity
+        'psm': ['propensity score matching', 'PSM', 'matching'],
+        'propensity': ['propensity score', 'PSM', 'matching', 'IPW'],
+        'matching': ['propensity score matching', 'PSM', 'CEM'],
+        'ipw': ['inverse probability weighting', 'IPW', 'propensity'],
+        'aipw': ['augmented IPW', 'doubly robust', 'AIPW'],
+        // Double/Debiased ML
+        'dml': ['double machine learning', 'DML', 'debiased ML'],
+        'double': ['double machine learning', 'DML', 'debiased'],
+        // A/B Testing
+        'ab': ['A/B testing', 'A/B test', 'experimentation'],
+        'experiment': ['A/B testing', 'experimentation', 'RCT'],
+        'rct': ['randomized controlled trial', 'RCT', 'experiment'],
+        'cuped': ['CUPED', 'variance reduction', 'covariate adjustment'],
+        'variance': ['variance reduction', 'CUPED', 'precision'],
+        // Bandits
+        'bandit': ['multi-armed bandit', 'bandits', 'MAB', 'contextual bandit'],
+        'mab': ['multi-armed bandit', 'MAB', 'bandits'],
+        'thompson': ['Thompson sampling', 'Bayesian bandit'],
+        'ucb': ['upper confidence bound', 'UCB'],
+        // Uplift
+        'uplift': ['uplift modeling', 'incremental', 'CATE'],
+        'incremental': ['incrementality', 'uplift', 'lift'],
+        // Panel & Fixed Effects
+        'panel': ['panel data', 'fixed effects', 'longitudinal'],
+        'fe': ['fixed effects', 'FE', 'panel'],
+        'twfe': ['two-way fixed effects', 'TWFE', 'panel'],
+        // Demand & Pricing
+        'blp': ['Berry-Levinsohn-Pakes', 'BLP', 'demand estimation'],
+        'demand': ['demand estimation', 'BLP', 'elasticity', 'pricing'],
+        'pricing': ['dynamic pricing', 'price optimization', 'demand'],
+        // Marketing
+        'mmm': ['marketing mix model', 'MMM', 'attribution'],
+        'marketing': ['marketing mix', 'MMM', 'attribution', 'CLV'],
+        'clv': ['customer lifetime value', 'CLV', 'LTV'],
+        'ltv': ['lifetime value', 'LTV', 'CLV'],
+        // Geo
+        'geo': ['geo-experiment', 'geo-lift', 'regional'],
+        'geolift': ['GeoLift', 'geo-experiment'],
+        // Time Series
+        'arima': ['ARIMA', 'time series', 'forecasting'],
+        'forecast': ['forecasting', 'prediction', 'time series'],
+        'prophet': ['Prophet', 'Facebook', 'forecasting'],
+        'timeseries': ['time series', 'forecasting', 'ARIMA'],
+        // Bayesian
+        'bayes': ['Bayesian', 'bayesian inference', 'posterior'],
+        'bayesian': ['Bayesian', 'MCMC', 'posterior'],
+        'mcmc': ['MCMC', 'Markov chain Monte Carlo', 'sampling'],
+        'pymc': ['PyMC', 'Bayesian', 'probabilistic programming'],
+        'stan': ['Stan', 'Bayesian', 'MCMC'],
+        // ML
+        'ml': ['machine learning', 'ML', 'prediction'],
+        'xgboost': ['XGBoost', 'gradient boosting', 'ensemble'],
+        'lightgbm': ['LightGBM', 'gradient boosting', 'ensemble'],
+        'forest': ['random forest', 'causal forest', 'trees'],
+        'neural': ['neural network', 'deep learning', 'NN'],
+        'deep': ['deep learning', 'neural network', 'DNN'],
+        // NLP
+        'nlp': ['NLP', 'natural language processing', 'text'],
+        'text': ['text analysis', 'NLP', 'sentiment'],
+        'llm': ['LLM', 'large language model', 'GPT'],
+        // General
+        'python': ['Python', 'py', 'package'],
+        'r': ['R', 'rstats', 'R package'],
+        'econometrics': ['econometrics', 'economics', 'causal'],
+        'causal': ['causal inference', 'causality', 'treatment effect']
+    };
+
+    // Generate bidirectional synonym mappings
+    (function() {
+        var reverseMap = {};
+        Object.keys(SYNONYMS).forEach(function(key) {
+            SYNONYMS[key].forEach(function(syn) {
+                var synLower = syn.toLowerCase();
+                if (!reverseMap[synLower]) reverseMap[synLower] = [];
+                if (reverseMap[synLower].indexOf(key) === -1) reverseMap[synLower].push(key);
+            });
+        });
+        Object.keys(reverseMap).forEach(function(key) {
+            if (!SYNONYMS[key]) {
+                SYNONYMS[key] = reverseMap[key];
+            } else {
+                reverseMap[key].forEach(function(val) {
+                    if (SYNONYMS[key].indexOf(val) === -1) SYNONYMS[key].push(val);
+                });
+            }
+        });
+    })();
+
+    // Expand query with synonyms
+    function expandQuery(query) {
+        var words = query.toLowerCase().split(/\s+/);
+        var expanded = [query];
+        words.forEach(function(word) {
+            if (SYNONYMS[word]) {
+                SYNONYMS[word].forEach(function(syn) {
+                    if (expanded.indexOf(syn) === -1) expanded.push(syn);
+                });
+            }
+        });
+        return expanded;
+    }
+
+    // Escape regex special characters
+    function escapeRegex(str) {
+        return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
+    // Boost exact matches (lower score = better in Fuse.js)
+    function boostExactMatches(results, query) {
+        var queryLower = query.toLowerCase().trim();
+        var synonymsToBoost = SYNONYMS[queryLower] || [];
+
+        return results.map(function(result) {
+            var item = result.item;
+            var nameLower = (item.name || '').toLowerCase();
+            var boost = 0;
+
+            // Exact name match
+            if (nameLower === queryLower) boost = 0.6;
+            else if (nameLower.startsWith(queryLower)) boost = 0.4;
+            else if (new RegExp('\\b' + escapeRegex(queryLower) + '\\b', 'i').test(nameLower)) boost = 0.3;
+
+            // Check tags
+            if (Array.isArray(item.tags)) {
+                var exactTagMatch = item.tags.some(function(tag) {
+                    return tag.toLowerCase() === queryLower;
+                });
+                if (exactTagMatch) boost = Math.max(boost, 0.35);
+
+                var synonymTagMatch = item.tags.some(function(tag) {
+                    var tagLower = tag.toLowerCase();
+                    return synonymsToBoost.some(function(syn) {
+                        return tagLower === syn.toLowerCase();
+                    });
+                });
+                if (synonymTagMatch) boost = Math.max(boost, 0.25);
+            }
+
+            // Check category
+            if (new RegExp('\\b' + escapeRegex(query) + '\\b', 'i').test(item.category || '')) {
+                boost = Math.max(boost, 0.3);
+            }
+
+            return {
+                item: result.item,
+                score: Math.max(0, (result.score || 0) - boost),
+                refIndex: result.refIndex,
+                matches: result.matches
+            };
+        }).sort(function(a, b) { return a.score - b.score; });
+    }
+
     function PageSearch(config) {
         // Merge config with defaults
         this.config = Object.assign({
@@ -199,7 +369,41 @@
         var scoreMap = new Map();
 
         if (this.currentSearch && this.fuse) {
-            var results = this.fuse.search(this.currentSearch);
+            // Adaptive threshold for short queries
+            var originalThreshold = this.fuse.options.threshold;
+            if (this.currentSearch.length <= 4) {
+                this.fuse.options.threshold = 0.2;
+            } else if (this.currentSearch.length <= 6) {
+                this.fuse.options.threshold = 0.3;
+            }
+
+            // Expand query with synonyms and search
+            var expandedQueries = expandQuery(this.currentSearch);
+            var seen = {};
+            var allResults = [];
+
+            expandedQueries.forEach(function(q, queryIndex) {
+                var queryResults = self.fuse.search(q);
+                queryResults.forEach(function(r) {
+                    var key = r.item.name;
+                    if (!seen[key]) {
+                        seen[key] = true;
+                        var penalizedScore = queryIndex > 0 ? Math.min(1, r.score + 0.1) : r.score;
+                        allResults.push({
+                            item: r.item,
+                            score: penalizedScore,
+                            refIndex: r.refIndex,
+                            matches: r.matches
+                        });
+                    }
+                });
+            });
+
+            // Restore original threshold
+            this.fuse.options.threshold = originalThreshold;
+
+            // Boost exact matches
+            var results = boostExactMatches(allResults, this.currentSearch);
             results.forEach(function(result) {
                 scoreMap.set(result.item.name.toLowerCase(), result.score);
             });
@@ -246,8 +450,43 @@
             this.flatContainer.style.display = 'grid';
         }
 
-        // Get results with scores
-        var results = this.fuse.search(this.currentSearch);
+        // Adaptive threshold for short queries (abbreviations)
+        var originalThreshold = this.fuse.options.threshold;
+        if (this.currentSearch.length <= 4) {
+            this.fuse.options.threshold = 0.2;
+        } else if (this.currentSearch.length <= 6) {
+            this.fuse.options.threshold = 0.3;
+        }
+
+        // Expand query with synonyms and search
+        var expandedQueries = expandQuery(this.currentSearch);
+        var seen = {};
+        var allResults = [];
+
+        expandedQueries.forEach(function(q, queryIndex) {
+            var queryResults = self.fuse.search(q);
+            queryResults.forEach(function(r) {
+                var key = r.item.name;
+                if (!seen[key]) {
+                    seen[key] = true;
+                    // Penalize synonym matches slightly
+                    var penalizedScore = queryIndex > 0 ? Math.min(1, r.score + 0.1) : r.score;
+                    allResults.push({
+                        item: r.item,
+                        score: penalizedScore,
+                        refIndex: r.refIndex,
+                        matches: r.matches
+                    });
+                }
+            });
+        });
+
+        // Restore original threshold
+        this.fuse.options.threshold = originalThreshold;
+
+        // Boost exact matches
+        var results = boostExactMatches(allResults, this.currentSearch);
+
         var scoreMap = new Map();
         results.forEach(function(result) {
             scoreMap.set(result.item.name.toLowerCase(), result.score);
