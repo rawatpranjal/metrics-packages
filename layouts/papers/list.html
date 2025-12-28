@@ -14,8 +14,17 @@
 </header>
 
 <div class="container">
-    <!-- Topics Grid -->
-    <div class="topics-grid">
+    <!-- View Toggle -->
+    <div class="search-filters-row">
+        <div class="result-count">{{ len .Site.Data.papers.topics }} topics</div>
+        <div class="view-toggle">
+            <button id="btn-cards" class="toggle-btn active">Cards</button>
+            <button id="btn-table" class="toggle-btn">Table</button>
+        </div>
+    </div>
+
+    <!-- Cards View -->
+    <div id="cards-view" class="topics-grid">
         {{ range .Site.Data.papers.topics }}
         {{ $topic := . }}
         {{ $paperCount := 0 }}
@@ -42,9 +51,73 @@
         {{ end }}
     </div>
 
+    <!-- Table View -->
+    <div id="table-view" class="papers-table-wrapper" style="display: none;">
+        <table class="papers-table">
+            <thead>
+                <tr>
+                    <th>Topic</th>
+                    <th>Description</th>
+                    <th>Subtopics</th>
+                    <th>Papers</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{ range .Site.Data.papers.topics }}
+                {{ $paperCount := 0 }}
+                {{ range .subtopics }}
+                    {{ $paperCount = add $paperCount (len .papers) }}
+                {{ end }}
+                <tr>
+                    <td class="topic-name-cell">
+                        <a href="{{ printf "papers/%s/" .id | relURL }}">{{ .name }}</a>
+                    </td>
+                    <td class="topic-desc-cell">{{ .description }}</td>
+                    <td class="topic-count-cell">{{ len .subtopics }}</td>
+                    <td class="topic-count-cell">{{ $paperCount }}</td>
+                </tr>
+                {{ end }}
+            </tbody>
+        </table>
+    </div>
+
     <!-- Footer -->
     <footer class="footer">
         <p>Must-read papers for tech economists and applied researchers</p>
     </footer>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const btnCards = document.getElementById('btn-cards');
+    const btnTable = document.getElementById('btn-table');
+    const cardsView = document.getElementById('cards-view');
+    const tableView = document.getElementById('table-view');
+
+    if (!btnCards || !btnTable || !cardsView || !tableView) return;
+
+    let savedView = 'cards';
+    try { savedView = localStorage.getItem('papersTopicView') || 'cards'; } catch(e) {}
+
+    function setView(view) {
+        const isCards = view === 'cards';
+        cardsView.style.display = isCards ? 'grid' : 'none';
+        tableView.style.display = isCards ? 'none' : 'block';
+        btnCards.classList.toggle('active', isCards);
+        btnTable.classList.toggle('active', !isCards);
+    }
+
+    btnCards.addEventListener('click', function() {
+        setView('cards');
+        try { localStorage.setItem('papersTopicView', 'cards'); } catch(e) {}
+    });
+
+    btnTable.addEventListener('click', function() {
+        setView('table');
+        try { localStorage.setItem('papersTopicView', 'table'); } catch(e) {}
+    });
+
+    if (savedView === 'table') setView('table');
+});
+</script>
 {{ end }}

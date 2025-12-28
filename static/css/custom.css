@@ -3099,6 +3099,116 @@ mark {
     gap: 0.75rem;
 }
 
+/* Papers Table Styles */
+.papers-table-wrapper {
+    overflow-x: auto;
+    margin-top: 1rem;
+}
+
+.papers-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--bg-card);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.papers-table th,
+.papers-table td {
+    padding: 0.8rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.papers-table th {
+    background: var(--bg-primary);
+    font-weight: 600;
+    color: var(--text-primary);
+    position: sticky;
+    top: 0;
+    font-size: 0.9rem;
+}
+
+.papers-table tbody tr:hover {
+    background: var(--bg-primary);
+}
+
+.topic-name-cell {
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.topic-name-cell a {
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+.topic-name-cell a:hover {
+    color: var(--accent);
+}
+
+.topic-desc-cell {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    max-width: 400px;
+}
+
+.topic-count-cell {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+/* Papers detail table */
+.papers-detail-table .paper-title-cell {
+    font-weight: 500;
+    max-width: 350px;
+}
+
+.papers-detail-table .paper-title-cell a {
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+.papers-detail-table .paper-title-cell a:hover {
+    color: var(--accent);
+}
+
+.paper-desc-hint {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-top: 0.25rem;
+    font-weight: 400;
+}
+
+.paper-authors-cell {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    max-width: 200px;
+}
+
+.paper-year-cell {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.paper-tag-cell {
+    text-align: center;
+}
+
+/* Dark mode table styles */
+[data-theme="dark"] .papers-table,
+[data-theme="dark"] .papers-table th {
+    background: var(--bg-card);
+}
+
+[data-theme="dark"] .papers-table th,
+[data-theme="dark"] .papers-table td {
+    border-color: var(--border-color);
+}
+
 /* Mobile responsive */
 @media (max-width: 768px) {
     .topics-grid {
@@ -3115,5 +3225,18 @@ mark {
 
     .subtopic-name {
         font-size: 1.2rem;
+    }
+
+    .papers-table {
+        font-size: 0.85rem;
+    }
+
+    .topic-desc-cell,
+    .paper-authors-cell {
+        max-width: 150px;
+    }
+
+    .papers-detail-table .paper-title-cell {
+        max-width: 200px;
     }
 }

@@ -19,6 +19,15 @@
 </header>
 
 <div class="container">
+    <!-- View Toggle -->
+    <div class="search-filters-row">
+        <div class="result-count">{{ len $topic.subtopics }} subtopics</div>
+        <div class="view-toggle">
+            <button id="btn-cards" class="toggle-btn active">Cards</button>
+            <button id="btn-table" class="toggle-btn">Table</button>
+        </div>
+    </div>
+
     <!-- Subtopics -->
     <div class="subtopics-container">
         {{ range $topic.subtopics }}
@@ -29,7 +38,8 @@
             </div>
 
             {{ if .papers }}
-            <div class="papers-grid">
+            <!-- Cards View -->
+            <div class="papers-grid cards-view-content">
                 {{ range .papers }}
                 <div class="paper-card" data-aos="fade-up">
                     <div class="paper-header">
@@ -45,6 +55,33 @@
                     {{ end }}
                 </div>
                 {{ end }}
+            </div>
+
+            <!-- Table View -->
+            <div class="papers-table-wrapper table-view-content" style="display: none;">
+                <table class="papers-table papers-detail-table">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Authors</th>
+                            <th>Year</th>
+                            <th>Tag</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{ range .papers }}
+                        <tr>
+                            <td class="paper-title-cell">
+                                <a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>
+                                {{ if .description }}<div class="paper-desc-hint">{{ .description }}</div>{{ end }}
+                            </td>
+                            <td class="paper-authors-cell">{{ .authors }}</td>
+                            <td class="paper-year-cell">{{ .year }}</td>
+                            <td class="paper-tag-cell"><span class="paper-tag tag-{{ .tag | lower }}">{{ .tag }}</span></td>
+                        </tr>
+                        {{ end }}
+                    </tbody>
+                </table>
             </div>
             {{ else }}
             <div class="papers-empty">
@@ -70,4 +107,38 @@
         <p>Must-read papers for tech economists and applied researchers</p>
     </footer>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const btnCards = document.getElementById('btn-cards');
+    const btnTable = document.getElementById('btn-table');
+    const cardsViews = document.querySelectorAll('.cards-view-content');
+    const tableViews = document.querySelectorAll('.table-view-content');
+
+    if (!btnCards || !btnTable) return;
+
+    let savedView = 'cards';
+    try { savedView = localStorage.getItem('papersDetailView') || 'cards'; } catch(e) {}
+
+    function setView(view) {
+        const isCards = view === 'cards';
+        cardsViews.forEach(el => el.style.display = isCards ? 'grid' : 'none');
+        tableViews.forEach(el => el.style.display = isCards ? 'none' : 'block');
+        btnCards.classList.toggle('active', isCards);
+        btnTable.classList.toggle('active', !isCards);
+    }
+
+    btnCards.addEventListener('click', function() {
+        setView('cards');
+        try { localStorage.setItem('papersDetailView', 'cards'); } catch(e) {}
+    });
+
+    btnTable.addEventListener('click', function() {
+        setView('table');
+        try { localStorage.setItem('papersDetailView', 'table'); } catch(e) {}
+    });
+
+    if (savedView === 'table') setView('table');
+});
+</script>
 {{ end }}
