@@ -7,6 +7,10 @@
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <link rel="canonical" href="{{ .Permalink }}">
 
+    <!-- Preconnect to CDNs -->
+    <link rel="preconnect" href="https://unpkg.com">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
     <!-- Open Graph / Social Preview -->
     <meta property="og:title" content="{{ if .Title }}{{ .Title }} | {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}">
     <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}Real tools for applied economists in tech. Packages, datasets, and learning resources.{{ end }}">
@@ -46,6 +50,9 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 </head>
 <body>
+    <!-- Skip to Content (Accessibility) -->
+    <a href="#main-content" class="skip-link">Skip to content</a>
+
     <!-- Reading Progress Bar -->
     <div class="reading-progress" id="reading-progress"></div>
 
@@ -217,7 +224,7 @@
     </nav>
 
     <!-- Main Content -->
-    <main class="main-content">
+    <main id="main-content" class="main-content">
         {{ block "main" . }}{{ end }}
     </main>
 
