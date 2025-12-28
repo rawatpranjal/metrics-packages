@@ -970,7 +970,7 @@
   };
 
   /**
-   * Load search data from inline script
+   * Load search data from inline script and init Fuse.js
    */
   PageSearchHandler.prototype.loadData = function() {
     var searchDataEl = document.getElementById(this.config.searchDataId);
@@ -982,6 +982,15 @@
         this.data = [];
       }
     }
+    // Initialize Fuse.js for local page search
+    if (typeof Fuse !== 'undefined' && this.data.length > 0) {
+      this.fuse = new Fuse(this.data, {
+        keys: this.config.fuseKeys,
+        threshold: 0.35,
+        ignoreLocation: true,
+        includeScore: true
+      });
+    }
   };
 
   /**
@@ -990,19 +999,18 @@
   PageSearchHandler.prototype.filterItems = function() {
     var self = this;
 
-    if (this.currentSearch && this.unifiedSearch) {
-      // Use unified search for searching
-      this.unifiedSearch.search(this.currentSearch, { topK: 200 })
-        .then(function(results) {
-          self.showFlatResults(results);
-          // Also filter table rows with search results
-          if (self.tableRows) {
-            self.filterTableRows(results);
-          }
-        });
+    if (this.currentSearch && this.fuse) {
+      // Use Fuse.js for local page search
+      var fuseResults = this.fuse.search(this.currentSearch);
+      var results = fuseResults.map(function(r) {
+        return { name: r.item.name, score: r.score };
+      });
+      this.showFlatResults(results);
+      if (this.tableRows) {
+        this.filterTableRows(results);
+      }
     } else {
       this.showCategoryLayout();
-      // Filter table rows without search (category/extra filters only)
       if (this.tableRows) {
         this.filterTableRows(null);
       }
