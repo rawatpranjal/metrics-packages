@@ -334,17 +334,19 @@
     <script src="{{ "js/search/unified-search.js" | relURL }}" defer></script>
     <script src="{{ "js/toggle.js" | relURL }}" defer></script>
 
-    <!-- AOS Init -->
+    <!-- AOS Init - wait for deferred script to load -->
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js" defer></script>
     <script>
-        try {
-            AOS.init({
-                duration: 600,
-                easing: 'ease-out-cubic',
-                once: true,
-                offset: 50
-            });
-        } catch(e) {}
+        window.addEventListener('load', function() {
+            if (typeof AOS !== 'undefined') {
+                AOS.init({
+                    duration: 600,
+                    easing: 'ease-out-cubic',
+                    once: true,
+                    offset: 50
+                });
+            }
+        });
     </script>
 
     <!-- Reading Progress Bar -->
