@@ -1,4 +1,9 @@
 {{ define "main" }}
+<!-- Search Index Data for Fuse.js -->
+<script id="search-data" type="application/json">
+[{{ range $i, $item := .Site.Data.community }}{{ if $i }},{{ end }}{"name":"{{ .name }}","description":"{{ .description | htmlEscape }}","category":"{{ .category }}","location":"{{ .location | htmlEscape }}","dates":"{{ .dates }}","type":"{{ .type }}"}{{ end }}]
+</script>
+
 <div class="container">
     <!-- Search and Filters Row -->
     <div class="search-filters-row">
@@ -197,23 +202,28 @@
 </div>
 
 <script>
-// Community page functionality
 document.addEventListener('DOMContentLoaded', function() {
-    const searchInput = document.getElementById('community-search');
-    const clearBtn = document.getElementById('clear-search');
-    const categorySelect = document.getElementById('category-select');
+    // Initialize PageSearch with Fuse.js
+    new PageSearch({
+        searchInputId: 'community-search',
+        cardSelector: '#cards-view .resource-card',
+        sectionSelector: '#cards-view .category-section',
+        itemLabel: 'events & communities',
+        fuseKeys: [
+            { name: 'name', weight: 2 },
+            { name: 'description', weight: 1 },
+            { name: 'location', weight: 0.8 },
+            { name: 'dates', weight: 0.5 },
+            { name: 'category', weight: 0.5 }
+        ]
+    });
+
+    // View toggle (page-specific)
     const calendarView = document.getElementById('calendar-view');
     const cardsView = document.getElementById('cards-view');
     const btnCalendar = document.getElementById('btn-calendar');
     const btnCards = document.getElementById('btn-cards');
-    const cards = document.querySelectorAll('.resource-card');
-    const sections = document.querySelectorAll('.category-section');
-    const resultCount = document.getElementById('result-count');
 
-    let activeCategory = 'all';
-    let debounceTimer;
-
-    // View toggle
     btnCalendar.addEventListener('click', function() {
         calendarView.style.display = 'block';
         cardsView.style.display = 'none';
@@ -226,73 +236,6 @@ document.addEventListener('DOMContentLoaded', function() {
         cardsView.style.display = 'block';
         btnCards.classList.add('active');
         btnCalendar.classList.remove('active');
-    });
-
-    function filterItems() {
-        const query = searchInput.value.toLowerCase().trim();
-        let visibleCount = 0;
-
-        // Filter cards
-        cards.forEach(function(card) {
-            const name = card.dataset.name || '';
-            const desc = card.dataset.description || '';
-            const category = card.dataset.category || '';
-            const location = card.dataset.location || '';
-            const dates = card.dataset.dates || '';
-
-            const matchesSearch = !query ||
-                name.includes(query) ||
-                desc.includes(query) ||
-                category.toLowerCase().includes(query) ||
-                location.includes(query) ||
-                dates.includes(query);
-
-            const matchesCategory = activeCategory === 'all' || category === activeCategory;
-
-            if (matchesSearch && matchesCategory) {
-                card.classList.remove('hidden');
-                card.classList.add('visible');
-                visibleCount++;
-            } else {
-                card.classList.add('hidden');
-                card.classList.remove('visible');
-            }
-        });
-
-        // Update section visibility
-        sections.forEach(function(section) {
-            const visibleCards = section.querySelectorAll('.resource-card:not(.hidden)');
-            if (visibleCards.length === 0) {
-                section.classList.add('section-hidden');
-            } else {
-                section.classList.remove('section-hidden');
-            }
-        });
-
-        // Update result count
-        resultCount.textContent = visibleCount + ' events & communities';
-
-        // Toggle clear button
-        clearBtn.style.display = query ? 'flex' : 'none';
-    }
-
-    // Search input with debounce
-    searchInput.addEventListener('input', function() {
-        clearTimeout(debounceTimer);
-        debounceTimer = setTimeout(filterItems, 150);
-    });
-
-    // Clear search
-    clearBtn.addEventListener('click', function() {
-        searchInput.value = '';
-        filterItems();
-        searchInput.focus();
-    });
-
-    // Category dropdown
-    categorySelect.addEventListener('change', function() {
-        activeCategory = this.value;
-        filterItems();
     });
 });
 </script>
