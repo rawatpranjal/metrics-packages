@@ -4,13 +4,17 @@
     <h1 class="hero-title">Papers</h1>
     {{ $totalPapers := 0 }}
     {{ $totalSubtopics := 0 }}
+    {{ $totalCitations := 0 }}
     {{ range .Site.Data.papers.topics }}
         {{ range .subtopics }}
             {{ $totalSubtopics = add $totalSubtopics 1 }}
             {{ $totalPapers = add $totalPapers (len .papers) }}
+            {{ range .papers }}
+                {{ if .citations }}{{ $totalCitations = add $totalCitations .citations }}{{ end }}
+            {{ end }}
         {{ end }}
     {{ end }}
-    <p class="hero-tagline">Curated reading list for tech economists &bull; {{ len .Site.Data.papers.topics }} topics &bull; {{ $totalSubtopics }} subtopics{{ if gt $totalPapers 0 }} &bull; {{ $totalPapers }} papers{{ end }}</p>
+    <p class="hero-tagline">Curated reading list for tech economists &bull; {{ len .Site.Data.papers.topics }} topics &bull; {{ $totalSubtopics }} subtopics{{ if gt $totalPapers 0 }} &bull; {{ $totalPapers }} papers{{ end }}{{ if gt $totalCitations 0 }} &bull; {{ div $totalCitations 1000 }}K+ citations{{ end }}</p>
 </header>
 
 <div class="container">
