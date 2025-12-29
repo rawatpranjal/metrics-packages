@@ -15,8 +15,8 @@
 </script>
 
 <header class="hero hero-with-image hero-favorites">
-    <h1 class="hero-title">My Favorites</h1>
-    <p class="hero-tagline">Your saved resources, packages, and playlists</p>
+    <h1 class="hero-title">My Collection</h1>
+    <p class="hero-tagline">Your saved resources organized by playlist</p>
 </header>
 
 <div class="page-container">
@@ -27,42 +27,12 @@
             <line x1="12" y1="8" x2="12" y2="12"></line>
             <line x1="12" y1="16" x2="12.01" y2="16"></line>
         </svg>
-        <span>Your favorites and playlists are saved in your browser. Clearing cookies or site data will remove them. Use <strong>Export</strong> to backup your data.</span>
+        <span>Your collection is saved in your browser. Use <strong>Export</strong> to backup your data.</span>
     </div>
 
-    <!-- Tab Navigation -->
-    <div class="favorites-tabs">
-        <button class="tab-btn active" data-tab="favorites">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
-            </svg>
-            Favorites
-        </button>
-        <button class="tab-btn" data-tab="playlists">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
-                <line x1="8" y1="6" x2="21" y2="6"></line>
-                <line x1="8" y1="12" x2="21" y2="12"></line>
-                <line x1="8" y1="18" x2="21" y2="18"></line>
-                <line x1="3" y1="6" x2="3.01" y2="6"></line>
-                <line x1="3" y1="12" x2="3.01" y2="12"></line>
-                <line x1="3" y1="18" x2="3.01" y2="18"></line>
-            </svg>
-            Playlists
-        </button>
-    </div>
-
-    <!-- Favorites Tab Content -->
-    <div id="favorites-tab" class="tab-content active">
-        <div id="favorites-list" class="favorites-container">
-            <div class="loading">Loading...</div>
-        </div>
-    </div>
-
-    <!-- Playlists Tab Content -->
-    <div id="playlists-tab" class="tab-content" style="display: none;">
-        <div id="playlists-list" class="playlists-container">
-            <div class="loading">Loading...</div>
-        </div>
+    <!-- Collection Container -->
+    <div id="collection-container" class="collection-container">
+        <div class="loading">Loading...</div>
     </div>
 </div>
 
@@ -146,8 +116,7 @@
     padding: 2rem;
 }
 
-.favorites-container,
-.playlists-container {
+.collection-container {
     min-height: 300px;
 }
 </style>
@@ -155,11 +124,11 @@
 <!-- Fallback if JS fails to load -->
 <script>
 setTimeout(function() {
-    var container = document.getElementById('favorites-list');
+    var container = document.getElementById('collection-container');
     if (container && container.innerHTML.indexOf('Loading') !== -1) {
-        console.error('[Favorites] Fallback triggered - JS did not load favorites');
+        console.error('[Collection] Fallback triggered - JS did not load');
         container.innerHTML = '<div class="error" style="padding: 2rem; text-align: center;">' +
-            '<p>Failed to load favorites. Check browser console (F12) for errors.</p>' +
+            '<p>Failed to load collection. Check browser console (F12) for errors.</p>' +
             '<p style="margin-top: 1rem;"><a href="javascript:location.reload()">Refresh Page</a></p>' +
             '</div>';
     }

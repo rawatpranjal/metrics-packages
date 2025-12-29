@@ -4163,6 +4163,146 @@ mark {
     font-weight: bold;
 }
 
+/* Collection Actions */
+.collection-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: var(--bg-secondary);
+    border-radius: 8px;
+}
+
+.collection-count-label {
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.collection-actions .action-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+/* Playlist Sections (Collapsible) */
+.playlist-section {
+    margin-bottom: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.playlist-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.25rem;
+    background: var(--bg-secondary);
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.playlist-section-header:hover {
+    background: var(--bg-hover);
+}
+
+.playlist-section-info {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.playlist-chevron {
+    transition: transform 0.2s;
+    color: var(--text-muted);
+}
+
+.playlist-section.expanded .playlist-chevron {
+    transform: rotate(90deg);
+}
+
+.playlist-section-name {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.playlist-section-count {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.playlist-section-actions {
+    display: flex;
+    gap: 0.25rem;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.playlist-section-header:hover .playlist-section-actions {
+    opacity: 1;
+}
+
+.playlist-section-content {
+    display: none;
+    padding: 1rem 1.25rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.playlist-section.expanded .playlist-section-content {
+    display: block;
+}
+
+.empty-playlist {
+    color: var(--text-muted);
+    text-align: center;
+    padding: 2rem;
+    font-style: italic;
+}
+
+/* Icon buttons */
+.btn-icon {
+    background: none;
+    border: none;
+    padding: 0.4rem;
+    border-radius: 6px;
+    cursor: pointer;
+    color: var(--text-muted);
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-icon:hover {
+    background: var(--bg-hover);
+    color: var(--text-primary);
+}
+
+.btn-icon.btn-danger:hover {
+    background: rgba(239, 68, 68, 0.1);
+    color: #ef4444;
+}
+
+/* Move to playlist button */
+.move-to-playlist-btn {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 0.35rem;
+    border-radius: 50%;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.move-to-playlist-btn:hover {
+    background: var(--bg-hover);
+    color: var(--accent-color);
+    transform: scale(1.1);
+}
+
 /* Small Empty State */
 .empty-state-small {
     text-align: center;
