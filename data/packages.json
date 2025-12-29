@@ -2745,5 +2745,21 @@
       "lightweight"
     ],
     "best_for": "OpenAI's lightweight SDK \u2014 fast prototyping"
+  },
+  {
+    "name": "UpliftML",
+    "description": "Uplift algorithms similar to scikit-uplift, but all implemented in PySpark so that you can run it on your Spark cluster and scale to TB sized datasets.",
+    "category": "Uplift Modeling",
+    "docs_url": "https://github.com/bookingcom/upliftml#readme",
+    "github_url": "https://github.com/bookingcom/upliftml",
+    "url": "https://github.com/bookingcom/upliftml",
+    "install": "pip install upliftml",
+    "tags": [
+      "causal inference",
+      "uplift",
+      "PySpark",
+      "scalable"
+    ],
+    "best_for": "TB-scale uplift modeling on Spark clusters"
   }
 ]
