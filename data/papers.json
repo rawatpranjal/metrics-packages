@@ -2001,6 +2001,28 @@
                 "Ad Auctions (GSP, VCG)"
               ],
               "citations": 2020
+            },
+            {
+              "title": "Counterspeculation, Auctions, and Competitive Sealed Tenders",
+              "authors": "William Vickrey",
+              "year": 1961,
+              "description": "Nobel Prize-winning paper establishing truthful bidding in second-price sealed-bid auctions—the theoretical bedrock for all VCG mechanisms and modern ad auctions. ~8,000 citations.",
+              "url": "https://www.jstor.org/stable/2977633",
+              "tags": [
+                "Advertising",
+                "Ad Auctions (GSP, VCG)"
+              ]
+            },
+            {
+              "title": "Optimal Auction Design",
+              "authors": "Roger B. Myerson",
+              "year": 1981,
+              "description": "Derives revenue-maximizing auctions and optimal reserve prices via 'virtual value' concept. Essential for understanding how platforms set reserve prices. ~6,400 citations.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/moor.6.1.58",
+              "tags": [
+                "Advertising",
+                "Ad Auctions (GSP, VCG)"
+              ]
             }
           ]
         },
@@ -2035,10 +2057,43 @@
             },
             {
               "title": "From First-Price Auctions to Incentive-Compatible Auctions",
-              "authors": "Yuan Deng, S\u00e9bastien Lahaie, Vahab Mirrokni",
+              "authors": "Yuan Deng, Sébastien Lahaie, Vahab Mirrokni",
               "year": 2021,
               "description": "Mechanism design for autobidders and the transition to first-price auctions.",
               "url": "https://arxiv.org/abs/2103.07012",
+              "tags": [
+                "Advertising",
+                "Autobidding & Budget Pacing"
+              ]
+            },
+            {
+              "title": "Learning in Repeated Auctions with Budgets: Regret Minimization and Equilibrium",
+              "authors": "Santiago R. Balseiro, Yonatan Gur",
+              "year": 2019,
+              "description": "Introduces adaptive pacing strategies with asymptotic optimality proofs; shows these form approximate Nash equilibrium. The reference paper for budget pacing algorithms at Google/Meta.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2018.3093",
+              "tags": [
+                "Advertising",
+                "Autobidding & Budget Pacing"
+              ]
+            },
+            {
+              "title": "Multiplicative Pacing Equilibria in Auction Markets",
+              "authors": "Vincent Conitzer, Christian Kroer, Eric Sodomka, Nicolas Stier-Moses",
+              "year": 2022,
+              "description": "Formalizes pacing equilibrium as game-theoretic solution concept for autobidding; proves existence when platforms use multiplicative bid scaling.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2021.2165",
+              "tags": [
+                "Advertising",
+                "Autobidding & Budget Pacing"
+              ]
+            },
+            {
+              "title": "Pacing Equilibrium in First Price Auction Markets",
+              "authors": "Vincent Conitzer, Christian Kroer, Debmalya Panigrahi, Okke Schrijvers, Nicolas Stier-Moses, Eric Sodomka, Christopher A. Wilkens",
+              "year": 2022,
+              "description": "Theoretical justification for industry's transition to first-price auctions (Google 2019); proves unique equilibrium and efficient computation via Eisenberg-Gale program.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2022.4387",
               "tags": [
                 "Advertising",
                 "Autobidding & Budget Pacing"
@@ -2086,6 +2141,50 @@
                 "Attribution & Incrementality"
               ],
               "citations": 13
+            },
+            {
+              "title": "Consumer Heterogeneity and Paid Search Effectiveness: A Large-Scale Field Experiment",
+              "authors": "Thomas Blake, Chris Nosko, Steven Tadelis",
+              "year": 2015,
+              "description": "Landmark eBay experiment showing paid search ROI vastly overestimated—99.5% of brand keyword traffic substitutes to organic. Demonstrates critical importance of experiments over observational methods. ~800 citations.",
+              "url": "https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA12423",
+              "tags": [
+                "Advertising",
+                "Attribution & Incrementality"
+              ]
+            },
+            {
+              "title": "The Unfavorable Economics of Measuring the Returns to Advertising",
+              "authors": "Randall A. Lewis, Justin M. Rao",
+              "year": 2015,
+              "description": "Analyzes 25 large RCTs ($2.8M spend) showing massive sample sizes needed for reliable ad measurement due to individual sales volatility (CV of 10). Explains why selection bias is 'crippling.' ~700 citations.",
+              "url": "https://academic.oup.com/qje/article-abstract/130/4/1941/1916234",
+              "tags": [
+                "Advertising",
+                "Attribution & Incrementality"
+              ]
+            },
+            {
+              "title": "A Comparison of Approaches to Advertising Measurement: Evidence from Big Field Experiments at Facebook",
+              "authors": "Brett R. Gordon, Florian Zettelmeyer, Neha Bhargava, Dan Chapsky",
+              "year": 2019,
+              "description": "Compares RCTs to observational methods using 15 Facebook experiments (1.6B impressions). Demonstrates observational methods consistently fail even with rich behavioral data. ~500 citations.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.2018.1135",
+              "tags": [
+                "Advertising",
+                "Attribution & Incrementality"
+              ]
+            },
+            {
+              "title": "TV Advertising Effectiveness and Profitability: Generalizable Results from 288 Brands",
+              "authors": "Bradley T. Shapiro, Günter J. Hitsch, Anna E. Tuchman",
+              "year": 2021,
+              "description": "Border-strategy identification across 288 brands finds TV ad elasticity of ~0.025—much lower than prior estimates; 80%+ of brands show negative marginal ROI.",
+              "url": "https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA17674",
+              "tags": [
+                "Advertising",
+                "Attribution & Incrementality"
+              ]
             }
           ]
         },
@@ -2117,6 +2216,39 @@
                 "Targeting & Lookalikes"
               ],
               "citations": 254
+            },
+            {
+              "title": "An Experimental Investigation of the Effects of Retargeted Advertising: The Role of Frequency and Timing",
+              "authors": "Navdeep S. Sahni, Sridhar Narayanan, Kirthi Kalyanam",
+              "year": 2019,
+              "description": "Large-scale RCT showing retargeting increases website returns by 14.6%, with effectiveness decaying over time (33% of impact on day 1) and advertising complementarities across weeks.",
+              "url": "https://journals.sagepub.com/doi/abs/10.1177/0022243718813987",
+              "tags": [
+                "Advertising",
+                "Targeting & Lookalikes"
+              ]
+            },
+            {
+              "title": "Targeting and Privacy in Mobile Advertising",
+              "authors": "Omid Rafieian, Hema Yoganarasimhan",
+              "year": 2021,
+              "description": "Unified framework combining ML-based targeting with auction models; shows efficient targeting improves CTR by 66.8% over current practice, with implications for privacy regulation.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.2020.1235",
+              "tags": [
+                "Advertising",
+                "Targeting & Lookalikes"
+              ]
+            },
+            {
+              "title": "Personalization in Email Marketing: The Role of Noninformative Advertising Content",
+              "authors": "Navdeep S. Sahni, S. Christian Wheeler, Pradeep Chintagunta",
+              "year": 2018,
+              "description": "Field experiments showing adding recipient names increases open rates by 20%, sales leads by 31%—even though names are non-informative. Gary Lilien Prize Finalist.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.2017.1066",
+              "tags": [
+                "Advertising",
+                "Targeting & Lookalikes"
+              ]
             }
           ]
         },
@@ -2159,6 +2291,192 @@
                 "Brand vs. Performance"
               ],
               "citations": 19
+            },
+            {
+              "title": "How Well Does Advertising Work? Generalizations from Meta-Analysis of Brand Advertising Elasticities",
+              "authors": "Raj Sethuraman, Gerard J. Tellis, Richard A. Briesch",
+              "year": 2011,
+              "description": "Definitive meta-analysis of 751 short-term and 402 long-term advertising elasticities from 56 studies (1960-2008). Average short-term elasticity: 0.12; long-term: 0.24. ~440 citations.",
+              "url": "https://journals.sagepub.com/doi/abs/10.1509/jmkr.48.3.457",
+              "tags": [
+                "Advertising",
+                "Brand vs. Performance"
+              ]
+            },
+            {
+              "title": "How TV Advertising Works: A Meta-Analysis of 389 Real World Split Cable TV Advertising Experiments",
+              "authors": "Leonard M. Lodish, Magid Abraham, Stuart Kalmenson, Jeanne Livelsberger, Beth Lubetkin, Bruce Richardson, Mary Ellen Stevens",
+              "year": 1995,
+              "description": "Classic BehaviorScan meta-analysis showing only ~50% of TV ad weight tests had positive sales effects; established that copy/strategy changes matter more than budget increases. Foundational paper.",
+              "url": "https://journals.sagepub.com/doi/abs/10.1177/002224379503200202",
+              "tags": [
+                "Advertising",
+                "Brand vs. Performance"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "privacy-ad-effectiveness",
+          "name": "Privacy & Ad Effectiveness",
+          "application": "GDPR, ATT, cookie deprecation, targeting trade-offs",
+          "papers": [
+            {
+              "title": "Privacy Regulation and Online Advertising",
+              "authors": "Avi Goldfarb, Catherine E. Tucker",
+              "year": 2011,
+              "description": "Foundational empirical paper showing EU privacy regulation (ePrivacy Directive) reduced display ad effectiveness by 65% in changing purchase intent. ~2,500 citations.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.1100.1246",
+              "tags": [
+                "Advertising",
+                "Privacy & Ad Effectiveness"
+              ]
+            },
+            {
+              "title": "The Effect of Privacy Regulation on the Data Industry: Empirical Evidence from GDPR",
+              "authors": "Guy Aridor, Yeon-Koo Che, Tobias Salz",
+              "year": 2023,
+              "description": "Shows GDPR's opt-in led to 12.5% drop in tracked consumers, but remaining consumers are more valuable—demonstrating 'privacy externalities' where privacy-conscious consumers make opt-in consumers more predictable.",
+              "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/1756-2171.12453",
+              "tags": [
+                "Advertising",
+                "Privacy & Ad Effectiveness"
+              ]
+            },
+            {
+              "title": "Privacy and Market Concentration: Intended and Unintended Consequences of the GDPR",
+              "authors": "Garrett A. Johnson, Scott K. Shriver, Samuel G. Goldberg",
+              "year": 2023,
+              "description": "Panel data on 27,000+ websites shows GDPR reduced vendor use by 15% but increased market concentration by 17%—large platforms (Google, Facebook) gained share as small vendors dropped.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2023.4709",
+              "tags": [
+                "Advertising",
+                "Privacy & Ad Effectiveness"
+              ]
+            },
+            {
+              "title": "The Economic Consequences of Apple's App Tracking Transparency",
+              "authors": "Guy Aridor, Yeon-Koo Che, Brett Hollenbeck, Daniel McCarthy, Maximilian Kaiser",
+              "year": 2024,
+              "description": "Quantifies ATT's economic effects: 37% reduction in CTR for Meta's conversion-optimized ads; firms with higher Meta dependence experienced 37% revenue decline. Smaller e-commerce firms disproportionately harmed.",
+              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4627585",
+              "tags": [
+                "Advertising",
+                "Privacy & Ad Effectiveness"
+              ]
+            },
+            {
+              "title": "Economic Consequences of Online Tracking Restrictions",
+              "authors": "Klaus M. Miller, Bernd Skiera",
+              "year": 2024,
+              "description": "Studies 128M ad impressions over 2.5 years; average cookie lifetime is 279 days with €2.52 value. One-year cookie restrictions would cost €904M annually in Europe. IJRM Best Article Award 2024.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167811623000691",
+              "tags": [
+                "Advertising",
+                "Privacy & Ad Effectiveness"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "real-time-bidding",
+          "name": "Real-Time Bidding & Programmatic",
+          "application": "RTB, DSPs, SSPs, header bidding",
+          "papers": [
+            {
+              "title": "Online Display Advertising Markets: A Literature Review and Future Directions",
+              "authors": "Hana Choi, Carl F. Mela, Santiago R. Balseiro, Adam Leary",
+              "year": 2020,
+              "description": "Comprehensive literature review organizing display advertising research by ecosystem agents (advertisers, publishers, intermediaries). Essential reading for understanding the programmatic landscape. ~200 citations.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/isre.2019.0902",
+              "tags": [
+                "Advertising",
+                "Real-Time Bidding & Programmatic"
+              ]
+            },
+            {
+              "title": "Repeated Auctions with Budgets in Ad Exchanges: Approximations and Design",
+              "authors": "Santiago R. Balseiro, Omar Besbes, Gabriel Y. Weintraub",
+              "year": 2015,
+              "description": "Introduces Fluid Mean Field Equilibrium (FMFE) framework for budget-constrained advertisers; provides prescriptions for reserve prices and impression allocation. ~500 citations.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2014.1965",
+              "tags": [
+                "Advertising",
+                "Real-Time Bidding & Programmatic"
+              ]
+            },
+            {
+              "title": "Real-Time Bidding in Online Display Advertising",
+              "authors": "Amin Sayedi",
+              "year": 2018,
+              "description": "Game-theoretic model showing symmetric advertisers use asymmetric strategies; publishers should maintain reservation contracts alongside RTB for revenue optimization.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.2017.1083",
+              "tags": [
+                "Advertising",
+                "Real-Time Bidding & Programmatic"
+              ]
+            },
+            {
+              "title": "First-Price Auctions in Online Display Advertising",
+              "authors": "Stylianos Despotakis, R. Ravi, Amin Sayedi",
+              "year": 2021,
+              "description": "Explains industry shift from second-price to first-price auctions as direct economic consequence of header bidding adoption, not trust issues. Analyzes waterfalling vs. header bidding mechanisms.",
+              "url": "https://journals.sagepub.com/doi/abs/10.1177/00222437211019677",
+              "tags": [
+                "Advertising",
+                "Real-Time Bidding & Programmatic"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "attention-viewability",
+          "name": "Attention & Viewability",
+          "application": "Ad attention, viewability metrics, two-sided markets",
+          "papers": [
+            {
+              "title": "Market Provision of Broadcasting: A Welfare Analysis",
+              "authors": "Simon P. Anderson, Stephen Coate",
+              "year": 2005,
+              "description": "Foundational two-sided market model for advertising-financed media; analyzes when equilibrium advertising levels are socially optimal. The theoretical foundation for attention economics. ~680 citations.",
+              "url": "https://academic.oup.com/restud/article-abstract/72/4/947/1586451",
+              "tags": [
+                "Advertising",
+                "Attention & Viewability"
+              ]
+            },
+            {
+              "title": "How Viewer Tuning, Presence, and Attention Respond to Ad Content and Predict Brand Search Lift",
+              "authors": "Matthew McGranaghan, Jura Liaukonyte, Kenneth C. Wilbur",
+              "year": 2022,
+              "description": "First study distinguishing TV ad viewability from actual viewing using passive measurement; finds 30% of TV ads play to empty rooms. Demonstrates attention metrics predict brand search lift better than tuning data.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.2022.1370",
+              "tags": [
+                "Advertising",
+                "Attention & Viewability"
+              ]
+            },
+            {
+              "title": "Television Advertising and Online Word-of-Mouth: An Empirical Investigation of Social TV Activity",
+              "authors": "Beth L. Fossen, David A. Schweidel",
+              "year": 2017,
+              "description": "Examines 'Social TV'—joint consumption of TV and social media production. TV advertising impacts online WOM volume for both brands and programs. ~200 citations.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.2016.1002",
+              "tags": [
+                "Advertising",
+                "Attention & Viewability"
+              ]
+            },
+            {
+              "title": "Sponsorship Disclosure and Consumer Deception: Experimental Evidence from Native Advertising",
+              "authors": "Navdeep S. Sahni, Harikesh S. Nair",
+              "year": 2020,
+              "description": "Field experiments on how native advertising disclosure affects consumer behavior; provides causal evidence on tension between ad effectiveness and consumer deception in native formats.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.2018.1125",
+              "tags": [
+                "Advertising",
+                "Attention & Viewability"
+              ]
             }
           ]
         }
