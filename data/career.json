@@ -2,298 +2,244 @@
   {
     "name": "DataLemur SQL",
     "description": "Free SQL practice with FAANG questions. Created by ex-Facebook authors of Ace the Data Science Interview.",
+    "stage": "Interview Prep",
     "category": "SQL & Data",
     "url": "https://datalemur.com/",
     "type": "Practice",
-    "tags": [
-      "SQL & Data",
-      "Practice"
-    ]
+    "tags": ["FAANG", "beginner-friendly"]
   },
   {
     "name": "StrataScratch",
     "description": "Company-specific SQL filtering for Airbnb, Uber, Netflix. Real interview questions with solutions.",
+    "stage": "Interview Prep",
     "category": "SQL & Data",
     "url": "https://www.stratascratch.com/",
     "type": "Practice",
-    "tags": [
-      "SQL & Data",
-      "Practice"
-    ]
+    "tags": ["company-specific", "real-questions"]
   },
   {
     "name": "Window Functions Practice",
     "description": "Interactive quizzes on ROW_NUMBER, RANK, LAG/LEAD. Consistently tested in interviews.",
+    "stage": "Interview Prep",
     "category": "SQL & Data",
     "url": "https://www.windowfunctions.com/",
     "type": "Practice",
-    "tags": [
-      "SQL & Data",
-      "Practice"
-    ]
+    "tags": ["window-functions", "interactive"]
   },
   {
     "name": "Interview Query",
     "description": "Data science interview platform with SQL, Python, and ML questions. Take-home challenges included.",
+    "stage": "Interview Prep",
     "category": "SQL & Data",
     "url": "https://www.interviewquery.com/",
     "type": "Practice",
-    "tags": [
-      "SQL & Data",
-      "Practice"
-    ]
+    "tags": ["comprehensive", "take-homes"]
   },
   {
     "name": "Nick Singh's 40 Stats Questions",
     "description": "Probability and statistics questions from FAANG and Wall Street. Bayesian puzzles and distributions.",
+    "stage": "Interview Prep",
     "category": "Stats & Probability",
     "url": "https://www.nicksingh.com/posts/40-probability-statistics-data-science-interview-questions-asked-by-fang-wall-street",
     "type": "Questions",
-    "tags": [
-      "Stats & Probability",
-      "Questions"
-    ]
+    "tags": ["FAANG", "Wall-Street", "Bayesian"]
   },
   {
     "name": "StatQuest with Josh Starmer",
     "description": "Best resource for econ PhDs learning ML. Bias-variance, regularization, ensemble methods explained accessibly.",
+    "stage": "Interview Prep",
     "category": "ML Fundamentals",
     "url": "https://www.youtube.com/@statquest",
     "type": "Video",
-    "tags": [
-      "ML Fundamentals",
-      "Video"
-    ]
+    "tags": ["visual-learning", "beginner-friendly"]
   },
   {
     "name": "Trustworthy Online Controlled Experiments",
     "description": "The industry bible by Kohavi, Tang, Xu. Design, analysis, pitfalls from Microsoft/LinkedIn/Google leaders.",
-    "category": "A/B Testing",
+    "stage": "Interview Prep",
+    "category": "Experimentation",
     "url": "https://www.amazon.com/Trustworthy-Online-Controlled-Experiments-Practical/dp/1108724264",
     "type": "Book",
-    "tags": [
-      "A/B Testing",
-      "Book"
-    ]
+    "tags": ["essential", "advanced"]
   },
   {
     "name": "Understanding CUPED",
     "description": "Bridges CUPED to DiD and regression. Essential for industry A/B testing interviews.",
-    "category": "A/B Testing",
+    "stage": "Interview Prep",
+    "category": "Experimentation",
     "url": "https://towardsdatascience.com/understanding-cuped-a822523641af",
     "type": "Article",
-    "tags": [
-      "A/B Testing",
-      "Article"
-    ]
+    "tags": ["variance-reduction", "causal-inference"]
   },
   {
     "name": "Netflix: Quasi Experimentation",
     "description": "When A/B tests aren't feasible and how Netflix handles SUTVA violations.",
-    "category": "A/B Testing",
+    "stage": "Interview Prep",
+    "category": "Experimentation",
     "url": "https://netflixtechblog.com/quasi-experimentation-at-netflix-566b57d2e362",
     "type": "Blog",
-    "tags": [
-      "A/B Testing",
-      "Blog"
-    ]
+    "tags": ["Netflix", "quasi-experiments"]
   },
   {
     "name": "Scarlet Chen: Econ PhD to Tech",
     "description": "Stanford PhD to Google/Shopify. Interview experiences at Google, Amazon, Facebook, Uber.",
-    "category": "General Prep",
+    "stage": "Strategy",
+    "category": "Role Landscape",
     "url": "https://scarlet-chen.medium.com/",
     "type": "Blog",
-    "tags": [
-      "General Prep",
-      "Blog"
-    ]
+    "tags": ["PhD", "first-hand-experience"]
   },
   {
     "name": "Emma Ding: Product Sense Guide",
     "description": "Ultimate guide to business case interviews. AARRR framework, metrics, diagnostic approaches.",
+    "stage": "Interview Prep",
     "category": "Product Sense",
     "url": "https://towardsdatascience.com/the-ultimate-guide-to-cracking-business-case-interviews-for-data-scientists-part-1-cb768c37edf4",
     "type": "Guide",
-    "tags": [
-      "Product Sense",
-      "Guide"
-    ]
+    "tags": ["AARRR", "metrics-design"]
   },
   {
     "name": "Amplitude: North Star Metrics",
     "description": "Three games framework: Attention, Transaction, Productivity. Real examples from Facebook, Airbnb, Spotify.",
+    "stage": "Interview Prep",
     "category": "Product Sense",
     "url": "https://amplitude.com/blog/north-star-metric",
     "type": "Article",
-    "tags": [
-      "Product Sense",
-      "Article"
-    ]
+    "tags": ["frameworks", "real-examples"]
   },
   {
     "name": "DataLemur Meta DS Guide",
     "description": "31 leaked Meta interview questions. Product sense and SQL focus.",
+    "stage": "Interview Prep",
     "category": "Product Sense",
     "url": "https://datalemur.com/blog/meta-facebook-data-scientist-interview",
     "type": "Guide",
-    "tags": [
-      "Product Sense",
-      "Guide"
-    ]
+    "tags": ["Meta", "real-questions"]
   },
   {
     "name": "Scarlet Ink: Amazon LP Guide",
     "description": "Written by ex-Amazon Bar Raiser. Sent by recruiters to candidates. 100+ candidates credit it for getting hired.",
+    "stage": "Interview Prep",
     "category": "Behavioral",
     "url": "https://www.scarletink.com/p/interviewing-at-amazon-leadership-principles",
     "type": "Guide",
-    "tags": [
-      "Behavioral",
-      "Guide"
-    ]
+    "tags": ["Amazon", "bar-raiser"]
   },
   {
     "name": "Amazon Leadership Principles",
     "description": "Official 16 principles with explanations. Customer Obsession, Ownership, Invent and Simplify, etc.",
+    "stage": "Interview Prep",
     "category": "Behavioral",
     "url": "https://www.amazon.jobs/content/en/our-workplace/leadership-principles",
     "type": "Guide",
-    "tags": [
-      "Behavioral",
-      "Guide"
-    ]
+    "tags": ["Amazon", "official"]
   },
   {
     "name": "Interviewing.io Amazon Guide",
     "description": "Insights from 500+ mock Amazon behavioral interviews. STARI method with Action at 50-60%.",
+    "stage": "Interview Prep",
     "category": "Behavioral",
     "url": "https://interviewing.io/guides/amazon-interview",
     "type": "Guide",
-    "tags": [
-      "Behavioral",
-      "Guide"
-    ]
+    "tags": ["Amazon", "STAR-method"]
   },
   {
     "name": "IGotAnOffer: Google Behavioral",
     "description": "Googleyness traits: comfort with ambiguity, bias for action, intellectual humility.",
+    "stage": "Interview Prep",
     "category": "Behavioral",
     "url": "https://igotanoffer.com/blogs/tech/google-behavioral-interview",
     "type": "Guide",
-    "tags": [
-      "Behavioral",
-      "Guide"
-    ]
+    "tags": ["Google", "Googleyness"]
   },
   {
     "name": "Designing Machine Learning Systems",
     "description": "Essential ML system design book by Chip Huyen. Based on Stanford CS 329S.",
+    "stage": "Interview Prep",
     "category": "ML System Design",
     "url": "https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/",
     "type": "Book",
-    "tags": [
-      "ML System Design",
-      "Book"
-    ]
+    "tags": ["essential", "Stanford"]
   },
   {
     "name": "ML System Design Interview (Alex Xu)",
     "description": "7-step framework with 10 detailed solutions: visual search, video recommendation, ad prediction.",
+    "stage": "Interview Prep",
     "category": "ML System Design",
     "url": "https://www.amazon.com/Machine-Learning-System-Design-Interview/dp/1736049127",
     "type": "Book",
-    "tags": [
-      "ML System Design",
-      "Book"
-    ]
+    "tags": ["frameworks", "solutions"]
   },
   {
     "name": "ML Interviews GitHub",
     "description": "7.2k stars. Created by someone with offers from Meta, Google, Amazon, Apple for Applied Scientist.",
+    "stage": "Interview Prep",
     "category": "ML Fundamentals",
     "url": "https://github.com/alirezadir/Machine-Learning-Interviews",
     "type": "Resource",
-    "tags": [
-      "ML Fundamentals",
-      "Resource"
-    ]
+    "tags": ["comprehensive", "applied-scientist"]
   },
   {
     "name": "Chip Huyen ML Interviews Book",
     "description": "200+ knowledge questions organized by difficulty for ML fundamentals.",
+    "stage": "Interview Prep",
     "category": "ML Fundamentals",
     "url": "https://huyenchip.com/ml-interviews-book/",
     "type": "Book",
-    "tags": [
-      "ML Fundamentals",
-      "Book"
-    ]
+    "tags": ["comprehensive", "by-difficulty"]
   },
   {
     "name": "Interview Query Take-Homes",
     "description": "23 real take-home challenges from Airbnb, Stripe, Uber, DoorDash, Amazon with solutions.",
+    "stage": "Interview Prep",
     "category": "Take-Home",
     "url": "https://www.interviewquery.com/p/data-science-take-home-challenges",
     "type": "Practice",
-    "tags": [
-      "Take-Home",
-      "Practice"
-    ]
+    "tags": ["real-challenges", "with-solutions"]
   },
   {
     "name": "Ace the Data Science Interview",
     "description": "201 real questions from FAANG, startups, Wall Street. Industry-standard prep resource.",
-    "category": "General Prep",
+    "stage": "Strategy",
+    "category": "Role Landscape",
     "url": "https://www.acethedatascienceinterview.com/",
     "type": "Book",
-    "tags": [
-      "General Prep",
-      "Book"
-    ]
+    "tags": ["comprehensive", "industry-standard"]
   },
   {
     "name": "Rose Tan: Tech Jobs for Econ PhDs",
     "description": "LinkedIn guide on navigating tech's job market. Networking tips, role types, expectations.",
-    "category": "General Prep",
+    "stage": "Strategy",
+    "category": "PhD Transition",
     "url": "https://www.linkedin.com/pulse/finding-tech-job-part-1-guide-econ-phds-some-useful-info-rose-tan",
     "type": "Guide",
-    "tags": [
-      "General Prep",
-      "Guide"
-    ]
+    "tags": ["PhD", "networking"]
   },
   {
     "name": "Levels.fyi",
     "description": "Crowdsourced tech compensation data. Compare salaries across companies, levels, locations.",
+    "stage": "Offers",
     "category": "Negotiation",
     "url": "https://www.levels.fyi/",
     "type": "Tool",
-    "tags": [
-      "Negotiation",
-      "Tool"
-    ]
+    "tags": ["salary-data", "essential"]
   },
   {
     "name": "Levels.fyi Negotiation Guide",
     "description": "Guide on base, equity, bonus structures and how to negotiate each.",
+    "stage": "Offers",
     "category": "Negotiation",
     "url": "https://www.levels.fyi/blog/ultimate-negotiation-guide.html",
     "type": "Guide",
-    "tags": [
-      "Negotiation",
-      "Guide"
-    ]
+    "tags": ["equity", "compensation-structure"]
   },
   {
     "name": "Candor Salary Negotiation",
     "description": "Strategies tech insiders use. Competing offers, leveling, avoiding leaving money on the table.",
+    "stage": "Offers",
     "category": "Negotiation",
     "url": "https://candor.co/guides/salary-negotiation",
     "type": "Guide",
-    "tags": [
-      "Negotiation",
-      "Guide"
-    ]
+    "tags": ["competing-offers", "tactics"]
   }
 ]

@@ -900,6 +900,203 @@ a:hover {
     border-bottom: 1px solid var(--border-light);
 }
 
+.category-count {
+    font-weight: 400;
+    color: var(--text-muted);
+    font-size: 0.9em;
+}
+
+/* Stage Tabs */
+.stage-tabs-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.stage-tabs {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.stage-tab {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 0.85rem;
+    border: 1px solid var(--border-color);
+    background: var(--bg-card);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    transition: all 0.2s ease;
+}
+
+.stage-tab:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+}
+
+.stage-tab.active {
+    background: var(--accent-color);
+    border-color: var(--accent-color);
+    color: white;
+}
+
+.stage-tab.active .stage-icon svg {
+    stroke: white;
+}
+
+.stage-tab .stage-icon {
+    display: flex;
+    align-items: center;
+}
+
+.stage-tab .stage-icon svg {
+    stroke: var(--text-muted);
+    transition: stroke 0.2s ease;
+}
+
+.stage-tab:hover .stage-icon svg {
+    stroke: var(--accent-color);
+}
+
+/* Stage Sections (Collapsible) */
+.career-stages-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.stage-section {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.stage-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.2s ease;
+}
+
+.stage-header:hover {
+    background: var(--bg-hover);
+}
+
+.stage-header-left {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.stage-expand-icon {
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s ease;
+}
+
+.stage-expand-icon svg {
+    stroke: var(--text-muted);
+}
+
+.stage-section:not(.collapsed) .stage-expand-icon {
+    transform: rotate(90deg);
+}
+
+.stage-icon {
+    display: flex;
+    align-items: center;
+}
+
+.stage-icon svg {
+    stroke: var(--accent-color);
+}
+
+/* Stage icon colors */
+.stage-icon-strategy svg { stroke: #3b82f6; }
+.stage-icon-discovery svg { stroke: #22c55e; }
+.stage-icon-interview-prep svg { stroke: #f97316; }
+.stage-icon-offers svg { stroke: #eab308; }
+.stage-icon-on-the-job svg { stroke: #a855f7; }
+
+.stage-title {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.stage-count {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.stage-content {
+    padding: 0 1.25rem 1.25rem;
+}
+
+.stage-section.collapsed .stage-content {
+    display: none;
+}
+
+/* Coming Soon Placeholder */
+.coming-soon-placeholder {
+    padding: 2rem;
+    text-align: center;
+    color: var(--text-muted);
+    background: var(--bg-secondary);
+    border-radius: 8px;
+    border: 1px dashed var(--border-color);
+}
+
+.coming-soon-placeholder p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive adjustments for stage tabs */
+@media (max-width: 768px) {
+    .stage-tabs-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .stage-tabs {
+        overflow-x: auto;
+        padding-bottom: 0.5rem;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .stage-tab {
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+
+    .stage-tab-label {
+        display: none;
+    }
+
+    .stage-tab .stage-icon {
+        margin: 0;
+    }
+
+    .stage-tab[data-stage="all"] .stage-tab-label {
+        display: inline;
+    }
+}
+
 .cards-row {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));

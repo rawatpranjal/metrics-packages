@@ -1,19 +1,29 @@
 {{ define "main" }}
 <!-- Hero Section -->
 <header class="hero hero-with-image hero-career">
-    <h1 class="hero-title">Early Career</h1>
-    <p class="hero-tagline">{{ len .Site.Data.career }} resources for job hunting and interviews.</p>
+    <h1 class="hero-title">Career</h1>
+    <p class="hero-tagline">{{ len .Site.Data.career }} resources for your PhD to Tech journey.</p>
 </header>
+
+<!-- Stage and Category Definitions -->
+{{ $stageOrder := slice "Strategy" "Discovery" "Interview Prep" "Offers" "On The Job" }}
+{{ $stageIcons := dict "Strategy" "compass" "Discovery" "search" "Interview Prep" "target" "Offers" "dollar" "On The Job" "rocket" }}
+{{ $stageCategories := dict
+    "Strategy" (slice "Why Tech" "Role Landscape" "Team Types" "PhD Transition")
+    "Discovery" (slice "Job Boards" "Company Lists" "Networking")
+    "Interview Prep" (slice "Process Overview" "SQL & Data" "Python & Coding" "Stats & Probability" "Causal Inference" "Experimentation" "ML Fundamentals" "ML System Design" "Product Sense" "Behavioral" "Take-Home")
+    "Offers" (slice "Negotiation")
+    "On The Job" (slice "First 90 Days" "Stakeholder Management")
+}}
 
 <!-- Search Index Data for Fuse.js -->
 <script id="search-data" type="application/json">
-[{{ range $i, $item := .Site.Data.career }}{{ if $i }},{{ end }}{"name":"{{ .name }}","description":"{{ .description | htmlEscape }}","category":"{{ .category }}","type":"{{ .type }}"}{{ end }}]
+[{{ range $i, $item := .Site.Data.career }}{{ if $i }},{{ end }}{"name":"{{ .name }}","description":"{{ .description | htmlEscape }}","category":"{{ .category }}","stage":"{{ .stage }}","type":"{{ .type }}"}{{ end }}]
 </script>
 
 <div class="container">
-    <!-- Search and Filters Row -->
+    <!-- Search Bar -->
     <div class="search-filters-row">
-        <!-- Search Bar -->
         <div class="search-container">
             <div class="search-input-wrapper">
                 <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
@@ -32,49 +42,172 @@
                 </button>
             </div>
         </div>
+    </div>
+
+    <!-- Stage Tabs -->
+    <div class="stage-tabs-container">
+        <div class="stage-tabs">
+            <button class="stage-tab active" data-stage="all">
+                <span class="stage-tab-label">All</span>
+            </button>
+            {{ range $stage := $stageOrder }}
+            {{ $icon := index $stageIcons $stage }}
+            <button class="stage-tab" data-stage="{{ $stage }}">
+                <span class="stage-icon">
+                    {{ if eq $icon "compass" }}
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                    </svg>
+                    {{ else if eq $icon "search" }}
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    {{ else if eq $icon "target" }}
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <circle cx="12" cy="12" r="6"></circle>
+                        <circle cx="12" cy="12" r="2"></circle>
+                    </svg>
+                    {{ else if eq $icon "dollar" }}
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="12" y1="1" x2="12" y2="23"></line>
+                        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                    </svg>
+                    {{ else if eq $icon "rocket" }}
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path>
+                        <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path>
+                        <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
+                        <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+                    </svg>
+                    {{ end }}
+                </span>
+                <span class="stage-tab-label">{{ $stage }}</span>
+            </button>
+            {{ end }}
+        </div>
 
         <!-- Category Dropdown -->
-        {{ $categoryOrder := slice "General Prep" "SQL & Data" "Stats & Probability" "A/B Testing" "Causal Inference" "Product Sense" "Behavioral" "ML Fundamentals" "ML System Design" "Take-Home" "Negotiation" }}
         <select id="category-select" class="category-select">
             <option value="all">All Categories</option>
-            {{ range $cat := $categoryOrder }}
-            <option value="{{ $cat }}">{{ $cat }}</option>
+            {{ range $stage := $stageOrder }}
+            {{ $cats := index $stageCategories $stage }}
+            {{ range $cat := $cats }}
+            <option value="{{ $cat }}" data-stage="{{ $stage }}">{{ $cat }}</option>
+            {{ end }}
             {{ end }}
         </select>
     </div>
 
     <div id="result-count" class="result-count">{{ len .Site.Data.career }} resources</div>
 
-    <!-- Career Grid -->
-    <div id="career-view" class="resources-grid">
-        {{ range $cat := $categoryOrder }}
-        <div class="category-section" data-section-category="{{ $cat }}">
-            <h2 class="category-title">{{ $cat }}</h2>
-            <div class="cards-row">
+    <!-- Career Grid organized by Stage -->
+    <div id="career-view" class="resources-grid career-stages-grid">
+        {{ range $stage := $stageOrder }}
+        {{ $stageCategories := index $stageCategories $stage }}
+        {{ $icon := index $stageIcons $stage }}
+
+        <!-- Count resources in this stage -->
+        {{ $stageCount := 0 }}
+        {{ range $.Site.Data.career }}
+            {{ if eq .stage $stage }}
+                {{ $stageCount = add $stageCount 1 }}
+            {{ end }}
+        {{ end }}
+
+        <div class="stage-section collapsed" data-stage="{{ $stage }}">
+            <button class="stage-header" aria-expanded="false">
+                <span class="stage-header-left">
+                    <span class="stage-expand-icon">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </span>
+                    <span class="stage-icon stage-icon-{{ $stage | urlize }}">
+                        {{ if eq $icon "compass" }}
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                        </svg>
+                        {{ else if eq $icon "search" }}
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                        {{ else if eq $icon "target" }}
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <circle cx="12" cy="12" r="6"></circle>
+                            <circle cx="12" cy="12" r="2"></circle>
+                        </svg>
+                        {{ else if eq $icon "dollar" }}
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="12" y1="1" x2="12" y2="23"></line>
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg>
+                        {{ else if eq $icon "rocket" }}
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path>
+                            <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path>
+                            <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
+                            <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+                        </svg>
+                        {{ end }}
+                    </span>
+                    <span class="stage-title">{{ $stage }}</span>
+                </span>
+                <span class="stage-count">{{ $stageCount }} resources</span>
+            </button>
+
+            <div class="stage-content">
+                {{ range $cat := $stageCategories }}
+                <!-- Count resources in this category -->
+                {{ $catCount := 0 }}
                 {{ range $.Site.Data.career }}
-                {{ if eq .category $cat }}
-                <div class="resource-card" data-aos="fade-up"
-                     data-name="{{ .name | lower }}"
-                     data-description="{{ .description | lower }}"
-                     data-category="{{ .category }}">
-                    <div class="card-header">
-                        <img class="resource-favicon"
-                             src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32"
-                             alt=""
-                             loading="lazy"
-                             onerror="this.style.display='none'">
-                        <h3 class="resource-name">
-                            <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
-                        </h3>
-                        <span class="resource-type">{{ .type }}</span>
-                    </div>
-                    <p class="resource-desc">{{ .description }}</p>
-                    <div class="card-footer">
-                        <span class="category-badge">{{ .category }}</span>
-                        <a href="{{ .url }}" target="_blank" class="link-btn">Visit</a>
+                    {{ if and (eq .stage $stage) (eq .category $cat) }}
+                        {{ $catCount = add $catCount 1 }}
+                    {{ end }}
+                {{ end }}
+
+                <div class="category-section" data-section-category="{{ $cat }}" data-section-stage="{{ $stage }}">
+                    <h3 class="category-title">{{ $cat }}{{ if gt $catCount 0 }} <span class="category-count">({{ $catCount }})</span>{{ end }}</h3>
+                    <div class="cards-row">
+                        {{ if eq $catCount 0 }}
+                        <div class="coming-soon-placeholder">
+                            <p>Coming soon</p>
+                        </div>
+                        {{ else }}
+                        {{ range $.Site.Data.career }}
+                        {{ if and (eq .stage $stage) (eq .category $cat) }}
+                        <div class="resource-card" data-aos="fade-up"
+                             data-name="{{ .name | lower }}"
+                             data-description="{{ .description | lower }}"
+                             data-category="{{ .category }}"
+                             data-stage="{{ .stage }}">
+                            <div class="card-header">
+                                <img class="resource-favicon"
+                                     src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32"
+                                     alt=""
+                                     loading="lazy"
+                                     onerror="this.style.display='none'">
+                                <h3 class="resource-name">
+                                    <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+                                </h3>
+                                <span class="resource-type">{{ .type }}</span>
+                            </div>
+                            <p class="resource-desc">{{ .description }}</p>
+                            <div class="card-footer">
+                                <span class="category-badge">{{ .category }}</span>
+                                <a href="{{ .url }}" target="_blank" class="link-btn">Visit</a>
+                            </div>
+                        </div>
+                        {{ end }}
+                        {{ end }}
+                        {{ end }}
                     </div>
                 </div>
-                {{ end }}
                 {{ end }}
             </div>
         </div>
@@ -89,6 +222,107 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+    // Stage collapse/expand functionality
+    const stageSections = document.querySelectorAll('.stage-section');
+    const stageHeaders = document.querySelectorAll('.stage-header');
+
+    stageHeaders.forEach(header => {
+        header.addEventListener('click', function() {
+            const section = this.closest('.stage-section');
+            const isCollapsed = section.classList.contains('collapsed');
+
+            if (isCollapsed) {
+                section.classList.remove('collapsed');
+                this.setAttribute('aria-expanded', 'true');
+            } else {
+                section.classList.add('collapsed');
+                this.setAttribute('aria-expanded', 'false');
+            }
+        });
+    });
+
+    // Stage tab filtering
+    const stageTabs = document.querySelectorAll('.stage-tab');
+    const categorySelect = document.getElementById('category-select');
+    let activeStage = 'all';
+
+    stageTabs.forEach(tab => {
+        tab.addEventListener('click', function() {
+            // Update active tab
+            stageTabs.forEach(t => t.classList.remove('active'));
+            this.classList.add('active');
+
+            activeStage = this.dataset.stage;
+
+            // Filter category dropdown options
+            const options = categorySelect.querySelectorAll('option');
+            options.forEach(opt => {
+                if (opt.value === 'all') {
+                    opt.style.display = '';
+                } else if (activeStage === 'all') {
+                    opt.style.display = '';
+                } else {
+                    opt.style.display = opt.dataset.stage === activeStage ? '' : 'none';
+                }
+            });
+            categorySelect.value = 'all';
+
+            // Show/hide stage sections
+            stageSections.forEach(section => {
+                if (activeStage === 'all') {
+                    section.style.display = '';
+                    section.classList.add('collapsed');
+                    section.querySelector('.stage-header').setAttribute('aria-expanded', 'false');
+                } else if (section.dataset.stage === activeStage) {
+                    section.style.display = '';
+                    section.classList.remove('collapsed');
+                    section.querySelector('.stage-header').setAttribute('aria-expanded', 'true');
+                } else {
+                    section.style.display = 'none';
+                }
+            });
+
+            updateResultCount();
+        });
+    });
+
+    // Category filtering
+    categorySelect.addEventListener('change', function() {
+        const selectedCategory = this.value;
+        const categorySections = document.querySelectorAll('.category-section');
+
+        categorySections.forEach(section => {
+            const stageSection = section.closest('.stage-section');
+
+            if (selectedCategory === 'all') {
+                section.style.display = '';
+            } else if (section.dataset.sectionCategory === selectedCategory) {
+                section.style.display = '';
+                // Expand the parent stage
+                stageSection.classList.remove('collapsed');
+                stageSection.querySelector('.stage-header').setAttribute('aria-expanded', 'true');
+            } else {
+                section.style.display = 'none';
+            }
+        });
+
+        updateResultCount();
+    });
+
+    function updateResultCount() {
+        const visibleCards = document.querySelectorAll('.resource-card:not([style*="display: none"])');
+        let count = 0;
+        visibleCards.forEach(card => {
+            const section = card.closest('.category-section');
+            const stageSection = card.closest('.stage-section');
+            if (section.style.display !== 'none' && stageSection.style.display !== 'none') {
+                count++;
+            }
+        });
+        document.getElementById('result-count').textContent = count + ' resources';
+    }
+
+    // Initialize PageSearch for text search
     new PageSearch({
         searchInputId: 'career-search',
         cardSelector: '.resource-card',
@@ -97,6 +331,7 @@ document.addEventListener('DOMContentLoaded', function() {
         fuseKeys: [
             { name: 'name', weight: 2 },
             { name: 'description', weight: 1 },
+            { name: 'stage', weight: 0.8 },
             { name: 'type', weight: 0.8 },
             { name: 'category', weight: 0.5 }
         ]
