@@ -48,6 +48,7 @@
     this.worker = null;
     this.workerReady = false;
     this.pendingSearches = new Map();
+    this.pendingKeywordResults = new Map();  // Track keyword results for progressive rendering
     this.searchId = 0;
 
     // State
@@ -71,6 +72,7 @@
     this.currentResults = [];
     this.flatResults = [];
     this.debounceTimer = null;
+    this.currentSortOrder = 'relevance';  // 'relevance' | 'alphabetical' | 'type'
 
     // Page search instances
     this.pageSearchInstances = [];
@@ -81,6 +83,9 @@
    */
   UnifiedSearch.prototype.init = function() {
     var self = this;
+
+    // Inject preload hints for faster resource loading
+    this.injectPreloadHints();
 
     // Initialize worker
     this.initWorker();
@@ -96,6 +101,38 @@
     this.initPageSearch();
 
     console.log('[UnifiedSearch] Initialized');
+  };
+
+  /**
+   * Inject preload/prefetch hints for critical resources
+   */
+  UnifiedSearch.prototype.injectPreloadHints = function() {
+    // Preload the search index (needed immediately on modal open)
+    var indexLink = document.createElement('link');
+    indexLink.rel = 'preload';
+    indexLink.href = '/embeddings/search-index.json';
+    indexLink.as = 'fetch';
+    indexLink.crossOrigin = 'anonymous';
+    document.head.appendChild(indexLink);
+
+    // Prefetch embeddings during idle time (needed for semantic search)
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(function() {
+        var embeddingsLink = document.createElement('link');
+        embeddingsLink.rel = 'prefetch';
+        embeddingsLink.href = '/embeddings/search-embeddings-q8.bin';
+        embeddingsLink.as = 'fetch';
+        embeddingsLink.crossOrigin = 'anonymous';
+        document.head.appendChild(embeddingsLink);
+
+        var metadataLink = document.createElement('link');
+        metadataLink.rel = 'prefetch';
+        metadataLink.href = '/embeddings/search-metadata.json';
+        metadataLink.as = 'fetch';
+        metadataLink.crossOrigin = 'anonymous';
+        document.head.appendChild(metadataLink);
+      }, { timeout: 3000 });
+    }
   };
 
   /**
@@ -169,6 +206,10 @@
           console.log('[UnifiedSearch] Transformers.js model loaded');
           this.updateSearchStatus('AI search ready');
         }
+        break;
+
+      case 'KEYWORD_RESULTS':
+        this.handleKeywordResults(message.id, message.payload);
         break;
 
       case 'SEARCH_RESULTS':
@@ -289,8 +330,8 @@
     if (global.SearchCache) {
       global.SearchCache.getEmbeddings().then(function(cached) {
         if (cached) {
-          console.log('[UnifiedSearch] Using cached embeddings');
-          self.sendEmbeddingsToWorker(cached.metadata, cached.embeddings.buffer);
+          console.log('[UnifiedSearch] Using cached embeddings (quantized:', cached.quantized, ')');
+          self.sendEmbeddingsToWorker(cached.metadata, cached.embeddings, cached.quantized);
           return;
         }
         self.fetchEmbeddings();
@@ -301,35 +342,53 @@
   };
 
   /**
-   * Fetch embeddings from server
+   * Fetch embeddings from server (tries quantized first, then full, then legacy)
    */
   UnifiedSearch.prototype.fetchEmbeddings = function() {
     var self = this;
 
-    Promise.all([
-      fetch('/embeddings/search-metadata.json').then(function(r) {
+    // First, fetch metadata (always needed)
+    fetch('/embeddings/search-metadata.json')
+      .then(function(r) {
         if (!r.ok) throw new Error('Failed to load metadata');
         return r.json();
-      }),
-      fetch('/embeddings/search-embeddings.bin').then(function(r) {
-        if (!r.ok) throw new Error('Failed to load embeddings');
-        return r.arrayBuffer();
       })
-    ]).then(function(results) {
-      var metadata = results[0];
-      var buffer = results[1];
-
-      // Cache for next time
-      if (global.SearchCache) {
-        global.SearchCache.setEmbeddings(metadata, buffer);
-      }
-
-      self.sendEmbeddingsToWorker(metadata, buffer);
-    }).catch(function(error) {
-      console.warn('[UnifiedSearch] Failed to load embeddings:', error);
-      // Fall back to legacy JSON format
-      self.loadLegacyEmbeddings();
-    });
+      .then(function(metadata) {
+        // Try quantized embeddings first (smaller, ~500KB vs 1.9MB)
+        return fetch('/embeddings/search-embeddings-q8.bin')
+          .then(function(r) {
+            if (!r.ok) throw new Error('Quantized not available');
+            return r.arrayBuffer();
+          })
+          .then(function(buffer) {
+            console.log('[UnifiedSearch] Using quantized embeddings');
+            // Cache for next time
+            if (global.SearchCache) {
+              global.SearchCache.setEmbeddings(metadata, buffer, true);  // true = quantized
+            }
+            self.sendEmbeddingsToWorker(metadata, buffer, true);  // true = quantized
+          })
+          .catch(function() {
+            // Fall back to full Float32 embeddings
+            console.log('[UnifiedSearch] Falling back to Float32 embeddings');
+            return fetch('/embeddings/search-embeddings.bin')
+              .then(function(r) {
+                if (!r.ok) throw new Error('Failed to load embeddings');
+                return r.arrayBuffer();
+              })
+              .then(function(buffer) {
+                if (global.SearchCache) {
+                  global.SearchCache.setEmbeddings(metadata, buffer, false);
+                }
+                self.sendEmbeddingsToWorker(metadata, buffer, false);
+              });
+          });
+      })
+      .catch(function(error) {
+        console.warn('[UnifiedSearch] Failed to load embeddings:', error);
+        // Fall back to legacy JSON format
+        self.loadLegacyEmbeddings();
+      });
   };
 
   /**
@@ -381,15 +440,19 @@
 
   /**
    * Send embeddings to worker
+   * @param {Object} metadata - Embeddings metadata
+   * @param {ArrayBuffer} buffer - Binary embeddings data
+   * @param {boolean} quantized - Whether the buffer contains quantized Int8 data
    */
-  UnifiedSearch.prototype.sendEmbeddingsToWorker = function(metadata, buffer) {
+  UnifiedSearch.prototype.sendEmbeddingsToWorker = function(metadata, buffer, quantized) {
     if (!this.workerReady) return;
 
     this.worker.postMessage({
       type: 'LOAD_EMBEDDINGS',
       payload: {
         metadata: metadata,
-        embeddingsBuffer: buffer
+        embeddingsBuffer: buffer,
+        quantized: !!quantized
       }
     }, [buffer]);  // Transfer buffer ownership
   };
@@ -432,22 +495,39 @@
   };
 
   /**
-   * Perform search (internal)
+   * Perform search (internal) - uses progressive search for faster results
    */
   UnifiedSearch.prototype._doSearch = function(query, options) {
     var self = this;
+    var useProgressive = options.progressive !== false;
+    var canUseSemantic = self.isEmbeddingsLoaded && self.isModelLoaded;
 
     return new Promise(function(resolve) {
       var id = ++self.searchId;
-      self.pendingSearches.set(id, resolve);
+      var hasResolved = false;
+
+      // For progressive search, we handle multiple responses
+      self.pendingSearches.set(id, function(result) {
+        if (hasResolved) {
+          // This is a follow-up result (e.g., hybrid after keyword)
+          // Re-render with updated results
+          if (self.isOpen && result.results && result.results.length > 0) {
+            self.currentResults = result.results.slice(0, CONFIG.maxTotalResults);
+            self.renderGlobalResults(self.currentResults, query, result.isPartial);
+          }
+        } else {
+          hasResolved = true;
+          resolve(result);
+        }
+      });
 
       self.worker.postMessage({
-        type: 'SEARCH',
+        type: useProgressive ? 'SEARCH_PROGRESSIVE' : 'SEARCH',
         id: id,
         payload: {
           query: query,
           topK: options.topK || CONFIG.maxTotalResults,
-          semantic: options.semantic !== false && self.isEmbeddingsLoaded && self.isModelLoaded
+          semantic: options.semantic !== false && canUseSemantic
         }
       });
 
@@ -455,7 +535,10 @@
       setTimeout(function() {
         if (self.pendingSearches.has(id)) {
           self.pendingSearches.delete(id);
-          resolve([]);
+          self.pendingKeywordResults.delete(id);
+          if (!hasResolved) {
+            resolve({ results: [], isPartial: false, mode: 'timeout' });
+          }
         }
       }, 5000);
     });
@@ -487,13 +570,40 @@
   };
 
   /**
-   * Handle search results from worker
+   * Handle keyword results from worker (progressive search - fast results first)
+   */
+  UnifiedSearch.prototype.handleKeywordResults = function(id, payload) {
+    // Store keyword results for this search
+    this.pendingKeywordResults.set(id, {
+      results: payload.results,
+      isPartial: payload.isPartial
+    });
+
+    // Resolve immediately with keyword results (marked as partial if semantic is coming)
+    var resolve = this.pendingSearches.get(id);
+    if (resolve) {
+      // Don't delete from pendingSearches yet - we may get SEARCH_RESULTS later
+      resolve({
+        results: payload.results,
+        isPartial: payload.isPartial,
+        mode: 'keyword'
+      });
+    }
+  };
+
+  /**
+   * Handle search results from worker (final results - may replace keyword results)
    */
   UnifiedSearch.prototype.handleSearchResults = function(id, payload) {
     var resolve = this.pendingSearches.get(id);
     if (resolve) {
       this.pendingSearches.delete(id);
-      resolve(payload.results);
+      this.pendingKeywordResults.delete(id);
+      resolve({
+        results: payload.results,
+        isPartial: false,
+        mode: payload.mode
+      });
     }
   };
 
@@ -662,17 +772,22 @@
     // Show loading state
     this.showLoading();
 
-    // Perform search
+    // Perform search (progressive: keyword results come first)
     this.search(query, { topK: CONFIG.maxTotalResults * 2 })
-      .then(function(results) {
+      .then(function(result) {
         self.hideLoading();
+
+        // Handle progressive result format
+        var results = result.results || result;
+        var isPartial = result.isPartial || false;
+
         self.currentResults = results.slice(0, CONFIG.maxTotalResults);
 
         if (self.currentResults.length === 0) {
           self.showEmpty();
           self.flatResults = [];
         } else {
-          self.renderGlobalResults(self.currentResults, query);
+          self.renderGlobalResults(self.currentResults, query, isPartial);
         }
       })
       .catch(function(error) {
@@ -685,24 +800,37 @@
 
   /**
    * Render global search results
+   * @param {Array} results - Search results
+   * @param {string} query - Search query
+   * @param {boolean} isPartial - Whether more results are coming (AI refining)
    */
-  UnifiedSearch.prototype.renderGlobalResults = function(results, query) {
+  UnifiedSearch.prototype.renderGlobalResults = function(results, query, isPartial) {
     var self = this;
     this.hint.style.display = 'none';
     this.emptyState.style.display = 'none';
 
-    // Group by type (no per-category limit)
-    var grouped = {};
+    // Count by type for filter chips
     var typeCounts = {};
     results.forEach(function(result) {
+      typeCounts[result.type] = (typeCounts[result.type] || 0) + 1;
+    });
+
+    // Render type filter chips (with refining indicator if partial)
+    this.renderTypeFilters(typeCounts, results.length, isPartial);
+
+    // Render sort controls
+    this.renderSortControls();
+
+    // Apply sort order to results
+    var sortedResults = this.sortResults(results, this.currentSortOrder);
+
+    // Group sorted results by type
+    var grouped = {};
+    sortedResults.forEach(function(result) {
       var type = result.type;
       if (!grouped[type]) grouped[type] = [];
       grouped[type].push(result);
-      typeCounts[type] = (typeCounts[type] || 0) + 1;
     });
-
-    // Render type filter chips
-    this.renderTypeFilters(typeCounts, results.length);
 
     // Filter results if a type is selected
     var filteredGrouped = grouped;
@@ -739,8 +867,10 @@
         html += 'data-index="' + globalIndex + '" ';
         html += 'target="_blank" rel="noopener">';
         html += '<div class="result-content">';
-        html += '<span class="result-name">' + highlightText(result.name, query) + '</span>';
-        html += '<span class="result-description">' + highlightText(smartTruncate(result.description, 200), query) + '</span>';
+        html += '<span class="result-name">' + highlightTextEnhanced(result.name, query) + '</span>';
+        // Use contextual snippets for descriptions
+        var snippet = generateSnippet(result.description, query, 180);
+        html += '<span class="result-description">' + highlightTextEnhanced(snippet, query) + '</span>';
         // Show tags if available
         if (result.tags) {
           var tagsArr = typeof result.tags === 'string' ? result.tags.split(',').map(function(t) { return t.trim(); }) : result.tags;
@@ -769,12 +899,17 @@
   /**
    * Render type filter chips
    */
-  UnifiedSearch.prototype.renderTypeFilters = function(typeCounts, totalCount) {
+  UnifiedSearch.prototype.renderTypeFilters = function(typeCounts, totalCount, isPartial) {
     var self = this;
     if (!this.filtersContainer) return;
 
     var typeOrder = ['paper', 'package', 'dataset', 'resource', 'book', 'talk', 'career', 'community'];
     var html = '';
+
+    // Refining indicator (when semantic search is running)
+    if (isPartial) {
+      html += '<span class="search-refining-indicator"><span class="refining-spinner"></span>Refining with AI...</span>';
+    }
 
     // All filter
     var allActive = this.currentTypeFilter === 'all' ? ' active' : '';
@@ -803,6 +938,74 @@
   };
 
   /**
+   * Sort results based on current sort order
+   */
+  UnifiedSearch.prototype.sortResults = function(results, sortOrder) {
+    var sorted = results.slice();  // Clone array
+
+    switch (sortOrder) {
+      case 'alphabetical':
+        sorted.sort(function(a, b) {
+          return (a.name || '').localeCompare(b.name || '');
+        });
+        break;
+      case 'type':
+        var typeOrder = ['paper', 'package', 'dataset', 'resource', 'book', 'talk', 'career', 'community', 'roadmap', 'domain'];
+        sorted.sort(function(a, b) {
+          var aIdx = typeOrder.indexOf(a.type);
+          var bIdx = typeOrder.indexOf(b.type);
+          if (aIdx === -1) aIdx = 999;
+          if (bIdx === -1) bIdx = 999;
+          if (aIdx !== bIdx) return aIdx - bIdx;
+          // Within same type, sort by relevance
+          return (b.rrfScore || b.score || 0) - (a.rrfScore || a.score || 0);
+        });
+        break;
+      case 'relevance':
+      default:
+        // Already sorted by relevance from worker
+        break;
+    }
+
+    return sorted;
+  };
+
+  /**
+   * Render sort controls
+   */
+  UnifiedSearch.prototype.renderSortControls = function() {
+    var self = this;
+
+    // Find or create sort container
+    var sortContainer = document.getElementById('global-search-sort');
+    if (!sortContainer) {
+      sortContainer = document.createElement('div');
+      sortContainer.id = 'global-search-sort';
+      sortContainer.className = 'global-search-sort';
+      // Insert after filters container
+      if (this.filtersContainer && this.filtersContainer.parentNode) {
+        this.filtersContainer.parentNode.insertBefore(sortContainer, this.filtersContainer.nextSibling);
+      }
+    }
+
+    var html = '<span class="sort-label">Sort:</span>';
+    html += '<button class="sort-btn' + (this.currentSortOrder === 'relevance' ? ' active' : '') + '" data-sort="relevance">Relevance</button>';
+    html += '<button class="sort-btn' + (this.currentSortOrder === 'alphabetical' ? ' active' : '') + '" data-sort="alphabetical">A-Z</button>';
+    html += '<button class="sort-btn' + (this.currentSortOrder === 'type' ? ' active' : '') + '" data-sort="type">Type</button>';
+
+    sortContainer.innerHTML = html;
+    sortContainer.style.display = 'flex';
+
+    // Bind click handlers
+    sortContainer.querySelectorAll('.sort-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        self.currentSortOrder = this.dataset.sort;
+        self.renderGlobalResults(self.currentResults, self.input.value.trim());
+      });
+    });
+  };
+
+  /**
    * Show hint (recent searches + suggestions)
    */
   UnifiedSearch.prototype.showHint = function() {
@@ -810,7 +1013,10 @@
     this.emptyState.style.display = 'none';
     this.hint.style.display = 'none';
     if (this.filtersContainer) this.filtersContainer.style.display = 'none';
+    var sortContainer = document.getElementById('global-search-sort');
+    if (sortContainer) sortContainer.style.display = 'none';
     this.currentTypeFilter = 'all';  // Reset filter
+    this.currentSortOrder = 'relevance';  // Reset sort
 
     var recent = this.getRecentSearches();
     var html = '';
@@ -875,6 +1081,8 @@
     this.emptyState.style.display = 'flex';
     if (this.loadingState) this.loadingState.style.display = 'none';
     if (this.filtersContainer) this.filtersContainer.style.display = 'none';
+    var sortContainer = document.getElementById('global-search-sort');
+    if (sortContainer) sortContainer.style.display = 'none';
   };
 
   /**
@@ -1482,6 +1690,94 @@
 
   function escapeRegex(str) {
     return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  /**
+   * Generate a contextual snippet around matching text
+   * @param {string} text - Full text to extract snippet from
+   * @param {string} query - Search query
+   * @param {number} maxLength - Maximum snippet length
+   * @returns {string} - Snippet with match context
+   */
+  function generateSnippet(text, query, maxLength) {
+    if (!text || !query) return text || '';
+    maxLength = maxLength || 150;
+
+    var textLower = text.toLowerCase();
+    var queryLower = query.toLowerCase().trim();
+    var queryWords = queryLower.split(/\s+/).filter(function(w) { return w.length > 2; });
+
+    // Find the best match position (prefer full query, then individual words)
+    var matchIndex = textLower.indexOf(queryLower);
+
+    if (matchIndex === -1 && queryWords.length > 0) {
+      // Try to find any query word
+      for (var i = 0; i < queryWords.length; i++) {
+        matchIndex = textLower.indexOf(queryWords[i]);
+        if (matchIndex !== -1) break;
+      }
+    }
+
+    // If no match found, return truncated start
+    if (matchIndex === -1) {
+      return smartTruncate(text, maxLength);
+    }
+
+    // Calculate window around match
+    var contextBefore = 40;
+    var start = Math.max(0, matchIndex - contextBefore);
+    var end = Math.min(text.length, start + maxLength);
+
+    // Adjust start to not cut in the middle of a word
+    if (start > 0) {
+      var firstSpaceAfterStart = text.indexOf(' ', start);
+      if (firstSpaceAfterStart > start && firstSpaceAfterStart < start + 15) {
+        start = firstSpaceAfterStart + 1;
+      }
+    }
+
+    var snippet = text.substring(start, end);
+
+    // Clean up boundaries
+    if (start > 0) {
+      snippet = '...' + snippet.trimStart();
+    }
+
+    if (end < text.length) {
+      // Try to cut at word boundary
+      var lastSpace = snippet.lastIndexOf(' ');
+      if (lastSpace > snippet.length - 20 && lastSpace > 0) {
+        snippet = snippet.substring(0, lastSpace) + '...';
+      } else {
+        snippet = snippet + '...';
+      }
+    }
+
+    return snippet;
+  }
+
+  /**
+   * Enhanced highlight with multi-word support
+   */
+  function highlightTextEnhanced(text, query) {
+    if (!text || !query) return escapeHtml(text);
+
+    var escaped = escapeHtml(text);
+    var queryLower = query.toLowerCase().trim();
+
+    // First highlight full query match (if present)
+    var fullRegex = new RegExp('(' + escapeRegex(queryLower) + ')', 'gi');
+    escaped = escaped.replace(fullRegex, '<mark>$1</mark>');
+
+    // Then highlight individual words (skip very short words)
+    var words = queryLower.split(/\s+/).filter(function(w) { return w.length > 2; });
+    words.forEach(function(word) {
+      // Don't highlight if already inside a mark tag
+      var wordRegex = new RegExp('(?![^<]*>)(' + escapeRegex(word) + ')(?![^<]*</mark>)', 'gi');
+      escaped = escaped.replace(wordRegex, '<mark class="partial">$1</mark>');
+    });
+
+    return escaped;
   }
 
   // ============================================

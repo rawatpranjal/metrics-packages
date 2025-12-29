@@ -56,6 +56,9 @@ self.onmessage = function(event) {
     case 'SEARCH':
       handleSearch(message.payload, message.id);
       break;
+    case 'SEARCH_PROGRESSIVE':
+      handleProgressiveSearch(message.payload, message.id);
+      break;
     case 'KEYWORD_SEARCH':
       handleKeywordSearch(message.payload, message.id);
       break;
@@ -124,18 +127,51 @@ function handleLoadIndex(payload) {
 }
 
 /**
- * Load embeddings (binary format)
+ * Load embeddings (binary format - Float32 or quantized Int8)
  */
 function handleLoadEmbeddings(payload) {
   try {
     embeddingsMetadata = payload.metadata;
-    embeddings = new Float32Array(payload.embeddingsBuffer);
+
+    if (payload.quantized) {
+      // Dequantize Int8 to Float32
+      var view = new DataView(payload.embeddingsBuffer);
+      var count = view.getUint32(0, true);  // Little-endian
+      var dim = view.getUint32(4, true);
+
+      var headerSize = 8;
+      var scaleSize = count * 4;  // Float32 min/max per vector
+
+      // Read scale factors
+      var mins = new Float32Array(payload.embeddingsBuffer, headerSize, count);
+      var maxs = new Float32Array(payload.embeddingsBuffer, headerSize + scaleSize, count);
+
+      // Read quantized values
+      var quantized = new Uint8Array(payload.embeddingsBuffer, headerSize + scaleSize * 2, count * dim);
+
+      // Dequantize to Float32
+      embeddings = new Float32Array(count * dim);
+      for (var i = 0; i < count; i++) {
+        var min = mins[i];
+        var range = maxs[i] - min;
+        var offset = i * dim;
+        for (var j = 0; j < dim; j++) {
+          embeddings[offset + j] = (quantized[offset + j] / 255) * range + min;
+        }
+      }
+
+      console.log('[SearchWorker] Dequantized', count, 'embeddings from Int8');
+    } else {
+      // Standard Float32 format
+      embeddings = new Float32Array(payload.embeddingsBuffer);
+    }
 
     postMessage({
       type: 'EMBEDDINGS_LOADED',
       payload: {
         success: true,
-        count: embeddingsMetadata.count
+        count: embeddingsMetadata.count,
+        quantized: !!payload.quantized
       }
     });
   } catch (error) {
@@ -304,6 +340,87 @@ function handleSearch(payload, messageId) {
 }
 
 /**
+ * Perform progressive search - send keyword results immediately, then semantic
+ */
+function handleProgressiveSearch(payload, messageId) {
+  var query = payload.query;
+  var topK = payload.topK || 20;
+  var useSemanticSearch = payload.semantic !== false && transformersModel && embeddings;
+
+  // Phase 1: Send keyword results immediately (fast path)
+  var keywordResults = performKeywordSearch(query, 100);
+
+  postMessage({
+    type: 'KEYWORD_RESULTS',
+    id: messageId,
+    payload: {
+      results: keywordResults.slice(0, topK),
+      mode: 'keyword',
+      isPartial: useSemanticSearch  // More results coming if semantic is available
+    }
+  });
+
+  // Phase 2: If semantic available, compute and send hybrid results
+  if (useSemanticSearch) {
+    embedQuery(query).then(function(queryEmbedding) {
+      if (!queryEmbedding) {
+        // No embedding, keyword results are final
+        postMessage({
+          type: 'SEARCH_RESULTS',
+          id: messageId,
+          payload: {
+            results: keywordResults.slice(0, topK),
+            mode: 'keyword-fallback'
+          }
+        });
+        return;
+      }
+
+      var semanticResults = performSemanticSearch(queryEmbedding, 100);
+
+      // Check if semantic scores are too low
+      var topSemanticScore = semanticResults.length > 0 ? semanticResults[0].score : 0;
+      if (topSemanticScore < 0.3) {
+        // Fall back to keyword-only results
+        postMessage({
+          type: 'SEARCH_RESULTS',
+          id: messageId,
+          payload: {
+            results: keywordResults.slice(0, topK),
+            mode: 'keyword-fallback'
+          }
+        });
+        return;
+      }
+
+      // Fuse results using RRF
+      var fusedResults = reciprocalRankFusion(keywordResults, semanticResults, topK);
+
+      postMessage({
+        type: 'SEARCH_RESULTS',
+        id: messageId,
+        payload: {
+          results: fusedResults,
+          mode: 'hybrid'
+        }
+      });
+    }).catch(function(error) {
+      // Error during semantic, keyword results are final
+      postMessage({
+        type: 'SEARCH_RESULTS',
+        id: messageId,
+        payload: {
+          results: keywordResults.slice(0, topK),
+          mode: 'keyword',
+          error: error.message
+        }
+      });
+    });
+  }
+  // If no semantic search, keyword results were already sent as final
+}
+
+/**
  * Perform keyword-only search (fast path)
  */
 function handleKeywordSearch(payload, messageId) {
@@ -399,26 +516,56 @@ function expandQuery(query) {
 }
 
 /**
- * Boost exact matches in results
+ * Boost exact matches in results with enhanced signals
  */
 function boostExactMatches(results, query) {
   var queryLower = query.toLowerCase().trim();
+  var queryWords = queryLower.split(/\s+/).filter(function(w) { return w.length > 2; });
 
   return results.map(function(result) {
     var nameLower = (result.name || '').toLowerCase();
+    var descLower = (result.description || '').toLowerCase();
+    var tagsLower = (result.tags || '').toLowerCase();
     var boost = 1.0;
 
     // Exact name match - strongest boost
     if (nameLower === queryLower) {
-      boost = 2.0;
+      boost = 3.0;
     }
     // Name starts with query
     else if (nameLower.startsWith(queryLower)) {
-      boost = 1.5;
+      boost = 2.0;
     }
     // Name contains query as whole word
     else if (new RegExp('\\b' + escapeRegex(queryLower) + '\\b', 'i').test(nameLower)) {
-      boost = 1.3;
+      boost = 1.5;
+    }
+
+    // Tag match boost
+    if (tagsLower.indexOf(queryLower) !== -1) {
+      boost *= 1.2;
+    }
+
+    // Multi-word query: boost if all words found
+    if (queryWords.length > 1) {
+      var allWordsFound = queryWords.every(function(word) {
+        return nameLower.indexOf(word) !== -1 ||
+               descLower.indexOf(word) !== -1 ||
+               tagsLower.indexOf(word) !== -1;
+      });
+      if (allWordsFound) {
+        boost *= 1.3;
+      }
+    }
+
+    // Quality signals: longer descriptions tend to be more informative
+    if (result.description && result.description.length > 100) {
+      boost *= 1.05;
+    }
+
+    // Type-based boost (papers and packages are primary content)
+    if (result.type === 'paper' || result.type === 'package') {
+      boost *= 1.1;
     }
 
     return Object.assign({}, result, {
@@ -497,23 +644,42 @@ function performSemanticSearch(queryEmbedding, limit) {
 
 /**
  * Reciprocal Rank Fusion (RRF) to combine keyword and semantic results
- * RRF score = sum(1 / (k + rank_in_list))
+ * RRF score = sum(weight / (k + rank_in_list))
+ *
+ * Uses adaptive weighting based on result quality:
+ * - If keyword results have high scores, trust them more
+ * - If semantic results are highly confident, trust them more
  */
 function reciprocalRankFusion(keywordResults, semanticResults, topK) {
   var k = CONFIG.RRF_K;
   var scores = {};
   var items = {};
 
+  // Adaptive weighting based on result quality
+  var keywordWeight = CONFIG.KEYWORD_WEIGHT;
+  var semanticWeight = CONFIG.SEMANTIC_WEIGHT;
+
+  // If top keyword result has very high score, trust keyword more
+  if (keywordResults.length > 0 && keywordResults[0].score > 15) {
+    keywordWeight = 1.5;
+    semanticWeight = 0.7;
+  }
+
+  // If semantic results are very confident (high similarity), trust semantic more
+  if (semanticResults.length > 0 && semanticResults[0].score > 0.7) {
+    semanticWeight = 1.3;
+  }
+
   // Score keyword results
   keywordResults.forEach(function(item, rank) {
-    var rrfScore = CONFIG.KEYWORD_WEIGHT / (k + rank + 1);
+    var rrfScore = keywordWeight / (k + rank + 1);
     scores[item.id] = (scores[item.id] || 0) + rrfScore;
     items[item.id] = item;
   });
 
   // Score semantic results
   semanticResults.forEach(function(item, rank) {
-    var rrfScore = CONFIG.SEMANTIC_WEIGHT / (k + rank + 1);
+    var rrfScore = semanticWeight / (k + rank + 1);
     scores[item.id] = (scores[item.id] || 0) + rrfScore;
     if (!items[item.id]) {
       items[item.id] = item;

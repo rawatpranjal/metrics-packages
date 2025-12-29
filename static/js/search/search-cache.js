@@ -10,13 +10,50 @@
   'use strict';
 
   var DB_NAME = 'tech-econ-search';
-  var DB_VERSION = 1;
+  var DB_VERSION = 2;  // Increment for cache schema changes
   var STORE_NAME = 'cache';
+
+  // Cache configuration
+  var CACHE_VERSION = 3;  // Increment when cache format changes
+  var CACHE_TTL = 7 * 24 * 60 * 60 * 1000;  // 7 days in milliseconds
 
   var SearchCache = {
     db: null,
     isReady: false,
     _initPromise: null
+  };
+
+  /**
+   * Check if a cached item is expired
+   * @param {Object} cachedItem - Cached item with timestamp
+   * @returns {boolean}
+   */
+  SearchCache.isExpired = function(cachedItem) {
+    if (!cachedItem || !cachedItem.timestamp) return true;
+    return Date.now() - cachedItem.timestamp > CACHE_TTL;
+  };
+
+  /**
+   * Check if cache version matches
+   * @param {Object} cachedItem - Cached item with version
+   * @returns {boolean}
+   */
+  SearchCache.isValidVersion = function(cachedItem) {
+    if (!cachedItem || typeof cachedItem.version !== 'number') return false;
+    return cachedItem.version === CACHE_VERSION;
+  };
+
+  /**
+   * Wrap value with metadata (version, timestamp)
+   * @param {any} value - Value to wrap
+   * @returns {Object}
+   */
+  SearchCache.wrapWithMeta = function(value) {
+    return {
+      value: value,
+      version: CACHE_VERSION,
+      timestamp: Date.now()
+    };
   };
 
   /**
@@ -193,7 +230,7 @@
   /**
    * Get cached embeddings
    * @param {string} contentHash - Expected content hash for validation
-   * @returns {Promise<{metadata: Object, embeddings: Float32Array}|null>}
+   * @returns {Promise<{metadata: Object, embeddings: ArrayBuffer, quantized: boolean}|null>}
    */
   SearchCache.getEmbeddings = function(contentHash) {
     var self = this;
@@ -201,12 +238,22 @@
       this.get(this.KEYS.EMBEDDINGS_METADATA),
       this.get(this.KEYS.EMBEDDINGS)
     ]).then(function(results) {
-      var metadata = results[0];
-      var embeddings = results[1];
+      var metadataWrapper = results[0];
+      var embeddingsWrapper = results[1];
 
-      if (!metadata || !embeddings) {
+      if (!metadataWrapper || !embeddingsWrapper) {
         return null;
       }
+
+      // Check version and expiry
+      if (!self.isValidVersion(metadataWrapper) || self.isExpired(metadataWrapper)) {
+        console.log('[SearchCache] Embeddings cache expired or version mismatch');
+        self.delete(self.KEYS.EMBEDDINGS_METADATA);
+        self.delete(self.KEYS.EMBEDDINGS);
+        return null;
+      }
+
+      var metadata = metadataWrapper.value;
 
       // Validate content hash if provided
       if (contentHash && metadata.contentHash !== contentHash) {
@@ -216,7 +263,8 @@
 
       return {
         metadata: metadata,
-        embeddings: new Float32Array(embeddings)
+        embeddings: embeddingsWrapper.value.buffer,
+        quantized: embeddingsWrapper.value.quantized || false
       };
     });
   };
@@ -225,14 +273,22 @@
    * Cache embeddings
    * @param {Object} metadata - Metadata object
    * @param {ArrayBuffer} embeddingsBuffer - Binary embeddings
+   * @param {boolean} quantized - Whether embeddings are quantized Int8
    * @returns {Promise<boolean>}
    */
-  SearchCache.setEmbeddings = function(metadata, embeddingsBuffer) {
+  SearchCache.setEmbeddings = function(metadata, embeddingsBuffer, quantized) {
     return Promise.all([
-      this.set(this.KEYS.EMBEDDINGS_METADATA, metadata),
-      this.set(this.KEYS.EMBEDDINGS, embeddingsBuffer)
+      this.set(this.KEYS.EMBEDDINGS_METADATA, this.wrapWithMeta(metadata)),
+      this.set(this.KEYS.EMBEDDINGS, this.wrapWithMeta({
+        buffer: embeddingsBuffer,
+        quantized: !!quantized
+      }))
     ]).then(function(results) {
-      return results[0] && results[1];
+      var success = results[0] && results[1];
+      if (success) {
+        console.log('[SearchCache] Embeddings cached successfully (quantized:', !!quantized, ')');
+      }
+      return success;
     });
   };
 

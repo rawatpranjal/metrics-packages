@@ -292,6 +292,47 @@ def write_binary_embeddings(embeddings, output_file: Path):
         f.write(flat.tobytes())
 
 
+def write_quantized_embeddings(embeddings, output_file: Path):
+    """
+    Write quantized embeddings (Int8 with per-vector scale factors).
+
+    Format:
+    - 4 bytes: count (uint32)
+    - 4 bytes: dimensions (uint32)
+    - count * 4 bytes: min values per vector (float32)
+    - count * 4 bytes: max values per vector (float32)
+    - count * dim bytes: quantized values (uint8)
+
+    This reduces size by ~75% (4 bytes -> 1 byte per value).
+    """
+    import numpy as np
+
+    count, dim = embeddings.shape
+
+    # Compute per-vector min/max for better precision
+    mins = embeddings.min(axis=1).astype('float32')
+    maxs = embeddings.max(axis=1).astype('float32')
+
+    # Avoid division by zero
+    ranges = maxs - mins
+    ranges[ranges == 0] = 1
+
+    # Quantize to 0-255 range
+    normalized = (embeddings - mins[:, np.newaxis]) / ranges[:, np.newaxis]
+    quantized = (normalized * 255).astype('uint8')
+
+    with open(output_file, 'wb') as f:
+        # Header: count, dimensions
+        f.write(struct.pack('<II', count, dim))
+        # Scale factors: min and max for each vector
+        f.write(mins.tobytes())
+        f.write(maxs.tobytes())
+        # Quantized embeddings
+        f.write(quantized.tobytes())
+
+    return count * dim  # Return original float count for size comparison
+
+
 def generate_all_outputs(items: List[Dict[str, Any]], model, output_dir: Path, content_hash: str):
     """Generate all output files: metadata, binary embeddings, MiniSearch index, and legacy JSON."""
     texts = [item["text_for_embedding"] for item in items]
@@ -331,10 +372,15 @@ def generate_all_outputs(items: List[Dict[str, Any]], model, output_dir: Path, c
         json.dump(metadata, f, separators=(',', ':'))
     print(f"  Metadata: {metadata_file.stat().st_size / 1024:.1f} KB")
 
-    # 3. Write binary embeddings
+    # 3. Write binary embeddings (Float32)
     binary_file = output_dir / "search-embeddings.bin"
     write_binary_embeddings(embeddings, binary_file)
     print(f"  Binary embeddings: {binary_file.stat().st_size / 1024:.1f} KB")
+
+    # 4. Write quantized embeddings (Int8 with scale factors)
+    quantized_file = output_dir / "search-embeddings-q8.bin"
+    write_quantized_embeddings(embeddings, quantized_file)
+    print(f"  Quantized embeddings: {quantized_file.stat().st_size / 1024:.1f} KB")
 
     # 4. Legacy JSON format (for backwards compatibility during migration)
     legacy_output = {
