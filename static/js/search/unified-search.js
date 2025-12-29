@@ -740,9 +740,19 @@
         html += 'target="_blank" rel="noopener">';
         html += '<div class="result-content">';
         html += '<span class="result-name">' + highlightText(result.name, query) + '</span>';
-        html += '<span class="result-description">' + highlightText(truncate(result.description, 150), query) + '</span>';
+        html += '<span class="result-description">' + highlightText(smartTruncate(result.description, 200), query) + '</span>';
+        // Show tags if available
+        if (result.tags) {
+          var tagsArr = typeof result.tags === 'string' ? result.tags.split(',').map(function(t) { return t.trim(); }) : result.tags;
+          if (tagsArr.length > 0) {
+            html += '<span class="result-tags">' + escapeHtml(tagsArr.slice(0, 3).join(' · ')) + '</span>';
+          }
+        }
         html += '</div>';
+        html += '<div class="result-meta">';
+        html += '<span class="result-type-badge" style="background-color:' + typeConfig.color + '">' + typeConfig.label + '</span>';
         html += '<span class="result-category">' + escapeHtml(result.category) + '</span>';
+        html += '</div>';
         html += '</a>';
 
         globalIndex++;
@@ -1437,6 +1447,30 @@
   function truncate(str, len) {
     if (!str) return '';
     return str.length > len ? str.substring(0, len) + '...' : str;
+  }
+
+  function smartTruncate(str, len) {
+    if (!str) return '';
+    if (str.length <= len) return str;
+
+    // Try to cut at sentence boundary (. ! ?)
+    var truncated = str.substring(0, len);
+    var sentenceEnd = Math.max(
+      truncated.lastIndexOf('. '),
+      truncated.lastIndexOf('! '),
+      truncated.lastIndexOf('? ')
+    );
+    if (sentenceEnd > len * 0.5) {
+      return str.substring(0, sentenceEnd + 1);
+    }
+
+    // Fall back to word boundary
+    var lastSpace = truncated.lastIndexOf(' ');
+    if (lastSpace > len * 0.7) {
+      return str.substring(0, lastSpace) + '...';
+    }
+
+    return truncated + '...';
   }
 
   function highlightText(text, query) {
