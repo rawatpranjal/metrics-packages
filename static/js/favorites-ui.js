@@ -425,7 +425,6 @@
             }
 
             const contentClass = viewMode === 'table' ? 'table-view' : 'favorites-grid';
-            const isUncategorized = collection.id === '__uncategorized__';
 
             return `
                 <div class="collection-section ${isExpanded ? 'expanded' : ''}" data-collection-id="${collection.id}">
@@ -437,7 +436,7 @@
                             <span class="collection-section-name">${escapeHtml(collection.name)}</span>
                             <span class="collection-section-count">${itemCount} item${itemCount !== 1 ? 's' : ''}</span>
                         </div>
-                        ${isUncategorized ? '' : `<div class="collection-section-actions">
+                        <div class="collection-section-actions">
                             <button class="btn-icon" onclick="event.stopPropagation(); renameCollection('${escapedId}')" title="Rename">
                                 <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
                                     <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
@@ -450,7 +449,7 @@
                                     <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>
                                 </svg>
                             </button>
-                        </div>`}
+                        </div>
                     </div>
                     <div class="collection-section-content">
                         <div class="${contentClass}">
