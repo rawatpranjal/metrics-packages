@@ -10188,6 +10188,77 @@
                 "Routing & Dispatch"
               ],
               "citations": 57
+            },
+            {
+              "title": "OR-Tools' Vehicle Routing Solver: A Generic Constraint-Programming Solver with Heuristic Search",
+              "authors": "Laurent Perron, Vincent Furnon",
+              "year": 2023,
+              "description": "Google's open-source production solver powering Cloud optimization APIs; handles complex industrial constraints at scale.",
+              "url": "https://developers.google.com/optimization/routing",
+              "tags": [
+                "Logistics & Operations",
+                "Routing & Dispatch"
+              ]
+            },
+            {
+              "title": "An Effective Implementation of the Lin-Kernighan Traveling Salesman Heuristic",
+              "authors": "Keld Helsgaun",
+              "year": 2000,
+              "description": "Industry-standard LKH heuristic holding records on all large benchmark instances; extended as LKH-3 for CVRP variants.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0377221799002842",
+              "tags": [
+                "Logistics & Operations",
+                "Routing & Dispatch"
+              ],
+              "citations": 2847
+            },
+            {
+              "title": "Ride-Hailing Order Dispatching at DiDi via Reinforcement Learning",
+              "authors": "Zhe Qin, Xiaocheng Tang, Yan Jiao, Fan Zhang, Zhiwei Xu, Hongtu Zhu, Jieping Ye",
+              "year": 2020,
+              "description": "Production RL system matching tens of millions of daily rides; won NeurIPS 2018 Best Demo Award.",
+              "url": "https://arxiv.org/abs/2006.00543",
+              "tags": [
+                "Logistics & Operations",
+                "Routing & Dispatch"
+              ],
+              "citations": 156
+            },
+            {
+              "title": "A Tutorial on Column Generation and Branch-and-Price for Vehicle Routing",
+              "authors": "Dominique Feillet",
+              "year": 2010,
+              "description": "Foundational exact method tutorial underpinning state-of-the-art solvers for fleet planning.",
+              "url": "https://link.springer.com/article/10.1007/s10288-010-0130-z",
+              "tags": [
+                "Logistics & Operations",
+                "Routing & Dispatch"
+              ],
+              "citations": 312
+            },
+            {
+              "title": "Alibaba Vehicle Routing Algorithms Enable Rapid Pick and Delivery",
+              "authors": "Jingwen Hu, Yifan Zhang, Yuxiang Wei, Yi Zhan, Fei Zhang, Shenghua Huang, Weiwei Ma, Zhun Deng, Zheren Jiang",
+              "year": 2022,
+              "description": "Production algorithms enabling 30-minute grocery delivery across Alibaba subsidiaries in China. Franz Edelman Award finalist.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/inte.2022.1130",
+              "tags": [
+                "Logistics & Operations",
+                "Routing & Dispatch"
+              ],
+              "citations": 28
+            },
+            {
+              "title": "2021 Amazon Last Mile Routing Research Challenge: Data Set",
+              "authors": "Luis E. Merchán, Jorge Pachón, Anand Arora, Arindam Konduri, Matthias Winkenbach, Steven C. Parks, Joseph Noszek",
+              "year": 2022,
+              "description": "First large-scale public real-world routing dataset (9,184 routes); catalyzed ML + TSP research combining driver tacit knowledge.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/trsc.2022.1173",
+              "tags": [
+                "Logistics & Operations",
+                "Routing & Dispatch"
+              ],
+              "citations": 87
             }
           ]
         },
@@ -10242,6 +10313,107 @@
                 "Logistics & Operations",
                 "Inventory & Fulfillment"
               ]
+            },
+            {
+              "title": "Alibaba Realizes Millions in Cost Savings Through Integrated Demand Forecasting and Inventory Management",
+              "authors": "Xiaoyuan Deng, Yifan Zhang, Shengyuan Wang et al.",
+              "year": 2023,
+              "description": "Deep learning + simulation-optimization generating $42M+ annual savings in inventory and shrinkage costs. Franz Edelman Award finalist.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/inte.2023.1165",
+              "tags": [
+                "Logistics & Operations",
+                "Inventory & Fulfillment"
+              ],
+              "citations": 15
+            },
+            {
+              "title": "JD.com Improves Fulfillment Efficiency with Integrated Assortment Planning and Inventory Allocation",
+              "authors": "Zhenyang Shen, Yang Zhang, Haomin Wang et al.",
+              "year": 2025,
+              "description": "End-to-end algorithm improving local fulfillment rates by 0.54% across millions of weekly orders in two-echelon distribution. Franz Edelman Award finalist.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/inte.2024.1301",
+              "tags": [
+                "Logistics & Operations",
+                "Inventory & Fulfillment"
+              ]
+            },
+            {
+              "title": "Optimal Picking Policies in E-Commerce Warehouses",
+              "authors": "Maximilian Schiffer, Nils Boysen, Felix Klein, Gilbert Laporte, Marco Pavone",
+              "year": 2022,
+              "description": "State-of-the-art picker routing for mixed-shelves warehouses; exact real-time algorithms for high-SKU e-commerce facilities.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2022.4448",
+              "tags": [
+                "Logistics & Operations",
+                "Inventory & Fulfillment"
+              ],
+              "citations": 42
+            }
+          ]
+        },
+        {
+          "id": "supply-chain-forecasting",
+          "name": "Supply Chain Demand Forecasting",
+          "application": "Predict future demand to optimize inventory and operations",
+          "papers": [
+            {
+              "title": "DeepAR: Probabilistic Forecasting with Autoregressive Recurrent Networks",
+              "authors": "David Salinas, Valentin Flunkert, Jan Gasthaus, Tim Januschowski",
+              "year": 2020,
+              "description": "Foundational Amazon paper powering SageMaker and Amazon Forecast; ~15% accuracy improvement over classical methods via global RNN.",
+              "url": "https://arxiv.org/abs/1704.04110",
+              "tags": [
+                "Logistics & Operations",
+                "Supply Chain Demand Forecasting"
+              ],
+              "citations": 1847
+            },
+            {
+              "title": "M5 Accuracy Competition: Results, Findings, and Conclusions",
+              "authors": "Spyros Makridakis, Evangelos Spiliotis, Vassilios Assimakopoulos",
+              "year": 2022,
+              "description": "Landmark Walmart competition (42,840 time series) proving LightGBM ensembles outperform traditional statistical methods at retail scale.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0169207021001874",
+              "tags": [
+                "Logistics & Operations",
+                "Supply Chain Demand Forecasting"
+              ],
+              "citations": 524
+            },
+            {
+              "title": "M5 Uncertainty Competition: Results, Findings and Conclusions",
+              "authors": "Spyros Makridakis, Evangelos Spiliotis, Vassilios Assimakopoulos et al.",
+              "year": 2022,
+              "description": "Companion competition on probabilistic forecasting; winning methods combined LightGBM + DeepAR for intermittent demand quantiles.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0169207021001886",
+              "tags": [
+                "Logistics & Operations",
+                "Supply Chain Demand Forecasting"
+              ],
+              "citations": 187
+            },
+            {
+              "title": "Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting",
+              "authors": "Bryan Lim, Sercan Ö. Arık, Nicolas Loeff, Tomas Pfister",
+              "year": 2021,
+              "description": "Attention-based architecture achieving 7% lower P50, 9% lower P90 losses; combines performance with interpretable variable importance.",
+              "url": "https://arxiv.org/abs/1912.09363",
+              "tags": [
+                "Logistics & Operations",
+                "Supply Chain Demand Forecasting"
+              ],
+              "citations": 2156
+            },
+            {
+              "title": "Probabilistic Demand Forecasting with Graph Neural Networks",
+              "authors": "Nikita Kozodoi et al. (Amazon)",
+              "year": 2024,
+              "description": "GraphDeepAR integrating GNN encoder with probabilistic decoder; captures inter-article relationships for improved retail forecasting.",
+              "url": "https://www.amazon.science/publications/probabilistic-demand-forecasting-with-graph-neural-networks",
+              "tags": [
+                "Logistics & Operations",
+                "Supply Chain Demand Forecasting"
+              ]
             }
           ]
         },
@@ -10284,6 +10456,65 @@
                 "ETA & Delivery Prediction"
               ],
               "citations": 503
+            },
+            {
+              "title": "DeepETA: A Spatial-Temporal Sequential Neural Network Model for Package Delivery",
+              "authors": "Fan Wu, Lixia Wu (Alibaba Cainiao)",
+              "year": 2019,
+              "description": "Deployed serving 100+ million packages/day; achieved 13.8% RMSE improvement using spatial-temporal LSTM with attention.",
+              "url": "https://ojs.aaai.org/index.php/AAAI/article/view/3856",
+              "tags": [
+                "Logistics & Operations",
+                "ETA & Delivery Prediction"
+              ],
+              "citations": 147
+            },
+            {
+              "title": "A Deep Learning Method for Route and Time Prediction in Food Delivery",
+              "authors": "Guangyin Gao, Yue Zhang, Jian Wu, Jun Hu, Kun Ru, Chuan Hao, Kaigui He, Lingyu Sun (Meituan)",
+              "year": 2021,
+              "description": "First joint route-and-time prediction for food delivery; transformer architecture handling 34.9 million orders/day on Meituan.",
+              "url": "https://dl.acm.org/doi/10.1145/3447548.3467068",
+              "tags": [
+                "Logistics & Operations",
+                "ETA & Delivery Prediction"
+              ],
+              "citations": 89
+            },
+            {
+              "title": "HetETA: Heterogeneous Information Network Embedding for ETA",
+              "authors": "Huimin Hong, Yifan Lin, Xin Yang, Zhiwei Li, Kang Fu, Ziming Wang, Xing Qie, Jieping Ye (DiDi)",
+              "year": 2020,
+              "description": "Heterogeneous graph neural networks modeling road networks as multi-relational graphs; establishes importance of graph representations.",
+              "url": "https://dl.acm.org/doi/10.1145/3394486.3403294",
+              "tags": [
+                "Logistics & Operations",
+                "ETA & Delivery Prediction"
+              ],
+              "citations": 126
+            },
+            {
+              "title": "Real-Time Delivery Time Forecasting and Promising in Online Retailing",
+              "authors": "Mehran Salari, Xiaoyun Liu, Zhixi Shen",
+              "year": 2022,
+              "description": "First data-driven framework predicting delivery time distributions (not point estimates); tested on JD.com showing 6.1% sales improvement.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/msom.2022.1081",
+              "tags": [
+                "Logistics & Operations",
+                "ETA & Delivery Prediction"
+              ],
+              "citations": 54
+            },
+            {
+              "title": "A Survey on Service Route and Time Prediction in Instant Delivery",
+              "authors": "Jianxun Wen et al.",
+              "year": 2024,
+              "description": "Comprehensive survey covering Cainiao, JD, Meituan, GrabFood systems; taxonomizes by task type, architecture, and learning paradigm.",
+              "url": "https://ieeexplore.ieee.org/document/10323156",
+              "tags": [
+                "Logistics & Operations",
+                "ETA & Delivery Prediction"
+              ]
             }
           ]
         },
@@ -10337,6 +10568,78 @@
                 "Logistics & Operations",
                 "Capacity Planning"
               ]
+            },
+            {
+              "title": "The Role of Surge Pricing on a Service Platform with Self-Scheduling Capacity",
+              "authors": "Gerard Cachon, Kaitlin Daniels, Ruben Lobel",
+              "year": 2017,
+              "description": "Foundational theory showing surge pricing achieves near-optimal profits with self-scheduling workers; directly informs Uber/Lyft design.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/msom.2017.0618",
+              "tags": [
+                "Logistics & Operations",
+                "Capacity Planning"
+              ],
+              "citations": 412
+            },
+            {
+              "title": "The Impact of Behavioral and Economic Drivers on Gig Economy Workers",
+              "authors": "Gad Allon, Maxime Cohen, Wichinpong Park Sinchaisri",
+              "year": 2023,
+              "description": "Rigorous econometric study showing incentive reallocation can increase capacity by 22% without additional cost.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/msom.2023.1193",
+              "tags": [
+                "Logistics & Operations",
+                "Capacity Planning"
+              ],
+              "citations": 28
+            },
+            {
+              "title": "Spatial Pricing in Ride-Sharing Networks",
+              "authors": "Kostas Bimpikis, Ozan Candogan, Daniela Saban",
+              "year": 2019,
+              "description": "Characterizes optimal spatial pricing; introduces 'balancedness' concept for demand patterns and driver positioning incentives.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/opre.2018.1800",
+              "tags": [
+                "Logistics & Operations",
+                "Capacity Planning"
+              ],
+              "citations": 298
+            },
+            {
+              "title": "Matching and Pricing in Ride Hailing: Wild Goose Chases and How to Solve Them",
+              "authors": "Juan Camilo Castillo, Dan Knoepfle, E. Glen Weyl",
+              "year": 2024,
+              "description": "Developed at Uber showing surge pricing solves 'wild goose chase' matching failures better than matching adjustments alone.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2023.4843",
+              "tags": [
+                "Logistics & Operations",
+                "Capacity Planning"
+              ],
+              "citations": 87
+            },
+            {
+              "title": "Driver Surge Pricing",
+              "authors": "Nikhil Garg, Hamid Nazerzadeh",
+              "year": 2022,
+              "description": "Proves multiplicative surge is not incentive-compatible; proposes additive surge mechanism deployed by Uber.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2021.4241",
+              "tags": [
+                "Logistics & Operations",
+                "Capacity Planning"
+              ],
+              "citations": 64
+            },
+            {
+              "title": "Dynamic Pricing and Matching for Two-Sided Queues",
+              "authors": "Sushil Mahavir Varma, Pornpawee Bumpensanti, Siva Theja Maguluri, He Wang",
+              "year": 2022,
+              "description": "Rigorous queueing-theoretic model; develops fluid-based max-weight matching achieving √η optimality rate.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/opre.2022.2266",
+              "tags": [
+                "Logistics & Operations",
+                "Capacity Planning"
+              ],
+              "citations": 42
             }
           ]
         },
@@ -10380,6 +10683,212 @@
                 "Last-Mile Optimization"
               ],
               "citations": 22
+            },
+            {
+              "title": "The Flying Sidekick Traveling Salesman Problem: Optimization of Drone-Assisted Parcel Delivery",
+              "authors": "Chase Murray, Amanda Chu",
+              "year": 2015,
+              "description": "Foundational FSTSP model for truck-drone tandem delivery; inspired by Amazon Prime Air, Google Wing, and DHL drone programs.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0968090X15000297",
+              "tags": [
+                "Logistics & Operations",
+                "Last-Mile Optimization"
+              ],
+              "citations": 1247
+            },
+            {
+              "title": "The Multiple Flying Sidekicks Traveling Salesman Problem: Parcel Delivery with Multiple Drones",
+              "authors": "Chase Murray, Ritwik Raj",
+              "year": 2020,
+              "description": "Extends to multiple heterogeneous drones; MILP and heuristics for 100+ customers with 4+ drones.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0968090X19301251",
+              "tags": [
+                "Logistics & Operations",
+                "Last-Mile Optimization"
+              ],
+              "citations": 324
+            },
+            {
+              "title": "Crowdsourced Delivery—A Dynamic Pickup and Delivery Problem with Ad Hoc Drivers",
+              "authors": "Ahmet Arslan, Niels Agatz, Leo Kroon, Rob Zuidwijk",
+              "year": 2019,
+              "description": "Rolling horizon optimization for Amazon Flex-style platforms; shows 37% vehicle-mile savings vs. dedicated fleets.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/trsc.2018.0855",
+              "tags": [
+                "Logistics & Operations",
+                "Last-Mile Optimization"
+              ],
+              "citations": 287
+            },
+            {
+              "title": "Time Slot Management in Attended Home Delivery",
+              "authors": "Niels Agatz, Ann Campbell, Moritz Fleischmann, Martin Savelsbergh",
+              "year": 2011,
+              "description": "Seminal paper on tactical time-slot design for e-grocers; developed with Albert.nl; 237+ citations in last-mile literature.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/trsc.1100.0346",
+              "tags": [
+                "Logistics & Operations",
+                "Last-Mile Optimization"
+              ],
+              "citations": 487
+            },
+            {
+              "title": "Crowdsourcing Last-Mile Deliveries",
+              "authors": "Sina Fatehi, Michael Wagner",
+              "year": 2022,
+              "description": "First analytical study of crowdsourcing with guaranteed time windows; robust queueing for Amazon Flex-style operations.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/msom.2021.1040",
+              "tags": [
+                "Logistics & Operations",
+                "Last-Mile Optimization"
+              ],
+              "citations": 68
+            },
+            {
+              "title": "Flexible Time Window Management for Attended Home Deliveries",
+              "authors": "Christian Köhler, Jan Fabian Ehmke, Ann Campbell",
+              "year": 2020,
+              "description": "Mixed long/short delivery windows; tested with German e-grocer AllyouneedFresh data.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0305048319304712",
+              "tags": [
+                "Logistics & Operations",
+                "Last-Mile Optimization"
+              ],
+              "citations": 74
+            }
+          ]
+        },
+        {
+          "id": "warehouse-robotics",
+          "name": "Warehouse Robotics & Automation",
+          "application": "Automate warehouse operations with robots and intelligent systems",
+          "papers": [
+            {
+              "title": "Coordinating Hundreds of Cooperative, Autonomous Vehicles in Warehouses",
+              "authors": "Peter Wurman, Raffaello D'Andrea, Mick Mountz",
+              "year": 2008,
+              "description": "THE Kiva paper by its three co-inventors; describes multi-robot coordination that Amazon acquired for $775M and scaled to 500,000+ robots.",
+              "url": "https://ojs.aaai.org/index.php/aimagazine/article/view/2082",
+              "tags": [
+                "Logistics & Operations",
+                "Warehouse Robotics & Automation"
+              ],
+              "citations": 892
+            },
+            {
+              "title": "Estimating Performance in a Robotic Mobile Fulfillment System",
+              "authors": "Thibaud Lamballais, Debjit Roy, René de Koster",
+              "year": 2017,
+              "description": "Highly-cited queueing network model for Amazon-style RMFS; foundational for warehouse layout optimization and throughput analysis.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0377221717303144",
+              "tags": [
+                "Logistics & Operations",
+                "Warehouse Robotics & Automation"
+              ],
+              "citations": 347
+            },
+            {
+              "title": "Design and Control of Warehouse Order Picking: A Literature Review",
+              "authors": "René de Koster, Tho Le-Duc, Kees Jan Roodbergen",
+              "year": 2007,
+              "description": "THE canonical survey (3,000+ citations) covering layout, storage assignment, routing, batching, and zoning.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0377221706006175",
+              "tags": [
+                "Logistics & Operations",
+                "Warehouse Robotics & Automation"
+              ],
+              "citations": 3156
+            },
+            {
+              "title": "Decision Rules for Robotic Mobile Fulfillment Systems",
+              "authors": "Marius Merschformann, Thibaud Lamballais, René de Koster, Leena Suhl",
+              "year": 2019,
+              "description": "Simulation-based evaluation of practical decision rules for order assignment and pod selection in Kiva-style warehouses.",
+              "url": "https://link.springer.com/article/10.1007/s12063-018-0132-6",
+              "tags": [
+                "Logistics & Operations",
+                "Warehouse Robotics & Automation"
+              ],
+              "citations": 124
+            },
+            {
+              "title": "Analysis and Observations from the First Amazon Picking Challenge",
+              "authors": "Nico Correll et al. (including Peter Wurman)",
+              "year": 2016,
+              "description": "Survey of 26 teams in Amazon's manipulation challenge; synthesizes perception, motion planning, and grasp planning lessons.",
+              "url": "https://ieeexplore.ieee.org/document/7759115",
+              "tags": [
+                "Logistics & Operations",
+                "Warehouse Robotics & Automation"
+              ],
+              "citations": 246
+            },
+            {
+              "title": "Warehousing in the E-Commerce Era: A Survey",
+              "authors": "Nils Boysen, René de Koster, Felix Weidinger",
+              "year": 2019,
+              "description": "Modern survey covering order batching, wave planning, RMFS, scattered storage, and returns processing for e-commerce.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0377221718308476",
+              "tags": [
+                "Logistics & Operations",
+                "Warehouse Robotics & Automation"
+              ],
+              "citations": 524
+            }
+          ]
+        },
+        {
+          "id": "fleet-electrification",
+          "name": "Fleet Electrification & Green Logistics",
+          "application": "Optimize electric vehicle fleets and reduce environmental impact",
+          "papers": [
+            {
+              "title": "The Electric Vehicle-Routing Problem with Time Windows and Recharging Stations",
+              "authors": "Michael Schneider, Andreas Stenger, Dominik Goeke",
+              "year": 2014,
+              "description": "THE foundational EVRP paper (1,000+ citations) introducing charging constraints into last-mile routing; established benchmark instances.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/trsc.2013.0490",
+              "tags": [
+                "Logistics & Operations",
+                "Fleet Electrification & Green Logistics"
+              ],
+              "citations": 1342
+            },
+            {
+              "title": "The Pollution-Routing Problem",
+              "authors": "Tolga Bektaş, Gilbert Laporte",
+              "year": 2011,
+              "description": "Foundation for green vehicle routing (1,500+ citations); models CO2 as function of speed, load, distance for cost-environment tradeoffs.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S019126151100024X",
+              "tags": [
+                "Logistics & Operations",
+                "Fleet Electrification & Green Logistics"
+              ],
+              "citations": 1687
+            },
+            {
+              "title": "Routing a Mixed Fleet of Electric and Conventional Vehicles",
+              "authors": "Dominik Goeke, Michael Schneider",
+              "year": 2015,
+              "description": "Addresses practical fleet electrification decisions; optimizes routing for mixed fleets with realistic energy consumption models.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0377221715000563",
+              "tags": [
+                "Logistics & Operations",
+                "Fleet Electrification & Green Logistics"
+              ],
+              "citations": 478
+            },
+            {
+              "title": "UPS ORION: On-Road Integrated Optimization and Navigation",
+              "authors": "Jack Levis, Bill Davenport, UPS OR Team",
+              "year": 2016,
+              "description": "Franz Edelman Award winner; industry-deployed system saving $300-400M annually, reducing 100M miles, 10M gallons fuel, 100,000 metric tons CO2.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/inte.2016.0853",
+              "tags": [
+                "Logistics & Operations",
+                "Fleet Electrification & Green Logistics"
+              ],
+              "citations": 156
             }
           ]
         }
