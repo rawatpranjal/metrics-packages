@@ -5,7 +5,11 @@
     "category": "Causal Inference",
     "url": "https://matheusfacure.github.io/python-causality-handbook/",
     "type": "Online Book",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Causal Inference",
+      "Online Book"
+    ]
   },
   {
     "name": "The Effect",
@@ -13,7 +17,11 @@
     "category": "Causal Inference",
     "url": "https://theeffectbook.net/",
     "type": "Online Book",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "Online Book"
+    ]
   },
   {
     "name": "Causal Inference: The Mixtape",
@@ -21,7 +29,11 @@
     "category": "Causal Inference",
     "url": "https://mixtape.scunning.com/",
     "type": "Online Book",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "Online Book"
+    ]
   },
   {
     "name": "CausalML (Uber) Documentation",
@@ -29,7 +41,11 @@
     "category": "Causal Inference",
     "url": "https://causalml.readthedocs.io/en/latest/examples/causal_trees_with_synthetic_data.html",
     "type": "Tutorial",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "Tutorial"
+    ]
   },
   {
     "name": "EconML Documentation",
@@ -37,7 +53,11 @@
     "category": "Causal Inference",
     "url": "https://econml.azurewebsites.net/",
     "type": "Docs + Tutorials",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Causal Inference",
+      "Docs + Tutorials"
+    ]
   },
   {
     "name": "DoWhy Library",
@@ -45,7 +65,11 @@
     "category": "Causal Inference",
     "url": "https://www.pywhy.org/dowhy/",
     "type": "Docs + Tutorials",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "Docs + Tutorials"
+    ]
   },
   {
     "name": "Causal ML Book (Chernozhukov et al.)",
@@ -53,7 +77,11 @@
     "category": "Causal Inference",
     "url": "https://causalml-book.org/",
     "type": "Online Book",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "Online Book"
+    ]
   },
   {
     "name": "DoWhy User Guide",
@@ -61,7 +89,11 @@
     "category": "Causal Inference",
     "url": "https://www.pywhy.org/dowhy/main/user_guide/index.html",
     "type": "Docs + Tutorials",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "Docs + Tutorials"
+    ]
   },
   {
     "name": "PyMC Labs Blog",
@@ -69,7 +101,11 @@
     "category": "Causal Inference",
     "url": "https://www.pymc-labs.com/blog-posts/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "Blog"
+    ]
   },
   {
     "name": "CausalPy",
@@ -77,7 +113,11 @@
     "category": "Causal Inference",
     "url": "https://causalpy.readthedocs.io/",
     "type": "Docs + Tutorials",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "Docs + Tutorials"
+    ]
   },
   {
     "name": "Andrew Gelman's Blog",
@@ -85,7 +125,11 @@
     "category": "Causal Inference",
     "url": "https://andrewgelman.com/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "Blog"
+    ]
   },
   {
     "name": "Applied Econometrics Notes (Lal)",
@@ -93,7 +137,11 @@
     "category": "Causal Inference",
     "url": "https://apoorvalal.github.io/notebook/",
     "type": "Course Notes",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "Course Notes"
+    ]
   },
   {
     "name": "A Practitioner's Guide to DiD",
@@ -101,7 +149,11 @@
     "category": "Causal Inference",
     "url": "https://arxiv.org/abs/2201.01194",
     "type": "Paper",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Causal Inference",
+      "Paper"
+    ]
   },
   {
     "name": "Causal RL Bridges",
@@ -109,7 +161,11 @@
     "category": "Causal Inference",
     "url": "https://www.causal-rl-bridges.com/",
     "type": "Tutorial",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "Tutorial"
+    ]
   },
   {
     "name": "Eppo's Experimentation Guides",
@@ -117,7 +173,11 @@
     "category": "Experimentation",
     "url": "https://www.geteppo.com/blog",
     "type": "Guides",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Experimentation",
+      "Guides"
+    ]
   },
   {
     "name": "A/B Testing on Social Networks",
@@ -125,7 +185,11 @@
     "category": "Experimentation",
     "url": "https://bytepawn.com/ab-testing-on-social-networks.html",
     "type": "Tutorial",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Experimentation",
+      "Tutorial"
+    ]
   },
   {
     "name": "DoorDash: Switchback Tests",
@@ -133,7 +197,11 @@
     "category": "Experimentation",
     "url": "https://careersatdoordash.com/blog/switchback-tests-and-randomized-experimentation-under-network-effects-at-doordash/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Experimentation",
+      "Blog"
+    ]
   },
   {
     "name": "Understanding Switchback Experiments (2024)",
@@ -141,7 +209,11 @@
     "category": "Experimentation",
     "url": "https://towardsdatascience.com/what-is-switchback-testing-for-decision-models-e26d2007325a/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Experimentation",
+      "Blog"
+    ]
   },
   {
     "name": "Uber: Making Experiment Evaluation 100x Faster",
@@ -149,7 +221,11 @@
     "category": "Experimentation",
     "url": "https://www.uber.com/blog/making-ubers-experiment-evaluation-engine-100x-faster/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Experimentation",
+      "Blog"
+    ]
   },
   {
     "name": "Nextmv: Switchback Testing",
@@ -157,7 +233,11 @@
     "category": "Experimentation",
     "url": "https://www.nextmv.io/docs/using-nextmv/experiments/switchback",
     "type": "Guide",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Experimentation",
+      "Guide"
+    ]
   },
   {
     "name": "Matteo Courthoud: Understanding CUPED",
@@ -165,7 +245,11 @@
     "category": "Experimentation",
     "url": "https://matteocourthoud.github.io/post/cuped/",
     "type": "Tutorial",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Experimentation",
+      "Tutorial"
+    ]
   },
   {
     "name": "Bytepawn: CUPED in Python",
@@ -173,7 +257,11 @@
     "category": "Experimentation",
     "url": "https://bytepawn.com/reducing-variance-in-ab-testing-with-cuped.html",
     "type": "Tutorial",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Experimentation",
+      "Tutorial"
+    ]
   },
   {
     "name": "Statsig Resources",
@@ -181,7 +269,11 @@
     "category": "Experimentation",
     "url": "https://docs.statsig.com/",
     "type": "Docs + Guides",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Experimentation",
+      "Docs + Guides"
+    ]
   },
   {
     "name": "Evan Miller's A/B Testing Tools",
@@ -189,7 +281,11 @@
     "category": "Experimentation",
     "url": "https://www.evanmiller.org/ab-testing/",
     "type": "Tools + Guides",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Experimentation",
+      "Tools + Guides"
+    ]
   },
   {
     "name": "Evan Miller: How Not To Run an A/B Test",
@@ -197,7 +293,11 @@
     "category": "Experimentation",
     "url": "https://www.evanmiller.org/how-not-to-run-an-ab-test.html",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Experimentation",
+      "Blog"
+    ]
   },
   {
     "name": "QuantEcon Lectures",
@@ -205,7 +305,11 @@
     "category": "Coding",
     "url": "https://quantecon.org/lectures/",
     "type": "Lectures",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Coding",
+      "Lectures"
+    ]
   },
   {
     "name": "Coding for Economists",
@@ -213,7 +317,11 @@
     "category": "Coding",
     "url": "https://aeturrell.github.io/coding-for-economists/",
     "type": "Online Book",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Coding",
+      "Online Book"
+    ]
   },
   {
     "name": "The Missing Semester (MIT)",
@@ -221,7 +329,11 @@
     "category": "Coding",
     "url": "https://missing.csail.mit.edu/",
     "type": "Course",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Coding",
+      "Course"
+    ]
   },
   {
     "name": "Beyond Jupyter",
@@ -229,7 +341,11 @@
     "category": "Coding",
     "url": "https://github.com/aai-institute/beyond-jupyter",
     "type": "Tutorial",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Coding",
+      "Tutorial"
+    ]
   },
   {
     "name": "fast.ai Practical Deep Learning",
@@ -237,7 +353,11 @@
     "category": "ML & Data Science",
     "url": "https://course.fast.ai/",
     "type": "Course",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "ML & Data Science",
+      "Course"
+    ]
   },
   {
     "name": "Introduction to Statistical Learning",
@@ -245,7 +365,11 @@
     "category": "ML & Data Science",
     "url": "https://www.statlearning.com/",
     "type": "Online Book",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "ML & Data Science",
+      "Online Book"
+    ]
   },
   {
     "name": "The Elements of Statistical Learning",
@@ -253,7 +377,11 @@
     "category": "ML & Data Science",
     "url": "https://hastie.su.domains/ElemStatLearn/",
     "type": "Online Book",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "ML & Data Science",
+      "Online Book"
+    ]
   },
   {
     "name": "Forecasting: Principles and Practice",
@@ -261,7 +389,11 @@
     "category": "ML & Data Science",
     "url": "https://otexts.com/fpp3/",
     "type": "Online Book",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Online Book"
+    ]
   },
   {
     "name": "Reinforcement Learning: An Introduction",
@@ -269,7 +401,11 @@
     "category": "ML & Data Science",
     "url": "http://incompleteideas.net/book/the-book-2nd.html",
     "type": "Online Book",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "ML & Data Science",
+      "Online Book"
+    ]
   },
   {
     "name": "OpenAI Spinning Up",
@@ -277,7 +413,11 @@
     "category": "ML & Data Science",
     "url": "https://spinningup.openai.com/",
     "type": "Tutorial",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "ML & Data Science",
+      "Tutorial"
+    ]
   },
   {
     "name": "David Silver RL Course",
@@ -285,7 +425,11 @@
     "category": "ML & Data Science",
     "url": "https://www.davidsilver.uk/teaching/",
     "type": "Lectures",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "ML & Data Science",
+      "Lectures"
+    ]
   },
   {
     "name": "Machine Learning Specialization",
@@ -293,7 +437,11 @@
     "category": "ML & Data Science",
     "url": "https://www.coursera.org/specializations/machine-learning-introduction",
     "type": "Course",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "ML & Data Science",
+      "Course"
+    ]
   },
   {
     "name": "Deep Learning Specialization",
@@ -301,7 +449,11 @@
     "category": "ML & Data Science",
     "url": "https://www.coursera.org/specializations/deep-learning",
     "type": "Course",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Course"
+    ]
   },
   {
     "name": "The Theory and Practice of Revenue Management",
@@ -309,7 +461,11 @@
     "category": "Pricing & Demand",
     "url": "http://ndl.ethernet.edu.et/bitstream/123456789/21707/1/306.pdf",
     "type": "Online Book",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Pricing & Demand",
+      "Online Book"
+    ]
   },
   {
     "name": "Dynamic Pricing with Contextual Bandits",
@@ -317,7 +473,11 @@
     "category": "Pricing & Demand",
     "url": "https://towardsdatascience.com/dynamic-pricing-with-contextual-bandits-learning-by-doing-b88e49f55894/",
     "type": "Tutorial",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Pricing & Demand",
+      "Tutorial"
+    ]
   },
   {
     "name": "Stanford: Thompson Sampling Tutorial",
@@ -325,7 +485,11 @@
     "category": "Pricing & Demand",
     "url": "https://web.stanford.edu/~bvr/pubs/TS_Tutorial.pdf",
     "type": "Paper + Code",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Pricing & Demand",
+      "Paper + Code"
+    ]
   },
   {
     "name": "Stitch Fix: Algorithms Tour",
@@ -333,7 +497,11 @@
     "category": "Pricing & Demand",
     "url": "https://algorithms-tour.stitchfix.com/",
     "type": "Interactive",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Pricing & Demand",
+      "Interactive"
+    ]
   },
   {
     "name": "Empirical IO: Coding BLP",
@@ -341,7 +509,11 @@
     "category": "Pricing & Demand",
     "url": "https://matteocourthoud.github.io/course/empirical-io/12_blp_1995/",
     "type": "Tutorial",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Pricing & Demand",
+      "Tutorial"
+    ]
   },
   {
     "name": "PyBLP: Demand Estimation",
@@ -349,7 +521,11 @@
     "category": "Pricing & Demand",
     "url": "https://quantecon.org/2019/06/17/demand-curve-estimation.html",
     "type": "Tutorial",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Pricing & Demand",
+      "Tutorial"
+    ]
   },
   {
     "name": "QuantEcon: First-Price & Second-Price Auctions",
@@ -357,7 +533,11 @@
     "category": "Auctions & Market Design",
     "url": "https://python.quantecon.org/two_auctions.html",
     "type": "Tutorial",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Auctions & Market Design",
+      "Tutorial"
+    ]
   },
   {
     "name": "MatchingMarkets.py",
@@ -365,7 +545,11 @@
     "category": "Auctions & Market Design",
     "url": "https://github.com/QuantEcon/MatchingMarkets.py",
     "type": "Code",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Auctions & Market Design",
+      "Code"
+    ]
   },
   {
     "name": "Auctions in Ad Tech (Sanjiv Das)",
@@ -373,7 +557,11 @@
     "category": "Auctions & Market Design",
     "url": "https://srdas.github.io/MLBook/Auctions.html",
     "type": "Online Book",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Auctions & Market Design",
+      "Online Book"
+    ]
   },
   {
     "name": "CS269I: Incentives in Computer Science",
@@ -381,7 +569,11 @@
     "category": "Auctions & Market Design",
     "url": "https://timroughgarden.org/f16/f16.html",
     "type": "Course Notes",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Auctions & Market Design",
+      "Course Notes"
+    ]
   },
   {
     "name": "Susan Athey: ML & Causal Inference Course",
@@ -389,7 +581,11 @@
     "category": "Causal Inference",
     "url": "https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil/research/methods/ai-machine-learning/short-course",
     "type": "Course",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "Course"
+    ]
   },
   {
     "name": "Michael Ostrovsky: Market Design Course",
@@ -397,7 +593,11 @@
     "category": "Auctions & Market Design",
     "url": "https://web.stanford.edu/~ost/",
     "type": "Course Notes",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Auctions & Market Design",
+      "Course Notes"
+    ]
   },
   {
     "name": "Netflix Tech Blog - Experimentation",
@@ -405,7 +605,11 @@
     "category": "Industry Blogs",
     "url": "https://netflixtechblog.com/tagged/experimentation",
     "type": "Blog",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Industry Blogs",
+      "Blog"
+    ]
   },
   {
     "name": "Uber Engineering",
@@ -413,7 +617,11 @@
     "category": "Industry Blogs",
     "url": "https://www.uber.com/blog/engineering/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Industry Blogs",
+      "Blog"
+    ]
   },
   {
     "name": "Airbnb Engineering - Data Science",
@@ -421,7 +629,11 @@
     "category": "Industry Blogs",
     "url": "https://medium.com/airbnb-engineering/tagged/data-science",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Industry Blogs",
+      "Blog"
+    ]
   },
   {
     "name": "Spotify R&D",
@@ -429,7 +641,11 @@
     "category": "Industry Blogs",
     "url": "https://research.atspotify.com/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Industry Blogs",
+      "Blog"
+    ]
   },
   {
     "name": "DoorDash Engineering",
@@ -437,7 +653,11 @@
     "category": "Industry Blogs",
     "url": "https://doordash.engineering/category/data-science-and-machine-learning/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Industry Blogs",
+      "Blog"
+    ]
   },
   {
     "name": "Lyft Engineering",
@@ -445,7 +665,11 @@
     "category": "Industry Blogs",
     "url": "https://eng.lyft.com/tagged/data-science",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Industry Blogs",
+      "Blog"
+    ]
   },
   {
     "name": "Lyft: Causal Forecasting at Scale",
@@ -453,7 +677,11 @@
     "category": "Industry Blogs",
     "url": "https://eng.lyft.com/causal-forecasting-at-lyft-part-1-14cca6ff3d6d",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Industry Blogs",
+      "Blog"
+    ]
   },
   {
     "name": "Digitopoly (Joshua Gans)",
@@ -461,7 +689,11 @@
     "category": "Strategy & Analytics",
     "url": "https://digitopoly.org/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Strategy & Analytics",
+      "Blog"
+    ]
   },
   {
     "name": "Stratechery (Ben Thompson)",
@@ -469,7 +701,11 @@
     "category": "Strategy & Analytics",
     "url": "https://stratechery.com/",
     "type": "Blog",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Strategy & Analytics",
+      "Blog"
+    ]
   },
   {
     "name": "The Operating System (John Brewton)",
@@ -477,7 +713,11 @@
     "category": "Strategy & Analytics",
     "url": "https://www.operatingbyjohnbrewton.com/",
     "type": "Substack",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Strategy & Analytics",
+      "Substack"
+    ]
   },
   {
     "name": "Lyft: Quantifying Efficiency in Ridesharing",
@@ -485,7 +725,11 @@
     "category": "Industry Blogs",
     "url": "https://eng.lyft.com/quantifying-efficiency-in-ridesharing-marketplaces-affd53043db2",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Industry Blogs",
+      "Blog"
+    ]
   },
   {
     "name": "Noahpinion (Noah Smith)",
@@ -493,7 +737,11 @@
     "category": "Strategy & Analytics",
     "url": "https://noahpinion.substack.com/",
     "type": "Substack",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Strategy & Analytics",
+      "Substack"
+    ]
   },
   {
     "name": "New Things Under the Sun (Matt Clancy)",
@@ -501,7 +749,11 @@
     "category": "Strategy & Analytics",
     "url": "https://www.newthingsunderthesun.com/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Strategy & Analytics",
+      "Blog"
+    ]
   },
   {
     "name": "Platform Papers",
@@ -509,7 +761,11 @@
     "category": "Strategy & Analytics",
     "url": "https://platformpapers.substack.com/",
     "type": "Substack",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Strategy & Analytics",
+      "Substack"
+    ]
   },
   {
     "name": "Marginal Revolution (Tyler Cowen)",
@@ -517,7 +773,11 @@
     "category": "Strategy & Analytics",
     "url": "https://marginalrevolution.com/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Strategy & Analytics",
+      "Blog"
+    ]
   },
   {
     "name": "Ben Evans Newsletter",
@@ -525,7 +785,11 @@
     "category": "Strategy & Analytics",
     "url": "https://www.ben-evans.com/newsletter",
     "type": "Newsletter",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Strategy & Analytics",
+      "Newsletter"
+    ]
   },
   {
     "name": "Stitch Fix Algorithms Blog",
@@ -533,7 +797,11 @@
     "category": "Industry Blogs",
     "url": "https://multithreaded.stitchfix.com/algorithms/blog/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Industry Blogs",
+      "Blog"
+    ]
   },
   {
     "name": "Meta Engineering - Data Science",
@@ -541,7 +809,11 @@
     "category": "Industry Blogs",
     "url": "https://engineering.fb.com/category/data-infrastructure/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Industry Blogs",
+      "Blog"
+    ]
   },
   {
     "name": "LinkedIn Engineering - Experimentation",
@@ -549,7 +821,11 @@
     "category": "Industry Blogs",
     "url": "https://www.linkedin.com/blog/engineering/ab-testing-experimentation",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Industry Blogs",
+      "Blog"
+    ]
   },
   {
     "name": "Pinterest Engineering - Data Science",
@@ -557,7 +833,11 @@
     "category": "Industry Blogs",
     "url": "https://medium.com/pinterest-engineering/tagged/data-science",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Industry Blogs",
+      "Blog"
+    ]
   },
   {
     "name": "Instacart Tech Blog",
@@ -565,7 +845,11 @@
     "category": "Industry Blogs",
     "url": "https://tech.instacart.com/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Industry Blogs",
+      "Blog"
+    ]
   },
   {
     "name": "Stripe Engineering",
@@ -573,7 +857,11 @@
     "category": "Industry Blogs",
     "url": "https://stripe.com/blog/engineering",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Industry Blogs",
+      "Blog"
+    ]
   },
   {
     "name": "Booking.com Tech Blog",
@@ -581,7 +869,11 @@
     "category": "Industry Blogs",
     "url": "https://blog.booking.com/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Industry Blogs",
+      "Blog"
+    ]
   },
   {
     "name": "Amazon Science",
@@ -589,7 +881,11 @@
     "category": "Industry Blogs",
     "url": "https://www.amazon.science/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Industry Blogs",
+      "Blog"
+    ]
   },
   {
     "name": "Mode SQL Tutorial",
@@ -597,7 +893,11 @@
     "category": "SQL",
     "url": "https://mode.com/sql-tutorial/",
     "type": "Tutorial",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "SQL",
+      "Tutorial"
+    ]
   },
   {
     "name": "SQLBolt",
@@ -605,7 +905,11 @@
     "category": "SQL",
     "url": "https://sqlbolt.com/",
     "type": "Interactive Course",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "SQL",
+      "Interactive Course"
+    ]
   },
   {
     "name": "LeetCode SQL 50",
@@ -613,7 +917,11 @@
     "category": "SQL",
     "url": "https://leetcode.com/studyplan/top-sql-50/",
     "type": "Practice Problems",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "SQL",
+      "Practice Problems"
+    ]
   },
   {
     "name": "DuckDB Documentation",
@@ -621,7 +929,11 @@
     "category": "SQL",
     "url": "https://duckdb.org/docs/",
     "type": "Docs",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "SQL",
+      "Docs"
+    ]
   },
   {
     "name": "NeetCode",
@@ -629,7 +941,11 @@
     "category": "LeetCode",
     "url": "https://neetcode.io/",
     "type": "Course + Practice",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "LeetCode",
+      "Course + Practice"
+    ]
   },
   {
     "name": "Blind 75",
@@ -637,7 +953,11 @@
     "category": "LeetCode",
     "url": "https://www.techinterviewhandbook.org/grind75",
     "type": "Problem Set",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "LeetCode",
+      "Problem Set"
+    ]
   },
   {
     "name": "LeetCode Patterns",
@@ -645,7 +965,11 @@
     "category": "LeetCode",
     "url": "https://seanprashad.com/leetcode-patterns/",
     "type": "Study Guide",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "LeetCode",
+      "Study Guide"
+    ]
   },
   {
     "name": "Automate the Boring Stuff with Python",
@@ -653,7 +977,11 @@
     "category": "Automation",
     "url": "https://automatetheboringstuff.com/",
     "type": "Online Book",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Automation",
+      "Online Book"
+    ]
   },
   {
     "name": "Scrapy Documentation",
@@ -661,7 +989,11 @@
     "category": "Automation",
     "url": "https://docs.scrapy.org/",
     "type": "Docs",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Automation",
+      "Docs"
+    ]
   },
   {
     "name": "Real Python: Web Scraping",
@@ -669,7 +1001,11 @@
     "category": "Automation",
     "url": "https://realpython.com/beautiful-soup-web-scraper-python/",
     "type": "Tutorial",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Automation",
+      "Tutorial"
+    ]
   },
   {
     "name": "Python for Econometrics",
@@ -677,7 +1013,11 @@
     "category": "Coding",
     "url": "https://bashtage.github.io/kevinsheppard.com/teaching/python/notes/",
     "type": "Online Book",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Coding",
+      "Online Book"
+    ]
   },
   {
     "name": "Think Stats",
@@ -685,7 +1025,11 @@
     "category": "Statistics",
     "url": "https://greenteapress.com/thinkstats2/",
     "type": "Online Book",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Statistics",
+      "Online Book"
+    ]
   },
   {
     "name": "Statistical Rethinking",
@@ -693,7 +1037,11 @@
     "category": "Statistics",
     "url": "https://xcelab.net/rm/statistical-rethinking/",
     "type": "Book + Lectures",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Statistics",
+      "Book + Lectures"
+    ]
   },
   {
     "name": "Adam Fishman Newsletter",
@@ -701,7 +1049,11 @@
     "category": "Strategy & Analytics",
     "url": "https://www.fishmanafnewsletter.com/",
     "type": "Newsletter",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Strategy & Analytics",
+      "Newsletter"
+    ]
   },
   {
     "name": "Sequoia: Data-Informed Product Building",
@@ -709,7 +1061,11 @@
     "category": "Experimentation",
     "url": "https://medium.com/sequoia-capital/data-informed-product-building-1e509a5c4112",
     "type": "Guide",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Experimentation",
+      "Guide"
+    ]
   },
   {
     "name": "MeasuringU",
@@ -717,7 +1073,11 @@
     "category": "Statistics",
     "url": "https://measuringu.com/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Statistics",
+      "Blog"
+    ]
   },
   {
     "name": "Convex Optimization (Boyd & Vandenberghe)",
@@ -725,7 +1085,11 @@
     "category": "Optimization",
     "url": "https://web.stanford.edu/~boyd/cvxbook/",
     "type": "Online Book",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Optimization",
+      "Online Book"
+    ]
   },
   {
     "name": "Stanford EE364A (YouTube)",
@@ -733,7 +1097,11 @@
     "category": "Optimization",
     "url": "https://www.youtube.com/playlist?list=PL3940DD956CDF0622",
     "type": "Lectures",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Optimization",
+      "Lectures"
+    ]
   },
   {
     "name": "Modeling Discrete Optimization (Coursera)",
@@ -741,7 +1109,11 @@
     "category": "Optimization",
     "url": "https://www.coursera.org/learn/basic-modeling",
     "type": "Course",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Optimization",
+      "Course"
+    ]
   },
   {
     "name": "CVXPY Short Course",
@@ -749,7 +1121,11 @@
     "category": "Optimization",
     "url": "https://www.cvxgrp.org/cvx_short_course/docs/index.html",
     "type": "Tutorial",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Optimization",
+      "Tutorial"
+    ]
   },
   {
     "name": "Agentic AI (DeepLearning.AI)",
@@ -757,7 +1133,11 @@
     "category": "Agentic AI",
     "url": "https://www.deeplearning.ai/short-courses/ai-agentic-design-patterns-with-autogen/",
     "type": "Course",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Agentic AI",
+      "Course"
+    ]
   },
   {
     "name": "AI Agents in LangGraph (DeepLearning.AI)",
@@ -765,7 +1145,11 @@
     "category": "Agentic AI",
     "url": "https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/",
     "type": "Course",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Agentic AI",
+      "Course"
+    ]
   },
   {
     "name": "Building Effective Agents (Anthropic)",
@@ -773,7 +1157,11 @@
     "category": "Agentic AI",
     "url": "https://www.anthropic.com/research/building-effective-agents",
     "type": "Guide",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Agentic AI",
+      "Guide"
+    ]
   },
   {
     "name": "Walmart Global Tech",
@@ -781,7 +1169,11 @@
     "category": "Industry Blogs",
     "url": "https://tech.walmart.com/",
     "type": "Blog",
-    "level": "Intermediate"
+    "level": "Intermediate",
+    "tags": [
+      "Industry Blogs",
+      "Blog"
+    ]
   },
   {
     "name": "Coursera Pricing Strategy Optimization (UVA/BCG)",
@@ -789,7 +1181,11 @@
     "category": "Pricing & Demand",
     "url": "https://www.coursera.org/specializations/uva-darden-bcg-pricing-strategy",
     "type": "Course",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Pricing & Demand",
+      "Course"
+    ]
   },
   {
     "name": "Chargebee: SaaS Pricing Models Guide",
@@ -797,7 +1193,11 @@
     "category": "Pricing & Demand",
     "url": "https://www.chargebee.com/resources/guides/saas-pricing-models-guide/",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Pricing & Demand",
+      "Article"
+    ]
   },
   {
     "name": "Monetizing Innovation (Ramanujam)",
@@ -805,7 +1205,11 @@
     "category": "Pricing & Demand",
     "url": "https://www.simon-kucher.com/en/insights/monetizing-innovation",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Pricing & Demand",
+      "Article"
+    ]
   },
   {
     "name": "OpenView SaaS Pricing Guide",
@@ -813,7 +1217,11 @@
     "category": "Pricing & Demand",
     "url": "https://openviewpartners.com/blog/saas-pricing-resource-guide/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Pricing & Demand",
+      "Blog"
+    ]
   },
   {
     "name": "Lenny's Podcast: Madhavan Ramanujam",
@@ -821,7 +1229,11 @@
     "category": "Pricing & Demand",
     "url": "https://www.lennyspodcast.com/the-art-and-science-of-pricing-madhavan-ramanujam-simon-kucher/",
     "type": "Podcast",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Pricing & Demand",
+      "Podcast"
+    ]
   },
   {
     "name": "Roughgarden: Algorithmic Game Theory (40 lectures)",
@@ -829,7 +1241,11 @@
     "category": "Auctions & Market Design",
     "url": "https://timroughgarden.org/videos.html",
     "type": "Video",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Auctions & Market Design",
+      "Video"
+    ]
   },
   {
     "name": "Twenty Lectures on Algorithmic Game Theory",
@@ -837,7 +1253,11 @@
     "category": "Auctions & Market Design",
     "url": "https://timroughgarden.org/f13/f13.pdf",
     "type": "Video",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Auctions & Market Design",
+      "Video"
+    ]
   },
   {
     "name": "Display Advertising with Real-Time Bidding",
@@ -845,7 +1265,11 @@
     "category": "Auctions & Market Design",
     "url": "https://arxiv.org/abs/1610.03013",
     "type": "Paper",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Auctions & Market Design",
+      "Paper"
+    ]
   },
   {
     "name": "GSP Auction Paper (Edelman et al., AER 2007)",
@@ -853,7 +1277,11 @@
     "category": "Auctions & Market Design",
     "url": "https://www.benedelman.org/publications/gsp-060801.pdf",
     "type": "Paper",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Auctions & Market Design",
+      "Paper"
+    ]
   },
   {
     "name": "AdKDD Workshop Papers",
@@ -861,7 +1289,11 @@
     "category": "Auctions & Market Design",
     "url": "https://www.adkdd.org/",
     "type": "Paper",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Auctions & Market Design",
+      "Paper"
+    ]
   },
   {
     "name": "PyMC-Marketing CLV Quickstart",
@@ -869,7 +1301,11 @@
     "category": "Strategy & Analytics",
     "url": "https://www.pymc-marketing.io/en/latest/notebooks/clv/clv_quickstart.html",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Strategy & Analytics",
+      "Article"
+    ]
   },
   {
     "name": "PyMC-Marketing Documentation",
@@ -877,7 +1313,11 @@
     "category": "Strategy & Analytics",
     "url": "https://www.pymc-marketing.io/en/stable/",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Strategy & Analytics",
+      "Article"
+    ]
   },
   {
     "name": "Google Analytics for Marketing",
@@ -885,7 +1325,11 @@
     "category": "Strategy & Analytics",
     "url": "https://skillshop.exceedlms.com/student/path/508845-google-analytics-certification",
     "type": "Course",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Strategy & Analytics",
+      "Course"
+    ]
   },
   {
     "name": "Bruce Hardie's CLV Papers",
@@ -893,7 +1337,11 @@
     "category": "Strategy & Analytics",
     "url": "https://www.brucehardie.com/",
     "type": "Paper",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Strategy & Analytics",
+      "Paper"
+    ]
   },
   {
     "name": "Lyft Engineering: LTV Curves",
@@ -901,7 +1349,11 @@
     "category": "Strategy & Analytics",
     "url": "https://eng.lyft.com/lyft-marketing-automation-b43b7b7537cc",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Strategy & Analytics",
+      "Article"
+    ]
   },
   {
     "name": "MIT 15.S08 FinTech (Gary Gensler)",
@@ -909,7 +1361,11 @@
     "category": "ML & Data Science",
     "url": "https://ocw.mit.edu/courses/15-s08-fintech-shaping-the-financial-world-spring-2020/",
     "type": "Course",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Course"
+    ]
   },
   {
     "name": "Stanford CS224W: GNN for Fraud",
@@ -917,7 +1373,11 @@
     "category": "ML & Data Science",
     "url": "https://medium.com/stanford-cs224w/from-one-line-to-fully-customized-a-three-level-introduction-to-graph-ml-fraud-detection-with-89badd2cd2a3",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Blog"
+    ]
   },
   {
     "name": "Stripe: ML for Fraud Protection",
@@ -925,7 +1385,11 @@
     "category": "ML & Data Science",
     "url": "https://stripe.com/guides/primer-on-machine-learning-for-fraud-protection",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Article"
+    ]
   },
   {
     "name": "Fraud Detection Handbook (ULB)",
@@ -933,7 +1397,11 @@
     "category": "ML & Data Science",
     "url": "https://fraud-detection-handbook.github.io/fraud-detection-handbook/",
     "type": "Tool",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Tool"
+    ]
   },
   {
     "name": "Stripe: How We Built Radar",
@@ -941,7 +1409,11 @@
     "category": "ML & Data Science",
     "url": "https://stripe.com/blog/how-we-built-it-stripe-radar",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Blog"
+    ]
   },
   {
     "name": "PayPal: Graph Database for Fraud",
@@ -949,7 +1421,11 @@
     "category": "ML & Data Science",
     "url": "https://medium.com/paypal-tech/how-paypal-uses-real-time-graph-database-and-graph-analysis-to-fight-fraud-96a2b918619a",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Blog"
+    ]
   },
   {
     "name": "LinkedIn: Defending Against Abuse at Scale",
@@ -957,7 +1433,11 @@
     "category": "ML & Data Science",
     "url": "https://engineering.linkedin.com/blog/2018/12/defending-against-abuse-at-linkedins-scale",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Blog"
+    ]
   },
   {
     "name": "Meta: Few-Shot Learner for Harmful Content",
@@ -965,7 +1445,11 @@
     "category": "ML & Data Science",
     "url": "https://about.fb.com/news/2021/12/metas-new-ai-system-tackles-harmful-content/",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Article"
+    ]
   },
   {
     "name": "Netflix: RAD Outlier Detection",
@@ -973,7 +1457,11 @@
     "category": "ML & Data Science",
     "url": "https://netflixtechblog.com/rad-outlier-detection-on-big-data-d6b0ff32fb44",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Blog"
+    ]
   },
   {
     "name": "Google Research: Self-Supervised Anomaly Detection",
@@ -981,7 +1469,11 @@
     "category": "ML & Data Science",
     "url": "https://ai.googleblog.com/2021/09/discovering-anomalous-data-with-self.html",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Blog"
+    ]
   },
   {
     "name": "Stanford FinTech Lab: Rob Wang (Block)",
@@ -989,7 +1481,11 @@
     "category": "ML & Data Science",
     "url": "https://fintech.stanford.edu/events/aftlab-seminars/rob-wang-square-machine-learning-financial-fraud-detection",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Article"
+    ]
   },
   {
     "name": "KDD ML in Finance Workshop 2021",
@@ -997,7 +1493,11 @@
     "category": "ML & Data Science",
     "url": "https://sites.google.com/view/kdd-mlf-2021/schedule",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Article"
+    ]
   },
   {
     "name": "IEEE-CIS Fraud: 1st Place Solution (Chris Deotte)",
@@ -1005,7 +1505,11 @@
     "category": "ML & Data Science",
     "url": "https://developer.nvidia.com/blog/leveraging-machine-learning-to-detect-fraud-tips-to-developing-a-winning-kaggle-solution/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Blog"
+    ]
   },
   {
     "name": "scikit-learn: Outlier Detection",
@@ -1013,7 +1517,11 @@
     "category": "ML & Data Science",
     "url": "https://scikit-learn.org/stable/modules/outlier_detection.html",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Article"
+    ]
   },
   {
     "name": "imbalanced-learn: SMOTE",
@@ -1021,7 +1529,11 @@
     "category": "ML & Data Science",
     "url": "https://imbalanced-learn.org/stable/over_sampling.html",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Article"
+    ]
   },
   {
     "name": "Federal Reserve SR 11-7",
@@ -1029,7 +1541,11 @@
     "category": "ML & Data Science",
     "url": "https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Article"
+    ]
   },
   {
     "name": "Google ML Recommendation Course",
@@ -1037,7 +1553,11 @@
     "category": "ML & Data Science",
     "url": "https://developers.google.com/machine-learning/recommendation",
     "type": "Course",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Course"
+    ]
   },
   {
     "name": "HSE RecSys Course (GitHub)",
@@ -1045,7 +1565,11 @@
     "category": "ML & Data Science",
     "url": "https://github.com/hse-econ-data-science/recsys-itmo",
     "type": "Course",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Course"
+    ]
   },
   {
     "name": "Fast.ai Lesson 7: Collaborative Filtering",
@@ -1053,7 +1577,11 @@
     "category": "ML & Data Science",
     "url": "https://course.fast.ai/Lessons/lesson7.html",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Article"
+    ]
   },
   {
     "name": "Microsoft Recommenders Notebooks",
@@ -1061,7 +1589,11 @@
     "category": "ML & Data Science",
     "url": "https://github.com/recommenders-team/recommenders/tree/main/examples",
     "type": "Tool",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Tool"
+    ]
   },
   {
     "name": "StatQuest: Collaborative Filtering",
@@ -1069,7 +1601,11 @@
     "category": "ML & Data Science",
     "url": "https://www.youtube.com/watch?v=Fmtorg_dmM0",
     "type": "Video",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Video"
+    ]
   },
   {
     "name": "Ritvikmath: Recommendation Systems",
@@ -1077,7 +1613,11 @@
     "category": "ML & Data Science",
     "url": "https://www.youtube.com/watch?v=n3RKsY2H-NE",
     "type": "Video",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Video"
+    ]
   },
   {
     "name": "Jeremy Howard's Kaggle Deep Dive",
@@ -1085,7 +1625,11 @@
     "category": "ML & Data Science",
     "url": "https://www.kaggle.com/code/jhoward/collaborative-filtering-deep-dive",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Article"
+    ]
   },
   {
     "name": "TFRS Quickstart Colab",
@@ -1093,7 +1637,11 @@
     "category": "ML & Data Science",
     "url": "https://colab.research.google.com/github/tensorflow/recommenders/blob/main/docs/examples/quickstart.ipynb",
     "type": "Tool",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Tool"
+    ]
   },
   {
     "name": "Spotify Recommendations Explainer",
@@ -1101,7 +1649,11 @@
     "category": "ML & Data Science",
     "url": "https://www.spotify.com/us/safetyandprivacy/understanding-recommendations",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Article"
+    ]
   },
   {
     "name": "Netflix: How Recommendations Work",
@@ -1109,7 +1661,11 @@
     "category": "ML & Data Science",
     "url": "https://help.netflix.com/en/node/100639",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Article"
+    ]
   },
   {
     "name": "IBM Collaborative Filtering",
@@ -1117,7 +1673,11 @@
     "category": "ML & Data Science",
     "url": "https://www.ibm.com/think/topics/collaborative-filtering",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Article"
+    ]
   },
   {
     "name": "Music Tomorrow: Spotify Deep Dive",
@@ -1125,7 +1685,11 @@
     "category": "ML & Data Science",
     "url": "https://www.music-tomorrow.com/blog/how-spotify-recommendation-system-works-complete-guide",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Blog"
+    ]
   },
   {
     "name": "Introduction to Information Retrieval (Manning)",
@@ -1133,7 +1697,11 @@
     "category": "ML & Data Science",
     "url": "https://nlp.stanford.edu/IR-book/information-retrieval-book.html",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Article"
+    ]
   },
   {
     "name": "From RankNet to LambdaMART (Burges)",
@@ -1141,7 +1709,11 @@
     "category": "ML & Data Science",
     "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/MSR-TR-2010-82.pdf",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Article"
+    ]
   },
   {
     "name": "Airbnb: Applying Deep Learning to Search",
@@ -1149,7 +1721,11 @@
     "category": "ML & Data Science",
     "url": "https://arxiv.org/abs/1810.09591",
     "type": "Paper",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Paper"
+    ]
   },
   {
     "name": "Airbnb: Embedding-Based Retrieval",
@@ -1157,7 +1733,11 @@
     "category": "ML & Data Science",
     "url": "https://medium.com/airbnb-engineering/embedding-based-retrieval-for-airbnb-search-aabebfc85839",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Blog"
+    ]
   },
   {
     "name": "Joachims: Unbiased Learning-to-Rank",
@@ -1165,7 +1745,11 @@
     "category": "ML & Data Science",
     "url": "https://arxiv.org/abs/1608.04468",
     "type": "Paper",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Paper"
+    ]
   },
   {
     "name": "Deep Learning at Airbnb Search (QCon)",
@@ -1173,7 +1757,11 @@
     "category": "ML & Data Science",
     "url": "https://www.infoq.com/presentations/dl-airbnb/",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "ML & Data Science",
+      "Article"
+    ]
   },
   {
     "name": "Georgia Tech (Ratliff): 10 Rules for Supply Chain Optimization",
@@ -1181,7 +1769,11 @@
     "category": "Optimization",
     "url": "https://www.scl.gatech.edu/sites/default/files/downloads/gtscl-10_rules_supply_chain_logistics_optimization_2.pdf",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Optimization",
+      "Article"
+    ]
   },
   {
     "name": "Google OR-Tools: VRP + VRPTW Tutorial",
@@ -1189,7 +1781,11 @@
     "category": "Optimization",
     "url": "https://developers.google.com/optimization/routing/vrp",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Optimization",
+      "Article"
+    ]
   },
   {
     "name": "DoorDash: ML + Optimization for Dispatch",
@@ -1197,23 +1793,35 @@
     "category": "Optimization",
     "url": "https://careersatdoordash.com/blog/using-ml-and-optimization-to-solve-doordashs-dispatch-problem/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Optimization",
+      "Blog"
+    ]
   },
   {
     "name": "StatsForecast: Intermittent/Sparse Data Tutorial",
-    "description": "Demand is often intermittent (lots of zeros) — learn baselines built for that",
+    "description": "Demand is often intermittent (lots of zeros) \u2014 learn baselines built for that",
     "category": "Forecasting",
     "url": "https://nixtlaverse.nixtla.io/statsforecast/docs/tutorials/intermittentdata.html",
     "type": "Documentation",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Documentation"
+    ]
   },
   {
     "name": "Forecasting: Principles and Practice, Python Edition",
-    "description": "THE definitive resource — Hyndman's book adapted with Nixtlaverse Python code. Updated December 2025.",
+    "description": "THE definitive resource \u2014 Hyndman's book adapted with Nixtlaverse Python code. Updated December 2025.",
     "category": "Forecasting",
     "url": "https://otexts.com/fpppy/",
     "type": "Online Book",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Online Book"
+    ]
   },
   {
     "name": "MIT OCW 14.384: Time Series Analysis",
@@ -1221,7 +1829,11 @@
     "category": "Forecasting",
     "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/",
     "type": "Course",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Forecasting",
+      "Course"
+    ]
   },
   {
     "name": "Penn State STAT 510: Applied Time Series Analysis",
@@ -1229,7 +1841,11 @@
     "category": "Forecasting",
     "url": "https://online.stat.psu.edu/stat510/",
     "type": "Course",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Forecasting",
+      "Course"
+    ]
   },
   {
     "name": "statsforecast Documentation (Nixtla)",
@@ -1237,7 +1853,11 @@
     "category": "Forecasting",
     "url": "https://nixtlaverse.nixtla.io/statsforecast/index.html",
     "type": "Documentation",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Documentation"
+    ]
   },
   {
     "name": "mlforecast Documentation (Nixtla)",
@@ -1245,7 +1865,11 @@
     "category": "Forecasting",
     "url": "https://nixtlaverse.nixtla.io/mlforecast/index.html",
     "type": "Documentation",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Documentation"
+    ]
   },
   {
     "name": "Prophet Official Documentation",
@@ -1253,7 +1877,11 @@
     "category": "Forecasting",
     "url": "https://facebook.github.io/prophet/docs/quick_start.html",
     "type": "Documentation",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Forecasting",
+      "Documentation"
+    ]
   },
   {
     "name": "Prophet Critique: Sean J. Taylor Retrospective",
@@ -1261,15 +1889,23 @@
     "category": "Forecasting",
     "url": "https://medium.com/@seanjtaylor/a-personal-retrospective-on-prophet-f223c2378985",
     "type": "Blog",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Forecasting",
+      "Blog"
+    ]
   },
   {
-    "name": "Uber: Forecasting at Uber—An Introduction",
+    "name": "Uber: Forecasting at Uber\u2014An Introduction",
     "description": "ARIMA, Holt-Winters, exponential smoothing, Theta (M3 winner). Insights from M4 winner Slawek Smyl.",
     "category": "Forecasting",
     "url": "https://www.uber.com/blog/forecasting-introduction/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Blog"
+    ]
   },
   {
     "name": "DoorDash: ELITE Ensemble Learning for Time Series",
@@ -1277,7 +1913,11 @@
     "category": "Forecasting",
     "url": "https://doordash.engineering/2023/06/20/how-doordash-built-an-ensemble-learning-model-for-time-series-forecasting/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Blog"
+    ]
   },
   {
     "name": "Amazon Science: Chronos Foundation Model",
@@ -1285,7 +1925,11 @@
     "category": "Forecasting",
     "url": "https://www.amazon.science/blog/adapting-language-model-architectures-for-time-series-forecasting",
     "type": "Blog",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Forecasting",
+      "Blog"
+    ]
   },
   {
     "name": "Amazon Science: AutoGluon-TimeSeries",
@@ -1293,7 +1937,11 @@
     "category": "Forecasting",
     "url": "https://www.amazon.science/publications/autogluon-timeseries-automl-for-probabilistic-time-series-forecasting",
     "type": "Paper",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Paper"
+    ]
   },
   {
     "name": "Instacart: Predicting Availability of 200M Grocery Items",
@@ -1301,7 +1949,11 @@
     "category": "Forecasting",
     "url": "https://tech.instacart.com/predicting-real-time-availability-of-200-million-grocery-items-in-us-canada-stores-61f43a16eafe",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Blog"
+    ]
   },
   {
     "name": "sktime: Unified Framework for ML with Time Series",
@@ -1309,7 +1961,11 @@
     "category": "Forecasting",
     "url": "https://www.sktime.net/en/latest/examples/01_forecasting.html",
     "type": "Documentation",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Documentation"
+    ]
   },
   {
     "name": "scikit-learn: Lagged Features for Time Series",
@@ -1317,7 +1973,11 @@
     "category": "Forecasting",
     "url": "https://scikit-learn.org/stable/auto_examples/applications/plot_time_series_lagged_features.html",
     "type": "Tutorial",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Tutorial"
+    ]
   },
   {
     "name": "MIT 15.053: Optimization Methods in Management Science",
@@ -1325,7 +1985,11 @@
     "category": "Optimization",
     "url": "https://ocw.mit.edu/courses/15-053-optimization-methods-in-management-science-spring-2013/",
     "type": "Course",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Optimization",
+      "Course"
+    ]
   },
   {
     "name": "QuantEcon: Linear Programming Introduction",
@@ -1333,15 +1997,23 @@
     "category": "Optimization",
     "url": "https://intro.quantecon.org/lp_intro.html",
     "type": "Tutorial",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Optimization",
+      "Tutorial"
+    ]
   },
   {
     "name": "Stanford CS229 Convex Optimization Overview",
-    "description": "Zico Kolter's ML course supplement. Convex sets and functions with geometric intuition — ideal pre-Boyd prep.",
+    "description": "Zico Kolter's ML course supplement. Convex sets and functions with geometric intuition \u2014 ideal pre-Boyd prep.",
     "category": "Optimization",
     "url": "https://see.stanford.edu/materials/aimlcs229/cs229-cvxopt.pdf",
     "type": "Lecture Notes",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Optimization",
+      "Lecture Notes"
+    ]
   },
   {
     "name": "Real Python: Linear Programming with Python",
@@ -1349,7 +2021,11 @@
     "category": "Optimization",
     "url": "https://realpython.com/linear-programming-python/",
     "type": "Tutorial",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Optimization",
+      "Tutorial"
+    ]
   },
   {
     "name": "SciPy Lecture Notes: Mathematical Optimization",
@@ -1357,7 +2033,11 @@
     "category": "Optimization",
     "url": "https://scipy-lectures.org/advanced/mathematical_optimization/",
     "type": "Tutorial",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Optimization",
+      "Tutorial"
+    ]
   },
   {
     "name": "PuLP Official Documentation",
@@ -1365,7 +2045,11 @@
     "category": "Optimization",
     "url": "https://coin-or.github.io/pulp/",
     "type": "Documentation",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Optimization",
+      "Documentation"
+    ]
   },
   {
     "name": "Google OR-Tools Python Guide",
@@ -1373,15 +2057,23 @@
     "category": "Optimization",
     "url": "https://developers.google.com/optimization/introduction/python",
     "type": "Documentation",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Optimization",
+      "Documentation"
+    ]
   },
   {
     "name": "DoorDash: Next-Generation Dasher Dispatch Optimization",
-    "description": "Rare solver benchmarking transparency — compares CBC, XPress, CPLEX, Gurobi (34x faster than CBC).",
+    "description": "Rare solver benchmarking transparency \u2014 compares CBC, XPress, CPLEX, Gurobi (34x faster than CBC).",
     "category": "Optimization",
     "url": "https://careersatdoordash.com/blog/next-generation-optimization-for-dasher-dispatch-at-doordash/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Optimization",
+      "Blog"
+    ]
   },
   {
     "name": "Uber: Dynamic Pricing and Matching in Ride-Hailing",
@@ -1389,7 +2081,11 @@
     "category": "Optimization",
     "url": "https://www.uber.com/blog/research/dynamic-pricing-and-matching-in-ride-hailing-platforms/",
     "type": "Blog",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Optimization",
+      "Blog"
+    ]
   },
   {
     "name": "MIT 6.046J Lecture 15: Linear Programming",
@@ -1397,7 +2093,11 @@
     "category": "Optimization",
     "url": "https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/resources/lecture-15-linear-programming-lp-reductions-simplex/",
     "type": "Lectures",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Optimization",
+      "Lectures"
+    ]
   },
   {
     "name": "MIT 6.079: Introduction to Convex Optimization",
@@ -1405,7 +2105,11 @@
     "category": "Optimization",
     "url": "https://ocw.mit.edu/courses/6-079-introduction-to-convex-optimization-fall-2009/",
     "type": "Course",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Optimization",
+      "Course"
+    ]
   },
   {
     "name": "GILP: Geometric Interpretation of Linear Programs (Cornell)",
@@ -1413,7 +2117,11 @@
     "category": "Optimization",
     "url": "https://gilp.henryrobbins.com/",
     "type": "Tool",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Optimization",
+      "Tool"
+    ]
   },
   {
     "name": "Amazon Science: Operations Research and Optimization",
@@ -1421,7 +2129,11 @@
     "category": "Optimization",
     "url": "https://www.amazon.science/research-areas/operations-research-and-optimization",
     "type": "Research Portal",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Optimization",
+      "Research Portal"
+    ]
   },
   {
     "name": "Instacart: Delivering Optimal Shopping Experiences (Gurobi)",
@@ -1429,7 +2141,11 @@
     "category": "Optimization",
     "url": "https://www.gurobi.com/case_studies/instacart-delivering-optimal-shopping-experiences/",
     "type": "Case Study",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Optimization",
+      "Case Study"
+    ]
   },
   {
     "name": "The Cold Start Problem (Andrew Chen)",
@@ -1437,7 +2153,11 @@
     "category": "Strategy & Analytics",
     "url": "https://www.coldstart.com/",
     "type": "Book",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Strategy & Analytics",
+      "Book"
+    ]
   },
   {
     "name": "Lenny's Newsletter: How Duolingo Reignited User Growth",
@@ -1445,7 +2165,11 @@
     "category": "Strategy & Analytics",
     "url": "https://www.lennysnewsletter.com/p/how-duolingo-reignited-user-growth",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Strategy & Analytics",
+      "Article"
+    ]
   },
   {
     "name": "Causal Inference for the Brave and True",
@@ -1453,7 +2177,11 @@
     "category": "Strategy & Analytics",
     "url": "https://matheusfacure.github.io/python-causality-handbook/landing-page.html",
     "type": "Tool",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Strategy & Analytics",
+      "Tool"
+    ]
   },
   {
     "name": "NFX Network Effects Manual",
@@ -1461,7 +2189,11 @@
     "category": "Strategy & Analytics",
     "url": "https://www.nfx.com/post/network-effects-manual",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Strategy & Analytics",
+      "Article"
+    ]
   },
   {
     "name": "Growth Accounting & Backtraced Growth Accounting",
@@ -1469,7 +2201,11 @@
     "category": "Strategy & Analytics",
     "url": "https://bytepawn.com/growth-accounting-and-backtraced-growth-accounting.html",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Strategy & Analytics",
+      "Article"
+    ]
   },
   {
     "name": "Guide to Product Metrics",
@@ -1477,7 +2213,11 @@
     "category": "Strategy & Analytics",
     "url": "https://www.roarkeclinton.com/product-metrics",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Strategy & Analytics",
+      "Article"
+    ]
   },
   {
     "name": "Measuring Product Health (Sequoia)",
@@ -1485,7 +2225,11 @@
     "category": "Strategy & Analytics",
     "url": "https://articles.sequoiacap.com/measuring-product-health",
     "type": "Article",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Strategy & Analytics",
+      "Article"
+    ]
   },
   {
     "name": "Ken Norton: How to Hire a Product Manager",
@@ -1493,7 +2237,11 @@
     "category": "Product Sense",
     "url": "https://www.bringthedonuts.com/essays/productmanager.html",
     "type": "Essay",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Product Sense",
+      "Essay"
+    ]
   },
   {
     "name": "SVPG: Product Management Start Here",
@@ -1501,7 +2249,11 @@
     "category": "Product Sense",
     "url": "https://www.svpg.com/product-management-start-here/",
     "type": "Knowledge Base",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Product Sense",
+      "Knowledge Base"
+    ]
   },
   {
     "name": "Shreyas Doshi: LNO Framework",
@@ -1509,7 +2261,11 @@
     "category": "Product Sense",
     "url": "https://shreyasdoshi.com/",
     "type": "Essays",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Product Sense",
+      "Essays"
+    ]
   },
   {
     "name": "Intercom: RICE Prioritization Framework",
@@ -1517,7 +2273,11 @@
     "category": "Product Sense",
     "url": "https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/",
     "type": "Blog",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Product Sense",
+      "Blog"
+    ]
   },
   {
     "name": "Intercom: On Product Management (Free Book)",
@@ -1525,7 +2285,11 @@
     "category": "Product Sense",
     "url": "https://www.intercom.com/resources/books/intercom-product-management",
     "type": "Online Book",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Product Sense",
+      "Online Book"
+    ]
   },
   {
     "name": "Gibson Biddle: DHM Product Strategy Framework",
@@ -1533,7 +2297,11 @@
     "category": "Product Sense",
     "url": "https://gibsonbiddle.medium.com/intro-to-product-strategy-60bdf72b17e3",
     "type": "Essay Series",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Product Sense",
+      "Essay Series"
+    ]
   },
   {
     "name": "Teresa Torres: Opportunity Solution Trees",
@@ -1541,7 +2309,11 @@
     "category": "Product Sense",
     "url": "https://www.producttalk.org/opportunity-solution-trees/",
     "type": "Blog + Book",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Product Sense",
+      "Blog + Book"
+    ]
   },
   {
     "name": "Marty Cagan: INSPIRED",
@@ -1549,7 +2321,11 @@
     "category": "Product Sense",
     "url": "https://www.svpg.com/books/inspired-how-to-create-tech-products-customers-love-2nd-edition/",
     "type": "Book",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Product Sense",
+      "Book"
+    ]
   },
   {
     "name": "Atlassian: How to Write Product Requirements",
@@ -1557,7 +2333,11 @@
     "category": "Product Sense",
     "url": "https://www.atlassian.com/agile/product-management/requirements",
     "type": "Guide",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Product Sense",
+      "Guide"
+    ]
   },
   {
     "name": "Amplitude: Product Lessons with Shreyas Doshi",
@@ -1565,7 +2345,11 @@
     "category": "Product Sense",
     "url": "https://amplitude.com/blog/shreyas-doshi-product-lessons",
     "type": "Interview",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Product Sense",
+      "Interview"
+    ]
   },
   {
     "name": "Lenny's Newsletter & Podcast",
@@ -1573,7 +2357,11 @@
     "category": "Product Sense",
     "url": "https://www.lennysnewsletter.com/",
     "type": "Newsletter + Podcast",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Product Sense",
+      "Newsletter + Podcast"
+    ]
   },
   {
     "name": "Spotify: Choosing a Sequential Testing Framework",
@@ -1581,7 +2369,11 @@
     "category": "Experimentation",
     "url": "https://engineering.atspotify.com/2023/03/choosing-sequential-testing-framework-comparisons-and-discussions/",
     "type": "Blog",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Experimentation",
+      "Blog"
+    ]
   },
   {
     "name": "Always Valid Inference: Continuous Monitoring of A/B Tests",
@@ -1589,7 +2381,11 @@
     "category": "Experimentation",
     "url": "https://arxiv.org/abs/1512.04922",
     "type": "Paper",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Experimentation",
+      "Paper"
+    ]
   },
   {
     "name": "Airbnb: Variance Reduction Using In-Experiment Data (KDD 2023)",
@@ -1597,7 +2393,11 @@
     "category": "Experimentation",
     "url": "https://alexdeng.github.io/public/files/kdd2023-inexp.pdf",
     "type": "Paper",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Experimentation",
+      "Paper"
+    ]
   },
   {
     "name": "Uber: Supercharging A/B Testing at Uber",
@@ -1605,7 +2405,11 @@
     "category": "Experimentation",
     "url": "https://www.uber.com/blog/supercharging-a-b-testing-at-uber/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Experimentation",
+      "Blog"
+    ]
   },
   {
     "name": "LinkedIn: A/B Testing Platform Technical Paper",
@@ -1613,7 +2417,11 @@
     "category": "Experimentation",
     "url": "https://engineering.linkedin.com/ab-testing/introduction-technical-paper-linkedins-ab-testing-platform",
     "type": "Paper",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Experimentation",
+      "Paper"
+    ]
   },
   {
     "name": "Reducing Interference Bias in Marketplace Experiments (Holtz et al.)",
@@ -1621,7 +2429,11 @@
     "category": "Experimentation",
     "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2020.01157",
     "type": "Paper",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Experimentation",
+      "Paper"
+    ]
   },
   {
     "name": "150 Successful ML Models at Booking.com (KDD 2019)",
@@ -1629,7 +2441,11 @@
     "category": "Experimentation",
     "url": "https://dl.acm.org/doi/10.1145/3292500.3330744",
     "type": "Paper",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Experimentation",
+      "Paper"
+    ]
   },
   {
     "name": "Stitch Fix: Multi-Armed Bandits Integration",
@@ -1637,7 +2453,11 @@
     "category": "Experimentation",
     "url": "https://multithreaded.stitchfix.com/blog/2020/08/05/bandits/",
     "type": "Blog",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Experimentation",
+      "Blog"
+    ]
   },
   {
     "name": "Booking.com: How to Increase Power with CUPED",
@@ -1645,7 +2465,11 @@
     "category": "Experimentation",
     "url": "https://booking.ai/how-booking-com-increases-the-power-of-online-experiments-with-cuped-995d186fff1d",
     "type": "Blog",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Experimentation",
+      "Blog"
+    ]
   },
   {
     "name": "Netflix: A Survey of Causal Inference Applications",
@@ -1653,15 +2477,23 @@
     "category": "Experimentation",
     "url": "https://netflixtechblog.com/a-survey-of-causal-inference-applications-at-netflix-b62d25175e6f",
     "type": "Blog",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Experimentation",
+      "Blog"
+    ]
   },
   {
     "name": "Delta Method in Metric Analytics (Microsoft/KDD 2018)",
-    "description": "Comprehensive treatment for deriving variance for complex metrics (ratios, percentiles, quantiles). Parallelizable implementation for distributed systems — essential for production experimentation.",
+    "description": "Comprehensive treatment for deriving variance for complex metrics (ratios, percentiles, quantiles). Parallelizable implementation for distributed systems \u2014 essential for production experimentation.",
     "category": "Experimentation",
     "url": "https://arxiv.org/pdf/1803.06336",
     "type": "Paper",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Experimentation",
+      "Paper"
+    ]
   },
   {
     "name": "Design and Analysis of Switchback Experiments (Harvard/MIT)",
@@ -1669,7 +2501,11 @@
     "category": "Experimentation",
     "url": "https://arxiv.org/abs/2009.00148",
     "type": "Paper",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Experimentation",
+      "Paper"
+    ]
   },
   {
     "name": "CausalML: Uplift Modeling Package (Uber)",
@@ -1677,7 +2513,11 @@
     "category": "Experimentation",
     "url": "https://github.com/uber/causalml",
     "type": "Package",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Experimentation",
+      "Package"
+    ]
   },
   {
     "name": "PyMC: Bayesian A/B Testing Tutorial",
@@ -1685,15 +2525,23 @@
     "category": "Experimentation",
     "url": "https://www.pymc.io/projects/examples/en/latest/causal_inference/bayesian_ab_testing_introduction.html",
     "type": "Tutorial",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Experimentation",
+      "Tutorial"
+    ]
   },
   {
     "name": "Choosing Your North Star Metric (Lenny/a16z)",
-    "description": "Surveyed 40+ companies (Airbnb, Netflix, Spotify, Slack, Uber) for a taxonomy of 6 NSM categories. Frameworks for choosing based on business model type — the definitive NSM resource.",
+    "description": "Surveyed 40+ companies (Airbnb, Netflix, Spotify, Slack, Uber) for a taxonomy of 6 NSM categories. Frameworks for choosing based on business model type \u2014 the definitive NSM resource.",
     "category": "Product Analytics",
     "url": "https://future.com/north-star-metrics/",
     "type": "Framework",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Product Analytics",
+      "Framework"
+    ]
   },
   {
     "name": "A Quantitative Approach to Product-Market Fit (Tribe Capital)",
@@ -1701,7 +2549,11 @@
     "category": "Product Analytics",
     "url": "https://tribecap.co/a-quantitative-approach-to-product-market-fit/",
     "type": "Framework",
-    "level": "Hard"
+    "level": "Hard",
+    "tags": [
+      "Product Analytics",
+      "Framework"
+    ]
   },
   {
     "name": "Guardrail Metrics for A/B Tests (PostHog)",
@@ -1709,15 +2561,23 @@
     "category": "Product Analytics",
     "url": "https://posthog.com/product-engineers/guardrail-metrics",
     "type": "Guide",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Product Analytics",
+      "Guide"
+    ]
   },
   {
     "name": "Retention (Sequoia Capital Data Science)",
-    "description": "Three archetypal retention curves — Flattening, Declining, Smiling — and what each indicates about product health. Benchmarks by product type. Triangle retention chart visualization.",
+    "description": "Three archetypal retention curves \u2014 Flattening, Declining, Smiling \u2014 and what each indicates about product health. Benchmarks by product type. Triangle retention chart visualization.",
     "category": "Product Analytics",
     "url": "https://articles.sequoiacap.com/retention",
     "type": "Framework",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Product Analytics",
+      "Framework"
+    ]
   },
   {
     "name": "The Power User Curve (a16z)",
@@ -1725,7 +2585,11 @@
     "category": "Product Analytics",
     "url": "https://a16z.com/the-power-user-curve-the-best-way-to-understand-your-most-engaged-users/",
     "type": "Framework",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Product Analytics",
+      "Framework"
+    ]
   },
   {
     "name": "How to Measure Cohort Retention (Lenny's Newsletter)",
@@ -1733,15 +2597,23 @@
     "category": "Product Analytics",
     "url": "https://www.lennysnewsletter.com/p/measuring-cohort-retention",
     "type": "Tutorial",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Product Analytics",
+      "Tutorial"
+    ]
   },
   {
     "name": "Ultimate Guide: Activation (Aakash Gupta)",
-    "description": "Traces activation history from Facebook's 2008 growth team, including Chamath's '7 friends in 10 days' discovery. The Setup → Aha → Habit framework with data-backed examples.",
+    "description": "Traces activation history from Facebook's 2008 growth team, including Chamath's '7 friends in 10 days' discovery. The Setup \u2192 Aha \u2192 Habit framework with data-backed examples.",
     "category": "Product Analytics",
     "url": "https://www.news.aakashg.com/p/ultimate-guide-activation",
     "type": "Guide",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Product Analytics",
+      "Guide"
+    ]
   },
   {
     "name": "How Superhuman Built an Engine to Find PMF (First Round)",
@@ -1749,14 +2621,22 @@
     "category": "Product Analytics",
     "url": "https://review.firstround.com/how-superhuman-built-an-engine-to-find-product-market-fit/",
     "type": "Case Study",
-    "level": "Medium"
+    "level": "Medium",
+    "tags": [
+      "Product Analytics",
+      "Case Study"
+    ]
   },
   {
     "name": "Slack's 2000 Messages Activation Metric",
-    "description": "Documents Slack's activation discovery — after 2,000 messages sent per team, 93% remain active. How they identified this leading indicator. Conversion rate significantly above 5% SaaS average.",
+    "description": "Documents Slack's activation discovery \u2014 after 2,000 messages sent per team, 93% remain active. How they identified this leading indicator. Conversion rate significantly above 5% SaaS average.",
     "category": "Product Analytics",
     "url": "https://www.growth-letter.com/p/inside-slacks-4-billion-growth-system",
     "type": "Case Study",
-    "level": "Easy"
+    "level": "Easy",
+    "tags": [
+      "Product Analytics",
+      "Case Study"
+    ]
   }
 ]

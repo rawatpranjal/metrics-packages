@@ -7,7 +7,10 @@
     "description": "The foundational text on network economics - Varian became Google's Chief Economist",
     "category": "Platform Economics",
     "type": "Book",
-    "url": "https://www.amazon.com/Information-Rules-Strategic-Network-Economy/dp/087584863X"
+    "url": "https://www.amazon.com/Information-Rules-Strategic-Network-Economy/dp/087584863X",
+    "tags": [
+      "Platform Economics"
+    ]
   },
   {
     "name": "Matchmakers",
@@ -17,7 +20,10 @@
     "description": "Rigorous platform economics by two top IO economists",
     "category": "Platform Economics",
     "type": "Book",
-    "url": "https://www.amazon.com/Matchmakers-New-Economics-Multisided-Platforms/dp/1633691721"
+    "url": "https://www.amazon.com/Matchmakers-New-Economics-Multisided-Platforms/dp/1633691721",
+    "tags": [
+      "Platform Economics"
+    ]
   },
   {
     "name": "Platform Revolution",
@@ -27,7 +33,10 @@
     "description": "Most comprehensive platform strategy book",
     "category": "Platform Economics",
     "type": "Book",
-    "url": "https://www.amazon.com/Platform-Revolution-Networked-Markets-Transforming/dp/0393249131"
+    "url": "https://www.amazon.com/Platform-Revolution-Networked-Markets-Transforming/dp/0393249131",
+    "tags": [
+      "Platform Economics"
+    ]
   },
   {
     "name": "Who Gets What and Why",
@@ -37,7 +46,10 @@
     "description": "Market design from a Nobel laureate - auctions, matching markets",
     "category": "Pricing & Market Design",
     "type": "Book",
-    "url": "https://www.amazon.com/Who-Gets-What-Why-Matchmaking/dp/0544291131"
+    "url": "https://www.amazon.com/Who-Gets-What-Why-Matchmaking/dp/0544291131",
+    "tags": [
+      "Pricing & Market Design"
+    ]
   },
   {
     "name": "Prediction Machines",
@@ -47,7 +59,10 @@
     "description": "Best economic framework for AI as cheap prediction",
     "category": "AI & Machine Learning",
     "type": "Book",
-    "url": "https://www.amazon.com/Prediction-Machines-Economics-Artificial-Intelligence/dp/1633695670"
+    "url": "https://www.amazon.com/Prediction-Machines-Economics-Artificial-Intelligence/dp/1633695670",
+    "tags": [
+      "AI & Machine Learning"
+    ]
   },
   {
     "name": "Power and Prediction",
@@ -57,7 +72,10 @@
     "description": "AI's system-level disruption - sequel to Prediction Machines",
     "category": "AI & Machine Learning",
     "type": "Book",
-    "url": "https://www.amazon.com/Power-Prediction-Disruptive-Artificial-Intelligence/dp/1647824192"
+    "url": "https://www.amazon.com/Power-Prediction-Disruptive-Artificial-Intelligence/dp/1647824192",
+    "tags": [
+      "AI & Machine Learning"
+    ]
   },
   {
     "name": "The Attention Merchants",
@@ -67,17 +85,23 @@
     "description": "History and economics of attention and advertising",
     "category": "Advertising & Attention",
     "type": "Book",
-    "url": "https://www.amazon.com/Attention-Merchants-Scramble-Inside-Heads/dp/0385352018"
+    "url": "https://www.amazon.com/Attention-Merchants-Scramble-Inside-Heads/dp/0385352018",
+    "tags": [
+      "Advertising & Attention"
+    ]
   },
   {
     "name": "Subprime Attention Crisis",
     "author": "Tim Hwang",
     "year": 2020,
     "isbn": "0374538654",
-    "description": "Programmatic advertising as a bubble: inflated metrics, click fraud, and misrepresented value — parallels to the 2008 housing crisis",
+    "description": "Programmatic advertising as a bubble: inflated metrics, click fraud, and misrepresented value \u2014 parallels to the 2008 housing crisis",
     "category": "Advertising & Attention",
     "type": "Book",
-    "url": "https://www.amazon.com/Subprime-Attention-Crisis-Advertising-Originals/dp/0374538654"
+    "url": "https://www.amazon.com/Subprime-Attention-Crisis-Advertising-Originals/dp/0374538654",
+    "tags": [
+      "Advertising & Attention"
+    ]
   },
   {
     "name": "Priceless",
@@ -87,7 +111,10 @@
     "description": "Pricing psychology and behavioral economics",
     "category": "Pricing & Market Design",
     "type": "Book",
-    "url": "https://www.amazon.com/Priceless-Myth-Fair-Value-Advantage/dp/0809078813"
+    "url": "https://www.amazon.com/Priceless-Myth-Fair-Value-Advantage/dp/0809078813",
+    "tags": [
+      "Pricing & Market Design"
+    ]
   },
   {
     "name": "Confessions of the Pricing Man",
@@ -97,7 +124,10 @@
     "description": "Practitioner pricing strategy from the world's leading pricing consultant",
     "category": "Pricing & Market Design",
     "type": "Book",
-    "url": "https://www.amazon.com/Confessions-Pricing-Man-Affects-Everything/dp/3319203991"
+    "url": "https://www.amazon.com/Confessions-Pricing-Man-Affects-Everything/dp/3319203991",
+    "tags": [
+      "Pricing & Market Design"
+    ]
   },
   {
     "name": "The Age of Surveillance Capitalism",
@@ -107,7 +137,10 @@
     "description": "Data economics and behavioral surplus extraction",
     "category": "Competition & Antitrust",
     "type": "Book",
-    "url": "https://www.amazon.com/Age-Surveillance-Capitalism-Future-Frontier/dp/1610395697"
+    "url": "https://www.amazon.com/Age-Surveillance-Capitalism-Future-Frontier/dp/1610395697",
+    "tags": [
+      "Competition & Antitrust"
+    ]
   },
   {
     "name": "Weapons of Math Destruction",
@@ -117,7 +150,10 @@
     "description": "Algorithmic bias and fairness - ML economics",
     "category": "AI & Machine Learning",
     "type": "Book",
-    "url": "https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815"
+    "url": "https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815",
+    "tags": [
+      "AI & Machine Learning"
+    ]
   },
   {
     "name": "The Alignment Problem",
@@ -127,7 +163,10 @@
     "description": "AI alignment with human values - relevant to responsible AI",
     "category": "AI & Machine Learning",
     "type": "Book",
-    "url": "https://www.amazon.com/Alignment-Problem-Machine-Learning-Values/dp/0393635821"
+    "url": "https://www.amazon.com/Alignment-Problem-Machine-Learning-Values/dp/0393635821",
+    "tags": [
+      "AI & Machine Learning"
+    ]
   },
   {
     "name": "The Curse of Bigness",
@@ -137,7 +176,10 @@
     "description": "Concise antitrust primer for tech",
     "category": "Competition & Antitrust",
     "type": "Book",
-    "url": "https://www.amazon.com/Curse-Bigness-Antitrust-New-Gilded/dp/0999745468"
+    "url": "https://www.amazon.com/Curse-Bigness-Antitrust-New-Gilded/dp/0999745468",
+    "tags": [
+      "Competition & Antitrust"
+    ]
   },
   {
     "name": "The Great Reversal",
@@ -147,7 +189,10 @@
     "description": "Data-driven competition economics",
     "category": "Competition & Antitrust",
     "type": "Book",
-    "url": "https://www.amazon.com/Great-Reversal-America-Gave-Markets/dp/0674237544"
+    "url": "https://www.amazon.com/Great-Reversal-America-Gave-Markets/dp/0674237544",
+    "tags": [
+      "Competition & Antitrust"
+    ]
   },
   {
     "name": "The Platform Delusion",
@@ -157,7 +202,10 @@
     "description": "Contrarian take - when network effects don't matter",
     "category": "Platform Economics",
     "type": "Book",
-    "url": "https://www.amazon.com/Platform-Delusion-Wins-Loses-Titans/dp/0593189434"
+    "url": "https://www.amazon.com/Platform-Delusion-Wins-Loses-Titans/dp/0593189434",
+    "tags": [
+      "Platform Economics"
+    ]
   },
   {
     "name": "Radical Markets",
@@ -167,7 +215,10 @@
     "description": "Mechanism design ideas - auctions, Harberger taxes, quadratic voting",
     "category": "Pricing & Market Design",
     "type": "Book",
-    "url": "https://www.amazon.com/Radical-Markets-Uprooting-Capitalism-Democracy/dp/0691177503"
+    "url": "https://www.amazon.com/Radical-Markets-Uprooting-Capitalism-Democracy/dp/0691177503",
+    "tags": [
+      "Pricing & Market Design"
+    ]
   },
   {
     "name": "Uberland",
@@ -177,7 +228,10 @@
     "description": "Algorithmic management and gig economy",
     "category": "Labor & Gig Economy",
     "type": "Book",
-    "url": "https://www.amazon.com/Uberland-Algorithms-Rewriting-Rules-Work/dp/0520298578"
+    "url": "https://www.amazon.com/Uberland-Algorithms-Rewriting-Rules-Work/dp/0520298578",
+    "tags": [
+      "Labor & Gig Economy"
+    ]
   },
   {
     "name": "The Filter Bubble",
@@ -187,7 +241,10 @@
     "description": "Personalization and recommendation economics",
     "category": "Advertising & Attention",
     "type": "Book",
-    "url": "https://www.amazon.com/Filter-Bubble-What-Internet-Hiding/dp/1594203008"
+    "url": "https://www.amazon.com/Filter-Bubble-What-Internet-Hiding/dp/1594203008",
+    "tags": [
+      "Advertising & Attention"
+    ]
   },
   {
     "name": "Invisible Engines",
@@ -197,17 +254,23 @@
     "description": "Early platform economics - software as two-sided markets",
     "category": "Platform Economics",
     "type": "Book",
-    "url": "https://www.amazon.com/Invisible-Engines-Platforms-Innovation-Industries/dp/0262550687"
+    "url": "https://www.amazon.com/Invisible-Engines-Platforms-Innovation-Industries/dp/0262550687",
+    "tags": [
+      "Platform Economics"
+    ]
   },
   {
     "name": "Credit Risk Modeling using Excel and VBA",
-    "author": "Gunter Löffler & Peter N. Posch",
+    "author": "Gunter L\u00f6ffler & Peter N. Posch",
     "year": 2011,
     "isbn": "0470660929",
     "description": "Practitioner guide to credit risk with Excel/VBA implementations. PD, LGD, EAD estimation and portfolio models.",
     "category": "Risk Modeling",
     "type": "Book",
-    "url": "https://www.amazon.com/Credit-Risk-Modeling-using-Excel/dp/0470660929"
+    "url": "https://www.amazon.com/Credit-Risk-Modeling-using-Excel/dp/0470660929",
+    "tags": [
+      "Risk Modeling"
+    ]
   },
   {
     "name": "Generalized Linear Models for Insurance Rating",
@@ -217,6 +280,9 @@
     "description": "CAS Monograph Series. Industry standard for insurance pricing - GLMs, tweedie, territorial ratemaking.",
     "category": "Risk Modeling",
     "type": "Book",
-    "url": "https://www.casact.org/monograph/cas-monograph-no-5"
+    "url": "https://www.casact.org/monograph/cas-monograph-no-5",
+    "tags": [
+      "Risk Modeling"
+    ]
   }
 ]

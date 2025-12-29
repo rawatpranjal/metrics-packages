@@ -4,188 +4,296 @@
     "description": "Free SQL practice with FAANG questions. Created by ex-Facebook authors of Ace the Data Science Interview.",
     "category": "SQL & Data",
     "url": "https://datalemur.com/",
-    "type": "Practice"
+    "type": "Practice",
+    "tags": [
+      "SQL & Data",
+      "Practice"
+    ]
   },
   {
     "name": "StrataScratch",
     "description": "Company-specific SQL filtering for Airbnb, Uber, Netflix. Real interview questions with solutions.",
     "category": "SQL & Data",
     "url": "https://www.stratascratch.com/",
-    "type": "Practice"
+    "type": "Practice",
+    "tags": [
+      "SQL & Data",
+      "Practice"
+    ]
   },
   {
     "name": "Window Functions Practice",
     "description": "Interactive quizzes on ROW_NUMBER, RANK, LAG/LEAD. Consistently tested in interviews.",
     "category": "SQL & Data",
     "url": "https://www.windowfunctions.com/",
-    "type": "Practice"
+    "type": "Practice",
+    "tags": [
+      "SQL & Data",
+      "Practice"
+    ]
   },
   {
     "name": "Interview Query",
     "description": "Data science interview platform with SQL, Python, and ML questions. Take-home challenges included.",
     "category": "SQL & Data",
     "url": "https://www.interviewquery.com/",
-    "type": "Practice"
+    "type": "Practice",
+    "tags": [
+      "SQL & Data",
+      "Practice"
+    ]
   },
   {
     "name": "Nick Singh's 40 Stats Questions",
     "description": "Probability and statistics questions from FAANG and Wall Street. Bayesian puzzles and distributions.",
     "category": "Stats & Probability",
     "url": "https://www.nicksingh.com/posts/40-probability-statistics-data-science-interview-questions-asked-by-fang-wall-street",
-    "type": "Questions"
+    "type": "Questions",
+    "tags": [
+      "Stats & Probability",
+      "Questions"
+    ]
   },
   {
     "name": "StatQuest with Josh Starmer",
     "description": "Best resource for econ PhDs learning ML. Bias-variance, regularization, ensemble methods explained accessibly.",
     "category": "ML Fundamentals",
     "url": "https://www.youtube.com/@statquest",
-    "type": "Video"
+    "type": "Video",
+    "tags": [
+      "ML Fundamentals",
+      "Video"
+    ]
   },
   {
     "name": "Trustworthy Online Controlled Experiments",
     "description": "The industry bible by Kohavi, Tang, Xu. Design, analysis, pitfalls from Microsoft/LinkedIn/Google leaders.",
     "category": "A/B Testing",
     "url": "https://www.amazon.com/Trustworthy-Online-Controlled-Experiments-Practical/dp/1108724264",
-    "type": "Book"
+    "type": "Book",
+    "tags": [
+      "A/B Testing",
+      "Book"
+    ]
   },
   {
     "name": "Understanding CUPED",
     "description": "Bridges CUPED to DiD and regression. Essential for industry A/B testing interviews.",
     "category": "A/B Testing",
     "url": "https://towardsdatascience.com/understanding-cuped-a822523641af",
-    "type": "Article"
+    "type": "Article",
+    "tags": [
+      "A/B Testing",
+      "Article"
+    ]
   },
   {
     "name": "Netflix: Quasi Experimentation",
     "description": "When A/B tests aren't feasible and how Netflix handles SUTVA violations.",
     "category": "A/B Testing",
     "url": "https://netflixtechblog.com/quasi-experimentation-at-netflix-566b57d2e362",
-    "type": "Blog"
+    "type": "Blog",
+    "tags": [
+      "A/B Testing",
+      "Blog"
+    ]
   },
   {
     "name": "Scarlet Chen: Econ PhD to Tech",
     "description": "Stanford PhD to Google/Shopify. Interview experiences at Google, Amazon, Facebook, Uber.",
     "category": "General Prep",
     "url": "https://scarlet-chen.medium.com/",
-    "type": "Blog"
+    "type": "Blog",
+    "tags": [
+      "General Prep",
+      "Blog"
+    ]
   },
   {
     "name": "Emma Ding: Product Sense Guide",
     "description": "Ultimate guide to business case interviews. AARRR framework, metrics, diagnostic approaches.",
     "category": "Product Sense",
     "url": "https://towardsdatascience.com/the-ultimate-guide-to-cracking-business-case-interviews-for-data-scientists-part-1-cb768c37edf4",
-    "type": "Guide"
+    "type": "Guide",
+    "tags": [
+      "Product Sense",
+      "Guide"
+    ]
   },
   {
     "name": "Amplitude: North Star Metrics",
     "description": "Three games framework: Attention, Transaction, Productivity. Real examples from Facebook, Airbnb, Spotify.",
     "category": "Product Sense",
     "url": "https://amplitude.com/blog/north-star-metric",
-    "type": "Article"
+    "type": "Article",
+    "tags": [
+      "Product Sense",
+      "Article"
+    ]
   },
   {
     "name": "DataLemur Meta DS Guide",
     "description": "31 leaked Meta interview questions. Product sense and SQL focus.",
     "category": "Product Sense",
     "url": "https://datalemur.com/blog/meta-facebook-data-scientist-interview",
-    "type": "Guide"
+    "type": "Guide",
+    "tags": [
+      "Product Sense",
+      "Guide"
+    ]
   },
   {
     "name": "Scarlet Ink: Amazon LP Guide",
     "description": "Written by ex-Amazon Bar Raiser. Sent by recruiters to candidates. 100+ candidates credit it for getting hired.",
     "category": "Behavioral",
     "url": "https://www.scarletink.com/p/interviewing-at-amazon-leadership-principles",
-    "type": "Guide"
+    "type": "Guide",
+    "tags": [
+      "Behavioral",
+      "Guide"
+    ]
   },
   {
     "name": "Amazon Leadership Principles",
     "description": "Official 16 principles with explanations. Customer Obsession, Ownership, Invent and Simplify, etc.",
     "category": "Behavioral",
     "url": "https://www.amazon.jobs/content/en/our-workplace/leadership-principles",
-    "type": "Guide"
+    "type": "Guide",
+    "tags": [
+      "Behavioral",
+      "Guide"
+    ]
   },
   {
     "name": "Interviewing.io Amazon Guide",
     "description": "Insights from 500+ mock Amazon behavioral interviews. STARI method with Action at 50-60%.",
     "category": "Behavioral",
     "url": "https://interviewing.io/guides/amazon-interview",
-    "type": "Guide"
+    "type": "Guide",
+    "tags": [
+      "Behavioral",
+      "Guide"
+    ]
   },
   {
     "name": "IGotAnOffer: Google Behavioral",
     "description": "Googleyness traits: comfort with ambiguity, bias for action, intellectual humility.",
     "category": "Behavioral",
     "url": "https://igotanoffer.com/blogs/tech/google-behavioral-interview",
-    "type": "Guide"
+    "type": "Guide",
+    "tags": [
+      "Behavioral",
+      "Guide"
+    ]
   },
   {
     "name": "Designing Machine Learning Systems",
     "description": "Essential ML system design book by Chip Huyen. Based on Stanford CS 329S.",
     "category": "ML System Design",
     "url": "https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/",
-    "type": "Book"
+    "type": "Book",
+    "tags": [
+      "ML System Design",
+      "Book"
+    ]
   },
   {
     "name": "ML System Design Interview (Alex Xu)",
     "description": "7-step framework with 10 detailed solutions: visual search, video recommendation, ad prediction.",
     "category": "ML System Design",
     "url": "https://www.amazon.com/Machine-Learning-System-Design-Interview/dp/1736049127",
-    "type": "Book"
+    "type": "Book",
+    "tags": [
+      "ML System Design",
+      "Book"
+    ]
   },
   {
     "name": "ML Interviews GitHub",
     "description": "7.2k stars. Created by someone with offers from Meta, Google, Amazon, Apple for Applied Scientist.",
     "category": "ML Fundamentals",
     "url": "https://github.com/alirezadir/Machine-Learning-Interviews",
-    "type": "Resource"
+    "type": "Resource",
+    "tags": [
+      "ML Fundamentals",
+      "Resource"
+    ]
   },
   {
     "name": "Chip Huyen ML Interviews Book",
     "description": "200+ knowledge questions organized by difficulty for ML fundamentals.",
     "category": "ML Fundamentals",
     "url": "https://huyenchip.com/ml-interviews-book/",
-    "type": "Book"
+    "type": "Book",
+    "tags": [
+      "ML Fundamentals",
+      "Book"
+    ]
   },
   {
     "name": "Interview Query Take-Homes",
     "description": "23 real take-home challenges from Airbnb, Stripe, Uber, DoorDash, Amazon with solutions.",
     "category": "Take-Home",
     "url": "https://www.interviewquery.com/p/data-science-take-home-challenges",
-    "type": "Practice"
+    "type": "Practice",
+    "tags": [
+      "Take-Home",
+      "Practice"
+    ]
   },
   {
     "name": "Ace the Data Science Interview",
     "description": "201 real questions from FAANG, startups, Wall Street. Industry-standard prep resource.",
     "category": "General Prep",
     "url": "https://www.acethedatascienceinterview.com/",
-    "type": "Book"
+    "type": "Book",
+    "tags": [
+      "General Prep",
+      "Book"
+    ]
   },
   {
     "name": "Rose Tan: Tech Jobs for Econ PhDs",
     "description": "LinkedIn guide on navigating tech's job market. Networking tips, role types, expectations.",
     "category": "General Prep",
     "url": "https://www.linkedin.com/pulse/finding-tech-job-part-1-guide-econ-phds-some-useful-info-rose-tan",
-    "type": "Guide"
+    "type": "Guide",
+    "tags": [
+      "General Prep",
+      "Guide"
+    ]
   },
   {
     "name": "Levels.fyi",
     "description": "Crowdsourced tech compensation data. Compare salaries across companies, levels, locations.",
     "category": "Negotiation",
     "url": "https://www.levels.fyi/",
-    "type": "Tool"
+    "type": "Tool",
+    "tags": [
+      "Negotiation",
+      "Tool"
+    ]
   },
   {
     "name": "Levels.fyi Negotiation Guide",
     "description": "Guide on base, equity, bonus structures and how to negotiate each.",
     "category": "Negotiation",
     "url": "https://www.levels.fyi/blog/ultimate-negotiation-guide.html",
-    "type": "Guide"
+    "type": "Guide",
+    "tags": [
+      "Negotiation",
+      "Guide"
+    ]
   },
   {
     "name": "Candor Salary Negotiation",
     "description": "Strategies tech insiders use. Competing offers, leveling, avoiding leaving money on the table.",
     "category": "Negotiation",
     "url": "https://candor.co/guides/salary-negotiation",
-    "type": "Guide"
+    "type": "Guide",
+    "tags": [
+      "Negotiation",
+      "Guide"
+    ]
   }
 ]

@@ -277,7 +277,7 @@ def generate_minisearch_index(items: List[Dict[str, Any]]) -> Dict[str, Any]:
             "fields": ["name", "description", "category", "tags", "best_for"],
             "storeFields": ["name", "description", "category", "url", "type", "tags", "best_for"],
             "searchOptions": {
-                "boost": {"name": 3, "tags": 1.5, "best_for": 1.2, "description": 1, "category": 0.8},
+                "boost": {"name": 3, "tags": 2, "best_for": 1.2, "description": 1, "category": 0.8},
                 "fuzzy": 0.2,
                 "prefix": True
             }

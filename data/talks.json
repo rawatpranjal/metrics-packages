@@ -4,7 +4,11 @@
     "description": "World of DaaS podcast. How she 'invented' the applied researcher role at Microsoft. The difference between prediction and 'what if' questions.",
     "category": "Causal Inference & ML",
     "url": "https://www.youtube.com/watch?v=q4hWBep5RIc",
-    "type": "Podcast"
+    "type": "Podcast",
+    "tags": [
+      "Causal Inference & ML",
+      "Podcast"
+    ]
   },
   {
     "name": "Susan Athey: applied researchers Wanted",
@@ -12,21 +16,33 @@
     "category": "Strategy & Digital Platforms",
     "url": "https://www.aeaweb.org/research/athey-luca-interview-tech-economics",
     "type": "Interview",
-    "image_url": "https://gsb-faculty.stanford.edu/susan-athey/files/2025/08/Stanford_Susan_Athey-1048x1280.jpg"
+    "image_url": "https://gsb-faculty.stanford.edu/susan-athey/files/2025/08/Stanford_Susan_Athey-1048x1280.jpg",
+    "tags": [
+      "Strategy & Digital Platforms",
+      "Interview"
+    ]
   },
   {
     "name": "Susan Athey: Economics & AI",
     "description": "Stanford GSB Fireside Chat on the intersection of economics and artificial intelligence.",
     "category": "Causal Inference & ML",
     "url": "https://www.youtube.com/watch?v=lNsl76AD1kE",
-    "type": "Video"
+    "type": "Video",
+    "tags": [
+      "Causal Inference & ML",
+      "Video"
+    ]
   },
   {
     "name": "Susan Athey: Economics of Transformative AI",
     "description": "NBER lecture on how AI is transforming economic research and industry applications.",
     "category": "Strategy & Digital Platforms",
     "url": "https://www.youtube.com/watch?v=ifdSUKrJxqM",
-    "type": "Video"
+    "type": "Video",
+    "tags": [
+      "Strategy & Digital Platforms",
+      "Video"
+    ]
   },
   {
     "name": "Steve Tadelis: Causal Inference in Tech",
@@ -34,7 +50,11 @@
     "category": "Causal Inference & ML",
     "url": "https://www.youtube.com/watch?v=0l4cAWWMAKQ",
     "type": "Video",
-    "image_url": "https://haas.berkeley.edu/wp-content/uploads/Tadelis-Steve-2022.jpg"
+    "image_url": "https://haas.berkeley.edu/wp-content/uploads/Tadelis-Steve-2022.jpg",
+    "tags": [
+      "Causal Inference & ML",
+      "Video"
+    ]
   },
   {
     "name": "Hal Varian: Googlenomics Q&A",
@@ -42,14 +62,22 @@
     "category": "Market Design & Auctions",
     "url": "https://www.aei.org/economics/googlenomics-a-long-read-qa-with-chief-economist-hal-varian/",
     "type": "Interview",
-    "image_url": "https://digitaleconomy.stanford.edu/wp-content/uploads/2021/10/halvarian-80.jpg"
+    "image_url": "https://digitaleconomy.stanford.edu/wp-content/uploads/2021/10/halvarian-80.jpg",
+    "tags": [
+      "Market Design & Auctions",
+      "Interview"
+    ]
   },
   {
     "name": "Hal Varian: Chief Scientist at Google",
     "description": "Room for Discussion. Why every company needs a chief scientist for forecasting, pricing, and market design.",
     "category": "Market Design & Auctions",
     "url": "https://www.youtube.com/watch?v=d3CtB_gVV18",
-    "type": "Video"
+    "type": "Video",
+    "tags": [
+      "Market Design & Auctions",
+      "Video"
+    ]
   },
   {
     "name": "Hal Varian: Doing Economics at Google",
@@ -57,7 +85,11 @@
     "category": "Market Design & Auctions",
     "url": "https://cepr.org/multimedia/doing-economics-google",
     "type": "Interview",
-    "image_url": "https://digitaleconomy.stanford.edu/wp-content/uploads/2021/10/halvarian-80.jpg"
+    "image_url": "https://digitaleconomy.stanford.edu/wp-content/uploads/2021/10/halvarian-80.jpg",
+    "tags": [
+      "Market Design & Auctions",
+      "Interview"
+    ]
   },
   {
     "name": "John List: Scale, Uber & The Voltage Effect",
@@ -65,7 +97,11 @@
     "category": "Experimentation & Scaling",
     "url": "https://www.econtalk.org/john-list-on-scale-uber-and-the-voltage-effect/",
     "type": "Podcast",
-    "image_url": "https://economics.uchicago.edu/sites/default/files/2025-08/john_list_photo_3.jpeg"
+    "image_url": "https://economics.uchicago.edu/sites/default/files/2025-08/john_list_photo_3.jpeg",
+    "tags": [
+      "Experimentation & Scaling",
+      "Podcast"
+    ]
   },
   {
     "name": "John List: Scaling Proven Ideas",
@@ -73,7 +109,11 @@
     "category": "Experimentation & Scaling",
     "url": "https://mikemalatesta.com/podcast/john-list-scaling-proven-ideas-for-uber-lyft-walmart-260/",
     "type": "Podcast",
-    "image_url": "https://economics.uchicago.edu/sites/default/files/2025-08/john_list_photo_3.jpeg"
+    "image_url": "https://economics.uchicago.edu/sites/default/files/2025-08/john_list_photo_3.jpeg",
+    "tags": [
+      "Experimentation & Scaling",
+      "Podcast"
+    ]
   },
   {
     "name": "John List: Market Design in Ride-Sharing",
@@ -81,7 +121,11 @@
     "category": "Market Design & Auctions",
     "url": "https://www.youtube.com/watch?v=CF7FQnD-2jg",
     "type": "Video",
-    "image_url": "https://economics.uchicago.edu/sites/default/files/2025-08/john_list_photo_3.jpeg"
+    "image_url": "https://economics.uchicago.edu/sites/default/files/2025-08/john_list_photo_3.jpeg",
+    "tags": [
+      "Market Design & Auctions",
+      "Video"
+    ]
   },
   {
     "name": "Kyle Kretschman: Economics at Spotify",
@@ -89,7 +133,11 @@
     "category": "Experimentation & Scaling",
     "url": "https://causalinf.substack.com/p/s1e27-interview-with-kyle-kretschman",
     "type": "Podcast",
-    "image_url": "https://lifeandletters.la.utexas.edu/wp-content/uploads/2022/12/Kyle_headshot-1-1200x800.jpg"
+    "image_url": "https://lifeandletters.la.utexas.edu/wp-content/uploads/2022/12/Kyle_headshot-1-1200x800.jpg",
+    "tags": [
+      "Experimentation & Scaling",
+      "Podcast"
+    ]
   },
   {
     "name": "Pat Bajari: Building applied analytics at Amazon",
@@ -97,7 +145,11 @@
     "category": "Strategy & Digital Platforms",
     "url": "https://www.keystone.ai/news-publications/patrick-bajari-qa",
     "type": "Interview",
-    "image_url": "https://patbajari.ai/wp-content/uploads/2024/02/image-4-1.png"
+    "image_url": "https://patbajari.ai/wp-content/uploads/2024/02/image-4-1.png",
+    "tags": [
+      "Strategy & Digital Platforms",
+      "Interview"
+    ]
   },
   {
     "name": "Preston McAfee: Auction Design & applied analytics",
@@ -105,189 +157,297 @@
     "category": "Market Design & Auctions",
     "url": "https://www.richmondfed.org/publications/research/econ_focus/2018/q4/interview",
     "type": "Interview",
-    "image_url": "https://mc4f.ee/Bin/PubPhoto.jpg"
+    "image_url": "https://mc4f.ee/Bin/PubPhoto.jpg",
+    "tags": [
+      "Market Design & Auctions",
+      "Interview"
+    ]
   },
   {
     "name": "Sean Taylor: When Do We Need Causal Inference?",
     "description": "Former Lyft/Facebook DS lead. This talk saves you from over-engineering. Know when correlation is enough.",
     "category": "Causal Inference & ML",
     "url": "https://www.youtube.com/watch?v=2dv7NrYExzo",
-    "type": "Video"
+    "type": "Video",
+    "tags": [
+      "Causal Inference & ML",
+      "Video"
+    ]
   },
   {
     "name": "ML for Pricing & Auctions (ICML)",
     "description": "Design the mechanism, don't just bid in it. RegretNet and deep learning for auction design.",
     "category": "Market Design & Auctions",
     "url": "https://www.youtube.com/watch?v=gsPWQqVhb74",
-    "type": "Video"
+    "type": "Video",
+    "tags": [
+      "Market Design & Auctions",
+      "Video"
+    ]
   },
   {
     "name": "Nikhil Devanur: Lagrangian Duality in Mechanism Design",
     "description": "Microsoft Research. How to design revenue-maximizing auctions using duality \u2014 simple auctions, budget smoothing, and optimal mechanisms.",
     "category": "Market Design & Auctions",
     "url": "https://mediaspace.gatech.edu/media/Nikhil+Devanur+-+Lagrangian+Duality+in+Mechanism+Design/1_oj4qzj8x",
-    "type": "Video"
+    "type": "Video",
+    "tags": [
+      "Market Design & Auctions",
+      "Video"
+    ]
   },
   {
     "name": "Guido Imbens: Nobel Lecture 2021",
     "description": "Stanford, Nobel Laureate. The authoritative overview connecting the credibility revolution to modern instrumental variables and regression discontinuity.",
     "category": "Nobel Lectures",
     "url": "https://www.youtube.com/watch?v=JMuIJsxTHfU",
-    "type": "Video"
+    "type": "Video",
+    "tags": [
+      "Nobel Lectures",
+      "Video"
+    ]
   },
   {
     "name": "Jean Tirole: Nobel Lecture 2014",
     "description": "Co-founder of two-sided market theory. Explains platform pricing and why traditional antitrust fails for digital markets.",
     "category": "Nobel Lectures",
     "url": "https://www.youtube.com/watch?v=oILAIU_aYMg",
-    "type": "Video"
+    "type": "Video",
+    "tags": [
+      "Nobel Lectures",
+      "Video"
+    ]
   },
   {
     "name": "Paul Milgrom: Nobel Lecture 2020",
     "description": "Auction Research Evolving. Traces development from theoretical foundations through FCC spectrum auctions to internet advertising.",
     "category": "Nobel Lectures",
     "url": "https://www.youtube.com/watch?v=kLfAhAD7i44",
-    "type": "Video"
+    "type": "Video",
+    "tags": [
+      "Nobel Lectures",
+      "Video"
+    ]
   },
   {
     "name": "Alvin Roth: Nobel Lecture 2012",
     "description": "Market design and matching markets. Directly relevant for researchers at Airbnb, Uber, and similar platforms.",
     "category": "Nobel Lectures",
     "url": "https://www.youtube.com/watch?v=1k-aw7G6aWM",
-    "type": "Video"
+    "type": "Video",
+    "tags": [
+      "Nobel Lectures",
+      "Video"
+    ]
   },
   {
     "name": "Victor Chernozhukov: Double/Debiased ML",
     "description": "MIT. The foundational Double ML methodology for high-dimensional causal inference. BFI presentation with accompanying DoubleML package.",
     "category": "Causal Inference & ML",
     "url": "https://www.nber.org/research/videos/2013-methods-lecture-victor-chernozhukov-econometrics-high-dimensional-sparse-models",
-    "type": "Video"
+    "type": "Video",
+    "tags": [
+      "Causal Inference & ML",
+      "Video"
+    ]
   },
   {
     "name": "Susan Athey: The Mixtape Podcast",
     "description": "Career journey from academia to pioneering the applied researcher role at Microsoft. With Scott Cunningham.",
     "category": "Causal Inference & ML",
     "url": "https://www.youtube.com/watch?v=hKcTFx-Qmss",
-    "type": "Podcast"
+    "type": "Podcast",
+    "tags": [
+      "Causal Inference & ML",
+      "Podcast"
+    ]
   },
   {
     "name": "Hal Varian: Conversations with Tyler",
     "description": "Episode 69. Google's shift from second-price to first-price auctions, quality scores, price discrimination, and nowcasting.",
     "category": "Market Design & Auctions",
     "url": "https://conversationswithtyler.com/episodes/hal-varian/",
-    "type": "Podcast"
+    "type": "Podcast",
+    "tags": [
+      "Market Design & Auctions",
+      "Podcast"
+    ]
   },
   {
     "name": "Glen Weyl: Radical Markets",
     "description": "Data as labor, quadratic voting, and mechanism design for platforms. Bridging theory and practice.",
     "category": "Strategy & Digital Platforms",
     "url": "https://www.youtube.com/watch?v=uj86kE_C7RA",
-    "type": "Video"
+    "type": "Video",
+    "tags": [
+      "Strategy & Digital Platforms",
+      "Video"
+    ]
   },
   {
     "name": "Erik Brynjolfsson: AI and the Economy",
     "description": "Stanford Digital Economy Lab. HBS Managing the Future of Work on J-curve of AI productivity and 14-35% productivity gains from AI.",
     "category": "AI & Labor",
     "url": "https://www.hbs.edu/managing-the-future-of-work/podcast/Pages/podcast-details.aspx?episode=9166436185",
-    "type": "Podcast"
+    "type": "Podcast",
+    "tags": [
+      "AI & Labor",
+      "Podcast"
+    ]
   },
   {
     "name": "Erik Brynjolfsson: Lex Fridman Podcast",
     "description": "Second Machine Age thesis. Which jobs are safe from automation and dangers of the Turing Trap.",
     "category": "AI & Labor",
     "url": "https://www.youtube.com/watch?v=4giLv_Sg_fE",
-    "type": "Podcast"
+    "type": "Podcast",
+    "tags": [
+      "AI & Labor",
+      "Podcast"
+    ]
   },
   {
     "name": "Daron Acemoglu: New Tasks Framework",
     "description": "Social Science Bites podcast. When technology benefits workers vs. replaces them.",
     "category": "AI & Labor",
     "url": "https://www.socialsciencespace.com/2024/09/daron-acemoglu-on-artificial-intelligence/",
-    "type": "Podcast"
+    "type": "Podcast",
+    "tags": [
+      "AI & Labor",
+      "Podcast"
+    ]
   },
   {
     "name": "David Autor: AI and the Future of Work",
     "description": "MIT, NBER Co-Director. Fed SF presentation arguing AI's key risk is 'devaluation of expertise' rather than job loss.",
     "category": "AI & Labor",
     "url": "https://www.frbsf.org/news-and-media/events/2024/12/david-autor-expertise-artificial-intelligence-and-work-of-the-future/",
-    "type": "Video"
+    "type": "Video",
+    "tags": [
+      "AI & Labor",
+      "Video"
+    ]
   },
   {
     "name": "Sendhil Mullainathan: Before AGI Podcast",
     "description": "MIT. Journey from behavioral economics to AI, algorithmic bias mitigation.",
     "category": "AI & Labor",
     "url": "https://www.youtube.com/watch?v=NU1NzN8rLJQ",
-    "type": "Podcast"
+    "type": "Podcast",
+    "tags": [
+      "AI & Labor",
+      "Podcast"
+    ]
   },
   {
     "name": "Sendhil Mullainathan: Cornell Messenger Lectures",
     "description": "2024 three-part series on algorithms enhancing human capacity.",
     "category": "AI & Labor",
     "url": "https://events.cornell.edu/event/messenger-lecture-sendhil-mullainathan",
-    "type": "Video"
+    "type": "Video",
+    "tags": [
+      "AI & Labor",
+      "Video"
+    ]
   },
   {
     "name": "Keith Chen: Your Brain on Uber",
     "description": "NPR Hidden Brain. Uber researcher on surge pricing dynamics: users accept 2.1x surge more than 2.0x, low battery increases acceptance.",
     "category": "Pricing & Behavioral",
     "url": "https://hiddenbrain.org/podcast/your-brain-on-uber/",
-    "type": "Podcast"
+    "type": "Podcast",
+    "tags": [
+      "Pricing & Behavioral",
+      "Podcast"
+    ]
   },
   {
     "name": "Why Uber Is an Economist's Dream",
     "description": "Freakonomics with Steven Levitt. Demand elasticity of -0.6 to -0.7 from 54M user sessions.",
     "category": "Pricing & Behavioral",
     "url": "https://freakonomics.com/podcast/uber-researchers-dream/",
-    "type": "Podcast"
+    "type": "Podcast",
+    "tags": [
+      "Pricing & Behavioral",
+      "Podcast"
+    ]
   },
   {
     "name": "Uber Gender Pay Gap Study",
     "description": "Freakonomics. Jonathan Hall (Uber), Rebecca Diamond, John List. 1M+ drivers: 7% gap explained by experience and speed.",
     "category": "AI & Labor",
     "url": "https://freakonomics.com/podcast/what-can-uber-teach-us-about-the-gender-pay-gap/",
-    "type": "Podcast"
+    "type": "Podcast",
+    "tags": [
+      "AI & Labor",
+      "Podcast"
+    ]
   },
   {
     "name": "Fiona Scott Morton: Tech Antitrust Testimony",
     "description": "Yale, former DOJ Chief Scientist. C-SPAN congressional testimony and Digital Markets Act analysis.",
     "category": "Antitrust & Competition",
     "url": "https://www.c-span.org/program/public-affairs-event/yelp-conference-on-antitrust-law-and-technology-fiona-scott-morton/503495",
-    "type": "Video"
+    "type": "Video",
+    "tags": [
+      "Antitrust & Competition",
+      "Video"
+    ]
   },
   {
     "name": "Tim Wu: The Age of Extraction",
     "description": "Columbia, former Biden Administration. Brookings TechTank on platform extraction and antitrust history.",
     "category": "Antitrust & Competition",
     "url": "https://www.brookings.edu/articles/the-age-of-extraction-a-discussion-on-tim-wus-new-book-the-techtank-podcast/",
-    "type": "Video"
+    "type": "Video",
+    "tags": [
+      "Antitrust & Competition",
+      "Video"
+    ]
   },
   {
     "name": "Jean Tirole: Platform Regulation",
     "description": "NBER 2022 keynote on why traditional antitrust fails for digital platforms and the EU Digital Markets Act.",
     "category": "Antitrust & Competition",
     "url": "https://www.nber.org/lecture/jean-tirole-2022-martin-feldstein-lecture",
-    "type": "Video"
+    "type": "Video",
+    "tags": [
+      "Antitrust & Competition",
+      "Video"
+    ]
   },
   {
     "name": "Jean Tirole: Richmond Fed Interview",
     "description": "Deep dive into pricing on both sides of platforms and the economics of 'free' services.",
     "category": "Strategy & Digital Platforms",
     "url": "https://www.richmondfed.org/publications/research/econ_focus/2017/q4/interview",
-    "type": "Interview"
+    "type": "Interview",
+    "tags": [
+      "Strategy & Digital Platforms",
+      "Interview"
+    ]
   },
   {
     "name": "Alvin Roth: Google Tech Talk on Matching",
     "description": "Nobel laureate on matching markets. Directly applicable to marketplace platforms.",
     "category": "Market Design & Auctions",
     "url": "https://www.youtube.com/watch?v=B2E_YmHrXAw",
-    "type": "Video"
+    "type": "Video",
+    "tags": [
+      "Market Design & Auctions",
+      "Video"
+    ]
   },
   {
     "name": "Ronny Kohavi: Experimentation Wisdom",
     "description": "The godfather of online experimentation. Decades of A/B testing wisdom from Microsoft and Amazon.",
     "category": "Experimentation & Scaling",
     "url": "https://www.exp-platform.com/",
-    "type": "Talks + Papers"
+    "type": "Talks + Papers",
+    "tags": [
+      "Experimentation & Scaling",
+      "Talks + Papers"
+    ]
   },
   {
     "name": "Alexey Stysin: Auction Mechanism Design",
@@ -295,42 +455,66 @@
     "category": "Market Design & Auctions",
     "url": "https://www.youtube.com/@AlexeyStysin",
     "type": "YouTube Channel",
-    "image_url": "https://yt3.googleusercontent.com/K8RCF1Uh7SBjU2SAk76QZezv4vsnDzPxjY2w2WM2kW9AO7OkYhAfChPBq-5I2RlKkXxFyKGXfQ=s900-c-k-c0x00ffffff-no-rj"
+    "image_url": "https://yt3.googleusercontent.com/K8RCF1Uh7SBjU2SAk76QZezv4vsnDzPxjY2w2WM2kW9AO7OkYhAfChPBq-5I2RlKkXxFyKGXfQ=s900-c-k-c0x00ffffff-no-rj",
+    "tags": [
+      "Market Design & Auctions",
+      "YouTube Channel"
+    ]
   },
   {
     "name": "Casual Inference Podcast",
     "description": "Lucy D'Agostino McGowan & Ellie Murray. Highly technical discussions on A/B testing, DAGs, and causal methods.",
     "category": "Causal Inference & ML",
     "url": "https://casualinfer.libsyn.com/",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Causal Inference & ML",
+      "Podcast Series"
+    ]
   },
   {
     "name": "EconTalk",
     "description": "Russ Roberts. The gold standard for long-form economic interviews. John List, Hal Varian, and more.",
     "category": "Strategy & Digital Platforms",
     "url": "https://www.econtalk.org/",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Strategy & Digital Platforms",
+      "Podcast Series"
+    ]
   },
   {
     "name": "Not So Standard Deviations",
     "description": "Roger Peng (UT Austin) and Hilary Parker (Stitch Fix, Etsy). Statistics and data science bridging academia and industry. On indefinite hiatus (May 2025). 190 episode archive.",
     "category": "Experimentation & Scaling",
     "url": "https://nssdeviations.com/",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Experimentation & Scaling",
+      "Podcast Series"
+    ]
   },
   {
     "name": "Freakonomics Radio",
     "description": "Economics applied to everything. Great for economic intuition and learning to communicate data insights.",
     "category": "Strategy & Digital Platforms",
     "url": "https://freakonomics.com/podcasts/",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Strategy & Digital Platforms",
+      "Podcast Series"
+    ]
   },
   {
     "name": "Capitalisn't Podcast",
     "description": "Luigi Zingales, Stigler Center. Premier series on tech competition featuring Lina Khan, Carl Shapiro, Tim Wu.",
     "category": "Antitrust & Competition",
     "url": "https://www.capitalisnt.com/",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Antitrust & Competition",
+      "Podcast Series"
+    ]
   },
   {
     "name": "Stigler Center",
@@ -338,154 +522,242 @@
     "category": "Antitrust & Competition",
     "url": "https://www.youtube.com/@StiglerCenter",
     "type": "YouTube Channel",
-    "image_url": "https://yt3.googleusercontent.com/SiRHAAUYCRUTOHNBxJ29p8symwvzbqn7MBra3g0ZizVtzOr7MBNSPJpbYg_RmGXaiOKcens6=s900-c-k-c0x00ffffff-no-rj"
+    "image_url": "https://yt3.googleusercontent.com/SiRHAAUYCRUTOHNBxJ29p8symwvzbqn7MBra3g0ZizVtzOr7MBNSPJpbYg_RmGXaiOKcens6=s900-c-k-c0x00ffffff-no-rj",
+    "tags": [
+      "Antitrust & Competition",
+      "YouTube Channel"
+    ]
   },
   {
     "name": "The Mixtape with Scott Cunningham",
     "description": "Causal inference and applied researcher careers. Features Susan Athey, Michael Luca, John List.",
     "category": "Causal Inference & ML",
     "url": "https://causalinf.substack.com/podcast",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Causal Inference & ML",
+      "Podcast Series"
+    ]
   },
   {
     "name": "Conversations with Tyler",
     "description": "Tyler Cowen's long-form interviews. applied analytics episodes with Hal Varian, Marc Andreessen, and more.",
     "category": "Strategy & Digital Platforms",
     "url": "https://conversationswithtyler.com/",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Strategy & Digital Platforms",
+      "Podcast Series"
+    ]
   },
   {
     "name": "HBS Managing the Future of Work",
     "description": "Bill Kerr, Joe Fuller. Erik Brynjolfsson on AI, gig economy series, and future of employment.",
     "category": "AI & Labor",
     "url": "https://www.hbs.edu/managing-the-future-of-work/podcast/",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "AI & Labor",
+      "Podcast Series"
+    ]
   },
   {
     "name": "Experimentation Masters",
     "description": "Gavin Bryant (First Principles Ventures). Product experimentation at major tech companies. Guests: Lukas Vermeer (Booking.com), Aleksander Fabijan (Microsoft), Michael Luca (HBS).",
     "category": "Experimentation & Scaling",
     "url": "https://www.firstprinciples.ventures/experimentation-masters-podcast",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Experimentation & Scaling",
+      "Podcast Series"
+    ]
   },
   {
     "name": "Experiment Nation",
     "description": "Rommil Santiago (Optimizely). Conversion rate optimization and experimentation. 171+ episodes, top 10% most-followed on Spotify.",
     "category": "Experimentation & Scaling",
     "url": "https://experimentnation.com/",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Experimentation & Scaling",
+      "Podcast Series"
+    ]
   },
   {
     "name": "The Visible Hand",
     "description": "Jordi Blanes i Vidal (LSE). Deep dives into academic papers in organizational and labor economics. Walks through empirical methodology in detail. 100+ episodes.",
     "category": "Causal Inference & ML",
     "url": "https://www.thevisiblehand.uk/",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Causal Inference & ML",
+      "Podcast Series"
+    ]
   },
   {
     "name": "Practical AI",
     "description": "Daniel Whitenack and Chris Benson. Applied AI implementation with exceptional causal inference episodes. Episode 220 with Paul H\u00fcnermund on Double ML and DiD.",
     "category": "Causal Inference & ML",
     "url": "https://practicalai.fm/",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Causal Inference & ML",
+      "Podcast Series"
+    ]
   },
   {
     "name": "The Pie (UChicago)",
     "description": "Becker Friedman Institute. Cutting-edge research on industrial organization, platforms, and competition economics with top Chicago economists.",
     "category": "Strategy & Digital Platforms",
     "url": "https://bfi.uchicago.edu/podcast/the-pie/",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Strategy & Digital Platforms",
+      "Podcast Series"
+    ]
   },
   {
     "name": "a16z Podcast",
     "description": "Andreessen Horowitz. VC perspective on marketplace economics, network effects, and market design. Prediction markets with Alex Tabarrok and Scott Duke Kominers.",
     "category": "Strategy & Digital Platforms",
     "url": "https://a16z.com/podcasts/",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Strategy & Digital Platforms",
+      "Podcast Series"
+    ]
   },
   {
     "name": "Odd Lots (Bloomberg)",
     "description": "Joe Weisenthal and Tracy Alloway. Finance, markets, and economics. Strong coverage of monetary policy and macro trends. 10+ years running.",
     "category": "Strategy & Digital Platforms",
     "url": "https://www.bloomberg.com/oddlots",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Strategy & Digital Platforms",
+      "Podcast Series"
+    ]
   },
   {
     "name": "Impact Pricing",
     "description": "Mark Stiving, Ph.D. Pricing strategy, analytics, and revenue optimization. B2B focus with behavioral pricing insights. Weekly episodes.",
     "category": "Pricing & Behavioral",
     "url": "https://podcasts.apple.com/us/podcast/impact-pricing/id1449435549",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Pricing & Behavioral",
+      "Podcast Series"
+    ]
   },
   {
     "name": "Pricing Heroes",
     "description": "Competera. AI-driven retail pricing optimization, dynamic pricing, and competitive pricing strategies. Guests from major retailers.",
     "category": "Pricing & Behavioral",
     "url": "https://podcasts.apple.com/us/podcast/pricing-heroes/id1649346598",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Pricing & Behavioral",
+      "Podcast Series"
+    ]
   },
   {
     "name": "Retail Pricing Insights",
     "description": "7Learnings. ML-driven pricing for retail. Guests from MediaMarkt Saturn, Deliveroo, and major retailers.",
     "category": "Pricing & Behavioral",
     "url": "https://7learnings.com/retail-pricing-insights-podcast/",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Pricing & Behavioral",
+      "Podcast Series"
+    ]
   },
   {
     "name": "Super Data Science",
     "description": "Jon Krohn. ML, AI, and data careers. 900+ episodes. Notable: Sean Taylor (Facebook/Lyft) on causal experimentation, Emre Kiciman (Microsoft) on DoWhy.",
     "category": "Causal Inference & ML",
     "url": "https://www.superdatascience.com/podcast",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Causal Inference & ML",
+      "Podcast Series"
+    ]
   },
   {
     "name": "TWIML AI",
     "description": "Sam Charrington. ML/AI research and applications. Susan Athey on ML in economics. Covers ML platforms at Netflix, Uber, Meta. Nearly 10M downloads.",
     "category": "Causal Inference & ML",
     "url": "https://twimlai.com/",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Causal Inference & ML",
+      "Podcast Series"
+    ]
   },
   {
     "name": "Data Skeptic",
     "description": "Kyle Polich. Critical thinking approach to data science and ML. Organized in thematic seasons. Recommender Systems season in 2025.",
     "category": "AI Economics & Labor",
     "url": "https://dataskeptic.com/",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "AI Economics & Labor",
+      "Podcast Series"
+    ]
   },
   {
     "name": "DataFramed (DataCamp)",
     "description": "Adel Nehme and Richie Cotton. How AI and data change business. Guests: Emily Oster (Brown), Bilal Mahmoud (Duolingo, MIT Econ PhD) on A/B testing at scale.",
     "category": "Experimentation & Scaling",
     "url": "https://www.datacamp.com/podcast",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Experimentation & Scaling",
+      "Podcast Series"
+    ]
   },
   {
     "name": "Macro Musings",
     "description": "David Beckworth (Mercatus Center). Macroeconomic issues with technical depth. Features central bankers and academic researchers. Includes transcripts.",
     "category": "Strategy & Digital Platforms",
     "url": "https://www.mercatus.org/macro-musings",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Strategy & Digital Platforms",
+      "Podcast Series"
+    ]
   },
   {
     "name": "Economics, Applied (Hoover)",
     "description": "Steven J. Davis (Stanford, Economic Policy Uncertainty index). Translating research into actionable insights. Guests: Claudia Goldin, Austan Goolsbee.",
     "category": "Strategy & Digital Platforms",
     "url": "https://www.hoover.org/podcasts/economics-applied",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Strategy & Digital Platforms",
+      "Podcast Series"
+    ]
   },
   {
     "name": "Planet Money (NPR)",
     "description": "Sarah Gonzalez, Kenny Malone, Jeff Guo. Peabody Award-winning economic storytelling. Used in undergraduate economics courses.",
     "category": "Strategy & Digital Platforms",
     "url": "https://www.npr.org/podcasts/510289/planet-money",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Strategy & Digital Platforms",
+      "Podcast Series"
+    ]
   },
   {
     "name": "The Brainy Business",
     "description": "Melina Palmer. Applying behavioral economics to marketing and business decisions. 500+ episodes on nudges, framing, and behavioral interventions.",
     "category": "Pricing & Behavioral",
     "url": "https://thebrainybusiness.com/",
-    "type": "Podcast Series"
+    "type": "Podcast Series",
+    "tags": [
+      "Pricing & Behavioral",
+      "Podcast Series"
+    ]
   },
   {
     "name": "Jonathan.Interviews: Data Science Careers & Causal Inference",
@@ -493,7 +765,11 @@
     "category": "Causal Inference & ML",
     "url": "https://www.youtube.com/@data-science-interviews",
     "type": "YouTube Channel",
-    "image_url": "https://yt3.googleusercontent.com/xV9goQewMVYFzlhcWTQvBmfG8bwRvHA12kp_hX__Ocaqv-C7d0KfDRzH7u3hBMVpB6a-OHgZ=s900-c-k-c0x00ffffff-no-rj"
+    "image_url": "https://yt3.googleusercontent.com/xV9goQewMVYFzlhcWTQvBmfG8bwRvHA12kp_hX__Ocaqv-C7d0KfDRzH7u3hBMVpB6a-OHgZ=s900-c-k-c0x00ffffff-no-rj",
+    "tags": [
+      "Causal Inference & ML",
+      "YouTube Channel"
+    ]
   },
   {
     "name": "Causal Bandits Podcast (Alex Molak)",
@@ -501,7 +777,11 @@
     "category": "Causal Inference & ML",
     "url": "https://www.youtube.com/@CausalPython",
     "type": "YouTube Channel",
-    "image_url": "https://yt3.googleusercontent.com/hsqOl63Hph3bYOYeJln29Tis_GGy4Dc5HegzzV2Wo1o1SR5yx8emxB8lqmosb1Qj3SjrDHV4=s900-c-k-c0x00ffffff-no-rj"
+    "image_url": "https://yt3.googleusercontent.com/hsqOl63Hph3bYOYeJln29Tis_GGy4Dc5HegzzV2Wo1o1SR5yx8emxB8lqmosb1Qj3SjrDHV4=s900-c-k-c0x00ffffff-no-rj",
+    "tags": [
+      "Causal Inference & ML",
+      "YouTube Channel"
+    ]
   },
   {
     "name": "Online Causal Inference Seminar",
@@ -509,7 +789,11 @@
     "category": "Causal Inference & ML",
     "url": "https://www.youtube.com/@onlinecausalinferencesemin2364",
     "type": "YouTube Channel",
-    "image_url": "https://yt3.googleusercontent.com/ytc/AIdro_mXeIz4G4xFFr6sGMdVO3QPWTM9_ujBs78q3CxbGP4=s900-c-k-c0x00ffffff-no-rj"
+    "image_url": "https://yt3.googleusercontent.com/ytc/AIdro_mXeIz4G4xFFr6sGMdVO3QPWTM9_ujBs78q3CxbGP4=s900-c-k-c0x00ffffff-no-rj",
+    "tags": [
+      "Causal Inference & ML",
+      "YouTube Channel"
+    ]
   },
   {
     "name": "Econ AI Podcast",
@@ -517,7 +801,11 @@
     "category": "Causal Inference & ML",
     "url": "https://www.youtube.com/@econaipodcast",
     "type": "YouTube Channel",
-    "image_url": "https://yt3.googleusercontent.com/atKhfCQx0gQJoMRYQrBHMgBF9i1P9MZy-PeDf784p0_9tZfgbZghNO_A1ZLJppNzEKSYcVfb=s900-c-k-c0x00ffffff-no-rj"
+    "image_url": "https://yt3.googleusercontent.com/atKhfCQx0gQJoMRYQrBHMgBF9i1P9MZy-PeDf784p0_9tZfgbZghNO_A1ZLJppNzEKSYcVfb=s900-c-k-c0x00ffffff-no-rj",
+    "tags": [
+      "Causal Inference & ML",
+      "YouTube Channel"
+    ]
   },
   {
     "name": "Brady Neal: Causal Inference Course",
@@ -525,7 +813,11 @@
     "category": "Causal Inference & ML",
     "url": "https://www.youtube.com/@BradyNealCausalInference",
     "type": "YouTube Channel",
-    "image_url": "https://yt3.googleusercontent.com/ytc/AIdro_kBxEEeyM3fs6Yfr0Sl83lgbmNmgXmpCzMt0bQftlzrwg=s900-c-k-c0x00ffffff-no-rj"
+    "image_url": "https://yt3.googleusercontent.com/ytc/AIdro_kBxEEeyM3fs6Yfr0Sl83lgbmNmgXmpCzMt0bQftlzrwg=s900-c-k-c0x00ffffff-no-rj",
+    "tags": [
+      "Causal Inference & ML",
+      "YouTube Channel"
+    ]
   },
   {
     "name": "Aki Vehtari: Bayesian Data Analysis",
@@ -533,7 +825,11 @@
     "category": "Causal Inference & ML",
     "url": "https://www.youtube.com/@aki_vehtari_aalto",
     "type": "YouTube Channel",
-    "image_url": "https://yt3.googleusercontent.com/ytc/AIdro_l1bYufCxfgRlo5tUKVjfHNuN_Cr_D5dvgLNQxzIFXjP28=s900-c-k-c0x00ffffff-no-rj"
+    "image_url": "https://yt3.googleusercontent.com/ytc/AIdro_l1bYufCxfgRlo5tUKVjfHNuN_Cr_D5dvgLNQxzIFXjP28=s900-c-k-c0x00ffffff-no-rj",
+    "tags": [
+      "Causal Inference & ML",
+      "YouTube Channel"
+    ]
   },
   {
     "name": "NBER: Methods Lectures & Feldstein Lectures",
@@ -541,7 +837,11 @@
     "category": "Causal Inference & ML",
     "url": "https://www.youtube.com/@NBERvideos",
     "type": "YouTube Channel",
-    "image_url": "https://yt3.googleusercontent.com/ytc/AIdro_l2BjgFAWxin4xHSe_ABlz34ehSwxov5hLZCweRwVb0Rg=s900-c-k-c0x00ffffff-no-rj"
+    "image_url": "https://yt3.googleusercontent.com/ytc/AIdro_l2BjgFAWxin4xHSe_ABlz34ehSwxov5hLZCweRwVb0Rg=s900-c-k-c0x00ffffff-no-rj",
+    "tags": [
+      "Causal Inference & ML",
+      "YouTube Channel"
+    ]
   },
   {
     "name": "MAD Seminar: Marketplace Algorithms & Design",
@@ -549,7 +849,11 @@
     "category": "Market Design & Auctions",
     "url": "https://www.youtube.com/channel/UCe9KREYNZuvgnDe0lQWi6Vw",
     "type": "YouTube Channel",
-    "image_url": "https://yt3.googleusercontent.com/ytc/AIdro_m3M8rHIEHjIjOTnfq-RCq5JjQx0EZ-1kuPr0Rj2kdylA=s900-c-k-c0x00ffffff-no-rj"
+    "image_url": "https://yt3.googleusercontent.com/ytc/AIdro_m3M8rHIEHjIjOTnfq-RCq5JjQx0EZ-1kuPr0Rj2kdylA=s900-c-k-c0x00ffffff-no-rj",
+    "tags": [
+      "Market Design & Auctions",
+      "YouTube Channel"
+    ]
   },
   {
     "name": "MIT CODE: Conference on Digital Experimentation",
@@ -557,21 +861,33 @@
     "category": "Experimentation & Scaling",
     "url": "https://www.youtube.com/channel/UC8DqDLFZCni7Jkys3N3818w",
     "type": "YouTube Channel",
-    "image_url": "https://yt3.googleusercontent.com/ytc/AIdro_nkkbgHM7EDSWEvfUMX-fhTwraTDTyOsr7e7sQB6WMPvg=s900-c-k-c0x00ffffff-no-rj"
+    "image_url": "https://yt3.googleusercontent.com/ytc/AIdro_nkkbgHM7EDSWEvfUMX-fhTwraTDTyOsr7e7sQB6WMPvg=s900-c-k-c0x00ffffff-no-rj",
+    "tags": [
+      "Experimentation & Scaling",
+      "YouTube Channel"
+    ]
   },
   {
     "name": "Statsig",
     "description": "Experimentation platform tutorials, customer stories, and webinars on A/B testing, feature flags, and product analytics.",
     "category": "Experimentation & Scaling",
     "url": "https://www.youtube.com/@statsig_official",
-    "type": "YouTube Channel"
+    "type": "YouTube Channel",
+    "tags": [
+      "Experimentation & Scaling",
+      "YouTube Channel"
+    ]
   },
   {
-    "name": "课代表立正 (Yuzheng Sun)",
+    "name": "\u8bfe\u4ee3\u8868\u7acb\u6b63 (Yuzheng Sun)",
     "description": "Ex-Statsig Evangelist, ex-Tencent VP, PhD Cornell. Chinese-language content on data science, growth, A/B testing, and AI. 300K+ followers. Interviews top AI experts.",
     "category": "Experimentation & Scaling",
     "url": "https://www.youtube.com/@kedaibiao",
-    "type": "YouTube Channel"
+    "type": "YouTube Channel",
+    "tags": [
+      "Experimentation & Scaling",
+      "YouTube Channel"
+    ]
   },
   {
     "name": "AEA Webcasts",
@@ -579,118 +895,186 @@
     "category": "Causal Inference & ML",
     "url": "https://www.youtube.com/@AEA",
     "type": "YouTube Channel",
-    "image_url": "https://yt3.googleusercontent.com/ZwJAc5ddntUzpj3zssLL103IFGw7SbG206lkV7jpsiy_hnT9vk2P_LKdobz5DZb4wL5gStOb1nQ=s900-c-k-c0x00ffffff-no-rj"
+    "image_url": "https://yt3.googleusercontent.com/ZwJAc5ddntUzpj3zssLL103IFGw7SbG206lkV7jpsiy_hnT9vk2P_LKdobz5DZb4wL5gStOb1nQ=s900-c-k-c0x00ffffff-no-rj",
+    "tags": [
+      "Causal Inference & ML",
+      "YouTube Channel"
+    ]
   },
   {
     "name": "Economics of AI",
     "description": "NBER conference recordings on artificial intelligence and economics. Research presentations on AI labor markets, productivity, and automation.",
     "category": "AI & Labor",
     "url": "https://www.nber.org/programs-projects/projects-and-centers/8470-digital-economics-and-artificial-intelligence-2023-2025",
-    "type": "Video Series"
+    "type": "Video Series",
+    "tags": [
+      "AI & Labor",
+      "Video Series"
+    ]
   },
   {
     "name": "Causal Inference (Wager)",
     "description": "Stefan Wager's Stanford STATS 361 notes. Causal forests, HTE, and prescriptive policy learning \u2014 the exact tools used in tech companies.",
     "category": "Monographs",
     "url": "https://web.stanford.edu/~swager/stats361.pdf",
-    "type": "Lecture Notes"
+    "type": "Lecture Notes",
+    "tags": [
+      "Monographs",
+      "Lecture Notes"
+    ]
   },
   {
     "name": "Advanced Data Analysis (Shalizi)",
     "description": "Cosma Shalizi's 600-page CMU manuscript. Geometry of regression, DAGs, heavy-tailed distributions. Mercilessly rigorous yet chatty.",
     "category": "Monographs",
     "url": "https://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/",
-    "type": "Manuscript"
+    "type": "Manuscript",
+    "tags": [
+      "Monographs",
+      "Manuscript"
+    ]
   },
   {
     "name": "Patterns, Predictions, and Actions",
     "description": "Hardt & Recht's living book grounding ML in decision theory. Why models fail in the real world and how to think about prediction as action.",
     "category": "Monographs",
     "url": "https://mlstory.org/",
-    "type": "Online Book"
+    "type": "Online Book",
+    "tags": [
+      "Monographs",
+      "Online Book"
+    ]
   },
   {
     "name": "Geometric Deep Learning",
     "description": "Bronstein et al.'s proto-book unifying CNNs, GNNs, and Transformers under symmetry and group theory. The GNN bible.",
     "category": "Monographs",
     "url": "https://arxiv.org/abs/2104.13478",
-    "type": "Monograph"
+    "type": "Monograph",
+    "tags": [
+      "Monographs",
+      "Monograph"
+    ]
   },
   {
     "name": "Probabilistic Modeling Case Studies",
     "description": "Michael Betancourt's Stan case studies. HMC geometry, divergences, hierarchical modeling \u2014 the Bayesian technical standard.",
     "category": "Monographs",
     "url": "https://betanalpha.github.io/writing/",
-    "type": "Case Studies"
+    "type": "Case Studies",
+    "tags": [
+      "Monographs",
+      "Case Studies"
+    ]
   },
   {
     "name": "Bandit Algorithms",
     "description": "Lattimore & Szepesv\u00e1ri's definitive reference. UCB, Thompson Sampling, Contextual Bandits \u2014 experimentation beyond A/B testing.",
     "category": "Monographs",
     "url": "https://tor-lattimore.com/downloads/book/book.pdf",
-    "type": "Book"
+    "type": "Book",
+    "tags": [
+      "Monographs",
+      "Book"
+    ]
   },
   {
     "name": "RL: Theory and Algorithms",
     "description": "Agarwal, Jiang, Kakade's working draft. Statistical learning theory of RL \u2014 'How many samples to learn this policy?'",
     "category": "Monographs",
     "url": "https://rltheorybook.github.io/",
-    "type": "Draft"
+    "type": "Draft",
+    "tags": [
+      "Monographs",
+      "Draft"
+    ]
   },
   {
     "name": "Causal Inference and ML (Imbens)",
     "description": "Guido Imbens' Nobel lectures. Matrix completion for synthetic controls, the rigorous foundation for tech metrics.",
     "category": "Monographs",
     "url": "https://www.nobelprize.org/uploads/2024/11/imbens-lecture.pdf",
-    "type": "Lecture"
+    "type": "Lecture",
+    "tags": [
+      "Monographs",
+      "Lecture"
+    ]
   },
   {
     "name": "Double ML (Chernozhukov)",
     "description": "Belloni & Chernozhukov on Post-Double Selection Lasso. Use ML as controls while getting valid p-values.",
     "category": "Monographs",
     "url": "https://arxiv.org/abs/1608.00060",
-    "type": "Paper"
+    "type": "Paper",
+    "tags": [
+      "Monographs",
+      "Paper"
+    ]
   },
   {
     "name": "Econometrics (Hansen)",
     "description": "Bruce Hansen's modern reference. Asymptotics, cluster-robust SEs, panel data \u2014 the technical backbone.",
     "category": "Monographs",
     "url": "https://www.ssc.wisc.edu/~bhansen/econometrics/",
-    "type": "Book"
+    "type": "Book",
+    "tags": [
+      "Monographs",
+      "Book"
+    ]
   },
   {
     "name": "Microeconomic Theory (Rubinstein)",
     "description": "Ariel Rubinstein's free lecture notes. Game theory, rational choice, bargaining \u2014 for mechanism design work.",
     "category": "Monographs",
     "url": "https://arielrubinstein.tau.ac.il/books.html",
-    "type": "Lecture Notes"
+    "type": "Lecture Notes",
+    "tags": [
+      "Monographs",
+      "Lecture Notes"
+    ]
   },
   {
     "name": "Market Design (Roth)",
     "description": "Alvin Roth's Nobel lecture on matching markets. Stability, unraveling \u2014 essential for marketplace analytics.",
     "category": "Monographs",
     "url": "https://www.nobelprize.org/uploads/2018/06/roth-lecture.pdf",
-    "type": "Lecture"
+    "type": "Lecture",
+    "tags": [
+      "Monographs",
+      "Lecture"
+    ]
   },
   {
     "name": "Staff Engineer (Will Larson)",
     "description": "Technical leadership, glue work, and navigating org complexity. Essential for senior ICs in tech.",
     "category": "Monographs",
     "url": "https://staffeng.com/book",
-    "type": "Book"
+    "type": "Book",
+    "tags": [
+      "Monographs",
+      "Book"
+    ]
   },
   {
     "name": "Designing Data-Intensive Applications",
     "description": "Martin Kleppmann's engineering bible. Stream vs batch, distributed systems, and data infrastructure.",
     "category": "Monographs",
     "url": "https://dataintensive.net/",
-    "type": "Book"
+    "type": "Book",
+    "tags": [
+      "Monographs",
+      "Book"
+    ]
   },
   {
     "name": "Aryma Labs",
     "description": "Data Science firm specializing in Marketing analytics. Features 'The Casual Causal Talk' series with causal inference experts (Matheus Facure, Stephan Kolassa) and 'The Marketing Mix - Unmixed' series on Marketing Mix Modeling.",
     "category": "Causal Inference & ML",
     "url": "https://www.youtube.com/@arymalabsmmm101",
-    "type": "YouTube Channel"
+    "type": "YouTube Channel",
+    "tags": [
+      "Causal Inference & ML",
+      "YouTube Channel"
+    ]
   }
 ]
