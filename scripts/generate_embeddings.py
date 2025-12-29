@@ -31,7 +31,7 @@ def get_model():
         sys.exit(1)
 
 
-# Data files to process
+# Data files to process (flat structure)
 DATA_FILES = [
     "packages.json",
     "datasets.json",
@@ -40,7 +40,8 @@ DATA_FILES = [
     "career.json",
     "community.json",
     "roadmaps.json",
-    "books.json"
+    "books.json",
+    "domains.json"
 ]
 
 # Map file to type
@@ -52,18 +53,53 @@ FILE_TO_TYPE = {
     "career.json": "career",
     "community.json": "community",
     "roadmaps.json": "roadmap",
-    "books.json": "book"
+    "books.json": "book",
+    "domains.json": "domain"
 }
+
+# Files with nested structure (require special handling)
+NESTED_FILES = ["papers.json"]
 
 
 def compute_content_hash(data_dir: Path) -> str:
     """Compute SHA256 hash of all data files for change detection."""
     hasher = hashlib.sha256()
-    for filename in sorted(DATA_FILES):
+    all_files = sorted(DATA_FILES + NESTED_FILES)
+    for filename in all_files:
         filepath = data_dir / filename
         if filepath.exists():
             hasher.update(filepath.read_bytes())
     return hasher.hexdigest()[:16]
+
+
+def load_papers(data_dir: Path) -> List[Dict[str, Any]]:
+    """Load papers from nested papers.json structure (topics -> subtopics -> papers)."""
+    filepath = data_dir / "papers.json"
+    if not filepath.exists():
+        print(f"Warning: papers.json not found, skipping")
+        return []
+
+    with open(filepath) as f:
+        data = json.load(f)
+
+    items = []
+    for topic in data.get('topics', []):
+        topic_name = topic.get('name', '')
+        for subtopic in topic.get('subtopics', []):
+            subtopic_name = subtopic.get('name', '')
+            for paper in subtopic.get('papers', []):
+                items.append({
+                    'name': paper.get('title', ''),
+                    'description': paper.get('description', ''),
+                    'category': f"{topic_name} > {subtopic_name}",
+                    'url': paper.get('url', ''),
+                    'authors': paper.get('authors', ''),
+                    'year': paper.get('year', ''),
+                    'tags': '',
+                    'best_for': ''
+                })
+
+    return items
 
 
 def should_regenerate(output_dir: Path, data_dir: Path, force: bool) -> bool:
@@ -166,6 +202,41 @@ def load_all_items(data_dir: Path) -> List[Dict[str, Any]]:
                 "best_for": item.get("best_for", ""),
                 "text_for_embedding": combine_text_for_embedding(item)
             })
+
+    # Load papers (nested structure)
+    papers = load_papers(data_dir)
+    for paper in papers:
+        # Create a unique ID for each paper
+        base_id = f"paper-{paper.get('name', 'unknown')}".lower()
+        base_id = base_id.replace(" ", "-").replace("/", "-")[:100]
+
+        # Handle duplicate IDs by appending a counter
+        item_id = base_id
+        if base_id in seen_ids:
+            seen_ids[base_id] += 1
+            item_id = f"{base_id}-{seen_ids[base_id]}"
+        else:
+            seen_ids[base_id] = 0
+
+        # Build tags from authors and year
+        tags_parts = ["paper"]
+        if paper.get("authors"):
+            tags_parts.append(paper["authors"])
+        if paper.get("year"):
+            tags_parts.append(str(paper["year"]))
+        tags_str = ", ".join(tags_parts)
+
+        all_items.append({
+            "id": item_id,
+            "type": "paper",
+            "name": paper.get("name", ""),
+            "description": paper.get("description", ""),
+            "category": paper.get("category", ""),
+            "url": paper.get("url", ""),
+            "tags": tags_str,
+            "best_for": "",
+            "text_for_embedding": combine_text_for_embedding(paper)
+        })
 
     return all_items
 
