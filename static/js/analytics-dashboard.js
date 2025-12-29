@@ -6,6 +6,7 @@
   'use strict';
 
   var pageviewChart = null;
+  var hourlyChart = null;
 
   // Country flag emoji mapping
   var countryFlags = {
@@ -118,6 +119,12 @@
     allClicks.sort(function(a, b) { return b.count - a.count; });
     renderList('list-clicks', allClicks.slice(0, 10));
 
+    // Render external links
+    renderList('list-external', data.externalLinks || []);
+
+    // Render hourly activity chart
+    renderHourlyChart(data.hourlyActivity || {});
+
     // Render performance
     renderVitals(data.performance || {});
 
@@ -177,6 +184,69 @@
           x: {
             grid: { color: gridColor },
             ticks: { color: textColor }
+          },
+          y: {
+            beginAtZero: true,
+            grid: { color: gridColor },
+            ticks: { color: textColor }
+          }
+        }
+      }
+    });
+  }
+
+  function renderHourlyChart(hourlyData) {
+    var ctx = document.getElementById('chart-hourly');
+    if (!ctx) return;
+
+    // Create labels for 24 hours
+    var labels = [];
+    var values = [];
+    for (var h = 0; h < 24; h++) {
+      labels.push(h + ':00');
+      values.push(hourlyData[h] || 0);
+    }
+
+    // Destroy existing chart
+    if (hourlyChart) {
+      hourlyChart.destroy();
+    }
+
+    // Get CSS custom properties for theming
+    var style = getComputedStyle(document.documentElement);
+    var textColor = style.getPropertyValue('--text-muted').trim() || '#6b7280';
+    var gridColor = style.getPropertyValue('--border-color').trim() || '#e5e7eb';
+    var accentColor = '#10b981'; // Green for hourly
+
+    hourlyChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: labels,
+        datasets: [{
+          label: 'Activity',
+          data: values,
+          backgroundColor: accentColor + '80',
+          borderColor: accentColor,
+          borderWidth: 1
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        plugins: {
+          legend: { display: false }
+        },
+        scales: {
+          x: {
+            grid: { display: false },
+            ticks: {
+              color: textColor,
+              maxRotation: 0,
+              callback: function(val, index) {
+                // Show every 3rd hour
+                return index % 3 === 0 ? this.getLabelForValue(val) : '';
+              }
+            }
           },
           y: {
             beginAtZero: true,

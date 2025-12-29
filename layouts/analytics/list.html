@@ -40,6 +40,12 @@
                     <li class="placeholder">-</li>
                 </ol>
             </div>
+            <div class="top-card">
+                <h3>External Links Clicked</h3>
+                <ol id="list-external" class="top-list">
+                    <li class="placeholder">-</li>
+                </ol>
+            </div>
         </section>
 
         <!-- 2. MIDDLE SECTION: Stats & Chart -->
@@ -70,6 +76,10 @@
             <div class="chart-card">
                 <h3>Daily Page Views</h3>
                 <canvas id="chart-pageviews"></canvas>
+            </div>
+            <div class="chart-card">
+                <h3>Activity by Hour (UTC)</h3>
+                <canvas id="chart-hourly"></canvas>
             </div>
         </section>
 
@@ -123,18 +133,10 @@
 
 <!-- Analytics Dashboard CSS -->
 <style>
-.hero-analytics {
-    background: transparent;
-    padding: 1.5rem 0 0.5rem;
-    text-align: center;
-    margin-bottom: 0;
-}
-
 .hero-analytics h1 {
     font-size: 2.5rem;
     font-weight: 700;
     margin: 0;
-    color: #1a1a1a;
     letter-spacing: -0.02em;
 }
 

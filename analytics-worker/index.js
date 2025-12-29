@@ -188,6 +188,8 @@ function aggregateEvents(events, now) {
       learning: {},
       other: {}
     },
+    externalLinks: {},  // Track external link clicks
+    hourlyActivity: {},  // Track activity by hour (0-23)
     dailyPageviews: {},
     countries: {},
     _countryBySid: {},  // Track unique country+session pairs
@@ -237,6 +239,13 @@ function aggregateEvents(events, now) {
           const bucket = stats.topClicks[section] || stats.topClicks.other;
           bucket[event.d.name] = (bucket[event.d.name] || 0) + 1;
         }
+        // Track external link clicks
+        if (event.d?.type === 'external' && event.d?.text) {
+          const linkText = event.d.text.trim().toLowerCase();
+          if (linkText) {
+            stats.externalLinks[linkText] = (stats.externalLinks[linkText] || 0) + 1;
+          }
+        }
         break;
 
       case 'engage':
@@ -264,6 +273,12 @@ function aggregateEvents(events, now) {
         stats.countries[event._country] = (stats.countries[event._country] || 0) + 1;
       }
     }
+
+    // Track hourly activity (for pageviews only)
+    if (event.t === 'pageview' && event.ts) {
+      const hour = new Date(event.ts).getUTCHours();
+      stats.hourlyActivity[hour] = (stats.hourlyActivity[hour] || 0) + 1;
+    }
   }
 
   // Calculate averages
@@ -278,6 +293,7 @@ function aggregateEvents(events, now) {
   stats.topClicks.packages = sortAndLimit(stats.topClicks.packages, 10);
   stats.topClicks.datasets = sortAndLimit(stats.topClicks.datasets, 10);
   stats.topClicks.learning = sortAndLimit(stats.topClicks.learning, 10);
+  stats.externalLinks = sortAndLimit(stats.externalLinks, 10);
   stats.countries = sortAndLimit(stats.countries, 10);
 
   // Calculate performance averages
