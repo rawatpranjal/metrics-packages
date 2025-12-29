@@ -31,8 +31,16 @@
                 currentUser = session?.user || null;
                 if (currentUser) {
                     loadUserFavorites();
+                    // Reload favorites page if on that page
+                    if (window.reloadFavoritesPage) {
+                        window.reloadFavoritesPage();
+                    }
                 } else {
                     userFavorites.clear();
+                    // Also reload favorites page when logged out
+                    if (window.reloadFavoritesPage) {
+                        window.reloadFavoritesPage();
+                    }
                 }
                 updateAuthUI();
                 updateFavoriteButtons();

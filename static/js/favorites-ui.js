@@ -100,6 +100,9 @@
         const container = document.getElementById('favorites-list');
         if (!container) return;
 
+        // Track if we've loaded favorites
+        let favoritesLoaded = false;
+
         // Load all data for lookups
         let allData = {};
         const dataScript = document.getElementById('all-data');
@@ -252,16 +255,40 @@
             }
         };
 
-        // Load on page load and auth change
-        loadFavorites();
+        // Expose loadFavorites for external trigger (auth state changes)
+        window.reloadFavoritesPage = loadFavorites;
 
-        // Re-load when auth state changes
-        const checkAuth = setInterval(() => {
+        // Wait for auth to be ready before first load
+        function waitForAuthAndLoad() {
+            // Check if TechEconAuth exists and has a user
             if (window.TechEconAuth) {
-                clearInterval(checkAuth);
-                // Already loaded above, but will reload on auth change via supabase-client
+                loadFavorites();
+                favoritesLoaded = true;
+            } else {
+                // Wait for auth to initialize
+                const checkAuth = setInterval(() => {
+                    if (window.TechEconAuth) {
+                        clearInterval(checkAuth);
+                        if (!favoritesLoaded) {
+                            loadFavorites();
+                            favoritesLoaded = true;
+                        }
+                    }
+                }, 100);
+
+                // Timeout fallback - load anyway after 2 seconds
+                setTimeout(() => {
+                    clearInterval(checkAuth);
+                    if (!favoritesLoaded) {
+                        loadFavorites();
+                        favoritesLoaded = true;
+                    }
+                }, 2000);
             }
-        }, 100);
+        }
+
+        // Start loading
+        waitForAuthAndLoad();
     }
 
     // Initialize when DOM is ready
