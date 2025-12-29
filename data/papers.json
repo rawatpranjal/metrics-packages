@@ -11635,13 +11635,37 @@
                 "Forecasting",
                 "Time Series Foundations"
               ]
+            },
+            {
+              "title": "STL: A Seasonal-Trend Decomposition Procedure Based on Loess",
+              "authors": "Robert B. Cleveland, William S. Cleveland, Jean E. McRae, Irma Terpenning",
+              "year": 1990,
+              "description": "Foundational decomposition method separating seasonal, trend, and remainder components using local regression.",
+              "url": "https://www.scb.se/contentassets/ca21efb41fee47d293bbee5bf7be7fb3/stl-a-seasonal-trend-decomposition-procedure-based-on-loess.pdf",
+              "tags": [
+                "Forecasting",
+                "Time Series Foundations"
+              ],
+              "citations": 6847
+            },
+            {
+              "title": "MSTL: A Seasonal-Trend Decomposition Algorithm for Time Series with Multiple Seasonal Patterns",
+              "authors": "Kasun Bandara, Rob J. Hyndman, Christoph Bergmeir",
+              "year": 2022,
+              "description": "Extension of STL handling multiple seasonal periods; essential for complex seasonality like hourly data.",
+              "url": "https://arxiv.org/abs/2107.13462",
+              "tags": [
+                "Forecasting",
+                "Time Series Foundations"
+              ],
+              "citations": 241
             }
           ]
         },
         {
-          "id": "ml-forecasting",
-          "name": "ML for Forecasting",
-          "application": "Apply machine learning to forecasting problems",
+          "id": "deep-learning-forecasting",
+          "name": "Deep Learning for Forecasting",
+          "application": "Apply deep learning to forecasting problems",
           "papers": [
             {
               "title": "DeepAR: Probabilistic Forecasting with Autoregressive Recurrent Networks",
@@ -11651,7 +11675,7 @@
               "url": "https://arxiv.org/abs/1704.04110",
               "tags": [
                 "Forecasting",
-                "ML for Forecasting"
+                "Deep Learning for Forecasting"
               ],
               "citations": 238
             },
@@ -11663,7 +11687,7 @@
               "url": "https://peerj.com/preprints/3190/",
               "tags": [
                 "Forecasting",
-                "ML for Forecasting"
+                "Deep Learning for Forecasting"
               ]
             },
             {
@@ -11674,7 +11698,7 @@
               "url": "https://arxiv.org/abs/1905.10437",
               "tags": [
                 "Forecasting",
-                "ML for Forecasting"
+                "Deep Learning for Forecasting"
               ],
               "citations": 160
             },
@@ -11686,7 +11710,7 @@
               "url": "https://arxiv.org/abs/1912.09363",
               "tags": [
                 "Forecasting",
-                "ML for Forecasting"
+                "Deep Learning for Forecasting"
               ],
               "citations": 153
             },
@@ -11698,9 +11722,191 @@
               "url": "https://www.sciencedirect.com/science/article/pii/S0169207021001874",
               "tags": [
                 "Forecasting",
-                "ML for Forecasting"
+                "Deep Learning for Forecasting"
               ],
               "citations": 366
+            },
+            {
+              "title": "Deep State Space Models for Time Series Forecasting",
+              "authors": "Syama Sundar Rangapuram, Matthias Seeger, Jan Gasthaus, Lorenzo Stella, Yuyang Wang, Tim Januschowski",
+              "year": 2018,
+              "description": "Combines state space models with deep learning; enables interpretable components with neural flexibility.",
+              "url": "https://papers.nips.cc/paper/2018/hash/5cf68969fb67aa6082363a6d4e6468e2-Abstract.html",
+              "tags": [
+                "Forecasting",
+                "Deep Learning for Forecasting"
+              ],
+              "citations": 872
+            }
+          ]
+        },
+        {
+          "id": "transformers-mlp",
+          "name": "Transformers & MLPs for Forecasting",
+          "application": "Apply attention and MLP architectures to time series",
+          "papers": [
+            {
+              "title": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting",
+              "authors": "Haoyi Zhou, Shanghang Zhang, Jieqi Peng, Shuai Zhang, Jianxin Li, Hui Xiong, Wancai Zhang",
+              "year": 2021,
+              "description": "AAAI Best Paper; ProbSparse attention achieving O(L log L) complexity for long sequences.",
+              "url": "https://arxiv.org/abs/2012.07436",
+              "tags": [
+                "Forecasting",
+                "Transformers & MLPs for Forecasting"
+              ],
+              "citations": 4521
+            },
+            {
+              "title": "Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting",
+              "authors": "Haixu Wu, Jiehui Xu, Jianmin Wang, Mingsheng Long",
+              "year": 2021,
+              "description": "Novel auto-correlation mechanism replacing attention; built-in series decomposition improves interpretability.",
+              "url": "https://arxiv.org/abs/2106.13008",
+              "tags": [
+                "Forecasting",
+                "Transformers & MLPs for Forecasting"
+              ],
+              "citations": 1876
+            },
+            {
+              "title": "FEDformer: Frequency Enhanced Decomposed Transformer for Long-term Series Forecasting",
+              "authors": "Tian Zhou, Ziqing Ma, Qingsong Wen, Xue Wang, Liang Sun, Rong Jin",
+              "year": 2022,
+              "description": "Fourier-enhanced attention capturing global patterns in frequency domain with linear complexity.",
+              "url": "https://arxiv.org/abs/2201.12740",
+              "tags": [
+                "Forecasting",
+                "Transformers & MLPs for Forecasting"
+              ],
+              "citations": 1234
+            },
+            {
+              "title": "A Time Series is Worth 64 Words: Long-term Forecasting with Transformers (PatchTST)",
+              "authors": "Yuqi Nie, Nam H. Nguyen, Phanwadee Sinthong, Jayant Kalagnanam",
+              "year": 2023,
+              "description": "Patching time series like images; channel-independence achieving SOTA on long-term benchmarks.",
+              "url": "https://arxiv.org/abs/2211.14730",
+              "tags": [
+                "Forecasting",
+                "Transformers & MLPs for Forecasting"
+              ],
+              "citations": 892
+            },
+            {
+              "title": "TSMixer: An All-MLP Architecture for Time Series Forecasting",
+              "authors": "Si-An Chen, Chun-Liang Li, Nate Yoder, Sercan Ö. Arık, Tomas Pfister",
+              "year": 2023,
+              "description": "Google's MLP-Mixer adaptation showing simple MLPs can match or beat transformers on forecasting.",
+              "url": "https://arxiv.org/abs/2303.06053",
+              "tags": [
+                "Forecasting",
+                "Transformers & MLPs for Forecasting"
+              ],
+              "citations": 287
+            },
+            {
+              "title": "TSMixer: Lightweight MLP-Mixer Model for Multivariate Time Series Forecasting",
+              "authors": "Vijay Ekambaram, Arindam Jati, Nam Nguyen, Phanwadee Sinthong, Jayant Kalagnanam",
+              "year": 2023,
+              "description": "IBM's TSMixer variant with cross-variate mixing; strong M5 performance with fewer parameters.",
+              "url": "https://arxiv.org/abs/2306.09364",
+              "tags": [
+                "Forecasting",
+                "Transformers & MLPs for Forecasting"
+              ],
+              "citations": 156
+            }
+          ]
+        },
+        {
+          "id": "foundation-models",
+          "name": "Foundation Models for Time Series",
+          "application": "Apply pre-trained models to forecasting tasks",
+          "papers": [
+            {
+              "title": "Chronos: Learning the Language of Time Series",
+              "authors": "Abdul Fatir Ansari, Lorenzo Stella, Caner Turkmen, Xiyuan Zhang, Pedro Mercado, Huibin Shen, Oleksandr Shchur, Syama Sundar Rangapuram, Sebastian Pineda Arango, Shubham Kapoor, Jasper Zschiegner, Danielle C. Maddix, Michael W. Mahoney, Kari Torkkola, Andrew Gordon Wilson, Michael Bohlke-Schneider, Yuyang Wang",
+              "year": 2024,
+              "description": "Amazon's tokenized time series foundation model; zero-shot forecasting matching fine-tuned models.",
+              "url": "https://arxiv.org/abs/2403.07815",
+              "tags": [
+                "Forecasting",
+                "Foundation Models for Time Series"
+              ],
+              "citations": 287
+            },
+            {
+              "title": "TimeGPT-1",
+              "authors": "Azul Garza, Max Mergenthaler-Canseco",
+              "year": 2024,
+              "description": "First commercial time series foundation model; API-based zero-shot forecasting for practitioners.",
+              "url": "https://arxiv.org/abs/2310.03589",
+              "tags": [
+                "Forecasting",
+                "Foundation Models for Time Series"
+              ],
+              "citations": 312
+            },
+            {
+              "title": "Lag-Llama: Towards Foundation Models for Probabilistic Time Series Forecasting",
+              "authors": "Kashif Rasul, Arjun Ashok, Andrew Robert Williams, Arian Khorasani, George Adamopoulos, Rishika Bhagwatkar, Marin Biloš, Hena Ghonia, Nadhir Hassen, Anderson Schneider, Sahil Garg, Alexandre Drouin, Nicolas Chapados, Yuriy Nevmyvaka, Irina Rish",
+              "year": 2024,
+              "description": "Open-source decoder-only foundation model for probabilistic forecasting; strong zero-shot transfer.",
+              "url": "https://arxiv.org/abs/2310.08278",
+              "tags": [
+                "Forecasting",
+                "Foundation Models for Time Series"
+              ],
+              "citations": 198
+            },
+            {
+              "title": "MOMENT: A Family of Open Time-series Foundation Models",
+              "authors": "Mononito Goswami, Konrad Szafer, Arjun Choudhry, Yifu Cai, Shuo Li, Artur Dubrawski",
+              "year": 2024,
+              "description": "CMU's open foundation model supporting forecasting, classification, anomaly detection, and imputation.",
+              "url": "https://arxiv.org/abs/2402.03885",
+              "tags": [
+                "Forecasting",
+                "Foundation Models for Time Series"
+              ],
+              "citations": 156
+            },
+            {
+              "title": "A Decoder-Only Foundation Model for Time-Series Forecasting (TimesFM)",
+              "authors": "Abhimanyu Das, Weihao Kong, Rajat Sen, Yichen Zhou",
+              "year": 2024,
+              "description": "Google's 200M parameter foundation model trained on 100B time points; strong zero-shot performance.",
+              "url": "https://arxiv.org/abs/2310.10688",
+              "tags": [
+                "Forecasting",
+                "Foundation Models for Time Series"
+              ],
+              "citations": 234
+            },
+            {
+              "title": "Unified Training of Universal Time Series Forecasting Transformers (Moirai)",
+              "authors": "Gerald Woo, Chenghao Liu, Akshat Kumar, Caiming Xiong, Silvio Savarese, Doyen Sahoo",
+              "year": 2024,
+              "description": "Salesforce's multi-patch model handling variable frequencies and prediction lengths in single model.",
+              "url": "https://arxiv.org/abs/2402.02592",
+              "tags": [
+                "Forecasting",
+                "Foundation Models for Time Series"
+              ],
+              "citations": 167
+            },
+            {
+              "title": "Time-LLM: Time Series Forecasting by Reprogramming Large Language Models",
+              "authors": "Ming Jin, Shiyu Wang, Lintao Ma, Zhixuan Chu, James Y. Zhang, Xiaoming Shi, Pin-Yu Chen, Yuxuan Liang, Yuan-Fang Li, Shirui Pan, Qingsong Wen",
+              "year": 2024,
+              "description": "Repurposing frozen LLMs for forecasting via prompt reprogramming; no time series pre-training needed.",
+              "url": "https://arxiv.org/abs/2310.01728",
+              "tags": [
+                "Forecasting",
+                "Foundation Models for Time Series"
+              ],
+              "citations": 289
             }
           ]
         },
@@ -11756,6 +11962,18 @@
                 "Hierarchical & Grouped Forecasting"
               ],
               "citations": 39
+            },
+            {
+              "title": "Cross-temporal Forecast Reconciliation: Optimal Combination Method and Heuristic Algorithms",
+              "authors": "Tommaso Di Fonzo, Daniele Girolimetto",
+              "year": 2023,
+              "description": "Unified framework for simultaneous cross-sectional and temporal reconciliation; optimal point forecasts.",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0169207022001005",
+              "tags": [
+                "Forecasting",
+                "Hierarchical & Grouped Forecasting"
+              ],
+              "citations": 87
             }
           ]
         },
@@ -11799,6 +12017,30 @@
                 "Probabilistic Forecasting"
               ],
               "citations": 907
+            },
+            {
+              "title": "Conformal Time-series Forecasting",
+              "authors": "Kamilė Stankevičiūtė, Ahmed M. Alaa, Mihaela van der Schaar",
+              "year": 2021,
+              "description": "Distribution-free prediction intervals with guaranteed coverage for time series; handles non-exchangeability.",
+              "url": "https://arxiv.org/abs/2107.01709",
+              "tags": [
+                "Forecasting",
+                "Probabilistic Forecasting"
+              ],
+              "citations": 287
+            },
+            {
+              "title": "Multivariate Probabilistic Time Series Forecasting via Conditioned Normalizing Flows",
+              "authors": "Kashif Rasul, Abdul-Saboor Sheikh, Ingmar Schuster, Urs Bergmann, Roland Vollgraf",
+              "year": 2021,
+              "description": "Normalizing flows for flexible multivariate distributions in forecasting; captures complex dependencies.",
+              "url": "https://arxiv.org/abs/2002.06103",
+              "tags": [
+                "Forecasting",
+                "Probabilistic Forecasting"
+              ],
+              "citations": 356
             }
           ]
         },
@@ -11854,6 +12096,207 @@
                 "Causal Impact & Intervention"
               ],
               "citations": 306
+            },
+            {
+              "title": "Difference-in-Differences with Multiple Time Periods",
+              "authors": "Brantly Callaway, Pedro H.C. Sant'Anna",
+              "year": 2021,
+              "description": "Modern DiD handling staggered treatment timing and heterogeneous effects; doubly-robust estimator.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0304407620303948",
+              "tags": [
+                "Forecasting",
+                "Causal Impact & Intervention"
+              ],
+              "citations": 2341
+            },
+            {
+              "title": "What's Trending in Difference-in-Differences? A Synthesis of the Recent Econometrics Literature",
+              "authors": "Jonathan Roth, Pedro H.C. Sant'Anna, Alyssa Bilinski, John Poe",
+              "year": 2023,
+              "description": "Comprehensive synthesis of modern DiD developments; essential guide to recent methodological advances.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0304407623001021",
+              "tags": [
+                "Forecasting",
+                "Causal Impact & Intervention"
+              ],
+              "citations": 892
+            }
+          ]
+        },
+        {
+          "id": "intermittent-demand",
+          "name": "Intermittent Demand Forecasting",
+          "application": "Forecast sparse, irregular demand patterns",
+          "papers": [
+            {
+              "title": "Forecasting and Stock Control for Intermittent Demands",
+              "authors": "John D. Croston",
+              "year": 1972,
+              "description": "Foundational method separating demand size from demand occurrence; basis for spare parts forecasting.",
+              "url": "https://www.jstor.org/stable/3007885",
+              "tags": [
+                "Forecasting",
+                "Intermittent Demand Forecasting"
+              ],
+              "citations": 1876
+            },
+            {
+              "title": "The Accuracy of Intermittent Demand Estimates",
+              "authors": "Aris A. Syntetos, John E. Boylan",
+              "year": 2005,
+              "description": "SBA method correcting Croston's bias; widely adopted in supply chain software.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0169207003001152",
+              "tags": [
+                "Forecasting",
+                "Intermittent Demand Forecasting"
+              ],
+              "citations": 1234
+            },
+            {
+              "title": "Intermittent Demand Forecasting with Context-Aware Learning",
+              "authors": "Ruud Teunter, Aris A. Syntetos, M. Zied Babai",
+              "year": 2011,
+              "description": "TSB method explicitly modeling demand probability; improved coverage for slow-moving items.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0169207010000543",
+              "tags": [
+                "Forecasting",
+                "Intermittent Demand Forecasting"
+              ],
+              "citations": 567
+            },
+            {
+              "title": "GluonTS: Probabilistic and Neural Time Series Modeling in Python",
+              "authors": "Alexander Alexandrov, Konstantinos Benidis, Michael Bohlke-Schneider, Valentin Flunkert, Jan Gasthaus, Tim Januschowski, Danielle C. Maddix, Syama Rangapuram, David Salinas, Jasper Schulz, Lorenzo Stella, Ali Caner Türkmen, Yuyang Wang",
+              "year": 2020,
+              "description": "Amazon's open-source toolkit; includes intermittent demand models and extensive benchmarking.",
+              "url": "https://arxiv.org/abs/1906.05264",
+              "tags": [
+                "Forecasting",
+                "Intermittent Demand Forecasting"
+              ],
+              "citations": 789
+            }
+          ]
+        },
+        {
+          "id": "anomaly-detection",
+          "name": "Time Series Anomaly Detection",
+          "application": "Detect anomalies and change points in time series",
+          "papers": [
+            {
+              "title": "Bayesian Online Changepoint Detection",
+              "authors": "Ryan P. Adams, David J.C. MacKay",
+              "year": 2007,
+              "description": "Elegant Bayesian framework for online change point detection; foundational for streaming applications.",
+              "url": "https://arxiv.org/abs/0710.3742",
+              "tags": [
+                "Forecasting",
+                "Time Series Anomaly Detection"
+              ],
+              "citations": 1456
+            },
+            {
+              "title": "Time-Series Anomaly Detection Service at Microsoft",
+              "authors": "Hansheng Ren, Bixiong Xu, Yujing Wang, Chao Yi, Congrui Huang, Xiaoyu Kou, Tony Xing, Mao Yang, Jie Tong, Qi Zhang",
+              "year": 2019,
+              "description": "Microsoft's production system using spectral residual and CNN; handles millions of time series.",
+              "url": "https://arxiv.org/abs/1906.03821",
+              "tags": [
+                "Forecasting",
+                "Time Series Anomaly Detection"
+              ],
+              "citations": 892
+            },
+            {
+              "title": "Robust Random Cut Forest Based Anomaly Detection on Streams",
+              "authors": "Sudipto Guha, Nina Mishra, Gourav Roy, Okke Schrijvers",
+              "year": 2016,
+              "description": "Amazon's streaming anomaly detection algorithm; efficient updates and interpretable anomaly scores.",
+              "url": "http://proceedings.mlr.press/v48/guha16.html",
+              "tags": [
+                "Forecasting",
+                "Time Series Anomaly Detection"
+              ],
+              "citations": 678
+            },
+            {
+              "title": "OmniAnomaly: Robust Anomaly Detection for Multivariate Time Series through Stochastic Recurrent Neural Network",
+              "authors": "Ya Su, Youjian Zhao, Chenhao Niu, Rong Liu, Wei Sun, Dan Pei",
+              "year": 2019,
+              "description": "VAE-based approach for multivariate anomaly detection; captures temporal dependencies and normal patterns.",
+              "url": "https://dl.acm.org/doi/10.1145/3292500.3330672",
+              "tags": [
+                "Forecasting",
+                "Time Series Anomaly Detection"
+              ],
+              "citations": 1123
+            }
+          ]
+        },
+        {
+          "id": "production-systems",
+          "name": "Production Forecasting Systems",
+          "application": "Build and evaluate forecasting systems at scale",
+          "papers": [
+            {
+              "title": "Orbit: Probabilistic Forecast with Exponential Smoothing",
+              "authors": "Edwin Ng, Zhishi Wang, Huiber Luo, Steve Yang, Slawek Smyl, Christoph Bergmeir",
+              "year": 2022,
+              "description": "Uber's Bayesian forecasting framework combining ETS with global models; production-ready with uncertainty.",
+              "url": "https://arxiv.org/abs/2004.08492",
+              "tags": [
+                "Forecasting",
+                "Production Forecasting Systems"
+              ],
+              "citations": 287
+            },
+            {
+              "title": "Forecasting at Scale (Prophet)",
+              "authors": "Sean J. Taylor, Benjamin Letham",
+              "year": 2018,
+              "description": "Meta's production system enabling analysts to create reliable forecasts with domain knowledge.",
+              "url": "https://peerj.com/preprints/3190/",
+              "tags": [
+                "Forecasting",
+                "Production Forecasting Systems"
+              ],
+              "citations": 4521
+            },
+            {
+              "title": "Demand Forecasting at Alibaba: Practice and Lessons Learned",
+              "authors": "Alibaba Group",
+              "year": 2021,
+              "description": "Large-scale demand forecasting system handling billions of SKUs; hierarchical and cross-learning approaches.",
+              "url": "https://dl.acm.org/doi/10.1145/3447548.3467193",
+              "tags": [
+                "Forecasting",
+                "Production Forecasting Systems"
+              ],
+              "citations": 156
+            },
+            {
+              "title": "150 Successful Machine Learning Models: 6 Lessons Learned at Booking.com",
+              "authors": "Lucas Bernardi, Themis Mavridis, Pablo Estevez",
+              "year": 2019,
+              "description": "Practical lessons from production ML including forecasting; emphasizes offline-online gaps and iteration.",
+              "url": "https://dl.acm.org/doi/10.1145/3292500.3330744",
+              "tags": [
+                "Forecasting",
+                "Production Forecasting Systems"
+              ],
+              "citations": 567
+            },
+            {
+              "title": "Comparing Predictive Accuracy",
+              "authors": "Francis X. Diebold, Robert S. Mariano",
+              "year": 1995,
+              "description": "The Diebold-Mariano test for forecast comparison; essential for model selection in production.",
+              "url": "https://www.jstor.org/stable/1392185",
+              "tags": [
+                "Forecasting",
+                "Production Forecasting Systems"
+              ],
+              "citations": 8934
             }
           ]
         }
