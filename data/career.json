@@ -772,5 +772,617 @@
     "url": "https://candor.co/guides/salary-negotiation",
     "type": "Guide",
     "tags": ["competing-offers", "tactics"]
+  },
+  {
+    "name": "Athey & Luca: Full PDF",
+    "description": "Amazon employs 150+ PhD economists. Economists focus on causal inference, market design, incentives vs DS on prediction.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://gsb-faculty.stanford.edu/susan-athey/files/2022/04/economists_in_tech.pdf",
+    "type": "Article",
+    "tags": ["foundational", "academic"]
+  },
+  {
+    "name": "HBR: Why Tech Hires Economists",
+    "description": "5 key areas: ads design, ROI estimation, marketplace incentives, causal inference, equilibrium effects.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://hbr.org/2019/02/why-tech-companies-hire-so-many-economists",
+    "type": "Article",
+    "tags": ["HBR", "overview"]
+  },
+  {
+    "name": "Jed Kolko: Should Your Firm Have an Economist?",
+    "description": "Economists as public spokespeople and internal analysts at Indeed, Glassdoor, Zillow.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://www.linkedin.com/pulse/should-your-tech-firm-have-economist-jed-kolko",
+    "type": "Article",
+    "tags": ["Indeed", "Zillow"]
+  },
+  {
+    "name": "Eugene Yan: DS vs Applied vs Research vs MLE",
+    "description": "Clearest breakdown: DS→documents, Applied Scientist→ML systems, Research Scientist→papers, MLE→infrastructure.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://eugeneyan.com/writing/data-science-roles/",
+    "type": "Guide",
+    "tags": ["role-taxonomy", "practitioner"]
+  },
+  {
+    "name": "TDS: Applied vs Research Scientist",
+    "description": "Applied Scientists are 'same caliber as research scientists, but experts in implementing at scale.'",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://towardsdatascience.com/whats-the-difference-between-a-data-scientist-research-scientist-and-an-applied-scientist-30c04190c1fa/",
+    "type": "Article",
+    "tags": ["role-taxonomy", "applied-scientist"]
+  },
+  {
+    "name": "Neptune.ai: MLE vs Data Scientist",
+    "description": "MLEs take models to production: optimization, MLOps, A/B testing, containerization, deployment.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://neptune.ai/blog/ml-engineer-vs-data-scientist",
+    "type": "Article",
+    "tags": ["MLE", "role-taxonomy"]
+  },
+  {
+    "name": "365 Data Science: DS vs MLE Skills",
+    "description": "ML requirements: 69.3% for DS vs 88.3% for MLE. AI: 21.2% for DS vs 60.4% for MLE.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://365datascience.com/career-advice/career-guides/data-scientist-vs-machine-learning-engineer/",
+    "type": "Article",
+    "tags": ["skills", "data-driven"]
+  },
+  {
+    "name": "Daliana Liu: Product DS vs Analyst",
+    "description": "Product DS does predictive/prescriptive analysis with experiments; Analyst does descriptive dashboards.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://www.dalianaliu.blog/p/is-product-data-scientist-a-glorified",
+    "type": "Article",
+    "tags": ["product-DS", "Google"]
+  },
+  {
+    "name": "TDS: Product Analytics Explained",
+    "description": "Product analysts provide timely insights; DS works on longer, in-depth projects.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://towardsdatascience.com/product-analysts-what-is-that-936978e5c215/",
+    "type": "Article",
+    "tags": ["product-analytics", "role-taxonomy"]
+  },
+  {
+    "name": "Greg Rafferty: Hidden Career Ladder",
+    "description": "L3→L4 reliable, L4→L5 strategic (defining vs solving problems), L5→L6 multiplier (scaling through others).",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://towardsdatascience.com/the-hidden-career-ladder-of-data-science/",
+    "type": "Guide",
+    "tags": ["career-ladder", "levels"]
+  },
+  {
+    "name": "Data Science Leadership: Career Ladder",
+    "description": "Tasks (Junior) → Projects (Mid) → Products (Senior/Principal). Mental model progression.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://datascienceleadership.com/docs/people-management/career-ladder",
+    "type": "Guide",
+    "tags": ["career-ladder", "leadership"]
+  },
+  {
+    "name": "Levels.fyi: Standard Level Definitions",
+    "description": "L3 Entry (0-2 years), L5 Senior 'career level' where you can stay indefinitely, L6+ Staff leads across teams.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://www.levels.fyi/standard/",
+    "type": "Tool",
+    "tags": ["levels", "standard"]
+  },
+  {
+    "name": "Design Gurus: FAANG Levels Comparison",
+    "description": "Meta E3-E10, Google L3-L10, Amazon SDE I-III. Senior (L5) is 'terminal level' where many plateau.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://www.designgurus.io/blog/understanding-faang-software-engineer-job-levels",
+    "type": "Guide",
+    "tags": ["FAANG", "levels"]
+  },
+  {
+    "name": "Yorgos Askalidis: How to Become Staff DS",
+    "description": "Three archetypes: far-reaching deep dives, insights lead for multi-team projects, standardized methodologies.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://medium.com/@yaskalidis/how-to-become-a-staff-data-scientist-44b290137035",
+    "type": "Guide",
+    "tags": ["staff-level", "career-growth"]
+  },
+  {
+    "name": "Meta: Being a Senior IC",
+    "description": "Increased seniority = higher responsibility, ambiguity, and complexity. Meta's official guide.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://medium.com/@AnalyticsAtMeta/being-a-senior-ic-59ee705ba3c1",
+    "type": "Guide",
+    "tags": ["Meta", "senior-IC"]
+  },
+  {
+    "name": "Uber: Driver Surge Pricing Research",
+    "description": "Multiplicative surge isn't incentive-compatible in dynamic settings; structured pricing mechanism proposed.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://eng.uber.com/research/driver-surge-pricing/",
+    "type": "Blog",
+    "tags": ["pricing", "Uber"]
+  },
+  {
+    "name": "Uber: Surge Pricing Moves Drivers",
+    "description": "DiD analysis shows surge heatmap visibility explains 10-60% of driver self-positioning decisions.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://eng.uber.com/research/surge-pricing-moves-ubers-driver-partners/",
+    "type": "Blog",
+    "tags": ["pricing", "causal-inference"]
+  },
+  {
+    "name": "Airbnb: Learning Market Dynamics for Pricing",
+    "description": "ML + structural modeling for booking arrival processes and dynamic pricing policies.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://medium.com/airbnb-engineering/learning-market-dynamics-for-optimal-pricing-97cffbcc53e3",
+    "type": "Blog",
+    "tags": ["pricing", "Airbnb"]
+  },
+  {
+    "name": "Amazon: Science of Price Experiments",
+    "description": "Crossover experiments, random-days, causal forests for non-discriminatory pricing. Can't show different prices.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://www.amazon.science/blog/the-science-of-price-experiments-in-the-amazon-store",
+    "type": "Blog",
+    "tags": ["pricing", "Amazon"]
+  },
+  {
+    "name": "Lyft: Causal Forecasting",
+    "description": "DS builds causal models that are both predictive AND causally valid using experiments.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://eng.lyft.com/causal-forecasting-at-lyft-part-1-14cca6ff3d6d",
+    "type": "Blog",
+    "tags": ["forecasting", "Lyft"]
+  },
+  {
+    "name": "DataRoot Labs: Surge Pricing Algorithms",
+    "description": "Uber uses LSTM networks; Lyft implements Prime Time (200% increase) and Happy Hour (50% discount).",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://datarootlabs.com/blog/uber-lift-gett-surge-pricing-algorithms",
+    "type": "Article",
+    "tags": ["pricing", "comparison"]
+  },
+  {
+    "name": "Netflix: What is an A/B Test?",
+    "description": "Multi-part experimentation series. Every product change at Netflix goes through rigorous A/B testing.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://netflixtechblog.com/what-is-an-a-b-test-b08cc1b57962",
+    "type": "Blog",
+    "tags": ["experimentation", "Netflix"]
+  },
+  {
+    "name": "Uber: XP Experimentation Platform",
+    "description": "1,000+ experiments at any time. Supports A/B/N tests, causal inference, multi-armed bandits.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://www.uber.com/blog/xp/",
+    "type": "Blog",
+    "tags": ["experimentation", "Uber"]
+  },
+  {
+    "name": "Booking.com: Moving Fast with Experiments",
+    "description": "Automated 'circuit breaker' monitors for errors and aborts releases within seconds.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://medium.com/booking-com-development/moving-fast-breaking-things-and-fixing-them-as-quickly-as-possible-a6c16c5a1185",
+    "type": "Blog",
+    "tags": ["experimentation", "Booking"]
+  },
+  {
+    "name": "Airbnb: Interleaving Experiments",
+    "description": "50x sensitivity improvement in search ranking by blending control/treatment for direct comparison.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://airbnb.tech/data/beyond-a-b-test-speeding-up-airbnb-search-ranking-experimentation-through-interleaving/",
+    "type": "Blog",
+    "tags": ["experimentation", "Airbnb"]
+  },
+  {
+    "name": "Microsoft: Deep Dive Into Variance Reduction",
+    "description": "CUPED introduced 2013; effectively multiplies observed traffic for faster experiments.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://www.microsoft.com/en-us/research/articles/deep-dive-into-variance-reduction/",
+    "type": "Article",
+    "tags": ["CUPED", "Microsoft"]
+  },
+  {
+    "name": "Nubank: CUPED Implementation",
+    "description": "40% of metric comparisons had variance reduced by 20%+ after implementing CUPED.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://building.nubank.com/3-lessons-from-implementing-controlled-experiment-using-pre-experiment-data-cuped-at-nubank/",
+    "type": "Blog",
+    "tags": ["CUPED", "Nubank"]
+  },
+  {
+    "name": "Matteo Courthoud: CUPED Technical Guide",
+    "description": "CUPED used at Netflix, Booking, Meta, Uber, Airbnb, LinkedIn, DoorDash, Faire.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://matteocourthoud.github.io/post/cuped/",
+    "type": "Article",
+    "tags": ["CUPED", "technical"]
+  },
+  {
+    "name": "DoorDash: Switchback Experiment Analysis",
+    "description": "Three-sided marketplace needs region-time randomization. Achieved 30% faster experimentation.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://careersatdoordash.com/blog/experiment-rigor-for-switchback-experiment-analysis/",
+    "type": "Blog",
+    "tags": ["switchback", "DoorDash"]
+  },
+  {
+    "name": "LinkedIn: Detecting Interference in A/B Tests",
+    "description": "A/B test of A/B tests comparing individual-level vs cluster-based randomization.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://engineering.linkedin.com/blog/2019/06/detecting-interference--an-a-b-test-of-a-b-tests",
+    "type": "Blog",
+    "tags": ["interference", "LinkedIn"]
+  },
+  {
+    "name": "Lyft: Marketplace Experimentation",
+    "description": "Interference-free treatment effect estimators for ridesharing marketplace.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://eng.lyft.com/experimentation-in-a-ridesharing-marketplace-f75a9c4fcf01",
+    "type": "Blog",
+    "tags": ["experimentation", "Lyft"]
+  },
+  {
+    "name": "Meta: Cluster Experimentation",
+    "description": "Even 1% cluster purity provides 3x improvement in reducing test interactions.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://medium.com/@AnalyticsAtMeta/how-meta-tests-products-with-strong-network-effects-96003a056c2c",
+    "type": "Blog",
+    "tags": ["experimentation", "Meta"]
+  },
+  {
+    "name": "Uber CausalML Package",
+    "description": "Open-source uplift modeling and CATE estimation with meta-learners (S, T, X-learner).",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://github.com/uber/causalml",
+    "type": "Tool",
+    "tags": ["causal-ML", "open-source"]
+  },
+  {
+    "name": "Tinuiti: Ghost Ads Explained",
+    "description": "Google/Amazon 2017: log when ad would show but doesn't, creating cost-free control groups.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://tinuiti.com/blog/measurement/ghost-ads/",
+    "type": "Article",
+    "tags": ["ads", "incrementality"]
+  },
+  {
+    "name": "DoorDash: Ghost Ads Implementation",
+    "description": "92% reduced experimentation dilution, 35% improved iROAS confidence intervals.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://advertising.doordash.com/en-us/resources/measuring-incrementality-with-ghost-ads-at-doordash",
+    "type": "Blog",
+    "tags": ["ads", "DoorDash"]
+  },
+  {
+    "name": "Remerge: Incrementality Tests 101",
+    "description": "Intent-to-treat vs PSA vs ghost ads vs ghost bids comparison for ad measurement.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://www.remerge.io/findings/blog-post/incrementality-tests-101-intent-to-treat-psa-ghost-ads-and-ghost-bids",
+    "type": "Article",
+    "tags": ["ads", "incrementality"]
+  },
+  {
+    "name": "Meta DS: Product Analytics Frameworks",
+    "description": "Conversion funnels, retention curves (the real test of product-market fit), experimentation pipelines.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://dev.to/mujtabat/how-product-analytics-shapes-user-experience-funnels-retention-and-experiments-4cfm",
+    "type": "Guide",
+    "tags": ["growth", "Meta"]
+  },
+  {
+    "name": "CXL: Growth Experimentation Culture",
+    "description": "Spotify: 75-80% of teams perform experimentation. Discover Weekly validated through experiments.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://cxl.com/blog/growth-experimentation-culture/",
+    "type": "Guide",
+    "tags": ["growth", "Spotify"]
+  },
+  {
+    "name": "Stripe: How We Built Radar",
+    "description": "1,000+ transaction features in <100ms with only 0.1% false positive rate on billions of payments.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://stripe.com/blog/how-we-built-it-stripe-radar",
+    "type": "Blog",
+    "tags": ["fraud", "Stripe"]
+  },
+  {
+    "name": "Stripe: Similarity Clustering for Fraud",
+    "description": "Gradient-boosted trees predict account similarity, catching hundreds of fraudulent accounts weekly.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://stripe.com/blog/similarity-clustering",
+    "type": "Blog",
+    "tags": ["fraud", "Stripe"]
+  },
+  {
+    "name": "Stripe: ML for Fraud Primer",
+    "description": "90% of cards have been seen before, providing rich behavioral data for fraud detection.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://stripe.com/guides/primer-on-machine-learning-for-fraud-protection",
+    "type": "Guide",
+    "tags": ["fraud", "ML"]
+  },
+  {
+    "name": "Uber: Driver Incentives Team",
+    "description": "Designing personalized driver offers, dynamic earning opportunities, supply positioning.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://www.uber.com/careers/list/144749",
+    "type": "Job Posting",
+    "tags": ["marketplace", "incentives"]
+  },
+  {
+    "name": "Lyft: Fleet Team DS",
+    "description": "Setting rental rates, understanding price-demand relationships, fleet allocation through time series.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://eng.lyft.com/data-science-on-lyfts-fleet-team-141c594f656b",
+    "type": "Blog",
+    "tags": ["marketplace", "Lyft"]
+  },
+  {
+    "name": "Uber: Forecasting Introduction",
+    "description": "Model-based, statistical (ARIMA, Holt-Winters), and ML approaches for demand forecasting.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://www.uber.com/blog/forecasting-introduction/",
+    "type": "Blog",
+    "tags": ["forecasting", "Uber"]
+  },
+  {
+    "name": "Uber Orbit: Bayesian Time Series",
+    "description": "Open-source tool for KPI decomposition into trend, seasonality, and marketing effects.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://www.uber.com/blog/orbit/",
+    "type": "Tool",
+    "tags": ["forecasting", "open-source"]
+  },
+  {
+    "name": "Uber: LSTM for Extreme Events",
+    "description": "Neural networks handle NYE, concerts, and weather across 600+ cities.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://www.uber.com/blog/neural-networks/",
+    "type": "Blog",
+    "tags": ["forecasting", "deep-learning"]
+  },
+  {
+    "name": "Uber Omphalos: Backtesting Infrastructure",
+    "description": "Infrastructure for comparing forecasting models across millions of time series.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://www.uber.com/blog/omphalos/",
+    "type": "Blog",
+    "tags": ["forecasting", "infrastructure"]
+  },
+  {
+    "name": "Meta: How DS Lead and Drive Impact",
+    "description": "Fully embedded model: DS 1-to-1 with PMs, accountable for product outcomes.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://medium.com/@AnalyticsAtMeta/how-data-scientists-lead-and-drive-impact-at-meta-6b5b896821b2",
+    "type": "Blog",
+    "tags": ["org-structure", "Meta"]
+  },
+  {
+    "name": "Candor: Meta DS Roles Guide",
+    "description": "Core Data Science is distinct R&D team developing novel methods, separate from embedded analytics.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://candor.co/articles/interview-prep/data-science-roles-at-facebook-what-they-are-and-how-to-get-one",
+    "type": "Guide",
+    "tags": ["Meta", "CDS"]
+  },
+  {
+    "name": "Microsoft: Designing DS Organization",
+    "description": "Centralized DS for career paths with peers, scaled processes, end-to-end perspective.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://medium.com/data-science-at-microsoft/designing-a-data-science-organization-ab53a80b1d15",
+    "type": "Blog",
+    "tags": ["org-structure", "Microsoft"]
+  },
+  {
+    "name": "Shanif Dhanani: Embedded vs Centralized",
+    "description": "Hybrid recommended: centralized management with embedded deployment.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://medium.com/@shanif/embedded-vs-centralized-data-science-teams-3035db6803b2",
+    "type": "Article",
+    "tags": ["org-structure", "hybrid"]
+  },
+  {
+    "name": "dbt Labs: Centralized vs Decentralized",
+    "description": "Most companies evolve through multiple organizational models as they scale.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://www.getdbt.com/data-teams/centralized-vs-decentralized/",
+    "type": "Guide",
+    "tags": ["org-structure", "evolution"]
+  },
+  {
+    "name": "Netflix: Foundation Model for Recommendations",
+    "description": "LLM-like semi-supervised learning principles for personalization.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://netflixtechblog.com/foundation-model-for-personalized-recommendation-1a0bd8e02d39",
+    "type": "Blog",
+    "tags": ["recommendations", "Netflix"]
+  },
+  {
+    "name": "Netflix: Recommendations Research",
+    "description": "80%+ of content discovered through recommendations, 20 years of refinement by hundreds of engineers.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://research.netflix.com/research-area/recommendations",
+    "type": "Research",
+    "tags": ["recommendations", "Netflix"]
+  },
+  {
+    "name": "Athey & Imbens: ML Methods for Economists",
+    "description": "ML optimizes prediction; economics focuses on causal inference. Bridging both fields.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080217-053433",
+    "type": "Article",
+    "tags": ["ML-economics", "academic"]
+  },
+  {
+    "name": "Susan Athey: ML Short Course",
+    "description": "Free Stanford materials bridging ML and economics methods.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil/research/methods/ai-machine-learning/short-course",
+    "type": "Course",
+    "tags": ["ML-economics", "Stanford"]
+  },
+  {
+    "name": "Matt Sosna: Academia to Data Science",
+    "description": "Key gaps: implementing analysis results (not just generating), SWE for production, team vs personal output.",
+    "stage": "Strategy",
+    "category": "PhD Transition",
+    "url": "https://towardsdatascience.com/transitioning-to-data-science-from-academia-93299602e4ba/",
+    "type": "Guide",
+    "tags": ["PhD", "transition"]
+  },
+  {
+    "name": "Trustworthy Online Experiments (Kohavi)",
+    "description": "Definitive A/B testing book from Google/LinkedIn/Microsoft leaders. Only 1/3 of experiments improve metrics.",
+    "stage": "Strategy",
+    "category": "PhD Transition",
+    "url": "https://experimentguide.com/",
+    "type": "Book",
+    "tags": ["essential", "experimentation"]
+  },
+  {
+    "name": "Microsoft Experimentation Platform",
+    "description": "Technical and cultural challenges of A/B testing at scale. Companies run 20,000+ experiments/year.",
+    "stage": "Interview Prep",
+    "category": "Experimentation",
+    "url": "https://exp-platform.com/",
+    "type": "Guide",
+    "tags": ["Microsoft", "infrastructure"]
+  },
+  {
+    "name": "Doing Data Science at Uber",
+    "description": "Profile of hybrid DS/SWE role at Uber. Describes the expectations and work.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://www.uber.com/blog/data-science-engineering/",
+    "type": "Blog",
+    "tags": ["Uber", "role-profile"]
+  },
+  {
+    "name": "Building Uber's DS Platforms",
+    "description": "Director-level perspective on democratizing data science at scale.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://www.uber.com/blog/building-ubers-data-science-platforms/",
+    "type": "Blog",
+    "tags": ["Uber", "platforms"]
+  },
+  {
+    "name": "Uber Data Science Workbench",
+    "description": "Platform used for pricing, safety, fraud detection. End-to-end DS workflow.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://www.uber.com/blog/dsw/",
+    "type": "Blog",
+    "tags": ["Uber", "tools"]
+  },
+  {
+    "name": "Netflix DS and Engineering Team",
+    "description": "Team overview: data science at the center of Netflix's product decisions.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://jobs.netflix.com/teams/data-science-and-engineering",
+    "type": "Career Portal",
+    "tags": ["Netflix", "team-overview"]
+  },
+  {
+    "name": "Netflix: Experimentation Focus",
+    "description": "Experimentation is a major focus of data science across Netflix.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://netflixtechblog.com/experimentation-is-a-major-focus-of-data-science-across-netflix-f67923f8e985",
+    "type": "Blog",
+    "tags": ["Netflix", "experimentation"]
+  },
+  {
+    "name": "Netflix ML Systems (Metaflow)",
+    "description": "Supporting diverse ML systems with the Metaflow ecosystem.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://netflixtechblog.com/supporting-diverse-ml-systems-at-netflix-2d2e6b6d205d",
+    "type": "Blog",
+    "tags": ["Netflix", "ML-infrastructure"]
+  },
+  {
+    "name": "Airbnb Data University",
+    "description": "Internal training program with 30+ classes democratizing data science.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://medium.com/airbnb-engineering/how-airbnb-democratizes-data-science-with-data-university-3eccc71e073a",
+    "type": "Blog",
+    "tags": ["Airbnb", "training"]
+  },
+  {
+    "name": "Meta: Building DS Teams at Scale",
+    "description": "Organizational structure for data science teams with impact at scale.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://engineering.fb.com/2018/06/12/core-infra/building-data-science-teams-to-have-an-impact-at-scale/",
+    "type": "Blog",
+    "tags": ["Meta", "org-structure"]
+  },
+  {
+    "name": "Google Research Careers",
+    "description": "Research environment with focus on product impact at Google.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://research.google/careers/",
+    "type": "Career Portal",
+    "tags": ["Google", "research"]
   }
 ]
