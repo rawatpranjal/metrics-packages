@@ -3906,6 +3906,7 @@ mark {
 .package-card:hover .favorite-btn,
 .dataset-card:hover .favorite-btn,
 .talk-card:hover .favorite-btn,
+.paper-card:hover .favorite-btn,
 .favorite-btn:focus {
     opacity: 1;
 }
