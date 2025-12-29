@@ -14,19 +14,6 @@
     "image_url": "https://www.pymc-labs.com/images/pymc-labs-logo.png"
   },
   {
-    "name": "QuantEcon Lectures",
-    "description": "High-quality computational economics in Python and Julia. Dynamic programming, time series, asset pricing \u2014 all with code.",
-    "category": "Fundamentals",
-    "url": "https://quantecon.org/lectures/",
-    "type": "Lectures",
-    "level": "Medium",
-    "tags": [
-      "Coding",
-      "Lectures"
-    ],
-    "domain": "Forecasting & Time Series"
-  },
-  {
     "name": "Coding for Economists",
     "description": "Arthur Turrell's practical guide. Python basics through advanced workflows \u2014 built specifically for econ researchers.",
     "category": "Python",
@@ -66,19 +53,6 @@
     "domain": "Programming"
   },
   {
-    "name": "Forecasting: Principles and Practice",
-    "description": "Rob Hyndman's free book on time series forecasting. ARIMA, ETS, hierarchical forecasting \u2014 with R code.",
-    "category": "Fundamentals",
-    "url": "https://otexts.com/fpp3/",
-    "type": "Online Book",
-    "level": "Medium",
-    "tags": [
-      "ML & Data Science",
-      "Online Book"
-    ],
-    "domain": "Forecasting & Time Series"
-  },
-  {
     "name": "The Theory and Practice of Revenue Management",
     "description": "Talluri & van Ryzin's comprehensive textbook. Dynamic pricing, capacity allocation, overbooking \u2014 the bible of RM.",
     "category": "Pricing & Revenue",
@@ -105,19 +79,6 @@
     "domain": "Optimization & Operations Research"
   },
   {
-    "name": "MatchingMarkets.py",
-    "description": "Gale-Shapley stable matching in Python. How to match riders to drivers, students to schools, organs to patients.",
-    "category": "Fundamentals",
-    "url": "https://github.com/QuantEcon/MatchingMarkets.py",
-    "type": "Code",
-    "level": "Medium",
-    "tags": [
-      "Auctions & Market Design",
-      "Code"
-    ],
-    "domain": "Forecasting & Time Series"
-  },
-  {
     "name": "Auctions in Ad Tech (Sanjiv Das)",
     "description": "GSP auctions, quality scores, AdRank \u2014 how Google/Meta ad auctions actually work. Chapter 21.",
     "category": "Ads & Attribution",
@@ -129,19 +90,6 @@
       "Online Book"
     ],
     "domain": "Domain Applications"
-  },
-  {
-    "name": "Michael Ostrovsky: Market Design Course",
-    "description": "Stanford GSB's market design expert. Course materials on auctions, matching markets, and platform dynamics. Advised Airbnb, LinkedIn, Google.",
-    "category": "Fundamentals",
-    "url": "https://web.stanford.edu/~ost/",
-    "type": "Course Notes",
-    "level": "Medium",
-    "tags": [
-      "Auctions & Market Design",
-      "Course Notes"
-    ],
-    "domain": "Forecasting & Time Series"
   },
   {
     "name": "Uber Engineering",
@@ -186,33 +134,6 @@
     "image_url": "https://careersatdoordash.com/wp-content/uploads/2022/10/doordash-logo.png"
   },
   {
-    "name": "Lyft: Causal Forecasting at Scale",
-    "description": "How Lyft combines causal inference with forecasting for pricing. The bridge between 'what happened' and 'what will happen'.",
-    "category": "Applied Forecasting",
-    "url": "https://eng.lyft.com/causal-forecasting-at-lyft-part-1-14cca6ff3d6d",
-    "type": "Article",
-    "level": "Medium",
-    "tags": [
-      "Industry Blogs",
-      "Blog"
-    ],
-    "domain": "Forecasting & Time Series"
-  },
-  {
-    "name": "Stratechery (Ben Thompson)",
-    "description": "The gold standard for tech strategy analysis. Aggregation theory, platform dynamics, and business model breakdowns.",
-    "category": "Frameworks & Strategy",
-    "url": "https://stratechery.com/",
-    "type": "Blog",
-    "level": "Hard",
-    "tags": [
-      "Strategy & Analytics",
-      "Blog"
-    ],
-    "domain": "Product Sense",
-    "image_url": "https://stratechery.com/wp-content/uploads/2022/01/stratechery-icon.png"
-  },
-  {
     "name": "Lyft: Quantifying Efficiency in Ridesharing",
     "description": "Efficiency isn't speed\u2014it's an economic equilibrium. A masterclass in defining the objective function for marketplace optimization.",
     "category": "Marketplace Economics",
@@ -237,34 +158,6 @@
       "Substack"
     ],
     "domain": "Product Sense"
-  },
-  {
-    "name": "New Things Under the Sun (Matt Clancy)",
-    "description": "innovation research research summaries. Academic findings on R&D, productivity, and science \u2014 in plain language.",
-    "category": "Frameworks & Strategy",
-    "url": "https://www.newthingsunderthesun.com/",
-    "type": "Blog",
-    "level": "Medium",
-    "tags": [
-      "Strategy & Analytics",
-      "Blog"
-    ],
-    "domain": "Product Sense",
-    "image_url": "https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6InJlM2g4aWloLzUxNjQ3Mjg0MDIzNDY4LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJoZWlnaHQiOjIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX19"
-  },
-  {
-    "name": "Marginal Revolution (Tyler Cowen)",
-    "description": "The econ blog. Tech, innovation, markets \u2014 prolific, eclectic, and influential. A daily must-read.",
-    "category": "Fundamentals",
-    "url": "https://marginalrevolution.com/",
-    "type": "Blog",
-    "level": "Medium",
-    "tags": [
-      "Strategy & Analytics",
-      "Blog"
-    ],
-    "domain": "Forecasting & Time Series",
-    "image_url": "https://marginalrevolution.com/wp-content/themes/marginal-revolution/assets/images/nav-logo-mobile.png"
   },
   {
     "name": "Ben Evans Newsletter",
@@ -530,20 +423,6 @@
       "Guide"
     ],
     "domain": "Product Sense"
-  },
-  {
-    "name": "MeasuringU",
-    "description": "Survey science, conjoint analysis, and quantitative UX research. Statistical rigor for product research.",
-    "category": "Probability & Inference",
-    "url": "https://measuringu.com/",
-    "type": "Blog",
-    "level": "Medium",
-    "tags": [
-      "Statistics",
-      "Blog"
-    ],
-    "domain": "Statistics",
-    "image_url": "https://measuringu.com/wp-content/uploads/2020/01/MeasuringU-logo.png"
   },
   {
     "name": "Convex Optimization (Boyd & Vandenberghe)",
@@ -976,162 +855,6 @@
     "domain": "Optimization & Operations Research"
   },
   {
-    "name": "StatsForecast: Intermittent/Sparse Data Tutorial",
-    "description": "Demand is often intermittent (lots of zeros) \u2014 learn baselines built for that",
-    "category": "Applied Forecasting",
-    "url": "https://nixtlaverse.nixtla.io/statsforecast/docs/tutorials/intermittentdata.html",
-    "type": "Documentation",
-    "level": "Medium",
-    "tags": [
-      "Forecasting",
-      "Documentation"
-    ],
-    "domain": "Forecasting & Time Series"
-  },
-  {
-    "name": "Forecasting: Principles and Practice, Python Edition",
-    "description": "THE definitive resource \u2014 Hyndman's book adapted with Nixtlaverse Python code. Updated December 2025.",
-    "category": "Fundamentals",
-    "url": "https://otexts.com/fpppy/",
-    "type": "Online Book",
-    "level": "Medium",
-    "tags": [
-      "Forecasting",
-      "Online Book"
-    ],
-    "domain": "Forecasting & Time Series"
-  },
-  {
-    "name": "MIT OCW 14.384: Time Series Analysis",
-    "description": "Graduate-level course with 26 lectures. ARMA, VAR, unit roots, cointegration, state-space, Kalman filters.",
-    "category": "Fundamentals",
-    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/",
-    "type": "Course",
-    "level": "Hard",
-    "tags": [
-      "Forecasting",
-      "Course"
-    ],
-    "domain": "Forecasting & Time Series"
-  },
-  {
-    "name": "Penn State STAT 510: Applied Time Series Analysis",
-    "description": "Free graduate course with 14 lessons. ARIMA, seasonal models, spectral analysis, VAR, ARCH/GARCH.",
-    "category": "Fundamentals",
-    "url": "https://online.stat.psu.edu/stat510/",
-    "type": "Course",
-    "level": "Hard",
-    "tags": [
-      "Forecasting",
-      "Course"
-    ],
-    "domain": "Forecasting & Time Series"
-  },
-  {
-    "name": "statsforecast Documentation (Nixtla)",
-    "description": "AutoARIMA 19x faster than pmdarima. AutoETS, AutoTheta, MSTL, GARCH, Croston with distributed computing.",
-    "category": "Fundamentals",
-    "url": "https://nixtlaverse.nixtla.io/statsforecast/index.html",
-    "type": "Documentation",
-    "level": "Medium",
-    "tags": [
-      "Forecasting",
-      "Documentation"
-    ],
-    "domain": "Forecasting & Time Series"
-  },
-  {
-    "name": "mlforecast Documentation (Nixtla)",
-    "description": "ML-based forecasting with scikit-learn compatible interface. Lag features, rolling means, LightGBM/XGBoost.",
-    "category": "Applied Forecasting",
-    "url": "https://nixtlaverse.nixtla.io/mlforecast/index.html",
-    "type": "Documentation",
-    "level": "Medium",
-    "tags": [
-      "Forecasting",
-      "Documentation"
-    ],
-    "domain": "Forecasting & Time Series"
-  },
-  {
-    "name": "Prophet Official Documentation",
-    "description": "Meta's additive model for business seasonality. Component plots, holidays, custom seasonality.",
-    "category": "Applied Forecasting",
-    "url": "https://facebook.github.io/prophet/docs/quick_start.html",
-    "type": "Documentation",
-    "level": "Easy",
-    "tags": [
-      "Forecasting",
-      "Documentation"
-    ],
-    "domain": "Forecasting & Time Series"
-  },
-  {
-    "name": "Prophet Critique: Sean J. Taylor Retrospective",
-    "description": "Honest assessment from Prophet co-creator: 'I do actually feel a bit of shame about the project.' Must-read.",
-    "category": "Applied Forecasting",
-    "url": "https://medium.com/@seanjtaylor/a-personal-retrospective-on-prophet-f223c2378985",
-    "type": "Article",
-    "level": "Easy",
-    "tags": [
-      "Forecasting",
-      "Blog"
-    ],
-    "domain": "Forecasting & Time Series"
-  },
-  {
-    "name": "Uber: Forecasting at Uber\u2014An Introduction",
-    "description": "ARIMA, Holt-Winters, exponential smoothing, Theta (M3 winner). Insights from M4 winner Slawek Smyl.",
-    "category": "Fundamentals",
-    "url": "https://www.uber.com/blog/forecasting-introduction/",
-    "type": "Article",
-    "level": "Medium",
-    "tags": [
-      "Forecasting",
-      "Blog"
-    ],
-    "domain": "Forecasting & Time Series"
-  },
-  {
-    "name": "DoorDash: ELITE Ensemble Learning for Time Series",
-    "description": "ELITE framework balancing accuracy vs. computational efficiency. Uses Ray for distributed forecasting.",
-    "category": "Fundamentals",
-    "url": "https://doordash.engineering/2023/06/20/how-doordash-built-an-ensemble-learning-model-for-time-series-forecasting/",
-    "type": "Article",
-    "level": "Medium",
-    "tags": [
-      "Forecasting",
-      "Blog"
-    ],
-    "domain": "Forecasting & Time Series"
-  },
-  {
-    "name": "Amazon Science: Chronos Foundation Model",
-    "description": "State-of-the-art foundation model using T5 architecture. Zero-shot forecasting via token quantization.",
-    "category": "Applied Forecasting",
-    "url": "https://www.amazon.science/blog/adapting-language-model-architectures-for-time-series-forecasting",
-    "type": "Article",
-    "level": "Hard",
-    "tags": [
-      "Forecasting",
-      "Blog"
-    ],
-    "domain": "Forecasting & Time Series"
-  },
-  {
-    "name": "Amazon Science: AutoGluon-TimeSeries",
-    "description": "AutoML for forecasting in 3 lines of code. Outperforms best-in-hindsight on 29 benchmark datasets.",
-    "category": "Fundamentals",
-    "url": "https://www.amazon.science/publications/autogluon-timeseries-automl-for-probabilistic-time-series-forecasting",
-    "type": "Paper",
-    "level": "Medium",
-    "tags": [
-      "Forecasting",
-      "Paper"
-    ],
-    "domain": "Forecasting & Time Series"
-  },
-  {
     "name": "Instacart: Predicting Availability of 200M Grocery Items",
     "description": "XGBoost with 130 features scoring 200M+ items every 60 minutes. 15x items with 1/5 resources.",
     "category": "Case Studies",
@@ -1143,32 +866,6 @@
       "Blog"
     ],
     "domain": "Product Sense"
-  },
-  {
-    "name": "sktime: Unified Framework for ML with Time Series",
-    "description": "Published at NeurIPS. Unified scikit-learn-like API for forecasting, pipelines, cross-validation.",
-    "category": "Fundamentals",
-    "url": "https://www.sktime.net/en/latest/examples/01_forecasting.html",
-    "type": "Documentation",
-    "level": "Medium",
-    "tags": [
-      "Forecasting",
-      "Documentation"
-    ],
-    "domain": "Forecasting & Time Series"
-  },
-  {
-    "name": "scikit-learn: Lagged Features for Time Series",
-    "description": "Official example using Polars for feature engineering with HistGradientBoostingRegressor.",
-    "category": "Fundamentals",
-    "url": "https://scikit-learn.org/stable/auto_examples/applications/plot_time_series_lagged_features.html",
-    "type": "Tutorial",
-    "level": "Medium",
-    "tags": [
-      "Forecasting",
-      "Tutorial"
-    ],
-    "domain": "Forecasting & Time Series"
   },
   {
     "name": "MIT 15.053: Optimization Methods in Management Science",
@@ -1286,19 +983,6 @@
       "Lectures"
     ],
     "domain": "Optimization & Operations Research"
-  },
-  {
-    "name": "MIT 6.079: Introduction to Convex Optimization",
-    "description": "Boyd's MIT course version with better self-study structure. Complete notes, problem sets, applications.",
-    "category": "Fundamentals",
-    "url": "https://ocw.mit.edu/courses/6-079-introduction-to-convex-optimization-fall-2009/",
-    "type": "Course",
-    "level": "Hard",
-    "tags": [
-      "Optimization",
-      "Course"
-    ],
-    "domain": "Forecasting & Time Series"
   },
   {
     "name": "GILP: Geometric Interpretation of Linear Programs (Cornell)",
@@ -2861,21 +2545,6 @@
     "image_url": "https://media.licdn.com/dms/image/v2/D4D08AQFhfZ29NAMysw/croft-frontend-shrinkToFit1024/croft-frontend-shrinkToFit1024/0/1704725126858?e=2147483647&v=beta&t=V0MYfZWEy1ih4igUZgbIg8XIkxlycNP4mGXA8_GFF0Q"
   },
   {
-    "name": "Eugene Yan",
-    "description": "ML systems, recommendations, and LLMs in production. Practical insights from an Amazon Principal Applied Scientist.",
-    "category": "Search & Ranking",
-    "url": "https://eugeneyan.com/",
-    "type": "Blog",
-    "level": "Medium",
-    "tags": [
-      "ml-systems",
-      "recommendations",
-      "llms"
-    ],
-    "domain": "Machine Learning",
-    "image_url": "https://eugeneyan.com/assets/profile.jpg"
-  },
-  {
     "name": "Google AI Blog",
     "description": "Research publications from Google AI. Covers ML, NLP, computer vision, and applied AI research.",
     "category": "LLMs & Agents",
@@ -2910,19 +2579,6 @@
     "url": "https://timroughgarden.org/f13/l/l10.pdf",
     "type": "Lecture Notes",
     "level": "Hard",
-    "tags": [
-      "Economics",
-      "Market Design"
-    ],
-    "domain": "Economics"
-  },
-  {
-    "name": "Al Roth's Market Design Blog",
-    "description": "Direct commentary from the architect of modern market design (Nobel 2012). Roth redesigned NRMP, co-founded kidney exchange programs, advised on school choice. Practitioner insights unavailable elsewhere.",
-    "category": "Market Design & Matching",
-    "url": "https://marketdesigner.blogspot.com",
-    "type": "Blog",
-    "level": "Medium",
     "tags": [
       "Economics",
       "Market Design"
@@ -3162,5 +2818,239 @@
       "Structural"
     ],
     "domain": "Economics"
+  },
+  {
+    "name": "ritvikmath Time Series YouTube + GitHub",
+    "description": "Hand-drawn diagrams build intuition before code. Covers AR, MA, ARMA, ARIMA, SARIMA, stationarity, ACF/PACF, GARCH. GitHub repo (700+ stars) with complete Jupyter notebooks. Explains why not just how.",
+    "category": "Classical Methods",
+    "url": "https://www.youtube.com/@ritvikmath",
+    "type": "Video Series",
+    "level": "Easy",
+    "tags": [
+      "Forecasting",
+      "Time Series"
+    ],
+    "domain": "Forecasting & Time Series"
+  },
+  {
+    "name": "Interpreting ACF and PACF Plots",
+    "description": "Uses synthetic data with known parameters to demonstrate what patterns indicate which model types. Clear decision rules for AR/MA order selection. Visual approach builds pattern recognition skill.",
+    "category": "Classical Methods",
+    "url": "https://towardsdatascience.com/interpreting-acf-and-pacf-plots-for-time-series-forecasting-af0d6db4061c/",
+    "type": "Tutorial",
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Time Series"
+    ],
+    "domain": "Forecasting & Time Series"
+  },
+  {
+    "name": "MSTL Multi-Seasonal Decomposition in Python",
+    "description": "Written by the engineer who contributed MSTL to statsmodels. STL algorithm internals, LOESS smoothing foundations, comparison to Prophet/TBATS. Electricity demand example with step-by-step algorithm walkthrough.",
+    "category": "Classical Methods",
+    "url": "https://www.blog.trainindata.com/multi-seasonal-time-series-decomposition-using-mstl-in-python/",
+    "type": "Tutorial",
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Decomposition"
+    ],
+    "domain": "Forecasting & Time Series"
+  },
+  {
+    "name": "Time Series Handbook: LightGBM for M5",
+    "description": "Complete Jupyter Book with runnable code. LightGBM MAE (200.5) vs. naive baseline (698.0). Feature engineering (lags, rolling windows), recursive vs. direct forecasting, hyperparameter tuning. Free via GitHub with Binder.",
+    "category": "Machine Learning",
+    "url": "https://phdinds-aim.github.io/time_series_handbook/08_WinningestMethods/lightgbm_m5_forecasting.html",
+    "type": "Interactive Tutorial",
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "LightGBM"
+    ],
+    "domain": "Forecasting & Time Series"
+  },
+  {
+    "name": "Blocked Time Series Cross Validation",
+    "description": "Addresses critical issue: expanding window CV produces overly optimistic estimates. Drop-in sklearn-compatible code. Explains why blocked CV gives realistic production performance estimates.",
+    "category": "Machine Learning",
+    "url": "https://towardsdatascience.com/reduce-bias-in-time-series-cross-validation-with-blocked-split-4ecbfc88f5a4/",
+    "type": "Tutorial",
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Cross-Validation"
+    ],
+    "domain": "Forecasting & Time Series"
+  },
+  {
+    "name": "M5 Competition Analysis: Learnings and Winning Solutions",
+    "description": "Synthesizes learnings from 5,558 teams on 42,840 time series. Key finding: ML beats statistical when you have many correlated series, exogenous variables, hierarchical structure. LightGBM vs. N-BEATS vs. seq2seq comparison.",
+    "category": "Machine Learning",
+    "url": "https://medium.com/analytics-vidhya/predicting-the-future-with-learnings-from-the-m5-competition-d54e84ca3d0d",
+    "type": "Analysis",
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Competition"
+    ],
+    "domain": "Forecasting & Time Series"
+  },
+  {
+    "name": "TensorFlow Time Series Forecasting Tutorial",
+    "description": "Official Google documentation with production-quality code. Builds models incrementally: linear \u2192 dense \u2192 CNN \u2192 LSTM. Includes baseline comparisons so you can assess if DL is worth the complexity. Runnable in Colab.",
+    "category": "Deep Learning",
+    "url": "https://www.tensorflow.org/tutorials/structured_data/time_series",
+    "type": "Interactive Tutorial",
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Deep Learning"
+    ],
+    "domain": "Forecasting & Time Series"
+  },
+  {
+    "name": "Temporal Fusion Transformer: Complete Tutorial",
+    "description": "End-to-end TFT with PyTorch Forecasting. Handles heterogeneous features (static, time-varying known/unknown). Interpretability via variable importance and attention. Shows when TFT outperforms simpler methods.",
+    "category": "Deep Learning",
+    "url": "https://towardsdatascience.com/temporal-fusion-transformer-time-series-forecasting-with-deep-learning-complete-tutorial-d32c1e51cd91/",
+    "type": "Tutorial",
+    "level": "Hard",
+    "tags": [
+      "Forecasting",
+      "Transformers"
+    ],
+    "domain": "Forecasting & Time Series"
+  },
+  {
+    "name": "Time Series Forecasting with Lag-Llama",
+    "description": "Foundation models landscape (Lag-Llama, TimesFM, Moirai, TimeGPT-1). Zero-shot vs. fine-tuning decision framework. Probabilistic forecasts with uncertainty quantification. Complete Python with GluonTS.",
+    "category": "Deep Learning",
+    "url": "https://www.ibm.com/think/tutorials/lag-llama",
+    "type": "Tutorial",
+    "level": "Hard",
+    "tags": [
+      "Forecasting",
+      "Foundation Models"
+    ],
+    "domain": "Forecasting & Time Series"
+  },
+  {
+    "name": "Chronos-Bolt: Fast Zero-Shot Forecasting (AWS)",
+    "description": "T5 architecture with patching. Quantifies efficiency-accuracy tradeoff: 250x faster, 20x more memory efficient than original Chronos. Benchmarked on 27 datasets. Shows combining univariate foundation models with exogenous features.",
+    "category": "Deep Learning",
+    "url": "https://aws.amazon.com/blogs/machine-learning/fast-and-accurate-zero-shot-forecasting-with-chronos-bolt-and-autogluon/",
+    "type": "Engineering Blog",
+    "level": "Hard",
+    "tags": [
+      "Forecasting",
+      "Foundation Models"
+    ],
+    "domain": "Forecasting & Time Series"
+  },
+  {
+    "name": "Uber: Forecasting Introduction",
+    "description": "Written by M4 Competition winner team. Covers 15 million trips/day across 600+ cities. Explicitly addresses ML vs. statistical methods decision. Use cases: marketplace, capacity planning, marketing.",
+    "category": "Production Systems",
+    "url": "https://www.uber.com/blog/forecasting-introduction/",
+    "type": "Engineering Blog",
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Production"
+    ],
+    "domain": "Forecasting & Time Series"
+  },
+  {
+    "name": "Uber: Backtesting at Scale",
+    "description": "Architecture for ~10 million backtests. Four backtesting vectors (cities, windows, variants, granularity). Go/Cadence workflows. Evolution from Omphalos framework to handle exponential growth.",
+    "category": "Production Systems",
+    "url": "https://www.uber.com/blog/backtesting-at-scale/",
+    "type": "Engineering Blog",
+    "level": "Hard",
+    "tags": [
+      "Forecasting",
+      "Production"
+    ],
+    "domain": "Forecasting & Time Series"
+  },
+  {
+    "name": "DoorDash: ELITE Ensemble Learning",
+    "description": "ELITE (Ensemble Learning for Improved Time-series Estimation). Addresses accuracy vs. speed/cost tradeoffs. Scales to tens of thousands of targets. Practical engineering decisions for when perfect is enemy of good.",
+    "category": "Production Systems",
+    "url": "https://doordash.engineering/2023/06/20/how-doordash-built-an-ensemble-learning-model-for-time-series-forecasting/",
+    "type": "Engineering Blog",
+    "level": "Hard",
+    "tags": [
+      "Forecasting",
+      "Production"
+    ],
+    "domain": "Forecasting & Time Series"
+  },
+  {
+    "name": "Instacart Anytime: Data Science Paradigm",
+    "description": "End-to-end system: forecasting integrates with supply planning and capacity decisions. Key metrics: Availability, Idleness, Unmet Demand. Multi-horizon forecasting (weeks ahead for acquisition, hourly for store-level).",
+    "category": "Production Systems",
+    "url": "https://tech.instacart.com/instacart-anytime-a-data-science-paradigm-33eb25a5c32d",
+    "type": "Engineering Blog",
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Production"
+    ],
+    "domain": "Forecasting & Time Series"
+  },
+  {
+    "name": "Causal Inference for the Brave and True: Time Series",
+    "description": "By economist at Nubank. Chapters 13-15, 24-25 address panel data/time series causal analysis. DiD, synthetic controls, RDD with time dimension. Bridges econometrics and ML with executable notebooks.",
+    "category": "Specialized Methods",
+    "url": "https://matheusfacure.github.io/python-causality-handbook/landing-page.html",
+    "type": "Interactive Course",
+    "level": "Hard",
+    "tags": [
+      "Forecasting",
+      "Causal"
+    ],
+    "domain": "Forecasting & Time Series"
+  },
+  {
+    "name": "Conformal Prediction Intervals for Time Series",
+    "description": "Distribution-free uncertainty quantification without Gaussian assumptions. Model-agnostic approach works with any forecasting method. Addresses limitation of bootstrap (only captures data uncertainty). MAPIE implementation.",
+    "category": "Specialized Methods",
+    "url": "https://towardsdatascience.com/time-series-forecasting-with-conformal-prediction-intervals-scikit-learn-is-all-you-need-4b68143a027a/",
+    "type": "Tutorial",
+    "level": "Hard",
+    "tags": [
+      "Forecasting",
+      "Uncertainty"
+    ],
+    "domain": "Forecasting & Time Series"
+  },
+  {
+    "name": "Anomaly Detection in Time Series",
+    "description": "Systematic coverage: point outliers, subsequence outliers. Methods from simple to complex: STL-based, Isolation Forest, ARIMA/Prophet-based, autoencoders with PyOD. Critical for pre-forecasting data cleaning.",
+    "category": "Specialized Methods",
+    "url": "https://neptune.ai/blog/anomaly-detection-in-time-series",
+    "type": "Tutorial",
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Anomaly Detection"
+    ],
+    "domain": "Forecasting & Time Series"
+  },
+  {
+    "name": "Change Point Detection in Time Series",
+    "description": "Six algorithms via ruptures library (PELT, Dynamic Programming, Binary Segmentation, Window-based, Bottom-up, Kernel CPD). Real Google Search Console application. Discusses computational complexity tradeoffs.",
+    "category": "Specialized Methods",
+    "url": "https://forecastegy.com/posts/change-point-detection-time-series-python/",
+    "type": "Tutorial",
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Change Point"
+    ],
+    "domain": "Forecasting & Time Series"
   }
 ]
