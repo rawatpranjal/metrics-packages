@@ -171,68 +171,33 @@
   },
   {
     "name": "Recommendation Systems",
-    "description": "Random utility models underpin collaborative filtering \u2014 preference elicitation mirrors revealed preference theory",
+    "description": "Random utility models underpin collaborative filtering — preference elicitation mirrors revealed preference theory",
     "icon": "star",
     "resources": [
       {
         "name": "Google ML Recommendation Course",
-        "why": "Free, 4 hours, candidate generation through re-ranking. Gold standard starter",
+        "why": "Gold standard starter — 4 hours, candidate generation to re-ranking",
         "url": "https://developers.google.com/machine-learning/recommendation"
       },
       {
-        "name": "HSE RecSys Course (GitHub)",
-        "why": "Full course: collaborative filtering, matrix factorization, A/B testing",
-        "url": "https://github.com/hse-econ-data-science/recsys-itmo"
-      },
-      {
-        "name": "Fast.ai Lesson 7: Collaborative Filtering",
-        "why": "Jeremy Howard's accessible deep dive, embeddings explained intuitively",
-        "url": "https://course.fast.ai/Lessons/lesson7.html"
-      },
-      {
-        "name": "Microsoft Recommenders Notebooks",
-        "why": "Production-quality examples, scikit-learn style",
-        "url": "https://github.com/recommenders-team/recommenders/tree/main/examples"
-      },
-      {
         "name": "StatQuest: Collaborative Filtering",
-        "why": "Josh Starmer's visual, jargon-free explanation",
+        "why": "Visual, jargon-free explanation from Josh Starmer",
         "url": "https://www.youtube.com/watch?v=Fmtorg_dmM0"
       },
       {
-        "name": "Ritvikmath: Recommendation Systems",
-        "why": "Clear math intuition without overwhelming notation",
-        "url": "https://www.youtube.com/watch?v=n3RKsY2H-NE"
-      },
-      {
-        "name": "Jeremy Howard's Kaggle Deep Dive",
-        "why": "Matrix factorization from scratch",
-        "url": "https://www.kaggle.com/code/jhoward/collaborative-filtering-deep-dive"
+        "name": "Fast.ai Lesson 7: Collaborative Filtering",
+        "why": "Accessible deep dive, embeddings explained intuitively",
+        "url": "https://course.fast.ai/Lessons/lesson7.html"
       },
       {
         "name": "TFRS Quickstart Colab",
-        "why": "Movie recommender in minutes",
+        "why": "Build a movie recommender in minutes",
         "url": "https://colab.research.google.com/github/tensorflow/recommenders/blob/main/docs/examples/quickstart.ipynb"
       },
       {
-        "name": "Spotify Recommendations Explainer",
-        "why": "Plain-language taste profiles",
-        "url": "https://www.spotify.com/us/safetyandprivacy/understanding-recommendations"
-      },
-      {
         "name": "Netflix: How Recommendations Work",
-        "why": "Official non-technical overview",
+        "why": "Official non-technical conceptual overview",
         "url": "https://help.netflix.com/en/node/100639"
-      },
-      {
-        "name": "IBM Collaborative Filtering",
-        "why": "Authoritative enterprise perspective",
-        "url": "https://www.ibm.com/think/topics/collaborative-filtering"
-      },
-      {
-        "name": "Music Tomorrow: Spotify Deep Dive",
-        "why": "Audio features, accessible depth",
-        "url": "https://www.music-tomorrow.com/blog/how-spotify-recommendation-system-works-complete-guide"
       }
     ],
     "packages": [
@@ -242,19 +207,9 @@
         "url": "https://surpriselib.com/"
       },
       {
-        "name": "LightFM",
-        "why": "Hybrid cold-start with content features",
-        "url": "https://making.lyst.com/lightfm/docs/home.html"
-      },
-      {
         "name": "implicit",
-        "why": "Optimized for implicit feedback (clicks/views)",
+        "why": "Simple, optimized for clicks/views feedback",
         "url": "https://benfred.github.io/implicit/"
-      },
-      {
-        "name": "RecBole",
-        "why": "100+ deep learning models, PyTorch-based",
-        "url": "https://recbole.io/"
       }
     ],
     "order": 5
