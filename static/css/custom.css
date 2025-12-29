@@ -505,6 +505,33 @@ a:hover {
     line-height: 1.5;
 }
 
+.resource-best-for {
+    color: var(--accent);
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0 0 0.5rem 0;
+    padding: 0.25rem 0.5rem;
+    background: var(--accent-light, rgba(59, 130, 246, 0.1));
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.attendees-badge {
+    background: var(--bg-hover);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.subcategory-badge {
+    background: var(--accent-light, rgba(59, 130, 246, 0.15));
+    color: var(--accent);
+    font-size: 0.75rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
 .resource-count {
     color: var(--text-muted);
     font-size: 0.95rem;

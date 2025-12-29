@@ -84,6 +84,8 @@
             </div>
         </a>
 
+        {{ $conferences := where .Site.Data.community "category" "Conferences" }}
+        {{ $blogs := where .Site.Data.community "category" "Blogs" }}
         <a href="{{ "community/" | relURL }}" class="section-card section-card-with-image" data-aos="fade-up" data-aos-delay="150">
             <div class="card-bg" style="background-image: url('/images/cards/community-card.webp')"></div>
             <div class="card-content">
@@ -96,7 +98,7 @@
                     </svg>
                 </div>
                 <h3>Community & Events</h3>
-                <p>{{ len .Site.Data.community }} conferences, meetups, and online groups</p>
+                <p>{{ len $conferences }} conferences • {{ len $blogs }} practitioner blogs</p>
             </div>
         </a>
 

@@ -1,262 +1,886 @@
 [
   {
     "name": "ASSA Annual Meeting",
-    "description": "Allied Social Science Associations annual meeting. The largest gathering of researchers with sessions on applied analytics, market design, and causal inference.",
+    "description": "Allied Social Science Associations annual meeting. The largest gathering of economists with sessions on applied analytics, market design, and causal inference. Features AEA, Econometric Society, and 60+ allied associations.",
     "category": "Conferences",
+    "subcategory": "Statistics & Analytics",
     "url": "https://www.aeaweb.org/conference/",
     "type": "Annual Conference",
     "location": "Various US cities",
     "dates": "January (annually)",
+    "attendees": "10,000+",
+    "best_for": "Academic economists across all fields",
     "tags": [
       "Conferences",
-      "Annual Conference"
+      "Statistics & Analytics"
     ]
   },
   {
     "name": "ACM EC (Economics and Computation)",
-    "description": "ACM Conference on Economics and Computation. Premier venue for market design, mechanism design, and algorithmic game theory research.",
+    "description": "ACM Conference on Economics and Computation. Premier venue for market design, mechanism design, and algorithmic game theory research. Essential for tech economists working on auctions, pricing, and platform economics.",
     "category": "Conferences",
+    "subcategory": "Market Design",
     "url": "https://www.sigecom.org/",
     "type": "Annual Conference",
     "location": "Various",
     "dates": "June-July (annually)",
+    "attendees": "400+",
+    "best_for": "Market design and algorithmic game theory researchers",
     "tags": [
       "Conferences",
-      "Annual Conference"
+      "Market Design"
     ]
   },
   {
     "name": "Causal Data Science Meeting",
-    "description": "Annual conference bringing together researchers and practitioners in causal inference and machine learning. Endorsed by Nobel laureate Guido Imbens.",
+    "description": "Annual conference bringing together researchers and practitioners in causal inference and machine learning. Endorsed by Nobel laureate Guido Imbens. Strong industry presence from major tech companies.",
     "category": "Conferences",
+    "subcategory": "Experimentation",
     "url": "https://www.causalscience.org/",
     "type": "Annual Conference",
     "location": "Various",
     "dates": "November (annually)",
+    "attendees": "300+",
+    "best_for": "Causal inference practitioners in industry",
     "tags": [
       "Conferences",
-      "Annual Conference"
+      "Experimentation"
     ]
   },
   {
     "name": "CODE@MIT Conference",
-    "description": "Conference on Digital Experimentation at MIT. Focused on experimentation, A/B testing, and causal inference in digital platforms.",
+    "description": "Conference on Digital Experimentation at MIT. Focused on experimentation, A/B testing, and causal inference in digital platforms. Strong presence from tech industry data scientists and academic researchers.",
     "category": "Conferences",
+    "subcategory": "Experimentation",
     "url": "https://ide.mit.edu/events/conference-on-digital-experimentation-code/",
     "type": "Annual Conference",
     "location": "Cambridge, MA",
     "dates": "October-November (annually)",
+    "attendees": "400+",
+    "best_for": "Digital experimentation practitioners and researchers",
     "tags": [
       "Conferences",
-      "Annual Conference"
+      "Experimentation"
     ]
   },
   {
     "name": "Econometric Society World Congress",
-    "description": "The focal point of the Econometric Society's meetings where researchers from all regions convene. Covers all aspects of economics including causal inference and econometrics.",
+    "description": "The focal point of the Econometric Society's meetings where researchers from all regions convene. Covers all aspects of economics including causal inference and econometrics. Premier academic gathering for econometricians.",
     "category": "Conferences",
+    "subcategory": "Statistics & Analytics",
     "url": "https://www.econometricsociety.org/",
     "type": "Quinquennial Conference",
     "location": "Seoul, Korea (2025)",
     "dates": "August (every 5 years)",
+    "attendees": "2,000+",
+    "best_for": "Academic econometricians",
     "tags": [
       "Conferences",
-      "Quinquennial Conference"
+      "Statistics & Analytics"
     ]
   },
   {
     "name": "European Causal Inference Meeting (EuroCIM)",
-    "description": "Forum for researchers interested in causal inference to meet informally. Covers health, economic, and social sciences applications.",
+    "description": "Forum for researchers interested in causal inference to meet informally. Covers health, economic, and social sciences applications. European counterpart to ACIC with strong biostatistics presence.",
     "category": "Conferences",
+    "subcategory": "Experimentation",
     "url": "https://eurocim.org/",
     "type": "Annual Conference",
     "location": "Various Europe",
     "dates": "April (annually)",
+    "attendees": "200+",
+    "best_for": "European causal inference researchers",
     "tags": [
       "Conferences",
-      "Annual Conference"
+      "Experimentation"
     ]
   },
   {
     "name": "Global Antitrust Economics Conference",
-    "description": "Hosted at NYU Stern. Leading competition authorities discuss digital markets enforcement, algorithmic collusion, and antitrust in the AI economy.",
+    "description": "Hosted at NYU Stern. Leading competition authorities discuss digital markets enforcement, algorithmic collusion, and antitrust in the AI economy. Essential for tech economists in competition policy.",
     "category": "Conferences",
+    "subcategory": "Antitrust",
     "url": "https://www.concurrences.com/",
     "type": "Annual Conference",
     "location": "New York, NY",
     "dates": "November (annually)",
+    "attendees": "300+",
+    "best_for": "Competition economists and antitrust practitioners",
     "tags": [
       "Conferences",
-      "Annual Conference"
+      "Antitrust"
     ]
   },
   {
     "name": "IIOC (Industrial Organization Conference)",
-    "description": "International Industrial Organization Conference. Research on antitrust policy, regulatory policy, competition, algorithmic pricing, and market power.",
+    "description": "International Industrial Organization Conference. Research on antitrust policy, regulatory policy, competition, algorithmic pricing, and market power. Key venue for IO economists in tech.",
     "category": "Conferences",
+    "subcategory": "Antitrust",
     "url": "https://www.indorgsociety.org/conference",
     "type": "Annual Conference",
     "location": "Various US cities",
     "dates": "April (annually)",
+    "attendees": "400+",
+    "best_for": "Industrial organization economists",
     "tags": [
       "Conferences",
-      "Annual Conference"
+      "Antitrust"
     ]
   },
   {
     "name": "INFORMS Analytics+ Conference",
-    "description": "Premier analytics conference bringing together 700+ professionals in operations research, analytics, and data science. Features practical applications and networking.",
+    "description": "Premier analytics conference bringing together professionals in operations research, analytics, and data science. Features practical applications, networking, and the Franz Edelman Award for analytics achievement.",
     "category": "Conferences",
+    "subcategory": "Statistics & Analytics",
     "url": "https://www.informs.org/Meetings-Conferences/INFORMS-Conference-Calendar/2025-INFORMS-Analytics-Conference",
     "type": "Annual Conference",
     "location": "Indianapolis, IN (2025)",
     "dates": "April (annually)",
+    "attendees": "700+",
+    "best_for": "Analytics practitioners and OR professionals",
     "tags": [
       "Conferences",
-      "Annual Conference"
+      "Statistics & Analytics"
     ]
   },
   {
     "name": "INFORMS Annual Meeting",
-    "description": "Largest annual gathering for operations research and analytics professionals. Covers optimization, decision analysis, and data-driven methods.",
+    "description": "Largest annual gathering for operations research and analytics professionals. Covers optimization, decision analysis, and data-driven methods. Features extensive tracks on pricing, revenue management, and marketplace design.",
     "category": "Conferences",
+    "subcategory": "Statistics & Analytics",
     "url": "https://meetings.informs.org/wordpress/annual/",
     "type": "Annual Conference",
     "location": "Atlanta, GA (2025)",
     "dates": "October (annually)",
+    "attendees": "6,000+",
+    "best_for": "Operations research and analytics professionals",
     "tags": [
       "Conferences",
-      "Annual Conference"
+      "Statistics & Analytics"
     ]
   },
   {
     "name": "MIT Platform Strategy Summit",
-    "description": "Summit on platform dynamics, digital markets, and antitrust. Covers AI's effects on innovation, labor, and policy implications for tech platforms.",
+    "description": "Summit on platform dynamics, digital markets, and antitrust. Covers AI's effects on innovation, labor, and policy implications for tech platforms. Features mix of academics, industry leaders, and policymakers.",
     "category": "Conferences",
+    "subcategory": "Platforms & E-commerce",
     "url": "https://ide.mit.edu/events/2025-mit-platform-strategy-summit/",
     "type": "Annual Summit",
     "location": "Cambridge, MA",
     "dates": "July (annually)",
+    "attendees": "300+",
+    "best_for": "Platform strategists and policymakers",
     "tags": [
       "Conferences",
-      "Annual Summit"
+      "Platforms & E-commerce"
     ]
   },
   {
     "name": "ML in Economics Summer Conference",
-    "description": "Hosted by Chicago Booth's Center for Applied AI. Brings together researchers working at the intersection of machine learning and economics.",
+    "description": "Hosted by Chicago Booth's Center for Applied AI. Brings together researchers working at the intersection of machine learning and economics. Focus on causal ML, econometric methods, and policy applications.",
     "category": "Conferences",
+    "subcategory": "Statistics & Analytics",
     "url": "https://www.chicagobooth.edu/research/center-for-applied-artificial-intelligence",
     "type": "Annual Conference",
     "location": "Chicago, IL",
     "dates": "August (annually)",
+    "attendees": "150+",
+    "best_for": "ML and economics researchers",
     "tags": [
       "Conferences",
-      "Annual Conference"
+      "Statistics & Analytics"
     ]
   },
   {
     "name": "NABE Annual Conference",
-    "description": "National Association for Business Economics annual meeting. Brings together researchers from industry, academia, and government to discuss economic policy and forecasting.",
+    "description": "National Association for Business Economics annual meeting. Brings together researchers from industry, academia, and government to discuss economic policy and forecasting. Strong representation from Fed economists and corporate economists.",
     "category": "Conferences",
+    "subcategory": "Statistics & Analytics",
     "url": "https://nabe.com/NABE/Events/Event_List",
     "type": "Annual Conference",
     "location": "Various US cities",
     "dates": "September (annually)",
+    "attendees": "500+",
+    "best_for": "Business economists and forecasters",
     "tags": [
       "Conferences",
-      "Annual Conference"
+      "Statistics & Analytics"
     ]
   },
   {
-    "name": "NABE applied analytics Conference",
-    "description": "NABE's conference for applied researchers. Covers causal inference, AI, and experiments in action. Practitioners from major tech companies share insights.",
+    "name": "NABE Applied Analytics Conference",
+    "description": "NABE's conference for applied researchers. Covers causal inference, AI, and experiments in action. Practitioners from major tech companies like Amazon, Microsoft, and Meta share insights on production ML and experimentation.",
     "category": "Conferences",
+    "subcategory": "Experimentation",
     "url": "https://www.nabe.com/",
     "type": "Annual Conference",
     "location": "Seattle, WA (2025)",
     "dates": "November (annually)",
+    "attendees": "200+",
+    "best_for": "Applied analytics practitioners in tech",
     "tags": [
       "Conferences",
-      "Annual Conference"
+      "Experimentation"
     ]
   },
   {
     "name": "NBER Summer Institute: Digital Economics",
-    "description": "NBER session on Digital Economics and AI. Research on digital surveillance, AI labor effects, and human-AI collaboration. Top academic researchers.",
+    "description": "NBER session on Digital Economics and AI. Research on digital surveillance, AI labor effects, and human-AI collaboration. Top academic researchers from economics departments worldwide. Invitation-only but papers publicly available.",
     "category": "Conferences",
+    "subcategory": "Platforms & E-commerce",
     "url": "https://www.nber.org/conferences/si-2025-digital-economics-and-artificial-intelligence",
-    "type": "Annual Conference",
+    "type": "Summer Institute",
     "location": "Cambridge, MA",
     "dates": "July (annually)",
+    "attendees": "100+",
+    "best_for": "Academic digital economists",
     "tags": [
       "Conferences",
-      "Annual Conference"
+      "Platforms & E-commerce"
     ]
   },
   {
     "name": "Northwestern Antitrust Conference",
-    "description": "Annual conference on antitrust economics and competition policy. Covers digital acquisitions, buyer/seller power, and exclusive dealing research.",
+    "description": "Annual conference on antitrust economics and competition policy. Covers digital acquisitions, buyer/seller power, and exclusive dealing research. Strong mix of academics, practitioners, and antitrust enforcers.",
     "category": "Conferences",
+    "subcategory": "Antitrust",
     "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
     "type": "Annual Conference",
     "location": "Chicago, IL",
     "dates": "September (annually)",
+    "attendees": "200+",
+    "best_for": "Antitrust economists and lawyers",
     "tags": [
       "Conferences",
-      "Annual Conference"
+      "Antitrust"
     ]
   },
   {
     "name": "Stanford SITE",
-    "description": "Stanford Institute for Theoretical Economics summer sessions. Includes Empirical Market Design and Market Failures tracks relevant to applied researchers.",
+    "description": "Stanford Institute for Theoretical Economics summer sessions. Includes Empirical Market Design, Market Failures, and IO tracks relevant to applied researchers. Invitation-only sessions featuring top economists.",
     "category": "Conferences",
+    "subcategory": "Market Design",
     "url": "https://economics.stanford.edu/site/site-2025",
     "type": "Summer Institute",
     "location": "Stanford, CA",
     "dates": "June-September (annually)",
+    "attendees": "50-100 per session",
+    "best_for": "Academic market design and IO researchers",
     "tags": [
       "Conferences",
-      "Summer Institute"
+      "Market Design"
     ]
   },
   {
     "name": "Stigler Center Antitrust Conference",
-    "description": "Chicago Booth conference on economic concentration and competition. Covers digital platforms, media markets, and antitrust policy.",
+    "description": "Chicago Booth conference on economic concentration and competition. Covers digital platforms, media markets, and antitrust policy. Mix of academics, policymakers, and industry practitioners.",
     "category": "Conferences",
+    "subcategory": "Antitrust",
     "url": "https://www.chicagobooth.edu/research/stigler/events",
     "type": "Annual Conference",
     "location": "Chicago, IL",
     "dates": "April (annually)",
+    "attendees": "200+",
+    "best_for": "Competition policy researchers and practitioners",
     "tags": [
       "Conferences",
-      "Annual Conference"
+      "Antitrust"
     ]
   },
   {
     "name": "The Web Conference (WWW)",
-    "description": "Premier conference on understanding the Web through computer science, economics, and policy. Features dedicated economics and e-commerce research tracks.",
+    "description": "Premier conference on understanding the Web through computer science, economics, and policy. Features dedicated economics and e-commerce research tracks. Strong presence from tech industry researchers.",
     "category": "Conferences",
+    "subcategory": "Platforms & E-commerce",
     "url": "https://thewebconf.org/",
     "type": "Annual Conference",
     "location": "Sydney, Australia (2025)",
     "dates": "April-May (annually)",
+    "attendees": "2,000+",
+    "best_for": "Web and e-commerce researchers",
     "tags": [
       "Conferences",
-      "Annual Conference"
+      "Platforms & E-commerce"
     ]
   },
   {
     "name": "WINE",
     "description": "Conference on Web and Internet Economics. Focuses on game theory, mechanism design, and economic aspects of internet and web systems.",
     "category": "Conferences",
+    "subcategory": "Market Design",
     "url": "https://wine2025.cs.rutgers.edu/",
     "type": "Annual Conference",
     "location": "Rutgers, NJ (2025)",
     "dates": "December (annually)",
     "tags": [
       "Conferences",
-      "Annual Conference"
+      "Market Design"
+    ]
+  },
+  {
+    "name": "Stanford Causal Science Conference on Experimentation",
+    "description": "Annual academic-industry bridge featuring speakers from Spotify, Google, Airbnb, Meta, Netflix, Uber, LinkedIn, and OpenAI. Topics include personalization, interference in experiments, platform design, and causal measurement at scale.",
+    "category": "Conferences",
+    "subcategory": "Experimentation",
+    "url": "https://datascience.stanford.edu/research/centers/causal-science-center",
+    "type": "Annual Conference",
+    "location": "Stanford, CA",
+    "dates": "May-June (annually)",
+    "attendees": "200+",
+    "best_for": "Tech company experimentation leaders",
+    "tags": [
+      "Conferences",
+      "Experimentation"
+    ]
+  },
+  {
+    "name": "American Causal Inference Conference (ACIC)",
+    "description": "The oldest and largest causal inference gathering, running since 2004. Brings together researchers from medicine, economics, and social sciences. Features the ACIC Data Challenge for methodological innovation.",
+    "category": "Conferences",
+    "subcategory": "Experimentation",
+    "url": "https://sci-info.org/annual-meeting/",
+    "type": "Annual Conference",
+    "location": "Detroit, MI (2025)",
+    "dates": "May (annually)",
+    "attendees": "700+",
+    "best_for": "Causal inference methodology researchers",
+    "tags": [
+      "Conferences",
+      "Experimentation"
+    ]
+  },
+  {
+    "name": "Northwestern Workshop on Causal Inference",
+    "description": "Intensive 9-day training featuring Donald Rubin (Harvard), Jens Hainmueller (Stanford), and Christian Hansen (Chicago Booth). Covers difference-in-differences, ML for causal inference, regression discontinuity, and instrumental variables.",
+    "category": "Conferences",
+    "subcategory": "Experimentation",
+    "url": "https://www.law.northwestern.edu/research-faculty/events/conferences/causalinference/",
+    "type": "Training Workshop",
+    "location": "Chicago, IL",
+    "dates": "July-August (annually)",
+    "best_for": "Intensive causal methods training",
+    "tags": [
+      "Conferences",
+      "Experimentation"
+    ]
+  },
+  {
+    "name": "CLeaR (Causal Learning and Reasoning)",
+    "description": "ML-focused causal inference conference covering causal discovery, treatment effect estimation, and causal ML applications. Published in PMLR proceedings.",
+    "category": "Conferences",
+    "subcategory": "Experimentation",
+    "url": "https://www.cclear.cc/",
+    "type": "Annual Conference",
+    "location": "Various (rotating)",
+    "dates": "May (annually)",
+    "best_for": "ML-focused causality researchers",
+    "tags": [
+      "Conferences",
+      "Experimentation"
+    ]
+  },
+  {
+    "name": "Experimentation Island",
+    "description": "Practitioner-focused 3-day retreat for mid-to-senior growth, product, and experimentation professionals. Unconference-style sessions on experimentation culture and decision science.",
+    "category": "Conferences",
+    "subcategory": "Experimentation",
+    "url": "https://experimentationisland.com/",
+    "type": "Annual Retreat",
+    "location": "St. Simons Island, GA",
+    "dates": "February (annually)",
+    "best_for": "Senior experimentation practitioners",
+    "tags": [
+      "Conferences",
+      "Experimentation"
+    ]
+  },
+  {
+    "name": "ISMS Marketing Science Conference",
+    "description": "Premier academic marketing venue with 12+ parallel tracks over 2.5 days. Topics span choice models, game theory, structural econometric models, randomized control trials, pricing, advertising effectiveness, and causal inference.",
+    "category": "Conferences",
+    "subcategory": "Marketing Science",
+    "url": "https://connect.informs.org/isms/conferences",
+    "type": "Annual Conference",
+    "location": "Washington DC (2025)",
+    "dates": "June (annually)",
+    "attendees": "800+",
+    "best_for": "Quantitative marketing researchers",
+    "tags": [
+      "Conferences",
+      "Marketing Science"
+    ]
+  },
+  {
+    "name": "ARF Marketing Analytics Accelerator",
+    "description": "The only event focused exclusively on attribution, marketing mix models, and performance measurement. Covers MMM methodology, multi-touch attribution, causal analysis at scale, and incrementality measurement.",
+    "category": "Conferences",
+    "subcategory": "Marketing Science",
+    "url": "https://thearf.org/arf-events/",
+    "type": "Annual Conference",
+    "location": "New York, NY",
+    "dates": "November (annually)",
+    "best_for": "MMM and attribution practitioners",
+    "tags": [
+      "Conferences",
+      "Marketing Science"
+    ]
+  },
+  {
+    "name": "Wharton Customer Analytics Conference",
+    "description": "Bridges academic rigor with practical business applications through the Wharton Customer Analytics Initiative. Features real-world customer analytics case studies alongside cutting-edge academic research on CLV and personalization.",
+    "category": "Conferences",
+    "subcategory": "Marketing Science",
+    "url": "https://wca.wharton.upenn.edu/",
+    "type": "Annual Conference",
+    "location": "Philadelphia, PA",
+    "dates": "Spring (annually)",
+    "best_for": "Customer analytics practitioners and researchers",
+    "tags": [
+      "Conferences",
+      "Marketing Science"
+    ]
+  },
+  {
+    "name": "ANA Measurement & Analytics Conference",
+    "description": "Three days covering AI advancements, retail media networks, outcome measurement, MMM, attribution, and incrementality for brand-side marketers.",
+    "category": "Conferences",
+    "subcategory": "Marketing Science",
+    "url": "https://www.ana.net/conference",
+    "type": "Annual Conference",
+    "location": "Chicago, IL",
+    "dates": "September (annually)",
+    "best_for": "Brand-side marketing analytics",
+    "tags": [
+      "Conferences",
+      "Marketing Science"
+    ]
+  },
+  {
+    "name": "Marketing Analytics Summit",
+    "description": "Vendor-neutral practitioner conference covering marketing analytics strategy, measurement frameworks, and data-driven marketing decisions.",
+    "category": "Conferences",
+    "subcategory": "Marketing Science",
+    "url": "https://marketinganalyticssummit.com/",
+    "type": "Annual Conference",
+    "location": "Phoenix, AZ",
+    "dates": "June (annually)",
+    "best_for": "Marketing analytics practitioners",
+    "tags": [
+      "Conferences",
+      "Marketing Science"
+    ]
+  },
+  {
+    "name": "INFORMS Revenue Management and Pricing Conference",
+    "description": "Premier forum for pricing analytics held at top business schools. Topics include dynamic pricing, demand forecasting, optimization algorithms, marketplace design, and algorithmic pricing.",
+    "category": "Conferences",
+    "subcategory": "Pricing & Revenue",
+    "url": "https://connect.informs.org/rmp/conferences",
+    "type": "Annual Conference",
+    "location": "Columbia (2025)",
+    "dates": "July (annually)",
+    "best_for": "Pricing analytics researchers and practitioners",
+    "tags": [
+      "Conferences",
+      "Pricing & Revenue"
+    ]
+  },
+  {
+    "name": "MSOM Conference",
+    "description": "Manufacturing and Service Operations Management conference covering service operations, platform operations, sharing economy research, and the operations-finance interface.",
+    "category": "Conferences",
+    "subcategory": "Pricing & Revenue",
+    "url": "https://connect.informs.org/msom/conferences",
+    "type": "Annual Conference",
+    "location": "London Business School (2025)",
+    "dates": "June (annually)",
+    "best_for": "Service and platform operations researchers",
+    "tags": [
+      "Conferences",
+      "Pricing & Revenue"
+    ]
+  },
+  {
+    "name": "POMS Annual Conference",
+    "description": "Production and Operations Management Society conference covering healthcare, supply chain, and service operations. Features college mini-conferences and practice leader forums.",
+    "category": "Conferences",
+    "subcategory": "Pricing & Revenue",
+    "url": "https://www.pomsmeetings.org/",
+    "type": "Annual Conference",
+    "location": "Atlanta, GA (2025)",
+    "dates": "May (annually)",
+    "best_for": "Operations management researchers",
+    "tags": [
+      "Conferences",
+      "Pricing & Revenue"
+    ]
+  },
+  {
+    "name": "Conference on Mechanism and Institution Design (CMID)",
+    "description": "Biennial academic conference covering auction design, market design, matching, and mechanism design theory—foundational for ad auctions, marketplace mechanisms, and algorithmic market design.",
+    "category": "Conferences",
+    "subcategory": "Market Design",
+    "url": "https://mechanism-design.org/",
+    "type": "Biennial Conference",
+    "location": "Various (rotating)",
+    "dates": "Biennial",
+    "best_for": "Mechanism design theorists",
+    "tags": [
+      "Conferences",
+      "Market Design"
+    ]
+  },
+  {
+    "name": "PPS profitABLE Conference",
+    "description": "Largest pricing events worldwide run by Professional Pricing Society. Focus on dynamic pricing, AI in pricing, and monetization strategies. Includes CPP certification.",
+    "category": "Conferences",
+    "subcategory": "Pricing & Revenue",
+    "url": "https://pricingsociety.com/events-overview/",
+    "type": "Biannual Conference",
+    "location": "Dallas/Las Vegas",
+    "dates": "May & October (biannually)",
+    "attendees": "500+",
+    "best_for": "Pricing practitioners and leaders",
+    "tags": [
+      "Conferences",
+      "Pricing & Revenue"
+    ]
+  },
+  {
+    "name": "Workshop on Platform Analytics (WoPA)",
+    "description": "Academically-focused platform economics event covering two-sided markets, personalized recommendations, marketplace design, algorithmic pricing, and content moderation economics. Program committee from Stanford, MIT, Harvard, Chicago, and Wharton.",
+    "category": "Conferences",
+    "subcategory": "Platforms & E-commerce",
+    "url": "https://platformanalytics.org/",
+    "type": "Annual Workshop",
+    "location": "UC San Diego (2026)",
+    "dates": "April (annually)",
+    "best_for": "Platform economics researchers",
+    "tags": [
+      "Conferences",
+      "Platforms & E-commerce"
+    ]
+  },
+  {
+    "name": "ACM RecSys",
+    "description": "Conference on Recommender Systems with economics-relevant content through its industrial track and fairness/bias sessions. RecSys 2026 comes to Minneapolis, making it accessible for US-based tech economists.",
+    "category": "Conferences",
+    "subcategory": "Platforms & E-commerce",
+    "url": "https://recsys.acm.org/",
+    "type": "Annual Conference",
+    "location": "Minneapolis (2026)",
+    "dates": "September-October (annually)",
+    "attendees": "1,000+",
+    "best_for": "Recommendation systems economics",
+    "tags": [
+      "Conferences",
+      "Platforms & E-commerce"
+    ]
+  },
+  {
+    "name": "Marketplace Risk Conference",
+    "description": "Covers trust, safety, compliance, and risk management for marketplace operations. Multiple annual US events provide networking opportunities for marketplace practitioners.",
+    "category": "Conferences",
+    "subcategory": "Platforms & E-commerce",
+    "url": "https://www.marketplacerisk.com/",
+    "type": "Multi-event Series",
+    "location": "Austin/SF/NYC",
+    "dates": "Feb/May/Sep (annually)",
+    "best_for": "Marketplace trust and safety professionals",
+    "tags": [
+      "Conferences",
+      "Platforms & E-commerce"
+    ]
+  },
+  {
+    "name": "Shoptalk",
+    "description": "Dominant retail/e-commerce event covering retail analytics, customer lifetime value, marketplace strategies, and AI in retail. One of the largest retail technology conferences.",
+    "category": "Conferences",
+    "subcategory": "Platforms & E-commerce",
+    "url": "https://shoptalk.com/",
+    "type": "Biannual Conference",
+    "location": "Las Vegas/Chicago",
+    "dates": "March & October (biannually)",
+    "attendees": "10,000+",
+    "best_for": "Retail and e-commerce analytics",
+    "tags": [
+      "Conferences",
+      "Platforms & E-commerce"
+    ]
+  },
+  {
+    "name": "Product-Led Summit",
+    "description": "Multiple US/Canada touchpoints covering product metrics, LTV, CAC, retention, and freemium economics for product-led growth practitioners.",
+    "category": "Conferences",
+    "subcategory": "Platforms & E-commerce",
+    "url": "https://world.productledalliance.com/",
+    "type": "Multi-event Series",
+    "location": "SF/Boston/Toronto/Chicago",
+    "dates": "Sep-Nov (annually)",
+    "best_for": "Product-led growth practitioners",
+    "tags": [
+      "Conferences",
+      "Platforms & E-commerce"
+    ]
+  },
+  {
+    "name": "Joint Statistical Meetings (JSM)",
+    "description": "Largest gathering of statisticians in North America including business/industry tracks alongside academic research. Covers applied statistics across all domains.",
+    "category": "Conferences",
+    "subcategory": "Statistics & Analytics",
+    "url": "https://www.amstat.org/meetings/jsm",
+    "type": "Annual Conference",
+    "location": "Nashville (2025)",
+    "dates": "August (annually)",
+    "attendees": "5,000+",
+    "best_for": "Statisticians across all sectors",
+    "tags": [
+      "Conferences",
+      "Statistics & Analytics"
+    ]
+  },
+  {
+    "name": "KDD (ACM SIGKDD)",
+    "description": "Premier data mining conference with significant A/B testing and experimentation content. Papers from Netflix, Amazon, and Uber on variance reduction, experimentation at scale, and causal inference. Applied Data Science Track covers business applications.",
+    "category": "Conferences",
+    "subcategory": "Statistics & Analytics",
+    "url": "https://kdd2025.kdd.org/",
+    "type": "Annual Conference",
+    "location": "Toronto, Canada (2025)",
+    "dates": "August (annually)",
+    "attendees": "3,000+",
+    "best_for": "Applied data science and ML researchers",
+    "tags": [
+      "Conferences",
+      "Statistics & Analytics"
+    ]
+  },
+  {
+    "name": "ASA Symposium on Data Science & Statistics (SDSS)",
+    "description": "Bridges data science, computer science, and statistics with practitioner-oriented content. Covers modern statistical methods and their applications in industry.",
+    "category": "Conferences",
+    "subcategory": "Statistics & Analytics",
+    "url": "https://www.amstat.org/meetings/sdss",
+    "type": "Annual Conference",
+    "location": "Salt Lake City (2025)",
+    "dates": "April-May (annually)",
+    "best_for": "Applied data scientists",
+    "tags": [
+      "Conferences",
+      "Statistics & Analytics"
+    ]
+  },
+  {
+    "name": "Decision Sciences Institute (DSI) Conference",
+    "description": "Covers decision sciences across business functional areas, including analytics, AI applications, and quantitative methods for business decision-making.",
+    "category": "Conferences",
+    "subcategory": "Statistics & Analytics",
+    "url": "https://decisionsciences.org/annual-conference/",
+    "type": "Annual Conference",
+    "location": "Orlando, FL (2025)",
+    "dates": "November (annually)",
+    "best_for": "Business analytics and decision science",
+    "tags": [
+      "Conferences",
+      "Statistics & Analytics"
+    ]
+  },
+  {
+    "name": "posit::conf",
+    "description": "Enterprise data science content for R and Python users. Covers data science workflows, reproducibility, and modern analytical tooling.",
+    "category": "Conferences",
+    "subcategory": "Statistics & Analytics",
+    "url": "https://posit.co/conference/",
+    "type": "Annual Conference",
+    "location": "Atlanta (2025)",
+    "dates": "September (annually)",
+    "attendees": "3,000+",
+    "best_for": "R and Python data scientists",
+    "tags": [
+      "Conferences",
+      "Statistics & Analytics"
+    ]
+  },
+  {
+    "name": "osQF (Open Source Quantitative Finance)",
+    "description": "Focused venue for applied finance using R and Python. Single-track conference covering econometrics, risk tools, portfolio management, and market microstructure. Formerly R/Finance.",
+    "category": "Conferences",
+    "subcategory": "Statistics & Analytics",
+    "url": "https://osqf.org/",
+    "type": "Annual Conference",
+    "location": "Chicago, IL",
+    "dates": "April (annually)",
+    "attendees": "100+",
+    "best_for": "Quantitative finance practitioners",
+    "tags": [
+      "Conferences",
+      "Statistics & Analytics"
+    ]
+  },
+  {
+    "name": "Conference on AI/ML and Business Analytics",
+    "description": "Bridges AI/ML researchers across computer science, economics, marketing, management, and finance. Hosted at top business schools since 2014, rotating among Columbia, Chicago Booth, Stanford GSB, NYU Stern, and others.",
+    "category": "Conferences",
+    "subcategory": "Statistics & Analytics",
+    "url": "https://business.columbia.edu/",
+    "type": "Annual Conference",
+    "location": "Various (rotating)",
+    "dates": "Various",
+    "best_for": "AI/ML in business research",
+    "tags": [
+      "Conferences",
+      "Statistics & Analytics"
+    ]
+  },
+  {
+    "name": "ASHEcon (American Society of Health Economists)",
+    "description": "Premier US health economics research conference across 180+ sessions. Features theoretical and empirical research on healthcare costs, insurance, pharmaceuticals, and policy with applied analytics including claims data analysis.",
+    "category": "Conferences",
+    "subcategory": "Healthcare Economics",
+    "url": "https://www.ashecon.org/",
+    "type": "Annual Conference",
+    "location": "Nashville (2025), Minneapolis (2026)",
+    "dates": "June (annually)",
+    "attendees": "1,000+",
+    "best_for": "Health economics researchers",
+    "tags": [
+      "Conferences",
+      "Healthcare Economics"
+    ]
+  },
+  {
+    "name": "ISPOR (Health Economics and Outcomes Research)",
+    "description": "Most applied health economics option with two major annual conferences. Sessions cover real-world evidence, health technology assessment, AI in HEOR, and drug pricing. Strong industry and pharma presence.",
+    "category": "Conferences",
+    "subcategory": "Healthcare Economics",
+    "url": "https://www.ispor.org/",
+    "type": "Biannual Conference",
+    "location": "Philadelphia (US), Various (Europe)",
+    "dates": "May (US), November (Europe)",
+    "best_for": "Healthcare technology and pharma economists",
+    "tags": [
+      "Conferences",
+      "Healthcare Economics"
+    ]
+  },
+  {
+    "name": "AcademyHealth Annual Research Meeting",
+    "description": "Largest health services research forum bringing together researchers, policymakers, and practitioners across 21 thematic tracks covering healthcare delivery, health economics, digital health, and AI in healthcare.",
+    "category": "Conferences",
+    "subcategory": "Healthcare Economics",
+    "url": "https://www.academyhealth.org/",
+    "type": "Annual Conference",
+    "location": "Minneapolis (2025)",
+    "dates": "June (annually)",
+    "best_for": "Health services researchers",
+    "tags": [
+      "Conferences",
+      "Healthcare Economics"
+    ]
+  },
+  {
+    "name": "GSU-MS AI and FinTech Conference",
+    "description": "Georgia State University conference partnering with Management Science journal, featuring dual submission options. Topics include AI in finance, big data in financial economics, DeFi, and cryptoeconomics.",
+    "category": "Conferences",
+    "subcategory": "Labor & Finance",
+    "url": "https://robinson.gsu.edu/",
+    "type": "Annual Conference",
+    "location": "Atlanta, GA",
+    "dates": "October (annually)",
+    "best_for": "Fintech and crypto researchers",
+    "tags": [
+      "Conferences",
+      "Labor & Finance"
+    ]
+  },
+  {
+    "name": "Federal Reserve Bank of San Francisco Fintech Conference",
+    "description": "Convenes academics, industry experts, and regulators on fintech opportunities, featuring Fed speakers including Governors. Covers regulatory implications and fintech innovation.",
+    "category": "Conferences",
+    "subcategory": "Labor & Finance",
+    "url": "https://www.frbsf.org/news-and-media/events/",
+    "type": "Annual Conference",
+    "location": "San Francisco, CA",
+    "dates": "April (annually)",
+    "best_for": "Fintech policy and research",
+    "tags": [
+      "Conferences",
+      "Labor & Finance"
+    ]
+  },
+  {
+    "name": "Wharton People Analytics Conference",
+    "description": "Leading HR analytics event now in its 12th year. Features academic research competitions alongside industry speakers from Google and Mastercard on AI and future of work, workforce transformation, and evidence-based HR.",
+    "category": "Conferences",
+    "subcategory": "Labor & Finance",
+    "url": "https://wpa.wharton.upenn.edu/",
+    "type": "Annual Conference",
+    "location": "Philadelphia, PA",
+    "dates": "April (annually)",
+    "best_for": "HR analytics and people science",
+    "tags": [
+      "Conferences",
+      "Labor & Finance"
+    ]
+  },
+  {
+    "name": "SOLE/EALE Annual Meeting",
+    "description": "Primary academic labor economics conference. The 2025 edition is the 6th World Labor Conference held jointly with European and Asian associations, providing global labor economics perspectives.",
+    "category": "Conferences",
+    "subcategory": "Labor & Finance",
+    "url": "https://www.sole-jole.org/",
+    "type": "Annual Conference",
+    "location": "Toronto, Canada (2025)",
+    "dates": "June (annually)",
+    "best_for": "Labor economists",
+    "tags": [
+      "Conferences",
+      "Labor & Finance"
+    ]
+  },
+  {
+    "name": "AREUEA (Real Estate and Urban Economics)",
+    "description": "Premier academic real estate conferences including ASSA session (January), National Conference (May), and International Conference (July). Growing tech/proptech tracks cover climate risk, appraisal bias, and real estate technology.",
+    "category": "Conferences",
+    "subcategory": "Labor & Finance",
+    "url": "https://www.areuea.org/",
+    "type": "Multi-event Series",
+    "location": "Washington DC/Various",
+    "dates": "January/May/July (annually)",
+    "best_for": "Real estate and urban economists",
+    "tags": [
+      "Conferences",
+      "Labor & Finance"
+    ]
+  },
+  {
+    "name": "Analytics Unite",
+    "description": "Retail and CPG analytics conference covering customer analytics, pricing optimization, and data-driven retail strategies. Strong industry practitioner focus.",
+    "category": "Conferences",
+    "subcategory": "Platforms & E-commerce",
+    "url": "https://www.analyticsunite.com/",
+    "type": "Annual Conference",
+    "location": "Chicago, IL",
+    "dates": "April (annually)",
+    "best_for": "Retail and CPG analytics practitioners",
+    "tags": [
+      "Conferences",
+      "Platforms & E-commerce"
+    ]
+  },
+  {
+    "name": "ARF AUDIENCExSCIENCE",
+    "description": "Covers audience measurement methodology and privacy-preserving techniques for media and advertising research.",
+    "category": "Conferences",
+    "subcategory": "Marketing Science",
+    "url": "https://thearf.org/arf-events/",
+    "type": "Annual Conference",
+    "location": "New York, NY",
+    "dates": "March (annually)",
+    "best_for": "Audience measurement researchers",
+    "tags": [
+      "Conferences",
+      "Marketing Science"
     ]
   },
   {

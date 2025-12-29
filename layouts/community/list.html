@@ -1,8 +1,11 @@
 {{ define "main" }}
+{{ $conferences := where .Site.Data.community "category" "Conferences" }}
+{{ $researchLabs := where .Site.Data.community "category" "Research Labs" }}
+{{ $online := where .Site.Data.community "category" "Online" }}
 <!-- Hero Section -->
 <header class="hero hero-with-image hero-community">
     <h1 class="hero-title">Community & Events</h1>
-    <p class="hero-tagline">{{ len .Site.Data.community }} conferences, meetups, and online groups.</p>
+    <p class="hero-tagline">{{ len $conferences }} conferences • {{ len $researchLabs }} research labs • {{ len $online }} online communities</p>
 </header>
 
 <!-- Search Index Data for Fuse.js -->
@@ -189,7 +192,8 @@
                          data-description="{{ .description | lower }}"
                          data-category="{{ .category }}"
                          data-location="{{ .location | lower }}"
-                         data-dates="{{ .dates | lower }}">
+                         data-dates="{{ .dates | lower }}"
+                         data-subcategory="{{ .subcategory | default "" | lower }}">
                         <div class="card-header">
                             <img class="resource-favicon"
                                  src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32"
@@ -201,6 +205,7 @@
                             </h3>
                             <span class="resource-type">{{ .type }}</span>
                         </div>
+                        {{ if .best_for }}<p class="resource-best-for">Best for: {{ .best_for }}</p>{{ end }}
                         <p class="resource-desc">{{ .description }}</p>
                         <div class="resource-meta">
                             <span class="meta-item">
@@ -219,9 +224,20 @@
                                 </svg>
                                 {{ .dates }}
                             </span>
+                            {{ if .attendees }}
+                            <span class="meta-item attendees-badge">
+                                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                                {{ .attendees }}
+                            </span>
+                            {{ end }}
                         </div>
                         <div class="card-footer">
-                            <span class="category-badge">{{ .category }}</span>
+                            {{ if .subcategory }}<span class="subcategory-badge">{{ .subcategory }}</span>{{ else }}<span class="category-badge">{{ .category }}</span>{{ end }}
                             <a href="{{ .url }}" target="_blank" class="link-btn">Visit</a>
                         </div>
                     </div>
