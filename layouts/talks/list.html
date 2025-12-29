@@ -184,7 +184,7 @@
             <select id="blogs-category" class="category-select">
                 <option value="all">All Blogs</option>
                 <option value="Personal">Personal Blogs</option>
-                <option value="Industry">Industry Blogs</option>
+                <option value="Company">Company Blogs</option>
             </select>
         </div>
 
@@ -216,11 +216,11 @@
                     {{ end }}
                 </div>
             </div>
-            <div class="category-section" data-section-category="Industry">
-                <h2 class="category-title">Industry Blogs</h2>
+            <div class="category-section" data-section-category="Company">
+                <h2 class="category-title">Company Blogs</h2>
                 <div class="cards-row">
                     {{ range $industryBlogsFromResources }}
-                    <div class="resource-card" data-name="{{ .name | lower }}" data-description="{{ .description | lower }}" data-category="Industry">
+                    <div class="resource-card" data-name="{{ .name | lower }}" data-description="{{ .description | lower }}" data-category="Company">
                         <div class="card-header">
                             <img class="resource-favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
                             <h3 class="resource-name">
@@ -229,7 +229,7 @@
                         </div>
                         <p class="resource-desc">{{ .description }}</p>
                         <div class="card-footer">
-                            <span class="category-badge">Industry</span>
+                            <span class="category-badge">Company</span>
                             <a href="{{ .url }}" target="_blank" class="link-btn">Read</a>
                         </div>
                     </div>
