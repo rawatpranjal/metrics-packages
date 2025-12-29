@@ -48,7 +48,7 @@
     <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
 
     <!-- AOS (Animate on Scroll) -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" integrity="sha384-/rJKQnzOkEo+daG0jMjU1IwwY9unxt1NBw3Ef2fmOJ3PW/TfAg2KXVoWwMZQZtw9" crossorigin="anonymous">
 </head>
 <body>
     <!-- Skip to Content (Accessibility) -->
@@ -214,6 +214,15 @@
                     About
                 </a>
             </li>
+            <li>
+                <a href="{{ "privacy/" | relURL }}" class="sidebar-link{{ if eq .Section "privacy" }} active{{ end }}">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                        <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                    </svg>
+                    Privacy
+                </a>
+            </li>
         </ul>
         <!-- Sidebar Search Bar -->
         <div class="sidebar-search">
@@ -297,7 +306,7 @@
     <script src="{{ "js/favorites-ui.js" | relURL }}"></script>
 
     <!-- Fuse.js for page search -->
-    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0" defer integrity="sha384-PCSoOZTpbkikBEtd/+uV3WNdc676i9KUf01KOA8CnJotvlx8rRrETbDuwdjqTYvt" crossorigin="anonymous"></script>
 
     <!-- Unified Search System (MiniSearch + Transformers.js) -->
     <script src="{{ "js/search/search-synonyms.js" | relURL }}" defer></script>
@@ -307,7 +316,7 @@
     <script src="{{ "js/toggle.js" | relURL }}" defer></script>
 
     <!-- AOS Init -->
-    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js" integrity="sha384-n1AULnKdMJlK1oQCLNDL9qZsDgXtH6jRYFCpBtWFc+a9Yve0KSoMn575rk755NJZ" crossorigin="anonymous"></script>
     <script>
         try {
             AOS.init({
