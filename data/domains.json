@@ -216,12 +216,12 @@
   },
   {
     "name": "Search & Ranking",
-    "description": "Learning-to-rank combines ML with causal inference \u2014 counterfactual learning addresses position bias like selection bias correction",
+    "description": "Learning-to-rank combines ML with causal inference — counterfactual learning addresses position bias like selection bias correction",
     "icon": "search",
     "resources": [
       {
         "name": "Introduction to Information Retrieval (Manning)",
-        "why": "The canonical free textbook, Stanford",
+        "why": "The canonical free textbook from Stanford",
         "url": "https://nlp.stanford.edu/IR-book/information-retrieval-book.html"
       },
       {
@@ -230,24 +230,19 @@
         "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/MSR-TR-2010-82.pdf"
       },
       {
-        "name": "Airbnb: Applying Deep Learning to Search",
-        "why": "GBDT→DNN migration, what failed before it worked",
-        "url": "https://arxiv.org/abs/1810.09591"
+        "name": "Airbnb: Embedding-Based Retrieval",
+        "why": "Two-tower architecture, practical industry example",
+        "url": "https://medium.com/airbnb-engineering/embedding-based-retrieval-for-airbnb-search-aabebfc85839"
       },
       {
-        "name": "Airbnb: Embedding-Based Retrieval",
-        "why": "Two-tower architecture, largest ML lift in two years",
-        "url": "https://medium.com/airbnb-engineering/embedding-based-retrieval-for-airbnb-search-aabebfc85839"
+        "name": "Deep Learning at Airbnb Search (QCon)",
+        "why": "Practitioner walkthrough from Malay Haldar",
+        "url": "https://www.infoq.com/presentations/dl-airbnb/"
       },
       {
         "name": "Joachims: Unbiased Learning-to-Rank",
         "why": "Foundational paper on position bias correction",
         "url": "https://arxiv.org/abs/1608.04468"
-      },
-      {
-        "name": "Deep Learning at Airbnb Search (QCon)",
-        "why": "Malay Haldar's practitioner walkthrough",
-        "url": "https://www.infoq.com/presentations/dl-airbnb/"
       }
     ],
     "packages": [
@@ -257,19 +252,9 @@
         "url": "https://xgboost.readthedocs.io/"
       },
       {
-        "name": "LightGBM (LGBMRanker)",
-        "why": "Microsoft's efficient LambdaRank",
-        "url": "https://lightgbm.readthedocs.io/"
-      },
-      {
         "name": "sentence-transformers",
         "why": "Pre-trained Sentence-BERT embeddings",
         "url": "https://www.sbert.net/"
-      },
-      {
-        "name": "FAISS",
-        "why": "Facebook's vector similarity search at scale",
-        "url": "https://faiss.ai/"
       }
     ],
     "order": 6
