@@ -211,7 +211,7 @@
     "name": "DoorDash Engineering",
     "description": "marketplace analytics, delivery optimization, and experimentation. Great posts on real-time pricing and logistics.",
     "category": "Routing & Logistics",
-    "url": "https://doordash.engineering/category/data-science-and-machine-learning/",
+    "url": "https://doordash.engineering/",
     "type": "Blog",
     "level": "Medium",
     "tags": [
@@ -225,7 +225,7 @@
     "description": "How Lyft combines causal inference with forecasting for pricing. The bridge between 'what happened' and 'what will happen'.",
     "category": "Applied Forecasting",
     "url": "https://eng.lyft.com/causal-forecasting-at-lyft-part-1-14cca6ff3d6d",
-    "type": "Blog",
+    "type": "Article",
     "level": "Medium",
     "tags": [
       "Industry Blogs",
@@ -251,7 +251,7 @@
     "description": "Efficiency isn't speed\u2014it's an economic equilibrium. A masterclass in defining the objective function for marketplace optimization.",
     "category": "Marketplace Economics",
     "url": "https://eng.lyft.com/quantifying-efficiency-in-ridesharing-marketplaces-affd53043db2",
-    "type": "Blog",
+    "type": "Article",
     "level": "Medium",
     "tags": [
       "Industry Blogs",
@@ -328,7 +328,7 @@
     "name": "Meta Engineering - Data Science",
     "description": "Large-scale experimentation, ML infrastructure, and data discovery at Facebook scale. Posts on causal inference and data tools.",
     "category": "Case Studies",
-    "url": "https://engineering.fb.com/category/data-infrastructure/",
+    "url": "https://engineering.fb.com/",
     "type": "Blog",
     "level": "Medium",
     "tags": [
@@ -680,7 +680,7 @@
     "description": "Free playbooks on usage-based pricing",
     "category": "Pricing & Revenue",
     "url": "https://openviewpartners.com/blog/saas-pricing-resource-guide/",
-    "type": "Blog",
+    "type": "Article",
     "level": "Medium",
     "tags": [
       "Pricing & Demand",
@@ -862,7 +862,7 @@
     "description": "XGBoost\u2192DNN migration, 85% training time reduction",
     "category": "Case Studies",
     "url": "https://stripe.com/blog/how-we-built-it-stripe-radar",
-    "type": "Blog",
+    "type": "Article",
     "level": "Medium",
     "tags": [
       "ML & Data Science",
@@ -875,7 +875,7 @@
     "description": "Real-time fraud ring detection",
     "category": "Trust & Safety",
     "url": "https://medium.com/paypal-tech/how-paypal-uses-real-time-graph-database-and-graph-analysis-to-fight-fraud-96a2b918619a",
-    "type": "Blog",
+    "type": "Article",
     "level": "Medium",
     "tags": [
       "ML & Data Science",
@@ -888,7 +888,7 @@
     "description": "4M+ TPS, multi-layer defense architecture",
     "category": "Trust & Safety",
     "url": "https://engineering.linkedin.com/blog/2018/12/defending-against-abuse-at-linkedins-scale",
-    "type": "Blog",
+    "type": "Article",
     "level": "Medium",
     "tags": [
       "ML & Data Science",
@@ -914,7 +914,7 @@
     "description": "Robust PCA at terabyte scale",
     "category": "Trust & Safety",
     "url": "https://netflixtechblog.com/rad-outlier-detection-on-big-data-d6b0ff32fb44",
-    "type": "Blog",
+    "type": "Article",
     "level": "Medium",
     "tags": [
       "ML & Data Science",
@@ -927,7 +927,7 @@
     "description": "Contrastive learning, CutPaste algorithm",
     "category": "Trust & Safety",
     "url": "https://ai.googleblog.com/2021/09/discovering-anomalous-data-with-self.html",
-    "type": "Blog",
+    "type": "Article",
     "level": "Medium",
     "tags": [
       "ML & Data Science",
@@ -953,7 +953,7 @@
     "description": "Kaggle Grandmaster, 262 features, RAPIDS GPU",
     "category": "Trust & Safety",
     "url": "https://developer.nvidia.com/blog/leveraging-machine-learning-to-detect-fraud-tips-to-developing-a-winning-kaggle-solution/",
-    "type": "Blog",
+    "type": "Article",
     "level": "Medium",
     "tags": [
       "ML & Data Science",
@@ -979,7 +979,7 @@
     "description": "Audio features, accessible depth",
     "category": "Case Studies",
     "url": "https://www.music-tomorrow.com/blog/how-spotify-recommendation-system-works-complete-guide",
-    "type": "Blog",
+    "type": "Article",
     "level": "Medium",
     "tags": [
       "ML & Data Science",
@@ -1018,7 +1018,7 @@
     "description": "Clearest 'real system' explanation: predictions feed optimizer, then simulation closes the loop",
     "category": "Routing & Logistics",
     "url": "https://careersatdoordash.com/blog/using-ml-and-optimization-to-solve-doordashs-dispatch-problem/",
-    "type": "Blog",
+    "type": "Article",
     "level": "Medium",
     "tags": [
       "Optimization",
@@ -1122,7 +1122,7 @@
     "description": "Honest assessment from Prophet co-creator: 'I do actually feel a bit of shame about the project.' Must-read.",
     "category": "Applied Forecasting",
     "url": "https://medium.com/@seanjtaylor/a-personal-retrospective-on-prophet-f223c2378985",
-    "type": "Blog",
+    "type": "Article",
     "level": "Easy",
     "tags": [
       "Forecasting",
@@ -1135,7 +1135,7 @@
     "description": "ARIMA, Holt-Winters, exponential smoothing, Theta (M3 winner). Insights from M4 winner Slawek Smyl.",
     "category": "Fundamentals",
     "url": "https://www.uber.com/blog/forecasting-introduction/",
-    "type": "Blog",
+    "type": "Article",
     "level": "Medium",
     "tags": [
       "Forecasting",
@@ -1148,7 +1148,7 @@
     "description": "ELITE framework balancing accuracy vs. computational efficiency. Uses Ray for distributed forecasting.",
     "category": "Fundamentals",
     "url": "https://doordash.engineering/2023/06/20/how-doordash-built-an-ensemble-learning-model-for-time-series-forecasting/",
-    "type": "Blog",
+    "type": "Article",
     "level": "Medium",
     "tags": [
       "Forecasting",
@@ -1161,7 +1161,7 @@
     "description": "State-of-the-art foundation model using T5 architecture. Zero-shot forecasting via token quantization.",
     "category": "Applied Forecasting",
     "url": "https://www.amazon.science/blog/adapting-language-model-architectures-for-time-series-forecasting",
-    "type": "Blog",
+    "type": "Article",
     "level": "Hard",
     "tags": [
       "Forecasting",
@@ -1187,7 +1187,7 @@
     "description": "XGBoost with 130 features scoring 200M+ items every 60 minutes. 15x items with 1/5 resources.",
     "category": "Case Studies",
     "url": "https://tech.instacart.com/predicting-real-time-availability-of-200-million-grocery-items-in-us-canada-stores-61f43a16eafe",
-    "type": "Blog",
+    "type": "Article",
     "level": "Medium",
     "tags": [
       "Forecasting",
@@ -1304,7 +1304,7 @@
     "description": "Rare solver benchmarking transparency \u2014 compares CBC, XPress, CPLEX, Gurobi (34x faster than CBC).",
     "category": "Linear Programming",
     "url": "https://careersatdoordash.com/blog/next-generation-optimization-for-dasher-dispatch-at-doordash/",
-    "type": "Blog",
+    "type": "Article",
     "level": "Medium",
     "tags": [
       "Optimization",
@@ -1317,7 +1317,7 @@
     "description": "Academic rigor with industry application. Joint optimization of pricing and matching.",
     "category": "Case Studies",
     "url": "https://www.uber.com/blog/research/dynamic-pricing-and-matching-in-ride-hailing-platforms/",
-    "type": "Blog",
+    "type": "Article",
     "level": "Hard",
     "tags": [
       "Optimization",
@@ -1499,7 +1499,7 @@
     "description": "The RICE framework (Reach, Impact, Confidence, Effort) originated here and is now industry standard \u2014 provides quantitative structure for prioritization.",
     "category": "Frameworks & Strategy",
     "url": "https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/",
-    "type": "Blog",
+    "type": "Article",
     "level": "Easy",
     "tags": [
       "Product Sense",
@@ -2104,7 +2104,7 @@
     "description": "How to reframe past A/B tests as instruments for behaviors you cannot randomize. Covers IV for behavioral effects, Deep IV, and ML for instrument selection. Actionable for data scientists.",
     "category": "IV & RDD",
     "url": "https://medium.com/teconomics-blog/machine-learning-meets-instrumental-variables-c8eecf5cec95",
-    "type": "Blog",
+    "type": "Article",
     "level": "Medium",
     "tags": [
       "Causal Inference",
@@ -2325,7 +2325,7 @@
     "description": "CUPED++ extension using multiple pre-experiment metrics as covariates. Addresses 'new users have no pre-data' limitation. Quantifies impact: experiments can conclude 65% faster.",
     "category": "Variance Reduction",
     "url": "https://www.geteppo.com/blog/cuped-bending-time-in-experimentation",
-    "type": "Blog",
+    "type": "Article",
     "level": "Medium",
     "tags": [
       "Experimentation",
@@ -2702,7 +2702,7 @@
     "description": "Production patterns from Alibaba, Facebook, DoorDash, LinkedIn in a 2\u00d72 framework (offline/online \u00d7 retrieval/ranking). By Amazon Principal Applied Scientist. Referenced by NVIDIA as canonical industry reading.",
     "category": "Recommender Systems",
     "url": "https://eugeneyan.com/writing/system-design-for-discovery/",
-    "type": "Blog",
+    "type": "Article",
     "level": "Medium",
     "tags": [
       "Machine Learning",
@@ -2741,7 +2741,7 @@
     "description": "Measurement and mitigation techniques: RandPair, FairPairs, propensity scoring. Essential for production ranking systems where position corrupts training data.",
     "category": "Search & Ranking",
     "url": "https://eugeneyan.com/writing/position-bias/",
-    "type": "Blog",
+    "type": "Article",
     "level": "Medium",
     "tags": [
       "Machine Learning",
@@ -2832,7 +2832,7 @@
     "description": "7 production patterns: Evals, RAG, Fine-tuning, Caching, Guardrails, Defensive UX, User Feedback. 66-minute read with evaluation metrics (BLEU, ROUGE, BERTScore), RAG patterns, fine-tuning decisions. From Amazon experience.",
     "category": "LLMs & Agents",
     "url": "https://eugeneyan.com/writing/llm-patterns/",
-    "type": "Blog",
+    "type": "Article",
     "level": "Medium",
     "tags": [
       "Machine Learning",
@@ -2865,5 +2865,70 @@
       "RAG"
     ],
     "domain": "Machine Learning"
+  },
+  {
+    "name": "Lyft Engineering",
+    "description": "Rideshare economics, forecasting, and marketplace efficiency. Technical deep-dives on pricing, dispatch, and causal inference.",
+    "category": "Marketplace Economics",
+    "url": "https://eng.lyft.com/",
+    "type": "Blog",
+    "level": "Medium",
+    "tags": [
+      "lyft",
+      "rideshare",
+      "forecasting"
+    ]
+  },
+  {
+    "name": "Netflix Tech Blog",
+    "description": "Streaming personalization, A/B testing at scale, recommendations. How Netflix builds data products for 200M+ subscribers.",
+    "category": "Search & Ranking",
+    "url": "https://netflixtechblog.com/",
+    "type": "Blog",
+    "level": "Medium",
+    "tags": [
+      "netflix",
+      "personalization",
+      "experimentation"
+    ]
+  },
+  {
+    "name": "LinkedIn Engineering",
+    "description": "Professional network data science, feed ranking, economic graph insights. ML and economics at scale.",
+    "category": "Search & Ranking",
+    "url": "https://engineering.linkedin.com/blog",
+    "type": "Blog",
+    "level": "Medium",
+    "tags": [
+      "linkedin",
+      "ranking",
+      "networks"
+    ]
+  },
+  {
+    "name": "Eugene Yan",
+    "description": "ML systems, recommendations, and LLMs in production. Practical insights from an Amazon Principal Applied Scientist.",
+    "category": "Search & Ranking",
+    "url": "https://eugeneyan.com/",
+    "type": "Blog",
+    "level": "Medium",
+    "tags": [
+      "ml-systems",
+      "recommendations",
+      "llms"
+    ]
+  },
+  {
+    "name": "Google AI Blog",
+    "description": "Research publications from Google AI. Covers ML, NLP, computer vision, and applied AI research.",
+    "category": "LLMs & Agents",
+    "url": "https://ai.googleblog.com/",
+    "type": "Blog",
+    "level": "Hard",
+    "tags": [
+      "google",
+      "research",
+      "ai"
+    ]
   }
 ]
