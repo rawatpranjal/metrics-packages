@@ -1116,6 +1116,66 @@
     "archived": true
   },
   {
+    "name": "Yuan Meng's Causal Inference in Data Science",
+    "description": "Most interview-relevant causal inference guide. Tech company case studies: switchback (DoorDash), DiD (Meta), synthetic control (Uber), RDD (DoorDash). By ML Engineer at DoorDash with Berkeley PhD.",
+    "stage": "Interview Prep",
+    "category": "Causal Inference",
+    "url": "https://www.yuan-meng.com/posts/causality/causality/",
+    "type": "Blog",
+    "tags": ["DiD", "synthetic-control", "RDD", "propensity-scores", "tech-examples"],
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "causal-inference"
+  },
+  {
+    "name": "Interview Prep: Causal Inference (Julie Zhang)",
+    "description": "Explicit Q&A format with model answers. Covers RCTs, matching, IV, DiD, RDD. Each with specific interview questions and detailed responses.",
+    "stage": "Interview Prep",
+    "category": "Causal Inference",
+    "url": "https://towardsdatascience.com/interview-preparation-causal-inference-44fbb8b0a5c6/",
+    "type": "Article",
+    "tags": ["interview-questions", "RCT", "IV", "DiD", "RDD"],
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "causal-inference"
+  },
+  {
+    "name": "Causal Inference Interview Prep Guide (Bhattacherjee)",
+    "description": "Strategic framework for causal inference interviews. Key insight: first ask 'At what level was treatment administered?' Recommends Wooldridge chapters, Netflix/Uber blogs, Microsoft EconML.",
+    "stage": "Interview Prep",
+    "category": "Causal Inference",
+    "url": "https://medium.com/@shreyabhattac/how-to-prepare-for-interviews-focused-on-causal-inference-modeling-and-online-experiments-aa1b5278ea69",
+    "type": "Guide",
+    "tags": ["strategy", "econometrics", "study-plan"],
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "causal-inference"
+  },
+  {
+    "name": "InterviewDB Causal Inference Collection",
+    "description": "Largest dedicated causal inference question bank. 100+ questions on confounding, RCTs, PSM, DiD, RDD, DAGs, spillover effects, fixed effects, sensitivity analysis.",
+    "stage": "Interview Prep",
+    "category": "Causal Inference",
+    "url": "https://www.interviewdb.com/causal-inference/",
+    "type": "Database",
+    "tags": ["question-bank", "practice", "DAGs", "spillover"],
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "causal-inference"
+  },
+  {
+    "name": "GrabNGoInfo: Causal Inference Interview Q&A",
+    "description": "Multimodal interview prep with video + blog. Covers DAGs, causal relationships, key terminology. Also offers 'Top 20 A/B Test Interview Questions'.",
+    "stage": "Interview Prep",
+    "category": "Causal Inference",
+    "url": "https://grabngoinfo.com/",
+    "type": "Video",
+    "tags": ["video", "DAGs", "terminology", "A/B-testing"],
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "causal-inference"
+  },
+  {
     "name": "Emma Ding: Product Sense Guide",
     "description": "Ultimate guide to business case interviews. AARRR framework, metrics, diagnostic approaches.",
     "stage": "Interview Prep",
