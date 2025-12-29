@@ -41,33 +41,28 @@
   },
   {
     "name": "Ads & Auctions",
-    "description": "Mechanism design and auction theory in industry \u2014 researchers with game theory backgrounds have direct advantages here",
+    "description": "Mechanism design and auction theory in industry — researchers with game theory backgrounds have direct advantages here",
     "icon": "megaphone",
     "resources": [
       {
-        "name": "Roughgarden: Algorithmic Game Theory (40 lectures)",
-        "why": "Free Stanford lectures \u2014 theoretical foundation",
+        "name": "WordStream: What is Google Ads",
+        "why": "Beginner-friendly auction intro with infographics",
+        "url": "https://www.wordstream.com/articles/what-is-google-adwords"
+      },
+      {
+        "name": "Google Ads Help: How the Auction Works",
+        "why": "Official Google guide on ad rank and bidding",
+        "url": "https://support.google.com/google-ads/answer/6366577"
+      },
+      {
+        "name": "Roughgarden: Algorithmic Game Theory",
+        "why": "Free Stanford lectures — Incentives in CS is accessible",
         "url": "https://timroughgarden.org/videos.html"
-      },
-      {
-        "name": "Twenty Lectures on Algorithmic Game Theory",
-        "why": "Bridges CS and economics with ad case studies",
-        "url": "https://timroughgarden.org/f13/f13.pdf"
-      },
-      {
-        "name": "Display Advertising with Real-Time Bidding",
-        "why": "Free comprehensive RTB coverage on arXiv",
-        "url": "https://arxiv.org/abs/1610.03013"
       },
       {
         "name": "GSP Auction Paper (Edelman et al., AER 2007)",
         "why": "Foundational paper on search advertising auctions",
         "url": "https://www.benedelman.org/publications/gsp-060801.pdf"
-      },
-      {
-        "name": "AdKDD Workshop Papers",
-        "why": "Applied research from Google, Meta, Amazon",
-        "url": "https://www.adkdd.org/"
       }
     ],
     "packages": [
@@ -75,16 +70,6 @@
         "name": "PyMC-Marketing",
         "why": "Bayesian MMM with adstock and saturation",
         "url": "https://www.pymc-marketing.io/"
-      },
-      {
-        "name": "Google Meridian",
-        "why": "New MMM framework released January 2025",
-        "url": "https://developers.google.com/meridian"
-      },
-      {
-        "name": "GeoLift (Meta)",
-        "why": "Geo-experiments using synthetic control",
-        "url": "https://github.com/facebookincubator/GeoLift"
       },
       {
         "name": "CausalImpact",
