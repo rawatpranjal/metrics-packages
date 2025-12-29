@@ -96,6 +96,65 @@
         const container = document.getElementById('favorites-list');
         if (!container) return;
 
+        // Load all data for lookups
+        let allData = {};
+        const dataScript = document.getElementById('all-data');
+        if (dataScript) {
+            try {
+                allData = JSON.parse(dataScript.textContent);
+            } catch (e) {
+                console.error('Error parsing all-data:', e);
+            }
+        }
+
+        // Find item in data by name
+        function findItem(type, itemId) {
+            const items = allData[type] || [];
+            return items.find(item => item.name === itemId || item.title === itemId);
+        }
+
+        // Get favicon URL from item URL
+        function getFavicon(url) {
+            if (!url) return '';
+            try {
+                const domain = new URL(url).hostname;
+                return `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
+            } catch {
+                return '';
+            }
+        }
+
+        // Render a single favorite card
+        function renderCard(fav, item) {
+            const name = item?.name || item?.title || fav.item_id;
+            const desc = item?.description || '';
+            const url = item?.url || item?.link || '#';
+            const category = item?.category || item?.type || fav.item_type;
+            const favicon = getFavicon(url);
+            const escapedId = fav.item_id.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+            return `
+                <div class="favorite-card" data-type="${fav.item_type}" data-id="${fav.item_id}">
+                    <div class="card-header">
+                        ${favicon ? `<img class="resource-favicon" src="${favicon}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
+                        <h3 class="card-title">
+                            <a href="${url}" target="_blank" rel="noopener">${name}</a>
+                        </h3>
+                        <span class="type-badge type-${fav.item_type}">${fav.item_type}</span>
+                    </div>
+                    ${desc ? `<p class="card-desc">${desc}</p>` : ''}
+                    <div class="card-footer">
+                        <span class="category-badge">${category}</span>
+                        <button class="favorite-remove" onclick="removeFavorite('${fav.item_type}', '${escapedId}')">
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            `;
+        }
+
         async function loadFavorites() {
             container.innerHTML = '<div class="loading">Loading favorites...</div>';
 
@@ -142,24 +201,18 @@
                     resource: 'Learning Resources',
                     package: 'Packages',
                     dataset: 'Datasets',
-                    talk: 'Talks'
+                    talk: 'Talks',
+                    book: 'Books',
+                    career: 'Career Resources',
+                    community: 'Community'
                 };
 
                 Object.keys(grouped).forEach(type => {
                     html += `<h3 class="favorites-section-title">${typeLabels[type] || type}</h3>`;
                     html += '<div class="favorites-grid">';
                     grouped[type].forEach(fav => {
-                        html += `
-                            <div class="favorite-item" data-type="${fav.item_type}" data-id="${fav.item_id}">
-                                <span class="favorite-item-name">${fav.item_id}</span>
-                                <button class="favorite-remove" onclick="removeFavorite('${fav.item_type}', '${fav.item_id.replace(/'/g, "\\'")}')">
-                                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
-                                        <line x1="18" y1="6" x2="6" y2="18"></line>
-                                        <line x1="6" y1="6" x2="18" y2="18"></line>
-                                    </svg>
-                                </button>
-                            </div>
-                        `;
+                        const item = findItem(type, fav.item_id);
+                        html += renderCard(fav, item);
                     });
                     html += '</div>';
                 });
