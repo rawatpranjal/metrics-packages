@@ -3165,6 +3165,42 @@
                 "Collaborative Filtering & Matrix Factorization"
               ],
               "citations": 3863
+            },
+            {
+              "title": "Probabilistic Matrix Factorization",
+              "authors": "Ruslan Salakhutdinov, Andriy Mnih",
+              "year": 2007,
+              "description": "Introduced probabilistic treatment of MF that scales linearly with observations; handles Netflix-scale sparsity with automatic regularization via adaptive priors.",
+              "url": "https://papers.nips.cc/paper/2007/hash/d7322ed717dedf1eb4e6e52a37ea7bcd-Abstract.html",
+              "tags": [
+                "Recommender Systems",
+                "Collaborative Filtering & Matrix Factorization"
+              ],
+              "citations": 5900
+            },
+            {
+              "title": "Factorization Machines",
+              "authors": "Steffen Rendle",
+              "year": 2010,
+              "description": "General predictor combining SVM flexibility with factorization model power; models all pairwise feature interactions in linear time. Subsumes SVD++, PITF, and specialized models.",
+              "url": "https://ieeexplore.ieee.org/document/5694074",
+              "tags": [
+                "Recommender Systems",
+                "Collaborative Filtering & Matrix Factorization"
+              ],
+              "citations": 2800
+            },
+            {
+              "title": "Collaborative Filtering with Temporal Dynamics",
+              "authors": "Yehuda Koren",
+              "year": 2009,
+              "description": "TimeSVD++ explicitly models drifting user preferences, item popularity evolution, and time-varying biases. Core component of Netflix Prize winning solution.",
+              "url": "https://dl.acm.org/doi/10.1145/1557019.1557072",
+              "tags": [
+                "Recommender Systems",
+                "Collaborative Filtering & Matrix Factorization"
+              ],
+              "citations": 1600
             }
           ]
         },
@@ -3232,6 +3268,42 @@
                 "Deep Recommenders"
               ],
               "citations": 6183
+            },
+            {
+              "title": "Wide & Deep Learning for Recommender Systems",
+              "authors": "Heng-Tze Cheng, Levent Koc, Jeremiah Harmsen, Tal Shaked, Tushar Chandra, Hrishi Aradhye, Glen Anderson, Greg Corrado, Wei Chai, Mustafa Ispir, Rohan Anil, Zakaria Haque, Lichan Hong, Vihan Jain, Xiaobing Liu, Hemal Shah",
+              "year": 2016,
+              "description": "Jointly trains wide linear models (memorization) with deep networks (generalization) using shared embeddings. Productionized on Google Play for 1B+ users; seminal industry paper establishing wide+deep paradigm.",
+              "url": "https://arxiv.org/abs/1606.07792",
+              "tags": [
+                "Recommender Systems",
+                "Deep Recommenders"
+              ],
+              "citations": 4500
+            },
+            {
+              "title": "DeepFM: A Factorization-Machine based Neural Network for CTR Prediction",
+              "authors": "Huifeng Guo, Ruiming Tang, Yunming Ye, Zhenguo Li, Xiuqiang He",
+              "year": 2017,
+              "description": "Combines FM component (low-order interactions) with deep component (high-order) via shared embeddings. Unlike Wide&Deep, requires no manual feature engineering. End-to-end training.",
+              "url": "https://arxiv.org/abs/1703.04247",
+              "tags": [
+                "Recommender Systems",
+                "Deep Recommenders"
+              ],
+              "citations": 2700
+            },
+            {
+              "title": "Deep Interest Network for Click-Through Rate Prediction",
+              "authors": "Guorui Zhou, Xiaoqiang Zhu, Chenru Song, Ying Fan, Han Zhu, Xiao Ma, Yanghui Yan, Junqi Jin, Han Li, Kun Gai",
+              "year": 2018,
+              "description": "Attention mechanism adaptively learns user interest representations from behavioral history relative to candidate items—solving fixed-length embedding bottleneck. Deployed on Alibaba main traffic.",
+              "url": "https://arxiv.org/abs/1706.06978",
+              "tags": [
+                "Recommender Systems",
+                "Deep Recommenders"
+              ],
+              "citations": 2100
             }
           ]
         },
@@ -3287,6 +3359,42 @@
                 "Causal Recommendations & Debiasing"
               ],
               "citations": 46
+            },
+            {
+              "title": "Doubly Robust Joint Learning for Recommendation on Data Missing Not at Random",
+              "authors": "Xiaojie Wang, Rui Zhang, Yu Sun, Jianzhong Qi",
+              "year": 2019,
+              "description": "Combines imputation models with propensity scoring for unbiased performance estimation; theoretically principled doubly robust framework specifically for recommender systems with MNAR data.",
+              "url": "https://proceedings.mlr.press/v97/wang19n.html",
+              "tags": [
+                "Recommender Systems",
+                "Causal Recommendations & Debiasing"
+              ],
+              "citations": 250
+            },
+            {
+              "title": "Causal Embeddings for Recommendation",
+              "authors": "Stephen Bonner, Flavian Vasile",
+              "year": 2018,
+              "description": "CausE optimizes recommendation policy for causal treatment effects (not just prediction) using domain adaptation to handle biased logged data. RecSys Best Paper Award.",
+              "url": "https://dl.acm.org/doi/10.1145/3240323.3240360",
+              "tags": [
+                "Recommender Systems",
+                "Causal Recommendations & Debiasing"
+              ],
+              "citations": 400
+            },
+            {
+              "title": "The Deconfounded Recommender: A Causal Inference Approach to Recommendation",
+              "authors": "Yixin Wang, Dawen Liang, Laurent Charlin, David Blei",
+              "year": 2020,
+              "description": "Two-stage approach using substitute confounders from exposure modeling; addresses unobserved confounding in observational recommendation data from principled causal perspective.",
+              "url": "https://arxiv.org/abs/1808.06581",
+              "tags": [
+                "Recommender Systems",
+                "Causal Recommendations & Debiasing"
+              ],
+              "citations": 180
             }
           ]
         },
@@ -3342,6 +3450,42 @@
                 "Exploration & Diversity"
               ],
               "citations": 143
+            },
+            {
+              "title": "A Contextual-Bandit Approach to Personalized News Article Recommendation",
+              "authors": "Lihong Li, Wei Chu, John Langford, Robert Schapire",
+              "year": 2010,
+              "description": "Introduces LinUCB algorithm for contextual bandits; 12.5% CTR lift over context-free bandits on 33M+ Yahoo events. Foundational paper for bandit-based recommendations.",
+              "url": "https://dl.acm.org/doi/10.1145/1772690.1772758",
+              "tags": [
+                "Recommender Systems",
+                "Exploration & Diversity"
+              ],
+              "citations": 4000
+            },
+            {
+              "title": "An Empirical Evaluation of Thompson Sampling",
+              "authors": "Olivier Chapelle, Lihong Li",
+              "year": 2011,
+              "description": "Comprehensive evaluation across display advertising and news recommendation demonstrating Thompson Sampling achieves state-of-the-art results; reignited practical interest in TS.",
+              "url": "https://papers.nips.cc/paper/2011/hash/e53a0a2978c28872a4505bdb51db06dc-Abstract.html",
+              "tags": [
+                "Recommender Systems",
+                "Exploration & Diversity"
+              ],
+              "citations": 2600
+            },
+            {
+              "title": "Calibrated Recommendations",
+              "authors": "Harald Steck",
+              "year": 2018,
+              "description": "Shows accuracy-optimized recommenders crowd out users' lesser interests; proposes KL-divergence calibration metrics and efficient greedy re-ranking. Netflix research, RecSys Best Paper Nominee.",
+              "url": "https://dl.acm.org/doi/10.1145/3240323.3240372",
+              "tags": [
+                "Recommender Systems",
+                "Exploration & Diversity"
+              ],
+              "citations": 400
             }
           ]
         },
@@ -3397,6 +3541,293 @@
                 "Cold Start"
               ],
               "citations": 321
+            },
+            {
+              "title": "From Zero-Shot Learning to Cold-Start Recommendation",
+              "authors": "Jingjing Li, Mengmeng Jing, Ke Lu, Zhengming Zhu, Lei Zhu, Yang Huang",
+              "year": 2019,
+              "description": "First paper framing cold-start as zero-shot learning problem; proposes Low-rank Linear Auto-Encoder (LLAE) addressing domain shift and spurious correlations. Novel theoretical connection enabling attribute-based recommendations for entirely new users.",
+              "url": "https://ojs.aaai.org/index.php/AAAI/article/view/4324",
+              "tags": [
+                "Recommender Systems",
+                "Cold Start"
+              ],
+              "citations": 150
+            },
+            {
+              "title": "Transfer-Meta Framework for Cross-domain Recommendation to Cold-Start Users",
+              "authors": "Yongchun Zhu, Kaikai Ge, Fuzhen Zhuang, Ruobing Xie, Dongbo Xi, Xu Zhang, Leyu Lin, Hui Xiong",
+              "year": 2021,
+              "description": "State-of-the-art combining transfer learning and meta-learning for cross-domain cold start; uses source domain to warm-start target domain predictions for zero-interaction users.",
+              "url": "https://dl.acm.org/doi/10.1145/3404835.3462832",
+              "tags": [
+                "Recommender Systems",
+                "Cold Start"
+              ],
+              "citations": 120
+            }
+          ]
+        },
+        {
+          "id": "graph-neural-networks",
+          "name": "Graph Neural Networks for Recommendations",
+          "application": "High-order connectivity, knowledge graphs",
+          "papers": [
+            {
+              "title": "PinSage: Graph Convolutional Neural Networks for Web-Scale Recommender Systems",
+              "authors": "Rex Ying, Ruining He, Kaifeng Chen, Pong Eksombatchai, William Hamilton, Jure Leskovec",
+              "year": 2018,
+              "description": "First billion-scale GCN deployment. Random-walk neighborhood sampling, curriculum training with hard negatives, MapReduce inference for Pinterest's 3B node graph. Seminal industrial GNN paper.",
+              "url": "https://dl.acm.org/doi/10.1145/3219819.3219890",
+              "tags": [
+                "Recommender Systems",
+                "Graph Neural Networks for Recommendations"
+              ],
+              "citations": 3500
+            },
+            {
+              "title": "Neural Graph Collaborative Filtering",
+              "authors": "Xiang Wang, Xiangnan He, Meng Wang, Fuli Feng, Tat-Seng Chua",
+              "year": 2019,
+              "description": "First to explicitly encode collaborative signal via high-order connectivity on user-item bipartite graphs through embedding propagation. Foundational theoretical framework for GNN-based CF.",
+              "url": "https://dl.acm.org/doi/10.1145/3331184.3331267",
+              "tags": [
+                "Recommender Systems",
+                "Graph Neural Networks for Recommendations"
+              ],
+              "citations": 2500
+            },
+            {
+              "title": "LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation",
+              "authors": "Xiangnan He, Kuan Deng, Xiang Wang, Yan Li, Yongdong Zhang, Meng Wang",
+              "year": 2020,
+              "description": "Demonstrates feature transformation and nonlinear activation contribute little to CF; proposes simplified GCN using only neighborhood aggregation—16% improvement over NGCF with simpler architecture.",
+              "url": "https://dl.acm.org/doi/10.1145/3397271.3401063",
+              "tags": [
+                "Recommender Systems",
+                "Graph Neural Networks for Recommendations"
+              ],
+              "citations": 3000
+            },
+            {
+              "title": "KGAT: Knowledge Graph Attention Network for Recommendation",
+              "authors": "Xiang Wang, Xiangnan He, Yixin Cao, Meng Liu, Tat-Seng Chua",
+              "year": 2019,
+              "description": "Unifies user-item interaction graphs with knowledge graphs via attention-based neighbor discrimination; enables more accurate, diverse, and explainable recommendations.",
+              "url": "https://dl.acm.org/doi/10.1145/3292500.3330989",
+              "tags": [
+                "Recommender Systems",
+                "Graph Neural Networks for Recommendations"
+              ],
+              "citations": 1500
+            }
+          ]
+        },
+        {
+          "id": "multi-task-learning",
+          "name": "Multi-Task & Multi-Objective Learning",
+          "application": "CTR/CVR joint optimization, Pareto efficiency",
+          "papers": [
+            {
+              "title": "Modeling Task Relationships in Multi-task Learning with Multi-gate Mixture-of-Experts",
+              "authors": "Jiaqi Ma, Zhe Zhao, Xinyang Yi, Jilin Chen, Lichan Hong, Ed Chi",
+              "year": 2018,
+              "description": "Task-specific gating networks over shared expert submodels; explicitly learns task relationships from data. Deployed at Google; widely adopted at Pinterest, LinkedIn, Meta.",
+              "url": "https://dl.acm.org/doi/10.1145/3219819.3220007",
+              "tags": [
+                "Recommender Systems",
+                "Multi-Task & Multi-Objective Learning"
+              ],
+              "citations": 1500
+            },
+            {
+              "title": "Progressive Layered Extraction (PLE): A Novel Multi-Task Learning Model for Personalized Recommendations",
+              "authors": "Hongyan Tang, Junning Liu, Ming Zhao, Xudong Gong",
+              "year": 2020,
+              "description": "Addresses 'seesaw phenomenon' where improving one task hurts others; explicitly separates shared/task-specific experts with progressive routing. Achieved 2.23% lift at Tencent.",
+              "url": "https://dl.acm.org/doi/10.1145/3383313.3412236",
+              "tags": [
+                "Recommender Systems",
+                "Multi-Task & Multi-Objective Learning"
+              ],
+              "citations": 700
+            },
+            {
+              "title": "Entire Space Multi-Task Model: An Effective Approach for Estimating Post-Click Conversion Rate",
+              "authors": "Xiao Ma, Liqin Zhao, Guan Huang, Zhi Wang, Zelin Hu, Xiaoqiang Zhu, Kun Gai",
+              "year": 2018,
+              "description": "Models CVR over entire impression space (not just clicks) to eliminate sample selection bias; jointly trains CTR and CTCVR with shared embeddings. Alibaba/Taobao deployment.",
+              "url": "https://dl.acm.org/doi/10.1145/3209978.3210104",
+              "tags": [
+                "Recommender Systems",
+                "Multi-Task & Multi-Objective Learning"
+              ],
+              "citations": 1200
+            },
+            {
+              "title": "A Pareto-Efficient Algorithm for Multiple Objective Optimization in E-Commerce Recommendation",
+              "authors": "Yao Lin, Dongjin Chen, Mingsheng Shang, Youfang Lin, Shenghua Bao, Wei Xiao, Tat-Seng Chua",
+              "year": 2019,
+              "description": "PE-LTR framework using coordinate descent with theoretical Pareto efficiency guarantees for balancing CTR and GMV. Alibaba e-commerce production system.",
+              "url": "https://dl.acm.org/doi/10.1145/3298689.3347011",
+              "tags": [
+                "Recommender Systems",
+                "Multi-Task & Multi-Objective Learning"
+              ],
+              "citations": 200
+            }
+          ]
+        },
+        {
+          "id": "reinforcement-learning",
+          "name": "Reinforcement Learning for Recommendations",
+          "application": "Long-term satisfaction, slate optimization",
+          "papers": [
+            {
+              "title": "Top-K Off-Policy Correction for a REINFORCE Recommender System",
+              "authors": "Minmin Chen, Alex Beutel, Paul Covington, Sagar Jain, Francois Belletti, Ed Chi",
+              "year": 2019,
+              "description": "Scales REINFORCE to YouTube production with millions of items; introduces top-K off-policy correction for learning from biased logged feedback. Seminal industry RL paper.",
+              "url": "https://dl.acm.org/doi/10.1145/3289600.3290999",
+              "tags": [
+                "Recommender Systems",
+                "Reinforcement Learning for Recommendations"
+              ],
+              "citations": 500
+            },
+            {
+              "title": "SlateQ: A Tractable Decomposition for Reinforcement Learning with Recommendation Sets",
+              "authors": "Eugene Ie, Vihan Jain, Jing Wang, Sanmit Narvekar, Ritesh Agarwal, Rui Wu, Heng-Tze Cheng, Tushar Chandra, Craig Boutilier",
+              "year": 2019,
+              "description": "Value-based RL decomposition for slate recommendations; long-term slate value decomposes into tractable item-wise LTVs. YouTube production deployment solving combinatorial slate optimization.",
+              "url": "https://www.ijcai.org/proceedings/2019/360",
+              "tags": [
+                "Recommender Systems",
+                "Reinforcement Learning for Recommendations"
+              ],
+              "citations": 300
+            },
+            {
+              "title": "Deep Reinforcement Learning for List-wise Recommendations",
+              "authors": "Xiangyu Zhao, Liang Zhang, Zhuoye Ding, Long Xia, Jiliang Tang, Dawei Yin",
+              "year": 2018,
+              "description": "Actor-Critic framework capturing inter-item relationships in list recommendations; addresses sequential decision-making for e-commerce. JD.com application.",
+              "url": "https://dl.acm.org/doi/10.1145/3240323.3240374",
+              "tags": [
+                "Recommender Systems",
+                "Reinforcement Learning for Recommendations"
+              ],
+              "citations": 350
+            },
+            {
+              "title": "Pseudo Dyna-Q: A Reinforcement Learning Framework for Interactive Recommendation",
+              "authors": "Lixin Zou, Long Xia, Zhuoye Ding, Dawei Yin, Jiaxing Song, Weidong Liu, Yongjun Bao",
+              "year": 2020,
+              "description": "Model-based RL using world models for recommendation; addresses data efficiency challenge of learning from limited online interactions.",
+              "url": "https://dl.acm.org/doi/10.1145/3336191.3371801",
+              "tags": [
+                "Recommender Systems",
+                "Reinforcement Learning for Recommendations"
+              ],
+              "citations": 150
+            }
+          ]
+        },
+        {
+          "id": "fairness-recommendations",
+          "name": "Fairness & Responsible Recommendations",
+          "application": "Provider exposure, multi-stakeholder optimization",
+          "papers": [
+            {
+              "title": "Fairness of Exposure in Rankings",
+              "authors": "Ashudeep Singh, Thorsten Joachims",
+              "year": 2018,
+              "description": "Foundational framework for exposure-based fairness; develops efficient algorithms maximizing user utility while satisfying fairness constraints on content provider exposure. Applicable to job platforms, e-commerce, any two-sided marketplace.",
+              "url": "https://dl.acm.org/doi/10.1145/3219819.3220088",
+              "tags": [
+                "Recommender Systems",
+                "Fairness & Responsible Recommendations"
+              ],
+              "citations": 900
+            },
+            {
+              "title": "Towards a Fair Marketplace: Counterfactual Evaluation of the Trade-off between Relevance, Fairness & Satisfaction",
+              "authors": "Rishabh Mehrotra, James McInerney, Hugues Bouchard, Mounia Lalmas, Fernando Diaz",
+              "year": 2018,
+              "description": "Studies relevance-fairness trade-offs in two-sided marketplaces; proposes counterfactual evaluation for balancing consumer and supplier objectives. Spotify production research.",
+              "url": "https://dl.acm.org/doi/10.1145/3269206.3272027",
+              "tags": [
+                "Recommender Systems",
+                "Fairness & Responsible Recommendations"
+              ],
+              "citations": 350
+            },
+            {
+              "title": "Controlling Fairness and Bias in Dynamic Learning-to-Rank",
+              "authors": "Marco Morik, Ashudeep Singh, Jessica Hong, Thorsten Joachims",
+              "year": 2020,
+              "description": "Learning-to-rank enforcing merit-based fairness guarantees to item groups while accounting for selection bias in implicit feedback. Addresses fairness maintenance over time.",
+              "url": "https://dl.acm.org/doi/10.1145/3397271.3401100",
+              "tags": [
+                "Recommender Systems",
+                "Fairness & Responsible Recommendations"
+              ],
+              "citations": 200
+            },
+            {
+              "title": "Recommendations and Their Impact on the Provider Side",
+              "authors": "Rishabh Mehrotra, James McInerney, Hugues Bouchard, Mounia Lalmas",
+              "year": 2019,
+              "description": "Comprehensive study of how recommendations affect content providers; examines supplier-side impacts and multi-stakeholder trade-offs. Spotify research.",
+              "url": "https://dl.acm.org/doi/10.1145/3298689.3347015",
+              "tags": [
+                "Recommender Systems",
+                "Fairness & Responsible Recommendations"
+              ],
+              "citations": 150
+            }
+          ]
+        },
+        {
+          "id": "evaluation-methodology",
+          "name": "Evaluation Methodology",
+          "application": "Offline-online gaps, beyond-accuracy metrics",
+          "papers": [
+            {
+              "title": "Offline A/B Testing for Recommender Systems",
+              "authors": "Alexandre Gilotte, Clément Calauzènes, Thomas Nedelec, Alexandre Abraham, Simon Dollé",
+              "year": 2018,
+              "description": "Counterfactual estimators for offline evaluation correlating with online A/B tests; addresses bias-variance tradeoffs in off-policy evaluation. Criteo production system enabling faster iteration.",
+              "url": "https://dl.acm.org/doi/10.1145/3159652.3159687",
+              "tags": [
+                "Recommender Systems",
+                "Evaluation Methodology"
+              ],
+              "citations": 200
+            },
+            {
+              "title": "Performance of Recommender Algorithms on Top-N Recommendation Tasks",
+              "authors": "Paolo Cremonesi, Yehuda Koren, Roberto Turrin",
+              "year": 2010,
+              "description": "Demonstrates RMSE optimization doesn't translate to top-N accuracy; establishes methodology for evaluating recommendation quality beyond prediction error metrics. Netflix context.",
+              "url": "https://dl.acm.org/doi/10.1145/1864708.1864721",
+              "tags": [
+                "Recommender Systems",
+                "Evaluation Methodology"
+              ],
+              "citations": 1500
+            },
+            {
+              "title": "Are We Really Making Much Progress? A Worrying Analysis of Recent Neural Recommendation Approaches",
+              "authors": "Maurizio Ferrari Dacrema, Paolo Cremonesi, Dietmar Jannach",
+              "year": 2019,
+              "description": "Critical analysis showing many neural approaches don't outperform well-tuned baselines; emphasizes reproducibility and rigorous evaluation methodology. Essential for experimental design.",
+              "url": "https://dl.acm.org/doi/10.1145/3298689.3347058",
+              "tags": [
+                "Recommender Systems",
+                "Evaluation Methodology"
+              ],
+              "citations": 1200
             }
           ]
         }
