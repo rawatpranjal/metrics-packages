@@ -16,8 +16,8 @@
   // Configuration
   var CONFIG = {
     debounceMs: 150,
-    maxResultsPerType: 10,
-    maxTotalResults: 50,
+    maxResultsPerType: 999,  // Effectively unlimited per category
+    maxTotalResults: 100,
     recentSearchesKey: 'global-recent-searches',
     maxRecentSearches: 5,
     suggestions: ['causal inference', 'experimentation', 'pricing', 'machine learning', 'A/B testing'],
@@ -689,14 +689,12 @@
     this.hint.style.display = 'none';
     this.emptyState.style.display = 'none';
 
-    // Group by type
+    // Group by type (no per-category limit)
     var grouped = {};
     results.forEach(function(result) {
       var type = result.type;
       if (!grouped[type]) grouped[type] = [];
-      if (grouped[type].length < CONFIG.maxResultsPerType) {
-        grouped[type].push(result);
-      }
+      grouped[type].push(result);
     });
 
     var html = '';
