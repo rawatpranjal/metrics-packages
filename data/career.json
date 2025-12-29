@@ -91,7 +91,8 @@
     "section": "companies",
     "sector": "faang",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "both"
   },
   {
     "name": "Meta Core Data Science",
@@ -108,7 +109,8 @@
     "section": "companies",
     "sector": "faang",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "both"
   },
   {
     "name": "Should Your Tech Firm Have an Economist?",
@@ -124,8 +126,9 @@
     ],
     "section": "work",
     "domain": "Economist Teams",
-    "tab": "understand",
-    "subtab": "what-teams-do"
+    "tab": "start-here",
+    "subtab": "",
+    "tier": "essential"
   },
   {
     "name": "Wayfair Economics Group",
@@ -298,7 +301,8 @@
     "section": "companies",
     "sector": "faang",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Google PhD Programs",
@@ -315,7 +319,8 @@
     "section": "companies",
     "sector": "faang",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Meta Research Scientist",
@@ -332,7 +337,8 @@
     "section": "companies",
     "sector": "faang",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Microsoft Research Careers",
@@ -349,7 +355,8 @@
     "section": "companies",
     "sector": "faang",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "both"
   },
   {
     "name": "Apple ML Research",
@@ -366,7 +373,8 @@
     "section": "companies",
     "sector": "faang",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Uber Applied Scientist",
@@ -383,7 +391,8 @@
     "section": "companies",
     "sector": "marketplace",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Lyft Economics Team",
@@ -400,7 +409,8 @@
     "section": "companies",
     "sector": "marketplace",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Wayfair Economist Intern",
@@ -417,7 +427,8 @@
     "section": "companies",
     "sector": "marketplace",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Airbnb Data Science",
@@ -434,7 +445,8 @@
     "section": "companies",
     "sector": "marketplace",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "DoorDash Data Science",
@@ -451,7 +463,8 @@
     "section": "companies",
     "sector": "marketplace",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Instacart ML PhD",
@@ -468,7 +481,8 @@
     "section": "companies",
     "sector": "marketplace",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "eBay Data Science",
@@ -485,7 +499,8 @@
     "section": "companies",
     "sector": "marketplace",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Etsy DSML Research",
@@ -502,7 +517,8 @@
     "section": "companies",
     "sector": "marketplace",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "LinkedIn Applied Research",
@@ -519,7 +535,8 @@
     "section": "companies",
     "sector": "social",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Spotify Research Scientist",
@@ -536,7 +553,8 @@
     "section": "companies",
     "sector": "social",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Netflix Careers",
@@ -553,7 +571,8 @@
     "section": "companies",
     "sector": "social",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "both"
   },
   {
     "name": "Pinterest Labs",
@@ -570,7 +589,8 @@
     "section": "companies",
     "sector": "social",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Discord Data Science",
@@ -587,7 +607,8 @@
     "section": "companies",
     "sector": "social",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Snap Research",
@@ -604,7 +625,8 @@
     "section": "companies",
     "sector": "social",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Stripe PhD Internship",
@@ -621,7 +643,8 @@
     "section": "companies",
     "sector": "fintech",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "PayPal PhD Intern",
@@ -638,7 +661,8 @@
     "section": "companies",
     "sector": "fintech",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Robinhood Data Scientist",
@@ -655,7 +679,8 @@
     "section": "companies",
     "sector": "fintech",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Affirm Careers",
@@ -672,7 +697,8 @@
     "section": "companies",
     "sector": "fintech",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "both"
   },
   {
     "name": "Block (Square) Careers",
@@ -689,7 +715,8 @@
     "section": "companies",
     "sector": "fintech",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "both"
   },
   {
     "name": "Adobe Research Internship",
@@ -706,7 +733,8 @@
     "section": "companies",
     "sector": "saas",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Salesforce AI Research",
@@ -723,7 +751,8 @@
     "section": "companies",
     "sector": "saas",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Databricks Research",
@@ -740,7 +769,8 @@
     "section": "companies",
     "sector": "saas",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Intuit AI Research",
@@ -757,7 +787,8 @@
     "section": "companies",
     "sector": "saas",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Eli Lilly Statistics",
@@ -774,7 +805,8 @@
     "section": "companies",
     "sector": "pharma",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Pfizer Biostatistics",
@@ -791,7 +823,8 @@
     "section": "companies",
     "sector": "pharma",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "both"
   },
   {
     "name": "J&J Statistics",
@@ -808,7 +841,8 @@
     "section": "companies",
     "sector": "pharma",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Moderna Biostatistics",
@@ -825,7 +859,8 @@
     "section": "companies",
     "sector": "pharma",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Roche Global Biostatistics",
@@ -842,7 +877,8 @@
     "section": "companies",
     "sector": "pharma",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Genentech E4A/HEOR",
@@ -859,7 +895,8 @@
     "section": "companies",
     "sector": "pharma",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Optum HEOR",
@@ -876,7 +913,8 @@
     "section": "companies",
     "sector": "pharma",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Roblox Virtual Economy",
@@ -893,7 +931,8 @@
     "section": "companies",
     "sector": "ai-gaming",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "OpenAI Residency",
@@ -910,7 +949,8 @@
     "section": "companies",
     "sector": "ai-gaming",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "internship"
   },
   {
     "name": "Anthropic Careers",
@@ -927,7 +967,8 @@
     "section": "companies",
     "sector": "ai-gaming",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "full-time"
   },
   {
     "name": "Notion Careers",
@@ -944,7 +985,8 @@
     "section": "companies",
     "sector": "ai-gaming",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "job_type": "both"
   },
   {
     "name": "Takeda-UIC HEOR Fellowship",
@@ -1292,7 +1334,7 @@
     "tab": "interview",
     "subtab": "take-home"
   },
-    {
+  {
     "name": "Candor Salary Negotiation",
     "description": "Strategies tech insiders use. Competing offers, leveling, avoiding leaving money on the table.",
     "stage": "Offers",
@@ -1446,7 +1488,7 @@
     ],
     "archived": true
   },
-    {
+  {
     "name": "Design Gurus: FAANG Levels Comparison",
     "description": "Meta E3-E10, Google L3-L10, Amazon SDE I-III. Senior (L5) is 'terminal level' where many plateau.",
     "stage": "Strategy",
@@ -1797,7 +1839,7 @@
   },
   {
     "name": "Meaningful Metrics: How Data Sharpened the Focus of Product Teams",
-    "description": "Markov model segments users into activity states, monitors transition probabilities. CURR identified as highest-leverage metric—drove 4x DAU growth over 3 years.",
+    "description": "Markov model segments users into activity states, monitors transition probabilities. CURR identified as highest-leverage metric\u2014drove 4x DAU growth over 3 years.",
     "stage": "Strategy",
     "category": "Team Types",
     "url": "https://blog.duolingo.com/growth-model-duolingo/",

@@ -170,12 +170,19 @@
             <section class="curated-section companies-section">
                 <div class="section-header">
                     <h2>Companies Hiring</h2>
-                    <p>Career portals organized by sector.</p>
+                    <p>Career portals organized by job type and sector.</p>
+                </div>
+
+                <!-- Job Type Toggle -->
+                <div class="job-type-toggle">
+                    <button class="job-type-btn active" data-job-type="all">All</button>
+                    <button class="job-type-btn" data-job-type="internship">Internships</button>
+                    <button class="job-type-btn" data-job-type="full-time">Full-time</button>
                 </div>
 
                 <!-- Sector Pills -->
                 <div class="sector-pills">
-                    <button class="sector-pill active" data-sector="all">All</button>
+                    <button class="sector-pill active" data-sector="all">All Sectors</button>
                     <button class="sector-pill" data-sector="faang">FAANG+</button>
                     <button class="sector-pill" data-sector="marketplace">Marketplaces</button>
                     <button class="sector-pill" data-sector="social">Social & Media</button>
@@ -188,7 +195,7 @@
                 <div class="companies-grid">
                     {{ range .Site.Data.career }}
                     {{ if and (eq .tab "find-jobs") (eq .subtab "companies") }}
-                    <a href="{{ .url }}" target="_blank" rel="noopener" class="company-card" data-sector="{{ .sector }}">
+                    <a href="{{ .url }}" target="_blank" rel="noopener" class="company-card" data-sector="{{ .sector }}" data-job-type="{{ .job_type }}">
                         <img class="favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
                         <span class="company-name">{{ .name }}</span>
                     </a>
@@ -367,24 +374,47 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Sector filtering
+    // Job Type and Sector filtering (combined)
+    const jobTypeBtns = document.querySelectorAll('.job-type-btn');
     const sectorPills = document.querySelectorAll('.sector-pill');
     const companyCards = document.querySelectorAll('.company-card');
 
+    let currentJobType = 'all';
+    let currentSector = 'all';
+
+    function filterCompanies() {
+        companyCards.forEach(card => {
+            const cardJobType = card.dataset.jobType;
+            const cardSector = card.dataset.sector;
+
+            const matchesJobType = currentJobType === 'all' ||
+                cardJobType === currentJobType ||
+                cardJobType === 'both';
+            const matchesSector = currentSector === 'all' || cardSector === currentSector;
+
+            if (matchesJobType && matchesSector) {
+                card.style.display = '';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    }
+
+    jobTypeBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            currentJobType = this.dataset.jobType;
+            jobTypeBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            filterCompanies();
+        });
+    });
+
     sectorPills.forEach(pill => {
         pill.addEventListener('click', function() {
-            const sector = this.dataset.sector;
-
+            currentSector = this.dataset.sector;
             sectorPills.forEach(p => p.classList.remove('active'));
             this.classList.add('active');
-
-            companyCards.forEach(card => {
-                if (sector === 'all' || card.dataset.sector === sector) {
-                    card.style.display = '';
-                } else {
-                    card.style.display = 'none';
-                }
-            });
+            filterCompanies();
         });
     });
 
