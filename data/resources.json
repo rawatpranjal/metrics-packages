@@ -104,32 +104,6 @@
     "domain": "Optimization & Operations Research"
   },
   {
-    "name": "PyBLP: Demand Estimation",
-    "description": "QuantEcon tutorial on estimating demand curves with Python. Turns PhD-level IO into a solvable Problem().solve().",
-    "category": "Pricing & Revenue",
-    "url": "https://quantecon.org/2019/06/17/demand-curve-estimation.html",
-    "type": "Tutorial",
-    "level": "Medium",
-    "tags": [
-      "Pricing & Demand",
-      "Tutorial"
-    ],
-    "domain": "Domain Applications"
-  },
-  {
-    "name": "QuantEcon: First-Price & Second-Price Auctions",
-    "description": "Python simulations proving Revenue Equivalence. Code to solve BNE when closed-form solutions don't exist.",
-    "category": "Pricing & Revenue",
-    "url": "https://python.quantecon.org/two_auctions.html",
-    "type": "Tutorial",
-    "level": "Medium",
-    "tags": [
-      "Auctions & Market Design",
-      "Tutorial"
-    ],
-    "domain": "Domain Applications"
-  },
-  {
     "name": "MatchingMarkets.py",
     "description": "Gale-Shapley stable matching in Python. How to match riders to drivers, students to schools, organs to patients.",
     "category": "Fundamentals",
@@ -152,19 +126,6 @@
     "tags": [
       "Auctions & Market Design",
       "Online Book"
-    ],
-    "domain": "Domain Applications"
-  },
-  {
-    "name": "CS269I: Incentives in Computer Science",
-    "description": "Roughgarden's famous course. Why Bitcoin is an auction, how selfish routing breaks the internet, and Price of Anarchy \u2014 explained for coders.",
-    "category": "Pricing & Revenue",
-    "url": "https://timroughgarden.org/f16/f16.html",
-    "type": "Course Notes",
-    "level": "Medium",
-    "tags": [
-      "Auctions & Market Design",
-      "Course Notes"
     ],
     "domain": "Domain Applications"
   },
@@ -698,32 +659,6 @@
     "tags": [
       "Pricing & Demand",
       "Podcast"
-    ],
-    "domain": "Domain Applications"
-  },
-  {
-    "name": "Roughgarden: Algorithmic Game Theory (40 lectures)",
-    "description": "Free Stanford lectures \u2014 theoretical foundation",
-    "category": "Pricing & Revenue",
-    "url": "https://timroughgarden.org/videos.html",
-    "type": "Video",
-    "level": "Medium",
-    "tags": [
-      "Auctions & Market Design",
-      "Video"
-    ],
-    "domain": "Domain Applications"
-  },
-  {
-    "name": "Twenty Lectures on Algorithmic Game Theory",
-    "description": "Bridges CS and economics with ad case studies",
-    "category": "Pricing & Revenue",
-    "url": "https://timroughgarden.org/f13/f13.pdf",
-    "type": "Video",
-    "level": "Medium",
-    "tags": [
-      "Auctions & Market Design",
-      "Video"
     ],
     "domain": "Domain Applications"
   },
@@ -2877,7 +2812,8 @@
       "lyft",
       "rideshare",
       "forecasting"
-    ]
+    ],
+    "domain": "Domain Applications"
   },
   {
     "name": "Netflix Tech Blog",
@@ -2890,7 +2826,8 @@
       "netflix",
       "personalization",
       "experimentation"
-    ]
+    ],
+    "domain": "Machine Learning"
   },
   {
     "name": "LinkedIn Engineering",
@@ -2903,7 +2840,8 @@
       "linkedin",
       "ranking",
       "networks"
-    ]
+    ],
+    "domain": "Machine Learning"
   },
   {
     "name": "Eugene Yan",
@@ -2916,7 +2854,8 @@
       "ml-systems",
       "recommendations",
       "llms"
-    ]
+    ],
+    "domain": "Machine Learning"
   },
   {
     "name": "Google AI Blog",
@@ -2929,6 +2868,280 @@
       "google",
       "research",
       "ai"
-    ]
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "Tim Roughgarden's CS269I: Incentives in Computer Science",
+    "description": "20+ hours of video with publication-quality notes. Covers Gale-Shapley, NRMP matching, deferred acceptance, strategyproofness proofs, cryptocurrency incentives. Uniquely bridges classical stable matching with modern applications.",
+    "category": "Market Design & Matching",
+    "url": "https://timroughgarden.org/f16/f16.html",
+    "type": "Video Course",
+    "level": "Hard",
+    "tags": [
+      "Economics",
+      "Market Design"
+    ],
+    "domain": "Economics"
+  },
+  {
+    "name": "Tim Roughgarden's CS364A: Kidney Exchange",
+    "description": "Definitive algorithmic treatment of kidney exchange. Covers Top Trading Cycles, cycle packing, incentive-compatible organ allocation. The actual algorithms used by the Alliance for Paired Kidney Donation.",
+    "category": "Market Design & Matching",
+    "url": "https://timroughgarden.org/f13/l/l10.pdf",
+    "type": "Lecture Notes",
+    "level": "Hard",
+    "tags": [
+      "Economics",
+      "Market Design"
+    ],
+    "domain": "Economics"
+  },
+  {
+    "name": "Al Roth's Market Design Blog",
+    "description": "Direct commentary from the architect of modern market design (Nobel 2012). Roth redesigned NRMP, co-founded kidney exchange programs, advised on school choice. Practitioner insights unavailable elsewhere.",
+    "category": "Market Design & Matching",
+    "url": "https://marketdesigner.blogspot.com",
+    "type": "Blog",
+    "level": "Medium",
+    "tags": [
+      "Economics",
+      "Market Design"
+    ],
+    "domain": "Economics"
+  },
+  {
+    "name": "Uber Engineering: Marketplace Matching",
+    "description": "How classical two-sided matching translates to 30M+ predictions/minute. MDP framework, batch vs. greedy matching, bipartite graph algorithms, RL for supply-demand balance. Quantitative production results.",
+    "category": "Market Design & Matching",
+    "url": "https://www.uber.com/blog/research/dynamic-pricing-and-matching-in-ride-hailing-platforms/",
+    "type": "Engineering Blog",
+    "level": "Medium",
+    "tags": [
+      "Economics",
+      "Marketplace"
+    ],
+    "domain": "Economics"
+  },
+  {
+    "name": "Airbnb Engineering: Two-Sided Marketplace Matching",
+    "description": "Unique focus on 'both sides must accept' constraint. Host acceptance prediction, listing embeddings, cold start solutions. Shows how to infer host preferences from behavior\u20143.75% booking improvement.",
+    "category": "Market Design & Matching",
+    "url": "https://medium.com/airbnb-engineering/how-airbnb-uses-machine-learning-to-detect-host-preferences-18ce07150fa3",
+    "type": "Engineering Blog",
+    "level": "Medium",
+    "tags": [
+      "Economics",
+      "Marketplace"
+    ],
+    "domain": "Economics"
+  },
+  {
+    "name": "Tim Roughgarden's CS364A: Mechanism Design",
+    "description": "The definitive free resource from a G\u00f6del Prize winner. 20 video lectures (~75 min each) covering Vickrey auctions, Myerson's Lemma, VCG, sponsored search, combinatorial auctions, revenue-maximizing mechanisms.",
+    "category": "Auction Theory",
+    "url": "https://timroughgarden.org/f13/f13.html",
+    "type": "Video Course",
+    "level": "Hard",
+    "tags": [
+      "Economics",
+      "Auctions"
+    ],
+    "domain": "Economics"
+  },
+  {
+    "name": "Easley & Kleinberg: Sponsored Search Markets",
+    "description": "Clearest pedagogical treatment of online ad auctions. VCG from 'harm principle,' GSP mechanics, GSP vs VCG comparison with worked examples, why truth-telling isn't dominant in GSP. Perfect for understanding Google/Facebook ads.",
+    "category": "Auction Theory",
+    "url": "https://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch15.pdf",
+    "type": "Chapter",
+    "level": "Medium",
+    "tags": [
+      "Economics",
+      "Auctions"
+    ],
+    "domain": "Economics"
+  },
+  {
+    "name": "Jonathan Levin's Revenue Equivalence Notes",
+    "description": "Concise, rigorous proof from leading auction theorist (Susan Athey co-author). Revenue Equivalence Theorem, first-price vs. second-price, Dutch/English equivalence. Essential for understanding when auction format matters.",
+    "category": "Auction Theory",
+    "url": "https://economics.utoronto.ca/damiano/ps426/RET-Levin-Notes.pdf",
+    "type": "Lecture Notes",
+    "level": "Hard",
+    "tags": [
+      "Economics",
+      "Auctions"
+    ],
+    "domain": "Economics"
+  },
+  {
+    "name": "Kevin Leyton-Brown's VCG Mechanism Lectures",
+    "description": "Structured theorem-proof format with worked examples. VCG formal definition, DSIC proofs, Clarke pivot rule, budget balance, shortest path auctions. Shows exactly how second-price sealed-bid is VCG special case.",
+    "category": "Auction Theory",
+    "url": "https://www.cs.ubc.ca/~kevinlb/teaching/cs532l-2007-8/lectures/lect16.pdf",
+    "type": "Lecture Notes",
+    "level": "Hard",
+    "tags": [
+      "Economics",
+      "Auctions"
+    ],
+    "domain": "Economics"
+  },
+  {
+    "name": "Google Research: Market Algorithms Team",
+    "description": "Direct from engineers designing Google's auction systems. Ad exchange design, budget-constrained mechanisms, autobidding formulas, Price of Anarchy. Collaboration between Roughgarden, Tardos, and Google engineers.",
+    "category": "Auction Theory",
+    "url": "https://research.google/teams/market-algorithms/",
+    "type": "Research Blog",
+    "level": "Hard",
+    "tags": [
+      "Economics",
+      "Auctions"
+    ],
+    "domain": "Economics"
+  },
+  {
+    "name": "NFX Network Effects Bible",
+    "description": "The definitive practitioner reference. Sarnoff's/Metcalfe's/Reed's Laws, critical mass, same-side vs. cross-side effects, chicken-and-egg solutions, switching costs. Continuously updated with visual diagrams.",
+    "category": "Platform Economics",
+    "url": "https://www.nfx.com/post/network-effects-bible",
+    "type": "Guide",
+    "level": "Medium",
+    "tags": [
+      "Economics",
+      "Network Effects"
+    ],
+    "domain": "Economics"
+  },
+  {
+    "name": "NFX Network Effects Manual: 16 Types",
+    "description": "Most granular taxonomy: Physical, Protocol, Personal Utility, Marketplace, Platform, Asymptotic, Data, Tech Performance, Language, Belief, Bandwagon, Tribal effects. Explains why Uber/Lyft face asymptotic effects.",
+    "category": "Platform Economics",
+    "url": "https://www.nfx.com/post/network-effects-manual",
+    "type": "Guide",
+    "level": "Medium",
+    "tags": [
+      "Economics",
+      "Network Effects"
+    ],
+    "domain": "Economics"
+  },
+  {
+    "name": "NFX Network Effects Masterclass",
+    "description": "3+ hour video course from operators who built 10+ companies with $10B+ in exits. 16 network effect types, case studies (Uber, Facebook, Bitcoin), Network Bonding Theory, cold start, Web3 applications.",
+    "category": "Platform Economics",
+    "url": "https://www.nfx.com/masterclass",
+    "type": "Video Course",
+    "level": "Medium",
+    "tags": [
+      "Economics",
+      "Network Effects"
+    ],
+    "domain": "Economics"
+  },
+  {
+    "name": "Stratechery Aggregation Theory",
+    "description": "Most cited framework for understanding internet platform dominance. Zero distribution/marginal/transaction costs, aggregator virtuous cycle, winner-take-all dynamics, platform vs. aggregator distinction.",
+    "category": "Platform Economics",
+    "url": "https://stratechery.com/aggregation-theory/",
+    "type": "Blog Series",
+    "level": "Medium",
+    "tags": [
+      "Economics",
+      "Platforms"
+    ],
+    "domain": "Economics"
+  },
+  {
+    "name": "a16z: Measuring Network Effects",
+    "description": "Quantitative measurement frameworks. Network effects vs. virality vs. scale, multi-tenanting impact, practical KPIs (DAU/MAU by density, organic vs. paid ratios, market-by-market unit economics).",
+    "category": "Platform Economics",
+    "url": "https://a16z.com/tag/all-about-network-effects/",
+    "type": "Blog Series",
+    "level": "Medium",
+    "tags": [
+      "Economics",
+      "Network Effects"
+    ],
+    "domain": "Economics"
+  },
+  {
+    "name": "QuantEcon: Discrete State Dynamic Programming",
+    "description": "Gold standard for DP in economics. Bellman equation, value/policy iteration, contraction mapping proofs, stochastic optimal growth. Runnable Jupyter notebooks implement DiscreteDP class.",
+    "category": "Computational Economics",
+    "url": "https://python-advanced.quantecon.org/discrete_dp.html",
+    "type": "Tutorial",
+    "level": "Hard",
+    "tags": [
+      "Economics",
+      "Dynamic Programming"
+    ],
+    "domain": "Economics"
+  },
+  {
+    "name": "Matteo Courthoud's BLP Demand Estimation",
+    "description": "Exceptionally clear BLP from first principles. Share inversion, nested fixed-point step-by-step, instrument selection (BLP, Hausman, cost shifters), GMM estimation. Python implementation included.",
+    "category": "Computational Economics",
+    "url": "https://matteocourthoud.github.io/course/empirical-io/02_demand_estimation/",
+    "type": "Course Notes",
+    "level": "Hard",
+    "tags": [
+      "Economics",
+      "IO"
+    ],
+    "domain": "Economics"
+  },
+  {
+    "name": "Frank Pinter's Demand Estimation Notes",
+    "description": "Builds intuition from multinomial logit \u2192 Berry (1994) \u2192 full BLP. MPEC vs. nested fixed-point, micro BLP with second-choice data. Written for PhD field exam prep with red bus-blue bus example.",
+    "category": "Computational Economics",
+    "url": "https://frankpinter.com/notes/Demand_Estimation_Notes.pdf",
+    "type": "Course Notes",
+    "level": "Hard",
+    "tags": [
+      "Economics",
+      "IO"
+    ],
+    "domain": "Economics"
+  },
+  {
+    "name": "AEA: Machine Learning and Econometrics (Athey/Imbens)",
+    "description": "9 hours from two of the most influential computational economists. ML vs. causal inference, heterogeneous treatment effects, LASSO/random forests, causal forests, policy learning. Athey pioneered ML in economics; Imbens won 2021 Nobel.",
+    "category": "Computational Economics",
+    "url": "https://www.aeaweb.org/conference/cont-ed/2018-webcasts",
+    "type": "Video Course",
+    "level": "Hard",
+    "tags": [
+      "Economics",
+      "Causal ML"
+    ],
+    "domain": "Economics"
+  },
+  {
+    "name": "MIT OCW: Dynamic Programming (Bertsekas)",
+    "description": "6 advanced lectures (~12 hours) from the definitive DP authority. Approximate DP, large-scale infinite horizon problems, policy iteration with function approximation, temporal difference, neuro-dynamic programming.",
+    "category": "Computational Economics",
+    "url": "https://ocw.mit.edu/courses/6-231-dynamic-programming-and-stochastic-control-fall-2015/pages/related-video-lectures/",
+    "type": "Video Course",
+    "level": "Hard",
+    "tags": [
+      "Economics",
+      "Dynamic Programming"
+    ],
+    "domain": "Economics"
+  },
+  {
+    "name": "Open Source Economics: Structural Estimation",
+    "description": "From UChicago's Masters in Computational Social Science. Structural vs. reduced-form, MLE, GMM, Simulated Method of Moments. Complete GitHub repositories with Python/Jupyter implementations.",
+    "category": "Computational Economics",
+    "url": "https://opensourceecon.github.io/CompMethods/struct_est/intro.html",
+    "type": "Online Course",
+    "level": "Hard",
+    "tags": [
+      "Economics",
+      "Structural"
+    ],
+    "domain": "Economics"
   }
 ]
