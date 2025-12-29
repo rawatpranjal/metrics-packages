@@ -1292,6 +1292,13 @@ a:hover {
     font-style: italic;
 }
 
+.hero-inspiration {
+    font-size: 1rem;
+    color: var(--text-muted);
+    margin: 0.5rem 0 0;
+    font-style: italic;
+}
+
 /* CTA Banner */
 .cta-banner {
     background: linear-gradient(135deg, var(--accent) 0%, var(--accent-hover) 100%);
