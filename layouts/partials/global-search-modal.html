@@ -15,6 +15,39 @@
           placeholder="Search packages, datasets, resources..."
           autocomplete="off"
         />
+        <button id="search-syntax-help" class="search-syntax-help-btn" title="Search syntax help" type="button">?</button>
+        <div id="search-syntax-tooltip" class="search-syntax-tooltip" style="display: none;">
+          <div class="syntax-tooltip-header">Advanced Search Syntax</div>
+          <div class="syntax-tooltip-content">
+            <div class="syntax-row">
+              <code>"exact phrase"</code>
+              <span>Match exact phrase</span>
+            </div>
+            <div class="syntax-row">
+              <code>author:Smith</code>
+              <span>Filter by author</span>
+            </div>
+            <div class="syntax-row">
+              <code>type:paper</code>
+              <span>Filter by type</span>
+            </div>
+            <div class="syntax-row">
+              <code>year:2024</code>
+              <span>Filter by year</span>
+            </div>
+            <div class="syntax-row">
+              <code>topic:causal</code>
+              <span>Filter by topic</span>
+            </div>
+            <div class="syntax-row">
+              <code>-term</code>
+              <span>Exclude term</span>
+            </div>
+          </div>
+          <div class="syntax-tooltip-example">
+            Example: <code>causal inference author:Angrist -RCT</code>
+          </div>
+        </div>
         <kbd class="global-search-kbd">ESC</kbd>
       </div>
     </div>

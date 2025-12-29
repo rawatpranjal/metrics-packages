@@ -88,13 +88,24 @@ def load_papers(data_dir: Path) -> List[Dict[str, Any]]:
         for subtopic in topic.get('subtopics', []):
             subtopic_name = subtopic.get('name', '')
             for paper in subtopic.get('papers', []):
+                # Parse year as integer for filtering
+                year_raw = paper.get('year', '')
+                year_int = None
+                if year_raw:
+                    try:
+                        year_int = int(str(year_raw).strip())
+                    except (ValueError, TypeError):
+                        pass
+
                 items.append({
                     'name': paper.get('title', ''),
                     'description': paper.get('description', ''),
                     'category': f"{topic_name} > {subtopic_name}",
+                    'topic': topic_name,
+                    'subtopic': subtopic_name,
                     'url': paper.get('url', ''),
                     'authors': paper.get('authors', ''),
-                    'year': paper.get('year', ''),
+                    'year': year_int,
                     'tags': '',
                     'best_for': ''
                 })
@@ -232,8 +243,12 @@ def load_all_items(data_dir: Path) -> List[Dict[str, Any]]:
             "name": paper.get("name", ""),
             "description": paper.get("description", ""),
             "category": paper.get("category", ""),
+            "topic": paper.get("topic", ""),
+            "subtopic": paper.get("subtopic", ""),
             "url": paper.get("url", ""),
             "tags": tags_str,
+            "authors": paper.get("authors", ""),
+            "year": paper.get("year"),  # Integer or None
             "best_for": "",
             "text_for_embedding": combine_text_for_embedding(paper)
         })
@@ -256,28 +271,38 @@ def generate_minisearch_index(items: List[Dict[str, Any]]) -> Dict[str, Any]:
     # Build documents for MiniSearch indexing
     documents = []
     for i, item in enumerate(items):
-        documents.append({
+        doc = {
             "id": item["id"],
             "name": item["name"],
             "description": item["description"],
             "category": item["category"],
             "tags": item["tags"],
-            "best_for": item["best_for"],
+            "best_for": item.get("best_for", ""),
             "url": item["url"],
             "type": item["type"]
-        })
+        }
+        # Add optional fields for filtering (papers have these)
+        if item.get("topic"):
+            doc["topic"] = item["topic"]
+        if item.get("subtopic"):
+            doc["subtopic"] = item["subtopic"]
+        if item.get("authors"):
+            doc["authors"] = item["authors"]
+        if item.get("year") is not None:
+            doc["year"] = item["year"]
+        documents.append(doc)
 
     # Return the documents array - MiniSearch will index them on the client side
     # This is simpler and more reliable than trying to replicate MiniSearch's internal format
     return {
-        "version": 1,
+        "version": 2,  # Bumped for new fields
         "generatedAt": datetime.utcnow().isoformat() + "Z",
         "documents": documents,
         "config": {
-            "fields": ["name", "description", "category", "tags", "best_for"],
-            "storeFields": ["name", "description", "category", "url", "type", "tags", "best_for"],
+            "fields": ["name", "description", "category", "tags", "best_for", "authors"],
+            "storeFields": ["name", "description", "category", "url", "type", "tags", "best_for", "topic", "subtopic", "authors", "year"],
             "searchOptions": {
-                "boost": {"name": 3, "tags": 2, "best_for": 1.2, "description": 1, "category": 0.8},
+                "boost": {"name": 3, "tags": 2, "authors": 1.5, "best_for": 1.2, "description": 1, "category": 0.8},
                 "fuzzy": 0.2,
                 "prefix": True
             }
@@ -331,6 +356,69 @@ def write_quantized_embeddings(embeddings, output_file: Path):
         f.write(quantized.tobytes())
 
     return count * dim  # Return original float count for size comparison
+
+
+def compute_related_items(items: List[Dict[str, Any]], embeddings, top_k: int = 5) -> Dict[str, List[Dict[str, Any]]]:
+    """
+    Compute top-k related items for each item using cosine similarity.
+
+    Args:
+        items: List of item dictionaries with 'id' field
+        embeddings: numpy array of shape (n_items, embedding_dim)
+        top_k: Number of related items to compute per item
+
+    Returns:
+        Dictionary mapping item ID to list of {id, score} dicts
+    """
+    import numpy as np
+
+    print(f"Computing related items (top {top_k} neighbors per item)...")
+
+    # Embeddings are already normalized, so cosine similarity = dot product
+    # Compute all pairwise similarities at once
+    similarity_matrix = np.dot(embeddings, embeddings.T)
+
+    related = {}
+    n_items = len(items)
+
+    for i in range(n_items):
+        # Get similarities to all other items
+        sims = similarity_matrix[i]
+
+        # Set self-similarity to -1 to exclude it
+        sims[i] = -1
+
+        # Get indices of top-k most similar items
+        top_indices = np.argsort(sims)[-top_k:][::-1]
+
+        # Build related items list with scores
+        neighbors = []
+        for idx in top_indices:
+            score = float(sims[idx])
+            if score > 0.3:  # Only include if similarity is meaningful
+                neighbors.append({
+                    "id": items[idx]["id"],
+                    "score": round(score, 3)
+                })
+
+        related[items[i]["id"]] = neighbors
+
+    return related
+
+
+def write_related_items(related: Dict[str, List[Dict[str, Any]]], output_file: Path):
+    """Write related items to JSON file."""
+    output = {
+        "version": 1,
+        "generatedAt": datetime.utcnow().isoformat() + "Z",
+        "topK": 5,
+        "items": related
+    }
+
+    with open(output_file, 'w') as f:
+        json.dump(output, f, separators=(',', ':'))
+
+    print(f"  Related items: {output_file.stat().st_size / 1024:.1f} KB")
 
 
 def generate_all_outputs(items: List[Dict[str, Any]], model, output_dir: Path, content_hash: str):
@@ -409,8 +497,13 @@ def generate_all_outputs(items: List[Dict[str, Any]], model, output_dir: Path, c
         json.dump(legacy_output, f, separators=(',', ':'))
     print(f"  Legacy JSON: {legacy_file.stat().st_size / 1024:.1f} KB")
 
+    # 5. Compute and write related items (semantic neighbors)
+    related = compute_related_items(items, embeddings, top_k=5)
+    related_file = output_dir / "related-items.json"
+    write_related_items(related, related_file)
+
     # Total size report
-    total_new = metadata_file.stat().st_size + binary_file.stat().st_size + index_file.stat().st_size
+    total_new = metadata_file.stat().st_size + binary_file.stat().st_size + index_file.stat().st_size + related_file.stat().st_size
     total_legacy = legacy_file.stat().st_size
     print(f"\nNew format total: {total_new / 1024:.1f} KB")
     print(f"Legacy JSON: {total_legacy / 1024:.1f} KB")

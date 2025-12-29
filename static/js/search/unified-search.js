@@ -74,6 +74,25 @@
     this.debounceTimer = null;
     this.currentSortOrder = 'relevance';  // 'relevance' | 'alphabetical' | 'type'
 
+    // Filter state for faceted search
+    this.activeFilters = {
+      types: [],      // e.g., ['paper', 'package']
+      topics: [],     // e.g., ['Experimentation', 'Causal Inference']
+      years: [],      // e.g., [2023, 2024]
+      yearRange: null // e.g., { min: 2020, max: 2024 }
+    };
+    this.facetCounts = null;  // Computed from search results
+
+    // Parsed query state (for advanced query syntax)
+    this.parsedQuery = null;  // Result of QueryParser.parse()
+    this.rawQuery = '';       // Original user input
+
+    // Related items state
+    this.relatedItemsData = {};
+    this.relatedItemsLoaded = false;
+    this.relatedItemsLoading = false;
+    this.relatedItemsPromise = null;
+
     // Page search instances
     this.pageSearchInstances = [];
   }
@@ -619,6 +638,129 @@
   };
 
   // ============================================
+  // Related Items / Discovery
+  // ============================================
+
+  /**
+   * Load related items data
+   */
+  UnifiedSearch.prototype.loadRelatedItems = function() {
+    var self = this;
+
+    if (this.relatedItemsLoaded || this.relatedItemsLoading) {
+      return this.relatedItemsPromise;
+    }
+
+    this.relatedItemsLoading = true;
+    this.relatedItemsPromise = fetch('/embeddings/related-items.json')
+      .then(function(response) {
+        if (!response.ok) throw new Error('Failed to load related items');
+        return response.json();
+      })
+      .then(function(data) {
+        self.relatedItemsData = data.items || {};
+        self.relatedItemsLoaded = true;
+        self.relatedItemsLoading = false;
+        console.log('[UnifiedSearch] Related items loaded:', Object.keys(self.relatedItemsData).length, 'items');
+        return self.relatedItemsData;
+      })
+      .catch(function(error) {
+        console.warn('[UnifiedSearch] Failed to load related items:', error);
+        self.relatedItemsLoading = false;
+        self.relatedItemsData = {};
+        return {};
+      });
+
+    return this.relatedItemsPromise;
+  };
+
+  /**
+   * Get related items for a given item ID
+   * @param {string} itemId - The item ID to find related items for
+   * @returns {Promise<Array>} - Array of related items with full details
+   */
+  UnifiedSearch.prototype.getRelatedItems = function(itemId) {
+    var self = this;
+
+    return this.loadRelatedItems().then(function() {
+      var relatedIds = self.relatedItemsData[itemId] || [];
+
+      if (relatedIds.length === 0) {
+        return [];
+      }
+
+      // Look up full item details from the search index
+      // Related items are stored as {id, score}
+      var results = [];
+      relatedIds.forEach(function(rel) {
+        // Find the item in our search index documents
+        var item = self.findItemById(rel.id);
+        if (item) {
+          results.push({
+            id: rel.id,
+            name: item.name,
+            description: item.description,
+            type: item.type,
+            category: item.category,
+            url: item.url,
+            score: rel.score
+          });
+        }
+      });
+
+      return results;
+    });
+  };
+
+  /**
+   * Find an item by ID in the search index
+   * @param {string} itemId - The item ID to find
+   * @returns {Object|null} - The item or null if not found
+   */
+  UnifiedSearch.prototype.findItemById = function(itemId) {
+    if (!this.searchIndex || !this.searchIndex.documents) {
+      return null;
+    }
+
+    for (var i = 0; i < this.searchIndex.documents.length; i++) {
+      if (this.searchIndex.documents[i].id === itemId) {
+        return this.searchIndex.documents[i];
+      }
+    }
+
+    return null;
+  };
+
+  /**
+   * Show related items in search results (triggered by "More like this" button)
+   * @param {string} itemId - The item ID to show related items for
+   * @param {string} itemName - The name of the source item (for display)
+   */
+  UnifiedSearch.prototype.showRelatedItems = function(itemId, itemName) {
+    var self = this;
+
+    this.showLoading();
+
+    this.getRelatedItems(itemId).then(function(related) {
+      self.hideLoading();
+
+      if (related.length === 0) {
+        self.showEmpty();
+        return;
+      }
+
+      // Update the input to show what we're viewing
+      if (self.input) {
+        self.input.value = 'Related to: ' + itemName;
+      }
+
+      // Render results
+      self.currentResults = related;
+      self.renderGlobalResults(related, '', false);
+    });
+  };
+
+  // ============================================
   // Global Search UI
   // ============================================
 
@@ -641,7 +783,99 @@
     this.triggers = document.querySelectorAll('.global-search-trigger');
     this.currentTypeFilter = 'all';  // Filter state
 
+    // Create preview panel for hover previews (desktop only)
+    this.createPreviewPanel();
+
     this.bindGlobalSearchEvents();
+  };
+
+  /**
+   * Create preview panel for hover previews
+   */
+  UnifiedSearch.prototype.createPreviewPanel = function() {
+    // Only create on desktop
+    if (window.innerWidth < 900) return;
+
+    var container = this.modal.querySelector('.global-search-container');
+    if (!container) return;
+
+    this.previewPanel = document.createElement('div');
+    this.previewPanel.className = 'global-search-preview';
+    this.previewPanel.style.display = 'none';
+    container.appendChild(this.previewPanel);
+  };
+
+  /**
+   * Show preview for a result
+   */
+  UnifiedSearch.prototype.showPreview = function(result) {
+    if (!this.previewPanel || window.innerWidth < 900) return;
+
+    var typeConfig = TYPE_CONFIG[result.type] || { label: result.type, icon: 'file', color: '#666' };
+
+    var html = '<div class="preview-header">';
+    html += '<span class="preview-type-badge" style="background-color:' + typeConfig.color + '">' + typeConfig.label + '</span>';
+    html += '<h3 class="preview-title">' + escapeHtml(result.name) + '</h3>';
+    html += '</div>';
+
+    html += '<div class="preview-body">';
+
+    // Category
+    if (result.category) {
+      html += '<div class="preview-field">';
+      html += '<span class="preview-label">Category</span>';
+      html += '<span class="preview-value">' + escapeHtml(result.category) + '</span>';
+      html += '</div>';
+    }
+
+    // Full description
+    if (result.description) {
+      html += '<div class="preview-field">';
+      html += '<span class="preview-label">Description</span>';
+      html += '<p class="preview-description">' + escapeHtml(result.description) + '</p>';
+      html += '</div>';
+    }
+
+    // Tags
+    if (result.tags) {
+      var tagsArr = typeof result.tags === 'string' ? result.tags.split(',').map(function(t) { return t.trim(); }).filter(Boolean) : result.tags;
+      if (tagsArr.length > 0) {
+        html += '<div class="preview-field">';
+        html += '<span class="preview-label">Tags</span>';
+        html += '<div class="preview-tags">';
+        tagsArr.forEach(function(tag) {
+          html += '<span class="preview-tag">' + escapeHtml(tag) + '</span>';
+        });
+        html += '</div>';
+        html += '</div>';
+      }
+    }
+
+    // Best for
+    if (result.best_for) {
+      html += '<div class="preview-field">';
+      html += '<span class="preview-label">Best for</span>';
+      html += '<p class="preview-best-for">' + escapeHtml(result.best_for) + '</p>';
+      html += '</div>';
+    }
+
+    html += '</div>';
+
+    html += '<div class="preview-footer">';
+    html += '<span class="preview-url">' + escapeHtml(result.url) + '</span>';
+    html += '</div>';
+
+    this.previewPanel.innerHTML = html;
+    this.previewPanel.style.display = 'block';
+  };
+
+  /**
+   * Hide preview panel
+   */
+  UnifiedSearch.prototype.hidePreview = function() {
+    if (this.previewPanel) {
+      this.previewPanel.style.display = 'none';
+    }
   };
 
   /**
@@ -676,6 +910,25 @@
       });
     }
 
+    // Syntax help button
+    this.syntaxHelpBtn = document.getElementById('search-syntax-help');
+    this.syntaxTooltip = document.getElementById('search-syntax-tooltip');
+    if (this.syntaxHelpBtn && this.syntaxTooltip) {
+      this.syntaxHelpBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        self.toggleSyntaxTooltip();
+      });
+
+      // Close tooltip when clicking outside
+      document.addEventListener('click', function(e) {
+        if (self.syntaxTooltip && self.syntaxTooltip.style.display !== 'none') {
+          if (!self.syntaxTooltip.contains(e.target) && e.target !== self.syntaxHelpBtn) {
+            self.hideSyntaxTooltip();
+          }
+        }
+      });
+    }
+
     // Search input
     if (this.input) {
       this.input.addEventListener('input', function() {
@@ -700,9 +953,52 @@
     // Result clicks
     if (this.resultsContainer) {
       this.resultsContainer.addEventListener('click', function(e) {
+        // Handle "More like this" button click
+        var moreLikeBtn = e.target.closest('.more-like-this-btn');
+        if (moreLikeBtn) {
+          e.preventDefault();
+          e.stopPropagation();
+          var itemId = moreLikeBtn.getAttribute('data-item-id');
+          var itemName = moreLikeBtn.getAttribute('data-item-name');
+          if (itemId && itemName) {
+            self.showRelatedItems(itemId, itemName);
+          }
+          return;
+        }
+
         var item = e.target.closest('.result-item');
         if (item) {
           self.closeModal();
+        }
+      });
+
+      // Hover previews (desktop only)
+      this.resultsContainer.addEventListener('mouseenter', function(e) {
+        var item = e.target.closest('.result-item');
+        if (item && self.flatResults) {
+          var index = parseInt(item.getAttribute('data-index'), 10);
+          if (!isNaN(index) && self.flatResults[index]) {
+            self.showPreview(self.flatResults[index]);
+          }
+        }
+      }, true);
+
+      this.resultsContainer.addEventListener('mouseleave', function(e) {
+        // Only hide if leaving to outside the results container
+        var relatedTarget = e.relatedTarget;
+        if (!relatedTarget || !self.resultsContainer.contains(relatedTarget)) {
+          self.hidePreview();
+        }
+      }, true);
+
+      // Handle mouse move between items
+      this.resultsContainer.addEventListener('mouseover', function(e) {
+        var item = e.target.closest('.result-item');
+        if (item && self.flatResults) {
+          var index = parseInt(item.getAttribute('data-index'), 10);
+          if (!isNaN(index) && self.flatResults[index]) {
+            self.showPreview(self.flatResults[index]);
+          }
         }
       });
     }
@@ -750,6 +1046,7 @@
     this.modal.style.display = 'none';
     this.isOpen = false;
     document.body.style.overflow = '';
+    this.hidePreview();
   };
 
   /**
@@ -763,8 +1060,25 @@
       this.showHint();
       this.currentResults = [];
       this.flatResults = [];
+      this.parsedQuery = null;
+      this.rawQuery = '';
+      this.hideFilterChips();
       return;
     }
+
+    // Store raw query
+    this.rawQuery = query;
+
+    // Parse query for advanced syntax (phrases, filters, negations)
+    if (typeof QueryParser !== 'undefined') {
+      this.parsedQuery = QueryParser.parse(query);
+      console.log('[UnifiedSearch] Parsed query:', this.parsedQuery);
+    } else {
+      this.parsedQuery = null;
+    }
+
+    // Render active filter chips
+    this.renderFilterChips();
 
     // Save to recent searches
     this.addRecentSearch(query);
@@ -772,14 +1086,26 @@
     // Show loading state
     this.showLoading();
 
+    // Use cleanQuery for search (strips field filters, keeps terms + phrases)
+    var searchQuery = this.parsedQuery ? this.parsedQuery.cleanQuery : query;
+    if (!searchQuery || searchQuery.length < 1) {
+      // Only filters, no search terms - use original query
+      searchQuery = query;
+    }
+
     // Perform search (progressive: keyword results come first)
-    this.search(query, { topK: CONFIG.maxTotalResults * 2 })
+    this.search(searchQuery, { topK: CONFIG.maxTotalResults * 2 })
       .then(function(result) {
         self.hideLoading();
 
         // Handle progressive result format
         var results = result.results || result;
         var isPartial = result.isPartial || false;
+
+        // Apply query parser filters (phrases, field filters, negations)
+        if (self.parsedQuery && typeof QueryParser !== 'undefined') {
+          results = QueryParser.applyFilters(results, self.parsedQuery);
+        }
 
         self.currentResults = results.slice(0, CONFIG.maxTotalResults);
 
@@ -821,8 +1147,11 @@
     // Render sort controls
     this.renderSortControls();
 
-    // Apply sort order to results
-    var sortedResults = this.sortResults(results, this.currentSortOrder);
+    // Apply facet filters (topics, years)
+    var filteredResults = this.applyFilters(results);
+
+    // Apply sort order to filtered results
+    var sortedResults = this.sortResults(filteredResults, this.currentSortOrder);
 
     // Group sorted results by type
     var grouped = {};
@@ -883,6 +1212,9 @@
         html += '<span class="result-type-badge" style="background-color:' + typeConfig.color + '">' + typeConfig.label + '</span>';
         html += '<span class="result-category">' + escapeHtml(result.category) + '</span>';
         html += '</div>';
+        html += '<button class="more-like-this-btn" data-item-id="' + escapeHtml(result.id) + '" data-item-name="' + escapeHtml(result.name) + '" title="Find similar items">';
+        html += '<svg viewBox="0 0 24 24" width="14" height="14"><circle cx="12" cy="12" r="3" fill="currentColor"/><circle cx="5" cy="12" r="2" fill="currentColor" opacity="0.6"/><circle cx="19" cy="12" r="2" fill="currentColor" opacity="0.6"/></svg>';
+        html += '</button>';
         html += '</a>';
 
         globalIndex++;
@@ -935,6 +1267,122 @@
         self.renderGlobalResults(self.currentResults, self.input.value.trim());
       });
     });
+
+    // Render facet filters (topics, years) for papers
+    this.renderFacetFilters();
+  };
+
+  /**
+   * Render facet filters (topics, years) based on current results
+   */
+  UnifiedSearch.prototype.renderFacetFilters = function() {
+    var self = this;
+
+    // Find or create facet container
+    var facetContainer = document.getElementById('global-search-facets');
+    if (!facetContainer) {
+      facetContainer = document.createElement('div');
+      facetContainer.id = 'global-search-facets';
+      facetContainer.className = 'global-search-facets';
+      if (this.filtersContainer && this.filtersContainer.parentNode) {
+        this.filtersContainer.parentNode.insertBefore(facetContainer, this.filtersContainer.nextSibling);
+      }
+    }
+
+    // Only show facets when papers are selected or showing all
+    var showFacets = this.currentTypeFilter === 'all' || this.currentTypeFilter === 'paper';
+    if (!showFacets) {
+      facetContainer.style.display = 'none';
+      return;
+    }
+
+    // Compute facet counts from current results (before filtering)
+    this.facetCounts = this.computeFacetCounts(this.currentResults);
+
+    // Only show if there are meaningful facets
+    var hasTopics = Object.keys(this.facetCounts.topics).length > 1;
+    var hasYears = Object.keys(this.facetCounts.years).length > 1;
+
+    if (!hasTopics && !hasYears) {
+      facetContainer.style.display = 'none';
+      return;
+    }
+
+    var html = '';
+
+    // Topic filter dropdown
+    if (hasTopics) {
+      var sortedTopics = Object.entries(this.facetCounts.topics)
+        .sort(function(a, b) { return b[1] - a[1]; })
+        .slice(0, 10);  // Top 10 topics
+
+      html += '<div class="facet-group">';
+      html += '<label class="facet-label">Topic:</label>';
+      html += '<select class="facet-select" id="facet-topic">';
+      html += '<option value="">All Topics</option>';
+      sortedTopics.forEach(function(entry) {
+        var topic = entry[0];
+        var count = entry[1];
+        var selected = self.activeFilters.topics.indexOf(topic) !== -1 ? ' selected' : '';
+        html += '<option value="' + escapeHtml(topic) + '"' + selected + '>' + escapeHtml(topic) + ' (' + count + ')</option>';
+      });
+      html += '</select>';
+      html += '</div>';
+    }
+
+    // Year filter dropdown
+    if (hasYears) {
+      var sortedYears = Object.entries(this.facetCounts.years)
+        .sort(function(a, b) { return parseInt(b[0]) - parseInt(a[0]); });  // Newest first
+
+      html += '<div class="facet-group">';
+      html += '<label class="facet-label">Year:</label>';
+      html += '<select class="facet-select" id="facet-year">';
+      html += '<option value="">All Years</option>';
+      sortedYears.forEach(function(entry) {
+        var year = entry[0];
+        var count = entry[1];
+        var selected = self.activeFilters.years.indexOf(parseInt(year)) !== -1 ? ' selected' : '';
+        html += '<option value="' + year + '"' + selected + '>' + year + ' (' + count + ')</option>';
+      });
+      html += '</select>';
+      html += '</div>';
+    }
+
+    // Clear filters button
+    if (this.hasActiveFilters()) {
+      html += '<button class="facet-clear" id="facet-clear">Clear Filters</button>';
+    }
+
+    facetContainer.innerHTML = html;
+    facetContainer.style.display = 'flex';
+
+    // Bind event handlers
+    var topicSelect = document.getElementById('facet-topic');
+    if (topicSelect) {
+      topicSelect.addEventListener('change', function() {
+        var value = this.value;
+        self.activeFilters.topics = value ? [value] : [];
+        self.renderGlobalResults(self.currentResults, self.input.value.trim());
+      });
+    }
+
+    var yearSelect = document.getElementById('facet-year');
+    if (yearSelect) {
+      yearSelect.addEventListener('change', function() {
+        var value = this.value;
+        self.activeFilters.years = value ? [parseInt(value)] : [];
+        self.renderGlobalResults(self.currentResults, self.input.value.trim());
+      });
+    }
+
+    var clearBtn = document.getElementById('facet-clear');
+    if (clearBtn) {
+      clearBtn.addEventListener('click', function() {
+        self.clearFilters();
+        self.renderGlobalResults(self.currentResults, self.input.value.trim());
+      });
+    }
   };
 
   /**
@@ -968,6 +1416,140 @@
     }
 
     return sorted;
+  };
+
+  // ============================================
+  // Filter Methods
+  // ============================================
+
+  /**
+   * Apply active filters to results
+   * @param {Array} results - Search results to filter
+   * @returns {Array} - Filtered results
+   */
+  UnifiedSearch.prototype.applyFilters = function(results) {
+    var self = this;
+    var filters = this.activeFilters;
+
+    return results.filter(function(result) {
+      // Type filter
+      if (filters.types.length > 0) {
+        if (filters.types.indexOf(result.type) === -1) {
+          return false;
+        }
+      }
+
+      // Topic filter (for papers)
+      if (filters.topics.length > 0) {
+        var resultTopic = result.topic || '';
+        if (filters.topics.indexOf(resultTopic) === -1) {
+          return false;
+        }
+      }
+
+      // Year filter (specific years)
+      if (filters.years.length > 0) {
+        var resultYear = result.year;
+        if (!resultYear || filters.years.indexOf(resultYear) === -1) {
+          return false;
+        }
+      }
+
+      // Year range filter
+      if (filters.yearRange) {
+        var year = result.year;
+        if (!year) return false;
+        if (filters.yearRange.min && year < filters.yearRange.min) return false;
+        if (filters.yearRange.max && year > filters.yearRange.max) return false;
+      }
+
+      return true;
+    });
+  };
+
+  /**
+   * Compute facet counts from results
+   * @param {Array} results - Search results
+   * @returns {Object} - Facet counts { types: {}, topics: {}, years: {} }
+   */
+  UnifiedSearch.prototype.computeFacetCounts = function(results) {
+    var counts = {
+      types: {},
+      topics: {},
+      years: {}
+    };
+
+    results.forEach(function(result) {
+      // Count types
+      var type = result.type;
+      counts.types[type] = (counts.types[type] || 0) + 1;
+
+      // Count topics (for papers)
+      if (result.topic) {
+        counts.topics[result.topic] = (counts.topics[result.topic] || 0) + 1;
+      }
+
+      // Count years (for papers)
+      if (result.year) {
+        var year = result.year;
+        counts.years[year] = (counts.years[year] || 0) + 1;
+      }
+    });
+
+    return counts;
+  };
+
+  /**
+   * Set a filter value
+   * @param {string} filterType - 'types', 'topics', 'years', or 'yearRange'
+   * @param {any} value - Filter value to set
+   */
+  UnifiedSearch.prototype.setFilter = function(filterType, value) {
+    if (filterType === 'yearRange') {
+      this.activeFilters.yearRange = value;
+    } else if (this.activeFilters[filterType]) {
+      this.activeFilters[filterType] = Array.isArray(value) ? value : [value];
+    }
+  };
+
+  /**
+   * Toggle a filter value (add if missing, remove if present)
+   * @param {string} filterType - 'types', 'topics', or 'years'
+   * @param {any} value - Value to toggle
+   */
+  UnifiedSearch.prototype.toggleFilter = function(filterType, value) {
+    if (!this.activeFilters[filterType]) return;
+
+    var arr = this.activeFilters[filterType];
+    var idx = arr.indexOf(value);
+    if (idx === -1) {
+      arr.push(value);
+    } else {
+      arr.splice(idx, 1);
+    }
+  };
+
+  /**
+   * Clear all filters
+   */
+  UnifiedSearch.prototype.clearFilters = function() {
+    this.activeFilters = {
+      types: [],
+      topics: [],
+      years: [],
+      yearRange: null
+    };
+  };
+
+  /**
+   * Check if any filters are active
+   * @returns {boolean}
+   */
+  UnifiedSearch.prototype.hasActiveFilters = function() {
+    return this.activeFilters.types.length > 0 ||
+           this.activeFilters.topics.length > 0 ||
+           this.activeFilters.years.length > 0 ||
+           this.activeFilters.yearRange !== null;
   };
 
   /**
@@ -1100,6 +1682,182 @@
    */
   UnifiedSearch.prototype.hideLoading = function() {
     if (this.loadingState) this.loadingState.style.display = 'none';
+  };
+
+  /**
+   * Render filter chips based on parsed query
+   */
+  UnifiedSearch.prototype.renderFilterChips = function() {
+    if (!this.filtersContainer || !this.parsedQuery) {
+      this.hideFilterChips();
+      return;
+    }
+
+    var self = this;
+    var chips = [];
+    var pq = this.parsedQuery;
+
+    // Check if there are any active filters to show
+    var hasFilters = pq.phrases.length > 0 ||
+                     Object.keys(pq.fields).length > 0 ||
+                     pq.negations.terms.length > 0 ||
+                     pq.negations.phrases.length > 0;
+
+    if (!hasFilters) {
+      this.hideFilterChips();
+      return;
+    }
+
+    // Phrase chips
+    pq.phrases.forEach(function(phrase) {
+      chips.push({
+        type: 'phrase',
+        label: '"' + phrase + '"',
+        value: phrase,
+        icon: '❝'
+      });
+    });
+
+    // Field filter chips
+    for (var field in pq.fields) {
+      pq.fields[field].forEach(function(value) {
+        chips.push({
+          type: 'field',
+          field: field,
+          label: field + ':' + value,
+          value: value,
+          icon: field === 'author' ? '👤' : field === 'year' ? '📅' : field === 'type' ? '📁' : '🏷️'
+        });
+      });
+    }
+
+    // Negation chips
+    pq.negations.terms.forEach(function(term) {
+      chips.push({
+        type: 'negation',
+        label: '-' + term,
+        value: term,
+        icon: '🚫'
+      });
+    });
+
+    pq.negations.phrases.forEach(function(phrase) {
+      chips.push({
+        type: 'negation-phrase',
+        label: '-"' + phrase + '"',
+        value: phrase,
+        icon: '🚫'
+      });
+    });
+
+    // Render chips
+    var html = chips.map(function(chip, index) {
+      return '<span class="filter-chip" data-type="' + chip.type + '" data-value="' + chip.value + '" data-index="' + index + '">' +
+             '<span class="chip-icon">' + chip.icon + '</span>' +
+             '<span class="chip-label">' + escapeHtml(chip.label) + '</span>' +
+             '<button class="chip-remove" title="Remove filter">&times;</button>' +
+             '</span>';
+    }).join('');
+
+    this.filtersContainer.innerHTML = html;
+    this.filtersContainer.style.display = 'flex';
+
+    // Add click handlers for chip removal
+    var removeButtons = this.filtersContainer.querySelectorAll('.chip-remove');
+    removeButtons.forEach(function(btn) {
+      btn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        var chip = e.target.closest('.filter-chip');
+        if (chip) {
+          self.removeFilterFromQuery(chip.dataset.type, chip.dataset.value);
+        }
+      });
+    });
+  };
+
+  /**
+   * Hide filter chips
+   */
+  UnifiedSearch.prototype.hideFilterChips = function() {
+    if (this.filtersContainer) {
+      this.filtersContainer.style.display = 'none';
+      this.filtersContainer.innerHTML = '';
+    }
+  };
+
+  /**
+   * Remove a filter from the query and re-search
+   */
+  UnifiedSearch.prototype.removeFilterFromQuery = function(type, value) {
+    if (!this.rawQuery) return;
+
+    var newQuery = this.rawQuery;
+
+    if (type === 'phrase') {
+      // Remove "phrase" from query
+      newQuery = newQuery.replace(new RegExp('"' + this.escapeRegex(value) + '"', 'gi'), '');
+    } else if (type === 'field') {
+      // Remove field:value from query
+      newQuery = newQuery.replace(new RegExp('\\w+:' + this.escapeRegex(value), 'gi'), '');
+    } else if (type === 'negation') {
+      // Remove -term from query
+      newQuery = newQuery.replace(new RegExp('-' + this.escapeRegex(value), 'gi'), '');
+    } else if (type === 'negation-phrase') {
+      // Remove -"phrase" from query
+      newQuery = newQuery.replace(new RegExp('-"' + this.escapeRegex(value) + '"', 'gi'), '');
+    }
+
+    // Clean up extra spaces
+    newQuery = newQuery.replace(/\s+/g, ' ').trim();
+
+    // Update input and re-search
+    if (this.input) {
+      this.input.value = newQuery;
+      this.performGlobalSearch();
+    }
+  };
+
+  /**
+   * Escape string for use in regex
+   */
+  UnifiedSearch.prototype.escapeRegex = function(str) {
+    return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  };
+
+  /**
+   * Toggle syntax help tooltip
+   */
+  UnifiedSearch.prototype.toggleSyntaxTooltip = function() {
+    if (!this.syntaxTooltip) return;
+    if (this.syntaxTooltip.style.display === 'none') {
+      this.showSyntaxTooltip();
+    } else {
+      this.hideSyntaxTooltip();
+    }
+  };
+
+  /**
+   * Show syntax help tooltip
+   */
+  UnifiedSearch.prototype.showSyntaxTooltip = function() {
+    if (this.syntaxTooltip) {
+      this.syntaxTooltip.style.display = 'block';
+    }
+    if (this.syntaxHelpBtn) {
+      this.syntaxHelpBtn.classList.add('active');
+    }
+  };
+
+  /**
+   * Hide syntax help tooltip
+   */
+  UnifiedSearch.prototype.hideSyntaxTooltip = function() {
+    if (this.syntaxTooltip) {
+      this.syntaxTooltip.style.display = 'none';
+    }
+    if (this.syntaxHelpBtn) {
+      this.syntaxHelpBtn.classList.remove('active');
+    }
   };
 
   /**
