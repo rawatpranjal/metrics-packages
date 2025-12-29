@@ -65,45 +65,6 @@
     "domain": "Programming"
   },
   {
-    "name": "fast.ai Practical Deep Learning",
-    "description": "Train a model in 10 minutes. Understand why it works later. Jeremy Howard's famous 'code first, theory second' approach to deep learning.",
-    "category": "Deep Learning",
-    "url": "https://course.fast.ai/",
-    "type": "Course",
-    "level": "Easy",
-    "tags": [
-      "ML & Data Science",
-      "Course"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
-    "name": "Introduction to Statistical Learning",
-    "description": "The 'I actually finished this one' ML book. Free with runnable Python code. Math when you need it, intuition first.",
-    "category": "Fundamentals",
-    "url": "https://www.statlearning.com/",
-    "type": "Online Book",
-    "level": "Easy",
-    "tags": [
-      "ML & Data Science",
-      "Online Book"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
-    "name": "The Elements of Statistical Learning",
-    "description": "The more rigorous sibling of ISLR. Hastie, Tibshirani, and Friedman's classic on statistical learning theory. Free PDF from Stanford.",
-    "category": "Fundamentals",
-    "url": "https://hastie.su.domains/ElemStatLearn/",
-    "type": "Online Book",
-    "level": "Hard",
-    "tags": [
-      "ML & Data Science",
-      "Online Book"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
     "name": "Forecasting: Principles and Practice",
     "description": "Rob Hyndman's free book on time series forecasting. ARIMA, ETS, hierarchical forecasting \u2014 with R code.",
     "category": "Fundamentals",
@@ -115,32 +76,6 @@
       "Online Book"
     ],
     "domain": "Forecasting & Time Series"
-  },
-  {
-    "name": "Machine Learning Specialization",
-    "description": "Andrew Ng's foundational ML course on Coursera. Covers supervised/unsupervised learning, neural networks, and best practices.",
-    "category": "Fundamentals",
-    "url": "https://www.coursera.org/specializations/machine-learning-introduction",
-    "type": "Course",
-    "level": "Easy",
-    "tags": [
-      "ML & Data Science",
-      "Course"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
-    "name": "Deep Learning Specialization",
-    "description": "Andrew Ng's deep learning sequence. CNNs, RNNs, transformers, and practical AI project structuring.",
-    "category": "Fundamentals",
-    "url": "https://www.coursera.org/specializations/deep-learning",
-    "type": "Course",
-    "level": "Medium",
-    "tags": [
-      "ML & Data Science",
-      "Course"
-    ],
-    "domain": "Machine Learning"
   },
   {
     "name": "The Theory and Practice of Revenue Management",
@@ -401,19 +336,6 @@
       "Blog"
     ],
     "domain": "Product Sense"
-  },
-  {
-    "name": "Pinterest Engineering - Data Science",
-    "description": "Visual discovery engine, recommendation systems, and ML at scale. Feature engineering and personalization.",
-    "category": "Recommender Systems",
-    "url": "https://medium.com/pinterest-engineering/tagged/data-science",
-    "type": "Blog",
-    "level": "Medium",
-    "tags": [
-      "Industry Blogs",
-      "Blog"
-    ],
-    "domain": "Machine Learning"
   },
   {
     "name": "Instacart Tech Blog",
@@ -702,45 +624,6 @@
     "domain": "Optimization & Operations Research"
   },
   {
-    "name": "Agentic AI (DeepLearning.AI)",
-    "description": "Andrew Ng on the four agentic design patterns \u2014 reflection, tool use, planning, multi-agent. Start here.",
-    "category": "Fundamentals",
-    "url": "https://www.deeplearning.ai/short-courses/ai-agentic-design-patterns-with-autogen/",
-    "type": "Course",
-    "level": "Medium",
-    "tags": [
-      "Agentic AI",
-      "Course"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
-    "name": "AI Agents in LangGraph (DeepLearning.AI)",
-    "description": "Build agents from scratch with Harrison Chase. State machines, tool calling, and human-in-the-loop.",
-    "category": "LLMs & Agents",
-    "url": "https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/",
-    "type": "Course",
-    "level": "Easy",
-    "tags": [
-      "Agentic AI",
-      "Course"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
-    "name": "Building Effective Agents (Anthropic)",
-    "description": "Design patterns from Claude's creators. The best practitioner guide on when and how to build agents.",
-    "category": "LLMs & Agents",
-    "url": "https://www.anthropic.com/research/building-effective-agents",
-    "type": "Guide",
-    "level": "Medium",
-    "tags": [
-      "Agentic AI",
-      "Guide"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
     "name": "Walmart Global Tech",
     "description": "AI-driven retail tech, supply chain optimization, agentic AI, and developer experience. Posts on LLMs for product catalogs, delivery optimization, and cross-lingual search.",
     "category": "Routing & Logistics",
@@ -949,19 +832,6 @@
     "domain": "Product Sense"
   },
   {
-    "name": "Stanford CS224W: GNN for Fraud",
-    "description": "Three-level tutorial from Stanford graph ML course",
-    "category": "Fundamentals",
-    "url": "https://medium.com/stanford-cs224w/from-one-line-to-fully-customized-a-three-level-introduction-to-graph-ml-fraud-detection-with-89badd2cd2a3",
-    "type": "Blog",
-    "level": "Medium",
-    "tags": [
-      "ML & Data Science",
-      "Blog"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
     "name": "Stripe: ML for Fraud Protection",
     "description": "The definitive intro: features, precision-recall tradeoffs, break-even calculations",
     "category": "Trust & Safety",
@@ -1079,19 +949,6 @@
     "domain": "Domain Applications"
   },
   {
-    "name": "KDD ML in Finance Workshop 2021",
-    "description": "Talks from Georgia Tech, Harvard, Feedzai",
-    "category": "Fundamentals",
-    "url": "https://sites.google.com/view/kdd-mlf-2021/schedule",
-    "type": "Article",
-    "level": "Medium",
-    "tags": [
-      "ML & Data Science",
-      "Article"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
     "name": "IEEE-CIS Fraud: 1st Place Solution (Chris Deotte)",
     "description": "Kaggle Grandmaster, 262 features, RAPIDS GPU",
     "category": "Trust & Safety",
@@ -1118,162 +975,6 @@
     "domain": "Domain Applications"
   },
   {
-    "name": "imbalanced-learn: SMOTE",
-    "description": "The standard for handling 1:10,000 class ratios",
-    "category": "Fundamentals",
-    "url": "https://imbalanced-learn.org/stable/over_sampling.html",
-    "type": "Article",
-    "level": "Medium",
-    "tags": [
-      "ML & Data Science",
-      "Article"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
-    "name": "Federal Reserve SR 11-7",
-    "description": "Model risk management standard all US banks follow",
-    "category": "Fundamentals",
-    "url": "https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm",
-    "type": "Article",
-    "level": "Medium",
-    "tags": [
-      "ML & Data Science",
-      "Article"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
-    "name": "Google ML Recommendation Course",
-    "description": "Free, 4 hours, candidate generation through re-ranking. Gold standard starter",
-    "category": "Recommender Systems",
-    "url": "https://developers.google.com/machine-learning/recommendation",
-    "type": "Course",
-    "level": "Medium",
-    "tags": [
-      "ML & Data Science",
-      "Course"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
-    "name": "Fast.ai Lesson 7: Collaborative Filtering",
-    "description": "Jeremy Howard's accessible deep dive, embeddings explained intuitively",
-    "category": "Deep Learning",
-    "url": "https://course.fast.ai/Lessons/lesson7.html",
-    "type": "Article",
-    "level": "Medium",
-    "tags": [
-      "ML & Data Science",
-      "Article"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
-    "name": "Microsoft Recommenders Notebooks",
-    "description": "Production-quality examples, scikit-learn style",
-    "category": "Fundamentals",
-    "url": "https://github.com/recommenders-team/recommenders/tree/main/examples",
-    "type": "Tool",
-    "level": "Medium",
-    "tags": [
-      "ML & Data Science",
-      "Tool"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
-    "name": "StatQuest: Collaborative Filtering",
-    "description": "Josh Starmer's visual, jargon-free explanation",
-    "category": "Recommender Systems",
-    "url": "https://www.youtube.com/watch?v=Fmtorg_dmM0",
-    "type": "Video",
-    "level": "Medium",
-    "tags": [
-      "ML & Data Science",
-      "Video"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
-    "name": "Ritvikmath: Recommendation Systems",
-    "description": "Clear math intuition without overwhelming notation",
-    "category": "Recommender Systems",
-    "url": "https://www.youtube.com/watch?v=n3RKsY2H-NE",
-    "type": "Video",
-    "level": "Medium",
-    "tags": [
-      "ML & Data Science",
-      "Video"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
-    "name": "Jeremy Howard's Kaggle Deep Dive",
-    "description": "Matrix factorization from scratch",
-    "category": "Recommender Systems",
-    "url": "https://www.kaggle.com/code/jhoward/collaborative-filtering-deep-dive",
-    "type": "Article",
-    "level": "Medium",
-    "tags": [
-      "ML & Data Science",
-      "Article"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
-    "name": "TFRS Quickstart Colab",
-    "description": "Movie recommender in minutes",
-    "category": "Fundamentals",
-    "url": "https://colab.research.google.com/github/tensorflow/recommenders/blob/main/docs/examples/quickstart.ipynb",
-    "type": "Tool",
-    "level": "Medium",
-    "tags": [
-      "ML & Data Science",
-      "Tool"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
-    "name": "Spotify Recommendations Explainer",
-    "description": "Plain-language taste profiles",
-    "category": "Recommender Systems",
-    "url": "https://www.spotify.com/us/safetyandprivacy/understanding-recommendations",
-    "type": "Article",
-    "level": "Medium",
-    "tags": [
-      "ML & Data Science",
-      "Article"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
-    "name": "Netflix: How Recommendations Work",
-    "description": "Official non-technical overview",
-    "category": "Recommender Systems",
-    "url": "https://help.netflix.com/en/node/100639",
-    "type": "Article",
-    "level": "Medium",
-    "tags": [
-      "ML & Data Science",
-      "Article"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
-    "name": "IBM Collaborative Filtering",
-    "description": "Authoritative enterprise perspective",
-    "category": "Recommender Systems",
-    "url": "https://www.ibm.com/think/topics/collaborative-filtering",
-    "type": "Article",
-    "level": "Medium",
-    "tags": [
-      "ML & Data Science",
-      "Article"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
     "name": "Music Tomorrow: Spotify Deep Dive",
     "description": "Audio features, accessible depth",
     "category": "Case Studies",
@@ -1285,84 +986,6 @@
       "Blog"
     ],
     "domain": "Product Sense"
-  },
-  {
-    "name": "Introduction to Information Retrieval (Manning)",
-    "description": "The canonical free textbook, Stanford",
-    "category": "Fundamentals",
-    "url": "https://nlp.stanford.edu/IR-book/information-retrieval-book.html",
-    "type": "Article",
-    "level": "Medium",
-    "tags": [
-      "ML & Data Science",
-      "Article"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
-    "name": "From RankNet to LambdaMART (Burges)",
-    "description": "Definitive paper on learning-to-rank algorithms",
-    "category": "Search & Ranking",
-    "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/MSR-TR-2010-82.pdf",
-    "type": "Article",
-    "level": "Medium",
-    "tags": [
-      "ML & Data Science",
-      "Article"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
-    "name": "Airbnb: Applying Deep Learning to Search",
-    "description": "GBDT\u2192DNN migration, what failed before it worked",
-    "category": "Deep Learning",
-    "url": "https://arxiv.org/abs/1810.09591",
-    "type": "Paper",
-    "level": "Medium",
-    "tags": [
-      "ML & Data Science",
-      "Paper"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
-    "name": "Airbnb: Embedding-Based Retrieval",
-    "description": "Two-tower architecture, largest ML lift in two years",
-    "category": "Deep Learning",
-    "url": "https://medium.com/airbnb-engineering/embedding-based-retrieval-for-airbnb-search-aabebfc85839",
-    "type": "Blog",
-    "level": "Medium",
-    "tags": [
-      "ML & Data Science",
-      "Blog"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
-    "name": "Joachims: Unbiased Learning-to-Rank",
-    "description": "Foundational paper on position bias correction",
-    "category": "Fundamentals",
-    "url": "https://arxiv.org/abs/1608.04468",
-    "type": "Paper",
-    "level": "Medium",
-    "tags": [
-      "ML & Data Science",
-      "Paper"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
-    "name": "Deep Learning at Airbnb Search (QCon)",
-    "description": "Malay Haldar's practitioner walkthrough",
-    "category": "Deep Learning",
-    "url": "https://www.infoq.com/presentations/dl-airbnb/",
-    "type": "Article",
-    "level": "Medium",
-    "tags": [
-      "ML & Data Science",
-      "Article"
-    ],
-    "domain": "Machine Learning"
   },
   {
     "name": "Georgia Tech (Ratliff): 10 Rules for Supply Chain Optimization",
@@ -1623,19 +1246,6 @@
       "Tutorial"
     ],
     "domain": "Optimization & Operations Research"
-  },
-  {
-    "name": "Stanford CS229 Convex Optimization Overview",
-    "description": "Zico Kolter's ML course supplement. Convex sets and functions with geometric intuition \u2014 ideal pre-Boyd prep.",
-    "category": "Fundamentals",
-    "url": "https://see.stanford.edu/materials/aimlcs229/cs229-cvxopt.pdf",
-    "type": "Lecture Notes",
-    "level": "Medium",
-    "tags": [
-      "Optimization",
-      "Lecture Notes"
-    ],
-    "domain": "Machine Learning"
   },
   {
     "name": "Real Python: Linear Programming with Python",
@@ -2140,30 +1750,6 @@
     "domain": "Statistics"
   },
   {
-    "name": "Google ML Crash Course",
-    "description": "130+ interactive exercises, refreshed 2024",
-    "category": "Fundamentals",
-    "url": "https://developers.google.com/machine-learning/crash-course",
-    "type": "Resource",
-    "level": "Medium",
-    "tags": [
-      "ML Fundamentals"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
-    "name": "Hands-On Machine Learning (G\u00e9ron)",
-    "description": "Production-focused, complements ISLR's statistical focus",
-    "category": "Fundamentals",
-    "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/",
-    "type": "Resource",
-    "level": "Medium",
-    "tags": [
-      "ML Fundamentals"
-    ],
-    "domain": "Machine Learning"
-  },
-  {
     "name": "SELECT Star SQL",
     "description": "Interactive book teaching SQL through meaningful analysis",
     "category": "SQL",
@@ -2330,18 +1916,6 @@
       "Operations Research"
     ],
     "domain": "Optimization & Operations Research"
-  },
-  {
-    "name": "LangGraph Documentation",
-    "description": "Official docs \u2014 the industry standard framework",
-    "category": "LLMs & Agents",
-    "url": "https://langchain-ai.github.io/langgraph/",
-    "type": "Resource",
-    "level": "Medium",
-    "tags": [
-      "AI & LLMs"
-    ],
-    "domain": "Machine Learning"
   },
   {
     "name": "Brady Neal's Introduction to Causal Inference",
@@ -2940,5 +2514,356 @@
       "Bandits"
     ],
     "domain": "Experimentation"
+  },
+  {
+    "name": "Google Machine Learning Crash Course",
+    "description": "15-hour interactive course originally for Google engineers, refreshed 2024 with LLMs/AutoML. Covers supervised learning, feature engineering, and production ML with Colab exercises. Teaches exact mental models Google engineers use.",
+    "category": "Fundamentals",
+    "url": "https://developers.google.com/machine-learning/crash-course",
+    "type": "Course",
+    "level": "Easy",
+    "tags": [
+      "Machine Learning",
+      "Course"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "Andrew Ng's Machine Learning Specialization",
+    "description": "Comprehensive theoretical grounding redesigned 2022 with modern Python. Three-course sequence on supervised/unsupervised learning and recommender systems. 4.9/5 from 37,000+ reviews. Free to audit.",
+    "category": "Fundamentals",
+    "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+    "type": "Course",
+    "level": "Medium",
+    "tags": [
+      "Machine Learning",
+      "Course"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "StatQuest with Josh Starmer",
+    "description": "Visual explanations of cross-validation, regularization, gradient boosting, PCA, and bias-variance tradeoff. 675,000+ subscribers. Fills conceptual gaps that course-based learning misses.",
+    "category": "Fundamentals",
+    "url": "https://www.youtube.com/@statquest",
+    "type": "Video Series",
+    "level": "Easy",
+    "tags": [
+      "Machine Learning",
+      "Video"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "Made With ML",
+    "description": "Implementation-first approach: build models from scratch with NumPy before PyTorch. Emphasizes clean, production-quality code with proper software engineering practices. By Goku Mohandas (ex-Apple ML).",
+    "category": "Fundamentals",
+    "url": "https://madewithml.com/courses/foundations/",
+    "type": "Course",
+    "level": "Medium",
+    "tags": [
+      "Machine Learning",
+      "Course"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "Kaggle's Intermediate Machine Learning",
+    "description": "Hands-on XGBoost with graded exercises. Covers missing values, categorical encoding, pipelines, cross-validation, then XGBoost tuning (n_estimators, early_stopping, learning_rate). Free certificate.",
+    "category": "Gradient Boosting",
+    "url": "https://www.kaggle.com/learn/intermediate-machine-learning",
+    "type": "Course",
+    "level": "Medium",
+    "tags": [
+      "Machine Learning",
+      "XGBoost"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "Neptune.ai: When to Choose CatBoost Over XGBoost",
+    "description": "Algorithm selection with benchmark comparisons. Explains CatBoost's ordered boosting (preventing target leakage), symmetric vs. asymmetric trees. Decision framework practitioners need.",
+    "category": "Gradient Boosting",
+    "url": "https://neptune.ai/blog/when-to-choose-catboost-over-xgboost-or-lightgbm",
+    "type": "Guide",
+    "level": "Medium",
+    "tags": [
+      "Machine Learning",
+      "XGBoost"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "MLJAR: Feature Importance with XGBoost",
+    "description": "Definitive guide covering three importance methods: gain, weight, and SHAP. Complete Colab code comparing built-in importance vs. permutation vs. SHAP values. Essential for model interpretation.",
+    "category": "Gradient Boosting",
+    "url": "https://mljar.com/blog/feature-importance-xgboost/",
+    "type": "Tutorial",
+    "level": "Medium",
+    "tags": [
+      "Machine Learning",
+      "SHAP"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "Analytics Vidhya: Hyperparameter Tuning Guide",
+    "description": "Systematic tuning methodology from Kaggle winners. Sequential approach: fix tree params, tune learning rate/iterations, add regularization. Key insight: 10\u00d7 decrease in learning_rate needs ~10\u00d7 increase in n_estimators.",
+    "category": "Gradient Boosting",
+    "url": "https://www.analyticsvidhya.com/blog/2016/02/complete-guide-parameter-tuning-gradient-boosting-gbm-python/",
+    "type": "Guide",
+    "level": "Medium",
+    "tags": [
+      "Machine Learning",
+      "Tuning"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "Fast.ai Practical Deep Learning for Coders",
+    "description": "Top-down approach: deploying models by lesson 2, then progressively revealing mechanics. Part 1: vision, NLP, tabular, collaborative filtering. Part 2: backprop to Stable Diffusion. Alumni at Google Brain, OpenAI, Tesla.",
+    "category": "Deep Learning",
+    "url": "https://course.fast.ai",
+    "type": "Course",
+    "level": "Medium",
+    "tags": [
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "Andrej Karpathy's Neural Networks: Zero to Hero",
+    "description": "Build understanding through implementation. From backprop in 100 lines to building GPT from scratch. By OpenAI founding member and former Tesla AI Director. PyTorch naming conventions for production code.",
+    "category": "Deep Learning",
+    "url": "https://karpathy.ai/zero-to-hero.html",
+    "type": "Video Series",
+    "level": "Medium",
+    "tags": [
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "Andrew Ng's Deep Learning Specialization",
+    "description": "5 courses: neural network foundations, optimization/regularization, ML projects, CNNs, sequence models including transformers. 120,000+ five-star reviews. Free to audit. Balance of intuition, math, and application.",
+    "category": "Deep Learning",
+    "url": "https://www.coursera.org/specializations/deep-learning",
+    "type": "Course",
+    "level": "Medium",
+    "tags": [
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "3Blue1Brown Neural Network Series",
+    "description": "Unparalleled mathematical visualization. Grant Sanderson's custom animations make backpropagation and gradient descent genuinely intuitive. Newer transformer and LLM explainer videos particularly valuable.",
+    "category": "Deep Learning",
+    "url": "https://www.3blue1brown.com/topics/neural-networks",
+    "type": "Video Series",
+    "level": "Easy",
+    "tags": [
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "Jay Alammar's Illustrated Transformer",
+    "description": "Definitive visual guide to attention mechanisms, referenced at Stanford, Harvard, MIT, Princeton, CMU. Step-by-step illustrations of self-attention, multi-head attention, positional encoding. Covers BERT, GPT-2, retrieval transformers.",
+    "category": "Deep Learning",
+    "url": "https://jalammar.github.io/illustrated-transformer/",
+    "type": "Tutorial",
+    "level": "Medium",
+    "tags": [
+      "Machine Learning",
+      "Transformers"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "Google's Recommendation Systems Course",
+    "description": "Industry-standard architecture: candidate retrieval \u2192 scoring \u2192 re-ranking. Built by YouTube RecSys engineers. 4-hour course on collaborative filtering, matrix factorization, embeddings, deep approaches. YouTube case study at 2B+ user scale.",
+    "category": "Recommender Systems",
+    "url": "https://developers.google.com/machine-learning/recommendation",
+    "type": "Course",
+    "level": "Medium",
+    "tags": [
+      "Machine Learning",
+      "RecSys"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "Eugene Yan: System Design for Recommendations",
+    "description": "Production patterns from Alibaba, Facebook, DoorDash, LinkedIn in a 2\u00d72 framework (offline/online \u00d7 retrieval/ranking). By Amazon Principal Applied Scientist. Referenced by NVIDIA as canonical industry reading.",
+    "category": "Recommender Systems",
+    "url": "https://eugeneyan.com/writing/system-design-for-discovery/",
+    "type": "Blog",
+    "level": "Medium",
+    "tags": [
+      "Machine Learning",
+      "RecSys"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "Netflix Technology Blog: Recommendation Systems",
+    "description": "How Netflix Prize pioneers continue innovating. Foundation models with transformers, multi-task learning across surfaces, RecSysOps for production monitoring at 200M+ user scale. Lessons unavailable elsewhere.",
+    "category": "Recommender Systems",
+    "url": "https://netflixtechblog.com/tagged/recommendation-system",
+    "type": "Engineering Blog",
+    "level": "Hard",
+    "tags": [
+      "Machine Learning",
+      "RecSys"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "TensorFlow Recommenders Tutorials",
+    "description": "Executable code for two-tower architecture used at Google, YouTube, Pinterest. MovieLens examples: user/item embeddings, retrieval models, ranking layers, serving with approximate nearest neighbors. Concept to deployment.",
+    "category": "Recommender Systems",
+    "url": "https://www.tensorflow.org/recommenders",
+    "type": "Tutorial",
+    "level": "Medium",
+    "tags": [
+      "Machine Learning",
+      "RecSys"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "Eugene Yan: Position Bias in Search",
+    "description": "Measurement and mitigation techniques: RandPair, FairPairs, propensity scoring. Essential for production ranking systems where position corrupts training data.",
+    "category": "Search & Ranking",
+    "url": "https://eugeneyan.com/writing/position-bias/",
+    "type": "Blog",
+    "level": "Medium",
+    "tags": [
+      "Machine Learning",
+      "Search"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "Airbnb: ML-Powered Search Ranking",
+    "description": "Masterclass in production search evolution. 4-stage journey from baseline to personalized GBDT ranking with A/B test results (+13%, +7.9%, +5.1% booking improvements). Feature engineering for two-sided marketplaces.",
+    "category": "Search & Ranking",
+    "url": "https://medium.com/airbnb-engineering/machine-learning-powered-search-ranking-of-airbnb-experiences-110b4b1a0789",
+    "type": "Engineering Blog",
+    "level": "Medium",
+    "tags": [
+      "Machine Learning",
+      "Search"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "OLX Engineering: From RankNet to LambdaMART",
+    "description": "Clearest learning-to-rank explanation with code. Why ranking differs from classification, pointwise vs. pairwise vs. listwise approaches. Implementing RankNet and LambdaMART with XGBoost rank:pairwise and rank:ndcg.",
+    "category": "Search & Ranking",
+    "url": "https://tech.olx.com/from-ranknet-to-lambdamart-leveraging-xgboost-for-enhanced-ranking-models-cf21f33350fb",
+    "type": "Engineering Blog",
+    "level": "Hard",
+    "tags": [
+      "Machine Learning",
+      "LTR"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "LinkedIn: AI Behind Recruiter Search",
+    "description": "Enterprise-scale search: multi-layer ranking (L1 retrieval \u2192 L2 ranking), evolution from linear to GBDT to neural, GLMix personalization. Among the largest learning-to-rank systems in production.",
+    "category": "Search & Ranking",
+    "url": "https://www.linkedin.com/blog/engineering/recommendations/ai-behind-linkedin-recruiter-search-and-recommendation-systems",
+    "type": "Engineering Blog",
+    "level": "Hard",
+    "tags": [
+      "Machine Learning",
+      "Search"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "OpenAI Cookbook: Semantic Search with Embeddings",
+    "description": "Modern embedding-based retrieval end-to-end. Embedding generation with OpenAI API, Pinecone vector database, cosine similarity search. Foundation for semantic search and RAG systems.",
+    "category": "Search & Ranking",
+    "url": "https://cookbook.openai.com/examples/vector_databases/pinecone/semantic_search",
+    "type": "Tutorial",
+    "level": "Medium",
+    "tags": [
+      "Machine Learning",
+      "Search"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "LangChain Academy: Intro to LangGraph",
+    "description": "Most comprehensive free agent-building course. 6-hour, 55-lesson course on state management, memory, human-in-the-loop, parallelization, deployment. Used in production at Klarna, LinkedIn, Elastic.",
+    "category": "LLMs & Agents",
+    "url": "https://academy.langchain.com/courses/intro-to-langgraph",
+    "type": "Course",
+    "level": "Medium",
+    "tags": [
+      "Machine Learning",
+      "LLMs"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "Anthropic's Prompt Engineering Tutorial",
+    "description": "Definitive prompting from Claude's creators. 26,000+ GitHub stars. Interactive notebooks on direct prompting, chain-of-thought, output formatting, hallucination avoidance, tool use. 'Best LLM vendor documentation' - Simon Willison.",
+    "category": "LLMs & Agents",
+    "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+    "type": "Tutorial",
+    "level": "Easy",
+    "tags": [
+      "Machine Learning",
+      "LLMs"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "Eugene Yan: Patterns for Building LLM-based Systems",
+    "description": "7 production patterns: Evals, RAG, Fine-tuning, Caching, Guardrails, Defensive UX, User Feedback. 66-minute read with evaluation metrics (BLEU, ROUGE, BERTScore), RAG patterns, fine-tuning decisions. From Amazon experience.",
+    "category": "LLMs & Agents",
+    "url": "https://eugeneyan.com/writing/llm-patterns/",
+    "type": "Blog",
+    "level": "Medium",
+    "tags": [
+      "Machine Learning",
+      "LLMs"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "DeepLearning.AI Short Courses",
+    "description": "Rapid skill-building in 1-2 hours. Key free courses: LangChain for LLM Apps (Harrison Chase), Building Systems with ChatGPT, Functions/Tools/Agents. Interactive Jupyter notebooks, zero setup.",
+    "category": "LLMs & Agents",
+    "url": "https://learn.deeplearning.ai",
+    "type": "Course",
+    "level": "Easy",
+    "tags": [
+      "Machine Learning",
+      "LLMs"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "FreeCodeCamp: RAG from Scratch",
+    "description": "Deep RAG understanding by Lance Martin (LangChain engineer, Stanford PhD). 2.5-hour video on advanced techniques: Multi-Query, RAG Fusion, Decomposition, Step Back, HyDE, Corrective RAG, Self-RAG patterns.",
+    "category": "LLMs & Agents",
+    "url": "https://www.freecodecamp.org/news/mastering-rag-from-scratch/",
+    "type": "Video Tutorial",
+    "level": "Medium",
+    "tags": [
+      "Machine Learning",
+      "RAG"
+    ],
+    "domain": "Machine Learning"
   }
 ]
