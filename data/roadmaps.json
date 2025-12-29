@@ -500,23 +500,13 @@
     "packages": [
       {
         "name": "langgraph",
-        "why": "Graph-based agent workflows \u2014 production standard",
+        "why": "Graph-based agent workflows — production standard",
         "url": "https://langchain-ai.github.io/langgraph/"
       },
       {
         "name": "langchain",
-        "why": "LLM framework \u2014 chains, tools, memory",
+        "why": "LLM framework — chains, tools, memory",
         "url": "https://python.langchain.com/"
-      },
-      {
-        "name": "crewai",
-        "why": "Role-based multi-agent teams \u2014 intuitive orchestration",
-        "url": "https://docs.crewai.com/"
-      },
-      {
-        "name": "openai-agents",
-        "why": "OpenAI's lightweight SDK — fast prototyping",
-        "url": "https://github.com/openai/openai-agents-python"
       }
     ],
     "order": 13
