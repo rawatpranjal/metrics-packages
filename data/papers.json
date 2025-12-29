@@ -9185,7 +9185,7 @@
         },
         {
           "id": "fraud-detection-anomaly",
-          "name": "Fraud Detection & Anomaly Detection",
+          "name": "Fraud, Credit and Claim Risk & Anomaly Detection",
           "application": "Identify fraudulent transactions and anomalous patterns in credit applications",
           "papers": [
             {
@@ -9196,19 +9196,19 @@
               "url": "https://arxiv.org/abs/1106.1813",
               "tags": [
                 "Credit & Lending",
-                "Fraud Detection & Anomaly Detection"
+                "Fraud, Credit and Claim Risk & Anomaly Detection"
               ],
               "citations": 24500
             },
             {
-              "title": "Statistical Fraud Detection: A Review",
+              "title": "Statistical Fraud, Credit and Claim Risk: A Review",
               "authors": "Richard J. Bolton, David J. Hand",
               "year": 2002,
               "description": "Authoritative taxonomy of fraud detection methods; still cited for conceptual foundations.",
               "url": "https://projecteuclid.org/journals/statistical-science/volume-17/issue-3/Statistical-Fraud-Detection--A-Review/10.1214/ss/1042727940.full",
               "tags": [
                 "Credit & Lending",
-                "Fraud Detection & Anomaly Detection"
+                "Fraud, Credit and Claim Risk & Anomaly Detection"
               ],
               "citations": 1856
             },
@@ -9220,31 +9220,31 @@
               "url": "https://dl.acm.org/doi/10.1145/1541880.1541882",
               "tags": [
                 "Credit & Lending",
-                "Fraud Detection & Anomaly Detection"
+                "Fraud, Credit and Claim Risk & Anomaly Detection"
               ],
               "citations": 10750
             },
             {
-              "title": "Credit Card Fraud Detection: A Realistic Modeling and a Novel Learning Strategy",
+              "title": "Credit Card Fraud, Credit and Claim Risk: A Realistic Modeling and a Novel Learning Strategy",
               "authors": "Andrea Dal Pozzolo, Giacomo Boracchi, Olivier Caelen, Cesare Alippi, Gianluca Bontempi",
               "year": 2018,
               "description": "Addresses realistic fraud detection challenges: class imbalance, concept drift, and delayed feedback.",
               "url": "https://ieeexplore.ieee.org/document/8038008",
               "tags": [
                 "Credit & Lending",
-                "Fraud Detection & Anomaly Detection"
+                "Fraud, Credit and Claim Risk & Anomaly Detection"
               ],
               "citations": 789
             },
             {
-              "title": "Feature Engineering Strategies for Credit Card Fraud Detection",
+              "title": "Feature Engineering Strategies for Credit Card Fraud, Credit and Claim Risk",
               "authors": "Alejandro Correa Bahnsen, Djamila Aouada, Aleksandar Stojanovic, Bj\u00f6rn Ottersten",
               "year": 2016,
               "description": "Transaction aggregation features improve fraud detection by 40%; widely adopted in industry.",
               "url": "https://www.sciencedirect.com/science/article/abs/pii/S0957417415008276",
               "tags": [
                 "Credit & Lending",
-                "Fraud Detection & Anomaly Detection"
+                "Fraud, Credit and Claim Risk & Anomaly Detection"
               ],
               "citations": 456
             },
@@ -9256,19 +9256,19 @@
               "url": "https://link.springer.com/article/10.1007/s10618-014-0365-y",
               "tags": [
                 "Credit & Lending",
-                "Fraud Detection & Anomaly Detection"
+                "Fraud, Credit and Claim Risk & Anomaly Detection"
               ],
               "citations": 1523
             },
             {
-              "title": "APATE: A Novel Approach for Automated Credit Card Transaction Fraud Detection Using Network-Based Extensions",
+              "title": "APATE: A Novel Approach for Automated Credit Card Transaction Fraud, Credit and Claim Risk Using Network-Based Extensions",
               "authors": "V\u00e9ronique Van Vlasselaer, Tina Eliassi-Rad, Leman Akoglu, Monique Snoeck, Bart Baesens",
               "year": 2015,
               "description": "Network propagation improves fraud detection by leveraging transaction graph structure.",
               "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167923615001645",
               "tags": [
                 "Credit & Lending",
-                "Fraud Detection & Anomaly Detection"
+                "Fraud, Credit and Claim Risk & Anomaly Detection"
               ],
               "citations": 267
             }
@@ -9493,7 +9493,7 @@
               "citations": 67
             },
             {
-              "title": "Streaming Active Learning Strategies for Real-Life Credit Card Fraud Detection",
+              "title": "Streaming Active Learning Strategies for Real-Life Credit Card Fraud, Credit and Claim Risk",
               "authors": "Fabrizio Carcillo, Yann-A\u00ebl Le Borgne, Olivier Caelen, Gianluca Bontempi",
               "year": 2018,
               "description": "Active learning reduces labeling costs for streaming fraud detection systems.",
@@ -9515,9 +9515,9 @@
       "image_url": "/images/topics/security.webp",
       "subtopics": [
         {
-          "id": "fraud-detection",
-          "name": "Fraud Detection",
-          "application": "Catch fraudulent transactions and behaviors",
+          "id": "fraud-credit-claim",
+          "name": "Fraud, Credit and Claim Risk",
+          "application": "Detect fraudulent transactions, assess credit risk, and identify insurance claim fraud",
           "papers": [
             {
               "title": "Isolation Forest",
@@ -9527,7 +9527,7 @@
               "url": "https://ieeexplore.ieee.org/document/4781136",
               "tags": [
                 "Trust & Safety",
-                "Fraud Detection"
+                "Fraud, Credit and Claim Risk"
               ],
               "citations": 4871
             },
@@ -9539,7 +9539,7 @@
               "url": "https://dl.acm.org/doi/10.1145/335191.335388",
               "tags": [
                 "Trust & Safety",
-                "Fraud Detection"
+                "Fraud, Credit and Claim Risk"
               ],
               "citations": 5035
             },
@@ -9551,7 +9551,7 @@
               "url": "https://dl.acm.org/doi/10.1145/1541880.1541882",
               "tags": [
                 "Trust & Safety",
-                "Fraud Detection"
+                "Fraud, Credit and Claim Risk"
               ],
               "citations": 10461
             },
@@ -9563,7 +9563,7 @@
               "url": "https://dl.acm.org/doi/10.1145/2133360.2133363",
               "tags": [
                 "Trust & Safety",
-                "Fraud Detection"
+                "Fraud, Credit and Claim Risk"
               ],
               "citations": 1843
             },
@@ -9575,7 +9575,7 @@
               "url": "https://direct.mit.edu/neco/article/13/7/1443/6579",
               "tags": [
                 "Trust & Safety",
-                "Fraud Detection"
+                "Fraud, Credit and Claim Risk"
               ],
               "citations": 5890
             },
@@ -9587,33 +9587,129 @@
               "url": "https://dl.acm.org/doi/10.1145/3439950",
               "tags": [
                 "Trust & Safety",
-                "Fraud Detection"
+                "Fraud, Credit and Claim Risk"
               ],
               "citations": 1245
             },
             {
-              "title": "A Survey of Credit Card Fraud Detection Techniques: Data and Technique Oriented Perspective",
+              "title": "A Survey of Credit Card Fraud, Credit and Claim Risk Techniques: Data and Technique Oriented Perspective",
               "authors": "Linda Delamaire, Hussein Abdou, John Pointon",
               "year": 2009,
               "description": "Survey comparing neural networks, genetic algorithms, and expert systems for credit card fraud detection.",
               "url": "https://www.sciencedirect.com/science/article/abs/pii/S1566253507000863",
               "tags": [
                 "Trust & Safety",
-                "Fraud Detection"
+                "Fraud, Credit and Claim Risk"
               ],
               "citations": 987
             },
             {
-              "title": "Credit Card Fraud Detection: A Realistic Modeling and a Novel Learning Strategy",
+              "title": "Credit Card Fraud, Credit and Claim Risk: A Realistic Modeling and a Novel Learning Strategy",
               "authors": "Andrea Dal Pozzolo, Giacomo Boracchi, Olivier Caelen, Cesare Alippi, Gianluca Bontempi",
               "year": 2018,
               "description": "Addresses realistic fraud challenges: extreme class imbalance, concept drift, and delayed feedback loops.",
               "url": "https://ieeexplore.ieee.org/document/8038008",
               "tags": [
                 "Trust & Safety",
-                "Fraud Detection"
+                "Fraud, Credit and Claim Risk"
               ],
               "citations": 789
+            },
+            {
+              "title": "Fraud, Credit and Claim Risk in Healthcare Claims Using Machine Learning: A Systematic Review",
+              "authors": "Multiple authors",
+              "year": 2025,
+              "description": "Comprehensive review analyzing ML techniques for health insurance fraud over two decades.",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0933365724003038",
+              "tags": [
+                "Trust & Safety",
+                "Fraud, Credit and Claim Risk"
+              ],
+              "citations": 12
+            },
+            {
+              "title": "Insurance Fraud, Credit and Claim Risk: A Statistically Validated Network Approach",
+              "authors": "Michele Tumminello, Andrea Consiglio, Pietro Vassallo, Riccardo Cesari, Fabio Farabullini",
+              "year": 2023,
+              "description": "Network-based approach using statistically validated networks to detect coordinated fraud rings.",
+              "url": "https://onlinelibrary.wiley.com/doi/10.1111/jori.12421",
+              "tags": [
+                "Trust & Safety",
+                "Fraud, Credit and Claim Risk"
+              ],
+              "citations": 14
+            },
+            {
+              "title": "Detecting Insurance Fraud Using Supervised and Unsupervised Machine Learning",
+              "authors": "Jens Debener, Volker Heinke, Johannes Kriebel",
+              "year": 2023,
+              "description": "Field experiment showing supervised and unsupervised methods are complements, not substitutes.",
+              "url": "https://onlinelibrary.wiley.com/doi/10.1111/jori.12427",
+              "tags": [
+                "Trust & Safety",
+                "Fraud, Credit and Claim Risk"
+              ],
+              "citations": 47
+            },
+            {
+              "title": "OddBall: Spotting Anomalies in Weighted Graphs",
+              "authors": "Leman Akoglu, Mary McGlohon, Christos Faloutsos",
+              "year": 2010,
+              "description": "Detects anomalies in weighted graphs using egonet features; foundational for fraud ring detection.",
+              "url": "https://www.cs.cmu.edu/~lakoglu/papers/pakdd10.pdf",
+              "tags": [
+                "Trust & Safety",
+                "Fraud, Credit and Claim Risk"
+              ],
+              "citations": 456
+            },
+            {
+              "title": "FRAUDAR: Bounding Graph Fraud in the Face of Camouflage",
+              "authors": "Bryan Hooi, Hyun Ah Song, Alex Beutel, Neil Shah, Kijung Shin, Christos Faloutsos",
+              "year": 2016,
+              "description": "Detects dense subgraphs even when fraudsters add random edges to camouflage; handles lockstep behavior.",
+              "url": "https://dl.acm.org/doi/10.1145/2939672.2939747",
+              "tags": [
+                "Trust & Safety",
+                "Fraud, Credit and Claim Risk"
+              ],
+              "citations": 378
+            },
+            {
+              "title": "Heterogeneous Graph Neural Networks for Malicious Account Detection",
+              "authors": "Ziqi Liu, Chaochao Chen, Xinxing Yang, Jun Zhou, Xiaolong Li, Le Song",
+              "year": 2018,
+              "description": "GEM model using heterogeneous graphs (users, devices, transactions) for Alipay fraud detection.",
+              "url": "https://dl.acm.org/doi/10.1145/3269206.3272010",
+              "tags": [
+                "Trust & Safety",
+                "Fraud, Credit and Claim Risk"
+              ],
+              "citations": 267
+            },
+            {
+              "title": "NetWalk: A Flexible Deep Embedding Approach for Anomaly Detection in Dynamic Networks",
+              "authors": "Wenchao Yu, Wei Cheng, Charu C. Aggarwal, Kai Zhang, Haifeng Chen, Wei Wang",
+              "year": 2018,
+              "description": "Dynamic network embeddings for streaming anomaly detection; updates in O(1) per edge.",
+              "url": "https://dl.acm.org/doi/10.1145/3219819.3220024",
+              "tags": [
+                "Trust & Safety",
+                "Fraud, Credit and Claim Risk"
+              ],
+              "citations": 345
+            },
+            {
+              "title": "BotRGCN: Twitter Bot Detection with Relational Graph Convolutional Networks",
+              "authors": "Shangbin Feng, Herun Wan, Ningnan Wang, Minnan Luo",
+              "year": 2021,
+              "description": "Relational GCN exploiting follower/friend graphs achieves SOTA on bot detection benchmarks.",
+              "url": "https://arxiv.org/abs/2106.13092",
+              "tags": [
+                "Trust & Safety",
+                "Fraud, Credit and Claim Risk"
+              ],
+              "citations": 156
             }
           ]
         },
@@ -9788,49 +9884,6 @@
           ]
         },
         {
-          "id": "claims-insurance",
-          "name": "Claims & Insurance Fraud",
-          "application": "Detect fraudulent insurance claims",
-          "papers": [
-            {
-              "title": "Fraud Detection in Healthcare Claims Using Machine Learning: A Systematic Review",
-              "authors": "Multiple authors",
-              "year": 2025,
-              "description": "Comprehensive review analyzing ML techniques for health insurance fraud over two decades.",
-              "url": "https://www.sciencedirect.com/science/article/pii/S0933365724003038",
-              "tags": [
-                "Trust & Safety",
-                "Claims & Insurance Fraud"
-              ],
-              "citations": 12
-            },
-            {
-              "title": "Insurance Fraud Detection: A Statistically Validated Network Approach",
-              "authors": "Michele Tumminello, Andrea Consiglio, Pietro Vassallo, Riccardo Cesari, Fabio Farabullini",
-              "year": 2023,
-              "description": "Network-based approach using statistically validated networks to detect coordinated fraud rings.",
-              "url": "https://onlinelibrary.wiley.com/doi/10.1111/jori.12421",
-              "tags": [
-                "Trust & Safety",
-                "Claims & Insurance Fraud"
-              ],
-              "citations": 14
-            },
-            {
-              "title": "Detecting Insurance Fraud Using Supervised and Unsupervised Machine Learning",
-              "authors": "Jens Debener, Volker Heinke, Johannes Kriebel",
-              "year": 2023,
-              "description": "Field experiment showing supervised and unsupervised methods are complements, not substitutes.",
-              "url": "https://onlinelibrary.wiley.com/doi/10.1111/jori.12427",
-              "tags": [
-                "Trust & Safety",
-                "Claims & Insurance Fraud"
-              ],
-              "citations": 47
-            }
-          ]
-        },
-        {
           "id": "account-security",
           "name": "Account Security & Identity",
           "application": "Verify identities and secure accounts",
@@ -9893,73 +9946,6 @@
                 "Account Security & Identity"
               ],
               "citations": 234
-            }
-          ]
-        },
-        {
-          "id": "graph-fraud-detection",
-          "name": "Graph-based Fraud Detection",
-          "application": "Detect fraud rings and coordinated manipulation using network structure",
-          "papers": [
-            {
-              "title": "OddBall: Spotting Anomalies in Weighted Graphs",
-              "authors": "Leman Akoglu, Mary McGlohon, Christos Faloutsos",
-              "year": 2010,
-              "description": "Detects anomalies in weighted graphs using egonet features; foundational for fraud ring detection.",
-              "url": "https://www.cs.cmu.edu/~lakoglu/papers/pakdd10.pdf",
-              "tags": [
-                "Trust & Safety",
-                "Graph-based Fraud Detection"
-              ],
-              "citations": 456
-            },
-            {
-              "title": "FRAUDAR: Bounding Graph Fraud in the Face of Camouflage",
-              "authors": "Bryan Hooi, Hyun Ah Song, Alex Beutel, Neil Shah, Kijung Shin, Christos Faloutsos",
-              "year": 2016,
-              "description": "Detects dense subgraphs even when fraudsters add random edges to camouflage; handles lockstep behavior.",
-              "url": "https://dl.acm.org/doi/10.1145/2939672.2939747",
-              "tags": [
-                "Trust & Safety",
-                "Graph-based Fraud Detection"
-              ],
-              "citations": 378
-            },
-            {
-              "title": "Heterogeneous Graph Neural Networks for Malicious Account Detection",
-              "authors": "Ziqi Liu, Chaochao Chen, Xinxing Yang, Jun Zhou, Xiaolong Li, Le Song",
-              "year": 2018,
-              "description": "GEM model using heterogeneous graphs (users, devices, transactions) for Alipay fraud detection.",
-              "url": "https://dl.acm.org/doi/10.1145/3269206.3272010",
-              "tags": [
-                "Trust & Safety",
-                "Graph-based Fraud Detection"
-              ],
-              "citations": 267
-            },
-            {
-              "title": "NetWalk: A Flexible Deep Embedding Approach for Anomaly Detection in Dynamic Networks",
-              "authors": "Wenchao Yu, Wei Cheng, Charu C. Aggarwal, Kai Zhang, Haifeng Chen, Wei Wang",
-              "year": 2018,
-              "description": "Dynamic network embeddings for streaming anomaly detection; updates in O(1) per edge.",
-              "url": "https://dl.acm.org/doi/10.1145/3219819.3220024",
-              "tags": [
-                "Trust & Safety",
-                "Graph-based Fraud Detection"
-              ],
-              "citations": 345
-            },
-            {
-              "title": "BotRGCN: Twitter Bot Detection with Relational Graph Convolutional Networks",
-              "authors": "Shangbin Feng, Herun Wan, Ningnan Wang, Minnan Luo",
-              "year": 2021,
-              "description": "Relational GCN exploiting follower/friend graphs achieves SOTA on bot detection benchmarks.",
-              "url": "https://arxiv.org/abs/2106.13092",
-              "tags": [
-                "Trust & Safety",
-                "Graph-based Fraud Detection"
-              ],
-              "citations": 156
             }
           ]
         },
