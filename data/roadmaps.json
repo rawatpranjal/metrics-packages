@@ -143,23 +143,13 @@
     "packages": [
       {
         "name": "DoWhy",
-        "why": "End-to-end causal inference with DAGs",
+        "why": "Beginner-friendly 4-step framework",
         "url": "https://www.pywhy.org/dowhy/"
       },
       {
         "name": "EconML",
-        "why": "Heterogeneous treatment effects from Microsoft",
+        "why": "Works with DoWhy for estimation",
         "url": "https://econml.azurewebsites.net/"
-      },
-      {
-        "name": "CausalML",
-        "why": "Uber's toolkit for uplift modeling",
-        "url": "https://causalml.readthedocs.io/"
-      },
-      {
-        "name": "DoubleML",
-        "why": "Double/debiased machine learning",
-        "url": "https://docs.doubleml.org/"
       }
     ],
     "order": 4
