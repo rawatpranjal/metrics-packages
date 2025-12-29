@@ -8277,6 +8277,42 @@
                 "Reward Inference from Behavior"
               ],
               "citations": 321
+            },
+            {
+              "title": "Bayesian Inverse Reinforcement Learning",
+              "authors": "Deepak Ramachandran, Eyal Amir",
+              "year": 2007,
+              "description": "First Bayesian framework for IRL; provides posterior distributions over rewards capturing uncertainty.",
+              "url": "https://www.ijcai.org/Proceedings/07/Papers/416.pdf",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Reward Inference from Behavior"
+              ],
+              "citations": 1156
+            },
+            {
+              "title": "Guided Cost Learning: Deep Inverse Optimal Control via Policy Optimization",
+              "authors": "Chelsea Finn, Sergey Levine, Pieter Abbeel",
+              "year": 2016,
+              "description": "First deep IRL method learning arbitrary neural network cost functions; enabled learning from raw images.",
+              "url": "https://proceedings.mlr.press/v48/finn16.html",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Reward Inference from Behavior"
+              ],
+              "citations": 1089
+            },
+            {
+              "title": "Inverse Reward Design",
+              "authors": "Dylan Hadfield-Menell, Smitha Milli, Pieter Abbeel, Stuart Russell, Anca Dragan",
+              "year": 2017,
+              "description": "Treats designed rewards as noisy observations of true objectives; addresses reward hacking and negative side effects.",
+              "url": "https://papers.nips.cc/paper/2017/hash/32fdab6559cdfa4f167f8c31b9199643-Abstract.html",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Reward Inference from Behavior"
+              ],
+              "citations": 467
             }
           ]
         },
@@ -8320,6 +8356,42 @@
                 "Imitation Learning"
               ],
               "citations": 11
+            },
+            {
+              "title": "Learning from Demonstration",
+              "authors": "Stefan Schaal",
+              "year": 1997,
+              "description": "Foundational work showing demonstrations accelerate RL; established paradigm for robot skill acquisition.",
+              "url": "https://papers.nips.cc/paper/1996/hash/68d13cf26c4b4f4f932e3eff990093ba-Abstract.html",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Imitation Learning"
+              ],
+              "citations": 1823
+            },
+            {
+              "title": "Behavioral Cloning from Observation",
+              "authors": "Faraz Torabi, Garrett Warnell, Peter Stone",
+              "year": 2018,
+              "description": "Learning from state-only observations without action labels; enables learning from video demonstrations.",
+              "url": "https://www.ijcai.org/proceedings/2018/687",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Imitation Learning"
+              ],
+              "citations": 456
+            },
+            {
+              "title": "End to End Learning for Self-Driving Cars",
+              "authors": "Mariusz Bojarski, Davide Del Testa, Daniel Dworakowski et al. (NVIDIA)",
+              "year": 2016,
+              "description": "Industry-defining paper: CNNs mapping pixels to steering; achieved 98% autonomous driving in road tests.",
+              "url": "https://arxiv.org/abs/1604.07316",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Imitation Learning"
+              ],
+              "citations": 5678
             }
           ]
         },
@@ -8375,6 +8447,42 @@
                 "Revealed Preference at Scale"
               ],
               "citations": 0
+            },
+            {
+              "title": "Conditional Logit Analysis of Qualitative Choice Behavior",
+              "authors": "Daniel McFadden",
+              "year": 1974,
+              "description": "Nobel Prize-winning random utility framework; foundation of discrete choice models used throughout tech.",
+              "url": "https://eml.berkeley.edu/reprints/mcfadden/zarembka.pdf",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Revealed Preference at Scale"
+              ],
+              "citations": 18756
+            },
+            {
+              "title": "Stochastic Choice and Revealed Perturbed Utility",
+              "authors": "Drew Fudenberg, Ryota Iijima, Tomasz Strzalecki",
+              "year": 2015,
+              "description": "Axiomatic foundations for perturbed utility models; generalizes logit choice to capture bounded rationality.",
+              "url": "https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA12660",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Revealed Preference at Scale"
+              ],
+              "citations": 289
+            },
+            {
+              "title": "Dynamic Random Utility",
+              "authors": "Mira Frick, Ryota Iijima, Tomasz Strzalecki",
+              "year": 2019,
+              "description": "Extends random utility to sequential choice with preference correlation; applicable to session-based user modeling.",
+              "url": "https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA15456",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Revealed Preference at Scale"
+              ],
+              "citations": 156
             }
           ]
         },
@@ -8427,6 +8535,274 @@
                 "Inverse RL & Preference Learning",
                 "Human Feedback & RLHF"
               ]
+            },
+            {
+              "title": "Proximal Policy Optimization Algorithms",
+              "authors": "John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov",
+              "year": 2017,
+              "description": "Stable policy gradient algorithm with clipped objectives; THE optimizer underlying RLHF in all major LLMs.",
+              "url": "https://arxiv.org/abs/1707.06347",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Human Feedback & RLHF"
+              ],
+              "citations": 15678
+            },
+            {
+              "title": "Learning to Summarize from Human Feedback",
+              "authors": "Nisan Stiennon, Long Ouyang, Jeff Wu et al. (OpenAI)",
+              "year": 2020,
+              "description": "Demonstrated reward model + PPO pipeline for text; direct precursor to InstructGPT methodology.",
+              "url": "https://arxiv.org/abs/2009.01325",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Human Feedback & RLHF"
+              ],
+              "citations": 1456
+            },
+            {
+              "title": "A General Theoretical Paradigm to Understand Learning from Human Preferences",
+              "authors": "Mohammad Gheshlaghi Azar, Mark Rowland, Bilal Piot et al. (DeepMind)",
+              "year": 2024,
+              "description": "Unifies RLHF/DPO theoretically; Identity Preference Optimization fixes DPO overfitting issues.",
+              "url": "https://proceedings.mlr.press/v238/azar24a.html",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Human Feedback & RLHF"
+              ],
+              "citations": 234
+            },
+            {
+              "title": "KTO: Model Alignment as Prospect Theoretic Optimization",
+              "authors": "Kawin Ethayarajh, Winnie Xu, Niklas Muennighoff, Dan Jurafsky, Douwe Kiela",
+              "year": 2024,
+              "description": "Aligns LLMs using binary good/bad signal via Kahneman-Tversky prospect theory; no preference pairs needed.",
+              "url": "https://arxiv.org/abs/2402.01306",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Human Feedback & RLHF"
+              ],
+              "citations": 145
+            }
+          ]
+        },
+        {
+          "id": "preference-elicitation",
+          "name": "Preference Elicitation & Active Learning",
+          "application": "Efficiently collect preference data from users",
+          "papers": [
+            {
+              "title": "Interactively Optimizing Information Retrieval Systems as a Dueling Bandits Problem",
+              "authors": "Yisong Yue, Thorsten Joachims",
+              "year": 2009,
+              "description": "Introduced dueling bandits for pairwise preference learning; enables online learning without absolute labels.",
+              "url": "https://proceedings.mlr.press/v5/yue09a.html",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Preference Elicitation & Active Learning"
+              ],
+              "citations": 567
+            },
+            {
+              "title": "The K-Armed Dueling Bandits Problem",
+              "authors": "Yisong Yue, Josef Broder, Robert Kleinberg, Thorsten Joachims",
+              "year": 2012,
+              "description": "Extended dueling bandits to K arms with regret bounds; Interleaved Filter algorithm for search evaluation.",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0022000012000256",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Preference Elicitation & Active Learning"
+              ],
+              "citations": 389
+            },
+            {
+              "title": "Preference-based Online Learning with Dueling Bandits: A Survey",
+              "authors": "Viktor Bengs, Róbert Busa-Fekete, Adil El Mesaoudi-Paul, Eyke Hüllermeier",
+              "year": 2021,
+              "description": "Comprehensive 108-page survey of dueling bandits variants, algorithms, and applications.",
+              "url": "https://jmlr.org/papers/v22/18-546.html",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Preference Elicitation & Active Learning"
+              ],
+              "citations": 178
+            },
+            {
+              "title": "Stagewise Safe Bayesian Optimization with Gaussian Processes",
+              "authors": "Yanan Sui, Vincent Zhuang, Joel Burdick, Yisong Yue",
+              "year": 2018,
+              "description": "Safe preference-based optimization separating exploration from exploitation; applicable to clinical/robotics.",
+              "url": "https://proceedings.mlr.press/v80/sui18a.html",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Preference Elicitation & Active Learning"
+              ],
+              "citations": 234
+            },
+            {
+              "title": "Counterfactual Risk Minimization: Learning from Logged Bandit Feedback",
+              "authors": "Adith Swaminathan, Thorsten Joachims",
+              "year": 2015,
+              "description": "Propensity-weighted learning from logged actions; foundation for offline policy learning in recommendations.",
+              "url": "https://www.jmlr.org/papers/v16/swaminathan15a.html",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Preference Elicitation & Active Learning"
+              ],
+              "citations": 678
+            }
+          ]
+        },
+        {
+          "id": "choice-modeling",
+          "name": "Choice Modeling from Behavioral Data",
+          "application": "Learn preferences from click logs and digital traces",
+          "papers": [
+            {
+              "title": "An Experimental Comparison of Click Position-Bias Models",
+              "authors": "Nick Craswell, Onno Zoeter, Michael Taylor, Bill Ramsey",
+              "year": 2008,
+              "description": "Seminal click modeling paper; introduced cascade and position-based models; foundation for bias correction.",
+              "url": "https://dl.acm.org/doi/10.1145/1341531.1341545",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Choice Modeling from Behavioral Data"
+              ],
+              "citations": 1234
+            },
+            {
+              "title": "A Dynamic Bayesian Network Click Model for Web Search Ranking",
+              "authors": "Olivier Chapelle, Ya Zhang",
+              "year": 2009,
+              "description": "DBN click model capturing examination chains and satisfaction; enables unbiased relevance estimation.",
+              "url": "https://dl.acm.org/doi/10.1145/1526709.1526711",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Choice Modeling from Behavioral Data"
+              ],
+              "citations": 987
+            },
+            {
+              "title": "Unbiased Learning-to-Rank with Biased Feedback",
+              "authors": "Thorsten Joachims, Adith Swaminathan, Tobias Schnabel",
+              "year": 2017,
+              "description": "Counterfactual framework for unbiased LTR; Propensity-Weighted Ranking SVM; highly influential for debiasing.",
+              "url": "https://dl.acm.org/doi/10.1145/3018661.3018699",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Choice Modeling from Behavioral Data"
+              ],
+              "citations": 756
+            },
+            {
+              "title": "Click Models for Web Search",
+              "authors": "Aleksandr Chuklin, Ilya Markov, Maarten de Rijke",
+              "year": 2015,
+              "description": "Comprehensive survey of click models, estimation methods, and applications to search evaluation.",
+              "url": "https://www.morganclaypool.com/doi/abs/10.2200/S00654ED1V01Y201507ICR043",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Choice Modeling from Behavioral Data"
+              ],
+              "citations": 456
+            }
+          ]
+        },
+        {
+          "id": "value-alignment-safety",
+          "name": "Value Alignment & AI Safety",
+          "application": "Ensure AI systems pursue intended objectives",
+          "papers": [
+            {
+              "title": "Concrete Problems in AI Safety",
+              "authors": "Dario Amodei, Chris Olah, Jacob Steinhardt, Paul Christiano, John Schulman, Dan Mané",
+              "year": 2016,
+              "description": "Taxonomy of five safety problems: side effects, reward hacking, scalable oversight, safe exploration, distributional shift.",
+              "url": "https://arxiv.org/abs/1606.06565",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Value Alignment & AI Safety"
+              ],
+              "citations": 2345
+            },
+            {
+              "title": "Goal Misgeneralization in Deep Reinforcement Learning",
+              "authors": "Rohin Shah, Vikrant Varma, Ramana Kumar, Mary Phuong, Victoria Krakovna et al. (DeepMind)",
+              "year": 2022,
+              "description": "Demonstrates agents can pursue wrong goals even with correct specifications; distinct from reward hacking.",
+              "url": "https://arxiv.org/abs/2105.14111",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Value Alignment & AI Safety"
+              ],
+              "citations": 234
+            },
+            {
+              "title": "Scaling Laws for Reward Model Overoptimization",
+              "authors": "Leo Gao, John Schulman, Jacob Hilton",
+              "year": 2023,
+              "description": "First systematic study of Goodhart's Law in RLHF; provides predictable scaling for safe optimization bounds.",
+              "url": "https://proceedings.mlr.press/v202/gao23h.html",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Value Alignment & AI Safety"
+              ],
+              "citations": 189
+            },
+            {
+              "title": "Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision",
+              "authors": "Collin Burns, Haotian Ye, Dan Klein, Jacob Steinhardt (OpenAI)",
+              "year": 2023,
+              "description": "Shows GPT-2 can supervise GPT-4; core empirical work on scalable oversight for superhuman AI alignment.",
+              "url": "https://arxiv.org/abs/2312.09390",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Value Alignment & AI Safety"
+              ],
+              "citations": 145
+            }
+          ]
+        },
+        {
+          "id": "personalization-user-modeling",
+          "name": "Personalization & User Modeling",
+          "application": "Learn and represent individual user preferences",
+          "papers": [
+            {
+              "title": "Matrix Factorization Techniques for Recommender Systems",
+              "authors": "Yehuda Koren, Robert Bell, Chris Volinsky",
+              "year": 2009,
+              "description": "Netflix Prize winners' tutorial; latent factor models, implicit feedback, temporal dynamics; 14,000+ citations.",
+              "url": "https://ieeexplore.ieee.org/document/5197422",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Personalization & User Modeling"
+              ],
+              "citations": 14567
+            },
+            {
+              "title": "Collaborative Filtering for Implicit Feedback Datasets",
+              "authors": "Yifan Hu, Yehuda Koren, Chris Volinsky",
+              "year": 2008,
+              "description": "Weighted matrix factorization for clicks/views; confidence-weighted preference learning; industry standard.",
+              "url": "https://ieeexplore.ieee.org/document/4781121",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Personalization & User Modeling"
+              ],
+              "citations": 5678
+            },
+            {
+              "title": "BPR: Bayesian Personalized Ranking from Implicit Feedback",
+              "authors": "Steffen Rendle, Christoph Freudenthaler, Zeno Gantner, Lars Schmidt-Thieme",
+              "year": 2009,
+              "description": "Pairwise ranking optimization from Bayesian principles; first method optimizing ranking directly for implicit data.",
+              "url": "https://arxiv.org/abs/1205.2618",
+              "tags": [
+                "Inverse RL & Preference Learning",
+                "Personalization & User Modeling"
+              ],
+              "citations": 3456
             }
           ]
         }
