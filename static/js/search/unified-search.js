@@ -17,7 +17,7 @@
   var CONFIG = {
     debounceMs: 150,
     maxResultsPerType: 999,  // Effectively unlimited per category
-    maxTotalResults: 100,
+    maxTotalResults: 200,
     recentSearchesKey: 'global-recent-searches',
     maxRecentSearches: 5,
     suggestions: ['causal inference', 'experimentation', 'pricing', 'machine learning', 'A/B testing'],
@@ -724,7 +724,7 @@
         html += 'target="_blank" rel="noopener">';
         html += '<div class="result-content">';
         html += '<span class="result-name">' + highlightText(result.name, query) + '</span>';
-        html += '<span class="result-description">' + highlightText(truncate(result.description, 80), query) + '</span>';
+        html += '<span class="result-description">' + highlightText(truncate(result.description, 150), query) + '</span>';
         html += '</div>';
         html += '<span class="result-category">' + escapeHtml(result.category) + '</span>';
         html += '</a>';
