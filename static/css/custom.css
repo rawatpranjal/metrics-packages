@@ -3028,6 +3028,144 @@ a:hover {
     font-style: italic;
 }
 
+/* Map View Styles */
+#conference-map {
+    height: 500px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    background: var(--bg-secondary);
+}
+
+.map-legend {
+    margin-bottom: 1rem;
+}
+
+.map-note {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-align: center;
+}
+
+/* Map legend colors for meetups and research labs */
+.legend-color.meetup {
+    background-color: #22c55e;
+}
+
+.legend-color.research-lab {
+    background-color: #0ea5e9;
+}
+
+/* Leaflet popup styling */
+.leaflet-popup-content-wrapper {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.leaflet-popup-content {
+    margin: 12px 16px;
+}
+
+.map-popup {
+    min-width: 200px;
+}
+
+.map-popup strong a {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.map-popup strong a:hover {
+    text-decoration: underline;
+}
+
+.popup-meta {
+    margin: 0.5rem 0;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.popup-meta span {
+    display: block;
+    margin: 0.25rem 0;
+}
+
+.popup-badge {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+/* Custom marker styling */
+.custom-marker {
+    background: transparent;
+    border: none;
+}
+
+/* Marker cluster styling */
+.marker-cluster-small {
+    background-color: rgba(110, 204, 57, 0.6);
+}
+
+.marker-cluster-small div {
+    background-color: rgba(110, 204, 57, 0.9);
+}
+
+.marker-cluster-medium {
+    background-color: rgba(240, 194, 12, 0.6);
+}
+
+.marker-cluster-medium div {
+    background-color: rgba(240, 194, 12, 0.9);
+}
+
+.marker-cluster-large {
+    background-color: rgba(241, 128, 23, 0.6);
+}
+
+.marker-cluster-large div {
+    background-color: rgba(241, 128, 23, 0.9);
+}
+
+.marker-cluster {
+    background-clip: padding-box;
+    border-radius: 50%;
+}
+
+.marker-cluster div {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 50%;
+    font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.marker-cluster span {
+    line-height: 30px;
+}
+
+/* Map responsive */
+@media (max-width: 768px) {
+    #conference-map {
+        height: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    #conference-map {
+        height: 300px;
+    }
+}
+
 /* Always Available Section */
 .always-available {
     margin-top: 2rem;

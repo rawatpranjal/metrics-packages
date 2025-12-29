@@ -14,11 +14,11 @@
 <script id="domain-categories" type="application/json">
 {{ $domainCats := dict }}
 {{ range .Site.Data.resources }}
-    {{ $domain := .domain }}
+    {{ $domain := .domain | default "" }}
     {{ $cat := .category }}
-    {{ if not (index $domainCats $domain) }}
+    {{ if and $domain (not (index $domainCats $domain)) }}
         {{ $domainCats = merge $domainCats (dict $domain (slice $cat)) }}
-    {{ else }}
+    {{ else if $domain }}
         {{ $existing := index $domainCats $domain }}
         {{ if not (in $existing $cat) }}
             {{ $domainCats = merge $domainCats (dict $domain ($existing | append $cat)) }}

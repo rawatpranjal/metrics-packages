@@ -50,6 +50,7 @@
         <div class="view-toggle">
             <button id="btn-year" class="toggle-btn active">Year</button>
             <button id="btn-month" class="toggle-btn">Month</button>
+            <button id="btn-map" class="toggle-btn">Map</button>
             <button id="btn-cards" class="toggle-btn">Cards</button>
         </div>
     </div>
@@ -226,6 +227,38 @@
         <p id="no-month-events" class="no-events" style="display: none;">No conferences scheduled for this month.</p>
     </div>
 
+    <!-- Map View (hidden by default) -->
+    <div id="map-view" style="display: none;">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+        <!-- Subcategory Legend -->
+        <div class="subcategory-legend map-legend">
+            <div class="legend-item"><span class="legend-color experimentation"></span> Experimentation</div>
+            <div class="legend-item"><span class="legend-color marketing-science"></span> Marketing</div>
+            <div class="legend-item"><span class="legend-color pricing-revenue"></span> Pricing</div>
+            <div class="legend-item"><span class="legend-color platforms-e-commerce"></span> Platforms</div>
+            <div class="legend-item"><span class="legend-color statistics-analytics"></span> Statistics</div>
+            <div class="legend-item"><span class="legend-color healthcare-economics"></span> Healthcare</div>
+            <div class="legend-item"><span class="legend-color labor-finance"></span> Labor & Finance</div>
+            <div class="legend-item"><span class="legend-color antitrust"></span> Antitrust</div>
+            <div class="legend-item"><span class="legend-color market-design"></span> Market Design</div>
+            <div class="legend-item"><span class="legend-color meetup"></span> Meetups</div>
+            <div class="legend-item"><span class="legend-color research-lab"></span> Research Labs</div>
+        </div>
+
+        <div id="conference-map"></div>
+        <p class="map-note">Showing {{ len (where .Site.Data.community "lat" "!=" nil) }} locations with coordinates. Events with "Various" or "Online" locations are not shown on map.</p>
+    </div>
+
+    <!-- Map Data for JavaScript -->
+    <script id="map-data" type="application/json">
+    [{{ $first := true }}{{ range .Site.Data.community }}{{ if and .lat .lng }}{{ if not $first }},{{ end }}{{ $first = false }}{"name":"{{ .name }}","url":"{{ .url }}","lat":{{ .lat }},"lng":{{ .lng }},"category":"{{ .category }}","subcategory":"{{ .subcategory | default "" }}","location":"{{ .location | htmlEscape }}","dates":"{{ .dates }}","attendees":"{{ .attendees | default "" }}","type":"{{ .type }}"}{{ end }}{{ end }}]
+    </script>
+
     <!-- Cards View (hidden by default) -->
     <div id="cards-view" style="display: none;">
         <div class="resources-grid">
@@ -323,10 +356,114 @@ document.addEventListener('DOMContentLoaded', function() {
     // View elements
     const yearView = document.getElementById('year-view');
     const monthView = document.getElementById('month-view');
+    const mapView = document.getElementById('map-view');
     const cardsView = document.getElementById('cards-view');
     const btnYear = document.getElementById('btn-year');
     const btnMonth = document.getElementById('btn-month');
+    const btnMap = document.getElementById('btn-map');
     const btnCards = document.getElementById('btn-cards');
+
+    // Map variables
+    let map = null;
+    let markers = null;
+
+    // Subcategory colors matching CSS
+    const subcategoryColors = {
+        'Experimentation': '#10b981',
+        'Marketing Science': '#8b5cf6',
+        'Pricing & Revenue': '#f59e0b',
+        'Platforms & E-commerce': '#3b82f6',
+        'Statistics & Analytics': '#6366f1',
+        'Healthcare Economics': '#ec4899',
+        'Labor & Finance': '#14b8a6',
+        'Antitrust': '#ef4444',
+        'Market Design': '#f97316'
+    };
+
+    // Category colors for non-conference items
+    const categoryColors = {
+        'Meetups': '#22c55e',
+        'Research Labs': '#0ea5e9'
+    };
+
+    function getMarkerColor(item) {
+        if (item.category === 'Meetups') return categoryColors['Meetups'];
+        if (item.category === 'Research Labs') return categoryColors['Research Labs'];
+        return subcategoryColors[item.subcategory] || '#6b7280';
+    }
+
+    function createCustomIcon(color) {
+        return L.divIcon({
+            className: 'custom-marker',
+            html: `<div style="background-color: ${color}; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>`,
+            iconSize: [16, 16],
+            iconAnchor: [8, 8],
+            popupAnchor: [0, -8]
+        });
+    }
+
+    function initMap() {
+        if (map) return; // Already initialized
+
+        // Create map centered on US
+        map = L.map('conference-map').setView([39.8283, -98.5795], 4);
+
+        // Add OpenStreetMap tiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            maxZoom: 18
+        }).addTo(map);
+
+        // Create marker cluster group
+        markers = L.markerClusterGroup({
+            maxClusterRadius: 50,
+            spiderfyOnMaxZoom: true,
+            showCoverageOnHover: false,
+            zoomToBoundsOnClick: true
+        });
+
+        // Load and add markers from map data
+        const mapDataEl = document.getElementById('map-data');
+        if (mapDataEl) {
+            try {
+                const data = JSON.parse(mapDataEl.textContent);
+                data.forEach(item => {
+                    const color = getMarkerColor(item);
+                    const icon = createCustomIcon(color);
+
+                    const marker = L.marker([item.lat, item.lng], { icon: icon });
+
+                    // Create popup content
+                    let popupContent = `
+                        <div class="map-popup">
+                            <strong><a href="${item.url}" target="_blank" rel="noopener">${item.name}</a></strong>
+                            <div class="popup-meta">
+                                <span>${item.location}</span>
+                                ${item.dates ? `<span>${item.dates}</span>` : ''}
+                                ${item.attendees ? `<span>${item.attendees} attendees</span>` : ''}
+                            </div>
+                            <span class="popup-badge" style="background-color: ${color}; color: white;">
+                                ${item.subcategory || item.category}
+                            </span>
+                        </div>
+                    `;
+
+                    marker.bindPopup(popupContent);
+                    markers.addLayer(marker);
+                });
+
+                map.addLayer(markers);
+
+                // Fit bounds to show all markers
+                if (data.length > 0) {
+                    const bounds = markers.getBounds();
+                    map.fitBounds(bounds, { padding: [20, 20] });
+                }
+            } catch (e) {
+                console.error('Error loading map data:', e);
+            }
+        }
+    }
 
     // Month navigation
     const months = ['January', 'February', 'March', 'April', 'May', 'June',
@@ -397,9 +534,11 @@ document.addEventListener('DOMContentLoaded', function() {
     function setActiveView(view) {
         yearView.style.display = 'none';
         monthView.style.display = 'none';
+        mapView.style.display = 'none';
         cardsView.style.display = 'none';
         btnYear.classList.remove('active');
         btnMonth.classList.remove('active');
+        btnMap.classList.remove('active');
         btnCards.classList.remove('active');
 
         if (view === 'year') {
@@ -409,6 +548,14 @@ document.addEventListener('DOMContentLoaded', function() {
             monthView.style.display = 'block';
             btnMonth.classList.add('active');
             updateMonthView();
+        } else if (view === 'map') {
+            mapView.style.display = 'block';
+            btnMap.classList.add('active');
+            // Initialize map on first view (Leaflet needs visible container)
+            setTimeout(() => {
+                initMap();
+                if (map) map.invalidateSize();
+            }, 100);
         } else {
             cardsView.style.display = 'block';
             btnCards.classList.add('active');
@@ -417,6 +564,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     btnYear.addEventListener('click', () => setActiveView('year'));
     btnMonth.addEventListener('click', () => setActiveView('month'));
+    btnMap.addEventListener('click', () => setActiveView('map'));
     btnCards.addEventListener('click', () => setActiveView('cards'));
 
     // Month navigation
