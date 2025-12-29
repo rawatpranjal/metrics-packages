@@ -81,33 +81,33 @@
   },
   {
     "name": "Marketing Analytics",
-    "description": "CLV modeling, attribution, and retention analytics \u2014 researchers' panel data experience transfers directly to cohort analysis",
+    "description": "CLV modeling, attribution, and retention analytics — researchers' panel data experience transfers directly to cohort analysis",
     "icon": "chart-pie",
     "resources": [
       {
+        "name": "Shopify: What is Customer Lifetime Value",
+        "why": "Beginner-friendly CLV intro with examples",
+        "url": "https://www.shopify.com/blog/what-is-customer-lifetime-value"
+      },
+      {
         "name": "PyMC-Marketing CLV Quickstart",
-        "why": "CLV basics, RFM analysis, BG/NBD models \u2014 free official docs",
+        "why": "Practical Python tutorial with BG/NBD models",
         "url": "https://www.pymc-marketing.io/en/latest/notebooks/clv/clv_quickstart.html"
       },
       {
-        "name": "PyMC-Marketing Documentation",
-        "why": "BG/NBD and Gamma-Gamma CLV tutorials",
-        "url": "https://www.pymc-marketing.io/en/stable/"
-      },
-      {
-        "name": "Google Analytics for Marketing",
-        "why": "Free analytics for marketing \u2014 official Google tutorials",
+        "name": "Google Analytics Certification",
+        "why": "Free structured learning from Google",
         "url": "https://skillshop.exceedlms.com/student/path/508845-google-analytics-certification"
       },
       {
-        "name": "Bruce Hardie's CLV Papers",
-        "why": "Mathematical foundations of CLV models",
-        "url": "https://www.brucehardie.com/"
+        "name": "GrowthFullStack: MMM in Google Sheets",
+        "why": "Free MMM template — no data scientist needed",
+        "url": "https://www.growthfullstack.com/tutorial/marketing-mix-modeling-mmm-tutorial-in-google-spreadsheets/"
       },
       {
-        "name": "Lyft Engineering: LTV Curves",
-        "why": "Production CLV and Thompson sampling",
-        "url": "https://eng.lyft.com/lyft-marketing-automation-b43b7b7537cc"
+        "name": "Brave and True: Synthetic Control",
+        "why": "Accessible causal inference with Python code",
+        "url": "https://matheusfacure.github.io/python-causality-handbook/15-Synthetic-Control.html"
       }
     ],
     "packages": [
@@ -117,19 +117,9 @@
         "url": "https://www.pymc-marketing.io/"
       },
       {
-        "name": "lifetimes",
-        "why": "BG/NBD, Gamma-Gamma CLV (maintenance mode)",
-        "url": "https://lifetimes.readthedocs.io/"
-      },
-      {
         "name": "lifelines",
         "why": "Survival analysis for retention and churn",
         "url": "https://lifelines.readthedocs.io/"
-      },
-      {
-        "name": "scikit-learn",
-        "why": "K-Means, DBSCAN for customer segmentation",
-        "url": "https://scikit-learn.org/"
       }
     ],
     "order": 3
