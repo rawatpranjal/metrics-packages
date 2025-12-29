@@ -522,19 +522,9 @@
         "url": "https://otexts.com/fpppy/"
       },
       {
-        "name": "MIT 14.384: Time Series Analysis",
-        "why": "Graduate-level — ARMA, VAR, cointegration, Kalman filters",
-        "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/"
-      },
-      {
-        "name": "statsforecast Documentation",
-        "why": "Nixtla's AutoARIMA — 19x faster than pmdarima",
-        "url": "https://nixtlaverse.nixtla.io/statsforecast/index.html"
-      },
-      {
-        "name": "Prophet Critique (Sean Taylor)",
-        "why": "Must-read from Prophet co-creator — honest limitations",
-        "url": "https://medium.com/@seanjtaylor/a-personal-retrospective-on-prophet-f223c2378985"
+        "name": "Penn State STAT 510",
+        "why": "Free graduate course — ARIMA, spectral analysis, ARCH/GARCH",
+        "url": "https://online.stat.psu.edu/stat510/"
       },
       {
         "name": "Uber: Forecasting Introduction",
@@ -542,51 +532,26 @@
         "url": "https://www.uber.com/blog/forecasting-introduction/"
       },
       {
-        "name": "DoorDash: ELITE Ensemble Learning",
-        "why": "Accuracy vs compute tradeoffs — Ray for distributed forecasting",
-        "url": "https://doordash.engineering/2023/06/20/how-doordash-built-an-ensemble-learning-model-for-time-series-forecasting/"
-      },
-      {
-        "name": "Amazon: Chronos Foundation Model",
-        "why": "Zero-shot forecasting with T5 architecture — state of the art",
-        "url": "https://www.amazon.science/blog/adapting-language-model-architectures-for-time-series-forecasting"
+        "name": "statsforecast Documentation",
+        "why": "Nixtla's AutoARIMA — 19x faster than pmdarima",
+        "url": "https://nixtlaverse.nixtla.io/statsforecast/index.html"
       },
       {
         "name": "sktime: Unified Framework",
         "why": "scikit-learn API for time series — NeurIPS paper",
         "url": "https://www.sktime.net/en/latest/examples/01_forecasting.html"
-      },
-      {
-        "name": "Penn State STAT 510",
-        "why": "Free graduate course — ARIMA, spectral analysis, ARCH/GARCH",
-        "url": "https://online.stat.psu.edu/stat510/"
       }
     ],
     "packages": [
-      {
-        "name": "statsforecast",
-        "why": "Nixtla's fast AutoARIMA, AutoETS, AutoTheta",
-        "url": "https://nixtlaverse.nixtla.io/statsforecast/"
-      },
-      {
-        "name": "prophet",
-        "why": "Meta's additive model — good for business seasonality",
-        "url": "https://facebook.github.io/prophet/"
-      },
       {
         "name": "statsmodels",
         "why": "SARIMAX, VAR, state space — classical econometrics",
         "url": "https://www.statsmodels.org/stable/tsa.html"
       },
       {
-        "name": "sktime",
-        "why": "Unified scikit-learn API for time series",
-        "url": "https://www.sktime.net/"
-      },
-      {
-        "name": "mlforecast",
-        "why": "Nixtla's ML-based forecasting — LightGBM, XGBoost",
-        "url": "https://nixtlaverse.nixtla.io/mlforecast/"
+        "name": "prophet",
+        "why": "Meta's additive model — good for business seasonality",
+        "url": "https://facebook.github.io/prophet/"
       }
     ],
     "order": 14
