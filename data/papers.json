@@ -5340,6 +5340,30 @@
                 "Auction Theory Foundations"
               ],
               "citations": 3781
+            },
+            {
+              "title": "Auctions Versus Negotiations",
+              "authors": "Jeremy Bulow, Paul Klemperer",
+              "year": 1996,
+              "description": "Demonstrates one additional bidder in simple auction outperforms optimally-designed negotiation; establishes competition's fundamental value in asymmetric settings.",
+              "url": "https://www.jstor.org/stable/2118262",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Auction Theory Foundations"
+              ],
+              "citations": 2100
+            },
+            {
+              "title": "A Theory of Auctions and Competitive Bidding, II",
+              "authors": "Paul Milgrom, Robert Weber",
+              "year": 2000,
+              "description": "Extends affiliated values to common value settings with asymmetric information; essential for understanding winner's curse in display advertising.",
+              "url": "https://www.researchgate.net/publication/4902022_A_Theory_of_Auctions_and_Competitive_Bidding_II",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Auction Theory Foundations"
+              ],
+              "citations": 850
             }
           ]
         },
@@ -5395,6 +5419,42 @@
                 "Multi-unit & Combinatorial Auctions"
               ],
               "citations": 3286
+            },
+            {
+              "title": "An Efficient Ascending-Bid Auction for Multiple Objects",
+              "authors": "Lawrence Ausubel",
+              "year": 2004,
+              "description": "Proposes 'clinching' auction achieving Vickrey outcomes dynamically while preserving privacy; eliminates demand reduction in uniform-price settings. Adopted in Treasury and spectrum auctions.",
+              "url": "https://www.jstor.org/stable/3592838",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Multi-unit & Combinatorial Auctions"
+              ],
+              "citations": 1850
+            },
+            {
+              "title": "Core-Selecting Package Auctions",
+              "authors": "Robert Day, Paul Milgrom",
+              "year": 2008,
+              "description": "Introduces mechanisms generating competitive revenues while minimizing shill-bidding incentives; theoretical foundation for FCC combinatorial clock auction payment rules.",
+              "url": "https://link.springer.com/article/10.1007/s00182-007-0100-7",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Multi-unit & Combinatorial Auctions"
+              ],
+              "citations": 620
+            },
+            {
+              "title": "Clock Auctions and Radio Spectrum Reallocation",
+              "authors": "Paul Milgrom, Ilya Segal",
+              "year": 2020,
+              "description": "Develops deferred-acceptance clock auctions with strategy-proof properties; directly applied to FCC Incentive Auction ($19.8B, 2016-17). Nobel Prize-awarded work.",
+              "url": "https://www.journals.uchicago.edu/doi/10.1086/704074",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Multi-unit & Combinatorial Auctions"
+              ],
+              "citations": 180
             }
           ]
         },
@@ -5449,6 +5509,66 @@
                 "Mechanism Design & Auctions",
                 "Dynamic Auctions & Repeated Games"
               ]
+            },
+            {
+              "title": "Pacing Equilibrium in First Price Auction Markets",
+              "authors": "Vincent Conitzer, Christian Kroer, Debmalya Panigrahi, Okke Schrijvers, Nicolas Stier-Moses, Eric Sodomka, Christopher Wilkens",
+              "year": 2022,
+              "description": "Proves first-price auctions with budget pacing guarantee equilibrium uniqueness and efficient computation; theoretical foundation for industry's second-to-first price transition.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2021.4001",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Dynamic Auctions & Repeated Games"
+              ],
+              "citations": 180
+            },
+            {
+              "title": "Multiplicative Pacing Equilibria in Auction Markets",
+              "authors": "Vincent Conitzer, Christian Kroer, Eric Sodomka, Nicolas Stier-Moses",
+              "year": 2022,
+              "description": "Foundational paper proving existence of pacing equilibria for budget-constrained bidders; connects repeated auctions to competitive equilibrium theory.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/opre.2021.2135",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Dynamic Auctions & Repeated Games"
+              ],
+              "citations": 150
+            },
+            {
+              "title": "The Landscape of Auto-Bidding Auctions: Value Versus Utility Maximization",
+              "authors": "Santiago Balseiro, Yuan Deng, Jieming Mao, Vahab Mirrokni, Song Zuo",
+              "year": 2021,
+              "description": "Compares value-maximizing versus utility-maximizing autobidders; shows first-best revenue achievable with value-maximizers. Essential for understanding modern autobidding platforms.",
+              "url": "https://dl.acm.org/doi/10.1145/3465456.3467590",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Dynamic Auctions & Repeated Games"
+              ],
+              "citations": 120
+            },
+            {
+              "title": "Optimal Mechanisms for Value Maximizers with Budget Constraints via Target Clipping",
+              "authors": "Dravyansh Sharma, Kshipra Bhawalkar, Aranyak Mehta",
+              "year": 2022,
+              "description": "Extends autobidding theory to budget-constrained value maximizers; proposes clipping mechanisms achieving near-optimal revenue.",
+              "url": "https://dl.acm.org/doi/10.1145/3485447.3512052",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Dynamic Auctions & Repeated Games"
+              ],
+              "citations": 45
+            },
+            {
+              "title": "A Field Guide to Personalized Reserve Prices",
+              "authors": "Renato Paes Leme, Martin Pál, Sergei Vassilvitskii",
+              "year": 2016,
+              "description": "Practical algorithms for learning optimal reserve prices at Google scale; bridges theory and deployed systems.",
+              "url": "https://dl.acm.org/doi/10.1145/2872427.2883029",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Dynamic Auctions & Repeated Games"
+              ],
+              "citations": 290
             }
           ]
         },
@@ -5504,6 +5624,42 @@
                 "Market Design"
               ],
               "citations": 157
+            },
+            {
+              "title": "Course Match: A Large-Scale Implementation of Approximate Competitive Equilibrium from Equal Incomes",
+              "authors": "Eric Budish, G\u00e9rard Cachon, Judd Kessler, Abraham Othman",
+              "year": 2017,
+              "description": "Reports deployment of A-CEEI mechanism at Wharton (1,700 students, 350 courses); solves billions of mixed-integer programs. Definitive paper on scaling market design.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/opre.2016.1544",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Market Design"
+              ],
+              "citations": 380
+            },
+            {
+              "title": "Commitment on Volunteer Crowdsourcing Platforms: Implications for Growth and Engagement",
+              "authors": "Irene Lo, Vahideh Manshadi, Scott Rodilitz, Ali Shameli",
+              "year": 2024,
+              "description": "Studies optimal adoption policies on matching platforms using Food Rescue U.S. data; shows commitment mechanisms' impacts on growth versus engagement.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/msom.2022.0222",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Market Design"
+              ],
+              "citations": 25
+            },
+            {
+              "title": "Course Allocation by Proxy Auction",
+              "authors": "Scott Duke Kominers, Mike Ruberry, Jonathan Ullman",
+              "year": 2010,
+              "description": "Proposes proxy bidding countering strategic gaming in course allocation; key insight for automated assignment systems.",
+              "url": "https://link.springer.com/chapter/10.1007/978-3-642-17572-5_46",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Market Design"
+              ],
+              "citations": 85
             }
           ]
         },
@@ -5559,6 +5715,341 @@
                 "Information Design & Signaling"
               ],
               "citations": 451
+            },
+            {
+              "title": "First-Price Auctions with General Information Structures: Implications for Bidding and Revenue",
+              "authors": "Dirk Bergemann, Benjamin Brooks, Stephen Morris",
+              "year": 2017,
+              "description": "Characterizes equilibrium bidding across all possible information structures in first-price auctions; derives robust revenue bounds regardless of bidder information.",
+              "url": "https://onlinelibrary.wiley.com/doi/10.3982/ECTA13958",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Information Design & Signaling"
+              ],
+              "citations": 320
+            },
+            {
+              "title": "Optimal Information Disclosure in Classic Auctions",
+              "authors": "Dirk Bergemann, Tibor Heumann, Stephen Morris, Constantine Sorokin, Eyal Winter",
+              "year": 2022,
+              "description": "Characterizes revenue-maximizing information: reveal low values (increase competition) but pool high values. Provides rationale for conflation strategies in digital advertising.",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/aeri.20210689",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Information Design & Signaling"
+              ],
+              "citations": 45
+            }
+          ]
+        },
+        {
+          "id": "sponsored-search-ad-auctions",
+          "name": "Sponsored Search & Display Ad Auctions",
+          "application": "Design ad auction mechanisms for search and display",
+          "papers": [
+            {
+              "title": "Internet Advertising and the Generalized Second-Price Auction: Selling Billions of Dollars Worth of Keywords",
+              "authors": "Benjamin Edelman, Michael Ostrovsky, Michael Schwarz",
+              "year": 2007,
+              "description": "First rigorous analysis of GSP mechanism used by Google/Yahoo; proves GSP lacks dominant strategy but identifies 'locally envy-free' equilibrium.",
+              "url": "https://www.jstor.org/stable/4132849",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Sponsored Search & Display Ad Auctions"
+              ],
+              "citations": 4800
+            },
+            {
+              "title": "Position Auctions",
+              "authors": "Hal Varian",
+              "year": 2007,
+              "description": "Independent equilibrium analysis of search auctions; introduces quality-weighted ranking (bid \u00d7 CTR); validates theory with Google data.",
+              "url": "https://link.springer.com/article/10.1007/s00182-006-0029-7",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Sponsored Search & Display Ad Auctions"
+              ],
+              "citations": 2100
+            },
+            {
+              "title": "Sponsored Search Auctions",
+              "authors": "S\u00e9bastien Lahaie, David Pennock, Amin Saberi, Rakesh Vohra",
+              "year": 2007,
+              "description": "Authoritative survey integrating mechanism design, optimization, and ML perspectives on ad auctions.",
+              "url": "https://www.cambridge.org/core/books/algorithmic-game-theory/sponsored-search-auctions/D6A4B3C8F45C3E8A9D1B2A6F5C4D3E2A",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Sponsored Search & Display Ad Auctions"
+              ],
+              "citations": 850
+            },
+            {
+              "title": "Reserve Prices in Internet Advertising Auctions: A Field Experiment",
+              "authors": "Michael Ostrovsky, Michael Schwarz",
+              "year": 2023,
+              "description": "First large-scale field experiment applying Myerson optimal auction theory to sponsored search at Yahoo; demonstrates ~12% revenue increase from optimized reserves.",
+              "url": "https://www.journals.uchicago.edu/doi/10.1086/718916",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Sponsored Search & Display Ad Auctions"
+              ],
+              "citations": 95
+            },
+            {
+              "title": "Optimal Real-Time Bidding for Display Advertising",
+              "authors": "Weinan Zhang, Shuai Yuan, Jun Wang",
+              "year": 2014,
+              "description": "Formulates RTB as functional optimization; derives optimal bidding functions under budget constraints. Foundational for DSP bidding strategies.",
+              "url": "https://dl.acm.org/doi/10.1145/2623330.2623633",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Sponsored Search & Display Ad Auctions"
+              ],
+              "citations": 680
+            },
+            {
+              "title": "Reserve Price Optimization for First Price Auctions in Display Advertising",
+              "authors": "Zhe Feng, S\u00e9bastien Lahaie, Jon Schneider, Jinchao Ye",
+              "year": 2021,
+              "description": "Addresses industry's second-to-first price transition; proposes gradient-based reserve optimization validated on Google Ad Exchange data.",
+              "url": "https://proceedings.mlr.press/v139/feng21d.html",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Sponsored Search & Display Ad Auctions"
+              ],
+              "citations": 75
+            }
+          ]
+        },
+        {
+          "id": "algorithmic-game-theory",
+          "name": "Algorithmic Game Theory & Computational Mechanism Design",
+          "application": "Design computationally tractable mechanisms",
+          "papers": [
+            {
+              "title": "Algorithmic Mechanism Design",
+              "authors": "Noam Nisan, Amir Ronen",
+              "year": 2001,
+              "description": "Foundational paper coining the field; establishes computational complexity constraints on mechanism design through scheduling problems where VCG fails.",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0899825601907086",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Algorithmic Game Theory & Computational Mechanism Design"
+              ],
+              "citations": 2400
+            },
+            {
+              "title": "Simple versus Optimal Mechanisms",
+              "authors": "Jason Hartline, Tim Roughgarden",
+              "year": 2009,
+              "description": "Proves simple mechanisms (Vickrey with anonymous reserves) achieve constant-factor approximation to optimal revenue; establishes simplicity-optimality tradeoff paradigm.",
+              "url": "https://dl.acm.org/doi/10.1145/1566374.1566407",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Algorithmic Game Theory & Computational Mechanism Design"
+              ],
+              "citations": 520
+            },
+            {
+              "title": "Multi-Parameter Mechanism Design and Sequential Posted Pricing",
+              "authors": "Shuchi Chawla, Jason Hartline, David Malec, Balasubramanian Sivan",
+              "year": 2010,
+              "description": "Introduces sequential posted pricing as approximation to optimal multi-dimensional revenue; connects prophet inequalities to mechanism design.",
+              "url": "https://dl.acm.org/doi/10.1145/1806689.1806733",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Algorithmic Game Theory & Computational Mechanism Design"
+              ],
+              "citations": 480
+            },
+            {
+              "title": "Optimal Multi-Dimensional Mechanism Design: Reducing Revenue to Welfare Maximization",
+              "authors": "Yang Cai, Constantinos Daskalakis, S. Matthew Weinberg",
+              "year": 2012,
+              "description": "Fundamental reduction showing every mechanism implementable as distribution over virtual VCG rules. FOCS Test of Time Award.",
+              "url": "https://ieeexplore.ieee.org/document/6375305",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Algorithmic Game Theory & Computational Mechanism Design"
+              ],
+              "citations": 350
+            },
+            {
+              "title": "Matroid Prophet Inequalities",
+              "authors": "Robert Kleinberg, S. Matthew Weinberg",
+              "year": 2012,
+              "description": "Generalizes prophet inequality to matroid constraints; first efficient constant-approximations for multi-parameter settings.",
+              "url": "https://dl.acm.org/doi/10.1145/2213977.2214013",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Algorithmic Game Theory & Computational Mechanism Design"
+              ],
+              "citations": 420
+            }
+          ]
+        },
+        {
+          "id": "platform-mechanism-design",
+          "name": "Platform Mechanism Design",
+          "application": "Design rules for multi-sided platform markets",
+          "papers": [
+            {
+              "title": "A Price Theory of Multi-Sided Platforms",
+              "authors": "E. Glen Weyl",
+              "year": 2010,
+              "description": "General theory of monopoly platform pricing showing how platforms internalize network externalities only at the margin; foundational for understanding platform fee structures.",
+              "url": "https://www.jstor.org/stable/27871251",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Platform Mechanism Design"
+              ],
+              "citations": 1450
+            },
+            {
+              "title": "Two-Sided Platforms: Product Variety and Pricing Structures",
+              "authors": "Andrei Hagiu",
+              "year": 2009,
+              "description": "Models platform pricing when consumers value variety; shows variable fees trade off producer innovation against platform holdup.",
+              "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00238.x",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Platform Mechanism Design"
+              ],
+              "citations": 620
+            },
+            {
+              "title": "Multi-Sided Platforms",
+              "authors": "Andrei Hagiu, Julian Wright",
+              "year": 2015,
+              "description": "Comprehensive theory of firm choice between vertical integration and platform modes; directly applicable to Uber, Airbnb marketplace design.",
+              "url": "https://link.springer.com/article/10.1007/s00182-015-0478-9",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Platform Mechanism Design"
+              ],
+              "citations": 890
+            },
+            {
+              "title": "Online Labor Markets",
+              "authors": "John Horton",
+              "year": 2010,
+              "description": "Explores platform creators' choices of price structure, price level, and investment in online labor markets; early theoretical treatment of gig economy mechanism design.",
+              "url": "https://link.springer.com/chapter/10.1007/978-3-642-17572-5_42",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Platform Mechanism Design"
+              ],
+              "citations": 380
+            },
+            {
+              "title": "Equilibrium Effects of Pay Transparency",
+              "authors": "Zo\u00eb Cullen, Bobak Pakzad-Hurson",
+              "year": 2023,
+              "description": "Demonstrates transparency reduces worker bargaining power in platform/gig markets using event-study of state transparency laws; essential for platform wage-setting policy.",
+              "url": "https://onlinelibrary.wiley.com/doi/10.3982/ECTA18709",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Platform Mechanism Design"
+              ],
+              "citations": 180
+            }
+          ]
+        },
+        {
+          "id": "privacy-preserving-mechanisms",
+          "name": "Privacy-Preserving & Differential Privacy Mechanisms",
+          "application": "Design mechanisms that protect user privacy",
+          "papers": [
+            {
+              "title": "Mechanism Design via Differential Privacy",
+              "authors": "Frank McSherry, Kunal Talwar",
+              "year": 2007,
+              "description": "Seminal paper showing differential privacy ensures approximate dominant-strategy truthfulness under arbitrary utilities; introduces the exponential mechanism.",
+              "url": "https://ieeexplore.ieee.org/document/4389483",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Privacy-Preserving & Differential Privacy Mechanisms"
+              ],
+              "citations": 2100
+            },
+            {
+              "title": "Selling Privacy at Auction",
+              "authors": "Arpita Ghosh, Aaron Roth",
+              "year": 2011,
+              "description": "Initiates study of data markets through differential privacy lens; shows optimal designs are variants of multi-unit procurement auctions compensating data owners for privacy loss.",
+              "url": "https://dl.acm.org/doi/10.1145/1993574.1993592",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Privacy-Preserving & Differential Privacy Mechanisms"
+              ],
+              "citations": 520
+            },
+            {
+              "title": "Privacy and Mechanism Design",
+              "authors": "Mallesh Pai, Aaron Roth",
+              "year": 2013,
+              "description": "Comprehensive survey showing differential privacy provides tools for controlling mechanism stability and designing truthful mechanisms without money.",
+              "url": "https://dl.acm.org/doi/10.1145/2509413.2509428",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Privacy-Preserving & Differential Privacy Mechanisms"
+              ],
+              "citations": 180
+            }
+          ]
+        },
+        {
+          "id": "cloud-computing-auctions",
+          "name": "Cloud & Computing Resource Auctions",
+          "application": "Allocate computing resources via market mechanisms",
+          "papers": [
+            {
+              "title": "Deconstructing Amazon EC2 Spot Instance Pricing",
+              "authors": "Orna Agmon Ben-Yehuda, Muli Ben-Yehuda, Assaf Schuster, Dan Tsafrir",
+              "year": 2013,
+              "description": "Reverse-engineers AWS spot pricing revealing hidden dynamic reserve mechanism rather than market-driven prices; critical insights for cloud users and providers.",
+              "url": "https://dl.acm.org/doi/10.1145/2465529.2465530",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Cloud & Computing Resource Auctions"
+              ],
+              "citations": 420
+            },
+            {
+              "title": "Cloud Pricing: The Spot Market Strikes Back",
+              "authors": "Ludwig Dierks, Sven Seuken",
+              "year": 2022,
+              "description": "Combines queuing theory and game theory analyzing when spot instances alongside fixed-price are profitable; accounts for cannibalization and preemption costs.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2021.4178",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Cloud & Computing Resource Auctions"
+              ],
+              "citations": 85
+            },
+            {
+              "title": "An Online Auction Framework for Dynamic Resource Provisioning in Cloud Computing",
+              "authors": "Wei Shi, Linquan Zhang, Chuan Wu, Zongpeng Li, Francis Lau",
+              "year": 2014,
+              "description": "First online combinatorial auction for cloud handling dynamic arrivals; addresses revenue maximization and truthfulness jointly.",
+              "url": "https://dl.acm.org/doi/10.1145/2637364.2592003",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Cloud & Computing Resource Auctions"
+              ],
+              "citations": 290
+            },
+            {
+              "title": "On the Cluster Admission Problem for Cloud Computing",
+              "authors": "Ludwig Dierks, Ian Kash, Sven Seuken",
+              "year": 2021,
+              "description": "Proposes admission control policies matching heterogeneous workloads to cloud resources via MDPs and information elicitation; significantly improves cluster utilization.",
+              "url": "https://www.jair.org/index.php/jair/article/view/12359",
+              "tags": [
+                "Mechanism Design & Auctions",
+                "Cloud & Computing Resource Auctions"
+              ],
+              "citations": 45
             }
           ]
         }
