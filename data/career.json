@@ -1,5 +1,572 @@
 [
   {
+    "name": "Athey & Luca: Economists in Tech",
+    "description": "JEP article on 'Economists (and Economics) in Tech Companies' - foundational reading on why tech hires economists.",
+    "stage": "Strategy",
+    "category": "Why Tech",
+    "url": "https://www.aeaweb.org/articles?id=10.1257%2Fjep.33.1.209",
+    "type": "Article",
+    "tags": ["foundational", "academic"]
+  },
+  {
+    "name": "Levels.fyi Compensation",
+    "description": "Crowdsourced tech compensation data. Compare salaries across companies, levels, locations. Essential for understanding tech pay.",
+    "stage": "Strategy",
+    "category": "Why Tech",
+    "url": "https://www.levels.fyi/",
+    "type": "Tool",
+    "tags": ["salary-data", "essential"]
+  },
+  {
+    "name": "Amazon Science Blog",
+    "description": "How Amazon's economics team works, research culture, and publications. Window into tech economist daily work.",
+    "stage": "Strategy",
+    "category": "Why Tech",
+    "url": "https://www.amazon.science",
+    "type": "Blog",
+    "tags": ["Amazon", "research-culture"]
+  },
+  {
+    "name": "Scarlet Chen: Econ PhD to Tech",
+    "description": "Stanford PhD to Google/Shopify. Interview experiences at Google, Amazon, Facebook, Uber. 4-part comprehensive guide.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://scarlet-chen.medium.com/",
+    "type": "Blog",
+    "tags": ["PhD", "first-hand-experience"]
+  },
+  {
+    "name": "Ace the Data Science Interview",
+    "description": "201 real questions from FAANG, startups, Wall Street. Industry-standard prep resource covering role expectations.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://www.acethedatascienceinterview.com/",
+    "type": "Book",
+    "tags": ["comprehensive", "industry-standard"]
+  },
+  {
+    "name": "Amazon Economist Careers",
+    "description": "Dedicated Economist job family with RFCA (reduced-form), STRUC (structural), FMF (forecasting) tracks. Largest economist employer.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://www.amazon.jobs/en/landing_pages/economistjobs",
+    "type": "Career Portal",
+    "tags": ["Amazon", "economist-title"]
+  },
+  {
+    "name": "Google Research Areas",
+    "description": "Economists hired as Quantitative Analyst, Data Scientist, or Research Scientist. No dedicated 'Economist' title but similar work.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://research.google/research-areas/economics-and-electronic-commerce/",
+    "type": "Career Portal",
+    "tags": ["Google", "quant-analyst"]
+  },
+  {
+    "name": "Meta Core Data Science",
+    "description": "Economics team within CDS focused on experimentation, causal inference, pricing, market design. Title: Research Scientist, Economics.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://ai.meta.com/research/",
+    "type": "Career Portal",
+    "tags": ["Meta", "CDS"]
+  },
+  {
+    "name": "Uber Ubernomics Team",
+    "description": "Pioneer of tech economist hiring. Dedicated Economist and Applied Scientist (Econ) roles for pricing, incentives, policy.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://eng.uber.com/",
+    "type": "Blog",
+    "tags": ["Uber", "marketplace"]
+  },
+  {
+    "name": "Wayfair Economics Group",
+    "description": "~15 PhD economists from MIT, Harvard, Northwestern. Explicit 'Economist' title and intern positions. Strong for applied micro.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://www.aboutwayfair.com/careers/tech-blog",
+    "type": "Blog",
+    "tags": ["Wayfair", "economist-title"]
+  },
+  {
+    "name": "LinkedIn Economic Graph",
+    "description": "Studies labor market dynamics using LinkedIn data. Chief Economist Karin Kimbrough. Contact: EconomicGraphResearchProposal@linkedin.com",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://economicgraph.linkedin.com/",
+    "type": "Career Portal",
+    "tags": ["LinkedIn", "labor-economics"]
+  },
+  {
+    "name": "Stripe Economics of AI Fellowship",
+    "description": "Chief Economist Ernie Tedeschi. $10K+ grants for academic economists. Partners with Stanford on research.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://stripe.events/fellowship",
+    "type": "Career Portal",
+    "tags": ["Stripe", "fellowship"]
+  },
+  {
+    "name": "Salesforce AI Economist",
+    "description": "Unique project combining AI and economics for economic policy optimization. Publications at NeurIPS, ICML.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://www.salesforceairesearch.com/",
+    "type": "Career Portal",
+    "tags": ["Salesforce", "AI-economics"]
+  },
+  {
+    "name": "Pharma HEOR Teams Overview",
+    "description": "Biostatistics, VEO (Value Evidence Outcomes), RWE (Real-World Evidence) teams. 200+ statisticians at Lilly, Pfizer, Roche.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://business.optum.com/en/data-analytics/life-sciences/heor.html",
+    "type": "Guide",
+    "tags": ["pharma", "HEOR"]
+  },
+  {
+    "name": "Rose Tan: Tech Jobs for Econ PhDs",
+    "description": "LinkedIn guide on navigating tech's job market. Networking tips, role types, expectations. Key advice: don't be first economist.",
+    "stage": "Strategy",
+    "category": "PhD Transition",
+    "url": "https://www.linkedin.com/pulse/finding-tech-job-part-1-guide-econ-phds-some-useful-info-rose-tan",
+    "type": "Guide",
+    "tags": ["PhD", "networking"]
+  },
+  {
+    "name": "Key Advice: Title vs Tasks",
+    "description": "'Data Scientist', 'Economist', 'Applied Scientist' can involve similar work. Title matters less than team and tasks.",
+    "stage": "Strategy",
+    "category": "PhD Transition",
+    "url": "https://scarlet-chen.medium.com/tech-industry-jobs-for-econ-phds-54a276dda80b",
+    "type": "Guide",
+    "tags": ["PhD", "career-advice"]
+  },
+  {
+    "name": "Industry Experience Preferences",
+    "description": "Netflix prefers candidates with industry experience. Most others hire fresh PhDs. Internships are crucial - 'not possible to do too many'.",
+    "stage": "Strategy",
+    "category": "PhD Transition",
+    "url": "https://jobs.netflix.com/",
+    "type": "Guide",
+    "tags": ["PhD", "internships"]
+  },
+  {
+    "name": "NABE TEC Conference",
+    "description": "Largest causal inference conference for tech economists (~800 participants). Free for job market PhDs. Nov 9-11 Seattle 2025.",
+    "stage": "Discovery",
+    "category": "Job Boards",
+    "url": "https://www.nabe.com/NABE/NABE/Events/TEC25/TEC2025.aspx",
+    "type": "Conference",
+    "tags": ["essential", "networking"]
+  },
+  {
+    "name": "AEA JOE Listings",
+    "description": "Tech companies post here: Amazon, Google, Microsoft, Uber, Airbnb, Wayfair, Stripe. Most DS roles on LinkedIn instead.",
+    "stage": "Discovery",
+    "category": "Job Boards",
+    "url": "https://www.aeaweb.org/joe/listings",
+    "type": "Job Board",
+    "tags": ["academic", "tech-postings"]
+  },
+  {
+    "name": "StatTrak Biostatistics Internships",
+    "description": "ASA comprehensive list of pharma biostatistics internships with deadlines. Updated annually.",
+    "stage": "Discovery",
+    "category": "Job Boards",
+    "url": "https://stattrak.amstat.org/2024/12/01/2025-internships/",
+    "type": "Job Board",
+    "tags": ["pharma", "internships"]
+  },
+  {
+    "name": "EuropeanHealthEconomics Jobs",
+    "description": "HEOR job postings for pharma and consulting. European and global positions.",
+    "stage": "Discovery",
+    "category": "Job Boards",
+    "url": "https://europeanhealtheconomics.com/job/heor/",
+    "type": "Job Board",
+    "tags": ["HEOR", "Europe"]
+  },
+  {
+    "name": "Amazon PhD Internship",
+    "description": "Formal 11-12 week program, year-round rolling applications. Dedicated Economist job family - largest in tech.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://www.amazon.science/careers",
+    "type": "Career Portal",
+    "tags": ["FAANG", "economist-title", "PhD-internship"]
+  },
+  {
+    "name": "Google PhD Programs",
+    "description": "Research Intern PhD (12-14 weeks) and Student Researcher PhD (12-24 weeks). PhD Fellowship available.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://careers.google.com",
+    "type": "Career Portal",
+    "tags": ["FAANG", "research-intern", "PhD-internship"]
+  },
+  {
+    "name": "Meta Research Scientist",
+    "description": "Research Scientist Internship 12-24 weeks. Applications open early fall. Core Data Science Economics team.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://www.metacareers.com",
+    "type": "Career Portal",
+    "tags": ["FAANG", "CDS", "PhD-internship"]
+  },
+  {
+    "name": "Microsoft Research Careers",
+    "description": "MSR Research Internship (pure research) and PhD Product Internship (applied). Most academic-like environment in FAANG+.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://www.microsoft.com/en-us/research/careers/",
+    "type": "Career Portal",
+    "tags": ["FAANG", "academic-style", "PhD-internship"]
+  },
+  {
+    "name": "Apple ML Research",
+    "description": "ML Research Internships. No visible Economist team - requires pivot to ML/Data Science roles. Apple Scholars fellowship (invite-only).",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://machinelearning.apple.com/work-with-us",
+    "type": "Career Portal",
+    "tags": ["FAANG", "ML-focused", "PhD-internship"]
+  },
+  {
+    "name": "Uber Applied Scientist",
+    "description": "PhD Applied Scientist Internship 12 weeks with Economics PhD track. Dedicated Economist roles. Founded with John List.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://www.uber.com/us/en/careers/",
+    "type": "Career Portal",
+    "tags": ["marketplace", "economist-title", "PhD-internship"]
+  },
+  {
+    "name": "Lyft Economics Team",
+    "description": "Economics Team PhD internships $56-62/hour in SF/NYC. Academic publication culture with John List collaboration.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://www.lyft.com/careers/",
+    "type": "Career Portal",
+    "tags": ["marketplace", "economist-title", "PhD-internship"]
+  },
+  {
+    "name": "Wayfair Economist Intern",
+    "description": "Explicit Economist Intern and Data Science Intern ($65/hour). ~15 PhD economists. Staff Economist $207-230K.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://www.aboutwayfair.com/careers/",
+    "type": "Career Portal",
+    "tags": ["marketplace", "economist-title", "PhD-internship"]
+  },
+  {
+    "name": "Airbnb Data Science",
+    "description": "Data Science Internship with Inference track (Master's & PhD only, 12 weeks). Application window: December-February.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://careers.airbnb.com/",
+    "type": "Career Portal",
+    "tags": ["marketplace", "causal-inference", "PhD-internship"]
+  },
+  {
+    "name": "DoorDash Data Science",
+    "description": "ML, Operations Research, and Data Science PhD internships (12 weeks, $2,200-2,600/week). Explicitly includes Economists.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://careers.doordash.com/",
+    "type": "Career Portal",
+    "tags": ["marketplace", "economists-welcome", "PhD-internship"]
+  },
+  {
+    "name": "Instacart ML PhD",
+    "description": "ML PhD internships. Economists join as Data Scientists - pricing team has Econ PhDs.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://instacart.careers/",
+    "type": "Career Portal",
+    "tags": ["marketplace", "pricing", "PhD-internship"]
+  },
+  {
+    "name": "eBay Data Science",
+    "description": "Data Science internships available. Less emphasis on dedicated economist roles.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://jobs.ebayinc.com/",
+    "type": "Career Portal",
+    "tags": ["marketplace", "data-science", "PhD-internship"]
+  },
+  {
+    "name": "Etsy DSML Research",
+    "description": "Data Science Intern ($70-75/hr), Research PhD Intern. Marketplace Economics projects. DSML team.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://careers.etsy.com/",
+    "type": "Career Portal",
+    "tags": ["marketplace", "research", "PhD-internship"]
+  },
+  {
+    "name": "LinkedIn Applied Research",
+    "description": "Applied Research Internship 12 weeks. Economic Graph Research Program studies labor markets.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://careers.linkedin.com/",
+    "type": "Career Portal",
+    "tags": ["social-media", "labor-economics", "PhD-internship"]
+  },
+  {
+    "name": "Spotify Research Scientist",
+    "description": "Research Scientist PhD Internship 10-12 weeks (NYC or London). Explicitly welcomes Economics PhDs. Feb 5, 2026 deadline.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://www.lifeatspotify.com/jobs",
+    "type": "Career Portal",
+    "tags": ["social-media", "econ-PhD-welcome", "PhD-internship"]
+  },
+  {
+    "name": "Netflix Research",
+    "description": "ML/AI Scientist Intern PhD. Prefers candidates with industry experience. Public Policy Economists (SEAL team) separate track.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://jobs.netflix.com/",
+    "type": "Career Portal",
+    "tags": ["social-media", "industry-exp-preferred", "PhD-internship"]
+  },
+  {
+    "name": "Pinterest Labs",
+    "description": "PhD ML and PhD Data Science internships ($12,100/month). Economics PhD accepted.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://www.pinterestcareers.com/",
+    "type": "Career Portal",
+    "tags": ["social-media", "econ-PhD-welcome", "PhD-internship"]
+  },
+  {
+    "name": "Discord Data Science",
+    "description": "Data Science Intern - ML, Causal Inference ($78-90/hour for PhD). Seasonal postings, no formal PhD program.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://discord.com/careers",
+    "type": "Career Portal",
+    "tags": ["social-media", "causal-inference", "PhD-internship"]
+  },
+  {
+    "name": "Snap Research",
+    "description": "Snap Research Internship 16-24 weeks. Less economics focus, more CV/ML.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://careers.snap.com/",
+    "type": "Career Portal",
+    "tags": ["social-media", "ML-focused", "PhD-internship"]
+  },
+  {
+    "name": "Stripe PhD Internship",
+    "description": "PhD Data Scientist Intern, PhD ML Engineer Intern (12-16 weeks). Chief Economist. Economics of AI Fellowship.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://stripe.com/jobs/university",
+    "type": "Career Portal",
+    "tags": ["fintech", "economist-title", "PhD-internship"]
+  },
+  {
+    "name": "PayPal PhD Intern",
+    "description": "Data Scientist PhD Intern, ML Scientist PhD Intern ($41-61/hour). Global Analytics & Data Science (GADS). Risk focus.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://careers.pypl.com",
+    "type": "Career Portal",
+    "tags": ["fintech", "risk-analytics", "PhD-internship"]
+  },
+  {
+    "name": "Robinhood Data Scientist",
+    "description": "Data Scientist Intern (Master's or PhD). 48-hour take-home challenge. A/B testing and experimentation emphasis.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://careers.robinhood.com/",
+    "type": "Career Portal",
+    "tags": ["fintech", "experimentation", "PhD-internship"]
+  },
+  {
+    "name": "Affirm Careers",
+    "description": "Strong credit risk and quantitative markets roles. SWE internship exists but no formal PhD pipeline.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://www.affirm.com/careers",
+    "type": "Career Portal",
+    "tags": ["fintech", "credit-risk", "limited-PhD"]
+  },
+  {
+    "name": "Block (Square) Careers",
+    "description": "Focus on software engineering. No visible economist roles or research team.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://block.xyz/careers/jobs",
+    "type": "Career Portal",
+    "tags": ["fintech", "SWE-focused", "limited-PhD"]
+  },
+  {
+    "name": "Adobe Research Internship",
+    "description": "Hundreds of PhD interns annually. 12 research areas. Strong mentorship. Apply: research-internship-phd@adobe.com",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://research.adobe.com/careers/internships/",
+    "type": "Career Portal",
+    "tags": ["enterprise", "large-program", "PhD-internship"]
+  },
+  {
+    "name": "Salesforce AI Research",
+    "description": "AI Research Intern minimum 12 weeks. AI Economist project. Publications at NeurIPS, ICML, ACL.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://www.salesforce.com/company/careers/university-recruiting/research/",
+    "type": "Career Portal",
+    "tags": ["enterprise", "AI-economics", "PhD-internship"]
+  },
+  {
+    "name": "Databricks Research",
+    "description": "PhD GenAI Research Scientist Intern, Data Science Intern. Explicitly accepts Economics PhDs. Causal inference focus.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://www.databricks.com/company/careers/",
+    "type": "Career Portal",
+    "tags": ["enterprise", "econ-PhD-welcome", "PhD-internship"]
+  },
+  {
+    "name": "Intuit AI Research",
+    "description": "AI Research Intern, AI Science Intern. Fintech AI applications. Contact: ai-research@intuit.com",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://jobs.intuit.com/",
+    "type": "Career Portal",
+    "tags": ["enterprise", "fintech-AI", "PhD-internship"]
+  },
+  {
+    "name": "Eli Lilly Statistics",
+    "description": "12-week Statistics Internship. Global Statistical Sciences (200+ statisticians). Deadline: January 4, 2026.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://careers.lilly.com/us/en/stem",
+    "type": "Career Portal",
+    "tags": ["pharma", "biostatistics", "PhD-internship"]
+  },
+  {
+    "name": "Pfizer Biostatistics",
+    "description": "12-week program, 15+ positions. Biostatistics (200+ statisticians), HV&E (HEOR). Deadline: January 30, 2026.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://pfizerstatistics-internprogram-atriumworks.icims.com/",
+    "type": "Career Portal",
+    "tags": ["pharma", "biostatistics", "PhD-internship"]
+  },
+  {
+    "name": "J&J Statistics",
+    "description": "Statistics & Decision Sciences Intern (8-10 positions, Spring House PA, Titusville NJ). Deadline: February 16, 2026.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://careers.jnj.com",
+    "type": "Career Portal",
+    "tags": ["pharma", "biostatistics", "PhD-internship"]
+  },
+  {
+    "name": "Moderna Biostatistics",
+    "description": "Biostatistics Intern 10-12 weeks, Cambridge MA. mRNA clinical development focus.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://modernatx.com/careers",
+    "type": "Career Portal",
+    "tags": ["pharma", "biostatistics", "PhD-internship"]
+  },
+  {
+    "name": "Roche Global Biostatistics",
+    "description": "Biostatistics PhD Summer Internship (UK: 10 weeks). 600+ statisticians globally. HEOR team.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://careers.roche.com/",
+    "type": "Career Portal",
+    "tags": ["pharma", "biostatistics", "PhD-internship"]
+  },
+  {
+    "name": "Genentech E4A/HEOR",
+    "description": "10-12 week summer internships. Posting window November-March. Biostatistics, Evidence for Access (E4A), Translational AI Lab.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://careers.gene.com/",
+    "type": "Career Portal",
+    "tags": ["pharma", "HEOR", "PhD-internship"]
+  },
+  {
+    "name": "Optum HEOR",
+    "description": "Optum AI PhD Intern (remote available). HEOR team for life sciences data analytics.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://www.optum.com/en/careers.html",
+    "type": "Career Portal",
+    "tags": ["pharma", "HEOR", "PhD-internship"]
+  },
+  {
+    "name": "Roblox Virtual Economy",
+    "description": "Data Scientist - PhD Intern, Applied Scientist - PhD Intern (12-16 weeks, $60-64/hour). Explicitly hires Economics PhDs for virtual economy.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://careers.roblox.com",
+    "type": "Career Portal",
+    "tags": ["emerging", "econ-PhD-welcome", "PhD-internship"]
+  },
+  {
+    "name": "OpenAI Residency",
+    "description": "6-month full-time Residency (NOT internship). For career changers and early researchers. Networking essential.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://openai.com/careers/residency-2026-san-francisco/",
+    "type": "Career Portal",
+    "tags": ["emerging", "residency", "networking-required"]
+  },
+  {
+    "name": "Anthropic Careers",
+    "description": "Explicitly states 'We do not offer internships'. Full-time only as Member of Technical Staff. ~50% have PhDs. Networking very essential.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://www.anthropic.com/careers",
+    "type": "Career Portal",
+    "tags": ["emerging", "no-internship", "networking-required"]
+  },
+  {
+    "name": "Notion Careers",
+    "description": "No formal PhD program. General internships accept PhD students. 12-week project-focused.",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://www.notion.com/careers",
+    "type": "Career Portal",
+    "tags": ["emerging", "general-intern", "limited-PhD"]
+  },
+  {
+    "name": "NABE TEC Job Fair",
+    "description": "Free registration for economics PhDs on the job market. Resume deadline Sep 17 (first batch), Oct 5 (final). Amazon, Google, Netflix, Stripe recruit.",
+    "stage": "Discovery",
+    "category": "Networking",
+    "url": "https://www.nabe.com/NABE/NABE/Events/TEC25/TEC2025.aspx",
+    "type": "Conference",
+    "tags": ["essential", "job-fair"]
+  },
+  {
+    "name": "Takeda-UIC HEOR Fellowship",
+    "description": "2-year Health Economics and Outcomes Research fellowship program. Strong for pharma career path.",
+    "stage": "Discovery",
+    "category": "Networking",
+    "url": "https://jobs.takeda.com/health-economics-and-outcomes-fellowship",
+    "type": "Fellowship",
+    "tags": ["pharma", "HEOR", "fellowship"]
+  },
+  {
+    "name": "DeepMind Student Researcher",
+    "description": "Student Researcher Program for PhD students. Research collaborations with academic mentors.",
+    "stage": "Discovery",
+    "category": "Networking",
+    "url": "https://deepmind.google/student-researcher-program/",
+    "type": "Fellowship",
+    "tags": ["research", "Google", "PhD-program"]
+  },
+  {
     "name": "DataLemur SQL",
     "description": "Free SQL practice with FAANG questions. Created by ex-Facebook authors of Ace the Data Science Interview.",
     "stage": "Interview Prep",
@@ -79,15 +646,6 @@
     "url": "https://netflixtechblog.com/quasi-experimentation-at-netflix-566b57d2e362",
     "type": "Blog",
     "tags": ["Netflix", "quasi-experiments"]
-  },
-  {
-    "name": "Scarlet Chen: Econ PhD to Tech",
-    "description": "Stanford PhD to Google/Shopify. Interview experiences at Google, Amazon, Facebook, Uber.",
-    "stage": "Strategy",
-    "category": "Role Landscape",
-    "url": "https://scarlet-chen.medium.com/",
-    "type": "Blog",
-    "tags": ["PhD", "first-hand-experience"]
   },
   {
     "name": "Emma Ding: Product Sense Guide",
@@ -196,33 +754,6 @@
     "url": "https://www.interviewquery.com/p/data-science-take-home-challenges",
     "type": "Practice",
     "tags": ["real-challenges", "with-solutions"]
-  },
-  {
-    "name": "Ace the Data Science Interview",
-    "description": "201 real questions from FAANG, startups, Wall Street. Industry-standard prep resource.",
-    "stage": "Strategy",
-    "category": "Role Landscape",
-    "url": "https://www.acethedatascienceinterview.com/",
-    "type": "Book",
-    "tags": ["comprehensive", "industry-standard"]
-  },
-  {
-    "name": "Rose Tan: Tech Jobs for Econ PhDs",
-    "description": "LinkedIn guide on navigating tech's job market. Networking tips, role types, expectations.",
-    "stage": "Strategy",
-    "category": "PhD Transition",
-    "url": "https://www.linkedin.com/pulse/finding-tech-job-part-1-guide-econ-phds-some-useful-info-rose-tan",
-    "type": "Guide",
-    "tags": ["PhD", "networking"]
-  },
-  {
-    "name": "Levels.fyi",
-    "description": "Crowdsourced tech compensation data. Compare salaries across companies, levels, locations.",
-    "stage": "Offers",
-    "category": "Negotiation",
-    "url": "https://www.levels.fyi/",
-    "type": "Tool",
-    "tags": ["salary-data", "essential"]
   },
   {
     "name": "Levels.fyi Negotiation Guide",
