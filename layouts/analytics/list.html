@@ -117,6 +117,66 @@
             </div>
         </section>
 
+        <!-- Recently Added Section (Static Hugo Content) -->
+        <section class="recently-added-section">
+            <h2>Recently Added</h2>
+            <div class="recently-added-grid">
+                <!-- Recent Packages -->
+                <div class="recent-card">
+                    <h3>Packages</h3>
+                    <ul class="recent-list">
+                        {{ $packages := .Site.Data.packages }}
+                        {{ $len := len $packages }}
+                        {{ $start := sub $len 5 }}
+                        {{ if lt $start 0 }}{{ $start = 0 }}{{ end }}
+                        {{ range $i, $pkg := last 5 $packages }}
+                        <li>
+                            <a href="{{ $pkg.url }}" target="_blank" rel="noopener" data-name="{{ $pkg.name }}">
+                                <span class="name">{{ $pkg.name }}</span>
+                                <span class="category">{{ $pkg.category }}</span>
+                            </a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                    <a href="/packages/" class="see-all">View all {{ len $packages }} packages →</a>
+                </div>
+
+                <!-- Recent Learning Resources -->
+                <div class="recent-card">
+                    <h3>Learning</h3>
+                    <ul class="recent-list">
+                        {{ $resources := .Site.Data.resources }}
+                        {{ range last 5 $resources }}
+                        <li>
+                            <a href="{{ .url }}" target="_blank" rel="noopener" data-name="{{ .name }}">
+                                <span class="name">{{ .name }}</span>
+                                <span class="category">{{ .category }}</span>
+                            </a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                    <a href="/learning/" class="see-all">View all {{ len $resources }} resources →</a>
+                </div>
+
+                <!-- Recent Datasets -->
+                <div class="recent-card">
+                    <h3>Datasets</h3>
+                    <ul class="recent-list">
+                        {{ $datasets := .Site.Data.datasets }}
+                        {{ range last 5 $datasets }}
+                        <li>
+                            <a href="{{ .url }}" target="_blank" rel="noopener" data-name="{{ .name }}">
+                                <span class="name">{{ .name }}</span>
+                                <span class="category">{{ .category }}</span>
+                            </a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                    <a href="/datasets/" class="see-all">View all {{ len $datasets }} datasets →</a>
+                </div>
+            </div>
+        </section>
+
         <!-- Last Updated -->
         <div class="analytics-footer">
             <span id="last-updated">Last updated: -</span>
@@ -490,6 +550,103 @@
     }
 
     .top-content-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .recently-added-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Recently Added Section */
+.recently-added-section {
+    margin-bottom: 2rem;
+}
+
+.recently-added-section h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0 0 1rem;
+}
+
+.recently-added-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.recent-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.25rem;
+}
+
+.recent-card h3 {
+    margin: 0 0 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.recent-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem;
+}
+
+.recent-list li {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.recent-list li:last-child {
+    border-bottom: none;
+}
+
+.recent-list a {
+    display: block;
+    padding: 0.5rem 0;
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.2s;
+}
+
+.recent-list a:hover {
+    color: var(--accent-color);
+}
+
+.recent-list .name {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    margin-bottom: 0.15rem;
+}
+
+.recent-list a:hover .name {
+    color: var(--accent-color);
+}
+
+.recent-list .category {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.see-all {
+    display: inline-block;
+    font-size: 0.8rem;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.see-all:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+    .recently-added-grid {
         grid-template-columns: 1fr;
     }
 }
