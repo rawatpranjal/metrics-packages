@@ -6862,6 +6862,30 @@
                 "Choice Models & Dynamic Choice",
                 "Discrete Choice (Logit, Mixed Logit)"
               ]
+            },
+            {
+              "title": "Valuing New Goods in a Model with Complementarity: Online Newspapers",
+              "authors": "Matthew Gentzkow",
+              "year": 2007,
+              "description": "Mixed logit applied to digital products; estimates substitution between print and online news with cannibalization implications.",
+              "url": "https://www.jstor.org/stable/30034408",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Discrete Choice (Logit, Mixed Logit)"
+              ],
+              "citations": 1250
+            },
+            {
+              "title": "What Drives Media Slant? Evidence from U.S. Daily Newspapers",
+              "authors": "Matthew Gentzkow, Jesse M. Shapiro",
+              "year": 2010,
+              "description": "Discrete choice demand model incorporating ideological content; demonstrates how consumer preferences drive product differentiation in information markets.",
+              "url": "https://onlinelibrary.wiley.com/doi/10.3982/ECTA7195",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Discrete Choice (Logit, Mixed Logit)"
+              ],
+              "citations": 1850
             }
           ]
         },
@@ -6917,6 +6941,42 @@
                 "Consideration Sets & Attention"
               ],
               "citations": 598
+            },
+            {
+              "title": "The Power of Rankings: Quantifying the Effect of Rankings on Online Consumer Search and Purchase Decisions",
+              "authors": "Raluca M. Ursu",
+              "year": 2018,
+              "description": "Uses Expedia field experiment to causally identify position effects; shows rankings affect search behavior but not purchase conditional on search.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/mksc.2017.1072",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Consideration Sets & Attention"
+              ],
+              "citations": 420
+            },
+            {
+              "title": "Quantifying Search and Switching Costs in the U.S. Auto Insurance Industry",
+              "authors": "Elisabeth Honka",
+              "year": 2014,
+              "description": "Develops integrated model of simultaneous search and switching costs using consideration set data; methodological template for separating search from switching frictions.",
+              "url": "https://www.jstor.org/stable/43551529",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Consideration Sets & Attention"
+              ],
+              "citations": 380
+            },
+            {
+              "title": "Product Differentiation, Search Costs, and Competition in the Mutual Fund Industry: A Case Study of S&P 500 Index Funds",
+              "authors": "Ali Horta\u00e7su, Chad Syverson",
+              "year": 2004,
+              "description": "Models search frictions for financially homogeneous products; explains fund proliferation and fee dispersion via information costs.",
+              "url": "https://www.jstor.org/stable/25098694",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Consideration Sets & Attention"
+              ],
+              "citations": 980
             }
           ]
         },
@@ -6972,6 +7032,30 @@
                 "Dynamic Discrete Choice"
               ],
               "citations": 390
+            },
+            {
+              "title": "Dynamics of Consumer Demand for New Durable Goods",
+              "authors": "Gautam Gowrisankaran, Marc Rysman",
+              "year": 2012,
+              "description": "DDC with forward-looking consumers, heterogeneity, and repeat purchases; estimated on digital camcorder data\u2014template for tech durable goods.",
+              "url": "https://www.journals.uchicago.edu/doi/10.1086/664717",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Dynamic Discrete Choice"
+              ],
+              "citations": 580
+            },
+            {
+              "title": "Intertemporal Price Discrimination with Forward-Looking Consumers: Application to the US Market for Console Video-Games",
+              "authors": "Harikesh Nair",
+              "year": 2007,
+              "description": "Dynamic pricing with strategic consumers anticipating price declines; Markov-perfect equilibrium applied to video game consoles.",
+              "url": "https://link.springer.com/article/10.1007/s11129-007-9027-x",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Dynamic Discrete Choice"
+              ],
+              "citations": 420
             }
           ]
         },
@@ -7015,6 +7099,18 @@
                 "Intertemporal Substitution"
               ],
               "citations": 60
+            },
+            {
+              "title": "Binge Watching and Advertising",
+              "authors": "David A. Schweidel, Wendy W. Moe",
+              "year": 2016,
+              "description": "Models streaming video consumption dynamics\u2014session continuation, series switching, and inter-session timing; first rigorous treatment of binge-watching economics using Hulu data.",
+              "url": "https://journals.sagepub.com/doi/10.1509/jm.15.0108",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Intertemporal Substitution"
+              ],
+              "citations": 280
             }
           ]
         },
@@ -7082,6 +7178,329 @@
                 "Choice Architecture & Nudges"
               ],
               "citations": 51
+            },
+            {
+              "title": "The Welfare Effects of Social Media",
+              "authors": "Hunt Allcott, Luca Braghieri, Sarah Eichmeyer, Matthew Gentzkow",
+              "year": 2020,
+              "description": "Large-scale RCT deactivating Facebook; finds deactivation increases well-being and reduces news consumption\u2014questions platform welfare measurement.",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20190658",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Choice Architecture & Nudges"
+              ],
+              "citations": 1850
+            },
+            {
+              "title": "Digital Addiction",
+              "authors": "Hunt Allcott, Matthew Gentzkow, Lena Song",
+              "year": 2022,
+              "description": "Economic model of digital addiction with habit formation and self-control; estimates 31% of social media use attributable to self-control problems.",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20210867",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Choice Architecture & Nudges"
+              ],
+              "citations": 420
+            },
+            {
+              "title": "Privacy Regulation and Online Advertising",
+              "authors": "Avi Goldfarb, Catherine E. Tucker",
+              "year": 2011,
+              "description": "Studies EU privacy directive's effects; shows opt-in defaults reduced ad effectiveness by 65%\u2014demonstrates default effects in digital advertising markets.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.1100.1246",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Choice Architecture & Nudges"
+              ],
+              "citations": 1250
+            }
+          ]
+        },
+        {
+          "id": "search-sequential-choice",
+          "name": "Search & Sequential Choice",
+          "application": "Model how consumers search through products",
+          "papers": [
+            {
+              "title": "Optimal Search for the Best Alternative",
+              "authors": "Martin L. Weitzman",
+              "year": 1979,
+              "description": "The 'Pandora's Box' paper introducing reservation value rule for optimal sequential search\u2014theoretical foundation for all empirical search models.",
+              "url": "https://onlinelibrary.wiley.com/doi/10.2307/1912562",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Search & Sequential Choice"
+              ],
+              "citations": 2800
+            },
+            {
+              "title": "Using Price Distributions to Estimate Search Costs",
+              "authors": "Han Hong, Matthew Shum",
+              "year": 2006,
+              "description": "Develops methodology to estimate search cost distributions from equilibrium price data alone; identification from search model restrictions.",
+              "url": "https://www.jstor.org/stable/25046317",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Search & Sequential Choice"
+              ],
+              "citations": 580
+            },
+            {
+              "title": "Testing Models of Consumer Search Using Data on Web Browsing and Purchasing Behavior",
+              "authors": "Babi\u0307r De Los Santos, Ali Horta\u00e7su, Matthijs R. Wildenbeest",
+              "year": 2012,
+              "description": "Uses e-commerce clickstream data to test sequential vs. fixed-sample search; estimates search costs in online book market.",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/aer.102.6.2955",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Search & Sequential Choice"
+              ],
+              "citations": 520
+            },
+            {
+              "title": "The Probit Choice Model Under Sequential Search with an Application to Online Retailing",
+              "authors": "Jun B. Kim, Paulo Albuquerque, Bart J. Bronnenberg",
+              "year": 2017,
+              "description": "Tractable probit search model combining Weitzman's framework with demand estimation; applied to Amazon camcorder data.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2016.2507",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Search & Sequential Choice"
+              ],
+              "citations": 280
+            }
+          ]
+        },
+        {
+          "id": "learning-experimentation",
+          "name": "Learning & Experimentation in Choice",
+          "application": "Model how consumers learn about product quality",
+          "papers": [
+            {
+              "title": "Decision-Making Under Uncertainty: Capturing Dynamic Brand Choice Processes in Turbulent Consumer Goods Markets",
+              "authors": "Tulin Erdem, Michael P. Keane",
+              "year": 1996,
+              "description": "Seminal paper introducing Bayesian learning for consumer choice under quality uncertainty; consumers update beliefs from experience and advertising signals.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/mksc.15.1.1",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Learning & Experimentation in Choice"
+              ],
+              "citations": 1850
+            },
+            {
+              "title": "Empirically Distinguishing Informative and Prestige Effects of Advertising",
+              "authors": "Daniel A. Ackerberg",
+              "year": 2001,
+              "description": "Clever identification strategy separating informative from prestige advertising effects using experience goods; informative ads affect inexperienced consumers differently.",
+              "url": "https://www.jstor.org/stable/2692307",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Learning & Experimentation in Choice"
+              ],
+              "citations": 680
+            },
+            {
+              "title": "A Dynamic Model of Brand Choice When Price and Advertising Signal Product Quality",
+              "authors": "Tulin Erdem, Michael P. Keane, Baohong Sun",
+              "year": 2008,
+              "description": "Integrates multiple quality signals (price, advertising frequency, content, experience) into unified Bayesian framework; shows promotions can erode brand equity.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/mksc.1070.0327",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Learning & Experimentation in Choice"
+              ],
+              "citations": 520
+            },
+            {
+              "title": "Learning Models: An Assessment of Progress, Challenges and New Developments",
+              "authors": "Andrew T. Ching, Tulin Erdem, Michael P. Keane",
+              "year": 2013,
+              "description": "Comprehensive survey covering identification, estimation, and extensions including forgetting and social learning\u2014essential methodological reference.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/mksc.1120.0755",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Learning & Experimentation in Choice"
+              ],
+              "citations": 380
+            }
+          ]
+        },
+        {
+          "id": "recommendation-systems",
+          "name": "Recommendation Systems & Algorithmic Choice",
+          "application": "Understand how algorithms shape consumer choices",
+          "papers": [
+            {
+              "title": "Blockbuster Culture's Next Rise or Fall: The Impact of Recommender Systems on Sales Diversity",
+              "authors": "Daniel Fleder, Kartik Hosanagar",
+              "year": 2009,
+              "description": "Shows collaborative filtering exhibits popularity bias through rich-get-richer effects; recommendations can reduce, not increase, sales diversity.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.1080.0974",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Recommendation Systems & Algorithmic Choice"
+              ],
+              "citations": 850
+            },
+            {
+              "title": "Will the Global Village Fracture into Tribes? Recommender Systems and Their Effects on Consumer Fragmentation",
+              "authors": "Kartik Hosanagar, Daniel Fleder, Dokyun Lee, Andreas Buja",
+              "year": 2014,
+              "description": "Contrary to fragmentation fears, finds personalization increases commonality across consumers through volume and mix effects.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2013.1808",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Recommendation Systems & Algorithmic Choice"
+              ],
+              "citations": 420
+            },
+            {
+              "title": "Do Recommender Systems Manipulate Consumer Preferences? A Study of Anchoring Effects",
+              "authors": "Gediminas Adomavicius, Jesse C. Bockstedt, Shawn P. Curley, Jingjing Zhang",
+              "year": 2013,
+              "description": "Experiments show recommendations serve as anchors influencing users' own preference ratings; creates feedback loops affecting future recommendations.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/isre.2013.0497",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Recommendation Systems & Algorithmic Choice"
+              ],
+              "citations": 380
+            },
+            {
+              "title": "Understanding Echo Chambers and Filter Bubbles: The Impact of Social Media on Diversification and Partisan Shifts in News Consumption",
+              "authors": "Brent Kitchens, Steven L. Johnson, Peter Gray",
+              "year": 2020,
+              "description": "Using 4+ years of browsing data from 200,000+ U.S. adults, finds differentiated platform effects: Facebook increases diversity but partisan shift; Twitter shows minimal effects.",
+              "url": "https://misq.umn.edu/understanding-echo-chambers-and-filter-bubbles-the-impact-of-social-media-on-diversification-and-partisan-shifts-in-news-consumption.html",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Recommendation Systems & Algorithmic Choice"
+              ],
+              "citations": 320
+            },
+            {
+              "title": "Algorithmic Effects on the Diversity of Consumption on Spotify",
+              "authors": "Ashton Anderson, Lucas Maystre, Ian Anderson, Rishabh Mehrotra, Mounia Lalmas",
+              "year": 2020,
+              "description": "Field experiments show consumption diversity correlates with retention, yet algorithmic recommendations push toward less diverse listening\u2014identifies core platform design tension.",
+              "url": "https://dl.acm.org/doi/10.1145/3366423.3380281",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Recommendation Systems & Algorithmic Choice"
+              ],
+              "citations": 280
+            }
+          ]
+        },
+        {
+          "id": "switching-costs-lock-in",
+          "name": "Switching Costs & Platform Lock-in",
+          "application": "Analyze why consumers stay with platforms",
+          "papers": [
+            {
+              "title": "Competition When Consumers Have Switching Costs: An Overview with Applications to Industrial Organization, Macroeconomics, and International Trade",
+              "authors": "Paul Klemperer",
+              "year": 1995,
+              "description": "Seminal survey establishing theoretical framework for how switching costs create market share dependence and affect competitive dynamics.",
+              "url": "https://academic.oup.com/restud/article/62/4/515/1577097",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Switching Costs & Platform Lock-in"
+              ],
+              "citations": 2400
+            },
+            {
+              "title": "State Dependence and Alternative Explanations for Consumer Inertia",
+              "authors": "Jean-Pierre Dub\u00e9, G\u00fcnter J. Hitsch, Peter E. Rossi",
+              "year": 2010,
+              "description": "Demonstrates identification of structural state dependence from spurious heterogeneity using flexible semi-parametric methods; distinguishes true loyalty from heterogeneity.",
+              "url": "https://www.jstor.org/stable/25651509",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Switching Costs & Platform Lock-in"
+              ],
+              "citations": 680
+            },
+            {
+              "title": "Adverse Selection and Inertia in Health Insurance Markets: When Nudging Hurts",
+              "authors": "Benjamin R. Handel",
+              "year": 2013,
+              "description": "Quantifies massive switching costs ($2,000+) using natural experiment; shows reducing inertia can backfire by exacerbating adverse selection.",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/aer.103.7.2643",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Switching Costs & Platform Lock-in"
+              ],
+              "citations": 1150
+            },
+            {
+              "title": "Competition in Two-Sided Markets",
+              "authors": "Mark Armstrong",
+              "year": 2006,
+              "description": "Foundational model distinguishing single-homing from multi-homing; introduces 'competitive bottlenecks' explaining platform lock-in dynamics.",
+              "url": "https://www.jstor.org/stable/25046346",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Switching Costs & Platform Lock-in"
+              ],
+              "citations": 3200
+            }
+          ]
+        },
+        {
+          "id": "social-influence-peer-effects",
+          "name": "Social Influence & Peer Effects",
+          "application": "Model how others' choices affect decisions",
+          "papers": [
+            {
+              "title": "A Simple Model of Herd Behavior",
+              "authors": "Abhijit V. Banerjee",
+              "year": 1992,
+              "description": "Classic model where rational agents ignore private information and follow predecessors, leading to potentially inefficient herding cascades.",
+              "url": "https://www.jstor.org/stable/2118364",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Social Influence & Peer Effects"
+              ],
+              "citations": 6800
+            },
+            {
+              "title": "A Theory of Fads, Fashion, Custom, and Cultural Change as Informational Cascades",
+              "authors": "Sushil Bikhchandani, David Hirshleifer, Ivo Welch",
+              "year": 1992,
+              "description": "Introduces informational cascades where optimal behavior is to follow predecessors; explains fragility of mass behaviors and sudden social shifts.",
+              "url": "https://www.journals.uchicago.edu/doi/10.1086/261849",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Social Influence & Peer Effects"
+              ],
+              "citations": 5200
+            },
+            {
+              "title": "Identification of Endogenous Social Effects: The Reflection Problem",
+              "authors": "Charles F. Manski",
+              "year": 1993,
+              "description": "Foundational econometrics paper showing why peer effects cannot be identified from behavioral data alone\u2014the 'reflection problem' from simultaneity.",
+              "url": "https://academic.oup.com/restud/article/60/3/531/1570385",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Social Influence & Peer Effects"
+              ],
+              "citations": 4800
+            },
+            {
+              "title": "Creating Social Contagion Through Viral Product Design: A Randomized Trial of Peer Influence in Networks",
+              "authors": "Sinan Aral, Dylan Walker",
+              "year": 2011,
+              "description": "Landmark RCT with 1.4 million Facebook users identifying causal peer influence; passive-broadcast features generate 246% increase in peer adoption.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.1110.1421",
+              "tags": [
+                "Choice Models & Dynamic Choice",
+                "Social Influence & Peer Effects"
+              ],
+              "citations": 1250
             }
           ]
         }
