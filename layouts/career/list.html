@@ -163,6 +163,7 @@
             <button class="subtab active" data-subtab="companies">Companies by Sector</button>
             <button class="subtab" data-subtab="job-boards">Job Boards</button>
             <button class="subtab" data-subtab="networking">Networking</button>
+            <button class="subtab" data-subtab="materials">Materials</button>
         </div>
 
         <!-- Companies Subtab -->
@@ -245,6 +246,30 @@
                 </div>
             </section>
         </div>
+
+        <!-- Materials Subtab -->
+        <div id="subtab-materials" class="subtab-content">
+            <section class="curated-section">
+                <div class="section-header">
+                    <h2>Application Materials</h2>
+                    <p>Resumes, portfolios, GitHub profiles, and personal websites.</p>
+                </div>
+                <div class="resource-grid">
+                    {{ range .Site.Data.career }}
+                    {{ if and (eq .tab "find-jobs") (eq .subtab "materials") }}
+                    <a href="{{ .url }}" target="_blank" rel="noopener" class="resource-card">
+                        <img class="favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
+                        <div class="resource-content">
+                            <span class="resource-name">{{ .name }}</span>
+                            <p class="resource-desc">{{ .description }}</p>
+                        </div>
+                        <span class="type-badge">{{ .type }}</span>
+                    </a>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </section>
+        </div>
     </div>
 
     <!-- Tab 4: Interview Prep -->
@@ -298,6 +323,7 @@
         <!-- Subtabs -->
         <div class="subtabs">
             <button class="subtab active" data-subtab="negotiation">Negotiation</button>
+            <button class="subtab" data-subtab="visa">Visa & Immigration</button>
         </div>
 
         <!-- Negotiation Subtab -->
@@ -316,6 +342,30 @@
                             <span class="negotiation-name">{{ .name }}</span>
                             <p class="negotiation-desc">{{ .description }}</p>
                         </div>
+                    </a>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </section>
+        </div>
+
+        <!-- Visa Subtab -->
+        <div id="subtab-visa" class="subtab-content">
+            <section class="curated-section">
+                <div class="section-header">
+                    <h2>Visa & Immigration</h2>
+                    <p>H-1B sponsorship, green cards, and immigration resources for international candidates.</p>
+                </div>
+                <div class="resource-grid">
+                    {{ range .Site.Data.career }}
+                    {{ if and (eq .tab "offers") (eq .subtab "visa") }}
+                    <a href="{{ .url }}" target="_blank" rel="noopener" class="resource-card">
+                        <img class="favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
+                        <div class="resource-content">
+                            <span class="resource-name">{{ .name }}</span>
+                            <p class="resource-desc">{{ .description }}</p>
+                        </div>
+                        <span class="type-badge">{{ .type }}</span>
                     </a>
                     {{ end }}
                     {{ end }}

@@ -2478,5 +2478,171 @@
       "cheatsheets",
       "offline"
     ]
+  },
+  {
+    "name": "Harvard GSAS Resume & Cover Letter Guide",
+    "description": "Gold-standard 24-page PDF with 9 resume examples from PhDs who landed BCG, Goldman, FAANG. CV-to-resume conversion with discipline-specific framing.",
+    "url": "https://cdn-careerservices.fas.harvard.edu/wp-content/uploads/sites/161/2024/08/2024-GSAS_phd_resume_cover_letters-1.pdf",
+    "type": "Guide",
+    "category": "Materials",
+    "stage": "Discovery",
+    "tab": "find-jobs",
+    "subtab": "materials",
+    "tags": ["resume", "Harvard", "PhD"]
+  },
+  {
+    "name": "FAANG Recruiter's Guide to Data Resumes",
+    "description": "Former Microsoft/Amazon/Uber recruiter reveals 6-10 second resume scan process. Debunks ATS myths, shows before/after examples, networking strategies to bypass ATS.",
+    "url": "https://thedatahustle.substack.com/p/from-rejection-to-offer-the-faang",
+    "type": "Guide",
+    "category": "Materials",
+    "stage": "Discovery",
+    "tab": "find-jobs",
+    "subtab": "materials",
+    "tags": ["resume", "FAANG", "recruiter-perspective"]
+  },
+  {
+    "name": "Justin Ellis: Academia to Data Science",
+    "description": "PhD astrophysicist to Principal Engineer. Ranks 3 portfolio project types by value, GitHub documentation best practices, learning industry lingo without deep expertise.",
+    "url": "https://jellis18.github.io/post/2021-01-03-from-academia-to-data-science/",
+    "type": "Blog",
+    "category": "Materials",
+    "stage": "Discovery",
+    "tab": "find-jobs",
+    "subtab": "materials",
+    "tags": ["portfolio", "PhD", "GitHub"]
+  },
+  {
+    "name": "GitHub for Data Science Job Seekers",
+    "description": "Only dedicated course on GitHub optimization for DS job seekers. Profile README, project resume construction, hiring manager perspective. Adopted by multiple university career centers.",
+    "url": "https://www.linkedin.com/learning/github-for-data-science-job-seekers",
+    "type": "Course",
+    "category": "Materials",
+    "stage": "Discovery",
+    "tab": "find-jobs",
+    "subtab": "materials",
+    "tags": ["GitHub", "portfolio", "LinkedIn-Learning"]
+  },
+  {
+    "name": "Yu Dong: Building a DS Portfolio",
+    "description": "6 years portfolio experience. Compares 5 platforms (personal site, GitHub, Kaggle, Medium, LinkedIn). Content strategy for technical tutorials, analysis reports, career journey docs.",
+    "url": "https://yudong-94.github.io/personal-website/blog/DataSciencePortfolio/",
+    "type": "Guide",
+    "category": "Materials",
+    "stage": "Discovery",
+    "tab": "find-jobs",
+    "subtab": "materials",
+    "tags": ["portfolio", "personal-website", "practitioner"]
+  },
+  {
+    "name": "Evan Buntrock: Amazon Interviewer Perspective",
+    "description": "Cornell PhD who conducted 250+ Amazon interviews (175 economist). Failed 2014 (30 apps, 0 offers), succeeded 2015 (100 apps, 35 interviews). Both sides of the interview table.",
+    "url": "https://sites.google.com/view/themostdismalscientist/industry-job-finding-advice",
+    "type": "Guide",
+    "category": "PhD Transition",
+    "stage": "Strategy",
+    "tier": "essential",
+    "tab": "start-here",
+    "subtab": "",
+    "tags": ["PhD", "Amazon", "interviewer-perspective"]
+  },
+  {
+    "name": "Chris Nosko: Chicago Booth to Uber VP (Mixtape)",
+    "description": "Harvard PhD to tenure-track at Chicago Booth to VP at Uber. How Pat Bajari recruited structural IO economists to Amazon, economist work at marketplace companies, managing career risk.",
+    "url": "https://causalinf.substack.com/p/s1e23-interview-with-chris-nosko",
+    "type": "Podcast",
+    "category": "PhD Transition",
+    "stage": "Strategy",
+    "tab": "start-here",
+    "subtab": "",
+    "tags": ["PhD", "Uber", "senior-leadership"]
+  },
+  {
+    "name": "Rose Tan: My Journey from Econ PhD to Tech",
+    "description": "Columbia PhD to LinkedIn Staff DS. Internship strategy (Quora for startup pace, Facebook for research), timeline, 'the big talk' with advisors, reverse interviewing teams. Founded Economists in Tech LinkedIn group.",
+    "url": "https://www.linkedin.com/pulse/my-journey-from-economics-phd-data-scientist-tech-rose-tan",
+    "type": "Article",
+    "category": "PhD Transition",
+    "stage": "Strategy",
+    "tab": "start-here",
+    "subtab": "",
+    "tags": ["PhD", "LinkedIn", "internship-strategy"]
+  },
+  {
+    "name": "Zijing Zhu: How I Became a Data Scientist",
+    "description": "Honest narrative of 7 months job searching with constant rejections. Why she left academia, Python learning strategy, 8-week bootcamp experience. Has YouTube channel with day-in-the-life content.",
+    "url": "https://towardsdatascience.com/how-i-became-a-data-scientist-7f5b10606612",
+    "type": "Article",
+    "category": "PhD Transition",
+    "stage": "Strategy",
+    "tab": "start-here",
+    "subtab": "",
+    "tags": ["PhD", "bootcamp", "honest-narrative"]
+  },
+  {
+    "name": "Susan Athey: First Microsoft Chief Economist (Mixtape)",
+    "description": "First female John Bates Clark Medal winner, pioneered tech economics with Hal Varian (Google). How CEO Steve Ballmer recruited her, taking two leaves from Harvard, the origin story of tech economists.",
+    "url": "https://causalinf.substack.com/p/interview-with-susan-athey-professor-48e",
+    "type": "Podcast",
+    "category": "PhD Transition",
+    "stage": "Strategy",
+    "tab": "start-here",
+    "subtab": "",
+    "tags": ["PhD", "Microsoft", "pioneer"]
+  },
+  {
+    "name": "InterviewQuery: Visa Sponsorship for DS Jobs",
+    "description": "First-person account navigating H-1B lottery multiple times. Covers H-1B, L-1A/B, O-1, E-3, TN, EB green cards. Strategy: start at large companies for L-1B transfer eligibility.",
+    "url": "https://www.interviewquery.com/p/visa-sponsorship-data-science",
+    "type": "Guide",
+    "category": "Visa",
+    "stage": "Offers",
+    "tab": "offers",
+    "subtab": "visa",
+    "tags": ["H-1B", "visa", "international"]
+  },
+  {
+    "name": "EB2NIW.com: DIY Green Card Resource",
+    "description": "Perfect for PhD economists. Created by successful self-petitioners. Includes actual petition documents, Matter of Dhanasar framework, concurrent filing strategy. No employer sponsorship required.",
+    "url": "https://www.eb2niw.com/",
+    "type": "Guide",
+    "category": "Visa",
+    "stage": "Offers",
+    "tab": "offers",
+    "subtab": "visa",
+    "tags": ["green-card", "EB-2-NIW", "self-petition"]
+  },
+  {
+    "name": "H1BData.info: Salary & Sponsor Database",
+    "description": "4.8M+ LCA records from 2013-2025. Search by company, job title, city, year. Pre-built searches for Google, Meta, Apple, Amazon, Microsoft, OpenAI, Nvidia. Critical for negotiation.",
+    "url": "https://h1bdata.info/",
+    "type": "Tool",
+    "category": "Visa",
+    "stage": "Offers",
+    "tab": "offers",
+    "subtab": "visa",
+    "tags": ["H-1B", "salary-data", "database"]
+  },
+  {
+    "name": "Built In: Companies That Sponsor H-1B",
+    "description": "Updated 2025 list with approval numbers. Beyond FAANG: Stripe (100% approval), Databricks (300+ approvals), consulting firms. Includes 2025 policy changes and $100K fee update.",
+    "url": "https://builtin.com/diversity-inclusion/companies-that-sponsor-h1b-visas",
+    "type": "Guide",
+    "category": "Visa",
+    "stage": "Offers",
+    "tab": "offers",
+    "subtab": "visa",
+    "tags": ["H-1B", "company-list", "2025"]
+  },
+  {
+    "name": "USCIS H-1B Employer Data Hub",
+    "description": "Official interactive tool. Query by fiscal year, employer, city, NAICS code. Shows approval AND denial rates by employer. Identifies smaller sponsors beyond big tech. Updated quarterly.",
+    "url": "https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub",
+    "type": "Tool",
+    "category": "Visa",
+    "stage": "Offers",
+    "tab": "offers",
+    "subtab": "visa",
+    "tags": ["H-1B", "official", "USCIS"]
   }
 ]
