@@ -2656,17 +2656,17 @@ mark {
     color: rgba(255,255,255,0.8);
 }
 
-/* Page-specific hero backgrounds */
-.hero-home { background-image: url('/images/hero/home-hero.jpg'); }
-.hero-packages { background-image: url('/images/hero/packages-hero.jpg'); }
-.hero-datasets { background-image: url('/images/hero/datasets-hero.jpg'); }
-.hero-learning { background-image: url('/images/hero/learning-hero.jpg'); }
-.hero-talks { background-image: url('/images/hero/talks-hero.jpg'); }
-.hero-career { background-image: url('/images/hero/career-hero.jpg'); }
-.hero-community { background-image: url('/images/hero/community-hero.jpg'); }
-.hero-start { background-image: url('/images/hero/start-hero.jpg'); }
-.hero-books { background-image: url('/images/hero/books-hero.jpg'); }
-.hero-papers { background-image: url('/images/hero/papers-hero.jpg'); }
+/* Page-specific hero backgrounds (WebP with JPG fallback) */
+.hero-home { background-image: url('/images/hero/home-hero.webp'); }
+.hero-packages { background-image: url('/images/hero/packages-hero.webp'); }
+.hero-datasets { background-image: url('/images/hero/datasets-hero.webp'); }
+.hero-learning { background-image: url('/images/hero/learning-hero.webp'); }
+.hero-talks { background-image: url('/images/hero/talks-hero.webp'); }
+.hero-career { background-image: url('/images/hero/career-hero.webp'); }
+.hero-community { background-image: url('/images/hero/community-hero.webp'); }
+.hero-start { background-image: url('/images/hero/start-hero.webp'); }
+.hero-books { background-image: url('/images/hero/books-hero.webp'); }
+.hero-papers { background-image: url('/images/hero/papers-hero.webp'); }
 
 /* Book author styling */
 .resource-author {
@@ -3652,6 +3652,61 @@ mark {
     font-size: 0.75rem;
     color: var(--text-muted);
     text-align: center;
+}
+
+/* Auth Confirmation Screen */
+.auth-confirmation {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.auth-confirmation-icon {
+    color: #22c55e;
+    margin-bottom: 1.5rem;
+}
+
+.auth-confirmation-icon svg {
+    width: 64px;
+    height: 64px;
+}
+
+.auth-confirmation-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0 0 1rem;
+}
+
+.auth-confirmation-text {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin: 0 0 0.5rem;
+}
+
+.auth-confirmation-text strong {
+    color: var(--text-primary);
+}
+
+.auth-confirmation-subtext {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    margin: 0 0 1.5rem;
+}
+
+.auth-confirmation-close {
+    background: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.auth-confirmation-close:hover {
+    background: var(--accent-color-hover, #2563eb);
 }
 
 /* Favorite Button */

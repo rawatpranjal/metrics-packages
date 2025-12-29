@@ -116,6 +116,19 @@
                 <p class="auth-footer">
                     By signing in, you agree to our terms of service.
                 </p>
+
+                <div class="auth-confirmation" id="auth-confirmation" style="display: none;">
+                    <div class="auth-confirmation-icon">
+                        <svg viewBox="0 0 24 24" width="64" height="64" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                    </div>
+                    <h2 class="auth-confirmation-title">Check your email!</h2>
+                    <p class="auth-confirmation-text">We sent a confirmation link to <strong id="auth-confirmation-email"></strong></p>
+                    <p class="auth-confirmation-subtext">Click the link in the email to complete your signup.</p>
+                    <button class="auth-confirmation-close" id="auth-confirmation-close">Got it</button>
+                </div>
             </div>
         `;
         document.body.appendChild(modal);
@@ -167,12 +180,14 @@
                 if (currentTab === 'signin') {
                     await TechEconAuth.signIn(email, password);
                     showToast('Welcome back!');
+                    TechEconAuth.hideModal();
+                    form.reset();
                 } else {
                     await TechEconAuth.signUp(email, password);
-                    showToast('Check your email to confirm your account');
+                    // Show confirmation screen instead of closing
+                    showSignupConfirmation(email);
+                    form.reset();
                 }
-                TechEconAuth.hideModal();
-                form.reset();
             } catch (err) {
                 errorEl.textContent = err.message || 'An error occurred';
             } finally {
@@ -180,6 +195,58 @@
                 submitBtn.textContent = currentTab === 'signin' ? 'Sign In' : 'Sign Up';
             }
         });
+
+        // Signup confirmation handlers
+        const confirmationEl = document.getElementById('auth-confirmation');
+        const confirmationCloseBtn = document.getElementById('auth-confirmation-close');
+        const authFormWrapper = modal.querySelector('.auth-form');
+        const authTabs = modal.querySelector('.auth-tabs');
+        const authTitle = modal.querySelector('.auth-modal-title');
+        const authSubtitle = modal.querySelector('.auth-modal-subtitle');
+        const authFooter = modal.querySelector('.auth-footer');
+
+        function showSignupConfirmation(email) {
+            // Hide form elements
+            if (authFormWrapper) authFormWrapper.style.display = 'none';
+            if (authTabs) authTabs.style.display = 'none';
+            if (authTitle) authTitle.style.display = 'none';
+            if (authSubtitle) authSubtitle.style.display = 'none';
+            if (authFooter) authFooter.style.display = 'none';
+
+            // Show confirmation
+            document.getElementById('auth-confirmation-email').textContent = email;
+            confirmationEl.style.display = 'block';
+        }
+
+        function hideSignupConfirmation() {
+            // Show form elements
+            if (authFormWrapper) authFormWrapper.style.display = 'block';
+            if (authTabs) authTabs.style.display = 'flex';
+            if (authTitle) authTitle.style.display = 'block';
+            if (authSubtitle) authSubtitle.style.display = 'block';
+            if (authFooter) authFooter.style.display = 'block';
+
+            // Hide confirmation
+            confirmationEl.style.display = 'none';
+        }
+
+        if (confirmationCloseBtn) {
+            confirmationCloseBtn.addEventListener('click', function() {
+                TechEconAuth.hideModal();
+                hideSignupConfirmation();
+            });
+        }
+
+        // Also hide confirmation when modal is closed
+        const originalHideModal = TechEconAuth.hideModal;
+        TechEconAuth.hideModal = function() {
+            hideSignupConfirmation();
+            modal.classList.remove('open');
+            document.body.style.overflow = '';
+        };
+
+        // Make showSignupConfirmation available
+        window.showSignupConfirmation = showSignupConfirmation;
     }
 
     // Toast notification

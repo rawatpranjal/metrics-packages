@@ -43,7 +43,13 @@
     // Auth functions
     window.TechEconAuth = {
         signUp: async function(email, password) {
-            const { data, error } = await supabase.auth.signUp({ email, password });
+            const { data, error } = await supabase.auth.signUp({
+                email,
+                password,
+                options: {
+                    emailRedirectTo: 'https://tech-econ.com/favorites/'
+                }
+            });
             if (error) throw error;
             return data;
         },
