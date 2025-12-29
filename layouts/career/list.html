@@ -3,7 +3,7 @@
 <header class="hero hero-with-image hero-career">
     <h1 class="hero-title">Career</h1>
     {{ $activeCount := 0 }}
-    {{ range .Site.Data.career }}{{ if not .archived }}{{ $activeCount = add $activeCount 1 }}{{ end }}{{ end }}
+    {{ range .Site.Data.career }}{{ if .tab }}{{ $activeCount = add $activeCount 1 }}{{ end }}{{ end }}
     <p class="hero-tagline">{{ $activeCount }} curated resources for your PhD to Tech journey.</p>
 </header>
 
@@ -28,12 +28,28 @@
 
     <!-- Main Tabs -->
     <div class="career-tabs">
-        <button class="career-tab active" data-tab="strategy">
+        <button class="career-tab active" data-tab="start-here">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+            </svg>
+            Start Here
+        </button>
+        <button class="career-tab" data-tab="understand">
             <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
                 <circle cx="12" cy="12" r="10"></circle>
-                <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                <line x1="12" y1="17" x2="12.01" y2="17"></line>
             </svg>
-            Strategy & Discovery
+            Understand
+        </button>
+        <button class="career-tab" data-tab="find-jobs">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="m21 21-4.35-4.35"></path>
+            </svg>
+            Find Jobs
         </button>
         <button class="career-tab" data-tab="interview">
             <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
@@ -43,21 +59,26 @@
             </svg>
             Interview Prep
         </button>
+        <button class="career-tab" data-tab="offers">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="1" x2="12" y2="23"></line>
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+            </svg>
+            Offers
+        </button>
     </div>
 
-    <!-- Tab 1: Strategy & Discovery -->
-    <div id="tab-strategy" class="career-tab-content active">
-
-        <!-- Essential Reading Section -->
+    <!-- Tab 1: Start Here -->
+    <div id="tab-start-here" class="career-tab-content active">
         <section class="curated-section essential-section">
             <div class="section-header">
-                <h2>Start Here: Essential Reading</h2>
+                <h2>Essential Reading</h2>
                 <p>New to tech careers for economists? Begin with these foundational resources.</p>
             </div>
             <ol class="essential-list">
                 {{ $num := 0 }}
                 {{ range .Site.Data.career }}
-                {{ if and (eq .section "essential") (not .archived) }}
+                {{ if eq .tab "start-here" }}
                 {{ $num = add $num 1 }}
                 <li class="essential-item">
                     <span class="essential-number">{{ $num }}</span>
@@ -74,126 +95,274 @@
                 {{ end }}
             </ol>
         </section>
-
-        <!-- Role Sense Section -->
-        <section class="curated-section roles-section">
-            <div class="section-header">
-                <h2>Understanding Roles</h2>
-                <p>Learn how DS/Economist roles differ across companies and levels.</p>
-            </div>
-            <div class="roles-grid">
-                {{ range .Site.Data.career }}
-                {{ if and (eq .section "roles") (not .archived) }}
-                <a href="{{ .url }}" target="_blank" rel="noopener" class="role-card">
-                    <img class="favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
-                    <span class="role-name">{{ .name }}</span>
-                </a>
-                {{ end }}
-                {{ end }}
-            </div>
-        </section>
-
-        <!-- Type of Work Section -->
-        <section class="curated-section work-section">
-            <div class="section-header">
-                <h2>What Teams Do</h2>
-                <p>One exemplar article per domain to understand different team types.</p>
-            </div>
-            <div class="work-grid">
-                {{ $domains := slice "Pricing" "Experimentation" "Ads" "Trust" "Forecasting" "Recommendations" "Growth" "Economist Teams" }}
-                {{ range $domain := $domains }}
-                {{ range $.Site.Data.career }}
-                {{ if and (eq .section "work") (eq .domain $domain) (not .archived) }}
-                <a href="{{ .url }}" target="_blank" rel="noopener" class="work-card">
-                    <div class="work-badge">{{ $domain }}</div>
-                    <div class="work-content">
-                        <img class="favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
-                        <span class="work-name">{{ .name }}</span>
-                    </div>
-                    <p class="work-desc">{{ .description }}</p>
-                </a>
-                {{ end }}
-                {{ end }}
-                {{ end }}
-            </div>
-        </section>
-
-        <!-- Companies by Sector Section -->
-        <section class="curated-section companies-section">
-            <div class="section-header">
-                <h2>Companies Hiring</h2>
-                <p>Career portals organized by sector.</p>
-            </div>
-
-            <!-- Sector Pills -->
-            <div class="sector-pills">
-                <button class="sector-pill active" data-sector="all">All</button>
-                <button class="sector-pill" data-sector="faang">FAANG+</button>
-                <button class="sector-pill" data-sector="marketplace">Marketplaces</button>
-                <button class="sector-pill" data-sector="social">Social & Media</button>
-                <button class="sector-pill" data-sector="fintech">Fintech</button>
-                <button class="sector-pill" data-sector="saas">Enterprise</button>
-                <button class="sector-pill" data-sector="pharma">Pharma</button>
-                <button class="sector-pill" data-sector="ai-gaming">AI & Gaming</button>
-            </div>
-
-            <div class="companies-grid">
-                {{ range .Site.Data.career }}
-                {{ if and (eq .section "companies") (not .archived) }}
-                <a href="{{ .url }}" target="_blank" rel="noopener" class="company-card" data-sector="{{ .sector }}">
-                    <img class="favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
-                    <span class="company-name">{{ .name }}</span>
-                </a>
-                {{ end }}
-                {{ end }}
-            </div>
-        </section>
-
-        <!-- Negotiation Section -->
-        <section class="curated-section negotiation-section">
-            <div class="section-header">
-                <h2>Offer Negotiation</h2>
-                <p>Resources for evaluating and negotiating offers.</p>
-            </div>
-            <div class="negotiation-grid">
-                {{ range .Site.Data.career }}
-                {{ if and (eq .section "negotiation") (not .archived) }}
-                <a href="{{ .url }}" target="_blank" rel="noopener" class="negotiation-card">
-                    <img class="favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
-                    <div class="negotiation-content">
-                        <span class="negotiation-name">{{ .name }}</span>
-                        <p class="negotiation-desc">{{ .description }}</p>
-                    </div>
-                </a>
-                {{ end }}
-                {{ end }}
-            </div>
-        </section>
     </div>
 
-    <!-- Tab 2: Interview Prep -->
-    <div id="tab-interview" class="career-tab-content">
-        {{ $interviewCategories := slice "SQL & Data" "Stats & Probability" "Experimentation" "ML Fundamentals" "ML System Design" "Product Sense" "Behavioral" "Take-Home" }}
+    <!-- Tab 2: Understand -->
+    <div id="tab-understand" class="career-tab-content">
+        <!-- Subtabs -->
+        <div class="subtabs">
+            <button class="subtab active" data-subtab="role-types">Role Types</button>
+            <button class="subtab" data-subtab="what-teams-do">What Teams Do</button>
+        </div>
 
-        {{ range $cat := $interviewCategories }}
+        <!-- Role Types Subtab -->
+        <div id="subtab-role-types" class="subtab-content active">
+            <section class="curated-section roles-section">
+                <div class="section-header">
+                    <h2>Understanding Roles</h2>
+                    <p>Learn how DS/Economist roles differ across companies and levels.</p>
+                </div>
+                <div class="roles-grid">
+                    {{ range .Site.Data.career }}
+                    {{ if and (eq .tab "understand") (eq .subtab "role-types") }}
+                    <a href="{{ .url }}" target="_blank" rel="noopener" class="role-card">
+                        <img class="favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
+                        <div class="role-info">
+                            <span class="role-name">{{ .name }}</span>
+                            <p class="role-desc">{{ .description | truncate 100 }}</p>
+                        </div>
+                    </a>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </section>
+        </div>
+
+        <!-- What Teams Do Subtab -->
+        <div id="subtab-what-teams-do" class="subtab-content">
+            <section class="curated-section work-section">
+                <div class="section-header">
+                    <h2>What Teams Do</h2>
+                    <p>One exemplar article per domain to understand different team types.</p>
+                </div>
+                <div class="work-grid">
+                    {{ $domains := slice "Pricing" "Experimentation" "Ads" "Trust" "Forecasting" "Recommendations" "Growth" "Economist Teams" }}
+                    {{ range $domain := $domains }}
+                    {{ range $.Site.Data.career }}
+                    {{ if and (eq .tab "understand") (eq .subtab "what-teams-do") (eq .domain $domain) }}
+                    <a href="{{ .url }}" target="_blank" rel="noopener" class="work-card">
+                        <div class="work-badge">{{ $domain }}</div>
+                        <div class="work-content">
+                            <img class="favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
+                            <span class="work-name">{{ .name }}</span>
+                        </div>
+                        <p class="work-desc">{{ .description }}</p>
+                    </a>
+                    {{ end }}
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Tab 3: Find Jobs -->
+    <div id="tab-find-jobs" class="career-tab-content">
+        <!-- Subtabs -->
+        <div class="subtabs">
+            <button class="subtab active" data-subtab="companies">Companies by Sector</button>
+            <button class="subtab" data-subtab="job-boards">Job Boards</button>
+            <button class="subtab" data-subtab="networking">Networking</button>
+        </div>
+
+        <!-- Companies Subtab -->
+        <div id="subtab-companies" class="subtab-content active">
+            <section class="curated-section companies-section">
+                <div class="section-header">
+                    <h2>Companies Hiring</h2>
+                    <p>Career portals organized by sector.</p>
+                </div>
+
+                <!-- Sector Pills -->
+                <div class="sector-pills">
+                    <button class="sector-pill active" data-sector="all">All</button>
+                    <button class="sector-pill" data-sector="faang">FAANG+</button>
+                    <button class="sector-pill" data-sector="marketplace">Marketplaces</button>
+                    <button class="sector-pill" data-sector="social">Social & Media</button>
+                    <button class="sector-pill" data-sector="fintech">Fintech</button>
+                    <button class="sector-pill" data-sector="saas">Enterprise</button>
+                    <button class="sector-pill" data-sector="pharma">Pharma</button>
+                    <button class="sector-pill" data-sector="ai-gaming">AI & Gaming</button>
+                </div>
+
+                <div class="companies-grid">
+                    {{ range .Site.Data.career }}
+                    {{ if and (eq .tab "find-jobs") (eq .subtab "companies") }}
+                    <a href="{{ .url }}" target="_blank" rel="noopener" class="company-card" data-sector="{{ .sector }}">
+                        <img class="favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
+                        <span class="company-name">{{ .name }}</span>
+                    </a>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </section>
+        </div>
+
+        <!-- Job Boards Subtab -->
+        <div id="subtab-job-boards" class="subtab-content">
+            <section class="curated-section">
+                <div class="section-header">
+                    <h2>Job Boards</h2>
+                    <p>Specialized job boards for economists and data scientists.</p>
+                </div>
+                <div class="resource-grid">
+                    {{ range .Site.Data.career }}
+                    {{ if and (eq .tab "find-jobs") (eq .subtab "job-boards") }}
+                    <a href="{{ .url }}" target="_blank" rel="noopener" class="resource-card">
+                        <img class="favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
+                        <div class="resource-content">
+                            <span class="resource-name">{{ .name }}</span>
+                            <p class="resource-desc">{{ .description }}</p>
+                        </div>
+                        <span class="type-badge">{{ .type }}</span>
+                    </a>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </section>
+        </div>
+
+        <!-- Networking Subtab -->
+        <div id="subtab-networking" class="subtab-content">
+            <section class="curated-section">
+                <div class="section-header">
+                    <h2>Networking</h2>
+                    <p>Conferences, communities, and fellowships to build connections.</p>
+                </div>
+                <div class="resource-grid">
+                    {{ range .Site.Data.career }}
+                    {{ if and (eq .tab "find-jobs") (eq .subtab "networking") }}
+                    <a href="{{ .url }}" target="_blank" rel="noopener" class="resource-card">
+                        <img class="favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
+                        <div class="resource-content">
+                            <span class="resource-name">{{ .name }}</span>
+                            <p class="resource-desc">{{ .description }}</p>
+                        </div>
+                        <span class="type-badge">{{ .type }}</span>
+                    </a>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Tab 4: Interview Prep -->
+    <div id="tab-interview" class="career-tab-content">
+        <!-- Subtabs -->
+        <div class="subtabs">
+            <button class="subtab active" data-subtab="sql">SQL & Data</button>
+            <button class="subtab" data-subtab="stats">Stats</button>
+            <button class="subtab" data-subtab="experimentation">Experimentation</button>
+            <button class="subtab" data-subtab="ml-fundamentals">ML Basics</button>
+            <button class="subtab" data-subtab="ml-design">ML Design</button>
+            <button class="subtab" data-subtab="product">Product</button>
+            <button class="subtab" data-subtab="behavioral">Behavioral</button>
+            <button class="subtab" data-subtab="take-home">Take-Home</button>
+        </div>
+
+        {{ $interviewSubtabs := slice "sql" "stats" "experimentation" "ml-fundamentals" "ml-design" "product" "behavioral" "take-home" "general" }}
+        {{ range $subtab := $interviewSubtabs }}
+        {{ $subtabCount := 0 }}
+        {{ range $.Site.Data.career }}
+            {{ if and (eq .tab "interview") (eq .subtab $subtab) }}
+                {{ $subtabCount = add $subtabCount 1 }}
+            {{ end }}
+        {{ end }}
+
+        {{ if gt $subtabCount 0 }}
+        <div id="subtab-{{ $subtab }}" class="subtab-content{{ if eq $subtab "sql" }} active{{ end }}">
+            <section class="curated-section">
+                <div class="interview-grid">
+                    {{ range $.Site.Data.career }}
+                    {{ if and (eq .tab "interview") (eq .subtab $subtab) }}
+                    <a href="{{ .url }}" target="_blank" rel="noopener" class="interview-card">
+                        <img class="favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
+                        <div class="interview-content">
+                            <span class="interview-name">{{ .name }}</span>
+                            <p class="interview-desc">{{ .description }}</p>
+                        </div>
+                        <span class="type-badge">{{ .type }}</span>
+                    </a>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </section>
+        </div>
+        {{ end }}
+        {{ end }}
+    </div>
+
+    <!-- Tab 5: Offers -->
+    <div id="tab-offers" class="career-tab-content">
+        <!-- Subtabs -->
+        <div class="subtabs">
+            <button class="subtab active" data-subtab="negotiation">Negotiation</button>
+        </div>
+
+        <!-- Negotiation Subtab -->
+        <div id="subtab-negotiation" class="subtab-content active">
+            <section class="curated-section negotiation-section">
+                <div class="section-header">
+                    <h2>Offer Negotiation</h2>
+                    <p>Resources for evaluating and negotiating offers.</p>
+                </div>
+                <div class="negotiation-grid">
+                    {{ range .Site.Data.career }}
+                    {{ if and (eq .tab "offers") (eq .subtab "negotiation") }}
+                    <a href="{{ .url }}" target="_blank" rel="noopener" class="negotiation-card">
+                        <img class="favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
+                        <div class="negotiation-content">
+                            <span class="negotiation-name">{{ .name }}</span>
+                            <p class="negotiation-desc">{{ .description }}</p>
+                        </div>
+                    </a>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- More Resources (Archived) -->
+    {{ $archivedCount := 0 }}
+    {{ range .Site.Data.career }}{{ if .archived }}{{ $archivedCount = add $archivedCount 1 }}{{ end }}{{ end }}
+    {{ if gt $archivedCount 0 }}
+    <div class="archived-toggle">
+        <button id="show-archived" class="archived-toggle-btn">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+            </svg>
+            More Resources ({{ $archivedCount }})
+            <svg class="chevron" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </button>
+    </div>
+    <div id="archived-section" class="archived-content" style="display: none;">
+        <p class="reference-intro">Additional resources organized by category. These supplement the curated selections above.</p>
+
+        {{ $refCategories := slice "Why Tech" "Role Landscape" "Team Types" "PhD Transition" "Job Boards" "Networking" }}
+        {{ range $cat := $refCategories }}
         {{ $catCount := 0 }}
         {{ range $.Site.Data.career }}
-            {{ if and (eq .section "interview") (eq .category $cat) (not .archived) }}
+            {{ if and .archived (eq .category $cat) }}
                 {{ $catCount = add $catCount 1 }}
             {{ end }}
         {{ end }}
 
         {{ if gt $catCount 0 }}
-        <section class="interview-category">
-            <h3 class="interview-category-title">{{ $cat }} <span class="count">({{ $catCount }})</span></h3>
-            <div class="interview-grid">
+        <section class="reference-category">
+            <h3 class="reference-category-title">{{ $cat }} <span class="count">({{ $catCount }})</span></h3>
+            <div class="reference-grid">
                 {{ range $.Site.Data.career }}
-                {{ if and (eq .section "interview") (eq .category $cat) (not .archived) }}
-                <a href="{{ .url }}" target="_blank" rel="noopener" class="interview-card">
+                {{ if and .archived (eq .category $cat) }}
+                <a href="{{ .url }}" target="_blank" rel="noopener" class="reference-card">
                     <img class="favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
-                    <div class="interview-content">
-                        <span class="interview-name">{{ .name }}</span>
-                        <p class="interview-desc">{{ .description }}</p>
+                    <div class="reference-content">
+                        <span class="reference-name">{{ .name }}</span>
+                        <p class="reference-desc">{{ .description }}</p>
                     </div>
                     <span class="type-badge">{{ .type }}</span>
                 </a>
@@ -204,11 +373,12 @@
         {{ end }}
         {{ end }}
     </div>
+    {{ end }}
 </div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // Tab switching
+    // Main tab switching
     const tabs = document.querySelectorAll('.career-tab');
     const tabContents = document.querySelectorAll('.career-tab-content');
 
@@ -221,6 +391,29 @@ document.addEventListener('DOMContentLoaded', function() {
 
             this.classList.add('active');
             document.getElementById('tab-' + targetTab).classList.add('active');
+        });
+    });
+
+    // Subtab switching
+    document.querySelectorAll('.subtabs').forEach(subtabContainer => {
+        const subtabs = subtabContainer.querySelectorAll('.subtab');
+        const parent = subtabContainer.closest('.career-tab-content');
+
+        subtabs.forEach(subtab => {
+            subtab.addEventListener('click', function() {
+                const targetSubtab = this.dataset.subtab;
+
+                // Update active subtab button
+                subtabs.forEach(s => s.classList.remove('active'));
+                this.classList.add('active');
+
+                // Update active subtab content
+                parent.querySelectorAll('.subtab-content').forEach(c => c.classList.remove('active'));
+                const targetContent = parent.querySelector('#subtab-' + targetSubtab);
+                if (targetContent) {
+                    targetContent.classList.add('active');
+                }
+            });
         });
     });
 
@@ -253,7 +446,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const query = this.value.toLowerCase();
 
         // Search in all visible cards across all sections
-        document.querySelectorAll('.essential-item, .role-card, .work-card, .company-card, .negotiation-card, .interview-card').forEach(card => {
+        document.querySelectorAll('.essential-item, .role-card, .work-card, .company-card, .negotiation-card, .interview-card, .reference-card, .resource-card').forEach(card => {
             const text = card.textContent.toLowerCase();
             if (query === '' || text.includes(query)) {
                 card.style.display = '';
@@ -270,6 +463,18 @@ document.addEventListener('DOMContentLoaded', function() {
         searchInput.dispatchEvent(new Event('input'));
         this.style.display = 'none';
     });
+
+    // Archived toggle
+    const archivedToggle = document.getElementById('show-archived');
+    const archivedSection = document.getElementById('archived-section');
+
+    if (archivedToggle && archivedSection) {
+        archivedToggle.addEventListener('click', function() {
+            const isHidden = archivedSection.style.display === 'none';
+            archivedSection.style.display = isHidden ? 'block' : 'none';
+            this.classList.toggle('expanded', isHidden);
+        });
+    }
 });
 </script>
 {{ end }}

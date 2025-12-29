@@ -11,7 +11,9 @@
       "foundational",
       "academic"
     ],
-    "section": "essential"
+    "section": "essential",
+    "tab": "start-here",
+    "subtab": ""
   },
   {
     "name": "Levels.fyi Compensation",
@@ -25,7 +27,9 @@
       "salary-data",
       "essential"
     ],
-    "section": "negotiation"
+    "section": "negotiation",
+    "tab": "offers",
+    "subtab": "negotiation"
   },
   {
     "name": "Amazon Science Blog",
@@ -52,7 +56,9 @@
       "PhD",
       "first-hand-experience"
     ],
-    "section": "essential"
+    "section": "essential",
+    "tab": "start-here",
+    "subtab": ""
   },
   {
     "name": "Ace the Data Science Interview",
@@ -66,7 +72,9 @@
       "industry-standard"
     ],
     "section": "essential",
-    "tier": "essential"
+    "tier": "essential",
+    "tab": "interview",
+    "subtab": "general"
   },
   {
     "name": "Amazon Economist Careers",
@@ -80,7 +88,9 @@
       "economist-title",
       "PhD-internship"
     ],
-    "section": "roles"
+    "section": "roles",
+    "tab": "understand",
+    "subtab": "role-types"
   },
   {
     "name": "Google Research Areas",
@@ -95,7 +105,9 @@
       "research"
     ],
     "section": "companies",
-    "sector": "faang"
+    "sector": "faang",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Meta Core Data Science",
@@ -110,7 +122,9 @@
       "research"
     ],
     "section": "companies",
-    "sector": "faang"
+    "sector": "faang",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Uber Ubernomics Team",
@@ -125,7 +139,9 @@
       "company-profile"
     ],
     "section": "work",
-    "domain": "Economist Teams"
+    "domain": "Economist Teams",
+    "tab": "understand",
+    "subtab": "what-teams-do"
   },
   {
     "name": "Wayfair Economics Group",
@@ -207,7 +223,9 @@
       "PhD",
       "networking"
     ],
-    "section": "essential"
+    "section": "essential",
+    "tab": "start-here",
+    "subtab": ""
   },
   {
     "name": "Key Advice: Title vs Tasks",
@@ -220,7 +238,9 @@
       "PhD",
       "career-advice"
     ],
-    "section": "roles"
+    "section": "roles",
+    "tab": "understand",
+    "subtab": "role-types"
   },
   {
     "name": "NABE TEC Conference & Job Fair",
@@ -234,7 +254,8 @@
       "networking",
       "job-fair"
     ],
-    "archived": true
+    "tab": "find-jobs",
+    "subtab": "networking"
   },
   {
     "name": "AEA JOE Listings",
@@ -247,7 +268,8 @@
       "academic",
       "tech-postings"
     ],
-    "archived": true
+    "tab": "find-jobs",
+    "subtab": "job-boards"
   },
   {
     "name": "StatTrak Biostatistics Internships",
@@ -260,7 +282,8 @@
       "pharma",
       "internships"
     ],
-    "archived": true
+    "tab": "find-jobs",
+    "subtab": "job-boards"
   },
   {
     "name": "EuropeanHealthEconomics Jobs",
@@ -273,7 +296,8 @@
       "HEOR",
       "Europe"
     ],
-    "archived": true
+    "tab": "find-jobs",
+    "subtab": "job-boards"
   },
   {
     "name": "Amazon PhD Internship",
@@ -288,7 +312,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "faang"
+    "sector": "faang",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Google PhD Programs",
@@ -303,7 +329,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "faang"
+    "sector": "faang",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Meta Research Scientist",
@@ -318,7 +346,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "faang"
+    "sector": "faang",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Microsoft Research Careers",
@@ -333,7 +363,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "faang"
+    "sector": "faang",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Apple ML Research",
@@ -348,7 +380,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "faang"
+    "sector": "faang",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Uber Applied Scientist",
@@ -363,7 +397,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "marketplace"
+    "sector": "marketplace",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Lyft Economics Team",
@@ -378,7 +414,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "marketplace"
+    "sector": "marketplace",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Wayfair Economist Intern",
@@ -393,7 +431,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "marketplace"
+    "sector": "marketplace",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Airbnb Data Science",
@@ -408,7 +448,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "marketplace"
+    "sector": "marketplace",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "DoorDash Data Science",
@@ -423,7 +465,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "marketplace"
+    "sector": "marketplace",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Instacart ML PhD",
@@ -438,7 +482,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "marketplace"
+    "sector": "marketplace",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "eBay Data Science",
@@ -453,7 +499,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "marketplace"
+    "sector": "marketplace",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Etsy DSML Research",
@@ -468,7 +516,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "marketplace"
+    "sector": "marketplace",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "LinkedIn Applied Research",
@@ -483,7 +533,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "social"
+    "sector": "social",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Spotify Research Scientist",
@@ -498,7 +550,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "social"
+    "sector": "social",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Netflix Careers",
@@ -513,7 +567,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "social"
+    "sector": "social",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Pinterest Labs",
@@ -528,7 +584,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "social"
+    "sector": "social",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Discord Data Science",
@@ -543,7 +601,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "social"
+    "sector": "social",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Snap Research",
@@ -558,7 +618,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "social"
+    "sector": "social",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Stripe PhD Internship",
@@ -573,7 +635,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "fintech"
+    "sector": "fintech",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "PayPal PhD Intern",
@@ -588,7 +652,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "fintech"
+    "sector": "fintech",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Robinhood Data Scientist",
@@ -603,7 +669,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "fintech"
+    "sector": "fintech",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Affirm Careers",
@@ -618,7 +686,9 @@
       "limited-PhD"
     ],
     "section": "companies",
-    "sector": "fintech"
+    "sector": "fintech",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Block (Square) Careers",
@@ -633,7 +703,9 @@
       "limited-PhD"
     ],
     "section": "companies",
-    "sector": "fintech"
+    "sector": "fintech",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Adobe Research Internship",
@@ -648,7 +720,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "saas"
+    "sector": "saas",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Salesforce AI Research",
@@ -663,7 +737,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "saas"
+    "sector": "saas",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Databricks Research",
@@ -678,7 +754,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "saas"
+    "sector": "saas",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Intuit AI Research",
@@ -693,7 +771,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "saas"
+    "sector": "saas",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Eli Lilly Statistics",
@@ -708,7 +788,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "pharma"
+    "sector": "pharma",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Pfizer Biostatistics",
@@ -723,7 +805,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "pharma"
+    "sector": "pharma",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "J&J Statistics",
@@ -738,7 +822,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "pharma"
+    "sector": "pharma",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Moderna Biostatistics",
@@ -753,7 +839,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "pharma"
+    "sector": "pharma",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Roche Global Biostatistics",
@@ -768,7 +856,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "pharma"
+    "sector": "pharma",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Genentech E4A/HEOR",
@@ -783,7 +873,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "pharma"
+    "sector": "pharma",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Optum HEOR",
@@ -798,7 +890,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "pharma"
+    "sector": "pharma",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Roblox Virtual Economy",
@@ -813,7 +907,9 @@
       "PhD-internship"
     ],
     "section": "companies",
-    "sector": "ai-gaming"
+    "sector": "ai-gaming",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "OpenAI Residency",
@@ -828,7 +924,9 @@
       "networking-required"
     ],
     "section": "companies",
-    "sector": "ai-gaming"
+    "sector": "ai-gaming",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Anthropic Careers",
@@ -843,7 +941,9 @@
       "networking-required"
     ],
     "section": "companies",
-    "sector": "ai-gaming"
+    "sector": "ai-gaming",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Notion Careers",
@@ -858,7 +958,9 @@
       "limited-PhD"
     ],
     "section": "companies",
-    "sector": "ai-gaming"
+    "sector": "ai-gaming",
+    "tab": "find-jobs",
+    "subtab": "companies"
   },
   {
     "name": "Takeda-UIC HEOR Fellowship",
@@ -872,7 +974,8 @@
       "HEOR",
       "fellowship"
     ],
-    "archived": true
+    "tab": "find-jobs",
+    "subtab": "networking"
   },
   {
     "name": "DeepMind Student Researcher",
@@ -886,7 +989,8 @@
       "Google",
       "PhD-program"
     ],
-    "archived": true
+    "tab": "find-jobs",
+    "subtab": "networking"
   },
   {
     "name": "DataLemur SQL",
@@ -899,7 +1003,9 @@
       "FAANG",
       "beginner-friendly"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "sql"
   },
   {
     "name": "StrataScratch",
@@ -912,7 +1018,9 @@
       "company-specific",
       "real-questions"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "sql"
   },
   {
     "name": "Window Functions Practice",
@@ -925,7 +1033,9 @@
       "window-functions",
       "interactive"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "sql"
   },
   {
     "name": "Interview Query",
@@ -938,7 +1048,9 @@
       "comprehensive",
       "take-homes"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "sql"
   },
   {
     "name": "Nick Singh's 40 Stats Questions",
@@ -952,7 +1064,9 @@
       "Wall-Street",
       "Bayesian"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "stats"
   },
   {
     "name": "StatQuest with Josh Starmer",
@@ -965,7 +1079,9 @@
       "visual-learning",
       "beginner-friendly"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "ml-fundamentals"
   },
   {
     "name": "Trustworthy Online Controlled Experiments (Kohavi)",
@@ -978,7 +1094,9 @@
       "essential",
       "advanced"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "experimentation"
   },
   {
     "name": "Understanding CUPED",
@@ -991,7 +1109,9 @@
       "variance-reduction",
       "causal-inference"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "experimentation"
   },
   {
     "name": "Netflix: Quasi Experimentation",
@@ -1004,7 +1124,9 @@
       "Netflix",
       "quasi-experiments"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "experimentation"
   },
   {
     "name": "Emma Ding: Product Sense Guide",
@@ -1017,7 +1139,9 @@
       "AARRR",
       "metrics-design"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "product"
   },
   {
     "name": "Amplitude: North Star Metrics",
@@ -1030,7 +1154,9 @@
       "frameworks",
       "real-examples"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "product"
   },
   {
     "name": "DataLemur Meta DS Guide",
@@ -1043,7 +1169,9 @@
       "Meta",
       "real-questions"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "product"
   },
   {
     "name": "Scarlet Ink: Amazon LP Guide",
@@ -1056,7 +1184,9 @@
       "Amazon",
       "bar-raiser"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "behavioral"
   },
   {
     "name": "Amazon Leadership Principles",
@@ -1069,7 +1199,9 @@
       "Amazon",
       "official"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "behavioral"
   },
   {
     "name": "Interviewing.io Amazon Guide",
@@ -1082,7 +1214,9 @@
       "Amazon",
       "STAR-method"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "behavioral"
   },
   {
     "name": "IGotAnOffer: Google Behavioral",
@@ -1095,7 +1229,9 @@
       "Google",
       "Googleyness"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "behavioral"
   },
   {
     "name": "Designing Machine Learning Systems",
@@ -1108,7 +1244,9 @@
       "essential",
       "Stanford"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "ml-design"
   },
   {
     "name": "ML System Design Interview (Alex Xu)",
@@ -1121,7 +1259,9 @@
       "frameworks",
       "solutions"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "ml-design"
   },
   {
     "name": "ML Interviews GitHub",
@@ -1134,7 +1274,9 @@
       "comprehensive",
       "applied-scientist"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "ml-fundamentals"
   },
   {
     "name": "Chip Huyen ML Interviews Book",
@@ -1147,7 +1289,9 @@
       "comprehensive",
       "by-difficulty"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "ml-fundamentals"
   },
   {
     "name": "Interview Query Take-Homes",
@@ -1160,7 +1304,9 @@
       "real-challenges",
       "with-solutions"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "take-home"
   },
   {
     "name": "Levels.fyi Negotiation Guide",
@@ -1173,7 +1319,9 @@
       "equity",
       "compensation-structure"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "experimentation"
   },
   {
     "name": "Candor Salary Negotiation",
@@ -1186,7 +1334,9 @@
       "competing-offers",
       "tactics"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "experimentation"
   },
   {
     "name": "HBR: Why Tech Hires Economists",
@@ -1200,7 +1350,9 @@
       "HBR",
       "overview"
     ],
-    "section": "essential"
+    "section": "essential",
+    "tab": "start-here",
+    "subtab": ""
   },
   {
     "name": "Jed Kolko: Should Your Firm Have an Economist?",
@@ -1226,7 +1378,9 @@
       "role-taxonomy",
       "practitioner"
     ],
-    "section": "roles"
+    "section": "roles",
+    "tab": "understand",
+    "subtab": "role-types"
   },
   {
     "name": "TDS: Applied vs Research Scientist",
@@ -1278,7 +1432,9 @@
       "product-DS",
       "Google"
     ],
-    "section": "roles"
+    "section": "roles",
+    "tab": "understand",
+    "subtab": "role-types"
   },
   {
     "name": "TDS: Product Analytics Explained",
@@ -1304,7 +1460,9 @@
       "career-ladder",
       "levels"
     ],
-    "section": "roles"
+    "section": "roles",
+    "tab": "understand",
+    "subtab": "role-types"
   },
   {
     "name": "Data Science Leadership: Career Ladder",
@@ -1356,7 +1514,9 @@
       "staff-level",
       "career-growth"
     ],
-    "section": "roles"
+    "section": "roles",
+    "tab": "understand",
+    "subtab": "role-types"
   },
   {
     "name": "Meta: Being a Senior IC",
@@ -1369,7 +1529,9 @@
       "Meta",
       "senior-IC"
     ],
-    "section": "roles"
+    "section": "roles",
+    "tab": "understand",
+    "subtab": "role-types"
   },
   {
     "name": "Uber: Driver Surge Pricing Research",
@@ -1383,7 +1545,9 @@
       "pricing",
       "Uber"
     ],
-    "section": "work"
+    "section": "work",
+    "tab": "understand",
+    "subtab": "what-teams-do"
   },
   {
     "name": "Uber: Surge Pricing Moves Drivers",
@@ -1462,7 +1626,9 @@
       "Netflix"
     ],
     "section": "work",
-    "domain": "Experimentation"
+    "domain": "Experimentation",
+    "tab": "understand",
+    "subtab": "what-teams-do"
   },
   {
     "name": "Uber: XP Experimentation Platform",
@@ -1475,7 +1641,9 @@
       "experimentation",
       "Uber"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "experimentation"
   },
   {
     "name": "Booking.com: Moving Fast with Experiments",
@@ -1488,7 +1656,9 @@
       "experimentation",
       "Booking"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "experimentation"
   },
   {
     "name": "Airbnb: Interleaving Experiments",
@@ -1501,7 +1671,9 @@
       "experimentation",
       "Airbnb"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "experimentation"
   },
   {
     "name": "Microsoft: Deep Dive Into Variance Reduction",
@@ -1514,7 +1686,9 @@
       "CUPED",
       "Microsoft"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "experimentation"
   },
   {
     "name": "Nubank: CUPED Implementation",
@@ -1527,7 +1701,9 @@
       "CUPED",
       "Nubank"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "experimentation"
   },
   {
     "name": "Matteo Courthoud: CUPED Technical Guide",
@@ -1540,7 +1716,9 @@
       "CUPED",
       "technical"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "experimentation"
   },
   {
     "name": "DoorDash: Switchback Experiment Analysis",
@@ -1553,7 +1731,9 @@
       "switchback",
       "DoorDash"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "experimentation"
   },
   {
     "name": "LinkedIn: Detecting Interference in A/B Tests",
@@ -1566,7 +1746,9 @@
       "interference",
       "LinkedIn"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "experimentation"
   },
   {
     "name": "Lyft: Marketplace Experimentation",
@@ -1579,7 +1761,9 @@
       "experimentation",
       "Lyft"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "experimentation"
   },
   {
     "name": "Meta: Cluster Experimentation",
@@ -1592,7 +1776,9 @@
       "experimentation",
       "Meta"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "experimentation"
   },
   {
     "name": "Uber CausalML Package",
@@ -1605,7 +1791,9 @@
       "causal-ML",
       "open-source"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "experimentation"
   },
   {
     "name": "Tinuiti: Ghost Ads Explained",
@@ -1633,7 +1821,9 @@
       "DoorDash"
     ],
     "section": "work",
-    "domain": "Ads"
+    "domain": "Ads",
+    "tab": "understand",
+    "subtab": "what-teams-do"
   },
   {
     "name": "Remerge: Incrementality Tests 101",
@@ -1660,7 +1850,9 @@
       "Meta"
     ],
     "section": "work",
-    "domain": "Growth"
+    "domain": "Growth",
+    "tab": "understand",
+    "subtab": "what-teams-do"
   },
   {
     "name": "CXL: Growth Experimentation Culture",
@@ -1688,7 +1880,9 @@
       "fraud",
       "Stripe"
     ],
-    "section": "work"
+    "section": "work",
+    "tab": "understand",
+    "subtab": "what-teams-do"
   },
   {
     "name": "Stripe: Similarity Clustering for Fraud",
@@ -1741,7 +1935,9 @@
       "forecasting",
       "Uber"
     ],
-    "section": "work"
+    "section": "work",
+    "tab": "understand",
+    "subtab": "what-teams-do"
   },
   {
     "name": "Uber Orbit: Bayesian Time Series",
@@ -1859,7 +2055,9 @@
       "Netflix"
     ],
     "section": "work",
-    "domain": "Recommendations"
+    "domain": "Recommendations",
+    "tab": "understand",
+    "subtab": "what-teams-do"
   },
   {
     "name": "Netflix: Recommendations Research",
@@ -1886,7 +2084,9 @@
       "ML-economics",
       "academic"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "ml-fundamentals"
   },
   {
     "name": "Susan Athey: ML Short Course",
@@ -1899,7 +2099,9 @@
       "ML-economics",
       "Stanford"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "ml-fundamentals"
   },
   {
     "name": "Matt Sosna: Academia to Data Science",
@@ -1925,7 +2127,9 @@
       "Microsoft",
       "infrastructure"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "experimentation"
   },
   {
     "name": "Doing Data Science at Uber",
@@ -1990,7 +2194,9 @@
       "Netflix",
       "experimentation"
     ],
-    "section": "interview"
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "experimentation"
   },
   {
     "name": "Netflix ML Systems (Metaflow)",

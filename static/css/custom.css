@@ -1112,6 +1112,142 @@ a:hover {
     display: block;
 }
 
+/* Subtabs (Secondary Navigation) */
+.subtabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-bottom: 1.25rem;
+    padding: 0.25rem;
+    background: var(--bg-secondary);
+    border-radius: 8px;
+    border: 1px solid var(--border-light);
+}
+
+.subtab {
+    padding: 0.5rem 0.9rem;
+    background: transparent;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    transition: all 0.2s ease;
+}
+
+.subtab:hover {
+    color: var(--text-primary);
+    background: var(--bg-hover);
+}
+
+.subtab.active {
+    background: var(--accent-color);
+    color: white;
+}
+
+.subtab-content {
+    display: none;
+}
+
+.subtab-content.active {
+    display: block;
+}
+
+/* Resource Cards (for Job Boards, Networking) */
+.resource-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.resource-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-light);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.resource-card:hover {
+    border-color: var(--accent-color);
+    background: var(--bg-hover);
+}
+
+.resource-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.resource-name {
+    display: block;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--text-primary);
+    margin-bottom: 0.2rem;
+}
+
+.resource-desc {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    line-height: 1.4;
+    margin: 0;
+}
+
+/* Role Cards with Description */
+.role-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.role-desc {
+    color: var(--text-secondary);
+    font-size: 0.75rem;
+    line-height: 1.3;
+    margin: 0.2rem 0 0 0;
+}
+
+/* Archived Toggle */
+.archived-toggle {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.archived-toggle-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1.2rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    transition: all 0.2s ease;
+}
+
+.archived-toggle-btn:hover {
+    border-color: var(--accent-color);
+    color: var(--text-primary);
+}
+
+.archived-toggle-btn .chevron {
+    transition: transform 0.2s ease;
+}
+
+.archived-toggle-btn.expanded .chevron {
+    transform: rotate(180deg);
+}
+
+.archived-content {
+    margin-top: 1.5rem;
+}
+
 /* Curated Sections */
 .curated-section {
     background: var(--bg-card);
@@ -1469,6 +1605,89 @@ a:hover {
 }
 
 .interview-desc {
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    line-height: 1.4;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Tab Count Badge */
+.tab-count {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-weight: 400;
+}
+
+/* Reference/More Resources Tab */
+.reference-intro {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: var(--bg-secondary);
+    border-radius: 8px;
+    border-left: 3px solid var(--accent-color);
+}
+
+.reference-category {
+    margin-bottom: 1.5rem;
+}
+
+.reference-category-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0 0 0.75rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.reference-category-title .count {
+    font-weight: 400;
+    color: var(--text-muted);
+}
+
+.reference-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.reference-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.15s ease;
+}
+
+.reference-card:hover {
+    border-color: var(--accent-color);
+    background: var(--bg-hover);
+}
+
+.reference-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.reference-name {
+    display: block;
+    font-weight: 500;
+    font-size: 0.85rem;
+    color: var(--text-primary);
+    margin-bottom: 0.2rem;
+}
+
+.reference-desc {
     color: var(--text-muted);
     font-size: 0.75rem;
     line-height: 1.4;
