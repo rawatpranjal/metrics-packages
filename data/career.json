@@ -127,16 +127,16 @@
     "subtab": "companies"
   },
   {
-    "name": "Uber Ubernomics Team",
-    "description": "Pioneer of tech economist hiring. Dedicated Economist and Applied Scientist (Econ) roles for pricing, incentives, policy.",
+    "name": "Should Your Tech Firm Have an Economist?",
+    "description": "Framework for economist roles: advising strategy, building products, evaluating impact, thought leadership. Five comparative advantages over data scientists.",
     "stage": "Strategy",
-    "category": "Role Landscape",
-    "url": "https://eng.uber.com/",
-    "type": "Blog",
+    "category": "Team Types",
+    "url": "https://jedkolko.com/2016/02/01/should-your-tech-firm-have-an-economist/",
+    "type": "Article",
     "tags": [
-      "Uber",
-      "marketplace",
-      "company-profile"
+      "Indeed",
+      "economist-roles",
+      "career"
     ],
     "section": "work",
     "domain": "Economist Teams",
@@ -1534,16 +1534,17 @@
     "subtab": "role-types"
   },
   {
-    "name": "Uber: Driver Surge Pricing Research",
-    "description": "Multiplicative surge isn't incentive-compatible in dynamic settings; structured pricing mechanism proposed.",
+    "name": "What is Data Science at Lyft?",
+    "description": "Maps the entire marketplace DS landscape: Marketplace team designs dispatch/pricing, Fleet team builds optimal pricing models. Shows how pricing pairs economics literature with econometrics.",
     "stage": "Strategy",
     "category": "Team Types",
     "domain": "Pricing",
-    "url": "https://eng.uber.com/research/driver-surge-pricing/",
+    "url": "https://eng.lyft.com/what-is-data-science-at-lyft-4101a69be028",
     "type": "Blog",
     "tags": [
       "pricing",
-      "Uber"
+      "Lyft",
+      "marketplace"
     ],
     "section": "work",
     "tab": "understand",
@@ -1615,15 +1616,15 @@
     "archived": true
   },
   {
-    "name": "Netflix: What is an A/B Test?",
-    "description": "Multi-part experimentation series. Every product change at Netflix goes through rigorous A/B testing.",
-    "stage": "Interview Prep",
-    "category": "Experimentation",
-    "url": "https://netflixtechblog.com/what-is-an-a-b-test-b08cc1b57962",
+    "name": "Beyond Winning: Spotify's Experiments with Learning Framework",
+    "description": "Learning rate (64%) exceeds win rate (12%) at mature products. Platform serves ~300 teams. Shows how experimentation platforms measure their own ROI.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://engineering.atspotify.com/2025/09/spotifys-experiments-with-learning-framework/",
     "type": "Blog",
     "tags": [
       "experimentation",
-      "Netflix"
+      "Spotify"
     ],
     "section": "work",
     "domain": "Experimentation",
@@ -1810,15 +1811,15 @@
     "archived": true
   },
   {
-    "name": "DoorDash: Ghost Ads Implementation",
-    "description": "92% reduced experimentation dilution, 35% improved iROAS confidence intervals.",
+    "name": "Machine Learning for Snapchat Ad Ranking",
+    "description": "End-to-end tour of ad systems: eligibility filtering, candidate generation, ML models, auction, feedback loop. Explains budget-split A/B testing for two-sided marketplaces.",
     "stage": "Strategy",
     "category": "Team Types",
-    "url": "https://advertising.doordash.com/en-us/resources/measuring-incrementality-with-ghost-ads-at-doordash",
+    "url": "https://eng.snap.com/machine-learning-snap-ad-ranking",
     "type": "Blog",
     "tags": [
       "ads",
-      "DoorDash"
+      "Snap"
     ],
     "section": "work",
     "domain": "Ads",
@@ -1839,15 +1840,15 @@
     "archived": true
   },
   {
-    "name": "Meta DS: Product Analytics Frameworks",
-    "description": "Conversion funnels, retention curves (the real test of product-market fit), experimentation pipelines.",
+    "name": "Meaningful Metrics: How Data Sharpened the Focus of Product Teams",
+    "description": "Markov model segments users into activity states, monitors transition probabilities. CURR identified as highest-leverage metric—drove 4x DAU growth over 3 years.",
     "stage": "Strategy",
     "category": "Team Types",
-    "url": "https://dev.to/mujtabat/how-product-analytics-shapes-user-experience-funnels-retention-and-experiments-4cfm",
-    "type": "Guide",
+    "url": "https://blog.duolingo.com/growth-model-duolingo/",
+    "type": "Blog",
     "tags": [
       "growth",
-      "Meta"
+      "Duolingo"
     ],
     "section": "work",
     "domain": "Growth",
@@ -1869,16 +1870,16 @@
     "archived": true
   },
   {
-    "name": "Stripe: How We Built Radar",
-    "description": "1,000+ transaction features in <100ms with only 0.1% false positive rate on billions of payments.",
+    "name": "Scaling Safety and Civility on Roblox",
+    "description": "Moderates content for 71M daily users. 10% of FTEs + $100M+/year on safety. 53% reduction in abuse reports after real-time voice safety.",
     "stage": "Strategy",
     "category": "Team Types",
     "domain": "Trust",
-    "url": "https://stripe.com/blog/how-we-built-it-stripe-radar",
+    "url": "https://corp.roblox.com/newsroom/2024/04/scaling-safety-civility-roblox",
     "type": "Blog",
     "tags": [
-      "fraud",
-      "Stripe"
+      "trust-safety",
+      "Roblox"
     ],
     "section": "work",
     "tab": "understand",
@@ -1924,16 +1925,16 @@
     "archived": true
   },
   {
-    "name": "Uber: Forecasting Introduction",
-    "description": "Model-based, statistical (ARIMA, Holt-Winters), and ML approaches for demand forecasting.",
+    "name": "Instacart Anytime: A Data Science Paradigm",
+    "description": "Maps Shopper Staffing across Marketplace Forecasting, Supply Planning, Real-time Capacity. Shows how forecasts feed downstream decision systems.",
     "stage": "Strategy",
     "category": "Team Types",
     "domain": "Forecasting",
-    "url": "https://www.uber.com/blog/forecasting-introduction/",
+    "url": "https://tech.instacart.com/instacart-anytime-a-data-science-paradigm-33eb25a5c32d",
     "type": "Blog",
     "tags": [
       "forecasting",
-      "Uber"
+      "Instacart"
     ],
     "section": "work",
     "tab": "understand",
@@ -2044,15 +2045,15 @@
     "archived": true
   },
   {
-    "name": "Netflix: Foundation Model for Recommendations",
-    "description": "LLM-like semi-supervised learning principles for personalization.",
+    "name": "Stitch Fix Algorithms Tour",
+    "description": "Interactive visual tour of 10 algorithmic applications. Covers exploration vs exploitation, cold-start problems, human-in-the-loop stylist collaboration.",
     "stage": "Strategy",
     "category": "Team Types",
-    "url": "https://netflixtechblog.com/foundation-model-for-personalized-recommendation-1a0bd8e02d39",
-    "type": "Blog",
+    "url": "https://algorithms-tour.stitchfix.com/",
+    "type": "Guide",
     "tags": [
       "recommendations",
-      "Netflix"
+      "Stitch Fix"
     ],
     "section": "work",
     "domain": "Recommendations",
