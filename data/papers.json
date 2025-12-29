@@ -24,6 +24,27 @@
               "year": 2010,
               "description": "Google's infrastructure for running overlapping experiments, enabling hundreds of simultaneous tests without interference.",
               "url": "https://research.google/pubs/pub36500/"
+            },
+            {
+              "title": "Diagnosing Sample Ratio Mismatch in Online Controlled Experiments: A Taxonomy and Rules of Thumb for Practitioners",
+              "authors": "Aleksander Fabijan, Jayant Gupchup, Somit Gupta, Jeff Omhover, Wen Qin, Lukas Vermeer, Pavel Dmitriev",
+              "year": 2019,
+              "description": "The definitive SRM paper from Microsoft/Booking.com—provides taxonomy of causes and 10 diagnostic rules; ~6% of experiments exhibit SRM.",
+              "url": "https://dl.acm.org/doi/10.1145/3292500.3330722"
+            },
+            {
+              "title": "Trustworthy Online Controlled Experiments: Five Puzzling Outcomes Explained",
+              "authors": "Ron Kohavi, Alex Deng, Brian Frasca, Roger Longbotham, Toby Walker, Ya Xu",
+              "year": 2012,
+              "description": "Foundational Microsoft paper on experiment validity; coined OEC design principles and trustworthiness checks now industry standard.",
+              "url": "https://dl.acm.org/doi/10.1145/2339530.2339653"
+            },
+            {
+              "title": "A Dirty Dozen: Twelve Common Metric Interpretation Pitfalls in Online Controlled Experiments",
+              "authors": "Pavel Dmitriev, Somit Gupta, Dong Woo Kim, Garnet Vaz",
+              "year": 2017,
+              "description": "Essential guide to metric design—introduces metric taxonomy (OEC, guardrail, diagnostic) with real experiment examples.",
+              "url": "https://dl.acm.org/doi/10.1145/3097983.3098024"
             }
           ]
         },
@@ -52,6 +73,27 @@
               "year": 2016,
               "description": "Optimal stratification and regression adjustment methods for experimental data with theoretical guarantees.",
               "url": "https://www.nber.org/papers/w24150"
+            },
+            {
+              "title": "Machine Learning for Variance Reduction in Online Experiments",
+              "authors": "Yongyi Guo, Dominic Coey, Mikael Konutgan, Wenting Li, Chris Schoener, Matt Goldman",
+              "year": 2021,
+              "description": "Introduces MLRATE—extends CUPED to ML models via cross-fitting; achieved 70%+ variance reduction over difference-in-means at Meta.",
+              "url": "https://proceedings.neurips.cc/paper/2021/hash/488b084119a1c7a4950f00706ec7ea16-Abstract.html"
+            },
+            {
+              "title": "Adjusting Treatment Effect Estimates by Post-Stratification in Randomized Experiments",
+              "authors": "Luke Miratrix, Jasjeet Sekhon, Bin Yu",
+              "year": 2013,
+              "description": "Theoretical foundation for post-stratification; proves it's nearly as efficient as blocking with variance difference O(1/n²).",
+              "url": "https://rss.onlinelibrary.wiley.com/doi/10.1111/j.1467-9868.2012.01048.x"
+            },
+            {
+              "title": "Improving the Sensitivity of Online Controlled Experiments: Case Studies at Netflix",
+              "authors": "Huizhi Xie, Juliette Aurisset",
+              "year": 2016,
+              "description": "Industry workhorse comparing stratification, post-stratification, and CUPED at scale; recommends post-assignment techniques.",
+              "url": "https://dl.acm.org/doi/10.1145/2939672.2939733"
             }
           ]
         },
@@ -80,6 +122,27 @@
               "year": 2019,
               "description": "Addresses the problem of highly variable metrics in experiments and proposes robust statistical methods.",
               "url": "https://arxiv.org/abs/1901.04932"
+            },
+            {
+              "title": "A Multiple Testing Procedure for Clinical Trials",
+              "authors": "Peter O'Brien, Thomas Fleming",
+              "year": 1979,
+              "description": "Foundational classic (3,200+ citations)—established group sequential boundaries that all modern methods build upon.",
+              "url": "https://www.jstor.org/stable/2530245"
+            },
+            {
+              "title": "Time-uniform, Nonparametric, Nonasymptotic Confidence Sequences",
+              "authors": "Steven Howard, Aaditya Ramdas, Jon McAuliffe, Jasjeet Sekhon",
+              "year": 2021,
+              "description": "Modern theoretical foundation for anytime-valid inference; backbone for GrowthBook, Spotify, and other industry tools.",
+              "url": "https://projecteuclid.org/journals/annals-of-statistics/volume-49/issue-2/Time-uniform-nonparametric-nonasymptotic-confidence-sequences/10.1214/20-AOS1991.full"
+            },
+            {
+              "title": "Continuous Monitoring of A/B Tests without Pain: Optional Stopping in Bayesian Testing",
+              "authors": "Alex Deng, Jiannan Lu, Shouyuan Chen",
+              "year": 2016,
+              "description": "Rigorous theoretical grounding for Bayesian sequential testing with continuous monitoring; Microsoft's framework.",
+              "url": "https://ieeexplore.ieee.org/document/7796895"
             }
           ]
         },
@@ -108,6 +171,27 @@
               "year": 2022,
               "description": "Framework for experiments in marketplaces where treatment of one side affects the other.",
               "url": "https://arxiv.org/abs/2002.06875"
+            },
+            {
+              "title": "Estimating Average Causal Effects Under General Interference",
+              "authors": "Peter Aronow, Cyrus Samii",
+              "year": 2017,
+              "description": "The seminal exposure mapping paper—unified framework for design, exposure mapping, and estimands under network interference.",
+              "url": "https://projecteuclid.org/journals/annals-of-applied-statistics/volume-11/issue-4/Estimating-average-causal-effects-under-general-interference-with-application-to/10.1214/16-AOAS1005.full"
+            },
+            {
+              "title": "Design and Analysis of Bipartite Experiments Under a Linear Exposure-Response Model",
+              "authors": "Christopher Harshaw, Fredrik Sävje, David Eisenstat, Vahab Mirrokni, Jean Pouget-Abadie",
+              "year": 2023,
+              "description": "Essential for two-sided marketplaces—introduces ERL estimator for buyer/seller and rider/driver experiment structures.",
+              "url": "https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-17/issue-1/Design-and-analysis-of-bipartite-experiments-under-a-linear-exposure/10.1214/23-EJS2111.full"
+            },
+            {
+              "title": "A Review of Spatial Causal Inference Methods for Environmental and Epidemiological Applications",
+              "authors": "Brian Reich, Shu Yang, Yawen Guan, Andrew Giffin, Matthew Miller, Ana Rappold",
+              "year": 2021,
+              "description": "Comprehensive review of spatial interference methods including geostatistical approaches for location-based spillovers.",
+              "url": "https://onlinelibrary.wiley.com/doi/10.1111/insr.12452"
             }
           ]
         },
@@ -136,6 +220,27 @@
               "year": 2022,
               "description": "Meta's open-source tool for geo-experiment design and measurement using synthetic control methods.",
               "url": "https://github.com/facebookincubator/GeoLift"
+            },
+            {
+              "title": "Design and Analysis of Switchback Experiments",
+              "authors": "Iavor Bojinov, David Simchi-Levi, Jinglong Zhao",
+              "year": 2023,
+              "description": "The definitive switchback paper—optimal design under carryover effects with minimax formulation; used by Uber, Lyft, DoorDash.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2022.4386"
+            },
+            {
+              "title": "Using Synthetic Controls: Feasibility, Data Requirements, and Methodological Aspects",
+              "authors": "Alberto Abadie",
+              "year": 2021,
+              "description": "Authoritative methodological review from synthetic control's creator; called 'most important innovation in policy evaluation in 15 years'.",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/jel.20191450"
+            },
+            {
+              "title": "Trimmed Match Design for Randomized Paired Geo Experiments",
+              "authors": "Yueqin Chen, Damien Longfils, Thomas Remy",
+              "year": 2021,
+              "description": "Addresses power analysis for geo experiments with few heterogeneous regions; foundation for Google's Trimmed Match library.",
+              "url": "https://arxiv.org/abs/2105.07060"
             }
           ]
         },
@@ -157,6 +262,27 @@
               "year": 2022,
               "description": "Methods for combining experimental and observational data to estimate persistent treatment effects.",
               "url": "https://arxiv.org/abs/2202.07234"
+            },
+            {
+              "title": "Novelty and Primacy: A Long-Term Estimator for Online Experiments",
+              "authors": "Somit Sadeghi, Somit Gupta, Anca Gramatovici, Jiannan Lu, Meng Ai, Mia Zhang",
+              "year": 2022,
+              "description": "First scalable method to estimate user-learning effects (novelty/primacy) via difference-in-differences across thousands of Microsoft experiments.",
+              "url": "https://www.tandfonline.com/doi/full/10.1080/00401706.2021.2010114"
+            },
+            {
+              "title": "Evaluating the Surrogate Index as a Decision-Making Tool Using 200 A/B Tests at Netflix",
+              "authors": "Di Zhang, Sophia Zhao, Maria Dimakopoulou, Diarle Le, Nathan Kallus",
+              "year": 2023,
+              "description": "Largest empirical validation of surrogates—95% consistency between 14-day surrogate predictions and 63-day outcomes across 1,098 test arms.",
+              "url": "https://arxiv.org/abs/2311.09857"
+            },
+            {
+              "title": "Estimation of the Proportion of Treatment Effect Explained by a High-Dimensional Surrogate",
+              "authors": "Xuan Zhou, Xin Zhao, Layla Parast",
+              "year": 2022,
+              "description": "First rigorous method for high-dimensional surrogates where number of surrogates exceeds sample size; essential for multi-metric settings.",
+              "url": "https://onlinelibrary.wiley.com/doi/10.1002/sim.9367"
             }
           ]
         }
