@@ -3277,31 +3277,188 @@
           "id": "geospatial-demand",
           "name": "Geospatial Demand Modeling",
           "application": "Heatmaps, demand surfaces",
-          "papers": []
+          "papers": [
+            {
+              "title": "Kernel Density Estimation",
+              "authors": "Bernard Silverman",
+              "year": 1986,
+              "tag": "Classic",
+              "description": "Foundational non-parametric density estimation underpinning demand heatmaps.",
+              "url": "https://www.taylorfrancis.com/books/mono/10.1201/9781315140919/density-estimation-statistics-data-analysis-silverman"
+            },
+            {
+              "title": "Geographically Weighted Regression",
+              "authors": "A. Stewart Fotheringham, Chris Brunsdon, Martin Charlton",
+              "year": 2002,
+              "tag": "Classic",
+              "description": "Local regression allowing coefficients to vary spatially—key for heterogeneous demand.",
+              "url": "https://onlinelibrary.wiley.com/doi/book/10.1002/9781118786352"
+            },
+            {
+              "title": "Deep Gravity: Large-Scale Origin-Destination Flows",
+              "authors": "Filippo Simini et al.",
+              "year": 2021,
+              "tag": "SOTA",
+              "description": "Neural network predicting mobility flows, outperforming classic gravity models.",
+              "url": "https://www.nature.com/articles/s41467-021-24803-0"
+            },
+            {
+              "title": "Understanding Uber Demand",
+              "authors": "Uber Engineering",
+              "year": 2018,
+              "tag": "Industry",
+              "description": "Uber's real-time geospatial demand prediction powering surge and dispatch.",
+              "url": "https://www.uber.com/blog/demand-and-surge-pricing/"
+            }
+          ]
         },
         {
           "id": "location-choice",
           "name": "Location Choice & Site Selection",
           "application": "Store placement, coverage optimization",
-          "papers": []
+          "papers": [
+            {
+              "title": "Maximum Coverage Location Problem",
+              "authors": "Richard Church, Charles ReVelle",
+              "year": 1974,
+              "tag": "Classic",
+              "description": "Seminal optimization formulation for facility siting under coverage constraints.",
+              "url": "https://link.springer.com/article/10.1007/BF01942293"
+            },
+            {
+              "title": "Spatial Interaction Models",
+              "authors": "Alan Wilson",
+              "year": 1971,
+              "tag": "Classic",
+              "description": "Entropy-maximization derivation of gravity and retail models.",
+              "url": "https://journals.sagepub.com/doi/10.1068/a030001"
+            },
+            {
+              "title": "Starbucks Store Locator with Machine Learning",
+              "authors": "Starbucks Analytics",
+              "year": 2019,
+              "tag": "Industry",
+              "description": "ML-driven site selection combining foot traffic, demographics, and competition.",
+              "url": "https://stories.starbucks.com/stories/2019/how-starbucks-uses-data-to-site-new-stores/"
+            }
+          ]
         },
         {
           "id": "spatial-econometrics",
           "name": "Spatial Econometrics",
           "application": "Spatial autocorrelation, spillovers",
-          "papers": []
+          "papers": [
+            {
+              "title": "Spatial Econometrics: Methods and Models",
+              "authors": "Luc Anselin",
+              "year": 1988,
+              "tag": "Classic",
+              "description": "Definitive textbook: spatial lag/error models, Moran's I, and inference.",
+              "url": "https://link.springer.com/book/10.1007/978-94-015-7799-1"
+            },
+            {
+              "title": "A Spatial Cliff-Ord-Type Model with Heteroskedastic Innovations",
+              "authors": "Harry Kelejian, Ingmar Prucha",
+              "year": 2010,
+              "tag": "Classic",
+              "description": "Robust GMM estimation for spatial autoregressions—standard in applied work.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0304407609001870"
+            },
+            {
+              "title": "PySAL: A Python Library for Spatial Analysis",
+              "authors": "Sergio Rey, Luc Anselin",
+              "year": 2007,
+              "tag": "Classic",
+              "description": "Open-source library implementing spatial weights, autocorrelation, regression.",
+              "url": "https://pysal.org/pysal/"
+            },
+            {
+              "title": "Spatial Spillovers in Airbnb Pricing",
+              "authors": "Nils Kok, Edward Kopczuk, Maisy Wong",
+              "year": 2020,
+              "tag": "SOTA",
+              "description": "Demonstrates spatial lag effects in short-term rental markets using hedonic models.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0094119020300310"
+            }
+          ]
         },
         {
           "id": "mapping-geocoding",
           "name": "Mapping & Geocoding",
           "application": "Address parsing, POI matching",
-          "papers": []
+          "papers": [
+            {
+              "title": "libpostal: International Address Parsing",
+              "authors": "Al Barrentine",
+              "year": 2017,
+              "tag": "Industry",
+              "description": "NLP library parsing addresses in 60+ languages—widely used in ride-sharing and logistics.",
+              "url": "https://github.com/openvenues/libpostal"
+            },
+            {
+              "title": "H3: Uber's Hexagonal Hierarchical Spatial Index",
+              "authors": "Uber Engineering",
+              "year": 2018,
+              "tag": "Industry",
+              "description": "Hexagonal grid system enabling efficient geospatial joins and aggregations.",
+              "url": "https://www.uber.com/blog/h3/"
+            },
+            {
+              "title": "Placekey: A Universal Place Identifier",
+              "authors": "SafeGraph",
+              "year": 2020,
+              "tag": "Industry",
+              "description": "Standardized POI identifier joining disparate datasets without address matching.",
+              "url": "https://www.placekey.io/"
+            }
+          ]
         },
         {
           "id": "mobility-patterns",
           "name": "Mobility & Movement Patterns",
           "application": "Travel behavior, flow prediction",
-          "papers": []
+          "papers": [
+            {
+              "title": "Understanding Individual Human Mobility Patterns",
+              "authors": "Marta González, César Hidalgo, Albert-László Barabási",
+              "year": 2008,
+              "tag": "Classic",
+              "description": "Large-scale mobile-phone analysis revealing power-law travel distributions.",
+              "url": "https://www.nature.com/articles/nature06958"
+            },
+            {
+              "title": "The Universal Visitation Law of Human Mobility",
+              "authors": "Markus Schläpfer et al.",
+              "year": 2021,
+              "tag": "SOTA",
+              "description": "Unifying framework explaining visitation frequency to locations across cities.",
+              "url": "https://www.nature.com/articles/s41586-021-03480-9"
+            },
+            {
+              "title": "DeepMove: Predicting Human Mobility",
+              "authors": "Jie Feng et al.",
+              "year": 2018,
+              "tag": "SOTA",
+              "description": "Attention-based RNN capturing periodicity and transition patterns in check-ins.",
+              "url": "https://dl.acm.org/doi/10.1145/3178876.3186058"
+            },
+            {
+              "title": "Google Mobility Reports",
+              "authors": "Google",
+              "year": 2020,
+              "tag": "Industry",
+              "description": "Aggregated mobility trends by place category—used globally for pandemic response.",
+              "url": "https://www.google.com/covid19/mobility/"
+            },
+            {
+              "title": "SafeGraph Foot Traffic Data",
+              "authors": "SafeGraph",
+              "year": 2021,
+              "tag": "Industry",
+              "description": "Panel-based POI visit data enabling offline-to-online attribution and demand studies.",
+              "url": "https://www.safegraph.com/products/places"
+            }
+          ]
         }
       ]
     },
@@ -3315,31 +3472,164 @@
           "id": "customer-segmentation",
           "name": "Customer Segmentation",
           "application": "Behavioral clusters, personas",
-          "papers": []
+          "papers": [
+            {
+              "title": "RFM Analysis for Customer Segmentation",
+              "authors": "Arthur Hughes",
+              "year": 1994,
+              "tag": "Classic",
+              "description": "Recency-Frequency-Monetary framework still widely used in retail and e-commerce.",
+              "url": "https://www.amazon.com/Strategic-Database-Marketing-Arthur-Hughes/dp/0071351825"
+            },
+            {
+              "title": "Customer Lifetime Value Segmentation",
+              "authors": "Peter Fader, Bruce Hardie",
+              "year": 2009,
+              "tag": "Classic",
+              "description": "Probability models (BG/NBD) for CLV estimation enabling value-based segmentation.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S1094996809000024"
+            },
+            {
+              "title": "Spotify's Discover Weekly: Machine Learning Meets Human Curation",
+              "authors": "Spotify Engineering",
+              "year": 2015,
+              "tag": "Industry",
+              "description": "Clustering taste profiles to power personalized playlists at scale.",
+              "url": "https://engineering.atspotify.com/2015/09/the-story-behind-discover-weekly/"
+            }
+          ]
         },
         {
           "id": "kmeans-hierarchical",
           "name": "K-Means & Hierarchical Clustering",
           "application": "Classic approaches",
-          "papers": []
+          "papers": [
+            {
+              "title": "Algorithm AS 136: A K-Means Clustering Algorithm",
+              "authors": "John Hartigan, Manchek Wong",
+              "year": 1979,
+              "tag": "Classic",
+              "description": "Definitive k-means formulation with convergence guarantees—still the default.",
+              "url": "https://www.jstor.org/stable/2346830"
+            },
+            {
+              "title": "Hierarchical Grouping to Optimize an Objective Function",
+              "authors": "Joe Ward",
+              "year": 1963,
+              "tag": "Classic",
+              "description": "Ward's method for agglomerative clustering minimizing within-cluster variance.",
+              "url": "https://www.jstor.org/stable/2282967"
+            },
+            {
+              "title": "Scalable K-Means++",
+              "authors": "Bahman Bahmani et al.",
+              "year": 2012,
+              "tag": "SOTA",
+              "description": "Parallel k-means initialization achieving logarithmic rounds—default in Spark MLlib.",
+              "url": "https://arxiv.org/abs/1203.6402"
+            }
+          ]
         },
         {
           "id": "model-based-clustering",
           "name": "Model-Based Clustering",
           "application": "Mixture models, latent classes",
-          "papers": []
+          "papers": [
+            {
+              "title": "Finite Mixture Models",
+              "authors": "Geoffrey McLachlan, David Peel",
+              "year": 2000,
+              "tag": "Classic",
+              "description": "Comprehensive treatment of Gaussian and non-Gaussian mixture estimation.",
+              "url": "https://onlinelibrary.wiley.com/doi/book/10.1002/0471721182"
+            },
+            {
+              "title": "Latent Class Analysis",
+              "authors": "Paul Lazarsfeld, Neil Henry",
+              "year": 1968,
+              "tag": "Classic",
+              "description": "Foundational discrete mixture model for categorical response patterns.",
+              "url": "https://www.amazon.com/Latent-Structure-Analysis-Paul-Lazarsfeld/dp/0395042488"
+            },
+            {
+              "title": "Variational Inference for Dirichlet Process Mixtures",
+              "authors": "David Blei, Michael Jordan",
+              "year": 2006,
+              "tag": "SOTA",
+              "description": "Scalable non-parametric Bayesian clustering without specifying K.",
+              "url": "https://projecteuclid.org/journals/bayesian-analysis/volume-1/issue-1/Variational-inference-for-Dirichlet-process-mixtures/10.1214/06-BA104.full"
+            }
+          ]
         },
         {
           "id": "embedding-clustering",
           "name": "Embedding-Based Clustering",
           "application": "Deep clustering, representation learning",
-          "papers": []
+          "papers": [
+            {
+              "title": "Deep Embedded Clustering (DEC)",
+              "authors": "Junyuan Xie, Ross Girshick, Ali Farhadi",
+              "year": 2016,
+              "tag": "SOTA",
+              "description": "Joint representation learning and clustering via autoencoders.",
+              "url": "https://arxiv.org/abs/1511.06335"
+            },
+            {
+              "title": "Spectral Clustering and the High-Dimensional Stochastic Blockmodel",
+              "authors": "Karl Rohe, Sourav Chatterjee, Bin Yu",
+              "year": 2011,
+              "tag": "Classic",
+              "description": "Theoretical foundation for spectral methods in network/embedding clustering.",
+              "url": "https://arxiv.org/abs/1007.1684"
+            },
+            {
+              "title": "Contrastive Clustering",
+              "authors": "Yunfan Li et al.",
+              "year": 2021,
+              "tag": "SOTA",
+              "description": "Self-supervised contrastive objectives for cluster-friendly representations.",
+              "url": "https://arxiv.org/abs/2009.09687"
+            }
+          ]
         },
         {
           "id": "segmentation-targeting",
           "name": "Segmentation for Targeting",
           "application": "Heterogeneity, personalization groups",
-          "papers": []
+          "papers": [
+            {
+              "title": "Heterogeneous Treatment Effects and Optimal Targeting",
+              "authors": "Susan Athey, Stefan Wager",
+              "year": 2021,
+              "tag": "SOTA",
+              "description": "Causal forests for estimating HTEs and deriving optimal targeting policies.",
+              "url": "https://arxiv.org/abs/1902.07409"
+            },
+            {
+              "title": "Uplift Modeling for Clinical Trial Data",
+              "authors": "Maciej Jaskowski, Szymon Jaroszewicz",
+              "year": 2012,
+              "tag": "Classic",
+              "description": "Foundational uplift/treatment-effect modeling enabling segment-specific interventions.",
+              "url": "https://link.springer.com/chapter/10.1007/978-3-642-31537-4_13"
+            },
+            {
+              "title": "Personalization at Spotify Using Cassandra",
+              "authors": "Spotify Engineering",
+              "year": 2015,
+              "tag": "Industry",
+              "description": "Large-scale user segmentation powering real-time recommendations.",
+              "url": "https://engineering.atspotify.com/2015/01/personalization-at-spotify-using-cassandra/"
+            },
+            {
+              "title": "Netflix Artwork Personalization",
+              "authors": "Netflix Tech Blog",
+              "year": 2017,
+              "tag": "Industry",
+              "description": "Segment-based image selection improving engagement through visual personalization.",
+              "url": "https://netflixtechblog.com/artwork-personalization-c589f074ad76"
+            }
+          ]
         }
       ]
     }
