@@ -2,15 +2,15 @@
 <!-- All Data for Favorites Lookup -->
 <script id="all-data" type="application/json">
 {
-  "resource": {{ .Site.Data.resources | jsonify }},
-  "package": {{ .Site.Data.packages | jsonify }},
-  "dataset": {{ .Site.Data.datasets | jsonify }},
-  "talk": {{ .Site.Data.talks | jsonify }},
-  "book": {{ .Site.Data.books | jsonify }},
-  "career": {{ .Site.Data.career | jsonify }},
-  "community": {{ .Site.Data.community | jsonify }},
-  "paper": {{ .Site.Data.papers | jsonify }},
-  "roadmap": {{ .Site.Data.roadmaps | jsonify }}
+  "resource": {{ .Site.Data.resources | jsonify | safeJS }},
+  "package": {{ .Site.Data.packages | jsonify | safeJS }},
+  "dataset": {{ .Site.Data.datasets | jsonify | safeJS }},
+  "talk": {{ .Site.Data.talks | jsonify | safeJS }},
+  "book": {{ .Site.Data.books | jsonify | safeJS }},
+  "career": {{ .Site.Data.career | jsonify | safeJS }},
+  "community": {{ .Site.Data.community | jsonify | safeJS }},
+  "paper": {{ .Site.Data.papers | jsonify | safeJS }},
+  "roadmap": {{ .Site.Data.roadmaps | jsonify | safeJS }}
 }
 </script>
 
