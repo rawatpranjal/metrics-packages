@@ -108,6 +108,34 @@
     </div>
 </div>
 
+<!-- Add to Playlist Modal -->
+<div id="add-to-playlist-modal" class="modal" style="display: none;">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3>Add to Playlist</h3>
+            <button class="modal-close" id="close-add-playlist-modal">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+        <div id="playlist-options" class="playlist-options-list">
+            <!-- Playlist options rendered here -->
+        </div>
+        <div class="modal-actions">
+            <button class="btn btn-outline" id="create-and-add-btn">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+                Create New Playlist
+            </button>
+        </div>
+    </div>
+</div>
+
 <!-- Hidden file input for CSV import -->
 <input type="file" id="csv-import-input" accept=".csv" style="display: none;" />
 

@@ -21,6 +21,161 @@
         }, 2500);
     }
 
+    // Current item being added to playlist
+    let currentPlaylistItem = null;
+
+    // Show "Add to Playlist" modal
+    function showAddToPlaylistModal(itemType, itemId, itemData) {
+        if (!window.TechEconPlaylists) {
+            showToast('Playlists not available', 'error');
+            return;
+        }
+
+        currentPlaylistItem = { type: itemType, id: itemId, data: itemData };
+
+        const modal = document.getElementById('add-to-playlist-modal');
+        const optionsContainer = document.getElementById('playlist-options');
+
+        if (!modal || !optionsContainer) {
+            // Modal not on this page, create it dynamically
+            createAddToPlaylistModal();
+            return showAddToPlaylistModal(itemType, itemId, itemData);
+        }
+
+        const playlists = window.TechEconPlaylists.getAll();
+
+        if (playlists.length === 0) {
+            optionsContainer.innerHTML = `
+                <div class="empty-state-small">
+                    <p>No playlists yet</p>
+                    <p class="text-muted">Create one to get started</p>
+                </div>
+            `;
+        } else {
+            let html = '';
+            playlists.forEach(playlist => {
+                const hasItem = playlist.items.some(item =>
+                    item.type === itemType && item.id === itemId
+                );
+                html += `
+                    <div class="playlist-option ${hasItem ? 'already-added' : ''}"
+                         data-playlist-id="${playlist.id}">
+                        <span class="playlist-option-name">${escapeHtml(playlist.name)}</span>
+                        <span class="playlist-option-count">${playlist.items.length} items</span>
+                        ${hasItem ? '<span class="playlist-option-check">✓</span>' : ''}
+                    </div>
+                `;
+            });
+            optionsContainer.innerHTML = html;
+
+            // Add click handlers
+            optionsContainer.querySelectorAll('.playlist-option:not(.already-added)').forEach(opt => {
+                opt.addEventListener('click', function() {
+                    const playlistId = this.dataset.playlistId;
+                    if (currentPlaylistItem) {
+                        window.TechEconPlaylists.addItem(
+                            playlistId,
+                            currentPlaylistItem.type,
+                            currentPlaylistItem.id,
+                            currentPlaylistItem.data
+                        );
+                        showToast('Added to playlist');
+                        hideAddToPlaylistModal();
+                    }
+                });
+            });
+        }
+
+        modal.style.display = 'flex';
+    }
+
+    // Hide "Add to Playlist" modal
+    function hideAddToPlaylistModal() {
+        const modal = document.getElementById('add-to-playlist-modal');
+        if (modal) {
+            modal.style.display = 'none';
+        }
+        currentPlaylistItem = null;
+    }
+
+    // Create modal dynamically for pages that don't have it
+    function createAddToPlaylistModal() {
+        if (document.getElementById('add-to-playlist-modal')) return;
+
+        const modal = document.createElement('div');
+        modal.id = 'add-to-playlist-modal';
+        modal.className = 'modal';
+        modal.style.display = 'none';
+        modal.innerHTML = `
+            <div class="modal-backdrop"></div>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Add to Playlist</h3>
+                    <button class="modal-close" id="close-add-playlist-modal">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+                <div id="playlist-options" class="playlist-options-list"></div>
+                <div class="modal-actions">
+                    <button class="btn btn-outline" id="create-and-add-btn">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                        </svg>
+                        Create New Playlist
+                    </button>
+                </div>
+            </div>
+        `;
+        document.body.appendChild(modal);
+        initAddToPlaylistModal();
+    }
+
+    // Initialize modal event handlers
+    function initAddToPlaylistModal() {
+        const modal = document.getElementById('add-to-playlist-modal');
+        if (!modal) return;
+
+        const backdrop = modal.querySelector('.modal-backdrop');
+        const closeBtn = document.getElementById('close-add-playlist-modal');
+        const createBtn = document.getElementById('create-and-add-btn');
+
+        if (backdrop) backdrop.addEventListener('click', hideAddToPlaylistModal);
+        if (closeBtn) closeBtn.addEventListener('click', hideAddToPlaylistModal);
+
+        if (createBtn) {
+            createBtn.addEventListener('click', function() {
+                const name = prompt('Enter playlist name:');
+                if (name && name.trim()) {
+                    const playlistId = window.TechEconPlaylists.create(name.trim());
+                    if (currentPlaylistItem) {
+                        window.TechEconPlaylists.addItem(
+                            playlistId,
+                            currentPlaylistItem.type,
+                            currentPlaylistItem.id,
+                            currentPlaylistItem.data
+                        );
+                        showToast('Created playlist and added item');
+                    }
+                    hideAddToPlaylistModal();
+                }
+            });
+        }
+    }
+
+    // Helper to escape HTML
+    function escapeHtml(text) {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+    }
+
+    // Expose globally for use from anywhere
+    window.showAddToPlaylistModal = showAddToPlaylistModal;
+
     // Add favorite buttons to all cards
     function initFavoriteButtons() {
         document.querySelectorAll('.card, .resource-card, .package-card, .dataset-card, .talk-card, .paper-card, .roadmap-card').forEach(card => {
@@ -93,9 +248,18 @@
             }
 
             // Handle click - no auth needed!
+            let pressTimer;
+            let longPressed = false;
+
             btn.addEventListener('click', function(e) {
                 e.preventDefault();
                 e.stopPropagation();
+
+                // If long press just happened, don't toggle favorite
+                if (longPressed) {
+                    longPressed = false;
+                    return;
+                }
 
                 if (!window.TechEconFavorites) {
                     console.error('Favorites module not loaded');
@@ -107,6 +271,27 @@
                 btn.setAttribute('aria-pressed', isFav);
                 showToast(isFav ? 'Added to favorites' : 'Removed from favorites');
             });
+
+            // Long press to add to playlist (mouse)
+            btn.addEventListener('mousedown', function(e) {
+                pressTimer = setTimeout(() => {
+                    longPressed = true;
+                    showAddToPlaylistModal(itemType, itemId, itemData);
+                }, 500);
+            });
+            btn.addEventListener('mouseup', () => clearTimeout(pressTimer));
+            btn.addEventListener('mouseleave', () => clearTimeout(pressTimer));
+
+            // Long press to add to playlist (touch)
+            btn.addEventListener('touchstart', function(e) {
+                pressTimer = setTimeout(() => {
+                    longPressed = true;
+                    e.preventDefault();
+                    showAddToPlaylistModal(itemType, itemId, itemData);
+                }, 500);
+            }, { passive: false });
+            btn.addEventListener('touchend', () => clearTimeout(pressTimer));
+            btn.addEventListener('touchcancel', () => clearTimeout(pressTimer));
 
             // Check initial state
             if (window.TechEconFavorites && window.TechEconFavorites.isFavorited(itemType, itemId)) {
@@ -183,11 +368,23 @@
                     ${desc ? `<p class="card-desc">${desc}</p>` : ''}
                     <div class="card-footer">
                         <span class="category-badge">${category}</span>
-                        <button class="favorite-remove" onclick="removeFavorite('${fav.type}', '${escapedId}')">
-                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
-                            </svg>
-                        </button>
+                        <div class="card-actions">
+                            <button class="favorite-add-playlist" title="Add to playlist" data-type="${fav.type}" data-id="${escapedId}">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="8" y1="6" x2="21" y2="6"></line>
+                                    <line x1="8" y1="12" x2="21" y2="12"></line>
+                                    <line x1="8" y1="18" x2="21" y2="18"></line>
+                                    <line x1="3" y1="6" x2="3.01" y2="6"></line>
+                                    <line x1="3" y1="12" x2="3.01" y2="12"></line>
+                                    <line x1="3" y1="18" x2="3.01" y2="18"></line>
+                                </svg>
+                            </button>
+                            <button class="favorite-remove" onclick="removeFavorite('${fav.type}', '${escapedId}')">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                                </svg>
+                            </button>
+                        </div>
                     </div>
                 </div>
             `;
@@ -273,6 +470,20 @@
             });
 
                 container.innerHTML = html;
+
+                // Add event listeners for "Add to Playlist" buttons
+                container.querySelectorAll('.favorite-add-playlist').forEach(btn => {
+                    btn.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        const type = this.dataset.type;
+                        const id = this.dataset.id;
+                        const card = this.closest('.favorite-card');
+                        const name = card?.querySelector('.card-title a')?.textContent || id;
+                        const url = card?.querySelector('.card-title a')?.href || '';
+                        showAddToPlaylistModal(type, id, { name, url, category: type });
+                    });
+                });
+
                 console.log('[Favorites] Rendered successfully');
             } catch (e) {
                 console.error('[Favorites] Error:', e);
@@ -294,6 +505,9 @@
 
         // Load immediately
         loadFavorites();
+
+        // Initialize "Add to Playlist" modal
+        initAddToPlaylistModal();
 
         // Initialize tabs if present
         initTabs(loadFavorites);
