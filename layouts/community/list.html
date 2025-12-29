@@ -46,19 +46,27 @@
             {{ end }}
         </select>
 
-        <!-- View Toggle -->
-        <div class="view-toggle">
-            <button id="btn-year" class="toggle-btn active">Year</button>
-            <button id="btn-month" class="toggle-btn">Month</button>
-            <button id="btn-map" class="toggle-btn">Map</button>
+        <!-- View Toggle (large tabs) -->
+        <div class="view-toggle view-toggle-large">
+            <button id="btn-map" class="toggle-btn active">Map</button>
+            <button id="btn-calendar" class="toggle-btn">Calendar</button>
             <button id="btn-cards" class="toggle-btn">Cards</button>
+            <button id="btn-table" class="toggle-btn">Table</button>
         </div>
     </div>
 
     <div id="result-count" class="result-count">{{ len .Site.Data.community }} events & communities</div>
 
-    <!-- Year View (default) -->
-    <div id="year-view">
+    <!-- Calendar View Container (hidden by default - Map is default) -->
+    <div id="calendar-view" style="display: none;">
+        <!-- Calendar Sub-Toggle -->
+        <div class="calendar-sub-toggle">
+            <button class="sub-btn active" data-subview="year">Year</button>
+            <button class="sub-btn" data-subview="month">Month</button>
+        </div>
+
+        <!-- Year Sub-View -->
+        <div id="year-subview">
         <!-- Subcategory Legend -->
         <div class="subcategory-legend">
             <div class="legend-item"><span class="legend-color experimentation"></span> Experimentation</div>
@@ -212,10 +220,10 @@
                 {{ end }}
             </div>
         </div>
-    </div>
+        </div>
 
-    <!-- Month View (hidden by default) - Google Calendar style grid -->
-    <div id="month-view" style="display: none;">
+        <!-- Month Sub-View (hidden by default within Calendar) -->
+        <div id="month-subview" style="display: none;">
         <div class="month-nav">
             <button id="prev-month" aria-label="Previous month">←</button>
             <h2 id="current-month-title">January 2025</h2>
@@ -239,15 +247,16 @@
         </div>
 
         <p id="no-month-events" class="no-events" style="display: none;">No conferences scheduled for this month.</p>
-    </div>
+        </div>
 
-    <!-- Conference Data for Calendar JavaScript -->
+        <!-- Conference Data for Calendar JavaScript -->
     <script id="conference-dates-data" type="application/json">
     [{{ $first := true }}{{ range .Site.Data.community }}{{ if and (eq .category "Conferences") .start_date }}{{ if not $first }},{{ end }}{{ $first = false }}{"name":"{{ .name }}","url":"{{ .url }}","start_date":"{{ .start_date }}","end_date":"{{ .end_date }}","subcategory":"{{ .subcategory | default "" }}","location":"{{ .location | htmlEscape }}"}{{ end }}{{ end }}]
     </script>
+    </div>
 
-    <!-- Map View (hidden by default) -->
-    <div id="map-view" style="display: none;">
+    <!-- Map View (default view) -->
+    <div id="map-view">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
         <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
         <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
@@ -365,6 +374,36 @@
         </div>
     </div>
 
+    <!-- Table View (hidden by default) -->
+    <div id="table-view" style="display: none;">
+        <div class="table-container">
+            <table class="community-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Dates</th>
+                        <th>Location</th>
+                        <th>Category</th>
+                        <th>Subcategory</th>
+                        <th>Attendees</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{ range .Site.Data.community }}
+                    <tr data-category="{{ .category }}" data-name="{{ .name | lower }}" data-location="{{ .location | lower }}">
+                        <td><a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a></td>
+                        <td>{{ .dates }}</td>
+                        <td>{{ .location }}</td>
+                        <td>{{ .category }}</td>
+                        <td>{{ .subcategory | default "—" }}</td>
+                        <td>{{ .attendees | default "—" }}</td>
+                    </tr>
+                    {{ end }}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
     <!-- Footer -->
     <footer class="footer">
         <p>Community resources for tech economists</p>
@@ -389,14 +428,16 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // View elements
-    const yearView = document.getElementById('year-view');
-    const monthView = document.getElementById('month-view');
+    const calendarView = document.getElementById('calendar-view');
+    const yearSubview = document.getElementById('year-subview');
+    const monthSubview = document.getElementById('month-subview');
     const mapView = document.getElementById('map-view');
     const cardsView = document.getElementById('cards-view');
-    const btnYear = document.getElementById('btn-year');
-    const btnMonth = document.getElementById('btn-month');
+    const tableView = document.getElementById('table-view');
     const btnMap = document.getElementById('btn-map');
+    const btnCalendar = document.getElementById('btn-calendar');
     const btnCards = document.getElementById('btn-cards');
+    const btnTable = document.getElementById('btn-table');
 
     // Map variables
     let map = null;
@@ -763,23 +804,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // View toggle handlers
     function setActiveView(view) {
-        yearView.style.display = 'none';
-        monthView.style.display = 'none';
+        // Hide all main views
+        calendarView.style.display = 'none';
         mapView.style.display = 'none';
         cardsView.style.display = 'none';
-        btnYear.classList.remove('active');
-        btnMonth.classList.remove('active');
-        btnMap.classList.remove('active');
-        btnCards.classList.remove('active');
+        tableView.style.display = 'none';
 
-        if (view === 'year') {
-            yearView.style.display = 'block';
-            btnYear.classList.add('active');
-        } else if (view === 'month') {
-            monthView.style.display = 'block';
-            btnMonth.classList.add('active');
-            updateMonthView();
-        } else if (view === 'map') {
+        // Remove active from all buttons
+        btnMap.classList.remove('active');
+        btnCalendar.classList.remove('active');
+        btnCards.classList.remove('active');
+        btnTable.classList.remove('active');
+
+        if (view === 'map') {
             mapView.style.display = 'block';
             btnMap.classList.add('active');
             // Initialize map on first view (Leaflet needs visible container)
@@ -787,16 +824,57 @@ document.addEventListener('DOMContentLoaded', function() {
                 initMap();
                 if (map) map.invalidateSize();
             }, 100);
-        } else {
+        } else if (view === 'calendar') {
+            calendarView.style.display = 'block';
+            btnCalendar.classList.add('active');
+            // Initialize month view if showing month subview
+            if (monthSubview.style.display !== 'none') {
+                updateMonthView();
+            }
+        } else if (view === 'cards') {
             cardsView.style.display = 'block';
             btnCards.classList.add('active');
+        } else if (view === 'table') {
+            tableView.style.display = 'block';
+            btnTable.classList.add('active');
         }
     }
 
-    btnYear.addEventListener('click', () => setActiveView('year'));
-    btnMonth.addEventListener('click', () => setActiveView('month'));
+    // Calendar sub-toggle handlers
+    const calendarSubBtns = document.querySelectorAll('.calendar-sub-toggle .sub-btn');
+    calendarSubBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            calendarSubBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+
+            const subview = this.dataset.subview;
+            if (subview === 'year') {
+                yearSubview.style.display = 'block';
+                monthSubview.style.display = 'none';
+            } else {
+                yearSubview.style.display = 'none';
+                monthSubview.style.display = 'block';
+                updateMonthView();
+            }
+        });
+    });
+
     btnMap.addEventListener('click', () => setActiveView('map'));
+    btnCalendar.addEventListener('click', () => setActiveView('calendar'));
     btnCards.addEventListener('click', () => setActiveView('cards'));
+    btnTable.addEventListener('click', () => setActiveView('table'));
+
+    // Initialize map on page load (Map is default view)
+    setTimeout(() => {
+        initMap();
+        if (map) map.invalidateSize();
+    }, 100);
+
+    // Handle URL hash for direct navigation (e.g., #map, #calendar, #cards, #table)
+    const hash = window.location.hash.substring(1);
+    if (hash === 'calendar' || hash === 'cards' || hash === 'table') {
+        setActiveView(hash);
+    }
 
     // Month navigation with year support
     document.getElementById('prev-month').addEventListener('click', function() {

@@ -3465,6 +3465,108 @@ a:hover {
     }
 }
 
+/* Large View Toggle Tabs */
+.view-toggle-large {
+    gap: 0.75rem;
+}
+
+.view-toggle-large .toggle-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .view-toggle-large {
+        gap: 0.5rem;
+    }
+    .view-toggle-large .toggle-btn {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.85rem;
+    }
+}
+
+/* Calendar Sub-Toggle */
+.calendar-sub-toggle {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.calendar-sub-toggle .sub-btn {
+    padding: 0.4rem 1rem;
+    border: 1px solid var(--border-light);
+    background: var(--bg-card);
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+
+.calendar-sub-toggle .sub-btn:hover {
+    background: var(--bg-hover);
+}
+
+.calendar-sub-toggle .sub-btn.active {
+    background: var(--text-secondary);
+    color: var(--bg-primary);
+    border-color: var(--text-secondary);
+}
+
+/* Community Table View */
+.table-container {
+    overflow-x: auto;
+    margin-top: 1rem;
+}
+
+.community-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+.community-table th,
+.community-table td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.community-table th {
+    background: var(--bg-secondary);
+    font-weight: 600;
+    color: var(--text-primary);
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+}
+
+.community-table tbody tr:hover {
+    background: var(--bg-hover);
+}
+
+.community-table td a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.community-table td a:hover {
+    text-decoration: underline;
+}
+
+.community-table td:nth-child(2),
+.community-table td:nth-child(3) {
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .community-table th,
+    .community-table td {
+        padding: 0.5rem 0.6rem;
+        font-size: 0.8rem;
+    }
+}
+
 /* Always Available Section */
 .always-available {
     margin-top: 2rem;
