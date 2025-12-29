@@ -1,109 +1,5 @@
 [
   {
-    "name": "Causal Inference for the Brave and True",
-    "description": "The best free intro to causal inference. DiD, IV, RDD, synthetic control \u2014 all with Python code you can run. No fluff.",
-    "category": "Fundamentals",
-    "url": "https://matheusfacure.github.io/python-causality-handbook/",
-    "type": "Online Book",
-    "level": "Easy",
-    "tags": [
-      "Causal Inference",
-      "Online Book"
-    ],
-    "domain": "Causal Inference"
-  },
-  {
-    "name": "The Effect",
-    "description": "DAGs that don't suck. Nick HK explains causality like he's at a whiteboard, not a lectern. Free, modern, and actually enjoyable to read.",
-    "category": "Fundamentals",
-    "url": "https://theeffectbook.net/",
-    "type": "Online Book",
-    "level": "Medium",
-    "tags": [
-      "Causal Inference",
-      "Online Book"
-    ],
-    "domain": "Causal Inference"
-  },
-  {
-    "name": "Causal Inference: The Mixtape",
-    "description": "Scott Cunningham's guide \u2014 reads like a conversation, not a textbook. Code in Stata, R, and Python.",
-    "category": "Fundamentals",
-    "url": "https://mixtape.scunning.com/",
-    "type": "Online Book",
-    "level": "Medium",
-    "tags": [
-      "Causal Inference",
-      "Online Book"
-    ],
-    "domain": "Causal Inference"
-  },
-  {
-    "name": "CausalML (Uber) Documentation",
-    "description": "Synthetic data tutorials that feel like a game. Generate fake users, apply treatment, challenge yourself to recover the effect using Random Forest.",
-    "category": "Fundamentals",
-    "url": "https://causalml.readthedocs.io/en/latest/examples/causal_trees_with_synthetic_data.html",
-    "type": "Tutorial",
-    "level": "Medium",
-    "tags": [
-      "Causal Inference",
-      "Tutorial"
-    ],
-    "domain": "Causal Inference"
-  },
-  {
-    "name": "EconML Documentation",
-    "description": "Microsoft's library for ML-based causal inference. Tutorials on heterogeneous treatment effects, double ML, and more.",
-    "category": "Causal ML",
-    "url": "https://econml.azurewebsites.net/",
-    "type": "Docs + Tutorials",
-    "level": "Hard",
-    "tags": [
-      "Causal Inference",
-      "Docs + Tutorials"
-    ],
-    "domain": "Causal Inference"
-  },
-  {
-    "name": "DoWhy Library",
-    "description": "Microsoft's causal inference library. Great for understanding causal graphs and robustness checks.",
-    "category": "Causal ML",
-    "url": "https://www.pywhy.org/dowhy/",
-    "type": "Docs + Tutorials",
-    "level": "Medium",
-    "tags": [
-      "Causal Inference",
-      "Docs + Tutorials"
-    ],
-    "domain": "Causal Inference"
-  },
-  {
-    "name": "Causal ML Book (Chernozhukov et al.)",
-    "description": "Applied Causal Inference Powered by ML and AI. Double/debiased ML, heterogeneous effects, and modern methods from the pioneers.",
-    "category": "Fundamentals",
-    "url": "https://causalml-book.org/",
-    "type": "Online Book",
-    "level": "Medium",
-    "tags": [
-      "Causal Inference",
-      "Online Book"
-    ],
-    "domain": "Causal Inference"
-  },
-  {
-    "name": "DoWhy User Guide",
-    "description": "Microsoft's causal inference library. Graph-based causal inference, discovery algorithms, and Python implementations. Free official docs.",
-    "category": "Causal ML",
-    "url": "https://www.pywhy.org/dowhy/main/user_guide/index.html",
-    "type": "Docs + Tutorials",
-    "level": "Medium",
-    "tags": [
-      "Causal Inference",
-      "Docs + Tutorials"
-    ],
-    "domain": "Causal Inference"
-  },
-  {
     "name": "PyMC Labs Blog",
     "description": "Bayesian causal inference done right. MCMC, probabilistic programming, and causal models from the PyMC team.",
     "category": "Bayesian Methods",
@@ -115,58 +11,6 @@
       "Blog"
     ],
     "domain": "Statistics"
-  },
-  {
-    "name": "CausalPy",
-    "description": "Synthetic controls that feel like scikit-learn. Built on PyMC, perfect for quasi-experiments when you can't randomize.",
-    "category": "Causal ML",
-    "url": "https://causalpy.readthedocs.io/",
-    "type": "Docs + Tutorials",
-    "level": "Medium",
-    "tags": [
-      "Causal Inference",
-      "Docs + Tutorials"
-    ],
-    "domain": "Causal Inference"
-  },
-  {
-    "name": "Andrew Gelman's Blog",
-    "description": "Stats, causal inference, experiment pitfalls. Frank, often funny, always insightful. The most-read stats blog for good reason.",
-    "category": "Fundamentals",
-    "url": "https://andrewgelman.com/",
-    "type": "Blog",
-    "level": "Medium",
-    "tags": [
-      "Causal Inference",
-      "Blog"
-    ],
-    "domain": "Causal Inference"
-  },
-  {
-    "name": "Applied Econometrics Notes (Lal)",
-    "description": "Applied econometrics notes and code by Apoorva Lal covering modern causal inference methods.",
-    "category": "Fundamentals",
-    "url": "https://apoorvalal.github.io/notebook/",
-    "type": "Course Notes",
-    "level": "Medium",
-    "tags": [
-      "Causal Inference",
-      "Course Notes"
-    ],
-    "domain": "Causal Inference"
-  },
-  {
-    "name": "A Practitioner's Guide to DiD",
-    "description": "Jonathan Roth et al.'s comprehensive guide to modern difference-in-differences. Staggered timing, pre-trends, and new estimators.",
-    "category": "Difference-in-Differences",
-    "url": "https://arxiv.org/abs/2201.01194",
-    "type": "Paper",
-    "level": "Hard",
-    "tags": [
-      "Causal Inference",
-      "Paper"
-    ],
-    "domain": "Causal Inference"
   },
   {
     "name": "Causal RL Bridges",
@@ -546,19 +390,6 @@
     "domain": "Optimization & Operations Research"
   },
   {
-    "name": "Empirical IO: Coding BLP",
-    "description": "Matteo Courthoud's code-first walkthrough of the BLP demand model. The 'Brave and True' for structural economics.",
-    "category": "Fundamentals",
-    "url": "https://matteocourthoud.github.io/course/empirical-io/12_blp_1995/",
-    "type": "Tutorial",
-    "level": "Medium",
-    "tags": [
-      "Pricing & Demand",
-      "Tutorial"
-    ],
-    "domain": "Causal Inference"
-  },
-  {
     "name": "PyBLP: Demand Estimation",
     "description": "QuantEcon tutorial on estimating demand curves with Python. Turns PhD-level IO into a solvable Problem().solve().",
     "category": "Pricing & Revenue",
@@ -622,19 +453,6 @@
       "Course Notes"
     ],
     "domain": "Domain Applications"
-  },
-  {
-    "name": "Susan Athey: ML & Causal Inference Course",
-    "description": "Stanford GSB's ML and Causal Inference short course. Videos, slides, and tutorials on causal forests, treatment effects, and policy evaluation.",
-    "category": "Fundamentals",
-    "url": "https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil/research/methods/ai-machine-learning/short-course",
-    "type": "Course",
-    "level": "Medium",
-    "tags": [
-      "Causal Inference",
-      "Course"
-    ],
-    "domain": "Causal Inference"
   },
   {
     "name": "Michael Ostrovsky: Market Design Course",
@@ -2665,32 +2483,6 @@
     "domain": "Experimentation"
   },
   {
-    "name": "Netflix: A Survey of Causal Inference Applications",
-    "description": "DiD, double ML, and Bayesian approaches across content, product, and member experience teams. Based on Netflix's internal Causal Inference Summit.",
-    "category": "Fundamentals",
-    "url": "https://netflixtechblog.com/a-survey-of-causal-inference-applications-at-netflix-b62d25175e6f",
-    "type": "Blog",
-    "level": "Hard",
-    "tags": [
-      "Experimentation",
-      "Blog"
-    ],
-    "domain": "Causal Inference"
-  },
-  {
-    "name": "Delta Method in Metric Analytics (Microsoft/KDD 2018)",
-    "description": "Comprehensive treatment for deriving variance for complex metrics (ratios, percentiles, quantiles). Parallelizable implementation for distributed systems \u2014 essential for production experimentation.",
-    "category": "Fundamentals",
-    "url": "https://arxiv.org/pdf/1803.06336",
-    "type": "Paper",
-    "level": "Hard",
-    "tags": [
-      "Experimentation",
-      "Paper"
-    ],
-    "domain": "Causal Inference"
-  },
-  {
     "name": "Design and Analysis of Switchback Experiments (Harvard/MIT)",
     "description": "Derives optimal switchback design under carryover effects using minimax optimization. Two inference approaches: exact randomization p-values and finite-population CLT. The theoretical foundation for marketplace experimentation.",
     "category": "A/B Testing Fundamentals",
@@ -2717,19 +2509,6 @@
     "domain": "Experimentation"
   },
   {
-    "name": "Choosing Your North Star Metric (Lenny/a16z)",
-    "description": "Surveyed 40+ companies (Airbnb, Netflix, Spotify, Slack, Uber) for a taxonomy of 6 NSM categories. Frameworks for choosing based on business model type \u2014 the definitive NSM resource.",
-    "category": "Causal ML",
-    "url": "https://future.com/north-star-metrics/",
-    "type": "Framework",
-    "level": "Medium",
-    "tags": [
-      "Product Analytics",
-      "Framework"
-    ],
-    "domain": "Causal Inference"
-  },
-  {
     "name": "A Quantitative Approach to Product-Market Fit (Tribe Capital)",
     "description": "The foundational text on growth accounting. MAU growth accounting AND revenue growth accounting. Quick Ratio, Gross Retention, Net Churn explained by the team that pioneered it.",
     "category": "Growth & Retention",
@@ -2754,19 +2533,6 @@
       "Guide"
     ],
     "domain": "Experimentation"
-  },
-  {
-    "name": "Retention (Sequoia Capital Data Science)",
-    "description": "Three archetypal retention curves \u2014 Flattening, Declining, Smiling \u2014 and what each indicates about product health. Benchmarks by product type. Triangle retention chart visualization.",
-    "category": "Causal ML",
-    "url": "https://articles.sequoiacap.com/retention",
-    "type": "Framework",
-    "level": "Medium",
-    "tags": [
-      "Product Analytics",
-      "Framework"
-    ],
-    "domain": "Causal Inference"
   },
   {
     "name": "The Power User Curve (a16z)",
@@ -3120,5 +2886,317 @@
       "AI & LLMs"
     ],
     "domain": "Machine Learning"
+  },
+  {
+    "name": "Brady Neal's Introduction to Causal Inference",
+    "description": "14-week video course covering potential outcomes, DAGs, do-calculus, and causal discovery. Features guest lectures from Susan Athey, Alberto Abadie, and Yoshua Bengio. Bridges ML and econometric traditions.",
+    "category": "Fundamentals",
+    "url": "https://www.bradyneal.com/causal-inference-course",
+    "type": "Video Course",
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "Video Course"
+    ],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Stanford ML & Causal Inference Short Course",
+    "description": "Video lectures from Susan Athey, Jann Spiess, and Stefan Wager covering ML vs. econometrics, ATEs with propensity scores, CATE estimation with causal forests, and loss functions for causal inference.",
+    "category": "Fundamentals",
+    "url": "https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil/research/methods/ai-machine-learning/short-course",
+    "type": "Video Course",
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "Video Course"
+    ],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Matteo Courthoud's Causal Inference Blog",
+    "description": "PhD economist writing for data scientists in tech. Covers selection bias, Frisch-Waugh-Lovell, weighting vs. matching, DAGs, and CUPED. Every post includes Python code with realistic examples.",
+    "category": "Fundamentals",
+    "url": "https://matteocourthoud.github.io/post/",
+    "type": "Tutorial Blog",
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "Tutorial"
+    ],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Andrew Heiss's DAG and Backdoor Tutorials",
+    "description": "Hands-on tutorials on building DAGs with ggdag, backdoor criterion, confounders/colliders, d-separation, and propensity scores. Uses real variable names with complete R code.",
+    "category": "Fundamentals",
+    "url": "https://www.andrewheiss.com/blog/2020/02/25/closing-backdoors-dags/",
+    "type": "Tutorial",
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "Tutorial"
+    ],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Uber Engineering: Causal Inference at Uber",
+    "description": "Real industry application showing how PhD-level methods translate to business problems. Covers propensity score matching at scale, RDD for dynamic pricing, and mediation modeling.",
+    "category": "Fundamentals",
+    "url": "https://www.uber.com/blog/causal-inference-at-uber/",
+    "type": "Company Blog",
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "Blog"
+    ],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Asjad Naqvi's DiD Repository",
+    "description": "The definitive meta-resource for modern DiD. Covers TWFE failures, Goodman-Bacon decomposition, all major estimators (Callaway-Sant'Anna, Sun-Abraham, etc.) with code in Stata, R, Python, and Julia. Updated quarterly.",
+    "category": "Difference-in-Differences",
+    "url": "https://asjadnaqvi.github.io/DiD/",
+    "type": "Tutorial Repository",
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "DiD"
+    ],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Pedro Sant'Anna's DiD Resources",
+    "description": "14 lecture slide decks from the co-creator of Callaway-Sant'Anna. Covers classical DiD, parallel trends, ML for DiD, event studies, TWFE problems, and treatments turning on-and-off.",
+    "category": "Difference-in-Differences",
+    "url": "https://psantanna.com/did-resources/",
+    "type": "Course Materials",
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "DiD"
+    ],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Jonathan Roth's DiD Resources",
+    "description": "Course slides and coding exercises focusing on pre-trends testing limitations and HonestDiD sensitivity analysis. Created the HonestDiD and pretrends R packages. Includes practitioner checklists.",
+    "category": "Difference-in-Differences",
+    "url": "https://www.jonathandroth.com/did-resources/",
+    "type": "Course Materials",
+    "level": "Hard",
+    "tags": [
+      "Causal Inference",
+      "DiD"
+    ],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Matteo Courthoud's DiD Tutorial",
+    "description": "Industry perspective with full Python code. Covers classic DiD with potential outcomes, parallel trends testing, multiple time periods, Card-Krueger replication, and business applications.",
+    "category": "Difference-in-Differences",
+    "url": "https://matteocourthoud.github.io/post/diff_in_diffs/",
+    "type": "Tutorial",
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "DiD"
+    ],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Mixtape Sessions GitHub Repository",
+    "description": "Free workshop materials from sessions taught at Facebook, eBay, LSE, and Oxford. Covers advanced DiD, staggered timing, PT violations, with coding labs and interactive apps.",
+    "category": "Difference-in-Differences",
+    "url": "https://github.com/Mixtape-Sessions",
+    "type": "Workshop Materials",
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "DiD"
+    ],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Matteo Courthoud's IV Tutorial",
+    "description": "IV in experimental settings with realistic tech examples (newsletter subscription as instrument). Covers LATE/Compliers interpretation, exclusion restriction, weak instruments diagnostics. Complete Python code.",
+    "category": "IV & RDD",
+    "url": "https://matteocourthoud.github.io/post/instrumental_variables/",
+    "type": "Tutorial",
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "IV"
+    ],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Matteo Courthoud's RDD Tutorial",
+    "description": "RDD fundamentals, bandwidth selection methods, and replication of Lee, Moretti, Butler (2004). Practical implementation with Python code using statsmodels.",
+    "category": "IV & RDD",
+    "url": "https://matteocourthoud.github.io/post/regression_discontinuity/",
+    "type": "Tutorial",
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "RDD"
+    ],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Andrew Heiss's RDD Course Examples",
+    "description": "Complete sharp vs. fuzzy RDD comparison with downloadable datasets. Shows rdrobust() usage, 2SLS with iv_robust(), and compliance visualization. Reproducible R code with tidyverse.",
+    "category": "IV & RDD",
+    "url": "https://evalf20.classes.andrewheiss.com/example/rdd/",
+    "type": "Course Materials",
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "RDD"
+    ],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Tilburg Science Hub RDD Tutorials",
+    "description": "Based on Cattaneo, Idrobo & Titiunik. Covers ITT vs. LATE, monotonicity, bandwidth selection for fuzzy designs, and multi-dimensional RDD. Includes Colombian education subsidy replication.",
+    "category": "IV & RDD",
+    "url": "https://tilburgsciencehub.com/topics/analyze/causal-inference/rdd/fuzzy-rdd/",
+    "type": "Tutorial",
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "RDD"
+    ],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Teconomics Blog: ML Meets Instrumental Variables",
+    "description": "How to reframe past A/B tests as instruments for behaviors you cannot randomize. Covers IV for behavioral effects, Deep IV, and ML for instrument selection. Actionable for data scientists.",
+    "category": "IV & RDD",
+    "url": "https://medium.com/teconomics-blog/machine-learning-meets-instrumental-variables-c8eecf5cec95",
+    "type": "Blog",
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "IV"
+    ],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Matteo Courthoud's Synthetic Control Tutorial",
+    "description": "SCM for industry practitioners with references to Google, Uber, Facebook use cases. Python implementation with sklearn and cvxpy. Explains SCM as 'transpose of regression' with placebo inference.",
+    "category": "Synthetic Control",
+    "url": "https://matteocourthoud.github.io/post/synth/",
+    "type": "Tutorial",
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "Synthetic Control"
+    ],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Alberto Abadie's NBER Methods Lecture",
+    "description": "Directly from the inventor of synthetic control methods. NBER Summer Institute lecture on foundational theory, best practices, when to use SCM vs. alternatives, and recent developments.",
+    "category": "Synthetic Control",
+    "url": "https://www.nber.org/research/videos/2021-methods-lecture-alberto-abadie-synthetic-controls-methods-and-practice",
+    "type": "Video Lecture",
+    "level": "Hard",
+    "tags": [
+      "Causal Inference",
+      "Synthetic Control"
+    ],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Google's CausalImpact Blog Post",
+    "description": "Production-grade tool from Google's advertising team. Bayesian structural time-series approach with automatic variable selection and uncertainty quantification. Widely used for marketing impact analysis.",
+    "category": "Synthetic Control",
+    "url": "https://opensource.googleblog.com/2014/09/causalimpact-new-open-source-package.html",
+    "type": "Company Blog",
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "Synthetic Control"
+    ],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Stitch Fix: Market Matching with CausalImpact",
+    "description": "Industry application combining dynamic time warping with CausalImpact for marketing intervention analysis. Shows how synthetic control concepts are adapted for real business problems at scale.",
+    "category": "Synthetic Control",
+    "url": "https://multithreaded.stitchfix.com/blog/2016/01/13/market-watch/",
+    "type": "Company Blog",
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "Synthetic Control"
+    ],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Matteo Courthoud's Meta-Learners Tutorial",
+    "description": "S-learner, T-learner, X-learner with detailed math, causal trees/forests, AIPW estimators. Uses Uber's CausalML package for demos. Complete Jupyter notebooks on GitHub.",
+    "category": "Causal ML",
+    "url": "https://matteocourthoud.github.io/post/meta_learners/",
+    "type": "Tutorial",
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "Causal ML"
+    ],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "KDD 2021 Tutorial: Causal Inference with EconML and CausalML",
+    "description": "Industry workshop with 4 case studies from Uber, TripAdvisor, Microsoft. Ready-to-run Google Colab notebooks covering uplift modeling, customer segmentation, and long-term ROI estimation.",
+    "category": "Causal ML",
+    "url": "https://causal-machine-learning.github.io/kdd2021-tutorial/",
+    "type": "Workshop Tutorial",
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "Causal ML"
+    ],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Double/Debiased Machine Learning Guide",
+    "description": "From the original DML authors. Explains Neyman orthogonality, cross-fitting, DML with text/complex data. Focuses on practical implementation rather than theory.",
+    "category": "Causal ML",
+    "url": "https://dmlguide.github.io/",
+    "type": "Tutorial Guide",
+    "level": "Hard",
+    "tags": [
+      "Causal Inference",
+      "Causal ML"
+    ],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Mark White's Practical Causal Forest Tutorial",
+    "description": "Explains why optimize directly on causal effects, not outcomes. Complete workflow from data prep to interpretation using GRF package. Written for applied researchers transitioning to causal ML.",
+    "category": "Causal ML",
+    "url": "https://www.markhw.com/blog/causalforestintro",
+    "type": "Tutorial",
+    "level": "Medium",
+    "tags": [
+      "Causal Inference",
+      "Causal ML"
+    ],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Uber Engineering: Uplift Modeling for Multiple Treatments",
+    "description": "Extending X-Learner and R-Learner to multiple treatments with cost optimization. Production system design for uplift models at scale with cost-aware treatment allocation.",
+    "category": "Causal ML",
+    "url": "https://www.uber.com/blog/research/uplift-modeling-for-multiple-treatments-with-cost-optimization/",
+    "type": "Company Blog",
+    "level": "Hard",
+    "tags": [
+      "Causal Inference",
+      "Causal ML"
+    ],
+    "domain": "Causal Inference"
   }
 ]
