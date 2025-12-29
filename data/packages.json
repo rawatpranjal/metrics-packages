@@ -3110,5 +3110,214 @@
     ],
     "best_for": "Econometric inference (p-values, CIs) at Spark scale",
     "language": "Python"
+  },
+  {
+    "name": "Greeners",
+    "description": "Comprehensive Rust econometrics library with OLS, IV, panel data estimators, fixed effects, DiD, and heteroskedasticity-robust standard errors (HC0-HC3).",
+    "category": "Structural Econometrics & Estimation",
+    "docs_url": "https://docs.rs/greeners",
+    "github_url": "https://github.com/greeners-rs/greeners",
+    "url": "https://crates.io/crates/greeners",
+    "install": "cargo add greeners",
+    "tags": [
+      "rust",
+      "econometrics",
+      "IV",
+      "panel data",
+      "robust SE"
+    ],
+    "best_for": "Academic econometrics in Rust: IV, DiD, robust SEs",
+    "language": "Rust"
+  },
+  {
+    "name": "Linregress",
+    "description": "Simple linear regression for Rust with R-style formula syntax, standard errors, t-stats, and p-values.",
+    "category": "Core Libraries & Linear Models",
+    "docs_url": "https://docs.rs/linregress",
+    "github_url": "https://github.com/n1m3/linregress",
+    "url": "https://crates.io/crates/linregress",
+    "install": "cargo add linregress",
+    "tags": [
+      "rust",
+      "regression",
+      "OLS",
+      "statistics"
+    ],
+    "best_for": "Simple no-frills OLS regression in Rust",
+    "language": "Rust"
+  },
+  {
+    "name": "Augurs",
+    "description": "Time series forecasting and analysis for Rust with ETS, MSTL decomposition, seasonality detection, outlier detection, and Prophet-style models.",
+    "category": "Time Series Forecasting",
+    "docs_url": "https://docs.augu.rs/",
+    "github_url": "https://github.com/grafana/augurs",
+    "url": "https://crates.io/crates/augurs",
+    "install": "cargo add augurs",
+    "tags": [
+      "rust",
+      "time series",
+      "forecasting",
+      "ETS",
+      "MSTL"
+    ],
+    "best_for": "Time series forecasting and structural analysis in Rust",
+    "language": "Rust"
+  },
+  {
+    "name": "Statrs",
+    "description": "Comprehensive statistical distributions for Rust (Normal, T, Gamma, etc.) with PDF, CDF, quantile functions—the scipy.stats equivalent.",
+    "category": "Statistical Inference & Hypothesis Testing",
+    "docs_url": "https://docs.rs/statrs",
+    "github_url": "https://github.com/statrs-dev/statrs",
+    "url": "https://crates.io/crates/statrs",
+    "install": "cargo add statrs",
+    "tags": [
+      "rust",
+      "statistics",
+      "distributions",
+      "probability"
+    ],
+    "best_for": "Probability distributions and basic statistics in Rust",
+    "language": "Rust"
+  },
+  {
+    "name": "HypoRS",
+    "description": "Hypothesis testing library for Rust with T-tests, Z-tests, ANOVA, Chi-square, designed to work seamlessly with Polars DataFrames.",
+    "category": "Statistical Inference & Hypothesis Testing",
+    "docs_url": "https://lib.rs/crates/hypors",
+    "github_url": "https://github.com/astronights/hypors",
+    "url": "https://crates.io/crates/hypors",
+    "install": "cargo add hypors",
+    "tags": [
+      "rust",
+      "hypothesis testing",
+      "t-test",
+      "ANOVA",
+      "polars"
+    ],
+    "best_for": "Statistical hypothesis testing with Polars integration",
+    "language": "Rust"
+  },
+  {
+    "name": "Polars",
+    "description": "Blazingly fast DataFrame library for Rust and Python with SQL-like syntax, lazy evaluation, and excellent time series handling.",
+    "category": "Core Libraries & Linear Models",
+    "docs_url": "https://pola.rs/",
+    "github_url": "https://github.com/pola-rs/polars",
+    "url": "https://crates.io/crates/polars",
+    "install": "cargo add polars",
+    "tags": [
+      "rust",
+      "dataframe",
+      "data manipulation",
+      "performance"
+    ],
+    "best_for": "High-performance data manipulation (pandas alternative)",
+    "language": "Rust"
+  },
+  {
+    "name": "Linfa",
+    "description": "Rust ML toolkit inspired by scikit-learn with GLMs, clustering (K-Means), PCA, SVM, and regularization (Lasso/Ridge).",
+    "category": "Tree & Ensemble Methods for Prediction",
+    "docs_url": "https://rust-ml.github.io/linfa/",
+    "github_url": "https://github.com/rust-ml/linfa",
+    "url": "https://crates.io/crates/linfa",
+    "install": "cargo add linfa",
+    "tags": [
+      "rust",
+      "machine learning",
+      "clustering",
+      "PCA",
+      "SVM"
+    ],
+    "best_for": "scikit-learn style ML in Rust",
+    "language": "Rust"
+  },
+  {
+    "name": "SmartCore",
+    "description": "Rust ML library with regression, classification, clustering, matrix decomposition (SVD, PCA), and model selection tools.",
+    "category": "Tree & Ensemble Methods for Prediction",
+    "docs_url": "https://docs.rs/smartcore",
+    "github_url": "https://github.com/smartcorelib/smartcore",
+    "url": "https://crates.io/crates/smartcore",
+    "install": "cargo add smartcore",
+    "tags": [
+      "rust",
+      "machine learning",
+      "regression",
+      "classification"
+    ],
+    "best_for": "Comprehensive ML algorithms in pure Rust",
+    "language": "Rust"
+  },
+  {
+    "name": "Faer",
+    "description": "State-of-the-art linear algebra for Rust with Cholesky, QR, SVD decompositions and multithreaded solvers for large systems.",
+    "category": "Numerical Optimization & Computational Tools",
+    "docs_url": "https://docs.rs/faer",
+    "github_url": "https://github.com/sarah-quinones/faer-rs",
+    "url": "https://crates.io/crates/faer",
+    "install": "cargo add faer",
+    "tags": [
+      "rust",
+      "linear algebra",
+      "matrix",
+      "performance"
+    ],
+    "best_for": "High-performance matrix decompositions for custom estimators",
+    "language": "Rust"
+  },
+  {
+    "name": "Nalgebra",
+    "description": "General-purpose linear algebra library for Rust with dense and sparse matrices, widely used in graphics and physics.",
+    "category": "Numerical Optimization & Computational Tools",
+    "docs_url": "https://www.nalgebra.org/",
+    "github_url": "https://github.com/dimforge/nalgebra",
+    "url": "https://crates.io/crates/nalgebra",
+    "install": "cargo add nalgebra",
+    "tags": [
+      "rust",
+      "linear algebra",
+      "matrix",
+      "sparse"
+    ],
+    "best_for": "General-purpose linear algebra in Rust",
+    "language": "Rust"
+  },
+  {
+    "name": "Ndarray",
+    "description": "N-dimensional array library for Rust—the NumPy equivalent with slicing, broadcasting, and BLAS/LAPACK integration.",
+    "category": "Numerical Optimization & Computational Tools",
+    "docs_url": "https://docs.rs/ndarray",
+    "github_url": "https://github.com/rust-ndarray/ndarray",
+    "url": "https://crates.io/crates/ndarray",
+    "install": "cargo add ndarray",
+    "tags": [
+      "rust",
+      "arrays",
+      "numpy",
+      "scientific computing"
+    ],
+    "best_for": "NumPy-style N-dimensional arrays in Rust",
+    "language": "Rust"
+  },
+  {
+    "name": "Argmin",
+    "description": "Numerical optimization framework for Rust with Newton, BFGS, L-BFGS, trust region, and derivative-free methods for MLE/GMM.",
+    "category": "Optimization",
+    "docs_url": "https://docs.rs/argmin",
+    "github_url": "https://github.com/argmin-rs/argmin",
+    "url": "https://crates.io/crates/argmin",
+    "install": "cargo add argmin",
+    "tags": [
+      "rust",
+      "optimization",
+      "BFGS",
+      "MLE",
+      "GMM"
+    ],
+    "best_for": "Maximum Likelihood and GMM estimation in Rust",
+    "language": "Rust"
   }
 ]
