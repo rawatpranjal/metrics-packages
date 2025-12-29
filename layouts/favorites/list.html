@@ -1,22 +1,9 @@
 {{ define "main" }}
-<!-- All Data for Favorites Lookup -->
-<script id="all-data" type="application/json">
-{
-  "resource": {{ .Site.Data.resources | jsonify | safeJS }},
-  "package": {{ .Site.Data.packages | jsonify | safeJS }},
-  "dataset": {{ .Site.Data.datasets | jsonify | safeJS }},
-  "talk": {{ .Site.Data.talks | jsonify | safeJS }},
-  "book": {{ .Site.Data.books | jsonify | safeJS }},
-  "career": {{ .Site.Data.career | jsonify | safeJS }},
-  "community": {{ .Site.Data.community | jsonify | safeJS }},
-  "paper": {{ .Site.Data.papers | jsonify | safeJS }},
-  "roadmap": {{ .Site.Data.roadmaps | jsonify | safeJS }}
-}
-</script>
+<!-- Note: Item data is stored in localStorage with each favorite, no need for all-data JSON lookup -->
 
 <header class="hero hero-with-image hero-favorites">
     <h1 class="hero-title">My Collection</h1>
-    <p class="hero-tagline">Your saved resources organized by playlist</p>
+    <p class="hero-tagline">Your saved resources organized by collection</p>
 </header>
 
 <div class="page-container">
@@ -36,15 +23,15 @@
     </div>
 </div>
 
-<!-- Create Playlist Modal -->
-<div id="create-playlist-modal" class="modal" style="display: none;">
+<!-- Create Collection Modal -->
+<div id="create-collection-modal" class="modal" style="display: none;">
     <div class="modal-backdrop"></div>
     <div class="modal-content">
-        <h3>Create New Playlist</h3>
-        <input type="text" id="playlist-name-input" placeholder="Playlist name" class="modal-input" />
+        <h3>Create New Collection</h3>
+        <input type="text" id="collection-name-input" placeholder="Collection name" class="modal-input" />
         <div class="modal-actions">
-            <button class="btn btn-outline" id="cancel-playlist-btn">Cancel</button>
-            <button class="btn btn-primary" id="create-playlist-btn">Create</button>
+            <button class="btn btn-outline" id="cancel-collection-btn">Cancel</button>
+            <button class="btn btn-primary" id="create-collection-btn">Create</button>
         </div>
     </div>
 </div>

@@ -301,32 +301,8 @@
         console.log('[Collection] Container found:', !!container);
         if (!container) return;
 
-        // Load all data for lookups
-        let allData = {};
-        const dataScript = document.getElementById('all-data');
-        if (dataScript) {
-            try {
-                allData = JSON.parse(dataScript.textContent);
-            } catch (e) {
-                console.error('Error parsing all-data:', e);
-            }
-        }
-
-        // Find item in data by name
-        function findItem(type, itemId) {
-            if (type === 'paper') {
-                const topics = allData.paper?.topics || [];
-                for (const topic of topics) {
-                    for (const subtopic of (topic.subtopics || [])) {
-                        const paper = (subtopic.papers || []).find(p => p.title === itemId);
-                        if (paper) return paper;
-                    }
-                }
-                return null;
-            }
-            const items = allData[type] || [];
-            return items.find(item => item.name === itemId || item.title === itemId);
-        }
+        // Note: We use fav.data stored in localStorage instead of looking up in all-data
+        // This avoids embedding 1MB+ of JSON in the page which caused issues on GitHub Pages
 
         // Get favicon URL from item URL
         function getFavicon(url) {
@@ -340,11 +316,11 @@
         }
 
         // Render a single favorite card with move-to-playlist option
-        function renderCollectionCard(fav, item, playlistId) {
-            const name = item?.name || item?.title || fav.data?.name || fav.id;
-            const desc = item?.description || fav.data?.description || '';
-            const url = item?.url || item?.link || fav.data?.url || '#';
-            const category = item?.category || item?.type || fav.data?.category || fav.type;
+        function renderCollectionCard(fav, playlistId) {
+            const name = fav.data?.name || fav.id;
+            const desc = fav.data?.description || '';
+            const url = fav.data?.url || '#';
+            const category = fav.data?.category || fav.type;
             const favicon = getFavicon(url);
             const escapedId = fav.id.replace(/'/g, "\\'").replace(/"/g, '&quot;');
             const escapedPlaylistId = playlistId ? playlistId.replace(/'/g, "\\'") : '';
@@ -380,11 +356,10 @@
         }
 
         // Render a table row for an item
-        function renderCollectionRow(fav, item, playlistId) {
-            const name = item?.name || item?.title || fav.data?.name || fav.id;
-            const desc = item?.description || fav.data?.description || '';
-            const url = item?.url || item?.link || fav.data?.url || '#';
-            const category = item?.category || item?.type || fav.data?.category || fav.type;
+        function renderCollectionRow(fav, playlistId) {
+            const name = fav.data?.name || fav.id;
+            const url = fav.data?.url || '#';
+            const category = fav.data?.category || fav.type;
             const favicon = getFavicon(url);
             const escapedId = fav.id.replace(/'/g, "\\'").replace(/"/g, '&quot;');
             const escapedPlaylistId = playlistId ? playlistId.replace(/'/g, "\\'") : '';
@@ -437,8 +412,7 @@
                     `;
                     items.forEach(item => {
                         const fav = { type: item.type, id: item.id, data: item.data };
-                        const fullItem = findItem(item.type, item.id);
-                        itemsHtml += renderCollectionRow(fav, fullItem, playlist.id);
+                        itemsHtml += renderCollectionRow(fav, playlist.id);
                     });
                     itemsHtml += '</tbody></table>';
                 }
@@ -446,8 +420,7 @@
                 // Card view (default)
                 items.forEach(item => {
                     const fav = { type: item.type, id: item.id, data: item.data };
-                    const fullItem = findItem(item.type, item.id);
-                    itemsHtml += renderCollectionCard(fav, fullItem, playlist.id);
+                    itemsHtml += renderCollectionCard(fav, playlist.id);
                 });
             }
 
@@ -882,32 +855,7 @@
 
         let currentPlaylistId = null;
 
-        // Load all data for lookups
-        let allData = {};
-        const dataScript = document.getElementById('all-data');
-        if (dataScript) {
-            try {
-                allData = JSON.parse(dataScript.textContent);
-            } catch (e) {
-                console.error('Error parsing all-data:', e);
-            }
-        }
-
-        // Find item in data by name
-        function findItem(type, itemId) {
-            if (type === 'paper') {
-                const topics = allData.paper?.topics || [];
-                for (const topic of topics) {
-                    for (const subtopic of (topic.subtopics || [])) {
-                        const paper = (subtopic.papers || []).find(p => p.title === itemId);
-                        if (paper) return paper;
-                    }
-                }
-                return null;
-            }
-            const items = allData[type] || [];
-            return items.find(item => item.name === itemId || item.title === itemId);
-        }
+        // Note: We use item.data stored in localStorage instead of looking up in all-data
 
         // Get favicon URL from item URL
         function getFavicon(url) {
@@ -1114,9 +1062,8 @@
             } else {
                 let html = '<div class="playlist-items-list">';
                 playlist.items.forEach(item => {
-                    const dbItem = findItem(item.type, item.id);
-                    const name = dbItem?.name || dbItem?.title || item.data?.name || item.id;
-                    const url = dbItem?.url || dbItem?.link || item.data?.url || '#';
+                    const name = item.data?.name || item.id;
+                    const url = item.data?.url || '#';
                     const favicon = getFavicon(url);
 
                     html += `
