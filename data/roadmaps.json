@@ -201,85 +201,45 @@
   },
   {
     "name": "Learn Experimentation",
-    "description": "A/B testing, power analysis, and statistical rigor \u2014 bridge your training to industry experiments",
+    "description": "A/B testing, power analysis, and statistical rigor — bridge your training to industry experiments",
     "icon": "flask",
     "resources": [
       {
         "name": "Trustworthy Online Controlled Experiments (Kohavi)",
-        "why": "THE 400-page industry bible \u2014 Kohavi (Microsoft), Tang (Google), Xu (LinkedIn)",
+        "why": "THE industry bible — Kohavi (Microsoft), Tang (Google), Xu (LinkedIn)",
         "url": "https://experimentguide.com/"
       },
       {
-        "name": "Spotify: Choosing Sequential Testing Framework",
-        "why": "GST vs mSPRT vs GAVI \u2014 production comparison with simulations",
-        "url": "https://engineering.atspotify.com/2023/03/choosing-sequential-testing-framework-comparisons-and-discussions/"
-      },
-      {
-        "name": "Always Valid Inference (Johari et al.)",
-        "why": "Foundational paper solving the 'peeking problem' \u2014 Stanford + Optimizely",
-        "url": "https://arxiv.org/abs/1512.04922"
+        "name": "Evan Miller's A/B Testing Tools",
+        "why": "Interactive calculators — understand stats under the hood",
+        "url": "https://www.evanmiller.org/ab-testing/"
       },
       {
         "name": "Understanding CUPED (Matteo Courthoud)",
-        "why": "Most accessible CUPED explanation \u2014 derives variance reduction math clearly",
+        "why": "Most accessible CUPED explanation — derives variance reduction clearly",
         "url": "https://matteocourthoud.github.io/post/cuped/"
       },
       {
-        "name": "Airbnb: Variance Reduction Using In-Experiment Data",
-        "why": "Extends CUPED for delayed outcomes \u2014 real booking flow examples (KDD 2023)",
-        "url": "https://alexdeng.github.io/public/files/kdd2023-inexp.pdf"
-      },
-      {
         "name": "Netflix Tech Blog: Experimentation Series",
-        "why": "Platform architecture, sequential testing, contextual bandits at scale",
+        "why": "Platform architecture, sequential testing at scale",
         "url": "https://netflixtechblog.com/reimagining-experimentation-analysis-at-netflix-71356393af21"
       },
       {
         "name": "Uber: Supercharging A/B Testing",
-        "why": "Rebuilding experimentation from ground-up \u2014 1,000+ concurrent experiments",
+        "why": "Rebuilding experimentation — 1,000+ concurrent experiments",
         "url": "https://www.uber.com/blog/supercharging-a-b-testing-at-uber/"
-      },
-      {
-        "name": "LinkedIn: A/B Testing Platform Technical Paper",
-        "why": "41,000+ simultaneous tests on 700M members \u2014 network-specific challenges",
-        "url": "https://engineering.linkedin.com/ab-testing/introduction-technical-paper-linkedins-ab-testing-platform"
-      },
-      {
-        "name": "Reducing Interference Bias (Holtz et al.)",
-        "why": "Proves standard A/B can overstate effects 100% in marketplaces \u2014 Management Science",
-        "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2020.01157"
-      },
-      {
-        "name": "Evan Miller's A/B Testing Tools",
-        "why": "Best-in-class interactive calculators \u2014 understand stats under the hood",
-        "url": "https://www.evanmiller.org/ab-testing/"
-      },
-      {
-        "name": "150 Successful ML Models (Booking.com)",
-        "why": "Model performance \u2260 business performance \u2014 why RCTs matter for ML (KDD 2019)",
-        "url": "https://dl.acm.org/doi/10.1145/3292500.3330744"
-      },
-      {
-        "name": "Stitch Fix: Multi-Armed Bandits Integration",
-        "why": "Thompson Sampling vs \u03b5-greedy in production \u2014 practical tradeoffs explained",
-        "url": "https://multithreaded.stitchfix.com/blog/2020/08/05/bandits/"
       }
     ],
     "packages": [
       {
-        "name": "Spotify Confidence",
-        "why": "Production-grade sequential A/B testing",
-        "url": "https://github.com/spotify/confidence"
-      },
-      {
         "name": "GrowthBook SDK",
-        "why": "Feature flags and experiments \u2014 open source",
+        "why": "Feature flags and experiments — open source",
         "url": "https://docs.growthbook.io/"
       },
       {
-        "name": "Ax",
-        "why": "Meta's adaptive experimentation platform \u2014 Bayesian optimization",
-        "url": "https://ax.dev/"
+        "name": "Spotify Confidence",
+        "why": "Production-grade sequential A/B testing",
+        "url": "https://github.com/spotify/confidence"
       }
     ],
     "order": 6
