@@ -2858,5 +2858,1251 @@
       "Case Study"
     ],
     "domain": "Product & Growth"
+  },
+  {
+    "name": "Coding for practitioners",
+    "description": "Built specifically for econ researchers",
+    "category": "Python Fundamentals",
+    "url": "https://aeturrell.github.io/coding-for-researchers/",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "Python Fundamentals"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "Python for Econometrics",
+    "description": "NumPy, pandas, statsmodels from Kevin Sheppard",
+    "category": "Python Fundamentals",
+    "url": "https://www.kevinsheppard.com/teaching/python/",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "Python Fundamentals"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "Python Data Science Handbook",
+    "description": "Free reference for NumPy, Pandas, Matplotlib",
+    "category": "Python Fundamentals",
+    "url": "https://jakevdp.github.io/PythonDataScienceHandbook/",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "Python Fundamentals"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "pandas",
+    "description": "Data manipulation and analysis",
+    "category": "Python Fundamentals",
+    "url": "https://pandas.pydata.org/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Python Fundamentals",
+      "Python Package"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "numpy",
+    "description": "Numerical computing foundation",
+    "category": "Python Fundamentals",
+    "url": "https://numpy.org/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Python Fundamentals",
+      "Python Package"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "matplotlib",
+    "description": "Basic visualization",
+    "category": "Python Fundamentals",
+    "url": "https://matplotlib.org/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Python Fundamentals",
+      "Python Package"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "jupyter",
+    "description": "Interactive notebooks for exploration",
+    "category": "Python Fundamentals",
+    "url": "https://jupyter.org/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Python Fundamentals",
+      "Python Package"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "StatQuest (Josh Starmer)",
+    "description": "Visual intuition for stats \u2014 the 'Bill Nye of Statistics'",
+    "category": "Statistics",
+    "url": "https://www.youtube.com/@statquest",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "Statistics"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "Seeing Theory (Brown)",
+    "description": "Beautiful interactive visualizations for building intuition",
+    "category": "Statistics",
+    "url": "https://seeing-theory.brown.edu/",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "Statistics"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "Scipy.stats Documentation",
+    "description": "Reference for distributions and tests",
+    "category": "Statistics",
+    "url": "https://docs.scipy.org/doc/scipy/reference/stats.html",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "Statistics"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "scipy",
+    "description": "Statistical functions and distributions",
+    "category": "Statistics",
+    "url": "https://scipy.org/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Statistics",
+      "Python Package"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "statsmodels",
+    "description": "OLS, GLM, and classical econometrics",
+    "category": "Statistics",
+    "url": "https://www.statsmodels.org/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Statistics",
+      "Python Package"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "pingouin",
+    "description": "ANOVA, t-tests, and correlations made easy",
+    "category": "Statistics",
+    "url": "https://pingouin-stats.org/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Statistics",
+      "Python Package"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "lifelines",
+    "description": "Survival analysis and hazard models",
+    "category": "Statistics",
+    "url": "https://lifelines.readthedocs.io/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Statistics",
+      "Python Package"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "Google ML Crash Course",
+    "description": "130+ interactive exercises, refreshed 2024",
+    "category": "ML Fundamentals",
+    "url": "https://developers.google.com/machine-learning/crash-course",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "ML Fundamentals"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "Hands-On Machine Learning (G\u00e9ron)",
+    "description": "Production-focused, complements ISLR's statistical focus",
+    "category": "ML Fundamentals",
+    "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "ML Fundamentals"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "scikit-learn",
+    "description": "The go-to library for classical ML",
+    "category": "ML Fundamentals",
+    "url": "https://scikit-learn.org/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "ML Fundamentals",
+      "Python Package"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "XGBoost",
+    "description": "Gradient boosting for tabular data",
+    "category": "ML Fundamentals",
+    "url": "https://xgboost.readthedocs.io/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "ML Fundamentals",
+      "Python Package"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "LightGBM",
+    "description": "Fast gradient boosting from Microsoft",
+    "category": "ML Fundamentals",
+    "url": "https://lightgbm.readthedocs.io/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "ML Fundamentals",
+      "Python Package"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "CatBoost",
+    "description": "Handles categorical features natively",
+    "category": "ML Fundamentals",
+    "url": "https://catboost.ai/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "ML Fundamentals",
+      "Python Package"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "CausalML",
+    "description": "Uber's toolkit for uplift modeling",
+    "category": "Causal Inference Fundamentals",
+    "url": "https://causalml.readthedocs.io/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Causal Inference Fundamentals",
+      "Python Package"
+    ],
+    "domain": "Causal Inference & Experimentation"
+  },
+  {
+    "name": "DoubleML",
+    "description": "Double/debiased machine learning",
+    "category": "Causal Inference Fundamentals",
+    "url": "https://docs.doubleml.org/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Causal Inference Fundamentals",
+      "Python Package"
+    ],
+    "domain": "Causal Inference & Experimentation"
+  },
+  {
+    "name": "Amplitude",
+    "description": "Product analytics \u2014 funnels, retention, user journeys",
+    "category": "Product Analytics",
+    "url": "https://amplitude.com/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Product Analytics",
+      "Python Package"
+    ],
+    "domain": "Product & Strategy"
+  },
+  {
+    "name": "Mixpanel",
+    "description": "User behavior analytics \u2014 event tracking and cohorts",
+    "category": "Product Analytics",
+    "url": "https://mixpanel.com/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Product Analytics",
+      "Python Package"
+    ],
+    "domain": "Product & Strategy"
+  },
+  {
+    "name": "Heap",
+    "description": "Autocapture analytics \u2014 retroactive analysis without instrumentation",
+    "category": "Product Analytics",
+    "url": "https://heap.io/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Product Analytics",
+      "Python Package"
+    ],
+    "domain": "Product & Strategy"
+  },
+  {
+    "name": "PostHog",
+    "description": "Open-source product analytics \u2014 self-hosted option",
+    "category": "Product Analytics",
+    "url": "https://posthog.com/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Product Analytics",
+      "Python Package"
+    ],
+    "domain": "Product & Strategy"
+  },
+  {
+    "name": "Trustworthy Online Controlled Experiments (Kohavi)",
+    "description": "THE 400-page industry bible \u2014 Kohavi (Microsoft), Tang (Google), Xu (LinkedIn)",
+    "category": "Experimentation",
+    "url": "https://experimentguide.com/",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "Experimentation"
+    ],
+    "domain": "Causal Inference & Experimentation"
+  },
+  {
+    "name": "Netflix Tech Blog: Experimentation Series",
+    "description": "Platform architecture, sequential testing, contextual bandits at scale",
+    "category": "Experimentation",
+    "url": "https://netflixtechblog.com/reimagining-experimentation-analysis-at-netflix-71356393af21",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "Experimentation"
+    ],
+    "domain": "Causal Inference & Experimentation"
+  },
+  {
+    "name": "Spotify Confidence",
+    "description": "Production-grade sequential A/B testing",
+    "category": "Experimentation",
+    "url": "https://github.com/spotify/confidence",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Experimentation",
+      "Python Package"
+    ],
+    "domain": "Causal Inference & Experimentation"
+  },
+  {
+    "name": "GrowthBook SDK",
+    "description": "Feature flags and experiments \u2014 open source",
+    "category": "Experimentation",
+    "url": "https://docs.growthbook.io/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Experimentation",
+      "Python Package"
+    ],
+    "domain": "Causal Inference & Experimentation"
+  },
+  {
+    "name": "Ax",
+    "description": "Meta's adaptive experimentation platform \u2014 Bayesian optimization",
+    "category": "Experimentation",
+    "url": "https://ax.dev/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Experimentation",
+      "Python Package"
+    ],
+    "domain": "Causal Inference & Experimentation"
+  },
+  {
+    "name": "SELECT Star SQL",
+    "description": "Interactive book teaching SQL through meaningful analysis",
+    "category": "SQL & Databases",
+    "url": "https://selectstarsql.com/",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "SQL & Databases"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "8 Week SQL Challenge (Danny Ma)",
+    "description": "8 business case studies with CTEs and window functions",
+    "category": "SQL & Databases",
+    "url": "https://8weeksqlchallenge.com/",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "SQL & Databases"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "DataLemur",
+    "description": "Real DS interview questions with business context",
+    "category": "SQL & Databases",
+    "url": "https://datalemur.com/",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "SQL & Databases"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "duckdb",
+    "description": "Modern SQL on your laptop, reads Parquet",
+    "category": "SQL & Databases",
+    "url": "https://duckdb.org/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "SQL & Databases",
+      "Python Package"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "sqlalchemy",
+    "description": "Python's database toolkit",
+    "category": "SQL & Databases",
+    "url": "https://www.sqlalchemy.org/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "SQL & Databases",
+      "Python Package"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "pandasql",
+    "description": "SQL syntax on pandas DataFrames",
+    "category": "SQL & Databases",
+    "url": "https://github.com/yhat/pandasql",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "SQL & Databases",
+      "Python Package"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "Problem Solving with Algorithms & Data Structures (Python)",
+    "description": "Free interactive textbook \u2014 visualizations and runnable code",
+    "category": "Computer Science",
+    "url": "https://runestone.academy/ns/books/published/pythonds/index.html",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "Computer Science"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "Real Python: Data Structures",
+    "description": "Practical guide with Python-specific implementations",
+    "category": "Computer Science",
+    "url": "https://realpython.com/python-data-structures/",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "Computer Science"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "USF Data Structure Visualizations",
+    "description": "Interactive animations \u2014 see how trees, heaps, and graphs work",
+    "category": "Computer Science",
+    "url": "https://www.cs.usfca.edu/~galles/visualization/Algorithms.html",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "Computer Science"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "LeetCode Explore: Data Structures",
+    "description": "Structured practice cards with solutions",
+    "category": "Computer Science",
+    "url": "https://leetcode.com/explore/learn/",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "Computer Science"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "freeCodeCamp: Algorithms Course",
+    "description": "8-hour free video course \u2014 clear explanations",
+    "category": "Computer Science",
+    "url": "https://www.youtube.com/watch?v=8hly31xKli0",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "Computer Science"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "Abdul Bari (YouTube)",
+    "description": "Exceptional whiteboard DSA explanations",
+    "category": "Computer Science",
+    "url": "https://www.youtube.com/@abdul_bari",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "Computer Science"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "VisuAlgo",
+    "description": "Animated algorithm visualizations \u2014 sorting, graphs, DP",
+    "category": "Computer Science",
+    "url": "https://visualgo.net/",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "Computer Science"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "TheAlgorithms/Python",
+    "description": "200+ algorithm implementations in Python \u2014 reference code",
+    "category": "Computer Science",
+    "url": "https://github.com/TheAlgorithms/Python",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "Computer Science"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "HackerRank Interview Prep Kit",
+    "description": "Structured practice by topic \u2014 warmup to hard",
+    "category": "Interview Prep",
+    "url": "https://www.hackerrank.com/interview/interview-preparation-kit",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "Interview Prep"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "Structy",
+    "description": "Designed for true beginners, progressive difficulty ($60/yr)",
+    "category": "Interview Prep",
+    "url": "https://structy.net/",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "Interview Prep"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "Postman Academy",
+    "description": "Free API certification path \u2014 often more useful than scraping",
+    "category": "Engineering",
+    "url": "https://academy.postman.com/",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "Engineering"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "Playwright for Python",
+    "description": "Modern browser automation (faster than Selenium)",
+    "category": "Engineering",
+    "url": "https://playwright.dev/python/",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "Engineering"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "requests",
+    "description": "HTTP for humans \u2014 start here",
+    "category": "Engineering",
+    "url": "https://requests.readthedocs.io/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Engineering",
+      "Python Package"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "beautifulsoup4",
+    "description": "Parse HTML the simple way",
+    "category": "Engineering",
+    "url": "https://www.crummy.com/software/BeautifulSoup/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Engineering",
+      "Python Package"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "playwright",
+    "description": "Modern browser automation from Microsoft",
+    "category": "Engineering",
+    "url": "https://playwright.dev/python/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Engineering",
+      "Python Package"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "scrapy",
+    "description": "Production web scraping framework",
+    "category": "Engineering",
+    "url": "https://scrapy.org/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Engineering",
+      "Python Package"
+    ],
+    "domain": "Programming & Tools"
+  },
+  {
+    "name": "DoorDash: ML + Optimization for Dispatch",
+    "description": "Real-world DeepRed system \u2014 ML estimation + MIP matching",
+    "category": "Operations Research",
+    "url": "https://doordash.engineering/2021/08/17/using-ml-and-optimization-to-solve-doordashs-dispatch-problem/",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "Operations Research"
+    ],
+    "domain": "Optimization & Operations Research"
+  },
+  {
+    "name": "Discrete Optimization (Coursera)",
+    "description": "Van Hentenryck's course \u2014 actually makes you implement",
+    "category": "Operations Research",
+    "url": "https://www.coursera.org/learn/solving-algorithms-discrete-optimization",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "Operations Research"
+    ],
+    "domain": "Optimization & Operations Research"
+  },
+  {
+    "name": "cvxpy",
+    "description": "Write math as code \u2014 the standard for convex problems",
+    "category": "Operations Research",
+    "url": "https://www.cvxpy.org/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Operations Research",
+      "Python Package"
+    ],
+    "domain": "Optimization & Operations Research"
+  },
+  {
+    "name": "scipy.optimize",
+    "description": "Built into SciPy \u2014 start here for basics",
+    "category": "Operations Research",
+    "url": "https://docs.scipy.org/doc/scipy/reference/optimize.html",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Operations Research",
+      "Python Package"
+    ],
+    "domain": "Optimization & Operations Research"
+  },
+  {
+    "name": "OR-Tools",
+    "description": "Google's production-ready combinatorial optimization",
+    "category": "Operations Research",
+    "url": "https://developers.google.com/optimization",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Operations Research",
+      "Python Package"
+    ],
+    "domain": "Optimization & Operations Research"
+  },
+  {
+    "name": "Gurobi",
+    "description": "Best-in-class solver \u2014 free for academics",
+    "category": "Operations Research",
+    "url": "https://www.gurobi.com/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Operations Research",
+      "Python Package"
+    ],
+    "domain": "Optimization & Operations Research"
+  },
+  {
+    "name": "LangGraph Documentation",
+    "description": "Official docs \u2014 the industry standard framework",
+    "category": "AI & LLMs",
+    "url": "https://langchain-ai.github.io/langgraph/",
+    "type": "Resource",
+    "level": "Medium",
+    "tags": [
+      "AI & LLMs"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "langgraph",
+    "description": "Graph-based agent workflows \u2014 production standard",
+    "category": "AI & LLMs",
+    "url": "https://langchain-ai.github.io/langgraph/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "AI & LLMs",
+      "Python Package"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "langchain",
+    "description": "LLM framework \u2014 chains, tools, memory",
+    "category": "AI & LLMs",
+    "url": "https://python.langchain.com/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "AI & LLMs",
+      "Python Package"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "crewai",
+    "description": "Role-based multi-agent teams \u2014 intuitive orchestration",
+    "category": "AI & LLMs",
+    "url": "https://docs.crewai.com/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "AI & LLMs",
+      "Python Package"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "openai-agents",
+    "description": "OpenAI's lightweight SDK \u2014 fast prototyping",
+    "category": "AI & LLMs",
+    "url": "https://github.com/openai/openai-agents-python",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "AI & LLMs",
+      "Python Package"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "statsforecast",
+    "description": "Nixtla's fast AutoARIMA, AutoETS, AutoTheta",
+    "category": "Forecasting",
+    "url": "https://nixtlaverse.nixtla.io/statsforecast/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Python Package"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "prophet",
+    "description": "Meta's additive model \u2014 good for business seasonality",
+    "category": "Forecasting",
+    "url": "https://facebook.github.io/prophet/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Python Package"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "statsmodels",
+    "description": "SARIMAX, VAR, state space \u2014 classical econometrics",
+    "category": "Forecasting",
+    "url": "https://www.statsmodels.org/stable/tsa.html",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Python Package"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "sktime",
+    "description": "Unified scikit-learn API for time series",
+    "category": "Forecasting",
+    "url": "https://www.sktime.net/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Python Package"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "mlforecast",
+    "description": "Nixtla's ML-based forecasting \u2014 LightGBM, XGBoost",
+    "category": "Forecasting",
+    "url": "https://nixtlaverse.nixtla.io/mlforecast/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Forecasting",
+      "Python Package"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "CausalML",
+    "description": "Uber's uplift modeling for price optimization",
+    "category": "Pricing",
+    "url": "https://causalml.readthedocs.io/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Pricing",
+      "Python Package"
+    ],
+    "domain": "Economics & Strategy"
+  },
+  {
+    "name": "statsmodels",
+    "description": "OLS regression for elasticity estimation",
+    "category": "Pricing",
+    "url": "https://www.statsmodels.org/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Pricing",
+      "Python Package"
+    ],
+    "domain": "Economics & Strategy"
+  },
+  {
+    "name": "PyMC-Marketing",
+    "description": "Bayesian MMM with adstock and saturation",
+    "category": "Ads & Auctions",
+    "url": "https://www.pymc-marketing.io/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Ads & Auctions",
+      "Python Package"
+    ],
+    "domain": "Economics & Strategy"
+  },
+  {
+    "name": "Google Meridian",
+    "description": "New MMM framework released January 2025",
+    "category": "Ads & Auctions",
+    "url": "https://developers.google.com/meridian",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Ads & Auctions",
+      "Python Package"
+    ],
+    "domain": "Economics & Strategy"
+  },
+  {
+    "name": "GeoLift (Meta)",
+    "description": "Geo-experiments using synthetic control",
+    "category": "Ads & Auctions",
+    "url": "https://github.com/facebookincubator/GeoLift",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Ads & Auctions",
+      "Python Package"
+    ],
+    "domain": "Economics & Strategy"
+  },
+  {
+    "name": "CausalImpact",
+    "description": "Bayesian structural time-series for interventions",
+    "category": "Ads & Auctions",
+    "url": "https://google.github.io/CausalImpact/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Ads & Auctions",
+      "Python Package"
+    ],
+    "domain": "Economics & Strategy"
+  },
+  {
+    "name": "PyMC-Marketing",
+    "description": "Unified CLV + MMM, Bayesian, production-ready",
+    "category": "Marketing Analytics",
+    "url": "https://www.pymc-marketing.io/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Marketing Analytics",
+      "Python Package"
+    ],
+    "domain": "Marketing & Growth"
+  },
+  {
+    "name": "lifetimes",
+    "description": "BG/NBD, Gamma-Gamma CLV (maintenance mode)",
+    "category": "Marketing Analytics",
+    "url": "https://lifetimes.readthedocs.io/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Marketing Analytics",
+      "Python Package"
+    ],
+    "domain": "Marketing & Growth"
+  },
+  {
+    "name": "lifelines",
+    "description": "Survival analysis for retention and churn",
+    "category": "Marketing Analytics",
+    "url": "https://lifelines.readthedocs.io/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Marketing Analytics",
+      "Python Package"
+    ],
+    "domain": "Marketing & Growth"
+  },
+  {
+    "name": "scikit-learn",
+    "description": "K-Means, DBSCAN for customer segmentation",
+    "category": "Marketing Analytics",
+    "url": "https://scikit-learn.org/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Marketing Analytics",
+      "Python Package"
+    ],
+    "domain": "Marketing & Growth"
+  },
+  {
+    "name": "PyOD",
+    "description": "50+ anomaly detection algorithms, 26M+ downloads",
+    "category": "Trust & Safety",
+    "url": "https://pyod.readthedocs.io/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Trust & Safety",
+      "Python Package"
+    ],
+    "domain": "Risk & Trust"
+  },
+  {
+    "name": "imbalanced-learn",
+    "description": "SMOTE, ADASYN for class imbalance",
+    "category": "Trust & Safety",
+    "url": "https://imbalanced-learn.org/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Trust & Safety",
+      "Python Package"
+    ],
+    "domain": "Risk & Trust"
+  },
+  {
+    "name": "scikit-learn",
+    "description": "IsolationForest, OneClassSVM for anomaly detection",
+    "category": "Trust & Safety",
+    "url": "https://scikit-learn.org/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Trust & Safety",
+      "Python Package"
+    ],
+    "domain": "Risk & Trust"
+  },
+  {
+    "name": "networkx",
+    "description": "Graph analytics for fraud ring detection",
+    "category": "Trust & Safety",
+    "url": "https://networkx.org/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Trust & Safety",
+      "Python Package"
+    ],
+    "domain": "Risk & Trust"
+  },
+  {
+    "name": "Surprise",
+    "description": "scikit-learn-like API for explicit ratings",
+    "category": "Recommendation Systems",
+    "url": "https://surpriselib.com/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Recommendation Systems",
+      "Python Package"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "LightFM",
+    "description": "Hybrid cold-start with content features",
+    "category": "Recommendation Systems",
+    "url": "https://making.lyst.com/lightfm/docs/home.html",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Recommendation Systems",
+      "Python Package"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "implicit",
+    "description": "Optimized for implicit feedback (clicks/views)",
+    "category": "Recommendation Systems",
+    "url": "https://benfred.github.io/implicit/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Recommendation Systems",
+      "Python Package"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "RecBole",
+    "description": "100+ deep learning models, PyTorch-based",
+    "category": "Recommendation Systems",
+    "url": "https://recbole.io/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Recommendation Systems",
+      "Python Package"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "XGBoost (XGBRanker)",
+    "description": "LambdaMART with rank:ndcg objective",
+    "category": "Search & Ranking",
+    "url": "https://xgboost.readthedocs.io/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Search & Ranking",
+      "Python Package"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "LightGBM (LGBMRanker)",
+    "description": "Microsoft's efficient LambdaRank",
+    "category": "Search & Ranking",
+    "url": "https://lightgbm.readthedocs.io/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Search & Ranking",
+      "Python Package"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "sentence-transformers",
+    "description": "Pre-trained Sentence-BERT embeddings",
+    "category": "Search & Ranking",
+    "url": "https://www.sbert.net/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Search & Ranking",
+      "Python Package"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "FAISS",
+    "description": "Facebook's vector similarity search at scale",
+    "category": "Search & Ranking",
+    "url": "https://faiss.ai/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Search & Ranking",
+      "Python Package"
+    ],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "ortools",
+    "description": "Routing/assignment baselines you can actually run and extend",
+    "category": "Logistics",
+    "url": "https://developers.google.com/optimization",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Logistics",
+      "Python Package"
+    ],
+    "domain": "Optimization & Operations Research"
+  },
+  {
+    "name": "statsforecast",
+    "description": "Fast statistical forecasting incl. intermittent-demand models",
+    "category": "Logistics",
+    "url": "https://nixtlaverse.nixtla.io/statsforecast/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Logistics",
+      "Python Package"
+    ],
+    "domain": "Optimization & Operations Research"
+  },
+  {
+    "name": "networkx",
+    "description": "Road/fulfillment networks as graphs; shortest paths + graph algorithms",
+    "category": "Logistics",
+    "url": "https://networkx.org/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Logistics",
+      "Python Package"
+    ],
+    "domain": "Optimization & Operations Research"
+  },
+  {
+    "name": "mlforecast",
+    "description": "Optional: feature engineering + backtesting for ML on many time series",
+    "category": "Logistics",
+    "url": "https://nixtlaverse.nixtla.io/mlforecast/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Logistics",
+      "Python Package"
+    ],
+    "domain": "Optimization & Operations Research"
+  },
+  {
+    "name": "scipy.stats",
+    "description": "T-tests, z-tests, chi-squared for A/B",
+    "category": "Growth",
+    "url": "https://docs.scipy.org/doc/scipy/reference/stats.html",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Growth",
+      "Python Package"
+    ],
+    "domain": "Marketing & Growth"
+  },
+  {
+    "name": "lifelines",
+    "description": "Survival analysis for retention curves",
+    "category": "Growth",
+    "url": "https://lifelines.readthedocs.io/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Growth",
+      "Python Package"
+    ],
+    "domain": "Marketing & Growth"
+  },
+  {
+    "name": "pingouin",
+    "description": "Simple syntax for statistical tests",
+    "category": "Growth",
+    "url": "https://pingouin-stats.org/",
+    "type": "Package",
+    "level": "Medium",
+    "tags": [
+      "Growth",
+      "Python Package"
+    ],
+    "domain": "Marketing & Growth"
   }
 ]
