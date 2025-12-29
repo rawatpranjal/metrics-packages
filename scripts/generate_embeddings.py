@@ -125,6 +125,7 @@ def combine_text_for_embedding(item: Dict[str, Any]) -> str:
 def load_all_items(data_dir: Path) -> List[Dict[str, Any]]:
     """Load all items from data files with their types."""
     all_items = []
+    seen_ids = {}  # Track seen IDs to handle duplicates
 
     for filename in DATA_FILES:
         filepath = data_dir / filename
@@ -139,8 +140,16 @@ def load_all_items(data_dir: Path) -> List[Dict[str, Any]]:
 
         for item in items:
             # Create a unique ID for each item
-            item_id = f"{item_type}-{item.get('name', 'unknown')}".lower()
-            item_id = item_id.replace(" ", "-").replace("/", "-")[:100]
+            base_id = f"{item_type}-{item.get('name', 'unknown')}".lower()
+            base_id = base_id.replace(" ", "-").replace("/", "-")[:100]
+
+            # Handle duplicate IDs by appending a counter
+            item_id = base_id
+            if base_id in seen_ids:
+                seen_ids[base_id] += 1
+                item_id = f"{base_id}-{seen_ids[base_id]}"
+            else:
+                seen_ids[base_id] = 0
 
             # Get tags as string for MiniSearch
             tags = item.get("tags", [])
