@@ -36,13 +36,13 @@
     </div>
 </div>
 
-<!-- Rename Playlist Modal -->
-<div id="rename-playlist-modal" class="modal" style="display: none;">
+<!-- Rename Collection Modal -->
+<div id="rename-collection-modal" class="modal" style="display: none;">
     <div class="modal-backdrop"></div>
     <div class="modal-content">
-        <h3>Rename Playlist</h3>
-        <input type="text" id="rename-playlist-input" placeholder="New name" class="modal-input" />
-        <input type="hidden" id="rename-playlist-id" />
+        <h3>Rename Collection</h3>
+        <input type="text" id="rename-collection-input" placeholder="New name" class="modal-input" />
+        <input type="hidden" id="rename-collection-id" />
         <div class="modal-actions">
             <button class="btn btn-outline" id="cancel-rename-btn">Cancel</button>
             <button class="btn btn-primary" id="confirm-rename-btn">Rename</button>
@@ -50,24 +50,24 @@
     </div>
 </div>
 
-<!-- Playlist Detail Modal -->
-<div id="playlist-detail-modal" class="modal" style="display: none;">
+<!-- Collection Detail Modal -->
+<div id="collection-detail-modal" class="modal" style="display: none;">
     <div class="modal-backdrop"></div>
     <div class="modal-content modal-large">
         <div class="modal-header">
-            <h3 id="playlist-detail-title">Playlist Name</h3>
-            <button class="modal-close" id="close-playlist-detail">
+            <h3 id="collection-detail-title">Collection Name</h3>
+            <button class="modal-close" id="close-collection-detail">
                 <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
                     <line x1="18" y1="6" x2="6" y2="18"></line>
                     <line x1="6" y1="6" x2="18" y2="18"></line>
                 </svg>
             </button>
         </div>
-        <div id="playlist-detail-items" class="playlist-items">
+        <div id="collection-detail-items" class="collection-items">
             <!-- Items rendered here -->
         </div>
         <div class="modal-footer">
-            <button class="btn btn-outline" id="export-playlist-btn">
+            <button class="btn btn-outline" id="export-collection-btn">
                 <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
                     <polyline points="7 10 12 15 17 10"/>
@@ -79,21 +79,21 @@
     </div>
 </div>
 
-<!-- Add to Playlist Modal -->
-<div id="add-to-playlist-modal" class="modal" style="display: none;">
+<!-- Add to Collection Modal -->
+<div id="add-to-collection-modal" class="modal" style="display: none;">
     <div class="modal-backdrop"></div>
     <div class="modal-content">
         <div class="modal-header">
-            <h3>Add to Playlist</h3>
-            <button class="modal-close" id="close-add-playlist-modal">
+            <h3>Add to Collection</h3>
+            <button class="modal-close" id="close-add-collection-modal">
                 <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
                     <line x1="18" y1="6" x2="6" y2="18"></line>
                     <line x1="6" y1="6" x2="18" y2="18"></line>
                 </svg>
             </button>
         </div>
-        <div id="playlist-options" class="playlist-options-list">
-            <!-- Playlist options rendered here -->
+        <div id="collection-options" class="collection-options-list">
+            <!-- Collection options rendered here -->
         </div>
         <div class="modal-actions">
             <button class="btn btn-outline" id="create-and-add-btn">
@@ -101,7 +101,7 @@
                     <line x1="12" y1="5" x2="12" y2="19"></line>
                     <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg>
-                Create New Playlist
+                Create New Collection
             </button>
         </div>
     </div>

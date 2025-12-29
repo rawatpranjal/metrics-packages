@@ -4094,8 +4094,8 @@ mark {
     gap: 0.5rem;
 }
 
-/* Add to Playlist Button */
-.favorite-add-playlist {
+/* Add to Collection Button */
+.favorite-add-collection {
     background: none;
     border: none;
     color: var(--text-muted);
@@ -4108,20 +4108,20 @@ mark {
     justify-content: center;
 }
 
-.favorite-add-playlist:hover {
+.favorite-add-collection:hover {
     background: var(--bg-hover);
     color: var(--accent-color);
     transform: scale(1.1);
 }
 
-/* Playlist Options in Modal */
-.playlist-options-list {
+/* Collection Options in Modal */
+.collection-options-list {
     max-height: 300px;
     overflow-y: auto;
     margin: 1rem 0;
 }
 
-.playlist-option {
+.collection-option {
     display: flex;
     align-items: center;
     padding: 0.875rem 1rem;
@@ -4133,32 +4133,32 @@ mark {
     gap: 0.75rem;
 }
 
-.playlist-option:hover {
+.collection-option:hover {
     border-color: var(--accent-color);
     background: var(--bg-hover);
 }
 
-.playlist-option.already-added {
+.collection-option.already-added {
     opacity: 0.6;
     cursor: default;
     background: var(--bg-hover);
 }
 
-.playlist-option.already-added:hover {
+.collection-option.already-added:hover {
     border-color: var(--border-color);
 }
 
-.playlist-option-name {
+.collection-option-name {
     flex: 1;
     font-weight: 500;
 }
 
-.playlist-option-count {
+.collection-option-count {
     font-size: 0.8rem;
     color: var(--text-muted);
 }
 
-.playlist-option-check {
+.collection-option-check {
     color: var(--success-color, #22c55e);
     font-weight: bold;
 }
@@ -4308,15 +4308,15 @@ mark {
     padding: 0;
 }
 
-/* Playlist Sections (Collapsible) */
-.playlist-section {
+/* Collection Sections (Collapsible) */
+.collection-section {
     margin-bottom: 1rem;
     border: 1px solid var(--border-color);
     border-radius: 12px;
     overflow: hidden;
 }
 
-.playlist-section-header {
+.collection-section-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -4326,57 +4326,57 @@ mark {
     transition: background 0.2s;
 }
 
-.playlist-section-header:hover {
+.collection-section-header:hover {
     background: var(--bg-hover);
 }
 
-.playlist-section-info {
+.collection-section-info {
     display: flex;
     align-items: center;
     gap: 0.75rem;
 }
 
-.playlist-chevron {
+.collection-chevron {
     transition: transform 0.2s;
     color: var(--text-muted);
 }
 
-.playlist-section.expanded .playlist-chevron {
+.collection-section.expanded .collection-chevron {
     transform: rotate(90deg);
 }
 
-.playlist-section-name {
+.collection-section-name {
     font-weight: 600;
     font-size: 1.1rem;
 }
 
-.playlist-section-count {
+.collection-section-count {
     color: var(--text-muted);
     font-size: 0.9rem;
 }
 
-.playlist-section-actions {
+.collection-section-actions {
     display: flex;
     gap: 0.25rem;
     opacity: 0;
     transition: opacity 0.2s;
 }
 
-.playlist-section-header:hover .playlist-section-actions {
+.collection-section-header:hover .collection-section-actions {
     opacity: 1;
 }
 
-.playlist-section-content {
+.collection-section-content {
     display: none;
     padding: 1rem 1.25rem;
     border-top: 1px solid var(--border-color);
 }
 
-.playlist-section.expanded .playlist-section-content {
+.collection-section.expanded .collection-section-content {
     display: block;
 }
 
-.empty-playlist {
+.empty-collection {
     color: var(--text-muted);
     text-align: center;
     padding: 2rem;
@@ -4407,8 +4407,8 @@ mark {
     color: #ef4444;
 }
 
-/* Move to playlist button */
-.move-to-playlist-btn {
+/* Move to collection button */
+.move-to-collection-btn {
     background: none;
     border: none;
     color: var(--text-muted);
@@ -4421,7 +4421,7 @@ mark {
     justify-content: center;
 }
 
-.move-to-playlist-btn:hover {
+.move-to-collection-btn:hover {
     background: var(--bg-hover);
     color: var(--accent-color);
     transform: scale(1.1);
@@ -5454,27 +5454,27 @@ mark {
 }
 
 /* =========================================
-   PLAYLISTS
+   COLLECTIONS GRID (Legacy)
    ========================================= */
 
-.playlists-actions {
+.collections-actions {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 1.5rem;
 }
 
-.playlists-actions .action-buttons {
+.collections-actions .action-buttons {
     display: flex;
     gap: 0.75rem;
 }
 
-.playlists-grid {
+.collections-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 1rem;
 }
 
-.playlist-card {
+.collection-card {
     background: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: 8px;
@@ -5482,26 +5482,26 @@ mark {
     transition: box-shadow 0.15s, border-color 0.15s;
 }
 
-.playlist-card:hover {
+.collection-card:hover {
     border-color: var(--accent);
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
-.playlist-card-header {
+.collection-card-header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 0.5rem;
 }
 
-.playlist-name {
+.collection-name {
     margin: 0;
     font-size: 1.1rem;
     font-weight: 600;
     color: var(--text-primary);
 }
 
-.playlist-count {
+.collection-count {
     font-size: 0.8rem;
     color: var(--text-muted);
     background: var(--bg-hover);
@@ -5509,18 +5509,18 @@ mark {
     border-radius: 4px;
 }
 
-.playlist-card-meta {
+.collection-card-meta {
     font-size: 0.8rem;
     color: var(--text-muted);
     margin-bottom: 1rem;
 }
 
-.playlist-card-actions {
+.collection-card-actions {
     display: flex;
     gap: 0.5rem;
 }
 
-.playlist-card-actions .btn {
+.collection-card-actions .btn {
     flex: 1;
     justify-content: center;
 }
@@ -5625,22 +5625,22 @@ mark {
 }
 
 /* =========================================
-   PLAYLIST ITEMS LIST
+   COLLECTION ITEMS LIST
    ========================================= */
 
-.playlist-items {
+.collection-items {
     flex: 1;
     overflow-y: auto;
     max-height: 400px;
 }
 
-.playlist-items-list {
+.collection-items-list {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
 
-.playlist-item {
+.collection-item {
     display: flex;
     align-items: center;
     gap: 0.75rem;
@@ -5649,14 +5649,14 @@ mark {
     border-radius: 6px;
 }
 
-.playlist-item .resource-favicon {
+.collection-item .resource-favicon {
     width: 20px;
     height: 20px;
     border-radius: 4px;
     flex-shrink: 0;
 }
 
-.playlist-item-info {
+.collection-item-info {
     flex: 1;
     min-width: 0;
     display: flex;
@@ -5664,7 +5664,7 @@ mark {
     gap: 0.5rem;
 }
 
-.playlist-item-info a {
+.collection-item-info a {
     color: var(--text-primary);
     text-decoration: none;
     white-space: nowrap;
@@ -5672,11 +5672,11 @@ mark {
     text-overflow: ellipsis;
 }
 
-.playlist-item-info a:hover {
+.collection-item-info a:hover {
     color: var(--accent);
 }
 
-.playlist-item-remove {
+.collection-item-remove {
     background: none;
     border: none;
     padding: 0.25rem;
@@ -5687,7 +5687,7 @@ mark {
     flex-shrink: 0;
 }
 
-.playlist-item-remove:hover {
+.collection-item-remove:hover {
     color: #e74c3c;
     background: rgba(231, 76, 60, 0.1);
 }
@@ -5707,21 +5707,21 @@ mark {
     font-size: 0.85rem;
 }
 
-/* Mobile responsive for playlists */
+/* Mobile responsive for collections */
 @media (max-width: 768px) {
     .favorites-tabs {
         overflow-x: auto;
     }
 
-    .playlists-actions .action-buttons {
+    .collections-actions .action-buttons {
         flex-wrap: wrap;
     }
 
-    .playlists-grid {
+    .collections-grid {
         grid-template-columns: 1fr;
     }
 
-    .playlist-card-actions {
+    .collection-card-actions {
         flex-wrap: wrap;
     }
 

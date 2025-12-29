@@ -21,66 +21,66 @@
         }, 2500);
     }
 
-    // Current item being added to playlist
-    let currentPlaylistItem = null;
+    // Current item being added to collection
+    let currentCollectionItem = null;
 
-    // Show "Add to Playlist" modal
-    function showAddToPlaylistModal(itemType, itemId, itemData) {
+    // Show "Add to Collection" modal
+    function showAddToCollectionModal(itemType, itemId, itemData) {
         if (!window.TechEconPlaylists) {
-            showToast('Playlists not available', 'error');
+            showToast('Collections not available', 'error');
             return;
         }
 
-        currentPlaylistItem = { type: itemType, id: itemId, data: itemData };
+        currentCollectionItem = { type: itemType, id: itemId, data: itemData };
 
-        const modal = document.getElementById('add-to-playlist-modal');
-        const optionsContainer = document.getElementById('playlist-options');
+        const modal = document.getElementById('add-to-collection-modal');
+        const optionsContainer = document.getElementById('collection-options');
 
         if (!modal || !optionsContainer) {
             // Modal not on this page, create it dynamically
-            createAddToPlaylistModal();
-            return showAddToPlaylistModal(itemType, itemId, itemData);
+            createAddToCollectionModal();
+            return showAddToCollectionModal(itemType, itemId, itemData);
         }
 
-        const playlists = window.TechEconPlaylists.getAll();
+        const collections = window.TechEconPlaylists.getAll();
 
-        if (playlists.length === 0) {
+        if (collections.length === 0) {
             optionsContainer.innerHTML = `
                 <div class="empty-state-small">
-                    <p>No playlists yet</p>
+                    <p>No collections yet</p>
                     <p class="text-muted">Create one to get started</p>
                 </div>
             `;
         } else {
             let html = '';
-            playlists.forEach(playlist => {
-                const hasItem = playlist.items.some(item =>
+            collections.forEach(collection => {
+                const hasItem = collection.items.some(item =>
                     item.type === itemType && item.id === itemId
                 );
                 html += `
-                    <div class="playlist-option ${hasItem ? 'already-added' : ''}"
-                         data-playlist-id="${playlist.id}">
-                        <span class="playlist-option-name">${escapeHtml(playlist.name)}</span>
-                        <span class="playlist-option-count">${playlist.items.length} items</span>
-                        ${hasItem ? '<span class="playlist-option-check">✓</span>' : ''}
+                    <div class="collection-option ${hasItem ? 'already-added' : ''}"
+                         data-collection-id="${collection.id}">
+                        <span class="collection-option-name">${escapeHtml(collection.name)}</span>
+                        <span class="collection-option-count">${collection.items.length} items</span>
+                        ${hasItem ? '<span class="collection-option-check">✓</span>' : ''}
                     </div>
                 `;
             });
             optionsContainer.innerHTML = html;
 
             // Add click handlers
-            optionsContainer.querySelectorAll('.playlist-option:not(.already-added)').forEach(opt => {
+            optionsContainer.querySelectorAll('.collection-option:not(.already-added)').forEach(opt => {
                 opt.addEventListener('click', function() {
-                    const playlistId = this.dataset.playlistId;
-                    if (currentPlaylistItem) {
+                    const collectionId = this.dataset.collectionId;
+                    if (currentCollectionItem) {
                         window.TechEconPlaylists.addItem(
-                            playlistId,
-                            currentPlaylistItem.type,
-                            currentPlaylistItem.id,
-                            currentPlaylistItem.data
+                            collectionId,
+                            currentCollectionItem.type,
+                            currentCollectionItem.id,
+                            currentCollectionItem.data
                         );
-                        showToast('Added to playlist');
-                        hideAddToPlaylistModal();
+                        showToast('Added to collection');
+                        hideAddToCollectionModal();
                     }
                 });
             });
@@ -89,71 +89,71 @@
         modal.style.display = 'flex';
     }
 
-    // Hide "Add to Playlist" modal
-    function hideAddToPlaylistModal() {
-        const modal = document.getElementById('add-to-playlist-modal');
+    // Hide "Add to Collection" modal
+    function hideAddToCollectionModal() {
+        const modal = document.getElementById('add-to-collection-modal');
         if (modal) {
             modal.style.display = 'none';
         }
-        currentPlaylistItem = null;
+        currentCollectionItem = null;
     }
 
     // Create modal dynamically for pages that don't have it
-    function createAddToPlaylistModal() {
-        if (document.getElementById('add-to-playlist-modal')) return;
+    function createAddToCollectionModal() {
+        if (document.getElementById('add-to-collection-modal')) return;
 
         const modal = document.createElement('div');
-        modal.id = 'add-to-playlist-modal';
+        modal.id = 'add-to-collection-modal';
         modal.className = 'modal';
         modal.style.display = 'none';
         modal.innerHTML = `
             <div class="modal-backdrop"></div>
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3>Add to Playlist</h3>
-                    <button class="modal-close" id="close-add-playlist-modal">
+                    <h3>Add to Collection</h3>
+                    <button class="modal-close" id="close-add-collection-modal">
                         <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
                             <line x1="18" y1="6" x2="6" y2="18"></line>
                             <line x1="6" y1="6" x2="18" y2="18"></line>
                         </svg>
                     </button>
                 </div>
-                <div id="playlist-options" class="playlist-options-list"></div>
+                <div id="collection-options" class="collection-options-list"></div>
                 <div class="modal-actions">
                     <button class="btn btn-outline" id="create-and-add-btn">
                         <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
                             <line x1="12" y1="5" x2="12" y2="19"></line>
                             <line x1="5" y1="12" x2="19" y2="12"></line>
                         </svg>
-                        Create New Playlist
+                        Create New Collection
                     </button>
                 </div>
             </div>
         `;
         document.body.appendChild(modal);
-        initAddToPlaylistModal();
+        initAddToCollectionModal();
     }
 
     // Initialize modal event handlers
-    function initAddToPlaylistModal() {
-        const modal = document.getElementById('add-to-playlist-modal');
+    function initAddToCollectionModal() {
+        const modal = document.getElementById('add-to-collection-modal');
         if (!modal) return;
 
         const backdrop = modal.querySelector('.modal-backdrop');
-        const closeBtn = document.getElementById('close-add-playlist-modal');
+        const closeBtn = document.getElementById('close-add-collection-modal');
         const createBtn = document.getElementById('create-and-add-btn');
 
-        if (backdrop) backdrop.addEventListener('click', hideAddToPlaylistModal);
-        if (closeBtn) closeBtn.addEventListener('click', hideAddToPlaylistModal);
+        if (backdrop) backdrop.addEventListener('click', hideAddToCollectionModal);
+        if (closeBtn) closeBtn.addEventListener('click', hideAddToCollectionModal);
 
         if (createBtn) {
             createBtn.addEventListener('click', function() {
-                // Store pending item to add after playlist creation
-                window._pendingPlaylistItem = currentPlaylistItem;
-                hideAddToPlaylistModal();
-                // Show the proper create playlist modal
-                if (window.showCreatePlaylistModal) {
-                    window.showCreatePlaylistModal();
+                // Store pending item to add after collection creation
+                window._pendingCollectionItem = currentCollectionItem;
+                hideAddToCollectionModal();
+                // Show the proper create collection modal
+                if (window.showCreateCollectionModal) {
+                    window.showCreateCollectionModal();
                 }
             });
         }
@@ -167,7 +167,7 @@
     }
 
     // Expose globally for use from anywhere
-    window.showAddToPlaylistModal = showAddToPlaylistModal;
+    window.showAddToCollectionModal = showAddToCollectionModal;
 
     // Add favorite buttons to all cards
     function initFavoriteButtons() {
@@ -265,22 +265,22 @@
                 showToast(isFav ? 'Added to favorites' : 'Removed from favorites');
             });
 
-            // Long press to add to playlist (mouse)
+            // Long press to add to collection (mouse)
             btn.addEventListener('mousedown', function(e) {
                 pressTimer = setTimeout(() => {
                     longPressed = true;
-                    showAddToPlaylistModal(itemType, itemId, itemData);
+                    showAddToCollectionModal(itemType, itemId, itemData);
                 }, 500);
             });
             btn.addEventListener('mouseup', () => clearTimeout(pressTimer));
             btn.addEventListener('mouseleave', () => clearTimeout(pressTimer));
 
-            // Long press to add to playlist (touch)
+            // Long press to add to collection (touch)
             btn.addEventListener('touchstart', function(e) {
                 pressTimer = setTimeout(() => {
                     longPressed = true;
                     e.preventDefault();
-                    showAddToPlaylistModal(itemType, itemId, itemData);
+                    showAddToCollectionModal(itemType, itemId, itemData);
                 }, 500);
             }, { passive: false });
             btn.addEventListener('touchend', () => clearTimeout(pressTimer));
@@ -315,18 +315,18 @@
             }
         }
 
-        // Render a single favorite card with move-to-playlist option
-        function renderCollectionCard(fav, playlistId) {
+        // Render a single favorite card with move-to-collection option
+        function renderCollectionCard(fav, collectionId) {
             const name = fav.data?.name || fav.id;
             const desc = fav.data?.description || '';
             const url = fav.data?.url || '#';
             const category = fav.data?.category || fav.type;
             const favicon = getFavicon(url);
             const escapedId = fav.id.replace(/'/g, "\\'").replace(/"/g, '&quot;');
-            const escapedPlaylistId = playlistId ? playlistId.replace(/'/g, "\\'") : '';
+            const escapedCollectionId = collectionId ? collectionId.replace(/'/g, "\\'") : '';
 
             return `
-                <div class="favorite-card" data-type="${fav.type}" data-id="${fav.id}" data-playlist="${playlistId || ''}">
+                <div class="favorite-card" data-type="${fav.type}" data-id="${fav.id}" data-collection="${collectionId || ''}">
                     <div class="card-header">
                         ${favicon ? `<img class="resource-favicon" src="${favicon}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
                         <h3 class="card-title">
@@ -338,12 +338,12 @@
                     <div class="card-footer">
                         <span class="category-badge">${category}</span>
                         <div class="card-actions">
-                            <button class="move-to-playlist-btn" title="Move to playlist" data-type="${fav.type}" data-id="${escapedId}" data-current-playlist="${escapedPlaylistId}">
+                            <button class="move-to-collection-btn" title="Move to collection" data-type="${fav.type}" data-id="${escapedId}" data-current-collection="${escapedCollectionId}">
                                 <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
                                     <path d="M5 12h14M12 5l7 7-7 7"/>
                                 </svg>
                             </button>
-                            <button class="favorite-remove" onclick="removeFromCollection('${fav.type}', '${escapedId}', '${escapedPlaylistId}')">
+                            <button class="favorite-remove" onclick="removeFromCollection('${fav.type}', '${escapedId}', '${escapedCollectionId}')">
                                 <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
                                     <line x1="18" y1="6" x2="6" y2="18"></line>
                                     <line x1="6" y1="6" x2="18" y2="18"></line>
@@ -356,13 +356,13 @@
         }
 
         // Render a table row for an item
-        function renderCollectionRow(fav, playlistId) {
+        function renderCollectionRow(fav, collectionId) {
             const name = fav.data?.name || fav.id;
             const url = fav.data?.url || '#';
             const category = fav.data?.category || fav.type;
             const favicon = getFavicon(url);
             const escapedId = fav.id.replace(/'/g, "\\'").replace(/"/g, '&quot;');
-            const escapedPlaylistId = playlistId ? playlistId.replace(/'/g, "\\'") : '';
+            const escapedCollectionId = collectionId ? collectionId.replace(/'/g, "\\'") : '';
 
             return `
                 <tr class="collection-row" data-type="${fav.type}" data-id="${fav.id}">
@@ -373,12 +373,12 @@
                     <td class="col-type"><span class="type-badge type-${fav.type}">${fav.type}</span></td>
                     <td class="col-category">${category}</td>
                     <td class="col-actions">
-                        <button class="btn-icon-sm move-to-playlist-btn" title="Move to playlist" data-type="${fav.type}" data-id="${escapedId}" data-current-playlist="${escapedPlaylistId}">
+                        <button class="btn-icon-sm move-to-collection-btn" title="Move to collection" data-type="${fav.type}" data-id="${escapedId}" data-current-collection="${escapedCollectionId}">
                             <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M5 12h14M12 5l7 7-7 7"/>
                             </svg>
                         </button>
-                        <button class="btn-icon-sm btn-danger" onclick="removeFromCollection('${fav.type}', '${escapedId}', '${escapedPlaylistId}')" title="Remove">
+                        <button class="btn-icon-sm btn-danger" onclick="removeFromCollection('${fav.type}', '${escapedId}', '${escapedCollectionId}')" title="Remove">
                             <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
                                 <line x1="18" y1="6" x2="6" y2="18"></line>
                                 <line x1="6" y1="6" x2="18" y2="18"></line>
@@ -389,10 +389,10 @@
             `;
         }
 
-        // Render a playlist section
-        function renderPlaylistSection(playlist, items, isExpanded, viewMode) {
+        // Render a collection section
+        function renderCollectionSection(collection, items, isExpanded, viewMode) {
             const itemCount = items.length;
-            const escapedId = playlist.id.replace(/'/g, "\\'");
+            const escapedId = collection.id.replace(/'/g, "\\'");
 
             let itemsHtml = '';
             if (viewMode === 'table') {
@@ -412,7 +412,7 @@
                     `;
                     items.forEach(item => {
                         const fav = { type: item.type, id: item.id, data: item.data };
-                        itemsHtml += renderCollectionRow(fav, playlist.id);
+                        itemsHtml += renderCollectionRow(fav, collection.id);
                     });
                     itemsHtml += '</tbody></table>';
                 }
@@ -420,30 +420,30 @@
                 // Card view (default)
                 items.forEach(item => {
                     const fav = { type: item.type, id: item.id, data: item.data };
-                    itemsHtml += renderCollectionCard(fav, playlist.id);
+                    itemsHtml += renderCollectionCard(fav, collection.id);
                 });
             }
 
             const contentClass = viewMode === 'table' ? 'table-view' : 'favorites-grid';
 
             return `
-                <div class="playlist-section ${isExpanded ? 'expanded' : ''}" data-playlist-id="${playlist.id}">
-                    <div class="playlist-section-header" onclick="togglePlaylistSection('${escapedId}')">
-                        <div class="playlist-section-info">
-                            <svg class="playlist-chevron" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                <div class="collection-section ${isExpanded ? 'expanded' : ''}" data-collection-id="${collection.id}">
+                    <div class="collection-section-header" onclick="toggleCollectionSection('${escapedId}')">
+                        <div class="collection-section-info">
+                            <svg class="collection-chevron" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
                                 <polyline points="9 18 15 12 9 6"></polyline>
                             </svg>
-                            <span class="playlist-section-name">${escapeHtml(playlist.name)}</span>
-                            <span class="playlist-section-count">${itemCount} item${itemCount !== 1 ? 's' : ''}</span>
+                            <span class="collection-section-name">${escapeHtml(collection.name)}</span>
+                            <span class="collection-section-count">${itemCount} item${itemCount !== 1 ? 's' : ''}</span>
                         </div>
-                        <div class="playlist-section-actions">
-                            <button class="btn-icon" onclick="event.stopPropagation(); renamePlaylist('${escapedId}')" title="Rename">
+                        <div class="collection-section-actions">
+                            <button class="btn-icon" onclick="event.stopPropagation(); renameCollection('${escapedId}')" title="Rename">
                                 <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
                                     <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
                                     <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
                                 </svg>
                             </button>
-                            <button class="btn-icon btn-danger" onclick="event.stopPropagation(); deletePlaylist('${escapedId}')" title="Delete playlist">
+                            <button class="btn-icon btn-danger" onclick="event.stopPropagation(); deleteCollection('${escapedId}')" title="Delete collection">
                                 <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
                                     <polyline points="3 6 5 6 21 6"></polyline>
                                     <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>
@@ -451,9 +451,9 @@
                             </button>
                         </div>
                     </div>
-                    <div class="playlist-section-content">
+                    <div class="collection-section-content">
                         <div class="${contentClass}">
-                            ${itemsHtml || '<p class="empty-playlist">No items in this playlist</p>'}
+                            ${itemsHtml || '<p class="empty-collection">No items in this collection</p>'}
                         </div>
                     </div>
                 </div>
@@ -525,12 +525,12 @@
                                     </svg>
                                 </button>
                             </div>
-                            <button class="btn btn-primary btn-sm" onclick="showCreatePlaylistModal()">
+                            <button class="btn btn-primary btn-sm" onclick="showCreateCollectionModal()">
                                 <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
                                     <line x1="12" y1="5" x2="12" y2="19"></line>
                                     <line x1="5" y1="12" x2="19" y2="12"></line>
                                 </svg>
-                                New Playlist
+                                New Collection
                             </button>
                             <button class="btn btn-outline btn-sm" onclick="TechEconFavorites.exportJSON()">
                                 <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
@@ -544,35 +544,35 @@
                     </div>
                 `;
 
-                // Render each playlist as a collapsible section
-                playlists.forEach((playlist, index) => {
-                    html += renderPlaylistSection(playlist, playlist.items, index === 0, currentView);
+                // Render each collection as a collapsible section
+                playlists.forEach((collection, index) => {
+                    html += renderCollectionSection(collection, collection.items, index === 0, currentView);
                 });
 
                 // Render uncategorized section
                 if (uncategorized.length > 0) {
-                    const uncategorizedPlaylist = {
+                    const uncategorizedCollection = {
                         id: '__uncategorized__',
                         name: 'Uncategorized',
                         items: uncategorized.map(f => ({ type: f.type, id: f.id, data: f.data }))
                     };
-                    html += renderPlaylistSection(uncategorizedPlaylist, uncategorizedPlaylist.items, playlists.length === 0, currentView);
+                    html += renderCollectionSection(uncategorizedCollection, uncategorizedCollection.items, playlists.length === 0, currentView);
                 }
 
                 container.innerHTML = html;
 
-                // Add event listeners for move-to-playlist buttons
-                container.querySelectorAll('.move-to-playlist-btn').forEach(btn => {
+                // Add event listeners for move-to-collection buttons
+                container.querySelectorAll('.move-to-collection-btn').forEach(btn => {
                     btn.addEventListener('click', function(e) {
                         e.preventDefault();
                         e.stopPropagation();
                         const type = this.dataset.type;
                         const id = this.dataset.id;
-                        const currentPlaylist = this.dataset.currentPlaylist;
+                        const currentCollection = this.dataset.currentCollection;
                         const card = this.closest('.favorite-card');
                         const name = card?.querySelector('.card-title a')?.textContent || id;
                         const url = card?.querySelector('.card-title a')?.href || '';
-                        showMoveToPlaylistModal(type, id, { name, url, category: type }, currentPlaylist);
+                        showMoveToCollectionModal(type, id, { name, url, category: type }, currentCollection);
                     });
                 });
 
@@ -583,9 +583,9 @@
             }
         }
 
-        // Toggle playlist section expand/collapse
-        window.togglePlaylistSection = function(playlistId) {
-            const section = container.querySelector(`.playlist-section[data-playlist-id="${playlistId}"]`);
+        // Toggle collection section expand/collapse
+        window.toggleCollectionSection = function(collectionId) {
+            const section = container.querySelector(`.collection-section[data-collection-id="${collectionId}"]`);
             if (section) {
                 section.classList.toggle('expanded');
             }
@@ -597,48 +597,48 @@
             loadCollection();
         };
 
-        // Show create playlist modal
-        window.showCreatePlaylistModal = function() {
-            const modal = document.getElementById('create-playlist-modal');
+        // Show create collection modal
+        window.showCreateCollectionModal = function() {
+            const modal = document.getElementById('create-collection-modal');
             if (modal) {
                 modal.style.display = 'flex';
-                document.getElementById('playlist-name-input').focus();
+                document.getElementById('collection-name-input').focus();
             }
         };
 
-        // Rename playlist - show modal
-        window.renamePlaylist = function(playlistId) {
-            const playlist = window.TechEconPlaylists.get(playlistId);
-            if (!playlist) return;
+        // Rename collection - show modal
+        window.renameCollection = function(collectionId) {
+            const collection = window.TechEconPlaylists.get(collectionId);
+            if (!collection) return;
 
-            const modal = document.getElementById('rename-playlist-modal');
-            const input = document.getElementById('rename-playlist-input');
-            const idInput = document.getElementById('rename-playlist-id');
+            const modal = document.getElementById('rename-collection-modal');
+            const input = document.getElementById('rename-collection-input');
+            const idInput = document.getElementById('rename-collection-id');
 
             if (modal && input && idInput) {
-                input.value = playlist.name;
-                idInput.value = playlistId;
+                input.value = collection.name;
+                idInput.value = collectionId;
                 modal.style.display = 'flex';
                 input.focus();
                 input.select();
             }
         };
 
-        // Delete playlist
-        window.deletePlaylist = function(playlistId) {
-            if (confirm('Delete this playlist? Items will move to Uncategorized.')) {
-                window.TechEconPlaylists.delete(playlistId);
-                showToast('Playlist deleted');
+        // Delete collection
+        window.deleteCollection = function(collectionId) {
+            if (confirm('Delete this collection? Items will move to Uncategorized.')) {
+                window.TechEconPlaylists.delete(collectionId);
+                showToast('Collection deleted');
                 loadCollection();
             }
         };
 
         // Remove from collection
-        window.removeFromCollection = function(type, id, playlistId) {
-            if (playlistId && playlistId !== '__uncategorized__') {
-                // Remove from playlist
-                window.TechEconPlaylists.removeItem(playlistId, type, id);
-                showToast('Removed from playlist');
+        window.removeFromCollection = function(type, id, collectionId) {
+            if (collectionId && collectionId !== '__uncategorized__') {
+                // Remove from collection
+                window.TechEconPlaylists.removeItem(collectionId, type, id);
+                showToast('Removed from collection');
             } else {
                 // Remove from favorites entirely
                 window.TechEconFavorites.remove(type, id);
@@ -647,50 +647,50 @@
             loadCollection();
         };
 
-        // Show move to playlist modal
-        window.showMoveToPlaylistModal = function(itemType, itemId, itemData, currentPlaylistId) {
+        // Show move to collection modal
+        window.showMoveToCollectionModal = function(itemType, itemId, itemData, currentCollectionId) {
             if (!window.TechEconPlaylists) {
-                showToast('Playlists not available', 'error');
+                showToast('Collections not available', 'error');
                 return;
             }
 
-            currentPlaylistItem = { type: itemType, id: itemId, data: itemData, currentPlaylist: currentPlaylistId };
+            currentCollectionItem = { type: itemType, id: itemId, data: itemData, currentCollection: currentCollectionId };
 
-            const modal = document.getElementById('add-to-playlist-modal');
-            const optionsContainer = document.getElementById('playlist-options');
+            const modal = document.getElementById('add-to-collection-modal');
+            const optionsContainer = document.getElementById('collection-options');
 
             if (!modal || !optionsContainer) return;
 
-            const playlists = window.TechEconPlaylists.getAll();
+            const collections = window.TechEconPlaylists.getAll();
 
             let html = '';
 
-            // Add "Uncategorized" option if item is in a playlist
-            if (currentPlaylistId && currentPlaylistId !== '__uncategorized__') {
+            // Add "Uncategorized" option if item is in a collection
+            if (currentCollectionId && currentCollectionId !== '__uncategorized__') {
                 html += `
-                    <div class="playlist-option" data-playlist-id="__uncategorized__">
-                        <span class="playlist-option-name">Uncategorized</span>
-                        <span class="playlist-option-count">Remove from playlist</span>
+                    <div class="collection-option" data-collection-id="__uncategorized__">
+                        <span class="collection-option-name">Uncategorized</span>
+                        <span class="collection-option-count">Remove from collection</span>
                     </div>
                 `;
             }
 
-            playlists.forEach(playlist => {
-                const isCurrentPlaylist = playlist.id === currentPlaylistId;
+            collections.forEach(collection => {
+                const isCurrentCollection = collection.id === currentCollectionId;
                 html += `
-                    <div class="playlist-option ${isCurrentPlaylist ? 'already-added' : ''}"
-                         data-playlist-id="${playlist.id}">
-                        <span class="playlist-option-name">${escapeHtml(playlist.name)}</span>
-                        <span class="playlist-option-count">${playlist.items.length} items</span>
-                        ${isCurrentPlaylist ? '<span class="playlist-option-check">✓ Current</span>' : ''}
+                    <div class="collection-option ${isCurrentCollection ? 'already-added' : ''}"
+                         data-collection-id="${collection.id}">
+                        <span class="collection-option-name">${escapeHtml(collection.name)}</span>
+                        <span class="collection-option-count">${collection.items.length} items</span>
+                        ${isCurrentCollection ? '<span class="collection-option-check">✓ Current</span>' : ''}
                     </div>
                 `;
             });
 
-            if (playlists.length === 0 && (!currentPlaylistId || currentPlaylistId === '__uncategorized__')) {
+            if (collections.length === 0 && (!currentCollectionId || currentCollectionId === '__uncategorized__')) {
                 html = `
                     <div class="empty-state-small">
-                        <p>No playlists yet</p>
+                        <p>No collections yet</p>
                         <p class="text-muted">Create one to organize your favorites</p>
                     </div>
                 `;
@@ -699,33 +699,33 @@
             optionsContainer.innerHTML = html;
 
             // Add click handlers
-            optionsContainer.querySelectorAll('.playlist-option:not(.already-added)').forEach(opt => {
+            optionsContainer.querySelectorAll('.collection-option:not(.already-added)').forEach(opt => {
                 opt.addEventListener('click', function() {
-                    const targetPlaylistId = this.dataset.playlistId;
-                    if (currentPlaylistItem) {
-                        // Remove from current playlist if exists
-                        if (currentPlaylistItem.currentPlaylist && currentPlaylistItem.currentPlaylist !== '__uncategorized__') {
+                    const targetCollectionId = this.dataset.collectionId;
+                    if (currentCollectionItem) {
+                        // Remove from current collection if exists
+                        if (currentCollectionItem.currentCollection && currentCollectionItem.currentCollection !== '__uncategorized__') {
                             window.TechEconPlaylists.removeItem(
-                                currentPlaylistItem.currentPlaylist,
-                                currentPlaylistItem.type,
-                                currentPlaylistItem.id
+                                currentCollectionItem.currentCollection,
+                                currentCollectionItem.type,
+                                currentCollectionItem.id
                             );
                         }
 
-                        // Add to new playlist (unless moving to uncategorized)
-                        if (targetPlaylistId !== '__uncategorized__') {
+                        // Add to new collection (unless moving to uncategorized)
+                        if (targetCollectionId !== '__uncategorized__') {
                             window.TechEconPlaylists.addItem(
-                                targetPlaylistId,
-                                currentPlaylistItem.type,
-                                currentPlaylistItem.id,
-                                currentPlaylistItem.data
+                                targetCollectionId,
+                                currentCollectionItem.type,
+                                currentCollectionItem.id,
+                                currentCollectionItem.data
                             );
-                            showToast('Moved to playlist');
+                            showToast('Moved to collection');
                         } else {
                             showToast('Moved to Uncategorized');
                         }
 
-                        hideAddToPlaylistModal();
+                        hideAddToCollectionModal();
                         loadCollection();
                     }
                 });
@@ -750,17 +750,17 @@
         loadCollection();
 
         // Initialize modals
-        initAddToPlaylistModal();
-        initCreatePlaylistModal();
-        initRenamePlaylistModal();
+        initAddToCollectionModal();
+        initCreateCollectionModal();
+        initRenameCollectionModal();
     }
 
-    // Initialize create playlist modal
-    function initCreatePlaylistModal() {
-        const modal = document.getElementById('create-playlist-modal');
-        const input = document.getElementById('playlist-name-input');
-        const cancelBtn = document.getElementById('cancel-playlist-btn');
-        const createBtn = document.getElementById('create-playlist-btn');
+    // Initialize create collection modal
+    function initCreateCollectionModal() {
+        const modal = document.getElementById('create-collection-modal');
+        const input = document.getElementById('collection-name-input');
+        const cancelBtn = document.getElementById('cancel-collection-btn');
+        const createBtn = document.getElementById('create-collection-btn');
 
         if (!modal || !input) return;
 
@@ -775,16 +775,16 @@
             createBtn.addEventListener('click', function() {
                 const name = input.value.trim();
                 if (name) {
-                    const playlistId = window.TechEconPlaylists.create(name);
+                    const collectionId = window.TechEconPlaylists.create(name);
 
                     // Check if there's a pending item to add
-                    if (window._pendingPlaylistItem) {
-                        const item = window._pendingPlaylistItem;
-                        window.TechEconPlaylists.addItem(playlistId, item.type, item.id, item.data);
-                        showToast('Created playlist and added item');
-                        window._pendingPlaylistItem = null;
+                    if (window._pendingCollectionItem) {
+                        const item = window._pendingCollectionItem;
+                        window.TechEconPlaylists.addItem(collectionId, item.type, item.id, item.data);
+                        showToast('Created collection and added item');
+                        window._pendingCollectionItem = null;
                     } else {
-                        showToast('Playlist created');
+                        showToast('Collection created');
                     }
 
                     closeModal();
@@ -805,11 +805,11 @@
         modal.querySelector('.modal-backdrop')?.addEventListener('click', closeModal);
     }
 
-    // Initialize rename playlist modal
-    function initRenamePlaylistModal() {
-        const modal = document.getElementById('rename-playlist-modal');
-        const input = document.getElementById('rename-playlist-input');
-        const idInput = document.getElementById('rename-playlist-id');
+    // Initialize rename collection modal
+    function initRenameCollectionModal() {
+        const modal = document.getElementById('rename-collection-modal');
+        const input = document.getElementById('rename-collection-input');
+        const idInput = document.getElementById('rename-collection-id');
         const cancelBtn = document.getElementById('cancel-rename-btn');
         const confirmBtn = document.getElementById('confirm-rename-btn');
 
@@ -826,10 +826,10 @@
         if (confirmBtn) {
             confirmBtn.addEventListener('click', function() {
                 const newName = input.value.trim();
-                const playlistId = idInput.value;
-                if (newName && playlistId) {
-                    window.TechEconPlaylists.rename(playlistId, newName);
-                    showToast('Playlist renamed');
+                const collectionId = idInput.value;
+                if (newName && collectionId) {
+                    window.TechEconPlaylists.rename(collectionId, newName);
+                    showToast('Collection renamed');
                     closeModal();
                     if (window.reloadFavoritesPage) window.reloadFavoritesPage();
                 }
