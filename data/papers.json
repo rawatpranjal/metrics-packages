@@ -7552,6 +7552,30 @@
                 "Multi-Armed Bandits"
               ],
               "citations": 1524
+            },
+            {
+              "title": "Optimal Best Arm Identification with Fixed Confidence",
+              "authors": "Aur\u00e9lien Garivier, Emilie Kaufmann",
+              "year": 2016,
+              "description": "Establishes lower bounds and optimal algorithms for best-arm identification; key for A/B testing.",
+              "url": "http://proceedings.mlr.press/v49/garivier16a.html",
+              "tags": [
+                "Reinforcement Learning",
+                "Multi-Armed Bandits"
+              ],
+              "citations": 412
+            },
+            {
+              "title": "On the Complexity of Best-Arm Identification in Multi-Armed Bandit Models",
+              "authors": "Emilie Kaufmann, Olivier Capp\u00e9, Aur\u00e9lien Garivier",
+              "year": 2016,
+              "description": "Characterizes the sample complexity of best-arm identification in fixed-budget and fixed-confidence settings.",
+              "url": "https://jmlr.org/papers/v17/kaufman16a.html",
+              "tags": [
+                "Reinforcement Learning",
+                "Multi-Armed Bandits"
+              ],
+              "citations": 358
             }
           ]
         },
@@ -7607,6 +7631,30 @@
                 "Contextual Bandits"
               ],
               "citations": 313
+            },
+            {
+              "title": "Neural Contextual Bandits with UCB-based Exploration",
+              "authors": "Dongruo Zhou, Lihong Li, Quanquan Gu",
+              "year": 2020,
+              "description": "Extends contextual bandits to neural network function approximation; bridges deep learning and bandit theory.",
+              "url": "https://proceedings.mlr.press/v119/zhou20a.html",
+              "tags": [
+                "Reinforcement Learning",
+                "Contextual Bandits"
+              ],
+              "citations": 286
+            },
+            {
+              "title": "Beyond UCB: Optimal and Efficient Contextual Bandits with Regression Oracles",
+              "authors": "Dylan Foster, Alexander Rakhlin",
+              "year": 2020,
+              "description": "SquareCB algorithm achieves optimal regret using only regression oracles; practical for complex function classes.",
+              "url": "https://proceedings.mlr.press/v119/foster20a.html",
+              "tags": [
+                "Reinforcement Learning",
+                "Contextual Bandits"
+              ],
+              "citations": 189
             }
           ]
         },
@@ -7662,6 +7710,18 @@
                 "Thompson Sampling & Bayesian Bandits"
               ],
               "citations": 526
+            },
+            {
+              "title": "Learning to Optimize via Information-Directed Sampling",
+              "authors": "Daniel Russo, Benjamin Van Roy",
+              "year": 2018,
+              "description": "Generalizes Thompson Sampling using information ratio; provides tighter regret bounds for structured problems.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/opre.2017.1663",
+              "tags": [
+                "Reinforcement Learning",
+                "Thompson Sampling & Bayesian Bandits"
+              ],
+              "citations": 245
             }
           ]
         },
@@ -7717,6 +7777,42 @@
                 "Off-Policy Evaluation"
               ],
               "citations": 20
+            },
+            {
+              "title": "Data-Efficient Off-Policy Policy Evaluation for Reinforcement Learning",
+              "authors": "Philip Thomas, Emma Brunskill",
+              "year": 2016,
+              "description": "High-confidence bounds for off-policy evaluation; safety-critical applications in healthcare and education.",
+              "url": "https://proceedings.mlr.press/v48/thomasa16.html",
+              "tags": [
+                "Reinforcement Learning",
+                "Off-Policy Evaluation"
+              ],
+              "citations": 312
+            },
+            {
+              "title": "Towards Optimal Off-Policy Evaluation for Reinforcement Learning",
+              "authors": "Tengyang Xie, Yifei Ma, Yu-Xiang Wang",
+              "year": 2019,
+              "description": "Achieves minimax optimal rates for OPE in tabular MDPs; foundational theoretical result.",
+              "url": "https://arxiv.org/abs/1905.00360",
+              "tags": [
+                "Reinforcement Learning",
+                "Off-Policy Evaluation"
+              ],
+              "citations": 156
+            },
+            {
+              "title": "Off-policy Evaluation for Slate Recommendation",
+              "authors": "Adith Swaminathan, Akshay Krishnamurthy, Alekh Agarwal, Miroslav Dud\u00edk, John Langford, Damien Jose, Imed Zitouni",
+              "year": 2017,
+              "description": "Extends OPE to slate/list recommendations; critical for search and recommendation systems.",
+              "url": "https://papers.nips.cc/paper/2017/hash/5352696a9ca3397beb79f116f3a33991-Abstract.html",
+              "tags": [
+                "Reinforcement Learning",
+                "Off-Policy Evaluation"
+              ],
+              "citations": 189
             }
           ]
         },
@@ -7771,6 +7867,30 @@
                 "Batch/Offline RL"
               ],
               "citations": 328
+            },
+            {
+              "title": "Decision Transformer: Reinforcement Learning via Sequence Modeling",
+              "authors": "Lili Chen, Kevin Lu, Aravind Rajeswaran, Kimin Lee, Aditya Grover, Michael Laskin, Pieter Abbeel, Aravind Srinivas, Igor Mordatch",
+              "year": 2021,
+              "description": "Frames offline RL as sequence modeling using transformers; avoids bootstrapping entirely.",
+              "url": "https://arxiv.org/abs/2106.01345",
+              "tags": [
+                "Reinforcement Learning",
+                "Batch/Offline RL"
+              ],
+              "citations": 1245
+            },
+            {
+              "title": "Offline Reinforcement Learning with Implicit Q-Learning",
+              "authors": "Ilya Kostrikov, Ashvin Nair, Sergey Levine",
+              "year": 2022,
+              "description": "Simple algorithm avoiding explicit policy constraint; strong performance on D4RL benchmarks.",
+              "url": "https://arxiv.org/abs/2110.06169",
+              "tags": [
+                "Reinforcement Learning",
+                "Batch/Offline RL"
+              ],
+              "citations": 478
             }
           ]
         },
@@ -7826,6 +7946,274 @@
                 "RL for Bidding & Pricing"
               ],
               "citations": 457
+            },
+            {
+              "title": "Learning in Repeated Auctions with Budgets: Regret Minimization and Equilibrium",
+              "authors": "Santiago Balseiro, Yonatan Gur",
+              "year": 2019,
+              "description": "Regret bounds for bidding with budget constraints; foundational for pacing algorithms.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2018.3209",
+              "tags": [
+                "Reinforcement Learning",
+                "RL for Bidding & Pricing"
+              ],
+              "citations": 187
+            },
+            {
+              "title": "Optimal Auctions through Deep Learning",
+              "authors": "Paul D\u00fctting, Zhe Feng, Harikrishna Narasimhan, David Parkes, Sai Srivatsa Ravindranath",
+              "year": 2019,
+              "description": "Neural networks learn near-optimal auction mechanisms; connects ML and mechanism design.",
+              "url": "https://proceedings.mlr.press/v97/duetting19a.html",
+              "tags": [
+                "Reinforcement Learning",
+                "RL for Bidding & Pricing"
+              ],
+              "citations": 312
+            },
+            {
+              "title": "Contextual Bandits with Cross-Learning",
+              "authors": "Santiago Balseiro, Negin Golrezaei, Mohammad Mahdian, Vahab Mirrokni, Jon Schneider",
+              "year": 2021,
+              "description": "Learning across related auctions; critical for ad platforms with correlated contexts.",
+              "url": "https://proceedings.neurips.cc/paper/2019/hash/b5b03f06271f8917685d14cea7c6c50a-Abstract.html",
+              "tags": [
+                "Reinforcement Learning",
+                "RL for Bidding & Pricing"
+              ],
+              "citations": 89
+            },
+            {
+              "title": "Personalized Dynamic Pricing with Machine Learning: High-Dimensional Features and Heterogeneous Elasticity",
+              "authors": "Gah-Yi Ban, N. Bora Keskin",
+              "year": 2021,
+              "description": "Combines ML feature learning with dynamic pricing; optimal regret in high dimensions.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2020.3680",
+              "tags": [
+                "Reinforcement Learning",
+                "RL for Bidding & Pricing"
+              ],
+              "citations": 156
+            }
+          ]
+        },
+        {
+          "id": "rl-recommendations",
+          "name": "RL for Recommendations",
+          "application": "Optimize long-term user engagement in recommendation systems",
+          "papers": [
+            {
+              "title": "Top-K Off-Policy Correction for a REINFORCE Recommender System",
+              "authors": "Minmin Chen, Alex Beutel, Paul Covington, Sagar Jain, Francois Belletti, Ed Chi",
+              "year": 2019,
+              "description": "Deployed at YouTube; addresses large action spaces in slate recommendation with off-policy correction.",
+              "url": "https://dl.acm.org/doi/10.1145/3289600.3290999",
+              "tags": [
+                "Reinforcement Learning",
+                "RL for Recommendations"
+              ],
+              "citations": 423
+            },
+            {
+              "title": "SlateQ: A Tractable Decomposition for Reinforcement Learning with Recommendation Sets",
+              "authors": "Eugene Ie, Vihan Jain, Jing Wang, Sanmit Narvekar, Ritesh Agarwal, Rui Wu, Heng-Tze Cheng, Morgane Lustman, Vince Gatto, Paul Covington, Jim McFadden, Tushar Chandra, Craig Boutilier",
+              "year": 2019,
+              "description": "Decomposes slate Q-values for tractable optimization; deployed at Google.",
+              "url": "https://www.ijcai.org/proceedings/2019/360",
+              "tags": [
+                "Reinforcement Learning",
+                "RL for Recommendations"
+              ],
+              "citations": 198
+            },
+            {
+              "title": "Deep Reinforcement Learning for Page-wise Recommendations",
+              "authors": "Xiangyu Zhao, Long Xia, Liang Zhang, Zhuoye Ding, Dawei Yin, Jiliang Tang",
+              "year": 2018,
+              "description": "DRL for whole-page recommendations considering item interactions and user browsing patterns.",
+              "url": "https://dl.acm.org/doi/10.1145/3240323.3240374",
+              "tags": [
+                "Reinforcement Learning",
+                "RL for Recommendations"
+              ],
+              "citations": 356
+            },
+            {
+              "title": "Generative Adversarial User Model for Reinforcement Learning Based Recommendation System",
+              "authors": "Xinshi Chen, Shuang Li, Hui Li, Shaohua Jiang, Yuan Qi, Le Song",
+              "year": 2019,
+              "description": "Learns user simulator for offline RL training; addresses exploration challenges in recommendations.",
+              "url": "https://proceedings.mlr.press/v97/chen19f.html",
+              "tags": [
+                "Reinforcement Learning",
+                "RL for Recommendations"
+              ],
+              "citations": 187
+            },
+            {
+              "title": "Reinforcement Learning to Optimize Long-term User Engagement in Recommender Systems",
+              "authors": "Lixin Zou, Long Xia, Zhuoye Ding, Jiaxing Song, Weidong Liu, Dawei Yin",
+              "year": 2019,
+              "description": "Optimizes long-term user retention metrics beyond immediate clicks; deployed at JD.com.",
+              "url": "https://dl.acm.org/doi/10.1145/3292500.3330668",
+              "tags": [
+                "Reinforcement Learning",
+                "RL for Recommendations"
+              ],
+              "citations": 245
+            }
+          ]
+        },
+        {
+          "id": "safe-constrained-rl",
+          "name": "Safe & Constrained RL",
+          "application": "Ensure safety constraints during learning and deployment",
+          "papers": [
+            {
+              "title": "Constrained Policy Optimization",
+              "authors": "Joshua Achiam, David Held, Aviv Tamar, Pieter Abbeel",
+              "year": 2017,
+              "description": "First practical algorithm for RL with safety constraints; foundational for safe RL.",
+              "url": "https://proceedings.mlr.press/v70/achiam17a.html",
+              "tags": [
+                "Reinforcement Learning",
+                "Safe & Constrained RL"
+              ],
+              "citations": 1245
+            },
+            {
+              "title": "Safe Model-based Reinforcement Learning with Stability Guarantees",
+              "authors": "Felix Berkenkamp, Matteo Turchetta, Angela Schoellig, Andreas Krause",
+              "year": 2017,
+              "description": "Provides formal safety guarantees using Lyapunov functions; critical for robotics applications.",
+              "url": "https://papers.nips.cc/paper/2017/hash/766ebcd59621e305170616ba3d3dac32-Abstract.html",
+              "tags": [
+                "Reinforcement Learning",
+                "Safe & Constrained RL"
+              ],
+              "citations": 567
+            },
+            {
+              "title": "Benchmarking Safe Exploration in Deep Reinforcement Learning",
+              "authors": "Alex Ray, Joshua Achiam, Dario Amodei",
+              "year": 2019,
+              "description": "OpenAI Safety Gym benchmark suite; standard evaluation for safe RL algorithms.",
+              "url": "https://cdn.openai.com/safexp-short.pdf",
+              "tags": [
+                "Reinforcement Learning",
+                "Safe & Constrained RL"
+              ],
+              "citations": 389
+            }
+          ]
+        },
+        {
+          "id": "exploration-sample-efficiency",
+          "name": "Exploration & Sample Efficiency",
+          "application": "Learn effective policies with minimal data",
+          "papers": [
+            {
+              "title": "Deep Exploration via Bootstrapped DQN",
+              "authors": "Ian Osband, Charles Blundell, Alexander Pritzel, Benjamin Van Roy",
+              "year": 2016,
+              "description": "Posterior sampling for deep RL exploration; efficient exploration without explicit uncertainty.",
+              "url": "https://papers.nips.cc/paper/2016/hash/8d8818c8e140c64c743113f563cf750f-Abstract.html",
+              "tags": [
+                "Reinforcement Learning",
+                "Exploration & Sample Efficiency"
+              ],
+              "citations": 876
+            },
+            {
+              "title": "Unifying Count-Based Exploration and Intrinsic Motivation",
+              "authors": "Marc Bellemare, Sriram Srinivasan, Georg Ostrovski, Tom Schaul, David Saxton, Remi Munos",
+              "year": 2016,
+              "description": "Pseudo-counts for exploration in high-dimensional spaces; breakthrough for sparse-reward problems.",
+              "url": "https://papers.nips.cc/paper/2016/hash/afda332245e2af431fb7b672a68b659d-Abstract.html",
+              "tags": [
+                "Reinforcement Learning",
+                "Exploration & Sample Efficiency"
+              ],
+              "citations": 923
+            },
+            {
+              "title": "Curiosity-driven Exploration by Self-supervised Prediction",
+              "authors": "Deepak Pathak, Pulkit Agrawal, Alexei A. Efros, Trevor Darrell",
+              "year": 2017,
+              "description": "Intrinsic curiosity module using prediction error as exploration bonus; widely influential approach.",
+              "url": "https://proceedings.mlr.press/v70/pathak17a.html",
+              "tags": [
+                "Reinforcement Learning",
+                "Exploration & Sample Efficiency"
+              ],
+              "citations": 2156
+            },
+            {
+              "title": "Model Based Reinforcement Learning for Atari",
+              "authors": "Lukasz Kaiser, Mohammad Babaeizadeh, Piotr Milos, Blazej Osinski, Roy Campbell, Konrad Czechowski, Dumitru Erhan, Chelsea Finn, Piotr Kozakowski, Sergey Levine, Afroz Mohiuddin, Ryan Sepassi, George Tucker, Henryk Michalewski",
+              "year": 2020,
+              "description": "SimPLe achieves 100x sample efficiency on Atari using learned world models.",
+              "url": "https://arxiv.org/abs/1903.00374",
+              "tags": [
+                "Reinforcement Learning",
+                "Exploration & Sample Efficiency"
+              ],
+              "citations": 478
+            }
+          ]
+        },
+        {
+          "id": "multi-agent-game-theoretic-rl",
+          "name": "Multi-Agent & Game-Theoretic RL",
+          "application": "Learning in strategic multi-player environments",
+          "papers": [
+            {
+              "title": "A Unified Game-Theoretic Approach to Multiagent Reinforcement Learning",
+              "authors": "Marc Lanctot, Vinicius Zambaldi, Audrunas Gruslys, Angeliki Lazaridou, Karl Tuyls, Julien Perolat, David Silver, Thore Graepel",
+              "year": 2017,
+              "description": "PSRO framework unifying game theory and deep RL; foundational for competitive multi-agent systems.",
+              "url": "https://papers.nips.cc/paper/2017/hash/3323fe11e9595c09af38571f2756d3c5-Abstract.html",
+              "tags": [
+                "Reinforcement Learning",
+                "Multi-Agent & Game-Theoretic RL"
+              ],
+              "citations": 689
+            },
+            {
+              "title": "Learning with Opponent-Learning Awareness",
+              "authors": "Jakob Foerster, Richard Y. Chen, Maruan Al-Shedivat, Shimon Whiteson, Pieter Abbeel, Igor Mordatch",
+              "year": 2018,
+              "description": "LOLA accounts for opponent adaptation during learning; key insight for non-stationary multi-agent settings.",
+              "url": "https://dl.acm.org/doi/10.5555/3237383.3237811",
+              "tags": [
+                "Reinforcement Learning",
+                "Multi-Agent & Game-Theoretic RL"
+              ],
+              "citations": 534
+            },
+            {
+              "title": "Grandmaster level in StarCraft II using multi-agent reinforcement learning",
+              "authors": "Oriol Vinyals, Igor Babuschkin, Wojciech M. Czarnecki, Micha\u00ebl Mathieu, Andrew Dudzik et al.",
+              "year": 2019,
+              "description": "AlphaStar achieves grandmaster level; landmark result in complex multi-agent real-time strategy.",
+              "url": "https://www.nature.com/articles/s41586-019-1724-z",
+              "tags": [
+                "Reinforcement Learning",
+                "Multi-Agent & Game-Theoretic RL"
+              ],
+              "citations": 2134
+            },
+            {
+              "title": "Superhuman AI for multiplayer poker",
+              "authors": "Noam Brown, Tuomas Sandholm",
+              "year": 2019,
+              "description": "Pluribus beats top humans in 6-player poker; breakthrough in imperfect-information games.",
+              "url": "https://www.science.org/doi/10.1126/science.aay2400",
+              "tags": [
+                "Reinforcement Learning",
+                "Multi-Agent & Game-Theoretic RL"
+              ],
+              "citations": 876
             }
           ]
         }
