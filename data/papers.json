@@ -10963,6 +10963,54 @@
                 "Differential Privacy"
               ],
               "citations": 34
+            },
+            {
+              "title": "R\u00e9nyi Differential Privacy",
+              "authors": "Ilya Mironov",
+              "year": 2017,
+              "description": "Defines RDP using R\u00e9nyi divergence; cleaner composition analysis used in TensorFlow Privacy.",
+              "url": "https://arxiv.org/abs/1702.07476",
+              "tags": [
+                "Privacy",
+                "Differential Privacy"
+              ],
+              "citations": 1456
+            },
+            {
+              "title": "Amplification by Shuffling: From Local to Central Differential Privacy via Anonymity",
+              "authors": "\u00dalfar Erlingsson, Vitaly Feldman, Ilya Mironov, Ananth Raghunathan, Kunal Talwar, Abhradeep Thakurta",
+              "year": 2019,
+              "description": "Proves shuffle model bridges local/central DP gap; deployed in Apple and Google systems.",
+              "url": "https://arxiv.org/abs/1811.12469",
+              "tags": [
+                "Privacy",
+                "Differential Privacy"
+              ],
+              "citations": 567
+            },
+            {
+              "title": "Privacy Amplification by Subsampling: Tight Analyses via Couplings and Divergences",
+              "authors": "Borja Balle, Gilles Barthe, Marco Gaboardi",
+              "year": 2018,
+              "description": "Unified framework for subsampling privacy amplification; essential for DP-SGD analysis.",
+              "url": "https://arxiv.org/abs/1807.01647",
+              "tags": [
+                "Privacy",
+                "Differential Privacy"
+              ],
+              "citations": 456
+            },
+            {
+              "title": "Gaussian Differential Privacy",
+              "authors": "Jinshuo Dong, Aaron Roth, Weijie J. Su",
+              "year": 2022,
+              "description": "f-DP and GDP with lossless composition via CLT; modern privacy accounting foundation.",
+              "url": "https://rss.onlinelibrary.wiley.com/doi/10.1111/rssb.12454",
+              "tags": [
+                "Privacy",
+                "Differential Privacy"
+              ],
+              "citations": 234
             }
           ]
         },
@@ -11006,6 +11054,54 @@
                 "Federated Learning"
               ],
               "citations": 3046
+            },
+            {
+              "title": "SCAFFOLD: Stochastic Controlled Averaging for Federated Learning",
+              "authors": "Sai Praneeth Karimireddy, Satyen Kale, Mehryar Mohri, Sashank J. Reddi, Sebastian U. Stich, Ananda Theertha Suresh",
+              "year": 2020,
+              "description": "Control variates for client drift under heterogeneity; tight convergence guarantees for non-IID data.",
+              "url": "https://arxiv.org/abs/1910.06378",
+              "tags": [
+                "Privacy",
+                "Federated Learning"
+              ],
+              "citations": 2345
+            },
+            {
+              "title": "Learning Differentially Private Recurrent Language Models",
+              "authors": "H. Brendan McMahan, Daniel Ramage, Kunal Talwar, Li Zhang",
+              "year": 2018,
+              "description": "User-level DP for federated learning; production deployment in Gboard next-word prediction.",
+              "url": "https://arxiv.org/abs/1710.06963",
+              "tags": [
+                "Privacy",
+                "Federated Learning"
+              ],
+              "citations": 789
+            },
+            {
+              "title": "Ditto: Fair and Robust Federated Learning Through Personalization",
+              "authors": "Tian Li, Shengyuan Hu, Ahmad Beirami, Virginia Smith",
+              "year": 2021,
+              "description": "Personalized FL addressing fairness and robustness via local regularization toward global model.",
+              "url": "https://arxiv.org/abs/2012.04221",
+              "tags": [
+                "Privacy",
+                "Federated Learning"
+              ],
+              "citations": 567
+            },
+            {
+              "title": "Advances and Open Problems in Federated Learning",
+              "authors": "Peter Kairouz, H. Brendan McMahan, et al. (58 authors)",
+              "year": 2021,
+              "description": "Definitive 210-page survey defining cross-device/cross-silo taxonomy and 50+ open problems.",
+              "url": "https://arxiv.org/abs/1912.04977",
+              "tags": [
+                "Privacy",
+                "Federated Learning"
+              ],
+              "citations": 4567
             }
           ]
         },
@@ -11049,6 +11145,30 @@
                 "Privacy-Preserving Measurement"
               ],
               "citations": 1
+            },
+            {
+              "title": "Interoperable Private Attribution: A Proposal",
+              "authors": "Benjamin Case, Richa Jain, Alex Koshelev, Andy Leiserson, Daniel Masny, Erik Taubeneck, Martin Thomson, et al.",
+              "year": 2023,
+              "description": "MPC + DP protocol for cross-site attribution without user tracking; W3C Privacy CG proposal by Meta/Mozilla.",
+              "url": "https://eprint.iacr.org/2023/437",
+              "tags": [
+                "Privacy",
+                "Privacy-Preserving Measurement"
+              ],
+              "citations": 23
+            },
+            {
+              "title": "Ibex: Privacy-Preserving Ad Conversion Tracking and Bidding",
+              "authors": "Ke Zhong, Yiping Ma, Sebastian Angel",
+              "year": 2022,
+              "description": "Encrypted conversion measurement and oblivious real-time bidding using MPC and secret sharing.",
+              "url": "https://dl.acm.org/doi/10.1145/3548606.3560651",
+              "tags": [
+                "Privacy",
+                "Privacy-Preserving Measurement"
+              ],
+              "citations": 34
             }
           ]
         },
@@ -11079,6 +11199,42 @@
                 "Synthetic Data"
               ],
               "citations": 1
+            },
+            {
+              "title": "PATE-GAN: Generating Synthetic Data with Differential Privacy Guarantees",
+              "authors": "James Jordon, Jinsung Yoon, Mihaela van der Schaar",
+              "year": 2019,
+              "description": "Combines PATE framework with GANs for DP synthetic data generation.",
+              "url": "https://openreview.net/forum?id=S1zk9iRqF7",
+              "tags": [
+                "Privacy",
+                "Synthetic Data"
+              ],
+              "citations": 456
+            },
+            {
+              "title": "PrivBayes: Private Data Release via Bayesian Networks",
+              "authors": "Jun Zhang, Graham Cormode, Cecilia M. Procopiuc, Divesh Srivastava, Xiaokui Xiao",
+              "year": 2017,
+              "description": "Bayesian network approach to DP synthesis; widely deployed baseline for synthetic data.",
+              "url": "https://dl.acm.org/doi/10.1145/3134428",
+              "tags": [
+                "Privacy",
+                "Synthetic Data"
+              ],
+              "citations": 678
+            },
+            {
+              "title": "Winning the NIST Contest: A Scalable Approach to DP Synthetic Data",
+              "authors": "Ryan McKenna, Gerome Miklau, Daniel Sheldon",
+              "year": 2021,
+              "description": "MST/Private-PGM marginal-based synthesis that won NIST DP synthetic data competition.",
+              "url": "https://journalprivacyconfidentiality.org/index.php/jpc/article/view/776",
+              "tags": [
+                "Privacy",
+                "Synthetic Data"
+              ],
+              "citations": 234
             }
           ]
         },
@@ -11132,6 +11288,305 @@
                 "Privacy",
                 "Anonymization & De-identification"
               ]
+            },
+            {
+              "title": "Identity Inference of Genomic Data Using Long-Range Familial Searches",
+              "authors": "Yaniv Erlich, Tal Shor, Itsik Pe'er, Shai Carmi",
+              "year": 2018,
+              "description": "Shows 60% of European-descent Americans re-identifiable via genetic genealogy databases like GEDmatch.",
+              "url": "https://www.science.org/doi/10.1126/science.aau4832",
+              "tags": [
+                "Privacy",
+                "Anonymization & De-identification"
+              ],
+              "citations": 567
+            }
+          ]
+        },
+        {
+          "id": "secure-computation-mpc",
+          "name": "Secure Computation & MPC",
+          "application": "Enable computation on private data using cryptographic protocols",
+          "papers": [
+            {
+              "title": "How to Generate and Exchange Secrets",
+              "authors": "Andrew C. Yao",
+              "year": 1986,
+              "description": "Garbled circuits for secure two-party computation; foundational 2PC technique enabling oblivious computation.",
+              "url": "https://ieeexplore.ieee.org/document/4568207",
+              "tags": [
+                "Privacy",
+                "Secure Computation & MPC"
+              ],
+              "citations": 4567
+            },
+            {
+              "title": "How to Play Any Mental Game (GMW Protocol)",
+              "authors": "Oded Goldreich, Silvio Micali, Avi Wigderson",
+              "year": 1987,
+              "description": "GMW protocol proving completeness of secure MPC with honest majority; any function computable securely.",
+              "url": "https://dl.acm.org/doi/10.1145/28395.28420",
+              "tags": [
+                "Privacy",
+                "Secure Computation & MPC"
+              ],
+              "citations": 3456
+            },
+            {
+              "title": "Completeness Theorems for Non-Cryptographic Fault-Tolerant Distributed Computation (BGW)",
+              "authors": "Michael Ben-Or, Shafi Goldwasser, Avi Wigderson",
+              "year": 1988,
+              "description": "BGW protocol for information-theoretic MPC; 2023 Dijkstra Prize winner for seminal distributed computing paper.",
+              "url": "https://dl.acm.org/doi/10.1145/62212.62213",
+              "tags": [
+                "Privacy",
+                "Secure Computation & MPC"
+              ],
+              "citations": 2890
+            },
+            {
+              "title": "Fully Homomorphic Encryption Using Ideal Lattices",
+              "authors": "Craig Gentry",
+              "year": 2009,
+              "description": "First FHE construction enabling arbitrary computation on encrypted data; breakthrough cryptographic result.",
+              "url": "https://dl.acm.org/doi/10.1145/1536414.1536440",
+              "tags": [
+                "Privacy",
+                "Secure Computation & MPC"
+              ],
+              "citations": 8900
+            },
+            {
+              "title": "Practical Multi-party Private Set Intersection from Symmetric-Key Techniques",
+              "authors": "Vladimir Kolesnikov, Naor Matania, Benny Pinkas, Mike Rosulek, Ni Trieu",
+              "year": 2017,
+              "description": "Practical multi-party PSI using OPPRF; deployed for privacy-preserving ad matching and contact discovery.",
+              "url": "https://dl.acm.org/doi/10.1145/3133956.3134065",
+              "tags": [
+                "Privacy",
+                "Secure Computation & MPC"
+              ],
+              "citations": 456
+            }
+          ]
+        },
+        {
+          "id": "privacy-economics-regulation",
+          "name": "Privacy Economics & Regulation",
+          "application": "Understand economic effects of privacy regulation and data markets",
+          "papers": [
+            {
+              "title": "Privacy Regulation and Online Advertising",
+              "authors": "Avi Goldfarb, Catherine E. Tucker",
+              "year": 2011,
+              "description": "EU privacy directive reduced ad effectiveness by 65%; first major empirical study of privacy regulation impact.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.1100.1246",
+              "tags": [
+                "Privacy",
+                "Privacy Economics & Regulation"
+              ],
+              "citations": 1234
+            },
+            {
+              "title": "The Short-Run Effects of GDPR on Technology Venture Investment",
+              "authors": "Jian Jia, Ginger Zhe Jin, Liad Wagman",
+              "year": 2021,
+              "description": "GDPR reduced EU tech venture investment by ~26%; rigorous diff-in-diff analysis of regulation effects.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.2020.1271",
+              "tags": [
+                "Privacy",
+                "Privacy Economics & Regulation"
+              ],
+              "citations": 345
+            },
+            {
+              "title": "Privacy Protection and Technology Diffusion: The Case of Electronic Medical Records",
+              "authors": "Amalia R. Miller, Catherine Tucker",
+              "year": 2009,
+              "description": "State privacy laws reduced EMR adoption by 24%; pioneering regulation-innovation tradeoff study.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.1090.1014",
+              "tags": [
+                "Privacy",
+                "Privacy Economics & Regulation"
+              ],
+              "citations": 567
+            }
+          ]
+        },
+        {
+          "id": "ml-privacy-attacks",
+          "name": "ML Privacy Attacks",
+          "application": "Understand privacy risks in machine learning systems",
+          "papers": [
+            {
+              "title": "Membership Inference Attacks Against Machine Learning Models",
+              "authors": "Reza Shokri, Marco Stronati, Congzheng Song, Vitaly Shmatikov",
+              "year": 2017,
+              "description": "Foundational paper introducing shadow model-based membership inference; spawned entire research area.",
+              "url": "https://arxiv.org/abs/1610.05820",
+              "tags": [
+                "Privacy",
+                "ML Privacy Attacks"
+              ],
+              "citations": 3456
+            },
+            {
+              "title": "Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures",
+              "authors": "Matt Fredrikson, Somesh Jha, Thomas Ristenpart",
+              "year": 2015,
+              "description": "Demonstrated recovery of training faces from facial recognition confidence scores; motivates output privacy.",
+              "url": "https://dl.acm.org/doi/10.1145/2810103.2813677",
+              "tags": [
+                "Privacy",
+                "ML Privacy Attacks"
+              ],
+              "citations": 1890
+            },
+            {
+              "title": "Extracting Training Data from Large Language Models",
+              "authors": "Nicholas Carlini, Florian Tram\u00e8r, Eric Wallace, Matthew Jagielski, et al.",
+              "year": 2021,
+              "description": "First demonstration of verbatim training data extraction from GPT-2 including PII; motivated LLM safety research.",
+              "url": "https://arxiv.org/abs/2012.07805",
+              "tags": [
+                "Privacy",
+                "ML Privacy Attacks"
+              ],
+              "citations": 1234
+            },
+            {
+              "title": "Deep Leakage from Gradients",
+              "authors": "Ligeng Zhu, Zhijian Liu, Song Han",
+              "year": 2019,
+              "description": "Gradient inversion reconstructs pixel-perfect training images from gradients; motivated secure aggregation.",
+              "url": "https://arxiv.org/abs/1906.08935",
+              "tags": [
+                "Privacy",
+                "ML Privacy Attacks"
+              ],
+              "citations": 1567
+            },
+            {
+              "title": "Exploiting Unintended Feature Leakage in Collaborative Learning",
+              "authors": "Luca Melis, Congzheng Song, Emiliano De Cristofaro, Vitaly Shmatikov",
+              "year": 2019,
+              "description": "Property inference attacks on federated learning; passive and active variants extract sensitive attributes.",
+              "url": "https://arxiv.org/abs/1805.04049",
+              "tags": [
+                "Privacy",
+                "ML Privacy Attacks"
+              ],
+              "citations": 789
+            }
+          ]
+        },
+        {
+          "id": "pir-anonymous-systems",
+          "name": "PIR & Anonymous Systems",
+          "application": "Access information without revealing query patterns",
+          "papers": [
+            {
+              "title": "Private Information Retrieval",
+              "authors": "Benny Chor, Oded Goldreich, Eyal Kushilevitz, Madhu Sudan",
+              "year": 1998,
+              "description": "Foundational PIR paper; proves single-server IT-PIR impossible sub-linearly, introduces multi-server PIR.",
+              "url": "https://dl.acm.org/doi/10.1145/293347.293350",
+              "tags": [
+                "Privacy",
+                "PIR & Anonymous Systems"
+              ],
+              "citations": 2345
+            },
+            {
+              "title": "Untraceable Electronic Mail, Return Addresses, and Digital Pseudonyms",
+              "authors": "David L. Chaum",
+              "year": 1981,
+              "description": "Introduces mix networks; first practical solution to traffic analysis enabling anonymous communication.",
+              "url": "https://dl.acm.org/doi/10.1145/358549.358563",
+              "tags": [
+                "Privacy",
+                "PIR & Anonymous Systems"
+              ],
+              "citations": 5678
+            },
+            {
+              "title": "Tor: The Second-Generation Onion Router",
+              "authors": "Roger Dingledine, Nick Mathewson, Paul Syverson",
+              "year": 2004,
+              "description": "Design of Tor with perfect forward secrecy, directory servers, hidden services; deployed to millions.",
+              "url": "https://www.usenix.org/conference/13th-usenix-security-symposium/tor-second-generation-onion-router",
+              "tags": [
+                "Privacy",
+                "PIR & Anonymous Systems"
+              ],
+              "citations": 6789
+            },
+            {
+              "title": "Improving the Robustness of Private Information Retrieval",
+              "authors": "Ian Goldberg",
+              "year": 2007,
+              "description": "Byzantine-robust multi-server PIR; first practical open-source PIR implementation (Percy++).",
+              "url": "https://ieeexplore.ieee.org/document/4223220",
+              "tags": [
+                "Privacy",
+                "PIR & Anonymous Systems"
+              ],
+              "citations": 456
+            }
+          ]
+        },
+        {
+          "id": "privacy-preserving-ml",
+          "name": "Privacy-Preserving ML",
+          "application": "Train and run ML models on encrypted or private data",
+          "papers": [
+            {
+              "title": "SecureML: A System for Scalable Privacy-Preserving Machine Learning",
+              "authors": "Payman Mohassel, Yupeng Zhang",
+              "year": 2017,
+              "description": "First practical MPC-based neural network training system; enables ML on private data from multiple parties.",
+              "url": "https://ieeexplore.ieee.org/document/7958569",
+              "tags": [
+                "Privacy",
+                "Privacy-Preserving ML"
+              ],
+              "citations": 1234
+            },
+            {
+              "title": "Slalom: Fast, Verifiable and Private Execution of Neural Networks in Trusted Hardware",
+              "authors": "Florian Tram\u00e8r, Dan Boneh",
+              "year": 2019,
+              "description": "Efficient DNN execution in Intel SGX with cryptographic verification of correct computation.",
+              "url": "https://arxiv.org/abs/1806.03287",
+              "tags": [
+                "Privacy",
+                "Privacy-Preserving ML"
+              ],
+              "citations": 456
+            },
+            {
+              "title": "Delphi: A Cryptographic Inference Service for Neural Networks",
+              "authors": "Pratyush Mishra, Ryan Lehmkuhl, Akshayaram Srinivasan, Wenting Zheng, Raluca Ada Popa",
+              "year": 2020,
+              "description": "22\u00d7 faster secure inference via ML-crypto co-design; hybrid HE + garbled circuits approach.",
+              "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/mishra",
+              "tags": [
+                "Privacy",
+                "Privacy-Preserving ML"
+              ],
+              "citations": 567
+            },
+            {
+              "title": "Iron: Private Inference on Transformers",
+              "authors": "Meng Hao, Hongwei Li, Hanxiao Chen, Pengzhi Xing, Guowen Xu, Tianwei Zhang",
+              "year": 2022,
+              "description": "First efficient 2PC framework for BERT/GPT inference; specialized protocols for Softmax and GELU.",
+              "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/f8e1bda1c3e6fdf9b5bc5c9d7f5f9cd4-Abstract-Conference.html",
+              "tags": [
+                "Privacy",
+                "Privacy-Preserving ML"
+              ],
+              "citations": 123
             }
           ]
         }
