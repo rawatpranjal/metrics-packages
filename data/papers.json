@@ -4205,6 +4205,341 @@
                 "Semantic Search & Embeddings"
               ],
               "citations": 9199
+            },
+            {
+              "title": "SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking",
+              "authors": "Thibault Formal, Benjamin Piwowarski, Stéphane Clinchant",
+              "year": 2021,
+              "description": "Learned sparse representations via MLM head with sparsity regularization; bridges gap between dense and sparse retrieval with interpretable term weights.",
+              "url": "https://dl.acm.org/doi/10.1145/3404835.3463098",
+              "tags": [
+                "Search & Ranking",
+                "Semantic Search & Embeddings"
+              ],
+              "citations": 500
+            },
+            {
+              "title": "RocketQA: An Optimized Training Approach to Dense Passage Retrieval",
+              "authors": "Yingqi Qu, Yuchen Ding, Jing Liu, Kai Liu, Ruiyang Ren, Wayne Xin Zhao, Daxiang Dong, Hua Wu, Haifeng Wang",
+              "year": 2021,
+              "description": "Critical training strategies for dense retrieval: cross-batch negatives, denoised hard negatives, knowledge distillation from cross-encoder. Baidu research.",
+              "url": "https://aclanthology.org/2021.naacl-main.466/",
+              "tags": [
+                "Search & Ranking",
+                "Semantic Search & Embeddings"
+              ],
+              "citations": 400
+            },
+            {
+              "title": "Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval",
+              "authors": "Lee Xiong, Chenyan Xiong, Ye Li, Kwok-Fung Tang, Jialin Liu, Paul Bennett, Junaid Ahmed, Arnold Overwijk",
+              "year": 2021,
+              "description": "Global hard negative mining via ANN index (ANCE); addresses limitation of in-batch negatives by refreshing hard negatives from evolving model.",
+              "url": "https://openreview.net/forum?id=zeFrfgyZln",
+              "tags": [
+                "Search & Ranking",
+                "Semantic Search & Embeddings"
+              ],
+              "citations": 1000
+            }
+          ]
+        },
+        {
+          "id": "neural-ranking-models",
+          "name": "Neural Ranking Models",
+          "application": "Cross-encoders, document expansion, pre-training",
+          "papers": [
+            {
+              "title": "Multi-Stage Document Ranking with BERT",
+              "authors": "Rodrigo Nogueira, Wei Yang, Kyunghyun Cho, Jimmy Lin",
+              "year": 2019,
+              "description": "Established BERT-based cross-encoder reranking paradigm with MonoBERT and duoBERT; 'Expando-Mono-Duo' design pattern for neural IR pipelines.",
+              "url": "https://arxiv.org/abs/1910.14424",
+              "tags": [
+                "Search & Ranking",
+                "Neural Ranking Models"
+              ],
+              "citations": 400
+            },
+            {
+              "title": "From doc2query to docTTTTTquery",
+              "authors": "Rodrigo Nogueira, Jimmy Lin",
+              "year": 2019,
+              "description": "Neural document expansion via T5-generated queries; improves BM25 without runtime overhead by enriching documents at indexing time.",
+              "url": "https://cs.uwaterloo.ca/~jimmylin/publications/Nogueira_Lin_2019_docTTTTTquery-v2.pdf",
+              "tags": [
+                "Search & Ranking",
+                "Neural Ranking Models"
+              ],
+              "citations": 300
+            },
+            {
+              "title": "A Deep Relevance Matching Model for Ad-hoc Retrieval",
+              "authors": "Jiafeng Guo, Yixing Fan, Qingyao Ai, W. Bruce Croft",
+              "year": 2016,
+              "description": "Distinguished 'relevance matching' from 'semantic matching' in neural IR; histogram-based matching with term gating mechanism.",
+              "url": "https://dl.acm.org/doi/10.1145/2983323.2983769",
+              "tags": [
+                "Search & Ranking",
+                "Neural Ranking Models"
+              ],
+              "citations": 800
+            },
+            {
+              "title": "End-to-End Neural Ad-hoc Ranking with Kernel Pooling",
+              "authors": "Chenyan Xiong, Zhuyun Dai, Jamie Callan, Zhiyuan Liu, Russell Power",
+              "year": 2017,
+              "description": "Pioneered end-to-end neural ranking with interpretable soft-match kernels (K-NRM); spawned KNRM variants used in production.",
+              "url": "https://dl.acm.org/doi/10.1145/3077136.3080809",
+              "tags": [
+                "Search & Ranking",
+                "Neural Ranking Models"
+              ],
+              "citations": 560
+            },
+            {
+              "title": "Unsupervised Corpus Aware Language Model Pre-training for Dense Passage Retrieval",
+              "authors": "Luyu Gao, Jamie Callan",
+              "year": 2022,
+              "description": "Pre-training specifically for dense retrieval via Condenser architecture; coCondenser adds corpus-aware contrastive objective for further gains.",
+              "url": "https://aclanthology.org/2022.acl-long.203/",
+              "tags": [
+                "Search & Ranking",
+                "Neural Ranking Models"
+              ],
+              "citations": 250
+            }
+          ]
+        },
+        {
+          "id": "retrieval-augmented-generation",
+          "name": "Retrieval-Augmented Generation",
+          "application": "RAG, generative retrieval, knowledge-intensive NLP",
+          "papers": [
+            {
+              "title": "REALM: Retrieval-Augmented Language Model Pre-Training",
+              "authors": "Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat, Ming-Wei Chang",
+              "year": 2020,
+              "description": "First end-to-end pre-training of retrieval + LM with backpropagation through retrieval; foundational architecture for knowledge-intensive tasks.",
+              "url": "https://proceedings.mlr.press/v119/guu20a.html",
+              "tags": [
+                "Search & Ranking",
+                "Retrieval-Augmented Generation"
+              ],
+              "citations": 1500
+            },
+            {
+              "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+              "authors": "Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich Küttler, Mike Lewis, Wen-tau Yih, Tim Rocktäschel, Sebastian Riedel, Douwe Kiela",
+              "year": 2020,
+              "description": "THE paper that coined 'RAG'; combines pre-trained retriever with seq2seq generator for open-domain QA. Foundation for modern RAG systems.",
+              "url": "https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html",
+              "tags": [
+                "Search & Ranking",
+                "Retrieval-Augmented Generation"
+              ],
+              "citations": 5000
+            },
+            {
+              "title": "Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering",
+              "authors": "Gautier Izacard, Edouard Grave",
+              "year": 2021,
+              "description": "Fusion-in-Decoder (FiD) architecture enabling efficient scaling to 100+ passages; backbone of Atlas and subsequent RAG systems.",
+              "url": "https://aclanthology.org/2021.eacl-main.74/",
+              "tags": [
+                "Search & Ranking",
+                "Retrieval-Augmented Generation"
+              ],
+              "citations": 1200
+            },
+            {
+              "title": "Transformer Memory as a Differentiable Search Index",
+              "authors": "Yi Tay, Vinh Tran, Mostafa Dehghani, Jianmo Ni, Dara Bahri, Harsh Mehta, Zhen Qin, Kai Hui, Zhe Zhao, Jai Gupta, Tal Schuster, William W. Cohen, Donald Metzler",
+              "year": 2022,
+              "description": "Generative retrieval paradigm (DSI): model memorizes corpus and generates document IDs directly; alternative to dense/sparse retrieve-then-rank.",
+              "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/892840a6123b5ec99ebaab8be1530fba-Abstract-Conference.html",
+              "tags": [
+                "Search & Ranking",
+                "Retrieval-Augmented Generation"
+              ],
+              "citations": 400
+            }
+          ]
+        },
+        {
+          "id": "evaluation-methods-ir",
+          "name": "Evaluation Methods for IR",
+          "application": "Metrics, benchmarks, online evaluation",
+          "papers": [
+            {
+              "title": "Cumulated Gain-Based Evaluation of IR Techniques",
+              "authors": "Kalervo Järvelin, Jaana Kekäläinen",
+              "year": 2002,
+              "description": "Introduced DCG and NDCG; most widely used ranking metric enabling graded relevance evaluation.",
+              "url": "https://dl.acm.org/doi/10.1145/582415.582418",
+              "tags": [
+                "Search & Ranking",
+                "Evaluation Methods for IR"
+              ],
+              "citations": 10000
+            },
+            {
+              "title": "Expected Reciprocal Rank for Graded Relevance",
+              "authors": "Olivier Chapelle, Donald Metzler, Ya Zhang, Pierre Grinspan",
+              "year": 2009,
+              "description": "Cascade-based metric modeling user stopping behavior; primary TREC Web Track metric accounting for diminishing returns.",
+              "url": "https://dl.acm.org/doi/10.1145/1645953.1646033",
+              "tags": [
+                "Search & Ranking",
+                "Evaluation Methods for IR"
+              ],
+              "citations": 800
+            },
+            {
+              "title": "MS MARCO: A Human Generated MAchine Reading COmprehension Dataset",
+              "authors": "Payal Bajaj, Daniel Campos, Nick Craswell, Li Deng, Jianfeng Gao, Xiaodong Liu, Rangan Majumder, Andrew McNamara, Bhaskar Mitra, Tri Nguyen, Mir Rosenberg, Xia Song, Alina Stoica, Saurabh Tiwary, Tong Wang",
+              "year": 2016,
+              "description": "Large-scale passage ranking benchmark with 1M queries; enabled neural retrieval research and remains primary leaderboard.",
+              "url": "https://arxiv.org/abs/1611.09268",
+              "tags": [
+                "Search & Ranking",
+                "Evaluation Methods for IR"
+              ],
+              "citations": 2000
+            },
+            {
+              "title": "BEIR: A Heterogeneous Benchmark for Zero-shot Evaluation of Information Retrieval Models",
+              "authors": "Nandan Thakur, Nils Reimers, Andreas Rücklé, Abhishek Srivastava, Iryna Gurevych",
+              "year": 2021,
+              "description": "18-dataset benchmark testing out-of-distribution generalization; key finding that BM25 remains robust while dense models struggle on domain shift.",
+              "url": "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/65b9eea6e1cc6bb9f0cd2a47751a186f-Abstract-round2.html",
+              "tags": [
+                "Search & Ranking",
+                "Evaluation Methods for IR"
+              ],
+              "citations": 800
+            },
+            {
+              "title": "Large-Scale Validation and Analysis of Interleaved Search Evaluation",
+              "authors": "Olivier Chapelle, Thorsten Joachims, Filip Radlinski, Yisong Yue",
+              "year": 2012,
+              "description": "Definitive validation of interleaving as online A/B testing gold standard; demonstrated high agreement with editorial judgments at scale.",
+              "url": "https://dl.acm.org/doi/10.1145/2094072.2094078",
+              "tags": [
+                "Search & Ranking",
+                "Evaluation Methods for IR"
+              ],
+              "citations": 400
+            }
+          ]
+        },
+        {
+          "id": "personalized-conversational-search",
+          "name": "Personalized & Conversational Search",
+          "application": "User modeling, session context, multi-turn",
+          "papers": [
+            {
+              "title": "Personalizing Search via Automated Analysis of Interests and Activities",
+              "authors": "Jaime Teevan, Susan T. Dumais, Eric Horvitz",
+              "year": 2005,
+              "description": "Foundational personalization paper establishing paradigm for implicit user modeling from desktop and search history.",
+              "url": "https://dl.acm.org/doi/10.1145/1076034.1076111",
+              "tags": [
+                "Search & Ranking",
+                "Personalized & Conversational Search"
+              ],
+              "citations": 1000
+            },
+            {
+              "title": "Modeling the Impact of Short- and Long-Term Behavior on Search Personalization",
+              "authors": "Paul N. Bennett, Ryen W. White, Wei Chu, Susan T. Dumais, Peter Bailey, Fedor Borisyuk, Xiaoyuan Cui",
+              "year": 2012,
+              "description": "Established distinction between session-level and historical personalization signals; showed combination outperforms either alone.",
+              "url": "https://dl.acm.org/doi/10.1145/2348283.2348312",
+              "tags": [
+                "Search & Ranking",
+                "Personalized & Conversational Search"
+              ],
+              "citations": 700
+            },
+            {
+              "title": "Context-Aware Ranking in Web Search",
+              "authors": "Biao Xiang, Daxin Jiang, Jian Pei, Xiaohui Sun, Enhong Chen, Hang Li",
+              "year": 2010,
+              "description": "Operationalized session and context signals in production LTR frameworks; showed how to integrate behavioral context into ranking features.",
+              "url": "https://dl.acm.org/doi/10.1145/1835449.1835528",
+              "tags": [
+                "Search & Ranking",
+                "Personalized & Conversational Search"
+              ],
+              "citations": 300
+            },
+            {
+              "title": "TREC CAsT 2019: The Conversational Assistance Track",
+              "authors": "Jeffrey Dalton, Chenyan Xiong, Jamie Callan",
+              "year": 2020,
+              "description": "Defining benchmark for conversational IR with 80 dialogues over 38M passages; established evaluation methodology for multi-turn search.",
+              "url": "https://dl.acm.org/doi/10.1145/3397271.3401206",
+              "tags": [
+                "Search & Ranking",
+                "Personalized & Conversational Search"
+              ],
+              "citations": 200
+            },
+            {
+              "title": "Open-Retrieval Conversational Question Answering",
+              "authors": "Chen Qu, Liu Yang, Cen Chen, Minghui Qiu, W. Bruce Croft, Mohit Iyyer",
+              "year": 2020,
+              "description": "Open-domain retrieval for conversational QA; advances beyond simplified settings with ORConvQA dataset and baselines.",
+              "url": "https://dl.acm.org/doi/10.1145/3397271.3401110",
+              "tags": [
+                "Search & Ranking",
+                "Personalized & Conversational Search"
+              ],
+              "citations": 180
+            }
+          ]
+        },
+        {
+          "id": "result-diversification",
+          "name": "Result Diversification",
+          "application": "Novelty, subtopic coverage, intent-aware ranking",
+          "papers": [
+            {
+              "title": "The Use of MMR, Diversity-Based Reranking for Reordering Documents and Producing Summaries",
+              "authors": "Jaime Carbonell, Jade Goldstein",
+              "year": 1998,
+              "description": "THE seminal diversification paper introducing Maximal Marginal Relevance (MMR) formula; balances relevance with novelty.",
+              "url": "https://dl.acm.org/doi/10.1145/290941.291025",
+              "tags": [
+                "Search & Ranking",
+                "Result Diversification"
+              ],
+              "citations": 2500
+            },
+            {
+              "title": "Novelty and Diversity in Information Retrieval Evaluation",
+              "authors": "Charles L.A. Clarke, Maheedhar Kolla, Gordon V. Cormack, Olga Vechtomova, Azin Ashkan, Stefan Büttcher, Ian MacKinnon",
+              "year": 2008,
+              "description": "Standard evaluation framework for diversity introducing α-nDCG; enabled TREC Web diversity track and systematic diversity research.",
+              "url": "https://dl.acm.org/doi/10.1145/1390334.1390446",
+              "tags": [
+                "Search & Ranking",
+                "Result Diversification"
+              ],
+              "citations": 1000
+            },
+            {
+              "title": "Diversifying Search Results",
+              "authors": "Rakesh Agrawal, Sreenivas Gollapudi, Alan Halverson, Samuel Ieong",
+              "year": 2009,
+              "description": "Intent-aware diversification with formal coverage guarantees; models query as distribution over intents and optimizes expected coverage.",
+              "url": "https://dl.acm.org/doi/10.1145/1498759.1498766",
+              "tags": [
+                "Search & Ranking",
+                "Result Diversification"
+              ],
+              "citations": 600
             }
           ]
         }
