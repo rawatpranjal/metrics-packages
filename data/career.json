@@ -78,11 +78,11 @@
     "subtab": "role-types"
   },
   {
-    "name": "Google Research Areas",
-    "description": "Student Researcher positions.",
+    "name": "Google",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://www.google.com/about/careers/applications/jobs/results/93865849051325126-student-researcher-2026",
+    "url": "https://careers.google.com/",
     "type": "Career Portal",
     "tags": [
       "FAANG",
@@ -92,15 +92,14 @@
     "section": "companies",
     "sector": "faang",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "both"
+    "subtab": "companies"
   },
   {
-    "name": "Meta Core Data Science",
-    "description": "Economics team within CDS focused on experimentation, causal inference, pricing, market design. Title: Research Scientist, Economics.",
+    "name": "Meta",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://ai.meta.com/research/",
+    "url": "https://www.metacareers.com/",
     "type": "Career Portal",
     "tags": [
       "FAANG",
@@ -110,8 +109,7 @@
     "section": "companies",
     "sector": "faang",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "both"
+    "subtab": "companies"
   },
   {
     "name": "Should Your Tech Firm Have an Economist?",
@@ -348,11 +346,11 @@
     "subtab": "job-boards"
   },
   {
-    "name": "Amazon PhD Internship",
-    "description": "Economics internship listings on Glassdoor.",
+    "name": "Amazon",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://www.glassdoor.com/Jobs/Amazon-economics-internship-Jobs-EI_IE6036.0,6_KO7,27.htm",
+    "url": "https://www.amazon.jobs/",
     "type": "Career Portal",
     "tags": [
       "FAANG",
@@ -362,51 +360,14 @@
     "section": "companies",
     "sector": "faang",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Google PhD Programs",
-    "description": "Research Intern PhD positions.",
+    "name": "Microsoft",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://www.google.com/about/careers/applications/jobs/results/100216277234000582-research-intern-phd-summer-2026",
-    "type": "Career Portal",
-    "tags": [
-      "FAANG",
-      "research-intern",
-      "PhD-internship"
-    ],
-    "section": "companies",
-    "sector": "faang",
-    "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
-  },
-  {
-    "name": "Meta Research Scientist",
-    "description": "Research internship program portal.",
-    "stage": "Discovery",
-    "category": "Company Lists",
-    "url": "https://www.metacareers.com/careerprograms/research?tab=Research+Internships",
-    "type": "Career Portal",
-    "tags": [
-      "FAANG",
-      "CDS",
-      "PhD-internship"
-    ],
-    "section": "companies",
-    "sector": "faang",
-    "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
-  },
-  {
-    "name": "Microsoft Research Careers",
-    "description": "Microsoft Research internship portal.",
-    "stage": "Discovery",
-    "category": "Company Lists",
-    "url": "https://www.microsoft.com/en-us/research/careers/",
+    "url": "https://careers.microsoft.com/",
     "type": "Career Portal",
     "tags": [
       "FAANG",
@@ -416,15 +377,14 @@
     "section": "companies",
     "sector": "faang",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "both"
+    "subtab": "companies"
   },
   {
-    "name": "Apple ML Research",
-    "description": "ML Research Internships. No visible Economist team - requires pivot to ML/Data Science roles. Apple Scholars fellowship (invite-only).",
+    "name": "Apple",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://machinelearning.apple.com/work-with-us",
+    "url": "https://jobs.apple.com/",
     "type": "Career Portal",
     "tags": [
       "FAANG",
@@ -434,15 +394,14 @@
     "section": "companies",
     "sector": "faang",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Uber Applied Scientist",
-    "description": "PhD Applied Scientist (Econ) Intern posting.",
+    "name": "Uber",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://www.glassdoor.com/job-listing/2024-phd-applied-scientist-econ-intern-united-states-uber-JV_IC1147401_KO0,52_KE53,57.htm?jl=1009030860932",
+    "url": "https://www.uber.com/careers/",
     "type": "Career Portal",
     "tags": [
       "marketplace",
@@ -452,15 +411,14 @@
     "section": "companies",
     "sector": "marketplace",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Lyft Economics Team",
-    "description": "Lyft careers portal.",
+    "name": "Lyft",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://www.lyft.com/careers",
+    "url": "https://www.lyft.com/careers/",
     "type": "Career Portal",
     "tags": [
       "marketplace",
@@ -470,15 +428,14 @@
     "section": "companies",
     "sector": "marketplace",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Wayfair Economist Intern",
-    "description": "Explicit Economist Intern and Data Science Intern ($65/hour). ~15 PhD economists. Staff Economist $207-230K.",
+    "name": "Wayfair",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://www.aboutwayfair.com/careers/",
+    "url": "https://www.wayfair.com/careers/",
     "type": "Career Portal",
     "tags": [
       "marketplace",
@@ -488,15 +445,14 @@
     "section": "companies",
     "sector": "marketplace",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Airbnb Data Science",
-    "description": "Data Science internship experience.",
+    "name": "Airbnb",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://medium.com/swlh/what-i-learned-from-airbnb-data-science-internship-c2936c3e94df",
+    "url": "https://careers.airbnb.com/",
     "type": "Career Portal",
     "tags": [
       "marketplace",
@@ -506,12 +462,11 @@
     "section": "companies",
     "sector": "marketplace",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "DoorDash Data Science",
-    "description": "ML, Operations Research, and Data Science PhD internships (12 weeks, $2,200-2,600/week). Explicitly includes Economists.",
+    "name": "DoorDash",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
     "url": "https://careers.doordash.com/",
@@ -524,12 +479,11 @@
     "section": "companies",
     "sector": "marketplace",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Instacart ML PhD",
-    "description": "ML PhD internships. Economists join as Data Scientists - pricing team has Econ PhDs.",
+    "name": "Instacart",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
     "url": "https://instacart.careers/",
@@ -542,15 +496,14 @@
     "section": "companies",
     "sector": "marketplace",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "eBay Data Science",
-    "description": "Data Science internships available. Less emphasis on dedicated economist roles.",
+    "name": "eBay",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://jobs.ebayinc.com/",
+    "url": "https://careers.ebayinc.com/",
     "type": "Career Portal",
     "tags": [
       "marketplace",
@@ -560,12 +513,11 @@
     "section": "companies",
     "sector": "marketplace",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Etsy DSML Research",
-    "description": "Data Science Intern ($70-75/hr), Research PhD Intern. Marketplace Economics projects. DSML team.",
+    "name": "Etsy",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
     "url": "https://careers.etsy.com/",
@@ -578,12 +530,11 @@
     "section": "companies",
     "sector": "marketplace",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "LinkedIn Applied Research",
-    "description": "Applied Research Internship 12 weeks. Economic Graph Research Program studies labor markets.",
+    "name": "LinkedIn",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
     "url": "https://careers.linkedin.com/",
@@ -596,15 +547,14 @@
     "section": "companies",
     "sector": "social",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Spotify Research Scientist",
-    "description": "Research Scientist PhD Internship 10-12 weeks (NYC or London). Explicitly welcomes Economics PhDs. Check for annual deadline (typically early February).",
+    "name": "Spotify",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://www.lifeatspotify.com/jobs",
+    "url": "https://www.lifeatspotify.com/jobs/",
     "type": "Career Portal",
     "tags": [
       "social-media",
@@ -614,12 +564,11 @@
     "section": "companies",
     "sector": "social",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Netflix Careers",
-    "description": "ML/AI Scientist Intern PhD track. Prefers candidates with industry experience (unlike most companies). Public Policy Economists (SEAL team) is a separate track. Internships crucial - 'not possible to do too many.'",
+    "name": "Netflix",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
     "url": "https://jobs.netflix.com/",
@@ -632,12 +581,11 @@
     "section": "companies",
     "sector": "social",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "both"
+    "subtab": "companies"
   },
   {
-    "name": "Pinterest Labs",
-    "description": "PhD ML and PhD Data Science internships ($12,100/month). Economics PhD accepted.",
+    "name": "Pinterest",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
     "url": "https://www.pinterestcareers.com/",
@@ -650,15 +598,14 @@
     "section": "companies",
     "sector": "social",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Discord Data Science",
-    "description": "Data Science Intern - ML, Causal Inference ($78-90/hour for PhD). Seasonal postings, no formal PhD program.",
+    "name": "Discord",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://discord.com/careers",
+    "url": "https://discord.com/careers/",
     "type": "Career Portal",
     "tags": [
       "social-media",
@@ -668,12 +615,11 @@
     "section": "companies",
     "sector": "social",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Snap Research",
-    "description": "Snap Research Internship 16-24 weeks. Less economics focus, more CV/ML.",
+    "name": "Snap",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
     "url": "https://careers.snap.com/",
@@ -686,15 +632,14 @@
     "section": "companies",
     "sector": "social",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Stripe PhD Internship",
-    "description": "Stripe research positions.",
+    "name": "Stripe",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://stripe.com/jobs/search?query=research",
+    "url": "https://stripe.com/jobs/",
     "type": "Career Portal",
     "tags": [
       "fintech",
@@ -704,15 +649,14 @@
     "section": "companies",
     "sector": "fintech",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "PayPal PhD Intern",
-    "description": "Data Scientist PhD Intern, ML Scientist PhD Intern ($41-61/hour). Global Analytics & Data Science (GADS). Risk focus.",
+    "name": "PayPal",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://careers.pypl.com",
+    "url": "https://careers.paypal.com/",
     "type": "Career Portal",
     "tags": [
       "fintech",
@@ -722,12 +666,11 @@
     "section": "companies",
     "sector": "fintech",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Robinhood Data Scientist",
-    "description": "Data Scientist Intern (Master's or PhD). 48-hour take-home challenge. A/B testing and experimentation emphasis.",
+    "name": "Robinhood",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
     "url": "https://careers.robinhood.com/",
@@ -740,15 +683,14 @@
     "section": "companies",
     "sector": "fintech",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Affirm Careers",
-    "description": "Strong credit risk and quantitative markets roles. SWE internship exists but no formal PhD pipeline.",
+    "name": "Affirm",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://www.affirm.com/careers",
+    "url": "https://www.affirm.com/careers/",
     "type": "Career Portal",
     "tags": [
       "fintech",
@@ -758,15 +700,14 @@
     "section": "companies",
     "sector": "fintech",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "both"
+    "subtab": "companies"
   },
   {
-    "name": "Block (Square) Careers",
-    "description": "Focus on software engineering. No visible economist roles or research team.",
+    "name": "Block",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://block.xyz/careers/jobs",
+    "url": "https://block.xyz/careers/",
     "type": "Career Portal",
     "tags": [
       "fintech",
@@ -776,15 +717,14 @@
     "section": "companies",
     "sector": "fintech",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "both"
+    "subtab": "companies"
   },
   {
-    "name": "Adobe Research Internship",
-    "description": "Hundreds of PhD interns annually. 12 research areas. Strong mentorship. Apply: research-internship-phd@adobe.com",
+    "name": "Adobe",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://research.adobe.com/careers/internships/",
+    "url": "https://www.adobe.com/careers/",
     "type": "Career Portal",
     "tags": [
       "enterprise",
@@ -794,15 +734,14 @@
     "section": "companies",
     "sector": "saas",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Salesforce AI Research",
-    "description": "AI Research Intern minimum 12 weeks. AI Economist project. Publications at NeurIPS, ICML, ACL.",
+    "name": "Salesforce",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://www.salesforce.com/company/careers/university-recruiting/research/",
+    "url": "https://careers.salesforce.com/",
     "type": "Career Portal",
     "tags": [
       "enterprise",
@@ -812,12 +751,11 @@
     "section": "companies",
     "sector": "saas",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Databricks Research",
-    "description": "PhD GenAI Research Scientist Intern, Data Science Intern. Explicitly accepts Economics PhDs. Causal inference focus.",
+    "name": "Databricks",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
     "url": "https://www.databricks.com/company/careers/",
@@ -830,15 +768,14 @@
     "section": "companies",
     "sector": "saas",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Intuit AI Research",
-    "description": "AI Research Intern, AI Science Intern. Fintech AI applications. Contact: ai-research@intuit.com",
+    "name": "Intuit",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://jobs.intuit.com/",
+    "url": "https://www.intuit.com/careers/",
     "type": "Career Portal",
     "tags": [
       "enterprise",
@@ -848,15 +785,14 @@
     "section": "companies",
     "sector": "saas",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Eli Lilly Statistics",
-    "description": "12-week Statistics Internship. Global Statistical Sciences (200+ statisticians). Applications typically due early January.",
+    "name": "Eli Lilly",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://careers.lilly.com/us/en/stem",
+    "url": "https://careers.lilly.com/",
     "type": "Career Portal",
     "tags": [
       "pharma",
@@ -866,15 +802,14 @@
     "section": "companies",
     "sector": "pharma",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Pfizer Biostatistics",
-    "description": "12-week program, 15+ positions. Biostatistics (200+ statisticians), HV&E (HEOR). Applications typically due late January.",
+    "name": "Pfizer",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://pfizerstatistics-internprogram-atriumworks.icims.com/",
+    "url": "https://www.pfizer.com/about/careers/",
     "type": "Career Portal",
     "tags": [
       "pharma",
@@ -884,15 +819,14 @@
     "section": "companies",
     "sector": "pharma",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "both"
+    "subtab": "companies"
   },
   {
-    "name": "J&J Statistics",
-    "description": "Statistics & Decision Sciences Intern (8-10 positions, Spring House PA, Titusville NJ). Applications typically due mid-February.",
+    "name": "J&J",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://careers.jnj.com",
+    "url": "https://www.careers.jnj.com/",
     "type": "Career Portal",
     "tags": [
       "pharma",
@@ -902,15 +836,14 @@
     "section": "companies",
     "sector": "pharma",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Moderna Biostatistics",
-    "description": "Biostatistics Intern 10-12 weeks, Cambridge MA. mRNA clinical development focus.",
+    "name": "Moderna",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://modernatx.com/careers",
+    "url": "https://www.modernatx.com/careers/",
     "type": "Career Portal",
     "tags": [
       "pharma",
@@ -920,12 +853,11 @@
     "section": "companies",
     "sector": "pharma",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Roche Global Biostatistics",
-    "description": "Biostatistics PhD Summer Internship (UK: 10 weeks). 600+ statisticians globally. HEOR team.",
+    "name": "Roche",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
     "url": "https://careers.roche.com/",
@@ -938,15 +870,14 @@
     "section": "companies",
     "sector": "pharma",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Genentech E4A/HEOR",
-    "description": "10-12 week summer internships. Posting window November-March. Biostatistics, Evidence for Access (E4A), Translational AI Lab.",
+    "name": "Genentech",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://careers.gene.com/",
+    "url": "https://www.gene.com/careers/",
     "type": "Career Portal",
     "tags": [
       "pharma",
@@ -956,15 +887,14 @@
     "section": "companies",
     "sector": "pharma",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Optum HEOR",
-    "description": "Optum AI PhD Intern (remote available). HEOR team for life sciences data analytics.",
+    "name": "Optum",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://www.optum.com/en/careers.html",
+    "url": "https://www.optum.com/en/about-us/careers/",
     "type": "Career Portal",
     "tags": [
       "pharma",
@@ -974,15 +904,14 @@
     "section": "companies",
     "sector": "pharma",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Roblox Virtual Economy",
-    "description": "Data Scientist - PhD Intern, Applied Scientist - PhD Intern (12-16 weeks, $60-64/hour). Explicitly hires Economics PhDs for virtual economy.",
+    "name": "Roblox",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://careers.roblox.com",
+    "url": "https://careers.roblox.com/",
     "type": "Career Portal",
     "tags": [
       "emerging",
@@ -992,12 +921,11 @@
     "section": "companies",
     "sector": "ai-gaming",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "OpenAI Residency",
-    "description": "OpenAI careers portal.",
+    "name": "OpenAI",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
     "url": "https://openai.com/careers/",
@@ -1010,15 +938,14 @@
     "section": "companies",
     "sector": "ai-gaming",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "internship"
+    "subtab": "companies"
   },
   {
-    "name": "Anthropic Careers",
-    "description": "Explicitly states 'We do not offer internships'. Full-time only as Member of Technical Staff. ~50% have PhDs. Networking very essential.",
+    "name": "Anthropic",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://www.anthropic.com/careers",
+    "url": "https://www.anthropic.com/careers/",
     "type": "Career Portal",
     "tags": [
       "emerging",
@@ -1028,15 +955,14 @@
     "section": "companies",
     "sector": "ai-gaming",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "full-time"
+    "subtab": "companies"
   },
   {
-    "name": "Notion Careers",
-    "description": "No formal PhD program. General internships accept PhD students. 12-week project-focused.",
+    "name": "Notion",
+    "description": "Career portal",
     "stage": "Discovery",
     "category": "Company Lists",
-    "url": "https://www.notion.com/careers",
+    "url": "https://www.notion.so/careers/",
     "type": "Career Portal",
     "tags": [
       "emerging",
@@ -1046,8 +972,7 @@
     "section": "companies",
     "sector": "ai-gaming",
     "tab": "find-jobs",
-    "subtab": "companies",
-    "job_type": "both"
+    "subtab": "companies"
   },
   {
     "name": "Takeda-UIC HEOR Fellowship",
@@ -1493,7 +1418,7 @@
   },
   {
     "name": "Evan's Industry Job Finding Advice",
-    "description": "Econ PhD who conducted 250+ interviews at Amazon shares job search strategy. Failed 2014 search (30 apps, 0 offers) → successful 2015 (100 apps, 35 interviews, Amazon offer). Covers networking, resume, behavioral interviews, technical prep.",
+    "description": "Econ PhD who conducted 250+ interviews at Amazon shares job search strategy. Failed 2014 search (30 apps, 0 offers) \u2192 successful 2015 (100 apps, 35 interviews, Amazon offer). Covers networking, resume, behavioral interviews, technical prep.",
     "stage": "Strategy",
     "category": "PhD Transition",
     "tier": "essential",
@@ -1522,7 +1447,7 @@
   },
   {
     "name": "Eugene Yan: DS vs Applied vs Research vs MLE",
-    "description": "Clearest breakdown: DS→documents, Applied Scientist→ML systems, Research Scientist→papers, MLE→infrastructure.",
+    "description": "Clearest breakdown: DS\u2192documents, Applied Scientist\u2192ML systems, Research Scientist\u2192papers, MLE\u2192infrastructure.",
     "stage": "Strategy",
     "category": "Role Landscape",
     "url": "https://eugeneyan.com/writing/data-science-roles/",
@@ -1604,7 +1529,7 @@
   },
   {
     "name": "Greg Rafferty: Hidden Career Ladder",
-    "description": "L3→L4 reliable, L4→L5 strategic (defining vs solving problems), L5→L6 multiplier (scaling through others).",
+    "description": "L3\u2192L4 reliable, L4\u2192L5 strategic (defining vs solving problems), L5\u2192L6 multiplier (scaling through others).",
     "stage": "Strategy",
     "category": "Role Landscape",
     "url": "https://towardsdatascience.com/the-hidden-career-ladder-of-data-science/",
@@ -1619,7 +1544,7 @@
   },
   {
     "name": "Data Science Leadership: Career Ladder",
-    "description": "Tasks (Junior) → Projects (Mid) → Products (Senior/Principal). Mental model progression.",
+    "description": "Tasks (Junior) \u2192 Projects (Mid) \u2192 Products (Senior/Principal). Mental model progression.",
     "stage": "Strategy",
     "category": "Role Landscape",
     "url": "https://datascienceleadership.com/docs/people-management/career-ladder",
@@ -1958,7 +1883,7 @@
   },
   {
     "name": "Meaningful Metrics: How Data Sharpened the Focus of Product Teams",
-    "description": "Markov model segments users into activity states, monitors transition probabilities. CURR identified as highest-leverage metric—drove 4x DAU growth over 3 years.",
+    "description": "Markov model segments users into activity states, monitors transition probabilities. CURR identified as highest-leverage metric\u2014drove 4x DAU growth over 3 years.",
     "stage": "Strategy",
     "category": "Team Types",
     "url": "https://blog.duolingo.com/growth-model-duolingo/",
@@ -2530,7 +2455,7 @@
   },
   {
     "name": "alirezadir: 9-Step ML Design Formula",
-    "description": "Structured 9-step formula: problem clarification, data requirements, ML objective, offline/online metrics, feature engineering, candidate generation → ranking → filters, training data, architecture, serving/deployment.",
+    "description": "Structured 9-step formula: problem clarification, data requirements, ML objective, offline/online metrics, feature engineering, candidate generation \u2192 ranking \u2192 filters, training data, architecture, serving/deployment.",
     "url": "https://github.com/alirezadir/Machine-Learning-Interviews#ml-system-design",
     "type": "GitHub",
     "tab": "interview",
