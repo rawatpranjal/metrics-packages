@@ -254,6 +254,22 @@
         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
         <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 
+        <!-- Map Controls -->
+        <div class="map-controls">
+            <button id="find-near-me" class="near-me-btn">📍 Find Near Me</button>
+            <div class="city-filter">
+                <button class="city-btn active" data-city="all">All US</button>
+                <button class="city-btn" data-city="nyc">NYC</button>
+                <button class="city-btn" data-city="sf">SF Bay</button>
+                <button class="city-btn" data-city="boston">Boston</button>
+                <button class="city-btn" data-city="chicago">Chicago</button>
+                <button class="city-btn" data-city="dc">DC</button>
+                <button class="city-btn" data-city="la">LA</button>
+                <button class="city-btn" data-city="seattle">Seattle</button>
+                <button class="city-btn" data-city="austin">Austin</button>
+            </div>
+        </div>
+
         <!-- Subcategory Legend -->
         <div class="subcategory-legend map-legend">
             <div class="legend-item"><span class="legend-color experimentation"></span> Experimentation</div>
@@ -510,6 +526,103 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.error('Error loading map data:', e);
             }
         }
+
+        // Set up city filter buttons
+        setupCityFilter();
+        // Set up "Near Me" button
+        setupNearMe();
+    }
+
+    // City coordinates for quick navigation
+    const cityCoordinates = {
+        'all': { lat: 39.8283, lng: -98.5795, zoom: 4 },
+        'nyc': { lat: 40.7128, lng: -74.0060, zoom: 10 },
+        'sf': { lat: 37.7749, lng: -122.4194, zoom: 9 },
+        'boston': { lat: 42.3601, lng: -71.0589, zoom: 10 },
+        'chicago': { lat: 41.8781, lng: -87.6298, zoom: 10 },
+        'dc': { lat: 38.9072, lng: -77.0369, zoom: 10 },
+        'la': { lat: 34.0522, lng: -118.2437, zoom: 9 },
+        'seattle': { lat: 47.6062, lng: -122.3321, zoom: 10 },
+        'austin': { lat: 30.2672, lng: -97.7431, zoom: 10 }
+    };
+
+    let userMarker = null;
+
+    function setupCityFilter() {
+        const cityBtns = document.querySelectorAll('.city-btn');
+        cityBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                // Update active state
+                cityBtns.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+
+                // Zoom to city
+                const city = this.dataset.city;
+                const coords = cityCoordinates[city];
+                if (coords && map) {
+                    map.setView([coords.lat, coords.lng], coords.zoom);
+                }
+            });
+        });
+    }
+
+    function setupNearMe() {
+        const nearMeBtn = document.getElementById('find-near-me');
+        if (!nearMeBtn) return;
+
+        nearMeBtn.addEventListener('click', function() {
+            if (!navigator.geolocation) {
+                alert('Geolocation is not supported by your browser');
+                return;
+            }
+
+            nearMeBtn.textContent = '📍 Locating...';
+            nearMeBtn.disabled = true;
+
+            navigator.geolocation.getCurrentPosition(
+                (position) => {
+                    const userLat = position.coords.latitude;
+                    const userLng = position.coords.longitude;
+
+                    // Zoom to user location
+                    if (map) {
+                        map.setView([userLat, userLng], 8);
+
+                        // Remove previous user marker if exists
+                        if (userMarker) {
+                            map.removeLayer(userMarker);
+                        }
+
+                        // Add pulsing marker at user location
+                        userMarker = L.marker([userLat, userLng], {
+                            icon: L.divIcon({
+                                className: 'user-location-marker',
+                                html: '<div class="user-pulse"></div><div class="user-dot"></div>',
+                                iconSize: [20, 20],
+                                iconAnchor: [10, 10]
+                            })
+                        }).addTo(map);
+                        userMarker.bindPopup('📍 You are here').openPopup();
+
+                        // Clear city filter active state
+                        document.querySelectorAll('.city-btn').forEach(b => b.classList.remove('active'));
+                    }
+
+                    nearMeBtn.textContent = '📍 Find Near Me';
+                    nearMeBtn.disabled = false;
+                },
+                (error) => {
+                    let msg = 'Unable to get your location';
+                    if (error.code === error.PERMISSION_DENIED) {
+                        msg = 'Location access denied. Please enable location in your browser.';
+                    }
+                    alert(msg);
+                    nearMeBtn.textContent = '📍 Find Near Me';
+                    nearMeBtn.disabled = false;
+                },
+                { timeout: 10000, enableHighAccuracy: false }
+            );
+        });
     }
 
     // Calendar state
