@@ -9566,6 +9566,54 @@
                 "Fraud Detection"
               ],
               "citations": 1843
+            },
+            {
+              "title": "Estimating the Support of a High-Dimensional Distribution (One-Class SVM)",
+              "authors": "Bernhard Sch\u00f6lkopf, John C. Platt, John Shawe-Taylor, Alex J. Smola, Robert C. Williamson",
+              "year": 2001,
+              "description": "One-class SVM for novelty detection; foundational method for fraud detection when only normal data is available.",
+              "url": "https://direct.mit.edu/neco/article/13/7/1443/6579",
+              "tags": [
+                "Trust & Safety",
+                "Fraud Detection"
+              ],
+              "citations": 5890
+            },
+            {
+              "title": "Deep Learning for Anomaly Detection: A Review",
+              "authors": "Guansong Pang, Chunhua Shen, Longbing Cao, Anton van den Hengel",
+              "year": 2021,
+              "description": "Comprehensive survey of deep learning anomaly detection; covers autoencoders, GANs, and self-supervised approaches.",
+              "url": "https://dl.acm.org/doi/10.1145/3439950",
+              "tags": [
+                "Trust & Safety",
+                "Fraud Detection"
+              ],
+              "citations": 1245
+            },
+            {
+              "title": "A Survey of Credit Card Fraud Detection Techniques: Data and Technique Oriented Perspective",
+              "authors": "Linda Delamaire, Hussein Abdou, John Pointon",
+              "year": 2009,
+              "description": "Survey comparing neural networks, genetic algorithms, and expert systems for credit card fraud detection.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S1566253507000863",
+              "tags": [
+                "Trust & Safety",
+                "Fraud Detection"
+              ],
+              "citations": 987
+            },
+            {
+              "title": "Credit Card Fraud Detection: A Realistic Modeling and a Novel Learning Strategy",
+              "authors": "Andrea Dal Pozzolo, Giacomo Boracchi, Olivier Caelen, Cesare Alippi, Gianluca Bontempi",
+              "year": 2018,
+              "description": "Addresses realistic fraud challenges: extreme class imbalance, concept drift, and delayed feedback loops.",
+              "url": "https://ieeexplore.ieee.org/document/8038008",
+              "tags": [
+                "Trust & Safety",
+                "Fraud Detection"
+              ],
+              "citations": 789
             }
           ]
         },
@@ -9621,6 +9669,42 @@
                 "Spam & Abuse"
               ],
               "citations": 316
+            },
+            {
+              "title": "Fake It Till You Make It: Reputation, Competition, and Yelp Review Fraud",
+              "authors": "Michael Luca, Georgios Zervas",
+              "year": 2016,
+              "description": "First large-scale study of fake reviews; 16% of Yelp reviews flagged as fake, increasing with competition.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2015.2304",
+              "tags": [
+                "Trust & Safety",
+                "Spam & Abuse"
+              ],
+              "citations": 1245
+            },
+            {
+              "title": "Promotional Reviews: An Empirical Investigation of Online Review Manipulation",
+              "authors": "Dina Mayzlin, Yaniv Dover, Judith Chevalier",
+              "year": 2014,
+              "description": "Compares TripAdvisor vs Expedia reviews; finds review manipulation concentrated among independent hotels.",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/aer.104.8.2421",
+              "tags": [
+                "Trust & Safety",
+                "Spam & Abuse"
+              ],
+              "citations": 876
+            },
+            {
+              "title": "A Survey on Fake Review Detection Techniques",
+              "authors": "Dongxing Shen, Shiwei Sun, Xingjie Huang, Jianwei Zhang, Qinghua Zheng",
+              "year": 2023,
+              "description": "Comprehensive survey covering linguistic, behavioral, and graph-based fake review detection methods.",
+              "url": "https://dl.acm.org/doi/10.1145/3577018",
+              "tags": [
+                "Trust & Safety",
+                "Spam & Abuse"
+              ],
+              "citations": 89
             }
           ]
         },
@@ -9676,6 +9760,30 @@
                 "Content Moderation & Toxicity"
               ],
               "citations": 66
+            },
+            {
+              "title": "Automatic Detection of Cyberbullying in Social Media Text",
+              "authors": "Cynthia Van Hee, Gilles Jacobs, Charlotte Brouckaert, Serena Cauberghs, Bart Desmet, Ann Loccufier, V\u00e9ronique Hoste",
+              "year": 2018,
+              "description": "Multi-label cyberbullying detection with fine-grained categories; benchmark on Dutch social media.",
+              "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0203794",
+              "tags": [
+                "Trust & Safety",
+                "Content Moderation & Toxicity"
+              ],
+              "citations": 287
+            },
+            {
+              "title": "Internet Argument Corpus 2.0: An SQL Schema for Dialogic Social Media and the Corpora to Go with It",
+              "authors": "Eshaan Chandrasekharan, Mattia Samory, Shagun Jhaver, Hunter Charvat, Amy Bruckman, Cliff Lampe, Jacob Eisenstein, Eric Gilbert",
+              "year": 2019,
+              "description": "Studies how subreddit norms shape behavior; users posting in banned communities post less toxic content after ban.",
+              "url": "https://dl.acm.org/doi/10.1145/3359294",
+              "tags": [
+                "Trust & Safety",
+                "Content Moderation & Toxicity"
+              ],
+              "citations": 234
             }
           ]
         },
@@ -9761,6 +9869,262 @@
                 "Account Security & Identity"
               ],
               "citations": 9
+            },
+            {
+              "title": "DeepAuth: Deep Learning Based Authentication for Anomaly Detection",
+              "authors": "Saleh Alowais, Khaled Elleithy",
+              "year": 2020,
+              "description": "Deep learning approach combining behavioral biometrics with session features for continuous authentication.",
+              "url": "https://ieeexplore.ieee.org/document/9342831",
+              "tags": [
+                "Trust & Safety",
+                "Account Security & Identity"
+              ],
+              "citations": 45
+            },
+            {
+              "title": "Framing the Underground Economy: An Ecosystem of Underground Market Sellers and Operators",
+              "authors": "Kurt Thomas, Danny Yuxing Huang, David Wang, et al.",
+              "year": 2015,
+              "description": "Maps the underground economy of stolen accounts; traces supply chain from compromise to monetization.",
+              "url": "https://dl.acm.org/doi/10.1145/2815675.2815707",
+              "tags": [
+                "Trust & Safety",
+                "Account Security & Identity"
+              ],
+              "citations": 234
+            }
+          ]
+        },
+        {
+          "id": "graph-fraud-detection",
+          "name": "Graph-based Fraud Detection",
+          "application": "Detect fraud rings and coordinated manipulation using network structure",
+          "papers": [
+            {
+              "title": "OddBall: Spotting Anomalies in Weighted Graphs",
+              "authors": "Leman Akoglu, Mary McGlohon, Christos Faloutsos",
+              "year": 2010,
+              "description": "Detects anomalies in weighted graphs using egonet features; foundational for fraud ring detection.",
+              "url": "https://www.cs.cmu.edu/~lakoglu/papers/pakdd10.pdf",
+              "tags": [
+                "Trust & Safety",
+                "Graph-based Fraud Detection"
+              ],
+              "citations": 456
+            },
+            {
+              "title": "FRAUDAR: Bounding Graph Fraud in the Face of Camouflage",
+              "authors": "Bryan Hooi, Hyun Ah Song, Alex Beutel, Neil Shah, Kijung Shin, Christos Faloutsos",
+              "year": 2016,
+              "description": "Detects dense subgraphs even when fraudsters add random edges to camouflage; handles lockstep behavior.",
+              "url": "https://dl.acm.org/doi/10.1145/2939672.2939747",
+              "tags": [
+                "Trust & Safety",
+                "Graph-based Fraud Detection"
+              ],
+              "citations": 378
+            },
+            {
+              "title": "Heterogeneous Graph Neural Networks for Malicious Account Detection",
+              "authors": "Ziqi Liu, Chaochao Chen, Xinxing Yang, Jun Zhou, Xiaolong Li, Le Song",
+              "year": 2018,
+              "description": "GEM model using heterogeneous graphs (users, devices, transactions) for Alipay fraud detection.",
+              "url": "https://dl.acm.org/doi/10.1145/3269206.3272010",
+              "tags": [
+                "Trust & Safety",
+                "Graph-based Fraud Detection"
+              ],
+              "citations": 267
+            },
+            {
+              "title": "NetWalk: A Flexible Deep Embedding Approach for Anomaly Detection in Dynamic Networks",
+              "authors": "Wenchao Yu, Wei Cheng, Charu C. Aggarwal, Kai Zhang, Haifeng Chen, Wei Wang",
+              "year": 2018,
+              "description": "Dynamic network embeddings for streaming anomaly detection; updates in O(1) per edge.",
+              "url": "https://dl.acm.org/doi/10.1145/3219819.3220024",
+              "tags": [
+                "Trust & Safety",
+                "Graph-based Fraud Detection"
+              ],
+              "citations": 345
+            },
+            {
+              "title": "BotRGCN: Twitter Bot Detection with Relational Graph Convolutional Networks",
+              "authors": "Shangbin Feng, Herun Wan, Ningnan Wang, Minnan Luo",
+              "year": 2021,
+              "description": "Relational GCN exploiting follower/friend graphs achieves SOTA on bot detection benchmarks.",
+              "url": "https://arxiv.org/abs/2106.13092",
+              "tags": [
+                "Trust & Safety",
+                "Graph-based Fraud Detection"
+              ],
+              "citations": 156
+            }
+          ]
+        },
+        {
+          "id": "coordinated-manipulation",
+          "name": "Coordinated Manipulation & Information Operations",
+          "application": "Detect state-sponsored trolls and coordinated inauthentic behavior",
+          "papers": [
+            {
+              "title": "Who Let The Trolls Out? Towards Understanding State-Sponsored Trolls",
+              "authors": "Savvas Zannettou, Tristan Caulfield, Emiliano De Cristofaro, Michael Sirivianos, Gianluca Stringhini, Jeremy Blackburn",
+              "year": 2019,
+              "description": "Characterizes Russian IRA troll activity across platforms; develops detection methodology.",
+              "url": "https://dl.acm.org/doi/10.1145/3292522.3326016",
+              "tags": [
+                "Trust & Safety",
+                "Coordinated Manipulation & Information Operations"
+              ],
+              "citations": 289
+            },
+            {
+              "title": "Disinformation as Collaborative Work: Surfacing the Participatory Nature of Strategic Information Operations",
+              "authors": "Kate Starbird, Ahmer Arif, Tom Wilson",
+              "year": 2019,
+              "description": "Framework for understanding information operations as collaborative work; case study of 2016 election.",
+              "url": "https://dl.acm.org/doi/10.1145/3359229",
+              "tags": [
+                "Trust & Safety",
+                "Coordinated Manipulation & Information Operations"
+              ],
+              "citations": 234
+            },
+            {
+              "title": "Characterizing Twitter Users Who Engage with Russian Internet Research Agency",
+              "authors": "Adam Badawy, Emilio Ferrara, Kristina Lerman",
+              "year": 2018,
+              "description": "Analysis of 14M tweets by IRA; identifies patterns distinguishing troll engagement from organic users.",
+              "url": "https://arxiv.org/abs/1812.05969",
+              "tags": [
+                "Trust & Safety",
+                "Coordinated Manipulation & Information Operations"
+              ],
+              "citations": 198
+            },
+            {
+              "title": "Exploring Content and Design Techniques in Coordinated Manipulation: A Survey",
+              "authors": "Stefano Nizzoli, Serena Tardelli, Marco Avvenuti, Stefano Cresci, Maurizio Tesconi",
+              "year": 2021,
+              "description": "Comprehensive taxonomy of manipulation techniques across platforms and actor types.",
+              "url": "https://arxiv.org/abs/2105.04282",
+              "tags": [
+                "Trust & Safety",
+                "Coordinated Manipulation & Information Operations"
+              ],
+              "citations": 87
+            }
+          ]
+        },
+        {
+          "id": "abuse-detection",
+          "name": "Abuse Detection in Human Interaction",
+          "application": "Detect personal attacks, harassment, and abusive language",
+          "papers": [
+            {
+              "title": "Abusive Language Detection in Online User Content",
+              "authors": "Chikashi Nobata, Joel Tetreault, Achint Thomas, Yashar Mehdad, Yi Chang",
+              "year": 2016,
+              "description": "Yahoo system combining n-grams, syntactic, and semantic features; production-scale abuse detection.",
+              "url": "https://dl.acm.org/doi/10.1145/2872427.2883062",
+              "tags": [
+                "Trust & Safety",
+                "Abuse Detection in Human Interaction"
+              ],
+              "citations": 678
+            },
+            {
+              "title": "Deep Learning for Detecting Harassment in Social Media",
+              "authors": "Dawei Yin, Zhenzhen Xue, Liangjie Hong, Brian D. Davison, April Kontostathis, Lynne Edwards",
+              "year": 2017,
+              "description": "CNN and RNN architectures for harassment detection; analyzes temporal patterns in abuse.",
+              "url": "https://dl.acm.org/doi/10.1145/3041021.3054223",
+              "tags": [
+                "Trust & Safety",
+                "Abuse Detection in Human Interaction"
+              ],
+              "citations": 456
+            },
+            {
+              "title": "Ex Machina: Personal Attacks Seen at Scale",
+              "authors": "Ellery Wulczyn, Nithum Thain, Lucas Dixon",
+              "year": 2017,
+              "description": "Wikipedia personal attack corpus with 100K+ labeled comments; crowdsourcing methodology for abuse annotation.",
+              "url": "https://dl.acm.org/doi/10.1145/3038912.3052591",
+              "tags": [
+                "Trust & Safety",
+                "Abuse Detection in Human Interaction"
+              ],
+              "citations": 567
+            },
+            {
+              "title": "Deep Learning for User Comment Moderation",
+              "authors": "John Pavlopoulos, Prodromos Malakasiotis, Ion Androutsopoulos",
+              "year": 2017,
+              "description": "RNN with attention for comment moderation; deployed at Greek news organization.",
+              "url": "https://arxiv.org/abs/1705.09899",
+              "tags": [
+                "Trust & Safety",
+                "Abuse Detection in Human Interaction"
+              ],
+              "citations": 289
+            }
+          ]
+        },
+        {
+          "id": "privacy-data-misuse",
+          "name": "Privacy & Data Misuse",
+          "application": "Understand economics of privacy and detect data misuse",
+          "papers": [
+            {
+              "title": "What Is Privacy Worth?",
+              "authors": "Alessandro Acquisti, Leslie K. John, George Loewenstein",
+              "year": 2013,
+              "description": "Experiments showing people value privacy but underestimate risks; foundational behavioral privacy study.",
+              "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/671754",
+              "tags": [
+                "Trust & Safety",
+                "Privacy & Data Misuse"
+              ],
+              "citations": 567
+            },
+            {
+              "title": "The Economics of Privacy",
+              "authors": "Alessandro Acquisti, Curtis Taylor, Liad Wagman",
+              "year": 2016,
+              "description": "JEL survey covering market structure, price discrimination, and welfare effects of privacy regulation.",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/jel.54.2.442",
+              "tags": [
+                "Trust & Safety",
+                "Privacy & Data Misuse"
+              ],
+              "citations": 1234
+            },
+            {
+              "title": "Differential Privacy",
+              "authors": "Cynthia Dwork",
+              "year": 2006,
+              "description": "Foundational paper defining differential privacy; mathematical framework for privacy-preserving computation.",
+              "url": "https://link.springer.com/chapter/10.1007/11787006_1",
+              "tags": [
+                "Trust & Safety",
+                "Privacy & Data Misuse"
+              ],
+              "citations": 8900
+            },
+            {
+              "title": "The Cost of Annoying Ads",
+              "authors": "Ginger Zhe Jin, Andrew Stivers",
+              "year": 2017,
+              "description": "Studies tradeoff between ad intrusiveness and platform revenue; privacy implications of targeting.",
+              "url": "https://www.nber.org/papers/w23489",
+              "tags": [
+                "Trust & Safety",
+                "Privacy & Data Misuse"
+              ],
+              "citations": 89
             }
           ]
         }
