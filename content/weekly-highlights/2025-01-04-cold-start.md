@@ -1,6 +1,6 @@
 ---
 title: "Cold Start in Recommendations"
-date: 2024-12-28
+date: 2025-01-04
 category: "Recommender Systems"
 description: "How to bootstrap personalization when you have no data"
 tags: ["Recommendations", "Cold Start", "LightFM", "Python", "Network Effects"]

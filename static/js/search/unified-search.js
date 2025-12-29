@@ -50,6 +50,7 @@
     // State
     this.isIndexLoaded = false;
     this.isEmbeddingsLoaded = false;
+    this.embeddingsLoadingStarted = false;
     this.isModelLoaded = false;
     this.isModelLoading = false;
     this.searchIndex = null;
@@ -81,8 +82,9 @@
     // Initialize worker
     this.initWorker();
 
-    // Load search index and embeddings
-    this.loadSearchAssets();
+    // Load only the keyword search index on init (lightweight)
+    // Embeddings are lazy-loaded when search modal is opened
+    this.loadSearchIndex();
 
     // Initialize global search UI
     this.initGlobalSearchUI();
@@ -182,9 +184,9 @@
   };
 
   /**
-   * Load search assets (index and embeddings)
+   * Load search index only (lightweight, called on init)
    */
-  UnifiedSearch.prototype.loadSearchAssets = function() {
+  UnifiedSearch.prototype.loadSearchIndex = function() {
     var self = this;
 
     // Load search index
@@ -207,8 +209,13 @@
         // Fallback to inline data
         self.loadFallbackIndex();
       });
+  };
 
-    // Load embeddings (try cache first)
+  /**
+   * Load search assets (index and embeddings) - legacy, kept for compatibility
+   */
+  UnifiedSearch.prototype.loadSearchAssets = function() {
+    this.loadSearchIndex();
     this.loadEmbeddings();
   };
 
@@ -586,6 +593,12 @@
     setTimeout(function() { self.input.focus(); }, 50);
     this.showHint();
     document.body.style.overflow = 'hidden';
+
+    // Lazy-load embeddings on first modal open
+    if (!this.isEmbeddingsLoaded && !this.embeddingsLoadingStarted) {
+      this.embeddingsLoadingStarted = true;
+      this.loadEmbeddings();
+    }
 
     // Start loading model
     if (CONFIG.semanticSearchOnFocus) {

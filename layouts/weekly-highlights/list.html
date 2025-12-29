@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $highlights := where .Site.RegularPages "Section" "weekly-highlights" }}
+{{ $highlights := where (where .Site.RegularPages "Section" "weekly-highlights") ".Params.draft" "ne" true }}
 {{ $latest := index ($highlights.ByDate.Reverse) 0 }}
 
 {{ with $latest }}
