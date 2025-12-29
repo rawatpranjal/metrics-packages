@@ -293,37 +293,6 @@
         {{ end }}
     </div>
 
-    <!-- Tab 5: Offers -->
-    <div id="tab-offers" class="career-tab-content">
-        <!-- Subtabs -->
-        <div class="subtabs">
-            <button class="subtab active" data-subtab="negotiation">Negotiation</button>
-        </div>
-
-        <!-- Negotiation Subtab -->
-        <div id="subtab-negotiation" class="subtab-content active">
-            <section class="curated-section negotiation-section">
-                <div class="section-header">
-                    <h2>Offer Negotiation</h2>
-                    <p>Resources for evaluating and negotiating offers.</p>
-                </div>
-                <div class="negotiation-grid">
-                    {{ range .Site.Data.career }}
-                    {{ if and (eq .tab "offers") (eq .subtab "negotiation") }}
-                    <a href="{{ .url }}" target="_blank" rel="noopener" class="negotiation-card">
-                        <img class="favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
-                        <div class="negotiation-content">
-                            <span class="negotiation-name">{{ .name }}</span>
-                            <p class="negotiation-desc">{{ .description }}</p>
-                        </div>
-                    </a>
-                    {{ end }}
-                    {{ end }}
-                </div>
-            </section>
-        </div>
-    </div>
-
 </div>
 
 <script>
