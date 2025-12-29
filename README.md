@@ -12,7 +12,7 @@ A curated directory of resources for tech economists, data scientists, and appli
 - **Talks** - 50 interviews and podcasts from chief economists at Google, Amazon, Uber, Spotify
 - **Career** - 13 resources for job hunting and interviews
 - **Community** - 63 conferences, research labs, and events in tech economics
-- **Getting Started** - Curated learning paths for different goals
+- **Getting Started** - Curated roadmaps for different goals
 
 ## Development
 
