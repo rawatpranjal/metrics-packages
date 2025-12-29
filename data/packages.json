@@ -12,7 +12,8 @@
       "experimentation",
       "Bayesian"
     ],
-    "best_for": "Sharing knowledge across arms for sparse high-dimensional features"
+    "best_for": "Sharing knowledge across arms for sparse high-dimensional features",
+    "language": "Python"
   },
   {
     "name": "ContextualBandits",
@@ -27,7 +28,8 @@
       "experimentation",
       "machine learning"
     ],
-    "best_for": "Off-policy learning from logged data with any sklearn classifier"
+    "best_for": "Off-policy learning from logged data with any sklearn classifier",
+    "language": "Python"
   },
   {
     "name": "MABWiser",
@@ -41,7 +43,8 @@
       "A/B testing",
       "experimentation"
     ],
-    "best_for": "Fidelity-tested with built-in parallelization and policy tuning"
+    "best_for": "Fidelity-tested with built-in parallelization and policy tuning",
+    "language": "Python"
   },
   {
     "name": "Open Bandit Pipeline (OBP)",
@@ -55,7 +58,8 @@
       "A/B testing",
       "experimentation"
     ],
-    "best_for": "Benchmarking OPE methods with real ZOZO e-commerce dataset"
+    "best_for": "Benchmarking OPE methods with real ZOZO e-commerce dataset",
+    "language": "Python"
   },
   {
     "name": "PyXAB",
@@ -69,7 +73,8 @@
       "A/B testing",
       "experimentation"
     ],
-    "best_for": "Continuous action spaces with hierarchical partitioning"
+    "best_for": "Continuous action spaces with hierarchical partitioning",
+    "language": "Python"
   },
   {
     "name": "SMPyBandits",
@@ -83,7 +88,8 @@
       "A/B testing",
       "experimentation"
     ],
-    "best_for": "Multi-player bandits with collision handling (65+ algorithms)"
+    "best_for": "Multi-player bandits with collision handling (65+ algorithms)",
+    "language": "Python"
   },
   {
     "name": "Bambi",
@@ -97,7 +103,8 @@
       "Bayesian",
       "inference"
     ],
-    "best_for": "Mixed-effects models with auto priors and R-style formulas"
+    "best_for": "Mixed-effects models with auto priors and R-style formulas",
+    "language": "Python"
   },
   {
     "name": "LightweightMMM",
@@ -111,7 +118,8 @@
       "Bayesian",
       "inference"
     ],
-    "best_for": "Google's MMM with geo-level modeling and budget optimizer"
+    "best_for": "Google's MMM with geo-level modeling and budget optimizer",
+    "language": "Python"
   },
   {
     "name": "NumPyro",
@@ -125,7 +133,8 @@
       "Bayesian",
       "inference"
     ],
-    "best_for": "JAX backend with JIT-compiled NUTS for GPU/TPU speed"
+    "best_for": "JAX backend with JIT-compiled NUTS for GPU/TPU speed",
+    "language": "Python"
   },
   {
     "name": "PyMC",
@@ -139,7 +148,8 @@
       "Bayesian",
       "inference"
     ],
-    "best_for": "Largest ecosystem with books, tutorials, and domain extensions"
+    "best_for": "Largest ecosystem with books, tutorials, and domain extensions",
+    "language": "Python"
   },
   {
     "name": "Ananke",
@@ -153,7 +163,8 @@
       "causal inference",
       "graphs"
     ],
-    "best_for": "ID algorithm checking if causal effects are identifiable from DAG"
+    "best_for": "ID algorithm checking if causal effects are identifiable from DAG",
+    "language": "Python"
   },
   {
     "name": "Causal Discovery Toolbox (CDT)",
@@ -167,7 +178,8 @@
       "causal inference",
       "graphs"
     ],
-    "best_for": "Wraps R packages (bnlearn, pcalg) with GPU and pairwise methods"
+    "best_for": "Wraps R packages (bnlearn, pcalg) with GPU and pairwise methods",
+    "language": "Python"
   },
   {
     "name": "CausalNex",
@@ -182,7 +194,8 @@
       "graphs",
       "Bayesian"
     ],
-    "best_for": "McKinsey's BN tool with expert knowledge and what-if analysis"
+    "best_for": "McKinsey's BN tool with expert knowledge and what-if analysis",
+    "language": "Python"
   },
   {
     "name": "LiNGAM",
@@ -196,7 +209,8 @@
       "causal inference",
       "graphs"
     ],
-    "best_for": "Exploits non-Gaussianity to identify causal direction"
+    "best_for": "Exploits non-Gaussianity to identify causal direction",
+    "language": "Python"
   },
   {
     "name": "Tigramite",
@@ -210,7 +224,8 @@
       "causal inference",
       "graphs"
     ],
-    "best_for": "PCMCI algorithm for time series with lagged causal links"
+    "best_for": "PCMCI algorithm for time series with lagged causal links",
+    "language": "Python"
   },
   {
     "name": "causal-learn",
@@ -224,7 +239,8 @@
       "causal inference",
       "graphs"
     ],
-    "best_for": "PyWhy's native Python port of Tetrad (PC, GES, FCI, etc.)"
+    "best_for": "PyWhy's native Python port of Tetrad (PC, GES, FCI, etc.)",
+    "language": "Python"
   },
   {
     "name": "gCastle",
@@ -238,7 +254,8 @@
       "causal inference",
       "graphs"
     ],
-    "best_for": "Huawei's gradient-based discovery (NOTEARS, GOLEM, neural)"
+    "best_for": "Huawei's gradient-based discovery (NOTEARS, GOLEM, neural)",
+    "language": "Python"
   },
   {
     "name": "py-tetrad",
@@ -252,7 +269,8 @@
       "causal inference",
       "graphs"
     ],
-    "best_for": "JPype bridge to full Tetrad Java for exclusive algorithms"
+    "best_for": "JPype bridge to full Tetrad Java for exclusive algorithms",
+    "language": "Python"
   },
   {
     "name": "CausalInference",
@@ -266,7 +284,8 @@
       "causal inference",
       "matching"
     ],
-    "best_for": "Simple API for matching, blocking, weighting, and stratification"
+    "best_for": "Simple API for matching, blocking, weighting, and stratification",
+    "language": "Python"
   },
   {
     "name": "CausalLib",
@@ -280,7 +299,8 @@
       "causal inference",
       "matching"
     ],
-    "best_for": "IBM's modular meta-learners with any sklearn estimator"
+    "best_for": "IBM's modular meta-learners with any sklearn estimator",
+    "language": "Python"
   },
   {
     "name": "CausalML",
@@ -295,7 +315,8 @@
       "matching"
     ],
     "best_for": "Uber's production CATE/ITE with T-learner, X-learner, SHAP",
-    "staffPick": true
+    "staffPick": true,
+    "language": "Python"
   },
   {
     "name": "CausalMatch",
@@ -309,7 +330,8 @@
       "causal inference",
       "matching"
     ],
-    "best_for": "ByteDance's PSM/CEM with auto model selection and balance checks"
+    "best_for": "ByteDance's PSM/CEM with auto model selection and balance checks",
+    "language": "Python"
   },
   {
     "name": "CausalPy",
@@ -323,7 +345,8 @@
       "causal inference",
       "matching"
     ],
-    "best_for": "PyMC Labs' Bayesian DiD, RDD, SC, and IV with credible intervals"
+    "best_for": "PyMC Labs' Bayesian DiD, RDD, SC, and IV with credible intervals",
+    "language": "Python"
   },
   {
     "name": "DoWhy",
@@ -338,7 +361,8 @@
       "matching"
     ],
     "best_for": "End-to-end workflow with refutation tests and assumption checking",
-    "staffPick": true
+    "staffPick": true,
+    "language": "Python"
   },
   {
     "name": "fastmatch",
@@ -352,7 +376,8 @@
       "causal inference",
       "matching"
     ],
-    "best_for": "FAISS/Voyager GPU-accelerated matching at massive scale"
+    "best_for": "FAISS/Voyager GPU-accelerated matching at massive scale",
+    "language": "Python"
   },
   {
     "name": "scikit-uplift",
@@ -366,7 +391,8 @@
       "causal inference",
       "matching"
     ],
-    "best_for": "Most uplift metrics (AUUC, Qini) with sklearn pipelines"
+    "best_for": "Most uplift metrics (AUUC, Qini) with sklearn pipelines",
+    "language": "Python"
   },
   {
     "name": "Scikit-learn",
@@ -381,7 +407,8 @@
       "linear models"
     ],
     "best_for": "ML-based prediction, cross-validation, feature engineering",
-    "staffPick": true
+    "staffPick": true,
+    "language": "Python"
   },
   {
     "name": "Statsmodels",
@@ -396,7 +423,8 @@
       "linear models"
     ],
     "best_for": "Statistical inference with interpretable coefficients",
-    "staffPick": true
+    "staffPick": true,
+    "language": "Python"
   },
   {
     "name": "FactorAnalyzer",
@@ -410,7 +438,8 @@
       "machine learning",
       "dimensionality"
     ],
-    "best_for": "EFA/CFA with rotation for latent construct extraction"
+    "best_for": "EFA/CFA with rotation for latent construct extraction",
+    "language": "Python"
   },
   {
     "name": "openTSNE",
@@ -424,7 +453,8 @@
       "machine learning",
       "dimensionality"
     ],
-    "best_for": "Large-scale t-SNE with partial fitting capability"
+    "best_for": "Large-scale t-SNE with partial fitting capability",
+    "language": "Python"
   },
   {
     "name": "umap-learn",
@@ -438,7 +468,8 @@
       "machine learning",
       "dimensionality"
     ],
-    "best_for": "Fast visualization preserving both local and global structure"
+    "best_for": "Fast visualization preserving both local and global structure",
+    "language": "Python"
   },
   {
     "name": "Biogeme",
@@ -452,7 +483,8 @@
       "discrete choice",
       "logit"
     ],
-    "best_for": "Complex nested logit and mixed logit specifications"
+    "best_for": "Complex nested logit and mixed logit specifications",
+    "language": "Python"
   },
   {
     "name": "PyBLP",
@@ -466,7 +498,8 @@
       "discrete choice",
       "logit"
     ],
-    "best_for": "BLP demand estimation with price endogeneity"
+    "best_for": "BLP demand estimation with price endogeneity",
+    "language": "Python"
   },
   {
     "name": "PyLogit",
@@ -480,7 +513,8 @@
       "discrete choice",
       "logit"
     ],
-    "best_for": "Flexible conditional logit with panel data support"
+    "best_for": "Flexible conditional logit with panel data support",
+    "language": "Python"
   },
   {
     "name": "XLogit",
@@ -494,7 +528,8 @@
       "discrete choice",
       "logit"
     ],
-    "best_for": "GPU-accelerated large-scale mixed logit estimation"
+    "best_for": "GPU-accelerated large-scale mixed logit estimation",
+    "language": "Python"
   },
   {
     "name": "torch-choice",
@@ -508,7 +543,8 @@
       "discrete choice",
       "logit"
     ],
-    "best_for": "Neural network extensions to choice models"
+    "best_for": "Neural network extensions to choice models",
+    "language": "Python"
   },
   {
     "name": "DoubleML",
@@ -522,7 +558,8 @@
       "machine learning",
       "causal inference"
     ],
-    "best_for": "Chernozhukov et al. DML with Neyman orthogonal scores"
+    "best_for": "Chernozhukov et al. DML with Neyman orthogonal scores",
+    "language": "Python"
   },
   {
     "name": "EconML",
@@ -537,7 +574,8 @@
       "causal inference"
     ],
     "best_for": "Microsoft's causal forests with valid confidence intervals",
-    "staffPick": true
+    "staffPick": true,
+    "language": "Python"
   },
   {
     "name": "pydoublelasso",
@@ -551,7 +589,8 @@
       "machine learning",
       "causal inference"
     ],
-    "best_for": "Double-post-selection Lasso for high-dimensional controls"
+    "best_for": "Double-post-selection Lasso for high-dimensional controls",
+    "language": "Python"
   },
   {
     "name": "pyhtelasso",
@@ -565,7 +604,8 @@
       "machine learning",
       "causal inference"
     ],
-    "best_for": "Testing for treatment effect heterogeneity in RCTs"
+    "best_for": "Testing for treatment effect heterogeneity in RCTs",
+    "language": "Python"
   },
   {
     "name": "py-econometrics `gmm`",
@@ -579,7 +619,8 @@
       "IV",
       "GMM"
     ],
-    "best_for": "Custom GMM with user-defined moment conditions"
+    "best_for": "Custom GMM with user-defined moment conditions",
+    "language": "Python"
   },
   {
     "name": "Lifetimes",
@@ -593,7 +634,8 @@
       "marketing",
       "analytics"
     ],
-    "best_for": "Customer lifetime value prediction with BG/NBD models"
+    "best_for": "Customer lifetime value prediction with BG/NBD models",
+    "language": "Python"
   },
   {
     "name": "MaMiMo",
@@ -607,7 +649,8 @@
       "marketing",
       "analytics"
     ],
-    "best_for": "Quick MMM prototyping with sklearn compatibility"
+    "best_for": "Quick MMM prototyping with sklearn compatibility",
+    "language": "Python"
   },
   {
     "name": "PyMC Marketing",
@@ -622,7 +665,8 @@
       "analytics",
       "Bayesian"
     ],
-    "best_for": "Full Bayesian MMM with CLV and attribution"
+    "best_for": "Full Bayesian MMM with CLV and attribution",
+    "language": "Python"
   },
   {
     "name": "mmm_stan",
@@ -637,7 +681,8 @@
       "analytics",
       "Bayesian"
     ],
-    "best_for": "Learning MMM internals with transparent Stan code"
+    "best_for": "Learning MMM internals with transparent Stan code",
+    "language": "Python"
   },
   {
     "name": "Gensim",
@@ -651,7 +696,8 @@
       "NLP",
       "text analysis"
     ],
-    "best_for": "Topic modeling (LDA) and word embeddings on large corpora"
+    "best_for": "Topic modeling (LDA) and word embeddings on large corpora",
+    "language": "Python"
   },
   {
     "name": "Transformers",
@@ -665,7 +711,8 @@
       "NLP",
       "text analysis"
     ],
-    "best_for": "State-of-the-art NLP with pre-trained transformer models"
+    "best_for": "State-of-the-art NLP with pre-trained transformer models",
+    "language": "Python"
   },
   {
     "name": "spaCy",
@@ -679,7 +726,8 @@
       "NLP",
       "text analysis"
     ],
-    "best_for": "Fast NLP pipelines for NER and entity extraction"
+    "best_for": "Fast NLP pipelines for NER and entity extraction",
+    "language": "Python"
   },
   {
     "name": "JAX",
@@ -693,7 +741,8 @@
       "optimization",
       "computation"
     ],
-    "best_for": "GPU-accelerated autodiff with functional composition"
+    "best_for": "GPU-accelerated autodiff with functional composition",
+    "language": "Python"
   },
   {
     "name": "PyTorch",
@@ -708,7 +757,8 @@
       "computation",
       "machine learning"
     ],
-    "best_for": "Deep learning and neural network estimation"
+    "best_for": "Deep learning and neural network estimation",
+    "language": "Python"
   },
   {
     "name": "FixedEffectModelPyHDFE",
@@ -722,7 +772,8 @@
       "panel data",
       "fixed effects"
     ],
-    "best_for": "Millions of fixed effects (reghdfe-style absorption)"
+    "best_for": "Millions of fixed effects (reghdfe-style absorption)",
+    "language": "Python"
   },
   {
     "name": "Linearmodels",
@@ -736,7 +787,8 @@
       "panel data",
       "fixed effects"
     ],
-    "best_for": "Panel, IV, SUR, 3SLS, and Fama-MacBeth in one package"
+    "best_for": "Panel, IV, SUR, 3SLS, and Fama-MacBeth in one package",
+    "language": "Python"
   },
   {
     "name": "PyFixest",
@@ -750,7 +802,8 @@
       "panel data",
       "fixed effects"
     ],
-    "best_for": "R fixest port with multi-way FE and wild bootstrap"
+    "best_for": "R fixest port with multi-way FE and wild bootstrap",
+    "language": "Python"
   },
   {
     "name": "duckreg",
@@ -764,7 +817,8 @@
       "panel data",
       "fixed effects"
     ],
-    "best_for": "Out-of-core regression on datasets too large for memory"
+    "best_for": "Out-of-core regression on datasets too large for memory",
+    "language": "Python"
   },
   {
     "name": "pydynpd",
@@ -778,7 +832,8 @@
       "panel data",
       "fixed effects"
     ],
-    "best_for": "Dynamic panels with Arellano-Bond/Blundell-Bond GMM"
+    "best_for": "Dynamic panels with Arellano-Bond/Blundell-Bond GMM",
+    "language": "Python"
   },
   {
     "name": "ADOpy",
@@ -793,7 +848,8 @@
       "experiments",
       "Bayesian"
     ],
-    "best_for": "Bayesian adaptive experiment design in real-time"
+    "best_for": "Bayesian adaptive experiment design in real-time",
+    "language": "Python"
   },
   {
     "name": "Adaptive",
@@ -807,7 +863,8 @@
       "power analysis",
       "experiments"
     ],
-    "best_for": "Active learning with adaptive function sampling"
+    "best_for": "Active learning with adaptive function sampling",
+    "language": "Python"
   },
   {
     "name": "DoEgen",
@@ -821,7 +878,8 @@
       "power analysis",
       "experiments"
     ],
-    "best_for": "Optimizing mixed factor-level experimental designs"
+    "best_for": "Optimizing mixed factor-level experimental designs",
+    "language": "Python"
   },
   {
     "name": "pyDOE2",
@@ -835,7 +893,8 @@
       "power analysis",
       "experiments"
     ],
-    "best_for": "Classical factorial and response surface designs"
+    "best_for": "Classical factorial and response surface designs",
+    "language": "Python"
   },
   {
     "name": "CausalImpact",
@@ -851,7 +910,8 @@
       "RDD",
       "Bayesian"
     ],
-    "best_for": "Time series intervention effects with Bayesian STS"
+    "best_for": "Time series intervention effects with Bayesian STS",
+    "language": "Python"
   },
   {
     "name": "Differences",
@@ -866,7 +926,8 @@
       "synthetic control",
       "RDD"
     ],
-    "best_for": "Modern staggered DiD (Callaway-Sant'Anna, Sun-Abraham)"
+    "best_for": "Modern staggered DiD (Callaway-Sant'Anna, Sun-Abraham)",
+    "language": "Python"
   },
   {
     "name": "SyntheticControlMethods",
@@ -881,7 +942,8 @@
       "synthetic control",
       "RDD"
     ],
-    "best_for": "Classic Abadie-Hainmueller synthetic control"
+    "best_for": "Classic Abadie-Hainmueller synthetic control",
+    "language": "Python"
   },
   {
     "name": "csdid",
@@ -896,7 +958,8 @@
       "synthetic control",
       "RDD"
     ],
-    "best_for": "Exact R `did` package replication in Python"
+    "best_for": "Exact R `did` package replication in Python",
+    "language": "Python"
   },
   {
     "name": "mlsynth",
@@ -912,7 +975,8 @@
       "program evaluation",
       "DiD"
     ],
-    "best_for": "Largest open-source synthetic control package with multiple estimators"
+    "best_for": "Largest open-source synthetic control package with multiple estimators",
+    "language": "Python"
   },
   {
     "name": "pycinc",
@@ -928,7 +992,8 @@
       "RDD",
       "causal inference"
     ],
-    "best_for": "Distributional treatment effects (Changes-in-Changes)"
+    "best_for": "Distributional treatment effects (Changes-in-Changes)",
+    "language": "Python"
   },
   {
     "name": "pyleebounds",
@@ -944,7 +1009,8 @@
       "RDD",
       "causal inference"
     ],
-    "best_for": "Bounds under sample selection (Lee 2009)"
+    "best_for": "Bounds under sample selection (Lee 2009)",
+    "language": "Python"
   },
   {
     "name": "rdd",
@@ -959,7 +1025,8 @@
       "synthetic control",
       "RDD"
     ],
-    "best_for": "Quick sharp RDD with Imbens-Kalyanaraman bandwidth"
+    "best_for": "Quick sharp RDD with Imbens-Kalyanaraman bandwidth",
+    "language": "Python"
   },
   {
     "name": "rdrobust",
@@ -974,7 +1041,8 @@
       "synthetic control",
       "RDD"
     ],
-    "best_for": "Rigorous RDD with robust bias-corrected inference"
+    "best_for": "Rigorous RDD with robust bias-corrected inference",
+    "language": "Python"
   },
   {
     "name": "pyqreg",
@@ -988,7 +1056,8 @@
       "quantile",
       "regression"
     ],
-    "best_for": "Fast conditional quantile regression with clustered SEs"
+    "best_for": "Fast conditional quantile regression with clustered SEs",
+    "language": "Python"
   },
   {
     "name": "pyrifreg",
@@ -1002,7 +1071,8 @@
       "quantile",
       "regression"
     ],
-    "best_for": "Unconditional quantile effects (RIF regression)"
+    "best_for": "Unconditional quantile effects (RIF regression)",
+    "language": "Python"
   },
   {
     "name": "quantile-forest",
@@ -1016,7 +1086,8 @@
       "quantile",
       "regression"
     ],
-    "best_for": "Non-parametric quantile prediction with random forests"
+    "best_for": "Non-parametric quantile prediction with random forests",
+    "language": "Python"
   },
   {
     "name": "(PySAL Core)",
@@ -1030,7 +1101,8 @@
       "spatial",
       "geography"
     ],
-    "best_for": "Broad spatial ecosystem (weights, visualization, analysis)"
+    "best_for": "Broad spatial ecosystem (weights, visualization, analysis)",
+    "language": "Python"
   },
   {
     "name": "PySAL (spreg)",
@@ -1044,7 +1116,8 @@
       "spatial",
       "geography"
     ],
-    "best_for": "Spatial lag/error models with IV and diagnostics"
+    "best_for": "Spatial lag/error models with IV and diagnostics",
+    "language": "Python"
   },
   {
     "name": "SciPy Bootstrap",
@@ -1058,7 +1131,8 @@
       "bootstrap",
       "standard errors"
     ],
-    "best_for": "Standard bootstrap confidence intervals"
+    "best_for": "Standard bootstrap confidence intervals",
+    "language": "Python"
   },
   {
     "name": "Stargazer",
@@ -1072,7 +1146,8 @@
       "bootstrap",
       "standard errors"
     ],
-    "best_for": "Publication-quality regression tables (LaTeX/HTML)"
+    "best_for": "Publication-quality regression tables (LaTeX/HTML)",
+    "language": "Python"
   },
   {
     "name": "wildboottest",
@@ -1086,7 +1161,8 @@
       "bootstrap",
       "standard errors"
     ],
-    "best_for": "Wild cluster bootstrap for few-cluster inference"
+    "best_for": "Wild cluster bootstrap for few-cluster inference",
+    "language": "Python"
   },
   {
     "name": "FilterPy",
@@ -1100,7 +1176,8 @@
       "volatility",
       "state space"
     ],
-    "best_for": "Learning Kalman filters with pedagogical implementation"
+    "best_for": "Learning Kalman filters with pedagogical implementation",
+    "language": "Python"
   },
   {
     "name": "Metran",
@@ -1114,7 +1191,8 @@
       "volatility",
       "state space"
     ],
-    "best_for": "Dynamic Factor Models with state-space methods"
+    "best_for": "Dynamic Factor Models with state-space methods",
+    "language": "Python"
   },
   {
     "name": "PyKalman",
@@ -1128,7 +1206,8 @@
       "volatility",
       "state space"
     ],
-    "best_for": "Kalman filtering with missing values and EM estimation"
+    "best_for": "Kalman filtering with missing values and EM estimation",
+    "language": "Python"
   },
   {
     "name": "PyMC Statespace",
@@ -1143,7 +1222,8 @@
       "state space",
       "Bayesian"
     ],
-    "best_for": "Bayesian state-space with MCMC parameter estimation"
+    "best_for": "Bayesian state-space with MCMC parameter estimation",
+    "language": "Python"
   },
   {
     "name": "Pingouin",
@@ -1157,7 +1237,8 @@
       "inference",
       "hypothesis testing"
     ],
-    "best_for": "Easy ANOVA, t-tests, correlations with pandas"
+    "best_for": "Easy ANOVA, t-tests, correlations with pandas",
+    "language": "Python"
   },
   {
     "name": "PyWhy-Stats",
@@ -1171,7 +1252,8 @@
       "inference",
       "hypothesis testing"
     ],
-    "best_for": "Independence tests for causal applications"
+    "best_for": "Independence tests for causal applications",
+    "language": "Python"
   },
   {
     "name": "Scipy.stats",
@@ -1185,7 +1267,8 @@
       "inference",
       "hypothesis testing"
     ],
-    "best_for": "Foundational distributions and hypothesis tests"
+    "best_for": "Foundational distributions and hypothesis tests",
+    "language": "Python"
   },
   {
     "name": "hypothetical",
@@ -1199,7 +1282,8 @@
       "inference",
       "hypothesis testing"
     ],
-    "best_for": "Comprehensive hypothesis testing library"
+    "best_for": "Comprehensive hypothesis testing library",
+    "language": "Python"
   },
   {
     "name": "lifelines",
@@ -1213,7 +1297,8 @@
       "inference",
       "hypothesis testing"
     ],
-    "best_for": "Survival analysis with Cox regression and AFT models"
+    "best_for": "Survival analysis with Cox regression and AFT models",
+    "language": "Python"
   },
   {
     "name": "Dolo",
@@ -1227,7 +1312,8 @@
       "structural",
       "estimation"
     ],
-    "best_for": "DSGE/OLG models with YAML-based specification"
+    "best_for": "DSGE/OLG models with YAML-based specification",
+    "language": "Python"
   },
   {
     "name": "HARK",
@@ -1241,7 +1327,8 @@
       "structural",
       "estimation"
     ],
-    "best_for": "Heterogeneous agent consumption-saving models"
+    "best_for": "Heterogeneous agent consumption-saving models",
+    "language": "Python"
   },
   {
     "name": "QuantEcon.py",
@@ -1255,7 +1342,8 @@
       "structural",
       "estimation"
     ],
-    "best_for": "Dynamic programming, Markov chains, game theory"
+    "best_for": "Dynamic programming, Markov chains, game theory",
+    "language": "Python"
   },
   {
     "name": "respy",
@@ -1269,7 +1357,8 @@
       "structural",
       "estimation"
     ],
-    "best_for": "Dynamic discrete choice (labor/education) estimation"
+    "best_for": "Dynamic discrete choice (labor/education) estimation",
+    "language": "Python"
   },
   {
     "name": "SDV (Synthetic Data Vault)",
@@ -1283,7 +1372,8 @@
       "synthetic data",
       "simulation"
     ],
-    "best_for": "Comprehensive synthetic tabular/relational data"
+    "best_for": "Comprehensive synthetic tabular/relational data",
+    "language": "Python"
   },
   {
     "name": "Synthpop",
@@ -1297,7 +1387,8 @@
       "synthetic data",
       "simulation"
     ],
-    "best_for": "Synthetic survey populations from sample data"
+    "best_for": "Synthetic survey populations from sample data",
+    "language": "Python"
   },
   {
     "name": "ARCH",
@@ -1311,7 +1402,8 @@
       "time series",
       "econometrics"
     ],
-    "best_for": "GARCH/ARCH volatility modeling and forecasting"
+    "best_for": "GARCH/ARCH volatility modeling and forecasting",
+    "language": "Python"
   },
   {
     "name": "Kats",
@@ -1325,7 +1417,8 @@
       "time series",
       "econometrics"
     ],
-    "best_for": "Anomaly detection, change points, and feature extraction"
+    "best_for": "Anomaly detection, change points, and feature extraction",
+    "language": "Python"
   },
   {
     "name": "LocalProjections",
@@ -1339,7 +1432,8 @@
       "time series",
       "econometrics"
     ],
-    "best_for": "Local projections impulse responses"
+    "best_for": "Local projections impulse responses",
+    "language": "Python"
   },
   {
     "name": "MLForecast",
@@ -1354,7 +1448,8 @@
       "time series",
       "machine learning"
     ],
-    "best_for": "ML-based forecasting with LightGBM/XGBoost"
+    "best_for": "ML-based forecasting with LightGBM/XGBoost",
+    "language": "Python"
   },
   {
     "name": "NeuralForecast",
@@ -1369,7 +1464,8 @@
       "time series",
       "machine learning"
     ],
-    "best_for": "Deep learning forecasting (N-BEATS, Transformers)"
+    "best_for": "Deep learning forecasting (N-BEATS, Transformers)",
+    "language": "Python"
   },
   {
     "name": "Prophet",
@@ -1383,7 +1479,8 @@
       "forecasting",
       "time series"
     ],
-    "best_for": "Meta's holidays + seasonality for non-statisticians"
+    "best_for": "Meta's holidays + seasonality for non-statisticians",
+    "language": "Python"
   },
   {
     "name": "StatsForecast",
@@ -1397,7 +1494,8 @@
       "forecasting",
       "time series"
     ],
-    "best_for": "20x faster than pmdarima with Spark/Dask/Ray scaling"
+    "best_for": "20x faster than pmdarima with Spark/Dask/Ray scaling",
+    "language": "Python"
   },
   {
     "name": "pmdarima",
@@ -1411,7 +1509,8 @@
       "forecasting",
       "time series"
     ],
-    "best_for": "Auto-ARIMA with automatic parameter selection"
+    "best_for": "Auto-ARIMA with automatic parameter selection",
+    "language": "Python"
   },
   {
     "name": "sktime",
@@ -1426,7 +1525,8 @@
       "time series",
       "machine learning"
     ],
-    "best_for": "Unified sklearn-style time series framework"
+    "best_for": "Unified sklearn-style time series framework",
+    "language": "Python"
   },
   {
     "name": "CatBoost",
@@ -1440,7 +1540,8 @@
       "machine learning",
       "prediction"
     ],
-    "best_for": "Native categorical encoding with ordered boosting"
+    "best_for": "Native categorical encoding with ordered boosting",
+    "language": "Python"
   },
   {
     "name": "LightGBM",
@@ -1455,7 +1556,8 @@
       "prediction"
     ],
     "best_for": "Histogram + leaf-wise growth for speed and low memory",
-    "staffPick": true
+    "staffPick": true,
+    "language": "Python"
   },
   {
     "name": "NGBoost",
@@ -1469,7 +1571,8 @@
       "machine learning",
       "prediction"
     ],
-    "best_for": "Probabilistic predictions with uncertainty estimates"
+    "best_for": "Probabilistic predictions with uncertainty estimates",
+    "language": "Python"
   },
   {
     "name": "Scikit-learn Ens.",
@@ -1483,7 +1586,8 @@
       "machine learning",
       "prediction"
     ],
-    "best_for": "General-purpose random forests in sklearn ecosystem"
+    "best_for": "General-purpose random forests in sklearn ecosystem",
+    "language": "Python"
   },
   {
     "name": "XGBoost",
@@ -1498,7 +1602,8 @@
       "prediction"
     ],
     "best_for": "Optimized gradient boosting, competition winner",
-    "staffPick": true
+    "staffPick": true,
+    "language": "Python"
   },
   {
     "name": "cuML (RAPIDS)",
@@ -1512,7 +1617,8 @@
       "machine learning",
       "prediction"
     ],
-    "best_for": "GPU-accelerated random forests for massive scale"
+    "best_for": "GPU-accelerated random forests for massive scale",
+    "language": "Python"
   },
   {
     "name": "synthlearners",
@@ -1527,7 +1633,8 @@
       "causal inference",
       "panel data"
     ],
-    "best_for": "Optimized synthetic control with multiple algorithm options"
+    "best_for": "Optimized synthetic control with multiple algorithm options",
+    "language": "Python"
   },
   {
     "name": "aipyw",
@@ -1542,7 +1649,8 @@
       "AIPW",
       "treatment effects"
     ],
-    "best_for": "Fast AIPW estimation with sklearn models"
+    "best_for": "Fast AIPW estimation with sklearn models",
+    "language": "Python"
   },
   {
     "name": "torchonometrics",
@@ -1557,7 +1665,8 @@
       "computation",
       "PyTorch"
     ],
-    "best_for": "GPU-accelerated econometrics with PyTorch autodiff"
+    "best_for": "GPU-accelerated econometrics with PyTorch autodiff",
+    "language": "Python"
   },
   {
     "name": "econpizza",
@@ -1572,7 +1681,8 @@
       "DSGE",
       "HANK"
     ],
-    "best_for": "Nonlinear HANK models with aggregate shocks"
+    "best_for": "Nonlinear HANK models with aggregate shocks",
+    "language": "Python"
   },
   {
     "name": "pydsge",
@@ -1587,7 +1697,8 @@
       "DSGE",
       "Bayesian"
     ],
-    "best_for": "DSGE estimation with occasionally binding constraints"
+    "best_for": "DSGE estimation with occasionally binding constraints",
+    "language": "Python"
   },
   {
     "name": "gEconpy",
@@ -1602,7 +1713,8 @@
       "DSGE",
       "estimation"
     ],
-    "best_for": "Symbolic DSGE derivation with Dynare compatibility"
+    "best_for": "Symbolic DSGE derivation with Dynare compatibility",
+    "language": "Python"
   },
   {
     "name": "pynare",
@@ -1617,7 +1729,8 @@
       "DSGE",
       "Dynare"
     ],
-    "best_for": "Running Dynare models from Python"
+    "best_for": "Running Dynare models from Python",
+    "language": "Python"
   },
   {
     "name": "dcegm",
@@ -1632,7 +1745,8 @@
       "dynamic programming",
       "JAX"
     ],
-    "best_for": "Discrete-continuous choice models with EGM"
+    "best_for": "Discrete-continuous choice models with EGM",
+    "language": "Python"
   },
   {
     "name": "upper-envelope",
@@ -1647,7 +1761,8 @@
       "dynamic programming",
       "optimization"
     ],
-    "best_for": "Fast upper envelope computation for DC-EGM"
+    "best_for": "Fast upper envelope computation for DC-EGM",
+    "language": "Python"
   },
   {
     "name": "maketables",
@@ -1662,7 +1777,8 @@
       "tables",
       "visualization"
     ],
-    "best_for": "Multi-format regression tables from pyfixest/statsmodels"
+    "best_for": "Multi-format regression tables from pyfixest/statsmodels",
+    "language": "Python"
   },
   {
     "name": "jaxonometrics",
@@ -1677,7 +1793,8 @@
       "JAX",
       "GPU"
     ],
-    "best_for": "GPU-accelerated econometrics with JAX"
+    "best_for": "GPU-accelerated econometrics with JAX",
+    "language": "Python"
   },
   {
     "name": "y0",
@@ -1692,7 +1809,8 @@
       "graphs",
       "identification"
     ],
-    "best_for": "Causal graph manipulation and do-calculus"
+    "best_for": "Causal graph manipulation and do-calculus",
+    "language": "Python"
   },
   {
     "name": "pysyncon",
@@ -1707,7 +1825,8 @@
       "causal inference",
       "panel data"
     ],
-    "best_for": "R Synth-compatible synthetic control in Python"
+    "best_for": "R Synth-compatible synthetic control in Python",
+    "language": "Python"
   },
   {
     "name": "synthdid",
@@ -1722,7 +1841,8 @@
       "synthetic control",
       "causal inference"
     ],
-    "best_for": "Synthetic DiD combining SC and DiD methods"
+    "best_for": "Synthetic DiD combining SC and DiD methods",
+    "language": "Python"
   },
   {
     "name": "FixedEffectModel",
@@ -1737,7 +1857,8 @@
       "fixed effects",
       "IV"
     ],
-    "best_for": "Panel regression with comprehensive IV diagnostics"
+    "best_for": "Panel regression with comprehensive IV diagnostics",
+    "language": "Python"
   },
   {
     "name": "appelpy",
@@ -1752,7 +1873,8 @@
       "linear models",
       "Stata"
     ],
-    "best_for": "Stata-like econometrics workflow in Python"
+    "best_for": "Stata-like econometrics workflow in Python",
+    "language": "Python"
   },
   {
     "name": "First Course in Causal Inference (Python)",
@@ -1767,7 +1889,8 @@
       "education",
       "textbook"
     ],
-    "best_for": "Learning causal inference with Peng Ding's textbook"
+    "best_for": "Learning causal inference with Peng Ding's textbook",
+    "language": "Python"
   },
   {
     "name": "Computational Methods for practitioners",
@@ -1782,7 +1905,8 @@
       "computation",
       "textbook"
     ],
-    "best_for": "Comprehensive computational economics course"
+    "best_for": "Comprehensive computational economics course",
+    "language": "Python"
   },
   {
     "name": "Econ Project Templates",
@@ -1797,7 +1921,8 @@
       "templates",
       "workflow"
     ],
-    "best_for": "Starting reproducible economics projects"
+    "best_for": "Starting reproducible economics projects",
+    "language": "Python"
   },
   {
     "name": "Python Packages for Applied Economists",
@@ -1811,7 +1936,8 @@
       "curated list",
       "resources"
     ],
-    "best_for": "Discovering econometrics packages by use case"
+    "best_for": "Discovering econometrics packages by use case",
+    "language": "Python"
   },
   {
     "name": "Awesome Economics",
@@ -1825,7 +1951,8 @@
       "curated list",
       "resources"
     ],
-    "best_for": "Comprehensive economics resource directory"
+    "best_for": "Comprehensive economics resource directory",
+    "language": "Python"
   },
   {
     "name": "mcf (Modified Causal Forest)",
@@ -1840,7 +1967,8 @@
       "treatment effects",
       "policy learning"
     ],
-    "best_for": "CATE estimation with policy tree optimization"
+    "best_for": "CATE estimation with policy tree optimization",
+    "language": "Python"
   },
   {
     "name": "CATENets",
@@ -1855,7 +1983,8 @@
       "deep learning",
       "JAX"
     ],
-    "best_for": "GPU-accelerated neural CATE estimation"
+    "best_for": "GPU-accelerated neural CATE estimation",
+    "language": "Python"
   },
   {
     "name": "NetworkCausalTree",
@@ -1870,7 +1999,8 @@
       "networks",
       "spillovers"
     ],
-    "best_for": "Treatment effects with network interference"
+    "best_for": "Treatment effects with network interference",
+    "language": "Python"
   },
   {
     "name": "PySensemakr",
@@ -1885,7 +2015,8 @@
       "sensitivity analysis",
       "robustness"
     ],
-    "best_for": "Sensitivity analysis with publication-ready contour plots"
+    "best_for": "Sensitivity analysis with publication-ready contour plots",
+    "language": "Python"
   },
   {
     "name": "gcimpute",
@@ -1899,7 +2030,8 @@
       "missing data",
       "imputation"
     ],
-    "best_for": "Mixed-type missing data imputation with copulas"
+    "best_for": "Mixed-type missing data imputation with copulas",
+    "language": "Python"
   },
   {
     "name": "miceforest",
@@ -1914,7 +2046,8 @@
       "imputation",
       "machine learning"
     ],
-    "best_for": "Fast MICE imputation with LightGBM"
+    "best_for": "Fast MICE imputation with LightGBM",
+    "language": "Python"
   },
   {
     "name": "tea-tasting",
@@ -1929,7 +2062,8 @@
       "experimentation",
       "data warehouses"
     ],
-    "best_for": "In-warehouse A/B test analysis with variance reduction"
+    "best_for": "In-warehouse A/B test analysis with variance reduction",
+    "language": "Python"
   },
   {
     "name": "Ambrosia",
@@ -1944,7 +2078,8 @@
       "experimentation",
       "Spark"
     ],
-    "best_for": "End-to-end A/B testing with PySpark"
+    "best_for": "End-to-end A/B testing with PySpark",
+    "language": "Python"
   },
   {
     "name": "savvi",
@@ -1959,7 +2094,8 @@
       "A/B testing",
       "anytime valid"
     ],
-    "best_for": "Always-valid sequential inference for experiments"
+    "best_for": "Always-valid sequential inference for experiments",
+    "language": "Python"
   },
   {
     "name": "expectation",
@@ -1974,7 +2110,8 @@
       "e-values",
       "hypothesis testing"
     ],
-    "best_for": "E-value based sequential hypothesis testing"
+    "best_for": "E-value based sequential hypothesis testing",
+    "language": "Python"
   },
   {
     "name": "GeoLift",
@@ -1989,7 +2126,8 @@
       "synthetic control",
       "incrementality"
     ],
-    "best_for": "Meta's geo-level incrementality measurement"
+    "best_for": "Meta's geo-level incrementality measurement",
+    "language": "Python"
   },
   {
     "name": "trimmed_match",
@@ -2004,7 +2142,8 @@
       "robust statistics",
       "incrementality"
     ],
-    "best_for": "Robust paired geo experiment analysis"
+    "best_for": "Robust paired geo experiment analysis",
+    "language": "Python"
   },
   {
     "name": "matched_markets",
@@ -2019,7 +2158,8 @@
       "market matching",
       "incrementality"
     ],
-    "best_for": "Optimal geo experiment group selection"
+    "best_for": "Optimal geo experiment group selection",
+    "language": "Python"
   },
   {
     "name": "matching",
@@ -2034,7 +2174,8 @@
       "market design",
       "Gale-Shapley"
     ],
-    "best_for": "Classic two-sided matching algorithms"
+    "best_for": "Classic two-sided matching algorithms",
+    "language": "Python"
   },
   {
     "name": "algmatch",
@@ -2049,7 +2190,8 @@
       "market design",
       "allocation"
     ],
-    "best_for": "Student-project-lecturer allocation"
+    "best_for": "Student-project-lecturer allocation",
+    "language": "Python"
   },
   {
     "name": "kep_solver",
@@ -2064,7 +2206,8 @@
       "market design",
       "kidney exchange"
     ],
-    "best_for": "Kidney exchange program optimization"
+    "best_for": "Kidney exchange program optimization",
+    "language": "Python"
   },
   {
     "name": "scarfmatch",
@@ -2079,7 +2222,8 @@
       "market design",
       "couples"
     ],
-    "best_for": "Residency matching with couples"
+    "best_for": "Residency matching with couples",
+    "language": "Python"
   },
   {
     "name": "Nashpy",
@@ -2093,7 +2237,8 @@
       "game theory",
       "Nash equilibrium"
     ],
-    "best_for": "2-player Nash equilibrium computation"
+    "best_for": "2-player Nash equilibrium computation",
+    "language": "Python"
   },
   {
     "name": "pygambit",
@@ -2108,7 +2253,8 @@
       "extensive form",
       "equilibrium"
     ],
-    "best_for": "N-player extensive form game solving"
+    "best_for": "N-player extensive form game solving",
+    "language": "Python"
   },
   {
     "name": "OpenSpiel",
@@ -2123,7 +2269,8 @@
       "reinforcement learning",
       "multi-agent"
     ],
-    "best_for": "Multi-agent RL and game-theoretic algorithms"
+    "best_for": "Multi-agent RL and game-theoretic algorithms",
+    "language": "Python"
   },
   {
     "name": "fairpy",
@@ -2138,7 +2285,8 @@
       "allocation",
       "mechanism design"
     ],
-    "best_for": "Fair division and cake-cutting algorithms"
+    "best_for": "Fair division and cake-cutting algorithms",
+    "language": "Python"
   },
   {
     "name": "fairpyx",
@@ -2153,7 +2301,8 @@
       "course allocation",
       "mechanism design"
     ],
-    "best_for": "Course-seat allocation with constraints"
+    "best_for": "Course-seat allocation with constraints",
+    "language": "Python"
   },
   {
     "name": "UpliftML",
@@ -2168,7 +2317,8 @@
       "treatment effects",
       "marketing"
     ],
-    "best_for": "Enterprise-scale uplift with ROI optimization"
+    "best_for": "Enterprise-scale uplift with ROI optimization",
+    "language": "Python"
   },
   {
     "name": "pylift",
@@ -2183,7 +2333,8 @@
       "treatment effects",
       "marketing"
     ],
-    "best_for": "Fast uplift with Qini curve evaluation"
+    "best_for": "Fast uplift with Qini curve evaluation",
+    "language": "Python"
   },
   {
     "name": "CausalLift",
@@ -2198,7 +2349,8 @@
       "observational data",
       "IPW"
     ],
-    "best_for": "Uplift from observational data with IPW"
+    "best_for": "Uplift from observational data with IPW",
+    "language": "Python"
   },
   {
     "name": "ziln_cltv",
@@ -2213,7 +2365,8 @@
       "customer analytics",
       "churn"
     ],
-    "best_for": "Customer LTV with zero-inflated distributions"
+    "best_for": "Customer LTV with zero-inflated distributions",
+    "language": "Python"
   },
   {
     "name": "pydtr",
@@ -2228,7 +2381,8 @@
       "reinforcement learning",
       "causal inference"
     ],
-    "best_for": "Multi-stage dynamic treatment regimes"
+    "best_for": "Multi-stage dynamic treatment regimes",
+    "language": "Python"
   },
   {
     "name": "gegravity",
@@ -2243,7 +2397,8 @@
       "gravity models",
       "structural"
     ],
-    "best_for": "GE structural gravity for trade policy"
+    "best_for": "GE structural gravity for trade policy",
+    "language": "Python"
   },
   {
     "name": "KECENI",
@@ -2258,7 +2413,8 @@
       "spillovers",
       "causal inference"
     ],
-    "best_for": "Network interference with node heterogeneity"
+    "best_for": "Network interference with node heterogeneity",
+    "language": "Python"
   },
   {
     "name": "CausalNLP",
@@ -2273,7 +2429,8 @@
       "causal inference",
       "text"
     ],
-    "best_for": "Causal effects from text data"
+    "best_for": "Causal effects from text data",
+    "language": "Python"
   },
   {
     "name": "clusterbootstraps",
@@ -2288,7 +2445,8 @@
       "clustered errors",
       "inference"
     ],
-    "best_for": "Alternative cluster bootstrap implementations"
+    "best_for": "Alternative cluster bootstrap implementations",
+    "language": "Python"
   },
   {
     "name": "MCD",
@@ -2303,7 +2461,8 @@
       "time series",
       "heterogeneous"
     ],
-    "best_for": "Time-varying causal structure discovery"
+    "best_for": "Time-varying causal structure discovery",
+    "language": "Python"
   },
   {
     "name": "SDCI",
@@ -2318,7 +2477,8 @@
       "time series",
       "regime switching"
     ],
-    "best_for": "State-dependent causal discovery"
+    "best_for": "State-dependent causal discovery",
+    "language": "Python"
   },
   {
     "name": "MAPIE",
@@ -2333,7 +2493,8 @@
       "uncertainty",
       "intervals"
     ],
-    "best_for": "Model-agnostic prediction intervals"
+    "best_for": "Model-agnostic prediction intervals",
+    "language": "Python"
   },
   {
     "name": "TorchCP",
@@ -2348,7 +2509,8 @@
       "PyTorch",
       "deep learning"
     ],
-    "best_for": "Conformal prediction for neural networks"
+    "best_for": "Conformal prediction for neural networks",
+    "language": "Python"
   },
   {
     "name": "crepes",
@@ -2363,7 +2525,8 @@
       "regression",
       "intervals"
     ],
-    "best_for": "Simple conformal regressors"
+    "best_for": "Simple conformal regressors",
+    "language": "Python"
   },
   {
     "name": "puncc",
@@ -2378,7 +2541,8 @@
       "uncertainty",
       "calibration"
     ],
-    "best_for": "Calibrated prediction sets"
+    "best_for": "Calibrated prediction sets",
+    "language": "Python"
   },
   {
     "name": "fortuna",
@@ -2393,7 +2557,8 @@
       "Bayesian",
       "deep learning"
     ],
-    "best_for": "Deep learning uncertainty quantification"
+    "best_for": "Deep learning uncertainty quantification",
+    "language": "Python"
   },
   {
     "name": "CausalMotifs",
@@ -2408,7 +2573,8 @@
       "spillovers",
       "A/B testing"
     ],
-    "best_for": "Spillover effects in social networks"
+    "best_for": "Spillover effects in social networks",
+    "language": "Python"
   },
   {
     "name": "latenetwork",
@@ -2423,7 +2589,8 @@
       "noncompliance",
       "causal inference"
     ],
-    "best_for": "LATE with network effects"
+    "best_for": "LATE with network effects",
+    "language": "Python"
   },
   {
     "name": "testinterference",
@@ -2438,7 +2605,8 @@
       "spillovers",
       "hypothesis testing"
     ],
-    "best_for": "Testing for spillover effects"
+    "best_for": "Testing for spillover effects",
+    "language": "Python"
   },
   {
     "name": "spilled_t",
@@ -2453,7 +2621,8 @@
       "spillovers",
       "treatment effects"
     ],
-    "best_for": "Separating direct and spillover effects"
+    "best_for": "Separating direct and spillover effects",
+    "language": "Python"
   },
   {
     "name": "didet",
@@ -2468,7 +2637,8 @@
       "treatment timing",
       "causal inference"
     ],
-    "best_for": "DiD with general treatment patterns"
+    "best_for": "DiD with general treatment patterns",
+    "language": "Python"
   },
   {
     "name": "didhetero",
@@ -2483,7 +2653,8 @@
       "heterogeneous effects",
       "doubly robust"
     ],
-    "best_for": "Heterogeneous treatment effects in DiD"
+    "best_for": "Heterogeneous treatment effects in DiD",
+    "language": "Python"
   },
   {
     "name": "panelhetero",
@@ -2498,7 +2669,8 @@
       "heterogeneity",
       "unit effects"
     ],
-    "best_for": "Unit heterogeneity in panels"
+    "best_for": "Unit heterogeneity in panels",
+    "language": "Python"
   },
   {
     "name": "abracadabra",
@@ -2513,7 +2685,8 @@
       "A/B testing",
       "always-valid"
     ],
-    "best_for": "Continuous experiment monitoring"
+    "best_for": "Continuous experiment monitoring",
+    "language": "Python"
   },
   {
     "name": "TFP CausalImpact",
@@ -2528,7 +2701,8 @@
       "time series",
       "Bayesian"
     ],
-    "best_for": "TensorFlow-based causal impact analysis"
+    "best_for": "TensorFlow-based causal impact analysis",
+    "language": "Python"
   },
   {
     "name": "Benchpress",
@@ -2543,7 +2717,8 @@
       "benchmarking",
       "structure learning"
     ],
-    "best_for": "Comparing causal discovery algorithms"
+    "best_for": "Comparing causal discovery algorithms",
+    "language": "Python"
   },
   {
     "name": "causal-llm-bfs",
@@ -2558,7 +2733,8 @@
       "LLM",
       "graphs"
     ],
-    "best_for": "LLM-assisted causal discovery"
+    "best_for": "LLM-assisted causal discovery",
+    "language": "Python"
   },
   {
     "name": "Doubly-Debiased-Lasso",
@@ -2573,7 +2749,8 @@
       "Lasso",
       "debiased"
     ],
-    "best_for": "High-dim inference with confounding"
+    "best_for": "High-dim inference with confounding",
+    "language": "Python"
   },
   {
     "name": "deep-opt-auctions",
@@ -2588,7 +2765,8 @@
       "mechanism design",
       "deep learning"
     ],
-    "best_for": "Neural network auction design"
+    "best_for": "Neural network auction design",
+    "language": "Python"
   },
   {
     "name": "causal-curve",
@@ -2603,7 +2781,8 @@
       "continuous treatment",
       "GPS"
     ],
-    "best_for": "Dose-response curves for continuous treatments"
+    "best_for": "Dose-response curves for continuous treatments",
+    "language": "Python"
   },
   {
     "name": "pyregadj",
@@ -2618,7 +2797,8 @@
       "regression adjustment",
       "treatment effects"
     ],
-    "best_for": "Covariate adjustment in experiments"
+    "best_for": "Covariate adjustment in experiments",
+    "language": "Python"
   },
   {
     "name": "cvxpy",
@@ -2633,7 +2813,8 @@
       "linear programming",
       "quadratic programming"
     ],
-    "best_for": "Convex optimization with intuitive syntax"
+    "best_for": "Convex optimization with intuitive syntax",
+    "language": "Python"
   },
   {
     "name": "scipy.optimize",
@@ -2648,7 +2829,8 @@
       "minimization",
       "root finding"
     ],
-    "best_for": "General-purpose optimization \u2014 start here for basics"
+    "best_for": "General-purpose optimization \u2014 start here for basics",
+    "language": "Python"
   },
   {
     "name": "ortools",
@@ -2664,7 +2846,8 @@
       "scheduling",
       "constraint programming"
     ],
-    "best_for": "Production-ready combinatorial optimization"
+    "best_for": "Production-ready combinatorial optimization",
+    "language": "Python"
   },
   {
     "name": "gurobipy",
@@ -2680,7 +2863,8 @@
       "MIP",
       "commercial"
     ],
-    "best_for": "Best-in-class solver \u2014 free for academics"
+    "best_for": "Best-in-class solver \u2014 free for academics",
+    "language": "Python"
   },
   {
     "name": "langgraph",
@@ -2696,7 +2880,8 @@
       "workflows",
       "multi-agent"
     ],
-    "best_for": "Production agent workflows with state management"
+    "best_for": "Production agent workflows with state management",
+    "language": "Python"
   },
   {
     "name": "langchain",
@@ -2712,7 +2897,8 @@
       "tools",
       "RAG"
     ],
-    "best_for": "LLM framework \u2014 chains, tools, memory"
+    "best_for": "LLM framework \u2014 chains, tools, memory",
+    "language": "Python"
   },
   {
     "name": "crewai",
@@ -2728,7 +2914,8 @@
       "orchestration",
       "roles"
     ],
-    "best_for": "Role-based multi-agent teams"
+    "best_for": "Role-based multi-agent teams",
+    "language": "Python"
   },
   {
     "name": "openai-agents",
@@ -2744,6 +2931,7 @@
       "tools",
       "lightweight"
     ],
-    "best_for": "OpenAI's lightweight SDK \u2014 fast prototyping"
+    "best_for": "OpenAI's lightweight SDK \u2014 fast prototyping",
+    "language": "Python"
   }
 ]
