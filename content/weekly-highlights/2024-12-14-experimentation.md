@@ -156,7 +156,7 @@ Variance reduction: 77.8%
 | [Airbnb](https://medium.com/airbnb-engineering/experiments-at-airbnb-e2db3abf39e7) | Built ERF (Experiment Reporting Framework) for two-sided marketplace experiments. Uses interleaving for search ranking, achieving 50x sensitivity over A/B tests. |
 | [Uber](https://www.uber.com/blog/xp/) | XP platform handles experiments across Mobility, Delivery, and Freight. Uses CUPED and diff-in-diff for rider/driver marketplace experiments. |
 | [Booking.com](https://booking.ai/how-booking-com-increases-the-power-of-online-experiments-with-cuped-995d186fff1d) | Runs 25,000+ A/B tests annually. Every employee is trained to ask "should we test it?" Wrote foundational paper on CUPED implementation. |
-| [LinkedIn](https://engineering.linkedin.com/blog/2020/a-]b-testing-challenges) | Handles experimentation for 900M+ members. Published on challenges with ratio metrics and network effects in professional social networks. |
+| [LinkedIn](https://engineering.linkedin.com/blog/2020/building-inclusive-products-through-a-b-testing) | Handles experimentation for 900M+ members. Uses A/B testing to build inclusive products and measure impact across diverse user segments. |
 
 ## Further Reading
 

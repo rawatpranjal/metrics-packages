@@ -159,7 +159,7 @@ For synthetic control, use Meta's GeoLift package or the `SyntheticControlMethod
 | Company | How They Use Causal Inference |
 |---------|-------------------------------|
 | [Uber](https://www.uber.com/blog/causal-inference-at-uber/) | Uses DiD to correct pre-experiment bias in marketplace experiments. Mediation analysis reveals *why* treatments work. CausalML package for heterogeneous treatment effects. |
-| [DoorDash](https://doordash.engineering/2022/06/14/leveraging-causal-inference-to-generate-accurate-forecasts/) | Combines DiD and synthetic control for demand forecasting. Back-door adjustment when A/B testing isn't possible due to regulatory constraints. |
+| [DoorDash](https://careersatdoordash.com/blog/leveraging-causal-inference-to-generate-accurate-forecasts/) | Combines DiD and synthetic control for demand forecasting. Back-door adjustment when A/B testing isn't possible due to regulatory constraints. |
 | [Meta](https://facebookincubator.github.io/GeoLift/) | GeoLift package for geo-experiments using synthetic control. Essential for measuring ad effectiveness in post-cookie world. Powers marketing measurement across Meta's ad platform. |
 | [Lyft](https://eng.lyft.com/causal-forecasting-at-lyft-part-1-14cca6ff3d6d) | Causal forecasting combines time series with intervention analysis. Switchback experiments for marketplace dynamics. |
 | [Netflix](https://netflixtechblog.com/a-survey-of-causal-inference-applications-at-netflix-b62d25175e6f) | Instrumental variables for content recommendations. Quasi-experiments when full randomization isn't possible. |

@@ -1,4 +1,17 @@
 {{ define "main" }}
+<!-- All Data for Favorites Lookup -->
+<script id="all-data" type="application/json">
+{
+  "resource": {{ .Site.Data.resources | jsonify }},
+  "package": {{ .Site.Data.packages | jsonify }},
+  "dataset": {{ .Site.Data.datasets | jsonify }},
+  "talk": {{ .Site.Data.talks | jsonify }},
+  "book": {{ .Site.Data.books | jsonify }},
+  "career": {{ .Site.Data.career | jsonify }},
+  "community": {{ .Site.Data.community | jsonify }}
+}
+</script>
+
 <div class="page-container">
     <header class="page-header">
         <h1 class="page-title">
