@@ -9,7 +9,7 @@
 {{ $videos := where .Site.Data.talks "type" "in" (slice "Video" "YouTube Channel" "Interview" "Video Series" "Talks + Papers") }}
 {{ $podcasts := where .Site.Data.talks "type" "in" (slice "Podcast" "Podcast Series") }}
 {{ $blogs := where .Site.Data.community "category" "Blogs" }}
-{{ $industryBlogsFromResources := where .Site.Data.resources "category" "Industry Blogs" }}
+{{ $industryBlogsFromResources := where .Site.Data.resources "type" "Blog" }}
 {{ $books := .Site.Data.books }}
 {{ $monographs := where .Site.Data.resources "type" "in" (slice "Online Book" "Book + Lectures") }}
 
