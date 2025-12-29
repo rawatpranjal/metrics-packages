@@ -88,19 +88,7 @@
     <div id="resources-view" class="resources-grid">
         {{ range $domain := $domains }}
         <div class="domain-section" data-domain="{{ $domain }}">
-            <button class="domain-header" aria-expanded="true" type="button">
-                <h2 class="domain-title">{{ $domain }}</h2>
-                <span class="domain-count">
-                    {{ $count := 0 }}
-                    {{ range $.Site.Data.resources }}
-                        {{ if eq .domain $domain }}{{ $count = add $count 1 }}{{ end }}
-                    {{ end }}
-                    {{ $count }} resources
-                </span>
-                <svg class="collapse-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
-                    <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-            </button>
+            <h2 class="domain-title">{{ $domain }}</h2>
             <div class="domain-content">
                 {{ $domainCategories := slice }}
                 {{ range $.Site.Data.resources }}
@@ -157,18 +145,6 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // Initialize collapsible domain sections
-    document.querySelectorAll('.domain-header').forEach(function(header) {
-        header.addEventListener('click', function() {
-            var content = this.nextElementSibling;
-            var isExpanded = this.getAttribute('aria-expanded') === 'true';
-
-            this.setAttribute('aria-expanded', !isExpanded);
-            content.style.display = isExpanded ? 'none' : 'block';
-            this.querySelector('.collapse-icon').classList.toggle('rotated', isExpanded);
-        });
-    });
-
     // Domain-Category cascade filter
     var domainSelect = document.getElementById('domain-select');
     var categorySelect = document.getElementById('category-select');

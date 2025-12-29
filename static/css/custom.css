@@ -850,61 +850,20 @@ a:hover {
 
 /* Domain Section Styles */
 .domain-section {
-    margin-bottom: 1.5rem;
-    border: 1px solid var(--border-color);
-    border-radius: 10px;
-    overflow: hidden;
-    background: var(--bg-card);
-}
-
-.domain-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 1.25rem;
-    background: var(--bg-card);
-    cursor: pointer;
-    border: none;
-    width: 100%;
-    text-align: left;
-    transition: background 0.2s;
-    gap: 1rem;
-}
-
-.domain-header:hover {
-    background: var(--bg-hover);
+    margin-bottom: 2rem;
 }
 
 .domain-title {
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     font-weight: 600;
     color: var(--text-primary);
-    margin: 0;
-    flex: 1;
-}
-
-.domain-count {
-    color: var(--text-muted);
-    font-size: 0.85rem;
-    white-space: nowrap;
-}
-
-.collapse-icon {
-    width: 20px;
-    height: 20px;
-    transition: transform 0.2s;
-    color: var(--text-muted);
-    flex-shrink: 0;
-}
-
-.collapse-icon.rotated {
-    transform: rotate(180deg);
+    margin: 0 0 1rem 0;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--accent);
 }
 
 .domain-content {
-    padding: 1rem 1.25rem 1.25rem;
-    background: var(--bg-primary);
-    border-top: 1px solid var(--border-light);
+    /* No special styling needed */
 }
 
 .domain-select {
