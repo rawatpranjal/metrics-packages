@@ -4,7 +4,7 @@ date: 2024-12-21
 category: "Causal Inference"
 description: "How to estimate causal effects when you can't run an experiment"
 tags: ["Causal Inference", "DiD", "Synthetic Control", "Matching", "Observational Studies"]
-draft: false
+draft: true
 ---
 
 ## The Problem

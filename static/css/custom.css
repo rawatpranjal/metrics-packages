@@ -394,18 +394,17 @@ a:hover {
 
 .resource-card {
     background: var(--bg-card);
-    border-radius: 10px;
+    border-radius: 12px;
     padding: 1.25rem;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
     border: 1px solid var(--border-color);
     display: flex;
     flex-direction: column;
-    transition: box-shadow 0.2s, transform 0.2s;
+    transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 .resource-card:hover {
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    transform: translateY(-2px);
+    border-color: var(--accent-color);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 .resource-card .card-header {
@@ -438,12 +437,13 @@ a:hover {
 }
 
 .resource-type {
-    font-size: 0.75rem;
-    padding: 0.2rem 0.5rem;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.6rem;
     background: var(--accent-bg);
     color: var(--accent);
     border-radius: 4px;
-    font-weight: 500;
+    font-weight: 600;
+    text-transform: uppercase;
     white-space: nowrap;
 }
 
@@ -1030,10 +1030,10 @@ a:hover {
     display: inline-block;
     background: var(--accent-bg);
     color: var(--accent);
-    padding: 0.25rem 0.6rem;
+    padding: 0.2rem 0.6rem;
     border-radius: 4px;
-    font-size: 0.75rem;
-    font-weight: 500;
+    font-size: 0.7rem;
+    font-weight: 600;
     max-width: 180px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -2348,10 +2348,11 @@ mark {
 }
 
 .type-badge {
-    padding: 0.25rem 0.6rem;
-    border-radius: 12px;
-    font-size: 0.75rem;
-    font-weight: 500;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .type-badge.type-package { background: var(--accent-bg); color: var(--accent); }
@@ -2889,9 +2890,8 @@ mark {
 }
 
 .topic-card:hover {
-    border-color: var(--accent);
+    border-color: var(--accent-color);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    transform: translateY(-2px);
     text-decoration: none;
 }
 
@@ -3000,12 +3000,13 @@ mark {
     padding: 1.25rem;
     background: var(--bg-card);
     border: 1px solid var(--border-color);
-    border-radius: 10px;
-    transition: border-color 0.2s;
+    border-radius: 12px;
+    transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 .paper-card:hover {
-    border-color: var(--accent);
+    border-color: var(--accent-color);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 .paper-header {
@@ -3808,7 +3809,7 @@ mark {
     font-size: 0.7rem;
     font-weight: 600;
     text-transform: uppercase;
-    padding: 0.2rem 0.5rem;
+    padding: 0.2rem 0.6rem;
     border-radius: 4px;
     background: var(--bg-hover);
     color: var(--text-muted);
