@@ -2933,5 +2933,74 @@
     ],
     "best_for": "OpenAI's lightweight SDK \u2014 fast prototyping",
     "language": "Python"
+  },
+  {
+    "name": "SynapseML",
+    "description": "Microsoft's distributed ML library with native Double ML (DoubleMLEstimator) for heterogeneous treatment effects at scale.",
+    "category": "Double/Debiased Machine Learning (DML)",
+    "docs_url": "https://microsoft.github.io/SynapseML/",
+    "github_url": "https://github.com/microsoft/SynapseML",
+    "url": "https://github.com/microsoft/SynapseML",
+    "install": "pip install synapseml",
+    "tags": [
+      "spark",
+      "causal inference",
+      "double ML",
+      "distributed"
+    ],
+    "best_for": "Causal inference at 100M+ rows on Spark clusters",
+    "language": "Python"
+  },
+  {
+    "name": "TS-Flint",
+    "description": "Two Sigma's time-series library for Spark with optimized temporal joins, as-of joins, and distributed OLS for high-frequency data.",
+    "category": "Time Series Econometrics",
+    "docs_url": "https://ts-flint.readthedocs.io/",
+    "github_url": "https://github.com/twosigma/flint",
+    "url": "https://github.com/twosigma/flint",
+    "install": "pip install ts-flint",
+    "tags": [
+      "spark",
+      "time series",
+      "temporal joins",
+      "fintech"
+    ],
+    "best_for": "High-frequency financial data with inexact timestamp matching",
+    "language": "Python"
+  },
+  {
+    "name": "Apache Sedona",
+    "description": "Distributed spatial analytics engine (formerly GeoSpark) with spatial SQL, K-NN joins, and range queries for spatial econometrics.",
+    "category": "Spatial Econometrics",
+    "docs_url": "https://sedona.apache.org/",
+    "github_url": "https://github.com/apache/sedona",
+    "url": "https://github.com/apache/sedona",
+    "install": "pip install apache-sedona",
+    "tags": [
+      "spark",
+      "spatial",
+      "GIS",
+      "distributed"
+    ],
+    "best_for": "Constructing spatial weight matrices and distance-based instruments at scale",
+    "language": "Python"
+  },
+  {
+    "name": "H2O Sparkling Water",
+    "description": "H2O's distributed ML engine on Spark with GLM/GAM that provides p-values, confidence intervals, and Tweedie/Gamma distributions.",
+    "category": "Core Libraries & Linear Models",
+    "docs_url": "https://docs.h2o.ai/sparkling-water/",
+    "github_url": "https://github.com/h2oai/sparkling-water",
+    "url": "https://github.com/h2oai/sparkling-water",
+    "install": "pip install h2o_pysparkling_3.4",
+    "tags": [
+      "spark",
+      "GLM",
+      "GAM",
+      "distributed",
+      "p-values"
+    ],
+    "best_for": "Econometric inference (p-values, CIs) at Spark scale",
+    "language": "Python"
   }
 ]
