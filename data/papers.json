@@ -39,7 +39,7 @@
               "title": "Diagnosing Sample Ratio Mismatch in Online Controlled Experiments: A Taxonomy and Rules of Thumb for Practitioners",
               "authors": "Aleksander Fabijan, Jayant Gupchup, Somit Gupta, Jeff Omhover, Wen Qin, Lukas Vermeer, Pavel Dmitriev",
               "year": 2019,
-              "description": "The definitive SRM paper from Microsoft/Booking.com\u2014provides taxonomy of causes and 10 diagnostic rules; ~6% of experiments exhibit SRM.",
+              "description": "The definitive SRM paper from Microsoft/Booking.com—provides taxonomy of causes and 10 diagnostic rules; ~6% of experiments exhibit SRM.",
               "url": "https://dl.acm.org/doi/10.1145/3292500.3330722",
               "tags": [
                 "Experimentation",
@@ -63,7 +63,7 @@
               "title": "A Dirty Dozen: Twelve Common Metric Interpretation Pitfalls in Online Controlled Experiments",
               "authors": "Pavel Dmitriev, Somit Gupta, Dong Woo Kim, Garnet Vaz",
               "year": 2017,
-              "description": "Essential guide to metric design\u2014introduces metric taxonomy (OEC, guardrail, diagnostic) with real experiment examples.",
+              "description": "Essential guide to metric design—introduces metric taxonomy (OEC, guardrail, diagnostic) with real experiment examples.",
               "url": "https://dl.acm.org/doi/10.1145/3097983.3098024",
               "tags": [
                 "Experimentation",
@@ -117,7 +117,7 @@
               "title": "Machine Learning for Variance Reduction in Online Experiments",
               "authors": "Yongyi Guo, Dominic Coey, Mikael Konutgan, Wenting Li, Chris Schoener, Matt Goldman",
               "year": 2021,
-              "description": "Introduces MLRATE\u2014extends CUPED to ML models via cross-fitting; achieved 70%+ variance reduction over difference-in-means at Meta.",
+              "description": "Introduces MLRATE—extends CUPED to ML models via cross-fitting; achieved 70%+ variance reduction over difference-in-means at Meta.",
               "url": "https://proceedings.neurips.cc/paper/2021/hash/488b084119a1c7a4950f00706ec7ea16-Abstract.html",
               "tags": [
                 "Experimentation",
@@ -129,7 +129,7 @@
               "title": "Adjusting Treatment Effect Estimates by Post-Stratification in Randomized Experiments",
               "authors": "Luke Miratrix, Jasjeet Sekhon, Bin Yu",
               "year": 2013,
-              "description": "Theoretical foundation for post-stratification; proves it's nearly as efficient as blocking with variance difference O(1/n\u00b2).",
+              "description": "Theoretical foundation for post-stratification; proves it's nearly as efficient as blocking with variance difference O(1/n²).",
               "url": "https://rss.onlinelibrary.wiley.com/doi/10.1111/j.1467-9868.2012.01048.x",
               "tags": [
                 "Experimentation",
@@ -169,7 +169,7 @@
             },
             {
               "title": "Safe Testing",
-              "authors": "Peter Gr\u00fcnwald, Rianne de Heide, Wouter Koolen",
+              "authors": "Peter Grünwald, Rianne de Heide, Wouter Koolen",
               "year": 2019,
               "description": "E-values and safe anytime-valid inference that allows optional stopping while controlling type I error.",
               "url": "https://arxiv.org/abs/1906.07801",
@@ -181,7 +181,7 @@
             },
             {
               "title": "A/B Testing with Fat Tails",
-              "authors": "Eduardo Azevedo, Alex Deng, Jos\u00e9 Montiel Olea, Justin Rao, E. Glen Weyl",
+              "authors": "Eduardo Azevedo, Alex Deng, José Montiel Olea, Justin Rao, E. Glen Weyl",
               "year": 2019,
               "description": "Addresses the problem of highly variable metrics in experiments and proposes robust statistical methods.",
               "url": "https://arxiv.org/abs/1901.04932",
@@ -195,7 +195,7 @@
               "title": "A Multiple Testing Procedure for Clinical Trials",
               "authors": "Peter O'Brien, Thomas Fleming",
               "year": 1979,
-              "description": "Foundational classic (3,200+ citations)\u2014established group sequential boundaries that all modern methods build upon.",
+              "description": "Foundational classic (3,200+ citations)—established group sequential boundaries that all modern methods build upon.",
               "url": "https://www.jstor.org/stable/2530245",
               "tags": [
                 "Experimentation",
@@ -247,7 +247,7 @@
             },
             {
               "title": "Estimating Peer Effects in Networks with Peer Encouragement Designs",
-              "authors": "Dean Eckles, Ren\u00e9 Kizilcec, Eytan Bakshy",
+              "authors": "Dean Eckles, René Kizilcec, Eytan Bakshy",
               "year": 2016,
               "description": "Two-stage randomization design for identifying peer effects in social networks.",
               "url": "https://www.pnas.org/content/113/27/7316",
@@ -273,7 +273,7 @@
               "title": "Estimating Average Causal Effects Under General Interference",
               "authors": "Peter Aronow, Cyrus Samii",
               "year": 2017,
-              "description": "The seminal exposure mapping paper\u2014unified framework for design, exposure mapping, and estimands under network interference.",
+              "description": "The seminal exposure mapping paper—unified framework for design, exposure mapping, and estimands under network interference.",
               "url": "https://projecteuclid.org/journals/annals-of-applied-statistics/volume-11/issue-4/Estimating-average-causal-effects-under-general-interference-with-application-to/10.1214/16-AOAS1005.full",
               "tags": [
                 "Experimentation",
@@ -283,9 +283,9 @@
             },
             {
               "title": "Design and Analysis of Bipartite Experiments Under a Linear Exposure-Response Model",
-              "authors": "Christopher Harshaw, Fredrik S\u00e4vje, David Eisenstat, Vahab Mirrokni, Jean Pouget-Abadie",
+              "authors": "Christopher Harshaw, Fredrik Sävje, David Eisenstat, Vahab Mirrokni, Jean Pouget-Abadie",
               "year": 2023,
-              "description": "Essential for two-sided marketplaces\u2014introduces ERL estimator for buyer/seller and rider/driver experiment structures.",
+              "description": "Essential for two-sided marketplaces—introduces ERL estimator for buyer/seller and rider/driver experiment structures.",
               "url": "https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-17/issue-1/Design-and-analysis-of-bipartite-experiments-under-a-linear-exposure/10.1214/23-EJS2111.full",
               "tags": [
                 "Experimentation",
@@ -349,7 +349,7 @@
               "title": "Design and Analysis of Switchback Experiments",
               "authors": "Iavor Bojinov, David Simchi-Levi, Jinglong Zhao",
               "year": 2023,
-              "description": "The definitive switchback paper\u2014optimal design under carryover effects with minimax formulation; used by Uber, Lyft, DoorDash.",
+              "description": "The definitive switchback paper—optimal design under carryover effects with minimax formulation; used by Uber, Lyft, DoorDash.",
               "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2022.4386",
               "tags": [
                 "Experimentation",
@@ -428,7 +428,7 @@
               "title": "Evaluating the Surrogate Index as a Decision-Making Tool Using 200 A/B Tests at Netflix",
               "authors": "Di Zhang, Sophia Zhao, Maria Dimakopoulou, Diarle Le, Nathan Kallus",
               "year": 2023,
-              "description": "Largest empirical validation of surrogates\u201495% consistency between 14-day surrogate predictions and 63-day outcomes across 1,098 test arms.",
+              "description": "Largest empirical validation of surrogates—95% consistency between 14-day surrogate predictions and 63-day outcomes across 1,098 test arms.",
               "url": "https://arxiv.org/abs/2311.09857",
               "tags": [
                 "Experimentation",
@@ -503,7 +503,7 @@
               "title": "Entropy Balancing for Causal Effects: A Multivariate Reweighting Method to Produce Balanced Samples in Observational Studies",
               "authors": "Jens Hainmueller",
               "year": 2012,
-              "description": "Introduced entropy balancing, which achieves exact covariate balance through maximum entropy reweighting\u2014eliminating iterative propensity score model searching.",
+              "description": "Introduced entropy balancing, which achieves exact covariate balance through maximum entropy reweighting—eliminating iterative propensity score model searching.",
               "url": "https://www.cambridge.org/core/journals/political-analysis/article/entropy-balancing-for-causal-effects-a-multivariate-reweighting-method-to-produce-balanced-samples-in-observational-studies/164B3F1EC3C2F2D0C8B49C0FCAC0F1EC",
               "tags": [
                 "Observational Causal Inference",
@@ -515,7 +515,7 @@
               "title": "Doubly Robust Estimation in Missing Data and Causal Inference Models",
               "authors": "Heejung Bang, James M. Robins",
               "year": 2005,
-              "description": "Accessible exposition of the augmented IPW estimator, consistent if either propensity score or outcome model is correct\u2014the foundational 'doubly robust' property.",
+              "description": "Accessible exposition of the augmented IPW estimator, consistent if either propensity score or outcome model is correct—the foundational 'doubly robust' property.",
               "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1541-0420.2005.00377.x",
               "tags": [
                 "Observational Causal Inference",
@@ -579,9 +579,9 @@
             },
             {
               "title": "Two-Way Fixed Effects Estimators with Heterogeneous Treatment Effects",
-              "authors": "Cl\u00e9ment de Chaisemartin, Xavier D'Haultf\u0153uille",
+              "authors": "Clément de Chaisemartin, Xavier D'Haultfœuille",
               "year": 2020,
-              "description": "Demonstrates TWFE regressions estimate weighted sums of ATEs with potentially negative weights\u2014proposing the DIDM estimator as solution.",
+              "description": "Demonstrates TWFE regressions estimate weighted sums of ATEs with potentially negative weights—proposing the DIDM estimator as solution.",
               "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20181169",
               "tags": [
                 "Observational Causal Inference",
@@ -605,7 +605,7 @@
               "title": "A More Credible Approach to Parallel Trends",
               "authors": "Ashesh Rambachan, Jonathan Roth",
               "year": 2023,
-              "description": "Formal sensitivity analysis for parallel trends violations\u2014implemented in the widely-used HonestDiD package.",
+              "description": "Formal sensitivity analysis for parallel trends violations—implemented in the widely-used HonestDiD package.",
               "url": "https://academic.oup.com/restud/article/90/5/2555/7039335",
               "tags": [
                 "Observational Causal Inference",
@@ -660,7 +660,7 @@
               "title": "Matrix Completion Methods for Causal Panel Data Models",
               "authors": "Susan Athey, Mohsen Bayati, Nikolay Doudchenko, Guido Imbens, Khashayar Khosravi",
               "year": 2021,
-              "description": "Bridges matrix completion/ML with synthetic control using nuclear norm regularization\u2014handles staggered adoption and outperforms traditional SC.",
+              "description": "Bridges matrix completion/ML with synthetic control using nuclear norm regularization—handles staggered adoption and outperforms traditional SC.",
               "url": "https://www.tandfonline.com/doi/full/10.1080/01621459.2021.1891924",
               "tags": [
                 "Observational Causal Inference",
@@ -727,7 +727,7 @@
               "title": "Testing for Weak Instruments in Linear IV Regression",
               "authors": "James H. Stock, Motohiro Yogo",
               "year": 2005,
-              "description": "Foundational framework for detecting weak instruments\u2014the origin of the 'first-stage F > 10' rule now required in all IV applications.",
+              "description": "Foundational framework for detecting weak instruments—the origin of the 'first-stage F > 10' rule now required in all IV applications.",
               "url": "https://www.cambridge.org/core/books/abs/identification-and-inference-for-econometric-models/testing-for-weak-instruments-in-linear-iv-regression/4A6D2D96F83269DBC9B8E7E2D8D02455",
               "tags": [
                 "Observational Causal Inference",
@@ -739,7 +739,7 @@
               "title": "Quasi-Experimental Shift-Share Research Designs",
               "authors": "Kirill Borusyak, Peter Hull, Xavier Jaravel",
               "year": 2022,
-              "description": "Modern econometric framework for Bartik instruments\u2014identification follows from quasi-random shock assignment rather than exogenous shares.",
+              "description": "Modern econometric framework for Bartik instruments—identification follows from quasi-random shock assignment rather than exogenous shares.",
               "url": "https://academic.oup.com/restud/article/89/1/181/6294942",
               "tags": [
                 "Observational Causal Inference",
@@ -751,7 +751,7 @@
               "title": "Judging Judge Fixed Effects",
               "authors": "Brigham R. Frandsen, Lars Lefgren, Emily Leslie",
               "year": 2023,
-              "description": "Develops nonparametric tests for exclusion and monotonicity in examiner IV designs\u2014essential for criminal justice, disability, and immigration research.",
+              "description": "Develops nonparametric tests for exclusion and monotonicity in examiner IV designs—essential for criminal justice, disability, and immigration research.",
               "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20201860",
               "tags": [
                 "Observational Causal Inference",
@@ -794,7 +794,7 @@
               "title": "Manipulation of the Running Variable in the Regression Discontinuity Design: A Density Test",
               "authors": "Justin McCrary",
               "year": 2008,
-              "description": "Introduces the canonical density discontinuity test for detecting manipulation at the cutoff\u2014now a required falsification check in all RDD work.",
+              "description": "Introduces the canonical density discontinuity test for detecting manipulation at the cutoff—now a required falsification check in all RDD work.",
               "url": "https://www.sciencedirect.com/science/article/pii/S0304407607001133",
               "tags": [
                 "Observational Causal Inference",
@@ -806,7 +806,7 @@
               "title": "Optimal Bandwidth Choice for the Regression Discontinuity Estimator",
               "authors": "Guido Imbens, Karthik Kalyanaraman",
               "year": 2012,
-              "description": "Derives the MSE-optimal bandwidth for local linear RD estimation\u2014the first principled approach to bandwidth selection.",
+              "description": "Derives the MSE-optimal bandwidth for local linear RD estimation—the first principled approach to bandwidth selection.",
               "url": "https://academic.oup.com/restud/article/79/3/933/1533189",
               "tags": [
                 "Observational Causal Inference",
@@ -816,9 +816,9 @@
             },
             {
               "title": "Robust Nonparametric Confidence Intervals for Regression-Discontinuity Designs",
-              "authors": "Sebastian Calonico, Matias D. Cattaneo, Roc\u00edo Titiunik",
+              "authors": "Sebastian Calonico, Matias D. Cattaneo, Rocío Titiunik",
               "year": 2014,
-              "description": "Shows MSE-optimal bandwidths yield invalid conventional CIs and develops bias-corrected robust inference\u2014foundation for the rdrobust package.",
+              "description": "Shows MSE-optimal bandwidths yield invalid conventional CIs and develops bias-corrected robust inference—foundation for the rdrobust package.",
               "url": "https://onlinelibrary.wiley.com/doi/10.3982/ECTA11757",
               "tags": [
                 "Observational Causal Inference",
@@ -847,7 +847,7 @@
             },
             {
               "title": "Generic Machine Learning Inference on Heterogeneous Treatment Effects in Randomized Experiments",
-              "authors": "Victor Chernozhukov, Mert Demirer, Esther Duflo, Ivan Fern\u00e1ndez-Val",
+              "authors": "Victor Chernozhukov, Mert Demirer, Esther Duflo, Ivan Fernández-Val",
               "year": 2020,
               "description": "Framework for using any ML method to find heterogeneous effects with valid inference.",
               "url": "https://arxiv.org/abs/1712.04802",
@@ -859,7 +859,7 @@
             },
             {
               "title": "Metalearners for Estimating Heterogeneous Treatment Effects using Machine Learning",
-              "authors": "S\u00f6ren K\u00fcnzel, Jasjeet Sekhon, Peter Bickel, Bin Yu",
+              "authors": "Sören Künzel, Jasjeet Sekhon, Peter Bickel, Bin Yu",
               "year": 2019,
               "description": "Taxonomy of metalearners (S-learner, T-learner, X-learner) for CATE estimation.",
               "url": "https://www.pnas.org/content/116/10/4156",
@@ -873,7 +873,7 @@
               "title": "Quasi-Oracle Estimation of Heterogeneous Treatment Effects",
               "authors": "Xinkun Nie, Stefan Wager",
               "year": 2021,
-              "description": "Introduces the R-learner framework achieving quasi-oracle efficiency\u2014matching error bounds of an oracle knowing nuisance components.",
+              "description": "Introduces the R-learner framework achieving quasi-oracle efficiency—matching error bounds of an oracle knowing nuisance components.",
               "url": "https://academic.oup.com/biomet/article/108/2/299/5911092",
               "tags": [
                 "Observational Causal Inference",
@@ -885,7 +885,7 @@
               "title": "Towards Optimal Doubly Robust Estimation of Heterogeneous Causal Effects",
               "authors": "Edward H. Kennedy",
               "year": 2023,
-              "description": "Establishes model-free oracle inequalities for the DR-learner\u2014doubly robust CATE estimation achieves faster convergence rates.",
+              "description": "Establishes model-free oracle inequalities for the DR-learner—doubly robust CATE estimation achieves faster convergence rates.",
               "url": "https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-17/issue-2/Towards-optimal-doubly-robust-estimation-of-heterogeneous-causal-effects/10.1214/23-EJS2157.full",
               "tags": [
                 "Observational Causal Inference",
@@ -940,7 +940,7 @@
               "title": "Nonparametric Bounds on Treatment Effects",
               "authors": "Charles F. Manski",
               "year": 1990,
-              "description": "Foundational paper establishing the partial identification paradigm\u2014showing what can be learned under minimal assumptions when point identification fails.",
+              "description": "Foundational paper establishing the partial identification paradigm—showing what can be learned under minimal assumptions when point identification fails.",
               "url": "https://www.jstor.org/stable/2006592",
               "tags": [
                 "Observational Causal Inference",
@@ -952,7 +952,7 @@
               "title": "Training, Wages, and Sample Selection: Estimating Sharp Bounds on Treatment Effects",
               "authors": "David S. Lee",
               "year": 2009,
-              "description": "Developed the 'Lee bounds' trimming procedure for handling attrition under monotonicity\u2014now a standard robustness check for differential selection.",
+              "description": "Developed the 'Lee bounds' trimming procedure for handling attrition under monotonicity—now a standard robustness check for differential selection.",
               "url": "https://academic.oup.com/restud/article/76/3/1071/1590596",
               "tags": [
                 "Observational Causal Inference",
@@ -964,7 +964,7 @@
               "title": "Unobservable Selection and Coefficient Stability: Theory and Evidence",
               "authors": "Emily Oster",
               "year": 2019,
-              "description": "Shows how to jointly use coefficient movements and R-squared changes to bound omitted variable bias\u2014the workhorse sensitivity analysis.",
+              "description": "Shows how to jointly use coefficient movements and R-squared changes to bound omitted variable bias—the workhorse sensitivity analysis.",
               "url": "https://www.tandfonline.com/doi/full/10.1080/07350015.2016.1227711",
               "tags": [
                 "Observational Causal Inference",
@@ -976,7 +976,7 @@
               "title": "Selection on Observed and Unobserved Variables: Assessing the Effectiveness of Catholic Schools",
               "authors": "Joseph G. Altonji, Todd E. Elder, Christopher R. Taber",
               "year": 2005,
-              "description": "Pioneered the insight that selection on observables guides selection on unobservables\u2014framework for assessing confounding needed to explain away effects.",
+              "description": "Pioneered the insight that selection on observables guides selection on unobservables—framework for assessing confounding needed to explain away effects.",
               "url": "https://www.journals.uchicago.edu/doi/10.1086/426036",
               "tags": [
                 "Observational Causal Inference",
@@ -1039,7 +1039,7 @@
               "title": "Optimal Dynamic Pricing of Inventories with Stochastic Demand over Finite Horizons",
               "authors": "Guillermo Gallego, Garrett van Ryzin",
               "year": 1994,
-              "description": "The foundational paper for dynamic pricing theory\u2014establishes intensity control formulation, proves optimality of monotonically decreasing prices. 4,000+ citations.",
+              "description": "The foundational paper for dynamic pricing theory—establishes intensity control formulation, proves optimality of monotonically decreasing prices. 4,000+ citations.",
               "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.40.8.999",
               "tags": [
                 "Pricing",
@@ -1051,7 +1051,7 @@
               "title": "A Multiproduct Dynamic Pricing Problem and Its Applications to Network Yield Management",
               "authors": "Guillermo Gallego, Garrett van Ryzin",
               "year": 1997,
-              "description": "Extends dynamic pricing to multiple products sharing capacity constraints\u2014the theoretical foundation for airline network revenue management and cloud computing.",
+              "description": "Extends dynamic pricing to multiple products sharing capacity constraints—the theoretical foundation for airline network revenue management and cloud computing.",
               "url": "https://pubsonline.informs.org/doi/10.1287/opre.45.1.24",
               "tags": [
                 "Pricing",
@@ -1092,9 +1092,9 @@
             },
             {
               "title": "The Value of Fast Fashion: Quick Response, Enhanced Design, and Strategic Consumer Behavior",
-              "authors": "G\u00e9rard P. Cachon, Robert Swinney",
+              "authors": "Gérard P. Cachon, Robert Swinney",
               "year": 2011,
-              "description": "The definitive paper on fast fashion economics\u2014models how Zara-style systems mitigate strategic consumer behavior and reduce markdowns.",
+              "description": "The definitive paper on fast fashion economics—models how Zara-style systems mitigate strategic consumer behavior and reduce markdowns.",
               "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.1100.1303",
               "tags": [
                 "Pricing",
@@ -1104,7 +1104,7 @@
             },
             {
               "title": "Coordinating Clearance Markdown Sales of Seasonal Products in Retail Chains",
-              "authors": "Gabriel Bitran, Ren\u00e9 Caldentey, Susana Mondschein",
+              "authors": "Gabriel Bitran, René Caldentey, Susana Mondschein",
               "year": 1998,
               "description": "Foundational paper on multi-store clearance optimization using stochastic dynamic programming with real Falabella case study.",
               "url": "https://pubsonline.informs.org/doi/10.1287/opre.46.5.609",
@@ -1118,7 +1118,7 @@
               "title": "Dynamic Pricing and Learning: Historical Origins, Current Research, and New Directions",
               "authors": "Arnoud V. den Boer",
               "year": 2015,
-              "description": "The definitive survey on explore-exploit pricing literature\u2014synthesizes OR/MS, economics, marketing, and CS covering regret bounds and bandit connections.",
+              "description": "The definitive survey on explore-exploit pricing literature—synthesizes OR/MS, economics, marketing, and CS covering regret bounds and bandit connections.",
               "url": "https://www.sciencedirect.com/science/article/pii/S1876735415000021",
               "tags": [
                 "Pricing",
@@ -1171,9 +1171,9 @@
             },
             {
               "title": "Economics of a Bottleneck",
-              "authors": "Richard Arnott, Andr\u00e9 de Palma, Robin Lindsey",
+              "authors": "Richard Arnott, André de Palma, Robin Lindsey",
               "year": 1990,
-              "description": "The workhorse model for dynamic congestion pricing theory\u2014operationalized Vickrey's bottleneck concept with endogenous departure decisions and time-varying tolls.",
+              "description": "The workhorse model for dynamic congestion pricing theory—operationalized Vickrey's bottleneck concept with endogenous departure decisions and time-varying tolls.",
               "url": "https://www.sciencedirect.com/science/article/pii/009411909090028L",
               "tags": [
                 "Pricing",
@@ -1185,7 +1185,7 @@
               "title": "Platform Competition in Two-Sided Markets",
               "authors": "Jean-Charles Rochet, Jean Tirole",
               "year": 2003,
-              "description": "The foundational paper on two-sided market pricing\u2014derives optimal price allocation explaining why platforms price asymmetrically across sides.",
+              "description": "The foundational paper on two-sided market pricing—derives optimal price allocation explaining why platforms price asymmetrically across sides.",
               "url": "https://onlinelibrary.wiley.com/doi/10.1162/154247603322493212",
               "tags": [
                 "Pricing",
@@ -1197,7 +1197,7 @@
               "title": "Competition in Two-Sided Markets",
               "authors": "Mark Armstrong",
               "year": 2006,
-              "description": "Introduces the competitive bottlenecks framework where one side multi-homes\u2014explains monopoly power over access to single-homing customers.",
+              "description": "Introduces the competitive bottlenecks framework where one side multi-homes—explains monopoly power over access to single-homing customers.",
               "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1756-2171.2006.tb00037.x",
               "tags": [
                 "Pricing",
@@ -1214,7 +1214,7 @@
           "papers": [
             {
               "title": "Personalized Pricing and Consumer Welfare",
-              "authors": "Jean-Pierre Dub\u00e9, Sanjog Misra",
+              "authors": "Jean-Pierre Dubé, Sanjog Misra",
               "year": 2023,
               "description": "Analyzes welfare effects of machine learning-based personalized pricing.",
               "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/722220",
@@ -1240,7 +1240,7 @@
               "title": "Customer Poaching and Brand Switching",
               "authors": "Drew Fudenberg, Jean Tirole",
               "year": 2000,
-              "description": "The seminal paper on behavior-based price discrimination\u2014foundational duopoly model showing how firms use purchase history to discriminate. 2,000+ citations.",
+              "description": "The seminal paper on behavior-based price discrimination—foundational duopoly model showing how firms use purchase history to discriminate. 2,000+ citations.",
               "url": "https://onlinelibrary.wiley.com/doi/10.1111/1756-2171.00034",
               "tags": [
                 "Pricing",
@@ -1252,7 +1252,7 @@
               "title": "The Economics of Privacy",
               "authors": "Alessandro Acquisti, Curtis Taylor, Liad Wagman",
               "year": 2016,
-              "description": "The definitive JEL survey on privacy and personal data economics\u2014covers consumer tracking, welfare implications, and regulatory frameworks.",
+              "description": "The definitive JEL survey on privacy and personal data economics—covers consumer tracking, welfare implications, and regulatory frameworks.",
               "url": "https://www.aeaweb.org/articles?id=10.1257/jel.54.2.442",
               "tags": [
                 "Pricing",
@@ -1264,7 +1264,7 @@
               "title": "Approximating Purchase Propensities and Reservation Prices from Broad Consumer Tracking",
               "authors": "Benjamin Reed Shiller",
               "year": 2020,
-              "description": "Key paper demonstrating ML enables first-degree price discrimination\u2014shows big data increases potential profits by 14.55% vs 0.14% from demographics alone.",
+              "description": "Key paper demonstrating ML enables first-degree price discrimination—shows big data increases potential profits by 14.55% vs 0.14% from demographics alone.",
               "url": "https://onlinelibrary.wiley.com/doi/10.1111/iere.12441",
               "tags": [
                 "Pricing",
@@ -1317,7 +1317,7 @@
               "title": "Estimating Discrete-Choice Models of Product Differentiation",
               "authors": "Steven Berry",
               "year": 1994,
-              "description": "The foundational paper introducing the critical inversion technique for demand estimation\u2014enables estimation with IVs despite endogenous prices.",
+              "description": "The foundational paper introducing the critical inversion technique for demand estimation—enables estimation with IVs despite endogenous prices.",
               "url": "https://onlinelibrary.wiley.com/doi/10.2307/2555829",
               "tags": [
                 "Pricing",
@@ -1329,7 +1329,7 @@
               "title": "Differentiated Products Demand Systems from a Combination of Micro and Macro Data: The New Car Market",
               "authors": "Steven Berry, James Levinsohn, Ariel Pakes",
               "year": 2004,
-              "description": "Pioneered combining micro-level consumer data with aggregate market shares\u2014foundation for modern 'micro moments' approaches in pyBLP.",
+              "description": "Pioneered combining micro-level consumer data with aggregate market shares—foundation for modern 'micro moments' approaches in pyBLP.",
               "url": "https://www.journals.uchicago.edu/doi/10.1086/379939",
               "tags": [
                 "Pricing",
@@ -1341,7 +1341,7 @@
               "title": "Dynamic Online Pricing with Incomplete Information Using Multi-Armed Bandit Experiments",
               "authors": "Kanishka Misra, Eric M. Schwartz, Jacob Abernethy",
               "year": 2019,
-              "description": "The workhorse paper for online price experimentation\u2014extends MAB algorithms to incorporate microeconomic choice theory. 43% profit improvements.",
+              "description": "The workhorse paper for online price experimentation—extends MAB algorithms to incorporate microeconomic choice theory. 43% profit improvements.",
               "url": "https://pubsonline.informs.org/doi/10.1287/mksc.2018.1129",
               "tags": [
                 "Pricing",
@@ -1360,7 +1360,7 @@
               "title": "Dynamic Pricing Without Knowing the Demand Function: Risk Bounds and Near-Optimal Algorithms",
               "authors": "Omar Besbes, Assaf Zeevi",
               "year": 2009,
-              "description": "Field-defining paper establishing theoretical framework for dynamic pricing with demand learning. Pioneered regret-based analysis with \u221aT regret bounds.",
+              "description": "Field-defining paper establishing theoretical framework for dynamic pricing with demand learning. Pioneered regret-based analysis with √T regret bounds.",
               "url": "https://pubsonline.informs.org/doi/10.1287/opre.1090.0764",
               "tags": [
                 "Pricing",
@@ -1408,7 +1408,7 @@
               "title": "Feature-Based Dynamic Pricing",
               "authors": "Maxime Cohen, Ilan Lobel, Renato Paes Leme",
               "year": 2020,
-              "description": "Pioneering work on contextual pricing where products have feature vectors. Uses ellipsoid method to achieve O(d\u00b2 log d) regret. Winner of 2024 Revenue Management Prize.",
+              "description": "Pioneering work on contextual pricing where products have feature vectors. Uses ellipsoid method to achieve O(d² log d) regret. Winner of 2024 Revenue Management Prize.",
               "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2019.3485",
               "tags": [
                 "Pricing",
@@ -1475,7 +1475,7 @@
               "title": "Freemium as Optimal Menu Pricing",
               "authors": "Susumu Sato",
               "year": 2019,
-              "description": "Rigorous foundations for freemium models (Spotify, YouTube). Shows optimal menu consists of exactly two services\u2014ad-supported free and ad-free premium.",
+              "description": "Rigorous foundations for freemium models (Spotify, YouTube). Shows optimal menu consists of exactly two services—ad-supported free and ad-free premium.",
               "url": "https://www.sciencedirect.com/science/article/pii/S0167718718301395",
               "tags": [
                 "Pricing",
@@ -1492,7 +1492,7 @@
           "papers": [
             {
               "title": "Artificial Intelligence, Algorithmic Pricing, and Collusion",
-              "authors": "Emilio Calvano, Giacomo Calzolari, Vincenzo Denicol\u00f2, Sergio Pastorello",
+              "authors": "Emilio Calvano, Giacomo Calzolari, Vincenzo Denicolò, Sergio Pastorello",
               "year": 2020,
               "description": "Field-defining paper showing Q-learning algorithms autonomously learn supracompetitive prices without communication, sustaining collusion through punishment strategies.",
               "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20190623",
@@ -1518,7 +1518,7 @@
               "title": "Competition in Pricing Algorithms",
               "authors": "Zach Y. Brown, Alexander MacKay",
               "year": 2023,
-              "description": "Shows pricing algorithms generate supracompetitive prices through competitive equilibrium\u2014no collusion required. Uses high-frequency empirical data from online retailers.",
+              "description": "Shows pricing algorithms generate supracompetitive prices through competitive equilibrium—no collusion required. Uses high-frequency empirical data from online retailers.",
               "url": "https://www.aeaweb.org/articles?id=10.1257/mic.20210027",
               "tags": [
                 "Pricing",
@@ -1530,7 +1530,7 @@
               "title": "The Economics of Privacy",
               "authors": "Alessandro Acquisti, Curtis Taylor, Liad Wagman",
               "year": 2016,
-              "description": "Definitive JEL survey on privacy economics\u2014essential for understanding personalized pricing and price discrimination enabled by algorithmic data collection.",
+              "description": "Definitive JEL survey on privacy economics—essential for understanding personalized pricing and price discrimination enabled by algorithmic data collection.",
               "url": "https://www.aeaweb.org/articles?id=10.1257/jel.54.2.442",
               "tags": [
                 "Pricing",
@@ -1573,7 +1573,7 @@
               "title": "Thompson Sampling for Contextual Bandits with Linear Payoffs",
               "authors": "Shipra Agrawal, Navin Goyal",
               "year": 2013,
-              "description": "First theoretical regret guarantees for contextual Thompson Sampling. Proves \u00d5(d\u221aT) regret bounds. Novel martingale-based analysis became the template for subsequent work.",
+              "description": "First theoretical regret guarantees for contextual Thompson Sampling. Proves Õ(d√T) regret bounds. Novel martingale-based analysis became the template for subsequent work.",
               "url": "https://proceedings.mlr.press/v28/agrawal13.html",
               "tags": [
                 "Pricing",
@@ -1585,7 +1585,7 @@
               "title": "Dynamic Pricing Under a General Parametric Choice Model",
               "authors": "Josef Broder, Paat Rusmevichientong",
               "year": 2012,
-              "description": "Shows \u0398(\u221aT) regret for general parametric demand with MLE estimation. Important bridge between econometric demand estimation and online learning theory.",
+              "description": "Shows Θ(√T) regret for general parametric demand with MLE estimation. Important bridge between econometric demand estimation and online learning theory.",
               "url": "https://pubsonline.informs.org/doi/10.1287/opre.1120.1057",
               "tags": [
                 "Pricing",
@@ -1634,7 +1634,7 @@
             },
             {
               "title": "Churn Prediction in Mobile Social Games: Towards a Complete Assessment Using Survival Ensembles",
-              "authors": "\u00c1. Peri\u00e1\u00f1ez, A. Saas, A. Guitart, C. Magne",
+              "authors": "Á. Periáñez, A. Saas, A. Guitart, C. Magne",
               "year": 2016,
               "description": "Survival analysis approach to churn with right-censoring and dynamic hazards.",
               "url": "https://ieeexplore.ieee.org/document/7837911",
@@ -1758,7 +1758,7 @@
               "title": "A Behavior Model for Persuasive Design",
               "authors": "B.J. Fogg",
               "year": 2009,
-              "description": "Foundational paper introducing the Fogg Behavior Model: Behavior = Motivation \u00d7 Ability \u00d7 Trigger. The academic framework underlying 'Hooked' and most digital habit formation research. Over 4,500 citations; essential conceptual foundation for product designers.",
+              "description": "Foundational paper introducing the Fogg Behavior Model: Behavior = Motivation × Ability × Trigger. The academic framework underlying 'Hooked' and most digital habit formation research. Over 4,500 citations; essential conceptual foundation for product designers.",
               "url": "https://dl.acm.org/doi/abs/10.1145/1541948.1541999",
               "tags": [
                 "Subscriptions & Retention",
@@ -1766,7 +1766,7 @@
               ]
             },
             {
-              "title": "Does Gamification Work? \u2014 A Literature Review of Empirical Studies on Gamification",
+              "title": "Does Gamification Work? — A Literature Review of Empirical Studies on Gamification",
               "authors": "Juho Hamari, Jonna Koivisto, Harri Sarsa",
               "year": 2014,
               "description": "Seminal literature review establishing empirical evidence framework for gamification effects. Finds gamification provides positive effects on engagement but is highly context-dependent. Over 4,000 citations; the definitive academic synthesis on gamification.",
@@ -1802,7 +1802,7 @@
               "title": "Empirical Support for a Causal Relationship Between Gamification and Learning Outcomes",
               "authors": "Paul Denny, Fiona McDonald, Ruth Empson, Philip Kelly, Andrew Petersen",
               "year": 2018,
-              "description": "Provides causal evidence linking gamification to outcomes mediated by behavioral changes. Validates Landers' theory of gamified learning with empirical evidence\u2014important for understanding mechanism design.",
+              "description": "Provides causal evidence linking gamification to outcomes mediated by behavioral changes. Validates Landers' theory of gamified learning with empirical evidence—important for understanding mechanism design.",
               "url": "https://dl.acm.org/doi/abs/10.1145/3173574.3173885",
               "tags": [
                 "Subscriptions & Retention",
@@ -1818,7 +1818,7 @@
           "papers": [
             {
               "title": "Customer Attrition Analysis for Financial Services Using Proportional Hazard Models",
-              "authors": "Dirk Van den Poel, Bart Larivi\u00e8re",
+              "authors": "Dirk Van den Poel, Bart Larivière",
               "year": 2004,
               "description": "Comprehensive Cox proportional hazards application to customer churn with time-varying covariates. Demonstrates how demographic, environmental, and behavioral variables predict retention. Over 600 citations; foundational for survival analysis in marketing.",
               "url": "https://www.sciencedirect.com/science/article/abs/pii/S0377221703001068",
@@ -1942,7 +1942,7 @@
             },
             {
               "title": "In Pursuit of Enhanced Customer Retention Management: Review, Key Issues, and Future Directions",
-              "authors": "Eva Ascarza, Scott A. Neslin, Oded Netzer, Zachery Anderson, Peter S. Fader, Sunil Gupta, Bruce G.S. Hardie, Aur\u00e9lie Lemmens, Barak Libai, David Neal, Foster Provost, Rom Schrift",
+              "authors": "Eva Ascarza, Scott A. Neslin, Oded Netzer, Zachery Anderson, Peter S. Fader, Sunil Gupta, Bruce G.S. Hardie, Aurélie Lemmens, Barak Libai, David Neal, Foster Provost, Rom Schrift",
               "year": 2018,
               "description": "Comprehensive review from 12 leading CRM scholars covering social connectivity's role in retention. Synthesizes literature on network externalities in multiplayer gaming, communications, and shared services. Identifies research frontier for network-oriented retention.",
               "url": "https://link.springer.com/article/10.1007/s40547-017-0080-0",
@@ -2006,7 +2006,7 @@
               "title": "Counterspeculation, Auctions, and Competitive Sealed Tenders",
               "authors": "William Vickrey",
               "year": 1961,
-              "description": "Nobel Prize-winning paper establishing truthful bidding in second-price sealed-bid auctions\u2014the theoretical bedrock for all VCG mechanisms and modern ad auctions. ~8,000 citations.",
+              "description": "Nobel Prize-winning paper establishing truthful bidding in second-price sealed-bid auctions—the theoretical bedrock for all VCG mechanisms and modern ad auctions. ~8,000 citations.",
               "url": "https://www.jstor.org/stable/2977633",
               "tags": [
                 "Advertising",
@@ -2057,7 +2057,7 @@
             },
             {
               "title": "From First-Price Auctions to Incentive-Compatible Auctions",
-              "authors": "Yuan Deng, S\u00e9bastien Lahaie, Vahab Mirrokni",
+              "authors": "Yuan Deng, Sébastien Lahaie, Vahab Mirrokni",
               "year": 2021,
               "description": "Mechanism design for autobidders and the transition to first-price auctions.",
               "url": "https://arxiv.org/abs/2103.07012",
@@ -2146,7 +2146,7 @@
               "title": "Consumer Heterogeneity and Paid Search Effectiveness: A Large-Scale Field Experiment",
               "authors": "Thomas Blake, Chris Nosko, Steven Tadelis",
               "year": 2015,
-              "description": "Landmark eBay experiment showing paid search ROI vastly overestimated\u201499.5% of brand keyword traffic substitutes to organic. Demonstrates critical importance of experiments over observational methods. ~800 citations.",
+              "description": "Landmark eBay experiment showing paid search ROI vastly overestimated—99.5% of brand keyword traffic substitutes to organic. Demonstrates critical importance of experiments over observational methods. ~800 citations.",
               "url": "https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA12423",
               "tags": [
                 "Advertising",
@@ -2177,9 +2177,9 @@
             },
             {
               "title": "TV Advertising Effectiveness and Profitability: Generalizable Results from 288 Brands",
-              "authors": "Bradley T. Shapiro, G\u00fcnter J. Hitsch, Anna E. Tuchman",
+              "authors": "Bradley T. Shapiro, Günter J. Hitsch, Anna E. Tuchman",
               "year": 2021,
-              "description": "Border-strategy identification across 288 brands finds TV ad elasticity of ~0.025\u2014much lower than prior estimates; 80%+ of brands show negative marginal ROI.",
+              "description": "Border-strategy identification across 288 brands finds TV ad elasticity of ~0.025—much lower than prior estimates; 80%+ of brands show negative marginal ROI.",
               "url": "https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA17674",
               "tags": [
                 "Advertising",
@@ -2243,7 +2243,7 @@
               "title": "Personalization in Email Marketing: The Role of Noninformative Advertising Content",
               "authors": "Navdeep S. Sahni, S. Christian Wheeler, Pradeep Chintagunta",
               "year": 2018,
-              "description": "Field experiments showing adding recipient names increases open rates by 20%, sales leads by 31%\u2014even though names are non-informative. Gary Lilien Prize Finalist.",
+              "description": "Field experiments showing adding recipient names increases open rates by 20%, sales leads by 31%—even though names are non-informative. Gary Lilien Prize Finalist.",
               "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.2017.1066",
               "tags": [
                 "Advertising",
@@ -2336,7 +2336,7 @@
               "title": "The Effect of Privacy Regulation on the Data Industry: Empirical Evidence from GDPR",
               "authors": "Guy Aridor, Yeon-Koo Che, Tobias Salz",
               "year": 2023,
-              "description": "Shows GDPR's opt-in led to 12.5% drop in tracked consumers, but remaining consumers are more valuable\u2014demonstrating 'privacy externalities' where privacy-conscious consumers make opt-in consumers more predictable.",
+              "description": "Shows GDPR's opt-in led to 12.5% drop in tracked consumers, but remaining consumers are more valuable—demonstrating 'privacy externalities' where privacy-conscious consumers make opt-in consumers more predictable.",
               "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/1756-2171.12453",
               "tags": [
                 "Advertising",
@@ -2347,7 +2347,7 @@
               "title": "Privacy and Market Concentration: Intended and Unintended Consequences of the GDPR",
               "authors": "Garrett A. Johnson, Scott K. Shriver, Samuel G. Goldberg",
               "year": 2023,
-              "description": "Panel data on 27,000+ websites shows GDPR reduced vendor use by 15% but increased market concentration by 17%\u2014large platforms (Google, Facebook) gained share as small vendors dropped.",
+              "description": "Panel data on 27,000+ websites shows GDPR reduced vendor use by 15% but increased market concentration by 17%—large platforms (Google, Facebook) gained share as small vendors dropped.",
               "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2023.4709",
               "tags": [
                 "Advertising",
@@ -2369,7 +2369,7 @@
               "title": "Economic Consequences of Online Tracking Restrictions",
               "authors": "Klaus M. Miller, Bernd Skiera",
               "year": 2024,
-              "description": "Studies 128M ad impressions over 2.5 years; average cookie lifetime is 279 days with \u20ac2.52 value. One-year cookie restrictions would cost \u20ac904M annually in Europe. IJRM Best Article Award 2024.",
+              "description": "Studies 128M ad impressions over 2.5 years; average cookie lifetime is 279 days with €2.52 value. One-year cookie restrictions would cost €904M annually in Europe. IJRM Best Article Award 2024.",
               "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167811623000691",
               "tags": [
                 "Advertising",
@@ -2460,7 +2460,7 @@
               "title": "Television Advertising and Online Word-of-Mouth: An Empirical Investigation of Social TV Activity",
               "authors": "Beth L. Fossen, David A. Schweidel",
               "year": 2017,
-              "description": "Examines 'Social TV'\u2014joint consumption of TV and social media production. TV advertising impacts online WOM volume for both brands and programs. ~200 citations.",
+              "description": "Examines 'Social TV'—joint consumption of TV and social media production. TV advertising impacts online WOM volume for both brands and programs. ~200 citations.",
               "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.2016.1002",
               "tags": [
                 "Advertising",
@@ -2632,7 +2632,7 @@
               "title": "Competition in Two-Sided Markets",
               "authors": "Mark Armstrong",
               "year": 2006,
-              "description": "Introduces competitive bottlenecks\u2014when one side multi-homes, platforms compete fiercely on single-homers. ~4,500 citations.",
+              "description": "Introduces competitive bottlenecks—when one side multi-homes, platforms compete fiercely on single-homers. ~4,500 citations.",
               "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1756-2171.2006.tb00037.x",
               "tags": [
                 "Marketing & Growth",
@@ -2781,7 +2781,7 @@
             },
             {
               "title": "How Budget Allocation Relates to Productivity in Marketing Spending: An International Comparison",
-              "authors": "Marc Fischer, S\u00f6nke Albers, Nils Wagner, Monika Frie",
+              "authors": "Marc Fischer, Sönke Albers, Nils Wagner, Monika Frie",
               "year": 2011,
               "description": "INFORMS Practice Prize winner; 1-4% profit improvement from optimized allocation vs. heuristics. ~650 citations.",
               "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.1110.0665",
@@ -2794,7 +2794,7 @@
               "title": "Effect of Sales Promotion on Purchasing Behavior on Promotional and Non-Promotional Days",
               "authors": "Koen Pauwels, Dominique M. Hanssens, S. Siddarth",
               "year": 2002,
-              "description": "Promotions have virtually no permanent effects\u2014short-term ROI metrics mislead. ~1,200 citations.",
+              "description": "Promotions have virtually no permanent effects—short-term ROI metrics mislead. ~1,200 citations.",
               "url": "https://journals.sagepub.com/doi/abs/10.1509/jmkr.39.4.421.19114",
               "tags": [
                 "Marketing & Growth",
@@ -2857,7 +2857,7 @@
             },
             {
               "title": "Metalearners for Estimating Heterogeneous Treatment Effects Using Machine Learning",
-              "authors": "S\u00f6ren R. K\u00fcnzel, Jasjeet S. Sekhon, Peter J. Bickel, Bin Yu",
+              "authors": "Sören R. Künzel, Jasjeet S. Sekhon, Peter J. Bickel, Bin Yu",
               "year": 2019,
               "description": "Introduces S-learner, T-learner, and X-learner; optimal for imbalanced treatment groups. ~1,100 citations.",
               "url": "https://www.pnas.org/doi/abs/10.1073/pnas.1804597116",
@@ -2870,7 +2870,7 @@
               "title": "Double/Debiased Machine Learning for Treatment and Structural Parameters",
               "authors": "Victor Chernozhukov, Denis Chetverikov, Mert Demirer, Esther Duflo, Christian Hansen, Whitney Newey, James Robins",
               "year": 2018,
-              "description": "Foundation for causal ML\u2014Neyman-orthogonal scores + cross-fitting enable root-n consistent inference. ~4,000 citations.",
+              "description": "Foundation for causal ML—Neyman-orthogonal scores + cross-fitting enable root-n consistent inference. ~4,000 citations.",
               "url": "https://academic.oup.com/ectj/article-abstract/21/1/C1/5056401",
               "tags": [
                 "Marketing & Growth",
@@ -3010,7 +3010,7 @@
           "papers": [
             {
               "title": "The Endowed Progress Effect: How Artificial Advancement Increases Effort",
-              "authors": "Joseph C. Nunes, Xavier Dr\u00e8ze",
+              "authors": "Joseph C. Nunes, Xavier Drèze",
               "year": 2006,
               "description": "Artificial progress (pre-stamped cards) significantly increases completion; foundational loyalty psychology. ~1,800 citations.",
               "url": "https://academic.oup.com/jcr/article-abstract/32/4/504/1796392",
@@ -3297,7 +3297,7 @@
               "title": "Deep Interest Network for Click-Through Rate Prediction",
               "authors": "Guorui Zhou, Xiaoqiang Zhu, Chenru Song, Ying Fan, Han Zhu, Xiao Ma, Yanghui Yan, Junqi Jin, Han Li, Kun Gai",
               "year": 2018,
-              "description": "Attention mechanism adaptively learns user interest representations from behavioral history relative to candidate items\u2014solving fixed-length embedding bottleneck. Deployed on Alibaba main traffic.",
+              "description": "Attention mechanism adaptively learns user interest representations from behavioral history relative to candidate items—solving fixed-length embedding bottleneck. Deployed on Alibaba main traffic.",
               "url": "https://arxiv.org/abs/1706.06978",
               "tags": [
                 "Recommender Systems",
@@ -3601,7 +3601,7 @@
               "title": "LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation",
               "authors": "Xiangnan He, Kuan Deng, Xiang Wang, Yan Li, Yongdong Zhang, Meng Wang",
               "year": 2020,
-              "description": "Demonstrates feature transformation and nonlinear activation contribute little to CF; proposes simplified GCN using only neighborhood aggregation\u201416% improvement over NGCF with simpler architecture.",
+              "description": "Demonstrates feature transformation and nonlinear activation contribute little to CF; proposes simplified GCN using only neighborhood aggregation—16% improvement over NGCF with simpler architecture.",
               "url": "https://dl.acm.org/doi/10.1145/3397271.3401063",
               "tags": [
                 "Recommender Systems",
@@ -3795,7 +3795,7 @@
           "papers": [
             {
               "title": "Offline A/B Testing for Recommender Systems",
-              "authors": "Alexandre Gilotte, Cl\u00e9ment Calauz\u00e8nes, Thomas Nedelec, Alexandre Abraham, Simon Doll\u00e9",
+              "authors": "Alexandre Gilotte, Clément Calauzènes, Thomas Nedelec, Alexandre Abraham, Simon Dollé",
               "year": 2018,
               "description": "Counterfactual estimators for offline evaluation correlating with online A/B tests; addresses bias-variance tradeoffs in off-policy evaluation. Criteo production system enabling faster iteration.",
               "url": "https://dl.acm.org/doi/10.1145/3159652.3159687",
@@ -4208,7 +4208,7 @@
             },
             {
               "title": "SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking",
-              "authors": "Thibault Formal, Benjamin Piwowarski, St\u00e9phane Clinchant",
+              "authors": "Thibault Formal, Benjamin Piwowarski, Stéphane Clinchant",
               "year": 2021,
               "description": "Learned sparse representations via MLM head with sparsity regularization; bridges gap between dense and sparse retrieval with interpretable term weights.",
               "url": "https://dl.acm.org/doi/10.1145/3404835.3463098",
@@ -4330,7 +4330,7 @@
             },
             {
               "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-              "authors": "Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich K\u00fcttler, Mike Lewis, Wen-tau Yih, Tim Rockt\u00e4schel, Sebastian Riedel, Douwe Kiela",
+              "authors": "Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich Küttler, Mike Lewis, Wen-tau Yih, Tim Rocktäschel, Sebastian Riedel, Douwe Kiela",
               "year": 2020,
               "description": "THE paper that coined 'RAG'; combines pre-trained retriever with seq2seq generator for open-domain QA. Foundation for modern RAG systems.",
               "url": "https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html",
@@ -4373,7 +4373,7 @@
           "papers": [
             {
               "title": "Cumulated Gain-Based Evaluation of IR Techniques",
-              "authors": "Kalervo J\u00e4rvelin, Jaana Kek\u00e4l\u00e4inen",
+              "authors": "Kalervo Järvelin, Jaana Kekäläinen",
               "year": 2002,
               "description": "Introduced DCG and NDCG; most widely used ranking metric enabling graded relevance evaluation.",
               "url": "https://dl.acm.org/doi/10.1145/582415.582418",
@@ -4409,7 +4409,7 @@
             },
             {
               "title": "BEIR: A Heterogeneous Benchmark for Zero-shot Evaluation of Information Retrieval Models",
-              "authors": "Nandan Thakur, Nils Reimers, Andreas R\u00fcckl\u00e9, Abhishek Srivastava, Iryna Gurevych",
+              "authors": "Nandan Thakur, Nils Reimers, Andreas Rücklé, Abhishek Srivastava, Iryna Gurevych",
               "year": 2021,
               "description": "18-dataset benchmark testing out-of-distribution generalization; key finding that BM25 remains robust while dense models struggle on domain shift.",
               "url": "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/65b9eea6e1cc6bb9f0cd2a47751a186f-Abstract-round2.html",
@@ -4519,9 +4519,9 @@
             },
             {
               "title": "Novelty and Diversity in Information Retrieval Evaluation",
-              "authors": "Charles L.A. Clarke, Maheedhar Kolla, Gordon V. Cormack, Olga Vechtomova, Azin Ashkan, Stefan B\u00fcttcher, Ian MacKinnon",
+              "authors": "Charles L.A. Clarke, Maheedhar Kolla, Gordon V. Cormack, Olga Vechtomova, Azin Ashkan, Stefan Büttcher, Ian MacKinnon",
               "year": 2008,
-              "description": "Standard evaluation framework for diversity introducing \u03b1-nDCG; enabled TREC Web diversity track and systematic diversity research.",
+              "description": "Standard evaluation framework for diversity introducing α-nDCG; enabled TREC Web diversity track and systematic diversity research.",
               "url": "https://dl.acm.org/doi/10.1145/1390334.1390446",
               "tags": [
                 "Search & Ranking",
@@ -4763,7 +4763,7 @@
             },
             {
               "title": "Kidney Exchange",
-              "authors": "Alvin Roth, Tayfun S\u00f6nmez, M. Utku \u00dcnver",
+              "authors": "Alvin Roth, Tayfun Sönmez, M. Utku Ünver",
               "year": 2004,
               "description": "Applies mechanism design to organ allocation; created real kidney exchange programs; saves thousands of lives.",
               "url": "https://www.nber.org/papers/w10002",
@@ -5026,7 +5026,7 @@
               "title": "The Gender Earnings Gap in the Gig Economy: Evidence from over a Million Rideshare Drivers",
               "authors": "Cody Cook, Rebecca Diamond, Jonathan Hall, John List, Paul Oyer",
               "year": 2021,
-              "description": "Documents 7% gender gap among Uber drivers entirely explained by experience, preferences, and driving speed\u2014not discrimination.",
+              "description": "Documents 7% gender gap among Uber drivers entirely explained by experience, preferences, and driving speed—not discrimination.",
               "url": "https://academic.oup.com/restud/article/88/5/2210/6154047",
               "tags": [
                 "Matching & Marketplaces",
@@ -5067,7 +5067,7 @@
           "papers": [
             {
               "title": "The Role of Surge Pricing on a Service Platform with Self-Scheduling Capacity",
-              "authors": "G\u00e9rard Cachon, Kaitlin Daniels, Ruben Lobel",
+              "authors": "Gérard Cachon, Kaitlin Daniels, Ruben Lobel",
               "year": 2017,
               "description": "Foundational theory showing surge pricing benefits all stakeholders by better utilizing flexible capacity; explains when dynamic pricing is welfare-improving.",
               "url": "https://pubsonline.informs.org/doi/10.1287/msom.2017.0618",
@@ -5079,7 +5079,7 @@
             },
             {
               "title": "Artificial Intelligence, Algorithmic Pricing, and Collusion",
-              "authors": "Emilio Calvano, Giacomo Calzolari, Vincenzo Denicol\u00f2, Sergio Pastorello",
+              "authors": "Emilio Calvano, Giacomo Calzolari, Vincenzo Denicolò, Sergio Pastorello",
               "year": 2020,
               "description": "Demonstrates Q-learning algorithms autonomously learn collusive strategies; major antitrust implications for platform pricing.",
               "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20190623",
@@ -5591,7 +5591,7 @@
             },
             {
               "title": "School Choice: A Mechanism Design Approach",
-              "authors": "Atila Abdulkadiro\u011flu, Tayfun S\u00f6nmez",
+              "authors": "Atila Abdulkadiroğlu, Tayfun Sönmez",
               "year": 2003,
               "description": "Applies matching theory to school choice; shows Boston mechanism is manipulable; proposes strategy-proof alternatives.",
               "url": "https://www.aeaweb.org/articles?id=10.1257/000282803321455354",
@@ -5603,7 +5603,7 @@
             },
             {
               "title": "Kidney Exchange",
-              "authors": "Alvin Roth, Tayfun S\u00f6nmez, M. Utku \u00dcnver",
+              "authors": "Alvin Roth, Tayfun Sönmez, M. Utku Ünver",
               "year": 2004,
               "description": "Designs kidney exchange clearinghouses using top trading cycles; Nobel Prize application.",
               "url": "https://www.nber.org/papers/w10002",
@@ -5615,7 +5615,7 @@
             },
             {
               "title": "Changing the Boston School Choice Mechanism",
-              "authors": "Atila Abdulkadiro\u011flu, Parag Pathak, Alvin Roth, Tayfun S\u00f6nmez",
+              "authors": "Atila Abdulkadiroğlu, Parag Pathak, Alvin Roth, Tayfun Sönmez",
               "year": 2006,
               "description": "Documents Boston's switch to deferred acceptance; empirical evidence on strategic behavior.",
               "url": "https://www.nber.org/papers/w11965",
@@ -5627,7 +5627,7 @@
             },
             {
               "title": "Course Match: A Large-Scale Implementation of Approximate Competitive Equilibrium from Equal Incomes",
-              "authors": "Eric Budish, G\u00e9rard Cachon, Judd Kessler, Abraham Othman",
+              "authors": "Eric Budish, Gérard Cachon, Judd Kessler, Abraham Othman",
               "year": 2017,
               "description": "Reports deployment of A-CEEI mechanism at Wharton (1,700 students, 350 courses); solves billions of mixed-integer programs. Definitive paper on scaling market design.",
               "url": "https://pubsonline.informs.org/doi/10.1287/opre.2016.1544",
@@ -5763,7 +5763,7 @@
               "title": "Position Auctions",
               "authors": "Hal Varian",
               "year": 2007,
-              "description": "Independent equilibrium analysis of search auctions; introduces quality-weighted ranking (bid \u00d7 CTR); validates theory with Google data.",
+              "description": "Independent equilibrium analysis of search auctions; introduces quality-weighted ranking (bid × CTR); validates theory with Google data.",
               "url": "https://link.springer.com/article/10.1007/s00182-006-0029-7",
               "tags": [
                 "Mechanism Design & Auctions",
@@ -5773,7 +5773,7 @@
             },
             {
               "title": "Sponsored Search Auctions",
-              "authors": "S\u00e9bastien Lahaie, David Pennock, Amin Saberi, Rakesh Vohra",
+              "authors": "Sébastien Lahaie, David Pennock, Amin Saberi, Rakesh Vohra",
               "year": 2007,
               "description": "Authoritative survey integrating mechanism design, optimization, and ML perspectives on ad auctions.",
               "url": "https://www.cambridge.org/core/books/algorithmic-game-theory/sponsored-search-auctions/D6A4B3C8F45C3E8A9D1B2A6F5C4D3E2A",
@@ -5809,7 +5809,7 @@
             },
             {
               "title": "Reserve Price Optimization for First Price Auctions in Display Advertising",
-              "authors": "Zhe Feng, S\u00e9bastien Lahaie, Jon Schneider, Jinchao Ye",
+              "authors": "Zhe Feng, Sébastien Lahaie, Jon Schneider, Jinchao Ye",
               "year": 2021,
               "description": "Addresses industry's second-to-first price transition; proposes gradient-based reserve optimization validated on Google Ad Exchange data.",
               "url": "https://proceedings.mlr.press/v139/feng21d.html",
@@ -5943,7 +5943,7 @@
             },
             {
               "title": "Equilibrium Effects of Pay Transparency",
-              "authors": "Zo\u00eb Cullen, Bobak Pakzad-Hurson",
+              "authors": "Zoë Cullen, Bobak Pakzad-Hurson",
               "year": 2023,
               "description": "Demonstrates transparency reduces worker bargaining power in platform/gig markets using event-study of state transparency laws; essential for platform wage-setting policy.",
               "url": "https://onlinelibrary.wiley.com/doi/10.3982/ECTA18709",
@@ -6310,7 +6310,7 @@
             },
             {
               "title": "State Dependence and Alternative Explanations for Consumer Inertia",
-              "authors": "Jean-Pierre Dub\u00e9, G\u00fcnter J. Hitsch, Peter E. Rossi",
+              "authors": "Jean-Pierre Dubé, Günter J. Hitsch, Peter E. Rossi",
               "year": 2010,
               "description": "Separates structural state dependence from heterogeneity using household scanner data; essential for understanding subscription stickiness and switching costs in digital services.",
               "url": "https://www.jstor.org/stable/25651509",
@@ -6523,7 +6523,7 @@
             },
             {
               "title": "Identification of Peer Effects Through Social Networks",
-              "authors": "Yann Bramoull\u00e9, Habiba Djebbari, Bernard Fortin",
+              "authors": "Yann Bramoullé, Habiba Djebbari, Bernard Fortin",
               "year": 2009,
               "description": "Provides necessary and sufficient conditions for identifying peer effects using network structure; shows how intransitive networks solve Manski's reflection problem.",
               "url": "https://www.sciencedirect.com/science/article/pii/S0304407609000335",
@@ -6647,7 +6647,7 @@
               "title": "Search, Obfuscation, and Price Elasticities on the Internet",
               "authors": "Glenn Ellison, Sara Fisher Ellison",
               "year": 2009,
-              "description": "Explains the price dispersion puzzle\u2014why dispersion persists despite low online search costs. Shows retailers strategically make search harder through add-on pricing and complex fees.",
+              "description": "Explains the price dispersion puzzle—why dispersion persists despite low online search costs. Shows retailers strategically make search harder through add-on pricing and complex fees.",
               "url": "https://onlinelibrary.wiley.com/doi/10.3982/ECTA5708",
               "tags": [
                 "Structural Estimation",
@@ -6657,7 +6657,7 @@
             },
             {
               "title": "Testing Models of Consumer Search Using Data on Web Browsing and Purchasing Behavior",
-              "authors": "Babi\u0307r De Los Santos, Ali Horta\u00e7su, Matthijs R. Wildenbeest",
+              "authors": "Babi̇r De Los Santos, Ali Hortaçsu, Matthijs R. Wildenbeest",
               "year": 2012,
               "description": "Uses clickstream data to directly observe search sequences; rejects standard sequential search in favor of fixed sample size model. Methodological benchmark for structural search estimation.",
               "url": "https://www.aeaweb.org/articles?id=10.1257/aer.102.6.2955",
@@ -6724,7 +6724,7 @@
             },
             {
               "title": "Advertising, Consumer Awareness, and Choice: Evidence from the U.S. Banking Industry",
-              "authors": "Elisabeth Honka, Ali Horta\u00e7su, Maria Ana Vitorino",
+              "authors": "Elisabeth Honka, Ali Hortaçsu, Maria Ana Vitorino",
               "year": 2017,
               "description": "Integrates costly search with endogenous consideration set formation; shows advertising shifts awareness rather than preferences, increasing competition.",
               "url": "https://www.jstor.org/stable/26248992",
@@ -6736,7 +6736,7 @@
             },
             {
               "title": "What Makes Them Click: Empirical Analysis of Consumer Demand for Search Advertising",
-              "authors": "Przemys\u0142aw Je\u017ciorski, Ilya Segal",
+              "authors": "Przemysław Jeżiorski, Ilya Segal",
               "year": 2015,
               "description": "Canonical consumer-side structural model of sponsored search using Bing data; finds 51% more clicks would occur without ad competition. Essential for understanding attention allocation.",
               "url": "https://www.aeaweb.org/articles?id=10.1257/mic.20130153",
@@ -6968,7 +6968,7 @@
             },
             {
               "title": "Product Differentiation, Search Costs, and Competition in the Mutual Fund Industry: A Case Study of S&P 500 Index Funds",
-              "authors": "Ali Horta\u00e7su, Chad Syverson",
+              "authors": "Ali Hortaçsu, Chad Syverson",
               "year": 2004,
               "description": "Models search frictions for financially homogeneous products; explains fund proliferation and fee dispersion via information costs.",
               "url": "https://www.jstor.org/stable/25098694",
@@ -7037,7 +7037,7 @@
               "title": "Dynamics of Consumer Demand for New Durable Goods",
               "authors": "Gautam Gowrisankaran, Marc Rysman",
               "year": 2012,
-              "description": "DDC with forward-looking consumers, heterogeneity, and repeat purchases; estimated on digital camcorder data\u2014template for tech durable goods.",
+              "description": "DDC with forward-looking consumers, heterogeneity, and repeat purchases; estimated on digital camcorder data—template for tech durable goods.",
               "url": "https://www.journals.uchicago.edu/doi/10.1086/664717",
               "tags": [
                 "Choice Models & Dynamic Choice",
@@ -7104,7 +7104,7 @@
               "title": "Binge Watching and Advertising",
               "authors": "David A. Schweidel, Wendy W. Moe",
               "year": 2016,
-              "description": "Models streaming video consumption dynamics\u2014session continuation, series switching, and inter-session timing; first rigorous treatment of binge-watching economics using Hulu data.",
+              "description": "Models streaming video consumption dynamics—session continuation, series switching, and inter-session timing; first rigorous treatment of binge-watching economics using Hulu data.",
               "url": "https://journals.sagepub.com/doi/10.1509/jm.15.0108",
               "tags": [
                 "Choice Models & Dynamic Choice",
@@ -7183,7 +7183,7 @@
               "title": "The Welfare Effects of Social Media",
               "authors": "Hunt Allcott, Luca Braghieri, Sarah Eichmeyer, Matthew Gentzkow",
               "year": 2020,
-              "description": "Large-scale RCT deactivating Facebook; finds deactivation increases well-being and reduces news consumption\u2014questions platform welfare measurement.",
+              "description": "Large-scale RCT deactivating Facebook; finds deactivation increases well-being and reduces news consumption—questions platform welfare measurement.",
               "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20190658",
               "tags": [
                 "Choice Models & Dynamic Choice",
@@ -7207,7 +7207,7 @@
               "title": "Privacy Regulation and Online Advertising",
               "authors": "Avi Goldfarb, Catherine E. Tucker",
               "year": 2011,
-              "description": "Studies EU privacy directive's effects; shows opt-in defaults reduced ad effectiveness by 65%\u2014demonstrates default effects in digital advertising markets.",
+              "description": "Studies EU privacy directive's effects; shows opt-in defaults reduced ad effectiveness by 65%—demonstrates default effects in digital advertising markets.",
               "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.1100.1246",
               "tags": [
                 "Choice Models & Dynamic Choice",
@@ -7226,7 +7226,7 @@
               "title": "Optimal Search for the Best Alternative",
               "authors": "Martin L. Weitzman",
               "year": 1979,
-              "description": "The 'Pandora's Box' paper introducing reservation value rule for optimal sequential search\u2014theoretical foundation for all empirical search models.",
+              "description": "The 'Pandora's Box' paper introducing reservation value rule for optimal sequential search—theoretical foundation for all empirical search models.",
               "url": "https://onlinelibrary.wiley.com/doi/10.2307/1912562",
               "tags": [
                 "Choice Models & Dynamic Choice",
@@ -7248,7 +7248,7 @@
             },
             {
               "title": "Testing Models of Consumer Search Using Data on Web Browsing and Purchasing Behavior",
-              "authors": "Babi\u0307r De Los Santos, Ali Horta\u00e7su, Matthijs R. Wildenbeest",
+              "authors": "Babi̇r De Los Santos, Ali Hortaçsu, Matthijs R. Wildenbeest",
               "year": 2012,
               "description": "Uses e-commerce clickstream data to test sequential vs. fixed-sample search; estimates search costs in online book market.",
               "url": "https://www.aeaweb.org/articles?id=10.1257/aer.102.6.2955",
@@ -7317,7 +7317,7 @@
               "title": "Learning Models: An Assessment of Progress, Challenges and New Developments",
               "authors": "Andrew T. Ching, Tulin Erdem, Michael P. Keane",
               "year": 2013,
-              "description": "Comprehensive survey covering identification, estimation, and extensions including forgetting and social learning\u2014essential methodological reference.",
+              "description": "Comprehensive survey covering identification, estimation, and extensions including forgetting and social learning—essential methodological reference.",
               "url": "https://pubsonline.informs.org/doi/10.1287/mksc.1120.0755",
               "tags": [
                 "Choice Models & Dynamic Choice",
@@ -7384,7 +7384,7 @@
               "title": "Algorithmic Effects on the Diversity of Consumption on Spotify",
               "authors": "Ashton Anderson, Lucas Maystre, Ian Anderson, Rishabh Mehrotra, Mounia Lalmas",
               "year": 2020,
-              "description": "Field experiments show consumption diversity correlates with retention, yet algorithmic recommendations push toward less diverse listening\u2014identifies core platform design tension.",
+              "description": "Field experiments show consumption diversity correlates with retention, yet algorithmic recommendations push toward less diverse listening—identifies core platform design tension.",
               "url": "https://dl.acm.org/doi/10.1145/3366423.3380281",
               "tags": [
                 "Choice Models & Dynamic Choice",
@@ -7413,7 +7413,7 @@
             },
             {
               "title": "State Dependence and Alternative Explanations for Consumer Inertia",
-              "authors": "Jean-Pierre Dub\u00e9, G\u00fcnter J. Hitsch, Peter E. Rossi",
+              "authors": "Jean-Pierre Dubé, Günter J. Hitsch, Peter E. Rossi",
               "year": 2010,
               "description": "Demonstrates identification of structural state dependence from spurious heterogeneity using flexible semi-parametric methods; distinguishes true loyalty from heterogeneity.",
               "url": "https://www.jstor.org/stable/25651509",
@@ -7482,7 +7482,7 @@
               "title": "Identification of Endogenous Social Effects: The Reflection Problem",
               "authors": "Charles F. Manski",
               "year": 1993,
-              "description": "Foundational econometrics paper showing why peer effects cannot be identified from behavioral data alone\u2014the 'reflection problem' from simultaneity.",
+              "description": "Foundational econometrics paper showing why peer effects cannot be identified from behavioral data alone—the 'reflection problem' from simultaneity.",
               "url": "https://academic.oup.com/restud/article/60/3/531/1570385",
               "tags": [
                 "Choice Models & Dynamic Choice",
@@ -7531,7 +7531,7 @@
             },
             {
               "title": "Finite-time Analysis of the Multiarmed Bandit Problem",
-              "authors": "Peter Auer, Nicol\u00f2 Cesa-Bianchi, Paul Fischer",
+              "authors": "Peter Auer, Nicolò Cesa-Bianchi, Paul Fischer",
               "year": 2002,
               "description": "Introduces UCB1 with finite-time regret bounds; the practical workhorse algorithm still widely deployed.",
               "url": "https://link.springer.com/article/10.1023/A:1013689704352",
@@ -7543,7 +7543,7 @@
             },
             {
               "title": "Regret Analysis of Stochastic and Nonstochastic Multi-armed Bandit Problems",
-              "authors": "S\u00e9bastien Bubeck, Nicol\u00f2 Cesa-Bianchi",
+              "authors": "Sébastien Bubeck, Nicolò Cesa-Bianchi",
               "year": 2012,
               "description": "Comprehensive survey unifying stochastic and adversarial bandits; essential theoretical reference.",
               "url": "https://www.nowpublishers.com/article/Details/MAL-024",
@@ -7555,7 +7555,7 @@
             },
             {
               "title": "Optimal Best Arm Identification with Fixed Confidence",
-              "authors": "Aur\u00e9lien Garivier, Emilie Kaufmann",
+              "authors": "Aurélien Garivier, Emilie Kaufmann",
               "year": 2016,
               "description": "Establishes lower bounds and optimal algorithms for best-arm identification; key for A/B testing.",
               "url": "http://proceedings.mlr.press/v49/garivier16a.html",
@@ -7567,7 +7567,7 @@
             },
             {
               "title": "On the Complexity of Best-Arm Identification in Multi-Armed Bandit Models",
-              "authors": "Emilie Kaufmann, Olivier Capp\u00e9, Aur\u00e9lien Garivier",
+              "authors": "Emilie Kaufmann, Olivier Cappé, Aurélien Garivier",
               "year": 2016,
               "description": "Characterizes the sample complexity of best-arm identification in fixed-budget and fixed-confidence settings.",
               "url": "https://jmlr.org/papers/v17/kaufman16a.html",
@@ -7691,7 +7691,7 @@
               "title": "Analysis of Thompson Sampling for the Multi-armed Bandit Problem",
               "authors": "Shipra Agrawal, Navin Goyal",
               "year": 2012,
-              "description": "First proof of optimal O(\u221aKT log T) regret bounds.",
+              "description": "First proof of optimal O(√KT log T) regret bounds.",
               "url": "http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf",
               "tags": [
                 "Reinforcement Learning",
@@ -7732,7 +7732,7 @@
           "papers": [
             {
               "title": "Doubly Robust Policy Evaluation and Learning",
-              "authors": "Miroslav Dud\u00edk, John Langford, Lihong Li",
+              "authors": "Miroslav Dudík, John Langford, Lihong Li",
               "year": 2011,
               "description": "Introduces doubly robust estimator combining IPS and direct method; robust to model misspecification.",
               "url": "https://arxiv.org/abs/1103.4601",
@@ -7768,7 +7768,7 @@
             },
             {
               "title": "Optimal and Adaptive Off-policy Evaluation in Contextual Bandits",
-              "authors": "Yu-Xiang Wang, Alekh Agarwal, Miroslav Dud\u00edk",
+              "authors": "Yu-Xiang Wang, Alekh Agarwal, Miroslav Dudík",
               "year": 2017,
               "description": "Minimax optimal bounds providing theoretical foundation for modern OPE.",
               "url": "https://proceedings.mlr.press/v70/wang17a.html",
@@ -7804,7 +7804,7 @@
             },
             {
               "title": "Off-policy Evaluation for Slate Recommendation",
-              "authors": "Adith Swaminathan, Akshay Krishnamurthy, Alekh Agarwal, Miroslav Dud\u00edk, John Langford, Damien Jose, Imed Zitouni",
+              "authors": "Adith Swaminathan, Akshay Krishnamurthy, Alekh Agarwal, Miroslav Dudík, John Langford, Damien Jose, Imed Zitouni",
               "year": 2017,
               "description": "Extends OPE to slate/list recommendations; critical for search and recommendation systems.",
               "url": "https://papers.nips.cc/paper/2017/hash/5352696a9ca3397beb79f116f3a33991-Abstract.html",
@@ -7937,7 +7937,7 @@
             },
             {
               "title": "Web-scale Bayesian Click-through Rate Prediction for Sponsored Search",
-              "authors": "Thore Graepel, Joaquin Qui\u00f1onero Candela et al. (Microsoft)",
+              "authors": "Thore Graepel, Joaquin Quiñonero Candela et al. (Microsoft)",
               "year": 2010,
               "description": "Thompson Sampling at web-scale in Bing; demonstrates industrial viability of Bayesian methods.",
               "url": "https://www.microsoft.com/en-us/research/publication/web-scale-bayesian-click-through-rate-prediction-for-sponsored-search-advertising-in-microsofts-bing-search-engine/",
@@ -7961,7 +7961,7 @@
             },
             {
               "title": "Optimal Auctions through Deep Learning",
-              "authors": "Paul D\u00fctting, Zhe Feng, Harikrishna Narasimhan, David Parkes, Sai Srivatsa Ravindranath",
+              "authors": "Paul Dütting, Zhe Feng, Harikrishna Narasimhan, David Parkes, Sai Srivatsa Ravindranath",
               "year": 2019,
               "description": "Neural networks learn near-optimal auction mechanisms; connects ML and mechanism design.",
               "url": "https://proceedings.mlr.press/v97/duetting19a.html",
@@ -8193,7 +8193,7 @@
             },
             {
               "title": "Grandmaster level in StarCraft II using multi-agent reinforcement learning",
-              "authors": "Oriol Vinyals, Igor Babuschkin, Wojciech M. Czarnecki, Micha\u00ebl Mathieu, Andrew Dudzik et al.",
+              "authors": "Oriol Vinyals, Igor Babuschkin, Wojciech M. Czarnecki, Michaël Mathieu, Andrew Dudzik et al.",
               "year": 2019,
               "description": "AlphaStar achieves grandmaster level; landmark result in complex multi-agent real-time strategy.",
               "url": "https://www.nature.com/articles/s41586-019-1724-z",
@@ -8335,7 +8335,7 @@
             },
             {
               "title": "A Reduction of Imitation Learning to No-Regret Online Learning (DAgger)",
-              "authors": "St\u00e9phane Ross, Geoffrey J. Gordon, J. Andrew Bagnell",
+              "authors": "Stéphane Ross, Geoffrey J. Gordon, J. Andrew Bagnell",
               "year": 2011,
               "description": "Solves distribution shift in behavioral cloning; reduces imitation to online learning with O(T) error.",
               "url": "https://arxiv.org/abs/1011.0686",
@@ -9124,7 +9124,7 @@
           "papers": [
             {
               "title": "Behavior Revealed in Mobile Phone Usage Predicts Credit Repayment",
-              "authors": "Daniel Bj\u00f6rkegren, Darrell Grissen",
+              "authors": "Daniel Björkegren, Darrell Grissen",
               "year": 2020,
               "description": "Mobile behavioral data outperforms credit bureaus for thin-file borrowers; foundational fintech paper.",
               "url": "https://academic.oup.com/wber/article/34/3/618/5622690",
@@ -9171,7 +9171,7 @@
             },
             {
               "title": "On the Rise of FinTechs: Credit Scoring Using Digital Footprints",
-              "authors": "Tobias Berg, Valentin Burg, Ana Gombovi\u0107, Manju Puri",
+              "authors": "Tobias Berg, Valentin Burg, Ana Gombović, Manju Puri",
               "year": 2020,
               "description": "Digital footprints (device, email domain, typing) match credit bureau accuracy; foundational fintech credit study.",
               "url": "https://academic.oup.com/rfs/article/33/7/2845/5568311",
@@ -9238,7 +9238,7 @@
             },
             {
               "title": "Feature Engineering Strategies for Credit Card Fraud, Credit and Claim Risk",
-              "authors": "Alejandro Correa Bahnsen, Djamila Aouada, Aleksandar Stojanovic, Bj\u00f6rn Ottersten",
+              "authors": "Alejandro Correa Bahnsen, Djamila Aouada, Aleksandar Stojanovic, Björn Ottersten",
               "year": 2016,
               "description": "Transaction aggregation features improve fraud detection by 40%; widely adopted in industry.",
               "url": "https://www.sciencedirect.com/science/article/abs/pii/S0957417415008276",
@@ -9262,7 +9262,7 @@
             },
             {
               "title": "APATE: A Novel Approach for Automated Credit Card Transaction Fraud, Credit and Claim Risk Using Network-Based Extensions",
-              "authors": "V\u00e9ronique Van Vlasselaer, Tina Eliassi-Rad, Leman Akoglu, Monique Snoeck, Bart Baesens",
+              "authors": "Véronique Van Vlasselaer, Tina Eliassi-Rad, Leman Akoglu, Monique Snoeck, Bart Baesens",
               "year": 2015,
               "description": "Network propagation improves fraud detection by leveraging transaction graph structure.",
               "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167923615001645",
@@ -9281,7 +9281,7 @@
           "papers": [
             {
               "title": "Nesting Classical Actuarial Models into Neural Networks",
-              "authors": "J\u00fcrg Schelldorfer, Mario V. W\u00fcthrich",
+              "authors": "Jürg Schelldorfer, Mario V. Wüthrich",
               "year": 2019,
               "description": "Embedding GLMs into neural networks improves insurance pricing while maintaining interpretability.",
               "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3320525",
@@ -9293,7 +9293,7 @@
             },
             {
               "title": "Data Driven Binning for Insurance Tariffs",
-              "authors": "Roel Henckaerts, Marie-Pier C\u00f4t\u00e9, Antonio Bella, Katrien Antonio",
+              "authors": "Roel Henckaerts, Marie-Pier Côté, Antonio Bella, Katrien Antonio",
               "year": 2018,
               "description": "Evolutionary trees optimize premium segmentation while respecting regulatory constraints.",
               "url": "https://www.tandfonline.com/doi/abs/10.1080/03461238.2018.1429300",
@@ -9305,7 +9305,7 @@
             },
             {
               "title": "Detecting Insurance Fraud Using Supervised and Unsupervised Machine Learning",
-              "authors": "Jonas Debener, Johannes Kriebel, Oskar Ko\u017clowski",
+              "authors": "Jonas Debener, Johannes Kriebel, Oskar Kożlowski",
               "year": 2023,
               "description": "Comprehensive comparison of fraud detection methods for insurance claims.",
               "url": "https://link.springer.com/article/10.1057/s41270-022-00166-y",
@@ -9317,7 +9317,7 @@
             },
             {
               "title": "Claims Frequency Modeling Using Telematics Car Driving Data",
-              "authors": "Guangyuan Gao, Shengwang Meng, Mario V. W\u00fcthrich",
+              "authors": "Guangyuan Gao, Shengwang Meng, Mario V. Wüthrich",
               "year": 2019,
               "description": "Telematics data (speed, braking) improves claims prediction; foundational usage-based insurance paper.",
               "url": "https://www.tandfonline.com/doi/abs/10.1080/03461238.2018.1523068",
@@ -9329,7 +9329,7 @@
             },
             {
               "title": "Neural Networks Applied to Chain-Ladder Reserving",
-              "authors": "Mario V. W\u00fcthrich",
+              "authors": "Mario V. Wüthrich",
               "year": 2018,
               "description": "Neural networks improve reserve estimation over traditional chain-ladder methods.",
               "url": "https://www.cambridge.org/core/journals/european-actuarial-journal/article/neural-networks-applied-to-chainladder-reserving/A8B05E22D5F29F0AC35E76D8A76FE946",
@@ -9348,7 +9348,7 @@
           "papers": [
             {
               "title": "The Dynamics of Seller Reputation: Evidence from eBay",
-              "authors": "Lu\u00eds Cabral, Ali Horta\u00e7su",
+              "authors": "Luís Cabral, Ali Hortaçsu",
               "year": 2010,
               "description": "Foundational empirical study of reputation dynamics and their impact on seller behavior.",
               "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-6451.2010.00405.x",
@@ -9438,7 +9438,7 @@
               "citations": 3450
             },
             {
-              "title": "Intelligible Models for HealthCare: Predicting Pneumonia Risk and Hospital 30-day Readmission (GA\u00b2M)",
+              "title": "Intelligible Models for HealthCare: Predicting Pneumonia Risk and Hospital 30-day Readmission (GA²M)",
               "authors": "Rich Caruana, Yin Lou, Johannes Gehrke, Paul Koch, Marc Sturm, Noemie Elhadad",
               "year": 2015,
               "description": "Generalized additive models with interactions; template for interpretable credit scoring.",
@@ -9458,7 +9458,7 @@
           "papers": [
             {
               "title": "A Survey on Concept Drift Adaptation",
-              "authors": "Jo\u00e3o Gama, Indr\u0117 \u017dliobait\u0117, Albert Bifet, Mykola Pechenizkiy, Abdelhamid Bouchachia",
+              "authors": "João Gama, Indrė Žliobaitė, Albert Bifet, Mykola Pechenizkiy, Abdelhamid Bouchachia",
               "year": 2014,
               "description": "Comprehensive survey on detecting and adapting to changing data distributions in credit.",
               "url": "https://dl.acm.org/doi/10.1145/2523813",
@@ -9494,7 +9494,7 @@
             },
             {
               "title": "Streaming Active Learning Strategies for Real-Life Credit Card Fraud, Credit and Claim Risk",
-              "authors": "Fabrizio Carcillo, Yann-A\u00ebl Le Borgne, Olivier Caelen, Gianluca Bontempi",
+              "authors": "Fabrizio Carcillo, Yann-Aël Le Borgne, Olivier Caelen, Gianluca Bontempi",
               "year": 2018,
               "description": "Active learning reduces labeling costs for streaming fraud detection systems.",
               "url": "https://ieeexplore.ieee.org/document/8457256",
@@ -9533,7 +9533,7 @@
             },
             {
               "title": "LOF: Identifying Density-Based Local Outliers",
-              "authors": "Markus M. Breunig, Hans-Peter Kriegel, Raymond T. Ng, J\u00f6rg Sander",
+              "authors": "Markus M. Breunig, Hans-Peter Kriegel, Raymond T. Ng, Jörg Sander",
               "year": 2000,
               "description": "Introduced Local Outlier Factor assigning continuous 'degree of outlierness' for variable-density anomaly detection.",
               "url": "https://dl.acm.org/doi/10.1145/335191.335388",
@@ -9569,7 +9569,7 @@
             },
             {
               "title": "Estimating the Support of a High-Dimensional Distribution (One-Class SVM)",
-              "authors": "Bernhard Sch\u00f6lkopf, John C. Platt, John Shawe-Taylor, Alex J. Smola, Robert C. Williamson",
+              "authors": "Bernhard Schölkopf, John C. Platt, John Shawe-Taylor, Alex J. Smola, Robert C. Williamson",
               "year": 2001,
               "description": "One-class SVM for novelty detection; foundational method for fraud detection when only normal data is available.",
               "url": "https://direct.mit.edu/neco/article/13/7/1443/6579",
@@ -9859,7 +9859,7 @@
             },
             {
               "title": "Automatic Detection of Cyberbullying in Social Media Text",
-              "authors": "Cynthia Van Hee, Gilles Jacobs, Charlotte Brouckaert, Serena Cauberghs, Bart Desmet, Ann Loccufier, V\u00e9ronique Hoste",
+              "authors": "Cynthia Van Hee, Gilles Jacobs, Charlotte Brouckaert, Serena Cauberghs, Bart Desmet, Ann Loccufier, Véronique Hoste",
               "year": 2018,
               "description": "Multi-label cyberbullying detection with fine-grained categories; benchmark on Dutch social media.",
               "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0203794",
@@ -9902,7 +9902,7 @@
             },
             {
               "title": "Risk-Based Authentication: Practical Deployments and Research Challenges",
-              "authors": "Stephan Wiefling, Luigi Lo Iacono, Markus D\u00fcrmuth",
+              "authors": "Stephan Wiefling, Luigi Lo Iacono, Markus Dürmuth",
               "year": 2021,
               "description": "Analyzes RBA deployments at Google, Microsoft, Amazon; develops measurement framework.",
               "url": "https://riskbasedauthentication.org/publications/",
@@ -10143,7 +10143,7 @@
               "title": "Scheduling of Vehicles from a Central Depot to a Number of Delivery Points",
               "authors": "G. Clarke, J.W. Wright",
               "year": 1964,
-              "description": "Introduced the 'savings algorithm'\u2014still the most widely used VRP heuristic in commercial routing software.",
+              "description": "Introduced the 'savings algorithm'—still the most widely used VRP heuristic in commercial routing software.",
               "url": "https://www.jstor.org/stable/168156",
               "tags": [
                 "Logistics & Operations",
@@ -10895,7 +10895,7 @@
               "title": "Calibrating Noise to Sensitivity in Private Data Analysis",
               "authors": "Cynthia Dwork, Frank McSherry, Kobbi Nissim, Adam Smith",
               "year": 2006,
-              "description": "Foundational paper introducing \u03b5-differential privacy, Laplace mechanism, and noise calibration to sensitivity.",
+              "description": "Foundational paper introducing ε-differential privacy, Laplace mechanism, and noise calibration to sensitivity.",
               "url": "https://link.springer.com/chapter/10.1007/11681878_14",
               "tags": [
                 "Privacy",
@@ -10917,7 +10917,7 @@
             },
             {
               "title": "RAPPOR: Randomized Aggregatable Privacy-Preserving Ordinal Response",
-              "authors": "\u00dalfar Erlingsson, Vasyl Pihur, Aleksandra Korolova",
+              "authors": "Úlfar Erlingsson, Vasyl Pihur, Aleksandra Korolova",
               "year": 2014,
               "description": "Google's practical local DP system deployed in Chrome with longitudinal privacy guarantees.",
               "url": "https://arxiv.org/abs/1407.6981",
@@ -10928,7 +10928,7 @@
             },
             {
               "title": "Deep Learning with Differential Privacy",
-              "authors": "Mart\u00edn Abadi, Andy Chu, Ian Goodfellow, H. Brendan McMahan, Ilya Mironov, Kunal Talwar, Li Zhang",
+              "authors": "Martín Abadi, Andy Chu, Ian Goodfellow, H. Brendan McMahan, Ilya Mironov, Kunal Talwar, Li Zhang",
               "year": 2016,
               "description": "Introduces DP-SGD algorithm and moments accountant for training neural networks with formal DP guarantees.",
               "url": "https://arxiv.org/abs/1607.00133",
@@ -10951,10 +10951,10 @@
               "citations": 34
             },
             {
-              "title": "R\u00e9nyi Differential Privacy",
+              "title": "Rényi Differential Privacy",
               "authors": "Ilya Mironov",
               "year": 2017,
-              "description": "Defines RDP using R\u00e9nyi divergence; cleaner composition analysis used in TensorFlow Privacy.",
+              "description": "Defines RDP using Rényi divergence; cleaner composition analysis used in TensorFlow Privacy.",
               "url": "https://arxiv.org/abs/1702.07476",
               "tags": [
                 "Privacy",
@@ -10964,7 +10964,7 @@
             },
             {
               "title": "Amplification by Shuffling: From Local to Central Differential Privacy via Anonymity",
-              "authors": "\u00dalfar Erlingsson, Vitaly Feldman, Ilya Mironov, Ananth Raghunathan, Kunal Talwar, Abhradeep Thakurta",
+              "authors": "Úlfar Erlingsson, Vitaly Feldman, Ilya Mironov, Ananth Raghunathan, Kunal Talwar, Abhradeep Thakurta",
               "year": 2019,
               "description": "Proves shuffle model bridges local/central DP gap; deployed in Apple and Google systems.",
               "url": "https://arxiv.org/abs/1811.12469",
@@ -11007,7 +11007,7 @@
           "papers": [
             {
               "title": "Communication-Efficient Learning of Deep Networks from Decentralized Data",
-              "authors": "H. Brendan McMahan, Eider Moore, Daniel Ramage, Seth Hampson, Blaise Ag\u00fcera y Arcas",
+              "authors": "H. Brendan McMahan, Eider Moore, Daniel Ramage, Seth Hampson, Blaise Agüera y Arcas",
               "year": 2017,
               "description": "Seminal paper introducing Federated Learning and FedAvg algorithm; enables ML without raw data collection.",
               "url": "https://arxiv.org/abs/1602.05629",
@@ -11031,7 +11031,7 @@
             },
             {
               "title": "Federated Learning: Strategies for Improving Communication Efficiency",
-              "authors": "Jakub Kone\u010dn\u00fd, H. Brendan McMahan, Felix X. Yu, Peter Richt\u00e1rik, Ananda Theertha Suresh, Dave Bacon",
+              "authors": "Jakub Konečný, H. Brendan McMahan, Felix X. Yu, Peter Richtárik, Ananda Theertha Suresh, Dave Bacon",
               "year": 2016,
               "description": "Introduces structured updates and sketching to reduce communication costs in federated settings.",
               "url": "https://arxiv.org/abs/1610.05492",
@@ -11098,7 +11098,7 @@
           "papers": [
             {
               "title": "RAPPOR: Randomized Aggregatable Privacy-Preserving Ordinal Response",
-              "authors": "\u00dalfar Erlingsson, Vasyl Pihur, Aleksandra Korolova",
+              "authors": "Úlfar Erlingsson, Vasyl Pihur, Aleksandra Korolova",
               "year": 2014,
               "description": "Foundation for privacy-preserving telemetry with local DP guarantees for aggregate statistics.",
               "url": "https://arxiv.org/abs/1407.6981",
@@ -11110,9 +11110,9 @@
             },
             {
               "title": "Scalable Private Learning with PATE",
-              "authors": "Nicolas Papernot, Shuang Song, Ilya Mironov, Ananth Raghunathan, Kunal Talwar, \u00dalfar Erlingsson",
+              "authors": "Nicolas Papernot, Shuang Song, Ilya Mironov, Ananth Raghunathan, Kunal Talwar, Úlfar Erlingsson",
               "year": 2018,
-              "description": "Scaled PATE framework with GNMax aggregation; achieves strong privacy (\u03b5 < 1) while maintaining utility.",
+              "description": "Scaled PATE framework with GNMax aggregation; achieves strong privacy (ε < 1) while maintaining utility.",
               "url": "https://arxiv.org/abs/1802.08908",
               "tags": [
                 "Privacy",
@@ -11122,7 +11122,7 @@
             },
             {
               "title": "Semi-supervised Knowledge Transfer for Deep Learning from Private Training Data (PATE)",
-              "authors": "Nicolas Papernot, Mart\u00edn Abadi, \u00dalfar Erlingsson, Ian Goodfellow, Kunal Talwar",
+              "authors": "Nicolas Papernot, Martín Abadi, Úlfar Erlingsson, Ian Goodfellow, Kunal Talwar",
               "year": 2017,
               "description": "Private Aggregation of Teacher Ensembles; enables privacy-preserving ML via knowledge transfer.",
               "url": "https://research.google/pubs/pub45828/",
@@ -11176,7 +11176,7 @@
             },
             {
               "title": "Semi-supervised Knowledge Transfer for Deep Learning from Private Training Data (PATE)",
-              "authors": "Nicolas Papernot, Mart\u00edn Abadi, \u00dalfar Erlingsson, Ian Goodfellow, Kunal Talwar",
+              "authors": "Nicolas Papernot, Martín Abadi, Úlfar Erlingsson, Ian Goodfellow, Kunal Talwar",
               "year": 2017,
               "description": "PATE enables training on synthetic/unlabeled data with DP guarantees transferred from teacher ensemble.",
               "url": "https://research.google/pubs/pub45828/",
@@ -11253,7 +11253,7 @@
               ]
             },
             {
-              "title": "\u2113-Diversity: Privacy Beyond k-Anonymity",
+              "title": "ℓ-Diversity: Privacy Beyond k-Anonymity",
               "authors": "Ashwin Machanavajjhala, Daniel Kifer, Johannes Gehrke, Muthuramakrishnan Venkitasubramaniam",
               "year": 2007,
               "description": "Extends k-anonymity by requiring diversity in sensitive attributes; defends against homogeneity attacks.",
@@ -11265,7 +11265,7 @@
               "citations": 3504
             },
             {
-              "title": "t-Closeness: Privacy Beyond k-Anonymity and \u2113-Diversity",
+              "title": "t-Closeness: Privacy Beyond k-Anonymity and ℓ-Diversity",
               "authors": "Ninghui Li, Tiancheng Li, Suresh Venkatasubramanian",
               "year": 2007,
               "description": "Requires sensitive attribute distribution in each equivalence class be close to overall distribution.",
@@ -11430,7 +11430,7 @@
             },
             {
               "title": "Extracting Training Data from Large Language Models",
-              "authors": "Nicholas Carlini, Florian Tram\u00e8r, Eric Wallace, Matthew Jagielski, et al.",
+              "authors": "Nicholas Carlini, Florian Tramèr, Eric Wallace, Matthew Jagielski, et al.",
               "year": 2021,
               "description": "First demonstration of verbatim training data extraction from GPT-2 including PII; motivated LLM safety research.",
               "url": "https://arxiv.org/abs/2012.07805",
@@ -11540,7 +11540,7 @@
             },
             {
               "title": "Slalom: Fast, Verifiable and Private Execution of Neural Networks in Trusted Hardware",
-              "authors": "Florian Tram\u00e8r, Dan Boneh",
+              "authors": "Florian Tramèr, Dan Boneh",
               "year": 2019,
               "description": "Efficient DNN execution in Intel SGX with cryptographic verification of correct computation.",
               "url": "https://arxiv.org/abs/1806.03287",
@@ -11554,7 +11554,7 @@
               "title": "Delphi: A Cryptographic Inference Service for Neural Networks",
               "authors": "Pratyush Mishra, Ryan Lehmkuhl, Akshayaram Srinivasan, Wenting Zheng, Raluca Ada Popa",
               "year": 2020,
-              "description": "22\u00d7 faster secure inference via ML-crypto co-design; hybrid HE + garbled circuits approach.",
+              "description": "22× faster secure inference via ML-crypto co-design; hybrid HE + garbled circuits approach.",
               "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/mishra",
               "tags": [
                 "Privacy",
@@ -11663,6 +11663,140 @@
           ]
         },
         {
+          "id": "probabilistic-forecasting",
+          "name": "Probabilistic Forecasting",
+          "application": "Quantify uncertainty in your predictions",
+          "papers": [
+            {
+              "title": "Strictly Proper Scoring Rules, Prediction, and Estimation",
+              "authors": "Tilmann Gneiting, Adrian E. Raftery",
+              "year": 2007,
+              "description": "Definitive treatment of proper scoring rules; introduces CRPS, energy score, interval score.",
+              "url": "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jasa.pdf",
+              "tags": [
+                "Forecasting",
+                "Probabilistic Forecasting"
+              ],
+              "citations": 5046
+            },
+            {
+              "title": "Regression Quantiles",
+              "authors": "Roger Koenker, Gilbert Bassett Jr.",
+              "year": 1978,
+              "description": "Introduced quantile regression for estimating conditional quantiles; foundation for distributional forecasting.",
+              "url": "https://www.jstor.org/stable/1913643",
+              "tags": [
+                "Forecasting",
+                "Probabilistic Forecasting"
+              ],
+              "citations": 11974
+            },
+            {
+              "title": "Probabilistic Energy Forecasting: Global Energy Forecasting Competition 2014 and Beyond",
+              "authors": "Tao Hong, Pierre Pinson, Shu Fan, Hamidreza Zareipour, Alberto Troccoli, Rob J. Hyndman",
+              "year": 2016,
+              "description": "GEFCom2014 establishing practical standards for probabilistic forecast evaluation.",
+              "url": "https://ideas.repec.org/a/eee/intfor/v32y2016i3p896-913.html",
+              "tags": [
+                "Forecasting",
+                "Probabilistic Forecasting"
+              ],
+              "citations": 907
+            },
+            {
+              "title": "Conformal Time-series Forecasting",
+              "authors": "Kamilė Stankevičiūtė, Ahmed M. Alaa, Mihaela van der Schaar",
+              "year": 2021,
+              "description": "Distribution-free prediction intervals with guaranteed coverage for time series; handles non-exchangeability.",
+              "url": "https://arxiv.org/abs/2107.01709",
+              "tags": [
+                "Forecasting",
+                "Probabilistic Forecasting"
+              ],
+              "citations": 287
+            },
+            {
+              "title": "Multivariate Probabilistic Time Series Forecasting via Conditioned Normalizing Flows",
+              "authors": "Kashif Rasul, Abdul-Saboor Sheikh, Ingmar Schuster, Urs Bergmann, Roland Vollgraf",
+              "year": 2021,
+              "description": "Normalizing flows for flexible multivariate distributions in forecasting; captures complex dependencies.",
+              "url": "https://arxiv.org/abs/2002.06103",
+              "tags": [
+                "Forecasting",
+                "Probabilistic Forecasting"
+              ],
+              "citations": 356
+            }
+          ]
+        },
+        {
+          "id": "hierarchical-forecasting",
+          "name": "Hierarchical & Grouped Forecasting",
+          "application": "Forecast at multiple levels consistently",
+          "papers": [
+            {
+              "title": "The Combination of Forecasts",
+              "authors": "John M. Bates, Clive W.J. Granger",
+              "year": 1969,
+              "description": "Seminal paper showing combined forecasts yield lower MSE than individuals; foundation for ensemble methods.",
+              "url": "https://www.jstor.org/stable/3008764",
+              "tags": [
+                "Forecasting",
+                "Hierarchical & Grouped Forecasting"
+              ],
+              "citations": 3044
+            },
+            {
+              "title": "Optimal Forecast Reconciliation for Hierarchical and Grouped Time Series Through Trace Minimization",
+              "authors": "Shanika L. Wickramasuriya, George Athanasopoulos, Rob J. Hyndman",
+              "year": 2019,
+              "description": "MinT optimal reconciliation method minimizing forecast variance; outperforms bottom-up and top-down.",
+              "url": "https://robjhyndman.com/publications/mint/",
+              "tags": [
+                "Forecasting",
+                "Hierarchical & Grouped Forecasting"
+              ],
+              "citations": 276
+            },
+            {
+              "title": "Chapter 4: Forecast Combinations",
+              "authors": "Allan Timmermann",
+              "year": 2006,
+              "description": "Authoritative review explaining why simple averages often beat optimal weights (estimation error, instability).",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S1574070605010049",
+              "tags": [
+                "Forecasting",
+                "Hierarchical & Grouped Forecasting"
+              ],
+              "citations": 1234
+            },
+            {
+              "title": "Forecast Reconciliation: A Review",
+              "authors": "George Athanasopoulos, Rob J. Hyndman, Nikolaos Kourentzes, Anastasios Panagiotelis",
+              "year": 2024,
+              "description": "Comprehensive review covering cross-sectional, temporal, and cross-temporal reconciliation.",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0169207023001097",
+              "tags": [
+                "Forecasting",
+                "Hierarchical & Grouped Forecasting"
+              ],
+              "citations": 39
+            },
+            {
+              "title": "Cross-temporal Forecast Reconciliation: Optimal Combination Method and Heuristic Algorithms",
+              "authors": "Tommaso Di Fonzo, Daniele Girolimetto",
+              "year": 2023,
+              "description": "Unified framework for simultaneous cross-sectional and temporal reconciliation; optimal point forecasts.",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0169207022001005",
+              "tags": [
+                "Forecasting",
+                "Hierarchical & Grouped Forecasting"
+              ],
+              "citations": 87
+            }
+          ]
+        },
+        {
           "id": "deep-learning-forecasting",
           "name": "Deep Learning for Forecasting",
           "application": "Apply deep learning to forecasting problems",
@@ -11704,7 +11838,7 @@
             },
             {
               "title": "Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting",
-              "authors": "Bryan Lim, Sercan \u00d6. Ar\u0131k, Nicolas Loeff, Tomas Pfister",
+              "authors": "Bryan Lim, Sercan Ö. Arık, Nicolas Loeff, Tomas Pfister",
               "year": 2021,
               "description": "Google's attention architecture handling static covariates, known future inputs, observed past-only features.",
               "url": "https://arxiv.org/abs/1912.09363",
@@ -11911,219 +12045,6 @@
           ]
         },
         {
-          "id": "hierarchical-forecasting",
-          "name": "Hierarchical & Grouped Forecasting",
-          "application": "Forecast at multiple levels consistently",
-          "papers": [
-            {
-              "title": "The Combination of Forecasts",
-              "authors": "John M. Bates, Clive W.J. Granger",
-              "year": 1969,
-              "description": "Seminal paper showing combined forecasts yield lower MSE than individuals; foundation for ensemble methods.",
-              "url": "https://www.jstor.org/stable/3008764",
-              "tags": [
-                "Forecasting",
-                "Hierarchical & Grouped Forecasting"
-              ],
-              "citations": 3044
-            },
-            {
-              "title": "Optimal Forecast Reconciliation for Hierarchical and Grouped Time Series Through Trace Minimization",
-              "authors": "Shanika L. Wickramasuriya, George Athanasopoulos, Rob J. Hyndman",
-              "year": 2019,
-              "description": "MinT optimal reconciliation method minimizing forecast variance; outperforms bottom-up and top-down.",
-              "url": "https://robjhyndman.com/publications/mint/",
-              "tags": [
-                "Forecasting",
-                "Hierarchical & Grouped Forecasting"
-              ],
-              "citations": 276
-            },
-            {
-              "title": "Chapter 4: Forecast Combinations",
-              "authors": "Allan Timmermann",
-              "year": 2006,
-              "description": "Authoritative review explaining why simple averages often beat optimal weights (estimation error, instability).",
-              "url": "https://www.sciencedirect.com/science/article/abs/pii/S1574070605010049",
-              "tags": [
-                "Forecasting",
-                "Hierarchical & Grouped Forecasting"
-              ],
-              "citations": 1234
-            },
-            {
-              "title": "Forecast Reconciliation: A Review",
-              "authors": "George Athanasopoulos, Rob J. Hyndman, Nikolaos Kourentzes, Anastasios Panagiotelis",
-              "year": 2024,
-              "description": "Comprehensive review covering cross-sectional, temporal, and cross-temporal reconciliation.",
-              "url": "https://www.sciencedirect.com/science/article/pii/S0169207023001097",
-              "tags": [
-                "Forecasting",
-                "Hierarchical & Grouped Forecasting"
-              ],
-              "citations": 39
-            },
-            {
-              "title": "Cross-temporal Forecast Reconciliation: Optimal Combination Method and Heuristic Algorithms",
-              "authors": "Tommaso Di Fonzo, Daniele Girolimetto",
-              "year": 2023,
-              "description": "Unified framework for simultaneous cross-sectional and temporal reconciliation; optimal point forecasts.",
-              "url": "https://www.sciencedirect.com/science/article/pii/S0169207022001005",
-              "tags": [
-                "Forecasting",
-                "Hierarchical & Grouped Forecasting"
-              ],
-              "citations": 87
-            }
-          ]
-        },
-        {
-          "id": "probabilistic-forecasting",
-          "name": "Probabilistic Forecasting",
-          "application": "Quantify uncertainty in your predictions",
-          "papers": [
-            {
-              "title": "Strictly Proper Scoring Rules, Prediction, and Estimation",
-              "authors": "Tilmann Gneiting, Adrian E. Raftery",
-              "year": 2007,
-              "description": "Definitive treatment of proper scoring rules; introduces CRPS, energy score, interval score.",
-              "url": "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jasa.pdf",
-              "tags": [
-                "Forecasting",
-                "Probabilistic Forecasting"
-              ],
-              "citations": 5046
-            },
-            {
-              "title": "Regression Quantiles",
-              "authors": "Roger Koenker, Gilbert Bassett Jr.",
-              "year": 1978,
-              "description": "Introduced quantile regression for estimating conditional quantiles; foundation for distributional forecasting.",
-              "url": "https://www.jstor.org/stable/1913643",
-              "tags": [
-                "Forecasting",
-                "Probabilistic Forecasting"
-              ],
-              "citations": 11974
-            },
-            {
-              "title": "Probabilistic Energy Forecasting: Global Energy Forecasting Competition 2014 and Beyond",
-              "authors": "Tao Hong, Pierre Pinson, Shu Fan, Hamidreza Zareipour, Alberto Troccoli, Rob J. Hyndman",
-              "year": 2016,
-              "description": "GEFCom2014 establishing practical standards for probabilistic forecast evaluation.",
-              "url": "https://ideas.repec.org/a/eee/intfor/v32y2016i3p896-913.html",
-              "tags": [
-                "Forecasting",
-                "Probabilistic Forecasting"
-              ],
-              "citations": 907
-            },
-            {
-              "title": "Conformal Time-series Forecasting",
-              "authors": "Kamilė Stankevičiūtė, Ahmed M. Alaa, Mihaela van der Schaar",
-              "year": 2021,
-              "description": "Distribution-free prediction intervals with guaranteed coverage for time series; handles non-exchangeability.",
-              "url": "https://arxiv.org/abs/2107.01709",
-              "tags": [
-                "Forecasting",
-                "Probabilistic Forecasting"
-              ],
-              "citations": 287
-            },
-            {
-              "title": "Multivariate Probabilistic Time Series Forecasting via Conditioned Normalizing Flows",
-              "authors": "Kashif Rasul, Abdul-Saboor Sheikh, Ingmar Schuster, Urs Bergmann, Roland Vollgraf",
-              "year": 2021,
-              "description": "Normalizing flows for flexible multivariate distributions in forecasting; captures complex dependencies.",
-              "url": "https://arxiv.org/abs/2002.06103",
-              "tags": [
-                "Forecasting",
-                "Probabilistic Forecasting"
-              ],
-              "citations": 356
-            }
-          ]
-        },
-        {
-          "id": "causal-impact",
-          "name": "Causal Impact & Intervention",
-          "application": "Measure the impact of events or launches",
-          "papers": [
-            {
-              "title": "Inferring Causal Impact Using Bayesian Structural Time-Series Models",
-              "authors": "Kay H. Brodersen, Fabian Gallusser, Jim Koehler, Nicolas Remy, Steven L. Scott",
-              "year": 2015,
-              "description": "Google's CausalImpact for estimating causal effects from observational time series; widely used for attribution.",
-              "url": "https://arxiv.org/abs/1506.00356",
-              "tags": [
-                "Forecasting",
-                "Causal Impact & Intervention"
-              ],
-              "citations": 899
-            },
-            {
-              "title": "Synthetic Control Methods for Comparative Case Studies",
-              "authors": "Alberto Abadie, Alexis Diamond, Jens Hainmueller",
-              "year": 2010,
-              "description": "Foundational synthetic control paper; 'most important innovation in evaluation literature in 15 years'.",
-              "url": "https://www.tandfonline.com/doi/abs/10.1198/jasa.2009.ap08746",
-              "tags": [
-                "Forecasting",
-                "Causal Impact & Intervention"
-              ],
-              "citations": 5029
-            },
-            {
-              "title": "Using Synthetic Controls: Feasibility, Data Requirements, and Methodological Aspects",
-              "authors": "Alberto Abadie",
-              "year": 2021,
-              "description": "Comprehensive methodological review covering feasibility, inference, and best practices.",
-              "url": "https://www.aeaweb.org/content/file?id=12409",
-              "tags": [
-                "Forecasting",
-                "Causal Impact & Intervention"
-              ],
-              "citations": 1186
-            },
-            {
-              "title": "Predicting the Present with Bayesian Structural Time Series",
-              "authors": "Steven L. Scott, Hal R. Varian",
-              "year": 2014,
-              "description": "Google's BSTS framework for nowcasting with spike-and-slab regression for variable selection.",
-              "url": "https://research.google/pubs/pub41854/",
-              "tags": [
-                "Forecasting",
-                "Causal Impact & Intervention"
-              ],
-              "citations": 306
-            },
-            {
-              "title": "Difference-in-Differences with Multiple Time Periods",
-              "authors": "Brantly Callaway, Pedro H.C. Sant'Anna",
-              "year": 2021,
-              "description": "Modern DiD handling staggered treatment timing and heterogeneous effects; doubly-robust estimator.",
-              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0304407620303948",
-              "tags": [
-                "Forecasting",
-                "Causal Impact & Intervention"
-              ],
-              "citations": 2341
-            },
-            {
-              "title": "What's Trending in Difference-in-Differences? A Synthesis of the Recent Econometrics Literature",
-              "authors": "Jonathan Roth, Pedro H.C. Sant'Anna, Alyssa Bilinski, John Poe",
-              "year": 2023,
-              "description": "Comprehensive synthesis of modern DiD developments; essential guide to recent methodological advances.",
-              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0304407623001021",
-              "tags": [
-                "Forecasting",
-                "Causal Impact & Intervention"
-              ],
-              "citations": 892
-            }
-          ]
-        },
-        {
           "id": "intermittent-demand",
           "name": "Intermittent Demand Forecasting",
           "application": "Forecast sparse, irregular demand patterns",
@@ -12230,6 +12151,85 @@
                 "Time Series Anomaly Detection"
               ],
               "citations": 1123
+            }
+          ]
+        },
+        {
+          "id": "causal-impact",
+          "name": "Causal Impact & Intervention",
+          "application": "Measure the impact of events or launches",
+          "papers": [
+            {
+              "title": "Inferring Causal Impact Using Bayesian Structural Time-Series Models",
+              "authors": "Kay H. Brodersen, Fabian Gallusser, Jim Koehler, Nicolas Remy, Steven L. Scott",
+              "year": 2015,
+              "description": "Google's CausalImpact for estimating causal effects from observational time series; widely used for attribution.",
+              "url": "https://arxiv.org/abs/1506.00356",
+              "tags": [
+                "Forecasting",
+                "Causal Impact & Intervention"
+              ],
+              "citations": 899
+            },
+            {
+              "title": "Synthetic Control Methods for Comparative Case Studies",
+              "authors": "Alberto Abadie, Alexis Diamond, Jens Hainmueller",
+              "year": 2010,
+              "description": "Foundational synthetic control paper; 'most important innovation in evaluation literature in 15 years'.",
+              "url": "https://www.tandfonline.com/doi/abs/10.1198/jasa.2009.ap08746",
+              "tags": [
+                "Forecasting",
+                "Causal Impact & Intervention"
+              ],
+              "citations": 5029
+            },
+            {
+              "title": "Using Synthetic Controls: Feasibility, Data Requirements, and Methodological Aspects",
+              "authors": "Alberto Abadie",
+              "year": 2021,
+              "description": "Comprehensive methodological review covering feasibility, inference, and best practices.",
+              "url": "https://www.aeaweb.org/content/file?id=12409",
+              "tags": [
+                "Forecasting",
+                "Causal Impact & Intervention"
+              ],
+              "citations": 1186
+            },
+            {
+              "title": "Predicting the Present with Bayesian Structural Time Series",
+              "authors": "Steven L. Scott, Hal R. Varian",
+              "year": 2014,
+              "description": "Google's BSTS framework for nowcasting with spike-and-slab regression for variable selection.",
+              "url": "https://research.google/pubs/pub41854/",
+              "tags": [
+                "Forecasting",
+                "Causal Impact & Intervention"
+              ],
+              "citations": 306
+            },
+            {
+              "title": "Difference-in-Differences with Multiple Time Periods",
+              "authors": "Brantly Callaway, Pedro H.C. Sant'Anna",
+              "year": 2021,
+              "description": "Modern DiD handling staggered treatment timing and heterogeneous effects; doubly-robust estimator.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0304407620303948",
+              "tags": [
+                "Forecasting",
+                "Causal Impact & Intervention"
+              ],
+              "citations": 2341
+            },
+            {
+              "title": "What's Trending in Difference-in-Differences? A Synthesis of the Recent Econometrics Literature",
+              "authors": "Jonathan Roth, Pedro H.C. Sant'Anna, Alyssa Bilinski, John Poe",
+              "year": 2023,
+              "description": "Comprehensive synthesis of modern DiD developments; essential guide to recent methodological advances.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0304407623001021",
+              "tags": [
+                "Forecasting",
+                "Causal Impact & Intervention"
+              ],
+              "citations": 892
             }
           ]
         },
@@ -12377,7 +12377,7 @@
               "title": "The Effect of Home-Sharing on House Prices and Rents: Evidence from Airbnb",
               "authors": "Kyle Barron, Edward Kung, Davide Proserpio",
               "year": 2021,
-              "description": "IV strategy on nationwide Airbnb data; 1% listing increase \u2192 0.018% rent increase via supply reallocation.",
+              "description": "IV strategy on nationwide Airbnb data; 1% listing increase → 0.018% rent increase via supply reallocation.",
               "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.2020.1227",
               "tags": [
                 "Spatial & Geo",
@@ -12387,7 +12387,7 @@
             },
             {
               "title": "Do Short-Term Rental Platforms Affect Housing Markets? Evidence from Airbnb in Barcelona",
-              "authors": "Miquel-\u00c0ngel Garcia-L\u00f3pez, Jordi Jofre-Monseny, Rodrigo Mart\u00ednez-Mazza, Mariona Seg\u00fa",
+              "authors": "Miquel-Àngel Garcia-López, Jordi Jofre-Monseny, Rodrigo Martínez-Mazza, Mariona Segú",
               "year": 2020,
               "description": "Rigorous event-study finding Airbnb increased Barcelona rents 1.9% and prices 4.6%.",
               "url": "https://www.sciencedirect.com/science/article/pii/S0094119019300774",
@@ -12434,7 +12434,7 @@
               "authors": "A. Stewart Fotheringham, Chris Brunsdon, Martin Charlton",
               "year": 2002,
               "tag": "Classic",
-              "description": "Local regression allowing coefficients to vary spatially\u2014key for heterogeneous demand.",
+              "description": "Local regression allowing coefficients to vary spatially—key for heterogeneous demand.",
               "url": "https://onlinelibrary.wiley.com/doi/book/10.1002/9781118786352",
               "tags": [
                 "Spatial & Geo",
@@ -12608,7 +12608,7 @@
               "authors": "Harry Kelejian, Ingmar Prucha",
               "year": 2010,
               "tag": "Classic",
-              "description": "Robust GMM estimation for spatial autoregressions\u2014standard in applied work.",
+              "description": "Robust GMM estimation for spatial autoregressions—standard in applied work.",
               "url": "https://www.sciencedirect.com/science/article/abs/pii/S0304407609001870",
               "tags": [
                 "Spatial & Geo",
@@ -12640,6 +12640,42 @@
                 "Spatial & Geo",
                 "Spatial Econometrics"
               ]
+            },
+            {
+              "title": "GMM Estimation with Cross Sectional Dependence",
+              "authors": "Timothy G. Conley",
+              "year": 1999,
+              "description": "Foundational paper on spatial HAC standard errors ('Conley SEs'); industry-standard correction.",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0304407698000840",
+              "tags": [
+                "Spatial & Geo",
+                "Spatial Econometrics"
+              ],
+              "citations": 2890
+            },
+            {
+              "title": "Estimation and Inference of Heterogeneous Treatment Effects using Random Forests",
+              "authors": "Stefan Wager, Susan Athey",
+              "year": 2018,
+              "description": "Causal forests for heterogeneous treatment effects with valid confidence intervals; implemented in grf and EconML.",
+              "url": "https://www.tandfonline.com/doi/abs/10.1080/01621459.2017.1319839",
+              "tags": [
+                "Spatial & Geo",
+                "Spatial Econometrics"
+              ],
+              "citations": 4567
+            },
+            {
+              "title": "Geographic Boundaries as Regression Discontinuities",
+              "authors": "Luke J. Keele, Rocío Titiunik",
+              "year": 2015,
+              "description": "Foundational geographic RDD methodology addressing boundary selection and spatial inference.",
+              "url": "https://www.cambridge.org/core/journals/political-analysis/article/geographic-boundaries-as-regression-discontinuities/89E13E84E67DADAB8F67F88E9D5BFAED",
+              "tags": [
+                "Spatial & Geo",
+                "Spatial Econometrics"
+              ],
+              "citations": 567
             }
           ]
         },
@@ -12653,7 +12689,7 @@
               "authors": "Al Barrentine",
               "year": 2017,
               "tag": "Industry",
-              "description": "NLP library parsing addresses in 60+ languages\u2014widely used in ride-sharing and logistics.",
+              "description": "NLP library parsing addresses in 60+ languages—widely used in ride-sharing and logistics.",
               "url": "https://github.com/openvenues/libpostal",
               "tags": [
                 "Spatial & Geo",
@@ -12683,6 +12719,30 @@
                 "Spatial & Geo",
                 "Mapping & Geocoding"
               ]
+            },
+            {
+              "title": "Bing Geocoding",
+              "authors": "Pavel Berkhin, Dmitry Pavlov, Wei Zhang, Brian Bachelder",
+              "year": 2015,
+              "description": "Production geocoding system at Bing scale; covers parsing, candidate generation, and ranking pipeline.",
+              "url": "https://dl.acm.org/doi/10.1145/2820783.2820828",
+              "tags": [
+                "Spatial & Geo",
+                "Mapping & Geocoding"
+              ],
+              "citations": 42
+            },
+            {
+              "title": "Probabilistic Record Linkage and a Method to Calculate the Positive Predictive Value",
+              "authors": "Tim Churches, Peter Christen, Kim Lim, Justin X. Zhu",
+              "year": 2002,
+              "description": "HMM-based address parsing and record linkage; foundational for modern address normalization.",
+              "url": "https://link.springer.com/article/10.1023/A:1020576411898",
+              "tags": [
+                "Spatial & Geo",
+                "Mapping & Geocoding"
+              ],
+              "citations": 350
             }
           ]
         },
@@ -12693,7 +12753,7 @@
           "papers": [
             {
               "title": "Understanding Individual Human Mobility Patterns",
-              "authors": "Marta Gonz\u00e1lez, C\u00e9sar Hidalgo, Albert-L\u00e1szl\u00f3 Barab\u00e1si",
+              "authors": "Marta González, César Hidalgo, Albert-László Barabási",
               "year": 2008,
               "tag": "Classic",
               "description": "Large-scale mobile-phone analysis revealing power-law travel distributions.",
@@ -12706,7 +12766,7 @@
             },
             {
               "title": "The Universal Visitation Law of Human Mobility",
-              "authors": "Markus Schl\u00e4pfer et al.",
+              "authors": "Markus Schläpfer et al.",
               "year": 2021,
               "tag": "SOTA",
               "description": "Unifying framework explaining visitation frequency to locations across cities.",
@@ -12735,7 +12795,7 @@
               "authors": "Google",
               "year": 2020,
               "tag": "Industry",
-              "description": "Aggregated mobility trends by place category\u2014used globally for pandemic response.",
+              "description": "Aggregated mobility trends by place category—used globally for pandemic response.",
               "url": "https://www.google.com/covid19/mobility/",
               "tags": [
                 "Spatial & Geo",
@@ -12809,16 +12869,16 @@
           ]
         },
         {
-          "id": "kmeans-hierarchical",
-          "name": "K-Means & Hierarchical Clustering",
-          "application": "Classic approaches",
+          "id": "classical-clustering",
+          "name": "Classical Clustering Algorithms",
+          "application": "Foundational partitioning, hierarchical, and density-based clustering algorithms",
           "papers": [
             {
               "title": "Algorithm AS 136: A K-Means Clustering Algorithm",
               "authors": "John Hartigan, Manchek Wong",
               "year": 1979,
               "tag": "Classic",
-              "description": "Definitive k-means formulation with convergence guarantees\u2014still the default.",
+              "description": "Definitive k-means formulation with convergence guarantees—still the default.",
               "url": "https://www.jstor.org/stable/2346830",
               "tags": [
                 "Clustering & Segmentation",
@@ -12844,7 +12904,7 @@
               "authors": "Bahman Bahmani et al.",
               "year": 2012,
               "tag": "SOTA",
-              "description": "Parallel k-means initialization achieving logarithmic rounds\u2014default in Spark MLlib.",
+              "description": "Parallel k-means initialization achieving logarithmic rounds—default in Spark MLlib.",
               "url": "https://arxiv.org/abs/1203.6402",
               "tags": [
                 "Clustering & Segmentation",
