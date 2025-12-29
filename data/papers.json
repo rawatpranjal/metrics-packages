@@ -310,7 +310,7 @@
         {
           "id": "switchback-geo",
           "name": "Switchback & Geo-Experiments",
-          "application": "Pricing tests, market-level interventions",
+          "application": "Run experiments when you can't randomize individual users",
           "papers": [
             {
               "title": "Switchback Experiments and Randomized Experiments for Estimating Platform-Level Effects",
@@ -386,7 +386,7 @@
         {
           "id": "long-run-surrogates",
           "name": "Long-run Effects & Surrogates",
-          "application": "LTV, delayed outcomes, surrogate index",
+          "application": "Predict long-term impact from short-term metrics",
           "papers": [
             {
               "title": "Surrogate Index: Combining Short-Term Proxies to Estimate Long-Term Treatment Effects",
@@ -461,7 +461,7 @@
         {
           "id": "matching-propensity",
           "name": "Matching & Propensity Scores",
-          "application": "Program evaluation, ad exposure",
+          "application": "Compare similar treated and untreated groups fairly",
           "papers": [
             {
               "title": "The Central Role of the Propensity Score in Observational Studies",
@@ -697,7 +697,7 @@
         {
           "id": "instrumental-variables",
           "name": "Instrumental Variables & LATE",
-          "application": "Non-compliance, demand shocks",
+          "application": "Find causal effects using natural experiments",
           "papers": [
             {
               "title": "Identification and Estimation of Local Average Treatment Effects",
@@ -831,7 +831,7 @@
         {
           "id": "double-ml-cate",
           "name": "Double ML & Heterogeneous Effects",
-          "application": "CATE, personalization, targeting",
+          "application": "Find which customers benefit most from an intervention",
           "papers": [
             {
               "title": "Estimation and Inference of Heterogeneous Treatment Effects using Random Forests",
@@ -997,7 +997,7 @@
         {
           "id": "dynamic-pricing",
           "name": "Dynamic Pricing & Revenue Management",
-          "application": "Airlines, hotels, e-commerce",
+          "application": "Adjust prices over time to maximize revenue",
           "papers": [
             {
               "title": "The Theory and Practice of Revenue Management",
@@ -1131,7 +1131,7 @@
         {
           "id": "surge-realtime",
           "name": "Surge & Real-time Pricing",
-          "application": "Rideshare, delivery, congestion pricing",
+          "application": "Balance supply and demand in real time",
           "papers": [
             {
               "title": "Dynamic Pricing and Matching in Ride-Hailing Platforms",
@@ -1277,7 +1277,7 @@
         {
           "id": "demand-estimation",
           "name": "Demand Estimation & Elasticity",
-          "application": "Price sensitivity, substitution patterns",
+          "application": "Understand how price changes affect demand",
           "papers": [
             {
               "title": "Automobile Prices in Market Equilibrium (BLP)",
@@ -1618,7 +1618,7 @@
         {
           "id": "churn-prediction",
           "name": "Churn Prediction & Prevention",
-          "application": "SaaS, streaming, telecom",
+          "application": "Identify which customers are about to leave before they go",
           "papers": [
             {
               "title": "Customer Churn Prediction: A Survey",
@@ -1649,7 +1649,7 @@
         {
           "id": "lifetime-value",
           "name": "Lifetime Value Estimation",
-          "application": "CLV models, discounting, cohort analysis",
+          "application": "Forecast how much a customer is worth over time",
           "papers": [
             {
               "title": "Counting Your Customers: Who Are They and What Will They Do Next? (BG/NBD)",
@@ -1692,7 +1692,7 @@
         {
           "id": "free-to-paid",
           "name": "Free-to-Paid Conversion",
-          "application": "Freemium, trials, paywall optimization",
+          "application": "Convert free users into paying customers",
           "papers": [
             {
               "title": "Freemium as a Marketing Strategy",
@@ -1722,7 +1722,7 @@
         {
           "id": "renewal-cancellation",
           "name": "Renewal & Cancellation Dynamics",
-          "application": "Winback, save offers, contract design",
+          "application": "Win back lapsed customers and prevent cancellations",
           "papers": [
             {
               "title": "Does Retaining Customers Pay Off?",
@@ -1752,7 +1752,7 @@
         {
           "id": "engagement-habit",
           "name": "Engagement & Habit Formation",
-          "application": "Stickiness, frequency, retention loops",
+          "application": "Build product habits that keep users coming back",
           "papers": [
             {
               "title": "A Behavior Model for Persuasive Design",
@@ -1814,7 +1814,7 @@
         {
           "id": "survival-analysis",
           "name": "Survival Analysis for Subscriptions",
-          "application": "Hazard models, time-to-event, right-censoring",
+          "application": "Model time until customers churn or convert",
           "papers": [
             {
               "title": "Customer Attrition Analysis for Financial Services Using Proportional Hazard Models",
@@ -1865,7 +1865,7 @@
         {
           "id": "customer-base-analysis",
           "name": "Customer Base Analysis & Cohort Methods",
-          "application": "Customer equity, firm valuation, cohort analysis",
+          "application": "Analyze customer populations and forecast value",
           "papers": [
             {
               "title": "Manage Marketing by the Customer Equity Test",
@@ -1964,7 +1964,7 @@
         {
           "id": "ad-auctions",
           "name": "Ad Auctions (GSP, VCG)",
-          "application": "Sponsored search, display, reserve prices",
+          "application": "Understand how ad bidding and pricing works",
           "papers": [
             {
               "title": "Internet Advertising and the Generalized Second-Price Auction",
@@ -2029,7 +2029,7 @@
         {
           "id": "autobidding-pacing",
           "name": "Autobidding & Budget Pacing",
-          "application": "Advertiser automation, value optimization",
+          "application": "Automate campaign bidding and spending",
           "papers": [
             {
               "title": "Budget Management Strategies in Repeated Auctions",
@@ -2255,7 +2255,7 @@
         {
           "id": "brand-performance",
           "name": "Brand vs. Performance",
-          "application": "Long-run effects, lift studies, upper funnel",
+          "application": "Balance short-term sales with long-term brand building",
           "papers": [
             {
               "title": "The Long and the Short of It: Balancing Short and Long-Term Marketing Strategies",
@@ -2381,7 +2381,7 @@
         {
           "id": "real-time-bidding",
           "name": "Real-Time Bidding & Programmatic",
-          "application": "RTB, DSPs, SSPs, header bidding",
+          "application": "Buy and sell ads in real-time auctions",
           "papers": [
             {
               "title": "Online Display Advertising Markets: A Literature Review and Future Directions",
@@ -2567,7 +2567,7 @@
         {
           "id": "network-effects",
           "name": "Network Effects & Viral Growth",
-          "application": "Platform adoption, critical mass",
+          "application": "Achieve viral growth through network dynamics",
           "papers": [
             {
               "title": "Network Externalities, Competition, and Compatibility",
@@ -2720,7 +2720,7 @@
         {
           "id": "marketing-mix",
           "name": "Marketing Mix Modeling",
-          "application": "Budget allocation, channel effectiveness",
+          "application": "Allocate marketing budget across channels",
           "papers": [
             {
               "title": "Bayesian Methods for Media Mix Modeling with Carryover and Shape Effects",
@@ -3006,7 +3006,7 @@
         {
           "id": "loyalty-crm",
           "name": "Loyalty Programs & CRM",
-          "application": "Customer retention, loyalty cards, CRM analytics",
+          "application": "Build customer relationships that drive repeat purchases",
           "papers": [
             {
               "title": "The Endowed Progress Effect: How Artificial Advancement Increases Effort",
@@ -3116,7 +3116,7 @@
         {
           "id": "collaborative-filtering",
           "name": "Collaborative Filtering & Matrix Factorization",
-          "application": "User-item interactions, implicit feedback",
+          "application": "Recommend based on similar user preferences",
           "papers": [
             {
               "title": "Matrix Factorization Techniques for Recommender Systems",
@@ -3310,7 +3310,7 @@
         {
           "id": "causal-recommendations",
           "name": "Causal Recommendations & Debiasing",
-          "application": "Exposure bias, counterfactual evaluation",
+          "application": "Make fair recommendations despite biased data",
           "papers": [
             {
               "title": "Recommendations as Treatments: Debiasing Learning and Evaluation",
@@ -3571,7 +3571,7 @@
         {
           "id": "graph-neural-networks",
           "name": "Graph Neural Networks for Recommendations",
-          "application": "High-order connectivity, knowledge graphs",
+          "application": "Leverage network structure for better recommendations",
           "papers": [
             {
               "title": "PinSage: Graph Convolutional Neural Networks for Web-Scale Recommender Systems",
@@ -3626,7 +3626,7 @@
         {
           "id": "multi-task-learning",
           "name": "Multi-Task & Multi-Objective Learning",
-          "application": "CTR/CVR joint optimization, Pareto efficiency",
+          "application": "Optimize multiple recommendation goals together",
           "papers": [
             {
               "title": "Modeling Task Relationships in Multi-task Learning with Multi-gate Mixture-of-Experts",
@@ -3681,7 +3681,7 @@
         {
           "id": "reinforcement-learning",
           "name": "Reinforcement Learning for Recommendations",
-          "application": "Long-term satisfaction, slate optimization",
+          "application": "Optimize for long-term user satisfaction",
           "papers": [
             {
               "title": "Top-K Off-Policy Correction for a REINFORCE Recommender System",
@@ -3736,7 +3736,7 @@
         {
           "id": "fairness-recommendations",
           "name": "Fairness & Responsible Recommendations",
-          "application": "Provider exposure, multi-stakeholder optimization",
+          "application": "Ensure fair exposure for creators and sellers",
           "papers": [
             {
               "title": "Fairness of Exposure in Rankings",
@@ -4066,7 +4066,7 @@
         {
           "id": "position-bias",
           "name": "Position Bias & Debiasing",
-          "application": "Click models, unbiased LTR",
+          "application": "Account for the fact that top results get more clicks",
           "papers": [
             {
               "title": "An Experimental Comparison of Click Position-Bias Models",
@@ -4145,7 +4145,7 @@
         {
           "id": "semantic-search",
           "name": "Semantic Search & Embeddings",
-          "application": "Dense retrieval, vector search",
+          "application": "Match meaning, not just keywords",
           "papers": [
             {
               "title": "Dense Passage Retrieval for Open-Domain QA (DPR)",
@@ -5173,7 +5173,7 @@
         {
           "id": "platform-competition-strategy",
           "name": "Platform Competition & Strategy",
-          "application": "Entry, self-preferencing, disintermediation",
+          "application": "Navigate competitive dynamics between platforms",
           "papers": [
             {
               "title": "Responses to Entry in Multi-Sided Markets: The Impact of Craigslist on Local Newspapers",
@@ -5240,7 +5240,7 @@
         {
           "id": "information-design-marketplaces",
           "name": "Information Design in Marketplaces",
-          "application": "Transparency, search design, disclosure",
+          "application": "Design what information to show and when",
           "papers": [
             {
               "title": "Consumer Price Search and Platform Design in Internet Commerce",
@@ -5291,7 +5291,7 @@
         {
           "id": "auction-theory",
           "name": "Auction Theory Foundations",
-          "application": "IPV, revenue equivalence, optimal auctions",
+          "application": "Understand how different auction formats work",
           "papers": [
             {
               "title": "Counterspeculation, Auctions, and Competitive Sealed Tenders",
@@ -5346,7 +5346,7 @@
         {
           "id": "multi-unit-combinatorial",
           "name": "Multi-unit & Combinatorial Auctions",
-          "application": "Spectrum, procurement, ad slots",
+          "application": "Auction multiple items or bundles together",
           "papers": [
             {
               "title": "Putting Auction Theory to Work",
@@ -5401,7 +5401,7 @@
         {
           "id": "dynamic-auctions",
           "name": "Dynamic Auctions & Repeated Games",
-          "application": "Learning bidders, long-run equilibria",
+          "application": "Design auctions that work over time",
           "papers": [
             {
               "title": "Learning in Repeated Auctions with Budgets",
@@ -5510,7 +5510,7 @@
         {
           "id": "information-design",
           "name": "Information Design & Signaling",
-          "application": "Bayesian persuasion, cheap talk",
+          "application": "Strategically reveal information to influence decisions",
           "papers": [
             {
               "title": "Strategic Information Transmission",
@@ -5695,7 +5695,7 @@
         {
           "id": "dynamic-structural",
           "name": "Dynamic Structural Models",
-          "application": "Durable goods, firm dynamics",
+          "application": "Model firm decisions over time",
           "papers": [
             {
               "title": "Optimal Replacement of GMC Bus Engines: An Empirical Model of Harold Zurcher",
@@ -5829,7 +5829,7 @@
         {
           "id": "production-cost",
           "name": "Production & Cost Estimation",
-          "application": "Efficiency, scale economies",
+          "application": "Estimate firm costs and efficiency",
           "papers": [
             {
               "title": "The Dynamics of Productivity in the Telecommunications Equipment Industry",
@@ -5904,7 +5904,7 @@
         {
           "id": "discrete-choice",
           "name": "Discrete Choice (Logit, Mixed Logit)",
-          "application": "Product choice, mode choice",
+          "application": "Model choices among discrete alternatives",
           "papers": [
             {
               "title": "Conditional Logit Analysis of Qualitative Choice Behavior",
@@ -5958,7 +5958,7 @@
         {
           "id": "consideration-sets",
           "name": "Consideration Sets & Attention",
-          "application": "Bounded rationality, search costs",
+          "application": "Account for limited attention in choices",
           "papers": [
             {
               "title": "An Evaluation Cost Model of Consideration Sets",
@@ -6111,7 +6111,7 @@
         {
           "id": "choice-architecture",
           "name": "Choice Architecture & Nudges",
-          "application": "Defaults, framing, option design",
+          "application": "Design choice environments that guide behavior",
           "papers": [
             {
               "title": "Nudge: Improving Decisions About Health, Wealth, and Happiness",
@@ -6724,7 +6724,7 @@
         {
           "id": "credit-scoring",
           "name": "Credit Scoring & Risk Models",
-          "application": "Default prediction, underwriting",
+          "application": "Predict loan defaults and assess creditworthiness",
           "papers": [
             {
               "title": "Financial Ratios, Discriminant Analysis and the Prediction of Corporate Bankruptcy",
@@ -6790,7 +6790,7 @@
         {
           "id": "fair-lending",
           "name": "Fair Lending & Disparate Impact",
-          "application": "Discrimination, protected classes",
+          "application": "Ensure lending decisions are fair across groups",
           "papers": [
             {
               "title": "Mortgage Lending in Boston: Interpreting HMDA Data",
@@ -6845,7 +6845,7 @@
         {
           "id": "pricing-credit",
           "name": "Pricing Credit Products",
-          "application": "Interest rates, risk-based pricing",
+          "application": "Set interest rates based on risk",
           "papers": [
             {
               "title": "The Failure of Competition in the Credit Card Market",
@@ -7127,7 +7127,7 @@
         {
           "id": "content-moderation",
           "name": "Content Moderation & Toxicity",
-          "application": "Hate speech, misinformation",
+          "application": "Identify and remove harmful content",
           "papers": [
             {
               "title": "Automated Hate Speech Detection and the Problem of Offensive Language",
@@ -7182,7 +7182,7 @@
         {
           "id": "claims-insurance",
           "name": "Claims & Insurance Fraud",
-          "application": "False claims, anomaly detection",
+          "application": "Detect fraudulent insurance claims",
           "papers": [
             {
               "title": "Fraud Detection in Healthcare Claims Using Machine Learning: A Systematic Review",
@@ -7225,7 +7225,7 @@
         {
           "id": "account-security",
           "name": "Account Security & Identity",
-          "application": "Authentication, verification",
+          "application": "Verify identities and secure accounts",
           "papers": [
             {
               "title": "Data Breaches, Phishing, or Malware? Understanding the Risks of Stolen Credentials",
@@ -7479,7 +7479,7 @@
         {
           "id": "last-mile",
           "name": "Last-Mile Optimization",
-          "application": "Delivery efficiency, batching",
+          "application": "Make final delivery as efficient as possible",
           "papers": [
             {
               "title": "Challenges and Opportunities in Crowdsourced Delivery Planning and Operations",
@@ -7639,7 +7639,7 @@
         {
           "id": "privacy-measurement",
           "name": "Privacy-Preserving Measurement",
-          "application": "Aggregated attribution, clean rooms",
+          "application": "Measure ad effectiveness while protecting privacy",
           "papers": [
             {
               "title": "RAPPOR: Randomized Aggregatable Privacy-Preserving Ordinal Response",
@@ -7712,7 +7712,7 @@
         {
           "id": "anonymization",
           "name": "Anonymization & De-identification",
-          "application": "k-anonymity, re-identification risk",
+          "application": "Remove identifying information from datasets",
           "papers": [
             {
               "title": "k-Anonymity: A Model for Protecting Privacy",
@@ -7893,7 +7893,7 @@
         {
           "id": "hierarchical-forecasting",
           "name": "Hierarchical & Grouped Forecasting",
-          "application": "SKU rollups, geographic aggregation",
+          "application": "Forecast at multiple levels consistently",
           "papers": [
             {
               "title": "The Combination of Forecasts",
@@ -7991,7 +7991,7 @@
         {
           "id": "causal-impact",
           "name": "Causal Impact & Intervention",
-          "application": "Shock detection, launch measurement",
+          "application": "Measure the impact of events or launches",
           "papers": [
             {
               "title": "Inferring Causal Impact Using Bayesian Structural Time-Series Models",
@@ -8054,7 +8054,7 @@
         {
           "id": "geospatial-demand",
           "name": "Geospatial Demand Modeling",
-          "application": "Heatmaps, demand surfaces",
+          "application": "Model demand across geographic areas",
           "papers": [
             {
               "title": "Kernel Density Estimation",
@@ -8111,7 +8111,7 @@
         {
           "id": "location-choice",
           "name": "Location Choice & Site Selection",
-          "application": "Store placement, coverage optimization",
+          "application": "Choose optimal locations for stores or services",
           "papers": [
             {
               "title": "Maximum Coverage Location Problem",
@@ -8257,7 +8257,7 @@
         {
           "id": "mobility-patterns",
           "name": "Mobility & Movement Patterns",
-          "application": "Travel behavior, flow prediction",
+          "application": "Analyze how people move through space",
           "papers": [
             {
               "title": "Understanding Individual Human Mobility Patterns",
@@ -8471,7 +8471,7 @@
         {
           "id": "embedding-clustering",
           "name": "Embedding-Based Clustering",
-          "application": "Deep clustering, representation learning",
+          "application": "Cluster using learned representations",
           "papers": [
             {
               "title": "Deep Embedded Clustering (DEC)",
