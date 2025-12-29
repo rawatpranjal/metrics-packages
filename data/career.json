@@ -58,7 +58,8 @@
     "section": "essential",
     "tier": "essential",
     "tab": "interview",
-    "subtab": "general"
+    "subtab": "general",
+    "archived": true
   },
   {
     "name": "Amazon Economist Careers",
@@ -1092,7 +1093,8 @@
     ],
     "section": "interview",
     "tab": "interview",
-    "subtab": "stats"
+    "subtab": "stats",
+    "archived": true
   },
   {
     "name": "StatQuest with Josh Starmer",
@@ -1107,7 +1109,8 @@
     ],
     "section": "interview",
     "tab": "interview",
-    "subtab": "ml-fundamentals"
+    "subtab": "ml-fundamentals",
+    "archived": true
   },
   {
     "name": "Trustworthy Online Controlled Experiments (Kohavi)",
@@ -1302,7 +1305,8 @@
     ],
     "section": "interview",
     "tab": "interview",
-    "subtab": "ml-fundamentals"
+    "subtab": "ml-fundamentals",
+    "archived": true
   },
   {
     "name": "Chip Huyen ML Interviews Book",
@@ -1317,7 +1321,8 @@
     ],
     "section": "interview",
     "tab": "interview",
-    "subtab": "ml-fundamentals"
+    "subtab": "ml-fundamentals",
+    "archived": true
   },
   {
     "name": "Interview Query Take-Homes",
@@ -1332,7 +1337,8 @@
     ],
     "section": "interview",
     "tab": "interview",
-    "subtab": "take-home"
+    "subtab": "take-home",
+    "archived": true
   },
   {
     "name": "Candor Salary Negotiation",
@@ -2055,7 +2061,8 @@
     ],
     "section": "interview",
     "tab": "interview",
-    "subtab": "ml-fundamentals"
+    "subtab": "ml-fundamentals",
+    "archived": true
   },
   {
     "name": "Susan Athey: ML Short Course",
@@ -2070,7 +2077,8 @@
     ],
     "section": "interview",
     "tab": "interview",
-    "subtab": "ml-fundamentals"
+    "subtab": "ml-fundamentals",
+    "archived": true
   },
   {
     "name": "Matt Sosna: Academia to Data Science",
@@ -2218,5 +2226,215 @@
       "research"
     ],
     "archived": true
+  },
+  {
+    "name": "Eppo Documentation",
+    "description": "CUPED++ with post-stratification, Bayesian/frequentist approaches, sequential testing, clustered experiments, switchback experiments. Written by ex-Airbnb data scientists. Replaces Kohavi's A/B testing book.",
+    "url": "https://docs.geteppo.com/",
+    "type": "Documentation",
+    "tab": "interview",
+    "subtab": "experimentation",
+    "category": "Experimentation",
+    "tags": [
+      "free",
+      "CUPED",
+      "A/B-testing"
+    ]
+  },
+  {
+    "name": "Statsig Docs + Blog",
+    "description": "CUPED with math derivations, sequential testing (mSPRT), Bayesian experiments, winsorization, power analysis. Facebook-level statistical rigor. Free sample size calculators.",
+    "url": "https://docs.statsig.com/",
+    "type": "Documentation",
+    "tab": "interview",
+    "subtab": "experimentation",
+    "category": "Experimentation",
+    "tags": [
+      "free",
+      "Facebook",
+      "A/B-testing"
+    ]
+  },
+  {
+    "name": "Netflix Tech Blog: Experimentation",
+    "description": "Platform architecture, organizational culture, causal inference, contextual bandits. Real case studies from thousands of annual experiments. Covers cultural aspects missing from technical resources.",
+    "url": "https://netflixtechblog.com/tagged/experimentation",
+    "type": "Blog",
+    "tab": "interview",
+    "subtab": "experimentation",
+    "category": "Experimentation",
+    "tags": [
+      "free",
+      "Netflix",
+      "case-studies"
+    ]
+  },
+  {
+    "name": "khangich/machine-learning-interview",
+    "description": "100+ curated questions: bias-variance, regularization, neural networks, backprop, CNNs, RNNs. 11.6k GitHub stars. Includes ML system design cases: YouTube recs, LinkedIn feed, ad CTR. Author received NVIDIA, Microsoft, Amazon offers.",
+    "url": "https://github.com/khangich/machine-learning-interview",
+    "type": "GitHub",
+    "tab": "interview",
+    "subtab": "ml-questions",
+    "category": "ML Fundamentals",
+    "tags": [
+      "free",
+      "11k-stars",
+      "FAANG"
+    ]
+  },
+  {
+    "name": "alirezadir/Machine-Learning-Interviews",
+    "description": "6 structured chapters: algorithms, ML coding, fundamentals, system design, behavioral. Updated 2025 with Agentic AI chapter. Author received offers from Meta, Google, Amazon, Apple. MIT licensed.",
+    "url": "https://github.com/alirezadir/Machine-Learning-Interviews",
+    "type": "GitHub",
+    "tab": "interview",
+    "subtab": "ml-questions",
+    "category": "ML Fundamentals",
+    "tags": [
+      "free",
+      "2025-updated",
+      "FAANG"
+    ]
+  },
+  {
+    "name": "Chip Huyen's ML Interviews (Free!)",
+    "description": "200+ questions across math, CS, ML workflows, algorithms. Difficulty tagged. 30 systems design questions. Companion answers at github.com/zafstojano/ml-interview-questions-and-answers. The book is FREE online.",
+    "url": "https://huyenchip.com/ml-interviews-book/",
+    "type": "Book",
+    "tab": "interview",
+    "subtab": "ml-questions",
+    "category": "ML Fundamentals",
+    "tags": [
+      "free",
+      "Stanford",
+      "200-questions"
+    ]
+  },
+  {
+    "name": "Made With ML",
+    "description": "47 free lessons covering complete ML lifecycle: product design, data prep, feature engineering, training, serving, monitoring, CI/CD, testing. 30k GitHub stars. Includes working code from laptop to distributed cluster.",
+    "url": "https://madewithml.com/courses/mlops/",
+    "type": "Course",
+    "tab": "interview",
+    "subtab": "ml-systems",
+    "category": "ML System Design",
+    "tags": [
+      "free",
+      "30k-stars",
+      "MLOps"
+    ]
+  },
+  {
+    "name": "Eugene Yan's Blog + Applied ML",
+    "description": "Amazon Principal Applied Scientist. Deep articles on feature stores, real-time retrieval, ML testing. His applied-ml repo has 600+ curated papers from Netflix, Spotify, Pinterest. Co-authored 'A Year of Building with LLMs' (O'Reilly).",
+    "url": "https://eugeneyan.com/start-here/",
+    "type": "Blog",
+    "tab": "interview",
+    "subtab": "ml-systems",
+    "category": "ML System Design",
+    "tags": [
+      "free",
+      "Amazon",
+      "practitioner"
+    ]
+  },
+  {
+    "name": "Stanford CS 329S Materials",
+    "description": "Same author as Chip Huyen's book, same content. Free lecture notes: ML production, training data, feature engineering, deployment, monitoring. Guest tutorials from Made With ML, Stitch Fix. 24 final project demos on YouTube.",
+    "url": "https://stanford-cs329s.github.io/syllabus.html",
+    "type": "Course",
+    "tab": "interview",
+    "subtab": "ml-systems",
+    "category": "ML System Design",
+    "tags": [
+      "free",
+      "Stanford",
+      "same-as-book"
+    ]
+  },
+  {
+    "name": "Hello Interview: ML System Design",
+    "description": "6-step framework with timing recommendations. Free worked examples: Video Recommendations, Harmful Content Detection, Bot Detection. Written by former Meta and Amazon hiring managers.",
+    "url": "https://www.hellointerview.com/learn/ml-system-design/in-a-hurry/introduction",
+    "type": "Guide",
+    "tab": "interview",
+    "subtab": "ml-design",
+    "category": "ML System Design",
+    "tags": [
+      "free",
+      "framework",
+      "FAANG-interviewers"
+    ]
+  },
+  {
+    "name": "khangich: ML System Design Cases",
+    "description": "6 complete ML system design cases: YouTube recommendations, LinkedIn feed ranking, ad click prediction, delivery time estimation, Airbnb search ranking. Links to source company engineering blogs.",
+    "url": "https://github.com/khangich/machine-learning-interview#ml-system-design",
+    "type": "GitHub",
+    "tab": "interview",
+    "subtab": "ml-design",
+    "category": "ML System Design",
+    "tags": [
+      "free",
+      "worked-examples",
+      "company-cases"
+    ]
+  },
+  {
+    "name": "alirezadir: 9-Step ML Design Formula",
+    "description": "Structured 9-step formula: problem clarification, data requirements, ML objective, offline/online metrics, feature engineering, candidate generation \u2192 ranking \u2192 filters, training data, architecture, serving/deployment.",
+    "url": "https://github.com/alirezadir/Machine-Learning-Interviews#ml-system-design",
+    "type": "GitHub",
+    "tab": "interview",
+    "subtab": "ml-design",
+    "category": "ML System Design",
+    "tags": [
+      "free",
+      "step-by-step",
+      "actionable"
+    ]
+  },
+  {
+    "name": "DataLemur (Same Author as Book!)",
+    "description": "100+ free practice questions: SQL, Python, statistics, ML, probability. Same author as 'Ace the Data Science Interview'. 60+ SQL from FAANG with solutions. Interactive PostgreSQL environment. Free 9-day crash course.",
+    "url": "https://datalemur.com",
+    "type": "Practice",
+    "tab": "interview",
+    "subtab": "ds-interview",
+    "category": "SQL & Data",
+    "tags": [
+      "free",
+      "same-as-book",
+      "interactive"
+    ]
+  },
+  {
+    "name": "rbhatia46/Data-Science-Interview-Resources",
+    "description": "200+ curated links: probability/stats (40+ questions), SQL, ML algorithms, real case studies, FAANG-specific prep, deep learning (40+ questions), NLP (30+ questions), Spark (55+ questions), GenAI topics.",
+    "url": "https://github.com/rbhatia46/Data-Science-Interview-Resources",
+    "type": "GitHub",
+    "tab": "interview",
+    "subtab": "ds-interview",
+    "category": "SQL & Data",
+    "tags": [
+      "free",
+      "200-links",
+      "comprehensive"
+    ]
+  },
+  {
+    "name": "khanhnamle1994/cracking-the-data-science-interview",
+    "description": "Downloadable cheatsheets (SQL, stats, ML/DL), question bank with '150 Essential DS Questions' PDF, case studies, portfolio examples. Closest structural equivalent to the book. 4.4k GitHub stars.",
+    "url": "https://github.com/khanhnamle1994/cracking-the-data-science-interview",
+    "type": "GitHub",
+    "tab": "interview",
+    "subtab": "ds-interview",
+    "category": "SQL & Data",
+    "tags": [
+      "free",
+      "cheatsheets",
+      "offline"
+    ]
   }
 ]

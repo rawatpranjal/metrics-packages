@@ -258,31 +258,31 @@
     <div id="tab-interview" class="career-tab-content">
         <!-- Subtabs -->
         <div class="subtabs">
-            <button class="subtab active" data-subtab="sql">SQL & Data</button>
-            <button class="subtab" data-subtab="stats">Stats</button>
-            <button class="subtab" data-subtab="experimentation">Experimentation</button>
-            <button class="subtab" data-subtab="ml-fundamentals">ML Basics</button>
+            <button class="subtab active" data-subtab="experimentation">Experimentation</button>
+            <button class="subtab" data-subtab="ml-questions">ML Questions</button>
+            <button class="subtab" data-subtab="ml-systems">ML Systems</button>
             <button class="subtab" data-subtab="ml-design">ML Design</button>
-            <button class="subtab" data-subtab="product">Product</button>
+            <button class="subtab" data-subtab="ds-interview">DS Interview</button>
+            <button class="subtab" data-subtab="sql">SQL</button>
             <button class="subtab" data-subtab="behavioral">Behavioral</button>
-            <button class="subtab" data-subtab="take-home">Take-Home</button>
+            <button class="subtab" data-subtab="product">Product</button>
         </div>
 
-        {{ $interviewSubtabs := slice "sql" "stats" "experimentation" "ml-fundamentals" "ml-design" "product" "behavioral" "take-home" "general" }}
+        {{ $interviewSubtabs := slice "experimentation" "ml-questions" "ml-systems" "ml-design" "ds-interview" "sql" "behavioral" "product" }}
         {{ range $subtab := $interviewSubtabs }}
         {{ $subtabCount := 0 }}
         {{ range $.Site.Data.career }}
-            {{ if and (eq .tab "interview") (eq .subtab $subtab) }}
+            {{ if and (eq .tab "interview") (eq .subtab $subtab) (not .archived) }}
                 {{ $subtabCount = add $subtabCount 1 }}
             {{ end }}
         {{ end }}
 
         {{ if gt $subtabCount 0 }}
-        <div id="subtab-{{ $subtab }}" class="subtab-content{{ if eq $subtab "sql" }} active{{ end }}">
+        <div id="subtab-{{ $subtab }}" class="subtab-content{{ if eq $subtab "experimentation" }} active{{ end }}">
             <section class="curated-section">
                 <div class="interview-grid">
                     {{ range $.Site.Data.career }}
-                    {{ if and (eq .tab "interview") (eq .subtab $subtab) }}
+                    {{ if and (eq .tab "interview") (eq .subtab $subtab) (not .archived) }}
                     <a href="{{ .url }}" target="_blank" rel="noopener" class="interview-card">
                         <img class="favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
                         <div class="interview-content">
