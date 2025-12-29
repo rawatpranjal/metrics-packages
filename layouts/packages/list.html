@@ -7,7 +7,7 @@
 
 <!-- Search Index Data for Fuse.js -->
 <script id="search-data" type="application/json">
-[{{ range $i, $pkg := .Site.Data.packages }}{{ if $i }},{{ end }}{"name":"{{ .name }}","description":"{{ .description | htmlEscape }}","category":"{{ .category }}","tags":"{{ delimit .tags "," }}","best_for":"{{ .best_for | htmlEscape }}"}{{ end }}]
+[{{ range $i, $pkg := .Site.Data.packages }}{{ if $i }},{{ end }}{"name":"{{ .name }}","description":"{{ .description | htmlEscape }}","category":"{{ .category }}","tags":"{{ delimit .tags "," }}","best_for":"{{ .best_for | htmlEscape }}","language":"{{ .language }}"}{{ end }}]
 </script>
 
 <div class="container">
@@ -47,6 +47,20 @@
             {{ end }}
         </select>
 
+        <!-- Language Dropdown -->
+        {{ $languages := slice }}
+        {{ range .Site.Data.packages }}
+            {{ if and .language (not (in $languages .language)) }}
+                {{ $languages = $languages | append .language }}
+            {{ end }}
+        {{ end }}
+        <select id="language-select" class="category-select">
+            <option value="all">All Languages</option>
+            {{ range $lang := sort $languages }}
+            <option value="{{ $lang }}">{{ $lang }}</option>
+            {{ end }}
+        </select>
+
         <!-- View Toggle -->
         <div class="view-toggle">
             <button id="btn-cards" class="toggle-btn active">Cards</button>
@@ -68,6 +82,7 @@
                      data-name="{{ .name | lower }}"
                      data-description="{{ .description | lower }}"
                      data-category="{{ .category }}"
+                     data-language="{{ .language }}"
                      data-tags="{{ delimit .tags "," | lower }}">
                     <div class="card-header">
                         {{ if .github_url }}
@@ -134,6 +149,7 @@
                     <th>Description</th>
                     <th>Best For</th>
                     <th>Category</th>
+                    <th>Lang</th>
                     <th>Stars</th>
                     <th>Links</th>
                     <th>Install</th>
@@ -141,13 +157,14 @@
             </thead>
             <tbody>
                 {{ range .Site.Data.packages }}
-                <tr>
+                <tr data-category="{{ .category }}" data-language="{{ .language }}">
                     <td class="pkg-name">
                         <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
                     </td>
                     <td class="pkg-desc">{{ .description }}</td>
                     <td class="pkg-best-for">{{ .best_for }}</td>
                     <td class="pkg-cat"><span class="category-badge-sm">{{ .category }}</span></td>
+                    <td class="pkg-lang">{{ .language }}</td>
                     <td class="pkg-stars">
                         {{ if .github_url }}
                         {{ $repo := replaceRE "https://github.com/([^/]+/[^/]+).*" "$1" .github_url }}
@@ -180,7 +197,10 @@ document.addEventListener('DOMContentLoaded', function() {
         searchInputId: 'package-search',
         cardSelector: '.package-card',
         tableRowSelector: '.package-table tbody tr',
-        itemLabel: 'packages'
+        itemLabel: 'packages',
+        extraFilters: [
+            { selectId: 'language-select', dataKey: 'language' }
+        ]
     });
 
     // Tag clicks
