@@ -87,11 +87,35 @@ async function handleStats(request, env, origin) {
     return new Response('Forbidden', { status: 403 });
   }
 
+  const CACHE_KEY = 'stats:cached';
+  const CACHE_TTL = 1800; // 30 minutes
+
   try {
     const now = Date.now();
-    const sevenDaysAgo = now - (7 * 24 * 60 * 60 * 1000);
 
-    // Fetch all events from KV
+    // Check cache first
+    const cached = await env.ANALYTICS_EVENTS.get(CACHE_KEY);
+    if (cached) {
+      try {
+        const { data, ts } = JSON.parse(cached);
+        if (now - ts < CACHE_TTL * 1000) {
+          // Cache hit - return cached data
+          return new Response(JSON.stringify({ ...data, _cached: true }), {
+            status: 200,
+            headers: {
+              'Content-Type': 'application/json',
+              'Cache-Control': 'public, max-age=1800',
+              ...corsHeaders(origin || '*')
+            }
+          });
+        }
+      } catch (e) {
+        // Invalid cache, continue to regenerate
+      }
+    }
+
+    // Cache miss or stale - fetch and aggregate
+    const sevenDaysAgo = now - (7 * 24 * 60 * 60 * 1000);
     const allEvents = [];
     let cursor = null;
 
@@ -117,11 +141,17 @@ async function handleStats(request, env, origin) {
     // Aggregate statistics
     const stats = aggregateEvents(recentEvents, now);
 
+    // Store in cache
+    await env.ANALYTICS_EVENTS.put(CACHE_KEY, JSON.stringify({
+      data: stats,
+      ts: now
+    }), { expirationTtl: CACHE_TTL });
+
     return new Response(JSON.stringify(stats), {
       status: 200,
       headers: {
         'Content-Type': 'application/json',
-        'Cache-Control': 'public, max-age=300',
+        'Cache-Control': 'public, max-age=1800',
         ...corsHeaders(origin || '*')
       }
     });

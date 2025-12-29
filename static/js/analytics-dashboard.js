@@ -24,19 +24,48 @@
 
   // Stats endpoint URL
   var STATS_ENDPOINT = 'https://tech-econ-analytics.rawat-pranjal010.workers.dev/stats';
+  var CACHE_KEY = 'tech-econ-analytics-cache';
+  var CACHE_MAX_AGE = 15 * 60 * 1000; // 15 minutes
 
   function loadAnalytics() {
+    // Try to show cached data immediately for instant UX
+    var showedCached = false;
+    try {
+      var cached = localStorage.getItem(CACHE_KEY);
+      if (cached) {
+        var parsed = JSON.parse(cached);
+        if (parsed.data && parsed.ts && (Date.now() - parsed.ts < CACHE_MAX_AGE)) {
+          renderDashboard(parsed.data, true);
+          showedCached = true;
+        }
+      }
+    } catch (e) {
+      // localStorage not available or parse error, continue to fetch
+    }
+
+    // Fetch fresh data (in background if cache was shown)
     fetch(STATS_ENDPOINT)
       .then(function(response) {
         if (!response.ok) throw new Error('Failed to fetch stats');
         return response.json();
       })
       .then(function(data) {
-        renderDashboard(data);
+        // Cache the fresh data
+        try {
+          localStorage.setItem(CACHE_KEY, JSON.stringify({
+            data: data,
+            ts: Date.now()
+          }));
+        } catch (e) {
+          // localStorage full or not available
+        }
+        renderDashboard(data, false);
       })
       .catch(function(err) {
         console.error('Analytics error:', err);
-        showError('Unable to load analytics data. Please try again later.');
+        if (!showedCached) {
+          showError('Unable to load analytics data. Please try again later.');
+        }
       });
   }
 
@@ -47,7 +76,7 @@
     errorEl.style.display = 'block';
   }
 
-  function renderDashboard(data) {
+  function renderDashboard(data, isCached) {
     document.getElementById('analytics-loading').style.display = 'none';
     document.getElementById('analytics-content').style.display = 'block';
 
@@ -81,8 +110,11 @@
     renderCountries(data.countries || []);
 
     // Last updated
-    document.getElementById('last-updated').textContent =
-      'Last updated: ' + new Date(data.updated).toLocaleString();
+    var updateText = 'Last updated: ' + new Date(data.updated).toLocaleString();
+    if (isCached) {
+      updateText += ' (cached)';
+    }
+    document.getElementById('last-updated').textContent = updateText;
   }
 
   function renderPageviewsChart(dailyData) {

@@ -6,7 +6,7 @@
         <p class="hero-tagline">Real tools for applied researchers.</p>
         {{ $paperCount := 0 }}{{ range .Site.Data.papers.topics }}{{ range .subtopics }}{{ $paperCount = add $paperCount (len .papers) }}{{ end }}{{ end }}
         {{ $total := add (len .Site.Data.packages) (add (len .Site.Data.datasets) (add (len .Site.Data.resources) (add (len .Site.Data.talks) (add (len .Site.Data.books) (add (len .Site.Data.career) (add (len .Site.Data.community) $paperCount)))))) }}
-        <p class="hero-subtitle">{{ $total }} curated resources for applied researchers.</p>
+        <p class="hero-subtitle">{{ len .Site.Data.packages }} packages • {{ len .Site.Data.datasets }} datasets • {{ $paperCount }} papers • {{ len .Site.Data.resources }} learning resources</p>
         <p class="hero-inspiration">See what others have done to imagine what's possible.</p>
     </header>
 
