@@ -415,23 +415,13 @@
     "packages": [
       {
         "name": "requests",
-        "why": "HTTP for humans \u2014 start here",
+        "why": "HTTP for humans — start here",
         "url": "https://requests.readthedocs.io/"
       },
       {
         "name": "beautifulsoup4",
         "why": "Parse HTML the simple way",
         "url": "https://www.crummy.com/software/BeautifulSoup/"
-      },
-      {
-        "name": "playwright",
-        "why": "Modern browser automation from Microsoft",
-        "url": "https://playwright.dev/python/"
-      },
-      {
-        "name": "scrapy",
-        "why": "Production web scraping framework",
-        "url": "https://scrapy.org/"
       }
     ],
     "order": 11
