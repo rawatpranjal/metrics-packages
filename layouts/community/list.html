@@ -78,6 +78,12 @@
             <div class="legend-item"><span class="legend-color labor-finance"></span> Labor & Finance</div>
             <div class="legend-item"><span class="legend-color antitrust"></span> Antitrust</div>
             <div class="legend-item"><span class="legend-color market-design"></span> Market Design</div>
+            <div class="legend-item"><span class="legend-color decision-science"></span> Decision Science</div>
+            <div class="legend-item"><span class="legend-color sports-analytics"></span> Sports</div>
+            <div class="legend-item"><span class="legend-color gaming-esports"></span> Gaming</div>
+            <div class="legend-item"><span class="legend-color insurance-actuarial"></span> Insurance</div>
+            <div class="legend-item"><span class="legend-color retail-cpg"></span> Retail</div>
+            <div class="legend-item"><span class="legend-color supply-chain"></span> Supply Chain</div>
         </div>
 
         <div class="calendar-grid">
@@ -226,7 +232,28 @@
         <div id="month-subview" style="display: none;">
         <div class="month-nav">
             <button id="prev-month" aria-label="Previous month">←</button>
-            <h2 id="current-month-title">January 2025</h2>
+            <div class="month-jump">
+                <select id="month-select" aria-label="Select month">
+                    <option value="0">January</option>
+                    <option value="1">February</option>
+                    <option value="2">March</option>
+                    <option value="3">April</option>
+                    <option value="4">May</option>
+                    <option value="5">June</option>
+                    <option value="6">July</option>
+                    <option value="7">August</option>
+                    <option value="8">September</option>
+                    <option value="9">October</option>
+                    <option value="10">November</option>
+                    <option value="11">December</option>
+                </select>
+                <select id="year-select" aria-label="Select year">
+                    <option value="2024">2024</option>
+                    <option value="2025" selected>2025</option>
+                    <option value="2026">2026</option>
+                    <option value="2027">2027</option>
+                </select>
+            </div>
             <button id="next-month" aria-label="Next month">→</button>
         </div>
 
@@ -266,32 +293,43 @@
         <!-- Map Controls -->
         <div class="map-controls">
             <button id="find-near-me" class="near-me-btn">📍 Find Near Me</button>
+            <button id="map-fullscreen" class="fullscreen-btn" title="Toggle fullscreen">⛶</button>
             <div class="city-filter">
-                <button class="city-btn active" data-city="all">All US</button>
+                <button class="city-btn active" data-city="all">All</button>
                 <button class="city-btn" data-city="nyc">NYC</button>
-                <button class="city-btn" data-city="sf">SF Bay</button>
+                <button class="city-btn" data-city="sf">SF</button>
                 <button class="city-btn" data-city="boston">Boston</button>
                 <button class="city-btn" data-city="chicago">Chicago</button>
                 <button class="city-btn" data-city="dc">DC</button>
                 <button class="city-btn" data-city="la">LA</button>
                 <button class="city-btn" data-city="seattle">Seattle</button>
                 <button class="city-btn" data-city="austin">Austin</button>
+                <button class="city-btn" data-city="denver">Denver</button>
+                <button class="city-btn" data-city="atlanta">Atlanta</button>
+                <button class="city-btn" data-city="toronto">Toronto</button>
+                <button class="city-btn" data-city="montreal">Montreal</button>
             </div>
         </div>
 
-        <!-- Subcategory Legend -->
-        <div class="subcategory-legend map-legend">
-            <div class="legend-item"><span class="legend-color experimentation"></span> Experimentation</div>
-            <div class="legend-item"><span class="legend-color marketing-science"></span> Marketing</div>
-            <div class="legend-item"><span class="legend-color pricing-revenue"></span> Pricing</div>
-            <div class="legend-item"><span class="legend-color platforms-e-commerce"></span> Platforms</div>
-            <div class="legend-item"><span class="legend-color statistics-analytics"></span> Statistics</div>
-            <div class="legend-item"><span class="legend-color healthcare-economics"></span> Healthcare</div>
-            <div class="legend-item"><span class="legend-color labor-finance"></span> Labor & Finance</div>
-            <div class="legend-item"><span class="legend-color antitrust"></span> Antitrust</div>
-            <div class="legend-item"><span class="legend-color market-design"></span> Market Design</div>
-            <div class="legend-item"><span class="legend-color meetup"></span> Meetups</div>
-            <div class="legend-item"><span class="legend-color research-lab"></span> Research Labs</div>
+        <!-- Subcategory Legend (clickable for filtering) -->
+        <div class="subcategory-legend map-legend" id="map-legend">
+            <div class="legend-item active" data-filter="Experimentation"><span class="legend-color experimentation"></span> Experimentation</div>
+            <div class="legend-item active" data-filter="Marketing Science"><span class="legend-color marketing-science"></span> Marketing</div>
+            <div class="legend-item active" data-filter="Pricing & Revenue"><span class="legend-color pricing-revenue"></span> Pricing</div>
+            <div class="legend-item active" data-filter="Platforms & E-commerce"><span class="legend-color platforms-e-commerce"></span> Platforms</div>
+            <div class="legend-item active" data-filter="Statistics & Analytics"><span class="legend-color statistics-analytics"></span> Statistics</div>
+            <div class="legend-item active" data-filter="Healthcare Economics"><span class="legend-color healthcare-economics"></span> Healthcare</div>
+            <div class="legend-item active" data-filter="Labor & Finance"><span class="legend-color labor-finance"></span> Labor & Finance</div>
+            <div class="legend-item active" data-filter="Antitrust"><span class="legend-color antitrust"></span> Antitrust</div>
+            <div class="legend-item active" data-filter="Market Design"><span class="legend-color market-design"></span> Market Design</div>
+            <div class="legend-item active" data-filter="Decision Science"><span class="legend-color decision-science"></span> Decision</div>
+            <div class="legend-item active" data-filter="Sports Analytics"><span class="legend-color sports-analytics"></span> Sports</div>
+            <div class="legend-item active" data-filter="Gaming & Esports"><span class="legend-color gaming-esports"></span> Gaming</div>
+            <div class="legend-item active" data-filter="Insurance & Actuarial"><span class="legend-color insurance-actuarial"></span> Insurance</div>
+            <div class="legend-item active" data-filter="Retail & CPG"><span class="legend-color retail-cpg"></span> Retail</div>
+            <div class="legend-item active" data-filter="Supply Chain"><span class="legend-color supply-chain"></span> Supply Chain</div>
+            <div class="legend-item active" data-filter="Meetups"><span class="legend-color meetup"></span> Meetups</div>
+            <div class="legend-item active" data-filter="Research Labs"><span class="legend-color research-lab"></span> Research Labs</div>
         </div>
 
         <div id="conference-map"></div>
@@ -512,18 +550,30 @@ document.addEventListener('DOMContentLoaded', function() {
         // Create map centered on US
         map = L.map('conference-map').setView([39.8283, -98.5795], 4);
 
-        // Add OpenStreetMap tiles
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-            maxZoom: 18
+        // Add CartoDB Positron tiles (cleaner, softer look)
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
+            maxZoom: 19,
+            subdomains: 'abcd'
         }).addTo(map);
 
-        // Create marker cluster group
+        // Create marker cluster group with custom styling
         markers = L.markerClusterGroup({
             maxClusterRadius: 50,
             spiderfyOnMaxZoom: true,
             showCoverageOnHover: false,
-            zoomToBoundsOnClick: true
+            zoomToBoundsOnClick: true,
+            iconCreateFunction: function(cluster) {
+                const count = cluster.getChildCount();
+                let size = 'small';
+                if (count >= 10) size = 'medium';
+                if (count >= 25) size = 'large';
+                return L.divIcon({
+                    html: `<div class="cluster-${size}"><span>${count}</span></div>`,
+                    className: 'custom-cluster',
+                    iconSize: L.point(40, 40)
+                });
+            }
         });
 
         // Load and add markers from map data
@@ -590,8 +640,45 @@ document.addEventListener('DOMContentLoaded', function() {
         'dc': { lat: 38.9072, lng: -77.0369, zoom: 10 },
         'la': { lat: 34.0522, lng: -118.2437, zoom: 9 },
         'seattle': { lat: 47.6062, lng: -122.3321, zoom: 10 },
-        'austin': { lat: 30.2672, lng: -97.7431, zoom: 10 }
+        'austin': { lat: 30.2672, lng: -97.7431, zoom: 10 },
+        'denver': { lat: 39.7392, lng: -104.9903, zoom: 10 },
+        'atlanta': { lat: 33.7490, lng: -84.3880, zoom: 10 },
+        'toronto': { lat: 43.6532, lng: -79.3832, zoom: 10 },
+        'montreal': { lat: 45.5017, lng: -73.5673, zoom: 10 }
     };
+
+    // Fullscreen toggle
+    const fullscreenBtn = document.getElementById('map-fullscreen');
+    const mapContainer = document.getElementById('map-view');
+    let isFullscreen = false;
+
+    if (fullscreenBtn) {
+        fullscreenBtn.addEventListener('click', function() {
+            isFullscreen = !isFullscreen;
+            if (isFullscreen) {
+                mapContainer.classList.add('map-fullscreen');
+                fullscreenBtn.textContent = '✕';
+                fullscreenBtn.title = 'Exit fullscreen';
+                document.body.style.overflow = 'hidden';
+            } else {
+                mapContainer.classList.remove('map-fullscreen');
+                fullscreenBtn.textContent = '⛶';
+                fullscreenBtn.title = 'Toggle fullscreen';
+                document.body.style.overflow = '';
+            }
+            // Invalidate map size after transition
+            setTimeout(() => {
+                if (map) map.invalidateSize();
+            }, 300);
+        });
+
+        // ESC key to exit fullscreen
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && isFullscreen) {
+                fullscreenBtn.click();
+            }
+        });
+    }
 
     let userMarker = null;
 
@@ -675,9 +762,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Calendar state
     const months = ['January', 'February', 'March', 'April', 'May', 'June',
                     'July', 'August', 'September', 'October', 'November', 'December'];
-    let currentYear = 2025;
-    let currentMonthIndex = 0; // Start at January 2025
-    const monthTitle = document.getElementById('current-month-title');
+    const today = new Date();
+    let currentYear = today.getFullYear();
+    let currentMonthIndex = today.getMonth();
+    const monthSelect = document.getElementById('month-select');
+    const yearSelect = document.getElementById('year-select');
     const calendarDaysContainer = document.getElementById('calendar-days');
     const noEventsMsg = document.getElementById('no-month-events');
 
@@ -712,8 +801,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const year = currentYear;
         const month = currentMonthIndex;
 
-        // Update title
-        monthTitle.textContent = `${months[month]} ${year}`;
+        // Update dropdowns
+        if (monthSelect) monthSelect.value = month;
+        if (yearSelect) yearSelect.value = year;
 
         // Clear grid
         calendarDaysContainer.innerHTML = '';
@@ -731,6 +821,12 @@ document.addEventListener('DOMContentLoaded', function() {
         for (let i = 0; i < 42; i++) {
             const cell = document.createElement('div');
             cell.className = 'calendar-day';
+
+            // Weekend shading (0 = Sunday, 6 = Saturday)
+            const dayOfWeek = i % 7;
+            if (dayOfWeek === 0 || dayOfWeek === 6) {
+                cell.classList.add('weekend');
+            }
 
             let displayDay;
             let isCurrentMonth = true;
@@ -759,6 +855,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 cell.classList.add('other-month');
             } else {
                 displayDay = dayNum++;
+
+                // Today highlighting
+                if (cellYear === today.getFullYear() &&
+                    cellMonth === today.getMonth() &&
+                    displayDay === today.getDate()) {
+                    cell.classList.add('today');
+                }
             }
 
             // Day number
@@ -900,6 +1003,96 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         updateMonthView();
     });
+
+    // Dropdown jump handlers
+    if (monthSelect) {
+        monthSelect.addEventListener('change', function() {
+            currentMonthIndex = parseInt(this.value);
+            updateMonthView();
+        });
+    }
+
+    if (yearSelect) {
+        yearSelect.addEventListener('change', function() {
+            currentYear = parseInt(this.value);
+            updateMonthView();
+        });
+    }
+
+    // Interactive legend filtering for map
+    const mapLegend = document.getElementById('map-legend');
+    let activeFilters = new Set();
+    let allMapData = [];
+
+    if (mapLegend) {
+        // Initialize with all filters active
+        mapLegend.querySelectorAll('.legend-item').forEach(item => {
+            activeFilters.add(item.dataset.filter);
+        });
+
+        // Store original map data
+        const mapDataEl = document.getElementById('map-data');
+        if (mapDataEl) {
+            try {
+                allMapData = JSON.parse(mapDataEl.textContent);
+            } catch (e) {}
+        }
+
+        mapLegend.addEventListener('click', function(e) {
+            const item = e.target.closest('.legend-item');
+            if (!item) return;
+
+            const filter = item.dataset.filter;
+            item.classList.toggle('active');
+
+            if (activeFilters.has(filter)) {
+                activeFilters.delete(filter);
+            } else {
+                activeFilters.add(filter);
+            }
+
+            // Rebuild markers with filtered data
+            if (markers && map) {
+                markers.clearLayers();
+                allMapData.forEach(item => {
+                    const itemFilter = item.category === 'Meetups' ? 'Meetups' :
+                                       item.category === 'Research Labs' ? 'Research Labs' :
+                                       item.subcategory;
+                    if (!activeFilters.has(itemFilter)) return;
+
+                    const color = getMarkerColor(item);
+                    const icon = createCustomIcon(color);
+                    const marker = L.marker([item.lat, item.lng], { icon: icon });
+
+                    const dateDisplay = item.start_date
+                        ? formatDateRange(item.start_date, item.end_date)
+                        : item.dates;
+
+                    let popupContent = `
+                        <div class="map-popup">
+                            <strong class="popup-title">
+                                <a href="${item.url}" target="_blank" rel="noopener">${item.name}</a>
+                            </strong>
+                            ${item.description ? `<p class="popup-desc">${item.description}</p>` : ''}
+                            <div class="popup-meta">
+                                <span>📍 ${item.location}</span>
+                                ${dateDisplay ? `<span>📅 ${dateDisplay}</span>` : ''}
+                                ${item.attendees ? `<span>👥 ${item.attendees} attendees</span>` : ''}
+                            </div>
+                            <div class="popup-footer">
+                                <span class="popup-badge" style="background-color: ${color}; color: white;">
+                                    ${item.subcategory || item.category}
+                                </span>
+                                <a href="${item.url}" target="_blank" rel="noopener" class="popup-link">Visit Website →</a>
+                            </div>
+                        </div>
+                    `;
+                    marker.bindPopup(popupContent, { maxWidth: 300 });
+                    markers.addLayer(marker);
+                });
+            }
+        });
+    }
 });
 </script>
 {{ end }}

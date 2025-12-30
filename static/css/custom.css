@@ -8039,3 +8039,217 @@ mark.partial {
     }
 }
 
+/* ==========================================
+   Map & Calendar Micro-Optimizations
+   ========================================== */
+
+/* New subcategory legend colors */
+.legend-color.decision-science { background: #7c3aed; }
+.legend-color.sports-analytics { background: #84cc16; }
+.legend-color.gaming-esports { background: #a855f7; }
+.legend-color.insurance-actuarial { background: #06b6d4; }
+.legend-color.retail-cpg { background: #eab308; }
+.legend-color.supply-chain { background: #78716c; }
+
+/* Interactive legend styles */
+#map-legend .legend-item {
+    cursor: pointer;
+    transition: opacity 0.2s, transform 0.15s;
+    user-select: none;
+}
+
+#map-legend .legend-item:hover {
+    transform: translateY(-1px);
+}
+
+#map-legend .legend-item:not(.active) {
+    opacity: 0.4;
+}
+
+#map-legend .legend-item:not(.active) .legend-color {
+    filter: grayscale(1);
+}
+
+/* Custom cluster markers */
+.custom-cluster {
+    background: transparent;
+}
+
+.custom-cluster div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    transition: transform 0.2s;
+}
+
+.cluster-small {
+    width: 32px;
+    height: 32px;
+    background: linear-gradient(135deg, #6366f1, #4f46e5);
+    font-size: 12px;
+}
+
+.cluster-medium {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+    font-size: 14px;
+}
+
+.cluster-large {
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, #ec4899, #db2777);
+    font-size: 16px;
+}
+
+.custom-cluster:hover div {
+    transform: scale(1.15);
+}
+
+/* Fullscreen toggle button */
+.fullscreen-btn {
+    padding: 0.5rem 0.75rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: all 0.2s;
+}
+
+.fullscreen-btn:hover {
+    background: var(--bg-hover);
+    border-color: var(--accent);
+}
+
+/* Map fullscreen mode */
+.map-fullscreen {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    background: var(--bg-primary);
+    padding: 1rem;
+}
+
+.map-fullscreen #conference-map {
+    height: calc(100vh - 120px) !important;
+}
+
+.map-fullscreen .fullscreen-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 10000;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Month jump dropdown styling */
+.month-jump {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.month-jump select {
+    padding: 0.4rem 0.75rem;
+    border: 1px solid var(--border-light);
+    border-radius: 6px;
+    background: var(--bg-card);
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: border-color 0.2s;
+}
+
+.month-jump select:hover {
+    border-color: var(--accent);
+}
+
+.month-jump select:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+
+/* Calendar today highlighting */
+.calendar-day.today {
+    background: rgba(99, 102, 241, 0.1) !important;
+    border: 2px solid var(--accent) !important;
+}
+
+.calendar-day.today .day-number {
+    background: var(--accent);
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Weekend shading */
+.calendar-day.weekend:not(.other-month) {
+    background: var(--bg-secondary);
+}
+
+.calendar-day.weekend.today {
+    background: rgba(99, 102, 241, 0.15) !important;
+}
+
+/* Marker hover effects */
+.custom-marker div {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Smooth view transitions */
+#calendar-view,
+#map-view,
+#cards-view,
+#table-view {
+    animation: fadeIn 0.2s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(4px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* City filter scroll on mobile */
+@media (max-width: 900px) {
+    .city-filter {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        flex-wrap: nowrap;
+    }
+
+    .city-filter::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+/* Legend responsive */
+@media (max-width: 768px) {
+    .subcategory-legend {
+        font-size: 0.7rem;
+        gap: 0.4rem;
+        padding: 0.5rem;
+    }
+
+    .legend-color {
+        width: 10px;
+        height: 10px;
+    }
+}
+
