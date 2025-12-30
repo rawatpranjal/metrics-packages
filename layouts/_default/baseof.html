@@ -51,6 +51,11 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
 
+    <!-- Inline theme detection to prevent FOUC -->
+    <script>
+    (function(){var t='dark';try{var s=localStorage.getItem('theme-preference');if(s)t=s;}catch(e){}document.documentElement.setAttribute('data-theme',t);if(localStorage.getItem('texture-preference')==='enabled')document.documentElement.classList.add('texture-enabled');})();
+    </script>
+
     <!-- AOS (Animate on Scroll) - Non-blocking load -->
     <link rel="preload" href="https://unpkg.com/aos@2.3.4/dist/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'" integrity="sha384-/rJKQnzOkEo+daG0jMjU1IwwY9unxt1NBw3Ef2fmOJ3PW/TfAg2KXVoWwMZQZtw9" crossorigin="anonymous">
     <noscript><link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css"></noscript>
@@ -309,7 +314,7 @@
     <!-- Search data loaded from /embeddings/search-index.json on demand -->
 
     <!-- Custom JS -->
-    <script src="{{ "js/theme.js" | relURL }}"></script>
+    <script src="{{ "js/theme.js" | relURL }}" defer></script>
     <script src="{{ "js/favorites-local.js" | relURL }}" defer></script>
     <script src="{{ "js/playlists-local.js" | relURL }}" defer></script>
     <script src="{{ "js/favorites-ui.js" | relURL }}" defer></script>
