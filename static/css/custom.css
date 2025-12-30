@@ -4349,6 +4349,17 @@ mark.partial {
     font-size: 0.75rem;
 }
 
+.global-search-footer .beta-search-link {
+    margin-left: auto;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.global-search-footer .beta-search-link:hover {
+    text-decoration: underline;
+}
+
 /* Type Filter Chips */
 .global-search-filters {
     display: flex;

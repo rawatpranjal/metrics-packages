@@ -1,0 +1,99 @@
+{{ define "main" }}
+<div class="pagefind-search-page">
+    <div class="pagefind-header">
+        <h1>Search (Beta)</h1>
+        <p class="pagefind-subtitle">Full-text search with faceted filtering. <a href="javascript:history.back()">Back to main search</a></p>
+    </div>
+
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+    <script src="/pagefind/pagefind-ui.js"></script>
+
+    <div id="search"></div>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            new PagefindUI({
+                element: "#search",
+                showImages: false,
+                showSubResults: true,
+                showEmptyFilters: false,
+                excerptLength: 20,
+                resetStyles: false
+            });
+        });
+    </script>
+</div>
+
+<style>
+.pagefind-search-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+.pagefind-header {
+    margin-bottom: 2rem;
+}
+
+.pagefind-header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.pagefind-subtitle {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+.pagefind-subtitle a {
+    color: var(--accent);
+}
+
+/* Pagefind UI customizations */
+:root {
+    --pagefind-ui-scale: 1;
+    --pagefind-ui-primary: var(--accent);
+    --pagefind-ui-text: var(--text-color);
+    --pagefind-ui-background: var(--bg-color);
+    --pagefind-ui-border: var(--border-color);
+    --pagefind-ui-tag: var(--bg-secondary);
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-border-radius: 8px;
+    --pagefind-ui-font: inherit;
+}
+
+.pagefind-ui__search-input {
+    font-size: 1rem !important;
+    padding: 0.75rem 1rem !important;
+}
+
+.pagefind-ui__result {
+    padding: 1rem !important;
+    border-radius: 8px !important;
+    margin-bottom: 0.5rem !important;
+    background: var(--bg-card) !important;
+    border: 1px solid var(--border-light) !important;
+}
+
+.pagefind-ui__result:hover {
+    border-color: var(--accent) !important;
+}
+
+.pagefind-ui__result-link {
+    color: var(--text-color) !important;
+    font-weight: 600 !important;
+}
+
+.pagefind-ui__result-excerpt {
+    color: var(--text-muted) !important;
+    font-size: 0.9rem !important;
+}
+
+.pagefind-ui__filter-panel {
+    background: var(--bg-secondary) !important;
+    border-radius: 8px !important;
+    padding: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+</style>
+{{ end }}
