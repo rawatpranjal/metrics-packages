@@ -1999,7 +1999,7 @@
       "p-values"
     ],
     "best_for": "Econometric inference (p-values, CIs) at Spark scale",
-    "language": "Python"
+    "language": "Spark"
   },
   {
     "name": "Linregress",
@@ -2388,7 +2388,7 @@
       "distributed"
     ],
     "best_for": "Causal inference at 100M+ rows on Spark clusters",
-    "language": "Python"
+    "language": "Spark"
   },
   {
     "name": "pydoublelasso",
@@ -3973,7 +3973,7 @@
       "Spark"
     ],
     "best_for": "End-to-end A/B testing with PySpark",
-    "language": "Python"
+    "language": "Spark"
   },
   {
     "name": "DoEgen",

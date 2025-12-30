@@ -8399,15 +8399,3 @@ mark.partial {
         height: 10px;
     }
 }
-
-/* ==================== */
-/* Sidebar Toggles Row  */
-/* ==================== */
-.sidebar-toggles {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    padding: 10px 16px;
-    border-bottom: 1px solid var(--border-color, #333);
-}
