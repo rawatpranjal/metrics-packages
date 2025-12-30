@@ -15116,7 +15116,7 @@
       "mental-models",
       "daily"
     ],
-    "summary": "Called 'Matt Levine's Money Stuff for mental model geeks.' Byrne Hobart synthesizes financial theory with technology trends at a level of sophistication rare outside institutional research. Daily output maintains remarkable quality—each issue introduces useful frameworks for thinking about tech businesses.",
+    "summary": "Called 'Matt Levine's Money Stuff for mental model geeks.' Byrne Hobart synthesizes financial theory with technology trends at a level of sophistication rare outside institutional research. Daily output maintains remarkable quality\u2014each issue introduces useful frameworks for thinking about tech businesses.",
     "use_cases": [
       "Developing financial frameworks for tech analysis",
       "Understanding emerging tech trends"
@@ -15152,7 +15152,7 @@
       "nvidia",
       "datacenter"
     ],
-    "summary": "Ben Thompson calls SemiAnalysis 'one of my most important and most-cited resources on Stratechery.' Dylan Patel provides deep technical analysis of semiconductor economics—understanding chip supply chains is essential for understanding AI economics. Bridges engineering depth with business implications.",
+    "summary": "Ben Thompson calls SemiAnalysis 'one of my most important and most-cited resources on Stratechery.' Dylan Patel provides deep technical analysis of semiconductor economics\u2014understanding chip supply chains is essential for understanding AI economics. Bridges engineering depth with business implications.",
     "use_cases": [
       "Understanding AI hardware economics",
       "Analyzing semiconductor supply chains"
@@ -15258,7 +15258,7 @@
       "nyu",
       "spreadsheets"
     ],
-    "summary": "Aswath Damodaran shares his actual valuation spreadsheets—rare transparency into professional valuation practice. His methodology provides rigorous frameworks for thinking about tech company value, cutting through both hype and dismissiveness. All teaching materials freely available.",
+    "summary": "Aswath Damodaran shares his actual valuation spreadsheets\u2014rare transparency into professional valuation practice. His methodology provides rigorous frameworks for thinking about tech company value, cutting through both hype and dismissiveness. All teaching materials freely available.",
     "use_cases": [
       "Valuing tech companies rigorously",
       "Learning professional valuation methods"
@@ -15329,7 +15329,7 @@
       "chicago-school",
       "applied-economics"
     ],
-    "summary": "Economic Forces is 'by far the best newsletter on economics' per Anton Howes. Brian Albrecht with Josh Hendrickson revives Chicago-style price theory for modern audiences—the fundamental microeconomic thinking that underlies tech economics analysis. Essential for building economic intuition.",
+    "summary": "Economic Forces is 'by far the best newsletter on economics' per Anton Howes. Brian Albrecht with Josh Hendrickson revives Chicago-style price theory for modern audiences\u2014the fundamental microeconomic thinking that underlies tech economics analysis. Essential for building economic intuition.",
     "use_cases": [
       "Building fundamental economic intuition",
       "Understanding price theory applications"
@@ -15346,7 +15346,7 @@
     ]
   },
   {
-    "name": "Mikkel Dengsøe",
+    "name": "Mikkel Dengs\u00f8e",
     "description": "Co-founder at Synq. 10 years in data including Google and Monzo. Author of Inside Data newsletter focused on data team economics.",
     "category": "Notable Contributors",
     "url": "https://mikkeldengsoe.substack.com/",
@@ -15365,7 +15365,7 @@
       "experimentation",
       "salaries"
     ],
-    "summary": "Inside Data uniquely focuses on the economics of data teams themselves—how to size, structure, and value data organizations. Benchmarks draw from 100+ tech companies, providing rare quantitative grounding for organizational decisions.",
+    "summary": "Inside Data uniquely focuses on the economics of data teams themselves\u2014how to size, structure, and value data organizations. Benchmarks draw from 100+ tech companies, providing rare quantitative grounding for organizational decisions.",
     "use_cases": [
       "Sizing and structuring data teams",
       "Benchmarking data team performance"
@@ -15375,7 +15375,7 @@
       "Junior-DS"
     ],
     "synthetic_questions": [
-      "Who is Mikkel Dengsøe Inside Data",
+      "Who is Mikkel Dengs\u00f8e Inside Data",
       "data team sizing benchmarks",
       "data team salary comparison",
       "experimentation team structure"
@@ -15484,6 +15484,381 @@
       "Python for economists tutorial",
       "econometrics Python workflow",
       "modern data science economics"
+    ]
+  },
+  {
+    "name": "Frank Harrell",
+    "description": "Vanderbilt University biostatistics professor and FDA advisor. Pioneer in Bayesian study design and regression modeling strategies. Author of RMS (Regression Modeling Strategies).",
+    "category": "Notable Contributors",
+    "url": "https://www.fharrell.com/",
+    "type": "Academic",
+    "location": "Nashville, TN",
+    "best_for": "Bayesian study design, regression modeling, biostatistics, clinical trials, R packages",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "statistics",
+      "r-programming"
+    ],
+    "topic_tags": [
+      "bayesian",
+      "biostatistics",
+      "regression",
+      "fda",
+      "study-design"
+    ],
+    "summary": "Frank Harrell is one of the most influential applied biostatisticians. His Statistical Thinking blog and BBR course materials are essential for anyone doing clinical research or wanting rigorous Bayesian approaches.",
+    "use_cases": [
+      "Learning Bayesian study design",
+      "Clinical trial methodology",
+      "R regression modeling"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Statistician"
+    ],
+    "synthetic_questions": [
+      "Who is Frank Harrell",
+      "biostatistics Vanderbilt",
+      "regression modeling strategies",
+      "FDA statistical advisor"
+    ]
+  },
+  {
+    "name": "Thomas Wiecki",
+    "description": "CEO of PyMC Labs and former Director of Data Science at Quantopian. Leading voice in Bayesian probabilistic programming for business applications.",
+    "category": "Notable Contributors",
+    "url": "https://twiecki.io/",
+    "type": "Industry Leader",
+    "location": "Berlin, Germany",
+    "best_for": "PyMC, Bayesian business applications, probabilistic programming, marketing mix modeling",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "python",
+      "statistics",
+      "bayesian-basics"
+    ],
+    "topic_tags": [
+      "pymc",
+      "bayesian",
+      "probabilistic-programming",
+      "marketing-mix",
+      "business"
+    ],
+    "summary": "Thomas Wiecki leads PyMC Labs and has been instrumental in making Bayesian methods accessible for business. His tutorials on hierarchical models for marketing and customer analytics are widely cited.",
+    "use_cases": [
+      "Bayesian business modeling",
+      "Marketing mix modeling",
+      "PyMC implementation"
+    ],
+    "audience": [
+      "Senior-DS",
+      "ML-Engineer"
+    ],
+    "synthetic_questions": [
+      "Who is Thomas Wiecki",
+      "PyMC Labs CEO",
+      "Bayesian business applications",
+      "twiecki.io blog"
+    ]
+  },
+  {
+    "name": "Rob Hyndman",
+    "description": "Professor at Monash University and creator of the forecast R package. Author of fpp3 (Forecasting: Principles and Practice), the definitive time series forecasting textbook.",
+    "category": "Notable Contributors",
+    "url": "https://robjhyndman.com/",
+    "type": "Academic",
+    "location": "Melbourne, Australia",
+    "best_for": "Time series forecasting, ETS models, hierarchical forecasting, R, fpp3 textbook",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "statistics-basics",
+      "r-programming"
+    ],
+    "topic_tags": [
+      "forecasting",
+      "time-series",
+      "forecast-package",
+      "fpp3",
+      "r"
+    ],
+    "summary": "Rob Hyndman is the world authority on time series forecasting. His fpp3 textbook is free online and covers everything from basic methods to hierarchical forecasting. The forecast and fable R packages are industry standard.",
+    "use_cases": [
+      "Learning time series forecasting",
+      "Demand forecasting",
+      "Hierarchical forecasting"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Rob Hyndman",
+      "forecast R package creator",
+      "fpp3 textbook author",
+      "time series forecasting expert"
+    ]
+  },
+  {
+    "name": "John D. Cook",
+    "description": "Consulting statistician with clients including Amazon, Google, and Microsoft. Prolific blogger on applied statistics, numerical methods, and mathematical computing.",
+    "category": "Notable Contributors",
+    "url": "https://www.johndcook.com/",
+    "type": "Industry Leader",
+    "location": "Houston, TX",
+    "best_for": "Applied statistics consulting, numerical methods, mathematical computing, privacy, Bayesian methods",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "statistics-basics",
+      "programming"
+    ],
+    "topic_tags": [
+      "applied-statistics",
+      "numerical-methods",
+      "consulting",
+      "privacy",
+      "math"
+    ],
+    "summary": "John D. Cook is a highly respected consulting statistician whose blog covers an exceptional breadth of topics. His short, practical posts often go viral in technical circles. Great resource for real-world statistical problem-solving.",
+    "use_cases": [
+      "Practical statistical consulting",
+      "Numerical computing problems",
+      "Privacy-preserving statistics"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Statistician"
+    ],
+    "synthetic_questions": [
+      "Who is John D Cook statistician",
+      "statistics consulting blog",
+      "applied statistics Amazon Google",
+      "numerical methods blog"
+    ]
+  },
+  {
+    "name": "Georgi Georgiev",
+    "description": "Author of Statistical Methods in Online A/B Testing and creator of Analytics-Toolkit. Bridges academic statistics with practical experimentation.",
+    "category": "Notable Contributors",
+    "url": "https://blog.analytics-toolkit.com/",
+    "type": "Industry Leader",
+    "location": "Europe",
+    "best_for": "A/B testing statistics, sequential testing, AGILE methodology, sample size calculation",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "statistics-basics",
+      "ab-testing"
+    ],
+    "topic_tags": [
+      "ab-testing",
+      "sequential-testing",
+      "agile",
+      "sample-size",
+      "experimentation"
+    ],
+    "summary": "Georgi Georgiev is the go-to expert for A/B testing statistics. His book and blog provide rigorous yet practical coverage of sequential testing, sample size calculation, and multiple testing corrections.",
+    "use_cases": [
+      "A/B testing methodology",
+      "Sequential testing implementation",
+      "Sample size planning"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Georgi Georgiev",
+      "A/B testing statistics book",
+      "Analytics Toolkit",
+      "AGILE testing methodology"
+    ]
+  },
+  {
+    "name": "Trevor Hastie",
+    "description": "Stanford professor and co-author of The Elements of Statistical Learning and Introduction to Statistical Learning. Pioneer in statistical learning theory.",
+    "category": "Notable Contributors",
+    "url": "https://hastie.su.domains/",
+    "type": "Academic",
+    "location": "Stanford, CA",
+    "best_for": "Statistical learning theory, LASSO, elastic net, machine learning foundations, free textbooks",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "linear-algebra",
+      "statistics",
+      "calculus"
+    ],
+    "topic_tags": [
+      "statistical-learning",
+      "esl",
+      "islr",
+      "lasso",
+      "stanford"
+    ],
+    "summary": "Trevor Hastie is one of the most influential statisticians in machine learning. ESL and ISLR are foundational texts. His Stanford courses and free teaching materials are invaluable for understanding ML from a statistical perspective.",
+    "use_cases": [
+      "Learning statistical learning theory",
+      "ML foundations from statistics",
+      "Stanford course materials"
+    ],
+    "audience": [
+      "Senior-DS",
+      "ML-Engineer"
+    ],
+    "synthetic_questions": [
+      "Who is Trevor Hastie",
+      "Elements of Statistical Learning author",
+      "Stanford machine learning",
+      "ISLR textbook"
+    ]
+  },
+  {
+    "name": "Rob Tibshirani",
+    "description": "Stanford professor and inventor of the LASSO. Co-author of ESL and ISLR. Pioneer in high-dimensional statistics and selective inference.",
+    "category": "Notable Contributors",
+    "url": "https://tibshirani.su.domains/",
+    "type": "Academic",
+    "location": "Stanford, CA",
+    "best_for": "LASSO, sparse regression, high-dimensional statistics, selective inference, bootstrap",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "linear-algebra",
+      "statistics",
+      "optimization"
+    ],
+    "topic_tags": [
+      "lasso",
+      "sparsity",
+      "high-dimensional",
+      "selective-inference",
+      "stanford"
+    ],
+    "summary": "Rob Tibshirani invented the LASSO, one of the most important methods in modern statistics. His work on sparse regression, the bootstrap, and selective inference has shaped the field. Co-author of the canonical ML textbooks.",
+    "use_cases": [
+      "Sparse regression methods",
+      "High-dimensional statistics",
+      "Selective inference"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Statistician"
+    ],
+    "synthetic_questions": [
+      "Who is Rob Tibshirani",
+      "LASSO inventor",
+      "Stanford statistics professor",
+      "ESL ISLR author"
+    ]
+  },
+  {
+    "name": "Art Owen",
+    "description": "Stanford professor specializing in Monte Carlo methods and quasi-Monte Carlo. Author of freely available Monte Carlo textbook, continuously updated.",
+    "category": "Notable Contributors",
+    "url": "https://artowen.su.domains/",
+    "type": "Academic",
+    "location": "Stanford, CA",
+    "best_for": "Monte Carlo methods, quasi-Monte Carlo, importance sampling, numerical integration",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "probability",
+      "numerical-methods",
+      "programming"
+    ],
+    "topic_tags": [
+      "monte-carlo",
+      "quasi-monte-carlo",
+      "simulation",
+      "integration",
+      "stanford"
+    ],
+    "summary": "Art Owen is the leading authority on Monte Carlo and quasi-Monte Carlo methods. His free online textbook is continuously updated and is essential reading for anyone doing numerical integration or simulation.",
+    "use_cases": [
+      "Monte Carlo simulation",
+      "High-dimensional integration",
+      "Variance reduction techniques"
+    ],
+    "audience": [
+      "Senior-DS",
+      "ML-Engineer"
+    ],
+    "synthetic_questions": [
+      "Who is Art Owen",
+      "Monte Carlo textbook Stanford",
+      "quasi-Monte Carlo methods",
+      "importance sampling expert"
+    ]
+  },
+  {
+    "name": "Ryan Tibshirani",
+    "description": "Berkeley professor (son of Rob Tibshirani). Pioneer in conformal prediction, selective inference, and distribution-free inference. Also known for COVID-19 forecasting work.",
+    "category": "Notable Contributors",
+    "url": "https://www.stat.berkeley.edu/~ryantibs/",
+    "type": "Academic",
+    "location": "Berkeley, CA",
+    "best_for": "Conformal prediction, selective inference, distribution-free methods, COVID forecasting",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "statistics",
+      "probability",
+      "optimization"
+    ],
+    "topic_tags": [
+      "conformal-prediction",
+      "selective-inference",
+      "distribution-free",
+      "berkeley",
+      "forecasting"
+    ],
+    "summary": "Ryan Tibshirani is a leader in modern statistical inference. His work on conformal prediction and selective inference provides rigorous uncertainty quantification. His CMU convex optimization notes are widely used.",
+    "use_cases": [
+      "Conformal prediction implementation",
+      "Distribution-free inference",
+      "Convex optimization"
+    ],
+    "audience": [
+      "Senior-DS",
+      "ML-Engineer"
+    ],
+    "synthetic_questions": [
+      "Who is Ryan Tibshirani",
+      "conformal prediction Berkeley",
+      "selective inference",
+      "convex optimization notes"
+    ]
+  },
+  {
+    "name": "Anastasios Angelopoulos",
+    "description": "Berkeley PhD known for making conformal prediction accessible. Author of the definitive conformal prediction tutorial and survey paper with Stephen Bates.",
+    "category": "Notable Contributors",
+    "url": "https://people.eecs.berkeley.edu/~angelopoulos/",
+    "type": "Academic",
+    "location": "Berkeley, CA",
+    "best_for": "Conformal prediction, uncertainty quantification, distribution-free methods, ML calibration",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "machine-learning",
+      "statistics-basics"
+    ],
+    "topic_tags": [
+      "conformal-prediction",
+      "uncertainty",
+      "distribution-free",
+      "berkeley",
+      "calibration"
+    ],
+    "summary": "Anastasios Angelopoulos has done more than anyone to make conformal prediction accessible to practitioners. His tutorial and survey paper with Stephen Bates are the definitive introductions to distribution-free uncertainty quantification.",
+    "use_cases": [
+      "Adding prediction intervals to any ML model",
+      "Uncertainty quantification",
+      "Risk control"
+    ],
+    "audience": [
+      "Senior-DS",
+      "ML-Engineer"
+    ],
+    "synthetic_questions": [
+      "Who is Anastasios Angelopoulos",
+      "conformal prediction tutorial",
+      "distribution-free uncertainty",
+      "Berkeley ML calibration"
     ]
   }
 ]
