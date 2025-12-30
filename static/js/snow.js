@@ -14,7 +14,7 @@
       flake.style.fontSize = (Math.random() * 10 + 10) + 'px';
       flake.style.opacity = Math.random() * 0.6 + 0.4;
       flake.style.animationDuration = (Math.random() * 8 + 8) + 's, ' + (Math.random() * 3 + 2) + 's';
-      flake.style.animationDelay = Math.random() * 10 + 's';
+      flake.style.animationDelay = '-' + (Math.random() * 15) + 's';
       container.appendChild(flake);
     }
   }
