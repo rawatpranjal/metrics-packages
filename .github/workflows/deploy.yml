@@ -48,12 +48,21 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install npm dependencies
+        run: npm ci
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
 
-      - name: Build site
-        run: hugo --minify
+      - name: Build site with Pagefind
+        run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
