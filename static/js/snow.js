@@ -21,7 +21,7 @@
 
   function isSnowEnabled() {
     const pref = localStorage.getItem(SNOW_KEY);
-    return pref === null ? true : pref === 'true';
+    return pref === null ? false : pref === 'true';
   }
 
   function updateSnow() {

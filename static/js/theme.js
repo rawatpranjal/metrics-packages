@@ -8,7 +8,7 @@
             const stored = localStorage.getItem(STORAGE_KEY);
             if (stored) return stored;
         } catch(e) {}
-        return 'light';
+        return 'dark';
     }
 
     // Apply theme to document
