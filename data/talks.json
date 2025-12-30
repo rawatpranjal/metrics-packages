@@ -4016,5 +4016,413 @@
     "url": "https://github.com/Mixtape-Sessions/Heterogeneous-Effects",
     "type": "Workshop",
     "tags": ["Heterogeneous Effects", "Causal Inference", "Workshop"]
+  },
+  {
+    "name": "Hal Varian: Conversation at Council on Foreign Relations",
+    "description": "Wide-ranging discussion on Google's economic model, ad auctions, and the future of tech policy. Panel format with audience Q&A.",
+    "category": "Tech Economics",
+    "url": "https://www.cfr.org/event/conversation-googles-hal-varian",
+    "type": "Panel",
+    "tags": ["Google", "Tech Policy", "Ad Auctions"]
+  },
+  {
+    "name": "Hal Varian: Googlenomics Long-read Q&A (AEI)",
+    "description": "In-depth AEI interview covering the Varian Rule for tech adoption, second-price auctions, and YouTube's 500M daily how-to video views.",
+    "category": "Tech Economics",
+    "url": "https://www.aei.org/economics/googlenomics-a-long-read-qa-with-chief-economist-hal-varian/",
+    "type": "Interview",
+    "tags": ["Google", "Auctions", "Tech Economics"]
+  },
+  {
+    "name": "Hal Varian: Future of Work (Oxford)",
+    "description": "Oxford podcast on automation, AI, and labor markets. Varian shares optimism that machines will fill jobs from retiring baby boomers.",
+    "category": "AI & Labor",
+    "url": "https://podcasts.ox.ac.uk/future-work-google-chief-economist-hal-varian-and-professor-jonathan-trevor",
+    "type": "Podcast",
+    "tags": ["Future of Work", "Automation", "Labor Markets"]
+  },
+  {
+    "name": "Hal Varian: Room for Discussion Interview",
+    "description": "Student-led interview covering Varian's career trajectory, tech economics, and advice for aspiring economists.",
+    "category": "Tech Economics",
+    "url": "https://roomfordiscussion.com/interview/hal-varian-chief-economist-google/",
+    "type": "Interview",
+    "tags": ["Career", "Google", "Tech Economics"]
+  },
+  {
+    "name": "Michael Schwarz: The Mixtape Interview",
+    "description": "Microsoft Chief Economist on auction design, market design, and why economic theory remains powerful in the age of ML. Groundbreaking work on mechanism design.",
+    "category": "Tech Economics",
+    "url": "https://causalinf.substack.com/p/interview-with-michael-schwarz-chief-c61",
+    "type": "Podcast",
+    "tags": ["Microsoft", "Auction Design", "Market Design"]
+  },
+  {
+    "name": "Susan Athey: Women in Data Science Podcast",
+    "description": "Athey on bringing an economist's perspective to data science, setting up experiments before revenue, and her pioneering role at Microsoft.",
+    "category": "Causal Inference & ML",
+    "url": "https://podcasts.apple.com/gb/podcast/susan-athey-bringing-an-economists-perspective-to/id1440076586?i=1000462841556",
+    "type": "Podcast",
+    "tags": ["Data Science", "Experimentation", "Career"]
+  },
+  {
+    "name": "Susan Athey: Stigler Center Keynote",
+    "description": "Chicago Booth conversation on tech economics, platform competition, and the future of antitrust in digital markets.",
+    "category": "Platform Economics",
+    "url": "https://www.promarket.org/2023/07/08/a-conversation-with-susan-athey/",
+    "type": "Keynote",
+    "tags": ["Platform Economics", "Antitrust", "Tech Policy"]
+  },
+  {
+    "name": "Preston McAfee: Richmond Fed Econ Focus Interview",
+    "description": "Deep career retrospective: Yahoo to Microsoft to Google. 'The major change is the relevance of microeconomics... When I joined Yahoo, that was still fairly fragile.'",
+    "category": "Tech Economics",
+    "url": "https://www.richmondfed.org/publications/research/econ_focus/2018/q4/interview",
+    "type": "Interview",
+    "tags": ["Career", "Yahoo", "Microsoft", "Google"]
+  },
+  {
+    "name": "Glen Weyl: EconTalk on Antitrust and Radical Reform",
+    "description": "Provocative discussion on rethinking capitalism, antitrust policy, and radical market reforms with Russ Roberts.",
+    "category": "Platform Economics",
+    "url": "https://www.econtalk.org/glen-weyl-on-antitrust-capitalism-and-radical-reform/",
+    "type": "Podcast",
+    "tags": ["Antitrust", "Radical Markets", "Reform"]
+  },
+  {
+    "name": "Glen Weyl: Quadratic Voting and Funding (World of DaaS)",
+    "description": "Reimagining democracy with quadratic funding mechanisms. SafeGraph podcast on innovative voting and public goods funding.",
+    "category": "Platform Economics",
+    "url": "https://www.safegraph.com/blog/reimagining-democracy-with-quadratic-funding-and-quadratic-voting",
+    "type": "Podcast",
+    "tags": ["Quadratic Voting", "Mechanism Design", "Democracy"]
+  },
+  {
+    "name": "Glen Weyl: The Mixtape Interview",
+    "description": "Scott Cunningham's interview covering Radical Markets, data as labor, and 'AI is an ideology, not a technology.'",
+    "category": "Tech Economics",
+    "url": "https://causalinf.substack.com/p/s3e18-e-glen-weyl-economist-and-author",
+    "type": "Podcast",
+    "tags": ["Radical Markets", "AI", "Data as Labor"]
+  },
+  {
+    "name": "Glen Weyl: Plurality at Stanford Digital Economy Lab",
+    "description": "Talk on the future of collaborative technology and democracy. Microsoft Research perspective on tech governance.",
+    "category": "Platform Economics",
+    "url": "https://digitaleconomy.stanford.edu/event/glen-weyl-plurality-the-future-of-collaborative-technology-and-democracy/",
+    "type": "Talk",
+    "tags": ["Plurality", "Collaboration", "Democracy"]
+  },
+  {
+    "name": "John List: Tim Ferriss Show #566",
+    "description": "2h 26min deep-dive: strategic quitting, Uber learnings, the voltage effect. One of the most comprehensive tech economist interviews.",
+    "category": "Gig Economy",
+    "url": "https://tim.blog/2022/01/26/john-list/",
+    "type": "Podcast",
+    "tags": ["Uber", "Field Experiments", "Scaling"]
+  },
+  {
+    "name": "John List: The Price of Doing Business (Freakonomics)",
+    "description": "Freakonomics People I Mostly Admire episode on pricing, experimentation, and lessons from chief economist roles.",
+    "category": "Gig Economy",
+    "url": "https://freakonomics.com/podcast/the-price-of-doing-business-with-john-list/",
+    "type": "Podcast",
+    "tags": ["Pricing", "Experimentation", "Career"]
+  },
+  {
+    "name": "John List: Big Brains UChicago Podcast",
+    "description": "How field experiments revolutionized economics. University of Chicago podcast on List's pioneering methodology.",
+    "category": "Causal Inference & ML",
+    "url": "https://news.uchicago.edu/podcasts/big-brains/how-field-experiments-revolutionized-economics-with-john-list",
+    "type": "Podcast",
+    "tags": ["Field Experiments", "Methodology", "Economics"]
+  },
+  {
+    "name": "John List: Macro Hive Podcast",
+    "description": "1h 42min on insights from Uber, paying bonuses, and scaling ideas. Deep technical discussion on experimentation.",
+    "category": "Gig Economy",
+    "url": "https://macrohive.com/hive-podcasts/ep-101-john-list-on-insights-from-uber-paying-bonuses-and-scaling-ideas/",
+    "type": "Podcast",
+    "tags": ["Uber", "Incentives", "Scaling"]
+  },
+  {
+    "name": "John List: Voltage Effect and Life at Uber/Lyft/Walmart",
+    "description": "Sports podcast crossover discussing applying behavioral economics and scaling insights across gig economy companies.",
+    "category": "Gig Economy",
+    "url": "https://podcasts.apple.com/us/podcast/045-john-list-on-the-voltage-effect-life-at-uber-lyft/id1575240086?i=1000579563856",
+    "type": "Podcast",
+    "tags": ["Uber", "Lyft", "Walmart", "Voltage Effect"]
+  },
+  {
+    "name": "John List: Guy Kawasaki Remarkable People",
+    "description": "Kawasaki interviews List on remarkable career spanning academia to chief economist roles at major tech companies.",
+    "category": "Tech Economics",
+    "url": "https://guykawasaki.com/john-list/",
+    "type": "Podcast",
+    "tags": ["Career", "Field Experiments", "Tech Economics"]
+  },
+  {
+    "name": "Jonathan Hall: BNN Bloomberg Interview",
+    "description": "Uber Chief Economist on digital economy measurement: 'extremely valuable' but 'not easy to measure.'",
+    "category": "Gig Economy",
+    "url": "https://www.bnnbloomberg.ca/video/digital-economy-is-not-easy-to-measure-but-extremely-valuable-uber-chief-economist~2200425/",
+    "type": "TV Interview",
+    "tags": ["Uber", "Digital Economy", "Measurement"]
+  },
+  {
+    "name": "Steve Tadelis: Does Advertising Actually Work? (Freakonomics)",
+    "description": "Groundbreaking eBay research: 'they're losing more than 60 cents on every dollar' in paid search. Ep. 441.",
+    "category": "Platform Economics",
+    "url": "https://freakonomics.com/podcast/does-advertising-actually-work-part-2-digital-ep-441/",
+    "type": "Podcast",
+    "tags": ["Advertising", "eBay", "Experimentation"]
+  },
+  {
+    "name": "Steve Tadelis: Trust and Reputation in Game Theory (Game Changer)",
+    "description": "Game theory podcast on trust mechanisms, reputation systems, and e-commerce platform design.",
+    "category": "Platform Economics",
+    "url": "https://tws-gamechanger.libsyn.com/playing-nice-trust-and-reputation-in-game-theory-ecommerce-and-vaccinations-with-steve-tadelis",
+    "type": "Podcast",
+    "tags": ["Game Theory", "Trust", "Reputation", "eBay"]
+  },
+  {
+    "name": "Karin Kimbrough: Work Trends to Watch (Microsoft WorkLab)",
+    "description": "LinkedIn Chief Economist on hiring trends, skills evolution, and the future of work.",
+    "category": "Labor Economics",
+    "url": "https://www.microsoft.com/en-us/worklab/podcast/linkedin-chief-economist-on-the-work-trends-to-watch",
+    "type": "Podcast",
+    "tags": ["LinkedIn", "Labor Market", "Skills"]
+  },
+  {
+    "name": "Karin Kimbrough: Small Firms, Workers, and AI (CSIS)",
+    "description": "CSIS Betting on America podcast on AI's impact on small businesses and workers.",
+    "category": "AI & Labor",
+    "url": "https://www.csis.org/podcasts/betting-america/small-firms-workers-and-ai-featuring-linkedin-chief-economist-karin",
+    "type": "Podcast",
+    "tags": ["LinkedIn", "AI", "Small Business"]
+  },
+  {
+    "name": "Karin Kimbrough: Skills as Global Workforce Currency",
+    "description": "Microsoft Public Sector Future podcast on skills-based hiring and workforce transformation.",
+    "category": "Labor Economics",
+    "url": "https://wwps.microsoft.com/episodes/skills-global-workforce",
+    "type": "Podcast",
+    "tags": ["LinkedIn", "Skills", "Workforce"]
+  },
+  {
+    "name": "Guy Berger: The Great Stay Economy (Top of Mind)",
+    "description": "Former LinkedIn economist on why workers are staying put and what it means for labor markets.",
+    "category": "Labor Economics",
+    "url": "https://podcasts.apple.com/us/podcast/the-great-stay-economy-with-guy-berger/id1599382871?i=1000680818922",
+    "type": "Podcast",
+    "tags": ["Labor Market", "Job Mobility", "Trends"]
+  },
+  {
+    "name": "Svenja Gudell: Inside the Indeed Hiring Lab (RecruitingDaily)",
+    "description": "Indeed Chief Economist on their research methodology and labor market insights.",
+    "category": "Labor Economics",
+    "url": "https://recruitingdaily.com/podcast-episode/indeed-inside-the-indeed-hiring-lab-with-svenja-gudell/",
+    "type": "Podcast",
+    "tags": ["Indeed", "Labor Market", "Research"]
+  },
+  {
+    "name": "Svenja Gudell: Expanding Your Talent Pool (FutureWorks 2024)",
+    "description": "Indeed conference keynote: 'There are literally zero skills where GenAI can fully replace humans.'",
+    "category": "AI & Labor",
+    "url": "https://www.indeed.com/lead/the-economic-case-for-expanding-your-talent-pool",
+    "type": "Keynote",
+    "tags": ["Indeed", "AI", "Talent"]
+  },
+  {
+    "name": "Jed Kolko: What's Next for the US Labor Market",
+    "description": "Former Indeed Chief Economist at National Economists Club on labor market dynamics.",
+    "category": "Labor Economics",
+    "url": "https://national-economists.org/nec-event/whats-next-for-the-us-labor-market-with-dr-jed-kolko-chief-economist-indeed-hiring-lab/",
+    "type": "Talk",
+    "tags": ["Indeed", "Labor Market", "Economics"]
+  },
+  {
+    "name": "Pawel Adrjan: Understanding Indeed Hiring Lab (Here to Help)",
+    "description": "Indeed CEO podcast on the Hiring Lab's role in understanding labor market trends.",
+    "category": "Labor Economics",
+    "url": "https://podcasts.apple.com/us/podcast/understanding-the-work-of-the-indeed-hiring-lab/id1525180342?i=1000498069806",
+    "type": "Podcast",
+    "tags": ["Indeed", "Research", "Labor Market"]
+  },
+  {
+    "name": "Daniel Zhao: Low Hire, Some Fire Job Market (CNBC)",
+    "description": "Glassdoor Chief Economist on current labor market dynamics and hiring trends.",
+    "category": "Labor Economics",
+    "url": "https://www.cnbc.com/video/2025/10/29/zhao-were-moving-into-a-low-hire-some-fire-job-market.html",
+    "type": "TV Interview",
+    "tags": ["Glassdoor", "Labor Market", "Hiring"]
+  },
+  {
+    "name": "Daniel Zhao: Soft Landing Optimism (Yahoo Finance)",
+    "description": "Yahoo Finance interview on economic outlook and hiring patterns.",
+    "category": "Labor Economics",
+    "url": "https://finance.yahoo.com/video/why-soft-landing-optimism-could-164931602.html",
+    "type": "TV Interview",
+    "tags": ["Glassdoor", "Economy", "Hiring"]
+  },
+  {
+    "name": "Andrew Chamberlain: Red Hot Labor Market (NPR)",
+    "description": "Former Glassdoor Chief Economist on NPR All Things Considered describing 2017's labor conditions.",
+    "category": "Labor Economics",
+    "url": "https://www.npr.org/2017/05/05/527092457/glassdoor-economist-describes-u-s-economy-as-a-red-hot-labor-market",
+    "type": "Radio",
+    "tags": ["Glassdoor", "Labor Market", "NPR"]
+  },
+  {
+    "name": "Skylar Olsen: How to Talk to Buyers and Sellers (RealTrending)",
+    "description": "Zillow Chief Economist on communicating housing market dynamics to consumers.",
+    "category": "Real Estate Economics",
+    "url": "https://www.realtrends.com/articles/zillows-chief-economist-on-how-to-talk-to-home-buyers-and-sellers-about-the-market/",
+    "type": "Podcast",
+    "tags": ["Zillow", "Housing", "Real Estate"]
+  },
+  {
+    "name": "Skylar Olsen: Mid-Year Economic Outlook (Weekly Seattle)",
+    "description": "Seattle-focused podcast on housing market trends and economic forecasts.",
+    "category": "Real Estate Economics",
+    "url": "https://theweeklyseattle.com/episodes/mid-year-economic-outlook-skylar-olsen-chief-economist-zillow",
+    "type": "Podcast",
+    "tags": ["Zillow", "Housing", "Seattle"]
+  },
+  {
+    "name": "Skylar Olsen: Housing Market Insights (CSG West)",
+    "description": "CSG West keynote on housing market trends and policy implications.",
+    "category": "Real Estate Economics",
+    "url": "https://csgwest.org/housing-market-insights-from-zillows-chief-economist/",
+    "type": "Keynote",
+    "tags": ["Zillow", "Housing", "Policy"]
+  },
+  {
+    "name": "Stan Humphries: Data Science at Zillow (CXOTalk)",
+    "description": "Former Zillow Chief Economist on Zestimate algorithm creation, hedonic pricing, and housing indices evolution 2006-2018.",
+    "category": "Real Estate Economics",
+    "url": "https://www.cxotalk.com/episode/data-science-zillow-stan-humphries-chief-analytics-officer",
+    "type": "Video Interview",
+    "tags": ["Zillow", "Zestimate", "Algorithms"]
+  },
+  {
+    "name": "Nathan Kallus: Learning from Historical A/B Tests (Stanford)",
+    "description": "Netflix Research Director at Stanford Bay Area Tech Economics Seminar on proxy metrics and econometric methods for personalization.",
+    "category": "Causal Inference & ML",
+    "url": "https://datascience.stanford.edu/events/causal-science-center/bay-area-tech-economics-seminar-nathan-kallus-cornellnetflix",
+    "type": "Seminar",
+    "tags": ["Netflix", "A/B Testing", "Causal Inference"]
+  },
+  {
+    "name": "Kyle Kretschman: Spotify's Business & Marketplace Economics",
+    "description": "Everything Marketplaces group chat on Creator Economics, Personalization Economics, and building Spotify's economics discipline.",
+    "category": "Platform Economics",
+    "url": "https://www.everythingmarketplaces.com/c/spotifys-business-marketplace-economics-with-kyle-kretschman",
+    "type": "Podcast",
+    "tags": ["Spotify", "Creator Economics", "Marketplace"]
+  },
+  {
+    "name": "Kyle Kretschman: Economics as Storytelling (UT Austin)",
+    "description": "Alumni interview on the 'translation function' between economic research and business applications.",
+    "category": "Tech Economics",
+    "url": "https://lifeandletters.la.utexas.edu/2022/12/economics-as-storytelling-alumni-qa-with-kyle-kretschman/",
+    "type": "Interview",
+    "tags": ["Spotify", "Career", "Economics"]
+  },
+  {
+    "name": "Taylor Marr: Have Airbnb Bans Backfired? (BiggerPockets)",
+    "description": "Airbnb Senior Housing Economist on $80B local economic impact and why short-term rental bans don't improve affordability.",
+    "category": "Real Estate Economics",
+    "url": "https://podcasts.apple.com/us/podcast/biggernews-have-the-airbnb-bans-backfired-on-big/id594419649?i=1000666340717",
+    "type": "Podcast",
+    "tags": ["Airbnb", "Housing", "Policy"]
+  },
+  {
+    "name": "DoorDash Deep Dive (Acquired)",
+    "description": "Comprehensive episode on DoorDash unit economics, three-sided marketplace dynamics, and difference from Uber Eats/Grubhub.",
+    "category": "Gig Economy",
+    "url": "https://www.acquired.fm/episodes/doordash",
+    "type": "Podcast",
+    "tags": ["DoorDash", "Unit Economics", "Marketplace"]
+  },
+  {
+    "name": "NPR Delivery Wars: Cost of Convenience",
+    "description": "NPR/Land of the Giants mini-series examining delivery economics and gig worker conditions.",
+    "category": "Gig Economy",
+    "url": "https://www.npr.org/2021/06/26/1010606320/new-podcast-delivery-wars-looks-at-the-cost-of-convenience",
+    "type": "Podcast Series",
+    "tags": ["DoorDash", "Delivery", "Gig Economy"]
+  },
+  {
+    "name": "Instacart: The Economics Team",
+    "description": "Instacart Tech Blog on hybrid economist/ML engineer roles, marketplace incentives, and causal inference methods.",
+    "category": "Platform Economics",
+    "url": "https://tech.instacart.com/the-economics-team-at-instacart-94c48db951e8",
+    "type": "Blog Post",
+    "tags": ["Instacart", "Team Structure", "Causal Inference"]
+  },
+  {
+    "name": "Pat Bajari: Amazon Data Science Day Keynote (Columbia)",
+    "description": "Amazon VP & Chief Economist keynote on 'Hands off the Wheel' methodology and leading 120+ scientists across ML, CV, NLP.",
+    "category": "Tech Economics",
+    "url": "https://datascience.columbia.edu/news/2021/amazon-economist-pat-bajari-delivers-data-science-day-2021-keynote/",
+    "type": "Keynote",
+    "tags": ["Amazon", "Data Science", "Leadership"]
+  },
+  {
+    "name": "Pat Bajari: Keystone Strategy Q&A",
+    "description": "Written interview on Amazon's economics approach and the intersection of economics and AI.",
+    "category": "Tech Economics",
+    "url": "https://www.keystone.ai/news-publications/patrick-bajari-qa",
+    "type": "Interview",
+    "tags": ["Amazon", "Economics", "AI"]
+  },
+  {
+    "name": "Amazon's Secret Economists (CNN)",
+    "description": "CNN feature on Amazon employing 150+ PhD economists in five years. Inside look at Bajari's team.",
+    "category": "Tech Economics",
+    "url": "https://www.cnn.com/2019/03/13/tech/amazon-economists/index.html",
+    "type": "Article/Video",
+    "tags": ["Amazon", "Hiring", "Economists"]
+  },
+  {
+    "name": "Jonathan Levin: Internet Markets (Econometric Society)",
+    "description": "Stanford President's slides on internet market economics - foundational academic perspective on tech markets.",
+    "category": "Platform Economics",
+    "url": "https://web.stanford.edu/~jdlevin/Papers/InternetMarketsSlides.pdf",
+    "type": "Slides",
+    "tags": ["Internet Economics", "Platform Economics", "Academic"]
+  },
+  {
+    "name": "Chiara Farronato: Beyond Chicken and Egg (HBS)",
+    "description": "Harvard panel on pressing issues for platform providers in the sharing economy.",
+    "category": "Platform Economics",
+    "url": "https://hbswk.hbs.edu/item/the-most-pressing-issues-for-platform-providers-in-the-sharing-economy",
+    "type": "Panel",
+    "tags": ["Platforms", "Sharing Economy", "Harvard"]
+  },
+  {
+    "name": "Athey & Luca: Economists in Tech Companies (JEP 2019)",
+    "description": "Definitive paper on what economists do at tech companies, which companies hire them, and career preparation.",
+    "category": "Tech Economics",
+    "url": "https://gsb-faculty.stanford.edu/susan-athey/files/2022/04/economists_in_tech.pdf",
+    "type": "Paper",
+    "tags": ["Career", "Tech Economics", "Research"]
+  },
+  {
+    "name": "NBER Economics of AI: Toronto 2017",
+    "description": "Conference with Susan Athey, Hal Varian, Carl Shapiro, Paul Milgrom, Steve Tadelis, Geoffrey Hinton, Yann LeCun. Video recordings available.",
+    "category": "AI & Labor",
+    "url": "https://www.economicsofai.com/nber-conference-toronto-2017",
+    "type": "Conference",
+    "tags": ["NBER", "AI", "Economics"]
+  },
+  {
+    "name": "NBER Economics of AI: 2018",
+    "description": "Follow-up conference with Susan Athey on Contextual Bandits and Hal Varian presentation.",
+    "category": "AI & Labor",
+    "url": "https://www.economicsofai.com/nber-conference-2018",
+    "type": "Conference",
+    "tags": ["NBER", "AI", "Bandits"]
   }
 ]

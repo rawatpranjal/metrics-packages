@@ -14413,5 +14413,293 @@
       "ParentData newsletter Substack",
       "evidence-based personal decisions economist"
     ]
+  },
+  {
+    "name": "Glen Weyl",
+    "description": "Political Economist at Microsoft Research. Author of 'Radical Markets' with Eric Posner. Pioneer of quadratic voting, data as labor concepts. Provocateur arguing 'AI is an ideology, not a technology.'",
+    "category": "Leading Lights",
+    "url": "https://glenweyl.com/",
+    "type": "Researcher & Author",
+    "location": "Microsoft Research",
+    "best_for": "Radical market reforms, mechanism design, data governance, quadratic voting",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "microeconomics",
+      "mechanism-design-basics"
+    ],
+    "topic_tags": [
+      "radical-markets",
+      "quadratic-voting",
+      "data-labor",
+      "mechanism-design",
+      "tech-policy"
+    ],
+    "summary": "Glen Weyl is a provocative economist at Microsoft Research whose 'Radical Markets' book proposed revolutionary reforms to property, voting, and data ownership. His work on quadratic voting offers new mechanisms for collective decision-making. Essential reading for those interested in alternative economic frameworks and tech governance.",
+    "use_cases": [
+      "Exploring alternative market and governance mechanisms",
+      "Understanding debates around data ownership and compensation"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Early-PhD"
+    ],
+    "synthetic_questions": [
+      "Who is Glen Weyl",
+      "quadratic voting mechanism design",
+      "Radical Markets book summary",
+      "data as labor economics"
+    ]
+  },
+  {
+    "name": "Chris Nosko",
+    "description": "VP at Uber, former Chief Economist at Amazon Stores. PhD Chicago. Known for seminal eBay branded keyword study with Thomas Blake and Steve Tadelis that challenged digital advertising assumptions.",
+    "category": "Notable Contributors",
+    "url": "https://www.linkedin.com/in/chris-nosko-3a1b0a6/",
+    "type": "Industry Leader",
+    "location": "San Francisco, CA",
+    "best_for": "Advertising effectiveness, marketplace economics, two-sided matching",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "econometrics",
+      "A/B-testing"
+    ],
+    "topic_tags": [
+      "advertising-effectiveness",
+      "marketplace-economics",
+      "uber",
+      "amazon",
+      "tech-economics"
+    ],
+    "summary": "Chris Nosko bridges academia and industry, having held chief economist roles at Amazon Stores and now VP at Uber. His eBay branded keyword research is one of the most influential studies in digital advertising, demonstrating how to rigorously test marketing effectiveness. Key voice on two-sided marketplace design.",
+    "use_cases": [
+      "Understanding how to test advertising effectiveness with experiments",
+      "Learning about career paths from academia to tech chief economist roles"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Chris Nosko economist",
+      "eBay branded keyword study",
+      "Uber VP economics",
+      "Amazon stores chief economist"
+    ]
+  },
+  {
+    "name": "Jonathan Hall",
+    "description": "Chief Economist at Uber. PhD Harvard (organizational economics with Oliver Hart). Studies gig economy dynamics, digital economy measurement, and labor market effects of platform work.",
+    "category": "Notable Contributors",
+    "url": "https://www.linkedin.com/in/jonathan-v-hall/",
+    "type": "Industry Leader",
+    "location": "San Francisco, CA",
+    "best_for": "Gig economy, platform labor markets, digital economy measurement",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "labor-economics",
+      "organizational-economics"
+    ],
+    "topic_tags": [
+      "gig-economy",
+      "uber",
+      "digital-economy",
+      "labor-markets",
+      "platform-work"
+    ],
+    "summary": "Jonathan Hall leads economics at Uber, studying how platforms reshape labor markets. His Harvard training under Oliver Hart in organizational economics informs his work on gig worker dynamics and platform governance. Key insights on measuring the digital economy's value despite measurement challenges.",
+    "use_cases": [
+      "Understanding labor economics in gig platforms",
+      "Measuring economic value of digital platforms"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Jonathan Hall Uber economist",
+      "gig economy labor economics research",
+      "Uber chief economist",
+      "digital economy measurement challenges"
+    ]
+  },
+  {
+    "name": "Kyle Kretschman",
+    "description": "Head of Economics at Spotify. Built Spotify's economics discipline from scratch. Focuses on Creator Economics (supply-side of music) and Personalization Economics. UT Austin Economics PhD.",
+    "category": "Notable Contributors",
+    "url": "https://www.linkedin.com/in/kylekretschman/",
+    "type": "Industry Leader",
+    "location": "New York, NY",
+    "best_for": "Creator economics, music industry economics, marketplace personalization",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "microeconomics",
+      "marketplace-economics"
+    ],
+    "topic_tags": [
+      "spotify",
+      "creator-economics",
+      "music-industry",
+      "personalization",
+      "marketplace-economics"
+    ],
+    "summary": "Kyle Kretschman pioneered economics at Spotify, developing frameworks for Creator Economics (supply-side music industry) and Personalization Economics. Emphasizes the 'translation function' between academic research and business decisions. Essential perspective on two-sided platform economics in entertainment.",
+    "use_cases": [
+      "Understanding economics of creator platforms and content marketplaces",
+      "Learning how to build economics teams at tech companies"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Junior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Kyle Kretschman Spotify",
+      "creator economics music streaming",
+      "Spotify head of economics",
+      "personalization economics streaming"
+    ]
+  },
+  {
+    "name": "Karin Kimbrough",
+    "description": "Chief Economist at LinkedIn. Former Federal Reserve economist. Expert on labor market trends, skills-based hiring, and workforce transformation. Regular voice on AI's impact on jobs.",
+    "category": "Notable Contributors",
+    "url": "https://www.linkedin.com/in/karin-kimbrough/",
+    "type": "Industry Leader",
+    "location": "San Francisco, CA",
+    "best_for": "Labor market trends, skills economy, AI and jobs, workforce data",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "labor-economics-basics",
+      "data-analysis"
+    ],
+    "topic_tags": [
+      "linkedin",
+      "labor-markets",
+      "skills-economy",
+      "AI-jobs",
+      "workforce"
+    ],
+    "summary": "Karin Kimbrough leads LinkedIn's Economic Graph research, providing unique insights into labor market trends from professional network data. Her Fed background informs rigorous analysis of hiring patterns, skills gaps, and AI's workforce impact. Key voice on skills-based hiring and workforce transformation.",
+    "use_cases": [
+      "Understanding labor market trends from professional network data",
+      "Analyzing how AI affects different job categories"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Who is Karin Kimbrough LinkedIn",
+      "LinkedIn chief economist labor trends",
+      "skills-based hiring economics",
+      "AI impact on jobs research"
+    ]
+  },
+  {
+    "name": "Svenja Gudell",
+    "description": "Chief Economist at Indeed Hiring Lab. Former Zillow Chief Economist. Expert on labor market dynamics, hiring trends, and AI's impact on work. Notable quote: 'Zero skills where GenAI can fully replace humans.'",
+    "category": "Notable Contributors",
+    "url": "https://www.hiringlab.org/author/svenja-gudell/",
+    "type": "Industry Leader",
+    "location": "Austin, TX",
+    "best_for": "Hiring trends, labor market analysis, AI and work, job search data",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "labor-economics-basics",
+      "data-analysis"
+    ],
+    "topic_tags": [
+      "indeed",
+      "labor-markets",
+      "hiring-trends",
+      "AI-work",
+      "job-search"
+    ],
+    "summary": "Svenja Gudell leads Indeed's Hiring Lab, leveraging job search and posting data for labor market insights. Her Zillow experience adds real estate economics expertise. Key voice on how AI affects labor markets with nuanced view that full job replacement is rare. Predicts labor shortages will intensify by 2026.",
+    "use_cases": [
+      "Analyzing hiring trends from job posting and search data",
+      "Understanding labor market dynamics in real-time"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Who is Svenja Gudell Indeed",
+      "Indeed Hiring Lab research",
+      "labor market trends 2024 2025",
+      "AI job replacement research"
+    ]
+  },
+  {
+    "name": "Skylar Olsen",
+    "description": "Chief Economist at Zillow. Expert on housing markets, affordability, and real estate trends. Frequent media commentator on home prices, mortgage rates, and housing policy.",
+    "category": "Notable Contributors",
+    "url": "https://www.zillow.com/research/author/skylar-olsen/",
+    "type": "Industry Leader",
+    "location": "Seattle, WA",
+    "best_for": "Housing economics, real estate trends, affordability analysis, housing policy",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "basic-economics",
+      "data-analysis"
+    ],
+    "topic_tags": [
+      "zillow",
+      "housing-economics",
+      "real-estate",
+      "affordability",
+      "housing-policy"
+    ],
+    "summary": "Skylar Olsen leads Zillow's economic research, providing authoritative analysis of housing markets using Zillow's comprehensive property data. Regular media voice on home prices, mortgage rates, and affordability challenges. Combines data science with economic analysis for actionable housing market insights.",
+    "use_cases": [
+      "Understanding housing market trends and forecasting",
+      "Analyzing housing affordability and policy impacts"
+    ],
+    "audience": [
+      "Curious-browser",
+      "Junior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Skylar Olsen Zillow",
+      "Zillow housing market predictions",
+      "real estate economist housing trends",
+      "housing affordability analysis"
+    ]
+  },
+  {
+    "name": "Daniel Zhao",
+    "description": "Chief Economist at Glassdoor. Expert on labor market dynamics, compensation trends, and workplace insights from employee reviews and salary data.",
+    "category": "Notable Contributors",
+    "url": "https://www.glassdoor.com/research/author/daniel-zhao/",
+    "type": "Industry Leader",
+    "location": "San Francisco, CA",
+    "best_for": "Labor markets, compensation analysis, workplace trends, job market dynamics",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "labor-economics-basics",
+      "data-analysis"
+    ],
+    "topic_tags": [
+      "glassdoor",
+      "labor-markets",
+      "compensation",
+      "workplace-trends",
+      "hiring"
+    ],
+    "summary": "Daniel Zhao leads Glassdoor's economic research, leveraging unique data from employee reviews, salaries, and job listings. Provides insights on compensation trends, workplace satisfaction, and hiring dynamics. Regular media commentator on labor market conditions and job market outlook.",
+    "use_cases": [
+      "Analyzing compensation and salary trends",
+      "Understanding workplace dynamics from employee data"
+    ],
+    "audience": [
+      "Curious-browser",
+      "Junior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Daniel Zhao Glassdoor",
+      "Glassdoor chief economist labor market",
+      "salary trends analysis",
+      "job market outlook economist"
+    ]
   }
 ]
