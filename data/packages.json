@@ -4957,5 +4957,275 @@
     ],
     "best_for": "Automated placebo tests and multi-treated-unit ATT calculations for synthetic control",
     "language": "R"
+  },
+  {
+    "name": "rddapp",
+    "description": "Supports multi-assignment RDD with two running variables, power analysis for RDD designs, and includes a Shiny interface for interactive analysis. Handles both sharp and fuzzy designs with bandwidth selection.",
+    "category": "Causal Inference (RDD)",
+    "docs_url": "https://cran.r-project.org/web/packages/rddapp/rddapp.pdf",
+    "github_url": "https://github.com/felixthoemmes/rddapp",
+    "url": "https://cran.r-project.org/package=rddapp",
+    "install": "install.packages(\"rddapp\")",
+    "tags": [
+      "RDD",
+      "multi-assignment",
+      "power-analysis",
+      "Shiny",
+      "fuzzy-RDD"
+    ],
+    "best_for": "Multi-assignment RDD with two running variables and power analysis with Shiny interface",
+    "language": "R"
+  },
+  {
+    "name": "rddtools",
+    "description": "Regression discontinuity design toolkit with clustered inference for geographic discontinuities. Provides bandwidth selection, specification tests, and visualization tools.",
+    "category": "Causal Inference (RDD)",
+    "docs_url": "https://cran.r-project.org/web/packages/rddtools/rddtools.pdf",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=rddtools",
+    "install": "install.packages(\"rddtools\")",
+    "tags": [
+      "RDD",
+      "clustered-inference",
+      "bandwidth-selection",
+      "geographic-discontinuity",
+      "visualization"
+    ],
+    "best_for": "RDD with clustered inference for geographic discontinuities",
+    "language": "R"
+  },
+  {
+    "name": "bunching",
+    "description": "Implements Kleven-Waseem style bunching estimation for kink and notch designs. Calculates parametric elasticities from bunching at tax thresholds with publication-ready output.",
+    "category": "Bunching Estimation",
+    "docs_url": "https://cran.r-project.org/web/packages/bunching/bunching.pdf",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=bunching",
+    "install": "install.packages(\"bunching\")",
+    "tags": [
+      "bunching",
+      "kink-design",
+      "notch-design",
+      "tax-research",
+      "elasticity"
+    ],
+    "best_for": "Kleven-Waseem bunching estimation at kinks and notches for tax research",
+    "language": "R"
+  },
+  {
+    "name": "CausalImpact",
+    "description": "Google-developed package implementing Bayesian structural time-series models for estimating causal effects of interventions on time series. Industry standard for marketing attribution, feature launches, and policy analysis.",
+    "category": "Bayesian Causal Inference",
+    "docs_url": "https://google.github.io/CausalImpact/",
+    "github_url": "https://github.com/google/CausalImpact",
+    "url": "https://cran.r-project.org/package=CausalImpact",
+    "install": "install.packages(\"CausalImpact\")",
+    "tags": [
+      "Bayesian",
+      "time-series",
+      "causal-inference",
+      "Google",
+      "marketing-attribution"
+    ],
+    "best_for": "Bayesian causal inference for time series interventions—industry standard for marketing and policy analysis",
+    "language": "R"
+  },
+  {
+    "name": "bsts",
+    "description": "Bayesian Structural Time Series providing the foundation for CausalImpact. Supports spike-and-slab variable selection, multiple state components (trend, seasonality, regression), and non-Gaussian outcomes. Developed at Google.",
+    "category": "Bayesian Causal Inference",
+    "docs_url": "https://cran.r-project.org/web/packages/bsts/bsts.pdf",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=bsts",
+    "install": "install.packages(\"bsts\")",
+    "tags": [
+      "Bayesian",
+      "structural-time-series",
+      "spike-and-slab",
+      "state-space",
+      "Google"
+    ],
+    "best_for": "Bayesian structural time series with spike-and-slab selection—foundation for CausalImpact",
+    "language": "R"
+  },
+  {
+    "name": "inferference",
+    "description": "Computes inverse probability weighted (IPW) causal effects under partial interference following Tchetgen Tchetgen and VanderWeele (2012). Handles spillover effects within groups while maintaining independence across groups.",
+    "category": "Causal Inference (Interference)",
+    "docs_url": "https://cran.r-project.org/web/packages/inferference/inferference.pdf",
+    "github_url": "https://github.com/bsaul/inferference",
+    "url": "https://cran.r-project.org/package=inferference",
+    "install": "install.packages(\"inferference\")",
+    "tags": [
+      "interference",
+      "spillovers",
+      "IPW",
+      "partial-interference",
+      "SUTVA-violations"
+    ],
+    "best_for": "IPW causal effects under partial interference with within-group spillovers, implementing Tchetgen Tchetgen & VanderWeele (2012)",
+    "language": "R"
+  },
+  {
+    "name": "latenetwork",
+    "description": "Handles both noncompliance AND network interference of unknown form following Hoshino and Yanagi (2023 JASA). Provides valid inference when treatment effects spill over through network connections.",
+    "category": "Causal Inference (Interference)",
+    "docs_url": "https://cran.r-project.org/web/packages/latenetwork/latenetwork.pdf",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=latenetwork",
+    "install": "install.packages(\"latenetwork\")",
+    "tags": [
+      "network-interference",
+      "noncompliance",
+      "LATE",
+      "spillovers",
+      "IV"
+    ],
+    "best_for": "LATE estimation with network interference and noncompliance, implementing Hoshino & Yanagi (2023 JASA)",
+    "language": "R"
+  },
+  {
+    "name": "DTRreg",
+    "description": "Dynamic treatment regime estimation via G-estimation for sequential treatment decisions. Implements methods for finding optimal treatment rules that adapt over time based on patient characteristics.",
+    "category": "Causal Inference (Dynamic Treatment)",
+    "docs_url": "https://cran.r-project.org/web/packages/DTRreg/DTRreg.pdf",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=DTRreg",
+    "install": "install.packages(\"DTRreg\")",
+    "tags": [
+      "dynamic-treatment",
+      "G-estimation",
+      "sequential-decisions",
+      "optimal-treatment",
+      "personalization"
+    ],
+    "best_for": "Dynamic treatment regime estimation via G-estimation for sequential treatment decisions",
+    "language": "R"
+  },
+  {
+    "name": "DynTxRegime",
+    "description": "Comprehensive package for dynamic treatment regimes implementing Q-learning, value search, and outcome-weighted learning methods. Accompanies the textbook 'Dynamic Treatment Regimes' (Tsiatis et al., 2020).",
+    "category": "Causal Inference (Dynamic Treatment)",
+    "docs_url": "https://cran.r-project.org/web/packages/DynTxRegime/DynTxRegime.pdf",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=DynTxRegime",
+    "install": "install.packages(\"DynTxRegime\")",
+    "tags": [
+      "dynamic-treatment",
+      "Q-learning",
+      "value-search",
+      "reinforcement-learning",
+      "personalized-medicine"
+    ],
+    "best_for": "Comprehensive dynamic treatment regimes with Q-learning and value search, from Tsiatis et al. (2020) textbook",
+    "language": "R"
+  },
+  {
+    "name": "CBPS",
+    "description": "Covariate Balancing Propensity Score directly optimizes covariate balance for binary, multi-category, continuous, and longitudinal treatments. Implements Imai and Ratkovic (2014 JRSS-B) methods.",
+    "category": "Causal Inference (Continuous Treatment)",
+    "docs_url": "https://cran.r-project.org/web/packages/CBPS/CBPS.pdf",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=CBPS",
+    "install": "install.packages(\"CBPS\")",
+    "tags": [
+      "propensity-score",
+      "covariate-balance",
+      "continuous-treatment",
+      "longitudinal",
+      "weighting"
+    ],
+    "best_for": "Covariate balancing propensity scores for binary, continuous, and longitudinal treatments, implementing Imai & Ratkovic (2014 JRSS-B)",
+    "language": "R"
+  },
+  {
+    "name": "CausalGPS",
+    "description": "Machine learning-based generalized propensity score estimation for continuous treatments. Uses SuperLearner ensemble methods for flexible estimation of dose-response curves.",
+    "category": "Causal Inference (Continuous Treatment)",
+    "docs_url": "https://cran.r-project.org/web/packages/CausalGPS/CausalGPS.pdf",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=CausalGPS",
+    "install": "install.packages(\"CausalGPS\")",
+    "tags": [
+      "GPS",
+      "continuous-treatment",
+      "machine-learning",
+      "SuperLearner",
+      "dose-response"
+    ],
+    "best_for": "ML-based generalized propensity scores for continuous treatment dose-response estimation",
+    "language": "R"
+  },
+  {
+    "name": "mediation",
+    "description": "Estimates Average Causal Mediation Effects (ACME) with sensitivity analysis for unmeasured confounding. Implements Tingley et al. (2014 JSS) methods for understanding causal mechanisms.",
+    "category": "Causal Inference (Mediation)",
+    "docs_url": "https://cran.r-project.org/web/packages/mediation/mediation.pdf",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=mediation",
+    "install": "install.packages(\"mediation\")",
+    "tags": [
+      "mediation",
+      "ACME",
+      "causal-mechanisms",
+      "sensitivity-analysis",
+      "indirect-effects"
+    ],
+    "best_for": "Average Causal Mediation Effects with sensitivity analysis, implementing Tingley et al. (2014 JSS)",
+    "language": "R"
+  },
+  {
+    "name": "CMAverse",
+    "description": "Unified interface for six causal mediation approaches including traditional regression, inverse odds weighting, and g-formula. Supports multiple sequential mediators and exposure-mediator interactions.",
+    "category": "Causal Inference (Mediation)",
+    "docs_url": "https://bs1125.github.io/CMAverse/",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=CMAverse",
+    "install": "install.packages(\"CMAverse\")",
+    "tags": [
+      "mediation",
+      "g-formula",
+      "multiple-mediators",
+      "causal-mechanisms",
+      "unified-interface"
+    ],
+    "best_for": "Unified causal mediation analysis with six approaches and multiple sequential mediators",
+    "language": "R"
+  },
+  {
+    "name": "PStrata",
+    "description": "Principal stratification analysis for noncompliance and truncation-by-death using both Bayesian (Stan) and frequentist estimation. Implements Liu and Li (2023) methods for causal inference with post-treatment complications.",
+    "category": "Causal Inference (Principal Stratification)",
+    "docs_url": "https://cran.r-project.org/web/packages/PStrata/PStrata.pdf",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=PStrata",
+    "install": "install.packages(\"PStrata\")",
+    "tags": [
+      "principal-stratification",
+      "noncompliance",
+      "truncation-by-death",
+      "Bayesian",
+      "Stan"
+    ],
+    "best_for": "Principal stratification for noncompliance and truncation-by-death with Bayesian/frequentist estimation",
+    "language": "R"
+  },
+  {
+    "name": "ATbounds",
+    "description": "Implements modern treatment effect bounds beyond basic Manski worst-case scenarios. Provides tighter bounds using monotonicity, mean independence, and other assumptions following Lee and Weidner (2021).",
+    "category": "Causal Inference (Bounds)",
+    "docs_url": "https://cran.r-project.org/web/packages/ATbounds/ATbounds.pdf",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=ATbounds",
+    "install": "install.packages(\"ATbounds\")",
+    "tags": [
+      "partial-identification",
+      "bounds",
+      "treatment-effects",
+      "Manski",
+      "monotonicity"
+    ],
+    "best_for": "Modern treatment effect bounds with tighter identification under various assumptions, implementing Lee & Weidner (2021)",
+    "language": "R"
   }
 ]
