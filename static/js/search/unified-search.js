@@ -2145,11 +2145,14 @@
     }
 
     // Setup extra filters
+    console.log('[PageSearch] Setting up extra filters:', this.config.extraFilters);
     this.config.extraFilters.forEach(function(filter) {
       var selectEl = document.getElementById(filter.selectId);
+      console.log('[PageSearch] Extra filter', filter.selectId, ':', selectEl ? 'found' : 'NOT FOUND');
       if (selectEl) {
         self.extraFilterValues[filter.dataKey] = 'all';
         selectEl.addEventListener('change', function() {
+          console.log('[PageSearch] Filter changed:', filter.dataKey, '=', this.value);
           self.extraFilterValues[filter.dataKey] = this.value;
           self.filterItems();
         });
