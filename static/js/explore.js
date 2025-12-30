@@ -46,7 +46,7 @@
         try {
             // Fetch data files in parallel for speed
             const urls = window.DISCOVER_DATA_URLS;
-            const [clustersRes, packagesRes, resourcesRes, datasetsRes, talksRes, careerRes, communityRes, booksRes] = await Promise.all([
+            const [clustersRes, packagesRes, resourcesRes, datasetsRes, talksRes, careerRes, communityRes, booksRes, papersRes] = await Promise.all([
                 fetch(urls.clusters),
                 fetch(urls.packages),
                 fetch(urls.resources),
@@ -54,7 +54,8 @@
                 fetch(urls.talks),
                 fetch(urls.career),
                 fetch(urls.community),
-                fetch(urls.books)
+                fetch(urls.books),
+                fetch(urls.papers)
             ]);
 
             clusterData = await clustersRes.json();
@@ -65,7 +66,8 @@
                 talks: await talksRes.json(),
                 career: await careerRes.json(),
                 community: await communityRes.json(),
-                books: await booksRes.json()
+                books: await booksRes.json(),
+                papers: await papersRes.json()
             };
         } catch (e) {
             console.error('[Discover] Failed to load explore data:', e);
@@ -100,7 +102,8 @@
             'talk': allItemsData.talks,
             'career': allItemsData.career,
             'community': allItemsData.community,
-            'book': allItemsData.books
+            'book': allItemsData.books,
+            'paper': allItemsData.papers
         };
 
         for (const [type, items] of Object.entries(typeMap)) {
@@ -154,6 +157,16 @@
             score += 10;
         } else if (cluster.item_count > 100) {
             score -= 5; // Very large clusters might be too generic
+        }
+
+        // Penalize homogeneous clusters (all items same type)
+        const itemIds = getClusterItems(cluster.id);
+        const sampleItems = itemIds.slice(0, 20).map(id => itemLookup[id]).filter(Boolean);
+        if (sampleItems.length > 0) {
+            const types = new Set(sampleItems.map(i => i._type));
+            if (types.size === 1) {
+                score -= 20; // Single-type clusters are less interesting
+            }
         }
 
         // Add randomness to keep it fresh each load
