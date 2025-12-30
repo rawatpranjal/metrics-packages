@@ -11,6 +11,8 @@
     <!-- Preconnect to CDNs -->
     <link rel="preconnect" href="https://unpkg.com">
     <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://gc.zgo.at">
+    <link rel="dns-prefetch" href="https://github.com">
 
     <!-- Open Graph / Social Preview -->
     <meta property="og:title" content="{{ if .Title }}{{ .Title }} | {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}">
@@ -281,6 +283,14 @@
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
                 </button>
+                <button id="texture-toggle" class="theme-toggle" aria-label="Toggle texture" title="Enable texture">
+                    <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="14" width="7" height="7"></rect>
+                        <rect x="3" y="14" width="7" height="7"></rect>
+                    </svg>
+                </button>
                 <span class="sidebar-visitors" id="visitor-count"></span>
             </div>
         </div>
@@ -301,9 +311,9 @@
 
     <!-- Custom JS -->
     <script src="{{ "js/theme.js" | relURL }}"></script>
-    <script src="{{ "js/favorites-local.js" | relURL }}"></script>
-    <script src="{{ "js/playlists-local.js" | relURL }}"></script>
-    <script src="{{ "js/favorites-ui.js" | relURL }}"></script>
+    <script src="{{ "js/favorites-local.js" | relURL }}" defer></script>
+    <script src="{{ "js/playlists-local.js" | relURL }}" defer></script>
+    <script src="{{ "js/favorites-ui.js" | relURL }}" defer></script>
 
     <!-- Fuse.js for page search -->
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0" defer integrity="sha384-PCSoOZTpbkikBEtd/+uV3WNdc676i9KUf01KOA8CnJotvlx8rRrETbDuwdjqTYvt" crossorigin="anonymous"></script>

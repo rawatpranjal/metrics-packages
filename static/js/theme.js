@@ -59,3 +59,51 @@
         }
     });
 })();
+
+// Texture toggle with localStorage persistence (disabled by default for performance)
+(function() {
+    const TEXTURE_KEY = 'texture-preference';
+
+    function getTexturePreference() {
+        try {
+            return localStorage.getItem(TEXTURE_KEY) === 'enabled';
+        } catch(e) {
+            return false;
+        }
+    }
+
+    function applyTexture(enabled) {
+        if (enabled) {
+            document.documentElement.classList.add('texture-enabled');
+        } else {
+            document.documentElement.classList.remove('texture-enabled');
+        }
+        // Update toggle button state
+        const toggle = document.getElementById('texture-toggle');
+        if (toggle) {
+            toggle.setAttribute('aria-pressed', enabled);
+            toggle.title = enabled ? 'Disable texture (faster)' : 'Enable texture';
+        }
+    }
+
+    function toggleTexture() {
+        const current = document.documentElement.classList.contains('texture-enabled');
+        const next = !current;
+        try {
+            localStorage.setItem(TEXTURE_KEY, next ? 'enabled' : 'disabled');
+        } catch(e) {}
+        applyTexture(next);
+    }
+
+    // Apply texture preference immediately
+    applyTexture(getTexturePreference());
+
+    // Set up toggle button after DOM loads
+    document.addEventListener('DOMContentLoaded', function() {
+        const toggle = document.getElementById('texture-toggle');
+        if (toggle) {
+            toggle.addEventListener('click', toggleTexture);
+        }
+        applyTexture(getTexturePreference());
+    });
+})();
