@@ -22,7 +22,7 @@
                 "Statistics",
                 "Bootstrap & Resampling Methods"
               ],
-              "citations": 9500
+              "citations": 16966
             },
             {
               "title": "Bootstrap Methods for Standard Errors, Confidence Intervals, and Other Measures of Statistical Accuracy",
@@ -35,7 +35,7 @@
                 "Statistics",
                 "Bootstrap & Resampling Methods"
               ],
-              "citations": 6100
+              "citations": 6099
             },
             {
               "title": "A Scalable Bootstrap for Massive Data",
@@ -48,7 +48,7 @@
                 "Statistics",
                 "Bootstrap & Resampling Methods"
               ],
-              "citations": 420
+              "citations": 386
             },
             {
               "title": "Estimating Uncertainty for Massive Data Streams",
@@ -60,7 +60,8 @@
               "tags": [
                 "Statistics",
                 "Bootstrap & Resampling Methods"
-              ]
+              ],
+              "citations": 18
             },
             {
               "title": "Bootstrap-Based Improvements for Inference with Clustered Errors",
@@ -73,7 +74,7 @@
                 "Statistics",
                 "Bootstrap & Resampling Methods"
               ],
-              "citations": 1000
+              "citations": 3726
             },
             {
               "title": "Resampling-Free Bootstrap Inference for Quantiles",
@@ -85,7 +86,8 @@
               "tags": [
                 "Statistics",
                 "Bootstrap & Resampling Methods"
-              ]
+              ],
+              "citations": 0
             }
           ]
         },
@@ -105,7 +107,7 @@
                 "Statistics",
                 "Survival Analysis & Time-to-Event Models"
               ],
-              "citations": 65000
+              "citations": 38451
             },
             {
               "title": "Regression Models and Life-Tables",
@@ -118,7 +120,7 @@
                 "Statistics",
                 "Survival Analysis & Time-to-Event Models"
               ],
-              "citations": 65000
+              "citations": 38454
             },
             {
               "title": "A Proportional Hazards Model for the Subdistribution of a Competing Risk",
@@ -131,7 +133,7 @@
                 "Statistics",
                 "Survival Analysis & Time-to-Event Models"
               ],
-              "citations": 8000
+              "citations": 12984
             },
             {
               "title": "Random Survival Forests",
@@ -144,7 +146,7 @@
                 "Statistics",
                 "Survival Analysis & Time-to-Event Models"
               ],
-              "citations": 2500
+              "citations": 2198
             },
             {
               "title": "DeepSurv: Personalized Treatment Recommender System Using a Cox Proportional Hazards Deep Neural Network",
@@ -157,7 +159,7 @@
                 "Statistics",
                 "Survival Analysis & Time-to-Event Models"
               ],
-              "citations": 1400
+              "citations": 1657
             }
           ]
         },
@@ -177,7 +179,7 @@
                 "Statistics",
                 "Bayesian Hierarchical Models"
               ],
-              "citations": 15000
+              "citations": 6602
             },
             {
               "title": "Data Analysis Using Stein's Estimator and Its Generalizations",
@@ -203,7 +205,7 @@
                 "Statistics",
                 "Bayesian Hierarchical Models"
               ],
-              "citations": 4000
+              "citations": 47
             },
             {
               "title": "The No-U-Turn Sampler: Adaptively Setting Path Lengths in Hamiltonian Monte Carlo",
@@ -216,7 +218,7 @@
                 "Statistics",
                 "Bayesian Hierarchical Models"
               ],
-              "citations": 4750
+              "citations": 3275
             },
             {
               "title": "Inferring Causal Impact Using Bayesian Structural Time-Series Models",
@@ -229,7 +231,7 @@
                 "Statistics",
                 "Bayesian Hierarchical Models"
               ],
-              "citations": 1800
+              "citations": 899
             },
             {
               "title": "Bayesian Methods for Media Mix Modeling with Carryover and Shape Effects",
@@ -242,7 +244,7 @@
                 "Statistics",
                 "Bayesian Hierarchical Models"
               ],
-              "citations": 200
+              "citations": 13
             }
           ]
         },
@@ -262,7 +264,7 @@
                 "Statistics",
                 "Generalized Linear Models"
               ],
-              "citations": 18000
+              "citations": 6962
             },
             {
               "title": "Quasi-Likelihood Functions, Generalized Linear Models, and the Gauss-Newton Method",
@@ -275,7 +277,7 @@
                 "Statistics",
                 "Generalized Linear Models"
               ],
-              "citations": 3500
+              "citations": 511
             },
             {
               "title": "Zero-Inflated Poisson Regression, with an Application to Defects in Manufacturing",
@@ -288,7 +290,7 @@
                 "Statistics",
                 "Generalized Linear Models"
               ],
-              "citations": 4100
+              "citations": 3823
             },
             {
               "title": "Beta Regression for Modelling Rates and Proportions",
@@ -301,7 +303,7 @@
                 "Statistics",
                 "Generalized Linear Models"
               ],
-              "citations": 2800
+              "citations": 2801
             },
             {
               "title": "Regression-Based Tests for Overdispersion in the Poisson Model",
@@ -314,7 +316,7 @@
                 "Statistics",
                 "Generalized Linear Models"
               ],
-              "citations": 2000
+              "citations": 1159
             }
           ]
         },
@@ -328,13 +330,13 @@
               "authors": "Nan M. Laird, James H. Ware",
               "year": 1982,
               "tag": "Classic",
-              "description": "Won 2021 International Prize in Statistics. Unified empirical Bayes and ML via EM algorithm for unbalanced longitudinal data with subject-specific random effects. Solves the 'users have different numbers of sessions' problem—models user heterogeneity while borrowing strength across users through partial pooling.",
+              "description": "Won 2021 International Prize in Statistics. Unified empirical Bayes and ML via EM algorithm for unbalanced longitudinal data with subject-specific random effects. Solves the 'users have different numbers of sessions' problem\u2014models user heterogeneity while borrowing strength across users through partial pooling.",
               "url": "https://www.jstor.org/stable/2529876",
               "tags": [
                 "Statistics",
                 "Mixed Effects & Multilevel Models"
               ],
-              "citations": 9200
+              "citations": 8702
             },
             {
               "title": "Recovery of Inter-Block Information when Block Sizes are Unequal",
@@ -347,24 +349,24 @@
                 "Statistics",
                 "Mixed Effects & Multilevel Models"
               ],
-              "citations": 4100
+              "citations": 3716
             },
             {
               "title": "That BLUP is a Good Thing: The Estimation of Random Effects",
               "authors": "G. K. Robinson",
               "year": 1991,
               "tag": "Classic",
-              "description": "Unified BLUP (Best Linear Unbiased Prediction) theory—showing it's the same as Kalman filtering, kriging, and credibility theory. Explains why shrinkage toward the grand mean is optimal: users with little data shrink toward population mean, users with abundant data reflect their own history.",
+              "description": "Unified BLUP (Best Linear Unbiased Prediction) theory\u2014showing it's the same as Kalman filtering, kriging, and credibility theory. Explains why shrinkage toward the grand mean is optimal: users with little data shrink toward population mean, users with abundant data reflect their own history.",
               "url": "https://projecteuclid.org/journals/statistical-science/volume-6/issue-1/That-BLUP-is-a-Good-Thing--The-Estimation-of/10.1214/ss/1177011926.full",
               "tags": [
                 "Statistics",
                 "Mixed Effects & Multilevel Models"
               ],
-              "citations": 1900
+              "citations": 1688
             },
             {
               "title": "Fitting Linear Mixed-Effects Models Using lme4",
-              "authors": "Douglas Bates, Martin Mächler, Ben Bolker, Steve Walker",
+              "authors": "Douglas Bates, Martin M\u00e4chler, Ben Bolker, Steve Walker",
               "year": 2015,
               "tag": "SOTA",
               "description": "One of the most cited statistical papers in history (~75,000 citations). Documents lme4's computational algorithms and formula syntax: (1|user_id) for random intercepts, (treatment|user_id) for random slopes, (1|user_id) + (1|market) for crossed effects. The implementation guide for mixed models in R.",
@@ -373,20 +375,20 @@
                 "Statistics",
                 "Mixed Effects & Multilevel Models"
               ],
-              "citations": 75000
+              "citations": 2577
             },
             {
               "title": "On the Pooling of Time Series and Cross Section Data",
               "authors": "Yair Mundlak",
               "year": 1978,
               "tag": "Classic",
-              "description": "Bridges econometrics and biostatistics: proves fixed effects equals random effects when you include group means as covariates. The 'Mundlak approach' offers a compromise—random effects for efficiency plus cluster means to allow correlation between effects and regressors. Critical for choosing between plm and lmer.",
+              "description": "Bridges econometrics and biostatistics: proves fixed effects equals random effects when you include group means as covariates. The 'Mundlak approach' offers a compromise\u2014random effects for efficiency plus cluster means to allow correlation between effects and regressors. Critical for choosing between plm and lmer.",
               "url": "https://www.jstor.org/stable/1913646",
               "tags": [
                 "Statistics",
                 "Mixed Effects & Multilevel Models"
               ],
-              "citations": 8000
+              "citations": 4920
             }
           ]
         },
@@ -400,13 +402,13 @@
               "authors": "Yoav Benjamini, Yosef Hochberg",
               "year": 1995,
               "tag": "Classic",
-              "description": "One of the most-cited statistics papers ever (~100,000 citations). Introduced FDR as alternative to FWER—controls expected proportion of false discoveries among rejections. The BH step-up procedure is now default in experimentation platforms at Google, Netflix, Meta. Essential when testing 500 experiments or 20 metrics per A/B test.",
+              "description": "One of the most-cited statistics papers ever (~100,000 citations). Introduced FDR as alternative to FWER\u2014controls expected proportion of false discoveries among rejections. The BH step-up procedure is now default in experimentation platforms at Google, Netflix, Meta. Essential when testing 500 experiments or 20 metrics per A/B test.",
               "url": "https://www.jstor.org/stable/2346101",
               "tags": [
                 "Statistics",
                 "Multiple Testing & False Discovery Rate"
               ],
-              "citations": 100000
+              "citations": 103590
             },
             {
               "title": "A Simple Sequentially Rejective Multiple Test Procedure",
@@ -419,20 +421,20 @@
                 "Statistics",
                 "Multiple Testing & False Discovery Rate"
               ],
-              "citations": 23000
+              "citations": 21731
             },
             {
               "title": "A Direct Approach to False Discovery Rates",
               "authors": "John D. Storey",
               "year": 2002,
               "tag": "Classic",
-              "description": "Introduced q-values—the FDR analogue of p-values. A q-value tells you the minimum FDR threshold at which a test becomes significant. Also introduced π₀ estimation (proportion of true nulls), which can boost power up to 8× compared to BH when many tests are truly non-null.",
+              "description": "Introduced q-values\u2014the FDR analogue of p-values. A q-value tells you the minimum FDR threshold at which a test becomes significant. Also introduced \u03c0\u2080 estimation (proportion of true nulls), which can boost power up to 8\u00d7 compared to BH when many tests are truly non-null.",
               "url": "https://www.jstor.org/stable/3088784",
               "tags": [
                 "Statistics",
                 "Multiple Testing & False Discovery Rate"
               ],
-              "citations": 5400
+              "citations": 5607
             },
             {
               "title": "The Control of the False Discovery Rate in Multiple Testing Under Dependency",
@@ -445,33 +447,33 @@
                 "Statistics",
                 "Multiple Testing & False Discovery Rate"
               ],
-              "citations": 10400
+              "citations": 10438
             },
             {
               "title": "Large-Scale Simultaneous Hypothesis Testing: The Choice of a Null Hypothesis",
               "authors": "Bradley Efron",
               "year": 2004,
               "tag": "Classic",
-              "description": "Introduced empirical null and local FDR (lfdr). When testing thousands of hypotheses, the theoretical null N(0,1) may be miscalibrated. Estimating null from data corrects for systematic biases. Local FDR assigns each experiment a 'probability of being noise'—essential for prioritizing follow-up in large experimentation portfolios.",
+              "description": "Introduced empirical null and local FDR (lfdr). When testing thousands of hypotheses, the theoretical null N(0,1) may be miscalibrated. Estimating null from data corrects for systematic biases. Local FDR assigns each experiment a 'probability of being noise'\u2014essential for prioritizing follow-up in large experimentation portfolios.",
               "url": "https://www.jstor.org/stable/27590386",
               "tags": [
                 "Statistics",
                 "Multiple Testing & False Discovery Rate"
               ],
-              "citations": 2500
+              "citations": 53
             },
             {
               "title": "Controlling the False Discovery Rate via Knockoffs",
-              "authors": "Rina Foygel Barber, Emmanuel J. Candès",
+              "authors": "Rina Foygel Barber, Emmanuel J. Cand\u00e8s",
               "year": 2015,
               "tag": "SOTA",
-              "description": "FDR control for variable selection in regression—where traditional p-values are unreliable due to correlated predictors. Constructs 'fake' knockoff variables mimicking correlation structure but independent of outcome. Enables FDR-controlled claims about which variables matter, not just whether there's signal. Bridge between multiple testing and high-dimensional regression.",
+              "description": "FDR control for variable selection in regression\u2014where traditional p-values are unreliable due to correlated predictors. Constructs 'fake' knockoff variables mimicking correlation structure but independent of outcome. Enables FDR-controlled claims about which variables matter, not just whether there's signal. Bridge between multiple testing and high-dimensional regression.",
               "url": "https://projecteuclid.org/journals/annals-of-statistics/volume-43/issue-5/Controlling-the-false-discovery-rate-via-knockoffs/10.1214/15-AOS1337.full",
               "tags": [
                 "Statistics",
                 "Multiple Testing & False Discovery Rate"
               ],
-              "citations": 1300
+              "citations": 514
             }
           ]
         },
@@ -485,46 +487,46 @@
               "authors": "Daniel G. Horvitz, Donovan J. Thompson",
               "year": 1952,
               "tag": "Classic",
-              "description": "Introduced the Horvitz-Thompson estimator: Ŷ = Σ(Yᵢ/πᵢ). Works for any probability sampling design by inverse probability weighting. This is the same math underlying propensity score weighting in causal inference—survey statisticians solved IPW in 1952; causal inference borrowed it three decades later.",
+              "description": "Introduced the Horvitz-Thompson estimator: \u0176 = \u03a3(Y\u1d62/\u03c0\u1d62). Works for any probability sampling design by inverse probability weighting. This is the same math underlying propensity score weighting in causal inference\u2014survey statisticians solved IPW in 1952; causal inference borrowed it three decades later.",
               "url": "https://www.jstor.org/stable/2280784",
               "tags": [
                 "Statistics",
                 "Survey Sampling & Weighted Estimation"
               ],
-              "citations": 4600
+              "citations": 2999
             },
             {
               "title": "Calibration Estimators in Survey Sampling",
-              "authors": "Jean-Claude Deville, Carl-Erik Särndal",
+              "authors": "Jean-Claude Deville, Carl-Erik S\u00e4rndal",
               "year": 1992,
               "tag": "Classic",
-              "description": "Unified decades of ad-hoc weighting methods—post-stratification, raking, regression estimation—under a single calibration framework. Weights minimize distance from design weights while matching known population totals. Foundation behind every 'weight to Census' adjustment in commercial panels and platform surveys.",
+              "description": "Unified decades of ad-hoc weighting methods\u2014post-stratification, raking, regression estimation\u2014under a single calibration framework. Weights minimize distance from design weights while matching known population totals. Foundation behind every 'weight to Census' adjustment in commercial panels and platform surveys.",
               "url": "https://www.jstor.org/stable/2290268",
               "tags": [
                 "Statistics",
                 "Survey Sampling & Weighted Estimation"
               ],
-              "citations": 2000
+              "citations": 1507
             },
             {
               "title": "On the Two Different Aspects of the Representative Method: The Method of Stratified Sampling and the Method of Purposive Selection",
               "authors": "Jerzy Neyman",
               "year": 1934,
               "tag": "Classic",
-              "description": "Proved random probability sampling beats purposive 'representative' selection. Derived optimal allocation formula for stratified sampling: sample proportional to Nₕ × Sₕ (stratum size × stratum SD). Establishes why design-based inference via randomization provides the foundation for valid uncertainty quantification.",
+              "description": "Proved random probability sampling beats purposive 'representative' selection. Derived optimal allocation formula for stratified sampling: sample proportional to N\u2095 \u00d7 S\u2095 (stratum size \u00d7 stratum SD). Establishes why design-based inference via randomization provides the foundation for valid uncertainty quantification.",
               "url": "https://www.jstor.org/stable/2342192",
               "tags": [
                 "Statistics",
                 "Survey Sampling & Weighted Estimation"
               ],
-              "citations": 3500
+              "citations": 1005
             },
             {
               "title": "Poststratification into Many Categories Using Hierarchical Logistic Regression",
               "authors": "Andrew Gelman, Thomas C. Little",
               "year": 1997,
               "tag": "SOTA",
-              "description": "Introduced MRP (Multilevel Regression with Poststratification) for small-area estimation when many cells are sparse. Borrows strength across similar cells via hierarchical model, then poststratifies to population proportions. Enables valid estimation for small subgroups from biased opt-in samples—validated by accurate election forecasts from Xbox data that was 93% male.",
+              "description": "Introduced MRP (Multilevel Regression with Poststratification) for small-area estimation when many cells are sparse. Borrows strength across similar cells via hierarchical model, then poststratifies to population proportions. Enables valid estimation for small subgroups from biased opt-in samples\u2014validated by accurate election forecasts from Xbox data that was 93% male.",
               "url": "https://www150.statcan.gc.ca/n1/en/pub/12-001-x/1997002/article/3616-eng.pdf",
               "tags": [
                 "Statistics",
@@ -537,13 +539,13 @@
               "authors": "Yilin Chen, Pengfei Li, Changbao Wu",
               "year": 2020,
               "tag": "SOTA",
-              "description": "Doubly robust estimators for convenience samples with unknown selection mechanisms—the default for tech company data. Consistent if either propensity model or outcome model is correctly specified. Bridges survey sampling and causal inference, showing survey propensity weights and causal IPW solve mathematically identical problems.",
+              "description": "Doubly robust estimators for convenience samples with unknown selection mechanisms\u2014the default for tech company data. Consistent if either propensity model or outcome model is correctly specified. Bridges survey sampling and causal inference, showing survey propensity weights and causal IPW solve mathematically identical problems.",
               "url": "https://www.tandfonline.com/doi/abs/10.1080/01621459.2019.1677241",
               "tags": [
                 "Statistics",
                 "Survey Sampling & Weighted Estimation"
               ],
-              "citations": 350
+              "citations": 136
             }
           ]
         },
@@ -557,13 +559,13 @@
               "authors": "R. A. Fisher, L. H. C. Tippett",
               "year": 1928,
               "tag": "Classic",
-              "description": "Proves that maxima of i.i.d. samples converge to exactly three distribution types—Gumbel (light tails), Fréchet (heavy tails), and Weibull (bounded tails). This 'three types theorem' is the foundation of all EVT. Every anomaly detector, VaR model, and tail risk estimator builds on this elegant result.",
+              "description": "Proves that maxima of i.i.d. samples converge to exactly three distribution types\u2014Gumbel (light tails), Fr\u00e9chet (heavy tails), and Weibull (bounded tails). This 'three types theorem' is the foundation of all EVT. Every anomaly detector, VaR model, and tail risk estimator builds on this elegant result.",
               "url": "https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/limiting-forms-of-the-frequency-distribution-of-the-largest-or-smallest-member-of-a-sample/D9F2E08BF5539E47E0CDEE35B4DC4C62",
               "tags": [
                 "Statistics",
                 "Extreme Value Theory"
               ],
-              "citations": 2500
+              "citations": 3242
             },
             {
               "title": "Statistical Inference Using Extreme Order Statistics",
@@ -576,7 +578,7 @@
                 "Statistics",
                 "Extreme Value Theory"
               ],
-              "citations": 5800
+              "citations": 3577
             },
             {
               "title": "Models for Exceedances Over High Thresholds",
@@ -589,11 +591,11 @@
                 "Statistics",
                 "Extreme Value Theory"
               ],
-              "citations": 3500
+              "citations": 1652
             },
             {
               "title": "Estimation of Tail-Related Risk Measures for Heteroscedastic Financial Time Series: An Extreme Value Approach",
-              "authors": "Alexander J. McNeil, Rüdiger Frey",
+              "authors": "Alexander J. McNeil, R\u00fcdiger Frey",
               "year": 2000,
               "tag": "SOTA",
               "description": "Solved EVT's limitation for time-varying volatility via two-stage GARCH-EVT: filter through GARCH to remove heteroscedasticity, then apply GPD to standardized residuals. First rigorous formulas for conditional VaR and Expected Shortfall satisfying Basel requirements. Same framework applies to tail latency, fraud detection, any metric with volatility clustering.",
@@ -602,20 +604,20 @@
                 "Statistics",
                 "Extreme Value Theory"
               ],
-              "citations": 2000
+              "citations": 1692
             },
             {
               "title": "Anomaly Detection in Streams with Extreme Value Theory",
-              "authors": "Alban Siffer, Pierre-Alain Fouque, Alexandre Termier, Christine Largouët",
+              "authors": "Alban Siffer, Pierre-Alain Fouque, Alexandre Termier, Christine Largou\u00ebt",
               "year": 2017,
               "tag": "Industry",
-              "description": "SPOT (Streaming Peaks-Over-Threshold) automatically detects anomalies in real-time with no manual threshold tuning—threshold emerges from EVT theory. DSPOT extends to non-stationary streams with concept drift. O(1) per observation, no distributional assumptions. Applications: DDoS detection, equipment failures, fraud, latency spikes. Open-source Python code included.",
+              "description": "SPOT (Streaming Peaks-Over-Threshold) automatically detects anomalies in real-time with no manual threshold tuning\u2014threshold emerges from EVT theory. DSPOT extends to non-stationary streams with concept drift. O(1) per observation, no distributional assumptions. Applications: DDoS detection, equipment failures, fraud, latency spikes. Open-source Python code included.",
               "url": "https://dl.acm.org/doi/10.1145/3097983.3098144",
               "tags": [
                 "Statistics",
                 "Extreme Value Theory"
               ],
-              "citations": 500
+              "citations": 468
             }
           ]
         },
@@ -629,65 +631,65 @@
               "authors": "Georg Rasch",
               "year": 1960,
               "tag": "Classic",
-              "description": "Introduced the one-parameter logistic (1PL/Rasch) model where response probability depends on person ability minus item difficulty. The 'specific objectivity' property enables comparing persons independent of which items they answered—the theoretical cornerstone of all computer adaptive testing (CAT) and Duolingo-style assessments.",
+              "description": "Introduced the one-parameter logistic (1PL/Rasch) model where response probability depends on person ability minus item difficulty. The 'specific objectivity' property enables comparing persons independent of which items they answered\u2014the theoretical cornerstone of all computer adaptive testing (CAT) and Duolingo-style assessments.",
               "url": "https://press.uchicago.edu/ucp/books/book/chicago/P/bo5963223.html",
               "tags": [
                 "Statistics",
                 "Item Response Theory"
               ],
-              "citations": 15500
+              "citations": 6996
             },
             {
               "title": "Statistical Theories of Mental Test Scores",
               "authors": "Frederic M. Lord, Melvin R. Novick, Allan Birnbaum",
               "year": 1968,
               "tag": "Classic",
-              "description": "The 'bible of test theory'. Birnbaum's chapters introduced 2PL (adding discrimination α) and 3PL (adding guessing γ) models. 2PL identifies which items best differentiate abilities—high-discrimination items worth more for rankings. 3PL handles multiple-choice guessing and random baseline performance. The canonical model family for 50+ years.",
+              "description": "The 'bible of test theory'. Birnbaum's chapters introduced 2PL (adding discrimination \u03b1) and 3PL (adding guessing \u03b3) models. 2PL identifies which items best differentiate abilities\u2014high-discrimination items worth more for rankings. 3PL handles multiple-choice guessing and random baseline performance. The canonical model family for 50+ years.",
               "url": "https://www.infoagepub.com/products/Statistical-Theories-of-Mental-Test-Scores",
               "tags": [
                 "Statistics",
                 "Item Response Theory"
               ],
-              "citations": 12800
+              "citations": 8138
             },
             {
-              "title": "Machine Learning–Driven Language Assessment",
+              "title": "Machine Learning\u2013Driven Language Assessment",
               "authors": "Burr Settles, Geoffrey T. LaFlair, Masato Hagiwara",
               "year": 2020,
               "tag": "Industry",
-              "description": "How Duolingo English Test works at scale. Uses ML/NLP to estimate Rasch difficulty from item text—skipping expensive human piloting. Achieves 0.96 internal consistency and r=0.77-0.78 with TOEFL/IELTS. Item exposure drops to 0.10% vs 20% in conventional CAT. Blueprint for building adaptive assessment without human norming.",
+              "description": "How Duolingo English Test works at scale. Uses ML/NLP to estimate Rasch difficulty from item text\u2014skipping expensive human piloting. Achieves 0.96 internal consistency and r=0.77-0.78 with TOEFL/IELTS. Item exposure drops to 0.10% vs 20% in conventional CAT. Blueprint for building adaptive assessment without human norming.",
               "url": "https://aclanthology.org/2020.tacl-1.16/",
               "tags": [
                 "Statistics",
                 "Item Response Theory"
               ],
-              "citations": 90
+              "citations": 91
             },
             {
-              "title": "β³-IRT: A New Item Response Model and its Applications",
-              "authors": "Yu Chen, Telmo Silva Filho, Ricardo B. C. Prudêncio, Tom Diethe, Peter Flach",
+              "title": "\u03b2\u00b3-IRT: A New Item Response Model and its Applications",
+              "authors": "Yu Chen, Telmo Silva Filho, Ricardo B. C. Prud\u00eancio, Tom Diethe, Peter Flach",
               "year": 2019,
               "tag": "SOTA",
-              "description": "Extends IRT to continuous responses using Beta-distributed item characteristic curves. Treats ML model evaluation as psychometric problem: each test instance has latent difficulty, each model has latent ability. Identifies which benchmark examples genuinely discriminate strong from weak classifiers—critical for efficient benchmarking.",
+              "description": "Extends IRT to continuous responses using Beta-distributed item characteristic curves. Treats ML model evaluation as psychometric problem: each test instance has latent difficulty, each model has latent ability. Identifies which benchmark examples genuinely discriminate strong from weak classifiers\u2014critical for efficient benchmarking.",
               "url": "https://proceedings.mlr.press/v89/chen19b.html",
               "tags": [
                 "Statistics",
                 "Item Response Theory"
               ],
-              "citations": 100
+              "citations": 5
             },
             {
               "title": "Building an Evaluation Scale using Item Response Theory",
               "authors": "John P. Lalor, Hao Wu, Hong Yu",
               "year": 2016,
               "tag": "SOTA",
-              "description": "First systematic application of IRT to NLP evaluation. Shows high accuracy ≠ high ability when item difficulty ignored—80% on easy items may indicate lower ability than 70% on hard items. Foundation for IRT-based ML leaderboards accounting for difficulty. Directly applicable to crowdsourcing quality estimation.",
+              "description": "First systematic application of IRT to NLP evaluation. Shows high accuracy \u2260 high ability when item difficulty ignored\u201480% on easy items may indicate lower ability than 70% on hard items. Foundation for IRT-based ML leaderboards accounting for difficulty. Directly applicable to crowdsourcing quality estimation.",
               "url": "https://aclanthology.org/D16-1062/",
               "tags": [
                 "Statistics",
                 "Item Response Theory"
               ],
-              "citations": 200
+              "citations": 62
             }
           ]
         },
@@ -701,65 +703,65 @@
               "authors": "Richard Berk, Lawrence Brown, Andreas Buja, Kai Zhang, Linda Zhao",
               "year": 2013,
               "tag": "Classic",
-              "description": "First practical PoSI framework for valid inference after arbitrary model selection. Key insight: treat as simultaneous inference by widening CIs to cover all 2^p possible coefficient estimates across submodels. Conservative but universally valid—works regardless of whether selection used stepwise, lasso, AIC, or informal judgment.",
+              "description": "First practical PoSI framework for valid inference after arbitrary model selection. Key insight: treat as simultaneous inference by widening CIs to cover all 2^p possible coefficient estimates across submodels. Conservative but universally valid\u2014works regardless of whether selection used stepwise, lasso, AIC, or informal judgment.",
               "url": "https://projecteuclid.org/journals/annals-of-statistics/volume-41/issue-2/Valid-post-selection-inference/10.1214/12-AOS1077.full",
               "tags": [
                 "Statistics",
                 "Post-Selection Inference"
               ],
-              "citations": 900
+              "citations": 589
             },
             {
               "title": "A Significance Test for the Lasso",
               "authors": "Richard Lockhart, Jonathan Taylor, Ryan J. Tibshirani, Robert Tibshirani",
               "year": 2014,
               "tag": "Classic",
-              "description": "Breakthrough bringing p-values to lasso regression via covariance test statistic. Under null, test statistic follows Exp(1)—though variables chosen adaptively, lasso shrinkage makes null distribution tractable. Works in high-dimensional settings (p > n). The first principled answer to 'which lasso-selected features are real.'",
+              "description": "Breakthrough bringing p-values to lasso regression via covariance test statistic. Under null, test statistic follows Exp(1)\u2014though variables chosen adaptively, lasso shrinkage makes null distribution tractable. Works in high-dimensional settings (p > n). The first principled answer to 'which lasso-selected features are real.'",
               "url": "https://projecteuclid.org/journals/annals-of-statistics/volume-42/issue-2/A-significance-test-for-the-lasso/10.1214/13-AOS1175.full",
               "tags": [
                 "Statistics",
                 "Post-Selection Inference"
               ],
-              "citations": 800
+              "citations": 555
             },
             {
               "title": "Exact Post-Selection Inference, with Application to the Lasso",
               "authors": "Jason D. Lee, Dennis L. Sun, Yuekai Sun, Jonathan E. Taylor",
               "year": 2016,
               "tag": "SOTA",
-              "description": "THE foundational methods paper. Introduces polyhedral lemma: lasso selection event = response y falling into polyhedral set (Ay ≤ b). Conditioning yields truncated Gaussian distribution for exact finite-sample CIs accounting for selection. No asymptotics required. Implemented in selectiveInference R package.",
+              "description": "THE foundational methods paper. Introduces polyhedral lemma: lasso selection event = response y falling into polyhedral set (Ay \u2264 b). Conditioning yields truncated Gaussian distribution for exact finite-sample CIs accounting for selection. No asymptotics required. Implemented in selectiveInference R package.",
               "url": "https://projecteuclid.org/journals/annals-of-statistics/volume-44/issue-3/Exact-post-selection-inference-with-application-to-the-lasso/10.1214/15-AOS1371.full",
               "tags": [
                 "Statistics",
                 "Post-Selection Inference"
               ],
-              "citations": 1100
+              "citations": 460
             },
             {
               "title": "Statistical Learning and Selective Inference",
               "authors": "Jonathan Taylor, Robert J. Tibshirani",
               "year": 2015,
               "tag": "Classic",
-              "description": "Accessible PNAS entry point to the field. Poses the question: 'Having mined data to find potential associations, how do we properly assess their strength?' Illustrates methods for forward stepwise, lasso, PCA with worked examples. Connects selective inference to replication crisis—cherry-picking requires higher significance bar.",
+              "description": "Accessible PNAS entry point to the field. Poses the question: 'Having mined data to find potential associations, how do we properly assess their strength?' Illustrates methods for forward stepwise, lasso, PCA with worked examples. Connects selective inference to replication crisis\u2014cherry-picking requires higher significance bar.",
               "url": "https://www.pnas.org/doi/10.1073/pnas.1507583112",
               "tags": [
                 "Statistics",
                 "Post-Selection Inference"
               ],
-              "citations": 500
+              "citations": 403
             },
             {
               "title": "Exact Post-Selection Inference for Sequential Regression Procedures",
               "authors": "Jonathan E. Taylor, Richard Lockhart, Ryan J. Tibshirani, Robert Tibshirani",
               "year": 2016,
               "tag": "SOTA",
-              "description": "Extends polyhedral framework to forward stepwise and LAR—the most commonly used selection procedures. Proves these produce polyhedral selection events enabling exact conditional inference. Primary methods paper underlying selectiveInference R package: fs(), fsInf(), lar(), larInf(), fixedLassoInf().",
+              "description": "Extends polyhedral framework to forward stepwise and LAR\u2014the most commonly used selection procedures. Proves these produce polyhedral selection events enabling exact conditional inference. Primary methods paper underlying selectiveInference R package: fs(), fsInf(), lar(), larInf(), fixedLassoInf().",
               "url": "https://www.tandfonline.com/doi/abs/10.1080/01621459.2015.1108848",
               "tags": [
                 "Statistics",
                 "Post-Selection Inference"
               ],
-              "citations": 450
+              "citations": 341
             }
           ]
         }
@@ -1376,7 +1378,7 @@
                 "Observational Causal Inference",
                 "Difference-in-Differences"
               ],
-              "citations": 841
+              "citations": 874
             }
           ]
         },
@@ -1468,7 +1470,7 @@
                 "Observational Causal Inference",
                 "Synthetic Control"
               ],
-              "citations": 50
+              "citations": 17
             }
           ]
         },
@@ -1835,7 +1837,7 @@
                 "Recommender Systems",
                 "Collaborative Filtering & Matrix Factorization"
               ],
-              "citations": 5900
+              "citations": 3565
             },
             {
               "title": "Factorization Machines",
@@ -1847,7 +1849,7 @@
                 "Recommender Systems",
                 "Collaborative Filtering & Matrix Factorization"
               ],
-              "citations": 2800
+              "citations": 2956
             },
             {
               "title": "Collaborative Filtering with Temporal Dynamics",
@@ -1859,7 +1861,7 @@
                 "Recommender Systems",
                 "Collaborative Filtering & Matrix Factorization"
               ],
-              "citations": 1600
+              "citations": 1164
             }
           ]
         },
@@ -1938,7 +1940,7 @@
                 "Recommender Systems",
                 "Deep Recommenders"
               ],
-              "citations": 4500
+              "citations": 3197
             },
             {
               "title": "DeepFM: A Factorization-Machine based Neural Network for CTR Prediction",
@@ -1950,7 +1952,7 @@
                 "Recommender Systems",
                 "Deep Recommenders"
               ],
-              "citations": 2700
+              "citations": 2132
             },
             {
               "title": "Deep Interest Network for Click-Through Rate Prediction",
@@ -1962,7 +1964,7 @@
                 "Recommender Systems",
                 "Deep Recommenders"
               ],
-              "citations": 2100
+              "citations": 1902
             }
           ]
         },
@@ -2029,7 +2031,7 @@
                 "Recommender Systems",
                 "Causal Recommendations & Debiasing"
               ],
-              "citations": 250
+              "citations": 102
             },
             {
               "title": "Causal Embeddings for Recommendation",
@@ -2041,7 +2043,7 @@
                 "Recommender Systems",
                 "Causal Recommendations & Debiasing"
               ],
-              "citations": 400
+              "citations": 208
             },
             {
               "title": "The Deconfounded Recommender: A Causal Inference Approach to Recommendation",
@@ -2053,7 +2055,7 @@
                 "Recommender Systems",
                 "Causal Recommendations & Debiasing"
               ],
-              "citations": 180
+              "citations": 43
             }
           ]
         },
@@ -2120,7 +2122,7 @@
                 "Recommender Systems",
                 "Exploration & Diversity"
               ],
-              "citations": 4000
+              "citations": 2403
             },
             {
               "title": "An Empirical Evaluation of Thompson Sampling",
@@ -2132,7 +2134,7 @@
                 "Recommender Systems",
                 "Exploration & Diversity"
               ],
-              "citations": 2600
+              "citations": 998
             },
             {
               "title": "Calibrated Recommendations",
@@ -2144,7 +2146,7 @@
                 "Recommender Systems",
                 "Exploration & Diversity"
               ],
-              "citations": 400
+              "citations": 259
             }
           ]
         },
@@ -2211,7 +2213,7 @@
                 "Recommender Systems",
                 "Cold Start"
               ],
-              "citations": 150
+              "citations": 143
             },
             {
               "title": "Transfer-Meta Framework for Cross-domain Recommendation to Cold-Start Users",
@@ -2223,7 +2225,7 @@
                 "Recommender Systems",
                 "Cold Start"
               ],
-              "citations": 120
+              "citations": 70
             }
           ]
         },
@@ -2242,7 +2244,7 @@
                 "Recommender Systems",
                 "Graph Neural Networks for Recommendations"
               ],
-              "citations": 3500
+              "citations": 2562
             },
             {
               "title": "Neural Graph Collaborative Filtering",
@@ -2254,7 +2256,7 @@
                 "Recommender Systems",
                 "Graph Neural Networks for Recommendations"
               ],
-              "citations": 2500
+              "citations": 2737
             },
             {
               "title": "LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation",
@@ -2266,7 +2268,7 @@
                 "Recommender Systems",
                 "Graph Neural Networks for Recommendations"
               ],
-              "citations": 3000
+              "citations": 3523
             },
             {
               "title": "KGAT: Knowledge Graph Attention Network for Recommendation",
@@ -2278,7 +2280,7 @@
                 "Recommender Systems",
                 "Graph Neural Networks for Recommendations"
               ],
-              "citations": 1500
+              "citations": 1899
             }
           ]
         },
@@ -2297,7 +2299,7 @@
                 "Recommender Systems",
                 "Multi-Task & Multi-Objective Learning"
               ],
-              "citations": 1500
+              "citations": 987
             },
             {
               "title": "Progressive Layered Extraction (PLE): A Novel Multi-Task Learning Model for Personalized Recommendations",
@@ -2309,7 +2311,7 @@
                 "Recommender Systems",
                 "Multi-Task & Multi-Objective Learning"
               ],
-              "citations": 700
+              "citations": 496
             },
             {
               "title": "Entire Space Multi-Task Model: An Effective Approach for Estimating Post-Click Conversion Rate",
@@ -2321,7 +2323,7 @@
                 "Recommender Systems",
                 "Multi-Task & Multi-Objective Learning"
               ],
-              "citations": 1200
+              "citations": 335
             },
             {
               "title": "A Pareto-Efficient Algorithm for Multiple Objective Optimization in E-Commerce Recommendation",
@@ -2333,7 +2335,7 @@
                 "Recommender Systems",
                 "Multi-Task & Multi-Objective Learning"
               ],
-              "citations": 200
+              "citations": 97
             }
           ]
         },
@@ -2352,7 +2354,7 @@
                 "Recommender Systems",
                 "Reinforcement Learning for Recommendations"
               ],
-              "citations": 500
+              "citations": 366
             },
             {
               "title": "SlateQ: A Tractable Decomposition for Reinforcement Learning with Recommendation Sets",
@@ -2364,7 +2366,7 @@
                 "Recommender Systems",
                 "Reinforcement Learning for Recommendations"
               ],
-              "citations": 300
+              "citations": 110
             },
             {
               "title": "Deep Reinforcement Learning for List-wise Recommendations",
@@ -2376,7 +2378,7 @@
                 "Recommender Systems",
                 "Reinforcement Learning for Recommendations"
               ],
-              "citations": 350
+              "citations": 389
             },
             {
               "title": "Pseudo Dyna-Q: A Reinforcement Learning Framework for Interactive Recommendation",
@@ -2388,7 +2390,7 @@
                 "Recommender Systems",
                 "Reinforcement Learning for Recommendations"
               ],
-              "citations": 150
+              "citations": 103
             }
           ]
         },
@@ -2407,7 +2409,7 @@
                 "Recommender Systems",
                 "Fairness & Responsible Recommendations"
               ],
-              "citations": 900
+              "citations": 524
             },
             {
               "title": "Towards a Fair Marketplace: Counterfactual Evaluation of the Trade-off between Relevance, Fairness & Satisfaction",
@@ -2419,7 +2421,7 @@
                 "Recommender Systems",
                 "Fairness & Responsible Recommendations"
               ],
-              "citations": 350
+              "citations": 264
             },
             {
               "title": "Controlling Fairness and Bias in Dynamic Learning-to-Rank",
@@ -2431,7 +2433,7 @@
                 "Recommender Systems",
                 "Fairness & Responsible Recommendations"
               ],
-              "citations": 200
+              "citations": 193
             },
             {
               "title": "Recommendations and Their Impact on the Provider Side",
@@ -2443,7 +2445,7 @@
                 "Recommender Systems",
                 "Fairness & Responsible Recommendations"
               ],
-              "citations": 150
+              "citations": 45
             }
           ]
         },
@@ -2462,7 +2464,7 @@
                 "Recommender Systems",
                 "Evaluation Methodology"
               ],
-              "citations": 200
+              "citations": 123
             },
             {
               "title": "Performance of Recommender Algorithms on Top-N Recommendation Tasks",
@@ -2474,7 +2476,7 @@
                 "Recommender Systems",
                 "Evaluation Methodology"
               ],
-              "citations": 1500
+              "citations": 1406
             },
             {
               "title": "Are We Really Making Much Progress? A Worrying Analysis of Recent Neural Recommendation Approaches",
@@ -2486,7 +2488,7 @@
                 "Recommender Systems",
                 "Evaluation Methodology"
               ],
-              "citations": 1200
+              "citations": 373
             }
           ]
         }
@@ -2560,7 +2562,7 @@
                 "Search & Ranking",
                 "Learning to Rank"
               ],
-              "citations": 8000
+              "citations": 3892
             }
           ]
         },
@@ -2615,7 +2617,7 @@
                 "Search & Ranking",
                 "Query Understanding"
               ],
-              "citations": 3000
+              "citations": 878
             },
             {
               "title": "Context-Sensitive Information Retrieval Using Implicit Feedback",
@@ -2627,7 +2629,7 @@
                 "Search & Ranking",
                 "Query Understanding"
               ],
-              "citations": 500
+              "citations": 93
             },
             {
               "title": "Few-Shot Generative Conversational Query Rewriting",
@@ -2639,7 +2641,7 @@
                 "Search & Ranking",
                 "Query Understanding"
               ],
-              "citations": 150
+              "citations": 106
             }
           ]
         },
@@ -2694,7 +2696,7 @@
                 "Search & Ranking",
                 "Relevance vs. Engagement"
               ],
-              "citations": 26
+              "citations": 29
             },
             {
               "title": "Modeling Dwell Time to Predict Click-level Satisfaction",
@@ -2706,7 +2708,7 @@
                 "Search & Ranking",
                 "Relevance vs. Engagement"
               ],
-              "citations": 500
+              "citations": 198
             },
             {
               "title": "Beyond Clicks: Query Reformulation as a Predictor of Search Satisfaction",
@@ -2718,7 +2720,7 @@
                 "Search & Ranking",
                 "Relevance vs. Engagement"
               ],
-              "citations": 400
+              "citations": 105
             }
           ]
         },
@@ -2797,7 +2799,7 @@
                 "Search & Ranking",
                 "Position Bias & Debiasing"
               ],
-              "citations": 150
+              "citations": 63
             }
           ]
         },
@@ -2875,7 +2877,7 @@
                 "Search & Ranking",
                 "Semantic Search & Embeddings"
               ],
-              "citations": 500
+              "citations": 276
             },
             {
               "title": "RocketQA: An Optimized Training Approach to Dense Passage Retrieval",
@@ -2887,7 +2889,7 @@
                 "Search & Ranking",
                 "Semantic Search & Embeddings"
               ],
-              "citations": 400
+              "citations": 316
             },
             {
               "title": "Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval",
@@ -2899,7 +2901,7 @@
                 "Search & Ranking",
                 "Semantic Search & Embeddings"
               ],
-              "citations": 1000
+              "citations": 335
             }
           ]
         },
@@ -2918,7 +2920,7 @@
                 "Search & Ranking",
                 "Neural Ranking Models"
               ],
-              "citations": 400
+              "citations": 198
             },
             {
               "title": "From doc2query to docTTTTTquery",
@@ -2942,7 +2944,7 @@
                 "Search & Ranking",
                 "Neural Ranking Models"
               ],
-              "citations": 800
+              "citations": 835
             },
             {
               "title": "End-to-End Neural Ad-hoc Ranking with Kernel Pooling",
@@ -2954,7 +2956,7 @@
                 "Search & Ranking",
                 "Neural Ranking Models"
               ],
-              "citations": 560
+              "citations": 558
             },
             {
               "title": "Unsupervised Corpus Aware Language Model Pre-training for Dense Passage Retrieval",
@@ -2966,7 +2968,7 @@
                 "Search & Ranking",
                 "Neural Ranking Models"
               ],
-              "citations": 250
+              "citations": 128
             }
           ]
         },
@@ -2985,7 +2987,7 @@
                 "Search & Ranking",
                 "Retrieval-Augmented Generation"
               ],
-              "citations": 1500
+              "citations": 510
             },
             {
               "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
@@ -2997,7 +2999,7 @@
                 "Search & Ranking",
                 "Retrieval-Augmented Generation"
               ],
-              "citations": 5000
+              "citations": 18
             },
             {
               "title": "Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering",
@@ -3009,7 +3011,7 @@
                 "Search & Ranking",
                 "Retrieval-Augmented Generation"
               ],
-              "citations": 1200
+              "citations": 98
             },
             {
               "title": "Transformer Memory as a Differentiable Search Index",
@@ -3021,7 +3023,7 @@
                 "Search & Ranking",
                 "Retrieval-Augmented Generation"
               ],
-              "citations": 400
+              "citations": 82
             }
           ]
         },
@@ -3040,7 +3042,7 @@
                 "Search & Ranking",
                 "Evaluation Methods for IR"
               ],
-              "citations": 10000
+              "citations": 4469
             },
             {
               "title": "Expected Reciprocal Rank for Graded Relevance",
@@ -3052,7 +3054,7 @@
                 "Search & Ranking",
                 "Evaluation Methods for IR"
               ],
-              "citations": 800
+              "citations": 828
             },
             {
               "title": "MS MARCO: A Human Generated MAchine Reading COmprehension Dataset",
@@ -3064,7 +3066,7 @@
                 "Search & Ranking",
                 "Evaluation Methods for IR"
               ],
-              "citations": 2000
+              "citations": 440
             },
             {
               "title": "BEIR: A Heterogeneous Benchmark for Zero-shot Evaluation of Information Retrieval Models",
@@ -3076,7 +3078,7 @@
                 "Search & Ranking",
                 "Evaluation Methods for IR"
               ],
-              "citations": 800
+              "citations": 25
             },
             {
               "title": "Large-Scale Validation and Analysis of Interleaved Search Evaluation",
@@ -3088,7 +3090,7 @@
                 "Search & Ranking",
                 "Evaluation Methods for IR"
               ],
-              "citations": 400
+              "citations": 224
             }
           ]
         },
@@ -3107,7 +3109,7 @@
                 "Search & Ranking",
                 "Personalized & Conversational Search"
               ],
-              "citations": 1000
+              "citations": 796
             },
             {
               "title": "Modeling the Impact of Short- and Long-Term Behavior on Search Personalization",
@@ -3119,7 +3121,7 @@
                 "Search & Ranking",
                 "Personalized & Conversational Search"
               ],
-              "citations": 700
+              "citations": 292
             },
             {
               "title": "Context-Aware Ranking in Web Search",
@@ -3131,7 +3133,7 @@
                 "Search & Ranking",
                 "Personalized & Conversational Search"
               ],
-              "citations": 300
+              "citations": 23
             },
             {
               "title": "TREC CAsT 2019: The Conversational Assistance Track",
@@ -3143,7 +3145,7 @@
                 "Search & Ranking",
                 "Personalized & Conversational Search"
               ],
-              "citations": 200
+              "citations": 56
             },
             {
               "title": "Open-Retrieval Conversational Question Answering",
@@ -3155,7 +3157,7 @@
                 "Search & Ranking",
                 "Personalized & Conversational Search"
               ],
-              "citations": 180
+              "citations": 70
             }
           ]
         },
@@ -3174,7 +3176,7 @@
                 "Search & Ranking",
                 "Result Diversification"
               ],
-              "citations": 2500
+              "citations": 2064
             },
             {
               "title": "Novelty and Diversity in Information Retrieval Evaluation",
@@ -3186,7 +3188,7 @@
                 "Search & Ranking",
                 "Result Diversification"
               ],
-              "citations": 1000
+              "citations": 939
             },
             {
               "title": "Diversifying Search Results",
@@ -3198,7 +3200,7 @@
                 "Search & Ranking",
                 "Result Diversification"
               ],
-              "citations": 600
+              "citations": 1010
             }
           ]
         }
@@ -3261,7 +3263,7 @@
                 "Reinforcement Learning",
                 "Multi-Armed Bandits"
               ],
-              "citations": 412
+              "citations": 101
             },
             {
               "title": "On the Complexity of Best-Arm Identification in Multi-Armed Bandit Models",
@@ -3273,7 +3275,7 @@
                 "Reinforcement Learning",
                 "Multi-Armed Bandits"
               ],
-              "citations": 358
+              "citations": 111
             }
           ]
         },
@@ -3340,7 +3342,7 @@
                 "Reinforcement Learning",
                 "Contextual Bandits"
               ],
-              "citations": 286
+              "citations": 59
             },
             {
               "title": "Beyond UCB: Optimal and Efficient Contextual Bandits with Regression Oracles",
@@ -3352,7 +3354,7 @@
                 "Reinforcement Learning",
                 "Contextual Bandits"
               ],
-              "citations": 189
+              "citations": 36
             }
           ]
         },
@@ -3371,7 +3373,7 @@
                 "Reinforcement Learning",
                 "Thompson Sampling & Bayesian Bandits"
               ],
-              "citations": 478
+              "citations": 489
             },
             {
               "title": "An Empirical Evaluation of Thompson Sampling",
@@ -3419,7 +3421,7 @@
                 "Reinforcement Learning",
                 "Thompson Sampling & Bayesian Bandits"
               ],
-              "citations": 245
+              "citations": 49
             }
           ]
         },
@@ -3486,7 +3488,7 @@
                 "Reinforcement Learning",
                 "Off-Policy Evaluation"
               ],
-              "citations": 312
+              "citations": 74
             },
             {
               "title": "Towards Optimal Off-Policy Evaluation for Reinforcement Learning",
@@ -3498,7 +3500,7 @@
                 "Reinforcement Learning",
                 "Off-Policy Evaluation"
               ],
-              "citations": 156
+              "citations": 53
             },
             {
               "title": "Off-policy Evaluation for Slate Recommendation",
@@ -3510,7 +3512,7 @@
                 "Reinforcement Learning",
                 "Off-Policy Evaluation"
               ],
-              "citations": 189
+              "citations": 39
             }
           ]
         },
@@ -3576,7 +3578,7 @@
                 "Reinforcement Learning",
                 "Batch/Offline RL"
               ],
-              "citations": 1245
+              "citations": 462
             },
             {
               "title": "Offline Reinforcement Learning with Implicit Q-Learning",
@@ -3588,7 +3590,7 @@
                 "Reinforcement Learning",
                 "Batch/Offline RL"
               ],
-              "citations": 478
+              "citations": 129
             }
           ]
         },
@@ -3655,7 +3657,7 @@
                 "Reinforcement Learning",
                 "RL for Bidding & Pricing"
               ],
-              "citations": 187
+              "citations": 27
             },
             {
               "title": "Optimal Auctions through Deep Learning",
@@ -3667,7 +3669,7 @@
                 "Reinforcement Learning",
                 "RL for Bidding & Pricing"
               ],
-              "citations": 312
+              "citations": 94
             },
             {
               "title": "Contextual Bandits with Cross-Learning",
@@ -3679,7 +3681,7 @@
                 "Reinforcement Learning",
                 "RL for Bidding & Pricing"
               ],
-              "citations": 89
+              "citations": 5
             },
             {
               "title": "Personalized Dynamic Pricing with Machine Learning: High-Dimensional Features and Heterogeneous Elasticity",
@@ -3691,7 +3693,7 @@
                 "Reinforcement Learning",
                 "RL for Bidding & Pricing"
               ],
-              "citations": 156
+              "citations": 173
             }
           ]
         },
@@ -3710,7 +3712,7 @@
                 "Reinforcement Learning",
                 "RL for Recommendations"
               ],
-              "citations": 423
+              "citations": 366
             },
             {
               "title": "SlateQ: A Tractable Decomposition for Reinforcement Learning with Recommendation Sets",
@@ -3722,7 +3724,7 @@
                 "Reinforcement Learning",
                 "RL for Recommendations"
               ],
-              "citations": 198
+              "citations": 110
             },
             {
               "title": "Deep Reinforcement Learning for Page-wise Recommendations",
@@ -3734,7 +3736,7 @@
                 "Reinforcement Learning",
                 "RL for Recommendations"
               ],
-              "citations": 356
+              "citations": 389
             },
             {
               "title": "Generative Adversarial User Model for Reinforcement Learning Based Recommendation System",
@@ -3746,7 +3748,7 @@
                 "Reinforcement Learning",
                 "RL for Recommendations"
               ],
-              "citations": 187
+              "citations": 51
             },
             {
               "title": "Reinforcement Learning to Optimize Long-term User Engagement in Recommender Systems",
@@ -3758,7 +3760,7 @@
                 "Reinforcement Learning",
                 "RL for Recommendations"
               ],
-              "citations": 245
+              "citations": 223
             }
           ]
         },
@@ -3777,7 +3779,7 @@
                 "Reinforcement Learning",
                 "Safe & Constrained RL"
               ],
-              "citations": 1245
+              "citations": 111
             },
             {
               "title": "Safe Model-based Reinforcement Learning with Stability Guarantees",
@@ -3789,7 +3791,7 @@
                 "Reinforcement Learning",
                 "Safe & Constrained RL"
               ],
-              "citations": 567
+              "citations": 336
             },
             {
               "title": "Benchmarking Safe Exploration in Deep Reinforcement Learning",
@@ -3801,7 +3803,7 @@
                 "Reinforcement Learning",
                 "Safe & Constrained RL"
               ],
-              "citations": 389
+              "citations": 26
             }
           ]
         },
@@ -3820,7 +3822,7 @@
                 "Reinforcement Learning",
                 "Exploration & Sample Efficiency"
               ],
-              "citations": 876
+              "citations": 460
             },
             {
               "title": "Unifying Count-Based Exploration and Intrinsic Motivation",
@@ -3832,7 +3834,7 @@
                 "Reinforcement Learning",
                 "Exploration & Sample Efficiency"
               ],
-              "citations": 923
+              "citations": 669
             },
             {
               "title": "Curiosity-driven Exploration by Self-supervised Prediction",
@@ -3844,7 +3846,7 @@
                 "Reinforcement Learning",
                 "Exploration & Sample Efficiency"
               ],
-              "citations": 2156
+              "citations": 684
             },
             {
               "title": "Model Based Reinforcement Learning for Atari",
@@ -3856,7 +3858,7 @@
                 "Reinforcement Learning",
                 "Exploration & Sample Efficiency"
               ],
-              "citations": 478
+              "citations": 85
             }
           ]
         },
@@ -3875,7 +3877,7 @@
                 "Reinforcement Learning",
                 "Multi-Agent & Game-Theoretic RL"
               ],
-              "citations": 689
+              "citations": 142
             },
             {
               "title": "Learning with Opponent-Learning Awareness",
@@ -3887,7 +3889,7 @@
                 "Reinforcement Learning",
                 "Multi-Agent & Game-Theoretic RL"
               ],
-              "citations": 534
+              "citations": 50
             },
             {
               "title": "Grandmaster level in StarCraft II using multi-agent reinforcement learning",
@@ -3899,7 +3901,7 @@
                 "Reinforcement Learning",
                 "Multi-Agent & Game-Theoretic RL"
               ],
-              "citations": 2134
+              "citations": 3236
             },
             {
               "title": "Superhuman AI for multiplayer poker",
@@ -3911,7 +3913,7 @@
                 "Reinforcement Learning",
                 "Multi-Agent & Game-Theoretic RL"
               ],
-              "citations": 876
+              "citations": 565
             }
           ]
         }
@@ -3986,7 +3988,7 @@
                 "Inverse RL & Preference Learning",
                 "Reward Inference from Behavior"
               ],
-              "citations": 1156
+              "citations": 31
             },
             {
               "title": "Guided Cost Learning: Deep Inverse Optimal Control via Policy Optimization",
@@ -3998,7 +4000,7 @@
                 "Inverse RL & Preference Learning",
                 "Reward Inference from Behavior"
               ],
-              "citations": 1089
+              "citations": 369
             },
             {
               "title": "Inverse Reward Design",
@@ -4010,7 +4012,7 @@
                 "Inverse RL & Preference Learning",
                 "Reward Inference from Behavior"
               ],
-              "citations": 467
+              "citations": 62
             }
           ]
         },
@@ -4065,7 +4067,7 @@
                 "Inverse RL & Preference Learning",
                 "Imitation Learning"
               ],
-              "citations": 1823
+              "citations": 553
             },
             {
               "title": "Behavioral Cloning from Observation",
@@ -4077,7 +4079,7 @@
                 "Inverse RL & Preference Learning",
                 "Imitation Learning"
               ],
-              "citations": 456
+              "citations": 33
             },
             {
               "title": "End to End Learning for Self-Driving Cars",
@@ -4089,7 +4091,7 @@
                 "Inverse RL & Preference Learning",
                 "Imitation Learning"
               ],
-              "citations": 5678
+              "citations": 3097
             }
           ]
         },
@@ -4156,7 +4158,7 @@
                 "Inverse RL & Preference Learning",
                 "Revealed Preference at Scale"
               ],
-              "citations": 18756
+              "citations": 13967
             },
             {
               "title": "Stochastic Choice and Revealed Perturbed Utility",
@@ -4168,7 +4170,7 @@
                 "Inverse RL & Preference Learning",
                 "Revealed Preference at Scale"
               ],
-              "citations": 289
+              "citations": 173
             },
             {
               "title": "Dynamic Random Utility",
@@ -4180,7 +4182,7 @@
                 "Inverse RL & Preference Learning",
                 "Revealed Preference at Scale"
               ],
-              "citations": 156
+              "citations": 21
             }
           ]
         },
@@ -4244,7 +4246,7 @@
                 "Inverse RL & Preference Learning",
                 "Human Feedback & RLHF"
               ],
-              "citations": 15678
+              "citations": 31
             },
             {
               "title": "Learning to Summarize from Human Feedback",
@@ -4256,7 +4258,7 @@
                 "Inverse RL & Preference Learning",
                 "Human Feedback & RLHF"
               ],
-              "citations": 1456
+              "citations": 37
             },
             {
               "title": "A General Theoretical Paradigm to Understand Learning from Human Preferences",
@@ -4268,7 +4270,7 @@
                 "Inverse RL & Preference Learning",
                 "Human Feedback & RLHF"
               ],
-              "citations": 234
+              "citations": 0
             },
             {
               "title": "KTO: Model Alignment as Prospect Theoretic Optimization",
@@ -4280,7 +4282,7 @@
                 "Inverse RL & Preference Learning",
                 "Human Feedback & RLHF"
               ],
-              "citations": 145
+              "citations": 19
             }
           ]
         },
@@ -4299,7 +4301,7 @@
                 "Inverse RL & Preference Learning",
                 "Preference Elicitation & Active Learning"
               ],
-              "citations": 567
+              "citations": 277
             },
             {
               "title": "The K-Armed Dueling Bandits Problem",
@@ -4311,7 +4313,7 @@
                 "Inverse RL & Preference Learning",
                 "Preference Elicitation & Active Learning"
               ],
-              "citations": 389
+              "citations": 191
             },
             {
               "title": "Preference-based Online Learning with Dueling Bandits: A Survey",
@@ -4323,7 +4325,7 @@
                 "Inverse RL & Preference Learning",
                 "Preference Elicitation & Active Learning"
               ],
-              "citations": 178
+              "citations": 24
             },
             {
               "title": "Stagewise Safe Bayesian Optimization with Gaussian Processes",
@@ -4335,7 +4337,7 @@
                 "Inverse RL & Preference Learning",
                 "Preference Elicitation & Active Learning"
               ],
-              "citations": 234
+              "citations": 67
             },
             {
               "title": "Counterfactual Risk Minimization: Learning from Logged Bandit Feedback",
@@ -4347,7 +4349,7 @@
                 "Inverse RL & Preference Learning",
                 "Preference Elicitation & Active Learning"
               ],
-              "citations": 678
+              "citations": 124
             }
           ]
         },
@@ -4366,7 +4368,7 @@
                 "Inverse RL & Preference Learning",
                 "Choice Modeling from Behavioral Data"
               ],
-              "citations": 1234
+              "citations": 935
             },
             {
               "title": "A Dynamic Bayesian Network Click Model for Web Search Ranking",
@@ -4378,7 +4380,7 @@
                 "Inverse RL & Preference Learning",
                 "Choice Modeling from Behavioral Data"
               ],
-              "citations": 987
+              "citations": 535
             },
             {
               "title": "Unbiased Learning-to-Rank with Biased Feedback",
@@ -4390,7 +4392,7 @@
                 "Inverse RL & Preference Learning",
                 "Choice Modeling from Behavioral Data"
               ],
-              "citations": 756
+              "citations": 495
             },
             {
               "title": "Click Models for Web Search",
@@ -4402,7 +4404,7 @@
                 "Inverse RL & Preference Learning",
                 "Choice Modeling from Behavioral Data"
               ],
-              "citations": 456
+              "citations": 260
             }
           ]
         },
@@ -4421,7 +4423,7 @@
                 "Inverse RL & Preference Learning",
                 "Value Alignment & AI Safety"
               ],
-              "citations": 2345
+              "citations": 5
             },
             {
               "title": "Goal Misgeneralization in Deep Reinforcement Learning",
@@ -4433,7 +4435,7 @@
                 "Inverse RL & Preference Learning",
                 "Value Alignment & AI Safety"
               ],
-              "citations": 234
+              "citations": 22
             },
             {
               "title": "Scaling Laws for Reward Model Overoptimization",
@@ -4445,7 +4447,7 @@
                 "Inverse RL & Preference Learning",
                 "Value Alignment & AI Safety"
               ],
-              "citations": 189
+              "citations": 34
             },
             {
               "title": "Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision",
@@ -4457,7 +4459,7 @@
                 "Inverse RL & Preference Learning",
                 "Value Alignment & AI Safety"
               ],
-              "citations": 145
+              "citations": 24
             }
           ]
         },
@@ -4476,7 +4478,7 @@
                 "Inverse RL & Preference Learning",
                 "Personalization & User Modeling"
               ],
-              "citations": 14567
+              "citations": 11142
             },
             {
               "title": "Collaborative Filtering for Implicit Feedback Datasets",
@@ -4488,7 +4490,7 @@
                 "Inverse RL & Preference Learning",
                 "Personalization & User Modeling"
               ],
-              "citations": 5678
+              "citations": 3154
             },
             {
               "title": "BPR: Bayesian Personalized Ranking from Implicit Feedback",
@@ -4500,7 +4502,7 @@
                 "Inverse RL & Preference Learning",
                 "Personalization & User Modeling"
               ],
-              "citations": 3456
+              "citations": 4304
             }
           ]
         }
@@ -4574,7 +4576,7 @@
                 "Forecasting",
                 "Time Series Foundations"
               ],
-              "citations": 6847
+              "citations": 2273
             },
             {
               "title": "MSTL: A Seasonal-Trend Decomposition Algorithm for Time Series with Multiple Seasonal Patterns",
@@ -4586,7 +4588,7 @@
                 "Forecasting",
                 "Time Series Foundations"
               ],
-              "citations": 241
+              "citations": 91
             }
           ]
         },
@@ -4641,7 +4643,7 @@
                 "Forecasting",
                 "Probabilistic Forecasting"
               ],
-              "citations": 287
+              "citations": 38
             },
             {
               "title": "Multivariate Probabilistic Time Series Forecasting via Conditioned Normalizing Flows",
@@ -4653,7 +4655,7 @@
                 "Forecasting",
                 "Probabilistic Forecasting"
               ],
-              "citations": 356
+              "citations": 12
             }
           ]
         },
@@ -4798,7 +4800,7 @@
                 "Forecasting",
                 "Deep Learning for Forecasting"
               ],
-              "citations": 872
+              "citations": 441
             }
           ]
         },
@@ -4817,7 +4819,7 @@
                 "Forecasting",
                 "Transformers & MLPs for Forecasting"
               ],
-              "citations": 4521
+              "citations": 4749
             },
             {
               "title": "Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting",
@@ -4829,7 +4831,7 @@
                 "Forecasting",
                 "Transformers & MLPs for Forecasting"
               ],
-              "citations": 1876
+              "citations": 486
             },
             {
               "title": "FEDformer: Frequency Enhanced Decomposed Transformer for Long-term Series Forecasting",
@@ -4841,7 +4843,7 @@
                 "Forecasting",
                 "Transformers & MLPs for Forecasting"
               ],
-              "citations": 1234
+              "citations": 530
             },
             {
               "title": "A Time Series is Worth 64 Words: Long-term Forecasting with Transformers (PatchTST)",
@@ -4865,7 +4867,7 @@
                 "Forecasting",
                 "Transformers & MLPs for Forecasting"
               ],
-              "citations": 287
+              "citations": 117
             },
             {
               "title": "TSMixer: Lightweight MLP-Mixer Model for Multivariate Time Series Forecasting",
@@ -4877,7 +4879,7 @@
                 "Forecasting",
                 "Transformers & MLPs for Forecasting"
               ],
-              "citations": 156
+              "citations": 165
             }
           ]
         },
@@ -4896,7 +4898,7 @@
                 "Forecasting",
                 "Foundation Models for Time Series"
               ],
-              "citations": 287
+              "citations": 47
             },
             {
               "title": "TimeGPT-1",
@@ -4908,7 +4910,7 @@
                 "Forecasting",
                 "Foundation Models for Time Series"
               ],
-              "citations": 312
+              "citations": 23
             },
             {
               "title": "Lag-Llama: Towards Foundation Models for Probabilistic Time Series Forecasting",
@@ -4920,7 +4922,7 @@
                 "Forecasting",
                 "Foundation Models for Time Series"
               ],
-              "citations": 198
+              "citations": 31
             },
             {
               "title": "MOMENT: A Family of Open Time-series Foundation Models",
@@ -4932,7 +4934,7 @@
                 "Forecasting",
                 "Foundation Models for Time Series"
               ],
-              "citations": 156
+              "citations": 23
             },
             {
               "title": "A Decoder-Only Foundation Model for Time-Series Forecasting (TimesFM)",
@@ -4968,7 +4970,7 @@
                 "Forecasting",
                 "Foundation Models for Time Series"
               ],
-              "citations": 289
+              "citations": 123
             }
           ]
         },
@@ -4987,7 +4989,7 @@
                 "Forecasting",
                 "Intermittent Demand Forecasting"
               ],
-              "citations": 1876
+              "citations": 705
             },
             {
               "title": "The Accuracy of Intermittent Demand Estimates",
@@ -4999,7 +5001,7 @@
                 "Forecasting",
                 "Intermittent Demand Forecasting"
               ],
-              "citations": 1234
+              "citations": 439
             },
             {
               "title": "Intermittent Demand Forecasting with Context-Aware Learning",
@@ -5023,7 +5025,7 @@
                 "Forecasting",
                 "Intermittent Demand Forecasting"
               ],
-              "citations": 789
+              "citations": 117
             }
           ]
         },
@@ -5042,7 +5044,7 @@
                 "Forecasting",
                 "Time Series Anomaly Detection"
               ],
-              "citations": 1456
+              "citations": 595
             },
             {
               "title": "Time-Series Anomaly Detection Service at Microsoft",
@@ -5054,7 +5056,7 @@
                 "Forecasting",
                 "Time Series Anomaly Detection"
               ],
-              "citations": 892
+              "citations": 528
             },
             {
               "title": "Robust Random Cut Forest Based Anomaly Detection on Streams",
@@ -5066,7 +5068,7 @@
                 "Forecasting",
                 "Time Series Anomaly Detection"
               ],
-              "citations": 678
+              "citations": 174
             },
             {
               "title": "OmniAnomaly: Robust Anomaly Detection for Multivariate Time Series through Stochastic Recurrent Neural Network",
@@ -5078,7 +5080,7 @@
                 "Forecasting",
                 "Time Series Anomaly Detection"
               ],
-              "citations": 1123
+              "citations": 1260
             }
           ]
         },
@@ -5145,7 +5147,7 @@
                 "Forecasting",
                 "Causal Impact & Intervention"
               ],
-              "citations": 2341
+              "citations": 1413
             },
             {
               "title": "What's Trending in Difference-in-Differences? A Synthesis of the Recent Econometrics Literature",
@@ -5157,7 +5159,7 @@
                 "Forecasting",
                 "Causal Impact & Intervention"
               ],
-              "citations": 892
+              "citations": null
             }
           ]
         },
@@ -5176,7 +5178,7 @@
                 "Forecasting",
                 "Production Forecasting Systems"
               ],
-              "citations": 287
+              "citations": 5
             },
             {
               "title": "Forecasting at Scale (Prophet)",
@@ -5188,7 +5190,7 @@
                 "Forecasting",
                 "Production Forecasting Systems"
               ],
-              "citations": 4521
+              "citations": null
             },
             {
               "title": "Demand Forecasting at Alibaba: Practice and Lessons Learned",
@@ -5200,7 +5202,7 @@
                 "Forecasting",
                 "Production Forecasting Systems"
               ],
-              "citations": 156
+              "citations": 14
             },
             {
               "title": "150 Successful Machine Learning Models: 6 Lessons Learned at Booking.com",
@@ -5212,7 +5214,7 @@
                 "Forecasting",
                 "Production Forecasting Systems"
               ],
-              "citations": 567
+              "citations": 90
             },
             {
               "title": "Comparing Predictive Accuracy",
@@ -5224,7 +5226,7 @@
                 "Forecasting",
                 "Production Forecasting Systems"
               ],
-              "citations": 8934
+              "citations": 4423
             }
           ]
         }
@@ -5302,7 +5304,7 @@
                 "Clustering & Segmentation",
                 "Customer Segmentation"
               ],
-              "citations": 3456
+              "citations": 641
             },
             {
               "title": "A Model of Customer Lifetime Value",
@@ -5315,7 +5317,7 @@
                 "Clustering & Segmentation",
                 "Customer Segmentation"
               ],
-              "citations": 2345
+              "citations": 707
             }
           ]
         },
@@ -5374,7 +5376,7 @@
                 "Clustering & Segmentation",
                 "Classical Clustering Algorithms"
               ],
-              "citations": 32456
+              "citations": 19113
             },
             {
               "title": "BIRCH: An Efficient Data Clustering Method for Very Large Databases",
@@ -5387,7 +5389,7 @@
                 "Clustering & Segmentation",
                 "Classical Clustering Algorithms"
               ],
-              "citations": 5678
+              "citations": 1982
             },
             {
               "title": "OPTICS: Ordering Points To Identify the Clustering Structure",
@@ -5400,7 +5402,7 @@
                 "Clustering & Segmentation",
                 "Classical Clustering Algorithms"
               ],
-              "citations": 6789
+              "citations": 3839
             },
             {
               "title": "Mean Shift: A Robust Approach Toward Feature Space Analysis",
@@ -5413,7 +5415,7 @@
                 "Clustering & Segmentation",
                 "Classical Clustering Algorithms"
               ],
-              "citations": 12345
+              "citations": 11224
             },
             {
               "title": "Web-Scale K-Means Clustering",
@@ -5426,7 +5428,7 @@
                 "Clustering & Segmentation",
                 "Classical Clustering Algorithms"
               ],
-              "citations": 2345
+              "citations": 1080
             }
           ]
         },
@@ -5485,7 +5487,7 @@
                 "Clustering & Segmentation",
                 "Model-Based Clustering"
               ],
-              "citations": 52000
+              "citations": 26859
             },
             {
               "title": "Hierarchical Dirichlet Processes",
@@ -5498,7 +5500,7 @@
                 "Clustering & Segmentation",
                 "Model-Based Clustering"
               ],
-              "citations": 5678
+              "citations": 3482
             },
             {
               "title": "Model-Based Clustering, Discriminant Analysis, and Density Estimation",
@@ -5511,7 +5513,7 @@
                 "Clustering & Segmentation",
                 "Model-Based Clustering"
               ],
-              "citations": 8432
+              "citations": 4130
             }
           ]
         },
@@ -5570,7 +5572,7 @@
                 "Clustering & Segmentation",
                 "Embedding-Based Clustering"
               ],
-              "citations": 15678
+              "citations": 7749
             },
             {
               "title": "Unsupervised Learning of Visual Features by Contrasting Cluster Assignments (SwAV)",
@@ -5596,7 +5598,7 @@
                 "Clustering & Segmentation",
                 "Embedding-Based Clustering"
               ],
-              "citations": 987
+              "citations": 147
             },
             {
               "title": "Variational Deep Embedding (VaDE)",
@@ -5609,7 +5611,7 @@
                 "Clustering & Segmentation",
                 "Embedding-Based Clustering"
               ],
-              "citations": 1234
+              "citations": 35
             },
             {
               "title": "Deep Clustering for Unsupervised Learning of Visual Features (DeepCluster)",
@@ -5719,7 +5721,7 @@
                 "Clustering & Segmentation",
                 "Segmentation for Targeting"
               ],
-              "citations": 345
+              "citations": 97
             }
           ]
         },
@@ -5739,7 +5741,7 @@
                 "Clustering & Segmentation",
                 "Music & Audio Clustering"
               ],
-              "citations": 2345
+              "citations": 829
             },
             {
               "title": "Content-Based Music Information Retrieval: Current Directions and Future Challenges",
@@ -5752,7 +5754,7 @@
                 "Clustering & Segmentation",
                 "Music & Audio Clustering"
               ],
-              "citations": 1234
+              "citations": 650
             },
             {
               "title": "WaveNet: A Generative Model for Raw Audio",
@@ -5765,7 +5767,7 @@
                 "Clustering & Segmentation",
                 "Music & Audio Clustering"
               ],
-              "citations": 8765
+              "citations": 3548
             },
             {
               "title": "librosa: Audio and Music Signal Analysis in Python",
@@ -5778,7 +5780,7 @@
                 "Clustering & Segmentation",
                 "Music & Audio Clustering"
               ],
-              "citations": 3456
+              "citations": 2692
             },
             {
               "title": "Automatic Tagging Using Deep Convolutional Neural Networks",
@@ -5791,7 +5793,7 @@
                 "Clustering & Segmentation",
                 "Music & Audio Clustering"
               ],
-              "citations": 987
+              "citations": 221
             },
             {
               "title": "Spotify's Audio Features and Track Analysis",
@@ -5816,7 +5818,7 @@
                 "Clustering & Segmentation",
                 "Music & Audio Clustering"
               ],
-              "citations": 567
+              "citations": 17
             }
           ]
         },
@@ -5836,7 +5838,7 @@
                 "Clustering & Segmentation",
                 "Video & Movie Clustering"
               ],
-              "citations": 4567
+              "citations": 3182
             },
             {
               "title": "The Netflix Recommender System: Algorithms, Business Value, and Innovation",
@@ -5849,7 +5851,7 @@
                 "Clustering & Segmentation",
                 "Video & Movie Clustering"
               ],
-              "citations": 2345
+              "citations": 1243
             },
             {
               "title": "YouTube-8M: A Large-Scale Video Classification Benchmark",
@@ -5862,7 +5864,7 @@
                 "Clustering & Segmentation",
                 "Video & Movie Clustering"
               ],
-              "citations": 1876
+              "citations": 918
             },
             {
               "title": "Embarrassingly Shallow Autoencoders for Sparse Data (EASE)",
@@ -5888,7 +5890,7 @@
                 "Clustering & Segmentation",
                 "Video & Movie Clustering"
               ],
-              "citations": 12345
+              "citations": 11142
             },
             {
               "title": "Variational Autoencoders for Collaborative Filtering",
@@ -5901,7 +5903,7 @@
                 "Clustering & Segmentation",
                 "Video & Movie Clustering"
               ],
-              "citations": 876
+              "citations": 1229
             }
           ]
         },
@@ -5921,7 +5923,7 @@
                 "Clustering & Segmentation",
                 "Game & UGC Clustering"
               ],
-              "citations": 987
+              "citations": 103
             },
             {
               "title": "Predicting Player Churn in Video Games Using Survival Analysis and Clustering",
@@ -5947,7 +5949,7 @@
                 "Clustering & Segmentation",
                 "Game & UGC Clustering"
               ],
-              "citations": 1567
+              "citations": 28
             },
             {
               "title": "Deep Learning for Video Game Content Generation",
@@ -5960,7 +5962,7 @@
                 "Clustering & Segmentation",
                 "Game & UGC Clustering"
               ],
-              "citations": 345
+              "citations": 21
             },
             {
               "title": "Game Data Mining",
@@ -5973,7 +5975,7 @@
                 "Clustering & Segmentation",
                 "Game & UGC Clustering"
               ],
-              "citations": 456
+              "citations": 65
             }
           ]
         },
@@ -5993,7 +5995,7 @@
                 "Clustering & Segmentation",
                 "Text & Document Clustering"
               ],
-              "citations": 876
+              "citations": 537
             },
             {
               "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
@@ -6006,7 +6008,7 @@
                 "Clustering & Segmentation",
                 "Text & Document Clustering"
               ],
-              "citations": 4567
+              "citations": 9199
             },
             {
               "title": "Self-Training with Contrastive Clustering for Short Text Clustering (STC2)",
@@ -6032,7 +6034,7 @@
                 "Clustering & Segmentation",
                 "Text & Document Clustering"
               ],
-              "citations": 2345
+              "citations": 554
             }
           ]
         },
@@ -6052,7 +6054,7 @@
                 "Clustering & Segmentation",
                 "Visual Content Clustering"
               ],
-              "citations": 234
+              "citations": 34
             },
             {
               "title": "Deep Residual Learning for Image Recognition (ResNet)",
@@ -6078,7 +6080,7 @@
                 "Clustering & Segmentation",
                 "Visual Content Clustering"
               ],
-              "citations": 12345
+              "citations": 5296
             },
             {
               "title": "Pinterest Visual Search: The Evolution and Beyond",
@@ -6675,7 +6677,7 @@
                 "Pricing",
                 "RL for Pricing"
               ],
-              "citations": 478
+              "citations": 489
             },
             {
               "title": "Thompson Sampling for Contextual Bandits with Linear Payoffs",
@@ -6871,7 +6873,8 @@
               "tags": [
                 "Subscriptions & Retention",
                 "Engagement & Habit Formation"
-              ]
+              ],
+              "citations": 2115
             },
             {
               "title": "Does Gamification Work? \u2014 A Literature Review of Empirical Studies on Gamification",
@@ -6882,7 +6885,8 @@
               "tags": [
                 "Subscriptions & Retention",
                 "Engagement & Habit Formation"
-              ]
+              ],
+              "citations": 4493
             },
             {
               "title": "Measuring the Impact of Crowdsourcing Features on Mobile App User Engagement and Retention: A Randomized Field Experiment",
@@ -6893,7 +6897,8 @@
               "tags": [
                 "Subscriptions & Retention",
                 "Engagement & Habit Formation"
-              ]
+              ],
+              "citations": 45
             },
             {
               "title": "Digital Interventions and Habit Formation in Educational Technology",
@@ -6904,7 +6909,8 @@
               "tags": [
                 "Subscriptions & Retention",
                 "Engagement & Habit Formation"
-              ]
+              ],
+              "citations": 4
             },
             {
               "title": "Empirical Support for a Causal Relationship Between Gamification and Learning Outcomes",
@@ -6915,7 +6921,8 @@
               "tags": [
                 "Subscriptions & Retention",
                 "Engagement & Habit Formation"
-              ]
+              ],
+              "citations": 118
             }
           ]
         },
@@ -6933,7 +6940,8 @@
               "tags": [
                 "Subscriptions & Retention",
                 "Survival Analysis for Subscriptions"
-              ]
+              ],
+              "citations": 410
             },
             {
               "title": "How to Project Customer Retention",
@@ -6944,7 +6952,8 @@
               "tags": [
                 "Subscriptions & Retention",
                 "Survival Analysis for Subscriptions"
-              ]
+              ],
+              "citations": 112
             },
             {
               "title": "A Competing Risks Model Based on Latent Dirichlet Allocation for Predicting Churn Reasons",
@@ -6955,7 +6964,8 @@
               "tags": [
                 "Subscriptions & Retention",
                 "Survival Analysis for Subscriptions"
-              ]
+              ],
+              "citations": 37
             },
             {
               "title": "Random Survival Forests with Competing Risks Framework",
@@ -6966,7 +6976,8 @@
               "tags": [
                 "Subscriptions & Retention",
                 "Survival Analysis for Subscriptions"
-              ]
+              ],
+              "citations": 14
             }
           ]
         },
@@ -6984,7 +6995,8 @@
               "tags": [
                 "Subscriptions & Retention",
                 "Customer Base Analysis & Cohort Methods"
-              ]
+              ],
+              "citations": 247
             },
             {
               "title": "Return on Marketing: Using Customer Equity to Focus Marketing Strategy",
@@ -6995,7 +7007,8 @@
               "tags": [
                 "Subscriptions & Retention",
                 "Customer Base Analysis & Cohort Methods"
-              ]
+              ],
+              "citations": 2082
             },
             {
               "title": "Valuing Customers",
@@ -7006,7 +7019,8 @@
               "tags": [
                 "Subscriptions & Retention",
                 "Customer Base Analysis & Cohort Methods"
-              ]
+              ],
+              "citations": 792
             }
           ]
         },
@@ -7024,7 +7038,8 @@
               "tags": [
                 "Subscriptions & Retention",
                 "Network Effects on Retention"
-              ]
+              ],
+              "citations": 287
             },
             {
               "title": "Social Interactions in Customer Churn Decisions: The Impact of Relationship Directionality",
@@ -7035,7 +7050,8 @@
               "tags": [
                 "Subscriptions & Retention",
                 "Network Effects on Retention"
-              ]
+              ],
+              "citations": 8
             },
             {
               "title": "Exploring Peer Effects Associated with User Retention in a Socially Connected Business",
@@ -7046,7 +7062,8 @@
               "tags": [
                 "Subscriptions & Retention",
                 "Network Effects on Retention"
-              ]
+              ],
+              "citations": 0
             },
             {
               "title": "In Pursuit of Enhanced Customer Retention Management: Review, Key Issues, and Future Directions",
@@ -7057,7 +7074,8 @@
               "tags": [
                 "Subscriptions & Retention",
                 "Network Effects on Retention"
-              ]
+              ],
+              "citations": 162
             }
           ]
         }
@@ -7119,7 +7137,8 @@
               "tags": [
                 "Advertising",
                 "Ad Auctions (GSP, VCG)"
-              ]
+              ],
+              "citations": 7222
             },
             {
               "title": "Optimal Auction Design",
@@ -7130,7 +7149,8 @@
               "tags": [
                 "Advertising",
                 "Ad Auctions (GSP, VCG)"
-              ]
+              ],
+              "citations": 5977
             }
           ]
         },
@@ -7183,7 +7203,8 @@
               "tags": [
                 "Advertising",
                 "Autobidding & Budget Pacing"
-              ]
+              ],
+              "citations": 27
             },
             {
               "title": "Multiplicative Pacing Equilibria in Auction Markets",
@@ -7194,7 +7215,8 @@
               "tags": [
                 "Advertising",
                 "Autobidding & Budget Pacing"
-              ]
+              ],
+              "citations": 21
             },
             {
               "title": "Pacing Equilibrium in First Price Auction Markets",
@@ -7205,7 +7227,8 @@
               "tags": [
                 "Advertising",
                 "Autobidding & Budget Pacing"
-              ]
+              ],
+              "citations": 51
             }
           ]
         },
@@ -7259,7 +7282,8 @@
               "tags": [
                 "Advertising",
                 "Attribution & Incrementality"
-              ]
+              ],
+              "citations": 20
             },
             {
               "title": "The Unfavorable Economics of Measuring the Returns to Advertising",
@@ -7270,7 +7294,8 @@
               "tags": [
                 "Advertising",
                 "Attribution & Incrementality"
-              ]
+              ],
+              "citations": 281
             },
             {
               "title": "A Comparison of Approaches to Advertising Measurement: Evidence from Big Field Experiments at Facebook",
@@ -7281,7 +7306,8 @@
               "tags": [
                 "Advertising",
                 "Attribution & Incrementality"
-              ]
+              ],
+              "citations": 249
             },
             {
               "title": "TV Advertising Effectiveness and Profitability: Generalizable Results from 288 Brands",
@@ -7292,7 +7318,8 @@
               "tags": [
                 "Advertising",
                 "Attribution & Incrementality"
-              ]
+              ],
+              "citations": 135
             }
           ]
         },
@@ -7334,7 +7361,8 @@
               "tags": [
                 "Advertising",
                 "Targeting & Lookalikes"
-              ]
+              ],
+              "citations": 109
             },
             {
               "title": "Targeting and Privacy in Mobile Advertising",
@@ -7345,7 +7373,8 @@
               "tags": [
                 "Advertising",
                 "Targeting & Lookalikes"
-              ]
+              ],
+              "citations": 187
             },
             {
               "title": "Personalization in Email Marketing: The Role of Noninformative Advertising Content",
@@ -7356,7 +7385,8 @@
               "tags": [
                 "Advertising",
                 "Targeting & Lookalikes"
-              ]
+              ],
+              "citations": 0
             }
           ]
         },
@@ -7409,7 +7439,8 @@
               "tags": [
                 "Advertising",
                 "Brand vs. Performance"
-              ]
+              ],
+              "citations": 452
             },
             {
               "title": "How TV Advertising Works: A Meta-Analysis of 389 Real World Split Cable TV Advertising Experiments",
@@ -7420,7 +7451,8 @@
               "tags": [
                 "Advertising",
                 "Brand vs. Performance"
-              ]
+              ],
+              "citations": 10
             }
           ]
         },
@@ -7438,7 +7470,8 @@
               "tags": [
                 "Advertising",
                 "Privacy & Ad Effectiveness"
-              ]
+              ],
+              "citations": 3
             },
             {
               "title": "The Effect of Privacy Regulation on the Data Industry: Empirical Evidence from GDPR",
@@ -7449,7 +7482,8 @@
               "tags": [
                 "Advertising",
                 "Privacy & Ad Effectiveness"
-              ]
+              ],
+              "citations": 119
             },
             {
               "title": "Privacy and Market Concentration: Intended and Unintended Consequences of the GDPR",
@@ -7460,7 +7494,8 @@
               "tags": [
                 "Advertising",
                 "Privacy & Ad Effectiveness"
-              ]
+              ],
+              "citations": 133
             },
             {
               "title": "The Economic Consequences of Apple's App Tracking Transparency",
@@ -7482,7 +7517,8 @@
               "tags": [
                 "Advertising",
                 "Privacy & Ad Effectiveness"
-              ]
+              ],
+              "citations": 14
             }
           ]
         },
@@ -7500,7 +7536,8 @@
               "tags": [
                 "Advertising",
                 "Real-Time Bidding & Programmatic"
-              ]
+              ],
+              "citations": 164
             },
             {
               "title": "Repeated Auctions with Budgets in Ad Exchanges: Approximations and Design",
@@ -7511,7 +7548,8 @@
               "tags": [
                 "Advertising",
                 "Real-Time Bidding & Programmatic"
-              ]
+              ],
+              "citations": 18
             },
             {
               "title": "Real-Time Bidding in Online Display Advertising",
@@ -7522,7 +7560,8 @@
               "tags": [
                 "Advertising",
                 "Real-Time Bidding & Programmatic"
-              ]
+              ],
+              "citations": 91
             },
             {
               "title": "First-Price Auctions in Online Display Advertising",
@@ -7533,7 +7572,8 @@
               "tags": [
                 "Advertising",
                 "Real-Time Bidding & Programmatic"
-              ]
+              ],
+              "citations": 36
             }
           ]
         },
@@ -7551,7 +7591,8 @@
               "tags": [
                 "Advertising",
                 "Attention & Viewability"
-              ]
+              ],
+              "citations": 626
             },
             {
               "title": "How Viewer Tuning, Presence, and Attention Respond to Ad Content and Predict Brand Search Lift",
@@ -7562,7 +7603,8 @@
               "tags": [
                 "Advertising",
                 "Attention & Viewability"
-              ]
+              ],
+              "citations": 35
             },
             {
               "title": "Television Advertising and Online Word-of-Mouth: An Empirical Investigation of Social TV Activity",
@@ -7573,7 +7615,8 @@
               "tags": [
                 "Advertising",
                 "Attention & Viewability"
-              ]
+              ],
+              "citations": 85
             },
             {
               "title": "Sponsorship Disclosure and Consumer Deception: Experimental Evidence from Native Advertising",
@@ -7584,7 +7627,8 @@
               "tags": [
                 "Advertising",
                 "Attention & Viewability"
-              ]
+              ],
+              "citations": 62
             }
           ]
         }
@@ -7646,7 +7690,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Acquisition & Referrals"
-              ]
+              ],
+              "citations": 285
             },
             {
               "title": "Seeding Strategies for Viral Marketing: An Empirical Comparison",
@@ -7657,7 +7702,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Acquisition & Referrals"
-              ]
+              ],
+              "citations": 652
             },
             {
               "title": "Creating Social Contagion Through Viral Product Design: A Randomized Trial of Peer Influence in Networks",
@@ -7668,7 +7714,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Acquisition & Referrals"
-              ]
+              ],
+              "citations": 625
             }
           ]
         },
@@ -7734,7 +7781,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Network Effects & Viral Growth"
-              ]
+              ],
+              "citations": 215
             },
             {
               "title": "Competition in Two-Sided Markets",
@@ -7745,7 +7793,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Network Effects & Viral Growth"
-              ]
+              ],
+              "citations": 79
             },
             {
               "title": "Chicken and Egg: Competition Among Intermediation Service Providers",
@@ -7756,7 +7805,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Network Effects & Viral Growth"
-              ]
+              ],
+              "citations": 303
             }
           ]
         },
@@ -7810,7 +7860,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Promotions & Discounts"
-              ]
+              ],
+              "citations": 778
             },
             {
               "title": "A Price Discrimination Theory of Coupons",
@@ -7821,7 +7872,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Promotions & Discounts"
-              ]
+              ],
+              "citations": 493
             }
           ]
         },
@@ -7885,7 +7937,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Marketing Mix Modeling"
-              ]
+              ],
+              "citations": 458
             },
             {
               "title": "How Budget Allocation Relates to Productivity in Marketing Spending: An International Comparison",
@@ -7896,7 +7949,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Marketing Mix Modeling"
-              ]
+              ],
+              "citations": 11
             },
             {
               "title": "Effect of Sales Promotion on Purchasing Behavior on Promotional and Non-Promotional Days",
@@ -7907,7 +7961,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Marketing Mix Modeling"
-              ]
+              ],
+              "citations": 443
             }
           ]
         },
@@ -7972,7 +8027,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Uplift Modeling"
-              ]
+              ],
+              "citations": 858
             },
             {
               "title": "Double/Debiased Machine Learning for Treatment and Structural Parameters",
@@ -7983,7 +8039,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Uplift Modeling"
-              ]
+              ],
+              "citations": 1894
             },
             {
               "title": "Towards Optimal Doubly Robust Estimation of Heterogeneous Causal Effects",
@@ -7994,7 +8051,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Uplift Modeling"
-              ]
+              ],
+              "citations": 110
             }
           ]
         },
@@ -8012,7 +8070,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Customer Journey & Funnel Analytics"
-              ]
+              ],
+              "citations": 62
             },
             {
               "title": "Understanding Customer Experience Throughout the Customer Journey",
@@ -8023,7 +8082,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Customer Journey & Funnel Analytics"
-              ]
+              ],
+              "citations": 4598
             },
             {
               "title": "Challenges and Opportunities in Multichannel Customer Management",
@@ -8034,7 +8094,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Customer Journey & Funnel Analytics"
-              ]
+              ],
+              "citations": 1098
             },
             {
               "title": "Mapping the Customer Journey: Lessons Learned from Graph-Based Online Attribution Modeling",
@@ -8045,7 +8106,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Customer Journey & Funnel Analytics"
-              ]
+              ],
+              "citations": 153
             }
           ]
         },
@@ -8063,7 +8125,8 @@
               "tags": [
                 "Marketing & Growth",
                 "A/B Testing & Experimentation"
-              ]
+              ],
+              "citations": 223
             },
             {
               "title": "Graph Cluster Randomization: Network Exposure to Multiple Universes",
@@ -8074,7 +8137,8 @@
               "tags": [
                 "Marketing & Growth",
                 "A/B Testing & Experimentation"
-              ]
+              ],
+              "citations": 182
             },
             {
               "title": "An Empirical Evaluation of Thompson Sampling",
@@ -8085,7 +8149,8 @@
               "tags": [
                 "Marketing & Growth",
                 "A/B Testing & Experimentation"
-              ]
+              ],
+              "citations": 998
             },
             {
               "title": "Always Valid Inference: Continuous Monitoring of A/B Tests",
@@ -8096,7 +8161,8 @@
               "tags": [
                 "Marketing & Growth",
                 "A/B Testing & Experimentation"
-              ]
+              ],
+              "citations": 45
             },
             {
               "title": "Inferring Causal Impact Using Bayesian Structural Time-Series Models",
@@ -8107,7 +8173,8 @@
               "tags": [
                 "Marketing & Growth",
                 "A/B Testing & Experimentation"
-              ]
+              ],
+              "citations": 899
             }
           ]
         },
@@ -8125,7 +8192,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Loyalty Programs & CRM"
-              ]
+              ],
+              "citations": 233
             },
             {
               "title": "The Mismanagement of Customer Loyalty",
@@ -8136,7 +8204,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Loyalty Programs & CRM"
-              ]
+              ],
+              "citations": 739
             },
             {
               "title": "Do Loyalty Programs Really Enhance Behavioral Loyalty? An Empirical Analysis Accounting for Self-Selecting Members",
@@ -8147,7 +8216,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Loyalty Programs & CRM"
-              ]
+              ],
+              "citations": 43
             },
             {
               "title": "Long-Term Impact of Loyalty Programs on Consumer Purchase Behavior and Loyalty",
@@ -8158,7 +8228,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Loyalty Programs & CRM"
-              ]
+              ],
+              "citations": 295
             }
           ]
         },
@@ -8176,7 +8247,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Content & Social Media Marketing"
-              ]
+              ],
+              "citations": 5758
             },
             {
               "title": "What Makes Online Content Viral?",
@@ -8187,7 +8259,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Content & Social Media Marketing"
-              ]
+              ],
+              "citations": 2843
             },
             {
               "title": "Using Online Conversations to Study Word-of-Mouth Communication",
@@ -8198,7 +8271,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Content & Social Media Marketing"
-              ]
+              ],
+              "citations": 2562
             },
             {
               "title": "Influencer Marketing Effectiveness",
@@ -8209,7 +8283,8 @@
               "tags": [
                 "Marketing & Growth",
                 "Content & Social Media Marketing"
-              ]
+              ],
+              "citations": 336
             }
           ]
         }
@@ -8284,7 +8359,7 @@
                 "Matching & Marketplaces",
                 "Two-Sided Markets"
               ],
-              "citations": 800
+              "citations": 59
             },
             {
               "title": "Pricing and Commitment by Two-Sided Platforms",
@@ -8296,7 +8371,7 @@
                 "Matching & Marketplaces",
                 "Two-Sided Markets"
               ],
-              "citations": 400
+              "citations": 2
             },
             {
               "title": "Platform Envelopment",
@@ -8308,7 +8383,7 @@
                 "Matching & Marketplaces",
                 "Two-Sided Markets"
               ],
-              "citations": 600
+              "citations": 698
             }
           ]
         },
@@ -8374,7 +8449,7 @@
                 "Matching & Marketplaces",
                 "Search & Matching Frictions"
               ],
-              "citations": 400
+              "citations": 287
             },
             {
               "title": "Landing the First Job: The Value of Intermediaries in Online Hiring",
@@ -8386,7 +8461,7 @@
                 "Matching & Marketplaces",
                 "Search & Matching Frictions"
               ],
-              "citations": 300
+              "citations": 161
             },
             {
               "title": "Monopsony in Online Labor Markets",
@@ -8398,7 +8473,7 @@
                 "Matching & Marketplaces",
                 "Search & Matching Frictions"
               ],
-              "citations": 200
+              "citations": 204
             },
             {
               "title": "Who Benefits from Online Gig Economy Platforms?",
@@ -8410,7 +8485,7 @@
                 "Matching & Marketplaces",
                 "Search & Matching Frictions"
               ],
-              "citations": 50
+              "citations": 1
             }
           ]
         },
@@ -8477,7 +8552,7 @@
                 "Matching & Marketplaces",
                 "Matching Algorithms"
               ],
-              "citations": 150
+              "citations": 19
             },
             {
               "title": "Pricing in Ride-Sharing Platforms: A Queueing-Theoretic Approach",
@@ -8489,7 +8564,7 @@
                 "Matching & Marketplaces",
                 "Matching Algorithms"
               ],
-              "citations": 240
+              "citations": 192
             }
           ]
         },
@@ -8556,7 +8631,7 @@
                 "Matching & Marketplaces",
                 "Reputation & Reviews"
               ],
-              "citations": 300
+              "citations": 219
             },
             {
               "title": "Promotional Reviews: An Empirical Investigation of Online Review Manipulation",
@@ -8568,7 +8643,7 @@
                 "Matching & Marketplaces",
                 "Reputation & Reviews"
               ],
-              "citations": 600
+              "citations": 855
             },
             {
               "title": "Asymmetric Information, Adverse Selection and Online Disclosure: The Case of eBay Motors",
@@ -8580,7 +8655,7 @@
                 "Matching & Marketplaces",
                 "Reputation & Reviews"
               ],
-              "citations": 400
+              "citations": 272
             }
           ]
         },
@@ -8635,7 +8710,7 @@
                 "Matching & Marketplaces",
                 "Congestion & Rationing"
               ],
-              "citations": 150
+              "citations": 41
             },
             {
               "title": "Design of Lotteries and Wait-Lists for Affordable Housing Allocation",
@@ -8647,7 +8722,7 @@
                 "Matching & Marketplaces",
                 "Congestion & Rationing"
               ],
-              "citations": 100
+              "citations": 64
             }
           ]
         },
@@ -8666,7 +8741,7 @@
                 "Matching & Marketplaces",
                 "Gig Economy & Platform Labor"
               ],
-              "citations": 800
+              "citations": 648
             },
             {
               "title": "The Value of Flexible Work: Evidence from Uber Drivers",
@@ -8678,7 +8753,7 @@
                 "Matching & Marketplaces",
                 "Gig Economy & Platform Labor"
               ],
-              "citations": 500
+              "citations": 352
             },
             {
               "title": "Uber versus Taxi: A Driver's Eye View",
@@ -8690,7 +8765,7 @@
                 "Matching & Marketplaces",
                 "Gig Economy & Platform Labor"
               ],
-              "citations": 200
+              "citations": 69
             },
             {
               "title": "The Gender Earnings Gap in the Gig Economy: Evidence from over a Million Rideshare Drivers",
@@ -8702,7 +8777,7 @@
                 "Matching & Marketplaces",
                 "Gig Economy & Platform Labor"
               ],
-              "citations": 300
+              "citations": 258
             },
             {
               "title": "Valuing Alternative Work Arrangements",
@@ -8714,7 +8789,7 @@
                 "Matching & Marketplaces",
                 "Gig Economy & Platform Labor"
               ],
-              "citations": 600
+              "citations": 739
             },
             {
               "title": "The Rise and Nature of Alternative Work Arrangements in the United States, 1995-2015",
@@ -8726,7 +8801,7 @@
                 "Matching & Marketplaces",
                 "Gig Economy & Platform Labor"
               ],
-              "citations": 700
+              "citations": 536
             }
           ]
         },
@@ -8745,7 +8820,7 @@
                 "Matching & Marketplaces",
                 "Dynamic Pricing in Marketplaces"
               ],
-              "citations": 400
+              "citations": 695
             },
             {
               "title": "Artificial Intelligence, Algorithmic Pricing, and Collusion",
@@ -8757,7 +8832,7 @@
                 "Matching & Marketplaces",
                 "Dynamic Pricing in Marketplaces"
               ],
-              "citations": 1000
+              "citations": 483
             },
             {
               "title": "Algorithmic Pricing and Competition: Empirical Evidence from the German Retail Gasoline Market",
@@ -8769,7 +8844,7 @@
                 "Matching & Marketplaces",
                 "Dynamic Pricing in Marketplaces"
               ],
-              "citations": 150
+              "citations": 142
             }
           ]
         },
@@ -8788,7 +8863,7 @@
                 "Matching & Marketplaces",
                 "Marketplace Design & Experimentation"
               ],
-              "citations": 300
+              "citations": 74
             },
             {
               "title": "The Econometrics of Randomized Experiments",
@@ -8800,7 +8875,7 @@
                 "Matching & Marketplaces",
                 "Marketplace Design & Experimentation"
               ],
-              "citations": 800
+              "citations": 548
             },
             {
               "title": "Interference, Bias, and Variance in Two-Sided Marketplace Experimentation: Guidance for Platforms",
@@ -8812,7 +8887,7 @@
                 "Matching & Marketplaces",
                 "Marketplace Design & Experimentation"
               ],
-              "citations": 100
+              "citations": 22
             },
             {
               "title": "Reducing Interference Bias in Online Marketplace Experiments Using Cluster Randomization",
@@ -8824,7 +8899,7 @@
                 "Matching & Marketplaces",
                 "Marketplace Design & Experimentation"
               ],
-              "citations": 50
+              "citations": 31
             },
             {
               "title": "Search, Matching, and the Role of Digital Marketplace Design in Enabling Trade: Evidence from Airbnb",
@@ -8836,7 +8911,7 @@
                 "Matching & Marketplaces",
                 "Marketplace Design & Experimentation"
               ],
-              "citations": 200
+              "citations": 86
             }
           ]
         },
@@ -8855,7 +8930,7 @@
                 "Matching & Marketplaces",
                 "Platform Competition & Strategy"
               ],
-              "citations": 500
+              "citations": 184
             },
             {
               "title": "Competing with Complementors: An Empirical Look at Amazon.com",
@@ -8867,7 +8942,7 @@
                 "Matching & Marketplaces",
                 "Platform Competition & Strategy"
               ],
-              "citations": 400
+              "citations": 473
             },
             {
               "title": "The Rise of the Sharing Economy: Estimating the Impact of Airbnb on the Hotel Industry",
@@ -8879,7 +8954,7 @@
                 "Matching & Marketplaces",
                 "Platform Competition & Strategy"
               ],
-              "citations": 800
+              "citations": 2049
             },
             {
               "title": "Trust and Disintermediation: Evidence from an Online Freelance Marketplace",
@@ -8891,7 +8966,7 @@
                 "Matching & Marketplaces",
                 "Platform Competition & Strategy"
               ],
-              "citations": 150
+              "citations": 115
             },
             {
               "title": "Technology and Disintermediation in Online Marketplaces",
@@ -8903,7 +8978,7 @@
                 "Matching & Marketplaces",
                 "Platform Competition & Strategy"
               ],
-              "citations": 30
+              "citations": 3
             }
           ]
         },
@@ -8922,7 +8997,7 @@
                 "Matching & Marketplaces",
                 "Information Design in Marketplaces"
               ],
-              "citations": 300
+              "citations": 209
             },
             {
               "title": "The Welfare Effects of Peer Entry: The Case of Airbnb and the Accommodation Industry",
@@ -8934,7 +9009,7 @@
                 "Matching & Marketplaces",
                 "Information Design in Marketplaces"
               ],
-              "citations": 400
+              "citations": 81
             },
             {
               "title": "Peer-to-Peer Markets",
@@ -8946,7 +9021,7 @@
                 "Matching & Marketplaces",
                 "Information Design in Marketplaces"
               ],
-              "citations": 500
+              "citations": 499
             }
           ]
         }
@@ -9021,7 +9096,7 @@
                 "Mechanism Design & Auctions",
                 "Auction Theory Foundations"
               ],
-              "citations": 2100
+              "citations": 823
             },
             {
               "title": "A Theory of Auctions and Competitive Bidding, II",
@@ -9033,7 +9108,7 @@
                 "Mechanism Design & Auctions",
                 "Auction Theory Foundations"
               ],
-              "citations": 850
+              "citations": 163
             }
           ]
         },
@@ -9100,7 +9175,7 @@
                 "Mechanism Design & Auctions",
                 "Multi-unit & Combinatorial Auctions"
               ],
-              "citations": 1850
+              "citations": 742
             },
             {
               "title": "Core-Selecting Package Auctions",
@@ -9112,7 +9187,7 @@
                 "Mechanism Design & Auctions",
                 "Multi-unit & Combinatorial Auctions"
               ],
-              "citations": 620
+              "citations": 278
             },
             {
               "title": "Clock Auctions and Radio Spectrum Reallocation",
@@ -9124,7 +9199,7 @@
                 "Mechanism Design & Auctions",
                 "Multi-unit & Combinatorial Auctions"
               ],
-              "citations": 180
+              "citations": 83
             }
           ]
         },
@@ -9190,7 +9265,7 @@
                 "Mechanism Design & Auctions",
                 "Dynamic Auctions & Repeated Games"
               ],
-              "citations": 180
+              "citations": 51
             },
             {
               "title": "Multiplicative Pacing Equilibria in Auction Markets",
@@ -9202,7 +9277,7 @@
                 "Mechanism Design & Auctions",
                 "Dynamic Auctions & Repeated Games"
               ],
-              "citations": 150
+              "citations": 21
             },
             {
               "title": "The Landscape of Auto-Bidding Auctions: Value Versus Utility Maximization",
@@ -9214,7 +9289,7 @@
                 "Mechanism Design & Auctions",
                 "Dynamic Auctions & Repeated Games"
               ],
-              "citations": 120
+              "citations": 1
             },
             {
               "title": "Optimal Mechanisms for Value Maximizers with Budget Constraints via Target Clipping",
@@ -9226,7 +9301,7 @@
                 "Mechanism Design & Auctions",
                 "Dynamic Auctions & Repeated Games"
               ],
-              "citations": 45
+              "citations": 3
             },
             {
               "title": "A Field Guide to Personalized Reserve Prices",
@@ -9238,7 +9313,7 @@
                 "Mechanism Design & Auctions",
                 "Dynamic Auctions & Repeated Games"
               ],
-              "citations": 290
+              "citations": 376
             }
           ]
         },
@@ -9305,7 +9380,7 @@
                 "Mechanism Design & Auctions",
                 "Market Design"
               ],
-              "citations": 380
+              "citations": 135
             },
             {
               "title": "Commitment on Volunteer Crowdsourcing Platforms: Implications for Growth and Engagement",
@@ -9317,7 +9392,7 @@
                 "Mechanism Design & Auctions",
                 "Market Design"
               ],
-              "citations": 25
+              "citations": 6
             },
             {
               "title": "Course Allocation by Proxy Auction",
@@ -9329,7 +9404,7 @@
                 "Mechanism Design & Auctions",
                 "Market Design"
               ],
-              "citations": 85
+              "citations": 12
             }
           ]
         },
@@ -9396,7 +9471,7 @@
                 "Mechanism Design & Auctions",
                 "Information Design & Signaling"
               ],
-              "citations": 320
+              "citations": 119
             },
             {
               "title": "Optimal Information Disclosure in Classic Auctions",
@@ -9408,7 +9483,7 @@
                 "Mechanism Design & Auctions",
                 "Information Design & Signaling"
               ],
-              "citations": 45
+              "citations": 23
             }
           ]
         },
@@ -9427,7 +9502,7 @@
                 "Mechanism Design & Auctions",
                 "Sponsored Search & Display Ad Auctions"
               ],
-              "citations": 4800
+              "citations": 1598
             },
             {
               "title": "Position Auctions",
@@ -9439,7 +9514,7 @@
                 "Mechanism Design & Auctions",
                 "Sponsored Search & Display Ad Auctions"
               ],
-              "citations": 2100
+              "citations": 745
             },
             {
               "title": "Sponsored Search Auctions",
@@ -9451,7 +9526,7 @@
                 "Mechanism Design & Auctions",
                 "Sponsored Search & Display Ad Auctions"
               ],
-              "citations": 850
+              "citations": 163
             },
             {
               "title": "Reserve Prices in Internet Advertising Auctions: A Field Experiment",
@@ -9463,7 +9538,7 @@
                 "Mechanism Design & Auctions",
                 "Sponsored Search & Display Ad Auctions"
               ],
-              "citations": 95
+              "citations": 34
             },
             {
               "title": "Optimal Real-Time Bidding for Display Advertising",
@@ -9475,7 +9550,7 @@
                 "Mechanism Design & Auctions",
                 "Sponsored Search & Display Ad Auctions"
               ],
-              "citations": 680
+              "citations": 296
             },
             {
               "title": "Reserve Price Optimization for First Price Auctions in Display Advertising",
@@ -9487,7 +9562,7 @@
                 "Mechanism Design & Auctions",
                 "Sponsored Search & Display Ad Auctions"
               ],
-              "citations": 75
+              "citations": 6
             }
           ]
         },
@@ -9506,7 +9581,7 @@
                 "Mechanism Design & Auctions",
                 "Algorithmic Game Theory & Computational Mechanism Design"
               ],
-              "citations": 2400
+              "citations": 1337
             },
             {
               "title": "Simple versus Optimal Mechanisms",
@@ -9518,7 +9593,7 @@
                 "Mechanism Design & Auctions",
                 "Algorithmic Game Theory & Computational Mechanism Design"
               ],
-              "citations": 520
+              "citations": 322
             },
             {
               "title": "Multi-Parameter Mechanism Design and Sequential Posted Pricing",
@@ -9530,7 +9605,7 @@
                 "Mechanism Design & Auctions",
                 "Algorithmic Game Theory & Computational Mechanism Design"
               ],
-              "citations": 480
+              "citations": 399
             },
             {
               "title": "Optimal Multi-Dimensional Mechanism Design: Reducing Revenue to Welfare Maximization",
@@ -9542,7 +9617,7 @@
                 "Mechanism Design & Auctions",
                 "Algorithmic Game Theory & Computational Mechanism Design"
               ],
-              "citations": 350
+              "citations": 137
             },
             {
               "title": "Matroid Prophet Inequalities",
@@ -9554,7 +9629,7 @@
                 "Mechanism Design & Auctions",
                 "Algorithmic Game Theory & Computational Mechanism Design"
               ],
-              "citations": 420
+              "citations": 45
             }
           ]
         },
@@ -9573,7 +9648,7 @@
                 "Mechanism Design & Auctions",
                 "Platform Mechanism Design"
               ],
-              "citations": 1450
+              "citations": 59
             },
             {
               "title": "Two-Sided Platforms: Product Variety and Pricing Structures",
@@ -9585,7 +9660,7 @@
                 "Mechanism Design & Auctions",
                 "Platform Mechanism Design"
               ],
-              "citations": 620
+              "citations": 43
             },
             {
               "title": "Multi-Sided Platforms",
@@ -9597,7 +9672,7 @@
                 "Mechanism Design & Auctions",
                 "Platform Mechanism Design"
               ],
-              "citations": 890
+              "citations": 813
             },
             {
               "title": "Online Labor Markets",
@@ -9609,7 +9684,7 @@
                 "Mechanism Design & Auctions",
                 "Platform Mechanism Design"
               ],
-              "citations": 380
+              "citations": 3
             },
             {
               "title": "Equilibrium Effects of Pay Transparency",
@@ -9621,7 +9696,7 @@
                 "Mechanism Design & Auctions",
                 "Platform Mechanism Design"
               ],
-              "citations": 180
+              "citations": 0
             }
           ]
         },
@@ -9640,7 +9715,7 @@
                 "Mechanism Design & Auctions",
                 "Privacy-Preserving & Differential Privacy Mechanisms"
               ],
-              "citations": 2100
+              "citations": 1302
             },
             {
               "title": "Selling Privacy at Auction",
@@ -9652,7 +9727,7 @@
                 "Mechanism Design & Auctions",
                 "Privacy-Preserving & Differential Privacy Mechanisms"
               ],
-              "citations": 520
+              "citations": 9
             },
             {
               "title": "Privacy and Mechanism Design",
@@ -9664,7 +9739,7 @@
                 "Mechanism Design & Auctions",
                 "Privacy-Preserving & Differential Privacy Mechanisms"
               ],
-              "citations": 180
+              "citations": 81
             }
           ]
         },
@@ -9683,7 +9758,7 @@
                 "Mechanism Design & Auctions",
                 "Cloud & Computing Resource Auctions"
               ],
-              "citations": 420
+              "citations": 10
             },
             {
               "title": "Cloud Pricing: The Spot Market Strikes Back",
@@ -9695,7 +9770,7 @@
                 "Mechanism Design & Auctions",
                 "Cloud & Computing Resource Auctions"
               ],
-              "citations": 85
+              "citations": 32
             },
             {
               "title": "An Online Auction Framework for Dynamic Resource Provisioning in Cloud Computing",
@@ -9707,7 +9782,7 @@
                 "Mechanism Design & Auctions",
                 "Cloud & Computing Resource Auctions"
               ],
-              "citations": 290
+              "citations": 102
             },
             {
               "title": "On the Cluster Admission Problem for Cloud Computing",
@@ -9719,7 +9794,7 @@
                 "Mechanism Design & Auctions",
                 "Cloud & Computing Resource Auctions"
               ],
-              "citations": 45
+              "citations": 0
             }
           ]
         }
@@ -9806,7 +9881,7 @@
                 "Structural Estimation",
                 "Demand Estimation (BLP)"
               ],
-              "citations": 1250
+              "citations": 519
             },
             {
               "title": "Estimating Demand for Mobile Applications in the New Economy",
@@ -9818,7 +9893,7 @@
                 "Structural Estimation",
                 "Demand Estimation (BLP)"
               ],
-              "citations": 580
+              "citations": 141
             }
           ]
         },
@@ -9885,7 +9960,7 @@
                 "Structural Estimation",
                 "Entry & Competition"
               ],
-              "citations": 420
+              "citations": 81
             },
             {
               "title": "What Happens When Wal-Mart Comes to Town: An Empirical Analysis of the Discount Retailing Industry",
@@ -9897,7 +9972,7 @@
                 "Structural Estimation",
                 "Entry & Competition"
               ],
-              "citations": 890
+              "citations": 0
             }
           ]
         },
@@ -9976,7 +10051,7 @@
                 "Structural Estimation",
                 "Dynamic Structural Models"
               ],
-              "citations": 320
+              "citations": 254
             },
             {
               "title": "State Dependence and Alternative Explanations for Consumer Inertia",
@@ -9988,7 +10063,7 @@
                 "Structural Estimation",
                 "Dynamic Structural Models"
               ],
-              "citations": 680
+              "citations": 362
             }
           ]
         },
@@ -10067,7 +10142,7 @@
                 "Structural Estimation",
                 "Auction Estimation"
               ],
-              "citations": 4800
+              "citations": 1598
             },
             {
               "title": "A Structural Model of Sponsored Search Advertising Auctions",
@@ -10079,7 +10154,7 @@
                 "Structural Estimation",
                 "Auction Estimation"
               ],
-              "citations": 380
+              "citations": 117
             }
           ]
         },
@@ -10165,7 +10240,7 @@
                 "Structural Estimation",
                 "Platform & Network Effects Estimation"
               ],
-              "citations": 3800
+              "citations": 2935
             },
             {
               "title": "Competition Between Networks: A Study of the Market for Yellow Pages",
@@ -10177,7 +10252,7 @@
                 "Structural Estimation",
                 "Platform & Network Effects Estimation"
               ],
-              "citations": 1250
+              "citations": 517
             },
             {
               "title": "A Price Theory of Multi-Sided Platforms",
@@ -10189,7 +10264,7 @@
                 "Structural Estimation",
                 "Platform & Network Effects Estimation"
               ],
-              "citations": 1450
+              "citations": 59
             },
             {
               "title": "Identification of Peer Effects Through Social Networks",
@@ -10201,7 +10276,7 @@
                 "Structural Estimation",
                 "Platform & Network Effects Estimation"
               ],
-              "citations": 2100
+              "citations": 1
             },
             {
               "title": "Distinguishing Influence-Based Contagion from Homophily-Driven Diffusion in Dynamic Networks",
@@ -10213,7 +10288,7 @@
                 "Structural Estimation",
                 "Platform & Network Effects Estimation"
               ],
-              "citations": 1850
+              "citations": 1214
             },
             {
               "title": "Evidence on Learning and Network Externalities in the Diffusion of Home Computers",
@@ -10225,7 +10300,7 @@
                 "Structural Estimation",
                 "Platform & Network Effects Estimation"
               ],
-              "citations": 980
+              "citations": 422
             }
           ]
         },
@@ -10244,7 +10319,7 @@
                 "Structural Estimation",
                 "Digital Goods, Streaming & Content Markets"
               ],
-              "citations": 620
+              "citations": 107
             },
             {
               "title": "As Streaming Reaches Flood Stage, Does it Stimulate or Depress Music Sales?",
@@ -10256,7 +10331,7 @@
                 "Structural Estimation",
                 "Digital Goods, Streaming & Content Markets"
               ],
-              "citations": 380
+              "citations": 117
             },
             {
               "title": "Music for a Song: An Empirical Look at Uniform Pricing and Its Alternatives",
@@ -10268,7 +10343,7 @@
                 "Structural Estimation",
                 "Digital Goods, Streaming & Content Markets"
               ],
-              "citations": 290
+              "citations": 17
             },
             {
               "title": "The Effect of File Sharing on Record Sales: An Empirical Analysis",
@@ -10280,7 +10355,7 @@
                 "Structural Estimation",
                 "Digital Goods, Streaming & Content Markets"
               ],
-              "citations": 1100
+              "citations": 876
             },
             {
               "title": "Piracy and Copyright Enforcement Mechanisms",
@@ -10292,7 +10367,7 @@
                 "Structural Estimation",
                 "Digital Goods, Streaming & Content Markets"
               ],
-              "citations": 220
+              "citations": 46
             }
           ]
         },
@@ -10311,7 +10386,7 @@
                 "Structural Estimation",
                 "E-commerce & Online Retail"
               ],
-              "citations": 1650
+              "citations": 1187
             },
             {
               "title": "Search, Obfuscation, and Price Elasticities on the Internet",
@@ -10323,7 +10398,7 @@
                 "Structural Estimation",
                 "E-commerce & Online Retail"
               ],
-              "citations": 890
+              "citations": 551
             },
             {
               "title": "Testing Models of Consumer Search Using Data on Web Browsing and Purchasing Behavior",
@@ -10335,7 +10410,7 @@
                 "Structural Estimation",
                 "E-commerce & Online Retail"
               ],
-              "citations": 520
+              "citations": 459
             },
             {
               "title": "Consumer Price Search and Platform Design in Internet Commerce",
@@ -10347,7 +10422,7 @@
                 "Structural Estimation",
                 "E-commerce & Online Retail"
               ],
-              "citations": 280
+              "citations": 209
             },
             {
               "title": "Auctions versus Posted Prices in Online Markets",
@@ -10359,7 +10434,7 @@
                 "Structural Estimation",
                 "E-commerce & Online Retail"
               ],
-              "citations": 350
+              "citations": 0
             }
           ]
         },
@@ -10378,7 +10453,7 @@
                 "Structural Estimation",
                 "Search, Advertising & Attention"
               ],
-              "citations": 580
+              "citations": 342
             },
             {
               "title": "The Power of Rankings: Quantifying the Effect of Rankings on Online Consumer Search and Purchase Decisions",
@@ -10390,7 +10465,7 @@
                 "Structural Estimation",
                 "Search, Advertising & Attention"
               ],
-              "citations": 420
+              "citations": 297
             },
             {
               "title": "Advertising, Consumer Awareness, and Choice: Evidence from the U.S. Banking Industry",
@@ -10414,7 +10489,7 @@
                 "Structural Estimation",
                 "Search, Advertising & Attention"
               ],
-              "citations": 180
+              "citations": 9
             }
           ]
         },
@@ -10433,7 +10508,7 @@
                 "Structural Estimation",
                 "Machine Learning & Structural Estimation"
               ],
-              "citations": 4200
+              "citations": 1894
             },
             {
               "title": "Estimation and Inference of Heterogeneous Treatment Effects using Random Forests",
@@ -10445,7 +10520,7 @@
                 "Structural Estimation",
                 "Machine Learning & Structural Estimation"
               ],
-              "citations": 3500
+              "citations": 2467
             },
             {
               "title": "Deep IV: A Flexible Approach for Counterfactual Prediction",
@@ -10457,7 +10532,7 @@
                 "Structural Estimation",
                 "Machine Learning & Structural Estimation"
               ],
-              "citations": 780
+              "citations": 155
             },
             {
               "title": "Deep Neural Networks for Estimation and Inference",
@@ -10469,7 +10544,7 @@
                 "Structural Estimation",
                 "Machine Learning & Structural Estimation"
               ],
-              "citations": 420
+              "citations": 260
             }
           ]
         }
@@ -10543,7 +10618,7 @@
                 "Choice Models & Dynamic Choice",
                 "Discrete Choice (Logit, Mixed Logit)"
               ],
-              "citations": 1250
+              "citations": 519
             },
             {
               "title": "What Drives Media Slant? Evidence from U.S. Daily Newspapers",
@@ -10555,7 +10630,7 @@
                 "Choice Models & Dynamic Choice",
                 "Discrete Choice (Logit, Mixed Logit)"
               ],
-              "citations": 1850
+              "citations": 1428
             }
           ]
         },
@@ -10622,7 +10697,7 @@
                 "Choice Models & Dynamic Choice",
                 "Consideration Sets & Attention"
               ],
-              "citations": 420
+              "citations": 297
             },
             {
               "title": "Quantifying Search and Switching Costs in the U.S. Auto Insurance Industry",
@@ -10646,7 +10721,7 @@
                 "Choice Models & Dynamic Choice",
                 "Consideration Sets & Attention"
               ],
-              "citations": 980
+              "citations": 615
             }
           ]
         },
@@ -10713,7 +10788,7 @@
                 "Choice Models & Dynamic Choice",
                 "Dynamic Discrete Choice"
               ],
-              "citations": 580
+              "citations": 9
             },
             {
               "title": "Intertemporal Price Discrimination with Forward-Looking Consumers: Application to the US Market for Console Video-Games",
@@ -10725,7 +10800,7 @@
                 "Choice Models & Dynamic Choice",
                 "Dynamic Discrete Choice"
               ],
-              "citations": 420
+              "citations": 0
             }
           ]
         },
@@ -10780,7 +10855,7 @@
                 "Choice Models & Dynamic Choice",
                 "Intertemporal Substitution"
               ],
-              "citations": 280
+              "citations": 166
             }
           ]
         },
@@ -10859,7 +10934,7 @@
                 "Choice Models & Dynamic Choice",
                 "Choice Architecture & Nudges"
               ],
-              "citations": 1850
+              "citations": 732
             },
             {
               "title": "Digital Addiction",
@@ -10871,7 +10946,7 @@
                 "Choice Models & Dynamic Choice",
                 "Choice Architecture & Nudges"
               ],
-              "citations": 420
+              "citations": 170
             },
             {
               "title": "Privacy Regulation and Online Advertising",
@@ -10883,7 +10958,7 @@
                 "Choice Models & Dynamic Choice",
                 "Choice Architecture & Nudges"
               ],
-              "citations": 1250
+              "citations": 3
             }
           ]
         },
@@ -10902,7 +10977,7 @@
                 "Choice Models & Dynamic Choice",
                 "Search & Sequential Choice"
               ],
-              "citations": 2800
+              "citations": 785
             },
             {
               "title": "Using Price Distributions to Estimate Search Costs",
@@ -10914,7 +10989,7 @@
                 "Choice Models & Dynamic Choice",
                 "Search & Sequential Choice"
               ],
-              "citations": 580
+              "citations": 342
             },
             {
               "title": "Testing Models of Consumer Search Using Data on Web Browsing and Purchasing Behavior",
@@ -10926,7 +11001,7 @@
                 "Choice Models & Dynamic Choice",
                 "Search & Sequential Choice"
               ],
-              "citations": 520
+              "citations": 459
             },
             {
               "title": "The Probit Choice Model Under Sequential Search with an Application to Online Retailing",
@@ -10938,7 +11013,7 @@
                 "Choice Models & Dynamic Choice",
                 "Search & Sequential Choice"
               ],
-              "citations": 280
+              "citations": 0
             }
           ]
         },
@@ -10957,7 +11032,7 @@
                 "Choice Models & Dynamic Choice",
                 "Learning & Experimentation in Choice"
               ],
-              "citations": 1850
+              "citations": 1247
             },
             {
               "title": "Empirically Distinguishing Informative and Prestige Effects of Advertising",
@@ -10969,7 +11044,7 @@
                 "Choice Models & Dynamic Choice",
                 "Learning & Experimentation in Choice"
               ],
-              "citations": 680
+              "citations": 349
             },
             {
               "title": "A Dynamic Model of Brand Choice When Price and Advertising Signal Product Quality",
@@ -10981,7 +11056,7 @@
                 "Choice Models & Dynamic Choice",
                 "Learning & Experimentation in Choice"
               ],
-              "citations": 520
+              "citations": 140
             },
             {
               "title": "Learning Models: An Assessment of Progress, Challenges and New Developments",
@@ -10993,7 +11068,7 @@
                 "Choice Models & Dynamic Choice",
                 "Learning & Experimentation in Choice"
               ],
-              "citations": 380
+              "citations": 235
             }
           ]
         },
@@ -11012,7 +11087,7 @@
                 "Choice Models & Dynamic Choice",
                 "Recommendation Systems & Algorithmic Choice"
               ],
-              "citations": 850
+              "citations": 1
             },
             {
               "title": "Will the Global Village Fracture into Tribes? Recommender Systems and Their Effects on Consumer Fragmentation",
@@ -11024,7 +11099,7 @@
                 "Choice Models & Dynamic Choice",
                 "Recommendation Systems & Algorithmic Choice"
               ],
-              "citations": 420
+              "citations": 259
             },
             {
               "title": "Do Recommender Systems Manipulate Consumer Preferences? A Study of Anchoring Effects",
@@ -11036,7 +11111,7 @@
                 "Choice Models & Dynamic Choice",
                 "Recommendation Systems & Algorithmic Choice"
               ],
-              "citations": 380
+              "citations": 210
             },
             {
               "title": "Understanding Echo Chambers and Filter Bubbles: The Impact of Social Media on Diversification and Partisan Shifts in News Consumption",
@@ -11048,7 +11123,7 @@
                 "Choice Models & Dynamic Choice",
                 "Recommendation Systems & Algorithmic Choice"
               ],
-              "citations": 320
+              "citations": 306
             },
             {
               "title": "Algorithmic Effects on the Diversity of Consumption on Spotify",
@@ -11060,7 +11135,7 @@
                 "Choice Models & Dynamic Choice",
                 "Recommendation Systems & Algorithmic Choice"
               ],
-              "citations": 280
+              "citations": 174
             }
           ]
         },
@@ -11079,7 +11154,7 @@
                 "Choice Models & Dynamic Choice",
                 "Switching Costs & Platform Lock-in"
               ],
-              "citations": 2400
+              "citations": 1534
             },
             {
               "title": "State Dependence and Alternative Explanations for Consumer Inertia",
@@ -11091,7 +11166,7 @@
                 "Choice Models & Dynamic Choice",
                 "Switching Costs & Platform Lock-in"
               ],
-              "citations": 680
+              "citations": 362
             },
             {
               "title": "Adverse Selection and Inertia in Health Insurance Markets: When Nudging Hurts",
@@ -11103,7 +11178,7 @@
                 "Choice Models & Dynamic Choice",
                 "Switching Costs & Platform Lock-in"
               ],
-              "citations": 1150
+              "citations": 704
             },
             {
               "title": "Competition in Two-Sided Markets",
@@ -11115,7 +11190,7 @@
                 "Choice Models & Dynamic Choice",
                 "Switching Costs & Platform Lock-in"
               ],
-              "citations": 3200
+              "citations": 79
             }
           ]
         },
@@ -11134,7 +11209,7 @@
                 "Choice Models & Dynamic Choice",
                 "Social Influence & Peer Effects"
               ],
-              "citations": 6800
+              "citations": 6368
             },
             {
               "title": "A Theory of Fads, Fashion, Custom, and Cultural Change as Informational Cascades",
@@ -11146,7 +11221,7 @@
                 "Choice Models & Dynamic Choice",
                 "Social Influence & Peer Effects"
               ],
-              "citations": 5200
+              "citations": 1763
             },
             {
               "title": "Identification of Endogenous Social Effects: The Reflection Problem",
@@ -11158,7 +11233,7 @@
                 "Choice Models & Dynamic Choice",
                 "Social Influence & Peer Effects"
               ],
-              "citations": 4800
+              "citations": 6108
             },
             {
               "title": "Creating Social Contagion Through Viral Product Design: A Randomized Trial of Peer Influence in Networks",
@@ -11170,7 +11245,7 @@
                 "Choice Models & Dynamic Choice",
                 "Social Influence & Peer Effects"
               ],
-              "citations": 1250
+              "citations": 625
             }
           ]
         }
@@ -11256,7 +11331,7 @@
                 "Credit & Lending",
                 "Credit Scoring & Risk Models"
               ],
-              "citations": 1400
+              "citations": 1034
             },
             {
               "title": "Consumer Credit-Risk Models Via Machine-Learning Algorithms",
@@ -11268,7 +11343,7 @@
                 "Credit & Lending",
                 "Credit Scoring & Risk Models"
               ],
-              "citations": 700
+              "citations": 666
             },
             {
               "title": "Risk and Risk Management in the Credit Card Industry",
@@ -11280,7 +11355,7 @@
                 "Credit & Lending",
                 "Credit Scoring & Risk Models"
               ],
-              "citations": 245
+              "citations": 27
             }
           ]
         },
@@ -11347,7 +11422,7 @@
                 "Credit & Lending",
                 "Fair Lending & Disparate Impact"
               ],
-              "citations": 3000
+              "citations": 589
             },
             {
               "title": "Fair Prediction with Disparate Impact: A Study of Bias in Recidivism Prediction Instruments",
@@ -11359,7 +11434,7 @@
                 "Credit & Lending",
                 "Fair Lending & Disparate Impact"
               ],
-              "citations": 2500
+              "citations": 158
             }
           ]
         },
@@ -11426,7 +11501,7 @@
                 "Credit & Lending",
                 "Pricing Credit Products"
               ],
-              "citations": 156
+              "citations": 2
             }
           ]
         },
@@ -11547,7 +11622,7 @@
                 "Credit & Lending",
                 "Alternative Data"
               ],
-              "citations": 456
+              "citations": 652
             }
           ]
         },
@@ -11566,7 +11641,7 @@
                 "Credit & Lending",
                 "Fraud, Credit and Claim Risk & Anomaly Detection"
               ],
-              "citations": 24500
+              "citations": 28400
             },
             {
               "title": "Statistical Fraud, Credit and Claim Risk: A Review",
@@ -11590,7 +11665,7 @@
                 "Credit & Lending",
                 "Fraud, Credit and Claim Risk & Anomaly Detection"
               ],
-              "citations": 10750
+              "citations": 10461
             },
             {
               "title": "Credit Card Fraud, Credit and Claim Risk: A Realistic Modeling and a Novel Learning Strategy",
@@ -11626,7 +11701,7 @@
                 "Credit & Lending",
                 "Fraud, Credit and Claim Risk & Anomaly Detection"
               ],
-              "citations": 1523
+              "citations": 1372
             },
             {
               "title": "APATE: A Novel Approach for Automated Credit Card Transaction Fraud, Credit and Claim Risk Using Network-Based Extensions",
@@ -11657,7 +11732,7 @@
                 "Credit & Lending",
                 "Insurance Claims & Actuarial ML"
               ],
-              "citations": 234
+              "citations": 55
             },
             {
               "title": "Data Driven Binning for Insurance Tariffs",
@@ -11669,7 +11744,7 @@
                 "Credit & Lending",
                 "Insurance Claims & Actuarial ML"
               ],
-              "citations": 89
+              "citations": 53
             },
             {
               "title": "Detecting Insurance Fraud Using Supervised and Unsupervised Machine Learning",
@@ -11681,7 +11756,7 @@
                 "Credit & Lending",
                 "Insurance Claims & Actuarial ML"
               ],
-              "citations": 45
+              "citations": 47
             },
             {
               "title": "Claims Frequency Modeling Using Telematics Car Driving Data",
@@ -11693,7 +11768,7 @@
                 "Credit & Lending",
                 "Insurance Claims & Actuarial ML"
               ],
-              "citations": 156
+              "citations": 71
             },
             {
               "title": "Neural Networks Applied to Chain-Ladder Reserving",
@@ -11705,7 +11780,7 @@
                 "Credit & Lending",
                 "Insurance Claims & Actuarial ML"
               ],
-              "citations": 178
+              "citations": 57
             }
           ]
         },
@@ -11724,7 +11799,7 @@
                 "Credit & Lending",
                 "Safety & Trust Scoring on Platforms"
               ],
-              "citations": 756
+              "citations": 489
             },
             {
               "title": "The Limits of Reputation in Platform Markets: An Empirical Analysis and Field Experiment",
@@ -11736,7 +11811,7 @@
                 "Credit & Lending",
                 "Safety & Trust Scoring on Platforms"
               ],
-              "citations": 423
+              "citations": 219
             },
             {
               "title": "Reputation and Feedback Systems in Online Platform Markets",
@@ -11748,7 +11823,7 @@
                 "Credit & Lending",
                 "Safety & Trust Scoring on Platforms"
               ],
-              "citations": 387
+              "citations": 451
             },
             {
               "title": "The Value of Reputation Information: Evidence from a Natural Experiment",
@@ -11779,7 +11854,7 @@
                 "Credit & Lending",
                 "Explainability & Regulatory ML"
               ],
-              "citations": 18500
+              "citations": 7621
             },
             {
               "title": "'Why Should I Trust You?': Explaining the Predictions of Any Classifier (LIME)",
@@ -11791,7 +11866,7 @@
                 "Credit & Lending",
                 "Explainability & Regulatory ML"
               ],
-              "citations": 15200
+              "citations": 4442
             },
             {
               "title": "Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead",
@@ -11803,7 +11878,7 @@
                 "Credit & Lending",
                 "Explainability & Regulatory ML"
               ],
-              "citations": 3450
+              "citations": 7343
             },
             {
               "title": "Intelligible Models for HealthCare: Predicting Pneumonia Risk and Hospital 30-day Readmission (GA\u00b2M)",
@@ -11815,7 +11890,7 @@
                 "Credit & Lending",
                 "Explainability & Regulatory ML"
               ],
-              "citations": 2340
+              "citations": 1512
             }
           ]
         },
@@ -11834,7 +11909,7 @@
                 "Credit & Lending",
                 "Real-time Decisioning & Deployment"
               ],
-              "citations": 3890
+              "citations": 2955
             },
             {
               "title": "Selection Bias in Credit Scorecard Evaluation",
@@ -11846,7 +11921,7 @@
                 "Credit & Lending",
                 "Real-time Decisioning & Deployment"
               ],
-              "citations": 89
+              "citations": 21
             },
             {
               "title": "Reject Inference Methods in Credit Scoring: A Systematic Review and New Approaches",
@@ -11957,7 +12032,7 @@
                 "Trust & Safety",
                 "Fraud, Credit and Claim Risk"
               ],
-              "citations": 1245
+              "citations": 2151
             },
             {
               "title": "A Survey of Credit Card Fraud, Credit and Claim Risk Techniques: Data and Technique Oriented Perspective",
@@ -11981,7 +12056,7 @@
                 "Trust & Safety",
                 "Fraud, Credit and Claim Risk"
               ],
-              "citations": 789
+              "citations": null
             },
             {
               "title": "Fraud, Credit and Claim Risk in Healthcare Claims Using Machine Learning: A Systematic Review",
@@ -12029,7 +12104,7 @@
                 "Trust & Safety",
                 "Fraud, Credit and Claim Risk"
               ],
-              "citations": 456
+              "citations": 528
             },
             {
               "title": "FRAUDAR: Bounding Graph Fraud in the Face of Camouflage",
@@ -12041,7 +12116,7 @@
                 "Trust & Safety",
                 "Fraud, Credit and Claim Risk"
               ],
-              "citations": 378
+              "citations": 282
             },
             {
               "title": "Heterogeneous Graph Neural Networks for Malicious Account Detection",
@@ -12053,7 +12128,7 @@
                 "Trust & Safety",
                 "Fraud, Credit and Claim Risk"
               ],
-              "citations": 267
+              "citations": 351
             },
             {
               "title": "NetWalk: A Flexible Deep Embedding Approach for Anomaly Detection in Dynamic Networks",
@@ -12065,7 +12140,7 @@
                 "Trust & Safety",
                 "Fraud, Credit and Claim Risk"
               ],
-              "citations": 345
+              "citations": 326
             },
             {
               "title": "BotRGCN: Twitter Bot Detection with Relational Graph Convolutional Networks",
@@ -12077,7 +12152,7 @@
                 "Trust & Safety",
                 "Fraud, Credit and Claim Risk"
               ],
-              "citations": 156
+              "citations": 17
             }
           ]
         },
@@ -12144,7 +12219,7 @@
                 "Trust & Safety",
                 "Spam & Abuse"
               ],
-              "citations": 1245
+              "citations": 1
             },
             {
               "title": "Promotional Reviews: An Empirical Investigation of Online Review Manipulation",
@@ -12156,7 +12231,7 @@
                 "Trust & Safety",
                 "Spam & Abuse"
               ],
-              "citations": 876
+              "citations": 855
             },
             {
               "title": "A Survey on Fake Review Detection Techniques",
@@ -12168,7 +12243,7 @@
                 "Trust & Safety",
                 "Spam & Abuse"
               ],
-              "citations": 89
+              "citations": 8
             }
           ]
         },
@@ -12235,7 +12310,7 @@
                 "Trust & Safety",
                 "Content Moderation & Toxicity"
               ],
-              "citations": 287
+              "citations": 356
             },
             {
               "title": "Internet Argument Corpus 2.0: An SQL Schema for Dialogic Social Media and the Corpora to Go with It",
@@ -12247,7 +12322,7 @@
                 "Trust & Safety",
                 "Content Moderation & Toxicity"
               ],
-              "citations": 234
+              "citations": 130
             }
           ]
         },
@@ -12313,7 +12388,7 @@
                 "Trust & Safety",
                 "Account Security & Identity"
               ],
-              "citations": 234
+              "citations": 31
             }
           ]
         },
@@ -12332,7 +12407,7 @@
                 "Trust & Safety",
                 "Coordinated Manipulation & Information Operations"
               ],
-              "citations": 289
+              "citations": 133
             },
             {
               "title": "Disinformation as Collaborative Work: Surfacing the Participatory Nature of Strategic Information Operations",
@@ -12344,7 +12419,7 @@
                 "Trust & Safety",
                 "Coordinated Manipulation & Information Operations"
               ],
-              "citations": 234
+              "citations": 317
             },
             {
               "title": "Characterizing Twitter Users Who Engage with Russian Internet Research Agency",
@@ -12387,7 +12462,7 @@
                 "Trust & Safety",
                 "Abuse Detection in Human Interaction"
               ],
-              "citations": 678
+              "citations": 1105
             },
             {
               "title": "Deep Learning for Detecting Harassment in Social Media",
@@ -12399,7 +12474,7 @@
                 "Trust & Safety",
                 "Abuse Detection in Human Interaction"
               ],
-              "citations": 456
+              "citations": 771
             },
             {
               "title": "Ex Machina: Personal Attacks Seen at Scale",
@@ -12411,7 +12486,7 @@
                 "Trust & Safety",
                 "Abuse Detection in Human Interaction"
               ],
-              "citations": 567
+              "citations": 612
             },
             {
               "title": "Deep Learning for User Comment Moderation",
@@ -12423,7 +12498,7 @@
                 "Trust & Safety",
                 "Abuse Detection in Human Interaction"
               ],
-              "citations": 289
+              "citations": 9
             }
           ]
         },
@@ -12442,7 +12517,7 @@
                 "Trust & Safety",
                 "Privacy & Data Misuse"
               ],
-              "citations": 567
+              "citations": 510
             },
             {
               "title": "The Economics of Privacy",
@@ -12454,7 +12529,7 @@
                 "Trust & Safety",
                 "Privacy & Data Misuse"
               ],
-              "citations": 1234
+              "citations": 1057
             },
             {
               "title": "Differential Privacy",
@@ -12466,7 +12541,7 @@
                 "Trust & Safety",
                 "Privacy & Data Misuse"
               ],
-              "citations": 8900
+              "citations": 4899
             },
             {
               "title": "The Cost of Annoying Ads",
@@ -12478,7 +12553,7 @@
                 "Trust & Safety",
                 "Privacy & Data Misuse"
               ],
-              "citations": 89
+              "citations": 55
             }
           ]
         }
@@ -12552,7 +12627,8 @@
               "tags": [
                 "Logistics & Operations",
                 "Routing & Dispatch"
-              ]
+              ],
+              "citations": 6
             },
             {
               "title": "An Effective Implementation of the Lin-Kernighan Traveling Salesman Heuristic",
@@ -12564,7 +12640,7 @@
                 "Logistics & Operations",
                 "Routing & Dispatch"
               ],
-              "citations": 2847
+              "citations": 1541
             },
             {
               "title": "Ride-Hailing Order Dispatching at DiDi via Reinforcement Learning",
@@ -12576,7 +12652,7 @@
                 "Logistics & Operations",
                 "Routing & Dispatch"
               ],
-              "citations": 156
+              "citations": 119
             },
             {
               "title": "A Tutorial on Column Generation and Branch-and-Price for Vehicle Routing",
@@ -12588,7 +12664,7 @@
                 "Logistics & Operations",
                 "Routing & Dispatch"
               ],
-              "citations": 312
+              "citations": 147
             },
             {
               "title": "Alibaba Vehicle Routing Algorithms Enable Rapid Pick and Delivery",
@@ -12600,7 +12676,7 @@
                 "Logistics & Operations",
                 "Routing & Dispatch"
               ],
-              "citations": 28
+              "citations": 0
             },
             {
               "title": "2021 Amazon Last Mile Routing Research Challenge: Data Set",
@@ -12612,7 +12688,7 @@
                 "Logistics & Operations",
                 "Routing & Dispatch"
               ],
-              "citations": 87
+              "citations": 62
             }
           ]
         },
@@ -12678,7 +12754,7 @@
                 "Logistics & Operations",
                 "Inventory & Fulfillment"
               ],
-              "citations": 15
+              "citations": 5
             },
             {
               "title": "JD.com Improves Fulfillment Efficiency with Integrated Assortment Planning and Inventory Allocation",
@@ -12689,7 +12765,8 @@
               "tags": [
                 "Logistics & Operations",
                 "Inventory & Fulfillment"
-              ]
+              ],
+              "citations": 0
             },
             {
               "title": "Optimal Picking Policies in E-Commerce Warehouses",
@@ -12701,7 +12778,7 @@
                 "Logistics & Operations",
                 "Inventory & Fulfillment"
               ],
-              "citations": 42
+              "citations": 40
             }
           ]
         },
@@ -12720,7 +12797,7 @@
                 "Logistics & Operations",
                 "Supply Chain Demand Forecasting"
               ],
-              "citations": 1847
+              "citations": 238
             },
             {
               "title": "M5 Accuracy Competition: Results, Findings, and Conclusions",
@@ -12732,7 +12809,7 @@
                 "Logistics & Operations",
                 "Supply Chain Demand Forecasting"
               ],
-              "citations": 524
+              "citations": 366
             },
             {
               "title": "M5 Uncertainty Competition: Results, Findings and Conclusions",
@@ -12744,7 +12821,7 @@
                 "Logistics & Operations",
                 "Supply Chain Demand Forecasting"
               ],
-              "citations": 187
+              "citations": 94
             },
             {
               "title": "Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting",
@@ -12756,7 +12833,7 @@
                 "Logistics & Operations",
                 "Supply Chain Demand Forecasting"
               ],
-              "citations": 2156
+              "citations": 153
             },
             {
               "title": "Probabilistic Demand Forecasting with Graph Neural Networks",
@@ -12767,7 +12844,8 @@
               "tags": [
                 "Logistics & Operations",
                 "Supply Chain Demand Forecasting"
-              ]
+              ],
+              "citations": 1
             }
           ]
         },
@@ -12821,7 +12899,7 @@
                 "Logistics & Operations",
                 "ETA & Delivery Prediction"
               ],
-              "citations": 147
+              "citations": 52
             },
             {
               "title": "A Deep Learning Method for Route and Time Prediction in Food Delivery",
@@ -12833,7 +12911,7 @@
                 "Logistics & Operations",
                 "ETA & Delivery Prediction"
               ],
-              "citations": 89
+              "citations": 44
             },
             {
               "title": "HetETA: Heterogeneous Information Network Embedding for ETA",
@@ -12845,7 +12923,7 @@
                 "Logistics & Operations",
                 "ETA & Delivery Prediction"
               ],
-              "citations": 126
+              "citations": 100
             },
             {
               "title": "Real-Time Delivery Time Forecasting and Promising in Online Retailing",
@@ -12857,7 +12935,7 @@
                 "Logistics & Operations",
                 "ETA & Delivery Prediction"
               ],
-              "citations": 54
+              "citations": 56
             },
             {
               "title": "A Survey on Service Route and Time Prediction in Instant Delivery",
@@ -12868,7 +12946,8 @@
               "tags": [
                 "Logistics & Operations",
                 "ETA & Delivery Prediction"
-              ]
+              ],
+              "citations": 6
             }
           ]
         },
@@ -12933,7 +13012,7 @@
                 "Logistics & Operations",
                 "Capacity Planning"
               ],
-              "citations": 412
+              "citations": 695
             },
             {
               "title": "The Impact of Behavioral and Economic Drivers on Gig Economy Workers",
@@ -12945,7 +13024,7 @@
                 "Logistics & Operations",
                 "Capacity Planning"
               ],
-              "citations": 28
+              "citations": 20
             },
             {
               "title": "Spatial Pricing in Ride-Sharing Networks",
@@ -12957,7 +13036,7 @@
                 "Logistics & Operations",
                 "Capacity Planning"
               ],
-              "citations": 298
+              "citations": 5
             },
             {
               "title": "Matching and Pricing in Ride Hailing: Wild Goose Chases and How to Solve Them",
@@ -12969,7 +13048,7 @@
                 "Logistics & Operations",
                 "Capacity Planning"
               ],
-              "citations": 87
+              "citations": 7
             },
             {
               "title": "Driver Surge Pricing",
@@ -12981,7 +13060,7 @@
                 "Logistics & Operations",
                 "Capacity Planning"
               ],
-              "citations": 64
+              "citations": 38
             },
             {
               "title": "Dynamic Pricing and Matching for Two-Sided Queues",
@@ -12993,7 +13072,7 @@
                 "Logistics & Operations",
                 "Capacity Planning"
               ],
-              "citations": 42
+              "citations": 5
             }
           ]
         },
@@ -13048,7 +13127,7 @@
                 "Logistics & Operations",
                 "Last-Mile Optimization"
               ],
-              "citations": 1247
+              "citations": 1396
             },
             {
               "title": "The Multiple Flying Sidekicks Traveling Salesman Problem: Parcel Delivery with Multiple Drones",
@@ -13060,7 +13139,7 @@
                 "Logistics & Operations",
                 "Last-Mile Optimization"
               ],
-              "citations": 324
+              "citations": 460
             },
             {
               "title": "Crowdsourced Delivery\u2014A Dynamic Pickup and Delivery Problem with Ad Hoc Drivers",
@@ -13072,7 +13151,7 @@
                 "Logistics & Operations",
                 "Last-Mile Optimization"
               ],
-              "citations": 287
+              "citations": 26
             },
             {
               "title": "Time Slot Management in Attended Home Delivery",
@@ -13084,7 +13163,7 @@
                 "Logistics & Operations",
                 "Last-Mile Optimization"
               ],
-              "citations": 487
+              "citations": 4
             },
             {
               "title": "Crowdsourcing Last-Mile Deliveries",
@@ -13096,7 +13175,7 @@
                 "Logistics & Operations",
                 "Last-Mile Optimization"
               ],
-              "citations": 68
+              "citations": 13
             },
             {
               "title": "Flexible Time Window Management for Attended Home Deliveries",
@@ -13108,7 +13187,7 @@
                 "Logistics & Operations",
                 "Last-Mile Optimization"
               ],
-              "citations": 74
+              "citations": 66
             }
           ]
         },
@@ -13127,7 +13206,7 @@
                 "Logistics & Operations",
                 "Warehouse Robotics & Automation"
               ],
-              "citations": 892
+              "citations": 568
             },
             {
               "title": "Estimating Performance in a Robotic Mobile Fulfillment System",
@@ -13139,7 +13218,7 @@
                 "Logistics & Operations",
                 "Warehouse Robotics & Automation"
               ],
-              "citations": 347
+              "citations": 0
             },
             {
               "title": "Design and Control of Warehouse Order Picking: A Literature Review",
@@ -13151,7 +13230,7 @@
                 "Logistics & Operations",
                 "Warehouse Robotics & Automation"
               ],
-              "citations": 3156
+              "citations": 1848
             },
             {
               "title": "Decision Rules for Robotic Mobile Fulfillment Systems",
@@ -13163,7 +13242,7 @@
                 "Logistics & Operations",
                 "Warehouse Robotics & Automation"
               ],
-              "citations": 124
+              "citations": 68
             },
             {
               "title": "Analysis and Observations from the First Amazon Picking Challenge",
@@ -13175,7 +13254,7 @@
                 "Logistics & Operations",
                 "Warehouse Robotics & Automation"
               ],
-              "citations": 246
+              "citations": 414
             },
             {
               "title": "Warehousing in the E-Commerce Era: A Survey",
@@ -13187,7 +13266,7 @@
                 "Logistics & Operations",
                 "Warehouse Robotics & Automation"
               ],
-              "citations": 524
+              "citations": 573
             }
           ]
         },
@@ -13206,7 +13285,7 @@
                 "Logistics & Operations",
                 "Fleet Electrification & Green Logistics"
               ],
-              "citations": 1342
+              "citations": 1144
             },
             {
               "title": "The Pollution-Routing Problem",
@@ -13218,7 +13297,7 @@
                 "Logistics & Operations",
                 "Fleet Electrification & Green Logistics"
               ],
-              "citations": 1687
+              "citations": 1099
             },
             {
               "title": "Routing a Mixed Fleet of Electric and Conventional Vehicles",
@@ -13230,7 +13309,7 @@
                 "Logistics & Operations",
                 "Fleet Electrification & Green Logistics"
               ],
-              "citations": 478
+              "citations": 539
             },
             {
               "title": "UPS ORION: On-Road Integrated Optimization and Navigation",
@@ -13242,7 +13321,7 @@
                 "Logistics & Operations",
                 "Fleet Electrification & Green Logistics"
               ],
-              "citations": 156
+              "citations": 9
             }
           ]
         }
@@ -13328,7 +13407,7 @@
                 "Privacy",
                 "Differential Privacy"
               ],
-              "citations": 1456
+              "citations": 951
             },
             {
               "title": "Amplification by Shuffling: From Local to Central Differential Privacy via Anonymity",
@@ -13340,7 +13419,7 @@
                 "Privacy",
                 "Differential Privacy"
               ],
-              "citations": 567
+              "citations": 240
             },
             {
               "title": "Privacy Amplification by Subsampling: Tight Analyses via Couplings and Divergences",
@@ -13352,7 +13431,7 @@
                 "Privacy",
                 "Differential Privacy"
               ],
-              "citations": 456
+              "citations": 105
             },
             {
               "title": "Gaussian Differential Privacy",
@@ -13364,7 +13443,7 @@
                 "Privacy",
                 "Differential Privacy"
               ],
-              "citations": 234
+              "citations": 12
             }
           ]
         },
@@ -13419,7 +13498,7 @@
                 "Privacy",
                 "Federated Learning"
               ],
-              "citations": 2345
+              "citations": 735
             },
             {
               "title": "Learning Differentially Private Recurrent Language Models",
@@ -13431,7 +13510,7 @@
                 "Privacy",
                 "Federated Learning"
               ],
-              "citations": 789
+              "citations": 669
             },
             {
               "title": "Ditto: Fair and Robust Federated Learning Through Personalization",
@@ -13443,7 +13522,7 @@
                 "Privacy",
                 "Federated Learning"
               ],
-              "citations": 567
+              "citations": 24
             },
             {
               "title": "Advances and Open Problems in Federated Learning",
@@ -13455,7 +13534,7 @@
                 "Privacy",
                 "Federated Learning"
               ],
-              "citations": 4567
+              "citations": 3734
             }
           ]
         },
@@ -13522,7 +13601,7 @@
                 "Privacy",
                 "Privacy-Preserving Measurement"
               ],
-              "citations": 34
+              "citations": 10
             }
           ]
         },
@@ -13564,7 +13643,7 @@
                 "Privacy",
                 "Synthetic Data"
               ],
-              "citations": 456
+              "citations": 289
             },
             {
               "title": "PrivBayes: Private Data Release via Bayesian Networks",
@@ -13576,7 +13655,7 @@
                 "Privacy",
                 "Synthetic Data"
               ],
-              "citations": 678
+              "citations": 337
             },
             {
               "title": "Winning the NIST Contest: A Scalable Approach to DP Synthetic Data",
@@ -13588,7 +13667,7 @@
                 "Privacy",
                 "Synthetic Data"
               ],
-              "citations": 234
+              "citations": 54
             }
           ]
         },
@@ -13653,7 +13732,7 @@
                 "Privacy",
                 "Anonymization & De-identification"
               ],
-              "citations": 567
+              "citations": 344
             }
           ]
         },
@@ -13672,7 +13751,7 @@
                 "Privacy",
                 "Secure Computation & MPC"
               ],
-              "citations": 4567
+              "citations": 3620
             },
             {
               "title": "How to Play Any Mental Game (GMW Protocol)",
@@ -13684,7 +13763,7 @@
                 "Privacy",
                 "Secure Computation & MPC"
               ],
-              "citations": 3456
+              "citations": 3460
             },
             {
               "title": "Completeness Theorems for Non-Cryptographic Fault-Tolerant Distributed Computation (BGW)",
@@ -13696,7 +13775,7 @@
                 "Privacy",
                 "Secure Computation & MPC"
               ],
-              "citations": 2890
+              "citations": 2466
             },
             {
               "title": "Fully Homomorphic Encryption Using Ideal Lattices",
@@ -13708,7 +13787,7 @@
                 "Privacy",
                 "Secure Computation & MPC"
               ],
-              "citations": 8900
+              "citations": 6229
             },
             {
               "title": "Practical Multi-party Private Set Intersection from Symmetric-Key Techniques",
@@ -13720,7 +13799,7 @@
                 "Privacy",
                 "Secure Computation & MPC"
               ],
-              "citations": 456
+              "citations": 170
             }
           ]
         },
@@ -13739,7 +13818,7 @@
                 "Privacy",
                 "Privacy Economics & Regulation"
               ],
-              "citations": 1234
+              "citations": 3
             },
             {
               "title": "The Short-Run Effects of GDPR on Technology Venture Investment",
@@ -13751,7 +13830,7 @@
                 "Privacy",
                 "Privacy Economics & Regulation"
               ],
-              "citations": 345
+              "citations": 111
             },
             {
               "title": "Privacy Protection and Technology Diffusion: The Case of Electronic Medical Records",
@@ -13763,7 +13842,7 @@
                 "Privacy",
                 "Privacy Economics & Regulation"
               ],
-              "citations": 567
+              "citations": 292
             }
           ]
         },
@@ -13782,7 +13861,7 @@
                 "Privacy",
                 "ML Privacy Attacks"
               ],
-              "citations": 3456
+              "citations": 3785
             },
             {
               "title": "Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures",
@@ -13794,7 +13873,7 @@
                 "Privacy",
                 "ML Privacy Attacks"
               ],
-              "citations": 1890
+              "citations": 2597
             },
             {
               "title": "Extracting Training Data from Large Language Models",
@@ -13806,7 +13885,7 @@
                 "Privacy",
                 "ML Privacy Attacks"
               ],
-              "citations": 1234
+              "citations": 274
             },
             {
               "title": "Deep Leakage from Gradients",
@@ -13818,7 +13897,7 @@
                 "Privacy",
                 "ML Privacy Attacks"
               ],
-              "citations": 1567
+              "citations": 20
             },
             {
               "title": "Exploiting Unintended Feature Leakage in Collaborative Learning",
@@ -13830,7 +13909,7 @@
                 "Privacy",
                 "ML Privacy Attacks"
               ],
-              "citations": 789
+              "citations": 87
             }
           ]
         },
@@ -13849,7 +13928,7 @@
                 "Privacy",
                 "PIR & Anonymous Systems"
               ],
-              "citations": 2345
+              "citations": 1580
             },
             {
               "title": "Untraceable Electronic Mail, Return Addresses, and Digital Pseudonyms",
@@ -13861,7 +13940,7 @@
                 "Privacy",
                 "PIR & Anonymous Systems"
               ],
-              "citations": 5678
+              "citations": 4253
             },
             {
               "title": "Tor: The Second-Generation Onion Router",
@@ -13873,7 +13952,7 @@
                 "Privacy",
                 "PIR & Anonymous Systems"
               ],
-              "citations": 6789
+              "citations": 3959
             },
             {
               "title": "Improving the Robustness of Private Information Retrieval",
@@ -13885,7 +13964,7 @@
                 "Privacy",
                 "PIR & Anonymous Systems"
               ],
-              "citations": 456
+              "citations": 180
             }
           ]
         },
@@ -13904,7 +13983,7 @@
                 "Privacy",
                 "Privacy-Preserving ML"
               ],
-              "citations": 1234
+              "citations": 1746
             },
             {
               "title": "Slalom: Fast, Verifiable and Private Execution of Neural Networks in Trusted Hardware",
@@ -13916,7 +13995,7 @@
                 "Privacy",
                 "Privacy-Preserving ML"
               ],
-              "citations": 456
+              "citations": 226
             },
             {
               "title": "Delphi: A Cryptographic Inference Service for Neural Networks",
@@ -13928,7 +14007,7 @@
                 "Privacy",
                 "Privacy-Preserving ML"
               ],
-              "citations": 567
+              "citations": 120
             },
             {
               "title": "Iron: Private Inference on Transformers",
@@ -13967,7 +14046,7 @@
                 "Spatial & Geo",
                 "Real Estate & Proptech"
               ],
-              "citations": 10500
+              "citations": 10339
             },
             {
               "title": "The Efficiency of the Market for Single-Family Homes",
@@ -13979,7 +14058,7 @@
                 "Spatial & Geo",
                 "Real Estate & Proptech"
               ],
-              "citations": 2890
+              "citations": 1250
             },
             {
               "title": "Housing Dynamics",
@@ -13991,7 +14070,7 @@
                 "Spatial & Geo",
                 "Real Estate & Proptech"
               ],
-              "citations": 567
+              "citations": 61
             },
             {
               "title": "How Much is the View from the Window Worth? Machine Learning-Driven Hedonic Pricing Model",
@@ -14003,7 +14082,7 @@
                 "Spatial & Geo",
                 "Real Estate & Proptech"
               ],
-              "citations": 89
+              "citations": 76
             },
             {
               "title": "Why is Intermediating Houses so Difficult? Evidence from iBuyers",
@@ -14015,7 +14094,7 @@
                 "Spatial & Geo",
                 "Real Estate & Proptech"
               ],
-              "citations": 234
+              "citations": 39
             },
             {
               "title": "The Effect of Home-Sharing on House Prices and Rents: Evidence from Airbnb",
@@ -14027,7 +14106,7 @@
                 "Spatial & Geo",
                 "Real Estate & Proptech"
               ],
-              "citations": 456
+              "citations": 291
             },
             {
               "title": "Do Short-Term Rental Platforms Affect Housing Markets? Evidence from Airbnb in Barcelona",
@@ -14039,7 +14118,7 @@
                 "Spatial & Geo",
                 "Real Estate & Proptech"
               ],
-              "citations": 345
+              "citations": 268
             },
             {
               "title": "Housing Market Expectations",
@@ -14051,7 +14130,7 @@
                 "Spatial & Geo",
                 "Real Estate & Proptech"
               ],
-              "citations": 178
+              "citations": 21
             }
           ]
         },
@@ -14120,7 +14199,7 @@
                 "Spatial & Geo",
                 "Geospatial Demand Modeling"
               ],
-              "citations": 456
+              "citations": 184
             },
             {
               "title": "Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic Forecasting",
@@ -14132,7 +14211,7 @@
                 "Spatial & Geo",
                 "Geospatial Demand Modeling"
               ],
-              "citations": 5200
+              "citations": 503
             },
             {
               "title": "A Review of Self-Exciting Spatio-Temporal Point Processes and Their Applications",
@@ -14144,7 +14223,7 @@
                 "Spatial & Geo",
                 "Geospatial Demand Modeling"
               ],
-              "citations": 789
+              "citations": 60
             }
           ]
         },
@@ -14201,7 +14280,7 @@
                 "Spatial & Geo",
                 "Location Choice & Site Selection"
               ],
-              "citations": 45
+              "citations": 37
             },
             {
               "title": "Geo-Spotting: Mining Online Location-Based Services for Optimal Retail Store Placement",
@@ -14213,7 +14292,7 @@
                 "Spatial & Geo",
                 "Location Choice & Site Selection"
               ],
-              "citations": 276
+              "citations": 199
             },
             {
               "title": "Facility Location Under Uncertainty: A Review",
@@ -14225,7 +14304,7 @@
                 "Spatial & Geo",
                 "Location Choice & Site Selection"
               ],
-              "citations": 1234
+              "citations": 975
             }
           ]
         },
@@ -14295,7 +14374,7 @@
                 "Spatial & Geo",
                 "Spatial Econometrics"
               ],
-              "citations": 2890
+              "citations": 2482
             },
             {
               "title": "Estimation and Inference of Heterogeneous Treatment Effects using Random Forests",
@@ -14307,7 +14386,7 @@
                 "Spatial & Geo",
                 "Spatial Econometrics"
               ],
-              "citations": 4567
+              "citations": 2467
             },
             {
               "title": "Geographic Boundaries as Regression Discontinuities",
@@ -14319,7 +14398,7 @@
                 "Spatial & Geo",
                 "Spatial Econometrics"
               ],
-              "citations": 567
+              "citations": 354
             }
           ]
         },
@@ -14374,7 +14453,7 @@
                 "Spatial & Geo",
                 "Mapping & Geocoding"
               ],
-              "citations": 42
+              "citations": 13
             },
             {
               "title": "Probabilistic Record Linkage and a Method to Calculate the Positive Predictive Value",
@@ -14386,7 +14465,7 @@
                 "Spatial & Geo",
                 "Mapping & Geocoding"
               ],
-              "citations": 350
+              "citations": 220
             }
           ]
         },
@@ -14468,7 +14547,7 @@
                 "Spatial & Geo",
                 "Mobility & Movement Patterns"
               ],
-              "citations": 1124
+              "citations": 724
             },
             {
               "title": "Creating Synthetic Baseline Populations",
@@ -14480,7 +14559,7 @@
                 "Spatial & Geo",
                 "Mobility & Movement Patterns"
               ],
-              "citations": 825
+              "citations": 490
             },
             {
               "title": "Comprehensive Econometric Microsimulator for Daily Activity-Travel Patterns",
@@ -14492,7 +14571,7 @@
                 "Spatial & Geo",
                 "Mobility & Movement Patterns"
               ],
-              "citations": 450
+              "citations": 37
             }
           ]
         }
