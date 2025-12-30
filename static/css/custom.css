@@ -2461,6 +2461,49 @@ a:hover {
     transform: translateY(-1px);
 }
 
+/* Homepage Subscribe Form */
+.homepage-subscribe-form {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.homepage-subscribe-form .subscribe-input {
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 8px;
+    background: rgba(255,255,255,0.1);
+    color: white;
+    outline: none;
+    width: 200px;
+}
+
+.homepage-subscribe-form .subscribe-input::placeholder {
+    color: rgba(255,255,255,0.6);
+}
+
+.homepage-subscribe-form .subscribe-input:focus {
+    border-color: rgba(255,255,255,0.4);
+    background: rgba(255,255,255,0.15);
+}
+
+.homepage-subscribe-form .cta-button {
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .homepage-subscribe-form {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .homepage-subscribe-form .subscribe-input {
+        width: 100%;
+    }
+}
+
 /* Section Grid */
 .section-grid {
     display: grid;
