@@ -1091,7 +1091,7 @@
       this.flatResults = [];
       this.parsedQuery = null;
       this.rawQuery = '';
-      this.hideFilterChips();
+      // Don't hide filter chips - showHint shows default chips
       this.clearExpandedTerms();
       this.hideExplanationPanel();
       return;
@@ -1206,77 +1206,52 @@
     // Apply sort order to filtered results
     var sortedResults = this.sortResults(filteredResults, this.currentSortOrder);
 
-    // Group sorted results by type
-    var grouped = {};
-    sortedResults.forEach(function(result) {
-      var type = result.type;
-      if (!grouped[type]) grouped[type] = [];
-      grouped[type].push(result);
-    });
-
     // Filter results if a type is selected
-    var filteredGrouped = grouped;
+    var displayResults = sortedResults;
     if (this.currentTypeFilter !== 'all') {
-      filteredGrouped = {};
-      if (grouped[this.currentTypeFilter]) {
-        filteredGrouped[this.currentTypeFilter] = grouped[this.currentTypeFilter];
-      }
+      displayResults = sortedResults.filter(function(result) {
+        return result.type === self.currentTypeFilter;
+      });
     }
 
     var html = '';
     this.flatResults = [];
-    var globalIndex = 0;
 
-    // Order of types
-    var typeOrder = ['paper', 'package', 'dataset', 'resource', 'book', 'talk', 'career', 'community', 'roadmap', 'domain'];
+    // Render flat list sorted by relevance (no type grouping)
+    displayResults.forEach(function(result, index) {
+      var isSelected = index === self.selectedIndex;
+      self.flatResults.push(result);
 
-    typeOrder.forEach(function(type) {
-      if (!filteredGrouped[type]) return;
+      var typeConfig = TYPE_CONFIG[result.type] || { label: result.type, icon: 'file', color: '#666' };
 
-      var typeConfig = TYPE_CONFIG[type] || { label: type, icon: 'file', color: '#666' };
-
-      html += '<div class="result-group">';
-      html += '<div class="result-group-header">';
-      html += '<span class="result-type-label">' + typeConfig.label + 's</span>';
-      html += '</div>';
-
-      filteredGrouped[type].forEach(function(result) {
-        var isSelected = globalIndex === self.selectedIndex;
-        self.flatResults.push(result);
-
-        html += '<a href="' + escapeHtml(result.url) + '" ';
-        html += 'class="result-item' + (isSelected ? ' selected' : '') + '" ';
-        html += 'data-index="' + globalIndex + '" ';
-        html += 'target="_blank" rel="noopener">';
-        html += '<div class="result-content">';
-        html += '<span class="result-name">' + highlightTextEnhanced(result.name, query) + '</span>';
-        // Use contextual snippets for descriptions
-        var snippet = generateSnippet(result.description, query, 180);
-        html += '<span class="result-description">' + highlightTextEnhanced(snippet, query) + '</span>';
-        // Show tags if available
-        if (result.tags) {
-          var tagsArr = typeof result.tags === 'string' ? result.tags.split(',').map(function(t) { return t.trim(); }) : result.tags;
-          if (tagsArr.length > 0) {
-            html += '<span class="result-tags">' + escapeHtml(tagsArr.slice(0, 3).join(' · ')) + '</span>';
-          }
+      html += '<a href="' + escapeHtml(result.url) + '" ';
+      html += 'class="result-item' + (isSelected ? ' selected' : '') + '" ';
+      html += 'data-index="' + index + '" ';
+      html += 'target="_blank" rel="noopener">';
+      html += '<div class="result-content">';
+      html += '<span class="result-name">' + highlightTextEnhanced(result.name, query) + '</span>';
+      // Use contextual snippets for descriptions
+      var snippet = generateSnippet(result.description, query, 180);
+      html += '<span class="result-description">' + highlightTextEnhanced(snippet, query) + '</span>';
+      // Show tags if available
+      if (result.tags) {
+        var tagsArr = typeof result.tags === 'string' ? result.tags.split(',').map(function(t) { return t.trim(); }) : result.tags;
+        if (tagsArr.length > 0) {
+          html += '<span class="result-tags">' + escapeHtml(tagsArr.slice(0, 3).join(' · ')) + '</span>';
         }
-        html += '</div>';
-        html += '<div class="result-meta">';
-        html += '<span class="result-type-badge" style="background-color:' + typeConfig.color + '">' + typeConfig.label + '</span>';
-        html += '<span class="result-category">' + escapeHtml(result.category) + '</span>';
-        html += '</div>';
-        html += '<button class="result-explain-btn" data-index="' + globalIndex + '" title="Explain why this result matches">';
-        html += '<svg viewBox="0 0 24 24" width="12" height="12"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"/></svg>';
-        html += '</button>';
-        html += '<button class="more-like-this-btn" data-item-id="' + escapeHtml(result.id) + '" data-item-name="' + escapeHtml(result.name) + '" title="Find similar items">';
-        html += '<svg viewBox="0 0 24 24" width="14" height="14"><circle cx="12" cy="12" r="3" fill="currentColor"/><circle cx="5" cy="12" r="2" fill="currentColor" opacity="0.6"/><circle cx="19" cy="12" r="2" fill="currentColor" opacity="0.6"/></svg>';
-        html += '</button>';
-        html += '</a>';
-
-        globalIndex++;
-      });
-
+      }
       html += '</div>';
+      html += '<div class="result-meta">';
+      html += '<span class="result-type-badge" style="background-color:' + typeConfig.color + '">' + typeConfig.label + '</span>';
+      html += '<span class="result-category">' + escapeHtml(result.category) + '</span>';
+      html += '</div>';
+      html += '<button class="result-explain-btn" data-index="' + index + '" title="Explain why this result matches">';
+      html += '<svg viewBox="0 0 24 24" width="12" height="12"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"/></svg>';
+      html += '</button>';
+      html += '<button class="more-like-this-btn" data-item-id="' + escapeHtml(result.id) + '" data-item-name="' + escapeHtml(result.name) + '" title="Find similar items">';
+      html += '<svg viewBox="0 0 24 24" width="14" height="14"><circle cx="12" cy="12" r="3" fill="currentColor"/><circle cx="5" cy="12" r="2" fill="currentColor" opacity="0.6"/><circle cx="19" cy="12" r="2" fill="currentColor" opacity="0.6"/></svg>';
+      html += '</button>';
+      html += '</a>';
     });
 
     this.resultsContainer.innerHTML = html;
@@ -1650,11 +1625,12 @@
     var self = this;
     this.emptyState.style.display = 'none';
     this.hint.style.display = 'none';
-    if (this.filtersContainer) this.filtersContainer.style.display = 'none';
     var sortContainer = document.getElementById('global-search-sort');
     if (sortContainer) sortContainer.style.display = 'none';
-    this.currentTypeFilter = 'all';  // Reset filter
     this.currentSortOrder = 'relevance';  // Reset sort
+
+    // Show default filter chips (before searching)
+    this.showDefaultFilterChips();
 
     var recent = this.getRecentSearches();
     var html = '';
@@ -1708,6 +1684,49 @@
         self.showHint();
       });
     }
+  };
+
+  /**
+   * Show default filter chips before searching
+   */
+  UnifiedSearch.prototype.showDefaultFilterChips = function() {
+    var self = this;
+    if (!this.filtersContainer) return;
+
+    var typeOrder = ['paper', 'package', 'dataset', 'resource', 'book', 'talk', 'career', 'community'];
+    var html = '';
+
+    // All filter (default active)
+    var allActive = this.currentTypeFilter === 'all' ? ' active' : '';
+    html += '<button class="type-filter-chip' + allActive + '" data-type="all">All</button>';
+
+    // Type filters
+    typeOrder.forEach(function(type) {
+      var typeConfig = TYPE_CONFIG[type] || { label: type };
+      var isActive = self.currentTypeFilter === type ? ' active' : '';
+      html += '<button class="type-filter-chip' + isActive + '" data-type="' + type + '">';
+      html += typeConfig.label + 's';
+      html += '</button>';
+    });
+
+    this.filtersContainer.innerHTML = html;
+    this.filtersContainer.style.display = 'flex';
+
+    // Bind click handlers - clicking a filter before searching sets pre-filter
+    this.filtersContainer.querySelectorAll('.type-filter-chip').forEach(function(chip) {
+      chip.addEventListener('click', function() {
+        self.currentTypeFilter = this.dataset.type;
+        // Update active state visually
+        self.filtersContainer.querySelectorAll('.type-filter-chip').forEach(function(c) {
+          c.classList.remove('active');
+        });
+        this.classList.add('active');
+        // If there are results, re-render them with the new filter
+        if (self.currentResults && self.currentResults.length > 0) {
+          self.renderGlobalResults(self.currentResults, self.input.value.trim());
+        }
+      });
+    });
   };
 
   /**
