@@ -56,7 +56,7 @@
               "year": 2012,
               "tag": "Industry",
               "description": "The Poisson bootstrap replaces multinomial resampling with independent Poisson(1) weights for each observation. Enables single-pass streaming computation where you don't need to know n in advance, and each data shard can be processed independently. Built into Google's production analysis primitives.",
-              "url": "https://research.google/pubs/pub41854/",
+              "url": "https://research.google/pubs/estimating-uncertainty-for-massive-data-streams/",
               "tags": [
                 "Statistics",
                 "Bootstrap & Resampling Methods"
@@ -237,7 +237,7 @@
               "year": 2017,
               "tag": "Industry",
               "description": "Established modern Bayesian MMM paradigm now implemented in Google's LightweightMMM and Meridian. Key innovations: flexible functional forms for adstock decay and saturation, full Bayesian treatment propagating uncertainty to ROAS estimates. The starting point for marketing budget optimization at scale.",
-              "url": "https://research.google/pubs/pub46001/",
+              "url": "https://research.google/pubs/bayesian-methods-for-media-mix-modeling-with-carryover-and-shape-effects/",
               "tags": [
                 "Statistics",
                 "Bayesian Hierarchical Models"
@@ -793,7 +793,7 @@
               "authors": "Diane Tang, Ashish Agarwal, Deirdre O'Brien, Mike Meyer",
               "year": 2010,
               "description": "Google's infrastructure for running overlapping experiments, enabling hundreds of simultaneous tests without interference.",
-              "url": "https://research.google/pubs/pub36500/",
+              "url": "https://research.google.com/pubs/archive/36500.pdf",
               "tags": [
                 "Experimentation",
                 "A/B Test Design & Analysis"
@@ -848,7 +848,7 @@
               "authors": "Alex Deng, Ya Xu, Ron Kohavi, Toby Walker",
               "year": 2013,
               "description": "The CUPED method that uses pre-experiment covariates to dramatically reduce variance in experiment metrics.",
-              "url": "https://www.exp-platform.com/Documents/2013-02-CUPED-ImpsringSensitivityOfControlledExperiments.pdf",
+              "url": "https://robotics.stanford.edu/~ronnyk/2013-02CUPEDImprovingSensitivityOfControlledExperiments.pdf",
               "tags": [
                 "Experimentation",
                 "Variance Reduction"
@@ -1015,7 +1015,7 @@
               "authors": "Dean Eckles, Ren\u00e9 Kizilcec, Eytan Bakshy",
               "year": 2016,
               "description": "Two-stage randomization design for identifying peer effects in social networks.",
-              "url": "https://www.pnas.org/content/113/27/7316",
+              "url": "https://www.pnas.org/doi/10.1073/pnas.1511201113",
               "tags": [
                 "Experimentation",
                 "Interference & Spillovers"
@@ -1093,7 +1093,7 @@
               "authors": "Kay Brodersen, Fabian Gallusser, Jim Koehler, et al.",
               "year": 2015,
               "description": "Google's Bayesian structural time-series approach for measuring impact of geo-level interventions.",
-              "url": "https://research.google/pubs/pub41854/",
+              "url": "https://research.google/pubs/estimating-uncertainty-for-massive-data-streams/",
               "tags": [
                 "Experimentation",
                 "Switchback & Geo-Experiments"
@@ -1640,7 +1640,7 @@
               "authors": "S\u00f6ren K\u00fcnzel, Jasjeet Sekhon, Peter Bickel, Bin Yu",
               "year": 2019,
               "description": "Taxonomy of metalearners (S-learner, T-learner, X-learner) for CATE estimation.",
-              "url": "https://www.pnas.org/content/116/10/4156",
+              "url": "https://www.pnas.org/doi/10.1073/pnas.1804597116",
               "tags": [
                 "Observational Causal Inference",
                 "Double ML & Heterogeneous Effects"
@@ -5128,7 +5128,7 @@
               "authors": "Steven L. Scott, Hal R. Varian",
               "year": 2014,
               "description": "Google's BSTS framework for nowcasting with spike-and-slab regression for variable selection.",
-              "url": "https://research.google/pubs/pub41854/",
+              "url": "https://research.google/pubs/estimating-uncertainty-for-massive-data-streams/",
               "tags": [
                 "Forecasting",
                 "Causal Impact & Intervention"
