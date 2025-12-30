@@ -255,12 +255,46 @@
                     <p>Pricing optimization, supply chain, consumer behavior.</p>
                 </div>
 
+                <!-- Company Search -->
+                <div class="company-search-container">
+                    <input type="text" id="company-search" class="company-search-input" placeholder="Search companies...">
+                </div>
+
+                <!-- Additional Filters Row -->
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <span class="filter-label">Region:</span>
+                        <div class="region-pills">
+                            <button class="region-pill active" data-region="all">All</button>
+                            <button class="region-pill" data-region="us">US</button>
+                            <button class="region-pill" data-region="europe">Europe</button>
+                            <button class="region-pill" data-region="asia">Asia</button>
+                            <button class="region-pill" data-region="latam">LatAm</button>
+                        </div>
+                    </div>
+                    <div class="filter-group">
+                        <label class="economist-toggle">
+                            <input type="checkbox" id="economist-filter">
+                            <span class="toggle-label">Economist-friendly only</span>
+                        </label>
+                    </div>
+                </div>
+
                 <div class="companies-grid">
                     {{ range .Site.Data.career }}
                     {{ if and (eq .tab "find-jobs") (eq .subtab "companies") }}
-                    <a href="{{ .url }}" target="_blank" rel="noopener" class="company-card" data-sector="{{ .sector }}">
+                    {{ $region := "us" }}
+                    {{ $isEconomist := false }}
+                    {{ range .tags }}
+                        {{ if eq . "Europe" }}{{ $region = "europe" }}{{ end }}
+                        {{ if eq . "Asia" }}{{ $region = "asia" }}{{ end }}
+                        {{ if eq . "LatAm" }}{{ $region = "latam" }}{{ end }}
+                        {{ if eq . "economist-title" }}{{ $isEconomist = true }}{{ end }}
+                    {{ end }}
+                    <a href="{{ .url }}" target="_blank" rel="noopener" class="company-card" data-sector="{{ .sector }}" data-region="{{ $region }}" data-economist="{{ $isEconomist }}" data-name="{{ .name | lower }}">
                         <img class="favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
                         <span class="company-name">{{ .name }}</span>
+                        {{ if $isEconomist }}<span class="economist-badge" title="Explicit economist roles">🎓</span>{{ end }}
                     </a>
                     {{ end }}
                     {{ end }}
@@ -486,31 +520,70 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Sector filtering
+    // Company filtering (sector, region, economist, search)
     const sectorPills = document.querySelectorAll('.sector-pill');
+    const regionPills = document.querySelectorAll('.region-pill');
     const companyCards = document.querySelectorAll('.company-card');
     const sectorDescs = document.querySelectorAll('.sector-description');
+    const economistFilter = document.getElementById('economist-filter');
+    const companySearch = document.getElementById('company-search');
+
+    let currentSector = 'all';
+    let currentRegion = 'all';
+    let economistOnly = false;
+    let searchQuery = '';
+
+    function filterCompanies() {
+        companyCards.forEach(card => {
+            const matchesSector = currentSector === 'all' || card.dataset.sector === currentSector;
+            const matchesRegion = currentRegion === 'all' || card.dataset.region === currentRegion;
+            const matchesEconomist = !economistOnly || card.dataset.economist === 'true';
+            const matchesSearch = searchQuery === '' || card.dataset.name.includes(searchQuery);
+
+            if (matchesSector && matchesRegion && matchesEconomist && matchesSearch) {
+                card.style.display = '';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+
+        // Show/hide sector descriptions
+        sectorDescs.forEach(desc => {
+            desc.style.display = desc.id === 'sector-desc-' + currentSector ? 'block' : 'none';
+        });
+    }
 
     sectorPills.forEach(pill => {
         pill.addEventListener('click', function() {
-            const sector = this.dataset.sector;
+            currentSector = this.dataset.sector;
             sectorPills.forEach(p => p.classList.remove('active'));
             this.classList.add('active');
-
-            companyCards.forEach(card => {
-                if (sector === 'all' || card.dataset.sector === sector) {
-                    card.style.display = '';
-                } else {
-                    card.style.display = 'none';
-                }
-            });
-
-            // Show/hide sector descriptions
-            sectorDescs.forEach(desc => {
-                desc.style.display = desc.id === 'sector-desc-' + sector ? 'block' : 'none';
-            });
+            filterCompanies();
         });
     });
+
+    regionPills.forEach(pill => {
+        pill.addEventListener('click', function() {
+            currentRegion = this.dataset.region;
+            regionPills.forEach(p => p.classList.remove('active'));
+            this.classList.add('active');
+            filterCompanies();
+        });
+    });
+
+    if (economistFilter) {
+        economistFilter.addEventListener('change', function() {
+            economistOnly = this.checked;
+            filterCompanies();
+        });
+    }
+
+    if (companySearch) {
+        companySearch.addEventListener('input', function() {
+            searchQuery = this.value.toLowerCase();
+            filterCompanies();
+        });
+    }
 
     // Search functionality
     const searchInput = document.getElementById('career-search');
@@ -542,6 +615,105 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <style>
+/* Company Search */
+.company-search-container {
+    margin-bottom: 1rem;
+}
+
+.company-search-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.6rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background: var(--card-bg);
+    color: var(--text-color);
+    font-size: 0.95rem;
+}
+
+.company-search-input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+}
+
+/* Filter Row */
+.filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0.75rem 0;
+}
+
+.filter-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.filter-label {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+/* Region Pills */
+.region-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.region-pill {
+    padding: 0.35rem 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    background: var(--card-bg);
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.region-pill:hover {
+    border-color: var(--accent-color);
+    color: var(--text-color);
+}
+
+.region-pill.active {
+    background: var(--accent-color);
+    border-color: var(--accent-color);
+    color: white;
+}
+
+/* Economist Toggle */
+.economist-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.economist-toggle input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    accent-color: var(--accent-color);
+}
+
+.toggle-label {
+    user-select: none;
+}
+
+/* Economist Badge */
+.economist-badge {
+    font-size: 0.75rem;
+    margin-left: 0.25rem;
+}
+
 /* Sector Descriptions */
 .sector-description {
     background: var(--card-bg);
