@@ -9051,33 +9051,27 @@
     ],
     "domain": "Economics",
     "difficulty": "intermediate",
-    "prerequisites": [
-      "cohort-analysis",
-      "funnel-metrics",
-      "basic-econometrics"
-    ],
+    "prerequisites": [],
     "topic_tags": [
-      "network-effects",
-      "platform-metrics",
-      "growth-measurement",
-      "marketplace-economics",
-      "kpi-frameworks"
+      "Economics",
+      "Network Effects"
     ],
-    "summary": "A16z's framework for quantitatively measuring network effects in platform businesses, distinguishing them from virality and scale effects. Provides practical KPI methodologies including density-based DAU/MAU ratios, organic vs paid user acquisition metrics, and market-by-market unit economics for multi-sided platforms.",
-    "use_cases": [
-      "Product manager at a marketplace needs to prove network effects are driving growth vs just viral marketing",
-      "Data scientist building dashboards to track platform health across different geographic markets"
-    ],
+    "summary": "This resource provides quantitative measurement frameworks for understanding network effects, virality, and scale. It is suitable for those interested in practical KPIs and market economics.",
+    "use_cases": [],
     "audience": [
-      "Mid-DS",
-      "Junior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "how to measure network effects quantitatively",
-      "difference between network effects and virality metrics",
-      "KPIs for marketplace platform growth",
-      "measuring multi-sided platform economics"
-    ]
+      "What are network effects?",
+      "How to measure virality in a product?",
+      "What KPIs should I track for network effects?",
+      "What is the difference between DAU and MAU?",
+      "How does multi-tenanting impact network effects?",
+      "What are organic vs. paid ratios?",
+      "How to analyze market-by-market unit economics?",
+      "What frameworks exist for measuring network effects?"
+    ],
+    "content_format": "blog series"
   },
   {
     "name": "QuantEcon: Discrete State Dynamic Programming",
@@ -9093,31 +9087,35 @@
     "domain": "Economics",
     "difficulty": "intermediate",
     "prerequisites": [
-      "python-programming",
-      "linear-algebra",
-      "optimization-theory"
+      "python-basics"
     ],
     "topic_tags": [
       "dynamic-programming",
-      "bellman-equation",
-      "value-iteration",
-      "jupyter-notebooks",
-      "computational-economics"
+      "economics"
     ],
-    "summary": "Comprehensive tutorial on discrete state dynamic programming with rigorous mathematical foundations and practical implementation. Covers the Bellman equation, value and policy iteration algorithms, and contraction mapping theory with runnable Python code. Essential resource for economists and data scientists working on sequential decision problems.",
+    "summary": "This resource provides a comprehensive introduction to discrete state dynamic programming in economics, focusing on the Bellman equation and various solution methods. It is suitable for learners with a basic understanding of Python and an interest in computational economics.",
     "use_cases": [
-      "Modeling optimal investment decisions over time with uncertainty",
-      "Solving inventory management problems with stochastic demand"
+      "when to learn dynamic programming for economic models"
     ],
     "audience": [
       "Early-PhD",
+      "Junior-DS",
       "Mid-DS"
     ],
     "synthetic_questions": [
-      "dynamic programming bellman equation tutorial",
-      "value iteration policy iteration python implementation",
-      "discrete state DP economics jupyter notebook",
-      "stochastic optimal growth model code"
+      "What is dynamic programming in economics?",
+      "How to implement the Bellman equation in Python?",
+      "What are value and policy iteration methods?",
+      "What is the DiscreteDP class in QuantEcon?",
+      "How does contraction mapping apply to dynamic programming?",
+      "What are the applications of stochastic optimal growth?",
+      "Where can I find runnable Jupyter notebooks for dynamic programming?",
+      "What are the prerequisites for learning dynamic programming in economics?"
+    ],
+    "content_format": "tutorial",
+    "skill_progression": [
+      "understanding of dynamic programming concepts",
+      "ability to implement algorithms in Python"
     ]
   },
   {
@@ -9132,33 +9130,39 @@
       "IO"
     ],
     "domain": "Economics",
-    "difficulty": "advanced",
+    "difficulty": "intermediate",
     "prerequisites": [
-      "industrial-organization",
-      "python-numpy",
-      "gmm-estimation"
+      "python-basics"
     ],
     "topic_tags": [
-      "blp-estimation",
-      "demand-modeling",
-      "industrial-organization",
-      "python-implementation",
-      "gmm"
+      "economics",
+      "IO"
     ],
-    "summary": "A comprehensive tutorial on Berry-Levinsohn-Pakes (BLP) demand estimation methodology, covering the complete workflow from theoretical foundations to practical implementation. Explains share inversion, nested fixed-point algorithms, and instrument selection strategies with working Python code. Essential for researchers analyzing product markets and estimating demand elasticities in differentiated product industries.",
+    "summary": "This resource provides a clear understanding of BLP demand estimation from first principles, including practical implementation in Python. It is suitable for those interested in computational economics and demand estimation techniques.",
     "use_cases": [
-      "Estimating demand elasticities for products in differentiated markets like automobiles or cereals",
-      "Analyzing market power and competitive effects in merger simulations for antitrust policy"
+      "When learning about demand estimation techniques",
+      "When implementing economic models in Python"
     ],
     "audience": [
       "Early-PhD",
-      "Senior-DS"
+      "Junior-DS",
+      "Mid-DS"
     ],
     "synthetic_questions": [
-      "BLP demand estimation tutorial Python",
-      "how to implement Berry Levinsohn Pakes model",
-      "nested fixed point algorithm BLP step by step",
-      "instrument selection for demand estimation BLP"
+      "What is BLP demand estimation?",
+      "How to implement BLP in Python?",
+      "What are the steps for nested fixed-point estimation?",
+      "What is GMM estimation?",
+      "How to select instruments for BLP?",
+      "What are cost shifters in economics?",
+      "How to understand share inversion in demand models?",
+      "What are the principles of computational economics?"
+    ],
+    "content_format": "course",
+    "skill_progression": [
+      "Understanding of BLP demand estimation",
+      "Ability to implement economic models in Python",
+      "Knowledge of GMM estimation techniques"
     ]
   },
   {
@@ -9173,33 +9177,40 @@
       "IO"
     ],
     "domain": "Economics",
-    "difficulty": "intermediate",
+    "difficulty": "advanced",
     "prerequisites": [
       "multinomial-logit",
-      "maximum-likelihood-estimation",
-      "numerical-optimization"
+      "microeconomics"
     ],
     "topic_tags": [
-      "demand-estimation",
-      "blp-model",
+      "economics",
       "industrial-organization",
-      "structural-economics",
-      "mpec"
+      "demand-estimation"
     ],
-    "summary": "Comprehensive notes on demand estimation methods progressing from basic multinomial logit to the full Berry-Levinsohn-Pakes (BLP) model. Covers both mathematical foundation and computational implementation, including MPEC vs nested fixed-point approaches and extensions to micro BLP with second-choice data. Written as PhD field exam preparation material with intuitive examples.",
+    "summary": "This resource provides advanced insights into demand estimation techniques, particularly focusing on multinomial logit models and their applications in industrial organization. It is designed for PhD students preparing for field exams.",
     "use_cases": [
-      "PhD student preparing for industrial organization comprehensive exams",
-      "Researcher implementing BLP demand estimation for market structure analysis"
+      "preparing for PhD field exams",
+      "understanding demand estimation techniques",
+      "applying BLP models in research"
     ],
     "audience": [
-      "Early-PhD",
-      "Senior-DS"
+      "Early-PhD"
     ],
     "synthetic_questions": [
-      "BLP demand estimation tutorial",
-      "multinomial logit to BLP progression",
-      "MPEC vs nested fixed point BLP",
-      "red bus blue bus example demand estimation"
+      "What is multinomial logit?",
+      "How does Berry (1994) relate to demand estimation?",
+      "What is the difference between MPEC and nested fixed-point?",
+      "How to apply micro BLP with second-choice data?",
+      "What are the key concepts in demand estimation?",
+      "How can I prepare for my PhD field exam in economics?",
+      "What examples illustrate demand estimation techniques?",
+      "What are the implications of demand estimation in IO?"
+    ],
+    "content_format": "course",
+    "skill_progression": [
+      "understanding of multinomial logit models",
+      "application of BLP techniques",
+      "ability to analyze demand data"
     ]
   },
   {
@@ -9215,32 +9226,33 @@
     ],
     "domain": "Economics",
     "difficulty": "intermediate",
-    "prerequisites": [
-      "linear-regression",
-      "python-scikit-learn",
-      "difference-in-differences"
-    ],
+    "prerequisites": [],
     "topic_tags": [
       "causal-inference",
-      "machine-learning",
-      "econometrics",
-      "treatment-effects",
-      "video-lectures"
+      "machine-learning"
     ],
-    "summary": "Comprehensive 9-hour lecture series from Nobel laureate Guido Imbens and Susan Athey covering the intersection of machine learning and causal inference. Covers heterogeneous treatment effects, causal forests, policy learning, and when to use ML vs traditional econometric methods. Essential viewing for anyone applying ML methods to causal questions in economics or industry.",
-    "use_cases": [
-      "Estimating personalized treatment effects in A/B tests with machine learning",
-      "Learning policy optimization and causal forest implementation for heterogeneous effects"
-    ],
+    "summary": "This course covers the intersection of machine learning and econometrics, focusing on topics such as heterogeneous treatment effects and policy learning. It is designed for those interested in applying machine learning techniques to economic data analysis.",
+    "use_cases": [],
     "audience": [
-      "Mid-DS",
-      "Early-PhD"
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
     ],
     "synthetic_questions": [
-      "machine learning causal inference lectures",
-      "Athey Imbens econometrics course",
-      "causal forests heterogeneous treatment effects",
-      "ML vs econometrics when to use which"
+      "What is the difference between ML and causal inference?",
+      "How can LASSO and random forests be applied in economics?",
+      "What are heterogeneous treatment effects?",
+      "Who are Athey and Imbens in the context of econometrics?",
+      "What skills can I gain from a course on ML and econometrics?",
+      "How does policy learning relate to machine learning?",
+      "What are causal forests and how are they used?",
+      "What prerequisites do I need for a course on ML in economics?"
+    ],
+    "content_format": "video",
+    "estimated_duration": "9 hours",
+    "skill_progression": [
+      "Understanding of causal inference",
+      "Application of machine learning techniques in economics"
     ]
   },
   {
@@ -9256,32 +9268,38 @@
     ],
     "domain": "Economics",
     "difficulty": "advanced",
-    "prerequisites": [
-      "markov-decision-processes",
-      "linear-algebra",
-      "optimization-theory"
-    ],
+    "prerequisites": [],
     "topic_tags": [
       "dynamic-programming",
-      "reinforcement-learning",
-      "function-approximation",
-      "neuro-dynamic-programming",
-      "lectures"
+      "optimization"
     ],
-    "summary": "Advanced lecture series from Dimitri Bertsekas covering cutting-edge dynamic programming methods for large-scale problems. Focuses on approximate solutions, policy iteration with function approximation, and neuro-dynamic programming techniques. Essential for researchers working on reinforcement learning, optimal control, and complex sequential decision problems.",
+    "summary": "This resource covers advanced topics in dynamic programming, including approximation methods and policy iteration. It is suitable for learners looking to deepen their understanding of dynamic programming techniques.",
     "use_cases": [
-      "Building reinforcement learning models for large state spaces where exact DP is computationally infeasible",
-      "Developing optimal bidding strategies in ad auctions with complex state dynamics and function approximation"
+      "When tackling complex optimization problems",
+      "In reinforcement learning applications",
+      "For research in computational economics"
     ],
     "audience": [
-      "Senior-DS",
-      "Early-PhD"
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
     ],
     "synthetic_questions": [
-      "Bertsekas dynamic programming lectures",
-      "function approximation in reinforcement learning",
-      "neuro dynamic programming course",
-      "advanced DP methods for large problems"
+      "What is dynamic programming?",
+      "How to solve large-scale infinite horizon problems?",
+      "What are the applications of temporal difference methods?",
+      "What is neuro-dynamic programming?",
+      "How does policy iteration work with function approximation?",
+      "What are the key concepts in approximate dynamic programming?",
+      "Who is Bertsekas and why is he important in this field?",
+      "What are the challenges in learning dynamic programming?"
+    ],
+    "content_format": "video",
+    "estimated_duration": "12 hours",
+    "skill_progression": [
+      "advanced dynamic programming techniques",
+      "policy iteration methods",
+      "temporal difference learning"
     ]
   },
   {
@@ -9298,31 +9316,36 @@
     "domain": "Economics",
     "difficulty": "intermediate",
     "prerequisites": [
-      "python-pandas",
-      "maximum-likelihood-estimation",
-      "microeconomics-theory"
+      "python-basics"
     ],
     "topic_tags": [
       "structural-estimation",
-      "computational-economics",
-      "maximum-likelihood",
-      "jupyter-notebooks",
       "econometrics"
     ],
-    "summary": "University of Chicago course materials teaching structural estimation methods for economists, contrasting with reduced-form approaches. Covers maximum likelihood estimation, GMM, and Simulated Method of Moments with hands-on Python implementations. Provides complete GitHub repositories with Jupyter notebooks for practical learning of advanced econometric techniques.",
+    "summary": "This course covers structural versus reduced-form estimation methods, including Maximum Likelihood Estimation (MLE), Generalized Method of Moments (GMM), and the Simulated Method of Moments. It is designed for those interested in applying computational techniques to economic modeling.",
     "use_cases": [
-      "Estimating consumer demand models to understand price elasticity and market structure",
-      "Building dynamic models of firm investment decisions using structural parameters"
+      "When you want to learn about structural estimation methods in economics.",
+      "When you need practical implementations of econometric techniques."
     ],
     "audience": [
       "Early-PhD",
+      "Junior-DS",
       "Mid-DS"
     ],
     "synthetic_questions": [
-      "structural estimation python tutorial",
-      "MLE vs GMM econometrics course",
-      "computational economics jupyter notebooks",
-      "structural vs reduced form methods comparison"
+      "What is structural estimation?",
+      "How to implement MLE in Python?",
+      "What are the differences between structural and reduced-form models?",
+      "What is GMM and how is it used?",
+      "Where can I find Python implementations of structural estimation?",
+      "What are the applications of structural estimation in economics?",
+      "How to use Simulated Method of Moments?",
+      "What resources are available for learning computational economics?"
+    ],
+    "content_format": "course",
+    "skill_progression": [
+      "Understanding of structural estimation methods",
+      "Ability to implement econometric models in Python"
     ]
   },
   {
@@ -9337,33 +9360,39 @@
       "Time Series"
     ],
     "domain": "Forecasting & Time Series",
-    "difficulty": "beginner",
+    "difficulty": "intermediate",
     "prerequisites": [
-      "python-basics",
-      "pandas-dataframes",
-      "basic-statistics"
+      "python-basics"
     ],
     "topic_tags": [
-      "time-series-analysis",
-      "forecasting-models",
-      "youtube-tutorials",
-      "jupyter-notebooks",
-      "visual-learning"
+      "time-series",
+      "forecasting",
+      "statistics"
     ],
-    "summary": "Visual YouTube series teaching time series fundamentals through hand-drawn diagrams before diving into code implementation. Covers classical forecasting methods like ARIMA and GARCH with accompanying GitHub notebooks that explain the intuition behind each technique.",
+    "summary": "This resource provides a comprehensive understanding of time series analysis through hand-drawn diagrams and practical coding examples. It is suitable for learners who want to grasp the concepts behind various time series models and their applications.",
     "use_cases": [
-      "Learning time series forecasting for first data science project involving sales or demand prediction",
-      "Understanding stationarity concepts before implementing ARIMA models for financial data analysis"
+      "when to understand time series forecasting",
+      "when to learn about ARIMA and GARCH models"
     ],
     "audience": [
       "Junior-DS",
+      "Mid-DS",
       "Curious-browser"
     ],
     "synthetic_questions": [
-      "beginner time series analysis tutorial with code",
-      "ARIMA SARIMA explained visually with examples",
-      "time series forecasting YouTube course with notebooks",
-      "learn ACF PACF for time series analysis"
+      "What are the key concepts in time series analysis?",
+      "How to implement ARIMA models in Python?",
+      "What is the difference between AR and MA models?",
+      "How to visualize ACF and PACF?",
+      "What are the applications of GARCH models?",
+      "Where can I find Jupyter notebooks for time series forecasting?",
+      "What resources explain time series stationarity?",
+      "How to use SARIMA for forecasting?"
+    ],
+    "content_format": "video",
+    "skill_progression": [
+      "understanding of AR, MA, ARMA, ARIMA, SARIMA models",
+      "ability to implement time series models in Python"
     ]
   },
   {
@@ -9378,33 +9407,38 @@
       "Time Series"
     ],
     "domain": "Forecasting & Time Series",
-    "difficulty": "beginner",
-    "prerequisites": [
-      "time-series-basics",
-      "autoregression-concepts",
-      "moving-averages"
-    ],
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "ACF-PACF",
-      "ARIMA-modeling",
-      "pattern-recognition",
-      "model-selection",
-      "visual-diagnostics"
+      "forecasting",
+      "time series",
+      "statistics"
     ],
-    "summary": "A tutorial using synthetic datasets to teach pattern recognition in ACF and PACF plots for time series model identification. Provides clear decision rules for determining AR and MA orders through visual inspection. Essential skill for classical time series analysis before fitting ARIMA models.",
+    "summary": "This tutorial demonstrates how to interpret ACF and PACF plots using synthetic data, helping learners identify model types based on patterns. It is suitable for those looking to enhance their pattern recognition skills in time series analysis.",
     "use_cases": [
-      "Identifying appropriate ARIMA model order before forecasting sales or demand data",
-      "Diagnosing time series structure in A/B test metrics with temporal dependencies"
+      "When to use ACF and PACF for model selection",
+      "Understanding time series data patterns",
+      "Improving forecasting accuracy"
     ],
     "audience": [
-      "Early-PhD",
-      "Junior-DS"
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "how to read ACF PACF plots",
-      "ARIMA model selection using correlograms",
-      "interpreting autocorrelation plots for time series",
-      "AR MA order identification visual guide"
+      "What are ACF and PACF plots?",
+      "How do I select AR/MA orders?",
+      "What patterns indicate different model types?",
+      "How can I improve my pattern recognition skills?",
+      "What is the significance of synthetic data in time series analysis?",
+      "Where can I find examples of ACF and PACF plots?",
+      "How do I apply ACF and PACF in forecasting?",
+      "What are the decision rules for AR/MA order selection?"
+    ],
+    "content_format": "tutorial",
+    "skill_progression": [
+      "Pattern recognition in time series",
+      "Understanding model selection criteria"
     ]
   },
   {
@@ -9421,31 +9455,38 @@
     "domain": "Forecasting & Time Series",
     "difficulty": "intermediate",
     "prerequisites": [
-      "python-pandas",
-      "time-series-analysis",
-      "statsmodels"
+      "python-basics"
     ],
     "topic_tags": [
-      "seasonal-decomposition",
-      "MSTL",
-      "LOESS-smoothing",
-      "time-series",
-      "electricity-demand"
+      "forecasting",
+      "decomposition",
+      "statistics"
     ],
-    "summary": "Deep dive into MSTL (Multiple Seasonal-Trend decomposition using Loess) written by the original contributor to statsmodels. Covers STL algorithm internals, LOESS smoothing foundations, and practical comparisons to Prophet and TBATS. Includes step-by-step implementation with electricity demand forecasting example.",
+    "summary": "This tutorial covers the MSTL algorithm and its internals, along with LOESS smoothing foundations. It is designed for those interested in advanced forecasting techniques and their applications.",
     "use_cases": [
-      "Decomposing electricity demand with daily and weekly seasonality",
-      "Analyzing retail sales data with multiple seasonal patterns"
+      "When to use MSTL for time series analysis",
+      "Applying decomposition methods to forecasting problems"
     ],
     "audience": [
+      "Junior-DS",
       "Mid-DS",
       "Senior-DS"
     ],
     "synthetic_questions": [
-      "MSTL implementation Python statsmodels",
-      "multiple seasonal decomposition electricity demand",
-      "STL vs Prophet vs TBATS comparison",
-      "LOESS smoothing time series decomposition"
+      "What is the MSTL algorithm?",
+      "How does LOESS smoothing work?",
+      "What are the differences between MSTL and Prophet?",
+      "How can I apply MSTL to electricity demand forecasting?",
+      "What are the steps in the MSTL algorithm?",
+      "What is the role of decomposition in forecasting?",
+      "How does MSTL compare to TBATS?",
+      "What prerequisites do I need for this tutorial?"
+    ],
+    "content_format": "tutorial",
+    "skill_progression": [
+      "Understanding of MSTL algorithm",
+      "Ability to implement LOESS smoothing",
+      "Knowledge of forecasting techniques"
     ]
   },
   {
@@ -9462,31 +9503,36 @@
     "domain": "Forecasting & Time Series",
     "difficulty": "intermediate",
     "prerequisites": [
-      "python-pandas",
-      "gradient-boosting",
-      "time-series-fundamentals"
+      "python-basics"
     ],
     "topic_tags": [
-      "lightgbm",
-      "m5-competition",
-      "time-series-forecasting",
-      "feature-engineering",
-      "jupyter-book"
+      "machine-learning",
+      "forecasting"
     ],
-    "summary": "A comprehensive Jupyter Book demonstrating LightGBM for time series forecasting using the M5 competition dataset. Covers feature engineering techniques like lags and rolling windows, compares recursive vs. direct forecasting approaches, and includes hyperparameter optimization. Achieves MAE of 200.5 compared to 698.0 naive baseline with fully runnable code examples.",
+    "summary": "This resource provides a comprehensive guide to using LightGBM for time series forecasting, including techniques like feature engineering and hyperparameter tuning. It is suitable for those with some experience in machine learning who want to deepen their understanding of forecasting methods.",
     "use_cases": [
-      "Building demand forecasting models for retail inventory planning",
-      "Creating sales prediction systems with gradient boosting methods"
+      "When learning about time series forecasting techniques",
+      "When implementing LightGBM for predictive modeling"
     ],
     "audience": [
       "Junior-DS",
       "Mid-DS"
     ],
     "synthetic_questions": [
-      "lightgbm time series forecasting tutorial",
-      "m5 competition lightgbm solution",
-      "feature engineering for time series with gradient boosting",
-      "recursive vs direct forecasting lightgbm"
+      "What is LightGBM?",
+      "How to implement feature engineering in time series?",
+      "What are the advantages of recursive vs. direct forecasting?",
+      "How to tune hyperparameters for LightGBM?",
+      "What is the MAE in forecasting?",
+      "How to use Jupyter Book for interactive tutorials?",
+      "What is the naive baseline in forecasting?",
+      "Where can I find the Time Series Handbook?"
+    ],
+    "content_format": "tutorial",
+    "skill_progression": [
+      "Understanding of LightGBM",
+      "Ability to implement time series forecasting",
+      "Skills in feature engineering techniques"
     ]
   },
   {
@@ -9502,32 +9548,33 @@
     ],
     "domain": "Forecasting & Time Series",
     "difficulty": "intermediate",
-    "prerequisites": [
-      "scikit-learn",
-      "time-series-analysis",
-      "python-pandas"
-    ],
+    "prerequisites": [],
     "topic_tags": [
-      "time-series",
-      "cross-validation",
-      "forecasting",
-      "model-evaluation",
-      "sklearn"
+      "machine-learning",
+      "cross-validation"
     ],
-    "summary": "A cross-validation technique specifically designed for time series data that prevents data leakage by creating time-based blocks instead of random splits. Provides more realistic performance estimates for production forecasting models compared to standard expanding window approaches. Essential for anyone building time-dependent predictive models in tech environments.",
+    "summary": "This tutorial addresses the critical issue of overly optimistic estimates produced by expanding window cross-validation. It provides drop-in sklearn-compatible code and explains why blocked cross-validation gives realistic production performance estimates, making it suitable for practitioners looking to improve their forecasting methods.",
     "use_cases": [
-      "Evaluating demand forecasting models for e-commerce inventory management",
-      "Validating user engagement prediction models with sequential behavioral data"
+      "When to use blocked time series cross-validation for forecasting"
     ],
     "audience": [
       "Junior-DS",
       "Mid-DS"
     ],
     "synthetic_questions": [
-      "time series cross validation sklearn",
-      "blocked cv forecasting models",
-      "how to evaluate time series models properly",
-      "cross validation temporal data leakage"
+      "What is blocked time series cross-validation?",
+      "How does blocked CV improve performance estimates?",
+      "When should I use blocked CV?",
+      "What are the advantages of using sklearn-compatible code?",
+      "How does expanding window CV differ from blocked CV?",
+      "What are the best practices for time series forecasting?",
+      "How can I implement blocked CV in my projects?",
+      "What resources are available for learning about cross-validation?"
+    ],
+    "content_format": "tutorial",
+    "skill_progression": [
+      "Understanding of cross-validation techniques",
+      "Ability to implement blocked CV in Python"
     ]
   },
   {
@@ -9543,32 +9590,32 @@
     ],
     "domain": "Forecasting & Time Series",
     "difficulty": "intermediate",
-    "prerequisites": [
-      "time-series-analysis",
-      "lightgbm",
-      "neural-networks"
-    ],
+    "prerequisites": [],
     "topic_tags": [
-      "forecasting",
-      "competition-analysis",
-      "lightgbm",
-      "neural-networks",
-      "hierarchical-forecasting"
+      "machine-learning",
+      "forecasting"
     ],
-    "summary": "Comprehensive analysis of the M5 forecasting competition results from over 5,500 teams predicting 42,840 time series. Shows when machine learning methods outperform statistical approaches and compares popular models like LightGBM, N-BEATS, and seq2seq. Provides practical guidance for choosing forecasting methods based on data characteristics.",
-    "use_cases": [
-      "Selecting appropriate forecasting methods for retail demand prediction with hierarchical product categories",
-      "Benchmarking ML vs statistical approaches for multi-series forecasting problems"
-    ],
+    "summary": "This resource synthesizes insights from a large-scale competition involving time series analysis. It is aimed at those interested in understanding the effectiveness of machine learning techniques compared to traditional statistical methods.",
+    "use_cases": [],
     "audience": [
+      "Junior-DS",
       "Mid-DS",
       "Senior-DS"
     ],
     "synthetic_questions": [
-      "when does machine learning beat statistical forecasting",
-      "M5 competition winning solutions comparison",
-      "lightgbm vs n-beats for time series forecasting",
-      "hierarchical forecasting best practices from competitions"
+      "What are the key findings from the M5 competition?",
+      "How does LightGBM compare to N-BEATS?",
+      "What machine learning techniques are effective for time series forecasting?",
+      "What are the advantages of using ML over statistical methods?",
+      "How do correlated series affect forecasting accuracy?",
+      "What insights can be gained from analyzing 5,558 teams?",
+      "What is the hierarchical structure in time series analysis?",
+      "What are exogenous variables in forecasting?"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "understanding machine learning techniques for forecasting",
+      "comparing different models for time series analysis"
     ]
   },
   {
@@ -9585,31 +9632,37 @@
     "domain": "Forecasting & Time Series",
     "difficulty": "intermediate",
     "prerequisites": [
-      "python-tensorflow",
-      "neural-networks",
-      "time-series-basics"
+      "python-basics"
     ],
     "topic_tags": [
-      "time-series-forecasting",
-      "tensorflow",
-      "LSTM",
-      "CNN",
-      "tutorial"
+      "deep-learning",
+      "time-series-forecasting"
     ],
-    "summary": "A comprehensive TensorFlow tutorial that teaches time series forecasting by building increasingly complex models from linear regression to LSTMs. Includes production-ready code, baseline comparisons, and guidance on when deep learning approaches are justified over simpler methods.",
+    "summary": "This tutorial teaches you how to build time series forecasting models using TensorFlow, starting from basic linear models to advanced LSTM networks. It is designed for learners who want to understand the incremental building of models and assess the complexity of deep learning in forecasting.",
     "use_cases": [
-      "Forecasting product demand or user engagement metrics at a tech company",
-      "Building predictive models for financial time series or sensor data"
+      "when to build forecasting models",
+      "assessing model complexity in forecasting"
     ],
     "audience": [
       "Junior-DS",
-      "Mid-DS"
+      "Mid-DS",
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "tensorflow time series forecasting tutorial",
-      "how to build LSTM models for forecasting",
-      "deep learning vs linear models time series",
-      "production tensorflow forecasting code"
+      "How to use TensorFlow for time series forecasting?",
+      "What are the steps to build a forecasting model in TensorFlow?",
+      "Can I run TensorFlow tutorials in Colab?",
+      "What is the difference between CNN and LSTM for forecasting?",
+      "How to assess if deep learning is worth the complexity?",
+      "What are baseline comparisons in forecasting models?",
+      "What are the prerequisites for learning TensorFlow?",
+      "Where can I find TensorFlow tutorials?"
+    ],
+    "content_format": "tutorial",
+    "skill_progression": [
+      "building forecasting models",
+      "understanding deep learning complexities",
+      "using TensorFlow for time series analysis"
     ]
   },
   {
@@ -9626,31 +9679,36 @@
     "domain": "Forecasting & Time Series",
     "difficulty": "intermediate",
     "prerequisites": [
-      "pytorch-basics",
-      "time-series-analysis",
-      "transformer-architecture"
+      "python-basics"
     ],
     "topic_tags": [
-      "temporal-fusion-transformer",
-      "time-series-forecasting",
-      "pytorch-forecasting",
-      "attention-mechanism",
-      "interpretable-ml"
+      "deep-learning",
+      "forecasting",
+      "transformers"
     ],
-    "summary": "Complete tutorial on Temporal Fusion Transformer (TFT), a state-of-the-art deep learning model for time series forecasting that handles multiple types of features and provides interpretability. Uses PyTorch Forecasting for implementation and shows how to leverage attention mechanisms and variable importance for explainable predictions. Includes guidance on when TFT is worth the complexity over simpler forecasting methods.",
+    "summary": "This tutorial provides an end-to-end guide on implementing the Temporal Fusion Transformer using PyTorch Forecasting. It is designed for individuals with some background in deep learning who want to understand how TFT can handle various types of features and outperform simpler methods.",
     "use_cases": [
-      "demand-forecasting-with-promotional-calendar-and-weather-data",
-      "financial-time-series-prediction-with-mixed-categorical-and-numerical-features"
+      "when to use TFT for forecasting tasks"
     ],
     "audience": [
+      "Junior-DS",
       "Mid-DS",
-      "Senior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "temporal fusion transformer tutorial pytorch",
-      "TFT time series forecasting implementation",
-      "interpretable deep learning forecasting with attention",
-      "when to use temporal fusion transformer vs simpler models"
+      "What is the Temporal Fusion Transformer?",
+      "How to implement TFT with PyTorch?",
+      "What features can be used in TFT?",
+      "When does TFT outperform simpler forecasting methods?",
+      "What is variable importance in TFT?",
+      "How does attention work in Temporal Fusion Transformer?",
+      "What are the benefits of using TFT for forecasting?"
+    ],
+    "content_format": "tutorial",
+    "skill_progression": [
+      "understanding of Temporal Fusion Transformer",
+      "ability to implement TFT in PyTorch",
+      "knowledge of variable importance and attention mechanisms"
     ]
   },
   {
@@ -9667,31 +9725,38 @@
     "domain": "Forecasting & Time Series",
     "difficulty": "intermediate",
     "prerequisites": [
-      "python-pandas",
-      "time-series-analysis",
-      "pytorch-basics"
+      "python-basics"
     ],
     "topic_tags": [
-      "time-series-forecasting",
-      "foundation-models",
-      "probabilistic-forecasting",
-      "gluonts",
-      "python-tutorial"
+      "deep-learning",
+      "time-series-analysis",
+      "probabilistic-forecasting"
     ],
-    "summary": "A comprehensive guide to modern foundation models for time series forecasting, comparing Lag-Llama, TimesFM, Moirai, and TimeGPT-1. Provides a decision framework for choosing between zero-shot predictions and fine-tuning approaches. Includes hands-on Python implementation using GluonTS for probabilistic forecasting with uncertainty quantification.",
+    "summary": "This tutorial covers the landscape of foundation models for time series forecasting, focusing on the Lag-Llama model and its applications. It is designed for individuals looking to enhance their understanding of forecasting techniques and model evaluation methods.",
     "use_cases": [
-      "Forecasting product demand across multiple SKUs without historical model training",
-      "Predicting user engagement metrics with confidence intervals for A/B test planning"
+      "When you need to forecast time series data with uncertainty quantification",
+      "When evaluating different foundation models for forecasting tasks"
     ],
     "audience": [
+      "Junior-DS",
       "Mid-DS",
-      "Junior-DS"
+      "Senior-DS"
     ],
     "synthetic_questions": [
-      "foundation models for time series forecasting",
-      "lag llama vs timesgpt comparison",
-      "zero shot time series forecasting python",
-      "probabilistic forecasting with uncertainty gluonts"
+      "What is Lag-Llama in time series forecasting?",
+      "How to implement probabilistic forecasts with uncertainty quantification?",
+      "What are the differences between zero-shot and fine-tuning in foundation models?",
+      "How can I use GluonTS for time series analysis?",
+      "What are the applications of foundation models in forecasting?",
+      "What skills can I gain from learning about Lag-Llama?",
+      "What is the decision framework for choosing between zero-shot and fine-tuning?",
+      "How do I get started with time series forecasting in Python?"
+    ],
+    "content_format": "tutorial",
+    "skill_progression": [
+      "Understanding of foundation models",
+      "Ability to implement time series forecasts",
+      "Knowledge of uncertainty quantification techniques"
     ]
   },
   {
@@ -9708,31 +9773,37 @@
     "domain": "Forecasting & Time Series",
     "difficulty": "intermediate",
     "prerequisites": [
-      "pytorch-transformers",
-      "time-series-analysis",
-      "transformer-architectures"
+      "python-basics"
     ],
     "topic_tags": [
-      "zero-shot-forecasting",
-      "foundation-models",
-      "time-series",
-      "model-efficiency",
-      "aws"
+      "deep-learning",
+      "forecasting",
+      "foundation-models"
     ],
-    "summary": "Chronos-Bolt is AWS's optimized version of the Chronos forecasting foundation model, built on T5 architecture with patching techniques. It delivers 250x speed improvement and 20x memory efficiency while maintaining competitive accuracy across 27 benchmark datasets. The model demonstrates how to effectively combine univariate foundation models with external features for zero-shot time series forecasting.",
+    "summary": "This resource explores the Chronos-Bolt model, which utilizes T5 architecture to achieve significant improvements in forecasting efficiency and accuracy. It is suitable for those interested in advanced forecasting techniques and the application of foundation models.",
     "use_cases": [
-      "Deploying fast forecasting models in production environments where latency and memory constraints are critical",
-      "Running zero-shot forecasting experiments across multiple time series without domain-specific training data"
+      "when to use this resource"
     ],
     "audience": [
       "Mid-DS",
-      "Senior-DS"
+      "Senior-DS",
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "fast zero shot time series forecasting",
-      "efficient transformer models for forecasting",
-      "chronos bolt vs original chronos performance",
-      "foundation models for time series with external features"
+      "What is Chronos-Bolt?",
+      "How does T5 architecture improve forecasting?",
+      "What are the efficiency-accuracy tradeoffs in Chronos-Bolt?",
+      "On how many datasets was Chronos-Bolt benchmarked?",
+      "What are univariate foundation models?",
+      "How can exogenous features enhance forecasting?",
+      "What is the significance of 250x faster performance?",
+      "In what scenarios should I use Chronos-Bolt?"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "understanding of T5 architecture",
+      "knowledge of forecasting techniques",
+      "ability to evaluate model efficiency"
     ]
   },
   {
@@ -9748,32 +9819,35 @@
     ],
     "domain": "Forecasting & Time Series",
     "difficulty": "intermediate",
-    "prerequisites": [
-      "time-series-analysis",
-      "python-pandas",
-      "statistical-modeling"
-    ],
+    "prerequisites": [],
     "topic_tags": [
-      "time-series-forecasting",
-      "production-systems",
-      "statistical-methods",
-      "marketplace-optimization",
-      "capacity-planning"
+      "machine-learning",
+      "statistics"
     ],
-    "summary": "Production-scale forecasting guide from Uber's M4 Competition winning team covering 15 million daily trips across 600+ cities. Provides practical framework for choosing between ML and statistical approaches in high-volume forecasting scenarios. Includes real-world applications for marketplace dynamics, capacity planning, and marketing optimization.",
+    "summary": "This resource provides an introduction to forecasting methods used by Uber, comparing machine learning and statistical approaches. It is suitable for those interested in production systems and decision-making in data-driven environments.",
     "use_cases": [
-      "Predicting demand surge patterns for ride-sharing platforms to optimize driver allocation",
-      "Forecasting customer acquisition volumes for marketing budget planning in two-sided marketplaces"
+      "capacity planning",
+      "marketing strategies",
+      "marketplace analysis"
     ],
     "audience": [
-      "Mid-DS",
-      "Junior-DS"
+      "Junior-DS",
+      "Mid-DS"
     ],
     "synthetic_questions": [
-      "How to choose between ML and statistical methods for forecasting",
-      "Production forecasting at scale like Uber",
-      "Time series forecasting for marketplace capacity planning",
-      "Real-world forecasting implementation best practices"
+      "What are the differences between ML and statistical methods in forecasting?",
+      "How does Uber utilize forecasting for capacity planning?",
+      "What are the use cases for forecasting in production systems?",
+      "What insights can be gained from analyzing 15 million trips per day?",
+      "How can I apply forecasting methods to marketing strategies?",
+      "What tools are used for forecasting in large-scale operations?",
+      "What are the key considerations in marketplace forecasting?",
+      "How does Uber's approach to forecasting differ from traditional methods?"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "forecasting techniques",
+      "decision-making in production systems"
     ]
   },
   {
@@ -9789,32 +9863,33 @@
     ],
     "domain": "Forecasting & Time Series",
     "difficulty": "intermediate",
-    "prerequisites": [
-      "time-series-forecasting",
-      "distributed-systems",
-      "workflow-orchestration"
-    ],
+    "prerequisites": [],
     "topic_tags": [
+      "production-systems",
       "backtesting",
-      "scalable-architecture",
-      "forecasting-systems",
-      "production-engineering",
-      "workflow-management"
+      "architecture"
     ],
-    "summary": "Uber's architecture for running ~10 million backtests across cities, time windows, model variants, and granularities. Uses Go and Cadence workflows to handle exponential growth beyond their original Omphalos framework. Shows how to scale forecasting validation from prototype to production at massive scale.",
-    "use_cases": [
-      "Building scalable backtesting infrastructure for demand forecasting across multiple markets",
-      "Designing distributed systems to validate time series models across thousands of parameter combinations"
-    ],
+    "summary": "This resource discusses the architecture for conducting approximately 10 million backtests and the evolution of the framework to accommodate exponential growth. It is aimed at engineers and data scientists interested in production systems and backtesting methodologies.",
+    "use_cases": [],
     "audience": [
+      "Junior-DS",
       "Mid-DS",
       "Senior-DS"
     ],
     "synthetic_questions": [
-      "how to scale backtesting for time series forecasting",
-      "uber backtesting architecture distributed systems",
-      "running millions of backtests production system",
-      "cadence workflows for model validation at scale"
+      "What is backtesting at scale?",
+      "How does Uber handle exponential growth in backtesting?",
+      "What are the key components of the architecture for backtesting?",
+      "What are the four backtesting vectors mentioned?",
+      "How do Go/Cadence workflows contribute to backtesting?",
+      "What is the evolution from the Omphalos framework?",
+      "What challenges are associated with backtesting millions of scenarios?",
+      "What insights can be gained from Uber's approach to backtesting?"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "understanding of backtesting frameworks",
+      "knowledge of production systems architecture"
     ]
   },
   {
@@ -9831,31 +9906,35 @@
     "domain": "Forecasting & Time Series",
     "difficulty": "intermediate",
     "prerequisites": [
-      "time-series-forecasting",
-      "ensemble-methods",
-      "python-scikit-learn"
+      "python-basics"
     ],
     "topic_tags": [
-      "ensemble-learning",
-      "time-series",
-      "production-forecasting",
-      "scalability",
-      "doordash"
+      "machine-learning",
+      "forecasting"
     ],
-    "summary": "DoorDash's ELITE framework combines multiple forecasting models to improve prediction accuracy while maintaining computational efficiency at scale. The system handles tens of thousands of forecasting targets simultaneously, making practical engineering tradeoffs between model complexity and operational requirements. It demonstrates how to operationalize ensemble methods for real-world time-series problems where perfect accuracy must be balanced against speed and cost constraints.",
+    "summary": "This resource covers the ELITE Ensemble Learning method for improving time-series estimation, focusing on the trade-offs between accuracy, speed, and cost. It is suitable for practitioners interested in practical engineering decisions in machine learning.",
     "use_cases": [
-      "Forecasting delivery demand across thousands of restaurant locations with varying traffic patterns",
-      "Predicting inventory needs for multiple product categories while managing computational costs in production"
+      "when to use ensemble learning for time-series forecasting"
     ],
     "audience": [
+      "Junior-DS",
       "Mid-DS",
       "Senior-DS"
     ],
     "synthetic_questions": [
-      "ensemble learning for time series forecasting at scale",
-      "DoorDash forecasting production system",
-      "how to balance accuracy vs speed in forecasting models",
-      "ensemble methods for thousands of time series targets"
+      "What is ELITE Ensemble Learning?",
+      "How does ensemble learning improve time-series estimation?",
+      "What are the trade-offs in accuracy vs. speed in machine learning?",
+      "When should I prioritize speed over accuracy?",
+      "How can I scale models to tens of thousands of targets?",
+      "What practical engineering decisions should I consider in machine learning?",
+      "What are the benefits of ensemble methods?",
+      "How does ELITE address cost in forecasting?"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "understanding ensemble learning techniques",
+      "applying machine learning to time-series data"
     ]
   },
   {
@@ -9871,32 +9950,35 @@
     ],
     "domain": "Forecasting & Time Series",
     "difficulty": "intermediate",
-    "prerequisites": [
-      "time-series-forecasting",
-      "python-pandas",
-      "supply-chain-basics"
-    ],
+    "prerequisites": [],
     "topic_tags": [
-      "demand-forecasting",
-      "supply-chain",
-      "multi-horizon-prediction",
-      "production-systems",
-      "instacart"
+      "forecasting",
+      "production"
     ],
-    "summary": "Instacart's end-to-end forecasting system that integrates demand prediction with supply planning and capacity decisions. The system handles multiple time horizons from hourly store-level forecasts to weeks-ahead acquisition planning. Key focus on balancing availability, shopper idleness, and unmet demand through coordinated forecasting.",
+    "summary": "This resource covers an end-to-end data science system focusing on forecasting and its integration with supply planning and capacity decisions. It is suitable for those interested in understanding key metrics and multi-horizon forecasting techniques.",
     "use_cases": [
-      "Building integrated forecasting systems for marketplace platforms with supply and demand matching",
-      "Designing multi-horizon prediction pipelines for retail operations with capacity constraints"
+      "when to understand forecasting in production systems",
+      "when to learn about supply planning integration"
     ],
     "audience": [
-      "Mid-DS",
-      "Senior-DS"
+      "Junior-DS",
+      "Mid-DS"
     ],
     "synthetic_questions": [
-      "instacart forecasting system architecture",
-      "multi-horizon demand forecasting production",
-      "supply chain forecasting integration",
-      "marketplace capacity planning forecasting"
+      "What is multi-horizon forecasting?",
+      "How does forecasting integrate with supply planning?",
+      "What are key metrics in production systems?",
+      "What is the importance of availability in supply chain?",
+      "How to measure unmet demand?",
+      "What is idleness in production?",
+      "How to forecast demand at a store level?",
+      "What are the best practices for capacity decisions?"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "understanding of forecasting techniques",
+      "knowledge of supply planning integration",
+      "ability to analyze key production metrics"
     ]
   },
   {
@@ -9912,32 +9994,38 @@
     ],
     "domain": "Forecasting & Time Series",
     "difficulty": "intermediate",
-    "prerequisites": [
-      "python-pandas",
-      "basic-regression",
-      "difference-in-differences"
-    ],
+    "prerequisites": [],
     "topic_tags": [
-      "time-series-causal-inference",
-      "synthetic-control",
-      "regression-discontinuity",
-      "panel-data",
-      "jupyter-notebooks"
+      "causal-inference",
+      "time-series",
+      "econometrics",
+      "machine-learning"
     ],
-    "summary": "A practical guide to causal inference methods specifically for time series and panel data, written by a Nubank economist. Covers difference-in-differences, synthetic controls, and regression discontinuity with time dimensions through executable Python notebooks. Bridges traditional econometric methods with modern machine learning implementation approaches.",
+    "summary": "This resource covers causal analysis techniques in panel data and time series, including DiD, synthetic controls, and RDD with a time dimension. It is designed for those interested in bridging econometrics and machine learning.",
     "use_cases": [
-      "Measuring impact of product feature launch on user engagement over time",
-      "Evaluating policy interventions using regional panel data with synthetic control groups"
+      "When to analyze causal relationships in time series data",
+      "When to apply econometric methods to machine learning problems"
     ],
     "audience": [
-      "Mid-DS",
-      "Junior-DS"
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
     ],
     "synthetic_questions": [
-      "time series causal inference python tutorial",
-      "synthetic control method implementation guide",
-      "difference in differences panel data python",
-      "causal analysis time series data practical examples"
+      "What is causal inference?",
+      "How to analyze panel data?",
+      "What are synthetic controls?",
+      "What is RDD in time series?",
+      "How to implement time series causal analysis?",
+      "What skills are needed for econometrics?",
+      "How to use executable notebooks for causal analysis?",
+      "What are the applications of causal inference in economics?"
+    ],
+    "content_format": "course",
+    "skill_progression": [
+      "Understanding of causal inference methods",
+      "Ability to analyze time series data",
+      "Familiarity with econometric techniques"
     ]
   },
   {
@@ -9953,32 +10041,33 @@
     ],
     "domain": "Forecasting & Time Series",
     "difficulty": "intermediate",
-    "prerequisites": [
-      "python-time-series",
-      "quantile-regression",
-      "cross-validation"
-    ],
+    "prerequisites": [],
     "topic_tags": [
-      "conformal-prediction",
-      "uncertainty-quantification",
-      "time-series",
       "forecasting",
-      "model-agnostic"
+      "uncertainty",
+      "statistics"
     ],
-    "summary": "Conformal prediction provides distribution-free uncertainty intervals for time series forecasts without assuming Gaussian errors. This model-agnostic approach works with any forecasting method and captures both model and data uncertainty. The MAPIE library provides practical implementation for Python users.",
+    "summary": "This resource provides a model-agnostic approach to uncertainty quantification in time series without relying on Gaussian assumptions. It is suitable for those interested in advanced forecasting methods.",
     "use_cases": [
-      "Creating prediction intervals for revenue forecasts when unsure about error distribution assumptions",
-      "Quantifying uncertainty in demand forecasting models for inventory planning decisions"
+      "When you need to quantify uncertainty in time series forecasts",
+      "When traditional methods fail due to non-Gaussian data"
     ],
     "audience": [
-      "Mid-DS",
-      "Senior-DS"
+      "Junior-DS",
+      "Mid-DS"
     ],
     "synthetic_questions": [
-      "How to create prediction intervals without Gaussian assumptions",
-      "Model agnostic uncertainty quantification time series",
-      "Conformal prediction vs bootstrap for forecasting",
-      "MAPIE conformal prediction tutorial"
+      "What are conformal prediction intervals?",
+      "How to quantify uncertainty in time series?",
+      "What is a model-agnostic approach to forecasting?",
+      "How does MAPIE implementation work?",
+      "What are the limitations of bootstrap methods?",
+      "When should I use conformal prediction intervals?"
+    ],
+    "content_format": "tutorial",
+    "skill_progression": [
+      "Understanding of uncertainty quantification",
+      "Ability to apply model-agnostic forecasting methods"
     ]
   },
   {
@@ -9995,31 +10084,37 @@
     "domain": "Forecasting & Time Series",
     "difficulty": "intermediate",
     "prerequisites": [
-      "python-pandas",
-      "scikit-learn",
-      "time-series-basics"
+      "python-basics"
     ],
     "topic_tags": [
       "anomaly-detection",
       "time-series",
-      "outlier-detection",
-      "data-preprocessing",
-      "forecasting-prep"
+      "forecasting"
     ],
-    "summary": "A comprehensive guide to detecting anomalies in time series data, covering both point and subsequence outliers. Progresses from simple statistical methods like STL decomposition to advanced techniques including Isolation Forest and neural autoencoders, with practical PyOD implementations for data scientists preparing forecasting pipelines.",
+    "summary": "This tutorial covers various methods for anomaly detection in time series data, ranging from simple to complex techniques. It is designed for those looking to enhance their data cleaning processes before forecasting.",
     "use_cases": [
-      "Cleaning historical sales data before building demand forecasting models",
-      "Identifying unusual user behavior patterns in app usage metrics before A/B testing"
+      "pre-forecasting data cleaning",
+      "detecting anomalies in time series data"
     ],
     "audience": [
-      "Mid-DS",
-      "Junior-DS"
+      "Junior-DS",
+      "Mid-DS"
     ],
     "synthetic_questions": [
-      "how to detect outliers in time series before forecasting",
-      "anomaly detection methods for cleaning time series data",
-      "pyod time series outlier detection tutorial",
-      "preprocessing time series data remove anomalies forecasting"
+      "What are point outliers in time series?",
+      "How to use Isolation Forest for anomaly detection?",
+      "What is STL-based anomaly detection?",
+      "How can autoencoders help in detecting anomalies?",
+      "What methods are available for time series anomaly detection?",
+      "How to clean data before forecasting?",
+      "What is ARIMA/Prophet-based anomaly detection?",
+      "What are subsequence outliers?"
+    ],
+    "content_format": "tutorial",
+    "skill_progression": [
+      "anomaly detection techniques",
+      "data cleaning methods",
+      "time series analysis"
     ]
   },
   {
@@ -10036,31 +10131,38 @@
     "domain": "Forecasting & Time Series",
     "difficulty": "intermediate",
     "prerequisites": [
-      "python-pandas",
-      "time-series-analysis",
-      "scikit-learn"
+      "python-basics"
     ],
     "topic_tags": [
       "change-point-detection",
-      "time-series",
-      "ruptures-library",
-      "anomaly-detection",
-      "structural-breaks"
+      "time-series-analysis"
     ],
-    "summary": "A comprehensive guide to detecting structural breaks in time series using six different algorithms implemented in the ruptures Python library. Compares computational complexity and performance tradeoffs between methods like PELT, Dynamic Programming, and Binary Segmentation. Includes a practical application using Google Search Console data to demonstrate real-world implementation.",
+    "summary": "This tutorial covers six algorithms for change point detection using the ruptures library, focusing on their computational complexity trade-offs. It is suitable for those interested in time series analysis and forecasting.",
     "use_cases": [
-      "Detecting when user engagement patterns change after product launches or marketing campaigns",
-      "Identifying structural breaks in business metrics like revenue or conversion rates during economic shifts"
+      "Identifying shifts in time series data",
+      "Improving forecasting accuracy",
+      "Analyzing Google Search Console data"
     ],
     "audience": [
+      "Junior-DS",
       "Mid-DS",
-      "Junior-DS"
+      "Senior-DS"
     ],
     "synthetic_questions": [
-      "how to detect change points in time series python",
-      "ruptures library tutorial for structural breaks",
-      "best algorithm for change point detection",
-      "detecting when metrics behavior changes over time"
+      "What are the algorithms available in the ruptures library?",
+      "How does PELT compare to Dynamic Programming for change point detection?",
+      "What is the computational complexity of Window-based change point detection?",
+      "When should I use Binary Segmentation?",
+      "What are the applications of change point detection in real-world scenarios?",
+      "How can I implement Kernel CPD in Python?",
+      "What is the significance of change point detection in forecasting?",
+      "What trade-offs should I consider when choosing a change point detection algorithm?"
+    ],
+    "content_format": "tutorial",
+    "skill_progression": [
+      "Understanding change point detection algorithms",
+      "Applying algorithms to real-world data",
+      "Evaluating computational trade-offs in time series analysis"
     ]
   },
   {
@@ -10073,7 +10175,40 @@
       "AB Testing",
       "Heterogeneous Effects"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "AB Testing",
+      "statistics"
+    ],
+    "summary": "This article explores quantile treatment effects to understand how treatments impact different segments of outcome distributions in marketplaces. It is aimed at those interested in advanced methodologies in AB testing and causal inference.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What are quantile treatment effects?",
+      "How do treatments affect different parts of the outcome distribution?",
+      "What is the difference between ATE and quantile treatment effects?",
+      "How can I apply quantile treatment effects in AB testing?",
+      "What methodologies are used to analyze experiment outcomes?",
+      "What are heterogeneous effects in marketplaces?",
+      "Why is understanding distributional differences important?",
+      "How can I measure treatment effects beyond averages?"
+    ],
+    "use_cases": [
+      "When analyzing the impact of treatments in marketplaces",
+      "To understand distributional differences in experimental outcomes"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding quantile treatment effects",
+      "Analyzing heterogeneous effects",
+      "Applying advanced AB testing methodologies"
+    ]
   },
   {
     "name": "Uber: Making Experiment Evaluation Engine 100x Faster",
@@ -10085,7 +10220,35 @@
       "AB Testing",
       "Infrastructure"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "ab-testing",
+      "infrastructure"
+    ],
+    "summary": "This article provides an engineering deep-dive into scaling experimentation infrastructure to handle over 10 million evaluations per second. It is aimed at those interested in optimization techniques for high-throughput experiment analysis.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "How to scale experimentation infrastructure?",
+      "What are optimization techniques for AB testing?",
+      "How to analyze high-throughput experiments?",
+      "What is the evaluation engine used by Uber?",
+      "What challenges are faced in AB testing at scale?",
+      "How does Uber achieve 10M+ evaluations per second?",
+      "What are the best practices for scaling AB testing?",
+      "What tools are used for high-throughput experiment analysis?"
+    ],
+    "use_cases": [],
+    "content_format": "article",
+    "skill_progression": [
+      "scaling experimentation infrastructure",
+      "optimization techniques for high-throughput analysis"
+    ]
   },
   {
     "name": "Netflix: Heterogeneous Treatment Effects",
@@ -10098,7 +10261,36 @@
       "HTE",
       "Policy Learning"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning"
+    ],
+    "summary": "This resource explores the OCI platform for HTE estimation, focusing on how Netflix identifies user response variations to treatments. It is suitable for those interested in causal inference and policy learning.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is heterogeneous treatment effects?",
+      "How does Netflix use causal inference?",
+      "What is the OCI platform?",
+      "What are doubly robust scoring methods?",
+      "How can policy learning be applied in practice?",
+      "What are the benefits of scalable policy learning?",
+      "Who can benefit from learning about HTE?",
+      "What techniques are used for estimating treatment effects?"
+    ],
+    "use_cases": [],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding of heterogeneous treatment effects",
+      "Knowledge of causal inference methodologies",
+      "Familiarity with policy learning techniques"
+    ]
   },
   {
     "name": "Netflix: Return-Aware Experimentation",
@@ -10110,7 +10302,37 @@
       "AB Testing",
       "Experiment Design"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "experiment-design",
+      "AB-testing"
+    ],
+    "summary": "This resource provides a framework for designing experiments that maximize learning while considering resource constraints. It is suitable for those interested in optimal experiment design, particularly in the context of AB testing.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What is return-aware experimentation?",
+      "How to design experiments with limited resources?",
+      "What are the best practices for AB testing?",
+      "What is the KDD 2025 Best Paper about?",
+      "How to maximize learning in experiments?",
+      "What frameworks exist for experiment design?",
+      "What are the challenges of limited resource experimentation?",
+      "Who should read this article?"
+    ],
+    "use_cases": [
+      "when to design experiments under resource constraints",
+      "when to apply AB testing methodologies"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "understanding of optimal experiment design",
+      "ability to apply frameworks for resource-constrained experiments"
+    ]
   },
   {
     "name": "Netflix: It's All A/Bout Testing - The Experimentation Platform",
@@ -10122,7 +10344,36 @@
       "AB Testing",
       "Platform"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "AB Testing",
+      "Platform"
+    ],
+    "summary": "This resource provides a foundational overview of Netflix's experimentation platform, focusing on allocation, the Ignite analysis tool, and monitoring. It is suitable for those interested in understanding sophisticated A/B testing methodologies.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is A/B testing?",
+      "How does Netflix use A/B testing?",
+      "What tools are used for A/B testing?",
+      "What is the Ignite analysis tool?",
+      "How to monitor A/B tests?",
+      "What are the benefits of A/B testing?",
+      "What is the architecture of A/B testing platforms?",
+      "How to allocate resources for A/B testing?"
+    ],
+    "use_cases": [
+      "when to understand A/B testing methodologies",
+      "when to learn about experimentation platforms"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "understanding A/B testing",
+      "using experimentation tools"
+    ]
   },
   {
     "name": "Spotify: Risk-Aware Product Decisions in A/B Tests",
@@ -10135,7 +10386,39 @@
       "Metrics",
       "Decision Making"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "AB Testing",
+      "Metrics",
+      "Decision Making"
+    ],
+    "summary": "This resource provides a framework for making risk-aware product decisions during A/B tests by considering multiple metrics. It is suitable for individuals looking to enhance their decision-making skills in product testing.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What are risk-aware product decisions?",
+      "How to combine multiple metrics in A/B testing?",
+      "What are guardrail metrics?",
+      "How to handle conflicting metrics?",
+      "What is the importance of quality metrics?",
+      "How to improve decision making in product tests?",
+      "What is the framework for A/B testing decisions?",
+      "What are the key considerations in A/B testing?"
+    ],
+    "use_cases": [
+      "when to make product decisions based on A/B test results"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding of A/B testing frameworks",
+      "Ability to analyze multiple metrics",
+      "Enhanced decision-making skills in product development"
+    ]
   },
   {
     "name": "Spotify: Encouragement Designs and Instrumental Variables for A/B Testing",
@@ -10148,7 +10431,37 @@
       "Instrumental Variables",
       "Noncompliance"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "instrumental-variables"
+    ],
+    "summary": "This resource covers IV estimation for experiments with noncompliance, focusing on how to handle situations where users do not follow their assigned treatment. It is suitable for those interested in causal inference methodologies.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What are instrumental variables?",
+      "How to handle noncompliance in A/B testing?",
+      "What is a complier population?",
+      "What is IV estimation?",
+      "How does noncompliance affect experimental results?",
+      "What techniques are used in causal inference?",
+      "How to design effective A/B tests?",
+      "What are the challenges of A/B testing?"
+    ],
+    "use_cases": [
+      "when to use this resource"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "understanding IV estimation",
+      "applying causal inference techniques",
+      "analyzing noncompliance in experiments"
+    ]
   },
   {
     "name": "Spotify: New Experimentation Platform (Part 1)",
@@ -10160,7 +10473,27 @@
       "AB Testing",
       "Platform"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "AB Testing"
+    ],
+    "summary": "This article explores the evolution of Spotify's experimentation infrastructure and the lessons learned from their journey. It is aimed at those interested in understanding AB testing and experimentation platforms.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is Spotify's experimentation platform?",
+      "How has Spotify evolved its AB testing infrastructure?",
+      "What lessons has Spotify learned from its experimentation?",
+      "What is a metrics catalog?",
+      "How can I analyze metrics for self-service?",
+      "What are the key components of an experimentation platform?",
+      "What is the significance of ABBA to EP in experimentation?"
+    ],
+    "use_cases": [],
+    "content_format": "article"
   },
   {
     "name": "LinkedIn: Our Evolution Towards T-REX",
@@ -10173,7 +10506,33 @@
       "Platform",
       "Scale"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "AB Testing",
+      "Platform",
+      "Scale"
+    ],
+    "summary": "This article discusses how LinkedIn scaled its infrastructure to support 41,000 simultaneous A/B tests across over 700 million members. It is aimed at those interested in large-scale experimentation and platform development.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is T-REX in the context of LinkedIn?",
+      "How does LinkedIn manage A/B testing at scale?",
+      "What infrastructure is needed for massive-scale experimentation?",
+      "What challenges does LinkedIn face with 41,000 simultaneous tests?",
+      "How can A/B testing improve user experience?",
+      "What are the benefits of scaling A/B testing?",
+      "What technologies support LinkedIn's experimentation framework?",
+      "What lessons can be learned from LinkedIn's approach to A/B testing?"
+    ],
+    "use_cases": [],
+    "content_format": "article"
   },
   {
     "name": "LinkedIn: A/B Testing Variant Assignment at Scale",
@@ -10186,7 +10545,37 @@
       "Randomization",
       "Infrastructure"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "advanced",
+    "prerequisites": [],
+    "topic_tags": [
+      "AB Testing",
+      "Randomization",
+      "Infrastructure"
+    ],
+    "summary": "This resource provides a technical deep-dive into hash-based variant assignment for A/B testing at scale, focusing on deterministic and consistent randomization methods. It is suitable for individuals interested in advanced A/B testing techniques and infrastructure challenges.",
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What is hash-based variant assignment?",
+      "How does LinkedIn implement A/B testing?",
+      "What are the challenges of randomization at scale?",
+      "What techniques are used for consistent randomization?",
+      "How can A/B testing be optimized for large datasets?",
+      "What infrastructure supports A/B testing at LinkedIn?"
+    ],
+    "use_cases": [
+      "When implementing A/B testing at scale",
+      "For understanding randomization techniques in large systems"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding of A/B testing methodologies",
+      "Knowledge of randomization techniques",
+      "Insights into infrastructure for large-scale testing"
+    ]
   },
   {
     "name": "LinkedIn: Building Inclusive Products Through A/B Testing",
@@ -10199,7 +10588,37 @@
       "Fairness",
       "Inclusive Design"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "AB Testing",
+      "Fairness",
+      "Inclusive Design"
+    ],
+    "summary": "This resource explores a novel approach to measuring the inequality impact of A/B testing experiments. It is suitable for those interested in ensuring product changes do not disproportionately harm certain user groups.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What is A/B testing?",
+      "How can A/B testing impact user groups?",
+      "What are inclusive design principles?",
+      "How to measure inequality in product experiments?",
+      "What are the risks of A/B testing?",
+      "How to ensure fairness in product changes?",
+      "What methodologies are used in inclusive product design?",
+      "What are the best practices for A/B testing?"
+    ],
+    "use_cases": [],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding of A/B testing",
+      "Knowledge of inclusive design principles",
+      "Ability to assess impact on diverse user groups"
+    ]
   },
   {
     "name": "DoorDash: Causal Modeling to Get Value from Flat Experiment Results",
@@ -10212,7 +10631,35 @@
       "HTE",
       "Meta-learners"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning"
+    ],
+    "summary": "This resource focuses on extracting value from neutral experiments through CATE estimation using S-learner and T-learner. It is suitable for those interested in understanding heterogeneous effects in causal inference.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What is CATE estimation?",
+      "How to use S-learner in causal modeling?",
+      "What are heterogeneous effects in experiments?",
+      "When to apply T-learner?",
+      "How to extract value from flat experiment results?",
+      "What is the significance of null overall effects?",
+      "What techniques are used in causal inference?",
+      "How do meta-learners work?"
+    ],
+    "use_cases": [],
+    "content_format": "article",
+    "skill_progression": [
+      "CATE estimation",
+      "Understanding S-learner and T-learner",
+      "Analyzing heterogeneous effects"
+    ]
   },
   {
     "name": "DoorDash: Using Back-Door Adjustment for Pre-Post Analysis",
@@ -10225,7 +10672,33 @@
       "DAGs",
       "Observational"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "observational"
+    ],
+    "summary": "This resource covers causal graphs and covariate adjustment for pre-post analysis, focusing on controlling for confounders when randomization isn't possible. It is aimed at individuals interested in causal inference methodologies.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is back-door adjustment?",
+      "How to control for confounders?",
+      "What are causal graphs?",
+      "What is pre-post analysis?",
+      "When is randomization not possible?",
+      "How to apply covariate adjustment?",
+      "What are the challenges in observational studies?",
+      "What techniques are used in causal inference?"
+    ],
+    "use_cases": [],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding of causal inference",
+      "Ability to apply covariate adjustment techniques"
+    ]
   },
   {
     "name": "Lyft: Challenges in Experimentation",
@@ -10238,7 +10711,40 @@
       "Synthetic Control",
       "Variance Reduction"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "python-basics",
+      "linear-regression"
+    ],
+    "topic_tags": [
+      "causal-inference",
+      "statistics"
+    ],
+    "summary": "This resource covers advanced experimentation techniques in ridesharing marketplaces, focusing on region-split tests and variance reduction methods. It is suitable for those with a strong background in data science and experimentation.",
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What are region-split tests?",
+      "How does synthetic control work?",
+      "What is variance reduction?",
+      "When to apply advanced experimentation techniques?",
+      "What challenges are faced in ridesharing experimentation?",
+      "How to implement residualization in experiments?",
+      "What is the significance of AB testing in ridesharing?",
+      "What are the best practices for experimentation in marketplaces?"
+    ],
+    "use_cases": [
+      "When to use advanced experimentation techniques in data analysis"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "Advanced experimentation techniques",
+      "Understanding of synthetic control",
+      "Application of variance reduction methods"
+    ]
   },
   {
     "name": "Airbnb: ACE - Artificial Counterfactual Estimation",
@@ -10251,7 +10757,41 @@
       "Machine Learning",
       "Counterfactuals"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python-basics"
+    ],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning",
+      "counterfactuals"
+    ],
+    "summary": "This resource explores machine learning-based causal inference techniques used at Airbnb to estimate counterfactuals. It is suitable for those interested in applying ML methods in scenarios where traditional experimental methods are not feasible.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What is counterfactual estimation?",
+      "How does machine learning apply to causal inference?",
+      "What are the limitations of traditional experimental methods?",
+      "How can I implement causal inference in Python?",
+      "What are real-world applications of counterfactuals?",
+      "What skills do I need for machine learning in causal inference?",
+      "What is the significance of ACE in ML?",
+      "How does Airbnb utilize machine learning for causal analysis?"
+    ],
+    "use_cases": [
+      "When traditional experimental methods are not feasible"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding of causal inference",
+      "Application of machine learning techniques",
+      "Ability to estimate counterfactuals"
+    ]
   },
   {
     "name": "Dean Eckles: Blog on Network Experiments and Social Influence",
@@ -10264,7 +10804,41 @@
       "Network Effects",
       "Social Science"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "social-science"
+    ],
+    "summary": "This blog explores network experiments and social influence, providing insights into how these concepts apply at scale, particularly in social media contexts. It is suitable for those interested in understanding the intersection of social science and data analysis.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are network experiments?",
+      "How does social influence affect decision making?",
+      "What is randomization at Facebook scale?",
+      "What can we learn from network effects?",
+      "How to apply causal inference in social science?",
+      "What are the implications of social influence in marketing?",
+      "How can I design a network experiment?",
+      "What are the challenges in studying social networks?"
+    ],
+    "use_cases": [
+      "Understanding social influence in marketing",
+      "Designing network experiments",
+      "Applying causal inference techniques"
+    ],
+    "content_format": "blog",
+    "skill_progression": [
+      "Understanding network effects",
+      "Applying causal inference methods",
+      "Analyzing social influence dynamics"
+    ]
   },
   {
     "name": "Yanir Seroussi: Curated Causal Inference Resources",
@@ -10276,7 +10850,32 @@
       "Causal Inference",
       "Learning Resources"
     ],
-    "level": "Easy"
+    "level": "Easy",
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "learning-resources"
+    ],
+    "summary": "This resource provides a comprehensive collection of causal inference learning materials, including books, courses, software, and papers. It is designed for practitioners looking to deepen their understanding of causal inference.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are the best resources for learning causal inference?",
+      "Where can I find books on causal inference?",
+      "What courses are available for causal inference?",
+      "Which software tools are recommended for causal inference?",
+      "What papers should I read on causal inference?",
+      "How can I improve my skills in causal inference?",
+      "What are curated lists of learning resources for causal inference?",
+      "Who can benefit from causal inference resources?"
+    ],
+    "use_cases": [
+      "when to start learning causal inference",
+      "finding structured learning paths in causal inference"
+    ],
+    "content_format": "article"
   },
   {
     "name": "LinkedIn: Detecting Interference - An A/B Test of A/B Tests",
@@ -10289,7 +10888,40 @@
       "Network Effects",
       "Interference"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "AB Testing",
+      "Network Effects",
+      "Interference"
+    ],
+    "summary": "This article explores the methodology of using cluster randomization to detect user-level interference in A/B tests. It is aimed at practitioners looking to understand network effects in their experiments.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What is cluster randomization?",
+      "How does user-level randomization cause interference?",
+      "What are network effects in A/B testing?",
+      "How to test for interference in experiments?",
+      "What methodologies are used in A/B testing?",
+      "What are the implications of interference in test results?",
+      "How can I apply these concepts to my experiments?",
+      "What are the best practices for A/B testing with network effects?"
+    ],
+    "use_cases": [
+      "When testing for interference in A/B tests",
+      "When exploring network effects in experiments"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding of A/B testing methodologies",
+      "Ability to identify network effects",
+      "Skills in analyzing experimental data"
+    ]
   },
   {
     "name": "Meta: How Meta Tests Products with Strong Network Effects",
@@ -10302,7 +10934,40 @@
       "Network Effects",
       "Cluster Randomization"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "AB Testing",
+      "Network Effects",
+      "Cluster Randomization"
+    ],
+    "summary": "This article explores how Meta conducts experiments with strong network effects, focusing on cluster experiments and the tradeoffs between power and purity. It is suitable for those interested in understanding advanced experimentation techniques in social networks.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What are cluster experiments?",
+      "How does Facebook handle experimentation?",
+      "What are network effects in AB testing?",
+      "What is the power vs purity tradeoff?",
+      "How to design experiments with spillover effects?",
+      "What challenges arise in social network experiments?",
+      "What methods are used for cluster randomization?",
+      "How can I apply these concepts to my own experiments?"
+    ],
+    "use_cases": [
+      "When designing experiments in social networks",
+      "Understanding the impact of user interactions on treatment effects"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding of cluster experiments",
+      "Knowledge of network effects",
+      "Ability to analyze tradeoffs in experimentation"
+    ]
   },
   {
     "name": "R-causal Book: DAG Construction Chapter",
@@ -10315,7 +10980,36 @@
       "DAGs",
       "R"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning"
+    ],
+    "summary": "This tutorial provides a practical guide to building directed acyclic graphs (DAGs) for causal inference using R. It is designed for those looking to understand and apply DAG construction in their research or projects.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How to construct DAGs in R?",
+      "What is a directed acyclic graph?",
+      "How can I use ggdag for causal inference?",
+      "What are the applications of DAGs in research?",
+      "What is the importance of DAG construction?",
+      "Where can I find tutorials on causal inference in R?",
+      "What skills can I gain from learning about DAGs?",
+      "Who should learn about causal inference?"
+    ],
+    "use_cases": [],
+    "content_format": "tutorial",
+    "skill_progression": [
+      "Understanding of DAGs",
+      "Causal inference techniques",
+      "R programming skills"
+    ]
   },
   {
     "name": "PyWhy: Causal Discovery Example",
@@ -10328,7 +11022,37 @@
       "Causal Discovery",
       "Python"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [
+      "python-basics"
+    ],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning"
+    ],
+    "summary": "This tutorial covers the use of PC, GES, and LiNGAM algorithms for discovering causal structures from data. It is designed for those who want to learn how to discover causal graphs rather than assuming them.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are causal discovery algorithms?",
+      "How to implement PC algorithm in Python?",
+      "What is the GES algorithm?",
+      "How to use LiNGAM for causal inference?",
+      "When to use causal discovery methods?",
+      "What is the difference between causal inference and causal discovery?",
+      "How to interpret causal graphs?",
+      "What are the applications of causal discovery?"
+    ],
+    "use_cases": [
+      "when you need to discover the causal graph rather than assume it"
+    ],
+    "content_format": "tutorial",
+    "skill_progression": [
+      "understanding causal inference",
+      "applying causal discovery algorithms in Python"
+    ]
   },
   {
     "name": "Microsoft ExP: Deep Dive into Variance Reduction",
@@ -10341,7 +11065,39 @@
       "CUPED",
       "Variance Reduction"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "AB Testing",
+      "CUPED",
+      "Variance Reduction"
+    ],
+    "summary": "This resource provides a comprehensive guide to variance reduction techniques for online experiments, specifically focusing on CUPED. It is suitable for those looking to deepen their understanding of AB testing methodologies.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What is CUPED?",
+      "How can variance reduction improve online experiments?",
+      "What techniques are used in variance reduction?",
+      "Who developed the CUPED method?",
+      "What are the benefits of using variance reduction in AB testing?",
+      "How does Microsoft's Experimentation Platform implement variance reduction?",
+      "What are common challenges in AB testing?",
+      "What resources are available for learning about variance reduction?"
+    ],
+    "use_cases": [
+      "when to improve the accuracy of online experiments",
+      "when analyzing the impact of interventions in AB testing"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding of variance reduction techniques",
+      "Ability to apply CUPED in experiments"
+    ]
   },
   {
     "name": "LOST Stats: Event Study Designs",
@@ -10354,7 +11110,40 @@
       "DiD",
       "Event Study"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python-basics"
+    ],
+    "topic_tags": [
+      "causal-inference",
+      "event-study"
+    ],
+    "summary": "This tutorial covers the practical implementation of modern event study designs using the Sun & Abraham estimator, focusing on staggered treatment timing issues. It is suitable for those with a basic understanding of Python and causal inference methods.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What is the Sun & Abraham estimator?",
+      "How to implement event study designs?",
+      "What are staggered treatment timing issues?",
+      "What is causal inference?",
+      "How to use Python for event studies?",
+      "What are the applications of event study designs?",
+      "What skills are needed for causal inference?",
+      "What resources are available for learning event studies?"
+    ],
+    "use_cases": [
+      "When to analyze treatment effects over time",
+      "When dealing with staggered treatment adoption"
+    ],
+    "content_format": "tutorial",
+    "skill_progression": [
+      "Understanding event study designs",
+      "Implementing causal inference techniques in Python"
+    ]
   },
   {
     "name": "Teconomics: Machine Learning Meets Instrumental Variables",
@@ -10367,7 +11156,40 @@
       "Instrumental Variables",
       "Machine Learning"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python-basics"
+    ],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning"
+    ],
+    "summary": "This resource teaches how to use A/B tests as instruments for causal inference, combining machine learning flexibility with instrumental variable identification strategies. It is suitable for those interested in advanced statistical methods in data science.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What are A/B tests in causal inference?",
+      "How to combine machine learning with instrumental variables?",
+      "What is the role of instrumental variables in ML?",
+      "When to use A/B tests as instruments?",
+      "What are the benefits of using ML for causal inference?",
+      "How do IV identification strategies work?",
+      "What skills are needed for causal inference?",
+      "What resources are available for learning about ML and IV?"
+    ],
+    "use_cases": [
+      "When exploring causal relationships using A/B tests",
+      "When applying machine learning techniques to causal inference problems"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding of causal inference",
+      "Ability to apply machine learning techniques",
+      "Knowledge of instrumental variable strategies"
+    ]
   },
   {
     "name": "Uber: Driver Surge Pricing",
@@ -10380,7 +11202,33 @@
       "Incentive Design",
       "Marketplace"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "incentive-design",
+      "gig-economy"
+    ],
+    "summary": "This resource explores the principles of incentive design in the context of gig economy platforms, specifically focusing on Uber's driver surge pricing mechanisms. It is suitable for those interested in understanding pricing strategies and incentive compatibility.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is multiplicative surge pricing?",
+      "How does additive driver surge work?",
+      "What are the implications of incentive design in the gig economy?",
+      "Why is incentive compatibility important?",
+      "How does Uber's pricing model affect drivers?",
+      "What foundational concepts are essential for understanding surge pricing?",
+      "What research exists on pricing strategies for marketplaces?",
+      "How can incentive design improve platform efficiency?"
+    ],
+    "use_cases": [],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding of incentive mechanisms",
+      "Knowledge of pricing strategies in marketplaces"
+    ]
   },
   {
     "name": "Uber: Reinforcement Learning for Marketplace Balance",
@@ -10393,7 +11241,29 @@
       "Reinforcement Learning",
       "Matching"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "reinforcement-learning",
+      "marketplace"
+    ],
+    "summary": "This resource explores how Uber employs reinforcement learning to achieve real-time balance between supply and demand in ridesharing across over 400 cities. It is suitable for those interested in the intersection of technology and platform economics.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How does Uber use reinforcement learning?",
+      "What is marketplace balance?",
+      "What are the applications of reinforcement learning in ridesharing?",
+      "How does Uber manage supply and demand?",
+      "What is the largest RL deployment?",
+      "What cities use Uber's RL technology?",
+      "How does matching work in ridesharing?",
+      "What are the challenges of balancing a marketplace?"
+    ],
+    "use_cases": [],
+    "content_format": "article"
   },
   {
     "name": "Uber: Simulated Marketplace with ML",
@@ -10406,7 +11276,29 @@
       "Simulation",
       "Testing"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "machine-learning",
+      "simulation"
+    ],
+    "summary": "This resource explores how Uber utilizes agent-based discrete event simulation to safely test dispatch algorithms and build digital twins of their marketplace. It is suitable for those interested in platform economics and machine learning applications in real-world scenarios.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How does Uber use simulation for marketplace testing?",
+      "What are digital twins in the context of marketplaces?",
+      "What algorithms does Uber test for dispatch?",
+      "How can agent-based simulation improve pricing strategies?",
+      "What is the role of machine learning in marketplace simulations?",
+      "What are the benefits of testing algorithms in a simulated environment?",
+      "How does Uber ensure safe testing of dispatch algorithms?",
+      "What insights can be gained from marketplace simulations?"
+    ],
+    "use_cases": [],
+    "content_format": "article"
   },
   {
     "name": "Lyft: Dynamic Pricing to Sustain Marketplace Balance",
@@ -10419,7 +11311,34 @@
       "Marketplace",
       "Ridesharing"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "dynamic-pricing",
+      "marketplace",
+      "ridesharing"
+    ],
+    "summary": "This resource explores the evolution of Lyft's PrimeTime surge algorithm, focusing on the challenges of undersupply spirals and the iterative solutions for pricing in a two-sided marketplace. It is suitable for those interested in understanding dynamic pricing strategies in ridesharing.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is Lyft's PrimeTime surge algorithm?",
+      "How does dynamic pricing work in ridesharing?",
+      "What are undersupply spirals?",
+      "What iterative fixes are used in marketplace pricing?",
+      "How does Lyft maintain marketplace balance?",
+      "What are the challenges of two-sided marketplaces?",
+      "What can be learned from Lyft's pricing strategies?",
+      "How does dynamic pricing affect consumers?"
+    ],
+    "use_cases": [],
+    "content_format": "article",
+    "skill_progression": [
+      "understanding dynamic pricing",
+      "analyzing marketplace strategies"
+    ]
   },
   {
     "name": "Lyft: Solving Dispatch in a Ridesharing Problem Space",
@@ -10432,7 +11351,38 @@
       "Optimization",
       "Ridesharing"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python-basics"
+    ],
+    "topic_tags": [
+      "optimization",
+      "ridesharing"
+    ],
+    "summary": "This article provides a technical deep-dive into the Hungarian algorithm and LP relaxation for real-time bipartite matching, focusing on driver-rider matching optimization. It is suitable for those interested in platform economics and algorithmic solutions in ridesharing.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What is the Hungarian algorithm?",
+      "How does LP relaxation apply to ridesharing?",
+      "What are the challenges in driver-rider matching?",
+      "How can optimization improve ridesharing services?",
+      "What algorithms are used in real-time bipartite matching?",
+      "What are the applications of matching algorithms in platform economics?"
+    ],
+    "use_cases": [
+      "When optimizing ridesharing driver-rider matches",
+      "When studying platform economics"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding of matching algorithms",
+      "Knowledge of optimization techniques"
+    ]
   },
   {
     "name": "Airbnb: Aerosolve - ML for Humans",
@@ -10445,7 +11395,34 @@
       "Machine Learning",
       "Interpretability"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "machine-learning",
+      "interpretability"
+    ],
+    "summary": "This resource will teach you about interpretable machine learning models and how they can be applied to pricing strategies. It is aimed at individuals interested in understanding the intersection of machine learning and pricing.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is interpretable machine learning?",
+      "How does Airbnb use machine learning for pricing?",
+      "What are price-demand elasticity curves?",
+      "Why is interpretability important in machine learning?",
+      "How can hosts understand pricing models?",
+      "What are the benefits of open-source ML tools?",
+      "What techniques are used in pricing models?",
+      "How does machine learning impact revenue management?"
+    ],
+    "use_cases": [],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding price-demand elasticity",
+      "Applying machine learning to pricing models",
+      "Interpreting machine learning outputs"
+    ]
   },
   {
     "name": "Airbnb: Measuring Listing Lifetime Value",
@@ -10458,7 +11435,33 @@
       "Lifetime Value",
       "Economics"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "economics",
+      "marketplace"
+    ],
+    "summary": "This resource explores how Airbnb utilizes a production function approach to model the incrementality of new listings based on supply-demand balance. It is aimed at individuals interested in understanding the valuation of marketplace listings.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is the production function approach in economics?",
+      "How does Airbnb measure listing lifetime value?",
+      "What factors influence supply-demand balance in marketplaces?",
+      "What is incrementality in the context of marketplace listings?",
+      "How do marketplaces value new listings?",
+      "What are the implications of listing lifetime value for platform economics?",
+      "How can I apply economic principles to marketplace analysis?",
+      "What methodologies are used to evaluate marketplace performance?"
+    ],
+    "use_cases": [],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding of marketplace economics",
+      "Knowledge of incrementality modeling"
+    ]
   },
   {
     "name": "Instacart: Building for Balance (SAGE v2)",
@@ -10471,7 +11474,29 @@
       "Multi-sided Platforms",
       "Balancing"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "Marketplace",
+      "Multi-sided Platforms"
+    ],
+    "summary": "This article explores how Instacart manages the complexities of its four-sided marketplace, balancing the needs of consumers, shoppers, retailers, and brands. It is suitable for those interested in platform economics and marketplace dynamics.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is a four-sided marketplace?",
+      "How does Instacart balance its marketplace?",
+      "What are the challenges of multi-sided platforms?",
+      "What can we learn from Instacart's approach?",
+      "How do consumers, shoppers, retailers, and brands interact on Instacart?",
+      "What are the key components of platform economics?",
+      "How does Instacart's model differ from traditional retail?",
+      "What strategies can be used to manage a complex marketplace?"
+    ],
+    "use_cases": [],
+    "content_format": "article"
   },
   {
     "name": "Meta: Andromeda - Next-Gen Personalized Ads Retrieval",
@@ -10484,7 +11509,38 @@
       "Machine Learning",
       "Infrastructure"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "advertising",
+      "machine-learning",
+      "infrastructure"
+    ],
+    "summary": "This article provides an in-depth look at Meta's next-generation personalized ads retrieval system, focusing on its architecture and efficiency improvements. It is aimed at professionals and researchers interested in advancements in ad technology and machine learning.",
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What is Meta's Andromeda ad retrieval system?",
+      "How does Meta's ad auction architecture work?",
+      "What are the benefits of sub-linear inference costs?",
+      "What advancements are being made in personalized ads?",
+      "How does model capacity impact ad retrieval?",
+      "What are the implications of increased model capacity for advertisers?",
+      "What technologies are involved in Meta's ad retrieval system?",
+      "What can we learn from Meta's approach to ad auctions?"
+    ],
+    "use_cases": [
+      "Understanding advancements in ad technology",
+      "Learning about machine learning applications in advertising"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding ad auction mechanisms",
+      "Gaining insights into machine learning infrastructure"
+    ]
   },
   {
     "name": "Meta: Ads Fairness Variance Reduction System",
@@ -10497,7 +11553,30 @@
       "Fairness",
       "Variance Reduction"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "advertising",
+      "fairness",
+      "variance reduction"
+    ],
+    "summary": "This resource discusses how Meta ensures fairness in ad auctions while reducing variance. It is suitable for individuals interested in understanding the technical aspects of ad bidding and fairness mechanisms.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is the Total Value in ad auctions?",
+      "How does Meta ensure fairness in ad auctions?",
+      "What is variance reduction in advertising?",
+      "What factors contribute to ad auction outcomes?",
+      "How is the Estimated Action Rate calculated?",
+      "What is the role of Quality in ad auctions?",
+      "What are the implications of fairness in advertising?",
+      "How can variance reduction improve ad performance?"
+    ],
+    "use_cases": [],
+    "content_format": "article"
   },
   {
     "name": "Netflix: Decision Making at Netflix",
@@ -10510,7 +11589,40 @@
       "Decision Making",
       "Subscription"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "experiment design",
+      "pricing strategy"
+    ],
+    "summary": "This resource explores how Netflix utilizes the scientific method for making pricing decisions at a large scale. It is aimed at individuals interested in understanding the intersection of experimentation and decision-making in a subscription-based model.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How does Netflix make pricing decisions?",
+      "What is the scientific method in experimentation?",
+      "What are the key factors in subscription pricing?",
+      "How does Netflix approach AB testing?",
+      "What can I learn from Netflix's decision-making process?",
+      "What is the role of experimentation in pricing strategy?",
+      "How does Netflix use data for content decisions?",
+      "What are the challenges of pricing at scale?"
+    ],
+    "use_cases": [
+      "Understanding pricing strategies",
+      "Learning about experimentation in business",
+      "Applying scientific methods to decision-making"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding of AB testing",
+      "Knowledge of pricing strategies",
+      "Ability to apply scientific methods in decision-making"
+    ]
   },
   {
     "name": "LinkedIn: Economic Graph to Economic Insights",
@@ -10523,7 +11635,26 @@
       "Data Infrastructure",
       "Labor Markets"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "This article explores LinkedIn's approach to computing hiring rates and its partnerships with major economic organizations. It is aimed at individuals interested in understanding how professional network data can be leveraged for economic insights.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is LinkedIn's Economic Graph?",
+      "How does LinkedIn compute hiring rates?",
+      "What partnerships does LinkedIn have for economic insights?",
+      "How can professional network data inform labor market trends?",
+      "What is the role of data infrastructure in economics?",
+      "How does LinkedIn collaborate with the World Bank and IMF?",
+      "What insights can be derived from the Economic Graph?",
+      "What are the implications of LinkedIn's data on labor markets?"
+    ],
+    "use_cases": [],
+    "content_format": "article"
   },
   {
     "name": "Etsy: Personalized Recommendations",
@@ -10536,7 +11667,36 @@
       "Marketplace Fairness",
       "Personalization"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "marketplace-fairness",
+      "personalization"
+    ],
+    "summary": "This article explores how Etsy manages to balance personalized recommendations with fairness in seller representation. It is suitable for those interested in platform economics and the implications of personalization in online marketplaces.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How does Etsy ensure fair seller representation?",
+      "What are the implications of anti-popularity bias?",
+      "How does personalization affect marketplace dynamics?",
+      "What strategies does Etsy use for recommendations?",
+      "What challenges do platforms face in balancing fairness and personalization?",
+      "How can marketplace fairness be measured?",
+      "What role does diversity play in online shopping?",
+      "How does Etsy's approach differ from other platforms?"
+    ],
+    "use_cases": [
+      "Understanding the balance between personalization and fairness in online marketplaces"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding of marketplace dynamics",
+      "Insights into recommendation systems",
+      "Knowledge of fairness in platform economics"
+    ]
   },
   {
     "name": "IEEE Spectrum: The Secret of Airbnb's Pricing Algorithm",
@@ -10549,7 +11709,29 @@
       "Airbnb",
       "Machine Learning"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "pricing",
+      "machine-learning"
+    ],
+    "summary": "This article explores how Airbnb utilizes its pricing algorithm to manage diverse listings and optimize revenue. It is suitable for those interested in pricing strategies and machine learning applications in real estate.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is Airbnb's pricing algorithm?",
+      "How does Aerosolve handle unique inventory?",
+      "What are neighborhood boundary mapping techniques?",
+      "How does machine learning influence pricing strategies?",
+      "What challenges does Airbnb face with heterogeneous listings?",
+      "What insights can be gained from analyzing Airbnb's pricing?",
+      "How can pricing algorithms be applied in other industries?",
+      "What role does data play in pricing decisions?"
+    ],
+    "use_cases": [],
+    "content_format": "article"
   },
   {
     "name": "HBR IdeaCast: How to Build Dynamic Pricing That Works",
@@ -10562,7 +11744,38 @@
       "Strategy",
       "Consumer Psychology"
     ],
-    "level": "Easy"
+    "level": "Easy",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "pricing",
+      "consumer psychology",
+      "strategy"
+    ],
+    "summary": "This podcast discusses price fairness communication and cross-subsidization strategies, focusing on how to implement dynamic pricing that customers accept. It is suitable for anyone interested in pricing strategies and consumer behavior.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is dynamic pricing?",
+      "How can I communicate price fairness?",
+      "What are cross-subsidization strategies?",
+      "How do consumers perceive dynamic pricing?",
+      "What are the benefits of dynamic pricing?",
+      "How to implement dynamic pricing effectively?",
+      "What industries use dynamic pricing?",
+      "What are the challenges of dynamic pricing?"
+    ],
+    "use_cases": [
+      "when to understand dynamic pricing",
+      "when to learn about pricing strategies"
+    ],
+    "content_format": "podcast",
+    "skill_progression": [
+      "understanding dynamic pricing",
+      "communicating price fairness",
+      "applying pricing strategies"
+    ]
   },
   {
     "name": "Ahead of AI (Sebastian Raschka)",
@@ -10577,7 +11790,43 @@
       "Newsletter"
     ],
     "level": "Medium",
-    "domain": "AI"
+    "domain": "AI",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python-basics"
+    ],
+    "topic_tags": [
+      "machine-learning",
+      "ai-research"
+    ],
+    "summary": "This newsletter provides deep technical coverage of LLMs, model architectures, training techniques, and AI trends. It is aimed at those interested in the latest advancements in machine learning and artificial intelligence.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are the latest trends in AI?",
+      "How to train large language models?",
+      "What are the best practices for model architectures?",
+      "What techniques are used in machine learning?",
+      "Who is Sebastian Raschka?",
+      "What is the significance of AI research newsletters?",
+      "How to build a large language model from scratch?",
+      "What are the challenges in AI and ML?"
+    ],
+    "use_cases": [
+      "staying updated on AI trends",
+      "learning about model architectures",
+      "understanding training techniques for LLMs"
+    ],
+    "content_format": "newsletter",
+    "skill_progression": [
+      "understanding of LLMs",
+      "knowledge of AI trends",
+      "familiarity with model training techniques"
+    ]
   },
   {
     "name": "EconTalk: Susan Athey on ML, Big Data, and Causation",
@@ -10590,7 +11839,33 @@
       "Causal Inference",
       "Big Data"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning",
+      "big-data"
+    ],
+    "summary": "In this podcast, Susan Athey discusses the transformative impact of machine learning on economic research and the significance of big data for causal inference. This resource is suitable for those interested in the intersection of computer science and economics.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How does machine learning impact economic research?",
+      "What is the role of big data in causal inference?",
+      "How can CS methodologies be applied in economics?",
+      "What are the challenges of using machine learning in economics?",
+      "Who is Susan Athey and what are her contributions to the field?",
+      "What are the key takeaways from the EconTalk podcast with Susan Athey?",
+      "How can I learn more about causal inference and machine learning?",
+      "What resources are available for understanding big data in economics?"
+    ],
+    "use_cases": [],
+    "content_format": "podcast"
   },
   {
     "name": "World of DaaS: Susan Athey - Tech Economists and ML",
@@ -10603,7 +11878,29 @@
       "Machine Learning",
       "Industry"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning"
+    ],
+    "summary": "This podcast features Susan Athey discussing the role of tech economists and the application of machine learning in economics. It is suitable for anyone interested in understanding the intersection of technology and economics.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is the role of tech economists?",
+      "How is machine learning applied in economics?",
+      "What are the implications of causation in industry settings?",
+      "Who is Susan Athey?",
+      "What can I learn from the World of DaaS podcast?",
+      "How does machine learning influence economic decisions?",
+      "What topics are covered in the SafeGraph podcast?",
+      "Why is understanding causation important in economics?"
+    ],
+    "use_cases": [],
+    "content_format": "podcast"
   },
   {
     "name": "AEA/AFA 2019: Impact of Machine Learning on Economics",
@@ -10616,7 +11913,40 @@
       "Economics Research",
       "Policy"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning",
+      "economics"
+    ],
+    "summary": "This resource explores how machine learning is transforming economic research and policy-making. It is suitable for those interested in the intersection of technology and economics.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "How is machine learning impacting economic research?",
+      "What are heterogeneous treatment effects?",
+      "What policy problems can machine learning help predict?",
+      "Who is Susan Athey?",
+      "What are the implications of ML in economics?",
+      "How does ML reshape prediction in economics?",
+      "What is the role of causal inference in ML?",
+      "What should economists know about machine learning?"
+    ],
+    "use_cases": [
+      "Understanding the impact of ML on economic research",
+      "Learning about policy implications of ML",
+      "Exploring heterogeneous treatment effects in economics"
+    ],
+    "content_format": "video",
+    "skill_progression": [
+      "Understanding machine learning applications in economics",
+      "Analyzing economic research using ML techniques"
+    ]
   },
   {
     "name": "AEA Continuing Education: ML and Econometrics 2018",
@@ -10629,7 +11959,38 @@
       "Econometrics",
       "Education"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning",
+      "econometrics"
+    ],
+    "summary": "This course covers machine learning methods for econometrics, aimed at those looking to enhance their understanding of these techniques. It is suitable for individuals interested in applying machine learning in economic research.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What is machine learning in econometrics?",
+      "How can I apply ML methods in economic research?",
+      "What are the latest trends in econometrics?",
+      "Who are the leading researchers in ML and econometrics?",
+      "What skills do I need for ML in econometrics?",
+      "Where can I find resources on econometrics and machine learning?",
+      "What are the applications of ML in economics?",
+      "How does AEA's continuing education help in learning econometrics?"
+    ],
+    "use_cases": [
+      "when to apply machine learning methods in econometrics"
+    ],
+    "content_format": "course",
+    "skill_progression": [
+      "understanding of machine learning methods",
+      "application of econometric techniques"
+    ]
   },
   {
     "name": "Capitalisn't: Sendhil Mullainathan on Who Controls AI",
@@ -10642,7 +12003,38 @@
       "Economics",
       "Policy"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning",
+      "economics"
+    ],
+    "summary": "This podcast explores the governance of AI and its economic implications, focusing on who controls AI development. It is suitable for anyone interested in understanding the intersection of AI, policy, and economics.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is AI governance?",
+      "How does algorithmic decision-making impact economics?",
+      "Who shapes AI development?",
+      "What are the economic implications of AI?",
+      "How can policy influence AI technology?",
+      "What are the ethical considerations in AI governance?",
+      "What role do economists play in AI?",
+      "What insights does Sendhil Mullainathan provide on AI?"
+    ],
+    "use_cases": [
+      "Understanding AI governance",
+      "Exploring economic implications of AI",
+      "Learning about policy impacts on technology"
+    ],
+    "content_format": "podcast",
+    "skill_progression": [
+      "Understanding AI governance",
+      "Insights into economic implications of AI"
+    ]
   },
   {
     "name": "Knowledge Project #102: Sendhil Mullainathan",
@@ -11853,5 +13245,421 @@
       "Pedagogy"
     ],
     "level": "Easy"
+  },
+  {
+    "name": "Frank Harrell: Statistical Thinking Blog",
+    "description": "Vanderbilt biostatistics professor and FDA advisor. Essential reading on Bayesian study design, why ML needs statistics, and information-theoretic approaches.",
+    "category": "Bayesian Statistics",
+    "url": "https://www.fharrell.com/",
+    "type": "Blog",
+    "tags": [
+      "Bayesian",
+      "Study Design",
+      "Biostatistics"
+    ],
+    "level": "Advanced"
+  },
+  {
+    "name": "Rob Hyndman Blog",
+    "description": "Creator of the forecast R package and fpp3 textbook. The definitive authority on time series forecasting.",
+    "category": "Forecasting",
+    "url": "https://robjhyndman.com/",
+    "type": "Blog",
+    "tags": [
+      "Time Series",
+      "Forecasting",
+      "R"
+    ],
+    "level": "Medium"
+  },
+  {
+    "name": "Forecasting: Principles and Practice (fpp3)",
+    "description": "Free online textbook by Rob Hyndman. The gold standard for applied forecasting.",
+    "category": "Forecasting",
+    "url": "https://otexts.com/fpp3/",
+    "type": "Book",
+    "tags": [
+      "Time Series",
+      "Forecasting",
+      "Free Textbook"
+    ],
+    "level": "Medium"
+  },
+  {
+    "name": "John D. Cook Blog",
+    "description": "Consulting statistician with Amazon, Google, Microsoft clients. Exceptional breadth: Bayesian methods, numerical computing, privacy.",
+    "category": "Applied Statistics",
+    "url": "https://www.johndcook.com/blog/",
+    "type": "Blog",
+    "tags": [
+      "Applied Statistics",
+      "Numerical Methods",
+      "Consulting"
+    ],
+    "level": "Medium"
+  },
+  {
+    "name": "Georgi Georgiev: Analytics-Toolkit Blog",
+    "description": "Author of Statistical Methods in Online A/B Testing. Sequential testing, AGILE methodology.",
+    "category": "A/B Testing",
+    "url": "https://blog.analytics-toolkit.com/",
+    "type": "Blog",
+    "tags": [
+      "Sequential Testing",
+      "Experimentation",
+      "AGILE"
+    ],
+    "level": "Medium"
+  },
+  {
+    "name": "Thomas Wiecki Blog (twiecki.io)",
+    "description": "PyMC Labs CEO. Exceptional Bayesian tutorials with business applications.",
+    "category": "Bayesian Statistics",
+    "url": "https://twiecki.io/",
+    "type": "Blog",
+    "tags": [
+      "PyMC",
+      "Bayesian",
+      "Business Applications"
+    ],
+    "level": "Advanced"
+  },
+  {
+    "name": "PyMC Labs Blog",
+    "description": "Industry Bayesian applications from the PyMC Labs team. Case studies on marketing mix modeling, customer lifetime value.",
+    "category": "Bayesian Statistics",
+    "url": "https://www.pymc-labs.com/blog/",
+    "type": "Blog",
+    "tags": [
+      "PyMC",
+      "Industry Applications",
+      "Case Studies"
+    ],
+    "level": "Advanced"
+  },
+  {
+    "name": "Simply Statistics Blog",
+    "description": "Jeff Leek, Roger Peng, and Rafa Irizarry from Johns Hopkins biostatistics. Data science education, reproducibility.",
+    "category": "Applied Statistics",
+    "url": "https://simplystatistics.org/",
+    "type": "Blog",
+    "tags": [
+      "Data Science",
+      "Education",
+      "Reproducibility"
+    ],
+    "level": "Easy"
+  },
+  {
+    "name": "Elements of Statistical Learning (ESL)",
+    "description": "Free PDF by Hastie, Tibshirani, and Friedman. The advanced ML/statistics reference.",
+    "category": "Statistical Learning",
+    "url": "https://hastie.su.domains/ElemStatLearn/",
+    "type": "Book",
+    "tags": [
+      "Machine Learning",
+      "Free Textbook",
+      "Advanced"
+    ],
+    "level": "Advanced"
+  },
+  {
+    "name": "Introduction to Statistical Learning (ISLR/ISLP)",
+    "description": "Free PDF with R and Python editions. The accessible ML foundations book.",
+    "category": "Statistical Learning",
+    "url": "https://www.statlearning.com/",
+    "type": "Book",
+    "tags": [
+      "Machine Learning",
+      "Free Textbook",
+      "Foundations"
+    ],
+    "level": "Medium"
+  },
+  {
+    "name": "Art Owen: Monte Carlo Theory, Methods, and Examples",
+    "description": "Free, continuously updated textbook from Stanford professor on Monte Carlo methods.",
+    "category": "Statistical Computing",
+    "url": "https://artowen.su.domains/mc/",
+    "type": "Book",
+    "tags": [
+      "Monte Carlo",
+      "Simulation",
+      "Free Textbook"
+    ],
+    "level": "Advanced"
+  },
+  {
+    "name": "Conformal Prediction Tutorial (Angelopoulos)",
+    "description": "Berkeley PhDs definitive tutorial on conformal prediction for uncertainty quantification.",
+    "category": "Uncertainty Quantification",
+    "url": "https://people.eecs.berkeley.edu/~angelopoulos/blog/posts/gentle-intro/",
+    "type": "Tutorial",
+    "tags": [
+      "Conformal Prediction",
+      "Uncertainty",
+      "ML"
+    ],
+    "level": "Medium"
+  },
+  {
+    "name": "Learning Bayesian Statistics Podcast",
+    "description": "Alexandre Andorras podcast featuring interviews with top Bayesian researchers.",
+    "category": "Bayesian Statistics",
+    "url": "https://learnbayesstats.com/",
+    "type": "Podcast",
+    "tags": [
+      "Bayesian",
+      "Podcast",
+      "Interviews"
+    ],
+    "level": "Medium"
+  },
+  {
+    "name": "Tianqi Chen Homepage",
+    "description": "Creator of XGBoost, Apache TVM, and co-creator of Apache MXNet. CMU professor, NVIDIA Distinguished Engineer.",
+    "category": "Machine Learning",
+    "url": "https://tqchen.com/",
+    "type": "Blog",
+    "tags": [
+      "XGBoost",
+      "ML Systems",
+      "Deep Learning"
+    ],
+    "level": "Advanced"
+  },
+  {
+    "name": "Bojan Tunguz: XGBlog",
+    "description": "Kaggle Grandmaster at NVIDIA. XGBoost philosophy, hyperparameter tuning, tabular ML best practices.",
+    "category": "Machine Learning",
+    "url": "https://www.xgblog.ai/",
+    "type": "Newsletter",
+    "tags": [
+      "XGBoost",
+      "Tabular ML",
+      "Kaggle"
+    ],
+    "level": "Medium"
+  },
+  {
+    "name": "Ben Gorman: Gradient Boosting Explained",
+    "description": "Widely cited as one of the clearest gradient boosting explanations ever written.",
+    "category": "Machine Learning",
+    "url": "https://www.gormanalysis.com/blog/gradient-boosting-explained/",
+    "type": "Tutorial",
+    "tags": [
+      "Gradient Boosting",
+      "XGBoost",
+      "Pedagogy"
+    ],
+    "level": "Medium"
+  },
+  {
+    "name": "Explained.ai: Gradient Boosting Tutorial",
+    "description": "Terence Parr and Jeremy Howard. 3-part comprehensive GBM tutorial with academic rigor.",
+    "category": "Machine Learning",
+    "url": "https://explained.ai/gradient-boosting/",
+    "type": "Tutorial",
+    "tags": [
+      "Gradient Boosting",
+      "Theory",
+      "Pedagogy"
+    ],
+    "level": "Medium"
+  },
+  {
+    "name": "Xavier Amatriain Blog",
+    "description": "VP at Google, former Netflix Algorithms lead. Matrix factorization, collaborative filtering, A/B testing recommenders.",
+    "category": "Recommendation Systems",
+    "url": "https://amatria.in/blog/",
+    "type": "Blog",
+    "tags": [
+      "Netflix",
+      "Collaborative Filtering",
+      "RecSys"
+    ],
+    "level": "Advanced"
+  },
+  {
+    "name": "Daniel Tunkelang: Query Understanding",
+    "description": "LinkedIn, Google, eBay search veteran. Query understanding, learning-to-rank, BM25.",
+    "category": "Recommendation Systems",
+    "url": "https://queryunderstanding.com/",
+    "type": "Blog",
+    "tags": [
+      "Search",
+      "Learning to Rank",
+      "Query Understanding"
+    ],
+    "level": "Advanced"
+  },
+  {
+    "name": "Airbnb Engineering Blog",
+    "description": "Search ranking evolution, listing embeddings, diversity optimization. Honest failures and successes.",
+    "category": "Recommendation Systems",
+    "url": "https://medium.com/airbnb-engineering",
+    "type": "Blog",
+    "tags": [
+      "Search Ranking",
+      "Embeddings",
+      "Production ML"
+    ],
+    "level": "Medium"
+  },
+  {
+    "name": "Jim Dowling: Hopsworks Blog",
+    "description": "CEO of Hopsworks, KTH professor. Feature store architecture, AI Lakehouse, ML pipeline design.",
+    "category": "MLOps",
+    "url": "https://www.hopsworks.ai/blog",
+    "type": "Blog",
+    "tags": [
+      "Feature Store",
+      "MLOps",
+      "ML Infrastructure"
+    ],
+    "level": "Advanced"
+  },
+  {
+    "name": "Feast: Feature Store Blog",
+    "description": "Willem Pienaar, creator of Feast open-source feature store.",
+    "category": "MLOps",
+    "url": "https://blog.feast.dev",
+    "type": "Blog",
+    "tags": [
+      "Feature Store",
+      "Open Source",
+      "Production ML"
+    ],
+    "level": "Medium"
+  },
+  {
+    "name": "Tecton Blog",
+    "description": "Mike Del Balso, co-creator of Ubers Michelangelo. Feature platform architecture, operational ML.",
+    "category": "MLOps",
+    "url": "https://www.tecton.ai/blog",
+    "type": "Blog",
+    "tags": [
+      "Feature Store",
+      "Michelangelo",
+      "Uber"
+    ],
+    "level": "Advanced"
+  },
+  {
+    "name": "MLflow: ML Lifecycle Management",
+    "description": "Matei Zaharia (Spark, MLflow creator). ML lifecycle, experiment tracking, model registry.",
+    "category": "MLOps",
+    "url": "https://mlflow.org/",
+    "type": "Documentation",
+    "tags": [
+      "Experiment Tracking",
+      "Model Registry",
+      "ML Lifecycle"
+    ],
+    "level": "Medium"
+  },
+  {
+    "name": "Evidently AI Blog",
+    "description": "Emeli Dral (Yandex Data Factory). Data drift detection, model monitoring, ML quality testing.",
+    "category": "MLOps",
+    "url": "https://www.evidentlyai.com/blog",
+    "type": "Blog",
+    "tags": [
+      "Model Monitoring",
+      "Data Drift",
+      "ML Quality"
+    ],
+    "level": "Medium"
+  },
+  {
+    "name": "Abhishek Thakur: AAAMLP Book",
+    "description": "4x Kaggle Grandmaster. Approaching Almost Any ML Problem - the practical ML bible.",
+    "category": "Machine Learning",
+    "url": "https://github.com/abhishekkrthakur/approachingalmost",
+    "type": "Book",
+    "tags": [
+      "Kaggle",
+      "Practical ML",
+      "Cross-Validation"
+    ],
+    "level": "Medium"
+  },
+  {
+    "name": "MLWave: Kaggle Ensembling Guide",
+    "description": "Triskelion. THE canonical reference on model ensembling with 1000+ GitHub stars.",
+    "category": "Machine Learning",
+    "url": "https://mlwave.com/kaggle-ensembling-guide/",
+    "type": "Tutorial",
+    "tags": [
+      "Ensembling",
+      "Kaggle",
+      "Stacking"
+    ],
+    "level": "Medium"
+  },
+  {
+    "name": "FastML (Zygmunt Zajac)",
+    "description": "Machine learning made easy. Complex topics without PhD-level math since 2011.",
+    "category": "Machine Learning",
+    "url": "https://fastml.com/",
+    "type": "Blog",
+    "tags": [
+      "Practical ML",
+      "Tutorials",
+      "Hyperparameter Tuning"
+    ],
+    "level": "Medium"
+  },
+  {
+    "name": "Chris Deotte: NVIDIA Kaggle Grandmaster Blog",
+    "description": "4x Kaggle Grandmaster at NVIDIA. Feature engineering, stacking, GPU-accelerated ML.",
+    "category": "Machine Learning",
+    "url": "https://developer.nvidia.com/blog/author/cdeotte/",
+    "type": "Blog",
+    "tags": [
+      "Feature Engineering",
+      "Stacking",
+      "NVIDIA"
+    ],
+    "level": "Advanced"
+  },
+  {
+    "name": "Scott Lundberg: SHAP Creator",
+    "description": "Creator of SHAP, former Microsoft Research. TreeSHAP, feature attribution.",
+    "category": "Model Interpretability",
+    "url": "https://scottlundberg.com/",
+    "type": "Blog",
+    "tags": [
+      "SHAP",
+      "Explainability",
+      "Feature Attribution"
+    ],
+    "level": "Advanced"
+  },
+  {
+    "name": "Jason Brownlee: Machine Learning Mastery",
+    "description": "PhD in AI, 20+ books. THE go-to resource for applied ML practitioners.",
+    "category": "Machine Learning",
+    "url": "https://machinelearningmastery.com/",
+    "type": "Blog",
+    "tags": [
+      "Tutorials",
+      "Applied ML",
+      "Imbalanced Data"
+    ],
+    "level": "Easy"
+  },
+  {
+    "name": "Ferenc Huszar: inFERENCe Blog",
+    "description": "Former Twitter ML researcher. Causal inference, do-calculus, ML beyond Curve Fitting series.",
+    "category": "Causal Inference & ML",
+    "url": "https://www.inference.vc/",
+    "type": "Blog",
+    "tags": [
+      "Causal Inference",
+      "Do-Calculus",
+      "ML Theory"
+    ],
+    "level": "Advanced"
   }
 ]
