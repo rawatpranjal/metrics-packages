@@ -1937,6 +1937,13 @@ a:hover {
     background: var(--bg-hover);
 }
 
+/* Lazy loading badge placeholder */
+.lazy-badge:not([src]) {
+    background: var(--bg-secondary);
+    min-width: 50px;
+    min-height: 20px;
+}
+
 /* YouTube Thumbnails for Talks */
 .talk-thumbnail-link {
     position: relative;
