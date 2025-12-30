@@ -276,12 +276,14 @@
         const shuffledIds = shuffleArray(itemIds);
         const displayItems = shuffledIds.slice(0, ITEMS_PER_ROW);
 
-        displayItems.forEach(itemId => {
-            const item = itemLookup[itemId];
-            if (item) {
-                const card = createExploreCard(item);
-                scroller.appendChild(card);
-            }
+        // Check if row is homogeneous (all same type) - hide badges if so
+        const items = displayItems.map(id => itemLookup[id]).filter(Boolean);
+        const types = new Set(items.map(i => i._type));
+        const isHomogeneous = types.size === 1;
+
+        items.forEach(item => {
+            const card = createExploreCard(item, isHomogeneous);
+            scroller.appendChild(card);
         });
 
         wrapper.appendChild(scroller);
@@ -321,14 +323,27 @@
         return items;
     }
 
-    function createExploreCard(item) {
+    function createExploreCard(item, hideTypeBadge = false) {
         const card = document.createElement('div');
         card.className = 'explore-card';
 
         const type = item._type || 'resource';
         const name = item.name || item.title || 'Untitled';
-        const description = item.description || item.summary || '';
         const url = item.url || '#';
+
+        // Build description from best available source
+        let description = '';
+        if (item.summary && item.summary.length > 20) {
+            description = item.summary;
+        } else if (item.description && item.description.length > 10 &&
+                   !item.description.toLowerCase().includes('career portal')) {
+            description = item.description;
+        } else if (item.category) {
+            // For career items, show category instead of "Career portal"
+            description = item.category;
+        } else if (item.description) {
+            description = item.description;
+        }
 
         // Handle tags - could be array or comma-separated string
         let tags = [];
@@ -340,12 +355,15 @@
             tags = Array.isArray(item.tags) ? item.tags : [];
         }
 
+        // Format type label nicely
+        const typeLabel = type.charAt(0).toUpperCase() + type.slice(1);
+
         card.innerHTML = `
-            <span class="explore-card-type type-${type}">${type}</span>
+            ${!hideTypeBadge ? `<span class="explore-card-type type-${type}">${typeLabel}</span>` : ''}
             <h3 class="explore-card-title">
                 <a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(name)}</a>
             </h3>
-            <p class="explore-card-desc">${escapeHtml(truncate(description, 120))}</p>
+            <p class="explore-card-desc">${escapeHtml(truncate(description, 140))}</p>
             ${tags.length > 0 ? `
                 <div class="explore-card-tags">
                     ${tags.slice(0, 3).map(t => `<span class="explore-card-tag">${escapeHtml(t)}</span>`).join('')}

@@ -55,14 +55,51 @@ def extract_cluster_label(items: list, metadata_items: list, item_indices: list)
     top_tags = [tag for tag, _ in tag_counts.most_common(5)]
     top_categories = [cat for cat, _ in cat_counts.most_common(3)]
 
-    # Generate label from top 2-3 tags
-    if top_tags:
-        label_tags = top_tags[:3]
-        label = ' & '.join([t.replace('-', ' ').title() for t in label_tags])
-    else:
-        label = top_categories[0] if top_categories else "Miscellaneous"
+    # Generate cleaner label - dedupe similar tags
+    label = generate_clean_label(top_tags, top_categories)
 
     return label, top_tags, top_categories
+
+
+def generate_clean_label(tags: list, categories: list) -> str:
+    """Generate a clean, non-repetitive label from tags."""
+    if not tags:
+        return categories[0] if categories else "Miscellaneous"
+
+    # Normalize tags for comparison
+    def normalize(s):
+        return s.lower().replace('-', ' ').replace('_', ' ')
+
+    # Dedupe tags that are too similar
+    seen_normalized = set()
+    unique_tags = []
+    for tag in tags:
+        norm = normalize(tag)
+        # Skip if we've seen something very similar
+        is_dupe = False
+        for seen in seen_normalized:
+            # Check if one contains the other or they share >70% words
+            words1 = set(norm.split())
+            words2 = set(seen.split())
+            if words1 == words2 or norm in seen or seen in norm:
+                is_dupe = True
+                break
+            # High word overlap
+            if len(words1 & words2) >= max(len(words1), len(words2)) * 0.7:
+                is_dupe = True
+                break
+        if not is_dupe:
+            seen_normalized.add(norm)
+            unique_tags.append(tag)
+        if len(unique_tags) >= 2:  # Only use 2 tags for cleaner labels
+            break
+
+    # Format nicely
+    if unique_tags:
+        formatted = [t.replace('-', ' ').title() for t in unique_tags]
+        return ' & '.join(formatted)
+
+    return categories[0] if categories else "Miscellaneous"
 
 
 def find_optimal_k(embeddings: np.ndarray, k_range: range) -> int:
