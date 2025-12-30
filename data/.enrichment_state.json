@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1",
-  "last_run": "2025-12-30T22:48:05.190617+00:00",
+  "last_run": "2025-12-30T23:18:20.278357+00:00",
   "items": {
     "packages.json": {
       "BayesianBandits": {
@@ -6837,6 +6837,1914 @@
       "Confessions of the Pricing Man": {
         "content_hash": "c66ae5f03d96b33a",
         "enriched_at": "2025-12-30T22:48:05.185799+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "The Age of Surveillance Capitalism": {
+        "content_hash": "55a4f1b0ac203e25",
+        "enriched_at": "2025-12-30T22:48:09.899401+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Weapons of Math Destruction": {
+        "content_hash": "46bed23f3afd5de9",
+        "enriched_at": "2025-12-30T22:48:14.915182+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "The Alignment Problem": {
+        "content_hash": "5bbfbc4c41989d09",
+        "enriched_at": "2025-12-30T22:48:19.000880+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "The Curse of Bigness": {
+        "content_hash": "e72e4c9bdaa969ea",
+        "enriched_at": "2025-12-30T22:48:23.608707+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "The Great Reversal": {
+        "content_hash": "e13b3580d2c5d680",
+        "enriched_at": "2025-12-30T22:48:31.509697+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "The Platform Delusion": {
+        "content_hash": "7141461ded40ba9a",
+        "enriched_at": "2025-12-30T22:48:36.192977+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Radical Markets": {
+        "content_hash": "a5f4f4d8a210193b",
+        "enriched_at": "2025-12-30T22:48:41.438642+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Uberland": {
+        "content_hash": "d1b0b03a4712402c",
+        "enriched_at": "2025-12-30T22:48:46.762933+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "The Filter Bubble": {
+        "content_hash": "e15edfcbd6e116f9",
+        "enriched_at": "2025-12-30T22:48:51.796675+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Invisible Engines": {
+        "content_hash": "ba40c161364db18f",
+        "enriched_at": "2025-12-30T22:48:57.954206+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Credit Risk Modeling using Excel and VBA": {
+        "content_hash": "4e6b36d76fed4207",
+        "enriched_at": "2025-12-30T22:49:01.074843+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Generalized Linear Models for Insurance Rating": {
+        "content_hash": "ad18467154ef77db",
+        "enriched_at": "2025-12-30T22:49:07.865838+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      }
+    },
+    "talks.json": {
+      "Susan Athey: applied researchers & Causation": {
+        "content_hash": "0ffea3e4185be6a8",
+        "enriched_at": "2025-12-30T22:49:15.333372+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Susan Athey: applied researchers Wanted": {
+        "content_hash": "34d9c932c78f8ab5",
+        "enriched_at": "2025-12-30T22:49:22.673971+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Susan Athey: Economics & AI": {
+        "content_hash": "a065529d9fc72b21",
+        "enriched_at": "2025-12-30T22:49:30.181855+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Susan Athey: Economics of Transformative AI": {
+        "content_hash": "5c26c4e9c1c93dcf",
+        "enriched_at": "2025-12-30T22:49:36.063872+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Steve Tadelis: Causal Inference in Tech": {
+        "content_hash": "764c40dffccf0094",
+        "enriched_at": "2025-12-30T22:49:41.138988+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Hal Varian: Googlenomics Q&A": {
+        "content_hash": "7be5f31c3c2dd45c",
+        "enriched_at": "2025-12-30T22:49:48.107026+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Hal Varian: Chief Scientist at Google": {
+        "content_hash": "b1e02079bf6febe6",
+        "enriched_at": "2025-12-30T22:49:53.818344+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Hal Varian: Doing Economics at Google": {
+        "content_hash": "76ca82510ac0c99a",
+        "enriched_at": "2025-12-30T22:50:00.083596+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "John List: Scale, Uber & The Voltage Effect": {
+        "content_hash": "ee8ceea98b0cd56c",
+        "enriched_at": "2025-12-30T22:50:06.130991+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "John List: Scaling Proven Ideas": {
+        "content_hash": "4c583fda8963195f",
+        "enriched_at": "2025-12-30T22:50:10.688591+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "John List: Market Design in Ride-Sharing": {
+        "content_hash": "b03df78ff28b4cbf",
+        "enriched_at": "2025-12-30T22:50:17.757009+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Kyle Kretschman: Economics at Spotify": {
+        "content_hash": "e7aa405ea31da340",
+        "enriched_at": "2025-12-30T22:50:23.118946+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Pat Bajari: Building applied analytics at Amazon": {
+        "content_hash": "59d14965cf775782",
+        "enriched_at": "2025-12-30T22:50:29.880419+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Preston McAfee: Auction Design & applied analytics": {
+        "content_hash": "abe622348a75eb1f",
+        "enriched_at": "2025-12-30T22:50:35.920052+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Sean Taylor: When Do We Need Causal Inference?": {
+        "content_hash": "fcba29621d3fb994",
+        "enriched_at": "2025-12-30T22:50:42.270783+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "ML for Pricing & Auctions (ICML)": {
+        "content_hash": "a7e7917cb4044efb",
+        "enriched_at": "2025-12-30T22:50:49.058662+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Nikhil Devanur: Lagrangian Duality in Mechanism Design": {
+        "content_hash": "bfe4444142690dd1",
+        "enriched_at": "2025-12-30T22:50:54.975749+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Guido Imbens: Nobel Lecture 2021": {
+        "content_hash": "454d5626f5ba1ead",
+        "enriched_at": "2025-12-30T22:50:59.926831+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Jean Tirole: Nobel Lecture 2014": {
+        "content_hash": "4e7c1eabf2084d74",
+        "enriched_at": "2025-12-30T22:51:07.049479+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Paul Milgrom: Nobel Lecture 2020": {
+        "content_hash": "e6952d30a10608ff",
+        "enriched_at": "2025-12-30T22:51:13.235878+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Alvin Roth: Nobel Lecture 2012": {
+        "content_hash": "d90e06bf0f17a41b",
+        "enriched_at": "2025-12-30T22:51:18.627357+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Victor Chernozhukov: Double/Debiased ML": {
+        "content_hash": "8280ba86ea9c42a7",
+        "enriched_at": "2025-12-30T22:51:23.739194+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Susan Athey: The Mixtape Podcast": {
+        "content_hash": "47c775c74ed82512",
+        "enriched_at": "2025-12-30T22:51:30.612787+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Hal Varian: Conversations with Tyler": {
+        "content_hash": "829f629bdb932d4a",
+        "enriched_at": "2025-12-30T22:51:37.297709+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Glen Weyl: Radical Markets": {
+        "content_hash": "b3d52c35b1c7254c",
+        "enriched_at": "2025-12-30T22:51:43.695887+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Erik Brynjolfsson: AI and the Economy": {
+        "content_hash": "98eb89bb6a674493",
+        "enriched_at": "2025-12-30T22:51:49.770425+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Erik Brynjolfsson: Lex Fridman Podcast": {
+        "content_hash": "b480fe873993d4a3",
+        "enriched_at": "2025-12-30T22:51:57.224453+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Daron Acemoglu: New Tasks Framework": {
+        "content_hash": "56b4846401bff0d8",
+        "enriched_at": "2025-12-30T22:52:02.530651+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "David Autor: AI and the Future of Work": {
+        "content_hash": "0e8f7d61593ac9a7",
+        "enriched_at": "2025-12-30T22:52:08.312209+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Sendhil Mullainathan: Before AGI Podcast": {
+        "content_hash": "cc0cf2ae79837a69",
+        "enriched_at": "2025-12-30T22:52:16.166771+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Sendhil Mullainathan: Cornell Messenger Lectures": {
+        "content_hash": "7dd2a041b4016dc0",
+        "enriched_at": "2025-12-30T22:52:21.320897+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Keith Chen: Your Brain on Uber": {
+        "content_hash": "0584ce57ba77bb74",
+        "enriched_at": "2025-12-30T22:52:26.646936+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Why Uber Is an Economist's Dream": {
+        "content_hash": "c8996ac00e4b4cb9",
+        "enriched_at": "2025-12-30T22:52:32.227046+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Uber Gender Pay Gap Study": {
+        "content_hash": "b26b400807d46d92",
+        "enriched_at": "2025-12-30T22:52:37.830331+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Fiona Scott Morton: Tech Antitrust Testimony": {
+        "content_hash": "ccfd8dbcd2b89677",
+        "enriched_at": "2025-12-30T22:52:43.100657+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Tim Wu: The Age of Extraction": {
+        "content_hash": "990e0993b59af2a6",
+        "enriched_at": "2025-12-30T22:52:48.269065+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Jean Tirole: Platform Regulation": {
+        "content_hash": "3d29db36e322398c",
+        "enriched_at": "2025-12-30T22:52:53.739682+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Jean Tirole: Richmond Fed Interview": {
+        "content_hash": "ca1a49981d4ab777",
+        "enriched_at": "2025-12-30T22:52:59.687176+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Alvin Roth: Google Tech Talk on Matching": {
+        "content_hash": "6eba09f94a9e03cb",
+        "enriched_at": "2025-12-30T22:53:06.062188+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Ronny Kohavi: Experimentation Wisdom": {
+        "content_hash": "8f3a51757207d384",
+        "enriched_at": "2025-12-30T22:53:12.487920+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Alexey Stysin: Auction Mechanism Design": {
+        "content_hash": "8a7c372327efafad",
+        "enriched_at": "2025-12-30T22:53:19.248835+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Casual Inference Podcast": {
+        "content_hash": "363831876c45db9f",
+        "enriched_at": "2025-12-30T22:53:25.493261+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "EconTalk": {
+        "content_hash": "15fa4e4840816a61",
+        "enriched_at": "2025-12-30T22:53:30.877614+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Not So Standard Deviations": {
+        "content_hash": "ec11645a14f34a20",
+        "enriched_at": "2025-12-30T22:53:36.069915+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Freakonomics Radio": {
+        "content_hash": "b6301e1b730c2b05",
+        "enriched_at": "2025-12-30T22:53:42.210024+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Capitalisn't Podcast": {
+        "content_hash": "435a5632e17d1f88",
+        "enriched_at": "2025-12-30T22:53:48.818058+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Stigler Center": {
+        "content_hash": "b5b51843478e40e1",
+        "enriched_at": "2025-12-30T22:53:56.728900+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "The Mixtape with Scott Cunningham": {
+        "content_hash": "abd64c4f3e18b9ac",
+        "enriched_at": "2025-12-30T22:54:02.766056+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Conversations with Tyler": {
+        "content_hash": "9b7ccdfe775b3151",
+        "enriched_at": "2025-12-30T22:54:08.476184+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "HBS Managing the Future of Work": {
+        "content_hash": "730d49501ec3cf00",
+        "enriched_at": "2025-12-30T22:54:13.209868+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Experimentation Masters": {
+        "content_hash": "c4160ca83bd03bc7",
+        "enriched_at": "2025-12-30T22:54:17.819830+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Experiment Nation": {
+        "content_hash": "cc0822b92fbbc988",
+        "enriched_at": "2025-12-30T22:54:23.040106+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "The Visible Hand": {
+        "content_hash": "ab221c3e8bbb5eec",
+        "enriched_at": "2025-12-30T22:54:29.082865+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Practical AI": {
+        "content_hash": "efa7f1b3c187ba41",
+        "enriched_at": "2025-12-30T22:54:34.610183+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "The Pie (UChicago)": {
+        "content_hash": "376a5c97c9023732",
+        "enriched_at": "2025-12-30T22:54:40.668910+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "a16z Podcast": {
+        "content_hash": "79ce9c6575daece6",
+        "enriched_at": "2025-12-30T22:54:44.900155+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Odd Lots (Bloomberg)": {
+        "content_hash": "99461d7066d518a6",
+        "enriched_at": "2025-12-30T22:54:52.537632+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Impact Pricing": {
+        "content_hash": "a76c6e04dc09c956",
+        "enriched_at": "2025-12-30T22:54:57.845899+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Pricing Heroes": {
+        "content_hash": "a5d9773ce5e4e0a2",
+        "enriched_at": "2025-12-30T22:55:04.204997+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Retail Pricing Insights": {
+        "content_hash": "672bdfa90385cabb",
+        "enriched_at": "2025-12-30T22:55:10.553159+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Super Data Science": {
+        "content_hash": "02856385a3b0eb3b",
+        "enriched_at": "2025-12-30T22:55:18.142869+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "TWIML AI": {
+        "content_hash": "9995113e22866484",
+        "enriched_at": "2025-12-30T22:55:25.391047+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Data Skeptic": {
+        "content_hash": "2e37eef066f05240",
+        "enriched_at": "2025-12-30T22:55:32.089756+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "DataFramed (DataCamp)": {
+        "content_hash": "cc8f3ded6b606702",
+        "enriched_at": "2025-12-30T22:55:37.974485+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Macro Musings": {
+        "content_hash": "f5571868c05e5c5f",
+        "enriched_at": "2025-12-30T22:55:46.220596+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Economics, Applied (Hoover)": {
+        "content_hash": "c953a32cb609d89d",
+        "enriched_at": "2025-12-30T22:55:53.940110+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Planet Money (NPR)": {
+        "content_hash": "410c7cc033b06f61",
+        "enriched_at": "2025-12-30T22:55:59.655570+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "The Brainy Business": {
+        "content_hash": "e894c2293793ce2c",
+        "enriched_at": "2025-12-30T22:56:06.108965+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Jonathan.Interviews: Data Science Careers & Causal Inference": {
+        "content_hash": "65c3cbdaebc91ebd",
+        "enriched_at": "2025-12-30T22:56:13.016661+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Causal Bandits Podcast (Alex Molak)": {
+        "content_hash": "daa11a3836951abd",
+        "enriched_at": "2025-12-30T22:56:19.266527+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Online Causal Inference Seminar": {
+        "content_hash": "657219cffebd6d54",
+        "enriched_at": "2025-12-30T22:56:24.999978+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Econ AI Podcast": {
+        "content_hash": "375da37da77199d9",
+        "enriched_at": "2025-12-30T22:56:30.131211+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Brady Neal: Causal Inference Course": {
+        "content_hash": "cb0c5aa62534cf53",
+        "enriched_at": "2025-12-30T22:56:37.272437+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Aki Vehtari: Bayesian Data Analysis": {
+        "content_hash": "d2c88ae9e0439ab8",
+        "enriched_at": "2025-12-30T22:56:44.019674+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "NBER: Methods Lectures & Feldstein Lectures": {
+        "content_hash": "f5e09dd62a56bb17",
+        "enriched_at": "2025-12-30T22:56:50.664431+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "MAD Seminar: Marketplace Algorithms & Design": {
+        "content_hash": "824795996e58e646",
+        "enriched_at": "2025-12-30T22:56:56.028006+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "MIT CODE: Conference on Digital Experimentation": {
+        "content_hash": "1938e02da7ffa7d0",
+        "enriched_at": "2025-12-30T22:57:03.297280+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Statsig": {
+        "content_hash": "266512fb548702fb",
+        "enriched_at": "2025-12-30T22:57:09.749474+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "\u8bfe\u4ee3\u8868\u7acb\u6b63 (Yuzheng Sun)": {
+        "content_hash": "094e4a7a62950f32",
+        "enriched_at": "2025-12-30T22:57:16.097243+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "AEA Webcasts": {
+        "content_hash": "0ea4066c74a880b3",
+        "enriched_at": "2025-12-30T22:57:24.905074+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Economics of AI": {
+        "content_hash": "05590cf5d955806c",
+        "enriched_at": "2025-12-30T22:57:30.506258+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Causal Inference (Wager)": {
+        "content_hash": "d48b1f9a68743a81",
+        "enriched_at": "2025-12-30T22:57:36.988519+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Advanced Data Analysis (Shalizi)": {
+        "content_hash": "5ec926e2d88afd59",
+        "enriched_at": "2025-12-30T22:57:44.200745+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Patterns, Predictions, and Actions": {
+        "content_hash": "f689926b8fcc4935",
+        "enriched_at": "2025-12-30T22:57:51.305874+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Geometric Deep Learning": {
+        "content_hash": "c41a7a3fee1c1cbc",
+        "enriched_at": "2025-12-30T22:57:58.280141+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Probabilistic Modeling Case Studies": {
+        "content_hash": "c49cb58ceb11baa0",
+        "enriched_at": "2025-12-30T22:58:04.239266+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Bandit Algorithms": {
+        "content_hash": "e4c2cfdc1fc68593",
+        "enriched_at": "2025-12-30T22:58:09.188844+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "RL: Theory and Algorithms": {
+        "content_hash": "6fb375fed18dbc56",
+        "enriched_at": "2025-12-30T22:58:16.475676+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Causal Inference and ML (Imbens)": {
+        "content_hash": "0410bbbf7e4e41ea",
+        "enriched_at": "2025-12-30T22:58:22.851620+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Double ML (Chernozhukov)": {
+        "content_hash": "462618094c121eb5",
+        "enriched_at": "2025-12-30T22:58:29.744238+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Econometrics (Hansen)": {
+        "content_hash": "b5d49664323040f8",
+        "enriched_at": "2025-12-30T22:58:36.161357+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Microeconomic Theory (Rubinstein)": {
+        "content_hash": "1d4d4de516993363",
+        "enriched_at": "2025-12-30T22:58:43.703044+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Market Design (Roth)": {
+        "content_hash": "8b0149346de59998",
+        "enriched_at": "2025-12-30T22:58:53.274549+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Staff Engineer (Will Larson)": {
+        "content_hash": "aae0a1f932c4eeec",
+        "enriched_at": "2025-12-30T22:58:58.630297+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Designing Data-Intensive Applications": {
+        "content_hash": "5f6d663408e02e39",
+        "enriched_at": "2025-12-30T22:59:06.036413+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Aryma Labs": {
+        "content_hash": "8269008d66de9ed3",
+        "enriched_at": "2025-12-30T22:59:11.789982+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "How I Wrote This": {
+        "content_hash": "1b207d42329a2174",
+        "enriched_at": "2025-12-30T22:59:18.564964+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Ronny Kohavi: The Ultimate Guide to A/B Testing (Lenny's Podcast)": {
+        "content_hash": "67a86a23799b0acb",
+        "enriched_at": "2025-12-30T22:59:25.632559+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Susan Athey: Machine Learning and Causal Inference (NBER Methods Lecture 2015)": {
+        "content_hash": "b18e2c4375fb8726",
+        "enriched_at": "2025-12-30T22:59:32.979286+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "KDD 2018 Tutorial: Causal Inference and Counterfactual Reasoning": {
+        "content_hash": "034b4a909fc89ab3",
+        "enriched_at": "2025-12-30T22:59:39.651236+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Causal Bandits Podcast": {
+        "content_hash": "bbb04c8ccf7643ee",
+        "enriched_at": "2025-12-30T22:59:47.747460+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "NerdOut@Spotify: The Rise and Fall of ABBA": {
+        "content_hash": "2b12a7ad1f649d89",
+        "enriched_at": "2025-12-30T22:59:53.802374+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Data Engineering Podcast: Experimentation with Eppo": {
+        "content_hash": "64337dfc1a85fa55",
+        "enriched_at": "2025-12-30T23:00:00.007585+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "MIT IDE YouTube Channel": {
+        "content_hash": "7712340bc7a511ff",
+        "enriched_at": "2025-12-30T23:00:07.342999+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Stanford ML + Causal Inference Course": {
+        "content_hash": "517d73d9b6402d80",
+        "enriched_at": "2025-12-30T23:00:15.682667+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Peter Frazier: Signaling with Surge Pricing (Simons 2018)": {
+        "content_hash": "07c421f45f27b518",
+        "enriched_at": "2025-12-30T23:00:23.291560+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Jonathan Hall: Reflections of an Economist Who Manages People (Stanford 2024)": {
+        "content_hash": "d66a755d77c6ecde",
+        "enriched_at": "2025-12-30T23:00:30.341324+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "New Books in Economics: Discovering Prices (Paul Milgrom)": {
+        "content_hash": "fcca3267b74f170a",
+        "enriched_at": "2025-12-30T23:00:39.165524+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "a16z Podcast: The Marketplace Rules": {
+        "content_hash": "2f43392c7d770b33",
+        "enriched_at": "2025-12-30T23:00:45.601467+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Acquired: The Uber IPO": {
+        "content_hash": "c158e5c5e1e81407",
+        "enriched_at": "2025-12-30T23:00:53.487191+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Acquired: Airbnb": {
+        "content_hash": "617cf533ab41bfa3",
+        "enriched_at": "2025-12-30T23:01:00.805720+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "a16z Podcast: Pricing, Pricing, Pricing": {
+        "content_hash": "622127d938dd6f99",
+        "enriched_at": "2025-12-30T23:01:08.094106+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "The Mixtape: Chris Nosko Interview": {
+        "content_hash": "2964c487bb61894a",
+        "enriched_at": "2025-12-30T23:01:16.835532+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "NFX Podcast: Scott Cook on Network Effects": {
+        "content_hash": "b8c5491f17cd3e65",
+        "enriched_at": "2025-12-30T23:01:25.632032+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Lenny's Podcast: Ramesh Johari on Marketplace Lessons": {
+        "content_hash": "b089301b338e867b",
+        "enriched_at": "2025-12-30T23:01:32.195925+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Best AI Papers Explained (Enoch Kang)": {
+        "content_hash": "f5731510b6c9090e",
+        "enriched_at": "2025-12-30T23:01:39.366256+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Pitching the AI Startup (Enoch Kang)": {
+        "content_hash": "7bb032c229ae369d",
+        "enriched_at": "2025-12-30T23:01:47.758888+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "How I AI (Lenny's Podcast)": {
+        "content_hash": "da10711a8a879fad",
+        "enriched_at": "2025-12-30T23:01:55.849697+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Freakonomics: Sendhil Mullainathan Messing Around": {
+        "content_hash": "a7652063d5d362c6",
+        "enriched_at": "2025-12-30T23:02:06.086879+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "TWIML: Causal Models at Lyft with Sean Taylor": {
+        "content_hash": "e71aea899b522269",
+        "enriched_at": "2025-12-30T23:02:14.996625+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "TWIML: Causal Conceptions of Fairness": {
+        "content_hash": "6fcbd7a4992fe162",
+        "enriched_at": "2025-12-30T23:02:23.695136+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "TWIML: Are LLMs Good at Causal Reasoning?": {
+        "content_hash": "a2c244cf9b49257c",
+        "enriched_at": "2025-12-30T23:02:34.041508+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Data Skeptic Podcast": {
+        "content_hash": "8b3524132adc7391",
+        "enriched_at": "2025-12-30T23:02:41.141620+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "NBER Summer 2015: ML for Economists (Athey/Imbens)": {
+        "content_hash": "b002e28237ccd822",
+        "enriched_at": "2025-12-30T23:02:51.663082+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Raj Chetty: Using Big Data to Solve Economic Problems": {
+        "content_hash": "f9c38b8da19afbac",
+        "enriched_at": "2025-12-30T23:03:00.176949+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "KDD Causal ML Workshop Series (2023-2025)": {
+        "content_hash": "aa9a31b6f9ff4198",
+        "enriched_at": "2025-12-30T23:03:09.377594+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "NeurIPS 2024: Causality for LLMs Tutorial": {
+        "content_hash": "2f53818858c645f0",
+        "enriched_at": "2025-12-30T23:03:19.957446+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Mixtape Sessions: Heterogeneous Effects (Frandsen)": {
+        "content_hash": "4f80c809f2ce44f4",
+        "enriched_at": "2025-12-30T23:03:28.096972+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Hal Varian: Conversation at Council on Foreign Relations": {
+        "content_hash": "fbc0a54c1f82a781",
+        "enriched_at": "2025-12-30T23:03:35.346017+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Hal Varian: Googlenomics Long-read Q&A (AEI)": {
+        "content_hash": "07be65e57ec02b2c",
+        "enriched_at": "2025-12-30T23:03:42.977135+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Hal Varian: Future of Work (Oxford)": {
+        "content_hash": "f41d986895a6feba",
+        "enriched_at": "2025-12-30T23:03:53.215502+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Hal Varian: Room for Discussion Interview": {
+        "content_hash": "7487547936e03252",
+        "enriched_at": "2025-12-30T23:03:59.582235+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Michael Schwarz: The Mixtape Interview": {
+        "content_hash": "0e73e0ba4d4f2cc6",
+        "enriched_at": "2025-12-30T23:04:05.906969+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Susan Athey: Women in Data Science Podcast": {
+        "content_hash": "86d9c6d7cb72ba1f",
+        "enriched_at": "2025-12-30T23:04:14.715307+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Susan Athey: Stigler Center Keynote": {
+        "content_hash": "80000a6bc0955ff2",
+        "enriched_at": "2025-12-30T23:04:23.691134+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Preston McAfee: Richmond Fed Econ Focus Interview": {
+        "content_hash": "538705db1b61922c",
+        "enriched_at": "2025-12-30T23:04:32.603831+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Glen Weyl: EconTalk on Antitrust and Radical Reform": {
+        "content_hash": "2c2d87aeb9e2362c",
+        "enriched_at": "2025-12-30T23:04:39.137239+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Glen Weyl: Quadratic Voting and Funding (World of DaaS)": {
+        "content_hash": "4936010b11f136ab",
+        "enriched_at": "2025-12-30T23:04:46.902643+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Glen Weyl: The Mixtape Interview": {
+        "content_hash": "22861854373f312f",
+        "enriched_at": "2025-12-30T23:04:55.088295+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Glen Weyl: Plurality at Stanford Digital Economy Lab": {
+        "content_hash": "9cbc4a5ad6e8d5f4",
+        "enriched_at": "2025-12-30T23:05:02.511026+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "John List: Tim Ferriss Show #566": {
+        "content_hash": "a618b31c9990db18",
+        "enriched_at": "2025-12-30T23:05:10.530599+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "John List: The Price of Doing Business (Freakonomics)": {
+        "content_hash": "c9e2ec7b827c039d",
+        "enriched_at": "2025-12-30T23:05:17.337772+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "John List: Big Brains UChicago Podcast": {
+        "content_hash": "a397cf80ebb3ec0b",
+        "enriched_at": "2025-12-30T23:05:22.721251+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "John List: Macro Hive Podcast": {
+        "content_hash": "4c7b1a84a91f7a6c",
+        "enriched_at": "2025-12-30T23:05:31.285328+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "John List: Voltage Effect and Life at Uber/Lyft/Walmart": {
+        "content_hash": "c41baaa0dd6678fa",
+        "enriched_at": "2025-12-30T23:05:39.335206+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "John List: Guy Kawasaki Remarkable People": {
+        "content_hash": "5fb816ccc5e3e43c",
+        "enriched_at": "2025-12-30T23:05:47.776404+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Jonathan Hall: BNN Bloomberg Interview": {
+        "content_hash": "ccc5ee52cd171a46",
+        "enriched_at": "2025-12-30T23:05:56.184766+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Steve Tadelis: Does Advertising Actually Work? (Freakonomics)": {
+        "content_hash": "9c182c487dce3362",
+        "enriched_at": "2025-12-30T23:06:05.751089+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Steve Tadelis: Trust and Reputation in Game Theory (Game Changer)": {
+        "content_hash": "96c77f709b7f517c",
+        "enriched_at": "2025-12-30T23:06:15.098784+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Karin Kimbrough: Work Trends to Watch (Microsoft WorkLab)": {
+        "content_hash": "ac8aff188336c95d",
+        "enriched_at": "2025-12-30T23:06:20.290922+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Karin Kimbrough: Small Firms, Workers, and AI (CSIS)": {
+        "content_hash": "b406922d54a90d15",
+        "enriched_at": "2025-12-30T23:06:25.810090+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Karin Kimbrough: Skills as Global Workforce Currency": {
+        "content_hash": "61076f1cbb295f66",
+        "enriched_at": "2025-12-30T23:06:33.749049+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Guy Berger: The Great Stay Economy (Top of Mind)": {
+        "content_hash": "4c41bfba8f2c9f4c",
+        "enriched_at": "2025-12-30T23:06:38.085802+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Svenja Gudell: Inside the Indeed Hiring Lab (RecruitingDaily)": {
+        "content_hash": "7a5c46334dc1fa25",
+        "enriched_at": "2025-12-30T23:06:46.613006+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Svenja Gudell: Expanding Your Talent Pool (FutureWorks 2024)": {
+        "content_hash": "4f1fa2bef5b1525f",
+        "enriched_at": "2025-12-30T23:06:54.295725+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Jed Kolko: What's Next for the US Labor Market": {
+        "content_hash": "f42ce6bfa7387a42",
+        "enriched_at": "2025-12-30T23:07:02.164821+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Pawel Adrjan: Understanding Indeed Hiring Lab (Here to Help)": {
+        "content_hash": "c1f1631a58e46406",
+        "enriched_at": "2025-12-30T23:07:08.676630+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Daniel Zhao: Low Hire, Some Fire Job Market (CNBC)": {
+        "content_hash": "9dc65c83b40d3d1d",
+        "enriched_at": "2025-12-30T23:07:15.971981+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Daniel Zhao: Soft Landing Optimism (Yahoo Finance)": {
+        "content_hash": "07771624a05ee8a5",
+        "enriched_at": "2025-12-30T23:07:21.890840+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Andrew Chamberlain: Red Hot Labor Market (NPR)": {
+        "content_hash": "dc2df1921ee46daa",
+        "enriched_at": "2025-12-30T23:07:27.339294+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Skylar Olsen: How to Talk to Buyers and Sellers (RealTrending)": {
+        "content_hash": "bab8e0b145466707",
+        "enriched_at": "2025-12-30T23:07:31.963225+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Skylar Olsen: Mid-Year Economic Outlook (Weekly Seattle)": {
+        "content_hash": "5d2d762de8c3aec6",
+        "enriched_at": "2025-12-30T23:07:38.800756+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Skylar Olsen: Housing Market Insights (CSG West)": {
+        "content_hash": "272fe065956fe82e",
+        "enriched_at": "2025-12-30T23:07:44.690060+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Stan Humphries: Data Science at Zillow (CXOTalk)": {
+        "content_hash": "511bfd33f0499dc9",
+        "enriched_at": "2025-12-30T23:07:52.439277+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Nathan Kallus: Learning from Historical A/B Tests (Stanford)": {
+        "content_hash": "1c871db9d37be0d9",
+        "enriched_at": "2025-12-30T23:07:59.052521+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Kyle Kretschman: Spotify's Business & Marketplace Economics": {
+        "content_hash": "f43ec0f10391ca01",
+        "enriched_at": "2025-12-30T23:08:05.280097+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Kyle Kretschman: Economics as Storytelling (UT Austin)": {
+        "content_hash": "5df2e7decb1d1cdf",
+        "enriched_at": "2025-12-30T23:08:13.724570+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Taylor Marr: Have Airbnb Bans Backfired? (BiggerPockets)": {
+        "content_hash": "0e2dbd8aa939bae8",
+        "enriched_at": "2025-12-30T23:08:21.294830+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "DoorDash Deep Dive (Acquired)": {
+        "content_hash": "55aa58ca0df99e7a",
+        "enriched_at": "2025-12-30T23:08:27.510313+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "NPR Delivery Wars: Cost of Convenience": {
+        "content_hash": "dc97494ed2ff5d08",
+        "enriched_at": "2025-12-30T23:08:33.820262+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Instacart: The Economics Team": {
+        "content_hash": "b42dcb719841e3ee",
+        "enriched_at": "2025-12-30T23:08:41.772737+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Pat Bajari: Amazon Data Science Day Keynote (Columbia)": {
+        "content_hash": "9d1eaf851e53ec0c",
+        "enriched_at": "2025-12-30T23:08:50.230846+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Pat Bajari: Keystone Strategy Q&A": {
+        "content_hash": "af8b09e4ca0620e5",
+        "enriched_at": "2025-12-30T23:08:55.735045+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Amazon's Secret Economists (CNN)": {
+        "content_hash": "4777e64751b8cff6",
+        "enriched_at": "2025-12-30T23:09:04.115233+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Jonathan Levin: Internet Markets (Econometric Society)": {
+        "content_hash": "a53e53e84402c167",
+        "enriched_at": "2025-12-30T23:09:11.719203+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Chiara Farronato: Beyond Chicken and Egg (HBS)": {
+        "content_hash": "85f6fdf63d9e8801",
+        "enriched_at": "2025-12-30T23:09:19.755382+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Athey & Luca: Economists in Tech Companies (JEP 2019)": {
+        "content_hash": "696f148d05a1ad51",
+        "enriched_at": "2025-12-30T23:09:26.926986+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "NBER Economics of AI: Toronto 2017": {
+        "content_hash": "e4551dac443baa5b",
+        "enriched_at": "2025-12-30T23:09:37.376712+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "NBER Economics of AI: 2018": {
+        "content_hash": "40ccb0f50274327c",
+        "enriched_at": "2025-12-30T23:09:45.918200+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Bill Gurley: All-In Summit - Marketplaces": {
+        "content_hash": "27531fc9a597b901",
+        "enriched_at": "2025-12-30T23:09:53.087579+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Bill Gurley: Runnin' Down a Dream (Stanford)": {
+        "content_hash": "18f6c7ce33100c91",
+        "enriched_at": "2025-12-30T23:09:59.716871+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "BG2Pod: Bill Gurley & Brad Gerstner": {
+        "content_hash": "55edb01a1359acd6",
+        "enriched_at": "2025-12-30T23:10:06.290125+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Li Jin: The Passion Economy (a16z)": {
+        "content_hash": "38c35741b1ead33d",
+        "enriched_at": "2025-12-30T23:10:13.618207+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Li Jin: Building the Creator Economy (Future)": {
+        "content_hash": "3edd6ad6d91ece16",
+        "enriched_at": "2025-12-30T23:10:20.344690+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Eugene Wei: Remains of the Day Podcast Appearances": {
+        "content_hash": "7e3f4d77a8f6f66f",
+        "enriched_at": "2025-12-30T23:10:27.307435+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Jean Tirole: Nobel Prize Lecture - Market Power and Regulation": {
+        "content_hash": "c23309428829ea28",
+        "enriched_at": "2025-12-30T23:10:36.040883+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Alvin Roth: Market Design Keynote (AEA)": {
+        "content_hash": "ed43d10f60af49a0",
+        "enriched_at": "2025-12-30T23:10:43.490839+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Alvin Roth: Who Gets What and Why (Google Talks)": {
+        "content_hash": "0d88a061fa53f72a",
+        "enriched_at": "2025-12-30T23:10:49.608633+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Jeff Jordan (a16z): Marketplace Best Practices": {
+        "content_hash": "5b836239473204bb",
+        "enriched_at": "2025-12-30T23:10:58.168164+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Brian Chesky: Blitzscaling Airbnb (Stanford)": {
+        "content_hash": "10ce177af2d5e15d",
+        "enriched_at": "2025-12-30T23:11:05.983087+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Tony Xu: DoorDash Marketplace Building (Stanford)": {
+        "content_hash": "906acbad8afef92d",
+        "enriched_at": "2025-12-30T23:11:14.318842+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Sangeet Choudary: Platform Thinking Talks": {
+        "content_hash": "230940b34d32b144",
+        "enriched_at": "2025-12-30T23:11:22.072506+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Parker & Van Alstyne: Platform Revolution Keynote": {
+        "content_hash": "1d5994cdc0977c05",
+        "enriched_at": "2025-12-30T23:11:31.050064+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Exponent Podcast: Ben Thompson on Platforms": {
+        "content_hash": "f965369387716847",
+        "enriched_at": "2025-12-30T23:11:37.949492+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Invest Like the Best: Marketplace Founders": {
+        "content_hash": "c388e1c5f17266b1",
+        "enriched_at": "2025-12-30T23:11:44.338522+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "How I Built This: Platform Stories": {
+        "content_hash": "6e04f3d6bb4a99cc",
+        "enriched_at": "2025-12-30T23:11:51.776671+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Village Global Venture Stories: Marketplace Edition": {
+        "content_hash": "e7805754089afaa2",
+        "enriched_at": "2025-12-30T23:11:59.241604+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "a16z Marketplace Podcast: Business of Marketplaces": {
+        "content_hash": "c501e1757a43a39c",
+        "enriched_at": "2025-12-30T23:12:07.105267+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Data Analysis Journal: Experimentation Series": {
+        "content_hash": "008a45d4973a81ed",
+        "enriched_at": "2025-12-30T23:12:12.587324+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Inside Data: Data Team Economics": {
+        "content_hash": "cb1f0dd417c7df94",
+        "enriched_at": "2025-12-30T23:12:20.488652+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Not Boring Deep Dives": {
+        "content_hash": "c540a7a4724a7c60",
+        "enriched_at": "2025-12-30T23:12:27.596299+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "The Generalist S-1 Club": {
+        "content_hash": "a2aefce2f2e3b4e0",
+        "enriched_at": "2025-12-30T23:12:33.927394+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "SemiAnalysis: AI Hardware Economics": {
+        "content_hash": "9a21d4a4f5c40619",
+        "enriched_at": "2025-12-30T23:12:39.315297+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "The Diff: Daily Tech/Finance Analysis": {
+        "content_hash": "ab1b68fe16f6e9de",
+        "enriched_at": "2025-12-30T23:12:45.510573+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Economic Forces: Price Theory Podcast": {
+        "content_hash": "5ac7a94e4286494b",
+        "enriched_at": "2025-12-30T23:12:50.536368+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Apricitas Economics: Macro Data Analysis": {
+        "content_hash": "6d6cc8c88a408d87",
+        "enriched_at": "2025-12-30T23:12:56.649375+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Benedict Evans Annual Tech Trends": {
+        "content_hash": "d437d42eaf1a0961",
+        "enriched_at": "2025-12-30T23:13:02.653195+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Aswath Damodaran: Valuation Lectures": {
+        "content_hash": "88d4959024a0928b",
+        "enriched_at": "2025-12-30T23:13:08.333752+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Learning Bayesian Statistics Podcast": {
+        "content_hash": "81533805aac40bcf",
+        "enriched_at": "2025-12-30T23:13:14.957938+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Rob Hyndman: Forecasting Talks": {
+        "content_hash": "5903f43c75e6edf1",
+        "enriched_at": "2025-12-30T23:13:21.902557+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Frank Harrell: Biostatistics Lectures": {
+        "content_hash": "f5a20583f77f2b24",
+        "enriched_at": "2025-12-30T23:13:27.162895+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Stanford Statistical Learning MOOC (Hastie & Tibshirani)": {
+        "content_hash": "a68ab376e48d5d12",
+        "enriched_at": "2025-12-30T23:13:34.282023+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Simply Statistics Podcast": {
+        "content_hash": "4f238251aaac6e7a",
+        "enriched_at": "2025-12-30T23:13:41.254601+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Xavier Amatriain: RecSys Talks": {
+        "content_hash": "735635f7d739d63e",
+        "enriched_at": "2025-12-30T23:13:49.897048+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Daniel Tunkelang: Search with ML Course": {
+        "content_hash": "8cb86754ef2842e5",
+        "enriched_at": "2025-12-30T23:13:55.496066+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Abhishek Thakur: ML YouTube Channel": {
+        "content_hash": "449c8b440c52fd22",
+        "enriched_at": "2025-12-30T23:14:02.224170+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Chip Huyen: ML Systems Design Talks": {
+        "content_hash": "5b76f724b8895378",
+        "enriched_at": "2025-12-30T23:14:09.076726+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "MLWave: Kaggle Competition Retrospectives": {
+        "content_hash": "be977ebb92ef12a1",
+        "enriched_at": "2025-12-30T23:14:17.515217+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "NVIDIA GTC: Kaggle Grandmaster Sessions": {
+        "content_hash": "30a1d458c080da85",
+        "enriched_at": "2025-12-30T23:14:25.585067+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Matei Zaharia: Data Brew Podcast": {
+        "content_hash": "c91540fdfff1340e",
+        "enriched_at": "2025-12-30T23:14:31.442037+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      }
+    },
+    "career.json": {
+      "Athey & Luca: Economists in Tech": {
+        "content_hash": "046863a8da2227af",
+        "enriched_at": "2025-12-30T23:14:37.495107+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Amazon Science Blog": {
+        "content_hash": "f2c98218dc4e241b",
+        "enriched_at": "2025-12-30T23:14:42.191372+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Scarlet Chen: Econ PhD to Tech": {
+        "content_hash": "bbeb8d9ebd854cb2",
+        "enriched_at": "2025-12-30T23:14:47.549918+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Ace the Data Science Interview": {
+        "content_hash": "967751d11d1a6991",
+        "enriched_at": "2025-12-30T23:14:52.845264+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Amazon Economist Careers": {
+        "content_hash": "f0731e9ae0909560",
+        "enriched_at": "2025-12-30T23:14:58.081892+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Google": {
+        "content_hash": "974563dbfc764926",
+        "enriched_at": "2025-12-30T23:15:01.694899+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Meta": {
+        "content_hash": "80e6c7052a180c83",
+        "enriched_at": "2025-12-30T23:15:07.962250+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Should Your Tech Firm Have an Economist?": {
+        "content_hash": "451e44135e4499d2",
+        "enriched_at": "2025-12-30T23:15:13.278539+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Wayfair Economics Group": {
+        "content_hash": "f6ff0350ec4c8ff2",
+        "enriched_at": "2025-12-30T23:15:21.551127+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "LinkedIn Economic Graph": {
+        "content_hash": "0eb67a296fd92de5",
+        "enriched_at": "2025-12-30T23:15:29.433425+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Stripe Economics of AI Fellowship": {
+        "content_hash": "a1eb31170c58fd1d",
+        "enriched_at": "2025-12-30T23:15:35.178435+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Salesforce AI Economist": {
+        "content_hash": "d26d38c2c472936b",
+        "enriched_at": "2025-12-30T23:15:40.617582+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Pharma HEOR Teams Overview": {
+        "content_hash": "3c6ced41e16baf9d",
+        "enriched_at": "2025-12-30T23:15:47.191704+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Rose Tan: Tech Jobs for Econ PhDs": {
+        "content_hash": "e6c17b6274377d31",
+        "enriched_at": "2025-12-30T23:15:53.470210+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Key Advice: Title vs Tasks": {
+        "content_hash": "2dc2db35d36edc47",
+        "enriched_at": "2025-12-30T23:15:59.800179+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "NABE TEC Conference & Job Fair": {
+        "content_hash": "12a8b5943f067e0f",
+        "enriched_at": "2025-12-30T23:16:06.404550+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Economists in Tech LinkedIn Group": {
+        "content_hash": "a4174d5b57940f05",
+        "enriched_at": "2025-12-30T23:16:12.500505+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "MIT CODE Conference": {
+        "content_hash": "6a4683b3903be3f5",
+        "enriched_at": "2025-12-30T23:16:17.746407+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "ACM EC Conference": {
+        "content_hash": "d2cf231eae0f29d7",
+        "enriched_at": "2025-12-30T23:16:23.076065+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Academic Economics Discord": {
+        "content_hash": "56abc1eabb4199c9",
+        "enriched_at": "2025-12-30T23:16:29.955154+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "AEA JOE Listings": {
+        "content_hash": "ce44181e04d0ce8e",
+        "enriched_at": "2025-12-30T23:16:36.902265+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "StatTrak Biostatistics Internships": {
+        "content_hash": "8f0c6c0077418aa7",
+        "enriched_at": "2025-12-30T23:16:43.931255+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "EuropeanHealthEconomics Jobs": {
+        "content_hash": "178163d9a36a5989",
+        "enriched_at": "2025-12-30T23:16:50.146810+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Amazon": {
+        "content_hash": "eaadbd47e12f4d2e",
+        "enriched_at": "2025-12-30T23:16:54.996029+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Microsoft": {
+        "content_hash": "99fe551f148b6545",
+        "enriched_at": "2025-12-30T23:17:00.911756+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Apple": {
+        "content_hash": "83f453380a53f008",
+        "enriched_at": "2025-12-30T23:17:06.402084+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Uber": {
+        "content_hash": "df5cfb7780d4a4a5",
+        "enriched_at": "2025-12-30T23:17:12.312607+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Lyft": {
+        "content_hash": "b5a9a118239726fd",
+        "enriched_at": "2025-12-30T23:17:17.569786+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Wayfair": {
+        "content_hash": "62b08a3b4bdbaaef",
+        "enriched_at": "2025-12-30T23:17:23.118344+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Airbnb": {
+        "content_hash": "fc95ffb9a821a83f",
+        "enriched_at": "2025-12-30T23:17:27.128513+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "DoorDash": {
+        "content_hash": "100a7789c32f930c",
+        "enriched_at": "2025-12-30T23:17:32.923093+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Instacart": {
+        "content_hash": "8a37c24e69b1765e",
+        "enriched_at": "2025-12-30T23:17:38.627576+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "eBay": {
+        "content_hash": "eb1c09e30b489d83",
+        "enriched_at": "2025-12-30T23:17:43.442817+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Etsy": {
+        "content_hash": "e89a3796f8429ce3",
+        "enriched_at": "2025-12-30T23:17:49.981163+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "LinkedIn": {
+        "content_hash": "4aa522eae40173b4",
+        "enriched_at": "2025-12-30T23:17:54.758469+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Spotify": {
+        "content_hash": "d1507ee53cdb2460",
+        "enriched_at": "2025-12-30T23:17:59.920610+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Netflix": {
+        "content_hash": "dc7ddcfc6d89d71f",
+        "enriched_at": "2025-12-30T23:18:04.675598+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Pinterest": {
+        "content_hash": "c75a8c95e0be74e0",
+        "enriched_at": "2025-12-30T23:18:09.841464+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Discord": {
+        "content_hash": "8cd19ffe596ad367",
+        "enriched_at": "2025-12-30T23:18:14.012207+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Snap": {
+        "content_hash": "8b517c4b697b9a62",
+        "enriched_at": "2025-12-30T23:18:20.245408+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
