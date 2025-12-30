@@ -4687,5 +4687,275 @@
     ],
     "best_for": "Classical regression diagnostics: VIF for multicollinearity, Type II/III ANOVA, linear hypothesis tests, from Fox & Weisberg (2019)",
     "language": "R"
+  },
+  {
+    "name": "ivreg",
+    "description": "Modern implementation of two-stage least squares (2SLS) instrumental variables regression with comprehensive diagnostics including hat values, studentized residuals, and component-plus-residual plots. Successor to AER's ivreg() function with superior diagnostic tools.",
+    "category": "Instrumental Variables",
+    "docs_url": "https://john-d-fox.github.io/ivreg/",
+    "github_url": "https://github.com/john-d-fox/ivreg",
+    "url": "https://cran.r-project.org/package=ivreg",
+    "install": "install.packages(\"ivreg\")",
+    "tags": [
+      "instrumental-variables",
+      "2SLS",
+      "IV-regression",
+      "endogeneity",
+      "diagnostics"
+    ],
+    "best_for": "Modern 2SLS instrumental variables regression with comprehensive diagnostic tools",
+    "language": "R"
+  },
+  {
+    "name": "ivmodel",
+    "description": "Specialized package for weak instrument diagnostics implementing Anderson-Rubin tests, k-class estimators (LIML, Fuller), and sensitivity analysis following Jiang et al. (2015). Essential when instrument strength is questionable.",
+    "category": "Instrumental Variables",
+    "docs_url": "https://cran.r-project.org/web/packages/ivmodel/ivmodel.pdf",
+    "github_url": "https://github.com/hyunseungkang/ivmodel",
+    "url": "https://cran.r-project.org/package=ivmodel",
+    "install": "install.packages(\"ivmodel\")",
+    "tags": [
+      "instrumental-variables",
+      "weak-instruments",
+      "Anderson-Rubin",
+      "LIML",
+      "sensitivity-analysis"
+    ],
+    "best_for": "Weak instrument diagnostics with Anderson-Rubin tests and k-class estimators (LIML, Fuller)",
+    "language": "R"
+  },
+  {
+    "name": "gmm",
+    "description": "Generalized Method of Moments estimation implementing two-step GMM, iterated GMM, and continuous updated estimator (CUE) with HAC covariance matrices. Supports linear and nonlinear moment conditions.",
+    "category": "Instrumental Variables",
+    "docs_url": "https://cran.r-project.org/web/packages/gmm/gmm.pdf",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=gmm",
+    "install": "install.packages(\"gmm\")",
+    "tags": [
+      "GMM",
+      "method-of-moments",
+      "HAC",
+      "instrumental-variables",
+      "CUE"
+    ],
+    "best_for": "Generalized Method of Moments estimation with two-step, iterated, and CUE estimators",
+    "language": "R"
+  },
+  {
+    "name": "momentfit",
+    "description": "Modern S4-based implementation of Generalized Method of Moments supporting systems of equations, nonlinear moment conditions, and hypothesis testing. Successor to gmm package with object-oriented design.",
+    "category": "Instrumental Variables",
+    "docs_url": "https://cran.r-project.org/web/packages/momentfit/momentfit.pdf",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=momentfit",
+    "install": "install.packages(\"momentfit\")",
+    "tags": [
+      "GMM",
+      "S4-class",
+      "systems-estimation",
+      "moment-conditions",
+      "hypothesis-testing"
+    ],
+    "best_for": "Modern object-oriented GMM estimation for systems of equations",
+    "language": "R"
+  },
+  {
+    "name": "systemfit",
+    "description": "Simultaneous systems estimation implementing Seemingly Unrelated Regression (SUR), two-stage least squares (2SLS), and three-stage least squares (3SLS). Critical for demand systems and structural macro models.",
+    "category": "Instrumental Variables",
+    "docs_url": "https://cran.r-project.org/web/packages/systemfit/systemfit.pdf",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=systemfit",
+    "install": "install.packages(\"systemfit\")",
+    "tags": [
+      "SUR",
+      "2SLS",
+      "3SLS",
+      "systems-estimation",
+      "demand-systems"
+    ],
+    "best_for": "Simultaneous equation systems: SUR, 2SLS, and 3SLS estimation for demand systems and structural models",
+    "language": "R"
+  },
+  {
+    "name": "ShiftShareSE",
+    "description": "Implements correct standard errors for Bartik/shift-share instrumental variables designs following Adão, Kolesár, and Morales (2019 QJE). Standard clustered SEs are typically incorrect for shift-share—this package provides econometrically valid inference.",
+    "category": "Instrumental Variables",
+    "docs_url": "https://cran.r-project.org/web/packages/ShiftShareSE/ShiftShareSE.pdf",
+    "github_url": "https://github.com/kolesarm/ShiftShareSE",
+    "url": "https://cran.r-project.org/package=ShiftShareSE",
+    "install": "install.packages(\"ShiftShareSE\")",
+    "tags": [
+      "shift-share",
+      "Bartik",
+      "instrumental-variables",
+      "standard-errors",
+      "regional-economics"
+    ],
+    "best_for": "Correct standard errors for Bartik/shift-share IV designs, implementing Adão, Kolesár & Morales (2019 QJE)",
+    "language": "R"
+  },
+  {
+    "name": "eventstudyr",
+    "description": "Implements event study best practices from Freyaldenhoven et al. (2021) including sup-t confidence bands for uniform inference and formal pre-trend testing. Provides robust methods for dynamic treatment effect estimation.",
+    "category": "Causal Inference (Event Study)",
+    "docs_url": "https://cran.r-project.org/web/packages/eventstudyr/eventstudyr.pdf",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=eventstudyr",
+    "install": "install.packages(\"eventstudyr\")",
+    "tags": [
+      "event-study",
+      "pre-trends",
+      "sup-t-bands",
+      "uniform-inference",
+      "dynamic-effects"
+    ],
+    "best_for": "Event study best practices with sup-t confidence bands and formal pre-trend testing, implementing Freyaldenhoven et al. (2021)",
+    "language": "R"
+  },
+  {
+    "name": "bacondecomp",
+    "description": "Performs Goodman-Bacon decomposition showing how two-way fixed effects (TWFE) estimates are weighted averages of all possible 2×2 DiD comparisons. Essential for diagnosing negative weights problems in staggered adoption designs.",
+    "category": "Causal Inference (DiD)",
+    "docs_url": "https://cran.r-project.org/web/packages/bacondecomp/bacondecomp.pdf",
+    "github_url": "https://github.com/evanjflack/bacondecomp",
+    "url": "https://cran.r-project.org/package=bacondecomp",
+    "install": "install.packages(\"bacondecomp\")",
+    "tags": [
+      "DiD",
+      "TWFE",
+      "Goodman-Bacon",
+      "decomposition",
+      "staggered-adoption"
+    ],
+    "best_for": "Goodman-Bacon decomposition for diagnosing negative weights in TWFE staggered DiD designs",
+    "language": "R"
+  },
+  {
+    "name": "fect",
+    "description": "Fixed Effects Counterfactual Estimators (v2.0+) incorporating gsynth functionality. Supports treatment switching on/off with carryover effects, matrix completion methods, and Rambachan & Roth sensitivity analysis for parallel trends violations.",
+    "category": "Causal Inference (DiD)",
+    "docs_url": "https://yiqingxu.org/packages/fect/",
+    "github_url": "https://github.com/xuyiqing/fect",
+    "url": "https://cran.r-project.org/package=fect",
+    "install": "install.packages(\"fect\")",
+    "tags": [
+      "counterfactual",
+      "matrix-completion",
+      "interactive-fixed-effects",
+      "sensitivity-analysis",
+      "carryover"
+    ],
+    "best_for": "Counterfactual estimation with interactive fixed effects, treatment switching, and sensitivity analysis",
+    "language": "R"
+  },
+  {
+    "name": "fixes",
+    "description": "Streamlined event study workflows with simple run_es() and plot_es() functions built on fixest. New 2025 package providing convenient wrappers for common event study specifications.",
+    "category": "Causal Inference (Event Study)",
+    "docs_url": "https://cran.r-project.org/web/packages/fixes/fixes.pdf",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=fixes",
+    "install": "install.packages(\"fixes\")",
+    "tags": [
+      "event-study",
+      "fixest",
+      "DiD",
+      "streamlined",
+      "visualization"
+    ],
+    "best_for": "Streamlined event study workflows with simple run_es() and plot_es() functions on fixest",
+    "language": "R"
+  },
+  {
+    "name": "tidysynth",
+    "description": "Brings synthetic control method into the tidyverse with cleaner syntax and built-in placebo inference. Provides pipe-friendly workflows for SCM estimation and visualization.",
+    "category": "Causal Inference (Synthetic Control)",
+    "docs_url": "https://cran.r-project.org/web/packages/tidysynth/tidysynth.pdf",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=tidysynth",
+    "install": "install.packages(\"tidysynth\")",
+    "tags": [
+      "synthetic-control",
+      "tidyverse",
+      "placebo-inference",
+      "causal-inference",
+      "policy-evaluation"
+    ],
+    "best_for": "Tidyverse-friendly synthetic control method with clean syntax and built-in placebo inference",
+    "language": "R"
+  },
+  {
+    "name": "microsynth",
+    "description": "Extends synthetic control method to micro-level data with many units. Implements permutation inference and handles high-dimensional settings where traditional SCM struggles.",
+    "category": "Causal Inference (Synthetic Control)",
+    "docs_url": "https://cran.r-project.org/web/packages/microsynth/microsynth.pdf",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=microsynth",
+    "install": "install.packages(\"microsynth\")",
+    "tags": [
+      "synthetic-control",
+      "micro-data",
+      "permutation-inference",
+      "high-dimensional",
+      "many-units"
+    ],
+    "best_for": "Synthetic control for micro-level data with many units and permutation inference",
+    "language": "R"
+  },
+  {
+    "name": "scpi",
+    "description": "Provides rigorous prediction intervals for synthetic control methods following Cattaneo et al. (2021, 2025). Supports staggered adoption designs with valid uncertainty quantification.",
+    "category": "Causal Inference (Synthetic Control)",
+    "docs_url": "https://nppackages.github.io/scpi/",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=scpi",
+    "install": "install.packages(\"scpi\")",
+    "tags": [
+      "synthetic-control",
+      "prediction-intervals",
+      "uncertainty-quantification",
+      "staggered-adoption",
+      "inference"
+    ],
+    "best_for": "Rigorous prediction intervals for synthetic control, implementing Cattaneo et al. (2021, 2025)",
+    "language": "R"
+  },
+  {
+    "name": "pensynth",
+    "description": "Implements penalized synthetic control method from Abadie & L'Hour (2021). Adds regularization to improve pre-treatment fit and reduce interpolation bias in sparse donor pools.",
+    "category": "Causal Inference (Synthetic Control)",
+    "docs_url": "https://cran.r-project.org/web/packages/pensynth/pensynth.pdf",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=pensynth",
+    "install": "install.packages(\"pensynth\")",
+    "tags": [
+      "synthetic-control",
+      "penalized",
+      "regularization",
+      "interpolation-bias",
+      "sparse-donors"
+    ],
+    "best_for": "Penalized synthetic control with regularization, implementing Abadie & L'Hour (2021)",
+    "language": "R"
+  },
+  {
+    "name": "SCtools",
+    "description": "Automates placebo tests and multi-treated-unit ATT calculations for synthetic control. Provides utilities for generating in-space and in-time placebos with visualization.",
+    "category": "Causal Inference (Synthetic Control)",
+    "docs_url": "https://cran.r-project.org/web/packages/SCtools/SCtools.pdf",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=SCtools",
+    "install": "install.packages(\"SCtools\")",
+    "tags": [
+      "synthetic-control",
+      "placebo-tests",
+      "multi-unit",
+      "ATT",
+      "visualization"
+    ],
+    "best_for": "Automated placebo tests and multi-treated-unit ATT calculations for synthetic control",
+    "language": "R"
   }
 ]
