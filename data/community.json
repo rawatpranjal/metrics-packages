@@ -14988,5 +14988,502 @@
       "network effects research academic",
       "pipelines platforms HBR"
     ]
+  },
+  {
+    "name": "Olga Berezovsky",
+    "description": "Analyst-in-Residence and author of Data Analysis Journal. Former Product Analytics Lead at MyFitnessPal, Microsoft, Change.org.",
+    "category": "Notable Contributors",
+    "url": "https://dataanalysis.substack.com/",
+    "type": "Newsletter Author",
+    "location": "San Francisco, CA",
+    "best_for": "Product analytics, A/B testing workflows, experimentation best practices",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "statistics-basics",
+      "product-analytics"
+    ],
+    "topic_tags": [
+      "product-analytics",
+      "ab-testing",
+      "experimentation",
+      "data-science",
+      "workflow"
+    ],
+    "summary": "Olga Berezovsky bridges academic statistics and product analytics practice through her Data Analysis Journal newsletter. Her experimentation guides and A/B test checklists provide actionable frameworks for data teams. Tens of thousands of subscribers rely on her weekly insights.",
+    "use_cases": [
+      "Building experimentation workflows",
+      "Improving A/B testing practices"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Olga Berezovsky Data Analysis Journal",
+      "product analytics newsletter",
+      "A/B testing workflow guide",
+      "experimentation best practices"
+    ]
+  },
+  {
+    "name": "Lukas Vermeer",
+    "description": "Former Director of Experimentation at Booking.com (8 years, 1000+ concurrent experiments). Now Director at Vista. Expert on experimentation culture and SRM debugging.",
+    "category": "Notable Contributors",
+    "url": "https://lukasvermeer.medium.com/",
+    "type": "Industry Leader",
+    "location": "Amsterdam, Netherlands",
+    "best_for": "Experimentation infrastructure, SRM debugging, scaling A/B testing programs",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "ab-testing-basics",
+      "statistics"
+    ],
+    "topic_tags": [
+      "experimentation",
+      "booking-com",
+      "srm",
+      "ab-testing",
+      "infrastructure"
+    ],
+    "summary": "Lukas Vermeer built one of the world's largest experimentation programs at Booking.com. His papers on building experimentation infrastructure and debugging Sample Ratio Mismatches provide blueprints for scaling testing programs. Uniquely valuable for practical insights on organizational challenges of experimentation.",
+    "use_cases": [
+      "Building experimentation programs at scale",
+      "Debugging Sample Ratio Mismatches"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Junior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Lukas Vermeer Booking.com",
+      "experimentation infrastructure guide",
+      "Sample Ratio Mismatch debugging",
+      "scaling A/B testing programs"
+    ]
+  },
+  {
+    "name": "Benedict Evans",
+    "description": "Former Partner at Andreessen Horowitz. 20+ years analyzing mobile technology. 175,000-200,000 newsletter subscribers. Advisor to Entrepreneur First, Mosaic Ventures.",
+    "category": "Notable Contributors",
+    "url": "https://www.ben-evans.com/",
+    "type": "Industry Leader",
+    "location": "London, UK",
+    "best_for": "Macro tech trends, AI analysis, autonomous vehicles, annual trend presentations",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "tech-industry-basics"
+    ],
+    "topic_tags": [
+      "tech-trends",
+      "a16z",
+      "mobile",
+      "ai",
+      "presentations"
+    ],
+    "summary": "Benedict Evans' annual presentations on macro tech trends are widely circulated among investors and executives. Where Ben Thompson goes deep on frameworks, Evans goes wide on understanding technological shifts in historical context. Particularly strong on market size and structural changes.",
+    "use_cases": [
+      "Understanding macro technology trends",
+      "Preparing strategic presentations"
+    ],
+    "audience": [
+      "Curious-browser",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Benedict Evans a16z",
+      "tech trends annual presentation",
+      "Benedict Evans newsletter",
+      "macro technology analysis"
+    ]
+  },
+  {
+    "name": "Byrne Hobart",
+    "description": "Author of The Diff newsletter (47,000+ subscribers). Former SAC Capital/Point72, 7Park Data. CFA. Daily analysis of finance and tech inflection points.",
+    "category": "Notable Contributors",
+    "url": "https://www.thediff.co/",
+    "type": "Newsletter Author",
+    "location": "New York, NY",
+    "best_for": "Financial theory applied to tech, emerging startups, mental models for tech business",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "finance-basics",
+      "tech-strategy"
+    ],
+    "topic_tags": [
+      "the-diff",
+      "finance",
+      "tech-strategy",
+      "mental-models",
+      "daily"
+    ],
+    "summary": "Called 'Matt Levine's Money Stuff for mental model geeks.' Byrne Hobart synthesizes financial theory with technology trends at a level of sophistication rare outside institutional research. Daily output maintains remarkable quality—each issue introduces useful frameworks for thinking about tech businesses.",
+    "use_cases": [
+      "Developing financial frameworks for tech analysis",
+      "Understanding emerging tech trends"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Who is Byrne Hobart The Diff",
+      "tech finance newsletter daily",
+      "mental models tech investing",
+      "financial analysis tech companies"
+    ]
+  },
+  {
+    "name": "Dylan Patel",
+    "description": "Founder/CEO of SemiAnalysis. 200,000+ subscribers. Described as 'the preeminent authority on all things AI and semiconductors' by Ben Thompson.",
+    "category": "Notable Contributors",
+    "url": "https://semianalysis.com/",
+    "type": "Newsletter Author",
+    "location": "San Francisco, CA",
+    "best_for": "Semiconductor economics, AI hardware, GPU economics, datacenter infrastructure",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "tech-hardware-basics",
+      "ai-fundamentals"
+    ],
+    "topic_tags": [
+      "semiconductors",
+      "ai-hardware",
+      "gpu-economics",
+      "nvidia",
+      "datacenter"
+    ],
+    "summary": "Ben Thompson calls SemiAnalysis 'one of my most important and most-cited resources on Stratechery.' Dylan Patel provides deep technical analysis of semiconductor economics—understanding chip supply chains is essential for understanding AI economics. Bridges engineering depth with business implications.",
+    "use_cases": [
+      "Understanding AI hardware economics",
+      "Analyzing semiconductor supply chains"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Who is Dylan Patel SemiAnalysis",
+      "semiconductor economics newsletter",
+      "GPU economics AI training",
+      "AI hardware analysis"
+    ]
+  },
+  {
+    "name": "Packy McCormick",
+    "description": "Author of Not Boring (#1 Business newsletter on Substack, 239,000+ subscribers). Former VP at Breather. Runs Not Boring Capital (200+ investments).",
+    "category": "Notable Contributors",
+    "url": "https://www.notboring.co/",
+    "type": "Newsletter Author",
+    "location": "New York, NY",
+    "best_for": "Startup deep-dives, tech strategy, Techno-Industrials thesis, Web3",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "business-basics"
+    ],
+    "topic_tags": [
+      "not-boring",
+      "startups",
+      "deep-dives",
+      "strategy",
+      "investing"
+    ],
+    "summary": "'If Ben Thompson and Bill Simmons had a baby, it would look like Not Boring.' Packy McCormick's long-form narrative analysis combines economic frameworks with engaging writing. Deep dives often exceed 10,000 words. Investment angle (researching before investing) aligns his analysis incentives.",
+    "use_cases": [
+      "Understanding startup business models",
+      "Deep diving on specific companies"
+    ],
+    "audience": [
+      "Curious-browser",
+      "Junior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Packy McCormick Not Boring",
+      "startup deep dive newsletter",
+      "best business newsletter Substack",
+      "Not Boring Capital"
+    ]
+  },
+  {
+    "name": "Mario Gabriele",
+    "description": "Author of The Generalist (130,000+ subscribers). Former Venture Investor at Charge Ventures. Runs Generalist Capital. Known for exhaustive company research.",
+    "category": "Notable Contributors",
+    "url": "https://www.generalist.com/",
+    "type": "Newsletter Author",
+    "location": "New York, NY",
+    "best_for": "Tech company deep dives, S-1 teardowns, startup analysis from idea to IPO",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "business-basics"
+    ],
+    "topic_tags": [
+      "the-generalist",
+      "deep-dives",
+      "s1-teardowns",
+      "startups",
+      "research"
+    ],
+    "summary": "Called 'the wit, snark, and metaphors of The New Yorker with the tech-insight of The Information.' Mario Gabriele conducts exhaustive research on individual companies with narrative sophistication. His S-1 Club provides detailed IPO filing breakdowns with guest experts.",
+    "use_cases": [
+      "Researching tech companies deeply",
+      "Understanding IPO filings and S-1 analysis"
+    ],
+    "audience": [
+      "Curious-browser",
+      "Junior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Mario Gabriele The Generalist",
+      "S-1 teardown newsletter",
+      "tech company deep dive analysis",
+      "Generalist Capital"
+    ]
+  },
+  {
+    "name": "Aswath Damodaran",
+    "description": "Finance Professor at NYU Stern. Known as the 'Dean of Valuation'. Shares actual valuation spreadsheets. Prolific textbook author on corporate finance and valuation.",
+    "category": "Academic",
+    "url": "http://aswathdamodaran.blogspot.com/",
+    "type": "Academic",
+    "location": "New York, NY",
+    "best_for": "Company valuations, tech stock analysis, valuation frameworks, market bubbles",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "finance-basics",
+      "accounting"
+    ],
+    "topic_tags": [
+      "valuation",
+      "tech-stocks",
+      "corporate-finance",
+      "nyu",
+      "spreadsheets"
+    ],
+    "summary": "Aswath Damodaran shares his actual valuation spreadsheets—rare transparency into professional valuation practice. His methodology provides rigorous frameworks for thinking about tech company value, cutting through both hype and dismissiveness. All teaching materials freely available.",
+    "use_cases": [
+      "Valuing tech companies rigorously",
+      "Learning professional valuation methods"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Junior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Aswath Damodaran NYU",
+      "tech company valuation spreadsheet",
+      "Dean of Valuation blog",
+      "Magnificent 7 valuation analysis"
+    ]
+  },
+  {
+    "name": "Joseph Politano",
+    "description": "Author of Apricitas Economics. Independent economics analyst with exceptional data visualization. Noah Smith calls it 'one of the best econ data blogs'.",
+    "category": "Notable Contributors",
+    "url": "https://www.apricitas.io/",
+    "type": "Newsletter Author",
+    "location": "United States",
+    "best_for": "Macroeconomic analysis, labor markets, inflation, industry economics",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "economics-basics",
+      "data-analysis"
+    ],
+    "topic_tags": [
+      "apricitas",
+      "macro-economics",
+      "labor-markets",
+      "data-viz",
+      "inflation"
+    ],
+    "summary": "Apricitas Economics combines exceptional data visualization with rigorous economic analysis. Coverage of automotive industry economics, supply chain analysis, and labor market dynamics provides macro context essential for understanding tech industry conditions.",
+    "use_cases": [
+      "Understanding macroeconomic context for tech",
+      "Analyzing labor market dynamics"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Who is Joseph Politano Apricitas",
+      "best economics data blog",
+      "macro economic analysis newsletter",
+      "labor market data visualization"
+    ]
+  },
+  {
+    "name": "Brian Albrecht",
+    "description": "Chief Economist at International Center for Law & Economics. Co-author of Economic Forces newsletter (23,000+ subscribers). Reviving Chicago-style price theory.",
+    "category": "Notable Contributors",
+    "url": "https://www.economicforces.xyz/",
+    "type": "Newsletter Author",
+    "location": "United States",
+    "best_for": "Price theory, microeconomics, supply/demand analysis, applied economics",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "microeconomics-basics"
+    ],
+    "topic_tags": [
+      "economic-forces",
+      "price-theory",
+      "microeconomics",
+      "chicago-school",
+      "applied-economics"
+    ],
+    "summary": "Economic Forces is 'by far the best newsletter on economics' per Anton Howes. Brian Albrecht with Josh Hendrickson revives Chicago-style price theory for modern audiences—the fundamental microeconomic thinking that underlies tech economics analysis. Essential for building economic intuition.",
+    "use_cases": [
+      "Building fundamental economic intuition",
+      "Understanding price theory applications"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Junior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Brian Albrecht Economic Forces",
+      "price theory newsletter",
+      "Chicago school economics modern",
+      "microeconomics applied blog"
+    ]
+  },
+  {
+    "name": "Mikkel Dengsøe",
+    "description": "Co-founder at Synq. 10 years in data including Google and Monzo. Author of Inside Data newsletter focused on data team economics.",
+    "category": "Notable Contributors",
+    "url": "https://mikkeldengsoe.substack.com/",
+    "type": "Newsletter Author",
+    "location": "London, UK",
+    "best_for": "Data team economics, experimentation culture, data team sizing, salary benchmarks",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "data-science-basics",
+      "management"
+    ],
+    "topic_tags": [
+      "inside-data",
+      "data-teams",
+      "benchmarks",
+      "experimentation",
+      "salaries"
+    ],
+    "summary": "Inside Data uniquely focuses on the economics of data teams themselves—how to size, structure, and value data organizations. Benchmarks draw from 100+ tech companies, providing rare quantitative grounding for organizational decisions.",
+    "use_cases": [
+      "Sizing and structuring data teams",
+      "Benchmarking data team performance"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Junior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Mikkel Dengsøe Inside Data",
+      "data team sizing benchmarks",
+      "data team salary comparison",
+      "experimentation team structure"
+    ]
+  },
+  {
+    "name": "Timothy Lee",
+    "description": "Author of Full Stack Economics. Former Ars Technica and Vox writer. Also writes Understanding AI. Clear explanations of tech economics for general audiences.",
+    "category": "Notable Contributors",
+    "url": "https://www.fullstackeconomics.com/",
+    "type": "Newsletter Author",
+    "location": "United States",
+    "best_for": "Tech economics, tech policy, accessible economic analysis",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "full-stack-economics",
+      "tech-policy",
+      "accessible",
+      "ai",
+      "economics"
+    ],
+    "summary": "Timothy Lee provides clear explanations of tech economics for general audiences. His journalism background at Ars Technica and Vox trained him to make complex topics accessible. Understanding AI newsletter focuses specifically on AI economics and implications.",
+    "use_cases": [
+      "Understanding tech economics fundamentals",
+      "Following tech policy debates"
+    ],
+    "audience": [
+      "Curious-browser",
+      "Junior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Timothy Lee Full Stack Economics",
+      "accessible tech economics newsletter",
+      "Understanding AI newsletter",
+      "tech policy analysis"
+    ]
+  },
+  {
+    "name": "Adam Kelleher",
+    "description": "Physicist turned data scientist. Formerly Data at BuzzFeed. Adjunct Professor at Columbia teaching Causal Inference for Data Science. Developer of causality Python package.",
+    "category": "Notable Contributors",
+    "url": "https://medium.com/@akelleh",
+    "type": "Industry Leader",
+    "location": "New York, NY",
+    "best_for": "Graphical causal inference, causal graph discovery, Python tools, selection bias",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "statistics-basics",
+      "python"
+    ],
+    "topic_tags": [
+      "causal-inference",
+      "dags",
+      "python",
+      "pearl",
+      "buzzfeed"
+    ],
+    "summary": "Adam Kelleher developed the 'causality' Python package and contributes to DoWhy. Makes Pearlian causality accessible to data scientists without dumbing down the theory. One of the clearest explanations of causal graphs for practitioners.",
+    "use_cases": [
+      "Learning graphical causal inference",
+      "Building causal inference pipelines in Python"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Adam Kelleher causal inference",
+      "causality Python package",
+      "causal graphs for data scientists",
+      "Pearl causality tutorial"
+    ]
+  },
+  {
+    "name": "Arthur Turrell",
+    "description": "Author of Coding for Economists. Economist focusing on computational methods. Python-first approach to econometrics and data science.",
+    "category": "Notable Contributors",
+    "url": "https://aeturrell.github.io/coding-for-economists/",
+    "type": "Academic",
+    "location": "London, UK",
+    "best_for": "Python for economists, econometric workflows, Bayesian inference, modern data science",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python-basics",
+      "statistics"
+    ],
+    "topic_tags": [
+      "coding-for-economists",
+      "python",
+      "econometrics",
+      "workflow",
+      "bayesian"
+    ],
+    "summary": "Arthur Turrell's Coding for Economists provides a modern Python-first resource for economists. Covers data transformation, econometrics, Bayesian inference, and machine learning. Integrates with the Python Causality Handbook for causal inference applications.",
+    "use_cases": [
+      "Learning Python for economic research",
+      "Building reproducible econometric workflows"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Arthur Turrell Coding for Economists",
+      "Python for economists tutorial",
+      "econometrics Python workflow",
+      "modern data science economics"
+    ]
   }
 ]

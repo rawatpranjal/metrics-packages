@@ -10489,5 +10489,320 @@
     "type": "Platform",
     "tags": ["Feature Flags", "A/B Testing", "Experimentation Platform", "Spotify"],
     "level": "Medium"
+  },
+  {
+    "name": "Evan Miller: How Not To Run an A/B Test",
+    "description": "The 250,000+ view article that shaped industry thinking on peeking problems. Essential reading on why continuously monitoring A/B tests leads to false positives.",
+    "category": "AB Testing",
+    "url": "https://www.evanmiller.org/how-not-to-run-an-ab-test.html",
+    "type": "Blog Post",
+    "tags": ["A/B Testing", "Statistics", "Peeking Problem"],
+    "level": "Medium"
+  },
+  {
+    "name": "Evan Miller: Formulas for Bayesian A/B Testing",
+    "description": "Mathematical foundations for Bayesian approaches to A/B testing. Derivations of exact formulas for posterior probabilities and expected loss.",
+    "category": "AB Testing",
+    "url": "https://www.evanmiller.org/bayesian-ab-testing.html",
+    "type": "Blog Post",
+    "tags": ["Bayesian", "A/B Testing", "Statistics"],
+    "level": "Hard"
+  },
+  {
+    "name": "Evan Miller: Simple Sequential A/B Testing",
+    "description": "Introduction to sequential testing methods that allow valid early stopping. Practical alternative to fixed-horizon tests.",
+    "category": "AB Testing",
+    "url": "https://www.evanmiller.org/sequential-ab-testing.html",
+    "type": "Blog Post",
+    "tags": ["Sequential Testing", "A/B Testing", "Early Stopping"],
+    "level": "Medium"
+  },
+  {
+    "name": "Ronny Kohavi: Trustworthy Online Controlled Experiments",
+    "description": "The definitive book on A/B testing methodology by the architect of experimentation at Microsoft, Amazon, and Airbnb. 27,000+ citations.",
+    "category": "AB Testing",
+    "url": "https://www.cambridge.org/core/books/trustworthy-online-controlled-experiments/D97B26382EB0EB2DC2019A7A7B518F59",
+    "type": "Book",
+    "tags": ["A/B Testing", "Experimentation", "Ronny Kohavi"],
+    "level": "Medium"
+  },
+  {
+    "name": "Ronny Kohavi: Seven Rules of Thumb for Web Site Experimenters",
+    "description": "Foundational paper establishing core practices for online experimentation. Rules still followed at major tech companies today.",
+    "category": "AB Testing",
+    "url": "https://exp-platform.com/seven-rules-of-thumb-for-web-site-experimenters/",
+    "type": "Paper",
+    "tags": ["Experimentation", "Best Practices", "Kohavi"],
+    "level": "Medium"
+  },
+  {
+    "name": "ExP Platform: Microsoft Experimentation Resources",
+    "description": "Comprehensive experimentation platform guide from Microsoft's exp-platform team. Includes CUPED variance reduction, SRM detection, and metric design.",
+    "category": "AB Testing",
+    "url": "https://exp-platform.com/",
+    "type": "Resource Hub",
+    "tags": ["Experimentation", "CUPED", "Microsoft"],
+    "level": "Medium"
+  },
+  {
+    "name": "Lukas Vermeer: Building Experimentation Infrastructure",
+    "description": "Booking.com's Director of Experimentation on building culture and infrastructure for 1000+ concurrent experiments.",
+    "category": "AB Testing",
+    "url": "https://lukasvermeer.medium.com/",
+    "type": "Blog",
+    "tags": ["Experimentation", "Booking.com", "Infrastructure"],
+    "level": "Medium"
+  },
+  {
+    "name": "Data Analysis Journal (Olga Berezovsky)",
+    "description": "Weekly newsletter bridging academic statistics and product analytics practice. Experimentation guides, A/B test checklists, and workflow best practices.",
+    "category": "AB Testing",
+    "url": "https://dataanalysis.substack.com/",
+    "type": "Newsletter",
+    "tags": ["Product Analytics", "A/B Testing", "Data Science"],
+    "level": "Medium"
+  },
+  {
+    "name": "Adam Kelleher: Causal Data Science Medium Series",
+    "description": "Former BuzzFeed data scientist's accessible series on graphical causal inference. 'If Correlation Doesn't Imply Causation, Then What Does?' and more.",
+    "category": "Causal Inference & ML",
+    "url": "https://medium.com/@akelleh",
+    "type": "Blog",
+    "tags": ["Causal Inference", "DAGs", "Pearl"],
+    "level": "Medium"
+  },
+  {
+    "name": "Adam Kelleher: Causality Python Package",
+    "description": "Python implementation of causal inference algorithms including do-sampler, causal graph inference, and conditional independence testing.",
+    "category": "Causal Inference & ML",
+    "url": "https://github.com/akelleh/causality",
+    "type": "Package",
+    "tags": ["Python", "Causal Inference", "DoWhy"],
+    "level": "Medium"
+  },
+  {
+    "name": "The Effect (Nick Huntington-Klein)",
+    "description": "Free online textbook on research design and causal inference. 60+ video lectures with code in R, Stata, and Python. The replacement for Mastering Metrics.",
+    "category": "Causal Inference & ML",
+    "url": "https://theeffectbook.net/",
+    "type": "Book",
+    "tags": ["Causal Inference", "Textbook", "Free"],
+    "level": "Medium"
+  },
+  {
+    "name": "Coding for Economists (Arthur Turrell)",
+    "description": "Python workflow for economists covering data transformation, econometrics, Bayesian inference, and ML. Modern Python-first approach.",
+    "category": "Causal Inference & ML",
+    "url": "https://aeturrell.github.io/coding-for-economists/",
+    "type": "Book",
+    "tags": ["Python", "Econometrics", "Workflow"],
+    "level": "Medium"
+  },
+  {
+    "name": "QuantEcon DataScience",
+    "description": "Economic modeling with data science from UBC Vancouver. Python-based applications in economics with real student project examples.",
+    "category": "Causal Inference & ML",
+    "url": "https://datascience.quantecon.org/",
+    "type": "Course",
+    "tags": ["Python", "Economics", "Data Science"],
+    "level": "Medium"
+  },
+  {
+    "name": "EGAP Learning Days: Field Experiments",
+    "description": "Theory and practice of field experiments with international development focus. Randomization, power analysis, and ethical considerations.",
+    "category": "Causal Inference & ML",
+    "url": "https://egap.github.io/theory_and_practice_of_field_experiments/",
+    "type": "Course",
+    "tags": ["Field Experiments", "RCT", "Development"],
+    "level": "Medium"
+  },
+  {
+    "name": "Causal Econometrics Course",
+    "description": "Graduate-level credibility revolution methods. Comprehensive coverage of modern causal inference techniques for econometricians.",
+    "category": "Causal Inference & ML",
+    "url": "https://donskerclass.github.io/CausalEconometrics.html",
+    "type": "Course",
+    "tags": ["Econometrics", "Causal Inference", "Graduate"],
+    "level": "Hard"
+  },
+  {
+    "name": "Ben Elsner: Causal Inference & Policy Evaluation",
+    "description": "European policy evaluation focus on causal inference methods. Practical approach to evaluating interventions.",
+    "category": "Causal Inference & ML",
+    "url": "https://benelsner82.github.io/causalinfUCD/",
+    "type": "Course",
+    "tags": ["Policy Evaluation", "Causal Inference", "Europe"],
+    "level": "Medium"
+  },
+  {
+    "name": "Apoorva Lal: Applied Econometrics Notes",
+    "description": "Condensed notes with working code on Angrist & Pischke methods. Practical implementations of Mostly Harmless Econometrics.",
+    "category": "Causal Inference & ML",
+    "url": "https://apoorvalal.github.io/notebook/",
+    "type": "Notes",
+    "tags": ["Econometrics", "Code", "Angrist"],
+    "level": "Medium"
+  },
+  {
+    "name": "Awesome Causal Inference (Matteo Courthoud)",
+    "description": "Comprehensive GitHub repository curating causal inference resources. Papers, packages, tutorials, and datasets organized by topic.",
+    "category": "Causal Inference & ML",
+    "url": "https://github.com/matteocourthoud/awesome-causal-inference",
+    "type": "Meta Resource",
+    "tags": ["Curated List", "Causal Inference", "GitHub"],
+    "level": "Easy"
+  },
+  {
+    "name": "Causal Wizard Reading List",
+    "description": "Organized learning path for causal inference. Quality-assessed progression from basics to advanced methods.",
+    "category": "Causal Inference & ML",
+    "url": "https://causalwizard.app/reading/",
+    "type": "Meta Resource",
+    "tags": ["Reading List", "Causal Inference", "Learning Path"],
+    "level": "Easy"
+  },
+  {
+    "name": "Shubhanshu Mishra: Awesome Causality",
+    "description": "Extensive collection of causality resources including datasets, books, courses, videos, and code implementations.",
+    "category": "Causal Inference & ML",
+    "url": "http://shubhanshu.com/awesome-causality/",
+    "type": "Meta Resource",
+    "tags": ["Curated List", "Causality", "Datasets"],
+    "level": "Easy"
+  },
+  {
+    "name": "Dario Sansone: ML for Economists Resources",
+    "description": "Curated list of ML and causal inference resources for economists. Papers, tools, and comprehensive meta-resource collection.",
+    "category": "Causal Inference & ML",
+    "url": "https://sites.google.com/view/dariosansone/resources/machine-learning",
+    "type": "Meta Resource",
+    "tags": ["Machine Learning", "Economics", "Curated List"],
+    "level": "Easy"
+  },
+  {
+    "name": "The Diff (Byrne Hobart)",
+    "description": "Daily (5x/week) analysis of inflection points in finance and tech. 47,000+ subscribers including '1.5% of the Forbes 400'. Matt Levine for mental model geeks.",
+    "category": "Tech Strategy",
+    "url": "https://www.thediff.co/",
+    "type": "Newsletter",
+    "tags": ["Finance", "Tech Strategy", "Daily"],
+    "level": "Medium"
+  },
+  {
+    "name": "Money Stuff (Matt Levine)",
+    "description": "Daily newsletter making complex financial mechanics accessible. 300,000+ subscribers. Wall Street, M&A, tech IPOs, and securities law explained with wit.",
+    "category": "Tech Strategy",
+    "url": "https://www.bloomberg.com/account/newsletters/money-stuff",
+    "type": "Newsletter",
+    "tags": ["Finance", "Wall Street", "Free"],
+    "level": "Medium"
+  },
+  {
+    "name": "SemiAnalysis (Dylan Patel)",
+    "description": "Deep technical analysis of semiconductor economics and AI hardware. 200,000+ subscribers. Ben Thompson's 'most important and most-cited resource'.",
+    "category": "Tech Strategy",
+    "url": "https://semianalysis.com/",
+    "type": "Newsletter",
+    "tags": ["Semiconductors", "AI Hardware", "GPU Economics"],
+    "level": "Hard"
+  },
+  {
+    "name": "Aswath Damodaran Blog: Valuation",
+    "description": "NYU professor known as 'Dean of Valuation'. Shares actual valuation spreadsheets for tech companies. Magnificent 7 analyses, Nvidia, PayPal deep dives.",
+    "category": "Tech Strategy",
+    "url": "http://aswathdamodaran.blogspot.com/",
+    "type": "Blog",
+    "tags": ["Valuation", "Finance", "Tech Stocks"],
+    "level": "Medium"
+  },
+  {
+    "name": "Not Boring (Packy McCormick)",
+    "description": "#1 Business newsletter on Substack with 239,000+ subscribers. Long-form startup deep-dives often exceeding 10,000 words. 'Ben Thompson meets Bill Simmons'.",
+    "category": "Tech Strategy",
+    "url": "https://www.notboring.co/",
+    "type": "Newsletter",
+    "tags": ["Startups", "Deep Dives", "Strategy"],
+    "level": "Easy"
+  },
+  {
+    "name": "The Generalist (Mario Gabriele)",
+    "description": "130,000+ subscribers for exhaustive tech company deep dives. S-1 teardowns, multi-part series on Founders Fund and major tech companies.",
+    "category": "Tech Strategy",
+    "url": "https://www.generalist.com/",
+    "type": "Newsletter",
+    "tags": ["Tech Analysis", "S-1 Teardowns", "Deep Dives"],
+    "level": "Easy"
+  },
+  {
+    "name": "Full Stack Economics (Timothy Lee)",
+    "description": "Clear explanations of tech economics and policy for general audiences. Former Ars Technica and Vox writer. Also writes Understanding AI.",
+    "category": "Tech Strategy",
+    "url": "https://www.fullstackeconomics.com/",
+    "type": "Newsletter",
+    "tags": ["Tech Economics", "Policy", "Accessible"],
+    "level": "Easy"
+  },
+  {
+    "name": "Apricitas Economics (Joseph Politano)",
+    "description": "Data-driven macroeconomic analysis with exceptional visualization. Noah Smith calls it 'one of the best econ data blogs'. Labor markets, inflation, industry economics.",
+    "category": "Applied Economics",
+    "url": "https://www.apricitas.io/",
+    "type": "Newsletter",
+    "tags": ["Macro Economics", "Data Viz", "Labor Markets"],
+    "level": "Medium"
+  },
+  {
+    "name": "Economic Forces (Albrecht & Hendrickson)",
+    "description": "Chicago-style price theory for modern audiences. 23,000+ subscribers. 'By far the best newsletter on economics' per Anton Howes.",
+    "category": "Applied Economics",
+    "url": "https://www.economicforces.xyz/",
+    "type": "Newsletter",
+    "tags": ["Price Theory", "Microeconomics", "Economics"],
+    "level": "Medium"
+  },
+  {
+    "name": "Inside Data (Mikkel Dengsøe)",
+    "description": "Economics of data teams: sizing, structure, and valuation. Benchmarks from 100+ tech companies. 'Experimentation as a Company Strategy' and data team economics.",
+    "category": "Applied Economics",
+    "url": "https://mikkeldengsoe.substack.com/",
+    "type": "Newsletter",
+    "tags": ["Data Teams", "Benchmarks", "Experimentation"],
+    "level": "Medium"
+  },
+  {
+    "name": "Growth Unhinged: B2B Monetization Research",
+    "description": "B2B monetization research including 'State of B2B Monetization 2025'. Pricing, packaging, and growth metrics for SaaS companies.",
+    "category": "Pricing & Revenue",
+    "url": "https://www.growthunhinged.com/",
+    "type": "Newsletter",
+    "tags": ["B2B", "Pricing", "Monetization"],
+    "level": "Medium"
+  },
+  {
+    "name": "Platform Papers (Joost Rietveld)",
+    "description": "Academic platform research translated for practitioners. Bridges academic literature with practical platform strategy.",
+    "category": "Platform Economics",
+    "url": "https://platformpapers.substack.com/",
+    "type": "Newsletter",
+    "tags": ["Platforms", "Academic", "Strategy"],
+    "level": "Medium"
+  },
+  {
+    "name": "Matt Levine: The Crypto Story (Businessweek)",
+    "description": "40,000-word feature explaining the entire crypto ecosystem. Exemplifies Levine's ability to explain intricate systems accessibly.",
+    "category": "Tech Strategy",
+    "url": "https://www.bloomberg.com/features/2022-the-crypto-story/",
+    "type": "Article",
+    "tags": ["Crypto", "Long Form", "Explainer"],
+    "level": "Easy"
+  },
+  {
+    "name": "Nick Huntington-Klein: Animated Causal Graphs",
+    "description": "Innovative visual demonstrations of how different causal methods work. Animated DAGs showing confounding, selection bias, and identification strategies.",
+    "category": "Causal Inference & ML",
+    "url": "https://nickchk.com/causalgraphs.html",
+    "type": "Tool",
+    "tags": ["DAGs", "Visualization", "Pedagogy"],
+    "level": "Easy"
   }
 ]
