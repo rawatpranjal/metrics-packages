@@ -3697,5 +3697,221 @@
     ],
     "best_for": "Planning RDD studies—calculating required sample sizes, statistical power, or minimum detectable effects, implementing Cattaneo, Titiunik & Vazquez-Bare (2019)",
     "language": "R"
+  },
+  {
+    "name": "grf",
+    "description": "Forest-based statistical estimation and inference for heterogeneous treatment effects, supporting multiple treatment arms, instrumental variables, survival outcomes, and quantile regression—all with honest estimation and valid confidence intervals. The most widely-used R package for CATE estimation.",
+    "category": "Causal Inference (ML)",
+    "docs_url": "https://grf-labs.github.io/grf/",
+    "github_url": "https://github.com/grf-labs/grf",
+    "url": "https://cran.r-project.org/package=grf",
+    "install": "install.packages(\"grf\")",
+    "tags": [
+      "causal-forest",
+      "heterogeneous-treatment-effects",
+      "CATE",
+      "machine-learning",
+      "econometrics"
+    ],
+    "best_for": "Estimating individual-level treatment effects (CATE) with valid statistical inference in RCTs or observational studies, implementing Athey, Tibshirani & Wager (2019)",
+    "language": "R"
+  },
+  {
+    "name": "causalweight",
+    "description": "Semiparametric causal inference methods based on inverse probability weighting and double machine learning for average treatment effects, causal mediation analysis (direct/indirect effects), and dynamic treatment evaluation. Supports LATE estimation with instrumental variables.",
+    "category": "Causal Inference (ML)",
+    "docs_url": "https://cran.r-project.org/web/packages/causalweight/causalweight.pdf",
+    "github_url": "https://github.com/hbodory/causalweight",
+    "url": "https://cran.r-project.org/package=causalweight",
+    "install": "install.packages(\"causalweight\")",
+    "tags": [
+      "inverse-probability-weighting",
+      "causal-mediation",
+      "double-machine-learning",
+      "LATE",
+      "instrumental-variables"
+    ],
+    "best_for": "Mediation analysis and LATE estimation using weighting-based approaches with flexible nuisance estimation, implementing Huber (2014) and Frölich & Huber (2017)",
+    "language": "R"
+  },
+  {
+    "name": "causalToolbox",
+    "description": "Implements meta-learner algorithms (S-learner, T-learner, X-learner) for heterogeneous treatment effect estimation using flexible base learners including honest Random Forests and BART for personalized CATE estimation.",
+    "category": "Causal Inference (ML)",
+    "docs_url": "https://rdrr.io/github/soerenkuenzel/causalToolbox/",
+    "github_url": "https://github.com/forestry-labs/causalToolbox",
+    "url": "https://github.com/forestry-labs/causalToolbox",
+    "install": "devtools::install_github(\"forestry-labs/causalToolbox\")",
+    "tags": [
+      "metalearners",
+      "X-learner",
+      "T-learner",
+      "S-learner",
+      "CATE"
+    ],
+    "best_for": "Comparing and benchmarking different CATE meta-learner strategies (S/T/X-learner) with BART or RF base learners, implementing Künzel et al. (2019)",
+    "language": "R"
+  },
+  {
+    "name": "DoubleML",
+    "description": "Object-oriented implementation of the double/debiased machine learning framework for partially linear regression, interactive regression, and instrumental variable models. Built on mlr3 with R6 classes for flexible, extensible model specification with any mlr3-compatible ML learner.",
+    "category": "Causal Inference (ML)",
+    "docs_url": "https://docs.doubleml.org/r/stable/",
+    "github_url": "https://github.com/DoubleML/doubleml-for-r",
+    "url": "https://cran.r-project.org/package=DoubleML",
+    "install": "install.packages(\"DoubleML\")",
+    "tags": [
+      "double-machine-learning",
+      "mlr3",
+      "cross-fitting",
+      "treatment-effects",
+      "econometrics"
+    ],
+    "best_for": "Production-grade DML estimation with cross-fitting, hyperparameter tuning, and any mlr3-compatible ML learner, implementing Chernozhukov et al. (2018)",
+    "language": "R"
+  },
+  {
+    "name": "hdm",
+    "description": "High-dimensional statistical methods featuring heteroscedasticity-robust LASSO with theoretically-grounded penalty selection, post-double-selection inference, and treatment effect estimation under sparsity assumptions for high-dimensional controls.",
+    "category": "Causal Inference (ML)",
+    "docs_url": "https://cran.r-project.org/web/packages/hdm/vignettes/hdm.html",
+    "github_url": "https://github.com/MartinSpindler/hdm",
+    "url": "https://cran.r-project.org/package=hdm",
+    "install": "install.packages(\"hdm\")",
+    "tags": [
+      "lasso",
+      "post-double-selection",
+      "high-dimensional",
+      "instrumental-variables",
+      "sparsity"
+    ],
+    "best_for": "Post-double-selection LASSO inference and treatment effect estimation when the true model is sparse, implementing Belloni, Chernozhukov & Hansen (2014)",
+    "language": "R"
+  },
+  {
+    "name": "ddml",
+    "description": "Streamlined double/debiased machine learning estimation with emphasis on (short-)stacking to combine multiple base learners, increasing robustness to unknown data generating processes. Designed as a complement to DoubleML with simpler syntax.",
+    "category": "Causal Inference (ML)",
+    "docs_url": "https://thomaswiemann.com/ddml/",
+    "github_url": "https://github.com/thomaswiemann/ddml",
+    "url": "https://cran.r-project.org/package=ddml",
+    "install": "install.packages(\"ddml\")",
+    "tags": [
+      "double-machine-learning",
+      "stacking",
+      "model-averaging",
+      "treatment-effects",
+      "causal-inference"
+    ],
+    "best_for": "Quick, robust DML estimation using short-stacking to ensemble multiple ML learners without extensive tuning, implementing Ahrens, Hansen, Schaffer & Wiemann (2024)",
+    "language": "R"
+  },
+  {
+    "name": "tmle",
+    "description": "Implements targeted maximum likelihood estimation for point treatment effects with binary or continuous outcomes. Estimates ATE, ATT, ATC, and supports marginal structural models. Integrates SuperLearner for data-adaptive nuisance parameter estimation.",
+    "category": "Causal Inference (ML)",
+    "docs_url": "https://cran.r-project.org/web/packages/tmle/tmle.pdf",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=tmle",
+    "install": "install.packages(\"tmle\")",
+    "tags": [
+      "TMLE",
+      "causal-inference",
+      "ATE",
+      "doubly-robust",
+      "propensity-score"
+    ],
+    "best_for": "Estimating point treatment effects (ATE/ATT/ATC) in observational studies with binary treatments, implementing Gruber & van der Laan (2012)",
+    "language": "R"
+  },
+  {
+    "name": "tmle3",
+    "description": "A modular, extensible framework for targeted minimum loss-based estimation supporting custom TMLE parameters through a unified interface. Part of the tlverse ecosystem, designed to be as general as the mathematical TMLE framework itself for complex analyses.",
+    "category": "Causal Inference (ML)",
+    "docs_url": "https://tlverse.org/tmle3/",
+    "github_url": "https://github.com/tlverse/tmle3",
+    "url": "https://github.com/tlverse/tmle3",
+    "install": "remotes::install_github(\"tlverse/tmle3\")",
+    "tags": [
+      "TMLE",
+      "tlverse",
+      "modular",
+      "extensible",
+      "stochastic-interventions"
+    ],
+    "best_for": "Complex TMLE analyses requiring custom parameters, mediation, stochastic interventions, or optimal treatment regimes",
+    "language": "R"
+  },
+  {
+    "name": "ltmle",
+    "description": "Targeted maximum likelihood estimation for treatment/censoring-specific mean outcomes with time-varying treatments and confounders. Supports longitudinal settings, marginal structural models, and dynamic treatment regimes alongside IPTW and G-computation.",
+    "category": "Causal Inference (ML)",
+    "docs_url": "https://joshuaschwab.github.io/ltmle/",
+    "github_url": "https://github.com/joshuaschwab/ltmle",
+    "url": "https://cran.r-project.org/package=ltmle",
+    "install": "install.packages(\"ltmle\")",
+    "tags": [
+      "TMLE",
+      "longitudinal",
+      "time-varying-treatment",
+      "dynamic-regimes",
+      "MSM"
+    ],
+    "best_for": "Causal inference with time-varying treatments, time-varying confounders, and right-censored longitudinal data, implementing Lendle et al. (2017)",
+    "language": "R"
+  },
+  {
+    "name": "SuperLearner",
+    "description": "Implements the Super Learner algorithm for optimal ensemble prediction via cross-validation. Creates weighted combinations of multiple ML algorithms (XGBoost, Random Forest, glmnet, neural networks, SVM, BART) with guaranteed asymptotic optimality.",
+    "category": "Causal Inference (ML)",
+    "docs_url": "https://cran.r-project.org/web/packages/SuperLearner/vignettes/Guide-to-SuperLearner.html",
+    "github_url": "https://github.com/ecpolley/SuperLearner",
+    "url": "https://cran.r-project.org/package=SuperLearner",
+    "install": "install.packages(\"SuperLearner\")",
+    "tags": [
+      "ensemble-learning",
+      "cross-validation",
+      "stacking",
+      "prediction",
+      "model-selection"
+    ],
+    "best_for": "Building optimal prediction ensembles for nuisance parameter estimation (propensity scores, outcome models) in causal inference, implementing van der Laan, Polley & Hubbard (2007)",
+    "language": "R"
+  },
+  {
+    "name": "sensemakr",
+    "description": "Suite of sensitivity analysis tools extending the traditional omitted variable bias framework, computing robustness values, bias-adjusted estimates, and sensitivity contour plots for OLS regression to assess how strong unmeasured confounders would need to be to overturn conclusions.",
+    "category": "Causal Inference (ML)",
+    "docs_url": "https://carloscinelli.com/sensemakr/",
+    "github_url": "https://github.com/carloscinelli/sensemakr",
+    "url": "https://cran.r-project.org/package=sensemakr",
+    "install": "install.packages(\"sensemakr\")",
+    "tags": [
+      "sensitivity-analysis",
+      "omitted-variable-bias",
+      "robustness-value",
+      "causal-inference",
+      "regression"
+    ],
+    "best_for": "Assessing how strong unmeasured confounders would need to be to overturn regression-based causal conclusions, implementing Cinelli & Hazlett (2020)",
+    "language": "R"
+  },
+  {
+    "name": "EValue",
+    "description": "Conducts sensitivity analyses for unmeasured confounding, selection bias, and measurement error in observational studies and meta-analyses. Computes E-values representing the minimum strength of association unmeasured confounders would need to fully explain away an observed effect.",
+    "category": "Causal Inference (ML)",
+    "docs_url": "https://louisahsmith.github.io/evalue/",
+    "github_url": "https://github.com/mayamathur/evalue_package",
+    "url": "https://cran.r-project.org/package=EValue",
+    "install": "install.packages(\"EValue\")",
+    "tags": [
+      "E-value",
+      "unmeasured-confounding",
+      "sensitivity-analysis",
+      "selection-bias",
+      "meta-analysis"
+    ],
+    "best_for": "Quantifying the minimum confounding strength on the risk ratio scale needed to explain away observed treatment-outcome associations, implementing VanderWeele & Ding (2017)",
+    "language": "R"
   }
 ]
