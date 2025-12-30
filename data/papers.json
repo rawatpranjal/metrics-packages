@@ -690,6 +690,78 @@
               "citations": 200
             }
           ]
+        },
+        {
+          "id": "post-selection-inference",
+          "name": "Post-Selection Inference",
+          "application": "Valid confidence intervals after model selection",
+          "papers": [
+            {
+              "title": "Valid Post-Selection Inference",
+              "authors": "Richard Berk, Lawrence Brown, Andreas Buja, Kai Zhang, Linda Zhao",
+              "year": 2013,
+              "tag": "Classic",
+              "description": "First practical PoSI framework for valid inference after arbitrary model selection. Key insight: treat as simultaneous inference by widening CIs to cover all 2^p possible coefficient estimates across submodels. Conservative but universally valid—works regardless of whether selection used stepwise, lasso, AIC, or informal judgment.",
+              "url": "https://projecteuclid.org/journals/annals-of-statistics/volume-41/issue-2/Valid-post-selection-inference/10.1214/12-AOS1077.full",
+              "tags": [
+                "Statistics",
+                "Post-Selection Inference"
+              ],
+              "citations": 900
+            },
+            {
+              "title": "A Significance Test for the Lasso",
+              "authors": "Richard Lockhart, Jonathan Taylor, Ryan J. Tibshirani, Robert Tibshirani",
+              "year": 2014,
+              "tag": "Classic",
+              "description": "Breakthrough bringing p-values to lasso regression via covariance test statistic. Under null, test statistic follows Exp(1)—though variables chosen adaptively, lasso shrinkage makes null distribution tractable. Works in high-dimensional settings (p > n). The first principled answer to 'which lasso-selected features are real.'",
+              "url": "https://projecteuclid.org/journals/annals-of-statistics/volume-42/issue-2/A-significance-test-for-the-lasso/10.1214/13-AOS1175.full",
+              "tags": [
+                "Statistics",
+                "Post-Selection Inference"
+              ],
+              "citations": 800
+            },
+            {
+              "title": "Exact Post-Selection Inference, with Application to the Lasso",
+              "authors": "Jason D. Lee, Dennis L. Sun, Yuekai Sun, Jonathan E. Taylor",
+              "year": 2016,
+              "tag": "SOTA",
+              "description": "THE foundational methods paper. Introduces polyhedral lemma: lasso selection event = response y falling into polyhedral set (Ay ≤ b). Conditioning yields truncated Gaussian distribution for exact finite-sample CIs accounting for selection. No asymptotics required. Implemented in selectiveInference R package.",
+              "url": "https://projecteuclid.org/journals/annals-of-statistics/volume-44/issue-3/Exact-post-selection-inference-with-application-to-the-lasso/10.1214/15-AOS1371.full",
+              "tags": [
+                "Statistics",
+                "Post-Selection Inference"
+              ],
+              "citations": 1100
+            },
+            {
+              "title": "Statistical Learning and Selective Inference",
+              "authors": "Jonathan Taylor, Robert J. Tibshirani",
+              "year": 2015,
+              "tag": "Classic",
+              "description": "Accessible PNAS entry point to the field. Poses the question: 'Having mined data to find potential associations, how do we properly assess their strength?' Illustrates methods for forward stepwise, lasso, PCA with worked examples. Connects selective inference to replication crisis—cherry-picking requires higher significance bar.",
+              "url": "https://www.pnas.org/doi/10.1073/pnas.1507583112",
+              "tags": [
+                "Statistics",
+                "Post-Selection Inference"
+              ],
+              "citations": 500
+            },
+            {
+              "title": "Exact Post-Selection Inference for Sequential Regression Procedures",
+              "authors": "Jonathan E. Taylor, Richard Lockhart, Ryan J. Tibshirani, Robert Tibshirani",
+              "year": 2016,
+              "tag": "SOTA",
+              "description": "Extends polyhedral framework to forward stepwise and LAR—the most commonly used selection procedures. Proves these produce polyhedral selection events enabling exact conditional inference. Primary methods paper underlying selectiveInference R package: fs(), fsInf(), lar(), larInf(), fixedLassoInf().",
+              "url": "https://www.tandfonline.com/doi/abs/10.1080/01621459.2015.1108848",
+              "tags": [
+                "Statistics",
+                "Post-Selection Inference"
+              ],
+              "citations": 450
+            }
+          ]
         }
       ]
     },
