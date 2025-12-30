@@ -1,4 +1,22 @@
 {{ define "main" }}
+<!-- Preconnect to Google for favicon loading -->
+<link rel="preconnect" href="https://www.google.com" crossorigin>
+
+<style>
+/* Accordion styles for domain sections */
+.domain-content.collapsed { display: none; }
+.domain-toggle { cursor: pointer; user-select: none; }
+.domain-toggle:hover { opacity: 0.8; }
+.toggle-icon {
+    display: inline-block;
+    transition: transform 0.2s ease;
+    font-size: 0.7em;
+    margin-left: 0.5em;
+}
+.domain-content:not(.collapsed) ~ .domain-title .toggle-icon,
+.domain-section:has(.domain-content:not(.collapsed)) .toggle-icon { transform: rotate(90deg); }
+</style>
+
 <!-- Hero Section -->
 <header class="hero hero-with-image hero-learning">
     <h1 class="hero-title">Learning</h1>
@@ -88,8 +106,8 @@
     <div id="resources-view" class="resources-grid">
         {{ range $domain := $domains }}
         <div class="domain-section" data-domain="{{ $domain }}">
-            <h2 class="domain-title">{{ $domain }}</h2>
-            <div class="domain-content">
+            <h2 class="domain-title domain-toggle">{{ $domain }} <span class="toggle-icon">▶</span></h2>
+            <div class="domain-content collapsed">
                 {{ $domainCategories := slice }}
                 {{ range $.Site.Data.resources }}
                     {{ if eq .domain $domain }}
@@ -112,6 +130,7 @@
                              data-domain="{{ .domain }}">
                             <div class="card-header">
                                 <img class="resource-favicon lazy-favicon"
+                                     src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                                      data-src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32"
                                      alt=""
                                      onerror="this.style.display='none'">
@@ -144,6 +163,25 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+    // Domain section accordion toggle
+    document.querySelectorAll('.domain-toggle').forEach(function(title, index) {
+        title.addEventListener('click', function() {
+            var content = this.nextElementSibling;
+            content.classList.toggle('collapsed');
+            var icon = this.querySelector('.toggle-icon');
+            if (icon) {
+                icon.style.transform = content.classList.contains('collapsed') ? '' : 'rotate(90deg)';
+            }
+        });
+        // Auto-expand first domain on page load
+        if (index === 0) {
+            var content = title.nextElementSibling;
+            content.classList.remove('collapsed');
+            var icon = title.querySelector('.toggle-icon');
+            if (icon) icon.style.transform = 'rotate(90deg)';
+        }
+    });
+
     // Domain-Category cascade filter
     var domainSelect = document.getElementById('domain-select');
     var categorySelect = document.getElementById('category-select');
@@ -226,7 +264,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 faviconObserver.unobserve(img);
             }
         });
-    }, { rootMargin: '200px' });
+    }, { rootMargin: '500px' });
 
     document.querySelectorAll('.lazy-favicon').forEach(function(img) {
         faviconObserver.observe(img);
