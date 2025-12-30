@@ -47,8 +47,9 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
 
-    <!-- AOS (Animate on Scroll) -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" integrity="sha384-/rJKQnzOkEo+daG0jMjU1IwwY9unxt1NBw3Ef2fmOJ3PW/TfAg2KXVoWwMZQZtw9" crossorigin="anonymous">
+    <!-- AOS (Animate on Scroll) - Non-blocking load -->
+    <link rel="preload" href="https://unpkg.com/aos@2.3.4/dist/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'" integrity="sha384-/rJKQnzOkEo+daG0jMjU1IwwY9unxt1NBw3Ef2fmOJ3PW/TfAg2KXVoWwMZQZtw9" crossorigin="anonymous">
+    <noscript><link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css"></noscript>
 </head>
 <body>
     <!-- Skip to Content (Accessibility) -->
@@ -315,16 +316,18 @@
     <script src="{{ "js/toggle.js" | relURL }}" defer></script>
 
     <!-- AOS Init -->
-    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js" integrity="sha384-n1AULnKdMJlK1oQCLNDL9qZsDgXtH6jRYFCpBtWFc+a9Yve0KSoMn575rk755NJZ" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js" defer integrity="sha384-n1AULnKdMJlK1oQCLNDL9qZsDgXtH6jRYFCpBtWFc+a9Yve0KSoMn575rk755NJZ" crossorigin="anonymous"></script>
     <script>
-        try {
-            AOS.init({
-                duration: 600,
-                easing: 'ease-out-cubic',
-                once: true,
-                offset: 50
-            });
-        } catch(e) {}
+        document.addEventListener('DOMContentLoaded', function() {
+            try {
+                AOS.init({
+                    duration: 600,
+                    easing: 'ease-out-cubic',
+                    once: true,
+                    offset: 50
+                });
+            } catch(e) {}
+        });
     </script>
 
     <!-- Reading Progress Bar -->

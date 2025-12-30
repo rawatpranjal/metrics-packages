@@ -284,11 +284,17 @@
 
     <!-- Map View (default view) -->
     <div id="map-view">
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-        <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
-        <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
-        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-        <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+        <!-- Leaflet CSS - Non-blocking load -->
+        <link rel="preload" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript>
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+            <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+            <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+        </noscript>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+        <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" defer></script>
 
         <!-- Map Controls -->
         <div class="map-controls">
