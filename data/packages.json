@@ -4417,5 +4417,275 @@
     ],
     "best_for": "Reading, writing, manipulating, and visualizing spatial vector data; foundation for all spatial workflows, implementing Pebesma (2018)",
     "language": "R"
+  },
+  {
+    "name": "modelsummary",
+    "description": "Creates publication-quality tables summarizing multiple statistical models side-by-side, plus coefficient plots, data summaries, and correlation matrices. Supports 100+ model types via broom/parameters with output to HTML, LaTeX, Word, PDF, PNG, and Excel.",
+    "category": "Regression Output",
+    "docs_url": "https://modelsummary.com/",
+    "github_url": "https://github.com/vincentarelbundock/modelsummary",
+    "url": "https://cran.r-project.org/package=modelsummary",
+    "install": "install.packages(\"modelsummary\")",
+    "tags": [
+      "regression-tables",
+      "model-summary",
+      "coefficient-plots",
+      "publication-tables",
+      "tidyverse"
+    ],
+    "best_for": "Modern, flexible regression tables with extensive customization—the successor to stargazer, implementing Arel-Bundock (2022, JSS)",
+    "language": "R"
+  },
+  {
+    "name": "stargazer",
+    "description": "Produces well-formatted LaTeX, HTML/CSS, and ASCII regression tables with multiple models side-by-side, plus summary statistics tables. Widely used in economics with journal-specific formatting styles (AER, QJE, ASR).",
+    "category": "Regression Output",
+    "docs_url": "https://cran.r-project.org/web/packages/stargazer/vignettes/stargazer.pdf",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=stargazer",
+    "install": "install.packages(\"stargazer\")",
+    "tags": [
+      "LaTeX-tables",
+      "regression-output",
+      "academic-publishing",
+      "economics",
+      "HTML-tables"
+    ],
+    "best_for": "Quick, publication-ready LaTeX tables for economics journals with classic formatting",
+    "language": "R"
+  },
+  {
+    "name": "texreg",
+    "description": "Converts coefficients, standard errors, significance stars, and fit statistics from statistical models into LaTeX, HTML, Word, or console output. Highly extensible with support for custom model types and confidence intervals.",
+    "category": "Regression Output",
+    "docs_url": "https://cran.r-project.org/web/packages/texreg/vignettes/texreg.pdf",
+    "github_url": "https://github.com/leifeld/texreg",
+    "url": "https://cran.r-project.org/package=texreg",
+    "install": "install.packages(\"texreg\")",
+    "tags": [
+      "LaTeX-tables",
+      "HTML-tables",
+      "model-comparison",
+      "Word-export",
+      "extensible"
+    ],
+    "best_for": "Highly extensible regression tables with easy custom model type extensions, implementing Leifeld (2013, JSS)",
+    "language": "R"
+  },
+  {
+    "name": "gt",
+    "description": "Build display tables from tabular data using a cohesive grammar of table parts (header, stub, body, footer). Enables progressive construction of publication-quality tables with extensive formatting, footnotes, and cell styling. Outputs to HTML, LaTeX, and RTF.",
+    "category": "Regression Output",
+    "docs_url": "https://gt.rstudio.com/",
+    "github_url": "https://github.com/rstudio/gt",
+    "url": "https://cran.r-project.org/package=gt",
+    "install": "install.packages(\"gt\")",
+    "tags": [
+      "grammar-of-tables",
+      "display-tables",
+      "HTML-tables",
+      "Posit",
+      "formatting"
+    ],
+    "best_for": "Publication-ready display tables with precise formatting control and multiple output formats",
+    "language": "R"
+  },
+  {
+    "name": "broom",
+    "description": "Converts messy output from 100+ statistical model types into consistent tidy tibbles using three verbs: tidy() for coefficient-level statistics, glance() for model-level summaries (R², AIC), and augment() for fitted values and residuals.",
+    "category": "Regression Output",
+    "docs_url": "https://broom.tidymodels.org/",
+    "github_url": "https://github.com/tidymodels/broom",
+    "url": "https://cran.r-project.org/package=broom",
+    "install": "install.packages(\"broom\")",
+    "tags": [
+      "tidy-data",
+      "tidymodels",
+      "statistical-models",
+      "tidyverse",
+      "modeling"
+    ],
+    "best_for": "Converting R statistical model output into consistent tidy data frames for analysis pipelines, based on Wickham (2014, JSS)",
+    "language": "R"
+  },
+  {
+    "name": "gtsummary",
+    "description": "Creates publication-ready analytical and summary tables (Table 1 demographics, regression results, survival analyses) with one line of code. Auto-detects variable types, calculates appropriate statistics, and formats regression models with reference rows and appropriate headers.",
+    "category": "Regression Output",
+    "docs_url": "https://www.danieldsjoberg.com/gtsummary/",
+    "github_url": "https://github.com/ddsjoberg/gtsummary",
+    "url": "https://cran.r-project.org/package=gtsummary",
+    "install": "install.packages(\"gtsummary\")",
+    "tags": [
+      "summary-tables",
+      "Table1",
+      "clinical-tables",
+      "regression-tables",
+      "reproducible-research"
+    ],
+    "best_for": "Table 1 demographics and regression summary tables for medical/scientific publications, implementing Sjoberg et al. (2021, R Journal)",
+    "language": "R"
+  },
+  {
+    "name": "sandwich",
+    "description": "Object-oriented software for model-robust covariance matrix estimators including heteroscedasticity-consistent (HC0-HC5), heteroscedasticity- and autocorrelation-consistent (HAC/Newey-West), clustered, panel, and bootstrap covariances. Works with lm, glm, fixest, survival models, and many others.",
+    "category": "Robust Standard Errors",
+    "docs_url": "https://sandwich.R-Forge.R-project.org/",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=sandwich",
+    "install": "install.packages(\"sandwich\")",
+    "tags": [
+      "robust-standard-errors",
+      "heteroskedasticity-consistent",
+      "HAC-covariance",
+      "cluster-robust",
+      "Newey-West"
+    ],
+    "best_for": "Computing robust standard errors for cross-sectional, time series, clustered, or panel data, implementing Zeileis (2004, 2006, 2020, JSS)",
+    "language": "R"
+  },
+  {
+    "name": "clubSandwich",
+    "description": "Provides cluster-robust variance estimators with small-sample corrections, including bias-reduced linearization (BRL/CR2). Includes functions for hypothesis testing with Satterthwaite degrees of freedom and Hotelling's T² approximation—essential when the number of clusters is small.",
+    "category": "Robust Standard Errors",
+    "docs_url": "https://jepusto.github.io/clubSandwich/",
+    "github_url": "https://github.com/jepusto/clubSandwich",
+    "url": "https://cran.r-project.org/package=clubSandwich",
+    "install": "install.packages(\"clubSandwich\")",
+    "tags": [
+      "cluster-robust",
+      "small-sample-corrections",
+      "bias-reduced-linearization",
+      "fixed-effects",
+      "meta-analysis"
+    ],
+    "best_for": "Cluster-robust inference when the number of clusters is small, especially in panel data and meta-analysis, implementing Pustejovsky & Tipton (2018, JBES)",
+    "language": "R"
+  },
+  {
+    "name": "lmtest",
+    "description": "Collection of tests for diagnostic checking in linear regression models. Provides the essential coeftest() function for testing coefficients with alternative variance-covariance matrices (pairs with sandwich), plus Breusch-Pagan, Durbin-Watson, and RESET tests.",
+    "category": "Robust Standard Errors",
+    "docs_url": "https://cran.r-project.org/web/packages/lmtest/vignettes/lmtest-intro.pdf",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=lmtest",
+    "install": "install.packages(\"lmtest\")",
+    "tags": [
+      "regression-diagnostics",
+      "heteroskedasticity-test",
+      "Breusch-Pagan",
+      "Durbin-Watson",
+      "serial-correlation"
+    ],
+    "best_for": "Testing coefficient significance with robust SEs and diagnostic tests for regression assumptions, implementing Zeileis & Hothorn (2002)",
+    "language": "R"
+  },
+  {
+    "name": "pwr",
+    "description": "Provides basic power calculations using effect sizes and notation from Cohen (1988). Supports t-tests, chi-squared tests, one-way ANOVA, correlation tests, proportion tests, and general linear models with analytical (closed-form) solutions.",
+    "category": "Power Analysis",
+    "docs_url": "https://cran.r-project.org/web/packages/pwr/pwr.pdf",
+    "github_url": "https://github.com/heliosdrm/pwr",
+    "url": "https://cran.r-project.org/package=pwr",
+    "install": "install.packages(\"pwr\")",
+    "tags": [
+      "power-analysis",
+      "sample-size",
+      "effect-size",
+      "Cohen-d",
+      "t-test"
+    ],
+    "best_for": "Basic power calculations for standard statistical tests following Cohen's conventions from Cohen (1988)",
+    "language": "R"
+  },
+  {
+    "name": "simr",
+    "description": "Calculates power for generalized linear mixed models (GLMMs) using Monte Carlo simulation. Designed to work with lme4 models; supports LMMs and GLMMs with crossed random effects, non-normal responses, and complex variance structures where analytical solutions are unavailable.",
+    "category": "Power Analysis",
+    "docs_url": "https://cran.r-project.org/web/packages/simr/vignettes/fromscratch.html",
+    "github_url": "https://github.com/pitakakariki/simr",
+    "url": "https://cran.r-project.org/package=simr",
+    "install": "install.packages(\"simr\")",
+    "tags": [
+      "power-analysis",
+      "mixed-models",
+      "simulation",
+      "lme4",
+      "GLMM"
+    ],
+    "best_for": "Power analysis for hierarchical/multilevel models via simulation when analytical solutions don't exist, implementing Green & MacLeod (2016, MEE)",
+    "language": "R"
+  },
+  {
+    "name": "WebPower",
+    "description": "Comprehensive collection of tools for basic and advanced statistical power analysis including correlation, t-test, ANOVA, regression, mediation analysis, structural equation modeling (SEM), and multilevel models. Features both R package and web interface.",
+    "category": "Power Analysis",
+    "docs_url": "https://webpower.psychstat.org/",
+    "github_url": "https://github.com/johnnyzhz/WebPower",
+    "url": "https://cran.r-project.org/package=WebPower",
+    "install": "install.packages(\"WebPower\")",
+    "tags": [
+      "power-analysis",
+      "SEM",
+      "mediation",
+      "multilevel-models",
+      "cluster-randomized-trials"
+    ],
+    "best_for": "Advanced power analysis for SEM, mediation, and cluster randomized trials, implementing Zhang & Yuan (2018)",
+    "language": "R"
+  },
+  {
+    "name": "performance",
+    "description": "Utilities for computing indices of model quality and goodness of fit, including R², RMSE, ICC, AIC/BIC. Provides functions to check models for overdispersion, zero-inflation, multicollinearity (VIF), convergence, and singularity. Supports mixed effects and Bayesian models.",
+    "category": "Model Diagnostics",
+    "docs_url": "https://easystats.github.io/performance/",
+    "github_url": "https://github.com/easystats/performance",
+    "url": "https://cran.r-project.org/package=performance",
+    "install": "install.packages(\"performance\")",
+    "tags": [
+      "model-diagnostics",
+      "R-squared",
+      "assumption-checking",
+      "VIF",
+      "goodness-of-fit"
+    ],
+    "best_for": "Comprehensive model quality assessment, especially the check_model() visual diagnostic panel, implementing Lüdecke et al. (2021, JOSS)",
+    "language": "R"
+  },
+  {
+    "name": "see",
+    "description": "Visualization toolbox for the easystats ecosystem built on ggplot2. Provides publication-ready plotting methods for model parameters, predictions, and performance diagnostics from all easystats packages via simple plot() calls.",
+    "category": "Model Diagnostics",
+    "docs_url": "https://easystats.github.io/see/",
+    "github_url": "https://github.com/easystats/see",
+    "url": "https://cran.r-project.org/package=see",
+    "install": "install.packages(\"see\")",
+    "tags": [
+      "visualization",
+      "ggplot2",
+      "diagnostic-plots",
+      "publication-ready",
+      "easystats"
+    ],
+    "best_for": "Publication-ready visualizations of model diagnostics with a simple plot() interface, implementing Lüdecke et al. (2021, JOSS)",
+    "language": "R"
+  },
+  {
+    "name": "car",
+    "description": "Functions accompanying 'An R Companion to Applied Regression.' Provides advanced regression diagnostics including variance inflation factors (VIF), Type II/III ANOVA, influence measures, linear hypothesis testing, power transformations (Box-Cox), and comprehensive diagnostic plots.",
+    "category": "Model Diagnostics",
+    "docs_url": "https://www.john-fox.ca/Companion/index.html",
+    "github_url": null,
+    "url": "https://cran.r-project.org/package=car",
+    "install": "install.packages(\"car\")",
+    "tags": [
+      "regression-diagnostics",
+      "VIF",
+      "ANOVA",
+      "hypothesis-testing",
+      "influence-diagnostics"
+    ],
+    "best_for": "Classical regression diagnostics: VIF for multicollinearity, Type II/III ANOVA, linear hypothesis tests, from Fox & Weisberg (2019)",
+    "language": "R"
   }
 ]
