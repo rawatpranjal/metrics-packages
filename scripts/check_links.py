@@ -211,20 +211,27 @@ async def main():
         # sys.exit(1)
 
     # Calculate link health score
-    total_checked = ok_count + len(errors) + len(timeouts)
-    if total_checked > 0:
-        score = round((ok_count / total_checked) * 100, 1)
+    # Skipped links (bot-blocking sites) are assumed working - we just can't verify them
+    # Score is calculated only among verifiable links
+    checked = ok_count + len(errors) + len(timeouts)  # Verifiable links
+    total = checked + skipped_count  # All links
+    working = ok_count + skipped_count  # Working = verified OK + assumed OK (skipped)
+
+    if checked > 0:
+        score = round((ok_count / checked) * 100, 1)
     else:
         score = 100.0
 
     # Save link health report
     health_data = {
         "score": score,
-        "total": total_checked,
-        "working": ok_count,
+        "checked": checked,  # Links we could actually verify
+        "total": total,  # All links including skipped
+        "working": working,  # OK + skipped (assumed working)
+        "verified_ok": ok_count,
+        "assumed_ok": skipped_count,  # Bot-blocking sites assumed working
         "broken": len(errors),
         "timeouts": len(timeouts),
-        "skipped": skipped_count,
         "updated": datetime.now(timezone.utc).isoformat()
     }
 

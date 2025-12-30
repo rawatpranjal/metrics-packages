@@ -237,7 +237,7 @@
         .then(function(r) { return r.json(); })
         .then(function(data) {
             if (data.score !== undefined) {
-                el.textContent = 'Link Health: ' + data.score + '% (' + data.working + '/' + data.total + ' links working)';
+                el.textContent = 'Link Quality: ' + data.score + '% (among ' + data.checked + ' verifiable links)';
             }
         })
         .catch(function() {});
