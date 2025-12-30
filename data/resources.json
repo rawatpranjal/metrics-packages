@@ -9561,5 +9561,221 @@
       "best algorithm for change point detection",
       "detecting when metrics behavior changes over time"
     ]
+  },
+  {
+    "name": "Uber: Analyzing Experiment Outcomes Beyond Average Treatment Effects",
+    "description": "Quantile treatment effects for understanding distributional differences in marketplaces. Goes beyond ATE to measure how treatments affect different parts of the outcome distribution.",
+    "category": "AB Testing",
+    "url": "https://www.uber.com/blog/analyzing-experiment-outcomes/",
+    "type": "Article",
+    "tags": ["AB Testing", "Heterogeneous Effects"],
+    "level": "Hard"
+  },
+  {
+    "name": "Uber: Making Experiment Evaluation Engine 100x Faster",
+    "description": "Engineering deep-dive on scaling experimentation infrastructure to 10M+ evaluations per second. Covers optimization techniques for high-throughput experiment analysis.",
+    "category": "AB Testing",
+    "url": "https://www.uber.com/blog/making-ubers-experiment-evaluation-engine-100x-faster/",
+    "type": "Article",
+    "tags": ["AB Testing", "Infrastructure"],
+    "level": "Hard"
+  },
+  {
+    "name": "Netflix: Heterogeneous Treatment Effects",
+    "description": "OCI platform for HTE estimation with doubly robust scoring and scalable policy learning. How Netflix identifies which users respond differently to treatments.",
+    "category": "Causal Inference & ML",
+    "url": "https://netflixtechblog.medium.com/heterogeneous-treatment-effects-at-netflix-da5c3dd58833",
+    "type": "Article",
+    "tags": ["Causal Inference", "HTE", "Policy Learning"],
+    "level": "Hard"
+  },
+  {
+    "name": "Netflix: Return-Aware Experimentation",
+    "description": "KDD 2025 Best Paper on optimal experiment design with limited resources. Framework for designing experiments that maximize learning given resource constraints.",
+    "category": "AB Testing",
+    "url": "https://netflixtechblog.medium.com/return-aware-experimentation-3dd93c94b67a",
+    "type": "Article",
+    "tags": ["AB Testing", "Experiment Design"],
+    "level": "Hard"
+  },
+  {
+    "name": "Netflix: It's All A/Bout Testing - The Experimentation Platform",
+    "description": "Foundational overview of Netflix experimentation covering allocation, Ignite analysis tool, and monitoring. Architecture of one of the most sophisticated A/B testing platforms.",
+    "category": "AB Testing",
+    "url": "https://netflixtechblog.com/its-all-a-bout-testing-the-netflix-experimentation-platform-4e1ca458c15",
+    "type": "Article",
+    "tags": ["AB Testing", "Platform"],
+    "level": "Medium"
+  },
+  {
+    "name": "Spotify: Risk-Aware Product Decisions in A/B Tests",
+    "description": "Framework for combining success, guardrail, deterioration, and quality metrics. How to make decisions when multiple metrics move in different directions.",
+    "category": "AB Testing",
+    "url": "https://engineering.atspotify.com/2024/03/risk-aware-product-decisions-in-a-b-tests-with-multiple-metrics",
+    "type": "Article",
+    "tags": ["AB Testing", "Metrics", "Decision Making"],
+    "level": "Medium"
+  },
+  {
+    "name": "Spotify: Encouragement Designs and Instrumental Variables for A/B Testing",
+    "description": "IV estimation for experiments with noncompliance. How to handle experiments where users don't follow their assigned treatment, using complier populations.",
+    "category": "Causal Inference & ML",
+    "url": "https://engineering.atspotify.com/2023/08/encouragement-designs-and-instrumental-variables-for-a-b-testing",
+    "type": "Article",
+    "tags": ["Causal Inference", "Instrumental Variables", "Noncompliance"],
+    "level": "Hard"
+  },
+  {
+    "name": "Spotify: New Experimentation Platform (Part 1)",
+    "description": "Journey from ABBA to EP; Metrics Catalog for self-service analysis. Evolution of Spotify's experimentation infrastructure and lessons learned.",
+    "category": "AB Testing",
+    "url": "https://engineering.atspotify.com/2020/10/spotifys-new-experimentation-platform-part-1",
+    "type": "Article",
+    "tags": ["AB Testing", "Platform"],
+    "level": "Medium"
+  },
+  {
+    "name": "LinkedIn: Our Evolution Towards T-REX",
+    "description": "Scaling to 41,000 simultaneous A/B tests on 700M+ members. How LinkedIn built infrastructure to support massive-scale experimentation.",
+    "category": "AB Testing",
+    "url": "https://www.linkedin.com/blog/engineering/ab-testing-experimentation/our-evolution-towards-t-rex-the-prehistory-of-experimentation-i",
+    "type": "Article",
+    "tags": ["AB Testing", "Platform", "Scale"],
+    "level": "Medium"
+  },
+  {
+    "name": "LinkedIn: A/B Testing Variant Assignment at Scale",
+    "description": "Hash-based variant assignment for trillions of daily invocations. Technical deep-dive on deterministic, consistent randomization at LinkedIn scale.",
+    "category": "AB Testing",
+    "url": "https://www.linkedin.com/blog/engineering/ab-testing-experimentation/a-b-testing-variant-assignment",
+    "type": "Article",
+    "tags": ["AB Testing", "Randomization", "Infrastructure"],
+    "level": "Hard"
+  },
+  {
+    "name": "LinkedIn: Building Inclusive Products Through A/B Testing",
+    "description": "Novel approach to measuring inequality impact of experiments. How to ensure product changes don't disproportionately harm certain user groups.",
+    "category": "AB Testing",
+    "url": "https://engineering.linkedin.com/blog/2020/building-inclusive-products-through-a-b-testing",
+    "type": "Article",
+    "tags": ["AB Testing", "Fairness", "Inclusive Design"],
+    "level": "Medium"
+  },
+  {
+    "name": "DoorDash: Causal Modeling to Get Value from Flat Experiment Results",
+    "description": "Extracting value from neutral experiments via CATE estimation using S-learner and T-learner. When overall effects are null, heterogeneous effects may still exist.",
+    "category": "Causal Inference & ML",
+    "url": "https://doordash.engineering/2020/09/18/causal-modeling-to-get-more-value-from-flat-experiment-results/",
+    "type": "Article",
+    "tags": ["Causal Inference", "HTE", "Meta-learners"],
+    "level": "Hard"
+  },
+  {
+    "name": "DoorDash: Using Back-Door Adjustment for Pre-Post Analysis",
+    "description": "Causal graphs and covariate adjustment for pre-post analysis. How to properly control for confounders when randomization isn't possible.",
+    "category": "Causal Inference & ML",
+    "url": "https://doordash.engineering/2022/06/02/using-back-door-adjustment-causal-analysis-to-measure-pre-post-effects/",
+    "type": "Article",
+    "tags": ["Causal Inference", "DAGs", "Observational"],
+    "level": "Hard"
+  },
+  {
+    "name": "Lyft: Challenges in Experimentation",
+    "description": "Region-split tests with synthetic control and residualization for variance reduction. Advanced techniques for experimentation in ridesharing marketplaces.",
+    "category": "AB Testing",
+    "url": "https://eng.lyft.com/challenges-in-experimentation-be9ab98a7ef4",
+    "type": "Article",
+    "tags": ["AB Testing", "Synthetic Control", "Variance Reduction"],
+    "level": "Hard"
+  },
+  {
+    "name": "Airbnb: ACE - Artificial Counterfactual Estimation",
+    "description": "Machine learning-based causal inference at Airbnb. Using ML to estimate counterfactuals when traditional experimental methods aren't feasible.",
+    "category": "Causal Inference & ML",
+    "url": "https://medium.com/airbnb-engineering/artificial-counterfactual-estimation-ace-machine-learning-based-causal-inference-at-airbnb-ee32ee4d0512",
+    "type": "Article",
+    "tags": ["Causal Inference", "Machine Learning", "Counterfactuals"],
+    "level": "Hard"
+  },
+  {
+    "name": "Dean Eckles: Blog on Network Experiments and Social Influence",
+    "description": "MIT professor and former Facebook data scientist. Deep expertise in network experiments, social influence, and randomization at Facebook scale.",
+    "category": "Causal Inference & ML",
+    "url": "https://deaneckles.com/blog",
+    "type": "Blog",
+    "tags": ["Causal Inference", "Network Effects", "Social Science"],
+    "level": "Hard"
+  },
+  {
+    "name": "Yanir Seroussi: Curated Causal Inference Resources",
+    "description": "Comprehensive collection of causal inference learning resources. Curated list covering books, courses, software, and papers for practitioners.",
+    "category": "Causal Inference & ML",
+    "url": "https://yanirseroussi.com/causal-inference-resources",
+    "type": "Article",
+    "tags": ["Causal Inference", "Learning Resources"],
+    "level": "Easy"
+  },
+  {
+    "name": "LinkedIn: Detecting Interference - An A/B Test of A/B Tests",
+    "description": "Using cluster randomization to detect when user-level randomization causes interference. Methodology to test whether your experiments have network effects.",
+    "category": "AB Testing",
+    "url": "https://engineering.linkedin.com/blog/2019/06/detecting-interference--an-a-b-test-of-a-b-tests",
+    "type": "Article",
+    "tags": ["AB Testing", "Network Effects", "Interference"],
+    "level": "Hard"
+  },
+  {
+    "name": "Meta: How Meta Tests Products with Strong Network Effects",
+    "description": "Cluster experiments, power vs purity tradeoffs. How Facebook handles experimentation when treatment effects spill over between users.",
+    "category": "AB Testing",
+    "url": "https://medium.com/@AnalyticsAtMeta/how-meta-tests-products-with-strong-network-effects-96003a056c2c",
+    "type": "Article",
+    "tags": ["AB Testing", "Network Effects", "Cluster Randomization"],
+    "level": "Hard"
+  },
+  {
+    "name": "R-causal Book: DAG Construction Chapter",
+    "description": "DAG construction with ggdag. Practical guide to building directed acyclic graphs for causal inference in R.",
+    "category": "Causal Inference & ML",
+    "url": "https://www.r-causal.org/chapters/04-dags",
+    "type": "Tutorial",
+    "tags": ["Causal Inference", "DAGs", "R"],
+    "level": "Medium"
+  },
+  {
+    "name": "PyWhy: Causal Discovery Example",
+    "description": "PC, GES, LiNGAM algorithms for discovering causal structure from data. When you need to discover the causal graph rather than assume it.",
+    "category": "Causal Inference & ML",
+    "url": "https://www.pywhy.org/dowhy/v0.11/example_notebooks/dowhy_causal_discovery_example.html",
+    "type": "Tutorial",
+    "tags": ["Causal Inference", "Causal Discovery", "Python"],
+    "level": "Hard"
+  },
+  {
+    "name": "Microsoft ExP: Deep Dive into Variance Reduction",
+    "description": "From the team that invented CUPED. Comprehensive guide to variance reduction techniques for online experiments from Microsoft's Experimentation Platform.",
+    "category": "AB Testing",
+    "url": "https://www.microsoft.com/en-us/research/group/experimentation-platform-exp/articles/deep-dive-into-variance-reduction/",
+    "type": "Article",
+    "tags": ["AB Testing", "CUPED", "Variance Reduction"],
+    "level": "Hard"
+  },
+  {
+    "name": "LOST Stats: Event Study Designs",
+    "description": "Sun & Abraham estimator with code. Practical implementation of modern event study designs addressing staggered treatment timing issues.",
+    "category": "Causal Inference & ML",
+    "url": "https://lost-stats.github.io/Model_Estimation/Research_Design/event_study.html",
+    "type": "Tutorial",
+    "tags": ["Causal Inference", "DiD", "Event Study"],
+    "level": "Hard"
+  },
+  {
+    "name": "Teconomics: Machine Learning Meets Instrumental Variables",
+    "description": "Using A/B tests as instruments for causal inference. How to combine ML flexibility with IV identification strategies.",
+    "category": "Causal Inference & ML",
+    "url": "https://medium.com/teconomics-blog/machine-learning-meets-instrumental-variables-c8eecf5cec95",
+    "type": "Article",
+    "tags": ["Causal Inference", "Instrumental Variables", "Machine Learning"],
+    "level": "Hard"
   }
 ]

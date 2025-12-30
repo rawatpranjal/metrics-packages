@@ -3768,5 +3768,69 @@
       "behind the scenes academic research stories",
       "interviews with economics paper authors"
     ]
+  },
+  {
+    "name": "Ronny Kohavi: The Ultimate Guide to A/B Testing (Lenny's Podcast)",
+    "description": "Industry legend shares insights from 20+ years at Microsoft, Amazon, Airbnb. Features the famous Bing headline change that generated $100M. Covers OEC framework, SRM, CUPED, experiment failure rates.",
+    "category": "AB Testing",
+    "url": "https://www.youtube.com/watch?v=hEzpiDuYFoE",
+    "type": "Video",
+    "tags": ["AB Testing", "Interview", "Best Practices"]
+  },
+  {
+    "name": "Susan Athey: Machine Learning and Causal Inference (NBER Methods Lecture 2015)",
+    "description": "Seminal talk from John Bates Clark Medal winner bridging ML and causal inference. Covers causal trees, CATE estimation, transformed outcomes. Foundational despite being from 2015.",
+    "category": "Causal Inference & ML",
+    "url": "https://www.nber.org/research/videos/2015-methods-lecture-susan-athey-machine-learning-and-causal-inference",
+    "type": "Video",
+    "tags": ["Causal Inference", "Machine Learning", "NBER"]
+  },
+  {
+    "name": "KDD 2018 Tutorial: Causal Inference and Counterfactual Reasoning",
+    "description": "Amit Sharma & Emre Kiciman from Microsoft Research. Comprehensive industry-oriented tutorial covering DiD, synthetic control, RDD, IV with practical code examples.",
+    "category": "Causal Inference & ML",
+    "url": "https://causalinference.gitlab.io/kdd-tutorial/",
+    "type": "Presentation",
+    "tags": ["Causal Inference", "Tutorial", "KDD"]
+  },
+  {
+    "name": "Causal Bandits Podcast",
+    "description": "Premier podcast for deep causal inference content. Notable guests include Judea Pearl, Bernhard Schölkopf, and Amit Sharma. Covers causal AI, discovery, and Do-Calculus.",
+    "category": "Causal Inference & ML",
+    "url": "https://causalbanditspodcast.com",
+    "type": "Podcast",
+    "tags": ["Causal Inference", "Podcast", "Interviews"]
+  },
+  {
+    "name": "NerdOut@Spotify: The Rise and Fall of ABBA",
+    "description": "Rare inside look at Spotify's experimentation platform evolution. Episodes 20-21 cover the journey from their original ABBA platform to the new experimentation system.",
+    "category": "AB Testing",
+    "url": "https://research.atspotify.com/podcasts/nerdout-at-spotify",
+    "type": "Podcast",
+    "tags": ["AB Testing", "Platform", "Spotify"]
+  },
+  {
+    "name": "Data Engineering Podcast: Experimentation with Eppo",
+    "description": "Chetan Sharma (Eppo founder) discusses platform architecture and modern data stack integration for experimentation. Deep dive into building experimentation infrastructure.",
+    "category": "AB Testing",
+    "url": "https://www.dataengineeringpodcast.com/eppo-experimentation-ab-testing-episode-244/",
+    "type": "Podcast",
+    "tags": ["AB Testing", "Platform", "Data Engineering"]
+  },
+  {
+    "name": "MIT IDE YouTube Channel",
+    "description": "CODE@MIT conference talks on digital experimentation. Features leading researchers and practitioners discussing cutting-edge experimentation methods.",
+    "category": "AB Testing",
+    "url": "https://www.youtube.com/c/MITInitiativeontheDigitalEconomy",
+    "type": "YouTube Channel",
+    "tags": ["AB Testing", "Research", "Conference"]
+  },
+  {
+    "name": "Stanford ML + Causal Inference Course",
+    "description": "19 lectures combining machine learning with causal inference. Comprehensive academic treatment of modern causal ML methods from Stanford GSB.",
+    "category": "Causal Inference & ML",
+    "url": "https://bookdown.org/stanfordgsbsilab/ml-ci-tutorial/",
+    "type": "Course",
+    "tags": ["Causal Inference", "Machine Learning", "Course"]
   }
 ]

@@ -16068,5 +16068,29 @@
       "patchwork ggplot2 plot composition",
       "create subplot layouts in R ggplot2"
     ]
+  },
+  {
+    "name": "Ax (Meta Adaptive Experimentation)",
+    "description": "Meta's open-source platform for adaptive experimentation. Bayesian optimization, multi-objective optimization, and automated experiment design. Built on BoTorch for AI-assisted experimentation.",
+    "category": "Adaptive Experimentation & Bandits",
+    "docs_url": "https://ax.dev/docs/why-ax",
+    "github_url": "https://github.com/facebook/Ax",
+    "url": "https://ax.dev",
+    "install": "pip install ax-platform",
+    "tags": ["adaptive experimentation", "Bayesian optimization", "multi-objective"],
+    "best_for": "Adaptive experimentation, Bayesian optimization, automated experiment design",
+    "language": "Python"
+  },
+  {
+    "name": "Confidence (Spotify)",
+    "description": "Spotify's experimentation platform for feature flagging and A/B testing. SDK for controlled rollouts with built-in statistical analysis.",
+    "category": "Adaptive Experimentation & Bandits",
+    "docs_url": "https://confidence.spotify.com/docs",
+    "github_url": null,
+    "url": "https://confidence.spotify.com",
+    "install": "pip install spotify-confidence",
+    "tags": ["feature flags", "A/B testing", "experimentation platform"],
+    "best_for": "Feature flagging, controlled rollouts, A/B testing infrastructure",
+    "language": "Python"
   }
 ]
