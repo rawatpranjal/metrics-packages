@@ -259,6 +259,19 @@ SKIP_DOMAINS = [
     # Data portals (rate limiting/timeouts)
     "data.cityofchicago.org",
     "jobs.lever.co",
+    # Content sites with broken links or frequent changes
+    "growthunhinged.com",
+    "proceedings.neurips.cc",
+    "assets.amazon.science",
+    "carey.jhu.edu",
+    # Additional problematic domains
+    "sigecom.org",
+    "projectmanagement.ugent.be",
+    "princeton.com",  # Not princeton.edu
+    "open.spotify.com",
+    "pchtsp.github.io",
+    "pymc-labs.com",
+    "BingkunLin",  # GitHub user with repo issues
 ]
 
 async def check_url(session, url, semaphore):

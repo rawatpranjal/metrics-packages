@@ -192,6 +192,14 @@ def combine_text_for_embedding(item: Dict[str, Any]) -> str:
     return ". ".join(parts)
 
 
+def slugify(text: str) -> str:
+    """Convert text to URL-safe slug (matches JS slugify exactly)."""
+    import re
+    # Lowercase, replace non-alphanumeric with hyphens, strip leading/trailing hyphens
+    slug = re.sub(r'[^a-z0-9]+', '-', text.lower())
+    return re.sub(r'^-|-$', '', slug)[:100]
+
+
 def load_all_items(data_dir: Path) -> List[Dict[str, Any]]:
     """Load all items from data files with their types."""
     all_items = []
@@ -209,9 +217,9 @@ def load_all_items(data_dir: Path) -> List[Dict[str, Any]]:
         item_type = FILE_TO_TYPE.get(filename, "unknown")
 
         for item in items:
-            # Create a unique ID for each item
-            base_id = f"{item_type}-{item.get('name', 'unknown')}".lower()
-            base_id = base_id.replace(" ", "-").replace("/", "-")[:100]
+            # Create a unique ID for each item (using slugify to match JS)
+            name = item.get('name', 'unknown')
+            base_id = f"{item_type}-{slugify(name)}"
 
             # Handle duplicate IDs by appending a counter
             item_id = base_id
@@ -261,9 +269,9 @@ def load_all_items(data_dir: Path) -> List[Dict[str, Any]]:
     # Load papers (nested structure)
     papers = load_papers(data_dir)
     for paper in papers:
-        # Create a unique ID for each paper
-        base_id = f"paper-{paper.get('name', 'unknown')}".lower()
-        base_id = base_id.replace(" ", "-").replace("/", "-")[:100]
+        # Create a unique ID for each paper (using slugify to match JS)
+        paper_name = paper.get('name', 'unknown')
+        base_id = f"paper-{slugify(paper_name)}"
 
         # Handle duplicate IDs by appending a counter
         item_id = base_id

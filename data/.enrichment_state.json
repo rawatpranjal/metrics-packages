@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1",
-  "last_run": "2025-12-30T23:21:54.843644+00:00",
+  "last_run": "2025-12-30T23:28:08.273699+00:00",
   "items": {
     "packages.json": {
       "BayesianBandits": {
@@ -9025,6 +9025,426 @@
       "Interviewing.io Amazon Guide": {
         "content_hash": "fb11b2a942f22885",
         "enriched_at": "2025-12-30T23:21:54.814562+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "IGotAnOffer: Google Behavioral": {
+        "content_hash": "e995852199a03644",
+        "enriched_at": "2025-12-30T23:21:59.294197+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Designing Machine Learning Systems": {
+        "content_hash": "5c26a72b3383f794",
+        "enriched_at": "2025-12-30T23:22:05.295531+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "ML System Design Interview (Alex Xu)": {
+        "content_hash": "a1c49be952657d34",
+        "enriched_at": "2025-12-30T23:22:11.279155+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "ML Interviews GitHub": {
+        "content_hash": "68a2b77364a73e8b",
+        "enriched_at": "2025-12-30T23:22:17.435438+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Chip Huyen ML Interviews Book": {
+        "content_hash": "be2f57a19deea308",
+        "enriched_at": "2025-12-30T23:22:22.411080+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Interview Query Take-Homes": {
+        "content_hash": "16c2d7abe0c30368",
+        "enriched_at": "2025-12-30T23:22:27.493205+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Candor Salary Negotiation Guide": {
+        "content_hash": "3317278a7175c7ea",
+        "enriched_at": "2025-12-30T23:22:34.287859+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Haseeb Qureshi: Ten Rules for Negotiating": {
+        "content_hash": "ceca758d80f05e14",
+        "enriched_at": "2025-12-30T23:22:41.263492+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Levels.fyi Negotiation Guide": {
+        "content_hash": "24eff7b2313cb927",
+        "enriched_at": "2025-12-30T23:22:48.255114+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Interviewing.io Negotiation Series": {
+        "content_hash": "d3e322af9af03d1b",
+        "enriched_at": "2025-12-30T23:22:53.536505+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Team Rora: Applied Scientist Negotiation": {
+        "content_hash": "0779242a3e6c0ca3",
+        "enriched_at": "2025-12-30T23:22:57.751245+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "HBR: Why Tech Hires Economists": {
+        "content_hash": "e9f21f9fb1ee3dec",
+        "enriched_at": "2025-12-30T23:23:03.554375+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Evan's Industry Job Finding Advice": {
+        "content_hash": "5d6ea5f7cc3120e1",
+        "enriched_at": "2025-12-30T23:23:09.421997+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Jed Kolko: Should Your Firm Have an Economist?": {
+        "content_hash": "342a5492ce8370c5",
+        "enriched_at": "2025-12-30T23:23:14.790828+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Eugene Yan: DS vs Applied vs Research vs MLE": {
+        "content_hash": "e04274820e61d6ed",
+        "enriched_at": "2025-12-30T23:23:22.837633+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "TDS: Applied vs Research Scientist": {
+        "content_hash": "8540d0974501c269",
+        "enriched_at": "2025-12-30T23:23:27.942170+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Neptune.ai: MLE vs Data Scientist": {
+        "content_hash": "6b4cb70328467e00",
+        "enriched_at": "2025-12-30T23:23:33.772414+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "365 Data Science: DS vs MLE Skills": {
+        "content_hash": "ac009a54828e686f",
+        "enriched_at": "2025-12-30T23:23:38.856294+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Daliana Liu: Product DS vs Analyst": {
+        "content_hash": "8ba873bf47087dd3",
+        "enriched_at": "2025-12-30T23:23:46.334385+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "TDS: Product Analytics Explained": {
+        "content_hash": "1f95459f9b19fa51",
+        "enriched_at": "2025-12-30T23:23:51.766208+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Greg Rafferty: Hidden Career Ladder": {
+        "content_hash": "37764f91943a0e70",
+        "enriched_at": "2025-12-30T23:24:00.057267+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Data Science Leadership: Career Ladder": {
+        "content_hash": "c16bb28550f5c275",
+        "enriched_at": "2025-12-30T23:24:07.083975+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Design Gurus: FAANG Levels Comparison": {
+        "content_hash": "9640641135dc0d6b",
+        "enriched_at": "2025-12-30T23:24:12.620641+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "What is Data Science at Lyft?": {
+        "content_hash": "b839838365be1c68",
+        "enriched_at": "2025-12-30T23:24:18.413508+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Uber: Surge Pricing Moves Drivers": {
+        "content_hash": "37181ab631bb9377",
+        "enriched_at": "2025-12-30T23:24:24.116936+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Airbnb: Learning Market Dynamics for Pricing": {
+        "content_hash": "78029e2ebad4386a",
+        "enriched_at": "2025-12-30T23:24:29.300435+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Amazon: Science of Price Experiments": {
+        "content_hash": "cd530596669b4d03",
+        "enriched_at": "2025-12-30T23:24:35.680529+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Lyft: Causal Forecasting": {
+        "content_hash": "a489600812cb65d8",
+        "enriched_at": "2025-12-30T23:24:42.696366+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "DataRoot Labs: Surge Pricing Algorithms": {
+        "content_hash": "505c257a954cb409",
+        "enriched_at": "2025-12-30T23:24:51.039074+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Beyond Winning: Spotify's Experiments with Learning Framework": {
+        "content_hash": "f84b3977710ad5ad",
+        "enriched_at": "2025-12-30T23:24:59.723772+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Uber: XP Experimentation Platform": {
+        "content_hash": "db3ab3acc2c47228",
+        "enriched_at": "2025-12-30T23:25:06.782868+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Booking.com: Moving Fast with Experiments": {
+        "content_hash": "58e2391304abb3a3",
+        "enriched_at": "2025-12-30T23:25:13.173673+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Airbnb: Interleaving Experiments": {
+        "content_hash": "ba1bd35449956a46",
+        "enriched_at": "2025-12-30T23:25:19.164672+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Microsoft: Deep Dive Into Variance Reduction": {
+        "content_hash": "422d350714ccb597",
+        "enriched_at": "2025-12-30T23:25:26.477503+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Nubank: CUPED Implementation": {
+        "content_hash": "9ed4ee346e68a71d",
+        "enriched_at": "2025-12-30T23:25:32.289019+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Matteo Courthoud: CUPED Technical Guide": {
+        "content_hash": "de87f08a45667464",
+        "enriched_at": "2025-12-30T23:25:39.121923+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "DoorDash: Switchback Experiment Analysis": {
+        "content_hash": "fe525d75dc5998e3",
+        "enriched_at": "2025-12-30T23:25:47.101030+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "LinkedIn: Detecting Interference in A/B Tests": {
+        "content_hash": "bf06f27a306008d1",
+        "enriched_at": "2025-12-30T23:25:54.301172+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Lyft: Marketplace Experimentation": {
+        "content_hash": "83dd6b4800d416b6",
+        "enriched_at": "2025-12-30T23:25:59.195701+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Meta: Cluster Experimentation": {
+        "content_hash": "df2d6b2cb6180035",
+        "enriched_at": "2025-12-30T23:26:04.963993+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Uber CausalML Package": {
+        "content_hash": "712161b4e2fcb0db",
+        "enriched_at": "2025-12-30T23:26:11.189297+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Tinuiti: Ghost Ads Explained": {
+        "content_hash": "1bc78787eefb50ea",
+        "enriched_at": "2025-12-30T23:26:16.156989+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Machine Learning for Snapchat Ad Ranking": {
+        "content_hash": "5ce12fadc85158df",
+        "enriched_at": "2025-12-30T23:26:22.195091+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Remerge: Incrementality Tests 101": {
+        "content_hash": "55ffb6fbe75a359c",
+        "enriched_at": "2025-12-30T23:26:28.047347+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Meaningful Metrics: How Data Sharpened the Focus of Product Teams": {
+        "content_hash": "467cbf85bcd8252e",
+        "enriched_at": "2025-12-30T23:26:32.691154+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "CXL: Growth Experimentation Culture": {
+        "content_hash": "15a3eb3dc007678c",
+        "enriched_at": "2025-12-30T23:26:39.477423+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Scaling Safety and Civility on Roblox": {
+        "content_hash": "6d0c3c5e36faa37c",
+        "enriched_at": "2025-12-30T23:26:45.515015+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Stripe: Similarity Clustering for Fraud": {
+        "content_hash": "66bb9f23bec0afb7",
+        "enriched_at": "2025-12-30T23:26:51.467913+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Stripe: ML for Fraud Primer": {
+        "content_hash": "02eb298300f669d4",
+        "enriched_at": "2025-12-30T23:26:56.856754+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Lyft: Fleet Team DS": {
+        "content_hash": "b558bb986b806588",
+        "enriched_at": "2025-12-30T23:27:03.649259+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Instacart Anytime: A Data Science Paradigm": {
+        "content_hash": "7505d626590c79eb",
+        "enriched_at": "2025-12-30T23:27:09.130787+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Uber Orbit: Bayesian Time Series": {
+        "content_hash": "c95896cd35fb8744",
+        "enriched_at": "2025-12-30T23:27:17.084241+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Uber: LSTM for Extreme Events": {
+        "content_hash": "b62f653bcb180545",
+        "enriched_at": "2025-12-30T23:27:23.006897+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Uber Omphalos: Backtesting Infrastructure": {
+        "content_hash": "7a39771e1b2df0af",
+        "enriched_at": "2025-12-30T23:27:30.817784+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Meta: How DS Lead and Drive Impact": {
+        "content_hash": "d6bf304b83ee14e2",
+        "enriched_at": "2025-12-30T23:27:36.674488+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Candor: Meta DS Roles Guide": {
+        "content_hash": "c0e116e615a75a54",
+        "enriched_at": "2025-12-30T23:27:43.080543+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.7000000000000001
+      },
+      "Microsoft: Designing DS Organization": {
+        "content_hash": "1459ab18c793aa9c",
+        "enriched_at": "2025-12-30T23:27:49.932793+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Shanif Dhanani: Embedded vs Centralized": {
+        "content_hash": "07fb6b86196abf1f",
+        "enriched_at": "2025-12-30T23:27:54.993020+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "dbt Labs: Centralized vs Decentralized": {
+        "content_hash": "db8b1e1ab5f41181",
+        "enriched_at": "2025-12-30T23:27:59.817380+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Stitch Fix Algorithms Tour": {
+        "content_hash": "ab3784f5ffbf062b",
+        "enriched_at": "2025-12-30T23:28:08.235400+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0

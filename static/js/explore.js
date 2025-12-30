@@ -39,6 +39,7 @@
     document.addEventListener('DOMContentLoaded', init);
 
     async function init() {
+        console.log('[Discover] init() called');
         // Show loading state
         const loader = document.getElementById('explore-loader');
         loader.classList.add('visible');
@@ -46,6 +47,7 @@
         try {
             // Fetch data files in parallel for speed
             const urls = window.DISCOVER_DATA_URLS;
+            console.log('[Discover] URLs:', urls);
             const [clustersRes, packagesRes, resourcesRes, datasetsRes, talksRes, careerRes, communityRes, booksRes] = await Promise.all([
                 fetch(urls.clusters),
                 fetch(urls.packages),
@@ -58,6 +60,7 @@
             ]);
 
             clusterData = await clustersRes.json();
+            console.log('[Discover] clusterData loaded, clusters:', clusterData.clusters?.length);
             allItemsData = {
                 packages: await packagesRes.json(),
                 resources: await resourcesRes.json(),
@@ -67,8 +70,9 @@
                 community: await communityRes.json(),
                 books: await booksRes.json()
             };
+            console.log('[Discover] allItemsData loaded');
         } catch (e) {
-            console.error('Failed to load explore data:', e);
+            console.error('[Discover] Failed to load explore data:', e);
             loader.classList.remove('visible');
             document.getElementById('explore-rows').innerHTML = '<p style="padding: 2rem; text-align: center;">Failed to load data. Please refresh.</p>';
             return;
