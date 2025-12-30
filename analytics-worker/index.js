@@ -88,7 +88,7 @@ async function handleStats(request, env, origin) {
   }
 
   const CACHE_KEY = 'stats:cached';
-  const CACHE_TTL = 1800; // 30 minutes
+  const CACHE_TTL = 21600; // 6 hours (reduces KV reads on free tier)
 
   try {
     const now = Date.now();
