@@ -63,17 +63,31 @@ def extract_cluster_label(items: list, metadata_items: list, item_indices: list)
 
 def generate_clean_label(tags: list, categories: list) -> str:
     """Generate a clean, non-repetitive label from tags."""
+    # Clean up category (remove hierarchy markers)
+    clean_categories = []
+    for cat in categories:
+        # Take last part after ">" if present
+        if '>' in cat:
+            cat = cat.split('>')[-1].strip()
+        clean_categories.append(cat)
+
     if not tags:
-        return categories[0] if categories else "Miscellaneous"
+        return clean_categories[0] if clean_categories else "Miscellaneous"
 
     # Normalize tags for comparison
     def normalize(s):
         return s.lower().replace('-', ' ').replace('_', ' ')
 
+    # Skip boring/generic tags
+    SKIP_TAGS = {'career-portal', 'job-search', 'career-opportunities', 'job-board',
+                 'economist-roles', 'economist-jobs', 'careers', 'hiring'}
+
     # Dedupe tags that are too similar
     seen_normalized = set()
     unique_tags = []
     for tag in tags:
+        if tag.lower() in SKIP_TAGS:
+            continue
         norm = normalize(tag)
         # Skip if we've seen something very similar
         is_dupe = False
@@ -99,7 +113,69 @@ def generate_clean_label(tags: list, categories: list) -> str:
         formatted = [t.replace('-', ' ').title() for t in unique_tags]
         return ' & '.join(formatted)
 
-    return categories[0] if categories else "Miscellaneous"
+    # Fall back to category
+    return clean_categories[0] if clean_categories else "Miscellaneous"
+
+
+def dedupe_labels(clusters: list) -> None:
+    """Deduplicate cluster labels by adding differentiators."""
+    from collections import defaultdict
+
+    # Track all used labels to ensure uniqueness
+    used_labels = set()
+
+    # Find duplicate labels
+    label_clusters = defaultdict(list)
+    for c in clusters:
+        label_clusters[c['label']].append(c)
+
+    for label, dupes in label_clusters.items():
+        if len(dupes) <= 1:
+            used_labels.add(label)
+            continue
+
+        # Try to differentiate using categories or additional tags
+        for i, c in enumerate(dupes):
+            # Try category first
+            cats = c.get('top_categories', [])
+            extra_tags = c.get('top_tags', [])[2:5]  # Tags beyond the first 2
+
+            new_label = None
+
+            # Use category if it's informative
+            for cat in cats:
+                if cat and '>' in cat:
+                    cat = cat.split('>')[-1].strip()
+                if cat and cat.lower() not in label.lower() and len(cat) < 30:
+                    candidate = f"{label}: {cat}"
+                    if candidate not in used_labels:
+                        new_label = candidate
+                        break
+
+            # Otherwise use an extra tag
+            if not new_label:
+                for tag in extra_tags:
+                    tag_clean = tag.replace('-', ' ').title()
+                    if tag_clean.lower() not in label.lower():
+                        candidate = f"{label}: {tag_clean}"
+                        if candidate not in used_labels:
+                            new_label = candidate
+                            break
+
+            # If still no unique label, add a number
+            if not new_label:
+                num = 2
+                while f"{label} #{num}" in used_labels:
+                    num += 1
+                if i == 0:
+                    new_label = label  # Keep first as-is if possible
+                    if new_label in used_labels:
+                        new_label = f"{label} #{num}"
+                else:
+                    new_label = f"{label} #{num}"
+
+            c['label'] = new_label
+            used_labels.add(new_label)
 
 
 def find_optimal_k(embeddings: np.ndarray, k_range: range) -> int:
@@ -202,6 +278,9 @@ def main():
         c['id'] = id_map[c['id']]
     for item_id in item_to_cluster:
         item_to_cluster[item_id] = id_map[item_to_cluster[item_id]]
+
+    # Deduplicate labels by adding differentiator from category or top tag
+    dedupe_labels(clusters)
 
     # Output
     output = {
