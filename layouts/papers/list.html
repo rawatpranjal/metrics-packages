@@ -35,7 +35,7 @@
         {{ range .subtopics }}
             {{ $paperCount = add $paperCount (len .papers) }}
         {{ end }}
-        <a href="{{ printf "papers/%s/" .id | relURL }}" class="topic-card" data-aos="fade-up">
+        <a href="{{ printf "papers/%s/" .id | relURL }}" class="topic-card">
             {{ if .image_url }}
             <div class="topic-card-image">
                 <img src="{{ .image_url }}" alt="{{ .name }}" loading="lazy">

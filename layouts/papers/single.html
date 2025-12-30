@@ -41,7 +41,7 @@
             <!-- Cards View -->
             <div class="papers-grid cards-view-content">
                 {{ range .papers }}
-                <div class="paper-card" data-aos="fade-up">
+                <div class="paper-card">
                     <div class="paper-header">
                         <span class="paper-year">{{ .year }}</span>
                         {{ with .citations }}<span class="paper-citations">{{ . }} cited</span>{{ end }}
