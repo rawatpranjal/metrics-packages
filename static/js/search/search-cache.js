@@ -261,6 +261,12 @@
         return null;
       }
 
+      // Guard: validate embeddings buffer exists
+      if (!embeddingsWrapper.value || !embeddingsWrapper.value.buffer) {
+        console.warn('[SearchCache] Embeddings cache corrupted (no buffer)');
+        return null;
+      }
+
       return {
         metadata: metadata,
         embeddings: embeddingsWrapper.value.buffer,

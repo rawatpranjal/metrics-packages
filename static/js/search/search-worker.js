@@ -40,11 +40,17 @@ var ADVANCED_PATTERNS = /paper|research|advanced|theory|proof|optimal|state of t
  */
 function scoreSyntheticQuestions(item, query) {
   if (!item.synthetic_questions || !query) return 0;
+  // Guard: ensure synthetic_questions is an array
+  if (!Array.isArray(item.synthetic_questions)) return 0;
+
   var queryLower = query.toLowerCase().trim();
   var queryWords = queryLower.split(/\s+/);
 
   for (var i = 0; i < item.synthetic_questions.length; i++) {
-    var q = item.synthetic_questions[i].toLowerCase();
+    var q = item.synthetic_questions[i];
+    // Guard: skip non-string entries
+    if (typeof q !== 'string') continue;
+    q = q.toLowerCase();
     // Full query match
     if (q.includes(queryLower) || queryLower.includes(q)) {
       return 0.3;
@@ -94,6 +100,13 @@ function getAudienceBoost(item, query) {
  */
 self.onmessage = function(event) {
   var message = event.data;
+
+  // Guard: validate message structure
+  if (!message || typeof message.type !== 'string') {
+    console.warn('[SearchWorker] Invalid message received:', message);
+    return;
+  }
+
   var type = message.type;
 
   switch (type) {
@@ -147,6 +160,14 @@ function handleLoadIndex(payload) {
   console.log('[SearchWorker] handleLoadIndex called');
   try {
     var indexData = payload.indexData;
+
+    // Guard: validate index data structure
+    if (!indexData || !indexData.documents || !indexData.config || !indexData.config.fields) {
+      console.error('[SearchWorker] Invalid index data structure');
+      postMessage({ type: 'INDEX_LOADED', payload: { success: false, error: 'Invalid index structure' } });
+      return;
+    }
+
     console.log('[SearchWorker] Loading index with', indexData.documents.length, 'documents');
 
     // Create MiniSearch instance
@@ -200,6 +221,14 @@ function handleLoadEmbeddings(payload) {
 
       var headerSize = 8;
       var scaleSize = count * 4;  // Float32 min/max per vector
+
+      // Guard: validate buffer size before creating TypedArrays
+      var expectedSize = headerSize + scaleSize * 2 + count * dim;
+      if (payload.embeddingsBuffer.byteLength < expectedSize) {
+        console.error('[SearchWorker] Embeddings buffer too small:', payload.embeddingsBuffer.byteLength, 'vs expected', expectedSize);
+        postMessage({ type: 'EMBEDDINGS_LOADED', payload: { success: false, error: 'Buffer size mismatch' } });
+        return;
+      }
 
       // Read scale factors
       var mins = new Float32Array(payload.embeddingsBuffer, headerSize, count);
@@ -652,7 +681,7 @@ function boostExactMatches(results, query) {
     }
 
     return Object.assign({}, result, {
-      score: result.score * boost
+      score: (typeof result.score === 'number' ? result.score : 0) * boost
     });
   }).sort(function(a, b) {
     return b.score - a.score;
@@ -695,6 +724,12 @@ function embedQuery(query) {
  */
 function performSemanticSearch(queryEmbedding, limit) {
   if (!embeddings || !embeddingsMetadata) return [];
+
+  // Guard: validate queryEmbedding dimensions to prevent NaN cascade
+  if (!queryEmbedding || queryEmbedding.length !== CONFIG.DIMENSIONS) {
+    console.warn('[SearchWorker] Query embedding dimension mismatch:', queryEmbedding ? queryEmbedding.length : 'null', 'vs expected', CONFIG.DIMENSIONS);
+    return [];
+  }
 
   var results = [];
   var dim = CONFIG.DIMENSIONS;
