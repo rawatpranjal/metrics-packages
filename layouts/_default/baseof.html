@@ -104,7 +104,7 @@
                     <rect x="3" y="14" width="7" height="7"></rect>
                 </svg>
             </button>
-            <span class="sidebar-visitors" id="visitor-count">— visitors</span>
+            <span class="sidebar-visitors">3,000+ resources</span>
         </div>
         <ul class="sidebar-nav">
             <!-- Home -->
@@ -428,30 +428,6 @@
 
     <!-- GoatCounter Analytics -->
     <script data-goatcounter="https://tech-econ.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-    <script>
-        // Fetch visitor count from GoatCounter API (with sessionStorage caching to prevent flicker)
-        (function() {
-            var el = document.getElementById('visitor-count');
-            var cached = sessionStorage.getItem('visitor-count');
-
-            // Show cached value immediately (no flicker)
-            if (cached && el) {
-                el.textContent = cached;
-            }
-
-            // Fetch fresh count and update cache
-            fetch('https://tech-econ.goatcounter.com/counter/TOTAL.json')
-                .then(function(r) { return r.json(); })
-                .then(function(data) {
-                    if (el && data.count) {
-                        var text = data.count.toLocaleString() + ' visitors';
-                        el.textContent = text;
-                        sessionStorage.setItem('visitor-count', text);
-                    }
-                })
-                .catch(function() {});
-        })();
-    </script>
 
     <!-- Chatbase AI Chatbot - DISABLED
     <script>
