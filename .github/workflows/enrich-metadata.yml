@@ -39,12 +39,13 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install anthropic pydantic tenacity
+          pip install openai pydantic tenacity
           pip install torch transformers  # For search index regeneration
 
       - name: Show enrichment plan
         run: |
           echo "=== Enrichment Configuration ==="
+          echo "Model: GPT-4o-mini (~$1 for full corpus)"
           echo "File: ${{ inputs.file || 'all files' }}"
           echo "Limit: ${{ inputs.limit || 'no limit' }}"
           echo "Force refresh: ${{ inputs.force_refresh }}"
@@ -54,7 +55,7 @@ jobs:
       - name: Run enrichment
         if: ${{ !inputs.dry_run }}
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           python scripts/enrich_metadata_v2.py \
             ${{ inputs.file && format('--file {0}', inputs.file) || '' }} \

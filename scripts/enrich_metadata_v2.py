@@ -2,17 +2,19 @@
 """
 Advanced LLM Metadata Enrichment for tech-econ.org
 
+Uses GPT-4o-mini for cost-effective enrichment (~$1 for full corpus).
+
 Features:
 - Section-specific schemas and prompts (papers, packages, datasets, etc.)
 - Content hashing for incremental updates
 - Confidence scoring with tiered processing
-- Cross-referencing extraction
+- Anti-hallucination safeguards
 
 Usage:
-    ANTHROPIC_API_KEY=sk-... python3 scripts/enrich_metadata_v2.py
-    ANTHROPIC_API_KEY=sk-... python3 scripts/enrich_metadata_v2.py --file packages.json
-    ANTHROPIC_API_KEY=sk-... python3 scripts/enrich_metadata_v2.py --file papers.json --limit 10
-    ANTHROPIC_API_KEY=sk-... python3 scripts/enrich_metadata_v2.py --force  # Re-enrich all
+    OPENAI_API_KEY=sk-... python3 scripts/enrich_metadata_v2.py
+    OPENAI_API_KEY=sk-... python3 scripts/enrich_metadata_v2.py --file packages.json
+    OPENAI_API_KEY=sk-... python3 scripts/enrich_metadata_v2.py --file papers.json --limit 10
+    OPENAI_API_KEY=sk-... python3 scripts/enrich_metadata_v2.py --force  # Re-enrich all
 """
 
 import argparse
@@ -33,10 +35,10 @@ except ImportError:
     sys.exit(1)
 
 try:
-    import anthropic
+    from openai import OpenAI
 except ImportError:
-    print("Error: anthropic package not installed")
-    print("Install with: pip install anthropic")
+    print("Error: openai package not installed")
+    print("Install with: pip install openai")
     sys.exit(1)
 
 # =============================================================================
@@ -47,13 +49,13 @@ DATA_DIR = Path(__file__).parent.parent / "data"
 STATE_FILE = DATA_DIR / ".enrichment_state.json"
 REVIEW_FILE = DATA_DIR / ".enrichment_review.json"
 
-SCHEMA_VERSION = "2.0"
-MODEL_VERSION = "claude-sonnet-4-20250514"
+SCHEMA_VERSION = "2.1"
+MODEL_VERSION = "gpt-4o-mini"
 
-# Rate limiting
-REQUESTS_PER_MINUTE = 8
+# Rate limiting - GPT-4o-mini has generous limits
+REQUESTS_PER_MINUTE = 60
 REQUEST_DELAY = 60.0 / REQUESTS_PER_MINUTE
-SAVE_EVERY_N = 5
+SAVE_EVERY_N = 10
 
 # Files to process (in order)
 DATA_FILES = [
@@ -68,6 +70,17 @@ DATA_FILES = [
 
 # Papers handled separately due to nested structure
 PAPERS_FILE = "papers.json"
+
+# Anti-hallucination instruction added to all prompts
+ANTI_HALLUCINATION = """
+CRITICAL: Only include information that can be reasonably inferred from the provided data.
+- If you cannot determine a field from the given information, use null or empty array []
+- DO NOT invent datasets, paper references, specific statistics, or tool names
+- DO NOT guess temporal coverage, geographic scope, or size metrics
+- For implements_paper/builds_on: Only include if explicitly mentioned or very well-known
+- For synthetic_questions: Base these on the actual description, not assumptions
+- When uncertain, prefer empty/null over fabricated data
+"""
 
 # =============================================================================
 # Pydantic Schemas - Section Specific
@@ -163,7 +176,7 @@ SCHEMA_MAP = {
 # Section-Specific Prompts
 # =============================================================================
 
-PAPER_PROMPT = """You're enriching academic paper metadata for tech-econ.org, the largest curated library for tech economists.
+PAPER_PROMPT = """You're enriching academic paper metadata for tech-econ.org, a curated library for tech economists.
 
 PAPER:
 Title: {title}
@@ -173,7 +186,7 @@ Description: {description}
 Tags: {tags}
 Citations: {citations}
 
-Return JSON with these fields:
+Return JSON:
 {{
   "difficulty": "beginner|intermediate|advanced",
   "prerequisites": ["specific-method-1", "specific-concept-2"],
@@ -183,18 +196,19 @@ Return JSON with these fields:
   "synthetic_questions": ["6-8 natural search queries to find this paper"],
   "use_cases": ["2-3 practical scenarios where you'd apply this"],
   "methodology_tags": ["difference-in-differences", "instrumental-variables", etc.],
-  "key_findings": "One sentence: main quantitative result if available",
+  "key_findings": "One sentence: main result if mentioned in description, or empty string",
   "research_questions": ["What question does this answer?"],
-  "datasets_used": ["Named datasets mentioned: Census ACS, Nielsen, etc."],
-  "implements_method": "Name of new method introduced, or null",
-  "builds_on": ["Key papers this extends: Author (Year)"]
+  "datasets_used": ["Only if explicitly mentioned in description, else empty array"],
+  "implements_method": "Name of new method if this paper introduces one, else null",
+  "builds_on": ["Only well-known foundational papers if clearly referenced, else empty"]
 }}
 
 RULES:
-- METHODOLOGY_TAGS: Use hyphenated method names (difference-in-differences, regression-discontinuity, random-forest)
-- PREREQUISITES: Actual methods/concepts needed (bayesian-inference, panel-data, not vague "statistics")
-- SYNTHETIC_QUESTIONS: Natural queries like "how to estimate treatment effects" or "causal inference with observational data"
-- KEY_FINDINGS: Include numbers if the abstract mentions them ("10% increase in X")
+- METHODOLOGY_TAGS: Use hyphenated method names (difference-in-differences, regression-discontinuity)
+- PREREQUISITES: Actual methods/concepts needed (bayesian-inference, panel-data)
+- SYNTHETIC_QUESTIONS: Natural queries like "how to estimate treatment effects"
+- KEY_FINDINGS: Only include if explicitly stated in description; leave empty if not mentioned
+{anti_hallucination}
 
 JSON only, no markdown."""
 
@@ -219,17 +233,18 @@ Return JSON:
   "use_cases": ["2-4 specific scenarios"],
   "primary_use_cases": ["causal forest estimation", "A/B test analysis", etc.],
   "api_complexity": "simple|intermediate|advanced",
-  "framework_compatibility": ["scikit-learn", "PyTorch", "pandas", etc.],
-  "implements_paper": "Author (Year) if based on academic work, or null",
-  "related_packages": ["similar or complementary packages"],
+  "framework_compatibility": ["Only include if explicitly mentioned or obvious from description"],
+  "implements_paper": "Author (Year) only if clearly documented, else null",
+  "related_packages": ["Only well-known similar packages you're confident exist"],
   "maintenance_status": "active|stable|unmaintained"
 }}
 
 RULES:
-- PRIMARY_USE_CASES: Specific tasks, not vague categories
-- IMPLEMENTS_PAPER: Only if package explicitly implements a paper's method
-- RELATED_PACKAGES: Other packages users might consider for same task
+- PRIMARY_USE_CASES: Specific tasks inferred from description
+- IMPLEMENTS_PAPER: Only if package explicitly mentions implementing a paper
+- RELATED_PACKAGES: Only include packages you're certain exist
 - SYNTHETIC_QUESTIONS: "python library for X", "how to do Y in python"
+{anti_hallucination}
 
 JSON only, no markdown."""
 
@@ -253,16 +268,18 @@ Return JSON:
   "use_cases": ["2-4 analysis scenarios"],
   "domain_tags": ["retail", "healthcare", "fintech", etc.],
   "data_modality": "tabular|text|image|time-series|graph|mixed",
-  "temporal_coverage": "2015-2023 or null",
-  "geographic_scope": "US nationwide, Global, Europe, etc. or null",
-  "size_category": "small|medium|large|massive",
-  "benchmark_usage": ["price elasticity estimation", "demand forecasting", etc.]
+  "temporal_coverage": "Only if explicitly mentioned, else null",
+  "geographic_scope": "Only if explicitly mentioned, else null",
+  "size_category": "small|medium|large|massive - only if inferable, default medium",
+  "benchmark_usage": ["Common uses if mentioned in description"]
 }}
 
 RULES:
-- DOMAIN_TAGS: Industry/sector tags, not method tags
-- SIZE_CATEGORY: small (<10K rows), medium (10K-1M), large (1M-100M), massive (100M+)
-- BENCHMARK_USAGE: Common research tasks this dataset is used for
+- DOMAIN_TAGS: Industry/sector tags based on description
+- SIZE_CATEGORY: Only specify if size is mentioned; otherwise use "medium"
+- TEMPORAL_COVERAGE: Only if years are explicitly mentioned
+- GEOGRAPHIC_SCOPE: Only if location/region is explicitly mentioned
+{anti_hallucination}
 
 JSON only, no markdown."""
 
@@ -286,9 +303,10 @@ Return JSON:
   "synthetic_questions": ["6-8 search queries"],
   "use_cases": ["when to use this resource"],
   "content_format": "article|tutorial|course|video|book|newsletter",
-  "estimated_duration": "30 min, 2 hours, 4 weeks, etc. or null",
-  "skill_progression": ["skills you'll gain after completing"]
+  "estimated_duration": "Only if inferable from description, else null",
+  "skill_progression": ["skills you'll gain based on description"]
 }}
+{anti_hallucination}
 
 JSON only, no markdown."""
 
@@ -311,10 +329,11 @@ Return JSON:
   "audience": ["Early-PhD", "Junior-DS", "Mid-DS", "Senior-DS", "Curious-browser"],
   "synthetic_questions": ["6-8 search queries"],
   "use_cases": ["why watch/listen to this"],
-  "speaker_expertise": ["speaker's areas of expertise"],
-  "key_insights": ["3-4 main takeaways from this talk"],
-  "mentioned_tools": ["packages, methods, or frameworks mentioned"]
+  "speaker_expertise": ["areas mentioned in description"],
+  "key_insights": ["Only insights explicitly mentioned in description"],
+  "mentioned_tools": ["Only tools/methods explicitly mentioned"]
 }}
+{anti_hallucination}
 
 JSON only, no markdown."""
 
@@ -338,8 +357,9 @@ Return JSON:
   "use_cases": ["when to use this resource"],
   "role_type": ["data-scientist", "economist", "ML-engineer", etc.],
   "experience_level": "entry|mid|senior|executive",
-  "company_context": ["FAANG", "startup", "finance", "consulting", etc.]
+  "company_context": ["Only if mentioned: FAANG, startup, finance, etc."]
 }}
+{anti_hallucination}
 
 JSON only, no markdown."""
 
@@ -364,9 +384,10 @@ Return JSON:
   "synthetic_questions": ["6-8 search queries"],
   "use_cases": ["why attend this"],
   "event_format": "conference|meetup|workshop|online|hybrid",
-  "geographic_focus": "US, Europe, Global, etc. or null",
+  "geographic_focus": "Only if location is mentioned, else null",
   "frequency": "annual|biannual|quarterly|monthly|one-time"
 }}
+{anti_hallucination}
 
 JSON only, no markdown."""
 
@@ -409,7 +430,6 @@ def save_state(state: dict) -> None:
 
 def compute_hash(item: dict) -> str:
     """Compute SHA256 hash of item's core content."""
-    # Fields that matter for content identity
     core_fields = ["name", "title", "description", "category", "tags", "url"]
     content = {k: item.get(k) for k in core_fields if k in item}
     content_str = json.dumps(content, sort_keys=True)
@@ -563,6 +583,7 @@ def format_prompt(item: dict, content_type: str) -> str:
         "year": item.get("year", ""),
         "citations": item.get("citations", 0),
         "tags": ", ".join(item.get("tags", [])) if isinstance(item.get("tags"), list) else item.get("tags", ""),
+        "anti_hallucination": ANTI_HALLUCINATION,
     }
 
     return template.format(**format_dict)
@@ -573,21 +594,21 @@ def enrich_item(client: Any, item: dict, content_type: str) -> tuple[dict | None
     prompt = format_prompt(item, content_type)
 
     try:
-        response = client.messages.create(
+        response = client.chat.completions.create(
             model=MODEL_VERSION,
+            messages=[
+                {
+                    "role": "system",
+                    "content": "You are a metadata enrichment assistant. Return only valid JSON. Never fabricate information - use null or empty arrays when data is not available."
+                },
+                {"role": "user", "content": prompt}
+            ],
             max_tokens=800,
-            messages=[{"role": "user", "content": prompt}]
+            temperature=0.3,  # Lower temperature for more consistent output
+            response_format={"type": "json_object"}  # Force JSON response
         )
 
-        text = response.content[0].text.strip()
-
-        # Remove markdown code blocks if present
-        if text.startswith("```"):
-            text = text.split("```")[1]
-            if text.startswith("json"):
-                text = text[4:]
-            text = text.strip()
-
+        text = response.choices[0].message.content.strip()
         enrichment = json.loads(text)
 
         # Validate with Pydantic schema
@@ -836,7 +857,7 @@ def process_papers_file(
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Advanced LLM metadata enrichment for tech-econ.org"
+        description="Advanced LLM metadata enrichment for tech-econ.org (GPT-4o-mini)"
     )
     parser.add_argument("--dry-run", action="store_true",
                         help="Don't make API calls or save changes")
@@ -848,18 +869,19 @@ def main():
                         help="Re-enrich all items (ignore content hashes)")
     args = parser.parse_args()
 
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key and not args.dry_run:
-        print("Error: ANTHROPIC_API_KEY not set")
+        print("Error: OPENAI_API_KEY not set")
+        print("Set with: export OPENAI_API_KEY=sk-...")
         sys.exit(1)
 
-    client = anthropic.Anthropic(api_key=api_key) if api_key else None
+    client = OpenAI(api_key=api_key) if api_key else None
 
     # Load state
     state = load_state()
 
     print(f"Advanced Enrichment v{SCHEMA_VERSION}")
-    print(f"Model: {MODEL_VERSION}")
+    print(f"Model: {MODEL_VERSION} (cost: ~$0.15/1M input, $0.60/1M output)")
     if args.force:
         print("Mode: FORCE (re-enriching all items)")
     if args.limit:
