@@ -9922,5 +9922,248 @@
     "tags": ["LLMs", "Machine Learning", "AI Research", "Newsletter"],
     "level": "Medium",
     "domain": "AI"
+  },
+  {
+    "name": "EconTalk: Susan Athey on ML, Big Data, and Causation",
+    "description": "Susan Athey discusses how machine learning transforms economic research, the importance of big data for causal inference, and bridging CS/economics methodologies.",
+    "category": "Causal Inference & ML",
+    "url": "https://www.econtalk.org/susan-athey-on-machine-learning-big-data-and-causation/",
+    "type": "Podcast",
+    "tags": ["Machine Learning", "Causal Inference", "Big Data"],
+    "level": "Medium"
+  },
+  {
+    "name": "World of DaaS: Susan Athey - Tech Economists and ML",
+    "description": "SafeGraph podcast featuring Susan Athey on the role of tech economists, machine learning applications in economics, and causation in industry settings.",
+    "category": "Causal Inference & ML",
+    "url": "https://www.safegraph.com/podcasts/susan-athey-tech-economists-machine-learning-and-causation",
+    "type": "Podcast",
+    "tags": ["Tech Economics", "Machine Learning", "Industry"],
+    "level": "Medium"
+  },
+  {
+    "name": "AEA/AFA 2019: Impact of Machine Learning on Economics",
+    "description": "Susan Athey's joint luncheon address on how ML is reshaping economic research, prediction policy problems, and heterogeneous treatment effects.",
+    "category": "Causal Inference & ML",
+    "url": "https://www.aeaweb.org/webcasts/2019/aea-afa-joint-luncheon-impact-of-machine-learning",
+    "type": "Video",
+    "tags": ["Machine Learning", "Economics Research", "Policy"],
+    "level": "Medium"
+  },
+  {
+    "name": "AEA Continuing Education: ML and Econometrics 2018",
+    "description": "AEA's official continuing education webcasts on machine learning methods for econometrics, featuring leading researchers in the field.",
+    "category": "Causal Inference & ML",
+    "url": "https://www.aeaweb.org/conference/cont-ed/2018-webcasts",
+    "type": "Course",
+    "tags": ["Machine Learning", "Econometrics", "Education"],
+    "level": "Hard"
+  },
+  {
+    "name": "Capitalisn't: Sendhil Mullainathan on Who Controls AI",
+    "description": "Chicago Booth podcast exploring AI governance, algorithmic decision-making, and the economic implications of who shapes AI development.",
+    "category": "Causal Inference & ML",
+    "url": "https://www.chicagobooth.edu/review/capitalisnt-who-controls-ai",
+    "type": "Podcast",
+    "tags": ["AI Governance", "Economics", "Policy"],
+    "level": "Medium"
+  },
+  {
+    "name": "Knowledge Project #102: Sendhil Mullainathan",
+    "description": "Deep conversation with Sendhil Mullainathan on behavioral economics, machine learning in social science, and decision-making under uncertainty.",
+    "category": "Causal Inference & ML",
+    "url": "https://fs.blog/knowledge-project-podcast/sendhil-mullainathan/",
+    "type": "Podcast",
+    "tags": ["Behavioral Economics", "Machine Learning", "Decision Making"],
+    "level": "Easy"
+  },
+  {
+    "name": "Stanford Fintech: Sendhil Mullainathan on ML as Tool for Science",
+    "description": "ABFR webinar where Mullainathan discusses ML's role in scientific discovery, moving beyond prediction to understanding causal mechanisms.",
+    "category": "Causal Inference & ML",
+    "url": "https://fintech.stanford.edu/events/abfr-webinar/sendhil-mullainathan-chicago-booth-machine-learning-tool-science",
+    "type": "Video",
+    "tags": ["Machine Learning", "Science", "Methodology"],
+    "level": "Medium"
+  },
+  {
+    "name": "UChicago Law: Discrimination by Algorithm and People",
+    "description": "Sendhil Mullainathan examines algorithmic discrimination, comparing ML-based decisions to human decisions, with policy implications.",
+    "category": "Causal Inference & ML",
+    "url": "https://www.law.uchicago.edu/recordings/sendhil-mullainathan-discrimination-algorithm-and-people",
+    "type": "Video",
+    "tags": ["Algorithmic Fairness", "Discrimination", "Policy"],
+    "level": "Medium"
+  },
+  {
+    "name": "Hal Varian: Machine Learning and Econometrics (Berkeley)",
+    "description": "Google's Chief Economist on bridging ML and econometrics, covering prediction vs inference, variable selection, and modern statistical approaches.",
+    "category": "Causal Inference & ML",
+    "url": "https://www.youtube.com/watch?v=EraG-2p9VuE",
+    "type": "Video",
+    "tags": ["Machine Learning", "Econometrics", "Google"],
+    "level": "Medium"
+  },
+  {
+    "name": "Hal Varian: Big Data - New Tricks for Econometrics",
+    "description": "Seminal 2013 paper on ML methods relevant for economists: classification/regression trees, random forests, LASSO, and cross-validation techniques.",
+    "category": "Causal Inference & ML",
+    "url": "https://people.ischool.berkeley.edu/~hal/Papers/2013/ml.pdf",
+    "type": "Paper",
+    "tags": ["Machine Learning", "Econometrics", "Methods"],
+    "level": "Hard"
+  },
+  {
+    "name": "EconTalk: Hal Varian on Technology",
+    "description": "Wide-ranging discussion with Google's Chief Economist on technology adoption, internet economics, and data-driven decision making.",
+    "category": "Platform Economics",
+    "url": "https://www.econtalk.org/varian-on-technology/",
+    "type": "Podcast",
+    "tags": ["Technology", "Economics", "Internet"],
+    "level": "Easy"
+  },
+  {
+    "name": "CEPR VoxEU: Doing Economics at Google",
+    "description": "Hal Varian discusses the practice of economics in a tech company: auction design, pricing, and empirical work at massive scale.",
+    "category": "Platform Economics",
+    "url": "https://cepr.org/multimedia/doing-economics-google",
+    "type": "Podcast",
+    "tags": ["Tech Economics", "Google", "Industry Practice"],
+    "level": "Medium"
+  },
+  {
+    "name": "Applied Causal Inference Book (Chernozhukov et al.)",
+    "description": "Comprehensive online textbook covering DML, causal forests, and modern causal ML methods with Python/R code. Essential reference for practitioners.",
+    "category": "Causal Inference & ML",
+    "url": "https://causalml-book.org/",
+    "type": "Book",
+    "tags": ["Causal Inference", "Machine Learning", "Textbook"],
+    "level": "Hard"
+  },
+  {
+    "name": "Stanford STATS 361: Causal Inference Lecture Notes (Wager)",
+    "description": "Stefan Wager's graduate course notes on causal inference with machine learning: heterogeneous treatment effects, conformal inference, and forest methods.",
+    "category": "Causal Inference & ML",
+    "url": "https://web.stanford.edu/~swager/stats361.pdf",
+    "type": "Course",
+    "tags": ["Causal Inference", "Statistics", "Stanford"],
+    "level": "Hard"
+  },
+  {
+    "name": "Netflix: A Survey of Causal Inference Applications",
+    "description": "Comprehensive overview of how Netflix applies causal inference across experimentation, personalization, and content decisions at scale.",
+    "category": "Causal Inference & ML",
+    "url": "https://netflixtechblog.com/a-survey-of-causal-inference-applications-at-netflix-b62d25175e6f",
+    "type": "Engineering Blog",
+    "tags": ["Causal Inference", "Netflix", "Applications"],
+    "level": "Medium"
+  },
+  {
+    "name": "Netflix: Computational Causal Inference",
+    "description": "Technical deep-dive into Netflix's causal inference infrastructure, software tools, and scalable computation approaches for causal analysis.",
+    "category": "Causal Inference & ML",
+    "url": "https://netflixtechblog.com/computational-causal-inference-at-netflix-293591691c62",
+    "type": "Engineering Blog",
+    "tags": ["Causal Inference", "Infrastructure", "Netflix"],
+    "level": "Hard"
+  },
+  {
+    "name": "Netflix: Round 2 - Causal Inference Survey (Synthetic Control)",
+    "description": "Follow-up survey focusing on synthetic control methods, panel data approaches, and advanced causal techniques used at Netflix.",
+    "category": "Causal Inference & ML",
+    "url": "https://netflixtechblog.com/round-2-a-survey-of-causal-inference-applications-at-netflix-fd78328ee0bb",
+    "type": "Engineering Blog",
+    "tags": ["Synthetic Control", "Causal Inference", "Netflix"],
+    "level": "Hard"
+  },
+  {
+    "name": "Airbnb: Using ML to Predict Value of Homes",
+    "description": "How Airbnb built ML models to estimate listing value, combining property features with market dynamics and host characteristics.",
+    "category": "Pricing & Revenue",
+    "url": "https://medium.com/airbnb-engineering/using-machine-learning-to-predict-value-of-homes-on-airbnb-9272d3d4739d",
+    "type": "Engineering Blog",
+    "tags": ["Machine Learning", "Pricing", "Airbnb"],
+    "level": "Medium"
+  },
+  {
+    "name": "Airbnb: Experiments at Airbnb",
+    "description": "Foundation article on Airbnb's experimentation platform: A/B testing infrastructure, metric design, and lessons from running experiments at scale.",
+    "category": "AB Testing",
+    "url": "https://medium.com/airbnb-engineering/experiments-at-airbnb-e2db3abf39e7",
+    "type": "Engineering Blog",
+    "tags": ["Experimentation", "A/B Testing", "Airbnb"],
+    "level": "Medium"
+  },
+  {
+    "name": "DoorDash: Leveraging Causal Inference for Forecasts",
+    "description": "How DoorDash combines causal inference with forecasting to understand intervention impacts and improve demand prediction accuracy.",
+    "category": "Causal Inference & ML",
+    "url": "https://doordash.engineering/2022/06/14/leveraging-causal-inference-to-generate-accurate-forecasts/",
+    "type": "Engineering Blog",
+    "tags": ["Causal Inference", "Forecasting", "DoorDash"],
+    "level": "Medium"
+  },
+  {
+    "name": "Meta: Instagram Notification Management with ML and Causal Inference",
+    "description": "How Instagram uses ML and causal methods to optimize notification delivery, balancing engagement with user experience.",
+    "category": "Causal Inference & ML",
+    "url": "https://engineering.fb.com/2022/10/31/ml-applications/instagram-notification-management-machine-learning/",
+    "type": "Engineering Blog",
+    "tags": ["Machine Learning", "Causal Inference", "Instagram"],
+    "level": "Medium"
+  },
+  {
+    "name": "Microsoft Research: Adversarial ML and Instrumental Variables",
+    "description": "Innovative approach combining adversarial machine learning with instrumental variables for flexible causal modeling in complex settings.",
+    "category": "Causal Inference & ML",
+    "url": "https://www.microsoft.com/en-us/research/blog/adversarial-machine-learning-and-instrumental-variables-for-flexible-causal-modeling/",
+    "type": "Research Blog",
+    "tags": ["Causal Inference", "Instrumental Variables", "ML"],
+    "level": "Hard"
+  },
+  {
+    "name": "Microsoft Research: End-to-End Causal Inference at Scale Demo",
+    "description": "Demo video showcasing Microsoft's EconML ecosystem for production causal inference, from data prep to deployment.",
+    "category": "Causal Inference & ML",
+    "url": "https://www.microsoft.com/en-us/research/video/demo-enabling-end-to-end-causal-inference-at-scale/",
+    "type": "Video",
+    "tags": ["EconML", "Causal Inference", "Production"],
+    "level": "Medium"
+  },
+  {
+    "name": "Google Research: CausalImpact Paper",
+    "description": "Foundation paper for CausalImpact package: inferring causal impact using Bayesian structural time-series models for interrupted time series.",
+    "category": "Causal Inference & ML",
+    "url": "https://research.google/pubs/pub41854/",
+    "type": "Paper",
+    "tags": ["CausalImpact", "Time Series", "Google"],
+    "level": "Hard"
+  },
+  {
+    "name": "Interpretable Machine Learning Book (Christoph Molnar)",
+    "description": "The definitive online book on ML interpretability: SHAP, LIME, PDP, feature importance. Essential for understanding black-box model predictions.",
+    "category": "Causal Inference & ML",
+    "url": "https://christophm.github.io/interpretable-ml-book/",
+    "type": "Book",
+    "tags": ["Interpretability", "Machine Learning", "SHAP"],
+    "level": "Medium"
+  },
+  {
+    "name": "LOST Statistics: Causal Forest Tutorial",
+    "description": "Practical guide to implementing causal forests for heterogeneous treatment effect estimation with code examples in R and Python.",
+    "category": "Causal Inference & ML",
+    "url": "https://lost-stats.github.io/Machine_Learning/causal_forest.html",
+    "type": "Tutorial",
+    "tags": ["Causal Forest", "GRF", "Tutorial"],
+    "level": "Medium"
+  },
+  {
+    "name": "IMF: Cross-Validation for Economists",
+    "description": "IMF training material on applying cross-validation techniques in economic research, bridging ML best practices with econometric applications.",
+    "category": "Causal Inference & ML",
+    "url": "https://michalandrle.weebly.com/uploads/1/3/9/2/13921270/imf_ml_1_cv.pdf",
+    "type": "Tutorial",
+    "tags": ["Cross-Validation", "Machine Learning", "IMF"],
+    "level": "Medium"
   }
 ]

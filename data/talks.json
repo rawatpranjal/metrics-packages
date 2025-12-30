@@ -3936,5 +3936,85 @@
     "url": "https://www.lennysnewsletter.com/s/how-i-ai",
     "type": "Podcast",
     "tags": ["AI Tools", "Productivity", "Practical AI", "Workflows"]
+  },
+  {
+    "name": "Freakonomics: Sendhil Mullainathan Messing Around",
+    "description": "Sendhil Mullainathan on why 'messing around' and unstructured exploration leads to breakthrough insights in research and decision-making.",
+    "category": "Causal Inference & ML",
+    "url": "https://freakonomics.com/podcast/sendhil-mullainathan-thinks-messing-around-is-the-best-use-of-your-time/",
+    "type": "Podcast",
+    "tags": ["Behavioral Economics", "Research", "Decision Making"]
+  },
+  {
+    "name": "TWIML: Causal Models at Lyft with Sean Taylor",
+    "description": "Sean Taylor discusses how Lyft applies causal models in practice for experimentation, pricing, and driver incentives.",
+    "category": "Causal Inference & ML",
+    "url": "https://podcasts.apple.com/us/podcast/causal-models-in-practice-at-lyft-with-sean-taylor/id1116303051?i=1000522963827",
+    "type": "Podcast",
+    "tags": ["Causal Inference", "Industry Practice", "Lyft"]
+  },
+  {
+    "name": "TWIML: Causal Conceptions of Fairness",
+    "description": "Discussion of how causal inference frameworks can help define and measure algorithmic fairness, with implications for ML systems.",
+    "category": "Causal Inference & ML",
+    "url": "https://podcasts.apple.com/us/podcast/causal-conceptions-of-fairness-and-their/id1116303051?i=1000575397445",
+    "type": "Podcast",
+    "tags": ["Causal Inference", "Fairness", "Ethics"]
+  },
+  {
+    "name": "TWIML: Are LLMs Good at Causal Reasoning?",
+    "description": "Robert Osazuwa Ness on evaluating large language models' ability to perform causal reasoning tasks and implications for AI.",
+    "category": "Causal Inference & ML",
+    "url": "https://podcasts.apple.com/us/podcast/are-llms-good-at-causal-reasoning-with-robert-osazuwa-ness/id1116303051?i=1000621421273",
+    "type": "Podcast",
+    "tags": ["LLMs", "Causal Inference", "AI Evaluation"]
+  },
+  {
+    "name": "Data Skeptic Podcast",
+    "description": "Long-running podcast covering data science, machine learning, and causal inference topics. Accessible explanations of technical concepts.",
+    "category": "Causal Inference & ML",
+    "url": "https://dataskeptic.com/podcast",
+    "type": "Podcast Series",
+    "tags": ["Data Science", "Machine Learning", "Education"]
+  },
+  {
+    "name": "NBER Summer 2015: ML for Economists (Athey/Imbens)",
+    "description": "Foundational NBER lectures by Susan Athey and Guido Imbens on machine learning methods for economic research and causal inference.",
+    "category": "Causal Inference & ML",
+    "url": "https://www.nber.org/lecture/summer-institute-2015-methods-lectures-machine-learning-economists",
+    "type": "Course",
+    "tags": ["Machine Learning", "Economics", "NBER"]
+  },
+  {
+    "name": "Raj Chetty: Using Big Data to Solve Economic Problems",
+    "description": "Harvard course by Raj Chetty on using large datasets and empirical methods to address questions in public policy and social mobility.",
+    "category": "Causal Inference & ML",
+    "url": "https://opportunityinsights.org/course/",
+    "type": "Course",
+    "tags": ["Big Data", "Economics", "Public Policy"]
+  },
+  {
+    "name": "KDD Causal ML Workshop Series (2023-2025)",
+    "description": "Annual KDD workshops on causal machine learning featuring cutting-edge research presentations and tutorials from academia and industry.",
+    "category": "Causal Inference & ML",
+    "url": "https://causal-machine-learning.github.io/kdd2025-workshop/",
+    "type": "Conference",
+    "tags": ["Causal ML", "KDD", "Research"]
+  },
+  {
+    "name": "NeurIPS 2024: Causality for LLMs Tutorial",
+    "description": "Tutorial on the intersection of causal inference and large language models, covering causal reasoning in LLMs and causal approaches to LLM development.",
+    "category": "Causal Inference & ML",
+    "url": "https://neurips.cc/virtual/2024/tutorial/99520",
+    "type": "Tutorial",
+    "tags": ["LLMs", "Causal Inference", "NeurIPS"]
+  },
+  {
+    "name": "Mixtape Sessions: Heterogeneous Effects (Frandsen)",
+    "description": "Brigham Frandsen's workshop on estimating heterogeneous treatment effects using modern causal ML methods. Part of Scott Cunningham's Mixtape Sessions.",
+    "category": "Causal Inference & ML",
+    "url": "https://github.com/Mixtape-Sessions/Heterogeneous-Effects",
+    "type": "Workshop",
+    "tags": ["Heterogeneous Effects", "Causal Inference", "Workshop"]
   }
 ]

@@ -14268,5 +14268,150 @@
       "digital economy measurement challenges",
       "Enlightenment Economics blog"
     ]
+  },
+  {
+    "name": "Cassie Kozyrkov",
+    "description": "Former Chief Decision Scientist at Google. Pioneer in Decision Intelligence. Expert in statistics, ML, and decision-making. Prolific educator on data science fundamentals and AI applications. Creator of accessible statistics content.",
+    "category": "Leading Lights",
+    "url": "https://kozyrkov.medium.com/",
+    "type": "Industry Leader & Educator",
+    "location": "San Francisco, CA",
+    "best_for": "Decision intelligence, statistics education, ML fundamentals",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "basic-statistics",
+      "data-analysis"
+    ],
+    "topic_tags": [
+      "decision-intelligence",
+      "statistics",
+      "machine-learning",
+      "data-science",
+      "education"
+    ],
+    "summary": "Cassie Kozyrkov pioneered the Decision Intelligence field at Google and is one of the most influential voices in making statistics and ML accessible. Her Medium articles and talks break down complex statistical concepts into practical decision-making frameworks. Essential follow for anyone wanting to improve their statistical thinking and apply ML responsibly.",
+    "use_cases": [
+      "Learning statistical thinking fundamentals through accessible explanations",
+      "Understanding decision intelligence frameworks for data-driven organizations"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Who is Cassie Kozyrkov",
+      "Decision Intelligence Google founder",
+      "statistics education accessible content",
+      "data science fundamentals educator"
+    ]
+  },
+  {
+    "name": "Vicki Boykis",
+    "description": "Senior ML Engineer at Mozilla. Expert in production ML systems, recommendation engines, and embeddings. Author of popular technical newsletter 'Normcore Tech'. Known for clear writing on ML infrastructure and data engineering.",
+    "category": "Notable Contributors",
+    "url": "https://vickiboykis.com/",
+    "type": "Industry Practitioner & Writer",
+    "location": "Philadelphia, PA",
+    "best_for": "Production ML, recommendations, embeddings, ML engineering",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python-programming",
+      "machine-learning-basics",
+      "software-engineering"
+    ],
+    "topic_tags": [
+      "production-ml",
+      "recommendations",
+      "embeddings",
+      "ml-engineering",
+      "data-infrastructure"
+    ],
+    "summary": "Vicki Boykis is a senior ML engineer known for clear, practical writing on production machine learning systems. Her newsletter Normcore Tech and blog cover ML infrastructure, recommendation systems, and the realities of deploying ML in production. Essential reading for practitioners moving from notebooks to production systems.",
+    "use_cases": [
+      "Understanding practical challenges of deploying recommendation systems at scale",
+      "Learning about embedding-based ML architectures from a practitioner perspective"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Junior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Vicki Boykis",
+      "production ML systems practical advice",
+      "recommendation systems engineering blog",
+      "Normcore Tech newsletter"
+    ]
+  },
+  {
+    "name": "Ethan Mollick",
+    "description": "Professor at Wharton. Leading researcher on AI's impact on work, organizations, and innovation. Author of 'Co-Intelligence: Living and Working with AI'. Known for practical experiments with LLMs in professional settings.",
+    "category": "Leading Lights",
+    "url": "https://www.oneusefulthing.org/",
+    "type": "Professor & Author",
+    "location": "Philadelphia, PA",
+    "best_for": "AI and work, organizational AI adoption, LLM applications",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "basic-ai-concepts",
+      "organizational-behavior"
+    ],
+    "topic_tags": [
+      "AI-and-work",
+      "LLM-applications",
+      "organizational-AI",
+      "innovation",
+      "productivity"
+    ],
+    "summary": "Ethan Mollick is a Wharton professor whose research and Substack 'One Useful Thing' explore how AI transforms work and organizations. His practical experiments with LLMs provide evidence-based insights on AI adoption. His book 'Co-Intelligence' offers frameworks for working productively with AI systems.",
+    "use_cases": [
+      "Understanding how AI will change knowledge work and professional tasks",
+      "Learning practical strategies for integrating LLMs into workflows"
+    ],
+    "audience": [
+      "Curious-browser",
+      "Junior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Ethan Mollick",
+      "AI impact on work research",
+      "One Useful Thing AI blog",
+      "practical LLM applications in business"
+    ]
+  },
+  {
+    "name": "Emily Oster",
+    "description": "Professor of Economics at Brown University. Expert in health economics and data-driven decision making. Author of 'Expecting Better', 'Cribsheet', and 'The Family Firm'. Known for applying economic thinking to parenting and personal decisions.",
+    "category": "Leading Lights",
+    "url": "https://emilyoster.substack.com/",
+    "type": "Professor & Author",
+    "location": "Providence, RI",
+    "best_for": "Data-driven decision making, health economics, applied economics",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "basic-statistics",
+      "research-literacy"
+    ],
+    "topic_tags": [
+      "health-economics",
+      "data-driven-decisions",
+      "applied-economics",
+      "evidence-based",
+      "public-policy"
+    ],
+    "summary": "Emily Oster is a Brown economist who applies rigorous data analysis to personal and public policy decisions. Her popular books and Substack demonstrate how to evaluate evidence and make informed choices. Her work during COVID-19 on school reopening data exemplifies applying economic thinking to urgent public health questions.",
+    "use_cases": [
+      "Learning how to evaluate research evidence for personal decision-making",
+      "Understanding how economists approach health and education policy questions"
+    ],
+    "audience": [
+      "Curious-browser",
+      "Junior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Emily Oster economist",
+      "data-driven parenting decisions",
+      "ParentData newsletter Substack",
+      "evidence-based personal decisions economist"
+    ]
   }
 ]
