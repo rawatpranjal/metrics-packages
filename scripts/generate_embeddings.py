@@ -137,6 +137,7 @@ def combine_text_for_embedding(item: Dict[str, Any]) -> str:
 
     Strategy: Name first (most important), then description, then metadata.
     This matches how users think about items and search for them.
+    Enriched fields (summary, synthetic_questions) boost semantic matching.
     """
     parts = []
 
@@ -149,6 +150,11 @@ def combine_text_for_embedding(item: Dict[str, Any]) -> str:
     description = item.get("description", "").strip()
     if description:
         parts.append(description)
+
+    # LLM-generated summary (if available) adds alternative phrasing
+    summary = item.get("summary", "").strip()
+    if summary:
+        parts.append(summary)
 
     # Category provides domain context
     category = item.get("category", "").strip()
@@ -165,6 +171,12 @@ def combine_text_for_embedding(item: Dict[str, Any]) -> str:
     best_for = item.get("best_for", "").strip()
     if best_for:
         parts.append(f"Best for: {best_for}")
+
+    # Synthetic questions help match user queries (if available)
+    synthetic_questions = item.get("synthetic_questions", [])
+    if synthetic_questions and isinstance(synthetic_questions, list) and len(synthetic_questions) > 0:
+        questions_text = " ".join(str(q) for q in synthetic_questions)
+        parts.append(questions_text)
 
     return ". ".join(parts)
 
@@ -202,6 +214,13 @@ def load_all_items(data_dir: Path) -> List[Dict[str, Any]]:
             tags = item.get("tags", [])
             tags_str = ", ".join(str(t) for t in tags) if isinstance(tags, list) else ""
 
+            # Get enriched fields (if available from LLM enrichment)
+            difficulty = item.get("difficulty", "")
+            prerequisites = item.get("prerequisites", [])
+            prerequisites_str = ", ".join(str(p) for p in prerequisites) if isinstance(prerequisites, list) else ""
+            summary = item.get("summary", "")
+            synthetic_questions = item.get("synthetic_questions", [])
+
             all_items.append({
                 "id": item_id,
                 "type": item_type,
@@ -211,6 +230,11 @@ def load_all_items(data_dir: Path) -> List[Dict[str, Any]]:
                 "url": item.get("url", ""),
                 "tags": tags_str,
                 "best_for": item.get("best_for", ""),
+                # Enriched fields
+                "difficulty": difficulty,
+                "prerequisites": prerequisites_str,
+                "summary": summary,
+                "synthetic_questions": synthetic_questions,
                 "text_for_embedding": combine_text_for_embedding(item)
             })
 
@@ -290,19 +314,33 @@ def generate_minisearch_index(items: List[Dict[str, Any]]) -> Dict[str, Any]:
             doc["authors"] = item["authors"]
         if item.get("year") is not None:
             doc["year"] = item["year"]
+
+        # Add enriched fields (if available from LLM enrichment)
+        if item.get("difficulty"):
+            doc["difficulty"] = item["difficulty"]
+        if item.get("prerequisites"):
+            doc["prerequisites"] = item["prerequisites"]
+        if item.get("summary"):
+            doc["summary"] = item["summary"]
+        # Synthetic questions are added to searchable text but stored as array
+        if item.get("synthetic_questions"):
+            synthetic_q = item["synthetic_questions"]
+            if isinstance(synthetic_q, list) and len(synthetic_q) > 0:
+                doc["synthetic_questions"] = " ".join(str(q) for q in synthetic_q)
+
         documents.append(doc)
 
     # Return the documents array - MiniSearch will index them on the client side
     # This is simpler and more reliable than trying to replicate MiniSearch's internal format
     return {
-        "version": 2,  # Bumped for new fields
+        "version": 3,  # Bumped for enriched fields
         "generatedAt": datetime.utcnow().isoformat() + "Z",
         "documents": documents,
         "config": {
-            "fields": ["name", "description", "category", "tags", "best_for", "authors"],
-            "storeFields": ["name", "description", "category", "url", "type", "tags", "best_for", "topic", "subtopic", "authors", "year"],
+            "fields": ["name", "description", "category", "tags", "best_for", "authors", "summary", "synthetic_questions"],
+            "storeFields": ["name", "description", "category", "url", "type", "tags", "best_for", "topic", "subtopic", "authors", "year", "difficulty", "prerequisites", "summary"],
             "searchOptions": {
-                "boost": {"name": 3, "tags": 2, "authors": 1.5, "best_for": 1.2, "description": 1, "category": 0.8},
+                "boost": {"name": 3, "tags": 2, "authors": 1.5, "best_for": 1.2, "synthetic_questions": 1.2, "summary": 1.1, "description": 1, "category": 0.8},
                 "fuzzy": 0.2,
                 "prefix": True
             }
@@ -438,7 +476,7 @@ def generate_all_outputs(items: List[Dict[str, Any]], model, output_dir: Path, c
 
     # 2. Build metadata (items without embeddings, for client-side matching)
     metadata = {
-        "version": 2,
+        "version": 3,  # Bumped for enriched fields
         "model": "gte-small",
         "dimensions": 384,
         "count": len(items),
@@ -450,7 +488,11 @@ def generate_all_outputs(items: List[Dict[str, Any]], model, output_dir: Path, c
             "name": item["name"],
             "description": item["description"],
             "category": item["category"],
-            "url": item["url"]
+            "url": item["url"],
+            # Include enriched fields if available
+            **({"difficulty": item["difficulty"]} if item.get("difficulty") else {}),
+            **({"prerequisites": item["prerequisites"]} if item.get("prerequisites") else {}),
+            **({"summary": item["summary"]} if item.get("summary") else {}),
         } for item in items]
     }
 
