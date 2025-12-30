@@ -3916,26 +3916,36 @@
     "content_format": "video"
   },
   {
-    "name": "Lenny's Newsletter & Podcast",
+    "name": "Lenny's Newsletter: Consumer Marketing Measurement",
     "description": "Former Airbnb PM, #1 business newsletter on Substack with 700k+ subscribers. The most comprehensive ongoing resource for developing 'product sense' with concrete, tactical frameworks.",
-    "category": "Case Studies",
+    "category": "Growth & Retention",
     "url": "https://www.lennysnewsletter.com/",
     "type": "Newsletter + Podcast",
     "level": "Easy",
     "tags": [
       "Product Sense",
-      "Newsletter + Podcast"
+      "Newsletter + Podcast",
+      "Growth & Retention",
+      "Product",
+      "Newsletter"
     ],
     "domain": "Product Sense",
     "difficulty": "intermediate",
     "prerequisites": [],
     "topic_tags": [
-      "product-sense"
+      "product-sense",
+      "PLG",
+      "marketing-measurement",
+      "case-studies",
+      "consumer-brands"
     ],
-    "summary": "Lenny's Newsletter & Podcast provides insights into developing product sense through tactical frameworks. It is ideal for individuals looking to enhance their understanding of product management.",
+    "summary": "Lenny Rachitsky reaches 700,000+ subscribers with product-led growth content. His post 'How today's top consumer brands measure marketing's impact' provides detailed case studies of MMM, MTA, and incrementality testing at McDonald's, Airbnb, and Uber.",
     "use_cases": [
       "When looking to improve product management skills",
-      "When seeking tactical frameworks for product development"
+      "When seeking tactical frameworks for product development",
+      "When learning from consumer brand case studies",
+      "When understanding measurement at scale",
+      "When exploring PLG"
     ],
     "audience": [
       "Junior-DS",
@@ -3951,12 +3961,18 @@
       "What topics are covered in Lenny's Newsletter?",
       "How to subscribe to Lenny's Podcast?",
       "What are the benefits of following Lenny's insights?",
-      "What makes Lenny's Newsletter popular?"
+      "What makes Lenny's Newsletter popular?",
+      "How does Airbnb measure marketing?",
+      "What is marketing measurement at scale?",
+      "Consumer brand case studies?"
     ],
     "content_format": "newsletter",
     "skill_progression": [
       "Understanding of product management frameworks",
-      "Improvement in product sense"
+      "Improvement in product sense",
+      "Consumer marketing",
+      "Case study analysis",
+      "Measurement at scale"
     ]
   },
   {
@@ -15512,22 +15528,35 @@
     ]
   },
   {
-    "name": "Growth Unhinged: B2B Monetization Research",
-    "description": "B2B monetization research including 'State of B2B Monetization 2025'. Pricing, packaging, and growth metrics for SaaS companies.",
-    "category": "Pricing & Revenue",
+    "name": "Growth Unhinged: SaaS Benchmarks from OpenView",
+    "description": "Kyle Poyar (Operating Partner at OpenView) with unique access to portfolio company data. Weekly deep-dives on PLG metrics, pricing optimization, and CAC payback periods.",
+    "category": "Growth & Retention",
     "url": "https://www.growthunhinged.com/",
     "type": "Newsletter",
     "tags": [
       "B2B",
       "Pricing",
-      "Monetization"
+      "Monetization",
+      "Growth & Retention",
+      "SaaS",
+      "PLG"
     ],
     "level": "Medium",
-    "difficulty": null,
-    "prerequisites": [],
-    "topic_tags": [],
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "PLG",
+      "SaaS-benchmarks",
+      "pricing-optimization",
+      "CAC-payback"
+    ],
     "summary": "This resource provides insights into B2B monetization strategies, focusing on pricing, packaging, and growth metrics for SaaS companies. It is suitable for professionals and businesses looking to enhance their monetization approaches.",
-    "audience": [],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
     "synthetic_questions": [
       "What are the latest trends in B2B monetization?",
       "How can SaaS companies optimize pricing strategies?",
@@ -15536,10 +15565,23 @@
       "How to package products for better revenue?",
       "What are effective monetization strategies for B2B?",
       "How does pricing impact SaaS growth?",
-      "What research exists on B2B monetization?"
+      "What research exists on B2B monetization?",
+      "What are good PLG benchmarks?",
+      "How to calculate CAC payback?",
+      "SaaS pricing optimization?"
     ],
-    "use_cases": [],
-    "content_format": "newsletter"
+    "use_cases": [
+      "When benchmarking SaaS metrics",
+      "When optimizing pricing",
+      "When modeling CAC payback"
+    ],
+    "content_format": "newsletter",
+    "domain": "Marketing",
+    "skill_progression": [
+      "SaaS metrics",
+      "PLG benchmarking",
+      "Pricing optimization"
+    ]
   },
   {
     "name": "Platform Papers (Joost Rietveld)",
@@ -16772,17 +16814,47 @@
     "url": "https://juanitorduz.github.io/",
     "type": "Blog",
     "level": "Advanced",
-    "tags": ["Marketing Science", "Bayesian Methods", "MMM"],
+    "tags": [
+      "Marketing Science",
+      "Bayesian Methods",
+      "MMM"
+    ],
     "domain": "Marketing",
     "difficulty": "advanced",
-    "prerequisites": ["bayesian-basics", "python-basics"],
-    "topic_tags": ["MMM", "Bayesian-marketing", "adstock", "saturation-curves", "CLV", "PyMC"],
+    "prerequisites": [
+      "bayesian-basics",
+      "python-basics"
+    ],
+    "topic_tags": [
+      "MMM",
+      "Bayesian-marketing",
+      "adstock",
+      "saturation-curves",
+      "CLV",
+      "PyMC"
+    ],
     "summary": "Juan Orduz is the most prolific technical writer on Bayesian marketing methods. His 50+ posts cover media effect estimation with adstock and saturation curves, CLV modeling with BG/NBD, and causal inference with synthetic controls.",
-    "use_cases": ["When implementing Bayesian MMM", "When modeling customer lifetime value", "When building media mix models"],
-    "audience": ["Senior-DS", "Early-PhD"],
-    "synthetic_questions": ["How to implement adstock in PyMC?", "What is media mix modeling?", "How to model saturation curves?", "Bayesian CLV with BG/NBD?"],
+    "use_cases": [
+      "When implementing Bayesian MMM",
+      "When modeling customer lifetime value",
+      "When building media mix models"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Early-PhD"
+    ],
+    "synthetic_questions": [
+      "How to implement adstock in PyMC?",
+      "What is media mix modeling?",
+      "How to model saturation curves?",
+      "Bayesian CLV with BG/NBD?"
+    ],
     "content_format": "blog",
-    "skill_progression": ["Bayesian marketing fundamentals", "MMM implementation", "CLV modeling"]
+    "skill_progression": [
+      "Bayesian marketing fundamentals",
+      "MMM implementation",
+      "CLV modeling"
+    ]
   },
   {
     "name": "Mike Taylor: Vexpower MMM Tutorials",
@@ -16791,17 +16863,46 @@
     "url": "https://www.vexpower.com/",
     "type": "Course",
     "level": "Medium",
-    "tags": ["Marketing Science", "MMM", "Tutorial"],
+    "tags": [
+      "Marketing Science",
+      "MMM",
+      "Tutorial"
+    ],
     "domain": "Marketing",
     "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics", "python-basics"],
-    "topic_tags": ["MMM", "LightweightMMM", "Robyn", "Orbit", "marketing-measurement"],
+    "prerequisites": [
+      "marketing-basics",
+      "python-basics"
+    ],
+    "topic_tags": [
+      "MMM",
+      "LightweightMMM",
+      "Robyn",
+      "Orbit",
+      "marketing-measurement"
+    ],
     "summary": "Mike Taylor bridges the gap between technical MMM implementation and marketing practitioners. His course library and YouTube walkthroughs make complex concepts approachable for non-technical marketers.",
-    "use_cases": ["When learning MMM from scratch", "When comparing MMM tools", "When explaining MMM to stakeholders"],
-    "audience": ["Mid-DS", "Junior-DS"],
-    "synthetic_questions": ["How to use LightweightMMM?", "What is Robyn?", "How to compare MMM tools?", "MMM for marketers?"],
+    "use_cases": [
+      "When learning MMM from scratch",
+      "When comparing MMM tools",
+      "When explaining MMM to stakeholders"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Junior-DS"
+    ],
+    "synthetic_questions": [
+      "How to use LightweightMMM?",
+      "What is Robyn?",
+      "How to compare MMM tools?",
+      "MMM for marketers?"
+    ],
     "content_format": "course",
-    "skill_progression": ["MMM concepts", "Tool comparison", "Implementation basics"]
+    "skill_progression": [
+      "MMM concepts",
+      "Tool comparison",
+      "Implementation basics"
+    ]
   },
   {
     "name": "Mario Filho: Forecastegy",
@@ -16810,17 +16911,44 @@
     "url": "https://www.forecastegy.com/",
     "type": "Blog",
     "level": "Advanced",
-    "tags": ["Marketing Science", "MMM", "Kaggle"],
+    "tags": [
+      "Marketing Science",
+      "MMM",
+      "Kaggle"
+    ],
     "domain": "Marketing",
     "difficulty": "advanced",
-    "prerequisites": ["machine-learning", "python-advanced"],
-    "topic_tags": ["MMM", "LightweightMMM", "Orbit", "time-varying-coefficients", "marketing-measurement"],
+    "prerequisites": [
+      "machine-learning",
+      "python-advanced"
+    ],
+    "topic_tags": [
+      "MMM",
+      "LightweightMMM",
+      "Orbit",
+      "time-varying-coefficients",
+      "marketing-measurement"
+    ],
     "summary": "Mario Filho brings rigorous ML methodology to marketing problems. His posts on LightweightMMM case studies and implementing Uber's time-varying coefficient model with Orbit are invaluable for practitioners.",
-    "use_cases": ["When implementing production MMM", "When debugging MMM models", "When working with real ad data"],
-    "audience": ["Senior-DS"],
-    "synthetic_questions": ["How to implement time-varying MMM?", "LightweightMMM case studies?", "Uber Orbit for marketing?"],
+    "use_cases": [
+      "When implementing production MMM",
+      "When debugging MMM models",
+      "When working with real ad data"
+    ],
+    "audience": [
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "How to implement time-varying MMM?",
+      "LightweightMMM case studies?",
+      "Uber Orbit for marketing?"
+    ],
     "content_format": "blog",
-    "skill_progression": ["Advanced MMM techniques", "Time-varying coefficients", "Production implementation"]
+    "skill_progression": [
+      "Advanced MMM techniques",
+      "Time-varying coefficients",
+      "Production implementation"
+    ]
   },
   {
     "name": "Recast Blog: MMM Verification",
@@ -16829,17 +16957,43 @@
     "url": "https://www.getrecast.com/blog",
     "type": "Blog",
     "level": "Medium",
-    "tags": ["Marketing Science", "MMM", "Strategy"],
+    "tags": [
+      "Marketing Science",
+      "MMM",
+      "Strategy"
+    ],
     "domain": "Marketing",
     "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics"],
-    "topic_tags": ["MMM", "model-validation", "hypothesis-testing", "marketing-measurement"],
+    "prerequisites": [
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "MMM",
+      "model-validation",
+      "hypothesis-testing",
+      "marketing-measurement"
+    ],
     "summary": "Recast blog contributes essential thinking on MMM verification and organizational adoption. Emphasis on hypothesis testing, model falsifiability, and when MMM investment makes sense.",
-    "use_cases": ["When evaluating MMM approaches", "When building MMM business case", "When validating MMM outputs"],
-    "audience": ["Mid-DS", "Senior-DS"],
-    "synthetic_questions": ["How to validate MMM?", "When does MMM make sense?", "How to test MMM hypotheses?"],
+    "use_cases": [
+      "When evaluating MMM approaches",
+      "When building MMM business case",
+      "When validating MMM outputs"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "How to validate MMM?",
+      "When does MMM make sense?",
+      "How to test MMM hypotheses?"
+    ],
     "content_format": "blog",
-    "skill_progression": ["MMM evaluation", "Validation methodology", "Business case building"]
+    "skill_progression": [
+      "MMM evaluation",
+      "Validation methodology",
+      "Business case building"
+    ]
   },
   {
     "name": "Mobile Dev Memo: Post-ATT Marketing Measurement",
@@ -16848,17 +17002,45 @@
     "url": "https://mobiledevmemo.com/",
     "type": "Blog",
     "level": "Medium",
-    "tags": ["Ads & Attribution", "Mobile", "iOS"],
+    "tags": [
+      "Ads & Attribution",
+      "Mobile",
+      "iOS"
+    ],
     "domain": "Marketing",
     "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics"],
-    "topic_tags": ["SKAdNetwork", "ATT", "iOS-attribution", "incrementality", "mobile-marketing"],
+    "prerequisites": [
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "SKAdNetwork",
+      "ATT",
+      "iOS-attribution",
+      "incrementality",
+      "mobile-marketing"
+    ],
     "summary": "Eric Seufert is the definitive voice on mobile marketing measurement in the post-ATT era. His 'App Tracking Transparency Codex' is the essential guide to IDFA deprecation, and his podcast features top academics bridging research and practice.",
-    "use_cases": ["When navigating iOS attribution changes", "When building post-ATT measurement", "When understanding SKAdNetwork"],
-    "audience": ["Mid-DS", "Senior-DS"],
-    "synthetic_questions": ["How does SKAdNetwork work?", "What is ATT?", "How to measure after iOS 14.5?", "Mobile attribution strategies?"],
+    "use_cases": [
+      "When navigating iOS attribution changes",
+      "When building post-ATT measurement",
+      "When understanding SKAdNetwork"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "How does SKAdNetwork work?",
+      "What is ATT?",
+      "How to measure after iOS 14.5?",
+      "Mobile attribution strategies?"
+    ],
     "content_format": "blog",
-    "skill_progression": ["Post-ATT measurement", "SKAdNetwork mastery", "Mobile attribution"]
+    "skill_progression": [
+      "Post-ATT measurement",
+      "SKAdNetwork mastery",
+      "Mobile attribution"
+    ]
   },
   {
     "name": "Haus Blog: Synthetic Control & Geo-Experimentation",
@@ -16867,17 +17049,45 @@
     "url": "https://www.haus.io/blog",
     "type": "Blog",
     "level": "Advanced",
-    "tags": ["Ads & Attribution", "Causal Inference", "Experimentation"],
+    "tags": [
+      "Ads & Attribution",
+      "Causal Inference",
+      "Experimentation"
+    ],
     "domain": "Marketing",
     "difficulty": "advanced",
-    "prerequisites": ["causal-inference-basics", "statistics"],
-    "topic_tags": ["synthetic-control", "geo-experimentation", "incrementality", "causal-inference"],
+    "prerequisites": [
+      "causal-inference-basics",
+      "statistics"
+    ],
+    "topic_tags": [
+      "synthetic-control",
+      "geo-experimentation",
+      "incrementality",
+      "causal-inference"
+    ],
     "summary": "Haus maintains the most rigorous blog on synthetic control and geo-experimentation methodology. Their PhD team produces 2-4 posts monthly covering geo-experiment fundamentals and privacy-durable marketing measurement.",
-    "use_cases": ["When designing geo-experiments", "When learning synthetic control", "When building incrementality testing"],
-    "audience": ["Senior-DS", "Early-PhD"],
-    "synthetic_questions": ["How to run geo-experiments?", "What is synthetic control?", "Why not matched market tests?", "Privacy-durable measurement?"],
+    "use_cases": [
+      "When designing geo-experiments",
+      "When learning synthetic control",
+      "When building incrementality testing"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Early-PhD"
+    ],
+    "synthetic_questions": [
+      "How to run geo-experiments?",
+      "What is synthetic control?",
+      "Why not matched market tests?",
+      "Privacy-durable measurement?"
+    ],
     "content_format": "blog",
-    "skill_progression": ["Geo-experimentation", "Synthetic control", "Incrementality testing"]
+    "skill_progression": [
+      "Geo-experimentation",
+      "Synthetic control",
+      "Incrementality testing"
+    ]
   },
   {
     "name": "Remerge Findings: Incrementality Testing Approaches",
@@ -16886,17 +17096,46 @@
     "url": "https://www.remerge.io/findings",
     "type": "Blog",
     "level": "Medium",
-    "tags": ["Ads & Attribution", "Incrementality", "DSP"],
+    "tags": [
+      "Ads & Attribution",
+      "Incrementality",
+      "DSP"
+    ],
     "domain": "Marketing",
     "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics", "experimentation-basics"],
-    "topic_tags": ["incrementality", "ghost-ads", "PSA", "intent-to-treat", "ad-measurement"],
+    "prerequisites": [
+      "marketing-basics",
+      "experimentation-basics"
+    ],
+    "topic_tags": [
+      "incrementality",
+      "ghost-ads",
+      "PSA",
+      "intent-to-treat",
+      "ad-measurement"
+    ],
     "summary": "Remerge provides excellent technical breakdowns of incrementality testing approaches from a DSP actively implementing these methods. Clear pros and cons analysis of intent-to-treat, PSA, ghost ads, and ghost bids.",
-    "use_cases": ["When comparing incrementality methods", "When understanding ghost ads", "When designing ad experiments"],
-    "audience": ["Mid-DS", "Senior-DS"],
-    "synthetic_questions": ["What are ghost ads?", "How does incrementality testing work?", "PSA vs intent-to-treat?", "Ghost bids methodology?"],
+    "use_cases": [
+      "When comparing incrementality methods",
+      "When understanding ghost ads",
+      "When designing ad experiments"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What are ghost ads?",
+      "How does incrementality testing work?",
+      "PSA vs intent-to-treat?",
+      "Ghost bids methodology?"
+    ],
     "content_format": "blog",
-    "skill_progression": ["Incrementality methods", "Ad experiment design", "Measurement comparison"]
+    "skill_progression": [
+      "Incrementality methods",
+      "Ad experiment design",
+      "Measurement comparison"
+    ]
   },
   {
     "name": "Eva Ascarza: Retention Futility Research",
@@ -16905,17 +17144,44 @@
     "url": "https://www.evaascarza.com/",
     "type": "Academic",
     "level": "Advanced",
-    "tags": ["Growth & Retention", "Research", "Churn"],
+    "tags": [
+      "Growth & Retention",
+      "Research",
+      "Churn"
+    ],
     "domain": "Marketing",
     "difficulty": "advanced",
-    "prerequisites": ["statistics", "marketing-basics"],
-    "topic_tags": ["retention", "churn-prevention", "field-experiments", "marketing-AI"],
+    "prerequisites": [
+      "statistics",
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "retention",
+      "churn-prevention",
+      "field-experiments",
+      "marketing-AI"
+    ],
     "summary": "Eva Ascarza challenges conventional retention management wisdom through field experiments. Her paradigm-shifting paper 'Retention Futility' is essential reading for anyone building retention programs.",
-    "use_cases": ["When questioning retention strategies", "When designing churn interventions", "When evaluating marketing AI"],
-    "audience": ["Senior-DS", "Early-PhD"],
-    "synthetic_questions": ["Does targeting high-risk customers work?", "What is retention futility?", "How to design churn interventions?"],
+    "use_cases": [
+      "When questioning retention strategies",
+      "When designing churn interventions",
+      "When evaluating marketing AI"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Early-PhD"
+    ],
+    "synthetic_questions": [
+      "Does targeting high-risk customers work?",
+      "What is retention futility?",
+      "How to design churn interventions?"
+    ],
     "content_format": "academic",
-    "skill_progression": ["Retention strategy", "Experiment design", "Marketing AI evaluation"]
+    "skill_progression": [
+      "Retention strategy",
+      "Experiment design",
+      "Marketing AI evaluation"
+    ]
   },
   {
     "name": "Neil Hoyne: CLV-Focused Marketing",
@@ -16924,17 +17190,42 @@
     "url": "https://www.neilhoyne.com/",
     "type": "Blog",
     "level": "Easy",
-    "tags": ["Growth & Retention", "CLV", "Strategy"],
+    "tags": [
+      "Growth & Retention",
+      "CLV",
+      "Strategy"
+    ],
     "domain": "Marketing",
     "difficulty": "beginner",
     "prerequisites": [],
-    "topic_tags": ["CLV", "customer-centricity", "Google-insights", "marketing-strategy"],
+    "topic_tags": [
+      "CLV",
+      "customer-centricity",
+      "Google-insights",
+      "marketing-strategy"
+    ],
     "summary": "Neil Hoyne translates Google's massive experimentation insights into practitioner frameworks. His bestselling book 'Converted' bridges academic rigor with real-world CLV application.",
-    "use_cases": ["When learning CLV concepts", "When building customer-centric strategy", "When presenting to executives"],
-    "audience": ["Curious-browser", "Junior-DS", "Mid-DS"],
-    "synthetic_questions": ["What is customer lifetime value?", "How to implement CLV marketing?", "Google's approach to CLV?"],
+    "use_cases": [
+      "When learning CLV concepts",
+      "When building customer-centric strategy",
+      "When presenting to executives"
+    ],
+    "audience": [
+      "Curious-browser",
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What is customer lifetime value?",
+      "How to implement CLV marketing?",
+      "Google's approach to CLV?"
+    ],
     "content_format": "blog",
-    "skill_progression": ["CLV fundamentals", "Customer-centric thinking", "Strategic application"]
+    "skill_progression": [
+      "CLV fundamentals",
+      "Customer-centric thinking",
+      "Strategic application"
+    ]
   },
   {
     "name": "Kevin Hillstrom: MineThatData",
@@ -16943,17 +17234,44 @@
     "url": "https://blog.minethatdata.com/",
     "type": "Blog",
     "level": "Medium",
-    "tags": ["Growth & Retention", "Email Marketing", "Blog"],
+    "tags": [
+      "Growth & Retention",
+      "Email Marketing",
+      "Blog"
+    ],
     "domain": "Marketing",
     "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics"],
-    "topic_tags": ["email-marketing", "customer-development", "catalog-measurement", "profitability"],
+    "prerequisites": [
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "email-marketing",
+      "customer-development",
+      "catalog-measurement",
+      "profitability"
+    ],
     "summary": "Kevin Hillstrom offers 20+ years of continuous blogging from his background as VP of Database Marketing at Nordstrom. Daily posts focus on profitability over vanity metrics. He created the MineThatData email dataset used in uplift modeling research.",
-    "use_cases": ["When optimizing email marketing", "When measuring customer development", "When focusing on profitability"],
-    "audience": ["Mid-DS", "Senior-DS"],
-    "synthetic_questions": ["How to measure email marketing?", "What is customer development?", "Profitability vs vanity metrics?", "MineThatData dataset?"],
+    "use_cases": [
+      "When optimizing email marketing",
+      "When measuring customer development",
+      "When focusing on profitability"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "How to measure email marketing?",
+      "What is customer development?",
+      "Profitability vs vanity metrics?",
+      "MineThatData dataset?"
+    ],
     "content_format": "blog",
-    "skill_progression": ["Email analytics", "Customer development", "Profitability measurement"]
+    "skill_progression": [
+      "Email analytics",
+      "Customer development",
+      "Profitability measurement"
+    ]
   },
   {
     "name": "RevenueCat Sub Club: Subscription Analytics",
@@ -16962,17 +17280,43 @@
     "url": "https://www.revenuecat.com/subclub",
     "type": "Newsletter",
     "level": "Medium",
-    "tags": ["Growth & Retention", "Subscriptions", "Mobile"],
+    "tags": [
+      "Growth & Retention",
+      "Subscriptions",
+      "Mobile"
+    ],
     "domain": "Marketing",
     "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics"],
-    "topic_tags": ["subscription-analytics", "mobile-subscriptions", "retention", "pricing"],
+    "prerequisites": [
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "subscription-analytics",
+      "mobile-subscriptions",
+      "retention",
+      "pricing"
+    ],
     "summary": "RevenueCat's Sub Club is the definitive resource for mobile subscription analytics. David Barnard's newsletter and podcast feature practitioners from Duolingo, Strava, and Lose It! sharing actual retention data and benchmarks.",
-    "use_cases": ["When benchmarking subscription metrics", "When optimizing mobile subscriptions", "When learning retention strategies"],
-    "audience": ["Mid-DS", "Senior-DS"],
-    "synthetic_questions": ["What are good subscription retention rates?", "How to benchmark mobile apps?", "Subscription pricing strategies?"],
+    "use_cases": [
+      "When benchmarking subscription metrics",
+      "When optimizing mobile subscriptions",
+      "When learning retention strategies"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What are good subscription retention rates?",
+      "How to benchmark mobile apps?",
+      "Subscription pricing strategies?"
+    ],
     "content_format": "newsletter",
-    "skill_progression": ["Subscription metrics", "Mobile app benchmarks", "Retention optimization"]
+    "skill_progression": [
+      "Subscription metrics",
+      "Mobile app benchmarks",
+      "Retention optimization"
+    ]
   },
   {
     "name": "Marketing BS: Strategic Marketing Newsletter",
@@ -16981,17 +17325,44 @@
     "url": "https://marketingbs.substack.com/",
     "type": "Newsletter",
     "level": "Medium",
-    "tags": ["Frameworks & Strategy", "Marketing", "Newsletter"],
+    "tags": [
+      "Frameworks & Strategy",
+      "Marketing",
+      "Newsletter"
+    ],
     "domain": "Marketing",
     "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics"],
-    "topic_tags": ["marketing-strategy", "attribution", "personalization", "loyalty-programs"],
+    "prerequisites": [
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "marketing-strategy",
+      "attribution",
+      "personalization",
+      "loyalty-programs"
+    ],
     "summary": "Edward Nevraumont provides CMO-level strategic thinking that challenges conventional marketing wisdom. His 'Marketing 201' index serves as a virtual marketing textbook with skeptical takes on personalization, loyalty programs, and attribution.",
-    "use_cases": ["When questioning marketing assumptions", "When building marketing strategy", "When evaluating personalization"],
-    "audience": ["Mid-DS", "Senior-DS"],
-    "synthetic_questions": ["Does personalization work?", "Are loyalty programs effective?", "What's wrong with attribution?", "Marketing strategy frameworks?"],
+    "use_cases": [
+      "When questioning marketing assumptions",
+      "When building marketing strategy",
+      "When evaluating personalization"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Does personalization work?",
+      "Are loyalty programs effective?",
+      "What's wrong with attribution?",
+      "Marketing strategy frameworks?"
+    ],
     "content_format": "newsletter",
-    "skill_progression": ["Strategic marketing thinking", "Assumption questioning", "Evidence-based marketing"]
+    "skill_progression": [
+      "Strategic marketing thinking",
+      "Assumption questioning",
+      "Evidence-based marketing"
+    ]
   },
   {
     "name": "021 Newsletter: Marketing & Data Teams Bridge",
@@ -17000,36 +17371,43 @@
     "url": "https://021newsletter.com/",
     "type": "Newsletter",
     "level": "Medium",
-    "tags": ["Frameworks & Strategy", "Data", "Newsletter"],
+    "tags": [
+      "Frameworks & Strategy",
+      "Data",
+      "Newsletter"
+    ],
     "domain": "Marketing",
     "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics", "data-basics"],
-    "topic_tags": ["marketing-data", "attribution-vs-MMM", "incrementality", "data-infrastructure"],
+    "prerequisites": [
+      "marketing-basics",
+      "data-basics"
+    ],
+    "topic_tags": [
+      "marketing-data",
+      "attribution-vs-MMM",
+      "incrementality",
+      "data-infrastructure"
+    ],
     "summary": "The 021 Newsletter specifically bridges the gap between marketers and data teams. Covers when to use click attribution versus MMM, how to structure incrementality testing, and practical marketing data infrastructure challenges.",
-    "use_cases": ["When aligning marketing and data teams", "When choosing measurement approaches", "When building data infrastructure"],
-    "audience": ["Mid-DS"],
-    "synthetic_questions": ["When to use MMM vs attribution?", "How to structure marketing data team?", "Incrementality testing setup?"],
+    "use_cases": [
+      "When aligning marketing and data teams",
+      "When choosing measurement approaches",
+      "When building data infrastructure"
+    ],
+    "audience": [
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "When to use MMM vs attribution?",
+      "How to structure marketing data team?",
+      "Incrementality testing setup?"
+    ],
     "content_format": "newsletter",
-    "skill_progression": ["Marketing-data alignment", "Measurement approach selection", "Infrastructure design"]
-  },
-  {
-    "name": "Growth Unhinged: SaaS Benchmarks from OpenView",
-    "description": "Kyle Poyar (Operating Partner at OpenView) with unique access to portfolio company data. Weekly deep-dives on PLG metrics, pricing optimization, and CAC payback periods.",
-    "category": "Growth & Retention",
-    "url": "https://www.growthunhinged.com/",
-    "type": "Newsletter",
-    "level": "Medium",
-    "tags": ["Growth & Retention", "SaaS", "PLG"],
-    "domain": "Marketing",
-    "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics"],
-    "topic_tags": ["PLG", "SaaS-benchmarks", "pricing-optimization", "CAC-payback"],
-    "summary": "Kyle Poyar provides unique access to OpenView portfolio company data for real SaaS benchmarks. Weekly deep-dives on PLG metrics, pricing optimization, and CAC payback periods deliver quantitative insights unavailable elsewhere.",
-    "use_cases": ["When benchmarking SaaS metrics", "When optimizing pricing", "When modeling CAC payback"],
-    "audience": ["Mid-DS", "Senior-DS"],
-    "synthetic_questions": ["What are good PLG benchmarks?", "How to calculate CAC payback?", "SaaS pricing optimization?"],
-    "content_format": "newsletter",
-    "skill_progression": ["SaaS metrics", "PLG benchmarking", "Pricing optimization"]
+    "skill_progression": [
+      "Marketing-data alignment",
+      "Measurement approach selection",
+      "Infrastructure design"
+    ]
   },
   {
     "name": "MKT1: B2B Marketing Frameworks",
@@ -17038,36 +17416,43 @@
     "url": "https://newsletter.mkt1.co/",
     "type": "Newsletter",
     "level": "Medium",
-    "tags": ["Frameworks & Strategy", "B2B", "Newsletter"],
+    "tags": [
+      "Frameworks & Strategy",
+      "B2B",
+      "Newsletter"
+    ],
     "domain": "Marketing",
     "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics"],
-    "topic_tags": ["B2B-marketing", "marketing-frameworks", "measurement", "scaling"],
+    "prerequisites": [
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "B2B-marketing",
+      "marketing-frameworks",
+      "measurement",
+      "scaling"
+    ],
     "summary": "Emily Kramer serves 45,000+ subscribers with B2B marketing measurement frameworks. Her 'Krameworks' templates provide operational structures for marketing measurement that scale.",
-    "use_cases": ["When building B2B marketing measurement", "When scaling marketing operations", "When creating frameworks"],
-    "audience": ["Mid-DS", "Senior-DS"],
-    "synthetic_questions": ["B2B marketing measurement?", "How to scale marketing ops?", "Marketing framework templates?"],
+    "use_cases": [
+      "When building B2B marketing measurement",
+      "When scaling marketing operations",
+      "When creating frameworks"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "B2B marketing measurement?",
+      "How to scale marketing ops?",
+      "Marketing framework templates?"
+    ],
     "content_format": "newsletter",
-    "skill_progression": ["B2B marketing", "Framework building", "Scaling operations"]
-  },
-  {
-    "name": "Lenny's Newsletter: Consumer Marketing Measurement",
-    "description": "700,000+ subscribers covering product-led growth and marketing measurement. Case studies of MMM, MTA, and incrementality testing at McDonald's, Airbnb, and Uber.",
-    "category": "Growth & Retention",
-    "url": "https://www.lennysnewsletter.com/",
-    "type": "Newsletter",
-    "level": "Easy",
-    "tags": ["Growth & Retention", "Product", "Newsletter"],
-    "domain": "Marketing",
-    "difficulty": "beginner",
-    "prerequisites": [],
-    "topic_tags": ["PLG", "marketing-measurement", "case-studies", "consumer-brands"],
-    "summary": "Lenny Rachitsky reaches 700,000+ subscribers with product-led growth content. His post 'How today's top consumer brands measure marketing's impact' provides detailed case studies of MMM, MTA, and incrementality testing at McDonald's, Airbnb, and Uber.",
-    "use_cases": ["When learning from consumer brand case studies", "When understanding measurement at scale", "When exploring PLG"],
-    "audience": ["Curious-browser", "Junior-DS", "Mid-DS"],
-    "synthetic_questions": ["How does Airbnb measure marketing?", "What is marketing measurement at scale?", "Consumer brand case studies?"],
-    "content_format": "newsletter",
-    "skill_progression": ["Consumer marketing", "Case study analysis", "Measurement at scale"]
+    "skill_progression": [
+      "B2B marketing",
+      "Framework building",
+      "Scaling operations"
+    ]
   },
   {
     "name": "Byron Sharp: How Brands Grow",
@@ -17076,17 +17461,44 @@
     "url": "https://byronsharp.wordpress.com/",
     "type": "Blog",
     "level": "Medium",
-    "tags": ["Marketing Science", "Brand", "Evidence-Based"],
+    "tags": [
+      "Marketing Science",
+      "Brand",
+      "Evidence-Based"
+    ],
     "domain": "Marketing",
     "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics"],
-    "topic_tags": ["brand-science", "empirical-laws", "Double-Jeopardy", "evidence-based-marketing"],
+    "prerequisites": [
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "brand-science",
+      "empirical-laws",
+      "Double-Jeopardy",
+      "evidence-based-marketing"
+    ],
     "summary": "Byron Sharp's book 'How Brands Grow' established empirical laws that challenge popular myths about brand loyalty and personalization. His evidence-based approach provides the intellectual foundation for questioning conventional marketing wisdom.",
-    "use_cases": ["When questioning brand marketing myths", "When building evidence-based strategy", "When challenging personalization claims"],
-    "audience": ["Mid-DS", "Senior-DS"],
-    "synthetic_questions": ["What is Double Jeopardy law?", "Does brand loyalty exist?", "Evidence-based marketing?", "Marketing science foundations?"],
+    "use_cases": [
+      "When questioning brand marketing myths",
+      "When building evidence-based strategy",
+      "When challenging personalization claims"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What is Double Jeopardy law?",
+      "Does brand loyalty exist?",
+      "Evidence-based marketing?",
+      "Marketing science foundations?"
+    ],
     "content_format": "blog",
-    "skill_progression": ["Marketing science foundations", "Evidence-based thinking", "Brand law understanding"]
+    "skill_progression": [
+      "Marketing science foundations",
+      "Evidence-based thinking",
+      "Brand law understanding"
+    ]
   },
   {
     "name": "Ron Berman: p-Hacking in A/B Testing",
@@ -17095,17 +17507,45 @@
     "url": "https://www.ron-berman.com/",
     "type": "Academic",
     "level": "Advanced",
-    "tags": ["Marketing Science", "Experimentation", "Research"],
+    "tags": [
+      "Marketing Science",
+      "Experimentation",
+      "Research"
+    ],
     "domain": "Marketing",
     "difficulty": "advanced",
-    "prerequisites": ["statistics", "experimentation-basics"],
-    "topic_tags": ["p-hacking", "false-discovery", "A/B-testing", "experimentation-pitfalls"],
+    "prerequisites": [
+      "statistics",
+      "experimentation-basics"
+    ],
+    "topic_tags": [
+      "p-hacking",
+      "false-discovery",
+      "A/B-testing",
+      "experimentation-pitfalls"
+    ],
     "summary": "Ron Berman addresses methodological pitfalls tech companies face daily. His paper 'p-Hacking and False Discovery in A/B Testing' (MSI Working Paper Competition winner) demonstrates how common practices inflate false positives.",
-    "use_cases": ["When designing robust experiments", "When questioning A/B test results", "When building experimentation rigor"],
-    "audience": ["Senior-DS", "Early-PhD"],
-    "synthetic_questions": ["What is p-hacking?", "How to avoid false discoveries?", "A/B testing pitfalls?", "Experimentation best practices?"],
+    "use_cases": [
+      "When designing robust experiments",
+      "When questioning A/B test results",
+      "When building experimentation rigor"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Early-PhD"
+    ],
+    "synthetic_questions": [
+      "What is p-hacking?",
+      "How to avoid false discoveries?",
+      "A/B testing pitfalls?",
+      "Experimentation best practices?"
+    ],
     "content_format": "academic",
-    "skill_progression": ["Experimentation rigor", "Statistical pitfalls", "Best practices"]
+    "skill_progression": [
+      "Experimentation rigor",
+      "Statistical pitfalls",
+      "Best practices"
+    ]
   },
   {
     "name": "Koen Pauwels: Marketing and Metrics",
@@ -17114,17 +17554,43 @@
     "url": "https://www.marketingandmetrics.com/",
     "type": "Blog",
     "level": "Medium",
-    "tags": ["Marketing Science", "Academic", "Industry"],
+    "tags": [
+      "Marketing Science",
+      "Academic",
+      "Industry"
+    ],
     "domain": "Marketing",
     "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics"],
-    "topic_tags": ["marketing-science", "academic-industry-bridge", "MMM", "experimentation"],
+    "prerequisites": [
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "marketing-science",
+      "academic-industry-bridge",
+      "MMM",
+      "experimentation"
+    ],
     "summary": "Koen Pauwels bridges academic marketing science and industry practice more actively than perhaps any other researcher. His books span practitioner and academic audiences, and his work with Julian Runge challenges overreliance on observational methods.",
-    "use_cases": ["When connecting research to practice", "When seeking academic validation", "When building rigorous measurement"],
-    "audience": ["Senior-DS", "Early-PhD"],
-    "synthetic_questions": ["Academic marketing science resources?", "How to apply research in practice?", "Marketing measurement validation?"],
+    "use_cases": [
+      "When connecting research to practice",
+      "When seeking academic validation",
+      "When building rigorous measurement"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Early-PhD"
+    ],
+    "synthetic_questions": [
+      "Academic marketing science resources?",
+      "How to apply research in practice?",
+      "Marketing measurement validation?"
+    ],
     "content_format": "blog",
-    "skill_progression": ["Academic-industry translation", "Research application", "Measurement rigor"]
+    "skill_progression": [
+      "Academic-industry translation",
+      "Research application",
+      "Measurement rigor"
+    ]
   },
   {
     "name": "Kevin Simler: Ads Don't Work That Way",
@@ -17133,17 +17599,42 @@
     "url": "https://meltingasphalt.com/",
     "type": "Blog",
     "level": "Easy",
-    "tags": ["Marketing Science", "Advertising Theory", "Essay"],
+    "tags": [
+      "Marketing Science",
+      "Advertising Theory",
+      "Essay"
+    ],
     "domain": "Marketing",
     "difficulty": "beginner",
     "prerequisites": [],
-    "topic_tags": ["advertising-theory", "cultural-imprinting", "brand-vs-performance", "ad-effectiveness"],
+    "topic_tags": [
+      "advertising-theory",
+      "cultural-imprinting",
+      "brand-vs-performance",
+      "ad-effectiveness"
+    ],
     "summary": "Kevin Simler's essay 'Ads Don't Work That Way' distinguishes cultural imprinting from emotional inception. Essential context for understanding why broadcast advertising works differently than targeted digital in brand vs performance debates.",
-    "use_cases": ["When understanding advertising theory", "When debating brand vs performance", "When explaining ad effectiveness"],
-    "audience": ["Curious-browser", "Junior-DS", "Mid-DS"],
-    "synthetic_questions": ["How does advertising work?", "What is cultural imprinting?", "Brand vs performance advertising?"],
+    "use_cases": [
+      "When understanding advertising theory",
+      "When debating brand vs performance",
+      "When explaining ad effectiveness"
+    ],
+    "audience": [
+      "Curious-browser",
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "How does advertising work?",
+      "What is cultural imprinting?",
+      "Brand vs performance advertising?"
+    ],
     "content_format": "blog",
-    "skill_progression": ["Advertising theory", "Brand understanding", "Ad mechanism knowledge"]
+    "skill_progression": [
+      "Advertising theory",
+      "Brand understanding",
+      "Ad mechanism knowledge"
+    ]
   },
   {
     "name": "Adjust Blog: Mobile Attribution & Privacy",
@@ -17152,17 +17643,43 @@
     "url": "https://www.adjust.com/blog/",
     "type": "Blog",
     "level": "Medium",
-    "tags": ["Ads & Attribution", "Mobile", "Privacy"],
+    "tags": [
+      "Ads & Attribution",
+      "Mobile",
+      "Privacy"
+    ],
     "domain": "Marketing",
     "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics"],
-    "topic_tags": ["SKAdNetwork", "mobile-attribution", "privacy-sandbox", "AdAttributionKit"],
+    "prerequisites": [
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "SKAdNetwork",
+      "mobile-attribution",
+      "privacy-sandbox",
+      "AdAttributionKit"
+    ],
     "summary": "Adjust maintains the most current implementation guidance for SKAdNetwork, AdAttributionKit, and Privacy Sandbox. Essential for mobile marketers navigating privacy changes.",
-    "use_cases": ["When implementing SKAdNetwork", "When understanding mobile privacy", "When building attribution systems"],
-    "audience": ["Mid-DS", "Senior-DS"],
-    "synthetic_questions": ["How to implement SKAdNetwork?", "What is AdAttributionKit?", "Mobile privacy sandbox?"],
+    "use_cases": [
+      "When implementing SKAdNetwork",
+      "When understanding mobile privacy",
+      "When building attribution systems"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "How to implement SKAdNetwork?",
+      "What is AdAttributionKit?",
+      "Mobile privacy sandbox?"
+    ],
     "content_format": "blog",
-    "skill_progression": ["Mobile attribution", "Privacy implementation", "Platform compliance"]
+    "skill_progression": [
+      "Mobile attribution",
+      "Privacy implementation",
+      "Platform compliance"
+    ]
   },
   {
     "name": "Branch Resources: Privacy-Centric Measurement",
@@ -17171,17 +17688,43 @@
     "url": "https://www.branch.io/resources/blog/",
     "type": "Blog",
     "level": "Medium",
-    "tags": ["Ads & Attribution", "Mobile", "Privacy"],
+    "tags": [
+      "Ads & Attribution",
+      "Mobile",
+      "Privacy"
+    ],
     "domain": "Marketing",
     "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics"],
-    "topic_tags": ["aggregate-data", "privacy-centric", "mobile-measurement", "deep-linking"],
+    "prerequisites": [
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "aggregate-data",
+      "privacy-centric",
+      "mobile-measurement",
+      "deep-linking"
+    ],
     "summary": "Branch's post 'Making sense of aggregate data: Privacy-centric measurement' and related resources are valuable for understanding the shift to privacy-preserving measurement.",
-    "use_cases": ["When working with aggregate data", "When building privacy-first measurement", "When understanding deep linking"],
-    "audience": ["Mid-DS", "Senior-DS"],
-    "synthetic_questions": ["How to use aggregate attribution data?", "Privacy-centric measurement?", "Deep linking analytics?"],
+    "use_cases": [
+      "When working with aggregate data",
+      "When building privacy-first measurement",
+      "When understanding deep linking"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "How to use aggregate attribution data?",
+      "Privacy-centric measurement?",
+      "Deep linking analytics?"
+    ],
     "content_format": "blog",
-    "skill_progression": ["Aggregate data analysis", "Privacy-first measurement", "Deep linking"]
+    "skill_progression": [
+      "Aggregate data analysis",
+      "Privacy-first measurement",
+      "Deep linking"
+    ]
   },
   {
     "name": "AppsFlyer Privacy Sandbox Hub",
@@ -17190,17 +17733,43 @@
     "url": "https://www.appsflyer.com/hubs/sandbox/",
     "type": "Resource Hub",
     "level": "Medium",
-    "tags": ["Ads & Attribution", "Mobile", "Privacy"],
+    "tags": [
+      "Ads & Attribution",
+      "Mobile",
+      "Privacy"
+    ],
     "domain": "Marketing",
     "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics"],
-    "topic_tags": ["privacy-sandbox", "iOS-vs-Android", "cross-platform", "mobile-attribution"],
+    "prerequisites": [
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "privacy-sandbox",
+      "iOS-vs-Android",
+      "cross-platform",
+      "mobile-attribution"
+    ],
     "summary": "AppsFlyer's Privacy Sandbox Hub compares iOS and Android privacy frameworks comprehensively. Essential for mobile marketers working across platforms.",
-    "use_cases": ["When comparing iOS and Android privacy", "When building cross-platform measurement", "When understanding Privacy Sandbox"],
-    "audience": ["Mid-DS", "Senior-DS"],
-    "synthetic_questions": ["iOS vs Android privacy differences?", "Privacy Sandbox implementation?", "Cross-platform attribution?"],
+    "use_cases": [
+      "When comparing iOS and Android privacy",
+      "When building cross-platform measurement",
+      "When understanding Privacy Sandbox"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "iOS vs Android privacy differences?",
+      "Privacy Sandbox implementation?",
+      "Cross-platform attribution?"
+    ],
     "content_format": "resource-hub",
-    "skill_progression": ["Cross-platform privacy", "Platform comparison", "Attribution systems"]
+    "skill_progression": [
+      "Cross-platform privacy",
+      "Platform comparison",
+      "Attribution systems"
+    ]
   },
   {
     "name": "Lumen Research: Attention Metrics",
@@ -17209,17 +17778,43 @@
     "url": "https://lumen-research.com/blog/",
     "type": "Blog",
     "level": "Medium",
-    "tags": ["Ads & Attribution", "Attention", "Research"],
+    "tags": [
+      "Ads & Attribution",
+      "Attention",
+      "Research"
+    ],
     "domain": "Marketing",
     "difficulty": "intermediate",
-    "prerequisites": ["advertising-basics"],
-    "topic_tags": ["attention-metrics", "viewability", "ad-effectiveness", "brand-measurement"],
-    "summary": "Lumen Research leads thinking on attention metrics as viewability's evolution. Their research shows attention is 3x better at predicting outcomes than viewability—essential for brand measurement.",
-    "use_cases": ["When measuring attention", "When evaluating viewability alternatives", "When building brand metrics"],
-    "audience": ["Mid-DS", "Senior-DS"],
-    "synthetic_questions": ["What are attention metrics?", "Attention vs viewability?", "How to measure ad attention?"],
+    "prerequisites": [
+      "advertising-basics"
+    ],
+    "topic_tags": [
+      "attention-metrics",
+      "viewability",
+      "ad-effectiveness",
+      "brand-measurement"
+    ],
+    "summary": "Lumen Research leads thinking on attention metrics as viewability's evolution. Their research shows attention is 3x better at predicting outcomes than viewability\u2014essential for brand measurement.",
+    "use_cases": [
+      "When measuring attention",
+      "When evaluating viewability alternatives",
+      "When building brand metrics"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What are attention metrics?",
+      "Attention vs viewability?",
+      "How to measure ad attention?"
+    ],
     "content_format": "blog",
-    "skill_progression": ["Attention measurement", "Brand metrics", "Viewability evolution"]
+    "skill_progression": [
+      "Attention measurement",
+      "Brand metrics",
+      "Viewability evolution"
+    ]
   },
   {
     "name": "Causal Inference for the Brave and True",
@@ -17228,17 +17823,44 @@
     "url": "https://matheusfacure.github.io/python-causality-handbook/",
     "type": "Online Book",
     "level": "Medium",
-    "tags": ["Causal Inference & ML", "Python", "Tutorial"],
+    "tags": [
+      "Causal Inference & ML",
+      "Python",
+      "Tutorial"
+    ],
     "domain": "Statistics",
     "difficulty": "intermediate",
-    "prerequisites": ["python-basics", "statistics-basics"],
-    "topic_tags": ["causal-inference", "synthetic-control", "DiD", "Python-implementation"],
+    "prerequisites": [
+      "python-basics",
+      "statistics-basics"
+    ],
+    "topic_tags": [
+      "causal-inference",
+      "synthetic-control",
+      "DiD",
+      "Python-implementation"
+    ],
     "summary": "Matheus Facure's free resource provides comprehensive Python-based coverage of synthetic control, difference-in-differences, and other methods central to marketing science.",
-    "use_cases": ["When learning causal inference with Python", "When implementing synthetic control", "When understanding DiD"],
-    "audience": ["Junior-DS", "Mid-DS"],
-    "synthetic_questions": ["How to implement causal inference in Python?", "Synthetic control tutorial?", "Difference-in-differences examples?"],
+    "use_cases": [
+      "When learning causal inference with Python",
+      "When implementing synthetic control",
+      "When understanding DiD"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "How to implement causal inference in Python?",
+      "Synthetic control tutorial?",
+      "Difference-in-differences examples?"
+    ],
     "content_format": "book",
-    "skill_progression": ["Causal inference foundations", "Python implementation", "Method comparison"]
+    "skill_progression": [
+      "Causal inference foundations",
+      "Python implementation",
+      "Method comparison"
+    ]
   },
   {
     "name": "Causal Inference: The Mixtape",
@@ -17247,17 +17869,44 @@
     "url": "https://mixtape.scunning.com/",
     "type": "Online Book",
     "level": "Medium",
-    "tags": ["Causal Inference & ML", "Economics", "Tutorial"],
+    "tags": [
+      "Causal Inference & ML",
+      "Economics",
+      "Tutorial"
+    ],
     "domain": "Statistics",
     "difficulty": "intermediate",
-    "prerequisites": ["statistics-basics", "econometrics-basics"],
-    "topic_tags": ["causal-inference", "econometrics", "RCT", "quasi-experiments"],
+    "prerequisites": [
+      "statistics-basics",
+      "econometrics-basics"
+    ],
+    "topic_tags": [
+      "causal-inference",
+      "econometrics",
+      "RCT",
+      "quasi-experiments"
+    ],
     "summary": "Scott Cunningham's 'Causal Inference: The Mixtape' offers academic-quality but accessible methodology. His Substack and podcast feature interviews with leading researchers applying these methods.",
-    "use_cases": ["When building causal inference foundations", "When learning econometric methods", "When connecting to research"],
-    "audience": ["Mid-DS", "Early-PhD"],
-    "synthetic_questions": ["Best causal inference textbook?", "Econometrics for data scientists?", "Quasi-experimental methods?"],
+    "use_cases": [
+      "When building causal inference foundations",
+      "When learning econometric methods",
+      "When connecting to research"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Early-PhD"
+    ],
+    "synthetic_questions": [
+      "Best causal inference textbook?",
+      "Econometrics for data scientists?",
+      "Quasi-experimental methods?"
+    ],
     "content_format": "book",
-    "skill_progression": ["Causal foundations", "Econometric methods", "Research connection"]
+    "skill_progression": [
+      "Causal foundations",
+      "Econometric methods",
+      "Research connection"
+    ]
   },
   {
     "name": "Scott Cunningham: Causal Inference Substack",
@@ -17266,16 +17915,42 @@
     "url": "https://causalinf.substack.com/",
     "type": "Newsletter",
     "level": "Medium",
-    "tags": ["Causal Inference & ML", "Podcast", "Newsletter"],
+    "tags": [
+      "Causal Inference & ML",
+      "Podcast",
+      "Newsletter"
+    ],
     "domain": "Statistics",
     "difficulty": "intermediate",
-    "prerequisites": ["statistics-basics"],
-    "topic_tags": ["causal-inference", "researcher-interviews", "academic-practice"],
+    "prerequisites": [
+      "statistics-basics"
+    ],
+    "topic_tags": [
+      "causal-inference",
+      "researcher-interviews",
+      "academic-practice"
+    ],
     "summary": "Scott Cunningham's Substack and podcast 'The Mixtape with Scott' feature interviews with leading researchers applying causal inference methods, bridging academic research and practical application.",
-    "use_cases": ["When staying current on causal methods", "When learning from researchers", "When connecting to academic work"],
-    "audience": ["Mid-DS", "Senior-DS", "Early-PhD"],
-    "synthetic_questions": ["Causal inference podcasts?", "Research interviews on methods?", "Academic-practice bridge?"],
+    "use_cases": [
+      "When staying current on causal methods",
+      "When learning from researchers",
+      "When connecting to academic work"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "Early-PhD"
+    ],
+    "synthetic_questions": [
+      "Causal inference podcasts?",
+      "Research interviews on methods?",
+      "Academic-practice bridge?"
+    ],
     "content_format": "newsletter",
-    "skill_progression": ["Research awareness", "Method updates", "Academic connection"]
+    "skill_progression": [
+      "Research awareness",
+      "Method updates",
+      "Academic connection"
+    ]
   }
 ]

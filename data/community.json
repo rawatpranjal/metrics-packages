@@ -5007,44 +5007,56 @@
   },
   {
     "name": "Scott Cunningham",
-    "description": "'Causal Inference: The Mixtape' author. Substack on causal inference, Mixtape Sessions workshops.",
-    "category": "Blogs",
+    "description": "Baylor University professor, author of 'Causal Inference: The Mixtape' and host of 'The Mixtape with Scott' podcast featuring leading causal inference researchers.",
+    "category": "Notable Contributors",
     "url": "https://causalinf.substack.com/",
     "image_url": "https://substack-post-media.s3.amazonaws.com/public/images/7f4a358d-6ee9-492b-8c5d-92a11d68396a_768x1024.jpeg",
     "type": "Personal Blog",
-    "location": "Online",
+    "location": "Texas, USA",
     "dates": "Ongoing",
     "tags": [
       "Blogs",
       "Personal Blog"
     ],
-    "difficulty": "beginner",
+    "difficulty": "intermediate",
     "prerequisites": [
       "basic-statistics",
-      "regression-analysis"
+      "regression-analysis",
+      "statistics-basics"
     ],
     "topic_tags": [
       "causal-inference",
       "difference-in-differences",
       "instrumental-variables",
       "econometrics",
-      "personal-blog"
+      "personal-blog",
+      "education",
+      "podcast"
     ],
     "summary": "Scott Cunningham is the author of 'Causal Inference: The Mixtape' and runs popular Mixtape Sessions workshops teaching causal inference methods. His blog and Substack provide accessible explanations of causal inference techniques with practical examples and intuitive explanations. The content bridges academic rigor with practical implementation for data scientists and economists.",
     "use_cases": [
       "Learning causal inference fundamentals through clear explanations and examples",
-      "Following up on Mixtape Sessions workshops with additional resources and discussions"
+      "Following up on Mixtape Sessions workshops with additional resources and discussions",
+      "Learning causal inference",
+      "Connecting to research",
+      "Econometric methods"
     ],
     "audience": [
       "Early-PhD",
-      "Junior-DS"
+      "Junior-DS",
+      "Mid-DS"
     ],
     "synthetic_questions": [
       "Scott Cunningham causal inference blog",
       "Mixtape Sessions author blog",
       "causal inference tutorials beginner friendly",
-      "difference in differences explained simply"
-    ]
+      "difference in differences explained simply",
+      "Who is Scott Cunningham",
+      "Causal Inference Mixtape author",
+      "causal inference podcast",
+      "econometrics educator"
+    ],
+    "best_for": "Causal inference education, econometrics, quasi-experimental methods, researcher interviews"
   },
   {
     "name": "Andrew Gelman",
@@ -5517,12 +5529,12 @@
   },
   {
     "name": "Juan Camilo Orduz",
-    "description": "Applied Scientist. Bayesian stats, PyMC, and geo-experimentation. Solves business problems (marketing attribution, geo-lift) with heavy-duty Bayesian math.",
-    "category": "Blogs",
+    "description": "Principal Data Scientist at PyMC Labs with PhD in Mathematics from Humboldt-Universit\u00e4t zu Berlin. Most prolific writer on Bayesian marketing methods with 50+ technical posts.",
+    "category": "Notable Contributors",
     "url": "https://juanitorduz.github.io/",
     "image_url": "https://avatars.githubusercontent.com/u/22996444?v=4",
-    "type": "Personal Blog",
-    "location": "Online",
+    "type": "Industry Leader",
+    "location": "Germany",
     "dates": "Ongoing",
     "tags": [
       "Blogs",
@@ -5532,30 +5544,45 @@
     "prerequisites": [
       "python-programming",
       "bayesian-statistics",
-      "PyMC"
+      "PyMC",
+      "bayesian-basics",
+      "python-basics"
     ],
     "topic_tags": [
       "bayesian-statistics",
       "geo-experimentation",
       "marketing-attribution",
       "PyMC",
-      "causal-inference"
+      "causal-inference",
+      "marketing-science",
+      "MMM",
+      "Bayesian-marketing",
+      "CLV"
     ],
     "summary": "Personal blog by Juan Camilo Orduz covering applied Bayesian statistics with PyMC for solving business problems. Focuses on practical implementations of geo-experimentation, marketing attribution, and causal inference methods. Provides code examples and mathematical explanations for real-world applications.",
     "use_cases": [
       "Measuring the causal impact of marketing campaigns using geo-lift experiments",
-      "Building Bayesian models for multi-touch attribution in digital marketing"
+      "Building Bayesian models for multi-touch attribution in digital marketing",
+      "Implementing Bayesian MMM",
+      "Building CLV models",
+      "Learning PyMC for marketing"
     ],
     "audience": [
       "Mid-DS",
-      "Senior-DS"
+      "Senior-DS",
+      "Early-PhD"
     ],
     "synthetic_questions": [
       "PyMC examples for marketing attribution",
       "Bayesian geo-experimentation tutorials",
       "Juan Camilo Orduz blog posts",
-      "causal inference with PyMC"
-    ]
+      "causal inference with PyMC",
+      "Who is Juan Orduz",
+      "PyMC Labs marketing",
+      "Bayesian MMM expert",
+      "adstock saturation curves"
+    ],
+    "best_for": "Bayesian MMM, adstock/saturation curves, CLV modeling with BG/NBD, synthetic controls, PyMC marketing"
   },
   {
     "name": "Alex Deng",
@@ -16645,22 +16672,6 @@
     ]
   },
   {
-    "name": "Juan Orduz",
-    "description": "Principal Data Scientist at PyMC Labs with PhD in Mathematics from Humboldt-Universität zu Berlin. Most prolific writer on Bayesian marketing methods with 50+ technical posts.",
-    "category": "Notable Contributors",
-    "url": "https://juanitorduz.github.io/",
-    "type": "Industry Leader",
-    "location": "Germany",
-    "best_for": "Bayesian MMM, adstock/saturation curves, CLV modeling with BG/NBD, synthetic controls, PyMC marketing",
-    "difficulty": "advanced",
-    "prerequisites": ["bayesian-basics", "python-basics"],
-    "topic_tags": ["marketing-science", "MMM", "Bayesian-marketing", "PyMC", "CLV"],
-    "summary": "Juan Orduz is the most prolific technical writer on Bayesian marketing methods. His 50+ deep posts cover media effect estimation, CLV modeling, and causal inference for marketing.",
-    "use_cases": ["Implementing Bayesian MMM", "Building CLV models", "Learning PyMC for marketing"],
-    "audience": ["Senior-DS", "Early-PhD"],
-    "synthetic_questions": ["Who is Juan Orduz", "PyMC Labs marketing", "Bayesian MMM expert", "adstock saturation curves"]
-  },
-  {
     "name": "Thomas Wiecki",
     "description": "Co-creator of PyMC and CEO of PyMC Labs. Provides strategic thought leadership on Bayesian approaches for marketing measurement.",
     "category": "Notable Contributors",
@@ -16669,12 +16680,31 @@
     "location": "Germany",
     "best_for": "PyMC development, Bayesian marketing, MMM methodology, PyMC Labs consulting",
     "difficulty": "advanced",
-    "prerequisites": ["bayesian-basics"],
-    "topic_tags": ["marketing-science", "PyMC", "Bayesian-methods", "MMM"],
+    "prerequisites": [
+      "bayesian-basics"
+    ],
+    "topic_tags": [
+      "marketing-science",
+      "PyMC",
+      "Bayesian-methods",
+      "MMM"
+    ],
     "summary": "Thomas Wiecki co-created PyMC and leads PyMC Labs, providing strategic thought leadership on why Bayesian approaches matter for marketing measurement.",
-    "use_cases": ["Understanding Bayesian MMM strategy", "Learning PyMC ecosystem", "Marketing measurement consulting"],
-    "audience": ["Senior-DS", "Early-PhD"],
-    "synthetic_questions": ["Who is Thomas Wiecki", "PyMC creator", "PyMC Labs CEO", "Bayesian marketing leader"]
+    "use_cases": [
+      "Understanding Bayesian MMM strategy",
+      "Learning PyMC ecosystem",
+      "Marketing measurement consulting"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Early-PhD"
+    ],
+    "synthetic_questions": [
+      "Who is Thomas Wiecki",
+      "PyMC creator",
+      "PyMC Labs CEO",
+      "Bayesian marketing leader"
+    ]
   },
   {
     "name": "Mike Taylor",
@@ -16685,12 +16715,32 @@
     "location": "USA",
     "best_for": "MMM tutorials for practitioners, LightweightMMM, Robyn, Uber Orbit walkthroughs, marketing measurement education",
     "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics"],
-    "topic_tags": ["marketing-science", "MMM", "LightweightMMM", "Robyn", "education"],
+    "prerequisites": [
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "marketing-science",
+      "MMM",
+      "LightweightMMM",
+      "Robyn",
+      "education"
+    ],
     "summary": "Mike Taylor bridges the gap between technical MMM implementation and marketing practitioners. His tutorials make complex concepts approachable for non-technical marketers.",
-    "use_cases": ["Learning MMM tools", "Comparing MMM approaches", "Marketing measurement education"],
-    "audience": ["Mid-DS", "Junior-DS"],
-    "synthetic_questions": ["Who is Mike Taylor", "Vexpower founder", "MMM tutorials", "LightweightMMM guide"]
+    "use_cases": [
+      "Learning MMM tools",
+      "Comparing MMM approaches",
+      "Marketing measurement education"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Junior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Mike Taylor",
+      "Vexpower founder",
+      "MMM tutorials",
+      "LightweightMMM guide"
+    ]
   },
   {
     "name": "Mario Filho",
@@ -16701,12 +16751,31 @@
     "location": "Brazil",
     "best_for": "LightweightMMM case studies, time-varying coefficient models, Uber Orbit implementation, rigorous ML methodology",
     "difficulty": "advanced",
-    "prerequisites": ["machine-learning", "python-advanced"],
-    "topic_tags": ["marketing-science", "MMM", "Kaggle", "time-varying-coefficients"],
+    "prerequisites": [
+      "machine-learning",
+      "python-advanced"
+    ],
+    "topic_tags": [
+      "marketing-science",
+      "MMM",
+      "Kaggle",
+      "time-varying-coefficients"
+    ],
     "summary": "Mario Filho brings rigorous Kaggle-level ML methodology to marketing problems. His hands-on MMM tutorials with real advertising data are invaluable for practitioners.",
-    "use_cases": ["Production MMM implementation", "Time-varying MMM", "Advanced ML for marketing"],
-    "audience": ["Senior-DS"],
-    "synthetic_questions": ["Who is Mario Filho", "Kaggle Grandmaster marketing", "Forecastegy MMM", "time-varying MMM"]
+    "use_cases": [
+      "Production MMM implementation",
+      "Time-varying MMM",
+      "Advanced ML for marketing"
+    ],
+    "audience": [
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Mario Filho",
+      "Kaggle Grandmaster marketing",
+      "Forecastegy MMM",
+      "time-varying MMM"
+    ]
   },
   {
     "name": "Michael Kaminsky",
@@ -16717,12 +16786,31 @@
     "location": "USA",
     "best_for": "MMM verification, hypothesis testing, model falsifiability, when MMM investment makes sense",
     "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics"],
-    "topic_tags": ["marketing-science", "MMM", "model-validation", "Recast"],
+    "prerequisites": [
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "marketing-science",
+      "MMM",
+      "model-validation",
+      "Recast"
+    ],
     "summary": "Michael Kaminsky provides essential thinking on MMM verification and organizational adoption. His experience building Harry's internal MMM informs practical guidance.",
-    "use_cases": ["Evaluating MMM approaches", "Building MMM business case", "Model validation strategy"],
-    "audience": ["Mid-DS", "Senior-DS"],
-    "synthetic_questions": ["Who is Michael Kaminsky", "Recast CEO", "Harry's analytics", "MMM validation"]
+    "use_cases": [
+      "Evaluating MMM approaches",
+      "Building MMM business case",
+      "Model validation strategy"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Michael Kaminsky",
+      "Recast CEO",
+      "Harry's analytics",
+      "MMM validation"
+    ]
   },
   {
     "name": "Eric Seufert",
@@ -16733,12 +16821,32 @@
     "location": "USA",
     "best_for": "SKAdNetwork, iOS attribution, ATT impact, econometric marketing measurement, mobile ad tech",
     "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics"],
-    "topic_tags": ["marketing-science", "mobile-marketing", "SKAdNetwork", "ATT", "incrementality"],
+    "prerequisites": [
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "marketing-science",
+      "mobile-marketing",
+      "SKAdNetwork",
+      "ATT",
+      "incrementality"
+    ],
     "summary": "Eric Seufert is the definitive voice on mobile marketing measurement. His 'App Tracking Transparency Codex' is essential reading for mobile marketers.",
-    "use_cases": ["Understanding post-ATT measurement", "SKAdNetwork strategy", "Mobile attribution"],
-    "audience": ["Mid-DS", "Senior-DS"],
-    "synthetic_questions": ["Who is Eric Seufert", "Mobile Dev Memo author", "ATT expert", "SKAdNetwork guide"]
+    "use_cases": [
+      "Understanding post-ATT measurement",
+      "SKAdNetwork strategy",
+      "Mobile attribution"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Eric Seufert",
+      "Mobile Dev Memo author",
+      "ATT expert",
+      "SKAdNetwork guide"
+    ]
   },
   {
     "name": "Garrett Johnson",
@@ -16749,12 +16857,32 @@
     "location": "Boston, USA",
     "best_for": "Ghost ads methodology, incrementality measurement, predicted ghost ads, ad effectiveness research",
     "difficulty": "advanced",
-    "prerequisites": ["statistics", "causal-inference"],
-    "topic_tags": ["marketing-science", "ghost-ads", "incrementality", "ad-measurement"],
+    "prerequisites": [
+      "statistics",
+      "causal-inference"
+    ],
+    "topic_tags": [
+      "marketing-science",
+      "ghost-ads",
+      "incrementality",
+      "ad-measurement"
+    ],
     "summary": "Garrett Johnson pioneered the ghost ads methodology that major platforms now use for incrementality measurement. His academic work is foundational for practical measurement.",
-    "use_cases": ["Understanding ghost ads", "Incrementality methodology", "Ad measurement research"],
-    "audience": ["Senior-DS", "Early-PhD"],
-    "synthetic_questions": ["Who is Garrett Johnson", "ghost ads inventor", "incrementality researcher", "ad effectiveness academic"]
+    "use_cases": [
+      "Understanding ghost ads",
+      "Incrementality methodology",
+      "Ad measurement research"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Early-PhD"
+    ],
+    "synthetic_questions": [
+      "Who is Garrett Johnson",
+      "ghost ads inventor",
+      "incrementality researcher",
+      "ad effectiveness academic"
+    ]
   },
   {
     "name": "Koen Pauwels",
@@ -16765,12 +16893,32 @@
     "location": "Boston, USA",
     "best_for": "Marketing science research, MMM validation, experimental calibration, academic-industry bridge",
     "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics"],
-    "topic_tags": ["marketing-science", "academic", "MMM", "IJRM", "INFORMS"],
+    "prerequisites": [
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "marketing-science",
+      "academic",
+      "MMM",
+      "IJRM",
+      "INFORMS"
+    ],
     "summary": "Koen Pauwels bridges academic marketing science and industry practice more actively than perhaps any other researcher. His work challenges overreliance on observational methods.",
-    "use_cases": ["Connecting research to practice", "Marketing measurement validation", "Academic perspective"],
-    "audience": ["Senior-DS", "Early-PhD"],
-    "synthetic_questions": ["Who is Koen Pauwels", "IJRM editor", "marketing science professor", "academic-industry bridge"]
+    "use_cases": [
+      "Connecting research to practice",
+      "Marketing measurement validation",
+      "Academic perspective"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Early-PhD"
+    ],
+    "synthetic_questions": [
+      "Who is Koen Pauwels",
+      "IJRM editor",
+      "marketing science professor",
+      "academic-industry bridge"
+    ]
   },
   {
     "name": "Peter Fader",
@@ -16781,12 +16929,33 @@
     "location": "Philadelphia, USA",
     "best_for": "Customer lifetime value, BG/NBD models, customer-based corporate valuation, customer centricity",
     "difficulty": "advanced",
-    "prerequisites": ["statistics", "marketing-basics"],
-    "topic_tags": ["marketing-science", "CLV", "customer-centricity", "Zodiac", "Nike"],
+    "prerequisites": [
+      "statistics",
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "marketing-science",
+      "CLV",
+      "customer-centricity",
+      "Zodiac",
+      "Nike"
+    ],
     "summary": "Peter Fader is THE authority on customer lifetime value. His Customer-Based Corporate Valuation methodology enables company valuation based on customer equity.",
-    "use_cases": ["CLV modeling", "Customer-based valuation", "Probabilistic buying models"],
-    "audience": ["Senior-DS", "Early-PhD"],
-    "synthetic_questions": ["Who is Peter Fader", "CLV expert", "Zodiac founder", "customer centricity author"]
+    "use_cases": [
+      "CLV modeling",
+      "Customer-based valuation",
+      "Probabilistic buying models"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Early-PhD"
+    ],
+    "synthetic_questions": [
+      "Who is Peter Fader",
+      "CLV expert",
+      "Zodiac founder",
+      "customer centricity author"
+    ]
   },
   {
     "name": "Eva Ascarza",
@@ -16797,12 +16966,33 @@
     "location": "Boston, USA",
     "best_for": "Retention management research, churn intervention design, marketing AI evaluation, field experiments",
     "difficulty": "advanced",
-    "prerequisites": ["statistics", "marketing-basics"],
-    "topic_tags": ["marketing-science", "retention", "churn", "field-experiments", "HBS"],
+    "prerequisites": [
+      "statistics",
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "marketing-science",
+      "retention",
+      "churn",
+      "field-experiments",
+      "HBS"
+    ],
     "summary": "Eva Ascarza challenges conventional retention wisdom through field experiments. Her 'Retention Futility' paper is paradigm-shifting for anyone building retention programs.",
-    "use_cases": ["Questioning retention strategies", "Designing churn interventions", "Marketing AI evaluation"],
-    "audience": ["Senior-DS", "Early-PhD"],
-    "synthetic_questions": ["Who is Eva Ascarza", "retention futility", "HBS marketing professor", "churn research"]
+    "use_cases": [
+      "Questioning retention strategies",
+      "Designing churn interventions",
+      "Marketing AI evaluation"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Early-PhD"
+    ],
+    "synthetic_questions": [
+      "Who is Eva Ascarza",
+      "retention futility",
+      "HBS marketing professor",
+      "churn research"
+    ]
   },
   {
     "name": "Neil Hoyne",
@@ -16814,11 +17004,29 @@
     "best_for": "Customer lifetime value, Google marketing insights, CLV-focused marketing, practitioner frameworks",
     "difficulty": "beginner",
     "prerequisites": [],
-    "topic_tags": ["marketing-science", "CLV", "Google", "marketing-strategy"],
+    "topic_tags": [
+      "marketing-science",
+      "CLV",
+      "Google",
+      "marketing-strategy"
+    ],
     "summary": "Neil Hoyne translates Google's massive experimentation insights into accessible practitioner frameworks. His book 'Converted' bridges academic rigor with real-world application.",
-    "use_cases": ["Learning CLV concepts", "Customer-centric strategy", "Executive presentations"],
-    "audience": ["Curious-browser", "Junior-DS", "Mid-DS"],
-    "synthetic_questions": ["Who is Neil Hoyne", "Google Chief Strategist", "Converted author", "CLV marketing"]
+    "use_cases": [
+      "Learning CLV concepts",
+      "Customer-centric strategy",
+      "Executive presentations"
+    ],
+    "audience": [
+      "Curious-browser",
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Neil Hoyne",
+      "Google Chief Strategist",
+      "Converted author",
+      "CLV marketing"
+    ]
   },
   {
     "name": "Kevin Hillstrom",
@@ -16829,12 +17037,31 @@
     "location": "USA",
     "best_for": "Email marketing analytics, customer development, catalog measurement, profitability focus, MineThatData dataset",
     "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics"],
-    "topic_tags": ["marketing-science", "email-marketing", "customer-development", "profitability"],
+    "prerequisites": [
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "marketing-science",
+      "email-marketing",
+      "customer-development",
+      "profitability"
+    ],
     "summary": "Kevin Hillstrom offers 20+ years of continuous blogging focusing on profitability over vanity metrics. He created the MineThatData dataset widely used in uplift modeling research.",
-    "use_cases": ["Email marketing optimization", "Customer development", "Profitability measurement"],
-    "audience": ["Mid-DS", "Senior-DS"],
-    "synthetic_questions": ["Who is Kevin Hillstrom", "MineThatData author", "Nordstrom marketing", "email analytics expert"]
+    "use_cases": [
+      "Email marketing optimization",
+      "Customer development",
+      "Profitability measurement"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Kevin Hillstrom",
+      "MineThatData author",
+      "Nordstrom marketing",
+      "email analytics expert"
+    ]
   },
   {
     "name": "Edward Nevraumont",
@@ -16845,12 +17072,31 @@
     "location": "USA",
     "best_for": "Strategic marketing thinking, challenging marketing assumptions, personalization skepticism, attribution critique",
     "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics"],
-    "topic_tags": ["marketing-science", "marketing-strategy", "newsletters", "experimentation"],
+    "prerequisites": [
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "marketing-science",
+      "marketing-strategy",
+      "newsletters",
+      "experimentation"
+    ],
     "summary": "Edward Nevraumont provides CMO-level strategic thinking that challenges conventional marketing wisdom. His Marketing BS newsletter has 21,000+ subscribers with 40%+ open rates.",
-    "use_cases": ["Strategic marketing thinking", "Questioning assumptions", "Evidence-based marketing"],
-    "audience": ["Mid-DS", "Senior-DS"],
-    "synthetic_questions": ["Who is Edward Nevraumont", "Marketing BS author", "Expedia marketing", "marketing strategy expert"]
+    "use_cases": [
+      "Strategic marketing thinking",
+      "Questioning assumptions",
+      "Evidence-based marketing"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Edward Nevraumont",
+      "Marketing BS author",
+      "Expedia marketing",
+      "marketing strategy expert"
+    ]
   },
   {
     "name": "Kyle Poyar",
@@ -16861,12 +17107,32 @@
     "location": "USA",
     "best_for": "SaaS benchmarks, PLG metrics, pricing optimization, CAC payback analysis, OpenView data",
     "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics"],
-    "topic_tags": ["marketing-science", "SaaS", "PLG", "pricing", "benchmarks"],
+    "prerequisites": [
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "marketing-science",
+      "SaaS",
+      "PLG",
+      "pricing",
+      "benchmarks"
+    ],
     "summary": "Kyle Poyar provides unique access to OpenView portfolio company data for real SaaS benchmarks. His Growth Unhinged newsletter delivers quantitative insights unavailable elsewhere.",
-    "use_cases": ["SaaS benchmarking", "Pricing optimization", "PLG metrics"],
-    "audience": ["Mid-DS", "Senior-DS"],
-    "synthetic_questions": ["Who is Kyle Poyar", "Growth Unhinged author", "OpenView partner", "SaaS benchmarks"]
+    "use_cases": [
+      "SaaS benchmarking",
+      "Pricing optimization",
+      "PLG metrics"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Kyle Poyar",
+      "Growth Unhinged author",
+      "OpenView partner",
+      "SaaS benchmarks"
+    ]
   },
   {
     "name": "Emily Kramer",
@@ -16877,12 +17143,31 @@
     "location": "USA",
     "best_for": "B2B marketing frameworks, marketing measurement, Krameworks templates, scaling marketing operations",
     "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics"],
-    "topic_tags": ["marketing-science", "B2B-marketing", "frameworks", "scaling"],
+    "prerequisites": [
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "marketing-science",
+      "B2B-marketing",
+      "frameworks",
+      "scaling"
+    ],
     "summary": "Emily Kramer serves 45,000+ subscribers with B2B marketing measurement frameworks. Her 'Krameworks' templates provide operational structures that scale.",
-    "use_cases": ["B2B marketing measurement", "Scaling marketing ops", "Framework building"],
-    "audience": ["Mid-DS", "Senior-DS"],
-    "synthetic_questions": ["Who is Emily Kramer", "MKT1 author", "Asana marketing VP", "B2B marketing frameworks"]
+    "use_cases": [
+      "B2B marketing measurement",
+      "Scaling marketing ops",
+      "Framework building"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Emily Kramer",
+      "MKT1 author",
+      "Asana marketing VP",
+      "B2B marketing frameworks"
+    ]
   },
   {
     "name": "Dominique Hanssens",
@@ -16893,12 +17178,33 @@
     "location": "Los Angeles, USA",
     "best_for": "MMM foundations, long-term marketing effects, Market Response Models textbook, academic MMM",
     "difficulty": "advanced",
-    "prerequisites": ["statistics", "econometrics"],
-    "topic_tags": ["marketing-science", "MMM", "academic", "MarketShare", "long-term-effects"],
+    "prerequisites": [
+      "statistics",
+      "econometrics"
+    ],
+    "topic_tags": [
+      "marketing-science",
+      "MMM",
+      "academic",
+      "MarketShare",
+      "long-term-effects"
+    ],
     "summary": "Dominique Hanssens is THE foundational figure in marketing mix modeling. His 1995 paper on marketing persistence and textbook 'Market Response Models' trained a generation of MMM practitioners.",
-    "use_cases": ["Understanding MMM foundations", "Long-term marketing effects", "Academic MMM methodology"],
-    "audience": ["Senior-DS", "Early-PhD"],
-    "synthetic_questions": ["Who is Dominique Hanssens", "MMM founder", "UCLA marketing professor", "MarketShare founder"]
+    "use_cases": [
+      "Understanding MMM foundations",
+      "Long-term marketing effects",
+      "Academic MMM methodology"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Early-PhD"
+    ],
+    "synthetic_questions": [
+      "Who is Dominique Hanssens",
+      "MMM founder",
+      "UCLA marketing professor",
+      "MarketShare founder"
+    ]
   },
   {
     "name": "Byron Sharp",
@@ -16909,12 +17215,31 @@
     "location": "Australia",
     "best_for": "Brand science, Double Jeopardy law, evidence-based marketing, challenging marketing myths",
     "difficulty": "intermediate",
-    "prerequisites": ["marketing-basics"],
-    "topic_tags": ["marketing-science", "brand-science", "evidence-based", "Ehrenberg-Bass"],
+    "prerequisites": [
+      "marketing-basics"
+    ],
+    "topic_tags": [
+      "marketing-science",
+      "brand-science",
+      "evidence-based",
+      "Ehrenberg-Bass"
+    ],
     "summary": "Byron Sharp's 'How Brands Grow' established empirical laws that challenge popular myths about brand loyalty and personalization. Leading critic of marketing pseudoscience.",
-    "use_cases": ["Questioning marketing myths", "Evidence-based strategy", "Brand science foundations"],
-    "audience": ["Mid-DS", "Senior-DS"],
-    "synthetic_questions": ["Who is Byron Sharp", "How Brands Grow author", "Ehrenberg-Bass director", "Double Jeopardy law"]
+    "use_cases": [
+      "Questioning marketing myths",
+      "Evidence-based strategy",
+      "Brand science foundations"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Byron Sharp",
+      "How Brands Grow author",
+      "Ehrenberg-Bass director",
+      "Double Jeopardy law"
+    ]
   },
   {
     "name": "Ron Berman",
@@ -16925,27 +17250,31 @@
     "location": "Philadelphia, USA",
     "best_for": "A/B testing pitfalls, p-hacking research, false discovery, experimentation rigor",
     "difficulty": "advanced",
-    "prerequisites": ["statistics", "experimentation-basics"],
-    "topic_tags": ["marketing-science", "experimentation", "p-hacking", "A/B-testing"],
+    "prerequisites": [
+      "statistics",
+      "experimentation-basics"
+    ],
+    "topic_tags": [
+      "marketing-science",
+      "experimentation",
+      "p-hacking",
+      "A/B-testing"
+    ],
     "summary": "Ron Berman addresses methodological pitfalls tech companies face daily. His paper demonstrates how common A/B testing practices inflate false positives.",
-    "use_cases": ["Designing robust experiments", "Avoiding p-hacking", "Experimentation rigor"],
-    "audience": ["Senior-DS", "Early-PhD"],
-    "synthetic_questions": ["Who is Ron Berman", "p-hacking researcher", "Wharton experimentation", "A/B testing pitfalls"]
-  },
-  {
-    "name": "Scott Cunningham",
-    "description": "Baylor University professor, author of 'Causal Inference: The Mixtape' and host of 'The Mixtape with Scott' podcast featuring leading causal inference researchers.",
-    "category": "Notable Contributors",
-    "url": "https://causalinf.substack.com/",
-    "type": "Academic",
-    "location": "Texas, USA",
-    "best_for": "Causal inference education, econometrics, quasi-experimental methods, researcher interviews",
-    "difficulty": "intermediate",
-    "prerequisites": ["statistics-basics"],
-    "topic_tags": ["causal-inference", "econometrics", "education", "podcast"],
-    "summary": "Scott Cunningham's 'Causal Inference: The Mixtape' is the go-to resource for learning causal methods. His podcast bridges academic research and practical application.",
-    "use_cases": ["Learning causal inference", "Connecting to research", "Econometric methods"],
-    "audience": ["Mid-DS", "Early-PhD"],
-    "synthetic_questions": ["Who is Scott Cunningham", "Causal Inference Mixtape author", "causal inference podcast", "econometrics educator"]
+    "use_cases": [
+      "Designing robust experiments",
+      "Avoiding p-hacking",
+      "Experimentation rigor"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Early-PhD"
+    ],
+    "synthetic_questions": [
+      "Who is Ron Berman",
+      "p-hacking researcher",
+      "Wharton experimentation",
+      "A/B testing pitfalls"
+    ]
   }
 ]

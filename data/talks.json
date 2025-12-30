@@ -2177,25 +2177,34 @@
   },
   {
     "name": "The Mixtape with Scott Cunningham",
-    "description": "Causal inference and applied researcher careers. Features Susan Athey, Michael Luca, John List.",
+    "description": "Scott Cunningham's podcast featuring interviews with leading causal inference researchers. Bridges academic methods and practical application for marketing measurement.",
     "category": "Causal Inference & ML",
     "url": "https://causalinf.substack.com/podcast",
     "type": "Podcast Series",
     "tags": [
       "Causal Inference & ML",
-      "Podcast Series"
+      "Podcast Series",
+      "Causal Inference",
+      "Economics",
+      "Research"
     ],
     "difficulty": "intermediate",
     "prerequisites": [],
     "topic_tags": [
       "causal-inference",
-      "career-advice"
+      "career-advice",
+      "econometrics",
+      "researcher-interviews",
+      "academic-practice"
     ],
     "summary": "The Mixtape with Scott Cunningham discusses causal inference and the career paths of applied researchers. Key takeaways include insights from industry experts like Susan Athey, Michael Luca, and John List.",
     "use_cases": [
       "Gain insights into career paths in applied research",
       "Learn from industry experts",
-      "Understand the intersection of causal inference and machine learning"
+      "Understand the intersection of causal inference and machine learning",
+      "Learning causal methods",
+      "Connecting to research",
+      "Understanding methodology"
     ],
     "audience": [
       "Early-PhD",
@@ -2211,11 +2220,17 @@
       "What are the challenges in applied research careers?",
       "How does one transition from academia to industry in data science?",
       "What skills are essential for a career in causal inference?",
-      "What are the latest trends in machine learning?"
+      "What are the latest trends in machine learning?",
+      "Causal inference podcast?",
+      "Econometrics interviews?",
+      "Scott Cunningham podcast?",
+      "Research methodology discussions?"
     ],
     "speaker_expertise": [
       "causal inference",
-      "applied research"
+      "applied research",
+      "econometrics",
+      "research methodology"
     ]
   },
   {
@@ -10011,15 +10026,40 @@
     "category": "Marketing Science",
     "url": "https://marketingbs.substack.com/podcast",
     "type": "Podcast Series",
-    "tags": ["Marketing Science", "Strategy", "CLV"],
+    "tags": [
+      "Marketing Science",
+      "Strategy",
+      "CLV"
+    ],
     "difficulty": "intermediate",
     "prerequisites": [],
-    "topic_tags": ["marketing-strategy", "CLV", "customer-centricity", "measurement"],
+    "topic_tags": [
+      "marketing-strategy",
+      "CLV",
+      "customer-centricity",
+      "measurement"
+    ],
     "summary": "Edward Nevraumont and Peter Fader analyze marketing news through a customer-centric lens, providing CMO-level strategic thinking that challenges conventional marketing wisdom.",
-    "audience": ["Mid-DS", "Senior-DS"],
-    "synthetic_questions": ["Marketing strategy podcast?", "Peter Fader podcast?", "Marketing BS audio?", "Customer-centric marketing discussions?"],
-    "use_cases": ["Strategic marketing thinking", "Understanding CLV perspective", "Challenging marketing assumptions"],
-    "speaker_expertise": ["marketing strategy", "customer lifetime value", "evidence-based marketing"]
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Marketing strategy podcast?",
+      "Peter Fader podcast?",
+      "Marketing BS audio?",
+      "Customer-centric marketing discussions?"
+    ],
+    "use_cases": [
+      "Strategic marketing thinking",
+      "Understanding CLV perspective",
+      "Challenging marketing assumptions"
+    ],
+    "speaker_expertise": [
+      "marketing strategy",
+      "customer lifetime value",
+      "evidence-based marketing"
+    ]
   },
   {
     "name": "Mobile Dev Memo Podcast",
@@ -10027,15 +10067,40 @@
     "category": "Marketing Science",
     "url": "https://mobiledevmemo.com/podcast/",
     "type": "Podcast Series",
-    "tags": ["Marketing Science", "Mobile", "Ad Tech"],
+    "tags": [
+      "Marketing Science",
+      "Mobile",
+      "Ad Tech"
+    ],
     "difficulty": "intermediate",
     "prerequisites": [],
-    "topic_tags": ["mobile-marketing", "SKAdNetwork", "incrementality", "academic-practice"],
+    "topic_tags": [
+      "mobile-marketing",
+      "SKAdNetwork",
+      "incrementality",
+      "academic-practice"
+    ],
     "summary": "Eric Seufert's podcast features top academics and practitioners bridging research and practice in mobile marketing measurement, covering SKAdNetwork, ATT, and econometric measurement.",
-    "audience": ["Mid-DS", "Senior-DS"],
-    "synthetic_questions": ["Mobile marketing podcast?", "SKAdNetwork discussions?", "ATT measurement podcast?", "Mobile Dev Memo audio?"],
-    "use_cases": ["Understanding mobile measurement", "Learning from academics", "Post-ATT strategies"],
-    "speaker_expertise": ["mobile marketing", "iOS attribution", "ad measurement research"]
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Mobile marketing podcast?",
+      "SKAdNetwork discussions?",
+      "ATT measurement podcast?",
+      "Mobile Dev Memo audio?"
+    ],
+    "use_cases": [
+      "Understanding mobile measurement",
+      "Learning from academics",
+      "Post-ATT strategies"
+    ],
+    "speaker_expertise": [
+      "mobile marketing",
+      "iOS attribution",
+      "ad measurement research"
+    ]
   },
   {
     "name": "Sub Club Podcast (RevenueCat)",
@@ -10043,31 +10108,40 @@
     "category": "Growth & Retention",
     "url": "https://www.revenuecat.com/podcast",
     "type": "Podcast Series",
-    "tags": ["Growth & Retention", "Subscriptions", "Mobile"],
+    "tags": [
+      "Growth & Retention",
+      "Subscriptions",
+      "Mobile"
+    ],
     "difficulty": "intermediate",
     "prerequisites": [],
-    "topic_tags": ["subscription-analytics", "mobile-subscriptions", "retention", "pricing"],
+    "topic_tags": [
+      "subscription-analytics",
+      "mobile-subscriptions",
+      "retention",
+      "pricing"
+    ],
     "summary": "David Barnard hosts weekly conversations with subscription app practitioners from Duolingo, Strava, and Lose It! sharing actual retention data, conversion rates, and pricing strategies.",
-    "audience": ["Mid-DS", "Senior-DS"],
-    "synthetic_questions": ["Subscription app podcast?", "Mobile retention strategies?", "App pricing discussions?", "RevenueCat podcast?"],
-    "use_cases": ["Learning subscription strategies", "Benchmarking retention", "Pricing optimization"],
-    "speaker_expertise": ["subscription apps", "mobile retention", "app monetization"]
-  },
-  {
-    "name": "The Mixtape with Scott",
-    "description": "Scott Cunningham's podcast featuring interviews with leading causal inference researchers. Bridges academic methods and practical application for marketing measurement.",
-    "category": "Causal Inference",
-    "url": "https://causalinf.substack.com/podcast",
-    "type": "Podcast Series",
-    "tags": ["Causal Inference", "Economics", "Research"],
-    "difficulty": "intermediate",
-    "prerequisites": [],
-    "topic_tags": ["causal-inference", "econometrics", "researcher-interviews", "academic-practice"],
-    "summary": "Scott Cunningham interviews leading causal inference researchers, bridging academic methods and practical application for marketing measurement and tech analytics.",
-    "audience": ["Mid-DS", "Senior-DS", "Early-PhD"],
-    "synthetic_questions": ["Causal inference podcast?", "Econometrics interviews?", "Scott Cunningham podcast?", "Research methodology discussions?"],
-    "use_cases": ["Learning causal methods", "Connecting to research", "Understanding methodology"],
-    "speaker_expertise": ["causal inference", "econometrics", "research methodology"]
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Subscription app podcast?",
+      "Mobile retention strategies?",
+      "App pricing discussions?",
+      "RevenueCat podcast?"
+    ],
+    "use_cases": [
+      "Learning subscription strategies",
+      "Benchmarking retention",
+      "Pricing optimization"
+    ],
+    "speaker_expertise": [
+      "subscription apps",
+      "mobile retention",
+      "app monetization"
+    ]
   },
   {
     "name": "Lenny's Podcast",
@@ -10075,15 +10149,41 @@
     "category": "Growth & Retention",
     "url": "https://www.lennyspodcast.com/",
     "type": "Podcast Series",
-    "tags": ["Growth & Retention", "Product", "PLG"],
+    "tags": [
+      "Growth & Retention",
+      "Product",
+      "PLG"
+    ],
     "difficulty": "beginner",
     "prerequisites": [],
-    "topic_tags": ["PLG", "marketing-measurement", "consumer-brands", "product-growth"],
+    "topic_tags": [
+      "PLG",
+      "marketing-measurement",
+      "consumer-brands",
+      "product-growth"
+    ],
     "summary": "Lenny Rachitsky hosts 700,000+ subscribers with conversations on product-led growth and marketing measurement featuring practitioners from Airbnb, Uber, and leading consumer brands.",
-    "audience": ["Curious-browser", "Junior-DS", "Mid-DS"],
-    "synthetic_questions": ["Product growth podcast?", "Lenny Rachitsky podcast?", "PLG discussions?", "Consumer brand marketing?"],
-    "use_cases": ["Learning from consumer brands", "Understanding PLG", "Marketing measurement at scale"],
-    "speaker_expertise": ["product growth", "consumer marketing", "measurement at scale"]
+    "audience": [
+      "Curious-browser",
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "Product growth podcast?",
+      "Lenny Rachitsky podcast?",
+      "PLG discussions?",
+      "Consumer brand marketing?"
+    ],
+    "use_cases": [
+      "Learning from consumer brands",
+      "Understanding PLG",
+      "Marketing measurement at scale"
+    ],
+    "speaker_expertise": [
+      "product growth",
+      "consumer marketing",
+      "measurement at scale"
+    ]
   },
   {
     "name": "PyMC Labs YouTube: MMM Tutorials",
@@ -10091,14 +10191,42 @@
     "category": "Marketing Science",
     "url": "https://www.youtube.com/@PyMCLabs",
     "type": "YouTube Channel",
-    "tags": ["Marketing Science", "Bayesian", "MMM"],
+    "tags": [
+      "Marketing Science",
+      "Bayesian",
+      "MMM"
+    ],
     "difficulty": "advanced",
-    "prerequisites": ["python-basics", "bayesian-basics"],
-    "topic_tags": ["MMM", "Bayesian-marketing", "PyMC", "tutorials"],
+    "prerequisites": [
+      "python-basics",
+      "bayesian-basics"
+    ],
+    "topic_tags": [
+      "MMM",
+      "Bayesian-marketing",
+      "PyMC",
+      "tutorials"
+    ],
     "summary": "PyMC Labs YouTube channel provides technical video tutorials on Bayesian marketing mix modeling, including PyMC-Marketing implementation guides and case studies.",
-    "audience": ["Senior-DS", "Early-PhD"],
-    "synthetic_questions": ["Bayesian MMM tutorials?", "PyMC marketing videos?", "MMM implementation guides?", "PyMC Labs YouTube?"],
-    "use_cases": ["Learning Bayesian MMM", "Implementation guidance", "Case study analysis"],
-    "speaker_expertise": ["Bayesian marketing", "PyMC", "MMM implementation"]
+    "audience": [
+      "Senior-DS",
+      "Early-PhD"
+    ],
+    "synthetic_questions": [
+      "Bayesian MMM tutorials?",
+      "PyMC marketing videos?",
+      "MMM implementation guides?",
+      "PyMC Labs YouTube?"
+    ],
+    "use_cases": [
+      "Learning Bayesian MMM",
+      "Implementation guidance",
+      "Case study analysis"
+    ],
+    "speaker_expertise": [
+      "Bayesian marketing",
+      "PyMC",
+      "MMM implementation"
+    ]
   }
 ]
