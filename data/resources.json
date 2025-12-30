@@ -10165,5 +10165,329 @@
     "type": "Tutorial",
     "tags": ["Cross-Validation", "Machine Learning", "IMF"],
     "level": "Medium"
+  },
+  {
+    "name": "Bill Gurley: All Markets Are Not Created Equal",
+    "description": "Essential framework for evaluating marketplace businesses. Gurley identifies 10 factors that distinguish great marketplaces from mediocre ones, including fragmentation, frequency, and payment facilitation.",
+    "category": "Platform Economics",
+    "url": "https://abovethecrowd.com/2012/11/13/all-markets-are-not-created-equal-10-factors-to-consider-when-evaluating-digital-marketplaces/",
+    "type": "Blog Post",
+    "tags": ["Marketplaces", "Bill Gurley", "Platform Strategy"],
+    "level": "Medium"
+  },
+  {
+    "name": "Bill Gurley: A Rake Too Far",
+    "description": "Classic analysis of take rates in marketplaces. Explains why high take rates invite competition and examines optimal pricing strategies for platform businesses.",
+    "category": "Platform Economics",
+    "url": "https://abovethecrowd.com/2013/04/18/a-rake-too-far-optimal-platformpricing-strategy/",
+    "type": "Blog Post",
+    "tags": ["Take Rates", "Pricing", "Marketplaces"],
+    "level": "Medium"
+  },
+  {
+    "name": "Bill Gurley: How to Miss By a Mile (Uber TAM)",
+    "description": "Analysis of TAM (Total Addressable Market) estimation errors. Explains why most TAM analyses are flawed and how to think about market sizing for tech companies.",
+    "category": "Platform Economics",
+    "url": "https://abovethecrowd.com/2014/07/11/how-to-miss-by-a-mile-an-alternative-look-at-ubers-potential-market-size/",
+    "type": "Blog Post",
+    "tags": ["TAM", "Market Sizing", "Uber"],
+    "level": "Medium"
+  },
+  {
+    "name": "Bill Gurley: In Defense of the Deck",
+    "description": "Frameworks for pitch presentations and communicating marketplace value propositions to investors and stakeholders.",
+    "category": "Platform Economics",
+    "url": "https://abovethecrowd.com/2015/07/07/in-defense-of-the-deck/",
+    "type": "Blog Post",
+    "tags": ["Pitching", "Fundraising", "Strategy"],
+    "level": "Easy"
+  },
+  {
+    "name": "Bill Gurley: Going Direct",
+    "description": "Examines how technology enables producers to bypass intermediaries. Analyzes disintermediation trends across industries from retail to entertainment.",
+    "category": "Platform Economics",
+    "url": "https://abovethecrowd.com/2015/02/25/going-direct/",
+    "type": "Blog Post",
+    "tags": ["Disintermediation", "Direct-to-Consumer", "Platforms"],
+    "level": "Medium"
+  },
+  {
+    "name": "Li Jin: 100 True Fans",
+    "description": "Updates Kevin Kelly's 1000 True Fans theory for the creator economy. Argues that with higher monetization, creators can succeed with far fewer dedicated followers.",
+    "category": "Platform Economics",
+    "url": "https://a16z.com/2020/02/06/100-true-fans/",
+    "type": "Blog Post",
+    "tags": ["Creator Economy", "Monetization", "Li Jin"],
+    "level": "Easy"
+  },
+  {
+    "name": "Li Jin: The Passion Economy and the Future of Work",
+    "description": "Foundational essay on the passion economy. Explains how platforms enable individuals to monetize unique skills rather than commoditized labor.",
+    "category": "Platform Economics",
+    "url": "https://future.com/the-passion-economy-and-the-future-of-work/",
+    "type": "Blog Post",
+    "tags": ["Passion Economy", "Future of Work", "Platforms"],
+    "level": "Easy"
+  },
+  {
+    "name": "Li Jin: Building for the Creator Middle Class",
+    "description": "Argues that the next generation of creator platforms must serve the middle class of creators, not just superstars. Framework for building sustainable creator businesses.",
+    "category": "Platform Economics",
+    "url": "https://li.substack.com/p/building-for-the-creator-middle-class",
+    "type": "Blog Post",
+    "tags": ["Creator Economy", "Platform Design", "Monetization"],
+    "level": "Easy"
+  },
+  {
+    "name": "Li Jin: The Creator Economy Needs a Middle Class (HBR)",
+    "description": "Data-driven analysis showing that creator income is highly concentrated. Proposes platform design changes to create more equitable outcomes.",
+    "category": "Platform Economics",
+    "url": "https://hbr.org/2020/12/the-creator-economy-needs-a-middle-class",
+    "type": "Article",
+    "tags": ["Creator Economy", "Income Distribution", "HBR"],
+    "level": "Easy"
+  },
+  {
+    "name": "Li Jin: Unbundling Work",
+    "description": "How platforms are unbundling traditional employment into discrete tasks. Examines implications for workers, platforms, and the economy.",
+    "category": "Platform Economics",
+    "url": "https://li.substack.com/p/unbundling-work",
+    "type": "Blog Post",
+    "tags": ["Gig Economy", "Future of Work", "Unbundling"],
+    "level": "Easy"
+  },
+  {
+    "name": "Eugene Wei: Status as a Service (StaaS)",
+    "description": "Landmark essay analyzing social networks through the lens of status. Explains why networks rise and fall based on their ability to provide status games.",
+    "category": "Platform Economics",
+    "url": "https://www.eugenewei.com/blog/2019/2/19/status-as-a-service",
+    "type": "Blog Post",
+    "tags": ["Social Networks", "Status", "Network Effects"],
+    "level": "Medium"
+  },
+  {
+    "name": "Eugene Wei: Seeing Like an Algorithm (TikTok)",
+    "description": "Deep analysis of TikTok's success through algorithmic content discovery. Explains why TikTok's approach differs from social graph-based networks.",
+    "category": "Platform Economics",
+    "url": "https://www.eugenewei.com/blog/2020/8/3/tiktok-and-the-sorting-hat",
+    "type": "Blog Post",
+    "tags": ["TikTok", "Algorithms", "Discovery"],
+    "level": "Medium"
+  },
+  {
+    "name": "Eugene Wei: Invisible Asymptotes",
+    "description": "Former Amazon exec explains how to identify hidden growth ceilings. Uses Amazon examples to show how companies can spot and overcome invisible constraints.",
+    "category": "Platform Economics",
+    "url": "https://www.eugenewei.com/blog/2018/5/21/invisible-asymptotes",
+    "type": "Blog Post",
+    "tags": ["Growth", "Amazon", "Strategy"],
+    "level": "Medium"
+  },
+  {
+    "name": "Jean Tirole: Two-Sided Markets - A Progress Report",
+    "description": "Nobel laureate's comprehensive survey of two-sided market theory. Covers pricing, platform competition, and welfare implications of multi-sided platforms.",
+    "category": "Platform Economics",
+    "url": "https://www.jstor.org/stable/25046328",
+    "type": "Paper",
+    "tags": ["Two-Sided Markets", "Platform Theory", "Tirole"],
+    "level": "Hard"
+  },
+  {
+    "name": "Rochet & Tirole: Platform Competition in Two-Sided Markets",
+    "description": "Foundational academic paper on platform economics. Develops theory of pricing and competition when platforms must attract multiple user groups.",
+    "category": "Platform Economics",
+    "url": "https://www.jstor.org/stable/3590105",
+    "type": "Paper",
+    "tags": ["Two-Sided Markets", "Platform Competition", "Theory"],
+    "level": "Hard"
+  },
+  {
+    "name": "Rochet & Tirole: Two-Sided Markets (RAND)",
+    "description": "Seminal paper introducing the economics of two-sided markets. Analyzes how platforms set prices when they serve distinct but interdependent customer groups.",
+    "category": "Platform Economics",
+    "url": "https://www.jstor.org/stable/1593720",
+    "type": "Paper",
+    "tags": ["Two-Sided Markets", "Platform Pricing", "Economics"],
+    "level": "Hard"
+  },
+  {
+    "name": "Andrei Hagiu: Strategic Decisions for Multisided Platforms",
+    "description": "MIT Sloan Management Review guide to key strategic choices for platform businesses: sides to bring on board, design, and pricing decisions.",
+    "category": "Platform Economics",
+    "url": "https://sloanreview.mit.edu/article/strategic-decisions-for-multisided-platforms/",
+    "type": "Article",
+    "tags": ["Platform Strategy", "Multi-Sided Platforms", "Hagiu"],
+    "level": "Medium"
+  },
+  {
+    "name": "Hagiu & Wright: When to Open a Platform (HBR)",
+    "description": "HBR analysis of when platforms should allow third-party developers. Framework for deciding between closed and open platform strategies.",
+    "category": "Platform Economics",
+    "url": "https://hbr.org/2013/12/when-to-open-your-platform",
+    "type": "Article",
+    "tags": ["Platform Openness", "Strategy", "HBR"],
+    "level": "Medium"
+  },
+  {
+    "name": "Hagiu & Rothman: Network Effects Aren't Enough (HBR)",
+    "description": "HBR challenge to the conventional wisdom about network effects. Shows why many platform businesses fail despite strong network effects.",
+    "category": "Platform Economics",
+    "url": "https://hbr.org/2016/04/network-effects-arent-enough",
+    "type": "Article",
+    "tags": ["Network Effects", "Platform Strategy", "HBR"],
+    "level": "Medium"
+  },
+  {
+    "name": "Hagiu: Multi-Sided Platforms - From Microfoundations to Design",
+    "description": "Academic treatment of platform design principles. Bridges economic theory with practical platform design decisions.",
+    "category": "Platform Economics",
+    "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=45103",
+    "type": "Paper",
+    "tags": ["Platform Design", "Microfoundations", "Theory"],
+    "level": "Hard"
+  },
+  {
+    "name": "Parker, Van Alstyne & Choudary: Pipelines, Platforms, and the New Rules of Strategy",
+    "description": "HBR article summarizing Platform Revolution. Contrasts pipeline (linear) businesses with platform businesses and their different strategic imperatives.",
+    "category": "Platform Economics",
+    "url": "https://hbr.org/2016/04/pipelines-platforms-and-the-new-rules-of-strategy",
+    "type": "Article",
+    "tags": ["Platform Revolution", "Strategy", "HBR"],
+    "level": "Easy"
+  },
+  {
+    "name": "Platform Revolution Book Overview",
+    "description": "Overview of the seminal book on platform business models. Parker, Van Alstyne, and Choudary's framework for understanding platform dynamics.",
+    "category": "Platform Economics",
+    "url": "https://www.platformrevolution.com/",
+    "type": "Book",
+    "tags": ["Platform Revolution", "Business Models", "Strategy"],
+    "level": "Easy"
+  },
+  {
+    "name": "Sangeet Choudary: Platform Scale Blog",
+    "description": "Blog from Platform Revolution co-author covering platform strategy, network effects, and the evolution of platform business models.",
+    "category": "Platform Economics",
+    "url": "https://platformed.info/",
+    "type": "Blog",
+    "tags": ["Platform Strategy", "Network Effects", "Choudary"],
+    "level": "Medium"
+  },
+  {
+    "name": "DoorDash: Building a Successful Three-Sided Marketplace",
+    "description": "DoorDash engineering explains the unique challenges of balancing three sides: merchants, dashers, and consumers in their delivery marketplace.",
+    "category": "Platform Economics",
+    "url": "https://doordash.engineering/2021/04/28/building-a-successful-three-sided-marketplace/",
+    "type": "Engineering Blog",
+    "tags": ["DoorDash", "Three-Sided Marketplace", "Operations"],
+    "level": "Medium"
+  },
+  {
+    "name": "DoorDash: Real-Time Optimization of Delivery Operations",
+    "description": "How DoorDash optimizes delivery operations in real-time, balancing Dasher earnings, merchant experience, and consumer wait times.",
+    "category": "Platform Economics",
+    "url": "https://doordash.engineering/2021/06/29/improving-eta-prediction-via-machine-learning/",
+    "type": "Engineering Blog",
+    "tags": ["DoorDash", "Operations Research", "ML"],
+    "level": "Medium"
+  },
+  {
+    "name": "DoorDash: The Dasher Dispatch System",
+    "description": "Technical deep dive into how DoorDash assigns deliveries to Dashers. Covers matching algorithms, optimization objectives, and real-time constraints.",
+    "category": "Platform Economics",
+    "url": "https://doordash.engineering/2022/01/26/dasher-dispatch-deep-dive/",
+    "type": "Engineering Blog",
+    "tags": ["DoorDash", "Dispatch", "Matching"],
+    "level": "Medium"
+  },
+  {
+    "name": "LinkedIn: The Economic Graph",
+    "description": "LinkedIn's vision for mapping the global economy. How they use data to understand labor markets, skills, and economic opportunity.",
+    "category": "Platform Economics",
+    "url": "https://economicgraph.linkedin.com/",
+    "type": "Product Page",
+    "tags": ["LinkedIn", "Labor Markets", "Economic Data"],
+    "level": "Easy"
+  },
+  {
+    "name": "LinkedIn Engineering: Marketplace Optimization",
+    "description": "How LinkedIn optimizes their talent marketplace to match candidates with opportunities while balancing multiple stakeholder interests.",
+    "category": "Platform Economics",
+    "url": "https://engineering.linkedin.com/blog/2020/marketplace-optimization",
+    "type": "Engineering Blog",
+    "tags": ["LinkedIn", "Marketplace", "Optimization"],
+    "level": "Medium"
+  },
+  {
+    "name": "Etsy: Building Marketplace Search and Personalization",
+    "description": "Etsy engineering on building search for a handmade goods marketplace. Covers ranking, personalization, and balancing buyer and seller interests.",
+    "category": "Platform Economics",
+    "url": "https://www.etsy.com/codeascraft/",
+    "type": "Engineering Blog",
+    "tags": ["Etsy", "Search", "Marketplace"],
+    "level": "Medium"
+  },
+  {
+    "name": "eBay Tech Blog",
+    "description": "eBay's engineering blog covering search ranking at scale in a marketplace with millions of listings, including relevance and seller quality signals.",
+    "category": "Platform Economics",
+    "url": "https://tech.ebayinc.com/engineering/",
+    "type": "Engineering Blog",
+    "tags": ["eBay", "Search", "Ranking"],
+    "level": "Medium"
+  },
+  {
+    "name": "Thumbtack Engineering Blog",
+    "description": "How Thumbtack connects customers with local service professionals. Covers matching, pricing, and marketplace dynamics.",
+    "category": "Platform Economics",
+    "url": "https://medium.com/thumbtack-engineering",
+    "type": "Engineering Blog",
+    "tags": ["Thumbtack", "Local Services", "Marketplace"],
+    "level": "Medium"
+  },
+  {
+    "name": "Upwork Engineering Blog",
+    "description": "Upwork's approach to matching freelancers with projects. Covers ML-based matching, skill inference, and marketplace quality.",
+    "category": "Platform Economics",
+    "url": "https://www.upwork.com/blog/category/engineering",
+    "type": "Engineering Blog",
+    "tags": ["Upwork", "Freelance", "Matching"],
+    "level": "Medium"
+  },
+  {
+    "name": "Fiverr Engineering Blog",
+    "description": "How Fiverr structures their freelance marketplace, from gig discovery to pricing and seller success mechanics.",
+    "category": "Platform Economics",
+    "url": "https://engineering.fiverr.com/",
+    "type": "Engineering Blog",
+    "tags": ["Fiverr", "Gig Economy", "Marketplace"],
+    "level": "Medium"
+  },
+  {
+    "name": "Simon Rothman (a16z): How to Build a Marketplace",
+    "description": "Former eBay Motors GM and a16z partner's comprehensive guide to marketplace building. Covers liquidity, matching, and scaling strategies.",
+    "category": "Platform Economics",
+    "url": "https://a16z.com/2014/04/23/marketplace-startups/",
+    "type": "Blog Post",
+    "tags": ["a16z", "Marketplaces", "Startup Strategy"],
+    "level": "Medium"
+  },
+  {
+    "name": "Jeff Jordan (a16z): Marketplace 100",
+    "description": "Annual ranking and analysis of the largest consumer marketplaces. Framework for understanding marketplace categories and business models.",
+    "category": "Platform Economics",
+    "url": "https://a16z.com/marketplace-100/",
+    "type": "Report",
+    "tags": ["a16z", "Marketplaces", "Rankings"],
+    "level": "Easy"
+  },
+  {
+    "name": "Spotify Confidence",
+    "description": "Spotify's experimentation platform for feature flagging and A/B testing. SDK for controlled rollouts with built-in statistical analysis.",
+    "category": "AB Testing",
+    "url": "https://confidence.spotify.com",
+    "type": "Platform",
+    "tags": ["Feature Flags", "A/B Testing", "Experimentation Platform", "Spotify"],
+    "level": "Medium"
   }
 ]
