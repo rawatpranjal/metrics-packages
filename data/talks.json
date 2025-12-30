@@ -5167,5 +5167,89 @@
       "Reproducibility",
       "Education"
     ]
+  },
+  {
+    "name": "Xavier Amatriain: RecSys Talks",
+    "description": "Netflix recommendation system architect sharing production insights on matrix factorization, collaborative filtering, and A/B testing recommenders at scale.",
+    "category": "Recommendation Systems",
+    "url": "https://amatria.in/talks/",
+    "type": "Talk Series",
+    "tags": [
+      "Netflix",
+      "RecSys",
+      "Production ML"
+    ]
+  },
+  {
+    "name": "Daniel Tunkelang: Search with ML Course",
+    "description": "Learn search relevance from LinkedIn/Google/eBay veteran. Query understanding, learning-to-rank, and information retrieval fundamentals on Uplimit.",
+    "category": "Recommendation Systems",
+    "url": "https://uplimit.com/course/search-with-machine-learning",
+    "type": "Course",
+    "tags": [
+      "Search",
+      "Learning to Rank",
+      "Information Retrieval"
+    ]
+  },
+  {
+    "name": "Abhishek Thakur: ML YouTube Channel",
+    "description": "4x Kaggle Grandmaster teaching practical ML. Cross-validation, feature engineering, competition strategies with code walkthroughs.",
+    "category": "Machine Learning",
+    "url": "https://www.youtube.com/@abhaboraML",
+    "type": "Video Series",
+    "tags": [
+      "Kaggle",
+      "Practical ML",
+      "Tutorials"
+    ]
+  },
+  {
+    "name": "Chip Huyen: ML Systems Design Talks",
+    "description": "Author of Designing Machine Learning Systems on production ML architecture, real-time inference, and feature platforms.",
+    "category": "MLOps",
+    "url": "https://huyenchip.com/talks/",
+    "type": "Talk Series",
+    "tags": [
+      "ML Systems",
+      "Production",
+      "Architecture"
+    ]
+  },
+  {
+    "name": "MLWave: Kaggle Competition Retrospectives",
+    "description": "Triskelion (Hendrik Jacob van Veen) breaking down winning Kaggle solutions with focus on ensembling and feature engineering strategies.",
+    "category": "Machine Learning",
+    "url": "https://mlwave.com/",
+    "type": "Blog Series",
+    "tags": [
+      "Kaggle",
+      "Ensembling",
+      "Competition"
+    ]
+  },
+  {
+    "name": "NVIDIA GTC: Kaggle Grandmaster Sessions",
+    "description": "Chris Deotte, Bojan Tunguz, and other NVIDIA Kaggle Grandmasters sharing tabular ML techniques, GPU-accelerated feature engineering, and stacking strategies.",
+    "category": "Machine Learning",
+    "url": "https://www.nvidia.com/gtc/",
+    "type": "Conference",
+    "tags": [
+      "NVIDIA",
+      "Kaggle",
+      "GPU ML"
+    ]
+  },
+  {
+    "name": "Matei Zaharia: Data Brew Podcast",
+    "description": "Spark and MLflow creator discussing data infrastructure, ML lifecycle management, and the future of data platforms.",
+    "category": "MLOps",
+    "url": "https://databricks.com/discover/data-brew",
+    "type": "Podcast Series",
+    "tags": [
+      "Spark",
+      "MLflow",
+      "Databricks"
+    ]
   }
 ]

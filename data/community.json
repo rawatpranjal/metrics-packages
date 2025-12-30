@@ -15860,5 +15860,552 @@
       "distribution-free uncertainty",
       "Berkeley ML calibration"
     ]
+  },
+  {
+    "name": "Tianqi Chen",
+    "description": "Creator of XGBoost, Apache TVM, and co-creator of Apache MXNet. Assistant Professor at CMU, Distinguished Engineer at NVIDIA. PhD from University of Washington under Carlos Guestrin.",
+    "category": "Notable Contributors",
+    "url": "https://tqchen.com/",
+    "type": "Academic",
+    "location": "Pittsburgh, PA",
+    "best_for": "XGBoost internals, ML systems design, scalable machine learning, deep learning compilers",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "machine-learning",
+      "systems-programming"
+    ],
+    "topic_tags": [
+      "xgboost",
+      "tvm",
+      "mxnet",
+      "ml-systems",
+      "nvidia"
+    ],
+    "summary": "Tianqi Chen created XGBoost, the most widely-used gradient boosting library. His work on Apache TVM for deep learning compilers and MXNet shows exceptional breadth in ML systems.",
+    "use_cases": [
+      "Understanding XGBoost architecture",
+      "ML systems design",
+      "Deep learning compilation"
+    ],
+    "audience": [
+      "Senior-DS",
+      "ML-Engineer"
+    ],
+    "synthetic_questions": [
+      "Who created XGBoost",
+      "Tianqi Chen ML systems",
+      "XGBoost creator CMU",
+      "Apache TVM creator"
+    ]
+  },
+  {
+    "name": "Bojan Tunguz",
+    "description": "Kaggle Grandmaster at NVIDIA, PhD in Theoretical Physics from Stanford/UIUC. Self-taught data scientist who transitioned via competitions. Active XGBlog newsletter author.",
+    "category": "Notable Contributors",
+    "url": "https://www.xgblog.ai/",
+    "type": "Industry Leader",
+    "location": "Santa Clara, CA",
+    "best_for": "XGBoost best practices, tabular ML philosophy, Kaggle competition strategies, hyperparameter tuning",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python",
+      "machine-learning-basics"
+    ],
+    "topic_tags": [
+      "xgboost",
+      "kaggle",
+      "tabular-ml",
+      "nvidia",
+      "competitions"
+    ],
+    "summary": "Bojan Tunguz provides first-person perspective on XGBoost from daily use at NVIDIA with direct access to maintainers. Battle-tested competition insights combined with production deployment experience.",
+    "use_cases": [
+      "Learning XGBoost best practices",
+      "Kaggle competition preparation",
+      "Tabular ML workflows"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Bojan Tunguz",
+      "XGBlog author",
+      "NVIDIA Kaggle Grandmaster",
+      "XGBoost best practices"
+    ]
+  },
+  {
+    "name": "Ben Gorman",
+    "description": "Kaggle Master, data science consultant, founder of PracticeProbs.com. Author of the widely-cited Gradient Boosting Explained tutorial on GormAnalysis.",
+    "category": "Notable Contributors",
+    "url": "https://www.gormanalysis.com/",
+    "type": "Industry Leader",
+    "location": "New Orleans, LA",
+    "best_for": "Gradient boosting intuition, ML tutorials, practical explanations",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "statistics-basics",
+      "python"
+    ],
+    "topic_tags": [
+      "gradient-boosting",
+      "xgboost",
+      "tutorials",
+      "kaggle"
+    ],
+    "summary": "Ben Gormans Gradient Boosting Explained is widely cited as one of the clearest explanations ever written. Referenced by Explained.ai and countless courses.",
+    "use_cases": [
+      "Learning gradient boosting from scratch",
+      "Understanding ensemble methods"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Ben Gorman",
+      "GormAnalysis gradient boosting",
+      "best gradient boosting explanation"
+    ]
+  },
+  {
+    "name": "Xavier Amatriain",
+    "description": "VP of Product, Core AI/ML at Google. Built Netflix recommendation system, VP Engineering at Quora, Co-founder/CTO at Curai. PhD with 50+ publications and 4,000+ citations.",
+    "category": "Notable Contributors",
+    "url": "https://amatria.in/",
+    "type": "Industry Leader",
+    "location": "Bay Area, CA",
+    "best_for": "Netflix recommendation systems, matrix factorization, collaborative filtering at scale, A/B testing recommenders",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "machine-learning",
+      "linear-algebra"
+    ],
+    "topic_tags": [
+      "netflix",
+      "recsys",
+      "collaborative-filtering",
+      "matrix-factorization",
+      "google"
+    ],
+    "summary": "Xavier Amatriain is the first-hand architect of Netflixs production recommendation system with extensive writing on classic methods (SVD, RBMs, collaborative filtering). Bridges research and production.",
+    "use_cases": [
+      "Building recommendation systems",
+      "A/B testing recommenders",
+      "Scaling ML systems"
+    ],
+    "audience": [
+      "Senior-DS",
+      "ML-Engineer"
+    ],
+    "synthetic_questions": [
+      "Who is Xavier Amatriain",
+      "Netflix recommendation system architect",
+      "Google AI VP",
+      "matrix factorization production"
+    ]
+  },
+  {
+    "name": "Daniel Tunkelang",
+    "description": "Independent search consultant. Co-founder/Chief Scientist at Endeca (acquired by Oracle for $1.1B), Director of Data Science at LinkedIn, Search Lead at Google, Query science at eBay (6 years). PhD from CMU.",
+    "category": "Notable Contributors",
+    "url": "https://queryunderstanding.com/",
+    "type": "Industry Leader",
+    "location": "Bay Area, CA",
+    "best_for": "Query understanding, search relevance, learning-to-rank, information retrieval, BM25",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "information-retrieval",
+      "machine-learning"
+    ],
+    "topic_tags": [
+      "search",
+      "ltr",
+      "query-understanding",
+      "linkedin",
+      "google"
+    ],
+    "summary": "One of the most experienced search relevance practitioners globally. Deep focus on classic IR methods (BM25, LTR with gradient boosting). Practical consultant perspective on what actually works.",
+    "use_cases": [
+      "Building search systems",
+      "Learning to rank implementation",
+      "Query understanding"
+    ],
+    "audience": [
+      "Senior-DS",
+      "ML-Engineer"
+    ],
+    "synthetic_questions": [
+      "Who is Daniel Tunkelang",
+      "query understanding expert",
+      "LinkedIn search",
+      "learning to rank consultant"
+    ]
+  },
+  {
+    "name": "Jim Dowling",
+    "description": "CEO of Hopsworks, Associate Professor at KTH Royal Institute of Technology. Lead architect of open-source Hopsworks Feature Store, PhD in Distributed Systems.",
+    "category": "Notable Contributors",
+    "url": "https://www.hopsworks.ai/",
+    "type": "Industry Leader",
+    "location": "Stockholm, Sweden",
+    "best_for": "Feature store architecture, AI Lakehouse, ML pipeline design, feature versioning",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "mlops-basics",
+      "data-engineering"
+    ],
+    "topic_tags": [
+      "feature-store",
+      "hopsworks",
+      "mlops",
+      "ml-infrastructure"
+    ],
+    "summary": "Jim Dowling combines academic rigor with production experience building enterprise feature store platform. Deep technical insights on ML data infrastructure.",
+    "use_cases": [
+      "Designing feature stores",
+      "ML pipeline architecture",
+      "Enterprise ML infrastructure"
+    ],
+    "audience": [
+      "ML-Engineer",
+      "Data-Engineer"
+    ],
+    "synthetic_questions": [
+      "Who is Jim Dowling",
+      "Hopsworks CEO",
+      "feature store architect",
+      "KTH ML professor"
+    ]
+  },
+  {
+    "name": "Willem Pienaar",
+    "description": "Creator of Feast open-source feature store, Principal Engineer at Tecton. Formerly led Data Science Platform at Gojek.",
+    "category": "Notable Contributors",
+    "url": "https://blog.feast.dev",
+    "type": "Industry Leader",
+    "location": "Bay Area, CA",
+    "best_for": "Feature store open source, lightweight feature management, production feature serving",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python",
+      "mlops-basics"
+    ],
+    "topic_tags": [
+      "feast",
+      "feature-store",
+      "open-source",
+      "gojek",
+      "tecton"
+    ],
+    "summary": "Willem Pienaar created Feast, the most popular open-source feature store. Original creator perspective on feature store evolution from Uber-inspired concepts.",
+    "use_cases": [
+      "Implementing open-source feature stores",
+      "Feature serving at scale"
+    ],
+    "audience": [
+      "ML-Engineer",
+      "Data-Engineer"
+    ],
+    "synthetic_questions": [
+      "Who is Willem Pienaar",
+      "Feast creator",
+      "open source feature store",
+      "Gojek ML platform"
+    ]
+  },
+  {
+    "name": "Mike Del Balso",
+    "description": "Co-founder/CEO of Tecton, co-creator of Ubers Michelangelo ML platform that pioneered the feature store concept.",
+    "category": "Notable Contributors",
+    "url": "https://www.tecton.ai/",
+    "type": "Industry Leader",
+    "location": "Bay Area, CA",
+    "best_for": "Feature platform architecture, operational ML, real-time feature serving, Michelangelo design",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "mlops",
+      "distributed-systems"
+    ],
+    "topic_tags": [
+      "tecton",
+      "michelangelo",
+      "uber",
+      "feature-store",
+      "ml-platform"
+    ],
+    "summary": "Mike Del Balso is the original architect of the feature store concept at Uber with genuine production scale experience. Tecton represents his vision for enterprise ML infrastructure.",
+    "use_cases": [
+      "Enterprise ML platform design",
+      "Real-time feature serving",
+      "ML at Uber scale"
+    ],
+    "audience": [
+      "ML-Engineer",
+      "Staff-Engineer"
+    ],
+    "synthetic_questions": [
+      "Who is Mike Del Balso",
+      "Tecton CEO",
+      "Michelangelo creator",
+      "Uber ML platform"
+    ]
+  },
+  {
+    "name": "Matei Zaharia",
+    "description": "Creator of Apache Spark and MLflow, Assistant Professor at Stanford, Chief Technologist at Databricks. PhD from UC Berkeley.",
+    "category": "Notable Contributors",
+    "url": "https://cs.stanford.edu/~matei/",
+    "type": "Academic",
+    "location": "Stanford, CA",
+    "best_for": "ML lifecycle management, experiment tracking, distributed computing, Spark architecture",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "distributed-systems",
+      "data-engineering"
+    ],
+    "topic_tags": [
+      "spark",
+      "mlflow",
+      "databricks",
+      "stanford",
+      "distributed-ml"
+    ],
+    "summary": "Matei Zaharia created two of the most important data/ML infrastructure projects (Spark, MLflow). Foundational thinking on ML lifecycle management.",
+    "use_cases": [
+      "Understanding Spark internals",
+      "ML experiment tracking",
+      "Building data platforms"
+    ],
+    "audience": [
+      "ML-Engineer",
+      "Data-Engineer"
+    ],
+    "synthetic_questions": [
+      "Who is Matei Zaharia",
+      "Spark creator",
+      "MLflow creator",
+      "Databricks Stanford"
+    ]
+  },
+  {
+    "name": "Abhishek Thakur",
+    "description": "4x Kaggle Grandmaster, formerly Hugging Face NLP team. Author of Approaching (Almost) Any Machine Learning Problem (AAAMLP), widely considered the practical ML bible.",
+    "category": "Notable Contributors",
+    "url": "https://github.com/abhishekkrthakur",
+    "type": "Industry Leader",
+    "location": "Germany",
+    "best_for": "Cross-validation strategies, feature engineering pipelines, model selection framework, practical ML workflow",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python",
+      "machine-learning-basics"
+    ],
+    "topic_tags": [
+      "kaggle",
+      "aaamlp",
+      "practical-ml",
+      "huggingface",
+      "competitions"
+    ],
+    "summary": "Abhishek Thakurs AAAMLP is the definitive practitioners guide to structured ML problem-solving. Code-along format with no-nonsense approach to tabular ML and feature engineering.",
+    "use_cases": [
+      "Learning practical ML workflow",
+      "Kaggle competition preparation",
+      "Feature engineering"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Abhishek Thakur",
+      "AAAMLP author",
+      "4x Kaggle Grandmaster",
+      "practical ML book"
+    ]
+  },
+  {
+    "name": "Hendrik Jacob van Veen (Triskelion)",
+    "description": "Dutch Kaggle competitor known as Triskelion. Author of the canonical Kaggle Ensembling Guide with 1000+ GitHub stars, cited in papers worldwide.",
+    "category": "Notable Contributors",
+    "url": "https://mlwave.com/",
+    "type": "Industry Leader",
+    "location": "Netherlands",
+    "best_for": "Model ensembling, stacking, rank averaging, voting ensembles, blending",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "machine-learning",
+      "python"
+    ],
+    "topic_tags": [
+      "ensembling",
+      "stacking",
+      "kaggle",
+      "mlwave"
+    ],
+    "summary": "The Kaggle Ensembling Guide alone makes Triskelion essential reading. Highly practical, code-included approach to ensemble methods cited by thousands.",
+    "use_cases": [
+      "Learning ensemble methods",
+      "Kaggle stacking strategies",
+      "Model blending"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Triskelion",
+      "MLWave author",
+      "Kaggle ensembling guide",
+      "model stacking expert"
+    ]
+  },
+  {
+    "name": "Zygmunt Zajac",
+    "description": "Economist by education, Poland-based ML practitioner. Author of FastML blog since 2011, Hyperband implementation (594 GitHub stars).",
+    "category": "Notable Contributors",
+    "url": "https://fastml.com/",
+    "type": "Industry Leader",
+    "location": "Poland",
+    "best_for": "Practical ML algorithms, hyperparameter tuning, recommender systems, data preprocessing",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python",
+      "statistics"
+    ],
+    "topic_tags": [
+      "fastml",
+      "hyperband",
+      "practical-ml",
+      "tutorials"
+    ],
+    "summary": "FastML explains complex ML topics without PhD-level math. Machine learning made easy approach with code accompanying most posts since 2011.",
+    "use_cases": [
+      "Learning practical ML",
+      "Hyperparameter tuning",
+      "Quick ML tutorials"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Who is Zygmunt Zajac",
+      "FastML author",
+      "Hyperband implementation",
+      "practical ML tutorials"
+    ]
+  },
+  {
+    "name": "Scott Lundberg",
+    "description": "Creator of SHAP, former Microsoft Research, PhD from University of Washington. NeurIPS 2017 oral presentation for original SHAP paper.",
+    "category": "Notable Contributors",
+    "url": "https://scottlundberg.com/",
+    "type": "Industry Leader",
+    "location": "Seattle, WA",
+    "best_for": "SHAP methodology, TreeSHAP, feature attribution, model explainability",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "machine-learning",
+      "statistics"
+    ],
+    "topic_tags": [
+      "shap",
+      "explainability",
+      "feature-attribution",
+      "microsoft",
+      "interpretability"
+    ],
+    "summary": "Scott Lundberg created SHAP, the most widely-used method for explaining ML predictions. The shap Python package is used by thousands daily; his publications define best practices.",
+    "use_cases": [
+      "Explaining ML model predictions",
+      "Feature importance analysis",
+      "Model debugging"
+    ],
+    "audience": [
+      "Senior-DS",
+      "ML-Engineer"
+    ],
+    "synthetic_questions": [
+      "Who is Scott Lundberg",
+      "SHAP creator",
+      "TreeSHAP author",
+      "Microsoft Research ML"
+    ]
+  },
+  {
+    "name": "Jason Brownlee",
+    "description": "PhD in AI, author of 20+ ML books. Creator of Machine Learning Mastery, the most comprehensive applied ML tutorial resource.",
+    "category": "Notable Contributors",
+    "url": "https://machinelearningmastery.com/",
+    "type": "Industry Leader",
+    "location": "Australia",
+    "best_for": "Imbalanced classification, time series forecasting, SMOTE, cost-sensitive learning, practical tutorials",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "python-basics"
+    ],
+    "topic_tags": [
+      "tutorials",
+      "imbalanced-data",
+      "time-series",
+      "applied-ml",
+      "books"
+    ],
+    "summary": "Jason Brownlee is THE go-to resource for applied ML practitioners. Extensive archive covering imbalanced classification, time series, deep learning with practical, code-first approach.",
+    "use_cases": [
+      "Learning ML from scratch",
+      "Handling imbalanced data",
+      "Time series forecasting"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Career-Switcher"
+    ],
+    "synthetic_questions": [
+      "Who is Jason Brownlee",
+      "Machine Learning Mastery author",
+      "imbalanced classification tutorials",
+      "applied ML books"
+    ]
+  },
+  {
+    "name": "Ferenc Huszar",
+    "description": "Former ML researcher at Twitter/X, PhD from Cambridge. Known for inFERENCe blog bridging ML research with causal inference.",
+    "category": "Notable Contributors",
+    "url": "https://www.inference.vc/",
+    "type": "Industry Leader",
+    "location": "London, UK",
+    "best_for": "Causal inference, do-calculus, counterfactuals, ML theory, Pearls work explained",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "machine-learning",
+      "probability"
+    ],
+    "topic_tags": [
+      "causal-inference",
+      "do-calculus",
+      "twitter",
+      "ml-theory",
+      "inference"
+    ],
+    "summary": "Ferenc Huszar bridges ML research community with causal inference through accessible explanations of Pearls work. 4-part series on ML beyond Curve Fitting is highly influential.",
+    "use_cases": [
+      "Understanding causal inference",
+      "Learning do-calculus",
+      "ML theory deep dives"
+    ],
+    "audience": [
+      "Senior-DS",
+      "ML-Researcher"
+    ],
+    "synthetic_questions": [
+      "Who is Ferenc Huszar",
+      "inFERENCe blog",
+      "Twitter ML researcher",
+      "causal inference blog"
+    ]
   }
 ]

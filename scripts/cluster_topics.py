@@ -101,17 +101,22 @@ def main():
 
     # Load embeddings
     print("Loading embeddings...")
-    embeddings = load_embeddings(embeddings_dir / "search-embeddings.bin", count, dim)
-    print(f"  Loaded shape: {embeddings.shape}")
+    all_embeddings = load_embeddings(embeddings_dir / "search-embeddings.bin", count, dim)
+    print(f"  Loaded shape: {all_embeddings.shape}")
+
+    # Filter out career items (company listings dominate with generic labels)
+    print("\nFiltering out career/company items...")
+    filtered_indices = [i for i, item in enumerate(items) if item['type'] != 'career']
+    items_filtered = [items[i] for i in filtered_indices]
+    embeddings = all_embeddings[filtered_indices]
+    print(f"  Filtered: {len(items_filtered)} items (excluded {count - len(items_filtered)} career items)")
 
     # Normalize embeddings for better clustering
     norms = np.linalg.norm(embeddings, axis=1, keepdims=True)
     embeddings_norm = embeddings / norms
 
-    # Find optimal K or use default
-    # k_range = range(15, 35, 5)
-    # optimal_k = find_optimal_k(embeddings_norm, k_range)
-    optimal_k = 200  # Granular clusters, ~15 items each
+    # Adjust K based on filtered count (~15 items per cluster)
+    optimal_k = max(50, len(items_filtered) // 15)
 
     # Run K-means clustering
     print(f"\nRunning K-means with K={optimal_k}...")
@@ -128,10 +133,10 @@ def main():
         indices = np.where(cluster_labels == cluster_id)[0].tolist()
 
         # Extract label from common tags
-        label, top_tags, top_categories = extract_cluster_label(items, items, indices)
+        label, top_tags, top_categories = extract_cluster_label(items_filtered, items_filtered, indices)
 
         # Get item IDs
-        item_ids = [items[i]['id'] for i in indices]
+        item_ids = [items_filtered[i]['id'] for i in indices]
 
         # Store mapping
         for item_id in item_ids:
@@ -165,7 +170,7 @@ def main():
     output = {
         "generated_at": np.datetime64('now').astype(str),
         "num_clusters": optimal_k,
-        "num_items": count,
+        "num_items": len(items_filtered),
         "clusters": clusters,
         "item_to_cluster": item_to_cluster
     }
