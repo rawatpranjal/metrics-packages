@@ -132,8 +132,8 @@
                      data-description="{{ .description | lower }}"
                      data-category="{{ .category }}">
                     <div class="card-header">
-                        <img class="resource-favicon"
-                             src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32"
+                        <img class="resource-favicon lazy-badge"
+                             data-src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32"
                              alt=""
                              loading="lazy"
                              onerror="this.style.display='none'">
@@ -164,8 +164,8 @@
                      data-description="{{ .description | lower }}"
                      data-category="{{ .category }}">
                     <div class="card-header">
-                        <img class="resource-favicon"
-                             src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32"
+                        <img class="resource-favicon lazy-badge"
+                             data-src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32"
                              alt=""
                              loading="lazy"
                              onerror="this.style.display='none'">
@@ -197,8 +197,8 @@
                      data-category="{{ .category }}"
                      data-location="{{ .location | lower }}">
                     <div class="card-header">
-                        <img class="resource-favicon"
-                             src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32"
+                        <img class="resource-favicon lazy-badge"
+                             data-src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32"
                              alt=""
                              loading="lazy"
                              onerror="this.style.display='none'">
@@ -380,7 +380,7 @@
                 <div class="cards-row">
                     {{ range $.Site.Data.community }}
                     {{ if eq .category $cat }}
-                    <div class="resource-card" data-aos="fade-up"
+                    <div class="resource-card"
                          data-name="{{ .name | lower }}"
                          data-description="{{ .description | lower }}"
                          data-category="{{ .category }}"
@@ -480,6 +480,24 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+    // Lazy load images with Intersection Observer
+    var badgeObserver = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+                var img = entry.target;
+                if (img.dataset.src) {
+                    img.src = img.dataset.src;
+                    img.removeAttribute('data-src');
+                }
+                badgeObserver.unobserve(img);
+            }
+        });
+    }, { rootMargin: '100px' });
+
+    document.querySelectorAll('.lazy-badge').forEach(function(img) {
+        badgeObserver.observe(img);
+    });
+
     // Initialize PageSearch with Fuse.js
     new PageSearch({
         searchInputId: 'community-search',
