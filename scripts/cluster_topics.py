@@ -88,7 +88,7 @@ def main():
     # Paths
     project_root = Path(__file__).parent.parent
     embeddings_dir = project_root / "static" / "embeddings"
-    output_file = project_root / "data" / "topic_clusters.json"
+    output_file = project_root / "data" / "topic_clusters_all.json"
 
     # Load metadata first to get count and dimensions
     print("Loading metadata...")
@@ -104,12 +104,12 @@ def main():
     all_embeddings = load_embeddings(embeddings_dir / "search-embeddings.bin", count, dim)
     print(f"  Loaded shape: {all_embeddings.shape}")
 
-    # Filter out career items (company listings dominate with generic labels)
-    print("\nFiltering out career/company items...")
-    filtered_indices = [i for i, item in enumerate(items) if item['type'] != 'career']
-    items_filtered = [items[i] for i in filtered_indices]
-    embeddings = all_embeddings[filtered_indices]
-    print(f"  Filtered: {len(items_filtered)} items (excluded {count - len(items_filtered)} career items)")
+    # Include all items for comprehensive explore view
+    print("\nUsing all items (including career)...")
+    filtered_indices = list(range(len(items)))
+    items_filtered = items
+    embeddings = all_embeddings
+    print(f"  Total: {len(items_filtered)} items")
 
     # Normalize embeddings for better clustering
     norms = np.linalg.norm(embeddings, axis=1, keepdims=True)

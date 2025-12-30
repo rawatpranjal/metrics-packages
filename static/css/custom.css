@@ -8672,3 +8672,339 @@ mark.partial {
         padding: 0 0.5rem 0.25rem 0.5rem;
     }
 }
+
+/* ============================================
+   EXPLORE PAGE - Netflix-Style Scrollers
+   ============================================ */
+
+.explore-container {
+    max-width: 100%;
+    padding: 1.5rem 0;
+    overflow-x: hidden;
+}
+
+.explore-controls {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 2rem 1rem;
+}
+
+.shuffle-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1.2rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.shuffle-btn:hover {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+}
+
+.shuffle-btn svg {
+    transition: transform 0.3s ease;
+}
+
+.shuffle-btn:hover svg {
+    transform: rotate(180deg);
+}
+
+.explore-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Single Cluster Row */
+.explore-row {
+    position: relative;
+    content-visibility: auto;
+    contain-intrinsic-size: auto 280px;
+}
+
+.explore-row-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.explore-row-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.explore-row-count {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    background: var(--bg-hover);
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+}
+
+/* Horizontal Scroller */
+.explore-scroller-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.explore-scroller {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 0.5rem 2rem 1rem;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+.explore-scroller::-webkit-scrollbar {
+    display: none;
+}
+
+/* Navigation Arrows */
+.scroller-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    opacity: 0;
+    transition: opacity 0.2s, background 0.2s, transform 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.explore-row:hover .scroller-nav {
+    opacity: 1;
+}
+
+.scroller-nav:hover {
+    background: var(--accent);
+    color: white;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.scroller-nav.prev {
+    left: 8px;
+}
+
+.scroller-nav.next {
+    right: 8px;
+}
+
+.scroller-nav.disabled {
+    opacity: 0.3 !important;
+    pointer-events: none;
+}
+
+/* Explore Card (Netflix-style) */
+.explore-card {
+    flex: 0 0 280px;
+    min-width: 280px;
+    max-width: 280px;
+    height: 200px;
+    background: var(--bg-card);
+    border-radius: 12px;
+    padding: 1.25rem;
+    border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.2s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.explore-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent), transparent);
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.explore-card:hover {
+    transform: scale(1.05) translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.2);
+    border-color: var(--accent);
+    z-index: 5;
+}
+
+.explore-card:hover::before {
+    opacity: 1;
+}
+
+/* Card Type Badge */
+.explore-card-type {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    align-self: flex-start;
+}
+
+/* Type-specific colors */
+.explore-card-type.type-package { background: #e3f2fd; color: #1565c0; }
+.explore-card-type.type-resource { background: #f3e5f5; color: #7b1fa2; }
+.explore-card-type.type-dataset { background: #e8f5e9; color: #2e7d32; }
+.explore-card-type.type-talk { background: #fff3e0; color: #e65100; }
+.explore-card-type.type-career { background: #e0f7fa; color: #00838f; }
+.explore-card-type.type-community { background: #fce4ec; color: #c2185b; }
+.explore-card-type.type-book { background: #f1f8e9; color: #558b2f; }
+
+[data-theme="dark"] .explore-card-type.type-package { background: #1a3a5c; color: #64b5f6; }
+[data-theme="dark"] .explore-card-type.type-resource { background: #3d2a4d; color: #ce93d8; }
+[data-theme="dark"] .explore-card-type.type-dataset { background: #1b3a2a; color: #81c784; }
+[data-theme="dark"] .explore-card-type.type-talk { background: #3d2a1a; color: #ffb74d; }
+[data-theme="dark"] .explore-card-type.type-career { background: #1a3a3d; color: #4dd0e1; }
+[data-theme="dark"] .explore-card-type.type-community { background: #3d1a2a; color: #f48fb1; }
+[data-theme="dark"] .explore-card-type.type-book { background: #2a3a1a; color: #aed581; }
+
+.explore-card-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0 0 0.5rem 0;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.explore-card-title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.explore-card-title a:hover {
+    color: var(--accent);
+}
+
+.explore-card-desc {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin: 0;
+    flex-grow: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.explore-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: auto;
+    padding-top: 0.5rem;
+}
+
+.explore-card-tag {
+    padding: 0.15rem 0.4rem;
+    font-size: 0.6rem;
+    background: var(--bg-hover);
+    color: var(--text-muted);
+    border-radius: 8px;
+}
+
+/* Loading State */
+.explore-loader {
+    display: none;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.explore-loader.visible {
+    display: flex;
+}
+
+.loader-spinner {
+    width: 32px;
+    height: 32px;
+    border: 3px solid var(--border-color);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Hero for Explore Page */
+.hero-explore {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-align: center;
+    padding: 3rem 2rem;
+    margin-bottom: 0;
+}
+
+.hero-explore .hero-title {
+    color: white;
+}
+
+.hero-explore .hero-tagline {
+    color: rgba(255,255,255,0.9);
+}
+
+/* Mobile Responsive for Explore */
+@media (max-width: 768px) {
+    .explore-card {
+        flex: 0 0 240px;
+        min-width: 240px;
+        max-width: 240px;
+        height: 180px;
+    }
+
+    .explore-row-header {
+        padding: 0 1rem;
+    }
+
+    .explore-scroller {
+        padding: 0.5rem 1rem 1rem;
+        gap: 0.75rem;
+    }
+
+    .scroller-nav {
+        display: none;
+    }
+
+    .explore-controls {
+        padding: 0 1rem 1rem;
+    }
+
+    .hero-explore {
+        padding: 2rem 1rem;
+    }
+}
