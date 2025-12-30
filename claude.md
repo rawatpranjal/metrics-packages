@@ -1,2 +1,4 @@
 - always do git push when done. 
 - never ever remove anything. try to find the link or fix it. never remove. content removed is content lost. 
+- never remove something -- try to find a new home for it, or keep it out of the site (but do not delete from the repo) (put into archive)
+- to see template for the content see template.txt

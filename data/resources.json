@@ -12047,7 +12047,38 @@
       "Machine Learning",
       "Decision Making"
     ],
-    "level": "Easy"
+    "level": "Easy",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "behavioral-economics",
+      "machine-learning",
+      "decision-making"
+    ],
+    "summary": "This podcast features a deep conversation with Sendhil Mullainathan, exploring behavioral economics and its intersection with machine learning and decision-making under uncertainty. It is ideal for those interested in understanding how these concepts apply to social science.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is behavioral economics?",
+      "How does machine learning apply to social science?",
+      "What are decision-making strategies under uncertainty?",
+      "Who is Sendhil Mullainathan?",
+      "What insights can be gained from behavioral economics?",
+      "How can machine learning inform decision-making?",
+      "What are the implications of behavioral economics in real-world scenarios?",
+      "What topics are covered in Knowledge Project #102?"
+    ],
+    "use_cases": [
+      "to gain insights into behavioral economics and its applications",
+      "to understand decision-making processes in uncertain environments"
+    ],
+    "content_format": "podcast",
+    "skill_progression": [
+      "understanding of behavioral economics",
+      "insights into machine learning applications in social science",
+      "improved decision-making skills under uncertainty"
+    ]
   },
   {
     "name": "Stanford Fintech: Sendhil Mullainathan on ML as Tool for Science",
@@ -12060,7 +12091,38 @@
       "Science",
       "Methodology"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning",
+      "science"
+    ],
+    "summary": "This webinar explores the role of machine learning in scientific discovery, focusing on understanding causal mechanisms rather than just prediction. It is suitable for those interested in the intersection of machine learning and scientific methodology.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is the role of ML in scientific discovery?",
+      "How can ML help in understanding causal mechanisms?",
+      "What are the limitations of ML in prediction?",
+      "Who is Sendhil Mullainathan?",
+      "What methodologies are discussed in the webinar?",
+      "How does ML contribute to causal inference?",
+      "What are the implications of ML for scientific research?",
+      "What can I learn from this webinar?"
+    ],
+    "use_cases": [
+      "Understanding the application of ML in scientific research",
+      "Exploring causal inference techniques",
+      "Learning about the methodologies used in ML"
+    ],
+    "content_format": "video",
+    "skill_progression": [
+      "Understanding of ML applications in science",
+      "Knowledge of causal inference methodologies"
+    ]
   },
   {
     "name": "UChicago Law: Discrimination by Algorithm and People",
@@ -12073,7 +12135,38 @@
       "Discrimination",
       "Policy"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": null,
+    "topic_tags": [
+      "algorithmic-fairness",
+      "discrimination",
+      "policy"
+    ],
+    "summary": "This resource explores the implications of algorithmic discrimination compared to human decision-making, focusing on policy considerations. It is suitable for those interested in the intersection of technology and social issues.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is algorithmic discrimination?",
+      "How do ML-based decisions compare to human decisions?",
+      "What are the policy implications of algorithmic fairness?",
+      "Who is Sendhil Mullainathan?",
+      "What are the ethical considerations in algorithmic decision-making?",
+      "How can we address discrimination in algorithms?",
+      "What role does policy play in algorithmic fairness?",
+      "What are examples of algorithmic discrimination?"
+    ],
+    "use_cases": [
+      "to understand the impact of algorithms on discrimination",
+      "to learn about policy implications of ML decisions"
+    ],
+    "content_format": "video",
+    "skill_progression": [
+      "understanding algorithmic discrimination",
+      "comparing ML and human decision-making",
+      "analyzing policy implications"
+    ]
   },
   {
     "name": "Hal Varian: Machine Learning and Econometrics (Berkeley)",
@@ -12086,7 +12179,37 @@
       "Econometrics",
       "Google"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning",
+      "econometrics"
+    ],
+    "summary": "This resource covers the integration of machine learning and econometrics, focusing on key concepts such as prediction versus inference and variable selection. It is suitable for those interested in the intersection of these fields, particularly in a statistical context.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What is the relationship between machine learning and econometrics?",
+      "How can variable selection improve model performance?",
+      "What are modern statistical approaches in econometrics?",
+      "When should I prioritize prediction over inference?",
+      "What insights does Google's Chief Economist provide on ML?",
+      "How does machine learning impact economic predictions?",
+      "What are the challenges in bridging ML and econometrics?",
+      "What skills are necessary for understanding econometrics in the context of ML?"
+    ],
+    "use_cases": [],
+    "content_format": "video",
+    "skill_progression": [
+      "understanding of machine learning concepts",
+      "knowledge of econometric techniques",
+      "ability to apply statistical approaches"
+    ]
   },
   {
     "name": "Hal Varian: Big Data - New Tricks for Econometrics",
@@ -12099,7 +12222,43 @@
       "Econometrics",
       "Methods"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python-basics",
+      "linear-regression"
+    ],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning",
+      "econometrics"
+    ],
+    "summary": "This paper explores machine learning methods such as classification/regression trees, random forests, LASSO, and cross-validation techniques, providing insights for economists. It is suitable for those interested in applying ML methods to econometric analysis.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What are the ML methods relevant for economists?",
+      "How can classification trees be applied in econometrics?",
+      "What is the significance of LASSO in data analysis?",
+      "What techniques are used for cross-validation?",
+      "How do random forests improve econometric modeling?",
+      "What are the new tricks for econometrics using big data?",
+      "What machine learning methods should economists know?",
+      "How does this paper contribute to the field of econometrics?"
+    ],
+    "use_cases": [
+      "when to apply ML methods in econometrics",
+      "understanding advanced econometric techniques"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "understanding ML methods",
+      "applying econometric techniques",
+      "enhancing data analysis skills"
+    ]
   },
   {
     "name": "EconTalk: Hal Varian on Technology",
@@ -12112,7 +12271,38 @@
       "Economics",
       "Internet"
     ],
-    "level": "Easy"
+    "level": "Easy",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "internet-economics",
+      "data-driven-decision-making"
+    ],
+    "summary": "In this podcast, listeners will gain insights into technology adoption and its impact on economics from Google's Chief Economist, Hal Varian. This resource is suitable for anyone interested in understanding the intersection of technology and economics.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is the role of technology in economics?",
+      "How does data influence decision making?",
+      "What are the challenges of technology adoption?",
+      "Who is Hal Varian?",
+      "What is platform economics?",
+      "How does the internet affect economic models?",
+      "What are the implications of data-driven decisions?",
+      "What can we learn from Google's approach to economics?"
+    ],
+    "use_cases": [
+      "to understand technology's impact on economics",
+      "to learn about internet economics",
+      "to explore data-driven decision making"
+    ],
+    "content_format": "podcast",
+    "skill_progression": [
+      "understanding of technology adoption",
+      "insights into internet economics",
+      "knowledge of data-driven decision making"
+    ]
   },
   {
     "name": "CEPR VoxEU: Doing Economics at Google",
@@ -12125,7 +12315,38 @@
       "Google",
       "Industry Practice"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "platform-economics",
+      "auction-design",
+      "pricing"
+    ],
+    "summary": "In this podcast, Hal Varian discusses the application of economics within a tech company, focusing on auction design, pricing strategies, and conducting empirical work at scale. This resource is suitable for those interested in the intersection of economics and technology.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is platform economics?",
+      "How does Google apply economic principles?",
+      "What are the challenges of auction design?",
+      "What empirical methods are used in tech companies?",
+      "How does pricing work at scale?",
+      "What can economists learn from tech companies?",
+      "What is the role of economics in the tech industry?",
+      "Who is Hal Varian?"
+    ],
+    "use_cases": [
+      "to understand economics in tech companies",
+      "to learn about auction design",
+      "to explore pricing strategies in the tech industry"
+    ],
+    "content_format": "podcast",
+    "skill_progression": [
+      "understanding of economics in technology",
+      "insights into auction design and pricing strategies"
+    ]
   },
   {
     "name": "Applied Causal Inference Book (Chernozhukov et al.)",
@@ -12138,7 +12359,41 @@
       "Machine Learning",
       "Textbook"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python-basics",
+      "linear-regression"
+    ],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning"
+    ],
+    "summary": "This comprehensive online textbook covers advanced topics in causal inference and machine learning, including double machine learning (DML) and causal forests. It is an essential reference for practitioners looking to deepen their understanding of modern causal ML methods.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What is causal inference?",
+      "How to implement causal forests in Python?",
+      "What are modern causal ML methods?",
+      "What is double machine learning?",
+      "How to use R for causal inference?",
+      "What are the applications of causal inference in practice?",
+      "What are the prerequisites for learning causal ML?",
+      "Where can I find examples of causal inference techniques?"
+    ],
+    "use_cases": [
+      "When to apply causal inference methods in research",
+      "When to use machine learning for causal analysis"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "Understanding causal inference techniques",
+      "Implementing machine learning methods for causal analysis"
+    ]
   },
   {
     "name": "Stanford STATS 361: Causal Inference Lecture Notes (Wager)",
@@ -12151,7 +12406,43 @@
       "Statistics",
       "Stanford"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "python-basics",
+      "linear-regression"
+    ],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning",
+      "statistics"
+    ],
+    "summary": "These lecture notes cover advanced topics in causal inference using machine learning techniques. They are designed for graduate students and professionals interested in understanding heterogeneous treatment effects and conformal inference.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What are the key concepts in causal inference?",
+      "How can machine learning be applied to causal inference?",
+      "What are heterogeneous treatment effects?",
+      "What is conformal inference?",
+      "What methods are used in causal inference?",
+      "How does Stanford teach causal inference?",
+      "What are the applications of forest methods?",
+      "Where can I find graduate course notes on causal inference?"
+    ],
+    "use_cases": [
+      "When studying causal inference in machine learning",
+      "For reference in advanced statistics courses"
+    ],
+    "content_format": "course",
+    "skill_progression": [
+      "Understanding causal inference",
+      "Applying machine learning to causal problems",
+      "Analyzing treatment effects"
+    ]
   },
   {
     "name": "Netflix: A Survey of Causal Inference Applications",
@@ -12164,7 +12455,29 @@
       "Netflix",
       "Applications"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning"
+    ],
+    "summary": "This resource provides a comprehensive overview of how Netflix utilizes causal inference in its operations. It is suitable for individuals interested in understanding practical applications of causal inference in a large-scale tech environment.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How does Netflix use causal inference?",
+      "What are the applications of causal inference at Netflix?",
+      "What is the role of experimentation in Netflix's decision-making?",
+      "How does Netflix personalize content using causal inference?",
+      "What can I learn about causal inference from Netflix?",
+      "What techniques does Netflix apply in causal inference?",
+      "How does Netflix scale its content decisions?",
+      "What are the challenges of applying causal inference at scale?"
+    ],
+    "use_cases": [],
+    "content_format": "article"
   },
   {
     "name": "Netflix: Computational Causal Inference",
@@ -12177,7 +12490,40 @@
       "Infrastructure",
       "Netflix"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python-basics"
+    ],
+    "topic_tags": [
+      "causal-inference",
+      "infrastructure"
+    ],
+    "summary": "This resource provides a technical deep-dive into Netflix's causal inference infrastructure and software tools. It is aimed at individuals interested in scalable computation approaches for causal analysis.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What is Netflix's approach to causal inference?",
+      "How does Netflix implement scalable computation for causal analysis?",
+      "What software tools does Netflix use for causal inference?",
+      "What are the challenges in causal analysis?",
+      "How can I learn about infrastructure for causal inference?",
+      "What are the best practices for causal analysis in machine learning?",
+      "What resources are available for understanding causal inference?",
+      "What is the significance of causal inference in data science?"
+    ],
+    "use_cases": [
+      "when to understand Netflix's causal inference methods",
+      "when to learn about scalable computation in causal analysis"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "understanding of causal inference",
+      "knowledge of scalable computation techniques"
+    ]
   },
   {
     "name": "Netflix: Round 2 - Causal Inference Survey (Synthetic Control)",
@@ -12190,7 +12536,41 @@
       "Causal Inference",
       "Netflix"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python-basics"
+    ],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning"
+    ],
+    "summary": "This resource focuses on advanced causal techniques and synthetic control methods used at Netflix, ideal for those looking to deepen their understanding of causal inference in practical applications.",
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "synthetic control methods",
+      "panel data approaches",
+      "advanced causal techniques",
+      "Netflix case study",
+      "applications of synthetic control",
+      "challenges in causal inference",
+      "data analysis techniques",
+      "impact evaluation methods"
+    ],
+    "use_cases": [
+      "when to apply synthetic control methods",
+      "analyzing panel data",
+      "evaluating causal impacts"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "advanced causal inference techniques",
+      "synthetic control application",
+      "panel data analysis"
+    ]
   },
   {
     "name": "Airbnb: Using ML to Predict Value of Homes",
@@ -12203,7 +12583,35 @@
       "Pricing",
       "Airbnb"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "machine-learning",
+      "pricing"
+    ],
+    "summary": "This resource explores how Airbnb utilizes machine learning models to predict the value of homes by integrating various property features with market dynamics and host characteristics. It is suitable for individuals interested in understanding the application of ML in real estate pricing.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How does Airbnb use machine learning for pricing?",
+      "What features are important in estimating home values?",
+      "What are the market dynamics affecting Airbnb listings?",
+      "How can ML models be built for property valuation?",
+      "What role do host characteristics play in pricing?",
+      "What insights can be gained from Airbnb's approach to ML?",
+      "How does machine learning impact revenue management?",
+      "What are the challenges in predicting home values with ML?"
+    ],
+    "use_cases": [],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding of machine learning applications in pricing",
+      "Knowledge of property valuation techniques"
+    ]
   },
   {
     "name": "Airbnb: Experiments at Airbnb",
@@ -12216,7 +12624,35 @@
       "A/B Testing",
       "Airbnb"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "A/B Testing",
+      "Experimentation"
+    ],
+    "summary": "This article provides insights into Airbnb's experimentation platform, focusing on A/B testing infrastructure, metric design, and lessons learned from large-scale experiments. It is suitable for those interested in understanding practical applications of experimentation in tech environments.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is Airbnb's experimentation platform?",
+      "How does A/B testing work at Airbnb?",
+      "What metrics are important for A/B testing?",
+      "What lessons has Airbnb learned from experiments?",
+      "What is the infrastructure behind Airbnb's A/B testing?",
+      "How can I implement A/B testing in my projects?",
+      "What are the best practices for running experiments at scale?",
+      "What challenges are faced in A/B testing?"
+    ],
+    "use_cases": [
+      "When to implement A/B testing in product development"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding of A/B testing principles",
+      "Knowledge of experimentation infrastructure"
+    ]
   },
   {
     "name": "DoorDash: Leveraging Causal Inference for Forecasts",
@@ -12229,7 +12665,36 @@
       "Forecasting",
       "DoorDash"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "forecasting"
+    ],
+    "summary": "This resource explores how DoorDash utilizes causal inference to enhance forecasting accuracy and understand the impacts of interventions. It is suitable for individuals interested in the intersection of data science and operational efficiency.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How does DoorDash use causal inference?",
+      "What is causal inference in forecasting?",
+      "Why is demand prediction important for delivery services?",
+      "What techniques improve forecasting accuracy?",
+      "How can causal inference impact business decisions?",
+      "What are the benefits of understanding intervention impacts?",
+      "What role does machine learning play in demand forecasting?",
+      "What are the challenges in demand prediction?"
+    ],
+    "use_cases": [],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding causal inference",
+      "Applying forecasting techniques",
+      "Improving demand prediction accuracy"
+    ]
   },
   {
     "name": "Meta: Instagram Notification Management with ML and Causal Inference",
@@ -12242,7 +12707,35 @@
       "Causal Inference",
       "Instagram"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning"
+    ],
+    "summary": "This resource explores how Instagram leverages machine learning and causal inference methods to enhance notification delivery, aiming to improve user engagement while maintaining a positive user experience. It is suitable for individuals interested in the intersection of technology and user experience optimization.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How does Instagram use machine learning for notifications?",
+      "What are causal methods in ML?",
+      "How to balance user engagement and experience?",
+      "What techniques does Instagram employ for notification management?",
+      "What can we learn from Instagram's approach to notifications?",
+      "How is ML applied in social media?",
+      "What is the role of causal inference in technology?",
+      "How to optimize notification delivery using ML?"
+    ],
+    "use_cases": [],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding of ML applications in social media",
+      "Knowledge of causal inference methods"
+    ]
   },
   {
     "name": "Microsoft Research: Adversarial ML and Instrumental Variables",
@@ -12255,7 +12748,30 @@
       "Instrumental Variables",
       "ML"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning"
+    ],
+    "summary": "This resource explores an innovative approach that combines adversarial machine learning with instrumental variables for flexible causal modeling in complex settings. It is aimed at those interested in advanced techniques in causal inference and machine learning.",
+    "audience": [
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is adversarial machine learning?",
+      "How do instrumental variables work?",
+      "What are the applications of causal modeling?",
+      "What is the significance of combining ML with causal inference?",
+      "Who can benefit from adversarial ML techniques?",
+      "What challenges are faced in causal modeling?",
+      "How does this approach differ from traditional methods?",
+      "What are the latest trends in ML and causal inference?"
+    ],
+    "use_cases": [],
+    "content_format": "article"
   },
   {
     "name": "Microsoft Research: End-to-End Causal Inference at Scale Demo",
@@ -12268,7 +12784,37 @@
       "Causal Inference",
       "Production"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [
+      "python-basics"
+    ],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning"
+    ],
+    "summary": "This demo video showcases the EconML ecosystem for production causal inference, guiding viewers through data preparation to deployment. It is aimed at those interested in applying causal inference techniques in practical scenarios.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is EconML?",
+      "How to perform causal inference at scale?",
+      "What are the steps in production causal inference?",
+      "What tools does Microsoft provide for causal inference?",
+      "How to prepare data for causal inference?",
+      "What is the deployment process for causal models?",
+      "What are the benefits of using EconML?",
+      "Where can I find resources on causal inference?"
+    ],
+    "use_cases": [
+      "when to use EconML for causal inference"
+    ],
+    "content_format": "video",
+    "skill_progression": [
+      "understanding of causal inference",
+      "familiarity with EconML"
+    ]
   },
   {
     "name": "Google Research: CausalImpact Paper",
@@ -12281,7 +12827,40 @@
       "Time Series",
       "Google"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python-basics"
+    ],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning",
+      "statistics"
+    ],
+    "summary": "This paper introduces the CausalImpact package, which uses Bayesian structural time-series models to infer causal impact in interrupted time series. It is suitable for data scientists and researchers interested in causal inference methods.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What is the CausalImpact package?",
+      "How to infer causal impact using Bayesian models?",
+      "What are Bayesian structural time-series models?",
+      "When to use CausalImpact for time series analysis?",
+      "What are the applications of causal inference?",
+      "How does CausalImpact handle interrupted time series?",
+      "What are the prerequisites for understanding CausalImpact?",
+      "Who can benefit from reading the CausalImpact paper?"
+    ],
+    "use_cases": [
+      "When analyzing the effect of an intervention on time series data"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding causal inference",
+      "Applying Bayesian models to time series"
+    ]
   },
   {
     "name": "Interpretable Machine Learning Book (Christoph Molnar)",
@@ -12294,7 +12873,42 @@
       "Machine Learning",
       "SHAP"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python-basics"
+    ],
+    "topic_tags": [
+      "machine-learning",
+      "interpretability"
+    ],
+    "summary": "This book provides a comprehensive understanding of machine learning interpretability techniques such as SHAP and LIME. It is essential for practitioners and researchers looking to understand black-box model predictions.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is SHAP in machine learning?",
+      "How to interpret black-box models?",
+      "What are LIME and PDP?",
+      "Why is interpretability important in ML?",
+      "What techniques help in understanding feature importance?",
+      "How to apply interpretability methods in practice?",
+      "What are the challenges of ML interpretability?",
+      "Who should read the Interpretable Machine Learning book?"
+    ],
+    "use_cases": [
+      "when to understand model predictions",
+      "when to explain ML results to stakeholders"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "understanding of ML interpretability",
+      "ability to apply SHAP and LIME",
+      "knowledge of feature importance techniques"
+    ]
   },
   {
     "name": "LOST Statistics: Causal Forest Tutorial",
@@ -12307,7 +12921,41 @@
       "GRF",
       "Tutorial"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python-basics",
+      "R-basics"
+    ],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning",
+      "statistics"
+    ],
+    "summary": "This tutorial provides a practical guide to implementing causal forests for heterogeneous treatment effect estimation. It is designed for those with a basic understanding of programming in R and Python who want to learn about causal inference techniques.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How to implement causal forests in R?",
+      "What are heterogeneous treatment effects?",
+      "Causal forest tutorial for beginners",
+      "Causal inference techniques in Python",
+      "Examples of causal forests in machine learning",
+      "Understanding GRF in causal inference"
+    ],
+    "use_cases": [
+      "When to estimate heterogeneous treatment effects",
+      "Applying causal forests in real-world scenarios"
+    ],
+    "content_format": "tutorial",
+    "skill_progression": [
+      "Understanding causal forests",
+      "Implementing treatment effect estimation",
+      "Using R and Python for causal inference"
+    ]
   },
   {
     "name": "IMF: Cross-Validation for Economists",
@@ -12320,7 +12968,38 @@
       "Machine Learning",
       "IMF"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning"
+    ],
+    "summary": "This tutorial will teach you how to apply cross-validation techniques in economic research, integrating machine learning best practices with econometric applications. It is designed for economists and data scientists looking to enhance their research methodologies.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What is cross-validation in econometrics?",
+      "How can machine learning improve economic research?",
+      "What are the best practices for cross-validation?",
+      "Who can benefit from IMF training materials?",
+      "What techniques are used in causal inference?",
+      "How does cross-validation apply to economic models?",
+      "What resources are available for learning machine learning in economics?",
+      "What is the importance of cross-validation in data science?"
+    ],
+    "use_cases": [
+      "When applying machine learning techniques to economic research",
+      "When needing to validate models in econometric studies"
+    ],
+    "content_format": "tutorial",
+    "skill_progression": [
+      "Understanding of cross-validation techniques",
+      "Application of ML best practices in econometrics"
+    ]
   },
   {
     "name": "Bill Gurley: All Markets Are Not Created Equal",
@@ -12333,7 +13012,36 @@
       "Bill Gurley",
       "Platform Strategy"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "marketplaces",
+      "platform-economics"
+    ],
+    "summary": "This resource provides an essential framework for evaluating marketplace businesses, identifying key factors that differentiate successful marketplaces. It is suitable for entrepreneurs and business strategists interested in understanding marketplace dynamics.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What factors distinguish great marketplaces?",
+      "How to evaluate marketplace businesses?",
+      "What is the framework for marketplace evaluation?",
+      "Who is Bill Gurley?",
+      "What are the key elements of platform strategy?",
+      "How does payment facilitation impact marketplaces?",
+      "What is marketplace fragmentation?",
+      "What makes a marketplace successful?"
+    ],
+    "use_cases": [
+      "When evaluating a new marketplace business",
+      "For entrepreneurs looking to improve their platform strategy"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding marketplace dynamics",
+      "Evaluating business models in platform economics"
+    ]
   },
   {
     "name": "Bill Gurley: A Rake Too Far",
@@ -12346,7 +13054,38 @@
       "Pricing",
       "Marketplaces"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "platform-economics",
+      "marketplaces",
+      "pricing-strategies"
+    ],
+    "summary": "This resource provides a classic analysis of take rates in marketplaces, explaining the implications of high take rates and optimal pricing strategies for platform businesses. It is suitable for individuals interested in understanding marketplace dynamics and pricing.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are take rates in marketplaces?",
+      "How do high take rates affect competition?",
+      "What are optimal pricing strategies for platforms?",
+      "Why do marketplaces need to consider take rates?",
+      "How can pricing strategies impact platform success?",
+      "What is the relationship between take rates and market entry?",
+      "What insights does Bill Gurley provide on marketplace pricing?",
+      "How can businesses optimize their take rates?"
+    ],
+    "use_cases": [
+      "Understanding pricing strategies in platform businesses",
+      "Analyzing competition in marketplaces"
+    ],
+    "content_format": "blog post",
+    "skill_progression": [
+      "Understanding take rates",
+      "Analyzing pricing strategies",
+      "Evaluating marketplace dynamics"
+    ]
   },
   {
     "name": "Bill Gurley: How to Miss By a Mile (Uber TAM)",
@@ -12359,7 +13098,36 @@
       "Market Sizing",
       "Uber"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "market-sizing",
+      "economics"
+    ],
+    "summary": "This resource provides an analysis of Total Addressable Market estimation errors, highlighting common flaws in TAM analyses and offering insights on market sizing for tech companies. It is suitable for individuals interested in understanding market dynamics and valuation in the tech sector.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is Total Addressable Market?",
+      "How to analyze TAM for tech companies?",
+      "What are common flaws in TAM analyses?",
+      "How to estimate market size?",
+      "Why is TAM important for startups?",
+      "What methods can improve TAM estimation?",
+      "How does Uber's market size compare?",
+      "What are the implications of flawed TAM analyses?"
+    ],
+    "use_cases": [
+      "when evaluating startup potential",
+      "for market research in tech"
+    ],
+    "content_format": "blog post",
+    "skill_progression": [
+      "understanding market sizing",
+      "critical analysis of market estimates"
+    ]
   },
   {
     "name": "Bill Gurley: In Defense of the Deck",
@@ -12372,7 +13140,24 @@
       "Fundraising",
       "Strategy"
     ],
-    "level": "Easy"
+    "level": "Easy",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "This resource provides frameworks for effectively pitching presentations and communicating marketplace value propositions to investors and stakeholders. It is aimed at individuals looking to improve their pitching and fundraising strategies.",
+    "audience": [],
+    "synthetic_questions": [
+      "What are effective frameworks for pitch presentations?",
+      "How can I communicate marketplace value propositions?",
+      "What strategies are useful for fundraising?",
+      "Who should I target in my pitch?",
+      "What are the key elements of a successful pitch?",
+      "How do I engage investors during a presentation?",
+      "What common mistakes should I avoid in pitching?",
+      "How can I tailor my pitch to different stakeholders?"
+    ],
+    "use_cases": [],
+    "content_format": "blog post"
   },
   {
     "name": "Bill Gurley: Going Direct",
@@ -12385,7 +13170,26 @@
       "Direct-to-Consumer",
       "Platforms"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "This resource examines how technology enables producers to bypass intermediaries and analyzes disintermediation trends across various industries. It is suitable for individuals interested in understanding the impact of technology on market structures.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is disintermediation?",
+      "How does technology affect traditional retail?",
+      "What are the trends in direct-to-consumer sales?",
+      "How do platforms change the economics of industries?",
+      "What industries are most affected by disintermediation?",
+      "What are the benefits of bypassing intermediaries?",
+      "How has entertainment been impacted by direct-to-consumer models?",
+      "What case studies illustrate successful disintermediation?"
+    ],
+    "use_cases": [],
+    "content_format": "blog post"
   },
   {
     "name": "Li Jin: 100 True Fans",
@@ -12398,7 +13202,29 @@
       "Monetization",
       "Li Jin"
     ],
-    "level": "Easy"
+    "level": "Easy",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "Platform Economics",
+      "Creator Economy",
+      "Monetization"
+    ],
+    "summary": "This resource discusses the evolution of Kevin Kelly's 1000 True Fans theory in the context of the creator economy, emphasizing how creators can thrive with fewer dedicated followers due to improved monetization strategies. It is suitable for anyone interested in understanding the dynamics of creator success and monetization.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is the 1000 True Fans theory?",
+      "How has the creator economy changed monetization?",
+      "What are the implications of having fewer dedicated followers?",
+      "Who is Li Jin and what are her contributions?",
+      "What strategies can creators use to succeed?",
+      "How does monetization affect creator success?",
+      "What is the significance of the 100 True Fans concept?"
+    ],
+    "use_cases": [],
+    "content_format": "blog post"
   },
   {
     "name": "Li Jin: The Passion Economy and the Future of Work",
@@ -12411,7 +13237,24 @@
       "Future of Work",
       "Platforms"
     ],
-    "level": "Easy"
+    "level": "Easy",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "This resource provides insights into the passion economy and how individuals can leverage platforms to monetize their unique skills. It is suitable for anyone interested in understanding the future of work and economic models based on personal passions.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is the passion economy?",
+      "How do platforms enable monetization of skills?",
+      "What are the implications of the passion economy for the future of work?",
+      "What unique skills can be monetized in the passion economy?",
+      "How does the passion economy differ from traditional labor markets?",
+      "What role do platforms play in the passion economy?"
+    ],
+    "use_cases": [],
+    "content_format": "blog post"
   },
   {
     "name": "Li Jin: Building for the Creator Middle Class",
@@ -12424,7 +13267,26 @@
       "Platform Design",
       "Monetization"
     ],
-    "level": "Easy"
+    "level": "Easy",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "This resource discusses the importance of building platforms that cater to the middle class of creators, providing a framework for sustainable creator businesses. It is suitable for anyone interested in the creator economy and platform design.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are creator platforms?",
+      "How can platforms support middle-class creators?",
+      "What is the creator economy?",
+      "What are sustainable business models for creators?",
+      "How do I monetize my content as a creator?",
+      "What is platform design in the context of creator businesses?",
+      "What challenges do middle-class creators face?",
+      "How can I build a successful creator business?"
+    ],
+    "use_cases": [],
+    "content_format": "blog post"
   },
   {
     "name": "Li Jin: The Creator Economy Needs a Middle Class (HBR)",
@@ -12437,7 +13299,34 @@
       "Income Distribution",
       "HBR"
     ],
-    "level": "Easy"
+    "level": "Easy",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "platform-economics",
+      "income-distribution"
+    ],
+    "summary": "This article provides a data-driven analysis of the creator economy, highlighting the concentration of income among creators and proposing platform design changes for more equitable outcomes. It is aimed at individuals interested in understanding the economic dynamics of the creator economy.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is the creator economy?",
+      "How is income distributed among creators?",
+      "What platform design changes can improve equity?",
+      "Why is a middle class important in the creator economy?",
+      "What data supports the analysis of creator income concentration?",
+      "How can platforms support equitable outcomes for creators?"
+    ],
+    "use_cases": [
+      "Understanding income distribution in the creator economy",
+      "Exploring platform design for equitable outcomes"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding platform economics",
+      "Analyzing income distribution trends"
+    ]
   },
   {
     "name": "Li Jin: Unbundling Work",
@@ -12450,7 +13339,26 @@
       "Future of Work",
       "Unbundling"
     ],
-    "level": "Easy"
+    "level": "Easy",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "This resource explores how platforms are transforming traditional employment into discrete tasks and discusses the implications for workers, platforms, and the economy. It is suitable for anyone interested in understanding the gig economy and the future of work.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is unbundling work?",
+      "How do platforms affect traditional employment?",
+      "What are the implications of the gig economy?",
+      "What is the future of work in a platform economy?",
+      "How do workers adapt to unbundled tasks?",
+      "What are the economic impacts of unbundling work?",
+      "What are the benefits and challenges of the gig economy?",
+      "How do platforms influence labor markets?"
+    ],
+    "use_cases": [],
+    "content_format": "blog post"
   },
   {
     "name": "Eugene Wei: Status as a Service (StaaS)",
@@ -12463,7 +13371,37 @@
       "Status",
       "Network Effects"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "social-networks",
+      "status",
+      "platform-economics"
+    ],
+    "summary": "This essay explores the dynamics of social networks and their relationship with status. It is aimed at readers interested in understanding the factors that influence the rise and fall of social platforms.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is Status as a Service?",
+      "How do social networks provide status?",
+      "Why do networks rise and fall?",
+      "What are status games in social networks?",
+      "How does status affect user engagement?",
+      "What insights can be drawn from Eugene Wei's essay?",
+      "What is the impact of status on platform economics?",
+      "How can understanding status improve social network design?"
+    ],
+    "use_cases": [
+      "to understand the dynamics of social networks",
+      "to analyze the role of status in user engagement"
+    ],
+    "content_format": "blog post",
+    "skill_progression": [
+      "understanding social network dynamics",
+      "analyzing platform economics"
+    ]
   },
   {
     "name": "Eugene Wei: Seeing Like an Algorithm (TikTok)",
@@ -12476,7 +13414,35 @@
       "Algorithms",
       "Discovery"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "platform-economics",
+      "algorithmic-discovery"
+    ],
+    "summary": "This resource provides a deep analysis of TikTok's success through its unique algorithmic content discovery approach. It is suitable for those interested in understanding the differences between TikTok and traditional social graph-based networks.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What makes TikTok's algorithm unique?",
+      "How does TikTok's content discovery differ from other platforms?",
+      "What are the implications of algorithmic content discovery?",
+      "Why is platform economics important in understanding TikTok?",
+      "What can we learn from TikTok's success?",
+      "How do algorithms influence user engagement on social media?"
+    ],
+    "use_cases": [
+      "to understand TikTok's algorithm",
+      "to analyze platform economics",
+      "to explore content discovery mechanisms"
+    ],
+    "content_format": "blog post",
+    "skill_progression": [
+      "understanding of platform economics",
+      "insight into algorithmic content discovery"
+    ]
   },
   {
     "name": "Eugene Wei: Invisible Asymptotes",
@@ -12489,7 +13455,36 @@
       "Amazon",
       "Strategy"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "platform-economics",
+      "strategy"
+    ],
+    "summary": "This resource explains how to identify hidden growth ceilings using examples from Amazon. It is aimed at individuals interested in understanding constraints in business growth.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are invisible growth ceilings?",
+      "How does Amazon identify constraints?",
+      "What strategies can companies use to overcome growth limitations?",
+      "What is platform economics?",
+      "How can understanding growth ceilings impact business strategy?",
+      "What examples from Amazon illustrate these concepts?",
+      "What are the implications of invisible asymptotes for startups?",
+      "How can businesses spot hidden constraints?"
+    ],
+    "use_cases": [
+      "when analyzing business growth strategies",
+      "for understanding platform economics"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "understanding of growth strategies",
+      "insight into platform economics"
+    ]
   },
   {
     "name": "Jean Tirole: Two-Sided Markets - A Progress Report",
@@ -12502,7 +13497,39 @@
       "Platform Theory",
       "Tirole"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "Platform Economics",
+      "Two-Sided Markets",
+      "Platform Theory"
+    ],
+    "summary": "This paper provides a comprehensive survey of two-sided market theory, focusing on pricing, platform competition, and welfare implications. It is suitable for those interested in understanding the dynamics of multi-sided platforms.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are two-sided markets?",
+      "How does platform competition work?",
+      "What are the welfare implications of multi-sided platforms?",
+      "What pricing strategies are used in two-sided markets?",
+      "Who is Jean Tirole?",
+      "What is the significance of two-sided market theory?",
+      "How do platforms compete in a two-sided market?",
+      "What are the key findings of Tirole's survey on two-sided markets?"
+    ],
+    "use_cases": [
+      "Understanding the fundamentals of two-sided markets",
+      "Analyzing platform competition strategies",
+      "Exploring welfare implications of multi-sided platforms"
+    ],
+    "content_format": "paper",
+    "skill_progression": [
+      "Understanding two-sided market dynamics",
+      "Analyzing pricing strategies",
+      "Evaluating platform competition"
+    ]
   },
   {
     "name": "Rochet & Tirole: Platform Competition in Two-Sided Markets",
@@ -12515,7 +13542,29 @@
       "Platform Competition",
       "Theory"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "advanced",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "This paper explores the dynamics of pricing and competition in two-sided markets, focusing on how platforms attract different user groups. It is intended for those with a strong interest in platform economics and economic theory.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What is platform competition in two-sided markets?",
+      "How do platforms attract multiple user groups?",
+      "What are the pricing strategies in platform economics?",
+      "What theories are developed in Rochet & Tirole's paper?",
+      "How does competition affect platform pricing?",
+      "What are the implications of two-sided markets in economics?",
+      "What are the key concepts in platform economics?",
+      "How does this paper contribute to the field of economics?"
+    ],
+    "use_cases": [],
+    "content_format": "paper"
   },
   {
     "name": "Rochet & Tirole: Two-Sided Markets (RAND)",
@@ -12528,7 +13577,32 @@
       "Platform Pricing",
       "Economics"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "Platform Economics",
+      "Two-Sided Markets",
+      "Economics"
+    ],
+    "summary": "This paper introduces the economics of two-sided markets and analyzes pricing strategies for platforms serving distinct but interdependent customer groups. It is suitable for those interested in understanding platform dynamics and pricing mechanisms.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What are two-sided markets?",
+      "How do platforms set prices for different customer groups?",
+      "What is the significance of Rochet & Tirole's work?",
+      "How do interdependent customer groups affect pricing?",
+      "What are the implications of two-sided market economics?",
+      "How can I apply two-sided market concepts in real-world scenarios?",
+      "What are examples of two-sided markets in the tech industry?",
+      "What methodologies are used in analyzing platform pricing?"
+    ],
+    "use_cases": [],
+    "content_format": "paper"
   },
   {
     "name": "Andrei Hagiu: Strategic Decisions for Multisided Platforms",
@@ -12541,7 +13615,30 @@
       "Multi-Sided Platforms",
       "Hagiu"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "Platform Economics",
+      "Platform Strategy",
+      "Multi-Sided Platforms"
+    ],
+    "summary": "This resource provides insights into key strategic choices for platform businesses, focusing on decisions regarding which sides to bring on board, design considerations, and pricing strategies. It is suitable for individuals interested in understanding the dynamics of multisided platforms.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are the key strategic decisions for multisided platforms?",
+      "How to design a platform business?",
+      "What pricing strategies work for platform businesses?",
+      "Which sides should be brought on board for a platform?",
+      "What is platform strategy?",
+      "How do multisided platforms operate?",
+      "What are the challenges in platform economics?",
+      "Who is Andrei Hagiu?"
+    ],
+    "use_cases": [],
+    "content_format": "article"
   },
   {
     "name": "Hagiu & Wright: When to Open a Platform (HBR)",
@@ -12554,7 +13651,36 @@
       "Strategy",
       "HBR"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "Platform Economics",
+      "Strategy"
+    ],
+    "summary": "This resource provides an analysis of when platforms should allow third-party developers and presents a framework for deciding between closed and open platform strategies. It is suitable for those interested in platform economics and strategic decision-making.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are the benefits of open platforms?",
+      "When should a platform remain closed?",
+      "How to decide on platform openness?",
+      "What strategies do successful platforms use?",
+      "What is the impact of third-party developers?",
+      "How do platform strategies affect competition?",
+      "What frameworks exist for platform strategy?",
+      "What are the risks of opening a platform?"
+    ],
+    "use_cases": [
+      "Understanding platform strategies",
+      "Deciding on platform openness"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding platform economics",
+      "Strategic decision-making in tech"
+    ]
   },
   {
     "name": "Hagiu & Rothman: Network Effects Aren't Enough (HBR)",
@@ -12567,7 +13693,32 @@
       "Platform Strategy",
       "HBR"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "Platform Economics",
+      "Network Effects"
+    ],
+    "summary": "This article challenges the conventional wisdom about network effects and explains why many platform businesses fail despite having strong network effects. It is aimed at business professionals and academics interested in platform strategy.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are network effects?",
+      "Why do some platform businesses fail?",
+      "How do network effects influence platform strategy?",
+      "What is the conventional wisdom about network effects?",
+      "What challenges do platform businesses face?",
+      "How can understanding network effects improve business strategy?",
+      "What are the limitations of network effects?",
+      "What insights does HBR provide on platform economics?"
+    ],
+    "use_cases": [
+      "Understanding platform business strategies",
+      "Evaluating the effectiveness of network effects"
+    ],
+    "content_format": "article"
   },
   {
     "name": "Hagiu: Multi-Sided Platforms - From Microfoundations to Design",
@@ -12580,7 +13731,40 @@
       "Microfoundations",
       "Theory"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "advanced",
+    "prerequisites": [],
+    "topic_tags": [
+      "Platform Design",
+      "Microfoundations",
+      "Theory"
+    ],
+    "summary": "This resource provides an academic treatment of platform design principles, bridging economic theory with practical platform design decisions. It is suitable for those interested in the intersection of economics and platform design.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What are the key principles of platform design?",
+      "How does economic theory apply to platform design?",
+      "What are microfoundations in the context of platforms?",
+      "What practical decisions are influenced by platform design principles?",
+      "How can I apply economic theory to real-world platform challenges?",
+      "What are the implications of multi-sided platforms in economics?",
+      "What research exists on platform design?",
+      "How do different stakeholders interact in multi-sided platforms?"
+    ],
+    "use_cases": [
+      "When designing a new platform",
+      "When studying platform economics"
+    ],
+    "content_format": "paper",
+    "skill_progression": [
+      "Understanding of platform economics",
+      "Ability to apply economic theory to design decisions"
+    ]
   },
   {
     "name": "Parker, Van Alstyne & Choudary: Pipelines, Platforms, and the New Rules of Strategy",
@@ -12593,7 +13777,24 @@
       "Strategy",
       "HBR"
     ],
-    "level": "Easy"
+    "level": "Easy",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "This article contrasts linear pipeline businesses with platform businesses, highlighting their different strategic imperatives. It is suitable for those interested in understanding the strategic shifts in business models brought about by platforms.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are the differences between pipeline and platform businesses?",
+      "How do platforms change strategic imperatives in business?",
+      "What is the Platform Revolution?",
+      "What are the implications of platform economics?",
+      "How can businesses transition from pipeline to platform models?",
+      "What strategies are effective for platform businesses?"
+    ],
+    "use_cases": [],
+    "content_format": "article"
   },
   {
     "name": "Platform Revolution Book Overview",
@@ -12606,7 +13807,26 @@
       "Business Models",
       "Strategy"
     ],
-    "level": "Easy"
+    "level": "Easy",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "This resource provides an overview of the key concepts and frameworks presented in the book 'Platform Revolution' by Parker, Van Alstyne, and Choudary. It is suitable for individuals interested in understanding platform business models and dynamics.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is the main framework of the Platform Revolution?",
+      "How do platform business models differ from traditional business models?",
+      "What are the key dynamics of platform economics?",
+      "Who are the authors of the Platform Revolution?",
+      "What insights can be gained from the Platform Revolution book?",
+      "How can I apply platform strategies in my business?",
+      "What are the implications of platform dynamics on market competition?",
+      "Where can I find a summary of the Platform Revolution?"
+    ],
+    "use_cases": [],
+    "content_format": "book"
   },
   {
     "name": "Sangeet Choudary: Platform Scale Blog",
@@ -12619,7 +13839,39 @@
       "Network Effects",
       "Choudary"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "platform-economics",
+      "business-models",
+      "network-effects"
+    ],
+    "summary": "This blog covers platform strategy and the evolution of platform business models, providing insights into network effects. It is suitable for anyone interested in understanding platform economics.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is platform strategy?",
+      "How do network effects influence business models?",
+      "What are the key concepts in platform economics?",
+      "Who is Sangeet Choudary?",
+      "What is the Platform Revolution?",
+      "How do platforms scale?",
+      "What are examples of successful platforms?",
+      "What are the challenges in platform business models?"
+    ],
+    "use_cases": [
+      "to understand platform strategies",
+      "to learn about network effects",
+      "to explore business model evolution"
+    ],
+    "content_format": "blog",
+    "skill_progression": [
+      "understanding platform economics",
+      "analyzing network effects",
+      "evaluating business models"
+    ]
   },
   {
     "name": "DoorDash: Building a Successful Three-Sided Marketplace",
@@ -12632,7 +13884,29 @@
       "Three-Sided Marketplace",
       "Operations"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "platform-economics",
+      "marketplace-dynamics"
+    ],
+    "summary": "This resource explores the challenges of managing a three-sided marketplace, focusing on the balance between merchants, dashers, and consumers. It is aimed at those interested in understanding the operational aspects of delivery platforms.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are the challenges of a three-sided marketplace?",
+      "How does DoorDash balance its marketplace?",
+      "What operational strategies does DoorDash use?",
+      "What can be learned from DoorDash's engineering approach?",
+      "How do delivery marketplaces function?",
+      "What are the roles of merchants, dashers, and consumers in DoorDash?",
+      "What insights can be gained from DoorDash's operations?",
+      "What is platform economics?"
+    ],
+    "use_cases": [],
+    "content_format": "article"
   },
   {
     "name": "DoorDash: Real-Time Optimization of Delivery Operations",
@@ -12645,7 +13919,29 @@
       "Operations Research",
       "ML"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "operations-research",
+      "machine-learning"
+    ],
+    "summary": "This resource explores how DoorDash optimizes its delivery operations in real-time, focusing on balancing Dasher earnings, merchant experience, and consumer wait times. It is suitable for those interested in platform economics and operational efficiency.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How does DoorDash optimize delivery operations?",
+      "What is the impact of real-time optimization on Dasher earnings?",
+      "How does DoorDash balance merchant experience and consumer wait times?",
+      "What techniques are used in operations research for delivery optimization?",
+      "How is machine learning applied in delivery operations?",
+      "What are the challenges in optimizing delivery logistics?",
+      "What can other companies learn from DoorDash's approach?",
+      "What role does data play in real-time delivery optimization?"
+    ],
+    "use_cases": [],
+    "content_format": "article"
   },
   {
     "name": "DoorDash: The Dasher Dispatch System",
@@ -12658,7 +13954,41 @@
       "Dispatch",
       "Matching"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "platform-economics",
+      "matching-algorithms",
+      "optimization"
+    ],
+    "summary": "This resource provides a technical deep dive into the algorithms and optimization objectives used by DoorDash to assign deliveries to Dashers. It is suitable for those interested in understanding the complexities of delivery logistics and algorithm design.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How does DoorDash assign deliveries?",
+      "What algorithms are used in the Dasher Dispatch System?",
+      "What are the optimization objectives for delivery matching?",
+      "How does real-time data affect delivery assignments?",
+      "What are the challenges in delivery logistics?",
+      "How can matching algorithms be optimized?",
+      "What is the role of Dashers in the DoorDash system?",
+      "What technical insights can be gained from the Dasher Dispatch System?"
+    ],
+    "use_cases": [
+      "Understanding delivery logistics",
+      "Learning about algorithm design in real-time systems"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding of matching algorithms",
+      "Knowledge of optimization objectives",
+      "Insights into real-time constraints in logistics"
+    ]
   },
   {
     "name": "LinkedIn: The Economic Graph",
@@ -12671,7 +14001,29 @@
       "Labor Markets",
       "Economic Data"
     ],
-    "level": "Easy"
+    "level": "Easy",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "economic-data",
+      "labor-markets"
+    ],
+    "summary": "This resource explores LinkedIn's approach to mapping the global economy through data analysis. It is suitable for anyone interested in understanding labor markets and economic opportunities.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is the Economic Graph?",
+      "How does LinkedIn analyze labor markets?",
+      "What skills are highlighted in the Economic Graph?",
+      "How can economic data inform job opportunities?",
+      "What is the significance of the Economic Graph?",
+      "How does LinkedIn use data for economic analysis?",
+      "What insights can be gained from LinkedIn's Economic Graph?",
+      "Who can benefit from understanding the Economic Graph?"
+    ],
+    "use_cases": [],
+    "content_format": "article"
   },
   {
     "name": "LinkedIn Engineering: Marketplace Optimization",
@@ -12684,7 +14036,29 @@
       "Marketplace",
       "Optimization"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "platform-economics",
+      "marketplace-optimization"
+    ],
+    "summary": "This resource explores how LinkedIn optimizes its talent marketplace to effectively match candidates with job opportunities while considering various stakeholder interests. It is suitable for individuals interested in understanding the dynamics of platform economics and marketplace strategies.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How does LinkedIn optimize its talent marketplace?",
+      "What strategies are used for marketplace optimization?",
+      "Who are the stakeholders in LinkedIn's talent marketplace?",
+      "What are the challenges in matching candidates with opportunities?",
+      "How does LinkedIn balance multiple stakeholder interests?",
+      "What can be learned from LinkedIn's approach to marketplace optimization?",
+      "What role does data play in optimizing talent marketplaces?",
+      "How can other platforms apply LinkedIn's marketplace strategies?"
+    ],
+    "use_cases": [],
+    "content_format": "article"
   },
   {
     "name": "Etsy: Building Marketplace Search and Personalization",
@@ -12697,7 +14071,38 @@
       "Search",
       "Marketplace"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "search",
+      "personalization",
+      "marketplace"
+    ],
+    "summary": "This resource explores how Etsy engineers build search functionality for a handmade goods marketplace, focusing on ranking and personalization while balancing the interests of buyers and sellers. It is suitable for those interested in marketplace dynamics and search technology.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How does Etsy rank search results?",
+      "What personalization techniques does Etsy use?",
+      "How does Etsy balance buyer and seller interests?",
+      "What challenges does Etsy face in marketplace search?",
+      "What are the key components of a successful marketplace search?",
+      "How can search algorithms be optimized for user experience?",
+      "What role does data play in marketplace search?",
+      "How can personalization improve marketplace engagement?"
+    ],
+    "use_cases": [
+      "Understanding marketplace search dynamics",
+      "Learning about search personalization techniques"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding search algorithms",
+      "Gaining insights into marketplace dynamics",
+      "Learning about personalization strategies"
+    ]
   },
   {
     "name": "eBay Tech Blog",
@@ -12710,7 +14115,37 @@
       "Search",
       "Ranking"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "search",
+      "ranking",
+      "marketplace"
+    ],
+    "summary": "This blog covers the intricacies of search ranking in a large-scale marketplace, focusing on relevance and seller quality signals. It is suitable for those interested in understanding how search algorithms function in e-commerce.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How does eBay rank listings?",
+      "What signals are used for search relevance?",
+      "What are seller quality signals?",
+      "How does search ranking affect marketplace performance?",
+      "What challenges exist in search ranking at scale?",
+      "How can I improve my listing's visibility on eBay?",
+      "What engineering practices does eBay use for search?",
+      "What insights can be gained from eBay's engineering blog?"
+    ],
+    "use_cases": [
+      "to understand search ranking mechanisms",
+      "to learn about engineering practices in large marketplaces"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "understanding of search algorithms",
+      "insight into marketplace dynamics"
+    ]
   },
   {
     "name": "Thumbtack Engineering Blog",
@@ -12723,7 +14158,29 @@
       "Local Services",
       "Marketplace"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "platform-economics",
+      "marketplace-dynamics"
+    ],
+    "summary": "This blog explores how Thumbtack connects customers with local service professionals, focusing on matching, pricing, and marketplace dynamics. It is suitable for those interested in understanding platform economics and marketplace strategies.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How does Thumbtack match customers with service providers?",
+      "What are the pricing strategies used by Thumbtack?",
+      "What dynamics exist in the local services marketplace?",
+      "How does Thumbtack's platform economics work?",
+      "What insights can be gained from Thumbtack's engineering blog?",
+      "How does Thumbtack improve customer experience?",
+      "What challenges does Thumbtack face in its marketplace?",
+      "What technologies does Thumbtack use for matching services?"
+    ],
+    "use_cases": [],
+    "content_format": "article"
   },
   {
     "name": "Upwork Engineering Blog",
@@ -12736,7 +14193,32 @@
       "Freelance",
       "Matching"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "machine-learning",
+      "platform-economics"
+    ],
+    "summary": "This resource explores Upwork's innovative methods for matching freelancers with projects through machine learning techniques. It is suitable for those interested in understanding the intersection of technology and freelance marketplaces.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is Upwork's approach to matching freelancers?",
+      "How does machine learning improve project matching?",
+      "What skills are inferred in Upwork's system?",
+      "What is the quality of the marketplace?",
+      "How does Upwork ensure project quality?",
+      "What are the benefits of freelance platforms?",
+      "How does skill inference work in project matching?",
+      "What technologies are used in Upwork's matching process?"
+    ],
+    "use_cases": [
+      "Understanding freelance project matching",
+      "Exploring machine learning applications in platforms"
+    ],
+    "content_format": "article"
   },
   {
     "name": "Fiverr Engineering Blog",
@@ -12749,7 +14231,32 @@
       "Gig Economy",
       "Marketplace"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "Platform Economics",
+      "Gig Economy"
+    ],
+    "summary": "This blog explores how Fiverr organizes its freelance marketplace, focusing on aspects like gig discovery, pricing strategies, and seller success. It is suitable for anyone interested in understanding the mechanics of online marketplaces.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How does Fiverr structure its marketplace?",
+      "What are the pricing mechanics on Fiverr?",
+      "How does gig discovery work on Fiverr?",
+      "What strategies does Fiverr use for seller success?",
+      "What can be learned from Fiverr's marketplace structure?",
+      "How does the gig economy function on platforms like Fiverr?",
+      "What insights can be gained from Fiverr's engineering blog?",
+      "What are the challenges in managing a freelance marketplace?"
+    ],
+    "use_cases": [
+      "Understanding marketplace dynamics",
+      "Learning about gig economy structures"
+    ],
+    "content_format": "article"
   },
   {
     "name": "Simon Rothman (a16z): How to Build a Marketplace",
@@ -12762,7 +14269,26 @@
       "Marketplaces",
       "Startup Strategy"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "This resource provides a comprehensive guide to building a marketplace, focusing on key strategies such as liquidity, matching, and scaling. It is suitable for entrepreneurs and professionals interested in marketplace dynamics.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are the key strategies for building a marketplace?",
+      "How do you ensure liquidity in a marketplace?",
+      "What matching techniques can be used in marketplace design?",
+      "What scaling strategies are effective for startups?",
+      "Who is Simon Rothman and what is his expertise?",
+      "What insights does a16z provide on marketplace building?",
+      "How can this guide help in launching a startup?",
+      "What are the challenges in marketplace economics?"
+    ],
+    "use_cases": [],
+    "content_format": "blog post"
   },
   {
     "name": "Jeff Jordan (a16z): Marketplace 100",
@@ -12775,7 +14301,35 @@
       "Marketplaces",
       "Rankings"
     ],
-    "level": "Easy"
+    "level": "Easy",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "marketplaces",
+      "business-models",
+      "economics"
+    ],
+    "summary": "This report provides an annual ranking and analysis of the largest consumer marketplaces, offering a framework for understanding various marketplace categories and business models. It is suitable for entrepreneurs, investors, and anyone interested in the dynamics of online marketplaces.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are the largest consumer marketplaces?",
+      "How are marketplaces ranked?",
+      "What business models are used in marketplaces?",
+      "What insights can be gained from the Marketplace 100?",
+      "How does a16z analyze marketplaces?",
+      "What trends are emerging in the marketplace sector?"
+    ],
+    "use_cases": [
+      "to understand marketplace dynamics",
+      "to analyze business models in the tech economy"
+    ],
+    "content_format": "report",
+    "skill_progression": [
+      "understanding marketplace categories",
+      "analyzing consumer behavior in marketplaces"
+    ]
   },
   {
     "name": "Spotify Confidence",
@@ -12789,7 +14343,38 @@
       "Experimentation Platform",
       "Spotify"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "A/B Testing",
+      "statistics"
+    ],
+    "summary": "This resource will teach you about Spotify's experimentation platform, focusing on feature flagging and A/B testing methodologies. It is suitable for individuals looking to understand controlled rollouts and statistical analysis in experimentation.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What is Spotify Confidence?",
+      "How does A/B testing work?",
+      "What are feature flags?",
+      "What is controlled rollout?",
+      "How to analyze A/B test results?",
+      "What is an experimentation platform?",
+      "What statistical methods are used in A/B testing?",
+      "How can I implement feature flags?"
+    ],
+    "use_cases": [
+      "when to use A/B testing",
+      "when to implement feature flags"
+    ],
+    "content_format": "tutorial",
+    "skill_progression": [
+      "understanding of A/B testing",
+      "ability to use feature flags",
+      "knowledge of statistical analysis in experimentation"
+    ]
   },
   {
     "name": "Evan Miller: How Not To Run an A/B Test",
@@ -12802,7 +14387,40 @@
       "Statistics",
       "Peeking Problem"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "statistics",
+      "A/B testing"
+    ],
+    "summary": "This article discusses the pitfalls of continuously monitoring A/B tests and the implications of peeking problems. It is essential reading for anyone involved in A/B testing, particularly those looking to understand the importance of proper testing methodologies.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are the common pitfalls in A/B testing?",
+      "How does peeking affect A/B test results?",
+      "Why is continuous monitoring problematic in A/B tests?",
+      "What are false positives in A/B testing?",
+      "How can I improve my A/B testing methodology?",
+      "What should I read to understand A/B testing better?",
+      "What is the peeking problem in statistics?",
+      "Who should read Evan Miller's article on A/B testing?"
+    ],
+    "use_cases": [
+      "Understanding A/B testing methodologies",
+      "Identifying issues in A/B testing",
+      "Improving A/B test design"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding of A/B testing principles",
+      "Awareness of statistical pitfalls in experimentation"
+    ]
   },
   {
     "name": "Evan Miller: Formulas for Bayesian A/B Testing",
@@ -12815,7 +14433,39 @@
       "A/B Testing",
       "Statistics"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "Bayesian",
+      "A/B Testing",
+      "Statistics"
+    ],
+    "summary": "This resource covers the mathematical foundations for Bayesian approaches to A/B testing, including derivations of exact formulas for posterior probabilities and expected loss. It is suitable for those looking to deepen their understanding of Bayesian methods in A/B testing.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What are Bayesian methods for A/B testing?",
+      "How to calculate posterior probabilities in A/B testing?",
+      "What is expected loss in Bayesian A/B testing?",
+      "What are the mathematical foundations of A/B testing?",
+      "How to apply Bayesian statistics to A/B testing?",
+      "What are the advantages of Bayesian A/B testing over traditional methods?",
+      "What formulas are used in Bayesian A/B testing?",
+      "How to interpret results from Bayesian A/B testing?"
+    ],
+    "use_cases": [
+      "When to apply Bayesian methods in A/B testing",
+      "Understanding the mathematical concepts behind A/B testing"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding Bayesian statistics",
+      "Applying Bayesian methods to A/B testing",
+      "Interpreting statistical results in A/B testing"
+    ]
   },
   {
     "name": "Evan Miller: Simple Sequential A/B Testing",
@@ -12828,7 +14478,35 @@
       "A/B Testing",
       "Early Stopping"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "AB Testing",
+      "statistics"
+    ],
+    "summary": "This resource introduces sequential testing methods that allow for valid early stopping in A/B testing. It is suitable for those looking to understand practical alternatives to fixed-horizon tests.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is sequential A/B testing?",
+      "How does early stopping work in A/B testing?",
+      "What are the advantages of sequential testing methods?",
+      "When should I use sequential testing?",
+      "What is the difference between fixed-horizon tests and sequential tests?",
+      "Who can benefit from learning about A/B testing?",
+      "What are practical applications of A/B testing?",
+      "How can I implement sequential testing in my projects?"
+    ],
+    "use_cases": [
+      "when to use this resource"
+    ],
+    "content_format": "blog post",
+    "skill_progression": [
+      "understanding of sequential testing methods",
+      "knowledge of early stopping in A/B testing"
+    ]
   },
   {
     "name": "Ronny Kohavi: Trustworthy Online Controlled Experiments",
@@ -12841,7 +14519,41 @@
       "Experimentation",
       "Ronny Kohavi"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "A/B Testing",
+      "Experimentation"
+    ],
+    "summary": "This book provides a comprehensive overview of A/B testing methodology, ideal for practitioners and researchers looking to understand the principles of controlled experiments. It is particularly beneficial for those involved in data-driven decision making.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is A/B testing?",
+      "How to conduct online experiments?",
+      "What are the best practices for experimentation?",
+      "Who is Ronny Kohavi?",
+      "What methodologies are discussed in the book?",
+      "How to analyze A/B test results?",
+      "What are the applications of A/B testing?",
+      "What are the common pitfalls in A/B testing?"
+    ],
+    "use_cases": [
+      "When to use A/B testing in product development",
+      "Evaluating changes in user experience",
+      "Testing marketing strategies"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "Understanding A/B testing principles",
+      "Applying experimentation methodologies",
+      "Analyzing experimental data"
+    ]
   },
   {
     "name": "Ronny Kohavi: Seven Rules of Thumb for Web Site Experimenters",
@@ -12854,7 +14566,38 @@
       "Best Practices",
       "Kohavi"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "experimentation",
+      "best-practices"
+    ],
+    "summary": "This foundational paper outlines essential practices for conducting online experiments, making it a must-read for those involved in web experimentation. It is particularly useful for practitioners in tech companies looking to enhance their experimentation strategies.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What are the core practices for online experimentation?",
+      "How can I improve my web experimentation skills?",
+      "What rules should I follow for A/B testing?",
+      "Who is Ronny Kohavi and what are his contributions?",
+      "What are the best practices for website experiments?",
+      "How do major tech companies conduct online experiments?",
+      "What is the significance of experimentation in tech?",
+      "What are the seven rules of thumb for web site experimenters?"
+    ],
+    "use_cases": [
+      "when to establish best practices for A/B testing",
+      "when to learn about online experimentation methods"
+    ],
+    "content_format": "paper",
+    "skill_progression": [
+      "understanding of A/B testing principles",
+      "knowledge of best practices in online experimentation"
+    ]
   },
   {
     "name": "ExP Platform: Microsoft Experimentation Resources",
@@ -12867,7 +14610,41 @@
       "CUPED",
       "Microsoft"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "experimentation",
+      "CUPED",
+      "AB testing"
+    ],
+    "summary": "This resource provides a comprehensive guide to experimentation platforms, focusing on techniques like CUPED variance reduction and metric design. It is suitable for those looking to deepen their understanding of experimentation methodologies.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What is CUPED variance reduction?",
+      "How to design metrics for experimentation?",
+      "What are the best practices for AB testing?",
+      "How does SRM detection work?",
+      "What resources does Microsoft provide for experimentation?",
+      "How to implement an experimentation platform?",
+      "What are the key components of a successful experimentation strategy?",
+      "Where can I find guides on experimentation?"
+    ],
+    "use_cases": [
+      "When designing experiments",
+      "When analyzing experimental data",
+      "When learning about AB testing methodologies"
+    ],
+    "content_format": "resource hub",
+    "skill_progression": [
+      "Understanding of experimentation techniques",
+      "Ability to apply CUPED in experiments",
+      "Skills in metric design for AB testing"
+    ]
   },
   {
     "name": "Lukas Vermeer: Building Experimentation Infrastructure",
@@ -12880,7 +14657,38 @@
       "Booking.com",
       "Infrastructure"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "experimentation",
+      "AB testing"
+    ],
+    "summary": "This resource discusses how to build a culture and infrastructure for conducting numerous concurrent experiments, aimed at practitioners in the field of experimentation. It is particularly relevant for those interested in enhancing their experimentation capabilities.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "How to build experimentation infrastructure?",
+      "What are the best practices for concurrent experiments?",
+      "What is the role of culture in experimentation?",
+      "How does Booking.com manage experiments?",
+      "What tools are used for AB testing?",
+      "What challenges are faced in experimentation?",
+      "How to scale experimentation efforts?",
+      "What metrics are important in AB testing?"
+    ],
+    "use_cases": [
+      "when to improve experimentation processes",
+      "when to scale experimentation efforts"
+    ],
+    "content_format": "blog",
+    "skill_progression": [
+      "understanding of experimentation culture",
+      "knowledge of infrastructure for experiments"
+    ]
   },
   {
     "name": "Data Analysis Journal (Olga Berezovsky)",
@@ -12893,7 +14701,37 @@
       "A/B Testing",
       "Data Science"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "statistics",
+      "product-analytics",
+      "A/B-testing"
+    ],
+    "summary": "This newsletter provides insights into bridging academic statistics with product analytics practice. It is suitable for those interested in learning about experimentation and best practices in A/B testing.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is A/B testing?",
+      "How to analyze product data?",
+      "What are best practices for experimentation?",
+      "How to create an A/B test checklist?",
+      "What is the role of statistics in product analytics?",
+      "How can I improve my data analysis skills?",
+      "What resources are available for learning data science?",
+      "What are common pitfalls in A/B testing?"
+    ],
+    "use_cases": [
+      "When you want to learn about A/B testing and product analytics."
+    ],
+    "content_format": "newsletter",
+    "skill_progression": [
+      "Understanding of A/B testing",
+      "Knowledge of product analytics",
+      "Familiarity with statistical concepts"
+    ]
   },
   {
     "name": "Adam Kelleher: Causal Data Science Medium Series",
@@ -12906,7 +14744,35 @@
       "DAGs",
       "Pearl"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning"
+    ],
+    "summary": "This series provides an accessible introduction to graphical causal inference, exploring the nuances of correlation and causation. It is suitable for those interested in understanding causal relationships in data science.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is causal inference?",
+      "How does correlation differ from causation?",
+      "What are DAGs in causal inference?",
+      "Who is Adam Kelleher?",
+      "What are the key concepts in graphical causal inference?",
+      "How can I learn about causal data science?",
+      "What resources are available for beginners in causal inference?",
+      "What are the applications of causal inference in data science?"
+    ],
+    "use_cases": [
+      "when to understand causal relationships in data"
+    ],
+    "content_format": "blog",
+    "skill_progression": [
+      "understanding of causal inference concepts",
+      "ability to interpret graphical models"
+    ]
   },
   {
     "name": "Adam Kelleher: Causality Python Package",
@@ -12919,7 +14785,40 @@
       "Causal Inference",
       "DoWhy"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python-basics"
+    ],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning"
+    ],
+    "summary": "This resource provides a Python implementation of causal inference algorithms, enabling users to learn about do-sampling, causal graph inference, and conditional independence testing. It is suitable for those interested in applying causal inference techniques in their projects.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What is the Causality Python Package?",
+      "How to implement causal inference in Python?",
+      "What algorithms are included in the Causality Python Package?",
+      "How to perform conditional independence testing in Python?",
+      "What is do-sampling in causal inference?",
+      "How to use DoWhy for causal graph inference?",
+      "What are the prerequisites for using the Causality Python Package?",
+      "Who can benefit from learning about causal inference?"
+    ],
+    "use_cases": [
+      "When to apply causal inference algorithms",
+      "Using Python for causal analysis"
+    ],
+    "content_format": "null",
+    "skill_progression": [
+      "Understanding causal inference algorithms",
+      "Implementing do-sampling techniques",
+      "Conducting causal graph inference"
+    ]
   },
   {
     "name": "The Effect (Nick Huntington-Klein)",
@@ -12932,7 +14831,38 @@
       "Textbook",
       "Free"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference"
+    ],
+    "summary": "This resource provides a comprehensive introduction to research design and causal inference, featuring over 60 video lectures and practical coding examples. It is suitable for anyone looking to understand these concepts, particularly those in early academic or data science careers.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS"
+    ],
+    "synthetic_questions": [
+      "What is causal inference?",
+      "How to design a research study?",
+      "What programming languages are used in causal inference?",
+      "Where can I find free textbooks on research design?",
+      "What are the key concepts in causal inference?",
+      "How to apply causal inference in data science?",
+      "What is the difference between R, Stata, and Python for causal analysis?",
+      "What resources replace Mastering Metrics?"
+    ],
+    "use_cases": [
+      "When learning about causal inference",
+      "For academic research design",
+      "To practice coding in R, Stata, and Python"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "Understanding research design",
+      "Applying causal inference techniques",
+      "Using R, Stata, and Python for data analysis"
+    ]
   },
   {
     "name": "Coding for Economists (Arthur Turrell)",
@@ -12945,7 +14875,43 @@
       "Econometrics",
       "Workflow"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [
+      "python-basics"
+    ],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning",
+      "econometrics"
+    ],
+    "summary": "This resource teaches a modern Python workflow tailored for economists, focusing on data transformation, econometrics, Bayesian inference, and machine learning. It is suitable for those looking to enhance their skills in applying Python to economic data analysis.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What is the Python workflow for economists?",
+      "How can I apply Bayesian inference in economics?",
+      "What are the best practices for data transformation in Python?",
+      "What machine learning techniques are relevant for economists?",
+      "How does econometrics integrate with Python?",
+      "What resources are available for learning Python for economic analysis?",
+      "What is the modern approach to econometrics using Python?",
+      "How can I improve my workflow as an economist using Python?"
+    ],
+    "use_cases": [
+      "when to analyze economic data with Python",
+      "when to apply machine learning techniques in economics"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "data transformation",
+      "econometrics",
+      "Bayesian inference",
+      "machine learning"
+    ]
   },
   {
     "name": "QuantEcon DataScience",
@@ -12958,7 +14924,43 @@
       "Economics",
       "Data Science"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [
+      "python-basics"
+    ],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning",
+      "economics",
+      "data-science"
+    ],
+    "summary": "This course focuses on economic modeling using data science techniques. It is designed for individuals interested in applying Python to real-world economic problems.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is QuantEcon DataScience?",
+      "How can I apply Python in economics?",
+      "What are real student projects in economic modeling?",
+      "What skills will I gain from this course?",
+      "Is this course suitable for beginners?",
+      "What topics are covered in this course?",
+      "How does data science apply to economics?",
+      "Where can I find more resources on causal inference?"
+    ],
+    "use_cases": [
+      "when to apply data science in economics",
+      "understanding economic models with Python"
+    ],
+    "content_format": "course",
+    "skill_progression": [
+      "Python programming",
+      "Economic modeling",
+      "Data analysis in economics"
+    ]
   },
   {
     "name": "EGAP Learning Days: Field Experiments",
@@ -12971,7 +14973,41 @@
       "RCT",
       "Development"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "field-experiments",
+      "development"
+    ],
+    "summary": "This course covers the theory and practice of field experiments with a focus on international development. Participants will learn about randomization, power analysis, and ethical considerations in conducting experiments.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What are field experiments?",
+      "How to conduct a randomized controlled trial?",
+      "What is power analysis?",
+      "What ethical considerations are involved in field experiments?",
+      "How do field experiments apply to international development?",
+      "What skills are needed for conducting field experiments?",
+      "What are the challenges of field experiments?",
+      "How to analyze data from field experiments?"
+    ],
+    "use_cases": [
+      "When to use field experiments in research",
+      "Designing a randomized controlled trial for a development project"
+    ],
+    "content_format": "course",
+    "skill_progression": [
+      "Understanding of field experiments",
+      "Ability to conduct randomization",
+      "Skills in power analysis",
+      "Awareness of ethical considerations in research"
+    ]
   },
   {
     "name": "Causal Econometrics Course",
@@ -12984,7 +15020,37 @@
       "Causal Inference",
       "Graduate"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "advanced",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "econometrics"
+    ],
+    "summary": "This course provides comprehensive coverage of modern causal inference techniques for econometricians. It is designed for graduate-level students looking to deepen their understanding of credibility revolution methods.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What are modern causal inference techniques?",
+      "How do credibility revolution methods apply to econometrics?",
+      "What skills are needed for advanced causal econometrics?",
+      "Who should take a graduate-level causal econometrics course?",
+      "What will I learn in a causal econometrics course?",
+      "How does causal inference relate to machine learning?",
+      "What are the prerequisites for a causal econometrics course?",
+      "What is the importance of econometrics in data science?"
+    ],
+    "use_cases": [
+      "when to apply causal inference techniques in econometrics"
+    ],
+    "content_format": "course",
+    "skill_progression": [
+      "advanced causal inference techniques",
+      "credibility revolution methods"
+    ]
   },
   {
     "name": "Ben Elsner: Causal Inference & Policy Evaluation",
@@ -12997,7 +15063,38 @@
       "Causal Inference",
       "Europe"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "policy-evaluation"
+    ],
+    "summary": "This course focuses on causal inference methods with a practical approach to evaluating interventions in European policy contexts. It is designed for individuals interested in understanding the impact of policy decisions.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What are causal inference methods?",
+      "How to evaluate policy interventions?",
+      "What is the focus of European policy evaluation?",
+      "What skills are needed for causal inference?",
+      "How can I apply causal inference in practice?",
+      "What are the best practices for policy evaluation?",
+      "What is the relationship between causal inference and machine learning?",
+      "Who should take this course on causal inference?"
+    ],
+    "use_cases": [
+      "Evaluating the effectiveness of policy interventions",
+      "Understanding causal relationships in policy contexts"
+    ],
+    "content_format": "course",
+    "skill_progression": [
+      "Causal inference techniques",
+      "Policy evaluation methods"
+    ]
   },
   {
     "name": "Apoorva Lal: Applied Econometrics Notes",
@@ -13010,7 +15107,39 @@
       "Code",
       "Angrist"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python-basics"
+    ],
+    "topic_tags": [
+      "causal-inference",
+      "econometrics"
+    ],
+    "summary": "This resource provides condensed notes on the practical applications of Angrist & Pischke methods in econometrics. It is suitable for those looking to understand and implement Mostly Harmless Econometrics techniques.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS"
+    ],
+    "synthetic_questions": [
+      "What are Angrist & Pischke methods?",
+      "How to implement Mostly Harmless Econometrics?",
+      "What is applied econometrics?",
+      "What code examples are available for econometric methods?",
+      "How can I learn causal inference?",
+      "What are practical applications of econometric techniques?",
+      "What resources are available for econometrics?",
+      "How to use Python for econometrics?"
+    ],
+    "use_cases": [
+      "when to learn applied econometrics",
+      "when to implement causal inference methods"
+    ],
+    "content_format": "notes",
+    "skill_progression": [
+      "understanding of econometric methods",
+      "ability to implement econometric techniques in code"
+    ]
   },
   {
     "name": "Awesome Causal Inference (Matteo Courthoud)",
@@ -13023,7 +15152,32 @@
       "Causal Inference",
       "GitHub"
     ],
-    "level": "Easy"
+    "level": "Easy",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning"
+    ],
+    "summary": "This resource provides a comprehensive collection of materials related to causal inference, including papers, packages, tutorials, and datasets. It is suitable for individuals looking to deepen their understanding of causal inference methodologies.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are the best resources for learning causal inference?",
+      "How can I find datasets for causal inference?",
+      "What tutorials are available for causal inference?",
+      "Where can I access papers on causal inference?",
+      "What packages are recommended for causal inference?",
+      "How is causal inference applied in machine learning?",
+      "What topics are covered in causal inference?",
+      "What is a curated list of causal inference resources?"
+    ],
+    "use_cases": [
+      "when to explore causal inference topics",
+      "when looking for curated resources on causal inference"
+    ],
+    "content_format": "meta resource"
   },
   {
     "name": "Causal Wizard Reading List",
@@ -13036,7 +15190,40 @@
       "Causal Inference",
       "Learning Path"
     ],
-    "level": "Easy"
+    "level": "Easy",
+    "difficulty": "beginner|intermediate|advanced",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning"
+    ],
+    "summary": "The Causal Wizard Reading List provides an organized learning path for understanding causal inference, progressing from basic concepts to advanced methods. It is designed for individuals looking to deepen their knowledge in this area.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is causal inference?",
+      "How to learn causal inference?",
+      "What are the best resources for causal inference?",
+      "What is the progression of learning causal inference?",
+      "How to apply causal inference in machine learning?",
+      "What are advanced methods in causal inference?",
+      "Where to find quality-assessed reading lists?",
+      "What are the basics of causal inference?"
+    ],
+    "use_cases": [
+      "When to use this resource: For structured learning in causal inference."
+    ],
+    "content_format": "reading list",
+    "skill_progression": [
+      "Understanding of causal inference",
+      "Ability to apply causal methods",
+      "Knowledge of advanced causal techniques"
+    ]
   },
   {
     "name": "Shubhanshu Mishra: Awesome Causality",
@@ -13049,7 +15236,32 @@
       "Causality",
       "Datasets"
     ],
-    "level": "Easy"
+    "level": "Easy",
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning"
+    ],
+    "summary": "This resource provides an extensive collection of materials related to causality, including datasets, books, courses, videos, and code implementations. It is suitable for anyone interested in learning about causality in the context of machine learning and statistics.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are the best resources for learning causality?",
+      "Where can I find datasets for causal inference?",
+      "What books should I read on causality?",
+      "Are there any courses on causal inference?",
+      "What videos explain causality in machine learning?",
+      "How can I implement causality in code?",
+      "What is the importance of causality in data science?",
+      "What are curated lists of causality resources?"
+    ],
+    "use_cases": [
+      "when to learn about causality",
+      "when to find datasets for causal analysis"
+    ],
+    "content_format": "meta resource"
   },
   {
     "name": "Dario Sansone: ML for Economists Resources",
@@ -13062,7 +15274,38 @@
       "Economics",
       "Curated List"
     ],
-    "level": "Easy"
+    "level": "Easy",
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "machine-learning",
+      "economics"
+    ],
+    "summary": "This resource provides a curated collection of machine learning and causal inference materials specifically for economists. It is designed for those looking to enhance their understanding of these fields through a comprehensive list of papers and tools.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What are the best ML resources for economists?",
+      "How can I learn causal inference?",
+      "What tools are available for machine learning in economics?",
+      "Where can I find curated lists of ML papers?",
+      "What are the key concepts in ML for economists?",
+      "How to apply machine learning in economic research?"
+    ],
+    "use_cases": [
+      "When looking for foundational ML resources tailored for economists",
+      "When seeking a comprehensive list of tools and papers for research"
+    ],
+    "content_format": "meta resource",
+    "skill_progression": [
+      "Understanding of machine learning concepts",
+      "Familiarity with causal inference techniques",
+      "Ability to apply ML tools in economic research"
+    ]
   },
   {
     "name": "The Diff (Byrne Hobart)",
@@ -13075,7 +15318,32 @@
       "Tech Strategy",
       "Daily"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "finance",
+      "tech strategy"
+    ],
+    "summary": "The Diff provides daily analysis of key moments in finance and technology, aimed at those interested in understanding market dynamics and trends. It is particularly suited for individuals who enjoy deep dives into complex topics.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are the latest trends in finance?",
+      "How does technology impact financial markets?",
+      "What are inflection points in tech?",
+      "Who are the top analysts in finance?",
+      "What insights can I gain from daily financial newsletters?",
+      "How to understand market dynamics?",
+      "What is the significance of having a large subscriber base?",
+      "What does it mean to be a mental model geek?"
+    ],
+    "use_cases": [
+      "To stay updated on finance and tech trends",
+      "For daily insights into market shifts"
+    ],
+    "content_format": "newsletter"
   },
   {
     "name": "Money Stuff (Matt Levine)",
@@ -13088,7 +15356,34 @@
       "Wall Street",
       "Free"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "finance",
+      "Wall Street",
+      "M&A",
+      "tech IPOs",
+      "securities law"
+    ],
+    "summary": "Money Stuff is a daily newsletter that makes complex financial mechanics accessible, providing insights into Wall Street, M&A, tech IPOs, and securities law with wit. It is suitable for anyone interested in understanding finance in a more approachable way.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is Money Stuff newsletter?",
+      "How does Money Stuff explain financial mechanics?",
+      "Who writes Money Stuff?",
+      "What topics are covered in Money Stuff?",
+      "How many subscribers does Money Stuff have?",
+      "Is Money Stuff free?",
+      "What is the writing style of Money Stuff?",
+      "How can I subscribe to Money Stuff?"
+    ],
+    "use_cases": [
+      "to understand complex financial topics in an accessible way"
+    ],
+    "content_format": "newsletter"
   },
   {
     "name": "SemiAnalysis (Dylan Patel)",
@@ -13101,7 +15396,34 @@
       "AI Hardware",
       "GPU Economics"
     ],
-    "level": "Hard"
+    "level": "Hard",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "semiconductors",
+      "AI hardware",
+      "economics"
+    ],
+    "summary": "This resource provides deep technical insights into semiconductor economics and AI hardware, making it ideal for those interested in understanding the complexities of these fields. It is particularly suited for individuals looking to stay informed about the latest trends and analyses in technology strategy.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are the latest trends in semiconductor economics?",
+      "How does AI hardware impact the tech industry?",
+      "What insights does SemiAnalysis provide on GPU economics?",
+      "Why is SemiAnalysis considered a key resource?",
+      "What are the implications of semiconductor analysis for tech strategy?",
+      "How can I subscribe to SemiAnalysis?",
+      "What topics does Dylan Patel cover in his newsletter?",
+      "How does SemiAnalysis compare to other tech analysis resources?"
+    ],
+    "use_cases": [
+      "to understand semiconductor economics",
+      "to learn about AI hardware trends",
+      "to gain insights into GPU economics"
+    ],
+    "content_format": "newsletter"
   },
   {
     "name": "Aswath Damodaran Blog: Valuation",
@@ -13114,7 +15436,35 @@
       "Finance",
       "Tech Stocks"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "valuation",
+      "finance",
+      "tech-stocks"
+    ],
+    "summary": "This blog provides insights into valuation techniques and analyses of tech companies, particularly focusing on the Magnificent 7 and companies like Nvidia and PayPal. It is suitable for those interested in finance and tech stock valuation.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are the best valuation methods for tech companies?",
+      "How does Aswath Damodaran analyze Nvidia?",
+      "What insights can be gained from the Magnificent 7 analyses?",
+      "Where can I find valuation spreadsheets for tech stocks?",
+      "What are the key takeaways from the PayPal deep dive?",
+      "How to apply valuation techniques in practice?",
+      "What resources does Aswath Damodaran recommend for learning valuation?",
+      "What is the significance of the 'Dean of Valuation' title?"
+    ],
+    "use_cases": [],
+    "content_format": "blog",
+    "skill_progression": [
+      "valuation techniques",
+      "financial analysis",
+      "understanding tech stocks"
+    ]
   },
   {
     "name": "Not Boring (Packy McCormick)",
@@ -13127,7 +15477,38 @@
       "Deep Dives",
       "Strategy"
     ],
-    "level": "Easy"
+    "level": "Easy",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "business",
+      "startups",
+      "strategy"
+    ],
+    "summary": "Not Boring is a business newsletter that provides in-depth analysis and insights into startups and strategy. It is ideal for entrepreneurs and business enthusiasts looking for comprehensive content on the latest trends and strategies in the tech industry.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is Not Boring newsletter?",
+      "How does Not Boring analyze startups?",
+      "What topics are covered in Not Boring?",
+      "Who writes Not Boring?",
+      "What is the subscriber count of Not Boring?",
+      "How long are the articles in Not Boring?",
+      "What is the focus of Not Boring newsletter?",
+      "What is the writing style of Not Boring?"
+    ],
+    "use_cases": [
+      "to gain insights into startup strategies",
+      "to understand business trends",
+      "for deep dives into specific tech topics"
+    ],
+    "content_format": "newsletter",
+    "skill_progression": [
+      "understanding of startup dynamics",
+      "ability to analyze business strategies"
+    ]
   },
   {
     "name": "The Generalist (Mario Gabriele)",
@@ -13140,7 +15521,24 @@
       "S-1 Teardowns",
       "Deep Dives"
     ],
-    "level": "Easy"
+    "level": "Easy",
+    "difficulty": null,
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "The Generalist provides exhaustive deep dives into tech companies, including S-1 teardowns and multi-part series on major firms. It is aimed at individuals interested in detailed analysis of the tech industry.",
+    "audience": [],
+    "synthetic_questions": [
+      "What are S-1 teardowns?",
+      "How to analyze tech companies?",
+      "What insights can be gained from deep dives into tech firms?",
+      "Who are the major players in the tech industry?",
+      "What is Founders Fund?",
+      "How to subscribe to The Generalist newsletter?",
+      "What topics are covered in The Generalist?",
+      "What is the significance of tech company analysis?"
+    ],
+    "use_cases": [],
+    "content_format": "newsletter"
   },
   {
     "name": "Full Stack Economics (Timothy Lee)",
@@ -13153,7 +15551,36 @@
       "Policy",
       "Accessible"
     ],
-    "level": "Easy"
+    "level": "Easy",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "tech-economics",
+      "policy"
+    ],
+    "summary": "Full Stack Economics provides clear explanations of tech economics and policy, making complex topics accessible to general audiences. It is suitable for anyone interested in understanding the intersection of technology and economics.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is tech economics?",
+      "How does technology impact policy?",
+      "What are the basics of tech strategy?",
+      "Who is Timothy Lee?",
+      "What is the purpose of Full Stack Economics?",
+      "How can I understand AI better?",
+      "What are accessible resources on tech economics?",
+      "Where can I find newsletters on tech policy?"
+    ],
+    "use_cases": [
+      "when to understand tech economics",
+      "when to learn about policy implications of technology"
+    ],
+    "content_format": "newsletter",
+    "skill_progression": [
+      "understanding tech economics",
+      "grasping policy issues related to technology"
+    ]
   },
   {
     "name": "Apricitas Economics (Joseph Politano)",
@@ -13166,7 +15593,37 @@
       "Data Viz",
       "Labor Markets"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "macro-economics",
+      "data-visualization"
+    ],
+    "summary": "Apricitas Economics provides data-driven macroeconomic analysis with a focus on labor markets, inflation, and industry economics. This resource is ideal for those interested in understanding macroeconomic trends through exceptional visualizations.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is Apricitas Economics?",
+      "How does Apricitas Economics analyze labor markets?",
+      "What are the key topics covered in Apricitas Economics?",
+      "Why is Apricitas Economics recommended by Noah Smith?",
+      "What type of visualizations does Apricitas Economics use?",
+      "How can I subscribe to Apricitas Economics?",
+      "What are the main themes in macroeconomic analysis?",
+      "What insights can I gain from Apricitas Economics?"
+    ],
+    "use_cases": [
+      "to understand macroeconomic trends",
+      "to explore labor market dynamics",
+      "to learn about inflation analysis"
+    ],
+    "content_format": "newsletter",
+    "skill_progression": [
+      "data analysis",
+      "economic visualization"
+    ]
   },
   {
     "name": "Economic Forces (Albrecht & Hendrickson)",
@@ -13179,7 +15636,33 @@
       "Microeconomics",
       "Economics"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "Price Theory",
+      "Microeconomics",
+      "Economics"
+    ],
+    "summary": "This newsletter provides insights into Chicago-style price theory tailored for modern audiences. It is suitable for anyone interested in understanding economic principles and theories.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is Chicago-style price theory?",
+      "How does price theory apply to modern economics?",
+      "What are the key concepts in microeconomics?",
+      "Who are Albrecht and Hendrickson?",
+      "What makes this newsletter popular?",
+      "How can I subscribe to Economic Forces?",
+      "What topics are covered in the newsletter?",
+      "What is the significance of price theory in economics?"
+    ],
+    "use_cases": [
+      "To gain insights into economic theories",
+      "To understand price mechanisms in modern contexts"
+    ],
+    "content_format": "newsletter"
   },
   {
     "name": "Inside Data (Mikkel Dengs\u00f8e)",
@@ -13192,7 +15675,40 @@
       "Benchmarks",
       "Experimentation"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "applied-economics",
+      "data-teams",
+      "experimentation"
+    ],
+    "summary": "This resource explores the economics of data teams, including their sizing, structure, and valuation, with benchmarks from over 100 tech companies. It is aimed at professionals interested in understanding how experimentation can be integrated as a company strategy.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What are the benchmarks for data teams?",
+      "How should data teams be structured?",
+      "What is the valuation of data teams?",
+      "How can experimentation be used as a company strategy?",
+      "What insights can be gained from 100+ tech companies?",
+      "What are the best practices for sizing data teams?",
+      "How does data team economics impact company performance?",
+      "What are the key metrics for evaluating data teams?"
+    ],
+    "use_cases": [
+      "When evaluating the structure of a data team",
+      "When considering the implementation of experimentation strategies in a company"
+    ],
+    "content_format": "newsletter",
+    "skill_progression": [
+      "Understanding data team economics",
+      "Applying benchmarks to data team structure",
+      "Integrating experimentation into company strategy"
+    ]
   },
   {
     "name": "Growth Unhinged: B2B Monetization Research",
@@ -13205,7 +15721,24 @@
       "Pricing",
       "Monetization"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": null,
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "This resource provides insights into B2B monetization strategies, focusing on pricing, packaging, and growth metrics for SaaS companies. It is suitable for professionals and businesses looking to enhance their monetization approaches.",
+    "audience": [],
+    "synthetic_questions": [
+      "What are the latest trends in B2B monetization?",
+      "How can SaaS companies optimize pricing strategies?",
+      "What metrics are essential for B2B growth?",
+      "What is the State of B2B Monetization 2025?",
+      "How to package products for better revenue?",
+      "What are effective monetization strategies for B2B?",
+      "How does pricing impact SaaS growth?",
+      "What research exists on B2B monetization?"
+    ],
+    "use_cases": [],
+    "content_format": "newsletter"
   },
   {
     "name": "Platform Papers (Joost Rietveld)",
@@ -13218,7 +15751,33 @@
       "Academic",
       "Strategy"
     ],
-    "level": "Medium"
+    "level": "Medium",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "platform-economics",
+      "strategy"
+    ],
+    "summary": "This resource provides insights into academic platform research and its practical applications in platform strategy. It is aimed at practitioners looking to bridge the gap between academic literature and real-world platform strategies.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are the key concepts in platform economics?",
+      "How can academic research inform platform strategy?",
+      "What practical strategies can be derived from platform literature?",
+      "Who are the leading researchers in platform economics?",
+      "What are the implications of platform research for practitioners?",
+      "How to apply academic findings to real-world platform challenges?"
+    ],
+    "use_cases": [
+      "When seeking to understand the intersection of academic research and practical platform strategy."
+    ],
+    "content_format": "newsletter",
+    "skill_progression": [
+      "Understanding of platform economics",
+      "Ability to apply academic insights to practical scenarios"
+    ]
   },
   {
     "name": "Matt Levine: The Crypto Story (Businessweek)",
@@ -13231,7 +15790,34 @@
       "Long Form",
       "Explainer"
     ],
-    "level": "Easy"
+    "level": "Easy",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "crypto"
+    ],
+    "summary": "This article provides a comprehensive overview of the crypto ecosystem, making complex concepts accessible. It is suitable for anyone looking to understand the intricacies of cryptocurrency.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is the crypto ecosystem?",
+      "How does cryptocurrency work?",
+      "What are the key components of crypto?",
+      "Who is Matt Levine?",
+      "What are the implications of crypto?",
+      "How to understand crypto markets?",
+      "What are the risks of investing in crypto?",
+      "What makes Matt Levine's writing unique?"
+    ],
+    "use_cases": [
+      "To gain a foundational understanding of cryptocurrency"
+    ],
+    "content_format": "article",
+    "skill_progression": [
+      "Understanding of the crypto ecosystem",
+      "Ability to grasp complex financial concepts"
+    ]
   },
   {
     "name": "Nick Huntington-Klein: Animated Causal Graphs",
@@ -13244,422 +15830,38 @@
       "Visualization",
       "Pedagogy"
     ],
-    "level": "Easy"
-  },
-  {
-    "name": "Frank Harrell: Statistical Thinking Blog",
-    "description": "Vanderbilt biostatistics professor and FDA advisor. Essential reading on Bayesian study design, why ML needs statistics, and information-theoretic approaches.",
-    "category": "Bayesian Statistics",
-    "url": "https://www.fharrell.com/",
-    "type": "Blog",
-    "tags": [
-      "Bayesian",
-      "Study Design",
-      "Biostatistics"
+    "level": "Easy",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "causal-inference",
+      "visualization",
+      "pedagogy"
     ],
-    "level": "Advanced"
-  },
-  {
-    "name": "Rob Hyndman Blog",
-    "description": "Creator of the forecast R package and fpp3 textbook. The definitive authority on time series forecasting.",
-    "category": "Forecasting",
-    "url": "https://robjhyndman.com/",
-    "type": "Blog",
-    "tags": [
-      "Time Series",
-      "Forecasting",
-      "R"
+    "summary": "This resource provides innovative visual demonstrations of causal methods through animated directed acyclic graphs (DAGs). It is designed for those interested in understanding confounding, selection bias, and identification strategies in causal inference.",
+    "audience": [
+      "Curious-browser"
     ],
-    "level": "Medium"
-  },
-  {
-    "name": "Forecasting: Principles and Practice (fpp3)",
-    "description": "Free online textbook by Rob Hyndman. The gold standard for applied forecasting.",
-    "category": "Forecasting",
-    "url": "https://otexts.com/fpp3/",
-    "type": "Book",
-    "tags": [
-      "Time Series",
-      "Forecasting",
-      "Free Textbook"
+    "synthetic_questions": [
+      "What are animated causal graphs?",
+      "How do DAGs help in understanding causal inference?",
+      "What is confounding in causal analysis?",
+      "What is selection bias?",
+      "How can visualization aid in learning causal methods?",
+      "What identification strategies are used in causal inference?",
+      "Where can I find tools for learning causal inference?",
+      "What are the benefits of using animations in pedagogy?"
     ],
-    "level": "Medium"
-  },
-  {
-    "name": "John D. Cook Blog",
-    "description": "Consulting statistician with Amazon, Google, Microsoft clients. Exceptional breadth: Bayesian methods, numerical computing, privacy.",
-    "category": "Applied Statistics",
-    "url": "https://www.johndcook.com/blog/",
-    "type": "Blog",
-    "tags": [
-      "Applied Statistics",
-      "Numerical Methods",
-      "Consulting"
+    "use_cases": [
+      "To visualize and understand causal relationships",
+      "To learn about confounding and selection bias",
+      "To enhance teaching methods in causal inference"
     ],
-    "level": "Medium"
-  },
-  {
-    "name": "Georgi Georgiev: Analytics-Toolkit Blog",
-    "description": "Author of Statistical Methods in Online A/B Testing. Sequential testing, AGILE methodology.",
-    "category": "A/B Testing",
-    "url": "https://blog.analytics-toolkit.com/",
-    "type": "Blog",
-    "tags": [
-      "Sequential Testing",
-      "Experimentation",
-      "AGILE"
-    ],
-    "level": "Medium"
-  },
-  {
-    "name": "Thomas Wiecki Blog (twiecki.io)",
-    "description": "PyMC Labs CEO. Exceptional Bayesian tutorials with business applications.",
-    "category": "Bayesian Statistics",
-    "url": "https://twiecki.io/",
-    "type": "Blog",
-    "tags": [
-      "PyMC",
-      "Bayesian",
-      "Business Applications"
-    ],
-    "level": "Advanced"
-  },
-  {
-    "name": "PyMC Labs Blog",
-    "description": "Industry Bayesian applications from the PyMC Labs team. Case studies on marketing mix modeling, customer lifetime value.",
-    "category": "Bayesian Statistics",
-    "url": "https://www.pymc-labs.com/blog/",
-    "type": "Blog",
-    "tags": [
-      "PyMC",
-      "Industry Applications",
-      "Case Studies"
-    ],
-    "level": "Advanced"
-  },
-  {
-    "name": "Simply Statistics Blog",
-    "description": "Jeff Leek, Roger Peng, and Rafa Irizarry from Johns Hopkins biostatistics. Data science education, reproducibility.",
-    "category": "Applied Statistics",
-    "url": "https://simplystatistics.org/",
-    "type": "Blog",
-    "tags": [
-      "Data Science",
-      "Education",
-      "Reproducibility"
-    ],
-    "level": "Easy"
-  },
-  {
-    "name": "Elements of Statistical Learning (ESL)",
-    "description": "Free PDF by Hastie, Tibshirani, and Friedman. The advanced ML/statistics reference.",
-    "category": "Statistical Learning",
-    "url": "https://hastie.su.domains/ElemStatLearn/",
-    "type": "Book",
-    "tags": [
-      "Machine Learning",
-      "Free Textbook",
-      "Advanced"
-    ],
-    "level": "Advanced"
-  },
-  {
-    "name": "Introduction to Statistical Learning (ISLR/ISLP)",
-    "description": "Free PDF with R and Python editions. The accessible ML foundations book.",
-    "category": "Statistical Learning",
-    "url": "https://www.statlearning.com/",
-    "type": "Book",
-    "tags": [
-      "Machine Learning",
-      "Free Textbook",
-      "Foundations"
-    ],
-    "level": "Medium"
-  },
-  {
-    "name": "Art Owen: Monte Carlo Theory, Methods, and Examples",
-    "description": "Free, continuously updated textbook from Stanford professor on Monte Carlo methods.",
-    "category": "Statistical Computing",
-    "url": "https://artowen.su.domains/mc/",
-    "type": "Book",
-    "tags": [
-      "Monte Carlo",
-      "Simulation",
-      "Free Textbook"
-    ],
-    "level": "Advanced"
-  },
-  {
-    "name": "Conformal Prediction Tutorial (Angelopoulos)",
-    "description": "Berkeley PhDs definitive tutorial on conformal prediction for uncertainty quantification.",
-    "category": "Uncertainty Quantification",
-    "url": "https://people.eecs.berkeley.edu/~angelopoulos/blog/posts/gentle-intro/",
-    "type": "Tutorial",
-    "tags": [
-      "Conformal Prediction",
-      "Uncertainty",
-      "ML"
-    ],
-    "level": "Medium"
-  },
-  {
-    "name": "Learning Bayesian Statistics Podcast",
-    "description": "Alexandre Andorras podcast featuring interviews with top Bayesian researchers.",
-    "category": "Bayesian Statistics",
-    "url": "https://learnbayesstats.com/",
-    "type": "Podcast",
-    "tags": [
-      "Bayesian",
-      "Podcast",
-      "Interviews"
-    ],
-    "level": "Medium"
-  },
-  {
-    "name": "Tianqi Chen Homepage",
-    "description": "Creator of XGBoost, Apache TVM, and co-creator of Apache MXNet. CMU professor, NVIDIA Distinguished Engineer.",
-    "category": "Machine Learning",
-    "url": "https://tqchen.com/",
-    "type": "Blog",
-    "tags": [
-      "XGBoost",
-      "ML Systems",
-      "Deep Learning"
-    ],
-    "level": "Advanced"
-  },
-  {
-    "name": "Bojan Tunguz: XGBlog",
-    "description": "Kaggle Grandmaster at NVIDIA. XGBoost philosophy, hyperparameter tuning, tabular ML best practices.",
-    "category": "Machine Learning",
-    "url": "https://www.xgblog.ai/",
-    "type": "Newsletter",
-    "tags": [
-      "XGBoost",
-      "Tabular ML",
-      "Kaggle"
-    ],
-    "level": "Medium"
-  },
-  {
-    "name": "Ben Gorman: Gradient Boosting Explained",
-    "description": "Widely cited as one of the clearest gradient boosting explanations ever written.",
-    "category": "Machine Learning",
-    "url": "https://www.gormanalysis.com/blog/gradient-boosting-explained/",
-    "type": "Tutorial",
-    "tags": [
-      "Gradient Boosting",
-      "XGBoost",
-      "Pedagogy"
-    ],
-    "level": "Medium"
-  },
-  {
-    "name": "Explained.ai: Gradient Boosting Tutorial",
-    "description": "Terence Parr and Jeremy Howard. 3-part comprehensive GBM tutorial with academic rigor.",
-    "category": "Machine Learning",
-    "url": "https://explained.ai/gradient-boosting/",
-    "type": "Tutorial",
-    "tags": [
-      "Gradient Boosting",
-      "Theory",
-      "Pedagogy"
-    ],
-    "level": "Medium"
-  },
-  {
-    "name": "Xavier Amatriain Blog",
-    "description": "VP at Google, former Netflix Algorithms lead. Matrix factorization, collaborative filtering, A/B testing recommenders.",
-    "category": "Recommendation Systems",
-    "url": "https://amatria.in/blog/",
-    "type": "Blog",
-    "tags": [
-      "Netflix",
-      "Collaborative Filtering",
-      "RecSys"
-    ],
-    "level": "Advanced"
-  },
-  {
-    "name": "Daniel Tunkelang: Query Understanding",
-    "description": "LinkedIn, Google, eBay search veteran. Query understanding, learning-to-rank, BM25.",
-    "category": "Recommendation Systems",
-    "url": "https://queryunderstanding.com/",
-    "type": "Blog",
-    "tags": [
-      "Search",
-      "Learning to Rank",
-      "Query Understanding"
-    ],
-    "level": "Advanced"
-  },
-  {
-    "name": "Airbnb Engineering Blog",
-    "description": "Search ranking evolution, listing embeddings, diversity optimization. Honest failures and successes.",
-    "category": "Recommendation Systems",
-    "url": "https://medium.com/airbnb-engineering",
-    "type": "Blog",
-    "tags": [
-      "Search Ranking",
-      "Embeddings",
-      "Production ML"
-    ],
-    "level": "Medium"
-  },
-  {
-    "name": "Jim Dowling: Hopsworks Blog",
-    "description": "CEO of Hopsworks, KTH professor. Feature store architecture, AI Lakehouse, ML pipeline design.",
-    "category": "MLOps",
-    "url": "https://www.hopsworks.ai/blog",
-    "type": "Blog",
-    "tags": [
-      "Feature Store",
-      "MLOps",
-      "ML Infrastructure"
-    ],
-    "level": "Advanced"
-  },
-  {
-    "name": "Feast: Feature Store Blog",
-    "description": "Willem Pienaar, creator of Feast open-source feature store.",
-    "category": "MLOps",
-    "url": "https://blog.feast.dev",
-    "type": "Blog",
-    "tags": [
-      "Feature Store",
-      "Open Source",
-      "Production ML"
-    ],
-    "level": "Medium"
-  },
-  {
-    "name": "Tecton Blog",
-    "description": "Mike Del Balso, co-creator of Ubers Michelangelo. Feature platform architecture, operational ML.",
-    "category": "MLOps",
-    "url": "https://www.tecton.ai/blog",
-    "type": "Blog",
-    "tags": [
-      "Feature Store",
-      "Michelangelo",
-      "Uber"
-    ],
-    "level": "Advanced"
-  },
-  {
-    "name": "MLflow: ML Lifecycle Management",
-    "description": "Matei Zaharia (Spark, MLflow creator). ML lifecycle, experiment tracking, model registry.",
-    "category": "MLOps",
-    "url": "https://mlflow.org/",
-    "type": "Documentation",
-    "tags": [
-      "Experiment Tracking",
-      "Model Registry",
-      "ML Lifecycle"
-    ],
-    "level": "Medium"
-  },
-  {
-    "name": "Evidently AI Blog",
-    "description": "Emeli Dral (Yandex Data Factory). Data drift detection, model monitoring, ML quality testing.",
-    "category": "MLOps",
-    "url": "https://www.evidentlyai.com/blog",
-    "type": "Blog",
-    "tags": [
-      "Model Monitoring",
-      "Data Drift",
-      "ML Quality"
-    ],
-    "level": "Medium"
-  },
-  {
-    "name": "Abhishek Thakur: AAAMLP Book",
-    "description": "4x Kaggle Grandmaster. Approaching Almost Any ML Problem - the practical ML bible.",
-    "category": "Machine Learning",
-    "url": "https://github.com/abhishekkrthakur/approachingalmost",
-    "type": "Book",
-    "tags": [
-      "Kaggle",
-      "Practical ML",
-      "Cross-Validation"
-    ],
-    "level": "Medium"
-  },
-  {
-    "name": "MLWave: Kaggle Ensembling Guide",
-    "description": "Triskelion. THE canonical reference on model ensembling with 1000+ GitHub stars.",
-    "category": "Machine Learning",
-    "url": "https://mlwave.com/kaggle-ensembling-guide/",
-    "type": "Tutorial",
-    "tags": [
-      "Ensembling",
-      "Kaggle",
-      "Stacking"
-    ],
-    "level": "Medium"
-  },
-  {
-    "name": "FastML (Zygmunt Zajac)",
-    "description": "Machine learning made easy. Complex topics without PhD-level math since 2011.",
-    "category": "Machine Learning",
-    "url": "https://fastml.com/",
-    "type": "Blog",
-    "tags": [
-      "Practical ML",
-      "Tutorials",
-      "Hyperparameter Tuning"
-    ],
-    "level": "Medium"
-  },
-  {
-    "name": "Chris Deotte: NVIDIA Kaggle Grandmaster Blog",
-    "description": "4x Kaggle Grandmaster at NVIDIA. Feature engineering, stacking, GPU-accelerated ML.",
-    "category": "Machine Learning",
-    "url": "https://developer.nvidia.com/blog/author/cdeotte/",
-    "type": "Blog",
-    "tags": [
-      "Feature Engineering",
-      "Stacking",
-      "NVIDIA"
-    ],
-    "level": "Advanced"
-  },
-  {
-    "name": "Scott Lundberg: SHAP Creator",
-    "description": "Creator of SHAP, former Microsoft Research. TreeSHAP, feature attribution.",
-    "category": "Model Interpretability",
-    "url": "https://scottlundberg.com/",
-    "type": "Blog",
-    "tags": [
-      "SHAP",
-      "Explainability",
-      "Feature Attribution"
-    ],
-    "level": "Advanced"
-  },
-  {
-    "name": "Jason Brownlee: Machine Learning Mastery",
-    "description": "PhD in AI, 20+ books. THE go-to resource for applied ML practitioners.",
-    "category": "Machine Learning",
-    "url": "https://machinelearningmastery.com/",
-    "type": "Blog",
-    "tags": [
-      "Tutorials",
-      "Applied ML",
-      "Imbalanced Data"
-    ],
-    "level": "Easy"
-  },
-  {
-    "name": "Ferenc Huszar: inFERENCe Blog",
-    "description": "Former Twitter ML researcher. Causal inference, do-calculus, ML beyond Curve Fitting series.",
-    "category": "Causal Inference & ML",
-    "url": "https://www.inference.vc/",
-    "type": "Blog",
-    "tags": [
-      "Causal Inference",
-      "Do-Calculus",
-      "ML Theory"
-    ],
-    "level": "Advanced"
+    "content_format": "tool",
+    "skill_progression": [
+      "Understanding of causal methods",
+      "Ability to interpret animated DAGs",
+      "Knowledge of confounding and selection bias"
+    ]
   }
 ]

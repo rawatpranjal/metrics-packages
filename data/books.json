@@ -12,32 +12,33 @@
       "Platform Economics"
     ],
     "difficulty": "intermediate",
-    "prerequisites": [
-      "microeconomics-principles",
-      "basic-game-theory",
-      "market-analysis"
-    ],
+    "prerequisites": [],
     "topic_tags": [
-      "network-effects",
-      "pricing-strategy",
-      "two-sided-markets",
-      "digital-economics",
-      "platform-strategy"
+      "network-economics",
+      "platform-economics"
     ],
-    "summary": "A seminal book by Shapiro and Varian that established the economic principles governing information-based businesses and network effects. It provides frameworks for understanding pricing, versioning, and competitive strategy in technology markets. Essential reading for anyone working on platform economics, digital marketplaces, or tech company strategy.",
+    "summary": "This book provides foundational insights into network economics, exploring how economic principles apply to digital platforms. It is suitable for those interested in understanding the economic dynamics of technology-driven markets.",
     "use_cases": [
-      "Designing pricing strategies for SaaS products with network effects",
-      "Analyzing competitive dynamics in two-sided marketplace businesses"
+      "to understand the economic principles behind digital platforms",
+      "to gain insights into network effects in technology"
     ],
     "audience": [
-      "Mid-DS",
       "Curious-browser"
     ],
     "synthetic_questions": [
-      "foundational books on network economics",
-      "how to price products with network effects",
-      "classic texts on platform business models",
-      "Varian Google chief economist book recommendations"
+      "What are the key principles of network economics?",
+      "How does platform economics impact business strategy?",
+      "Who is the author of Information Rules?",
+      "What insights does Varian provide on digital markets?",
+      "How can I apply network economics to my business?",
+      "What are the main themes discussed in Information Rules?",
+      "Why is Varian considered an authority in economics?",
+      "What role does Google play in network economics?"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "understanding network effects",
+      "applying economic principles to technology"
     ]
   },
   {
@@ -53,32 +54,30 @@
       "Platform Economics"
     ],
     "difficulty": "intermediate",
-    "prerequisites": [
-      "microeconomics-theory",
-      "game-theory",
-      "econometrics"
-    ],
+    "prerequisites": [],
     "topic_tags": [
-      "platform-economics",
-      "two-sided-markets",
-      "industrial-organization",
-      "network-effects",
-      "market-design"
+      "platform-economics"
     ],
-    "summary": "Comprehensive textbook on platform economics and two-sided markets by leading industrial organization economists. Covers theoretical foundations, empirical methods, and real-world applications of platforms like ride-sharing, app stores, and payment systems. Essential reading for understanding how digital marketplaces create value by connecting different user groups.",
+    "summary": "This book provides a rigorous exploration of platform economics, aimed at those interested in understanding the intricacies of this field. It is suitable for readers with a foundational knowledge of economics.",
     "use_cases": [
-      "Analyzing pricing strategies for a two-sided marketplace startup",
-      "Understanding network effects and competitive dynamics in platform industries"
+      "to gain a deeper understanding of platform economics"
     ],
     "audience": [
-      "Early-PhD",
-      "Senior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "platform economics textbook",
-      "two sided markets theory",
-      "network effects empirical analysis",
-      "marketplace pricing strategy research"
+      "What are the key concepts in platform economics?",
+      "How do top economists approach platform economics?",
+      "What can I learn from the book Matchmakers?",
+      "Who are the authors of Matchmakers?",
+      "What is the significance of platform economics?",
+      "How does platform economics impact the tech industry?",
+      "What are the main themes discussed in Matchmakers?",
+      "Is Matchmakers suitable for beginners in economics?"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "understanding of platform economics principles"
     ]
   },
   {
@@ -93,32 +92,30 @@
     "tags": [
       "Platform Economics"
     ],
-    "difficulty": "beginner",
-    "prerequisites": [
-      "basic-microeconomics",
-      "business-strategy-fundamentals"
-    ],
-    "topic_tags": [
-      "platform-strategy",
-      "network-effects",
-      "two-sided-markets",
-      "digital-platforms",
-      "business-models"
-    ],
-    "summary": "Platform Revolution is a foundational guide to understanding how digital platforms create value through network effects and multi-sided markets. The book covers platform design principles, competitive dynamics, and monetization strategies used by companies like Amazon, Uber, and Facebook. It provides frameworks for analyzing platform ecosystems and identifying opportunities in the platform economy.",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "This book provides a comprehensive understanding of platform strategies, ideal for those looking to delve into platform economics. It is suitable for business professionals and students interested in the dynamics of platform-based business models.",
     "use_cases": [
-      "Understanding how to design marketplace features that encourage network effects",
-      "Analyzing competitive positioning against platform-based competitors"
+      "When to apply platform strategies in business"
     ],
     "audience": [
-      "Junior-DS",
       "Curious-browser"
     ],
     "synthetic_questions": [
-      "platform strategy fundamentals",
-      "network effects in digital markets",
-      "two-sided marketplace design",
-      "platform business model basics"
+      "What is platform strategy?",
+      "How do platforms impact economics?",
+      "What are the key concepts in platform economics?",
+      "Who should read Platform Revolution?",
+      "What will I learn from Platform Revolution?",
+      "How does platform economics differ from traditional economics?",
+      "What are the benefits of understanding platform strategies?",
+      "What case studies are included in Platform Revolution?"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "Understanding platform economics",
+      "Analyzing platform strategies"
     ]
   },
   {
@@ -133,32 +130,37 @@
     "tags": [
       "Pricing & Market Design"
     ],
-    "difficulty": "beginner",
-    "prerequisites": [
-      "microeconomics",
-      "game-theory-basics"
-    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
     "topic_tags": [
       "market-design",
-      "auction-theory",
-      "matching-algorithms",
-      "mechanism-design",
-      "behavioral-economics"
+      "auctions",
+      "matching-markets"
     ],
-    "summary": "Accessible introduction to market design by Nobel Prize winner Alvin Roth, explaining how economists design markets and matching systems. Covers real-world applications like kidney exchanges, school choice, and spectrum auctions without heavy mathematics. Essential reading for understanding how economic theory shapes platform design and marketplace mechanisms.",
+    "summary": "This book explores the principles of market design as developed by a Nobel laureate, focusing on auctions and matching markets. It is suitable for those interested in understanding the complexities of pricing and market mechanisms.",
     "use_cases": [
-      "Designing matching algorithms for two-sided marketplaces like rideshare or dating apps",
-      "Understanding auction mechanisms for ad exchanges or procurement systems"
+      "to understand market mechanisms",
+      "to learn about pricing strategies",
+      "to explore auction theory"
     ],
     "audience": [
-      "Curious-browser",
-      "Junior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "introduction to market design for beginners",
-      "how do matching algorithms work in practice",
-      "Nobel prize winner book on auctions and markets",
-      "accessible book on mechanism design and matching markets"
+      "What is market design?",
+      "How do auctions work?",
+      "What are matching markets?",
+      "Who is the Nobel laureate behind this book?",
+      "What are the applications of market design?",
+      "How can I learn about pricing strategies?",
+      "What are the key concepts in market design?",
+      "Why is market design important?"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "understanding of market mechanisms",
+      "knowledge of auction theory",
+      "insight into matching markets"
     ]
   },
   {
@@ -173,33 +175,29 @@
     "tags": [
       "AI & Machine Learning"
     ],
-    "difficulty": "beginner",
-    "prerequisites": [
-      "basic-economics",
-      "business-strategy"
-    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "economic-framework",
-      "AI-strategy",
-      "prediction-economics",
-      "business-AI",
-      "decision-making"
+      "AI",
+      "economics",
+      "prediction"
     ],
-    "summary": "A foundational book that reframes artificial intelligence as a technology that makes prediction cheap, providing an economic lens for understanding AI's impact on business and society. Written by economists, it offers a clear framework for thinking about when and how to deploy AI systems based on prediction costs and complementary assets. Essential reading for anyone wanting to understand AI's economic implications without technical complexity.",
-    "use_cases": [
-      "Understanding when AI adoption makes economic sense for your organization",
-      "Developing business strategy around AI capabilities and limitations"
-    ],
+    "summary": "This resource provides an economic framework for understanding AI as a tool for making predictions. It is suitable for individuals interested in the intersection of economics and artificial intelligence.",
+    "use_cases": [],
     "audience": [
-      "Curious-browser",
-      "Junior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "economic framework for understanding AI",
-      "when does AI make business sense",
-      "prediction machines book summary",
-      "AI strategy from economics perspective"
-    ]
+      "What is the economic framework for AI?",
+      "How does AI function as a prediction tool?",
+      "What are the implications of AI in economics?",
+      "Who should read Prediction Machines?",
+      "What concepts are covered in Prediction Machines?",
+      "How can AI improve prediction accuracy?",
+      "What are the key takeaways from Prediction Machines?",
+      "What is the significance of prediction in AI?"
+    ],
+    "content_format": "book"
   },
   {
     "name": "Power and Prediction",
@@ -213,33 +211,28 @@
     "tags": [
       "AI & Machine Learning"
     ],
-    "difficulty": "beginner",
-    "prerequisites": [
-      "basic-economics",
-      "technology-adoption-models"
-    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "AI-strategy",
-      "system-disruption",
-      "economic-transformation",
-      "prediction-markets",
-      "business-strategy"
+      "AI",
+      "Machine Learning"
     ],
-    "summary": "A strategic framework for understanding how AI creates system-level disruptions beyond individual task automation. Written by economists Ajay Agrawal, Joshua Gans, and Avi Goldfarb as a follow-up to Prediction Machines, exploring how prediction improvements reshape entire business ecosystems and economic structures.",
-    "use_cases": [
-      "Strategic planning for AI adoption across organizational systems",
-      "Understanding competitive dynamics in AI-transformed industries"
-    ],
+    "summary": "This book explores the system-level disruptions caused by AI, building on concepts from Prediction Machines. It is aimed at individuals interested in understanding the broader implications of AI technologies.",
+    "use_cases": [],
     "audience": [
-      "Senior-DS",
       "Curious-browser"
     ],
     "synthetic_questions": [
-      "How does AI disrupt entire systems not just tasks",
-      "Sequel to Prediction Machines book",
-      "AI system level transformation economics",
-      "Business strategy for AI disruption"
-    ]
+      "What are the implications of AI on prediction?",
+      "How does AI disrupt traditional systems?",
+      "What concepts are covered in Power and Prediction?",
+      "Who is the author of Prediction Machines?",
+      "What are the key themes in AI and Machine Learning?",
+      "How can AI be applied in various industries?",
+      "What is the sequel to Prediction Machines about?",
+      "What skills can be gained from reading this book?"
+    ],
+    "content_format": "book"
   },
   {
     "name": "The Attention Merchants",
@@ -253,32 +246,35 @@
     "tags": [
       "Advertising & Attention"
     ],
-    "difficulty": "beginner",
-    "prerequisites": [
-      "basic-economics",
-      "business-strategy-fundamentals"
-    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "attention-economy",
-      "digital-advertising",
-      "media-history",
-      "business-models",
-      "platform-economics"
+      "advertising",
+      "economics",
+      "attention"
     ],
-    "summary": "A comprehensive history of how businesses have captured and monetized human attention, from newspapers to digital platforms. The book explores the economic models underlying advertising-supported media and how tech companies have refined attention capture into a science. Essential reading for understanding the business fundamentals behind today's digital economy.",
+    "summary": "This book explores the history and economics of attention and advertising, providing insights into how attention is commodified in modern society. It is suitable for readers interested in understanding the dynamics of advertising and its impact on consumer behavior.",
     "use_cases": [
-      "Understanding how advertising-supported business models work at tech companies",
-      "Analyzing the economic incentives behind social media platform design decisions"
+      "to understand the evolution of advertising",
+      "to explore the relationship between attention and consumer behavior"
     ],
     "audience": [
-      "Junior-DS",
       "Curious-browser"
     ],
     "synthetic_questions": [
-      "how does the attention economy work",
-      "history of digital advertising business models",
-      "why do social media platforms design addictive features",
-      "economics of free internet services advertising"
+      "What is the history of attention in advertising?",
+      "How does advertising affect consumer behavior?",
+      "What are the economic implications of attention commodification?",
+      "Who are the key figures in the history of advertising?",
+      "What are the main theories discussed in The Attention Merchants?",
+      "How has the advertising industry evolved over time?",
+      "What role does attention play in modern marketing strategies?",
+      "What can we learn from the economics of attention?"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "understanding of advertising principles",
+      "insight into economic theories related to attention"
     ]
   },
   {
@@ -293,32 +289,33 @@
     "tags": [
       "Advertising & Attention"
     ],
-    "difficulty": "beginner",
-    "prerequisites": [
-      "basic-economics",
-      "digital-marketing-concepts"
-    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "programmatic-advertising",
-      "ad-fraud",
-      "attention-economy",
-      "market-bubbles",
-      "digital-metrics"
+      "advertising",
+      "economics"
     ],
-    "summary": "This book argues that programmatic advertising represents a market bubble similar to the 2008 subprime mortgage crisis, driven by inflated metrics, widespread fraud, and fundamental misunderstanding of digital ad value. It examines how automated ad buying, fake clicks, and bot traffic create systemic risks in the digital advertising economy. The analysis provides crucial context for data scientists and economists working in digital marketing and attention-based business models.",
+    "summary": "This resource explores the parallels between programmatic advertising and the 2008 housing crisis, focusing on inflated metrics and click fraud. It is suitable for those interested in understanding the economic implications of advertising practices.",
     "use_cases": [
-      "Understanding why digital advertising metrics may be unreliable when building attribution models",
-      "Evaluating the validity of programmatic advertising data before running marketing mix modeling"
+      "to understand the economic implications of advertising",
+      "to analyze the risks in programmatic advertising"
     ],
     "audience": [
-      "Curious-browser",
-      "Junior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "Is programmatic advertising a bubble like housing crisis",
-      "Why are digital advertising metrics unreliable",
-      "Problems with automated ad buying and fraud",
-      "Subprime attention crisis book review tech economics"
+      "What is the subprime attention crisis?",
+      "How does programmatic advertising relate to economic bubbles?",
+      "What are the metrics used in programmatic advertising?",
+      "What parallels exist between advertising and the housing crisis?",
+      "How does click fraud impact advertising value?",
+      "What lessons can be learned from the subprime attention crisis?"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "understanding of programmatic advertising",
+      "insight into economic bubbles",
+      "awareness of click fraud issues"
     ]
   },
   {
@@ -334,31 +331,33 @@
       "Pricing & Market Design"
     ],
     "difficulty": "beginner",
-    "prerequisites": [
-      "basic-statistics",
-      "experimental-design"
-    ],
+    "prerequisites": [],
     "topic_tags": [
       "behavioral-economics",
-      "pricing-psychology",
-      "consumer-behavior",
-      "market-research",
-      "decision-making"
+      "pricing-psychology"
     ],
-    "summary": "A foundational book exploring how psychological biases and cognitive limitations affect pricing decisions and consumer behavior. Written for general audiences, it covers key behavioral economics principles like anchoring, loss aversion, and reference point effects in pricing contexts. Essential reading for understanding why traditional economic models fail to predict real-world pricing outcomes.",
+    "summary": "This book explores the principles of pricing psychology and behavioral economics, providing insights into how consumers make purchasing decisions. It is suitable for anyone interested in understanding pricing strategies and market design.",
     "use_cases": [
-      "Designing A/B tests for pricing experiments and understanding psychological factors that influence willingness to pay",
-      "Building behavioral assumptions into demand forecasting models and price optimization algorithms"
+      "When designing pricing strategies",
+      "When studying consumer behavior"
     ],
     "audience": [
-      "Junior-DS",
       "Curious-browser"
     ],
     "synthetic_questions": [
-      "behavioral economics pricing book",
-      "psychology of pricing decisions",
-      "how to price products using behavioral insights",
-      "consumer psychology pricing strategies"
+      "What is pricing psychology?",
+      "How does behavioral economics influence pricing?",
+      "What are effective pricing strategies?",
+      "Who should read Priceless?",
+      "What can I learn from this book?",
+      "How does market design relate to pricing?",
+      "What are the key concepts in pricing psychology?",
+      "What are common mistakes in pricing?"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "Understanding pricing strategies",
+      "Applying behavioral economics principles"
     ]
   },
   {
@@ -373,32 +372,37 @@
     "tags": [
       "Pricing & Market Design"
     ],
-    "difficulty": "beginner",
-    "prerequisites": [
-      "basic-microeconomics",
-      "business-fundamentals"
-    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "pricing-strategy",
-      "business-operations",
-      "revenue-optimization",
-      "consulting",
-      "practitioner-guide"
+      "pricing",
+      "market design"
     ],
-    "summary": "A practitioner's guide to pricing strategy written by Hermann Simon, the world's leading pricing consultant and founder of Simon-Kucher & Partners. The book shares real-world insights, case studies, and frameworks for effective pricing decisions across industries. Essential reading for anyone involved in pricing decisions, from product managers to executives.",
+    "summary": "This book provides insights into practitioner pricing strategies from a leading consultant in the field. It is aimed at professionals and students interested in understanding effective pricing methods.",
     "use_cases": [
-      "Setting pricing strategy for a new product launch at a tech company",
-      "Evaluating and improving existing pricing models to maximize revenue"
+      "when developing pricing strategies",
+      "for understanding market dynamics"
     ],
     "audience": [
       "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
       "Curious-browser"
     ],
     "synthetic_questions": [
-      "best book on pricing strategy",
-      "how to price products effectively",
-      "pricing consultant recommendations",
-      "practical pricing frameworks for business"
+      "What are effective pricing strategies?",
+      "How can I improve my pricing skills?",
+      "What insights does a pricing consultant offer?",
+      "What is the role of pricing in market design?",
+      "How do I implement pricing strategies?",
+      "What are common challenges in pricing?",
+      "What case studies are presented in pricing?",
+      "Who should read 'Confessions of the Pricing Man'?"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "understanding pricing strategies",
+      "applying market design principles"
     ]
   },
   {
