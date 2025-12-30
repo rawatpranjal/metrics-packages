@@ -928,6 +928,8 @@ a:hover {
 /* Category Section Styles */
 .category-section {
     margin-bottom: 1.5rem;
+    content-visibility: auto;
+    contain-intrinsic-size: auto 500px;
 }
 
 .category-section:last-child {
