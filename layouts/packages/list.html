@@ -157,7 +157,7 @@
             </thead>
             <tbody>
                 {{ range .Site.Data.packages }}
-                <tr data-category="{{ .category }}" data-language="{{ .language }}">
+                <tr data-name="{{ .name | lower }}" data-category="{{ .category }}" data-language="{{ .language }}">
                     <td class="pkg-name">
                         <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
                     </td>
