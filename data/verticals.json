@@ -1,0 +1,42 @@
+{
+  "marketplace": {
+    "mobility": {"label": "Mobility", "description": "Ride-hailing, car sharing, transportation"},
+    "food-grocery": {"label": "Food & Grocery", "description": "Food delivery, grocery, quick commerce"},
+    "travel": {"label": "Travel & Stays", "description": "Accommodation, travel booking, experiences"},
+    "retail": {"label": "Retail & Fashion", "description": "E-commerce, fashion, goods marketplaces"},
+    "real-estate": {"label": "Real Estate", "description": "Property, home services, rentals"},
+    "services": {"label": "Services & Labor", "description": "Freelance, gig economy, professional services"},
+    "healthcare": {"label": "Healthcare", "description": "Telehealth, pharmacy, medical services"},
+    "auto": {"label": "Auto", "description": "Car sales, auto marketplaces"}
+  },
+  "social": {
+    "social-network": {"label": "Social Networks", "description": "Social platforms, messaging, communities"},
+    "video": {"label": "Video & Streaming", "description": "Video streaming, content platforms"},
+    "music": {"label": "Music & Audio", "description": "Music streaming, podcasts, audio"},
+    "gaming-social": {"label": "Gaming & Social", "description": "Gaming platforms, interactive entertainment"}
+  },
+  "saas": {
+    "ad-tech": {"label": "Ad Tech", "description": "Advertising, marketing technology"},
+    "analytics": {"label": "Analytics", "description": "Product analytics, business intelligence"},
+    "experimentation": {"label": "Experimentation", "description": "A/B testing, feature flags"},
+    "data-infra": {"label": "Data Infrastructure", "description": "Data warehouses, ETL, ML platforms"},
+    "pricing": {"label": "Pricing & Revenue", "description": "Price optimization, revenue management"},
+    "productivity": {"label": "Productivity", "description": "Collaboration, communication, workflow"},
+    "security": {"label": "Security", "description": "Cybersecurity, identity, compliance"},
+    "hr-tech": {"label": "HR Tech", "description": "Recruiting, HR, workforce management"},
+    "fintech-saas": {"label": "Fintech SaaS", "description": "Payments, billing, financial software"},
+    "enterprise": {"label": "Enterprise", "description": "Enterprise software, CRM, ERP"}
+  },
+  "fintech": {
+    "payments": {"label": "Payments", "description": "Payment processing, transfers"},
+    "lending": {"label": "Lending", "description": "Consumer lending, BNPL, credit"},
+    "investing": {"label": "Investing", "description": "Trading, wealth management, robo-advisors"},
+    "crypto": {"label": "Crypto", "description": "Cryptocurrency, blockchain, DeFi"},
+    "banking": {"label": "Banking", "description": "Neobanks, digital banking"}
+  },
+  "pharma": {
+    "biotech": {"label": "Biotech", "description": "Biotechnology, drug development"},
+    "pharma-core": {"label": "Pharma", "description": "Traditional pharmaceutical companies"},
+    "medical-devices": {"label": "Medical Devices", "description": "Medical devices, diagnostics"}
+  }
+}

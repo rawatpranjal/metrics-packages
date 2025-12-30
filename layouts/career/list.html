@@ -255,6 +255,17 @@
                     <p>Retail with price optimization, inventory management, and customer analytics.</p>
                 </div>
 
+                <!-- Vertical Pills (populated dynamically based on selected sector) -->
+                <div id="vertical-pills-container" class="vertical-pills-container" style="display: none;">
+                    <span class="vertical-label">Filter by:</span>
+                    <div id="vertical-pills" class="vertical-pills"></div>
+                </div>
+
+                <!-- Verticals Data -->
+                <script id="verticals-data" type="application/json">
+                {{ $.Site.Data.verticals | jsonify }}
+                </script>
+
                 <!-- Company Search -->
                 <div class="company-search-container">
                     <input type="text" id="company-search" class="company-search-input" placeholder="Search companies...">
@@ -291,7 +302,7 @@
                         {{ if eq . "LatAm" }}{{ $region = "latam" }}{{ end }}
                         {{ if eq . "economist-title" }}{{ $isEconomist = true }}{{ end }}
                     {{ end }}
-                    <a href="{{ .url }}" target="_blank" rel="noopener" class="company-card" data-sector="{{ .sector }}" data-region="{{ $region }}" data-economist="{{ $isEconomist }}" data-name="{{ .name | lower }}">
+                    <a href="{{ .url }}" target="_blank" rel="noopener" class="company-card" data-sector="{{ .sector }}" data-vertical="{{ .vertical | default "" }}" data-region="{{ $region }}" data-economist="{{ $isEconomist }}" data-name="{{ .name | lower }}">
                         <img class="favicon" src="https://www.google.com/s2/favicons?domain={{ .url | replaceRE "^https?://([^/]+).*" "$1" }}&sz=32" alt="" loading="lazy" onerror="this.style.display='none'">
                         <span class="company-name">{{ .name }}</span>
                         {{ if $isEconomist }}<span class="economist-badge" title="Explicit economist roles">🎓</span>{{ end }}
@@ -520,15 +531,29 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Company filtering (sector, region, economist, search)
+    // Company filtering (sector, vertical, region, economist, search)
     const sectorPills = document.querySelectorAll('.sector-pill');
     const regionPills = document.querySelectorAll('.region-pill');
     const companyCards = document.querySelectorAll('.company-card');
     const sectorDescs = document.querySelectorAll('.sector-description');
     const economistFilter = document.getElementById('economist-filter');
     const companySearch = document.getElementById('company-search');
+    const verticalPillsContainer = document.getElementById('vertical-pills-container');
+    const verticalPillsEl = document.getElementById('vertical-pills');
+
+    // Load verticals data
+    let verticalsData = {};
+    try {
+        const verticalsEl = document.getElementById('verticals-data');
+        if (verticalsEl) {
+            verticalsData = JSON.parse(verticalsEl.textContent);
+        }
+    } catch (e) {
+        console.warn('Failed to load verticals data:', e);
+    }
 
     let currentSector = 'all';
+    let currentVertical = 'all';
     let currentRegion = 'all';
     let economistOnly = false;
     let searchQuery = '';
@@ -536,11 +561,12 @@ document.addEventListener('DOMContentLoaded', function() {
     function filterCompanies() {
         companyCards.forEach(card => {
             const matchesSector = currentSector === 'all' || card.dataset.sector === currentSector;
+            const matchesVertical = currentVertical === 'all' || card.dataset.vertical === currentVertical;
             const matchesRegion = currentRegion === 'all' || card.dataset.region === currentRegion;
             const matchesEconomist = !economistOnly || card.dataset.economist === 'true';
             const matchesSearch = searchQuery === '' || card.dataset.name.includes(searchQuery);
 
-            if (matchesSector && matchesRegion && matchesEconomist && matchesSearch) {
+            if (matchesSector && matchesVertical && matchesRegion && matchesEconomist && matchesSearch) {
                 card.style.display = '';
             } else {
                 card.style.display = 'none';
@@ -553,11 +579,62 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    function updateVerticalPills() {
+        // Clear existing pills
+        verticalPillsEl.innerHTML = '';
+        currentVertical = 'all';
+
+        // Hide if no sector selected or sector has no verticals
+        if (currentSector === 'all' || !verticalsData[currentSector]) {
+            verticalPillsContainer.style.display = 'none';
+            return;
+        }
+
+        const verticals = verticalsData[currentSector];
+        const verticalKeys = Object.keys(verticals);
+
+        // Only show if there are verticals for this sector
+        if (verticalKeys.length === 0) {
+            verticalPillsContainer.style.display = 'none';
+            return;
+        }
+
+        // Add "All" pill
+        const allPill = document.createElement('button');
+        allPill.className = 'vertical-pill active';
+        allPill.dataset.vertical = 'all';
+        allPill.textContent = 'All';
+        allPill.addEventListener('click', handleVerticalClick);
+        verticalPillsEl.appendChild(allPill);
+
+        // Add pills for each vertical
+        verticalKeys.forEach(key => {
+            const vertical = verticals[key];
+            const pill = document.createElement('button');
+            pill.className = 'vertical-pill';
+            pill.dataset.vertical = key;
+            pill.textContent = vertical.label;
+            pill.title = vertical.description || '';
+            pill.addEventListener('click', handleVerticalClick);
+            verticalPillsEl.appendChild(pill);
+        });
+
+        verticalPillsContainer.style.display = 'flex';
+    }
+
+    function handleVerticalClick(e) {
+        currentVertical = e.target.dataset.vertical;
+        document.querySelectorAll('.vertical-pill').forEach(p => p.classList.remove('active'));
+        e.target.classList.add('active');
+        filterCompanies();
+    }
+
     sectorPills.forEach(pill => {
         pill.addEventListener('click', function() {
             currentSector = this.dataset.sector;
             sectorPills.forEach(p => p.classList.remove('active'));
             this.classList.add('active');
+            updateVerticalPills();
             filterCompanies();
         });
     });

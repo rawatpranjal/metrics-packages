@@ -1544,6 +1544,51 @@ a:hover {
     color: white;
 }
 
+/* Vertical Pills (sub-category filtering within sectors) */
+.vertical-pills-container {
+    margin-top: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: var(--bg-tertiary);
+    border-radius: 8px;
+    border: 1px solid var(--border-light);
+}
+
+.vertical-label {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    margin-right: 0.75rem;
+    font-weight: 500;
+}
+
+.vertical-pills {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+}
+
+.vertical-pill {
+    padding: 0.25rem 0.6rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 999px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    color: var(--text-secondary);
+}
+
+.vertical-pill:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+}
+
+.vertical-pill.active {
+    background: var(--accent-muted);
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    font-weight: 500;
+}
+
 /* Companies Grid */
 .companies-grid {
     display: flex;
@@ -1795,6 +1840,21 @@ a:hover {
         overflow-x: auto;
         flex-wrap: nowrap;
         -webkit-overflow-scrolling: touch;
+    }
+
+    .vertical-pills-container {
+        padding: 0.5rem 0.75rem;
+    }
+
+    .vertical-pills {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .vertical-pill {
+        white-space: nowrap;
+        flex-shrink: 0;
     }
 }
 
