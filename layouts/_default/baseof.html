@@ -304,10 +304,7 @@
     <!-- Global Search Modal -->
     {{ partial "global-search-modal.html" . }}
 
-    <!-- Global Search Data -->
-    <script id="global-search-data" type="application/json">
-        {{ partial "global-search-index.html" . | safeJS }}
-    </script>
+    <!-- Search data loaded from /embeddings/search-index.json on demand -->
 
     <!-- Custom JS -->
     <script src="{{ "js/theme.js" | relURL }}"></script>
