@@ -111,7 +111,7 @@ def main():
     # Find optimal K or use default
     # k_range = range(15, 35, 5)
     # optimal_k = find_optimal_k(embeddings_norm, k_range)
-    optimal_k = 25  # Good default for ~3000 items
+    optimal_k = 200  # Granular clusters, ~15 items each
 
     # Run K-means clustering
     print(f"\nRunning K-means with K={optimal_k}...")
