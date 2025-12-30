@@ -119,16 +119,33 @@ async function handleStats(request, env, origin) {
     const allEvents = [];
     let cursor = null;
 
-    do {
-      const list = await env.ANALYTICS_EVENTS.list({ prefix: 'events:', cursor, limit: 1000 });
+    // Limit total keys to avoid "Too many API requests" error (CF limit is 1000 KV reads/request)
+    const MAX_KEYS = 800;
+    let totalKeysFetched = 0;
 
-      // Fetch all keys in parallel (batch of 50 to avoid overwhelming)
-      const BATCH_SIZE = 50;
-      for (let i = 0; i < list.keys.length; i += BATCH_SIZE) {
-        const batch = list.keys.slice(i, i + BATCH_SIZE);
+    do {
+      const list = await env.ANALYTICS_EVENTS.list({ prefix: 'events:', cursor, limit: 200 });
+
+      // Fetch keys in smaller batches
+      const BATCH_SIZE = 25;
+      for (let i = 0; i < list.keys.length && totalKeysFetched < MAX_KEYS; i += BATCH_SIZE) {
+        const batch = list.keys.slice(i, Math.min(i + BATCH_SIZE, list.keys.length));
+        if (totalKeysFetched + batch.length > MAX_KEYS) {
+          break;
+        }
+
         const results = await Promise.all(
-          batch.map(key => env.ANALYTICS_EVENTS.get(key.name))
+          batch.map(async key => {
+            try {
+              return await env.ANALYTICS_EVENTS.get(key.name);
+            } catch (e) {
+              console.error('Failed to get key:', key.name, e);
+              return null;
+            }
+          })
         );
+
+        totalKeysFetched += batch.length;
 
         for (const data of results) {
           if (data) {
@@ -140,7 +157,7 @@ async function handleStats(request, env, origin) {
         }
       }
 
-      cursor = list.list_complete ? null : list.cursor;
+      cursor = (list.list_complete || totalKeysFetched >= MAX_KEYS) ? null : list.cursor;
     } while (cursor);
 
     // Filter to recent events
