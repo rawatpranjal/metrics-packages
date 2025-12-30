@@ -1284,6 +1284,9 @@
     // Render sort controls
     this.renderSortControls();
 
+    // Render intent chip if query has detected intent
+    this.renderIntentChip(query);
+
     // Apply facet filters (topics, years, difficulty)
     var filteredResults = this.applyFilters(results);
 
@@ -1833,6 +1836,51 @@
   };
 
   /**
+   * Render intent chip showing detected query intent
+   */
+  UnifiedSearch.prototype.renderIntentChip = function(query) {
+    // Find or create intent container
+    var intentContainer = document.getElementById('global-search-intent');
+    if (!intentContainer) {
+      intentContainer = document.createElement('div');
+      intentContainer.id = 'global-search-intent';
+      intentContainer.className = 'global-search-intent';
+      // Insert before results container
+      if (this.resultsContainer && this.resultsContainer.parentNode) {
+        this.resultsContainer.parentNode.insertBefore(intentContainer, this.resultsContainer);
+      }
+    }
+
+    var intent = detectIntent(query);
+    if (!intent) {
+      intentContainer.style.display = 'none';
+      return;
+    }
+
+    // Intent display labels with icons
+    var intentLabels = {
+      tutorial: { icon: '📚', label: 'Tutorial', desc: 'Guides & learning resources boosted' },
+      research: { icon: '📄', label: 'Research', desc: 'Academic papers boosted' },
+      dataset: { icon: '📊', label: 'Dataset', desc: 'Data sources boosted' },
+      package: { icon: '📦', label: 'Package', desc: 'Code libraries boosted' },
+      career: { icon: '💼', label: 'Career', desc: 'Jobs & career content boosted' },
+      talk: { icon: '🎤', label: 'Talk', desc: 'Videos & presentations boosted' },
+      community: { icon: '👥', label: 'Community', desc: 'Community resources boosted' },
+      book: { icon: '📕', label: 'Book', desc: 'Books & textbooks boosted' }
+    };
+
+    var display = intentLabels[intent.name] || { icon: '🔍', label: intent.name, desc: 'Related results boosted' };
+
+    var html = '<span class="intent-chip">';
+    html += '<span class="intent-icon">' + display.icon + '</span>';
+    html += '<span class="intent-text">' + display.desc + '</span>';
+    html += '</span>';
+
+    intentContainer.innerHTML = html;
+    intentContainer.style.display = 'block';
+  };
+
+  /**
    * Show hint (recent searches + suggestions)
    */
   UnifiedSearch.prototype.showHint = function() {
@@ -1841,6 +1889,8 @@
     this.hint.style.display = 'none';
     var sortContainer = document.getElementById('global-search-sort');
     if (sortContainer) sortContainer.style.display = 'none';
+    var intentContainer = document.getElementById('global-search-intent');
+    if (intentContainer) intentContainer.style.display = 'none';
     this.currentSortOrder = 'relevance';  // Reset sort
 
     // Show default filter chips (before searching)
@@ -1954,6 +2004,8 @@
     if (this.filtersContainer) this.filtersContainer.style.display = 'none';
     var sortContainer = document.getElementById('global-search-sort');
     if (sortContainer) sortContainer.style.display = 'none';
+    var intentContainer = document.getElementById('global-search-intent');
+    if (intentContainer) intentContainer.style.display = 'none';
   };
 
   /**

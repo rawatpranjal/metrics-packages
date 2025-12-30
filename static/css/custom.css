@@ -4975,6 +4975,37 @@ mark.partial {
     color: white;
 }
 
+/* Intent Chip (shows detected query intent) */
+.global-search-intent {
+    padding: 0 16px 8px;
+}
+
+.intent-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 12px;
+    background: linear-gradient(135deg, var(--primary-light, #e3f2fd) 0%, var(--accent-light, #f3e5f5) 100%);
+    border: 1px solid var(--primary, #1976d2);
+    border-radius: 16px;
+    font-size: 12px;
+    color: var(--primary, #1976d2);
+}
+
+.intent-icon {
+    font-size: 14px;
+}
+
+.intent-text {
+    font-weight: 500;
+}
+
+[data-theme="dark"] .intent-chip {
+    background: linear-gradient(135deg, rgba(25, 118, 210, 0.15) 0%, rgba(156, 39, 176, 0.15) 100%);
+    border-color: var(--primary, #64b5f6);
+    color: var(--primary, #64b5f6);
+}
+
 /* Preview Panel (hover preview on desktop) */
 .global-search-preview {
     position: absolute;
