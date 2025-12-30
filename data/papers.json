@@ -474,6 +474,78 @@
               "citations": 1300
             }
           ]
+        },
+        {
+          "id": "survey-sampling-weighted-estimation",
+          "name": "Survey Sampling & Weighted Estimation",
+          "application": "Reweight non-random samples for valid population inference",
+          "papers": [
+            {
+              "title": "A Generalization of Sampling Without Replacement from a Finite Universe",
+              "authors": "Daniel G. Horvitz, Donovan J. Thompson",
+              "year": 1952,
+              "tag": "Classic",
+              "description": "Introduced the Horvitz-Thompson estimator: Ŷ = Σ(Yᵢ/πᵢ). Works for any probability sampling design by inverse probability weighting. This is the same math underlying propensity score weighting in causal inference—survey statisticians solved IPW in 1952; causal inference borrowed it three decades later.",
+              "url": "https://www.jstor.org/stable/2280784",
+              "tags": [
+                "Statistics",
+                "Survey Sampling & Weighted Estimation"
+              ],
+              "citations": 4600
+            },
+            {
+              "title": "Calibration Estimators in Survey Sampling",
+              "authors": "Jean-Claude Deville, Carl-Erik Särndal",
+              "year": 1992,
+              "tag": "Classic",
+              "description": "Unified decades of ad-hoc weighting methods—post-stratification, raking, regression estimation—under a single calibration framework. Weights minimize distance from design weights while matching known population totals. Foundation behind every 'weight to Census' adjustment in commercial panels and platform surveys.",
+              "url": "https://www.jstor.org/stable/2290268",
+              "tags": [
+                "Statistics",
+                "Survey Sampling & Weighted Estimation"
+              ],
+              "citations": 2000
+            },
+            {
+              "title": "On the Two Different Aspects of the Representative Method: The Method of Stratified Sampling and the Method of Purposive Selection",
+              "authors": "Jerzy Neyman",
+              "year": 1934,
+              "tag": "Classic",
+              "description": "Proved random probability sampling beats purposive 'representative' selection. Derived optimal allocation formula for stratified sampling: sample proportional to Nₕ × Sₕ (stratum size × stratum SD). Establishes why design-based inference via randomization provides the foundation for valid uncertainty quantification.",
+              "url": "https://www.jstor.org/stable/2342192",
+              "tags": [
+                "Statistics",
+                "Survey Sampling & Weighted Estimation"
+              ],
+              "citations": 3500
+            },
+            {
+              "title": "Poststratification into Many Categories Using Hierarchical Logistic Regression",
+              "authors": "Andrew Gelman, Thomas C. Little",
+              "year": 1997,
+              "tag": "SOTA",
+              "description": "Introduced MRP (Multilevel Regression with Poststratification) for small-area estimation when many cells are sparse. Borrows strength across similar cells via hierarchical model, then poststratifies to population proportions. Enables valid estimation for small subgroups from biased opt-in samples—validated by accurate election forecasts from Xbox data that was 93% male.",
+              "url": "https://www150.statcan.gc.ca/n1/en/pub/12-001-x/1997002/article/3616-eng.pdf",
+              "tags": [
+                "Statistics",
+                "Survey Sampling & Weighted Estimation"
+              ],
+              "citations": 1000
+            },
+            {
+              "title": "Doubly Robust Inference with Nonprobability Survey Samples",
+              "authors": "Yilin Chen, Pengfei Li, Changbao Wu",
+              "year": 2020,
+              "tag": "SOTA",
+              "description": "Doubly robust estimators for convenience samples with unknown selection mechanisms—the default for tech company data. Consistent if either propensity model or outcome model is correctly specified. Bridges survey sampling and causal inference, showing survey propensity weights and causal IPW solve mathematically identical problems.",
+              "url": "https://www.tandfonline.com/doi/abs/10.1080/01621459.2019.1677241",
+              "tags": [
+                "Statistics",
+                "Survey Sampling & Weighted Estimation"
+              ],
+              "citations": 350
+            }
+          ]
         }
       ]
     },
