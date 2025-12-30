@@ -521,6 +521,7 @@ def generate_all_outputs(items: List[Dict[str, Any]], model, output_dir: Path, c
             **({"summary": item["summary"]} if item.get("summary") else {}),
             **({"use_cases": item["use_cases"]} if item.get("use_cases") else {}),
             **({"audience": item["audience"]} if item.get("audience") else {}),
+            **({"synthetic_questions": item["synthetic_questions"]} if item.get("synthetic_questions") else {}),
         } for item in items]
     }
 

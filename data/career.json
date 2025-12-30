@@ -25426,7 +25426,34 @@
     "sector": "saas",
     "tab": "find-jobs",
     "subtab": "companies",
-    "vertical": "edtech"
+    "vertical": "edtech",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "job-search-basics",
+      "resume-writing"
+    ],
+    "topic_tags": [
+      "career-portal",
+      "edtech-jobs",
+      "economist-careers",
+      "education-sector",
+      "job-listings"
+    ],
+    "summary": "Guild Education's career portal showcasing job opportunities at the education technology company that partners with employers to provide tuition assistance and career development programs. The portal offers insights into roles across data science, economics, product, and operations teams focused on workforce development and educational outcomes measurement.",
+    "use_cases": [
+      "Job seekers looking for economist or data scientist positions in the education technology sector",
+      "Researchers wanting to understand career paths and role requirements at edtech companies focused on workforce development"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Guild Education careers data scientist jobs",
+      "edtech company hiring economists workforce development",
+      "education technology jobs for economics PhDs",
+      "Guild Education data science team career opportunities"
+    ]
   },
   {
     "name": "JetBlue",
@@ -25442,7 +25469,34 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "basic-resume-writing",
+      "interview-preparation"
+    ],
+    "topic_tags": [
+      "careers",
+      "airline-industry",
+      "revenue-management",
+      "job-portal",
+      "transportation"
+    ],
+    "summary": "JetBlue's career portal provides job opportunities at one of the major US airlines known for innovative revenue management and customer experience strategies. The portal offers positions across data science, analytics, operations research, and business roles within the airline industry. It serves as a gateway for tech economists interested in transportation economics and dynamic pricing applications.",
+    "use_cases": [
+      "Finding data science roles in airline revenue management and pricing optimization",
+      "Exploring career opportunities in transportation economics and operations research"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "JetBlue data science jobs",
+      "airline revenue management careers",
+      "transportation economics job opportunities",
+      "JetBlue analytics positions"
+    ]
   },
   {
     "name": "Alaska Airlines",
@@ -25458,7 +25512,33 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "basic-statistics",
+      "data-analysis"
+    ],
+    "topic_tags": [
+      "career-opportunities",
+      "airline-industry",
+      "revenue-management",
+      "job-portal"
+    ],
+    "summary": "Alaska Airlines career portal showcasing job opportunities in data science, analytics, and revenue management roles within the airline industry. The portal provides insights into how airlines apply economic and statistical methods to optimize pricing, demand forecasting, and operational efficiency. It serves as a gateway for understanding real-world applications of tech economics in transportation and hospitality sectors.",
+    "use_cases": [
+      "Exploring data science career opportunities in the airline industry",
+      "Understanding how revenue management and pricing optimization roles apply economic principles"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Alaska Airlines data science jobs",
+      "airline industry career opportunities",
+      "revenue management positions airlines",
+      "data analyst jobs transportation sector"
+    ]
   },
   {
     "name": "Spirit Airlines",
@@ -25474,7 +25554,33 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "basic-resume-writing",
+      "job-search-fundamentals"
+    ],
+    "topic_tags": [
+      "airline-careers",
+      "pricing-jobs",
+      "aviation-industry",
+      "job-portal"
+    ],
+    "summary": "Spirit Airlines' career portal showcasing job opportunities at the ultra-low-cost carrier known for its dynamic pricing strategies. Offers positions across data science, revenue management, pricing analytics, and operations roles. Provides insight into career paths at a major airline focused on cost optimization and revenue maximization.",
+    "use_cases": [
+      "Searching for airline industry jobs with focus on pricing and revenue optimization",
+      "Exploring career opportunities at companies known for innovative pricing models"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Spirit Airlines data science jobs",
+      "airline pricing careers",
+      "revenue management positions airlines",
+      "Spirit Airlines job opportunities"
+    ]
   },
   {
     "name": "Frontier Airlines",
@@ -25490,7 +25596,32 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "resume-writing",
+      "job-search-strategies"
+    ],
+    "topic_tags": [
+      "career-portal",
+      "airline-industry",
+      "pricing-jobs"
+    ],
+    "summary": "Frontier Airlines' career portal showcasing job opportunities at a major low-cost carrier known for dynamic pricing strategies. The portal provides insights into airline industry roles, particularly relevant for data scientists and analysts interested in revenue management and pricing optimization. Offers real-world examples of how pricing algorithms and demand forecasting are applied in the aviation sector.",
+    "use_cases": [
+      "Exploring data science roles in airline revenue management and dynamic pricing",
+      "Understanding career paths in transportation industry analytics and operations research"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "airline data science jobs",
+      "Frontier Airlines careers pricing analyst",
+      "transportation industry data scientist positions",
+      "aviation revenue management job opportunities"
+    ]
   },
   {
     "name": "Ryanair",
@@ -25506,7 +25637,33 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "basic-econometrics",
+      "regression-analysis"
+    ],
+    "topic_tags": [
+      "airline-industry",
+      "career-opportunities",
+      "transportation-economics",
+      "pricing-strategy"
+    ],
+    "summary": "Ryanair's career portal provides job opportunities at Europe's largest low-cost airline known for aggressive pricing strategies and operational efficiency. The company offers roles relevant to tech economists including pricing analysts, data scientists, and revenue management positions. Working at Ryanair provides exposure to dynamic pricing, demand forecasting, and operational optimization in the competitive airline industry.",
+    "use_cases": [
+      "Finding data science roles focused on airline pricing and revenue optimization",
+      "Exploring career opportunities in transportation economics and operational research"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Ryanair data science jobs",
+      "airline pricing analyst careers",
+      "transportation economics job opportunities",
+      "low cost carrier data roles"
+    ]
   },
   {
     "name": "Singapore Airlines",
@@ -25522,7 +25679,34 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "resume-writing",
+      "job-search-strategies"
+    ],
+    "topic_tags": [
+      "career-portal",
+      "airline-industry",
+      "job-opportunities",
+      "singapore",
+      "aviation-tech"
+    ],
+    "summary": "Singapore Airlines career portal providing job opportunities at one of the world's leading airlines. The portal offers positions across various departments including data science, operations research, and technology roles. Relevant for tech professionals interested in applying quantitative methods to airline operations, pricing, and customer analytics.",
+    "use_cases": [
+      "Finding data science roles in airline revenue management and pricing optimization",
+      "Exploring aviation industry opportunities for operations research and predictive analytics"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Singapore Airlines data science jobs",
+      "airline industry career opportunities",
+      "aviation tech jobs Singapore",
+      "Singapore Airlines careers data analyst"
+    ]
   },
   {
     "name": "easyJet",
@@ -25538,7 +25722,33 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "basic-economics",
+      "web-browsing"
+    ],
+    "topic_tags": [
+      "career-opportunities",
+      "airline-industry",
+      "pricing-strategy",
+      "job-portal"
+    ],
+    "summary": "easyJet's career portal showcasing job opportunities at one of Europe's largest low-cost airlines. The portal provides insights into roles across pricing, revenue management, data science, and operations at a major airline. Useful for understanding how pricing strategies and data science are applied in the aviation industry.",
+    "use_cases": [
+      "Exploring career opportunities in airline pricing and revenue management",
+      "Understanding organizational structure and roles at a major low-cost carrier"
+    ],
+    "audience": [
+      "Curious-browser",
+      "Junior-DS"
+    ],
+    "synthetic_questions": [
+      "easyJet careers data science jobs",
+      "airline pricing analyst positions",
+      "low cost carrier job opportunities",
+      "aviation industry career portal"
+    ]
   },
   {
     "name": "Lufthansa Group",
@@ -25554,7 +25764,34 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "basic-resume-writing",
+      "job-search-fundamentals"
+    ],
+    "topic_tags": [
+      "career-portal",
+      "airline-industry",
+      "revenue-management",
+      "job-listings",
+      "company-careers"
+    ],
+    "summary": "Lufthansa Group's career portal showcasing job opportunities across their airline operations, including roles in revenue management, data science, and airline operations. The portal provides insights into one of Europe's largest airline groups and their approach to pricing, demand forecasting, and operational optimization. Useful for understanding career paths in the airline industry and revenue management applications.",
+    "use_cases": [
+      "Finding data science or revenue management positions at a major European airline",
+      "Researching career opportunities in airline operations and pricing optimization"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "airline data science jobs",
+      "revenue management careers lufthansa",
+      "tech jobs at airlines",
+      "lufthansa group career opportunities"
+    ]
   },
   {
     "name": "Emirates",
@@ -25570,7 +25807,34 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "resume-writing",
+      "linkedin-optimization"
+    ],
+    "topic_tags": [
+      "careers",
+      "airline-industry",
+      "revenue-management",
+      "job-portal",
+      "emirates"
+    ],
+    "summary": "Emirates career portal providing job opportunities at one of the world's largest international airlines. Particularly relevant for tech economists interested in aviation industry roles involving pricing, revenue optimization, and operational analytics. Offers insights into how major airlines structure their data science and economics teams.",
+    "use_cases": [
+      "Finding revenue management or pricing analyst positions in the airline industry",
+      "Researching career paths and job requirements at a major international airline"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Emirates data science jobs",
+      "airline revenue management careers",
+      "aviation industry analyst positions",
+      "Emirates pricing team opportunities"
+    ]
   },
   {
     "name": "Qatar Airways",
@@ -25586,7 +25850,34 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "basic-resume-writing",
+      "industry-research"
+    ],
+    "topic_tags": [
+      "career-opportunities",
+      "airline-industry",
+      "revenue-management",
+      "job-portal",
+      "transportation-economics"
+    ],
+    "summary": "Qatar Airways career portal providing job opportunities at one of the world's leading airlines, particularly strong in revenue management and operations research roles. The portal offers positions across various technical and business functions including pricing, demand forecasting, and network optimization. Valuable resource for tech economists interested in applying quantitative methods to airline operations and revenue optimization.",
+    "use_cases": [
+      "Finding revenue management analyst positions that apply pricing algorithms and demand forecasting",
+      "Exploring data science roles in airline operations optimization and route planning"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Qatar Airways data science jobs",
+      "airline revenue management career opportunities",
+      "tech jobs at Qatar Airways",
+      "transportation economics careers Middle East"
+    ]
   },
   {
     "name": "British Airways/IAG",
@@ -25602,7 +25893,34 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "basic-networking",
+      "resume-writing"
+    ],
+    "topic_tags": [
+      "career-opportunities",
+      "airline-industry",
+      "data-science-jobs",
+      "tech-economics",
+      "corporate-careers"
+    ],
+    "summary": "British Airways and IAG's career portal showcasing data science, analytics, and economics opportunities within the airline industry. The portal provides insights into how major airlines structure their tech and analytics teams, compensation ranges, and required skills. Useful for understanding career paths in transportation economics and revenue management.",
+    "use_cases": [
+      "Exploring data science career opportunities in the airline/transportation sector",
+      "Researching salary benchmarks and job requirements for airline analytics roles"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "airline data science jobs",
+      "British Airways analytics careers",
+      "transportation industry data roles",
+      "airline revenue management positions"
+    ]
   },
   {
     "name": "Air France-KLM",
@@ -25618,7 +25936,34 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "resume-writing",
+      "career-research"
+    ],
+    "topic_tags": [
+      "airline-industry",
+      "revenue-management",
+      "career-portal",
+      "job-search",
+      "aviation"
+    ],
+    "summary": "Air France-KLM's career portal showcasing job opportunities at one of Europe's largest airline groups. The portal provides insight into roles across airline operations, revenue management, data analytics, and digital transformation. Useful for understanding career paths and skill requirements in the aviation industry's data-driven functions.",
+    "use_cases": [
+      "Researching data science roles in airline revenue optimization and pricing",
+      "Understanding skill requirements for analytics positions in aviation industry"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "airline data science jobs",
+      "revenue management careers aviation",
+      "Air France KLM analytics positions",
+      "aviation industry data analyst roles"
+    ]
   },
   {
     "name": "LATAM Airlines",
@@ -25634,7 +25979,33 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "basic-analytics",
+      "business-understanding"
+    ],
+    "topic_tags": [
+      "career-opportunities",
+      "airline-industry",
+      "latin-america",
+      "job-portal"
+    ],
+    "summary": "LATAM Airlines career portal showcasing job opportunities at one of Latin America's largest airline groups. The portal provides insights into data science, analytics, and business roles within the aviation industry. Useful for understanding how airlines structure their teams and apply data-driven approaches to operations, pricing, and customer experience.",
+    "use_cases": [
+      "Exploring data science career paths in the airline industry",
+      "Understanding how aviation companies organize their analytics teams and what skills they value"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "airline data science jobs",
+      "LATAM careers analytics",
+      "aviation industry data roles",
+      "airline company career opportunities"
+    ]
   },
   {
     "name": "Agoda",
@@ -25650,7 +26021,34 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "resume-writing",
+      "interview-preparation"
+    ],
+    "topic_tags": [
+      "careers",
+      "job-search",
+      "ota",
+      "pricing-optimization",
+      "company-research"
+    ],
+    "summary": "Career portal for Agoda, a leading online travel agency specializing in accommodation booking and pricing optimization. Tech economists and data scientists can explore opportunities in dynamic pricing, revenue management, and marketplace economics. The portal provides insights into roles involving pricing algorithms, demand forecasting, and travel industry analytics.",
+    "use_cases": [
+      "Researching data science roles at travel companies focusing on pricing optimization",
+      "Understanding career paths in online marketplace economics and revenue management"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Agoda data science jobs",
+      "online travel agency career opportunities",
+      "pricing optimization roles at Agoda",
+      "travel tech company careers"
+    ]
   },
   {
     "name": "Trivago",
@@ -25666,7 +26064,34 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "resume-writing",
+      "interview-preparation"
+    ],
+    "topic_tags": [
+      "careers",
+      "ota",
+      "travel-tech",
+      "job-search",
+      "company-research"
+    ],
+    "summary": "Trivago's career portal provides job opportunities at one of Europe's largest online travel agencies specializing in hotel price comparison. The portal offers insights into roles across data science, engineering, product, and marketing teams at a major travel tech company. It's particularly valuable for understanding career paths in the online travel industry and booking platform economics.",
+    "use_cases": [
+      "Exploring data science and analytics roles at a major European travel tech company",
+      "Researching career opportunities in online travel agency operations and platform economics"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "trivago careers data scientist jobs",
+      "online travel agency job opportunities",
+      "travel tech company career portal",
+      "ota industry jobs and hiring"
+    ]
   },
   {
     "name": "Hopper",
@@ -25682,7 +26107,34 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "resume-writing",
+      "job-search-strategies"
+    ],
+    "topic_tags": [
+      "career-portal",
+      "job-listings",
+      "travel-tech",
+      "ota-companies",
+      "career-development"
+    ],
+    "summary": "Hopper is a career portal focused on travel technology companies, particularly online travel agencies (OTA) and price prediction platforms. It provides job listings, company information, and career guidance for professionals interested in working at companies that specialize in travel booking and pricing algorithms. The portal serves as a gateway for tech professionals to explore opportunities in the travel industry.",
+    "use_cases": [
+      "Finding data science positions at travel companies like Expedia or Booking.com",
+      "Researching career paths in price prediction and revenue optimization roles"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "travel tech companies hiring data scientists",
+      "OTA career opportunities",
+      "jobs in price prediction algorithms",
+      "Hopper careers in travel technology"
+    ]
   },
   {
     "name": "Kiwi.com",
@@ -25698,7 +26150,34 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "basic-web-navigation",
+      "job-search-strategies"
+    ],
+    "topic_tags": [
+      "career-portal",
+      "online-travel",
+      "pricing-strategies",
+      "job-opportunities",
+      "tech-careers"
+    ],
+    "summary": "Kiwi.com is an online travel agency's career portal offering job opportunities in travel technology, pricing optimization, and digital platforms. The company specializes in flight booking and travel services, making it relevant for tech economists interested in pricing models and marketplace dynamics. Career seekers can explore roles in data science, engineering, and product management within the travel tech sector.",
+    "use_cases": [
+      "Finding data science roles at a travel technology company focused on pricing algorithms",
+      "Exploring career opportunities in online marketplace and booking platform development"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Kiwi.com data science jobs",
+      "travel tech company careers",
+      "online travel agency job openings",
+      "pricing optimization roles travel industry"
+    ]
   },
   {
     "name": "Trip.com Group",
@@ -25714,7 +26193,34 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "job-search-fundamentals",
+      "resume-writing"
+    ],
+    "topic_tags": [
+      "career-opportunities",
+      "online-travel",
+      "job-portal",
+      "company-research",
+      "tech-careers"
+    ],
+    "summary": "Trip.com Group's career portal showcasing job opportunities at one of the world's largest online travel companies. The portal provides insight into roles in analytics, data science, and technology within the online travel agency (OTA) industry. Useful for understanding career paths and job requirements at a major tech-focused travel platform.",
+    "use_cases": [
+      "Researching data science and analytics roles in the travel technology sector",
+      "Understanding skill requirements and career progression at a major OTA company"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Trip.com data science jobs",
+      "online travel agency career opportunities",
+      "analytics roles at travel companies",
+      "tech jobs at Trip.com Group"
+    ]
   },
   {
     "name": "Marriott International",
@@ -25730,7 +26236,34 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "basic-business-knowledge",
+      "career-planning-fundamentals"
+    ],
+    "topic_tags": [
+      "careers",
+      "hospitality-industry",
+      "revenue-management",
+      "company-portal",
+      "job-search"
+    ],
+    "summary": "Marriott International's career portal provides job opportunities and company information for one of the world's largest hotel chains. The company is particularly relevant for tech economists interested in revenue management, pricing optimization, and hospitality analytics roles. Their career site offers insights into how large hospitality companies structure their data science and analytics teams.",
+    "use_cases": [
+      "Exploring data science and revenue management career opportunities in the hospitality industry",
+      "Researching how major hotel chains organize their analytics and pricing teams"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "hotel industry data science jobs",
+      "Marriott analytics careers",
+      "revenue management positions hospitality",
+      "tech jobs travel industry"
+    ]
   },
   {
     "name": "Hilton",
@@ -25746,7 +26279,33 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "resume-writing",
+      "interview-preparation"
+    ],
+    "topic_tags": [
+      "career-portal",
+      "hotel-industry",
+      "revenue-management",
+      "job-search"
+    ],
+    "summary": "Hilton's career portal provides job opportunities and career information within the hotel and hospitality industry. The portal focuses heavily on revenue management positions, offering insights into pricing strategy and demand forecasting roles. It serves as a gateway for professionals seeking to apply quantitative skills in the hospitality sector.",
+    "use_cases": [
+      "Finding revenue management analyst positions at major hotel chains",
+      "Exploring career transitions from tech/finance into hospitality analytics"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "hotel industry data science jobs",
+      "revenue management careers at Hilton",
+      "hospitality analytics job opportunities",
+      "pricing strategy jobs in hotels"
+    ]
   },
   {
     "name": "Hyatt",
@@ -25762,7 +26321,34 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "resume-writing",
+      "interview-preparation"
+    ],
+    "topic_tags": [
+      "career-portal",
+      "hotel-industry",
+      "experimentation-roles",
+      "job-search",
+      "hospitality-tech"
+    ],
+    "summary": "Career portal for Hyatt Hotels focusing on roles involving experimentation and data science in the hospitality industry. Provides job listings, company culture information, and application resources for tech positions within hotel operations and customer experience optimization.",
+    "use_cases": [
+      "Finding data science or experimentation roles in hospitality industry",
+      "Researching Hyatt's approach to A/B testing and customer analytics for career preparation"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Hyatt data science jobs",
+      "hotel industry experimentation careers",
+      "hospitality tech job opportunities",
+      "Hyatt analytics team hiring"
+    ]
   },
   {
     "name": "IHG",
@@ -25778,7 +26364,33 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "job-search-basics",
+      "resume-writing"
+    ],
+    "topic_tags": [
+      "careers",
+      "hotel-industry",
+      "revenue-management",
+      "job-portal"
+    ],
+    "summary": "IHG's career portal provides job opportunities at one of the world's largest hotel companies. The portal is particularly valuable for data scientists and analysts interested in revenue management, pricing optimization, and hospitality analytics roles. IHG operates multiple hotel brands globally, offering diverse opportunities in tech and analytics.",
+    "use_cases": [
+      "Finding data science positions focused on hotel revenue management and pricing strategies",
+      "Exploring analytics roles in the hospitality industry at a major international hotel chain"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "IHG data science jobs",
+      "hotel industry analytics careers",
+      "revenue management positions at IHG",
+      "hospitality data analyst opportunities"
+    ]
   },
   {
     "name": "Wyndham",
@@ -25794,7 +26406,33 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "resume-writing",
+      "networking-fundamentals"
+    ],
+    "topic_tags": [
+      "career-portal",
+      "hotel-industry",
+      "revenue-management",
+      "job-search"
+    ],
+    "summary": "Wyndham's career portal showcasing opportunities in the hotel industry with focus on revenue management roles. This resource provides insights into career paths at a major hospitality company known for data-driven pricing and inventory optimization. Useful for understanding how tech economics principles apply in hospitality operations.",
+    "use_cases": [
+      "Junior data scientist seeking first industry role in hospitality revenue optimization",
+      "Career changer exploring how pricing algorithms are implemented in hotel chains"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "hotel industry data science careers",
+      "Wyndham revenue management jobs",
+      "hospitality pricing analyst positions",
+      "hotel tech economist career path"
+    ]
   },
   {
     "name": "Accor",
@@ -25810,7 +26448,33 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "resume-writing",
+      "industry-research"
+    ],
+    "topic_tags": [
+      "career-opportunities",
+      "hospitality-tech",
+      "job-applications",
+      "corporate-careers"
+    ],
+    "summary": "Accor is a global hospitality company operating hotels, resorts, and lifestyle brands worldwide. Their career portal provides opportunities for tech professionals interested in hospitality technology, revenue management, and customer analytics. The platform offers roles spanning data science, pricing optimization, and digital transformation in the hotel industry.",
+    "use_cases": [
+      "Exploring data science opportunities in hospitality and revenue management systems",
+      "Researching corporate career paths in hotel technology and pricing analytics"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Accor careers data science jobs",
+      "hospitality industry tech opportunities",
+      "hotel pricing analyst positions",
+      "Accor technology roles revenue management"
+    ]
   },
   {
     "name": "Choice Hotels",
@@ -25826,7 +26490,34 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "basic-economics",
+      "business-strategy"
+    ],
+    "topic_tags": [
+      "career",
+      "hotel-industry",
+      "revenue-management",
+      "job-search",
+      "hospitality"
+    ],
+    "summary": "Choice Hotels career portal provides job opportunities at one of the world's largest hotel companies. The company operates multiple brands and offers positions across operations, analytics, revenue management, and corporate functions. This is particularly relevant for economists interested in hospitality industry applications of pricing and demand forecasting.",
+    "use_cases": [
+      "Finding entry-level analyst positions in hospitality revenue management",
+      "Exploring corporate strategy roles at a major hotel chain"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "hotel industry jobs for data scientists",
+      "Choice Hotels careers revenue management",
+      "hospitality analytics job openings",
+      "hotel chain corporate positions"
+    ]
   },
   {
     "name": "MGM Resorts",
@@ -25842,7 +26533,33 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "resume-writing",
+      "job-search-strategies"
+    ],
+    "topic_tags": [
+      "career-portal",
+      "gaming-industry",
+      "data-science-jobs",
+      "hospitality-analytics"
+    ],
+    "summary": "MGM Resorts career portal showcasing job opportunities in gaming and hospitality analytics. The company operates major casino resorts and relies heavily on data science for customer analytics, revenue optimization, and operational insights. This portal provides access to data scientist, analyst, and related technical roles within the entertainment and gaming sector.",
+    "use_cases": [
+      "Finding data science positions in the gaming and hospitality industry",
+      "Exploring analytics career opportunities at a major entertainment company"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "MGM Resorts data science jobs",
+      "gaming industry analytics careers",
+      "casino data scientist positions",
+      "hospitality tech jobs MGM"
+    ]
   },
   {
     "name": "Caesars Entertainment",
@@ -25858,7 +26575,33 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "basic-statistics",
+      "data-visualization"
+    ],
+    "topic_tags": [
+      "careers",
+      "gaming-industry",
+      "job-search",
+      "analytics-roles"
+    ],
+    "summary": "Caesars Entertainment's career portal showcasing data science and analytics opportunities within the gaming and hospitality industry. The portal provides insight into how one of the largest casino operators leverages data for customer experience, operations optimization, and revenue management. It serves as a gateway for understanding analytics applications in the entertainment and gaming sector.",
+    "use_cases": [
+      "Exploring data science career opportunities in the gaming and hospitality industry",
+      "Understanding how major entertainment companies structure their analytics teams and roles"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "gaming industry data science jobs",
+      "Caesars Entertainment analytics careers",
+      "casino data science opportunities",
+      "hospitality industry analytics roles"
+    ]
   },
   {
     "name": "Royal Caribbean",
@@ -25874,7 +26617,33 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "basic-statistics",
+      "data-analysis"
+    ],
+    "topic_tags": [
+      "careers",
+      "cruise-industry",
+      "dynamic-pricing",
+      "company-research"
+    ],
+    "summary": "Royal Caribbean's career portal showcasing job opportunities at one of the world's largest cruise companies. The company is known for sophisticated dynamic pricing strategies and revenue optimization across their fleet operations. This resource is valuable for understanding career paths in travel/hospitality tech and learning about pricing strategies in experience-based industries.",
+    "use_cases": [
+      "researching career opportunities in travel/hospitality tech companies",
+      "studying dynamic pricing implementations in cruise industry for case study analysis"
+    ],
+    "audience": [
+      "Curious-browser",
+      "Junior-DS"
+    ],
+    "synthetic_questions": [
+      "Royal Caribbean data science jobs",
+      "cruise industry career opportunities",
+      "dynamic pricing jobs travel industry",
+      "hospitality tech company careers"
+    ]
   },
   {
     "name": "Carnival Corporation",
@@ -25890,7 +26659,34 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "resume-writing",
+      "interview-preparation"
+    ],
+    "topic_tags": [
+      "careers",
+      "cruise-industry",
+      "corporate-jobs",
+      "travel-economics",
+      "hospitality"
+    ],
+    "summary": "Career portal for Carnival Corporation, one of the world's largest cruise line operators. Provides job opportunities across data science, analytics, economics, and operations roles within the cruise and hospitality industry. Useful for exploring career paths in travel economics and understanding how data professionals work in the tourism sector.",
+    "use_cases": [
+      "Looking for data science positions in the cruise/travel industry",
+      "Researching career opportunities at a major hospitality corporation"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Carnival Corporation data science jobs",
+      "cruise industry career opportunities",
+      "travel economics analyst positions",
+      "hospitality data science careers"
+    ]
   },
   {
     "name": "Norwegian Cruise Line",
@@ -25906,7 +26702,33 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "resume-writing",
+      "job-search-strategies"
+    ],
+    "topic_tags": [
+      "career-portal",
+      "cruise-industry",
+      "analytics-jobs",
+      "company-careers"
+    ],
+    "summary": "Norwegian Cruise Line's career portal featuring data science and analytics job opportunities in the cruise and hospitality industry. The portal provides insights into working for a major cruise operator with unique data challenges around passenger experience, operations optimization, and revenue management. Useful for understanding how analytics applies in the travel and leisure sector.",
+    "use_cases": [
+      "Exploring analytics career opportunities in the cruise/travel industry",
+      "Researching company culture and data science applications at Norwegian Cruise Line"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Norwegian Cruise Line data science jobs",
+      "analytics careers cruise industry",
+      "Norwegian Cruise Line career opportunities",
+      "data scientist positions travel industry"
+    ]
   },
   {
     "name": "Viking Cruises",
@@ -25922,7 +26744,34 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "job-search-basics",
+      "resume-writing"
+    ],
+    "topic_tags": [
+      "careers",
+      "cruise-industry",
+      "pricing-roles",
+      "job-portal",
+      "travel-sector"
+    ],
+    "summary": "Viking Cruises career portal featuring job opportunities at a premium cruise line known for sophisticated pricing strategies and customer segmentation. The company offers roles relevant to data scientists interested in travel industry applications, dynamic pricing, and customer analytics. Provides insight into how established travel companies structure their data and analytics teams.",
+    "use_cases": [
+      "Exploring data science career opportunities in the travel and hospitality industry",
+      "Researching how cruise companies approach pricing and revenue optimization roles"
+    ],
+    "audience": [
+      "Curious-browser",
+      "Junior-DS"
+    ],
+    "synthetic_questions": [
+      "cruise industry data science jobs",
+      "Viking Cruises analytics careers",
+      "travel industry pricing analyst positions",
+      "hospitality data science opportunities"
+    ]
   },
   {
     "name": "Gojek/GoTo",
@@ -25938,7 +26787,34 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "resume-writing",
+      "behavioral-interviews"
+    ],
+    "topic_tags": [
+      "career-portal",
+      "rideshare",
+      "southeast-asia",
+      "job-applications",
+      "tech-careers"
+    ],
+    "summary": "Career portal for Gojek/GoTo, Southeast Asia's leading super-app company covering rideshare, food delivery, payments, and logistics. The portal provides job opportunities across data science, engineering, product, and business roles at one of the region's largest tech unicorns. Useful for understanding career paths and role requirements at a major platform company with complex pricing and marketplace challenges.",
+    "use_cases": [
+      "Exploring data science career opportunities at a major Southeast Asian tech company",
+      "Researching job requirements and team structure for rideshare/marketplace roles"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Gojek data science jobs",
+      "GoTo career opportunities",
+      "rideshare company careers Southeast Asia",
+      "tech jobs marketplace pricing teams"
+    ]
   },
   {
     "name": "Lime",
@@ -25954,7 +26830,33 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "resume-writing",
+      "basic-interviewing"
+    ],
+    "topic_tags": [
+      "career-portal",
+      "micromobility",
+      "job-search",
+      "company-research"
+    ],
+    "summary": "Lime is a micromobility company operating electric scooters and bikes in urban markets worldwide. Their career portal provides opportunities for data scientists and analysts to work on transportation optimization, demand forecasting, and urban mobility analytics. The company offers roles spanning operations research, product analytics, and growth analytics focused on sustainable transportation solutions.",
+    "use_cases": [
+      "Researching micromobility companies for data science career opportunities",
+      "Understanding analytics roles in transportation and urban planning companies"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "micromobility companies hiring data scientists",
+      "Lime careers data analyst jobs",
+      "transportation analytics career opportunities",
+      "scooter sharing company data science roles"
+    ]
   },
   {
     "name": "Ola",
@@ -25970,7 +26872,34 @@
     "section": "companies",
     "sector": "travel",
     "tab": "find-jobs",
-    "subtab": "companies"
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "resume-writing",
+      "linkedin-optimization"
+    ],
+    "topic_tags": [
+      "career-portal",
+      "rideshare",
+      "demand-prediction",
+      "company-research",
+      "job-search"
+    ],
+    "summary": "Ola's career portal provides job opportunities and company information for one of the world's largest rideshare platforms. The portal offers insights into roles involving demand forecasting, pricing optimization, and transportation economics. It's valuable for data scientists and economists interested in mobility, logistics, and marketplace dynamics.",
+    "use_cases": [
+      "Researching data science roles at rideshare companies before applying",
+      "Understanding Ola's business model and technical challenges for interview preparation"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Ola careers data scientist jobs",
+      "rideshare company job opportunities",
+      "demand prediction roles at Ola",
+      "tech economics jobs rideshare industry"
+    ]
   },
   {
     "name": "Hertz",
