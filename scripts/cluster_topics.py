@@ -9,11 +9,72 @@ Output: data/topic_clusters.json
 """
 
 import json
+import os
+import time
 import numpy as np
 from collections import Counter
 from pathlib import Path
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
+
+# Optional OpenAI for LLM labels
+try:
+    from openai import OpenAI
+    OPENAI_AVAILABLE = bool(os.environ.get("OPENAI_API_KEY"))
+except ImportError:
+    OPENAI_AVAILABLE = False
+
+# Global client for LLM calls
+_openai_client = None
+
+def get_openai_client():
+    """Get or create OpenAI client."""
+    global _openai_client
+    if _openai_client is None and OPENAI_AVAILABLE:
+        _openai_client = OpenAI()
+    return _openai_client
+
+
+def generate_llm_label(items: list, top_tags: list, top_categories: list) -> str | None:
+    """Use LLM to generate a specific, descriptive cluster label."""
+    client = get_openai_client()
+    if not client:
+        return None
+
+    try:
+        # Build context from sample items
+        sample_names = [item.get('name', '')[:50] for item in items[:8]]
+        sample_descriptions = [item.get('description', '')[:100] for item in items[:5]]
+
+        prompt = f"""Generate a concise, specific label (3-6 words) for this cluster of resources.
+
+Items: {', '.join(sample_names)}
+Common tags: {', '.join(top_tags[:5])}
+Categories: {', '.join(top_categories[:2])}
+Sample descriptions: {'; '.join(sample_descriptions)}
+
+Rules:
+- Be specific (not "Machine Learning" but "Causal Forest Estimation")
+- Use domain terminology from econometrics/ML/data science
+- No generic words like "Resources" or "Tools"
+- Format: Title Case, no punctuation
+
+Label:"""
+
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=20,
+            temperature=0.3
+        )
+        label = response.choices[0].message.content.strip()
+        # Clean up: remove quotes, trailing punctuation
+        label = label.strip('"\'').rstrip('.')
+        time.sleep(0.1)  # Rate limiting
+        return label
+    except Exception as e:
+        print(f"    [LLM error: {e}]")
+        return None
 
 
 def load_embeddings(embeddings_file: Path, count: int, dim: int) -> np.ndarray:
@@ -29,16 +90,19 @@ def load_metadata(metadata_file: Path) -> dict:
         return json.load(f)
 
 
-def extract_cluster_label(items: list, metadata_items: list, item_indices: list) -> tuple:
+def extract_cluster_label(items: list, metadata_items: list, item_indices: list, use_llm: bool = True) -> tuple:
     """
-    Extract a descriptive label for a cluster based on common topic_tags.
+    Extract a descriptive label for a cluster.
+    Uses LLM if available, falls back to tag-based labels.
     Returns (label, top_tags, categories).
     """
     all_tags = []
     all_categories = []
+    cluster_items = []
 
     for idx in item_indices:
         item = metadata_items[idx]
+        cluster_items.append(item)
         # Parse topic_tags (comma-separated string)
         tags = item.get('topic_tags', '')
         if tags:
@@ -55,8 +119,14 @@ def extract_cluster_label(items: list, metadata_items: list, item_indices: list)
     top_tags = [tag for tag, _ in tag_counts.most_common(5)]
     top_categories = [cat for cat, _ in cat_counts.most_common(3)]
 
-    # Generate cleaner label - dedupe similar tags
-    label = generate_clean_label(top_tags, top_categories)
+    # Try LLM label first if available
+    label = None
+    if use_llm and OPENAI_AVAILABLE:
+        label = generate_llm_label(cluster_items, top_tags, top_categories)
+
+    # Fall back to tag-based label
+    if not label:
+        label = generate_clean_label(top_tags, top_categories)
 
     return label, top_tags, top_categories
 
@@ -224,12 +294,18 @@ def main():
     embeddings = all_embeddings
     print(f"  Total: {len(items_filtered)} items")
 
+    # LLM status
+    if OPENAI_AVAILABLE:
+        print("\nLLM labels: ENABLED (using GPT-4o-mini)")
+    else:
+        print("\nLLM labels: DISABLED (set OPENAI_API_KEY to enable)")
+
     # Normalize embeddings for better clustering
     norms = np.linalg.norm(embeddings, axis=1, keepdims=True)
     embeddings_norm = embeddings / norms
 
-    # Adjust K based on filtered count (~15 items per cluster)
-    optimal_k = max(50, len(items_filtered) // 15)
+    # Adjust K based on filtered count (~5 items per cluster for granular topics)
+    optimal_k = max(100, len(items_filtered) // 5)
 
     # Run K-means clustering
     print(f"\nRunning K-means with K={optimal_k}...")

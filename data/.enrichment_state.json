@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1",
-  "last_run": "2025-12-30T23:28:08.273699+00:00",
+  "last_run": "2025-12-31T00:06:11.205200+00:00",
   "items": {
     "packages.json": {
       "BayesianBandits": {
@@ -8715,8 +8715,8 @@
         "confidence": 1.0
       },
       "Spotify": {
-        "content_hash": "d1507ee53cdb2460",
-        "enriched_at": "2025-12-30T23:17:59.920610+00:00",
+        "content_hash": "93ee2d3751bdac74",
+        "enriched_at": "2025-12-30T23:40:49.381681+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -8883,11 +8883,11 @@
         "confidence": 1.0
       },
       "Notion": {
-        "content_hash": "c34f39c05b01be3e",
-        "enriched_at": "2025-12-30T23:20:06.881977+00:00",
+        "content_hash": "317f87bfbc9e468d",
+        "enriched_at": "2025-12-30T23:47:55.167711+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 1.0
+        "confidence": 0.9
       },
       "DataLemur SQL": {
         "content_hash": "3e7b6f33cc92e6a5",
@@ -9448,6 +9448,2946 @@
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
+      },
+      "Netflix: Recommendations Research": {
+        "content_hash": "01c50389eec504b6",
+        "enriched_at": "2025-12-30T23:28:13.167956+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Athey & Imbens: ML Methods for Economists": {
+        "content_hash": "d965eb2c9605f929",
+        "enriched_at": "2025-12-30T23:28:18.184118+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Susan Athey: ML Short Course": {
+        "content_hash": "735f78988b73a6a9",
+        "enriched_at": "2025-12-30T23:28:25.298480+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Matt Sosna: Academia to Data Science": {
+        "content_hash": "ee91bd834da34723",
+        "enriched_at": "2025-12-30T23:28:35.541819+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Microsoft Experimentation Platform": {
+        "content_hash": "be448e0df82cb536",
+        "enriched_at": "2025-12-30T23:28:43.439577+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Doing Data Science at Uber": {
+        "content_hash": "d5a9039c8f827ff6",
+        "enriched_at": "2025-12-30T23:28:49.742204+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Building Uber's DS Platforms": {
+        "content_hash": "5f6ac6b202dc0f8c",
+        "enriched_at": "2025-12-30T23:28:55.008134+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Uber Data Science Workbench": {
+        "content_hash": "1e798503bd3e5db8",
+        "enriched_at": "2025-12-30T23:29:00.265921+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Netflix DS and Engineering Team": {
+        "content_hash": "0e8f749e6b41afa6",
+        "enriched_at": "2025-12-30T23:29:06.062927+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Netflix: Experimentation Focus": {
+        "content_hash": "0246a7ba142c43ff",
+        "enriched_at": "2025-12-30T23:29:17.399393+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Netflix ML Systems (Metaflow)": {
+        "content_hash": "9a9ca4c76bf3515e",
+        "enriched_at": "2025-12-30T23:29:26.004162+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Airbnb Data University": {
+        "content_hash": "01bcdd37d30ef016",
+        "enriched_at": "2025-12-30T23:29:32.899216+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Meta: Building DS Teams at Scale": {
+        "content_hash": "754701d8d2ca73b1",
+        "enriched_at": "2025-12-30T23:29:37.485065+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Google Research Careers": {
+        "content_hash": "d21eeb5b56bec930",
+        "enriched_at": "2025-12-30T23:29:42.827891+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Eppo Documentation": {
+        "content_hash": "0544cc62355b0925",
+        "enriched_at": "2025-12-30T23:29:48.905824+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Statsig Docs + Blog": {
+        "content_hash": "a5e9fec50c357d79",
+        "enriched_at": "2025-12-30T23:29:55.695134+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Netflix Tech Blog: Experimentation": {
+        "content_hash": "50ddec64ca14a1c2",
+        "enriched_at": "2025-12-30T23:30:01.862249+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "khangich/machine-learning-interview": {
+        "content_hash": "cf017d851eb38f56",
+        "enriched_at": "2025-12-30T23:30:08.082796+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "alirezadir/Machine-Learning-Interviews": {
+        "content_hash": "ac69cbaea00f95ee",
+        "enriched_at": "2025-12-30T23:30:14.675545+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Chip Huyen's ML Interviews (Free!)": {
+        "content_hash": "f772abbe1a7356e8",
+        "enriched_at": "2025-12-30T23:30:20.004319+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Made With ML": {
+        "content_hash": "c0d06b64e999e75f",
+        "enriched_at": "2025-12-30T23:30:29.394165+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Eugene Yan's Blog + Applied ML": {
+        "content_hash": "63491ffc9746e2a2",
+        "enriched_at": "2025-12-30T23:30:37.200013+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Stanford CS 329S Materials": {
+        "content_hash": "1cef3aa74ef5586d",
+        "enriched_at": "2025-12-30T23:30:43.022788+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Hello Interview: ML System Design": {
+        "content_hash": "e94264bdb0c9945a",
+        "enriched_at": "2025-12-30T23:30:48.429037+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "khangich: ML System Design Cases": {
+        "content_hash": "3119431eda6b25f6",
+        "enriched_at": "2025-12-30T23:30:52.878085+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "alirezadir: 9-Step ML Design Formula": {
+        "content_hash": "42796dfccdc5f6ad",
+        "enriched_at": "2025-12-30T23:31:00.329863+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "DataLemur (Same Author as Book!)": {
+        "content_hash": "c5360feeee8fd30b",
+        "enriched_at": "2025-12-30T23:31:06.510151+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "rbhatia46/Data-Science-Interview-Resources": {
+        "content_hash": "199580b80cfa1c55",
+        "enriched_at": "2025-12-30T23:31:12.795756+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "khanhnamle1994/cracking-the-data-science-interview": {
+        "content_hash": "746ae0c83662cb95",
+        "enriched_at": "2025-12-30T23:31:18.116892+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Harvard GSAS Resume & Cover Letter Guide": {
+        "content_hash": "02b281384e4cd2d2",
+        "enriched_at": "2025-12-30T23:31:24.430220+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "FAANG Recruiter's Guide to Data Resumes": {
+        "content_hash": "057d0095f604e4d0",
+        "enriched_at": "2025-12-30T23:31:30.658858+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Justin Ellis: Academia to Data Science": {
+        "content_hash": "b91519e9a6b58c9a",
+        "enriched_at": "2025-12-30T23:31:36.185976+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "GitHub for Data Science Job Seekers": {
+        "content_hash": "ac7ec7113f334fe3",
+        "enriched_at": "2025-12-30T23:31:39.257285+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Yu Dong: Building a DS Portfolio": {
+        "content_hash": "62cdfef6d9bf4ff4",
+        "enriched_at": "2025-12-30T23:31:44.583489+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Evan Buntrock: Amazon Interviewer Perspective": {
+        "content_hash": "e0ef55ad3bd3e148",
+        "enriched_at": "2025-12-30T23:31:50.934449+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Chris Nosko: Chicago Booth to Uber VP (Mixtape)": {
+        "content_hash": "3027c92367c2d2c7",
+        "enriched_at": "2025-12-30T23:31:55.742360+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Rose Tan: My Journey from Econ PhD to Tech": {
+        "content_hash": "ccf52392b2c5df27",
+        "enriched_at": "2025-12-30T23:32:01.455349+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Zijing Zhu: How I Became a Data Scientist": {
+        "content_hash": "e50c27dea7b95d27",
+        "enriched_at": "2025-12-30T23:32:07.366800+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Susan Athey: First Microsoft Chief Economist (Mixtape)": {
+        "content_hash": "451bcc89ccc8a6a2",
+        "enriched_at": "2025-12-30T23:32:13.358960+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "InterviewQuery: Visa Sponsorship for DS Jobs": {
+        "content_hash": "2f436cbea67ae435",
+        "enriched_at": "2025-12-30T23:32:19.910040+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "EB2NIW.com: DIY Green Card Resource": {
+        "content_hash": "17b260ec537eb527",
+        "enriched_at": "2025-12-30T23:32:27.285023+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "H1BData.info: Salary & Sponsor Database": {
+        "content_hash": "c0a2da54dfd6902d",
+        "enriched_at": "2025-12-30T23:32:33.287761+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Built In: Companies That Sponsor H-1B": {
+        "content_hash": "febea7c076b91ce1",
+        "enriched_at": "2025-12-30T23:32:38.520602+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "USCIS H-1B Employer Data Hub": {
+        "content_hash": "8a1e1870a7a0a7a2",
+        "enriched_at": "2025-12-30T23:32:43.918489+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Intel": {
+        "content_hash": "27f3f3f1bd4debb6",
+        "enriched_at": "2025-12-30T23:40:08.221238+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "IBM": {
+        "content_hash": "f6fd1e50a53563f0",
+        "enriched_at": "2025-12-30T23:32:54.788333+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "NVIDIA": {
+        "content_hash": "935675e575dcc315",
+        "enriched_at": "2025-12-30T23:39:56.847791+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Cisco": {
+        "content_hash": "26f749e16be64b94",
+        "enriched_at": "2025-12-30T23:33:07.637970+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Qualcomm": {
+        "content_hash": "050eb6cca91f5be3",
+        "enriched_at": "2025-12-30T23:40:14.260619+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "SAP": {
+        "content_hash": "621b4325f597e213",
+        "enriched_at": "2025-12-30T23:33:18.327630+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Zillow": {
+        "content_hash": "f4b0bc518f7b4356",
+        "enriched_at": "2025-12-30T23:33:25.755823+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Booking.com": {
+        "content_hash": "83de00a3b9edd91f",
+        "enriched_at": "2025-12-30T23:33:30.668834+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Thumbtack": {
+        "content_hash": "00b8c4a3493c9140",
+        "enriched_at": "2025-12-30T23:33:38.086722+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Expedia Group": {
+        "content_hash": "c858e2b6442f714b",
+        "enriched_at": "2025-12-30T23:33:43.985531+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Opendoor": {
+        "content_hash": "11149970e0f1c535",
+        "enriched_at": "2025-12-30T23:33:50.944249+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Redfin": {
+        "content_hash": "bdcb0f04126b6240",
+        "enriched_at": "2025-12-30T23:33:55.451277+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Rover": {
+        "content_hash": "fbfd341e26b0bf1e",
+        "enriched_at": "2025-12-30T23:34:06.155329+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Fiverr": {
+        "content_hash": "0d6eaa1fd0928ce3",
+        "enriched_at": "2025-12-30T23:34:10.609574+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "TikTok": {
+        "content_hash": "b982db20f8de3c5a",
+        "enriched_at": "2025-12-30T23:34:16.111859+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "X (Twitter)": {
+        "content_hash": "74c6d8a296993dc5",
+        "enriched_at": "2025-12-30T23:34:21.459169+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Reddit": {
+        "content_hash": "b2aa2c8fbe82772d",
+        "enriched_at": "2025-12-30T23:34:24.943527+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Disney": {
+        "content_hash": "297138af06776fe7",
+        "enriched_at": "2025-12-30T23:34:29.259419+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "YouTube": {
+        "content_hash": "f5058b945a7cd10d",
+        "enriched_at": "2025-12-30T23:34:34.829958+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Twitch": {
+        "content_hash": "91b437788d4d91fa",
+        "enriched_at": "2025-12-30T23:34:39.642572+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Two Sigma": {
+        "content_hash": "fa5a714ce4f962a7",
+        "enriched_at": "2025-12-30T23:34:45.077568+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Citadel": {
+        "content_hash": "f72dbce7db5da05d",
+        "enriched_at": "2025-12-30T23:34:51.672248+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Jane Street": {
+        "content_hash": "e60a434697a31532",
+        "enriched_at": "2025-12-30T23:35:00.103063+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "D.E. Shaw": {
+        "content_hash": "68081dbaca9b1349",
+        "enriched_at": "2025-12-30T23:35:04.901033+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Jump Trading": {
+        "content_hash": "c59c82ffa8c1f466",
+        "enriched_at": "2025-12-30T23:35:09.405791+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Bridgewater": {
+        "content_hash": "a5e17ef322694143",
+        "enriched_at": "2025-12-30T23:35:15.242867+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Coinbase": {
+        "content_hash": "0a1fd3bd298dca2b",
+        "enriched_at": "2025-12-30T23:35:19.497845+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Upstart": {
+        "content_hash": "22f326f1e9b4f56f",
+        "enriched_at": "2025-12-31T00:03:22.313983+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Capital One": {
+        "content_hash": "b019755da2e6b3d4",
+        "enriched_at": "2025-12-30T23:35:30.858528+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Goldman Sachs": {
+        "content_hash": "3fc8b1e55a945b11",
+        "enriched_at": "2025-12-30T23:35:36.016419+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "SoFi": {
+        "content_hash": "6ad18f130252e3ab",
+        "enriched_at": "2025-12-30T23:35:40.758203+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Chainalysis": {
+        "content_hash": "1ce7dd72cf3a4d7f",
+        "enriched_at": "2025-12-30T23:35:45.092715+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Palantir": {
+        "content_hash": "999755fb7737ba4a",
+        "enriched_at": "2025-12-30T23:35:49.830843+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Snowflake": {
+        "content_hash": "7a3c9d39d90010bf",
+        "enriched_at": "2025-12-30T23:35:53.755662+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "ServiceNow": {
+        "content_hash": "7a7ffed583a57480",
+        "enriched_at": "2025-12-30T23:35:58.351016+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Workday": {
+        "content_hash": "aaeba404946a842e",
+        "enriched_at": "2025-12-30T23:36:01.851467+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Datadog": {
+        "content_hash": "6642436ff624a004",
+        "enriched_at": "2025-12-30T23:36:08.206826+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Atlassian": {
+        "content_hash": "07497afa6050a157",
+        "enriched_at": "2025-12-30T23:36:13.410146+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.7000000000000001
+      },
+      "Cloudflare": {
+        "content_hash": "2c31803be63eaa3c",
+        "enriched_at": "2025-12-30T23:36:18.226268+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "UnitedHealth Group": {
+        "content_hash": "bbe2ba6935589ff1",
+        "enriched_at": "2025-12-30T23:36:24.020852+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "CVS Health": {
+        "content_hash": "0befa881d72b8edf",
+        "enriched_at": "2025-12-30T23:55:06.841588+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Elevance Health": {
+        "content_hash": "f69132ebc0be403d",
+        "enriched_at": "2025-12-30T23:36:33.878447+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Humana": {
+        "content_hash": "4ca55726c5a89cad",
+        "enriched_at": "2025-12-30T23:36:38.809352+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Kaiser Permanente": {
+        "content_hash": "f74c533953f86015",
+        "enriched_at": "2025-12-30T23:36:43.214230+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "IQVIA": {
+        "content_hash": "99385c13b95362ce",
+        "enriched_at": "2025-12-30T23:36:47.475518+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Flatiron Health": {
+        "content_hash": "bdda4186ac76bbb0",
+        "enriched_at": "2025-12-30T23:36:52.738446+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Tempus": {
+        "content_hash": "0c33e8d5711881c2",
+        "enriched_at": "2025-12-30T23:36:57.906803+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Veeva Systems": {
+        "content_hash": "95e53428163e9584",
+        "enriched_at": "2025-12-30T23:37:02.334884+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Amgen": {
+        "content_hash": "ac774cf54a638f16",
+        "enriched_at": "2025-12-30T23:37:07.687861+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "AbbVie": {
+        "content_hash": "c288129b2c6d906f",
+        "enriched_at": "2025-12-30T23:37:11.773114+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Regeneron": {
+        "content_hash": "a1a94793054264bd",
+        "enriched_at": "2025-12-30T23:37:16.909046+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Bristol-Myers Squibb": {
+        "content_hash": "991ded92c5640bf5",
+        "enriched_at": "2025-12-30T23:37:20.691989+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.3999999999999999
+      },
+      "Gilead Sciences": {
+        "content_hash": "0e104f60b868cdb4",
+        "enriched_at": "2025-12-30T23:37:24.894460+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Google DeepMind": {
+        "content_hash": "42ad734decbcb7aa",
+        "enriched_at": "2025-12-30T23:37:30.722818+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Scale AI": {
+        "content_hash": "4be90aea448eddad",
+        "enriched_at": "2025-12-30T23:37:35.005021+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Cohere": {
+        "content_hash": "85f40da5bed1ad32",
+        "enriched_at": "2025-12-30T23:37:39.618469+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Perplexity AI": {
+        "content_hash": "35455f8618087f98",
+        "enriched_at": "2025-12-30T23:37:44.044586+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Weights & Biases": {
+        "content_hash": "4c5b15c748eb9cd0",
+        "enriched_at": "2025-12-30T23:37:48.443978+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Hugging Face": {
+        "content_hash": "fd81465187215371",
+        "enriched_at": "2025-12-30T23:37:54.181045+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "AI21 Labs": {
+        "content_hash": "247544a75ca99746",
+        "enriched_at": "2025-12-30T23:37:57.809981+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Valve": {
+        "content_hash": "d102a74b17ffb24f",
+        "enriched_at": "2025-12-30T23:38:02.354231+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Riot Games": {
+        "content_hash": "c09a325f51fbbfa1",
+        "enriched_at": "2025-12-30T23:38:06.772083+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Zynga": {
+        "content_hash": "83feb7aadf7642fb",
+        "enriched_at": "2025-12-30T23:38:11.485612+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Playtika": {
+        "content_hash": "b2c2845d79debe53",
+        "enriched_at": "2025-12-30T23:38:16.607040+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Epic Games": {
+        "content_hash": "638265ff9de0cf17",
+        "enriched_at": "2025-12-30T23:38:20.775072+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Activision Blizzard": {
+        "content_hash": "dd4b431cfb8c46f5",
+        "enriched_at": "2025-12-30T23:38:25.636498+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Electronic Arts": {
+        "content_hash": "cc84a5090a9279b0",
+        "enriched_at": "2025-12-30T23:38:31.336779+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Supercell": {
+        "content_hash": "beb6b0c0c6d44076",
+        "enriched_at": "2025-12-30T23:41:38.133623+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Take-Two Interactive": {
+        "content_hash": "8cfeebb200fc8218",
+        "enriched_at": "2025-12-30T23:38:41.192594+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Delta Air Lines": {
+        "content_hash": "3740c9ff43cdfe45",
+        "enriched_at": "2025-12-30T23:38:46.027631+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "United Airlines": {
+        "content_hash": "433a3614df038639",
+        "enriched_at": "2025-12-30T23:38:51.690144+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Southwest Airlines": {
+        "content_hash": "f2034d263edc4531",
+        "enriched_at": "2025-12-30T23:38:58.074495+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "American Airlines": {
+        "content_hash": "21bc00bdc1f4da1a",
+        "enriched_at": "2025-12-30T23:39:02.678743+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "FedEx": {
+        "content_hash": "aa3fbdaf6ca1660a",
+        "enriched_at": "2025-12-30T23:39:10.210038+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Waymo": {
+        "content_hash": "f25b9f1678999ea9",
+        "enriched_at": "2025-12-30T23:39:15.959358+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Zoox": {
+        "content_hash": "a1375caecfd3b578",
+        "enriched_at": "2025-12-30T23:39:20.502011+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Aurora Innovation": {
+        "content_hash": "7e433bc0631a1d1a",
+        "enriched_at": "2025-12-30T23:39:26.539730+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Walmart": {
+        "content_hash": "c01269c7da720788",
+        "enriched_at": "2025-12-30T23:39:31.968525+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Starbucks": {
+        "content_hash": "4a4871da9f2e93c5",
+        "enriched_at": "2025-12-30T23:39:36.475309+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Nike": {
+        "content_hash": "985045bbd625a9ad",
+        "enriched_at": "2025-12-30T23:39:42.108041+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "The Home Depot": {
+        "content_hash": "8a3fae66c9fe05d0",
+        "enriched_at": "2025-12-30T23:39:46.510492+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Procter & Gamble": {
+        "content_hash": "833013fb54dea87b",
+        "enriched_at": "2025-12-30T23:39:51.994854+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "AMD": {
+        "content_hash": "4763f3c50292f5d4",
+        "enriched_at": "2025-12-30T23:40:03.751177+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Broadcom": {
+        "content_hash": "52881e8f4958e17b",
+        "enriched_at": "2025-12-30T23:40:19.499470+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Texas Instruments": {
+        "content_hash": "72bbc49e0bd45745",
+        "enriched_at": "2025-12-30T23:40:25.319448+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Micron": {
+        "content_hash": "91282bbf59029206",
+        "enriched_at": "2025-12-30T23:40:30.135244+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "ARM": {
+        "content_hash": "273a2575f39ef8ba",
+        "enriched_at": "2025-12-30T23:40:34.738424+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "TSMC": {
+        "content_hash": "8a29a96cbfafa32a",
+        "enriched_at": "2025-12-30T23:40:40.372381+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Applied Materials": {
+        "content_hash": "ae192a1a622ffc25",
+        "enriched_at": "2025-12-30T23:40:44.570087+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.7000000000000001
+      },
+      "Klarna": {
+        "content_hash": "2dfb79e5cc830a02",
+        "enriched_at": "2025-12-30T23:40:55.527807+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Revolut": {
+        "content_hash": "10c0ae4ba104b7a2",
+        "enriched_at": "2025-12-31T00:02:33.874710+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Wise": {
+        "content_hash": "fc6fc6e3300c5490",
+        "enriched_at": "2025-12-30T23:41:04.975736+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.7000000000000001
+      },
+      "Adyen": {
+        "content_hash": "7118bffee1385b9f",
+        "enriched_at": "2025-12-30T23:41:09.421508+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "N26": {
+        "content_hash": "d7ea7b0a323035f3",
+        "enriched_at": "2025-12-31T00:02:39.399292+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Delivery Hero": {
+        "content_hash": "4814b537217eb582",
+        "enriched_at": "2025-12-30T23:41:17.640167+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Zalando": {
+        "content_hash": "b43b16d349994d0e",
+        "enriched_at": "2025-12-30T23:41:22.358851+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "BlaBlaCar": {
+        "content_hash": "3eb86e45d0ac853a",
+        "enriched_at": "2025-12-30T23:41:26.668461+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Bolt": {
+        "content_hash": "daab403bd26af484",
+        "enriched_at": "2025-12-30T23:41:32.709547+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "King": {
+        "content_hash": "e4708224ef9f659d",
+        "enriched_at": "2025-12-30T23:41:42.901591+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Mistral AI": {
+        "content_hash": "67aaac911f040bed",
+        "enriched_at": "2025-12-30T23:41:46.807565+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Upwork": {
+        "content_hash": "e852d1fa10054b1d",
+        "enriched_at": "2025-12-30T23:41:51.902603+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Toptal": {
+        "content_hash": "bb00ea0e8df3119e",
+        "enriched_at": "2025-12-30T23:41:56.531882+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Instawork": {
+        "content_hash": "1a4332c4fa365a08",
+        "enriched_at": "2025-12-30T23:42:01.067592+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Wonolo": {
+        "content_hash": "b589c123b3d03d5a",
+        "enriched_at": "2025-12-30T23:42:05.573390+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "TaskRabbit": {
+        "content_hash": "d8e6bb3ae493ed82",
+        "enriched_at": "2025-12-30T23:42:10.695082+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Care.com": {
+        "content_hash": "3c91856354ba9721",
+        "enriched_at": "2025-12-30T23:42:15.518563+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Catalant": {
+        "content_hash": "17436ef93f0c0bed",
+        "enriched_at": "2025-12-30T23:42:20.276645+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Faire": {
+        "content_hash": "e6c041c6ae00eab8",
+        "enriched_at": "2025-12-30T23:42:24.698930+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Flexport": {
+        "content_hash": "35602c68c25d6294",
+        "enriched_at": "2025-12-30T23:42:29.127372+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "GOAT Group": {
+        "content_hash": "fa00018d4f64fd78",
+        "enriched_at": "2025-12-30T23:42:34.144671+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "StockX": {
+        "content_hash": "12d85062f31a80b9",
+        "enriched_at": "2025-12-30T23:42:38.648715+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Poshmark": {
+        "content_hash": "f303d3de4ceb73b2",
+        "enriched_at": "2025-12-30T23:42:42.540478+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "ThredUp": {
+        "content_hash": "ea9233aca9ba55f1",
+        "enriched_at": "2025-12-30T23:42:46.686197+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Mercari": {
+        "content_hash": "2cb3e77f0261857b",
+        "enriched_at": "2025-12-30T23:42:50.835356+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.7000000000000001
+      },
+      "The RealReal": {
+        "content_hash": "fa0f2c4f61f521d1",
+        "enriched_at": "2025-12-30T23:42:57.489004+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Reverb": {
+        "content_hash": "0357f5c284a7c373",
+        "enriched_at": "2025-12-30T23:43:02.097052+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "OfferUp": {
+        "content_hash": "9eb6fe6b90dc2d3a",
+        "enriched_at": "2025-12-30T23:43:06.809280+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "CoStar Group": {
+        "content_hash": "18b6baaecee2f797",
+        "enriched_at": "2025-12-30T23:43:11.617159+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Angi": {
+        "content_hash": "340450d0af88a5b5",
+        "enriched_at": "2025-12-30T23:43:16.021793+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "CarGurus": {
+        "content_hash": "e98824d99c87cc74",
+        "enriched_at": "2025-12-30T23:43:20.360945+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Cars.com": {
+        "content_hash": "41674e1e983fa9a5",
+        "enriched_at": "2025-12-30T23:43:24.932788+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Carvana": {
+        "content_hash": "664391374737b9b6",
+        "enriched_at": "2025-12-30T23:43:30.566455+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "TrueCar": {
+        "content_hash": "bcab0d2afb5be44b",
+        "enriched_at": "2025-12-30T23:43:35.518401+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Turo": {
+        "content_hash": "986cd4e2b59b4895",
+        "enriched_at": "2025-12-30T23:43:40.701983+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Houzz": {
+        "content_hash": "e9bbe96666d12d83",
+        "enriched_at": "2025-12-30T23:43:45.718428+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "SpotHero": {
+        "content_hash": "7725cc79019be420",
+        "enriched_at": "2025-12-30T23:43:50.223130+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Nextdoor": {
+        "content_hash": "c182dbbfd6d8a175",
+        "enriched_at": "2025-12-30T23:43:55.263908+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Hopper": {
+        "content_hash": "9a4e5c32d7933bfc",
+        "enriched_at": "2025-12-30T23:44:01.182270+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Tripadvisor": {
+        "content_hash": "e8e499d8a3a6cfa6",
+        "enriched_at": "2025-12-30T23:44:06.990446+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Just Eat Takeaway": {
+        "content_hash": "5676214b1f4ed37d",
+        "enriched_at": "2025-12-30T23:44:12.144675+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Grubhub": {
+        "content_hash": "38f9fa60b08bf7cb",
+        "enriched_at": "2025-12-30T23:44:17.054884+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Gopuff": {
+        "content_hash": "2f18491fdcaa52b3",
+        "enriched_at": "2025-12-30T23:44:21.048273+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "GoodRx": {
+        "content_hash": "f7357ea2a1d669e4",
+        "enriched_at": "2025-12-30T23:44:28.260285+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Zocdoc": {
+        "content_hash": "0006e03cb550d570",
+        "enriched_at": "2025-12-30T23:44:33.027060+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Teladoc": {
+        "content_hash": "c68c349d3bf91472",
+        "enriched_at": "2025-12-30T23:44:38.556118+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Hims & Hers": {
+        "content_hash": "b7f9c0a53b97a9af",
+        "enriched_at": "2025-12-30T23:44:43.676374+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Maven Clinic": {
+        "content_hash": "5096ef13b2065ad2",
+        "enriched_at": "2025-12-30T23:44:47.753325+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Included Health": {
+        "content_hash": "702807659562a49d",
+        "enriched_at": "2025-12-30T23:44:51.767788+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Deliveroo": {
+        "content_hash": "d42961f335920db8",
+        "enriched_at": "2025-12-30T23:44:56.946329+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Glovo": {
+        "content_hash": "4181bf7970cdfb43",
+        "enriched_at": "2025-12-30T23:45:02.391829+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Back Market": {
+        "content_hash": "58ed1ca9ff7b8bb9",
+        "enriched_at": "2025-12-30T23:45:08.357573+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Vinted": {
+        "content_hash": "fe1bdb149e1c1687",
+        "enriched_at": "2025-12-30T23:45:16.387866+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Vestiaire Collective": {
+        "content_hash": "fa457a36ac90420d",
+        "enriched_at": "2025-12-30T23:45:20.900844+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Grab": {
+        "content_hash": "a5028515465db1be",
+        "enriched_at": "2025-12-30T23:45:25.648285+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "GoTo Group": {
+        "content_hash": "08a4fc6447a0d5eb",
+        "enriched_at": "2025-12-30T23:45:31.615307+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Shopee": {
+        "content_hash": "b3ce6d709283cf17",
+        "enriched_at": "2025-12-30T23:45:36.875156+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Coupang": {
+        "content_hash": "3fef79ab26819287",
+        "enriched_at": "2025-12-30T23:45:40.595700+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Flipkart": {
+        "content_hash": "af3b6d8d9e3f3d0e",
+        "enriched_at": "2025-12-30T23:45:46.130267+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Swiggy": {
+        "content_hash": "90c9b71d0f6b173a",
+        "enriched_at": "2025-12-30T23:45:52.848117+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Zomato": {
+        "content_hash": "9fa19288faa6c9f0",
+        "enriched_at": "2025-12-30T23:45:58.230307+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Mercado Libre": {
+        "content_hash": "cc9e1e6b57bddd04",
+        "enriched_at": "2025-12-30T23:46:07.189435+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Rappi": {
+        "content_hash": "fdf71579dab207f6",
+        "enriched_at": "2025-12-30T23:46:12.652725+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.7000000000000001
+      },
+      "Alibaba": {
+        "content_hash": "f5c15ea47a2b50b5",
+        "enriched_at": "2025-12-30T23:46:16.998602+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Match Group": {
+        "content_hash": "81082d5702759d71",
+        "enriched_at": "2025-12-30T23:46:21.294472+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Bumble": {
+        "content_hash": "0006041e26c7b45c",
+        "enriched_at": "2025-12-30T23:46:26.654099+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Hinge": {
+        "content_hash": "cd14c671512811b2",
+        "enriched_at": "2025-12-30T23:46:30.960801+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Grindr": {
+        "content_hash": "01557f6e02a6abc0",
+        "enriched_at": "2025-12-30T23:46:36.633337+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Warner Bros. Discovery": {
+        "content_hash": "a2401dc74a8efb42",
+        "enriched_at": "2025-12-30T23:46:41.704771+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "NBCUniversal/Peacock": {
+        "content_hash": "90f387330f314427",
+        "enriched_at": "2025-12-30T23:46:46.007165+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Roku": {
+        "content_hash": "20bf63646948fb12",
+        "enriched_at": "2025-12-30T23:46:51.373779+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Vimeo": {
+        "content_hash": "f26d432ad6b31bcf",
+        "enriched_at": "2025-12-30T23:46:56.245762+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "FuboTV": {
+        "content_hash": "0edd421591748b85",
+        "enriched_at": "2025-12-30T23:47:02.710698+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "DAZN": {
+        "content_hash": "ed9721feafea0117",
+        "enriched_at": "2025-12-30T23:47:07.752310+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Audible": {
+        "content_hash": "4ef842a1394f0014",
+        "enriched_at": "2025-12-30T23:47:11.751080+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "SiriusXM/Pandora": {
+        "content_hash": "9df0646bb22e48eb",
+        "enriched_at": "2025-12-30T23:47:20.045496+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "iHeartMedia": {
+        "content_hash": "a6acfe6d237e40c8",
+        "enriched_at": "2025-12-30T23:47:24.860503+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "SoundCloud": {
+        "content_hash": "db39ff48021d2ffe",
+        "enriched_at": "2025-12-30T23:47:30.491567+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Scopely": {
+        "content_hash": "6f0290f36bed4b60",
+        "enriched_at": "2025-12-30T23:47:35.814914+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "DraftKings": {
+        "content_hash": "02a1e6cc52888e05",
+        "enriched_at": "2025-12-30T23:47:40.496325+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Zoom": {
+        "content_hash": "d9cf881cd5821d9f",
+        "enriched_at": "2025-12-30T23:47:45.028584+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Slack": {
+        "content_hash": "1a609d32f68c084b",
+        "enriched_at": "2025-12-30T23:47:50.252635+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Figma": {
+        "content_hash": "b6e29cbc96a606b5",
+        "enriched_at": "2025-12-30T23:48:01.928988+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Clubhouse": {
+        "content_hash": "d4771e6acfafa16f",
+        "enriched_at": "2025-12-30T23:48:06.737933+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Patreon": {
+        "content_hash": "e5571f8ea496b7ae",
+        "enriched_at": "2025-12-30T23:48:10.628453+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Substack": {
+        "content_hash": "dd51d7552c323e5d",
+        "enriched_at": "2025-12-30T23:48:15.808882+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Quora": {
+        "content_hash": "39b3a82ffe2315e7",
+        "enriched_at": "2025-12-30T23:48:22.099630+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Yelp": {
+        "content_hash": "602e2f4a0ab85009",
+        "enriched_at": "2025-12-30T23:48:26.196520+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Tencent": {
+        "content_hash": "b16f3a9cf2ffad10",
+        "enriched_at": "2025-12-30T23:48:31.316193+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Bilibili": {
+        "content_hash": "23119e13dffecff3",
+        "enriched_at": "2025-12-30T23:48:37.354914+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Xiaohongshu": {
+        "content_hash": "d741ce96ead330fd",
+        "enriched_at": "2025-12-30T23:48:41.760682+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "LINE": {
+        "content_hash": "8922453f78aaeb5e",
+        "enriched_at": "2025-12-30T23:48:46.266374+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Rakuten": {
+        "content_hash": "60d06007459841b2",
+        "enriched_at": "2025-12-30T23:48:50.974437+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Kakao": {
+        "content_hash": "15022c68067bf3c1",
+        "enriched_at": "2025-12-30T23:48:55.429213+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "NAVER": {
+        "content_hash": "24a122e88aec0569",
+        "enriched_at": "2025-12-30T23:48:59.285280+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Sea Group": {
+        "content_hash": "78df57c00be68208",
+        "enriched_at": "2025-12-30T23:49:04.495068+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Viber": {
+        "content_hash": "339157a68c98cf36",
+        "enriched_at": "2025-12-30T23:49:10.842900+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.7000000000000001
+      },
+      "SmartNews": {
+        "content_hash": "9a525d6efb81cd3c",
+        "enriched_at": "2025-12-30T23:49:16.372690+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "NewsBreak": {
+        "content_hash": "b6c4b12be9e4a10d",
+        "enriched_at": "2025-12-30T23:49:19.868049+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "BuzzFeed": {
+        "content_hash": "2068dfb9bc0c8f67",
+        "enriched_at": "2025-12-30T23:49:24.146947+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Vox Media": {
+        "content_hash": "0d8228e065b0682f",
+        "enriched_at": "2025-12-30T23:49:29.343578+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Taboola": {
+        "content_hash": "55cf54eb622aff4a",
+        "enriched_at": "2025-12-30T23:49:34.404864+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Outbrain": {
+        "content_hash": "3d865d90385a0001",
+        "enriched_at": "2025-12-30T23:49:39.125888+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "ESPN": {
+        "content_hash": "899779efec826e27",
+        "enriched_at": "2025-12-30T23:49:43.546351+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Nubank": {
+        "content_hash": "e0cd97f68bb392e5",
+        "enriched_at": "2025-12-30T23:49:47.682561+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Haus": {
+        "content_hash": "16863d2bf9fa7076",
+        "enriched_at": "2025-12-30T23:49:52.314121+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Recast": {
+        "content_hash": "d025a9a9e2fedcd9",
+        "enriched_at": "2025-12-30T23:49:56.621462+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "INCRMNTAL": {
+        "content_hash": "8265394a35f24fbe",
+        "enriched_at": "2025-12-30T23:50:02.113229+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Northbeam": {
+        "content_hash": "8b14e14b00141039",
+        "enriched_at": "2025-12-30T23:50:06.671376+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "LiftLab": {
+        "content_hash": "476d59016a71c9d7",
+        "enriched_at": "2025-12-30T23:50:12.257892+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Paramark": {
+        "content_hash": "96a44b5c1d42b335",
+        "enriched_at": "2025-12-30T23:50:16.436932+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Measured": {
+        "content_hash": "9302b66238065545",
+        "enriched_at": "2025-12-30T23:50:21.328203+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.7000000000000001
+      },
+      "Triple Whale": {
+        "content_hash": "fd46fd689f477dfb",
+        "enriched_at": "2025-12-30T23:50:25.834634+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Rockerbox": {
+        "content_hash": "88441c0f17b12bba",
+        "enriched_at": "2025-12-30T23:50:30.746439+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Moloco": {
+        "content_hash": "cf5a9d2945f567ac",
+        "enriched_at": "2025-12-30T23:50:36.327899+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Criteo": {
+        "content_hash": "44fa60a23c4c3804",
+        "enriched_at": "2025-12-30T23:50:42.183749+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "The Trade Desk": {
+        "content_hash": "1e46122afee11d54",
+        "enriched_at": "2025-12-30T23:50:48.026672+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Topsort": {
+        "content_hash": "850019278753f89e",
+        "enriched_at": "2025-12-30T23:50:53.040066+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "LiveRamp": {
+        "content_hash": "dce0543cbac06721",
+        "enriched_at": "2025-12-30T23:50:57.640571+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Skai": {
+        "content_hash": "445c3d09dae5b867",
+        "enriched_at": "2025-12-30T23:51:02.931546+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Pacvue": {
+        "content_hash": "c88fc154e110ab65",
+        "enriched_at": "2025-12-30T23:51:08.812730+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Kevel": {
+        "content_hash": "f031b907c5579ebc",
+        "enriched_at": "2025-12-30T23:51:13.560948+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "LaunchDarkly": {
+        "content_hash": "d98e2b6a54f637cc",
+        "enriched_at": "2025-12-30T23:51:19.165526+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Eppo": {
+        "content_hash": "f8bd28f543d6c69d",
+        "enriched_at": "2025-12-30T23:51:24.515287+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "GrowthBook": {
+        "content_hash": "e1ce5f8c98c68227",
+        "enriched_at": "2025-12-30T23:51:29.252951+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Statsig": {
+        "content_hash": "4ef130da08554f4c",
+        "enriched_at": "2025-12-30T23:51:34.530855+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "ABsmartly": {
+        "content_hash": "372166fda0acccbd",
+        "enriched_at": "2025-12-30T23:51:39.534582+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Optimizely": {
+        "content_hash": "5153c6edbcb42835",
+        "enriched_at": "2025-12-30T23:51:46.739378+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Split": {
+        "content_hash": "9fe4a5bc502b583e",
+        "enriched_at": "2025-12-30T23:51:51.128986+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "VWO": {
+        "content_hash": "9782b4367e65b063",
+        "enriched_at": "2025-12-30T23:51:56.400917+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Kameleoon": {
+        "content_hash": "8ca736c375abb3d1",
+        "enriched_at": "2025-12-30T23:52:03.706483+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Zilliant": {
+        "content_hash": "d0e3e0a50509e0c8",
+        "enriched_at": "2025-12-30T23:52:08.159903+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "PROS Holdings": {
+        "content_hash": "bd7b4767097c531d",
+        "enriched_at": "2025-12-30T23:52:13.629309+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Vendavo": {
+        "content_hash": "30dc5cf648d705cb",
+        "enriched_at": "2025-12-30T23:52:18.961312+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Competera": {
+        "content_hash": "b3099ee97e738a60",
+        "enriched_at": "2025-12-30T23:52:23.185960+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Pricefx": {
+        "content_hash": "3e1a0cb07573b435",
+        "enriched_at": "2025-12-30T23:52:28.689706+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Intelligence Node": {
+        "content_hash": "15685258a0760e8a",
+        "enriched_at": "2025-12-30T23:52:33.115250+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Perfect Price": {
+        "content_hash": "311950071295b7aa",
+        "enriched_at": "2025-12-30T23:52:37.170157+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Omnia Retail": {
+        "content_hash": "50f5708f8476677b",
+        "enriched_at": "2025-12-30T23:52:42.626702+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Pendo": {
+        "content_hash": "56246d25c84b7f4a",
+        "enriched_at": "2025-12-30T23:52:46.694608+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Contentsquare": {
+        "content_hash": "f314f83b4f35fef5",
+        "enriched_at": "2025-12-30T23:52:52.469585+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Amplitude": {
+        "content_hash": "5f7dcf2efa7fdfad",
+        "enriched_at": "2025-12-30T23:52:56.613882+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Quantum Metric": {
+        "content_hash": "5bf7c693a2cbfe26",
+        "enriched_at": "2025-12-30T23:53:01.178258+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "PostHog": {
+        "content_hash": "5ed18c28c96d4bb0",
+        "enriched_at": "2025-12-30T23:53:06.223938+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Mixpanel": {
+        "content_hash": "8252b058954210f5",
+        "enriched_at": "2025-12-30T23:53:10.325026+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Glassbox": {
+        "content_hash": "b6bae8f592e5899c",
+        "enriched_at": "2025-12-30T23:53:15.762007+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "FullStory": {
+        "content_hash": "691dfcc30c7a3181",
+        "enriched_at": "2025-12-30T23:53:19.705817+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Hightouch": {
+        "content_hash": "0d6c8a0694a494db",
+        "enriched_at": "2025-12-30T23:53:24.999916+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "dbt Labs": {
+        "content_hash": "fbb2350bac3d91d4",
+        "enriched_at": "2025-12-30T23:53:29.785055+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.7000000000000001
+      },
+      "Fivetran": {
+        "content_hash": "8af18040b413907e",
+        "enriched_at": "2025-12-30T23:53:35.095115+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "RudderStack": {
+        "content_hash": "612277cc149a2208",
+        "enriched_at": "2025-12-30T23:53:39.030088+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Census": {
+        "content_hash": "a9ee86d921172954",
+        "enriched_at": "2025-12-30T23:53:43.971713+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Airbyte": {
+        "content_hash": "11c305ba1d7f50f8",
+        "enriched_at": "2025-12-30T23:53:48.526330+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Qlik": {
+        "content_hash": "3bb969f5ecaaa828",
+        "enriched_at": "2025-12-30T23:53:53.571244+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Matillion": {
+        "content_hash": "93f980b3f1b72d28",
+        "enriched_at": "2025-12-30T23:53:58.075833+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.7000000000000001
+      },
+      "6sense": {
+        "content_hash": "18996d738a1ffa06",
+        "enriched_at": "2025-12-30T23:54:01.761323+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Gong": {
+        "content_hash": "b52ab2000689f8ac",
+        "enriched_at": "2025-12-30T23:54:06.065365+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Outreach": {
+        "content_hash": "ba11b2e5a1d2ed5f",
+        "enriched_at": "2025-12-30T23:54:10.056788+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "ZoomInfo": {
+        "content_hash": "eea9b1829574a85e",
+        "enriched_at": "2025-12-30T23:54:14.229092+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "People.ai": {
+        "content_hash": "553056ef8e97bf96",
+        "enriched_at": "2025-12-30T23:54:18.279646+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Clari": {
+        "content_hash": "b4b10c02a32bcc0f",
+        "enriched_at": "2025-12-30T23:54:24.000220+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Salesloft": {
+        "content_hash": "379731a97c2d2262",
+        "enriched_at": "2025-12-30T23:54:28.313202+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.7000000000000001
+      },
+      "Zuora": {
+        "content_hash": "55561a4278352b2f",
+        "enriched_at": "2025-12-30T23:54:34.015037+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "PandaDoc": {
+        "content_hash": "460101b23fb413ba",
+        "enriched_at": "2025-12-30T23:54:38.197780+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Recurly": {
+        "content_hash": "b2c92e8a3db10d8d",
+        "enriched_at": "2025-12-30T23:54:43.076210+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "ConnectWise": {
+        "content_hash": "33039fbcebf700de",
+        "enriched_at": "2025-12-30T23:54:47.436996+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Chargebee": {
+        "content_hash": "0f35940ca7f6847e",
+        "enriched_at": "2025-12-30T23:54:52.759637+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Maxio": {
+        "content_hash": "e1cb2a8d2367a4d9",
+        "enriched_at": "2025-12-30T23:54:57.777464+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "DealHub": {
+        "content_hash": "ed90a0e8986a2449",
+        "enriched_at": "2025-12-30T23:55:01.185857+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Kroger (84.51\u00b0)": {
+        "content_hash": "bf3eaf1ee1563a7a",
+        "enriched_at": "2025-12-30T23:55:12.575020+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "PepsiCo": {
+        "content_hash": "65898b43ed08dc68",
+        "enriched_at": "2025-12-30T23:55:18.016743+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Colgate-Palmolive": {
+        "content_hash": "15c3a7118dcb8c7d",
+        "enriched_at": "2025-12-30T23:55:23.130680+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Target": {
+        "content_hash": "2c46ab0d5f81987a",
+        "enriched_at": "2025-12-30T23:55:27.268190+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Nordstrom": {
+        "content_hash": "6b7eb823517fcf86",
+        "enriched_at": "2025-12-30T23:55:32.089990+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Macy's": {
+        "content_hash": "39cf414911835481",
+        "enriched_at": "2025-12-30T23:55:36.897691+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Lowe's": {
+        "content_hash": "c91a63dfd8d682da",
+        "enriched_at": "2025-12-30T23:55:42.492527+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Best Buy": {
+        "content_hash": "68e7a0f1767fe48e",
+        "enriched_at": "2025-12-30T23:55:49.077729+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Kohl's": {
+        "content_hash": "254c8f6dc57ed16c",
+        "enriched_at": "2025-12-30T23:55:54.610094+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Albertsons": {
+        "content_hash": "89b47a442db0f696",
+        "enriched_at": "2025-12-30T23:55:59.839459+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Walgreens": {
+        "content_hash": "9f9566faf151c610",
+        "enriched_at": "2025-12-30T23:56:04.861503+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Costco": {
+        "content_hash": "c6af4acc8cc68f89",
+        "enriched_at": "2025-12-30T23:56:10.855065+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Chewy": {
+        "content_hash": "1f0afa75d4983244",
+        "enriched_at": "2025-12-30T23:56:15.327768+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Fanatics": {
+        "content_hash": "ca9103866cc3359a",
+        "enriched_at": "2025-12-30T23:56:20.866347+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Shein": {
+        "content_hash": "7dfcd6b77eb4ad6b",
+        "enriched_at": "2025-12-30T23:56:25.483024+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Temu": {
+        "content_hash": "40707d6a99039867",
+        "enriched_at": "2025-12-30T23:56:30.203300+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Trader Joe's": {
+        "content_hash": "1046bf75f1ace658",
+        "enriched_at": "2025-12-30T23:56:35.420497+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Lululemon": {
+        "content_hash": "566390ff769337dd",
+        "enriched_at": "2025-12-30T23:56:40.452299+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Gap Inc": {
+        "content_hash": "af58986336cf8505",
+        "enriched_at": "2025-12-30T23:56:45.103782+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "H&M": {
+        "content_hash": "2dd02578bc8474d0",
+        "enriched_at": "2025-12-30T23:56:50.194403+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Adidas": {
+        "content_hash": "a95ba1db506d364f",
+        "enriched_at": "2025-12-30T23:56:56.630813+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Kering": {
+        "content_hash": "a0a45b2e9eed8095",
+        "enriched_at": "2025-12-30T23:57:00.664248+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Ralph Lauren": {
+        "content_hash": "2c0002eab45173ba",
+        "enriched_at": "2025-12-30T23:57:05.689839+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "PVH": {
+        "content_hash": "7dd5698c27a93583",
+        "enriched_at": "2025-12-30T23:57:10.852181+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "VF Corporation": {
+        "content_hash": "553c839b09d809f8",
+        "enriched_at": "2025-12-30T23:57:15.987411+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Under Armour": {
+        "content_hash": "9ee7ebad8a8cafab",
+        "enriched_at": "2025-12-30T23:57:20.094199+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "LVMH": {
+        "content_hash": "6353551932d129ad",
+        "enriched_at": "2025-12-30T23:57:23.461891+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.7000000000000001
+      },
+      "Inditex (Zara)": {
+        "content_hash": "fa1ad669dadbe8c7",
+        "enriched_at": "2025-12-30T23:57:27.677477+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Unilever": {
+        "content_hash": "02b22c72bb75b91a",
+        "enriched_at": "2025-12-30T23:57:31.876346+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Nestl\u00e9": {
+        "content_hash": "16eacdf7a291f08b",
+        "enriched_at": "2025-12-30T23:57:37.617055+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Coca-Cola": {
+        "content_hash": "33913cf1415b0295",
+        "enriched_at": "2025-12-30T23:57:42.120753+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Kraft Heinz": {
+        "content_hash": "e2545d64ddbbafc1",
+        "enriched_at": "2025-12-30T23:57:48.427552+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "General Mills": {
+        "content_hash": "de94a9a5d8ebf5a9",
+        "enriched_at": "2025-12-30T23:57:53.492582+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Kimberly-Clark": {
+        "content_hash": "e812f7517f9c6542",
+        "enriched_at": "2025-12-30T23:58:01.367342+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Clorox": {
+        "content_hash": "329d758012374854",
+        "enriched_at": "2025-12-30T23:58:07.369911+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Mondel\u0113z": {
+        "content_hash": "7ddcef724e535bb2",
+        "enriched_at": "2025-12-30T23:58:12.727904+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Mars": {
+        "content_hash": "089562f8c779a238",
+        "enriched_at": "2025-12-30T23:58:17.595022+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Kenvue": {
+        "content_hash": "720b467d69df4a01",
+        "enriched_at": "2025-12-30T23:58:23.555474+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Church & Dwight": {
+        "content_hash": "adbc3413845263b9",
+        "enriched_at": "2025-12-30T23:58:28.796747+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "L'Or\u00e9al": {
+        "content_hash": "8bfa0ec8df35b964",
+        "enriched_at": "2025-12-30T23:58:34.700482+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Est\u00e9e Lauder": {
+        "content_hash": "239d6dd32aff7a80",
+        "enriched_at": "2025-12-30T23:58:39.633129+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Ulta Beauty": {
+        "content_hash": "c68e584b9999bf98",
+        "enriched_at": "2025-12-30T23:58:44.295948+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Sephora": {
+        "content_hash": "eb7b8aa6416aac4f",
+        "enriched_at": "2025-12-30T23:58:49.446701+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Coty": {
+        "content_hash": "cad3f5f6d132f121",
+        "enriched_at": "2025-12-30T23:58:54.132162+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "IKEA": {
+        "content_hash": "189b98beb0824f95",
+        "enriched_at": "2025-12-30T23:58:58.379080+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Williams-Sonoma": {
+        "content_hash": "67cc0faaec4b5e45",
+        "enriched_at": "2025-12-30T23:59:03.150952+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "RH": {
+        "content_hash": "a9d38831a7d8b4ee",
+        "enriched_at": "2025-12-30T23:59:07.841024+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Beyond Inc": {
+        "content_hash": "bae6184c171dc0db",
+        "enriched_at": "2025-12-30T23:59:13.679531+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Petco": {
+        "content_hash": "d80789f051e1feb3",
+        "enriched_at": "2025-12-30T23:59:18.084057+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "O'Reilly Auto Parts": {
+        "content_hash": "5a687d06e9c17bb2",
+        "enriched_at": "2025-12-30T23:59:23.287630+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Tractor Supply": {
+        "content_hash": "d832bc3e71ae811e",
+        "enriched_at": "2025-12-30T23:59:27.616417+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Dick's Sporting Goods": {
+        "content_hash": "7848ec782a8b4dce",
+        "enriched_at": "2025-12-30T23:59:33.244138+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "AutoZone": {
+        "content_hash": "67c52671bf4ed4f4",
+        "enriched_at": "2025-12-30T23:59:38.180539+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "GameStop": {
+        "content_hash": "b06e24d823179438",
+        "enriched_at": "2025-12-30T23:59:43.957208+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "PetSmart": {
+        "content_hash": "a7b85a8cac64f535",
+        "enriched_at": "2025-12-30T23:59:49.469800+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "TJX Companies": {
+        "content_hash": "947f463c1956140e",
+        "enriched_at": "2025-12-30T23:59:53.697878+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Ross Stores": {
+        "content_hash": "73b149bdee65d0f6",
+        "enriched_at": "2025-12-30T23:59:58.661680+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Burlington": {
+        "content_hash": "74a1e6eb82756b06",
+        "enriched_at": "2025-12-31T00:00:02.356355+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Dollar General": {
+        "content_hash": "f86727a4adc93f09",
+        "enriched_at": "2025-12-31T00:00:08.808911+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Dollar Tree": {
+        "content_hash": "2848fc3ff435cad9",
+        "enriched_at": "2025-12-31T00:00:14.247313+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Five Below": {
+        "content_hash": "5cbce67fd32ba67c",
+        "enriched_at": "2025-12-31T00:00:19.435927+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "JPMorgan Chase": {
+        "content_hash": "1520151f57ac45df",
+        "enriched_at": "2025-12-31T00:00:24.850392+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Wells Fargo": {
+        "content_hash": "e54fc88b4a5663af",
+        "enriched_at": "2025-12-31T00:00:31.159657+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Citi": {
+        "content_hash": "d6d8d80383b2a722",
+        "enriched_at": "2025-12-31T00:00:36.186305+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Bank of America": {
+        "content_hash": "aaec133c8e558854",
+        "enriched_at": "2025-12-31T00:00:42.578974+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Morgan Stanley": {
+        "content_hash": "b2dc2bc1cd917a33",
+        "enriched_at": "2025-12-31T00:00:48.683169+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "PNC": {
+        "content_hash": "864ac19c775203e8",
+        "enriched_at": "2025-12-31T00:00:53.861934+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Truist": {
+        "content_hash": "0f15d1519848e452",
+        "enriched_at": "2025-12-31T00:00:59.555266+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Ally Financial": {
+        "content_hash": "c3257977fcfb9643",
+        "enriched_at": "2025-12-31T00:01:05.826119+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Mastercard": {
+        "content_hash": "2d59cf798f3ab9b7",
+        "enriched_at": "2025-12-31T00:01:11.796058+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Visa": {
+        "content_hash": "a9730da185006fa2",
+        "enriched_at": "2025-12-31T00:01:16.514488+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "American Express": {
+        "content_hash": "deda7e3141985095",
+        "enriched_at": "2025-12-31T00:01:21.750572+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Discover": {
+        "content_hash": "e065c98c7a46e64e",
+        "enriched_at": "2025-12-31T00:01:29.507884+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Fiserv": {
+        "content_hash": "6f45269cb61cda03",
+        "enriched_at": "2025-12-31T00:01:38.265446+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "FIS": {
+        "content_hash": "4ce2d616f0e0fea9",
+        "enriched_at": "2025-12-31T00:01:45.228046+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Global Payments": {
+        "content_hash": "deae248c121eb087",
+        "enriched_at": "2025-12-31T00:01:51.884364+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Brex": {
+        "content_hash": "39c5034cecd4b156",
+        "enriched_at": "2025-12-31T00:01:58.614404+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Ramp": {
+        "content_hash": "a4a01370b20fa4cf",
+        "enriched_at": "2025-12-31T00:02:05.557255+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Mercury": {
+        "content_hash": "6b3767c3138e056a",
+        "enriched_at": "2025-12-31T00:02:11.689310+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Chime": {
+        "content_hash": "4a4ed20602910ec6",
+        "enriched_at": "2025-12-31T00:02:17.686853+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Varo Bank": {
+        "content_hash": "e6f4e3a6b9a92db9",
+        "enriched_at": "2025-12-31T00:02:23.576036+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Current": {
+        "content_hash": "f44c9d4c75c99a7a",
+        "enriched_at": "2025-12-31T00:02:28.137501+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Monzo": {
+        "content_hash": "78738d9e3a2eb4ba",
+        "enriched_at": "2025-12-31T00:02:44.885714+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "LendingClub": {
+        "content_hash": "30d3bdde8c67dfb3",
+        "enriched_at": "2025-12-31T00:02:50.406489+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Prosper": {
+        "content_hash": "84c7977029f64f17",
+        "enriched_at": "2025-12-31T00:02:56.074004+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Upgrade": {
+        "content_hash": "295c42c6fecfecd1",
+        "enriched_at": "2025-12-31T00:03:02.936381+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Avant": {
+        "content_hash": "87756a73537d5cec",
+        "enriched_at": "2025-12-31T00:03:07.260908+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "LendingTree": {
+        "content_hash": "77dc50688336c6ac",
+        "enriched_at": "2025-12-31T00:03:12.337710+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Bread Financial": {
+        "content_hash": "87dbedae81bbda96",
+        "enriched_at": "2025-12-31T00:03:17.781488+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Oportun": {
+        "content_hash": "78d64d7604d75c36",
+        "enriched_at": "2025-12-31T00:03:26.755837+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Grayscale": {
+        "content_hash": "a672b0e993e5d85b",
+        "enriched_at": "2025-12-31T00:03:31.758949+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Binance": {
+        "content_hash": "7fe75998f82c743d",
+        "enriched_at": "2025-12-31T00:03:37.704478+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Circle": {
+        "content_hash": "d210864a36933b63",
+        "enriched_at": "2025-12-31T00:03:43.721913+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Bitwise": {
+        "content_hash": "bfa5fb8b3e0cece7",
+        "enriched_at": "2025-12-31T00:03:49.339784+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "ConsenSys": {
+        "content_hash": "9c54386ddbf791aa",
+        "enriched_at": "2025-12-31T00:03:53.858355+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Kraken": {
+        "content_hash": "fcc89cf072a60d2a",
+        "enriched_at": "2025-12-31T00:04:01.091999+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Gemini": {
+        "content_hash": "16dabbe5f85219df",
+        "enriched_at": "2025-12-31T00:04:07.124329+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Vanguard": {
+        "content_hash": "c9fbb0b50f46641c",
+        "enriched_at": "2025-12-31T00:04:13.506116+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Fidelity": {
+        "content_hash": "98bb8268df63e76b",
+        "enriched_at": "2025-12-31T00:04:18.813983+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Charles Schwab": {
+        "content_hash": "77ed8dab64fd9cd9",
+        "enriched_at": "2025-12-31T00:04:24.933409+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "BlackRock": {
+        "content_hash": "bd7f02568abf224e",
+        "enriched_at": "2025-12-31T00:04:29.419221+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "State Street": {
+        "content_hash": "940b5790883bc75e",
+        "enriched_at": "2025-12-31T00:04:33.937305+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "T. Rowe Price": {
+        "content_hash": "ad1dede19fa9074c",
+        "enriched_at": "2025-12-31T00:04:38.168557+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Northern Trust": {
+        "content_hash": "9d452c1ebca74bd1",
+        "enriched_at": "2025-12-31T00:04:44.532717+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "FICO": {
+        "content_hash": "a38aad84f6da285f",
+        "enriched_at": "2025-12-31T00:04:50.740868+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Experian": {
+        "content_hash": "d1181e8db5da8260",
+        "enriched_at": "2025-12-31T00:05:00.690413+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Equifax": {
+        "content_hash": "0d6663331cf0f0f0",
+        "enriched_at": "2025-12-31T00:05:05.796889+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "TransUnion": {
+        "content_hash": "d096309952d1ed0b",
+        "enriched_at": "2025-12-31T00:05:12.363701+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Nova Credit": {
+        "content_hash": "550111b6d42edd35",
+        "enriched_at": "2025-12-31T00:05:18.938966+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Plaid": {
+        "content_hash": "5a3730e089019d57",
+        "enriched_at": "2025-12-31T00:05:24.856180+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Lemonade": {
+        "content_hash": "828a1485ad3a4143",
+        "enriched_at": "2025-12-31T00:05:29.428596+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Root Insurance": {
+        "content_hash": "4f728415170f3bc8",
+        "enriched_at": "2025-12-31T00:05:34.710531+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Oscar Health": {
+        "content_hash": "c3c4cef01cdc3a07",
+        "enriched_at": "2025-12-31T00:05:40.542118+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Coalition": {
+        "content_hash": "38b3f47a5c4cd01e",
+        "enriched_at": "2025-12-31T00:05:45.953505+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "At-Bay": {
+        "content_hash": "f8f091df6240c96d",
+        "enriched_at": "2025-12-31T00:05:53.151072+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Hippo": {
+        "content_hash": "ad3bc91d3d8a8141",
+        "enriched_at": "2025-12-31T00:05:59.346344+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Clover Health": {
+        "content_hash": "57ca54f0a8835227",
+        "enriched_at": "2025-12-31T00:06:05.410712+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Socure": {
+        "content_hash": "0e68a70df5693c33",
+        "enriched_at": "2025-12-31T00:06:11.164539+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
       }
     }
   }
