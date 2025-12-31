@@ -38,7 +38,7 @@
         {"id": "paper-conditional-choice-probabilities", "type": "paper", "title": "Conditional Choice Probabilities (Hotz-Miller)"},
         {"id": "resource-mit-ocw-dynamic-programming", "type": "resource", "title": "MIT OCW: Dynamic Programming"},
         {"id": "paper-dynamic-discrete-choice-models-methods", "type": "paper", "title": "Dynamic Discrete Choice Methods Survey"},
-        {"id": "package-ddcpy", "type": "package", "title": "DDCPy"}
+        {"id": "package-ruspy", "type": "package", "title": "ruspy"}
       ],
       "seed": {"type": "method", "paper": "Rust 1987", "field": "structural-estimation"}
     },
@@ -51,7 +51,7 @@
         "id": "talk-john-list-scale-uber-the-voltage-effect",
         "type": "talk",
         "title": "John List: Scale, Uber & The Voltage Effect",
-        "url": "https://www.youtube.com/watch?v=..."
+        "url": "https://www.econtalk.org/john-list-on-scale-uber-and-the-voltage-effect/"
       },
       "items": [
         {"id": "talk-john-list-market-design-in-ride-sharing", "type": "talk", "title": "Market Design in Ride-Sharing"},

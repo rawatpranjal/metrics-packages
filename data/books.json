@@ -1,5 +1,100 @@
 [
   {
+    "name": "Mostly Harmless Econometrics",
+    "author": "Joshua D. Angrist & Jörn-Steffen Pischke",
+    "year": 2009,
+    "isbn": "0691120358",
+    "description": "THE bible of applied econometrics. Covers regression, IV, DiD, and RDD with focus on clean identification. Nobel laureate Angrist's practical guide to credible causal inference.",
+    "category": "Causal Inference",
+    "type": "Book",
+    "url": "https://www.amazon.com/Mostly-Harmless-Econometrics-Empiricists-Companion/dp/0691120358",
+    "tags": [
+      "Causal Inference",
+      "Econometrics"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": ["regression", "statistics"],
+    "topic_tags": [
+      "causal-inference",
+      "econometrics",
+      "instrumental-variables",
+      "difference-in-differences",
+      "regression-discontinuity"
+    ],
+    "summary": "This is the definitive guide to applied econometrics, covering regression, instrumental variables, difference-in-differences, and regression discontinuity designs. Co-authored by 2021 Nobel laureate Joshua Angrist, it emphasizes practical identification strategies.",
+    "use_cases": [
+      "learning causal inference methods",
+      "understanding identification strategies",
+      "applying econometric techniques to policy evaluation"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is the best book for learning econometrics?",
+      "How to learn causal inference?",
+      "What are instrumental variables?",
+      "How does difference-in-differences work?",
+      "What is regression discontinuity design?",
+      "Joshua Angrist econometrics book"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "understanding regression",
+      "applying IV methods",
+      "using DiD for policy evaluation"
+    ]
+  },
+  {
+    "name": "The Cold Start Problem",
+    "author": "Andrew Chen",
+    "year": 2021,
+    "isbn": "0062969749",
+    "description": "How tech's most successful products solved the 'cold start problem' using network effects. By the former head of rider growth at Uber and a16z general partner.",
+    "category": "Platform Economics",
+    "type": "Book",
+    "url": "https://www.amazon.com/Cold-Start-Problem-Andrew-Chen/dp/0062969749",
+    "tags": [
+      "Platform Economics",
+      "Network Effects",
+      "Growth"
+    ],
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "network-effects",
+      "platform-economics",
+      "marketplace-design",
+      "growth"
+    ],
+    "summary": "Andrew Chen draws on his experience at Uber and interviews with founders of LinkedIn, Twitch, Zoom, Dropbox, Tinder, and Airbnb to explain how to start and scale network effects.",
+    "use_cases": [
+      "understanding marketplace dynamics",
+      "launching two-sided platforms",
+      "scaling network-effect businesses"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How do marketplaces solve the chicken-and-egg problem?",
+      "What is the cold start problem?",
+      "How did Uber scale?",
+      "Andrew Chen network effects book",
+      "How to bootstrap a two-sided marketplace?"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "understanding network effects",
+      "applying growth frameworks"
+    ]
+  },
+  {
     "name": "Information Rules",
     "author": "Carl Shapiro & Hal Varian",
     "year": 1999,

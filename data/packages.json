@@ -16337,5 +16337,112 @@
       "Hyperopt"
     ],
     "maintenance_status": "active"
+  },
+  {
+    "name": "Surprise",
+    "description": "A Python scikit for building and analyzing recommender systems with explicit ratings. Implements SVD, SVD++, NMF, k-NN, and other classic collaborative filtering algorithms. The go-to library for Netflix Prize-style recommendations.",
+    "category": "Recommender Systems",
+    "docs_url": "https://surpriselib.com/",
+    "github_url": "https://github.com/NicolasHug/Surprise",
+    "url": "https://github.com/NicolasHug/Surprise",
+    "install": "pip install scikit-surprise",
+    "tags": [
+      "recommender systems",
+      "collaborative filtering",
+      "matrix factorization"
+    ],
+    "best_for": "Building and evaluating recommender systems with explicit ratings",
+    "language": "Python",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "python-numpy"
+    ],
+    "topic_tags": [
+      "recommender-systems",
+      "collaborative-filtering",
+      "matrix-factorization"
+    ],
+    "summary": "Surprise is a Python scikit for building and analyzing recommender systems dealing with explicit rating data. It provides various ready-to-use algorithms (SVD, SVD++, NMF, k-NN) and tools for evaluation.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "python library for recommender systems",
+      "how to implement SVD for recommendations",
+      "collaborative filtering in python",
+      "Netflix Prize recommendation algorithm",
+      "matrix factorization python package",
+      "surprise library tutorial"
+    ],
+    "use_cases": [
+      "Building movie recommendation systems",
+      "Evaluating collaborative filtering algorithms",
+      "Implementing Netflix Prize-style recommendations"
+    ],
+    "primary_use_cases": [
+      "recommendation systems",
+      "collaborative filtering"
+    ],
+    "api_complexity": "simple",
+    "related_packages": [
+      "LightFM",
+      "implicit"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "ruspy",
+    "description": "Python package for simulation and estimation of Rust (1987) bus engine replacement model. Implements the nested fixed point (NFXP) algorithm for dynamic discrete choice. The reference implementation for learning structural estimation.",
+    "category": "Structural Estimation",
+    "docs_url": "https://ruspy.readthedocs.io/",
+    "github_url": "https://github.com/OpenSourceEconomics/ruspy",
+    "url": "https://github.com/OpenSourceEconomics/ruspy",
+    "install": "pip install ruspy",
+    "tags": [
+      "structural estimation",
+      "dynamic discrete choice",
+      "econometrics"
+    ],
+    "best_for": "Learning and implementing dynamic discrete choice models",
+    "language": "Python",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "python-numpy",
+      "econometrics"
+    ],
+    "topic_tags": [
+      "structural-estimation",
+      "dynamic-discrete-choice",
+      "econometrics"
+    ],
+    "summary": "ruspy is an open-source package for the simulation and estimation of the Rust (1987) bus engine replacement model, the foundational paper in dynamic discrete choice. Implements NFXP algorithm.",
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "python package for dynamic discrete choice",
+      "how to implement Rust 1987 model",
+      "NFXP algorithm python",
+      "structural estimation python",
+      "Harold Zurcher bus engine model",
+      "ruspy tutorial"
+    ],
+    "use_cases": [
+      "Learning structural estimation methods",
+      "Replicating Rust (1987) results",
+      "Teaching dynamic programming in economics"
+    ],
+    "primary_use_cases": [
+      "dynamic discrete choice estimation",
+      "structural econometrics"
+    ],
+    "api_complexity": "intermediate",
+    "related_packages": [
+      "respy"
+    ],
+    "maintenance_status": "active"
   }
 ]
