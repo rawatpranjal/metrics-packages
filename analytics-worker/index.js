@@ -12,6 +12,14 @@ const ALLOWED_ORIGINS = [
 
 const CACHE_TTL = 3600; // 1 hour cache
 
+// Safety limits
+const RATE_LIMIT = {
+  MAX_REQUESTS_PER_MINUTE: 60,    // Per IP
+  MAX_EVENTS_PER_REQUEST: 50,     // Per payload
+  MAX_PAYLOAD_SIZE: 50000,        // 50KB
+  RETENTION_DAYS: 90              // Auto-delete events older than this
+};
+
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
@@ -58,9 +66,24 @@ export default {
         return handleCfStats(request, env, origin);
       }
 
-      // Route: GET /migrate - Migrate KV data to D1 (one-time)
+      // Route: GET /migrate - Migrate KV data to D1 (protected, one-time)
       if (request.method === 'GET' && url.pathname === '/migrate') {
+        // Require secret key
+        const key = url.searchParams.get('key');
+        if (!env.ADMIN_KEY || key !== env.ADMIN_KEY) {
+          return new Response('Unauthorized', { status: 401 });
+        }
         return handleMigrate(request, env);
+      }
+
+      // Route: GET /health - Health check
+      if (request.method === 'GET' && url.pathname === '/health') {
+        return jsonResponse({
+          status: 'ok',
+          d1: !!env.DB,
+          kv: !!env.ANALYTICS_EVENTS,
+          timestamp: Date.now()
+        }, null);
       }
 
       return new Response('Not found', { status: 404 });
@@ -83,20 +106,44 @@ async function handleEvents(request, env, ctx, origin) {
     return new Response('Forbidden', { status: 403 });
   }
 
+  const clientIP = request.headers.get('CF-Connecting-IP') || 'unknown';
+
   try {
+    // Check payload size
+    const contentLength = parseInt(request.headers.get('Content-Length') || '0', 10);
+    if (contentLength > RATE_LIMIT.MAX_PAYLOAD_SIZE) {
+      return new Response('Payload too large', { status: 413 });
+    }
+
+    // Rate limiting (using D1)
+    if (env.DB) {
+      const isRateLimited = await checkRateLimit(env, clientIP);
+      if (isRateLimited) {
+        return new Response('Rate limit exceeded', { status: 429 });
+      }
+    }
+
     const payload = await request.json();
 
     if (!payload.v || !payload.events || !Array.isArray(payload.events)) {
       return new Response('Invalid payload', { status: 400 });
     }
 
+    // Limit events per request
+    const events = payload.events.slice(0, RATE_LIMIT.MAX_EVENTS_PER_REQUEST);
+
     const country = request.cf?.country || 'unknown';
     const now = Date.now();
 
     // Process events in background
-    ctx.waitUntil(processEvents(env, payload.events, country, now));
+    ctx.waitUntil(processEvents(env, events, country, now));
 
-    return new Response(JSON.stringify({ ok: true, received: payload.events.length }), {
+    // Periodically clean old events (1% chance per request)
+    if (Math.random() < 0.01) {
+      ctx.waitUntil(cleanupOldEvents(env));
+    }
+
+    return new Response(JSON.stringify({ ok: true, received: events.length }), {
       status: 200,
       headers: {
         'Content-Type': 'application/json',
@@ -1075,6 +1122,80 @@ async function handleMigrate(request, env) {
     stats.error = err.message;
     stats.success = false;
     return jsonResponse(stats, null, 500);
+  }
+}
+
+// ============================================
+// Rate Limiting & Cleanup
+// ============================================
+
+async function checkRateLimit(env, clientIP) {
+  if (!env.DB) return false;
+
+  const now = Date.now();
+  const windowStart = now - 60000; // 1 minute window
+  const ipHash = hashIP(clientIP);
+
+  try {
+    // Count recent requests from this IP
+    const result = await env.DB.prepare(`
+      SELECT COUNT(*) as count FROM events
+      WHERE timestamp > ? AND session_id LIKE ?
+    `).bind(windowStart, `%${ipHash}%`).first();
+
+    // Also store the check itself
+    await env.DB.prepare(`
+      INSERT INTO cache_meta (key, value, expires_at)
+      VALUES (?, ?, ?)
+      ON CONFLICT(key) DO UPDATE SET
+        value = CAST(CAST(value AS INTEGER) + 1 AS TEXT),
+        expires_at = excluded.expires_at
+    `).bind(`ratelimit:${ipHash}`, '1', now + 60000).run();
+
+    // Check rate limit from cache
+    const cached = await env.DB.prepare(
+      'SELECT value FROM cache_meta WHERE key = ? AND expires_at > ?'
+    ).bind(`ratelimit:${ipHash}`, now).first();
+
+    const requestCount = parseInt(cached?.value || '0', 10);
+    return requestCount > RATE_LIMIT.MAX_REQUESTS_PER_MINUTE;
+
+  } catch (err) {
+    console.error('Rate limit check error:', err);
+    return false; // Fail open
+  }
+}
+
+function hashIP(ip) {
+  // Simple hash for privacy
+  let hash = 0;
+  for (let i = 0; i < ip.length; i++) {
+    hash = ((hash << 5) - hash) + ip.charCodeAt(i);
+    hash = hash & hash;
+  }
+  return hash.toString(36);
+}
+
+async function cleanupOldEvents(env) {
+  if (!env.DB) return;
+
+  const cutoff = Date.now() - (RATE_LIMIT.RETENTION_DAYS * 24 * 60 * 60 * 1000);
+
+  try {
+    // Delete old raw events (keep aggregates forever)
+    const result = await env.DB.prepare(`
+      DELETE FROM events WHERE timestamp < ?
+    `).bind(cutoff).run();
+
+    // Also clean expired cache entries
+    await env.DB.prepare(`
+      DELETE FROM cache_meta WHERE expires_at < ?
+    `).bind(Date.now()).run();
+
+    console.log(`Cleanup: deleted ${result.meta?.changes || 0} old events`);
+
+  } catch (err) {
+    console.error('Cleanup error:', err);
   }
 }
 
