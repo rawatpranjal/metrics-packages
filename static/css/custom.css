@@ -8865,6 +8865,19 @@ mark.partial {
     overflow: hidden;
 }
 
+.explore-scroller-wrapper::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    background: linear-gradient(to right, transparent, var(--background));
+    pointer-events: none;
+    opacity: 0.8;
+    z-index: 5;
+}
+
 .explore-scroller {
     display: flex;
     gap: 1rem;
@@ -9066,6 +9079,22 @@ mark.partial {
 
 @keyframes spin {
     to { transform: rotate(360deg); }
+}
+
+/* Mobile scroll indicator */
+.scroll-indicator {
+    display: none;
+    text-align: center;
+    padding: 0.25rem 0;
+    color: var(--text-secondary);
+    font-size: 0.7rem;
+    opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+    .scroll-indicator {
+        display: block;
+    }
 }
 
 /* Hero for Explore Page */

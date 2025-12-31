@@ -13,7 +13,7 @@
     // Configuration
     const ROWS_PER_BATCH = 5;       // Load 5 rows at a time (faster first paint)
     const ITEMS_PER_ROW = 15;       // Show max 15 items per row
-    const MIN_CLUSTER_SIZE = 5;     // Hide clusters with < 5 items
+    const MIN_CLUSTER_SIZE = 3;     // Hide clusters with < 3 items (more granular)
 
     // Curation: Labels to deprioritize (generic/career-heavy)
     const DEPRIORITIZED_LABELS = [
@@ -316,6 +316,12 @@
         wrapper.appendChild(nextBtn);
 
         row.appendChild(wrapper);
+
+        // Mobile scroll indicator
+        const scrollIndicator = document.createElement('div');
+        scrollIndicator.className = 'scroll-indicator';
+        scrollIndicator.innerHTML = '← Swipe →';
+        row.appendChild(scrollIndicator);
 
         // Update nav button states on scroll
         scroller.addEventListener('scroll', () => updateNavButtons(scroller, prevBtn, nextBtn));
