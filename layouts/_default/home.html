@@ -23,6 +23,33 @@
         </div>
     </div>
 
+    <!-- Trending Now Carousel -->
+    {{ with .Site.Data.homepage_trending }}
+    {{ if .items }}
+    <section class="home-trending" data-aos="fade-up">
+        <div class="explore-row">
+            <h2 class="explore-row-title">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 8px; vertical-align: middle;">
+                    <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                    <polyline points="17 6 23 6 23 12"></polyline>
+                </svg>
+                Trending Now
+            </h2>
+            <div class="explore-scroller">
+                {{ range .items }}
+                <a href="{{ .url }}" target="_blank" rel="noopener" class="explore-card explore-card-trending">
+                    <div class="explore-card-content">
+                        <span class="explore-card-type">{{ .type }}</span>
+                        <h3>{{ .name }}</h3>
+                    </div>
+                </a>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+    {{ end }}
+    {{ end }}
+
     <!-- Getting Started CTA -->
     <div class="cta-banner" data-aos="fade-up">
         <div class="cta-content">

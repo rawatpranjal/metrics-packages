@@ -9103,6 +9103,48 @@ mark.partial {
 [data-theme="dark"] .template-badge.template-journey { background: #3d3a1a; color: #fff176; }
 [data-theme="dark"] .template-badge.template-era { background: #2a2520; color: #bcaaa4; }
 
+/* Homepage Trending Section */
+.home-trending {
+    margin: 2rem 0;
+    padding: 0 1rem;
+}
+
+.home-trending .explore-row-title {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.home-trending .explore-scroller {
+    gap: 1rem;
+    padding: 0.5rem 1rem 1rem;
+}
+
+.home-trending .explore-card {
+    flex: 0 0 220px;
+    min-width: 220px;
+    max-width: 220px;
+    height: 140px;
+}
+
+.home-trending .explore-card h3 {
+    font-size: 0.9rem;
+    line-height: 1.3;
+    margin: 0.5rem 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.explore-card-stat {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    margin-top: auto;
+}
+
 /* Hero card styling */
 .hero-card {
     border: 2px solid var(--accent);

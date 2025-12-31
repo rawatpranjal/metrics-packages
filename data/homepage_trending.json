@@ -1,0 +1,174 @@
+{
+  "updated": "2025-12-31T21:48:24.474100Z",
+  "count": 12,
+  "items": [
+    {
+      "name": "Causal Inference for the Brave and True",
+      "type": "package",
+      "category": "Standard Errors, Bootstrapping & Reporting",
+      "url": "https://matheusfacure.github.io/python-causality-handbook/",
+      "score": 0.6996,
+      "cold_start": false,
+      "signals": {
+        "clicks": 3,
+        "impressions": 3,
+        "dwell_ms": 0
+      },
+      "rank": 1
+    },
+    {
+      "name": "spaCy",
+      "type": "package",
+      "category": "Natural Language Processing for Economics",
+      "url": "https://github.com/explosion/spaCy",
+      "score": 0.5995,
+      "cold_start": false,
+      "signals": {
+        "clicks": 3,
+        "impressions": 0,
+        "dwell_ms": 0
+      },
+      "rank": 2
+    },
+    {
+      "name": "JD.com 2020 (MSOM-20)",
+      "type": "dataset",
+      "category": "E-Commerce",
+      "url": "https://connect.informs.org/msom/events/datadriven2020",
+      "score": 0.5995,
+      "cold_start": false,
+      "signals": {
+        "clicks": 3,
+        "impressions": 0,
+        "dwell_ms": 0
+      },
+      "rank": 3
+    },
+    {
+      "name": "BestBuy",
+      "type": "dataset",
+      "category": "E-Commerce",
+      "url": "https://www.kaggle.com/competitions/acm-sf-chapter-hackathon-big",
+      "score": 0.5995,
+      "cold_start": false,
+      "signals": {
+        "clicks": 3,
+        "impressions": 0,
+        "dwell_ms": 0
+      },
+      "rank": 4
+    },
+    {
+      "name": "Ax (Meta Adaptive Experimentation)",
+      "type": "package",
+      "category": "Adaptive Experimentation & Bandits",
+      "url": "https://ax.dev",
+      "score": 0.4373,
+      "cold_start": false,
+      "signals": {
+        "clicks": 2,
+        "impressions": 1,
+        "dwell_ms": 4188
+      },
+      "rank": 76
+    },
+    {
+      "name": "Google Research: Market Algorithms Team",
+      "type": "resource",
+      "category": "Auction Theory",
+      "url": "https://research.google/teams/market-algorithms/",
+      "score": 0.4326,
+      "cold_start": false,
+      "signals": {
+        "clicks": 2,
+        "impressions": 1,
+        "dwell_ms": 0
+      },
+      "rank": 82
+    },
+    {
+      "name": "Ananke",
+      "type": "package",
+      "category": "Causal Discovery & Graphical Models",
+      "url": "https://gitlab.com/causal/ananke",
+      "score": 0.3993,
+      "cold_start": false,
+      "signals": {
+        "clicks": 2,
+        "impressions": 0,
+        "dwell_ms": 0
+      },
+      "rank": 148
+    },
+    {
+      "name": "EconML",
+      "type": "package",
+      "category": "Double/Debiased Machine Learning (DML)",
+      "url": "https://github.com/py-why/EconML",
+      "score": 0.3993,
+      "cold_start": false,
+      "signals": {
+        "clicks": 2,
+        "impressions": 0,
+        "dwell_ms": 0
+      },
+      "rank": 149
+    },
+    {
+      "name": "LMSYS-Chat-1M",
+      "type": "dataset",
+      "category": "AI & LLM",
+      "url": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m",
+      "score": 0.3993,
+      "cold_start": false,
+      "signals": {
+        "clicks": 2,
+        "impressions": 0,
+        "dwell_ms": 0
+      },
+      "rank": 150
+    },
+    {
+      "name": "DiQAD",
+      "type": "dataset",
+      "category": "AI & LLM",
+      "url": "https://github.com/yukunZhao/Dataset_Dialogue_quality_evaluation",
+      "score": 0.3993,
+      "cold_start": false,
+      "signals": {
+        "clicks": 2,
+        "impressions": 0,
+        "dwell_ms": 0
+      },
+      "rank": 151
+    },
+    {
+      "name": "Instacart",
+      "type": "dataset",
+      "category": "Food & Delivery",
+      "url": "https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis",
+      "score": 0.3993,
+      "cold_start": false,
+      "signals": {
+        "clicks": 2,
+        "impressions": 0,
+        "dwell_ms": 0
+      },
+      "rank": 152
+    },
+    {
+      "name": "Open E-Commerce 1.0 (MIT)",
+      "type": "dataset",
+      "category": "E-Commerce",
+      "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YGAVK9",
+      "score": 0.3993,
+      "cold_start": false,
+      "signals": {
+        "clicks": 2,
+        "impressions": 0,
+        "dwell_ms": 0
+      },
+      "rank": 153
+    }
+  ]
+}

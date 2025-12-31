@@ -95,6 +95,7 @@ def load_all_content(data_dir):
                         'name': name.lower().strip(),
                         'original_name': name,
                         'type': config['type'],
+                        'url': item.get('url') or item.get('github_url') or item.get('docs_url') or '',
                         # Existing fields
                         'category': item.get('category', ''),
                         'tags': item.get('tags', []),
@@ -432,6 +433,7 @@ def main():
             'name': item.get('original_name', name),
             'type': item['type'],
             'category': item.get('category', ''),
+            'url': item.get('url', ''),
             'score': round(score_info['score'], 4),
             'cold_start': score_info['cold_start'],
             'signals': score_info['signals'],
@@ -514,6 +516,18 @@ def main():
     with open(output_path, 'w') as f:
         json.dump(output, f, indent=2)
     print(f"\n\nRankings saved to: {args.output}")
+
+    # Generate homepage trending data (top 12 items with real engagement)
+    homepage_items = [r for r in rankings if not r['cold_start']][:12]
+    homepage_data = {
+        "updated": output['updated'],
+        "count": len(homepage_items),
+        "items": homepage_items
+    }
+    homepage_path = data_dir / 'homepage_trending.json'
+    with open(homepage_path, 'w') as f:
+        json.dump(homepage_data, f, indent=2)
+    print(f"Homepage trending saved to: data/homepage_trending.json ({len(homepage_items)} items)")
 
 
 if __name__ == '__main__':
