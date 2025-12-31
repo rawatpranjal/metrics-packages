@@ -798,6 +798,88 @@ def main():
     print(f"  Hero types: talk={mmr_stats['talk']}, resource={mmr_stats['resource']}, "
           f"paper={mmr_stats['paper']}, package={mmr_stats['package']}, other={mmr_stats['other']}")
 
+    # Step 7: Quality filtering and reordering
+    print("\n" + "="*60)
+    print("STEP 7: Quality filtering and reordering")
+    print("="*60)
+
+    # Filter out empty clusters
+    non_empty = [c for c in final_clusters if c['item_count'] > 0]
+    print(f"  Removed {len(final_clusters) - len(non_empty)} empty clusters")
+
+    # Detect all-career clusters and mark/relabel them
+    technical_terms = ['causal', 'inference', 'ml', 'algorithm', 'model', 'bayesian',
+                       'regression', 'neural', 'optimization', 'statistical']
+    relabeled_count = 0
+    all_career_count = 0
+    for c in non_empty:
+        types = c.get('type_coverage', [])
+        is_all_career = types == ['career']
+        label_lower = c['label'].lower()
+
+        if is_all_career:
+            all_career_count += 1
+            c['_is_career_cluster'] = True
+            # Relabel mislabeled technical ones
+            is_technical = any(t in label_lower for t in technical_terms)
+            if is_technical:
+                old_label = c['label']
+                c['label'] = 'Finance & Investment Careers'
+                print(f"    Relabeled: '{old_label}' -> 'Finance & Investment Careers'")
+                relabeled_count += 1
+        else:
+            c['_is_career_cluster'] = 'career' in label_lower
+
+    if relabeled_count:
+        print(f"  Relabeled {relabeled_count} mislabeled clusters")
+    print(f"  Found {all_career_count} all-career clusters")
+
+    # Deprioritize homogeneous clusters (single content type)
+    homogeneous_count = 0
+    for c in non_empty:
+        types = c.get('type_coverage', [])
+        if len(types) == 1:
+            homogeneous_count += 1
+            # Mark as homogeneous for sorting
+            c['_homogeneous'] = True
+        else:
+            c['_homogeneous'] = False
+
+    print(f"  Found {homogeneous_count} homogeneous clusters (will be deprioritized)")
+
+    # Reorder: diverse technical first, homogeneous later, careers last
+    def cluster_sort_key(c):
+        label = c['label'].lower()
+        is_homogeneous = c.get('_homogeneous', False)
+        is_career = c.get('_is_career_cluster', False)
+
+        # Career clusters (either by label or by content) go to the very end
+        if is_career:
+            return (4, -c['item_count'])
+        # Homogeneous technical clusters go after diverse ones
+        if is_homogeneous:
+            if any(t in label for t in technical_terms):
+                return (2, -c['item_count'])  # homogeneous technical
+            return (3, -c['item_count'])  # homogeneous non-technical
+        # Diverse technical clusters go first
+        if any(t in label for t in technical_terms):
+            return (0, -c['item_count'])
+        # Diverse non-technical in the middle
+        return (1, -c['item_count'])
+
+    non_empty.sort(key=cluster_sort_key)
+    print(f"  Reordered clusters (technical first, careers last)")
+
+    # Clean up temporary fields
+    for c in non_empty:
+        if '_homogeneous' in c:
+            del c['_homogeneous']
+        if '_is_career_cluster' in c:
+            del c['_is_career_cluster']
+
+    final_clusters = non_empty
+    print(f"  Final cluster count: {len(final_clusters)}")
+
     # Save
     output = {
         "generated_at": data.get('generated_at', ''),
