@@ -7388,6 +7388,54 @@
     "event_format": "online"
   },
   {
+    "name": "Ming Tommy Tang (Chatomics)",
+    "description": "Director of Bioinformatics at AstraZeneca. Computational biologist sharing tutorials on single-cell RNAseq, scATACseq, genomics, and bioinformatics education. YouTube channel 'chatomics' with video tutorials. Author of 'From Cell Line to Command Line'. Published in Nature, Nature Communications, Cancer Cell.",
+    "category": "Blogs",
+    "url": "https://divingintogeneticsandgenomics.com/",
+    "type": "Personal Blog",
+    "location": "Online",
+    "dates": "Ongoing",
+    "tags": [
+      "Blogs",
+      "Personal Blog",
+      "bioinformatics",
+      "single-cell",
+      "genomics"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "bioinformatics",
+      "single-cell-rnaseq",
+      "scatacseq",
+      "genomics",
+      "computational-biology"
+    ],
+    "summary": "Ming Tommy Tang is a computational biologist and Director of Bioinformatics at AstraZeneca. His blog and YouTube channel 'chatomics' provide practical tutorials on single-cell analysis, genomics, R, Python, and reproducible research. Known as 'crazyhottommy' in the bioinformatics community.",
+    "use_cases": [
+      "Learn single-cell RNAseq analysis with Seurat",
+      "Understand scATACseq data processing",
+      "Follow bioinformatics career advice",
+      "Learn reproducible research practices"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How to analyze single-cell RNAseq data?",
+      "What is scATACseq and how to process it?",
+      "How to transition from wet lab to computational biology?",
+      "What are best practices for reproducible bioinformatics?",
+      "How to use Seurat for single-cell analysis?",
+      "What are common mistakes in bioinformatics?",
+      "How to build a bioinformatics career?"
+    ],
+    "event_format": "online"
+  },
+  {
     "name": "Microsoft Research ALICE (EconML/DoWhy)",
     "description": "Most widely-adopted causal ML tools. EconML for heterogeneous treatment effects, DoWhy for causal inference. Key researchers: Vasilis Syrgkanis, Amit Sharma.",
     "category": "Research Labs",
