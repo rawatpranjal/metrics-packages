@@ -25,6 +25,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 CLICK_WEIGHT = 3.0
 IMPRESSION_WEIGHT = 0.5
 DWELL_WEIGHT = 1.0  # per minute
+CITATION_WEIGHT = 0.3  # for papers
 
 
 def fetch_d1_data(query):
@@ -53,6 +54,7 @@ def fetch_d1_data(query):
 def load_all_content(data_dir):
     """Load all content items from data/*.json files."""
     items = []
+    seen_names = set()  # Track seen names to deduplicate
 
     # Content files and their structure
     content_files = {
@@ -83,10 +85,17 @@ def load_all_content(data_dir):
                     if not name:
                         continue
 
+                    # Deduplicate by normalized name
+                    normalized_name = name.lower().strip()
+                    if normalized_name in seen_names:
+                        continue
+                    seen_names.add(normalized_name)
+
                     items.append({
                         'name': name.lower().strip(),
                         'original_name': name,
                         'type': config['type'],
+                        # Existing fields
                         'category': item.get('category', ''),
                         'tags': item.get('tags', []),
                         'topic_tags': item.get('topic_tags', []),
@@ -94,6 +103,21 @@ def load_all_content(data_dir):
                         'audience': item.get('audience', []),
                         'description': item.get('description', ''),
                         'summary': item.get('summary', ''),
+                        # NEW fields
+                        'synthetic_questions': item.get('synthetic_questions', []),
+                        'use_cases': item.get('use_cases', []),
+                        'best_for': item.get('best_for', ''),
+                        'citations': item.get('citations', 0),
+                        'domain_tags': item.get('domain_tags', []),
+                        'key_insights': item.get('key_insights', []),
+                        'mentioned_tools': item.get('mentioned_tools', []),
+                        'language': item.get('language', ''),
+                        'content_format': item.get('content_format', ''),
+                        'speaker_expertise': item.get('speaker_expertise', ''),
+                        'company_context': item.get('company_context', ''),
+                        'experience_level': item.get('experience_level', ''),
+                        'data_modality': item.get('data_modality', ''),
+                        'related_packages': item.get('related_packages', []),
                     })
 
             print(f"  {filename}: {len([i for i in items if i['type'] == config['type']])} items")
@@ -153,40 +177,55 @@ def build_engagement_scores(clicks, impressions, dwell):
     return dict(scores), dict(item_signals)
 
 
-def build_content_features(items):
-    """Build TF-IDF feature matrix from content metadata."""
-    print("\nBuilding content feature vectors...")
+def safe_join(val):
+    """Safely join a field that may be a list, string, or None."""
+    if val is None:
+        return ''
+    if isinstance(val, str):
+        return val
+    if isinstance(val, list):
+        return ' '.join(str(v) for v in val if v)
+    return str(val)
 
-    # Combine text features for each item
+
+def build_content_features(items):
+    """Build TF-IDF feature matrix from ALL available metadata."""
+    print("\nBuilding content feature vectors (enhanced)...")
+
+    # Combine ALL text features for each item
     texts = []
     for item in items:
-        # Handle fields that may be lists or strings
-        tags = item.get('tags', [])
-        if isinstance(tags, str):
-            tags = [tags]
-        topic_tags = item.get('topic_tags', [])
-        if isinstance(topic_tags, str):
-            topic_tags = [topic_tags]
-        audience = item.get('audience', [])
-        if isinstance(audience, str):
-            audience = [audience]
-
         text_parts = [
-            item['name'],
+            # Original fields
+            item.get('name', ''),
             item.get('description', ''),
             item.get('summary', ''),
             item.get('category', ''),
-            ' '.join(tags) if tags else '',
-            ' '.join(topic_tags) if topic_tags else '',
+            safe_join(item.get('tags', [])),
+            safe_join(item.get('topic_tags', [])),
             item.get('difficulty', ''),
-            ' '.join(audience) if audience else '',
+            safe_join(item.get('audience', [])),
             item.get('type', ''),
+            # NEW fields
+            safe_join(item.get('synthetic_questions', [])),  # LLM search queries
+            safe_join(item.get('use_cases', [])),             # Applications
+            item.get('best_for', ''),                         # Target use
+            safe_join(item.get('domain_tags', [])),           # Dataset domains
+            safe_join(item.get('key_insights', [])),          # Talk takeaways
+            safe_join(item.get('mentioned_tools', [])),       # Tools in talks
+            item.get('language', ''),                         # Package language
+            item.get('content_format', ''),                   # Resource format
+            item.get('speaker_expertise', ''),                # Talk speaker
+            item.get('company_context', ''),                  # Career company
+            item.get('experience_level', ''),                 # Career level
+            item.get('data_modality', ''),                    # Dataset type
+            safe_join(item.get('related_packages', [])),      # Package relations
         ]
         texts.append(' '.join(str(p) for p in text_parts if p))
 
-    # Build TF-IDF matrix
+    # Build TF-IDF matrix with more features for richer matching
     vectorizer = TfidfVectorizer(
-        max_features=500,
+        max_features=1000,  # Increased for more metadata
         stop_words='english',
         ngram_range=(1, 2),
         min_df=2,
@@ -196,6 +235,7 @@ def build_content_features(items):
     try:
         feature_matrix = vectorizer.fit_transform(texts)
         print(f"  Feature matrix: {feature_matrix.shape}")
+        print(f"  Using {len([f for f in vectorizer.get_feature_names_out() if '_' in f])} bigrams")
         return feature_matrix, vectorizer
     except Exception as e:
         print(f"  Error building features: {e}")
@@ -290,6 +330,29 @@ def normalize_scores(scores):
     return {k: (v - min_val) / (max_val - min_val) for k, v in scores.items()}
 
 
+def apply_citations_boost(items, scores):
+    """Boost paper scores by log(citations)."""
+    # Find max citations for normalization
+    max_citations = max((item.get('citations', 0) or 0 for item in items), default=1)
+    if max_citations == 0:
+        max_citations = 1
+
+    boosted = 0
+    for item in items:
+        if item['type'] == 'paper':
+            citations = item.get('citations', 0) or 0
+            if citations > 0:
+                # Log-scale boost, normalized to ~0.3 for max citations
+                boost = (math.log(citations + 1) / math.log(max_citations + 1)) * CITATION_WEIGHT
+                name = item['name']
+                if name in scores:
+                    scores[name] = min(1.0, scores[name] + boost)
+                    boosted += 1
+
+    print(f"  Applied citations boost to {boosted} papers")
+    return scores
+
+
 def main():
     parser = argparse.ArgumentParser(description='Rank all content items')
     parser.add_argument('--output', '-o', default='data/global_rankings.json',
@@ -329,42 +392,55 @@ def main():
 
     # Step 6: Combine all scores
     print("\nCombining scores...")
-    all_scores = {}
+    combined_scores = {}
+    cold_start_flags = {}
+
     for item in items:
         name = item['name']
         if name in observed_scores:
-            all_scores[name] = {
-                'score': observed_scores[name],
-                'cold_start': False,
-                'signals': item_signals.get(name, {})
-            }
+            combined_scores[name] = observed_scores[name]
+            cold_start_flags[name] = False
         elif name in cold_scores:
-            all_scores[name] = {
-                'score': cold_scores[name],
-                'cold_start': True,
-                'signals': {}
-            }
+            combined_scores[name] = cold_scores[name]
+            cold_start_flags[name] = True
         else:
-            all_scores[name] = {
-                'score': 0.0,
-                'cold_start': True,
-                'signals': {}
-            }
+            combined_scores[name] = 0.0
+            cold_start_flags[name] = True
 
-    # Step 7: Build ranked output
+    # Step 7: Apply citations boost for papers
+    print("\nApplying citations boost...")
+    combined_scores = apply_citations_boost(items, combined_scores)
+
+    # Build final scores dict
+    all_scores = {}
+    for item in items:
+        name = item['name']
+        all_scores[name] = {
+            'score': combined_scores.get(name, 0.0),
+            'cold_start': cold_start_flags.get(name, True),
+            'signals': item_signals.get(name, {}),
+            'citations': item.get('citations', 0) if item['type'] == 'paper' else None,
+        }
+
+    # Step 8: Build ranked output
     rankings = []
     for item in items:
         name = item['name']
-        score_info = all_scores.get(name, {'score': 0, 'cold_start': True, 'signals': {}})
+        score_info = all_scores.get(name, {'score': 0, 'cold_start': True, 'signals': {}, 'citations': None})
 
-        rankings.append({
+        entry = {
             'name': item.get('original_name', name),
             'type': item['type'],
             'category': item.get('category', ''),
             'score': round(score_info['score'], 4),
             'cold_start': score_info['cold_start'],
             'signals': score_info['signals'],
-        })
+        }
+        # Add citations for papers
+        if item['type'] == 'paper' and item.get('citations'):
+            entry['citations'] = item['citations']
+
+        rankings.append(entry)
 
     # Sort by score descending
     rankings.sort(key=lambda x: x['score'], reverse=True)
@@ -380,7 +456,7 @@ def main():
     # Build output
     output = {
         'updated': datetime.utcnow().isoformat() + 'Z',
-        'algorithm': 'weighted_engagement_with_knn_coldstart',
+        'algorithm': 'enhanced_knn_with_citations_boost',
         'total_items': len(rankings),
         'observed_items': observed_count,
         'cold_start_items': cold_count,
@@ -388,7 +464,15 @@ def main():
             'clicks': CLICK_WEIGHT,
             'impressions': IMPRESSION_WEIGHT,
             'dwell_per_minute': DWELL_WEIGHT,
+            'citations': CITATION_WEIGHT,
         },
+        'metadata_fields': [
+            'name', 'description', 'summary', 'category', 'tags', 'topic_tags',
+            'difficulty', 'audience', 'type', 'synthetic_questions', 'use_cases',
+            'best_for', 'domain_tags', 'key_insights', 'mentioned_tools',
+            'language', 'content_format', 'speaker_expertise', 'company_context',
+            'experience_level', 'data_modality', 'related_packages'
+        ],
         'rankings': rankings
     }
 
