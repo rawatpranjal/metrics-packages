@@ -187,6 +187,7 @@ async function processEvents(env, events, country, receivedAt) {
   const batch = [];
   const aggregates = {
     pageviews: {},      // date -> count
+    dailyClicks: {},    // date -> count (for daily_stats)
     clicks: {},         // name:section -> {name, section, category}
     searches: {},       // query -> count
     pages: {},          // path -> count
@@ -239,6 +240,7 @@ async function processEvents(env, events, country, receivedAt) {
           }
           aggregates.clicks[key].count++;
         }
+        aggregates.dailyClicks[date] = (aggregates.dailyClicks[date] || 0) + 1;
         aggregates.hourly[hourBucket] = aggregates.hourly[hourBucket] || { pageviews: 0, clicks: 0 };
         aggregates.hourly[hourBucket].clicks++;
         break;
@@ -363,16 +365,23 @@ async function processEvents(env, events, country, receivedAt) {
 async function updateAggregates(env, aggregates, country) {
   const updates = [];
 
-  // Update daily stats
-  for (const [date, count] of Object.entries(aggregates.pageviews)) {
+  // Update daily stats (merge pageviews and clicks per date)
+  const allDates = new Set([
+    ...Object.keys(aggregates.pageviews),
+    ...Object.keys(aggregates.dailyClicks)
+  ]);
+  for (const date of allDates) {
+    const pageviews = aggregates.pageviews[date] || 0;
+    const clicks = aggregates.dailyClicks[date] || 0;
     updates.push(env.DB.prepare(`
-      INSERT INTO daily_stats (date, pageviews, unique_sessions, updated_at)
-      VALUES (?, ?, ?, datetime('now'))
+      INSERT INTO daily_stats (date, pageviews, unique_sessions, clicks, updated_at)
+      VALUES (?, ?, ?, ?, datetime('now'))
       ON CONFLICT(date) DO UPDATE SET
         pageviews = pageviews + excluded.pageviews,
         unique_sessions = unique_sessions + excluded.unique_sessions,
+        clicks = clicks + excluded.clicks,
         updated_at = datetime('now')
-    `).bind(date, count, aggregates.sessions.size));
+    `).bind(date, pageviews, aggregates.sessions.size, clicks));
   }
 
   // Update content clicks (with correct count)
