@@ -55,6 +55,20 @@
 
         <button type="submit" class="submit-button">Send Feedback</button>
     </form>
+
+    <!-- Stay Updated Section -->
+    <div id="subscribe" class="subscribe-section">
+        <div class="section-divider">
+            <span>Stay Updated</span>
+        </div>
+        <p class="subscribe-tagline">Get quarterly updates on new resources</p>
+        <form action="https://formspree.io/f/xnjqdebp" method="POST" class="subscribe-inline-form">
+            <div class="subscribe-input-group">
+                <input type="email" name="email" placeholder="your@email.com" required class="subscribe-input">
+                <button type="submit" class="subscribe-button">Subscribe</button>
+            </div>
+        </form>
+    </div>
 </div>
 
 <style>
@@ -156,6 +170,95 @@
 
 .submit-button:hover {
     background: var(--accent-hover);
+}
+
+/* Subscribe Section */
+.subscribe-section {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.section-divider::before,
+.section-divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.section-divider span {
+    padding: 0 1rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    font-size: 1.1rem;
+}
+
+.subscribe-tagline {
+    text-align: center;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+}
+
+.subscribe-inline-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.subscribe-input-group {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.subscribe-input {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.2s;
+    background: var(--bg-input);
+    color: var(--text-primary);
+}
+
+.subscribe-input:focus {
+    border-color: var(--accent);
+}
+
+.subscribe-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    background: var(--accent);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.subscribe-button:hover {
+    background: var(--accent-hover);
+}
+
+@media (max-width: 480px) {
+    .subscribe-input-group {
+        flex-direction: column;
+    }
+
+    .subscribe-button {
+        width: 100%;
+    }
 }
 </style>
 {{ end }}

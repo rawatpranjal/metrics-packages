@@ -1,79 +1,11 @@
 {{ define "main" }}
-<header class="hero hero-with-image hero-subscribe">
-    <h1 class="hero-title">Subscribe</h1>
-    <p class="hero-tagline">Get quarterly updates on new packages & resources</p>
-</header>
+<!-- Redirect to feedback page subscribe section -->
+<script>window.location.replace('/feedback/#subscribe');</script>
+<noscript>
+    <meta http-equiv="refresh" content="0;url=/feedback/#subscribe">
+</noscript>
 
-<div class="container" style="max-width: 600px; margin: 0 auto; padding: 2rem;">
-    <p style="text-align: center; color: var(--text-secondary); margin-bottom: 2rem;">
-        We never send mail, except on major updates, likely quarterly.
-    </p>
-
-    <form action="https://formspree.io/f/xnjqdebp" method="POST" class="subscribe-form">
-        <div class="subscribe-input-group">
-            <input
-                type="email"
-                name="email"
-                placeholder="your@email.com"
-                required
-                class="subscribe-input"
-            >
-            <button type="submit" class="subscribe-button">Subscribe</button>
-        </div>
-    </form>
+<div class="container" style="max-width: 600px; margin: 0 auto; padding: 4rem 2rem; text-align: center;">
+    <p>Redirecting to <a href="/feedback/#subscribe">Feedback & Subscribe</a>...</p>
 </div>
-
-<style>
-.subscribe-form {
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-.subscribe-input-group {
-    display: flex;
-    gap: 0.5rem;
-}
-
-.subscribe-input {
-    flex: 1;
-    padding: 0.75rem 1rem;
-    font-size: 1rem;
-    border: 1px solid var(--border-color);
-    border-radius: 6px;
-    outline: none;
-    transition: border-color 0.2s;
-    background: var(--bg-input);
-    color: var(--text-primary);
-}
-
-.subscribe-input:focus {
-    border-color: var(--accent);
-}
-
-.subscribe-button {
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    font-weight: 500;
-    color: white;
-    background: var(--accent);
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background 0.2s;
-}
-
-.subscribe-button:hover {
-    background: var(--accent-hover);
-}
-
-@media (max-width: 480px) {
-    .subscribe-input-group {
-        flex-direction: column;
-    }
-
-    .subscribe-button {
-        width: 100%;
-    }
-}
-</style>
 {{ end }}
