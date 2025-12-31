@@ -31,6 +31,7 @@
     ];
 
     let clusterData = null;
+    let narrativeCarousels = null;
     let allItemsData = null;
     let itemLookup = {};
     let shuffledClusters = [];
@@ -48,7 +49,8 @@
         try {
             // Fetch data files in parallel for speed
             const urls = window.DISCOVER_DATA_URLS;
-            const [clustersRes, packagesRes, resourcesRes, datasetsRes, talksRes, careerRes, communityRes, booksRes, papersRes] = await Promise.all([
+            const [narrativeRes, clustersRes, packagesRes, resourcesRes, datasetsRes, talksRes, careerRes, communityRes, booksRes, papersRes] = await Promise.all([
+                fetch(urls.narrativeCarousels).catch(() => null),
                 fetch(urls.clusters),
                 fetch(urls.packages),
                 fetch(urls.resources),
@@ -59,6 +61,12 @@
                 fetch(urls.books),
                 fetch(urls.papers)
             ]);
+
+            // Load narrative carousels (optional - may not exist)
+            if (narrativeRes && narrativeRes.ok) {
+                narrativeCarousels = await narrativeRes.json();
+                console.log(`[Discover] Loaded ${narrativeCarousels.carousels?.length || 0} narrative carousels`);
+            }
 
             clusterData = await clustersRes.json();
             allItemsData = {
@@ -214,17 +222,106 @@
     }
 
     function shuffleAndLoad() {
-        // Filter clusters by min size
-        const filtered = clusterData.clusters.filter(c => c.item_count >= MIN_CLUSTER_SIZE);
-
-        // Apply curated sorting (scoring + interleaving)
-        shuffledClusters = curatedSort(filtered);
-
-        // Reset and reload
         const container = document.getElementById('explore-rows');
         container.innerHTML = '';
         loadedRowCount = 0;
+
+        // First: Render narrative carousels (curated content)
+        if (narrativeCarousels && narrativeCarousels.carousels) {
+            const shuffledNarrative = shuffleArray(narrativeCarousels.carousels);
+            shuffledNarrative.forEach(carousel => {
+                const rowEl = createNarrativeRow(carousel);
+                if (rowEl) container.appendChild(rowEl);
+            });
+        }
+
+        // Then: Filter and sort semantic clusters
+        const filtered = clusterData.clusters.filter(c => c.item_count >= MIN_CLUSTER_SIZE);
+        shuffledClusters = curatedSort(filtered);
+
+        // Load semantic cluster rows
         loadMoreRows();
+    }
+
+    function createNarrativeRow(carousel) {
+        const row = document.createElement('div');
+        row.className = 'explore-row narrative-row';
+        row.dataset.carouselId = carousel.id;
+        row.dataset.template = carousel.template;
+
+        // Header with template badge
+        const header = document.createElement('div');
+        header.className = 'explore-row-header';
+        const templateBadge = carousel.template ? `<span class="template-badge template-${carousel.template}">${carousel.template}</span>` : '';
+        header.innerHTML = `
+            <h2 class="explore-row-title">${escapeHtml(carousel.name)}</h2>
+            ${templateBadge}
+        `;
+        row.appendChild(header);
+
+        // Description if available
+        if (carousel.description) {
+            const desc = document.createElement('p');
+            desc.className = 'explore-row-description';
+            desc.textContent = carousel.description;
+            row.appendChild(desc);
+        }
+
+        // Scroller wrapper
+        const wrapper = document.createElement('div');
+        wrapper.className = 'explore-scroller-wrapper';
+
+        const scroller = document.createElement('div');
+        scroller.className = 'explore-scroller';
+
+        // Add hero first (if exists)
+        if (carousel.hero) {
+            const heroItem = itemLookup[carousel.hero.id] || carousel.hero;
+            if (heroItem) {
+                const card = createExploreCard({...heroItem, _type: carousel.hero.type}, false, true);
+                scroller.appendChild(card);
+            }
+        }
+
+        // Add supporting items
+        if (carousel.items) {
+            carousel.items.forEach(item => {
+                const fullItem = itemLookup[item.id] || item;
+                if (fullItem) {
+                    const card = createExploreCard({...fullItem, _type: item.type}, false, false);
+                    scroller.appendChild(card);
+                }
+            });
+        }
+
+        wrapper.appendChild(scroller);
+
+        // Navigation arrows
+        const prevBtn = document.createElement('button');
+        prevBtn.className = 'scroller-nav prev';
+        prevBtn.innerHTML = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>';
+        prevBtn.addEventListener('click', () => scrollRow(scroller, -1));
+
+        const nextBtn = document.createElement('button');
+        nextBtn.className = 'scroller-nav next';
+        nextBtn.innerHTML = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>';
+        nextBtn.addEventListener('click', () => scrollRow(scroller, 1));
+
+        wrapper.appendChild(prevBtn);
+        wrapper.appendChild(nextBtn);
+        row.appendChild(wrapper);
+
+        // Mobile scroll indicator
+        const scrollIndicator = document.createElement('div');
+        scrollIndicator.className = 'scroll-indicator';
+        scrollIndicator.innerHTML = '← Swipe →';
+        row.appendChild(scrollIndicator);
+
+        // Update nav button states on scroll
+        scroller.addEventListener('scroll', () => updateNavButtons(scroller, prevBtn, nextBtn));
+        setTimeout(() => updateNavButtons(scroller, prevBtn, nextBtn), 0);
+
+        return row;
     }
 
     function loadMoreRows() {
@@ -351,9 +448,9 @@
         return items;
     }
 
-    function createExploreCard(item, hideTypeBadge = false) {
+    function createExploreCard(item, hideTypeBadge = false, isHero = false) {
         const card = document.createElement('div');
-        card.className = 'explore-card';
+        card.className = 'explore-card' + (isHero ? ' hero-card' : '');
 
         const type = item._type || 'resource';
         const name = item.name || item.title || 'Untitled';

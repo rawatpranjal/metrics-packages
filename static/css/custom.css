@@ -9057,6 +9057,67 @@ mark.partial {
     border-radius: 8px;
 }
 
+/* Narrative Carousels */
+.narrative-row {
+    border-left: 3px solid var(--accent);
+    padding-left: 0.5rem;
+}
+
+.explore-row-description {
+    margin: 0 2rem 0.75rem;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    max-width: 600px;
+}
+
+.template-badge {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-weight: 600;
+    margin-left: 0.75rem;
+}
+
+.template-badge.template-person { background: #e8f5e9; color: #2e7d32; }
+.template-badge.template-method { background: #e3f2fd; color: #1565c0; }
+.template-badge.template-company { background: #fff3e0; color: #e65100; }
+.template-badge.template-problem { background: #fce4ec; color: #c2185b; }
+.template-badge.template-tool { background: #f3e5f5; color: #7b1fa2; }
+.template-badge.template-dataset { background: #e0f7fa; color: #00838f; }
+.template-badge.template-journey { background: #fffde7; color: #f9a825; }
+.template-badge.template-era { background: #efebe9; color: #5d4037; }
+
+[data-theme="dark"] .template-badge.template-person { background: #1b3a2a; color: #81c784; }
+[data-theme="dark"] .template-badge.template-method { background: #1a3a5c; color: #64b5f6; }
+[data-theme="dark"] .template-badge.template-company { background: #3d2a1a; color: #ffb74d; }
+[data-theme="dark"] .template-badge.template-problem { background: #3d1a2a; color: #f48fb1; }
+[data-theme="dark"] .template-badge.template-tool { background: #3d2a4d; color: #ce93d8; }
+[data-theme="dark"] .template-badge.template-dataset { background: #1a3a3d; color: #4dd0e1; }
+[data-theme="dark"] .template-badge.template-journey { background: #3d3a1a; color: #fff176; }
+[data-theme="dark"] .template-badge.template-era { background: #2a2520; color: #bcaaa4; }
+
+/* Hero card styling */
+.hero-card {
+    border: 2px solid var(--accent);
+    min-width: 280px;
+}
+
+.hero-card::before {
+    content: '★ FEATURED';
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 0.6rem;
+    font-weight: 700;
+    background: var(--accent);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    letter-spacing: 0.5px;
+}
+
 /* Loading State */
 .explore-loader {
     display: none;

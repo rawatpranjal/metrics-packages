@@ -1,0 +1,201 @@
+{
+  "version": "1.0",
+  "generated_at": "2024-12-31",
+  "description": "Narrative-driven carousels for Netflix-style discovery",
+  "carousels": [
+    {
+      "id": "susan-athey-universe",
+      "template": "person",
+      "name": "Susan Athey's Universe",
+      "description": "The Stanford economist who bridged causal inference and machine learning",
+      "hero": {
+        "id": "talk-susan-athey-applied-researchers-causation",
+        "type": "talk",
+        "title": "Susan Athey: Applied Researchers & Causation",
+        "url": "https://www.youtube.com/watch?v=yKs6msnw9m8"
+      },
+      "items": [
+        {"id": "package-econml", "type": "package", "title": "EconML", "url": "https://github.com/py-why/EconML"},
+        {"id": "paper-generalized-random-forests", "type": "paper", "title": "Generalized Random Forests"},
+        {"id": "talk-susan-athey-economics-ai", "type": "talk", "title": "Economics & AI"},
+        {"id": "resource-mark-white-s-practical-causal-forest-tutorial", "type": "resource", "title": "Practical Causal Forest Tutorial"},
+        {"id": "package-dowhy", "type": "package", "title": "DoWhy"}
+      ],
+      "seed": {"type": "person", "name": "Susan Athey", "company": "Stanford GSB"}
+    },
+    {
+      "id": "bus-engine-econometrics",
+      "template": "method",
+      "name": "The Bus Engine That Changed Econometrics",
+      "description": "How Harold Zurcher's bus maintenance decisions spawned a revolution in structural estimation",
+      "hero": {
+        "id": "paper-optimal-replacement-of-gmc-bus-engines-an-empirical-model-of-harold-zurcher",
+        "type": "paper",
+        "title": "Optimal Replacement of GMC Bus Engines: An Empirical Model of Harold Zurcher",
+        "citations": 4500
+      },
+      "items": [
+        {"id": "paper-conditional-choice-probabilities", "type": "paper", "title": "Conditional Choice Probabilities (Hotz-Miller)"},
+        {"id": "resource-mit-ocw-dynamic-programming", "type": "resource", "title": "MIT OCW: Dynamic Programming"},
+        {"id": "paper-dynamic-discrete-choice-models-methods", "type": "paper", "title": "Dynamic Discrete Choice Methods Survey"},
+        {"id": "package-ddcpy", "type": "package", "title": "DDCPy"}
+      ],
+      "seed": {"type": "method", "paper": "Rust 1987", "field": "structural-estimation"}
+    },
+    {
+      "id": "uber-pricing",
+      "template": "company",
+      "name": "How Uber Does Pricing",
+      "description": "The economics behind surge pricing, matching, and marketplace design at scale",
+      "hero": {
+        "id": "talk-john-list-scale-uber-the-voltage-effect",
+        "type": "talk",
+        "title": "John List: Scale, Uber & The Voltage Effect",
+        "url": "https://www.youtube.com/watch?v=..."
+      },
+      "items": [
+        {"id": "talk-john-list-market-design-in-ride-sharing", "type": "talk", "title": "Market Design in Ride-Sharing"},
+        {"id": "talk-keith-chen-your-brain-on-uber", "type": "talk", "title": "Your Brain on Uber"},
+        {"id": "paper-uber-surge-pricing", "type": "paper", "title": "The Effects of Uber's Surge Pricing"},
+        {"id": "paper-matching-and-pricing-ride-hailing", "type": "paper", "title": "Matching and Pricing in Ride-Hailing"}
+      ],
+      "seed": {"type": "company", "name": "Uber", "theme": "pricing"}
+    },
+    {
+      "id": "peeking-problem",
+      "template": "problem",
+      "name": "The Peeking Problem",
+      "description": "When to stop your A/B test—and why checking early can ruin your results",
+      "hero": {
+        "id": "resource-peeking-at-ab-tests",
+        "type": "resource",
+        "title": "Peeking at A/B Tests: Why It Matters"
+      },
+      "items": [
+        {"id": "paper-always-valid-inference", "type": "paper", "title": "Always Valid Inference"},
+        {"id": "paper-sequential-testing", "type": "paper", "title": "Sequential Testing for Experiments"},
+        {"id": "package-savvi", "type": "package", "title": "Savvi: Sequential A/B Testing"},
+        {"id": "resource-spotify-sequential-testing", "type": "resource", "title": "Spotify: Sequential Testing at Scale"}
+      ],
+      "seed": {"type": "problem", "name": "peeking-problem", "domain": "experimentation"}
+    },
+    {
+      "id": "econml-ecosystem",
+      "template": "tool",
+      "name": "The EconML Ecosystem",
+      "description": "Production-ready causal machine learning from Microsoft Research",
+      "hero": {
+        "id": "package-econml",
+        "type": "package",
+        "title": "EconML",
+        "url": "https://github.com/py-why/EconML",
+        "stars": 3800
+      },
+      "items": [
+        {"id": "package-dowhy", "type": "package", "title": "DoWhy"},
+        {"id": "package-causalml", "type": "package", "title": "CausalML"},
+        {"id": "paper-generalized-random-forests", "type": "paper", "title": "Generalized Random Forests (Athey)"},
+        {"id": "resource-causal-inference-for-the-brave-and-true", "type": "resource", "title": "Causal Inference for the Brave and True"},
+        {"id": "talk-susan-athey-applied-researchers-causation", "type": "talk", "title": "Susan Athey on Causal ML"}
+      ],
+      "seed": {"type": "tool", "name": "EconML", "ecosystem": "causal-ml"}
+    },
+    {
+      "id": "netflix-prize",
+      "template": "dataset",
+      "name": "The Dataset That Launched 1000 Papers",
+      "description": "How the Netflix Prize competition transformed recommender systems",
+      "hero": {
+        "id": "dataset-netflix-prize",
+        "type": "dataset",
+        "title": "Netflix Prize",
+        "size": "100M+ ratings"
+      },
+      "items": [
+        {"id": "paper-matrix-factorization-techniques", "type": "paper", "title": "Matrix Factorization Techniques for Recommender Systems"},
+        {"id": "paper-netflix-prize-winners", "type": "paper", "title": "The BigChaos Solution to the Netflix Grand Prize"},
+        {"id": "package-surprise", "type": "package", "title": "Surprise: A Python scikit for Recommender Systems"},
+        {"id": "dataset-netflix-viewing-behavior", "type": "dataset", "title": "Netflix Viewing Behavior"}
+      ],
+      "seed": {"type": "dataset", "name": "Netflix Prize", "domain": "recommendations"}
+    },
+    {
+      "id": "ols-to-causal-forests",
+      "template": "journey",
+      "name": "From OLS to Causal Forests",
+      "description": "A learning journey from basic regression to cutting-edge causal ML",
+      "hero": {
+        "id": "resource-causal-inference-for-the-brave-and-true",
+        "type": "resource",
+        "title": "Causal Inference for the Brave and True",
+        "url": "https://matheusfacure.github.io/python-causality-handbook/"
+      },
+      "items": [
+        {"id": "resource-statsmodels-ols-tutorial", "type": "resource", "title": "Statsmodels OLS Tutorial"},
+        {"id": "paper-mostly-harmless-econometrics", "type": "paper", "title": "Mostly Harmless Econometrics"},
+        {"id": "paper-difference-in-differences", "type": "paper", "title": "Difference-in-Differences"},
+        {"id": "paper-generalized-random-forests", "type": "paper", "title": "Generalized Random Forests"},
+        {"id": "package-econml", "type": "package", "title": "EconML"}
+      ],
+      "seed": {"type": "journey", "start": "OLS", "end": "Causal Forests"}
+    },
+    {
+      "id": "credibility-revolution",
+      "template": "era",
+      "name": "The Credibility Revolution",
+      "description": "How natural experiments and clean identification changed economics",
+      "hero": {
+        "id": "book-mostly-harmless-econometrics",
+        "type": "book",
+        "title": "Mostly Harmless Econometrics",
+        "authors": "Angrist & Pischke"
+      },
+      "items": [
+        {"id": "paper-minimum-wages-and-employment-card-krueger", "type": "paper", "title": "Minimum Wages and Employment (Card & Krueger)"},
+        {"id": "paper-instrumental-variables-angrist-krueger", "type": "paper", "title": "Instrumental Variables (Angrist & Krueger)"},
+        {"id": "resource-andrew-heiss-causal-inference", "type": "resource", "title": "Andrew Heiss: Causal Inference Course"},
+        {"id": "talk-angrist-nobel-lecture", "type": "talk", "title": "Joshua Angrist Nobel Lecture"}
+      ],
+      "seed": {"type": "era", "name": "Credibility Revolution", "years": "1990-2015"}
+    },
+    {
+      "id": "cold-start-problem",
+      "template": "problem",
+      "name": "The Cold Start Problem",
+      "description": "Why new marketplaces struggle—and how to bootstrap both sides",
+      "hero": {
+        "id": "book-the-cold-start-problem",
+        "type": "book",
+        "title": "The Cold Start Problem",
+        "authors": "Andrew Chen"
+      },
+      "items": [
+        {"id": "paper-two-sided-markets-rochet-tirole", "type": "paper", "title": "Two-Sided Markets (Rochet & Tirole)"},
+        {"id": "paper-network-effects", "type": "paper", "title": "Network Effects and Externalities"},
+        {"id": "resource-platform-economics", "type": "resource", "title": "Platform Economics Guide"},
+        {"id": "talk-marketplace-design", "type": "talk", "title": "Marketplace Design Talk"}
+      ],
+      "seed": {"type": "problem", "name": "cold-start", "domain": "marketplaces"}
+    },
+    {
+      "id": "hal-varian-playbook",
+      "template": "person",
+      "name": "Hal Varian's Playbook",
+      "description": "The man who built Google's money machine and wrote the book on information economics",
+      "hero": {
+        "id": "paper-position-auctions",
+        "type": "paper",
+        "title": "Position Auctions",
+        "authors": "Hal Varian",
+        "year": 2007
+      },
+      "items": [
+        {"id": "book-information-rules", "type": "book", "title": "Information Rules (Shapiro & Varian)"},
+        {"id": "paper-predicting-the-present-google-trends", "type": "paper", "title": "Predicting the Present with Google Trends"},
+        {"id": "paper-generalized-second-price-auctions", "type": "paper", "title": "Generalized Second Price Auctions"},
+        {"id": "resource-ad-auction-tutorial", "type": "resource", "title": "How Ad Auctions Work"}
+      ],
+      "seed": {"type": "person", "name": "Hal Varian", "company": "Google"}
+    }
+  ]
+}
