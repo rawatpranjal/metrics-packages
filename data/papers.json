@@ -30092,7 +30092,38 @@
                 "Mechanism Design & Auctions",
                 "Market Design"
               ],
-              "citations": 6
+              "citations": 6,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Mechanism Design & Auctions",
+                "Market Design"
+              ],
+              "summary": "This paper studies optimal adoption policies on matching platforms, specifically using data from Food Rescue U.S. It demonstrates how commitment mechanisms can impact growth and engagement in volunteer crowdsourcing platforms.",
+              "audience": [
+                "Mid-DS",
+                "Senior-DS"
+              ],
+              "synthetic_questions": [
+                "What are optimal adoption policies for matching platforms?",
+                "How do commitment mechanisms affect growth in volunteer platforms?",
+                "What is the impact of engagement strategies on crowdsourcing?",
+                "How can Food Rescue U.S. data inform platform design?",
+                "What are the implications of commitment on volunteer platforms?",
+                "How to measure growth versus engagement in crowdsourcing?"
+              ],
+              "use_cases": [
+                "Designing policies for volunteer platforms",
+                "Improving engagement strategies in crowdsourcing",
+                "Analyzing the impact of commitment mechanisms on platform growth"
+              ],
+              "key_findings": "Commitment mechanisms significantly influence the balance between growth and engagement.",
+              "research_questions": [
+                "What are the implications of commitment mechanisms on growth and engagement in volunteer crowdsourcing platforms?"
+              ],
+              "datasets_used": [
+                "Food Rescue U.S."
+              ]
             },
             {
               "title": "Course Allocation by Proxy Auction",
@@ -30104,7 +30135,36 @@
                 "Mechanism Design & Auctions",
                 "Market Design"
               ],
-              "citations": 12
+              "citations": 12,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Mechanism Design & Auctions",
+                "Market Design"
+              ],
+              "summary": "This paper addresses the problem of strategic gaming in course allocation by proposing a proxy bidding system. Its main contribution is the insight that automated assignment systems can be improved through this mechanism.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to counter strategic gaming in course allocation",
+                "what is proxy bidding in auctions",
+                "how to implement automated assignment systems",
+                "what are the benefits of proxy auctions",
+                "how does mechanism design apply to course allocation",
+                "what insights does this paper provide for market design"
+              ],
+              "use_cases": [
+                "Implementing proxy bidding in educational institutions",
+                "Designing automated systems for resource allocation",
+                "Improving auction mechanisms in market design"
+              ],
+              "key_findings": "This paper proposes a proxy bidding system that counters strategic gaming in course allocation.",
+              "research_questions": [
+                "How can proxy bidding improve course allocation systems?"
+              ]
             }
           ]
         },
@@ -30123,7 +30183,34 @@
                 "Mechanism Design & Auctions",
                 "Information Design & Signaling"
               ],
-              "citations": 4318
+              "citations": 4318,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Mechanism Design & Auctions",
+                "Information Design & Signaling"
+              ],
+              "summary": "This paper addresses the problem of strategic communication in situations where interests are misaligned. Its main contribution is the introduction of a foundational cheap talk model that demonstrates how partition equilibria can arise under these conditions.",
+              "audience": [
+                "Early-PhD",
+                "Curious-browser"
+              ],
+              "synthetic_questions": [
+                "What is the cheap talk model?",
+                "How does interest misalignment affect communication?",
+                "What are partition equilibria?",
+                "What are the implications of strategic information transmission?",
+                "How can mechanism design be applied to signaling?",
+                "What are the foundational theories in information design?"
+              ],
+              "use_cases": [
+                "Analyzing communication strategies in economic negotiations",
+                "Designing mechanisms for auctions with asymmetric information"
+              ],
+              "key_findings": "Partition equilibria arise with interest misalignment.",
+              "research_questions": [
+                "What is the impact of interest misalignment on information transmission?"
+              ]
             },
             {
               "title": "Bayesian Persuasion",
@@ -30135,7 +30222,37 @@
                 "Mechanism Design & Auctions",
                 "Information Design & Signaling"
               ],
-              "citations": 1740
+              "citations": 1740,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "bayesian-inference"
+              ],
+              "topic_tags": [
+                "mechanism-design",
+                "information-design"
+              ],
+              "summary": "This paper introduces an information design framework that characterizes sender-optimal signals through the process of concavification. It significantly transforms the field of information design in economics.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What is Bayesian persuasion?",
+                "How does information design work?",
+                "What are sender-optimal signals?",
+                "What is concavification in economics?",
+                "How has Bayesian persuasion transformed the field?",
+                "What are the applications of information design?"
+              ],
+              "use_cases": [
+                "Designing optimal communication strategies in economics",
+                "Analyzing strategic information disclosure in auctions"
+              ],
+              "key_findings": "This paper transformed the field of information design.",
+              "research_questions": [
+                "What is the optimal way to persuade using information?"
+              ]
             },
             {
               "title": "Competition in Persuasion",
@@ -30147,7 +30264,38 @@
                 "Mechanism Design & Auctions",
                 "Information Design & Signaling"
               ],
-              "citations": 76
+              "citations": 76,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "bayesian-inference"
+              ],
+              "topic_tags": [
+                "mechanism-design",
+                "information-design"
+              ],
+              "summary": "This paper extends the concept of Bayesian persuasion to multiple senders, demonstrating that competition among senders leads to increased information revelation. The main contribution is the exploration of how competitive dynamics affect the effectiveness of persuasion.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What is Bayesian persuasion?",
+                "How does competition affect information revelation?",
+                "What are the implications of multiple senders in persuasion?",
+                "How to analyze competition in persuasion?",
+                "What is the role of information design in economics?",
+                "How does mechanism design apply to persuasion?"
+              ],
+              "use_cases": [
+                "Analyzing marketing strategies in competitive environments",
+                "Designing communication strategies for policy makers",
+                "Studying information dissemination in social networks"
+              ],
+              "key_findings": "Competition increases information revelation.",
+              "research_questions": [
+                "How does competition among senders influence the effectiveness of persuasion?"
+              ]
             },
             {
               "title": "Information Design: A Unified Perspective",
@@ -30159,7 +30307,39 @@
                 "Mechanism Design & Auctions",
                 "Information Design & Signaling"
               ],
-              "citations": 451
+              "citations": 451,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "bayesian-inference",
+                "mechanism-design"
+              ],
+              "topic_tags": [
+                "information-design",
+                "mechanism-design",
+                "bayesian-persuasion"
+              ],
+              "summary": "This paper provides a comprehensive survey that connects the concepts of Bayesian persuasion, mechanism design, and correlated equilibrium. It aims to unify these areas to enhance understanding and application in economic contexts.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What is Bayesian persuasion?",
+                "How does mechanism design relate to information design?",
+                "What is correlated equilibrium?",
+                "How can information design be applied in auctions?",
+                "What are the implications of Bayesian persuasion in economics?",
+                "How to connect mechanism design with signaling?"
+              ],
+              "use_cases": [
+                "Designing auction mechanisms",
+                "Improving communication strategies in economic models",
+                "Analyzing strategic interactions in games"
+              ],
+              "research_questions": [
+                "How do Bayesian persuasion and mechanism design interact?"
+              ]
             },
             {
               "title": "First-Price Auctions with General Information Structures: Implications for Bidding and Revenue",
@@ -30171,7 +30351,36 @@
                 "Mechanism Design & Auctions",
                 "Information Design & Signaling"
               ],
-              "citations": 119
+              "citations": 119,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Mechanism Design & Auctions",
+                "Information Design & Signaling"
+              ],
+              "summary": "This paper characterizes equilibrium bidding in first-price auctions across various information structures. It derives robust revenue bounds that are applicable regardless of the information available to bidders.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What are the implications of information structures in first-price auctions?",
+                "How does bidder information affect auction revenue?",
+                "What is equilibrium bidding in first-price auctions?",
+                "What are robust revenue bounds in auction theory?",
+                "How to analyze first-price auctions with different information structures?",
+                "What are the key findings in auction mechanism design?"
+              ],
+              "use_cases": [
+                "Analyzing bidding strategies in auctions",
+                "Evaluating revenue outcomes in auction formats",
+                "Designing auction mechanisms for varying information levels"
+              ],
+              "key_findings": "This paper derives robust revenue bounds regardless of bidder information.",
+              "research_questions": [
+                "What are the implications of general information structures on bidding in first-price auctions?"
+              ]
             },
             {
               "title": "Optimal Information Disclosure in Classic Auctions",
@@ -30183,7 +30392,36 @@
                 "Mechanism Design & Auctions",
                 "Information Design & Signaling"
               ],
-              "citations": 23
+              "citations": 23,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Mechanism Design & Auctions",
+                "Information Design & Signaling"
+              ],
+              "summary": "This paper characterizes revenue-maximizing information disclosure strategies in classic auctions. It highlights the trade-off between revealing low values to increase competition and pooling high values, providing insights into conflation strategies used in digital advertising.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What is optimal information disclosure in auctions?",
+                "How does information pooling affect auction revenue?",
+                "What are conflation strategies in digital advertising?",
+                "How to maximize revenue in classic auctions?",
+                "What are the implications of information design in auctions?",
+                "How does competition influence auction outcomes?"
+              ],
+              "use_cases": [
+                "Designing auction mechanisms for digital platforms",
+                "Developing strategies for information disclosure in competitive bidding",
+                "Analyzing the impact of information on auction revenue"
+              ],
+              "key_findings": "This paper provides a rationale for conflation strategies in digital advertising.",
+              "research_questions": [
+                "What is the optimal strategy for information disclosure in classic auctions?"
+              ]
             }
           ]
         },
@@ -30202,7 +30440,36 @@
                 "Mechanism Design & Auctions",
                 "Sponsored Search & Display Ad Auctions"
               ],
-              "citations": 1598
+              "citations": 1598,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Mechanism Design & Auctions",
+                "Sponsored Search & Display Ad Auctions"
+              ],
+              "summary": "This paper provides the first rigorous analysis of the Generalized Second-Price (GSP) auction mechanism used by major search engines like Google and Yahoo. It proves that the GSP lacks a dominant strategy but identifies a 'locally envy-free' equilibrium, contributing to the understanding of auction design in digital advertising.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What is the GSP auction mechanism?",
+                "How does GSP compare to Vickrey auctions?",
+                "What are the implications of locally envy-free equilibria?",
+                "How do search engines monetize keywords?",
+                "What are the strategic behaviors in keyword auctions?",
+                "How does auction design affect advertiser outcomes?"
+              ],
+              "use_cases": [
+                "Analyzing auction strategies for online advertising",
+                "Designing keyword bidding strategies for advertisers",
+                "Evaluating the efficiency of digital advertising auctions"
+              ],
+              "key_findings": "GSP lacks a dominant strategy but has a locally envy-free equilibrium.",
+              "research_questions": [
+                "What are the strategic implications of the GSP auction mechanism?"
+              ]
             },
             {
               "title": "Position Auctions",
@@ -30214,7 +30481,40 @@
                 "Mechanism Design & Auctions",
                 "Sponsored Search & Display Ad Auctions"
               ],
-              "citations": 745
+              "citations": 745,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Mechanism Design & Auctions",
+                "Sponsored Search & Display Ad Auctions"
+              ],
+              "summary": "This paper analyzes the independent equilibrium of search auctions and introduces a quality-weighted ranking system that combines bids with click-through rates (CTR). It validates the theoretical framework using data from Google.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What are search auctions?",
+                "How does quality-weighted ranking work?",
+                "What is the impact of CTR on auction outcomes?",
+                "How can Google data validate auction theories?",
+                "What is independent equilibrium in search auctions?",
+                "How to analyze search auction mechanisms?"
+              ],
+              "use_cases": [
+                "Optimizing ad placements in search engines",
+                "Designing auction mechanisms for online advertising",
+                "Evaluating the effectiveness of bidding strategies in digital marketing"
+              ],
+              "key_findings": "This paper introduces a quality-weighted ranking system for search auctions.",
+              "research_questions": [
+                "What is the impact of quality-weighted ranking on search auction outcomes?"
+              ],
+              "datasets_used": [
+                "Google data"
+              ],
+              "implements_method": "quality-weighted ranking"
             },
             {
               "title": "Sponsored Search Auctions",
@@ -30226,7 +30526,35 @@
                 "Mechanism Design & Auctions",
                 "Sponsored Search & Display Ad Auctions"
               ],
-              "citations": 163
+              "citations": 163,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Mechanism Design & Auctions",
+                "Sponsored Search & Display Ad Auctions"
+              ],
+              "summary": "This paper provides an authoritative survey that integrates various perspectives on ad auctions, including mechanism design, optimization, and machine learning. Its main contribution lies in synthesizing these approaches to enhance understanding of sponsored search auctions.",
+              "audience": [
+                "Mid-DS",
+                "Senior-DS",
+                "Curious-browser"
+              ],
+              "synthetic_questions": [
+                "What are the key mechanisms in sponsored search auctions?",
+                "How does optimization play a role in ad auctions?",
+                "What machine learning techniques are applicable to ad auctions?",
+                "What are the challenges in designing ad auctions?",
+                "How do different auction formats affect revenue?",
+                "What is the impact of competition on ad auction outcomes?"
+              ],
+              "use_cases": [
+                "Designing more efficient ad auction systems",
+                "Improving bidding strategies for advertisers",
+                "Analyzing the impact of auction design on market outcomes"
+              ],
+              "research_questions": [
+                "What are the main mechanisms and strategies in sponsored search auctions?"
+              ]
             },
             {
               "title": "Reserve Prices in Internet Advertising Auctions: A Field Experiment",
@@ -30238,7 +30566,36 @@
                 "Mechanism Design & Auctions",
                 "Sponsored Search & Display Ad Auctions"
               ],
-              "citations": 34
+              "citations": 34,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Mechanism Design & Auctions",
+                "Sponsored Search & Display Ad Auctions"
+              ],
+              "summary": "This paper addresses the optimization of reserve prices in internet advertising auctions, demonstrating a significant revenue increase through the application of Myerson optimal auction theory. Its main contribution is the first large-scale field experiment in this domain.",
+              "audience": [
+                "Mid-DS",
+                "Senior-DS",
+                "Curious-browser"
+              ],
+              "synthetic_questions": [
+                "how to optimize reserve prices in auctions",
+                "what is Myerson optimal auction theory",
+                "how does reserve pricing affect ad revenue",
+                "what are the effects of auction design on revenue",
+                "how to conduct field experiments in advertising",
+                "what is the impact of auction mechanisms on performance"
+              ],
+              "use_cases": [
+                "Improving revenue in online advertising auctions",
+                "Designing auction mechanisms for digital platforms",
+                "Applying auction theory to real-world scenarios"
+              ],
+              "key_findings": "12% revenue increase from optimized reserves",
+              "research_questions": [
+                "How can reserve prices be optimized in internet advertising auctions?"
+              ]
             },
             {
               "title": "Optimal Real-Time Bidding for Display Advertising",
@@ -30250,7 +30607,34 @@
                 "Mechanism Design & Auctions",
                 "Sponsored Search & Display Ad Auctions"
               ],
-              "citations": 296
+              "citations": 296,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Mechanism Design & Auctions",
+                "Sponsored Search & Display Ad Auctions"
+              ],
+              "summary": "This paper formulates real-time bidding (RTB) as a functional optimization problem and derives optimal bidding functions under budget constraints. It serves as a foundational work for developing bidding strategies in demand-side platforms (DSPs).",
+              "audience": [
+                "Mid-DS",
+                "Senior-DS"
+              ],
+              "synthetic_questions": [
+                "What is optimal real-time bidding?",
+                "How to derive bidding functions for display advertising?",
+                "What are budget constraints in RTB?",
+                "How does RTB relate to mechanism design?",
+                "What strategies can be derived from functional optimization in advertising?",
+                "How to optimize bids in display advertising?"
+              ],
+              "use_cases": [
+                "Developing bidding strategies for digital advertising",
+                "Optimizing advertising budgets in real-time bidding systems",
+                "Implementing DSP algorithms for display ads"
+              ],
+              "research_questions": [
+                "What is the optimal strategy for real-time bidding in display advertising?"
+              ]
             },
             {
               "title": "Reserve Price Optimization for First Price Auctions in Display Advertising",
@@ -30262,7 +30646,38 @@
                 "Mechanism Design & Auctions",
                 "Sponsored Search & Display Ad Auctions"
               ],
-              "citations": 6
+              "citations": 6,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Mechanism Design & Auctions",
+                "Sponsored Search & Display Ad Auctions"
+              ],
+              "summary": "This paper addresses the industry's transition from second-price to first-price auctions in display advertising. It proposes a gradient-based reserve price optimization method validated using data from Google Ad Exchange.",
+              "audience": [
+                "Mid-DS",
+                "Senior-DS"
+              ],
+              "synthetic_questions": [
+                "What is reserve price optimization in first price auctions?",
+                "How does the transition from second-price to first-price auctions affect display advertising?",
+                "What methods are used for reserve price optimization?",
+                "How can Google Ad Exchange data be utilized for auction optimization?",
+                "What are the implications of reserve price optimization for advertisers?",
+                "How to implement gradient-based optimization in auction settings?"
+              ],
+              "use_cases": [
+                "Optimizing reserve prices for display ad auctions",
+                "Improving revenue for advertisers in first-price auction settings",
+                "Analyzing the impact of auction type on advertising effectiveness"
+              ],
+              "research_questions": [
+                "What is the optimal reserve price for first-price auctions in display advertising?"
+              ],
+              "datasets_used": [
+                "Google Ad Exchange data"
+              ],
+              "implements_method": "gradient-based reserve optimization"
             }
           ]
         },
@@ -30281,7 +30696,32 @@
                 "Mechanism Design & Auctions",
                 "Algorithmic Game Theory & Computational Mechanism Design"
               ],
-              "citations": 1337
+              "citations": 1337,
+              "difficulty": "advanced",
+              "prerequisites": [],
+              "topic_tags": [
+                "Mechanism Design & Auctions",
+                "Algorithmic Game Theory & Computational Mechanism Design"
+              ],
+              "summary": "This paper addresses the computational complexity constraints on mechanism design, particularly through scheduling problems where the VCG mechanism fails. It establishes foundational concepts in the field of algorithmic mechanism design.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS",
+                "Senior-DS"
+              ],
+              "synthetic_questions": [
+                "What is algorithmic mechanism design?",
+                "How does VCG fail in scheduling problems?",
+                "What are the computational complexity constraints in mechanism design?",
+                "What are the main contributions of Noam Nisan and Amir Ronen?",
+                "How does this paper influence algorithmic game theory?",
+                "What foundational concepts are introduced in this paper?"
+              ],
+              "use_cases": [],
+              "research_questions": [
+                "What are the computational complexity constraints on mechanism design?"
+              ]
             },
             {
               "title": "Simple versus Optimal Mechanisms",
@@ -30293,7 +30733,36 @@
                 "Mechanism Design & Auctions",
                 "Algorithmic Game Theory & Computational Mechanism Design"
               ],
-              "citations": 322
+              "citations": 322,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Mechanism Design & Auctions",
+                "Algorithmic Game Theory & Computational Mechanism Design"
+              ],
+              "summary": "This paper addresses the tradeoff between simplicity and optimality in mechanism design. It proves that simple mechanisms, specifically the Vickrey auction with anonymous reserves, can achieve a constant-factor approximation to optimal revenue.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What are simple mechanisms in auction theory?",
+                "How do Vickrey auctions with anonymous reserves work?",
+                "What is the simplicity-optimality tradeoff?",
+                "How to achieve constant-factor approximation in mechanism design?",
+                "What are the implications of simple mechanisms on revenue?",
+                "How does algorithmic game theory relate to mechanism design?"
+              ],
+              "use_cases": [
+                "Designing auctions that are easy to implement while ensuring reasonable revenue",
+                "Analyzing the tradeoffs in auction mechanisms for economic applications",
+                "Evaluating the performance of simple mechanisms in practice"
+              ],
+              "key_findings": "Simple mechanisms achieve constant-factor approximation to optimal revenue.",
+              "research_questions": [
+                "What is the tradeoff between simplicity and optimality in mechanism design?"
+              ]
             },
             {
               "title": "Multi-Parameter Mechanism Design and Sequential Posted Pricing",
@@ -30305,7 +30774,35 @@
                 "Mechanism Design & Auctions",
                 "Algorithmic Game Theory & Computational Mechanism Design"
               ],
-              "citations": 399
+              "citations": 399,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Mechanism Design & Auctions",
+                "Algorithmic Game Theory & Computational Mechanism Design"
+              ],
+              "summary": "This paper introduces sequential posted pricing as an approximation to optimal multi-dimensional revenue. It connects prophet inequalities to mechanism design, providing insights into pricing strategies.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What is sequential posted pricing?",
+                "How does mechanism design relate to auctions?",
+                "What are prophet inequalities?",
+                "How can I approximate optimal revenue in multi-dimensional settings?",
+                "What are the applications of algorithmic game theory?",
+                "How does this paper contribute to mechanism design?"
+              ],
+              "use_cases": [
+                "Designing pricing strategies for multi-parameter auctions",
+                "Analyzing revenue optimization in algorithmic trading",
+                "Implementing mechanisms in online marketplaces"
+              ],
+              "research_questions": [
+                "What is the relationship between sequential posted pricing and optimal revenue?"
+              ]
             },
             {
               "title": "Optimal Multi-Dimensional Mechanism Design: Reducing Revenue to Welfare Maximization",
@@ -30317,7 +30814,34 @@
                 "Mechanism Design & Auctions",
                 "Algorithmic Game Theory & Computational Mechanism Design"
               ],
-              "citations": 137
+              "citations": 137,
+              "difficulty": "advanced",
+              "prerequisites": [],
+              "topic_tags": [
+                "Mechanism Design & Auctions",
+                "Algorithmic Game Theory & Computational Mechanism Design"
+              ],
+              "summary": "This paper addresses the problem of implementing mechanisms in a way that maximizes welfare rather than revenue. The main contribution is a fundamental reduction demonstrating that every mechanism can be represented as a distribution over virtual VCG rules.",
+              "audience": [
+                "Mid-DS",
+                "Senior-DS"
+              ],
+              "synthetic_questions": [
+                "What is optimal multi-dimensional mechanism design?",
+                "How does revenue relate to welfare maximization?",
+                "What are virtual VCG rules?",
+                "What is the significance of the FOCS Test of Time Award?",
+                "How can mechanism design be applied in algorithmic game theory?",
+                "What are the implications of this research for auctions?"
+              ],
+              "use_cases": [
+                "Designing auctions that maximize social welfare",
+                "Creating mechanisms for resource allocation in multi-dimensional settings"
+              ],
+              "key_findings": "Every mechanism implementable as a distribution over virtual VCG rules.",
+              "research_questions": [
+                "How can mechanisms be designed to prioritize welfare over revenue?"
+              ]
             },
             {
               "title": "Matroid Prophet Inequalities",
@@ -30329,7 +30853,35 @@
                 "Mechanism Design & Auctions",
                 "Algorithmic Game Theory & Computational Mechanism Design"
               ],
-              "citations": 45
+              "citations": 45,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Mechanism Design & Auctions",
+                "Algorithmic Game Theory & Computational Mechanism Design"
+              ],
+              "summary": "This paper generalizes the prophet inequality to matroid constraints and provides the first efficient constant-approximations for multi-parameter settings. It addresses the challenge of optimizing decision-making under complex constraints.",
+              "audience": [
+                "Mid-DS",
+                "Senior-DS",
+                "Curious-browser"
+              ],
+              "synthetic_questions": [
+                "What are matroid prophet inequalities?",
+                "How to apply prophet inequalities in matroid settings?",
+                "What are the implications of constant-approximations in auctions?",
+                "How does this work improve algorithmic game theory?",
+                "What are the applications of matroid constraints in economics?",
+                "How to achieve efficient approximations in multi-parameter settings?"
+              ],
+              "use_cases": [
+                "Designing auctions with complex constraints",
+                "Optimizing resource allocation in multi-parameter environments"
+              ],
+              "key_findings": "This paper provides the first efficient constant-approximations for multi-parameter settings.",
+              "research_questions": [
+                "How can prophet inequalities be generalized to matroid constraints?"
+              ]
             }
           ]
         },
@@ -30348,7 +30900,34 @@
                 "Mechanism Design & Auctions",
                 "Platform Mechanism Design"
               ],
-              "citations": 59
+              "citations": 59,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Platform Mechanism Design",
+                "Mechanism Design & Auctions"
+              ],
+              "summary": "This paper addresses the pricing strategies of multi-sided platforms and how they manage network externalities. It provides a foundational understanding of platform fee structures and their implications for monopoly pricing.",
+              "audience": [
+                "Early-PhD",
+                "Curious-browser"
+              ],
+              "synthetic_questions": [
+                "What is the price theory of multi-sided platforms?",
+                "How do platforms internalize network externalities?",
+                "What are the implications of monopoly pricing on platforms?",
+                "How do platform fee structures work?",
+                "What is the role of mechanism design in platform pricing?",
+                "How do auctions relate to platform pricing strategies?"
+              ],
+              "use_cases": [
+                "Analyzing pricing strategies for new multi-sided platforms",
+                "Evaluating the impact of network externalities on platform fees",
+                "Designing auction mechanisms for platform services"
+              ],
+              "research_questions": [
+                "How do multi-sided platforms determine their pricing in the presence of network externalities?"
+              ]
             },
             {
               "title": "Two-Sided Platforms: Product Variety and Pricing Structures",
@@ -30360,7 +30939,35 @@
                 "Mechanism Design & Auctions",
                 "Platform Mechanism Design"
               ],
-              "citations": 43
+              "citations": 43,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Platform Mechanism Design",
+                "Economics"
+              ],
+              "summary": "This paper models platform pricing in scenarios where consumers value variety. It demonstrates how variable fees can balance producer innovation against the risk of platform holdup.",
+              "audience": [
+                "Mid-DS",
+                "Curious-browser"
+              ],
+              "synthetic_questions": [
+                "What is the impact of pricing structures on platform innovation?",
+                "How do variable fees affect consumer choice?",
+                "What are the trade-offs in platform pricing?",
+                "How does product variety influence platform dynamics?",
+                "What mechanisms can be used to design effective platform pricing?",
+                "How do platforms manage producer incentives?"
+              ],
+              "use_cases": [
+                "Analyzing pricing strategies for two-sided platforms",
+                "Designing platform policies that encourage innovation",
+                "Evaluating the effects of variety on consumer satisfaction in platform markets"
+              ],
+              "key_findings": "Variable fees trade off producer innovation against platform holdup.",
+              "research_questions": [
+                "How do pricing structures influence innovation and consumer choice on two-sided platforms?"
+              ]
             },
             {
               "title": "Multi-Sided Platforms",
@@ -30372,7 +30979,35 @@
                 "Mechanism Design & Auctions",
                 "Platform Mechanism Design"
               ],
-              "citations": 813
+              "citations": 813,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Platform Mechanism Design",
+                "Mechanism Design & Auctions"
+              ],
+              "summary": "This paper addresses the choice between vertical integration and platform modes for firms, providing a comprehensive theory that can be applied to contemporary marketplaces like Uber and Airbnb. Its main contribution lies in the framework it offers for understanding these strategic decisions.",
+              "audience": [
+                "Mid-DS",
+                "Senior-DS",
+                "Curious-browser"
+              ],
+              "synthetic_questions": [
+                "What is the theory behind multi-sided platforms?",
+                "How do firms choose between vertical integration and platform modes?",
+                "What are the implications of platform design for companies like Uber?",
+                "How does mechanism design apply to marketplaces?",
+                "What strategies do firms use in platform competition?",
+                "What are the benefits of using a platform model over vertical integration?"
+              ],
+              "use_cases": [
+                "Designing marketplace strategies for new tech startups",
+                "Evaluating the effectiveness of platform models in existing businesses",
+                "Analyzing competition between multi-sided platforms"
+              ],
+              "research_questions": [
+                "What are the strategic choices firms face between vertical integration and platform modes?"
+              ]
             },
             {
               "title": "Online Labor Markets",
@@ -30384,7 +31019,34 @@
                 "Mechanism Design & Auctions",
                 "Platform Mechanism Design"
               ],
-              "citations": 3
+              "citations": 3,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Mechanism Design & Auctions",
+                "Platform Mechanism Design"
+              ],
+              "summary": "This paper explores the choices that platform creators make regarding pricing structures and investment in online labor markets. It provides an early theoretical treatment of the mechanisms that drive the gig economy.",
+              "audience": [
+                "Early-PhD",
+                "Curious-browser"
+              ],
+              "synthetic_questions": [
+                "What are the pricing structures in online labor markets?",
+                "How do platform creators invest in gig economy mechanisms?",
+                "What is mechanism design in the context of online labor?",
+                "How does price level affect online labor markets?",
+                "What are the theoretical frameworks for gig economy design?",
+                "How do different pricing strategies impact platform success?"
+              ],
+              "use_cases": [
+                "Analyzing pricing strategies for freelance platforms",
+                "Designing a new online labor market",
+                "Evaluating the effectiveness of gig economy mechanisms"
+              ],
+              "research_questions": [
+                "What choices do platform creators face in online labor markets?"
+              ]
             },
             {
               "title": "Equilibrium Effects of Pay Transparency",
@@ -30396,7 +31058,38 @@
                 "Mechanism Design & Auctions",
                 "Platform Mechanism Design"
               ],
-              "citations": 0
+              "citations": 0,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Mechanism Design & Auctions",
+                "Platform Mechanism Design"
+              ],
+              "summary": "This paper addresses the issue of worker bargaining power in platform and gig markets. Its main contribution is demonstrating how transparency in pay can reduce this bargaining power, which is crucial for informing platform wage-setting policies.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS",
+                "Senior-DS",
+                "Curious-browser"
+              ],
+              "synthetic_questions": [
+                "How does pay transparency affect worker bargaining power?",
+                "What are the effects of state transparency laws on gig economy wages?",
+                "How can transparency influence platform wage-setting policies?",
+                "What is the relationship between pay transparency and worker outcomes?",
+                "How to analyze the impact of transparency on labor markets?",
+                "What are the equilibrium effects of pay transparency in gig markets?"
+              ],
+              "use_cases": [
+                "Evaluating the impact of transparency laws on gig economy wages",
+                "Informing policy decisions regarding platform wage-setting",
+                "Understanding the dynamics of worker bargaining in transparent environments"
+              ],
+              "key_findings": "Transparency reduces worker bargaining power in platform/gig markets.",
+              "research_questions": [
+                "How does pay transparency influence worker bargaining power in gig markets?"
+              ]
             }
           ]
         },
@@ -30415,7 +31108,36 @@
                 "Mechanism Design & Auctions",
                 "Privacy-Preserving & Differential Privacy Mechanisms"
               ],
-              "citations": 1302
+              "citations": 1302,
+              "difficulty": "advanced",
+              "prerequisites": [],
+              "topic_tags": [
+                "Mechanism Design & Auctions",
+                "Privacy-Preserving & Differential Privacy Mechanisms"
+              ],
+              "summary": "This paper addresses the challenge of ensuring truthfulness in mechanism design under the constraint of differential privacy. Its main contribution is the introduction of the exponential mechanism, which guarantees approximate dominant-strategy truthfulness for arbitrary utility functions.",
+              "audience": [
+                "Mid-DS",
+                "Senior-DS"
+              ],
+              "synthetic_questions": [
+                "What is differential privacy?",
+                "How does the exponential mechanism work?",
+                "What are the implications of differential privacy in mechanism design?",
+                "How to ensure truthfulness in auctions?",
+                "What is the relationship between mechanism design and privacy?",
+                "How to apply differential privacy in economic models?"
+              ],
+              "use_cases": [
+                "Designing auctions that protect bidder privacy",
+                "Creating algorithms for data analysis that require privacy guarantees",
+                "Implementing mechanisms in online platforms that require user data protection"
+              ],
+              "key_findings": "Differential privacy ensures approximate dominant-strategy truthfulness under arbitrary utilities.",
+              "research_questions": [
+                "How can differential privacy be integrated into mechanism design?"
+              ],
+              "implements_method": "exponential mechanism"
             },
             {
               "title": "Selling Privacy at Auction",
@@ -30427,7 +31149,39 @@
                 "Mechanism Design & Auctions",
                 "Privacy-Preserving & Differential Privacy Mechanisms"
               ],
-              "citations": 9
+              "citations": 9,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "differential-privacy"
+              ],
+              "topic_tags": [
+                "mechanism-design",
+                "privacy-preserving",
+                "auctions"
+              ],
+              "summary": "This paper initiates the study of data markets through the lens of differential privacy. It shows that optimal designs for these markets are variants of multi-unit procurement auctions that compensate data owners for their privacy loss.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What are data markets?",
+                "How does differential privacy apply to auctions?",
+                "What is multi-unit procurement?",
+                "How to design auctions for privacy compensation?",
+                "What are the implications of selling privacy?",
+                "How to optimize data market designs?"
+              ],
+              "use_cases": [
+                "Designing auctions for data privacy compensation",
+                "Evaluating privacy loss in data transactions",
+                "Implementing differential privacy in economic models"
+              ],
+              "key_findings": "Optimal designs are variants of multi-unit procurement auctions compensating data owners for privacy loss.",
+              "research_questions": [
+                "How can data markets be designed to protect privacy?"
+              ]
             },
             {
               "title": "Privacy and Mechanism Design",
@@ -30439,7 +31193,39 @@
                 "Mechanism Design & Auctions",
                 "Privacy-Preserving & Differential Privacy Mechanisms"
               ],
-              "citations": 81
+              "citations": 81,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "differential-privacy",
+                "mechanism-design"
+              ],
+              "topic_tags": [
+                "mechanism-design",
+                "privacy-preserving",
+                "differential-privacy"
+              ],
+              "summary": "This paper addresses the challenges of designing truthful mechanisms in the presence of privacy concerns. It highlights how differential privacy can be utilized to ensure mechanism stability while maintaining privacy.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What is differential privacy?",
+                "How does differential privacy relate to mechanism design?",
+                "What are truthful mechanisms?",
+                "How can privacy be maintained in economic mechanisms?",
+                "What tools does differential privacy provide?",
+                "What is the impact of privacy on mechanism stability?"
+              ],
+              "use_cases": [
+                "Designing auctions that protect bidder privacy",
+                "Creating algorithms for data sharing in economic research",
+                "Developing mechanisms for online platforms that require user confidentiality"
+              ],
+              "research_questions": [
+                "How can differential privacy be applied to mechanism design?"
+              ]
             }
           ]
         },
@@ -30458,7 +31244,33 @@
                 "Mechanism Design & Auctions",
                 "Cloud & Computing Resource Auctions"
               ],
-              "citations": 10
+              "citations": 10,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Mechanism Design & Auctions",
+                "Cloud & Computing Resource Auctions"
+              ],
+              "summary": "This paper reverse-engineers AWS spot pricing to reveal a hidden dynamic reserve mechanism, challenging the notion of market-driven prices. It provides critical insights for both cloud users and providers regarding pricing strategies.",
+              "audience": [
+                "Curious-browser"
+              ],
+              "synthetic_questions": [
+                "What is Amazon EC2 Spot Instance pricing?",
+                "How does AWS determine spot pricing?",
+                "What are the implications of dynamic reserve mechanisms in cloud pricing?",
+                "How can cloud users benefit from understanding spot pricing?",
+                "What are the differences between market-driven and reserve pricing?",
+                "How to analyze cloud computing resource auctions?"
+              ],
+              "use_cases": [
+                "Evaluating cost-saving strategies for cloud computing",
+                "Understanding pricing mechanisms for cloud service providers"
+              ],
+              "key_findings": "This paper reveals a hidden dynamic reserve mechanism in AWS spot pricing.",
+              "research_questions": [
+                "What mechanisms underlie Amazon EC2 Spot Instance pricing?"
+              ]
             },
             {
               "title": "Cloud Pricing: The Spot Market Strikes Back",
@@ -30470,7 +31282,39 @@
                 "Mechanism Design & Auctions",
                 "Cloud & Computing Resource Auctions"
               ],
-              "citations": 32
+              "citations": 32,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "queuing-theory",
+                "game-theory"
+              ],
+              "topic_tags": [
+                "mechanism-design",
+                "cloud-computing",
+                "resource-auctions"
+              ],
+              "summary": "This paper analyzes the profitability of using spot instances alongside fixed-price offerings in cloud computing. It combines queuing theory and game theory to account for factors like cannibalization and preemption costs.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "when are spot instances profitable",
+                "how to analyze cloud pricing strategies",
+                "what is the impact of preemption costs in cloud auctions",
+                "how to apply game theory in cloud resource allocation",
+                "what are the benefits of using spot instances",
+                "how does cannibalization affect cloud pricing"
+              ],
+              "use_cases": [
+                "optimizing cloud resource allocation",
+                "developing pricing strategies for cloud services",
+                "analyzing competitive behavior in cloud markets"
+              ],
+              "research_questions": [
+                "When are spot instances alongside fixed-price offerings profitable?"
+              ]
             },
             {
               "title": "An Online Auction Framework for Dynamic Resource Provisioning in Cloud Computing",
@@ -30482,7 +31326,33 @@
                 "Mechanism Design & Auctions",
                 "Cloud & Computing Resource Auctions"
               ],
-              "citations": 102
+              "citations": 102,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Mechanism Design & Auctions",
+                "Cloud & Computing Resource Auctions"
+              ],
+              "summary": "This paper addresses the challenge of dynamic resource provisioning in cloud computing through an online combinatorial auction framework. Its main contribution lies in jointly maximizing revenue and ensuring truthfulness in the auction process.",
+              "audience": [
+                "Mid-DS",
+                "Curious-browser"
+              ],
+              "synthetic_questions": [
+                "What is an online combinatorial auction?",
+                "How does dynamic resource provisioning work in cloud computing?",
+                "What are the benefits of truthfulness in auctions?",
+                "How can revenue maximization be achieved in cloud auctions?",
+                "What challenges exist in handling dynamic arrivals in auctions?",
+                "How do online auctions differ from traditional auctions in cloud computing?"
+              ],
+              "use_cases": [
+                "Implementing a cloud resource allocation strategy for a startup.",
+                "Designing auction mechanisms for cloud service providers."
+              ],
+              "research_questions": [
+                "How can online auctions be structured to handle dynamic arrivals in cloud computing?"
+              ]
             },
             {
               "title": "On the Cluster Admission Problem for Cloud Computing",
@@ -30494,7 +31364,39 @@
                 "Mechanism Design & Auctions",
                 "Cloud & Computing Resource Auctions"
               ],
-              "citations": 0
+              "citations": 0,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Mechanism Design & Auctions",
+                "Cloud & Computing Resource Auctions"
+              ],
+              "summary": "This paper addresses the challenge of effectively matching heterogeneous workloads to cloud resources. The main contribution is the proposal of admission control policies that utilize Markov Decision Processes (MDPs) and information elicitation to significantly enhance cluster utilization.",
+              "audience": [
+                "Mid-DS",
+                "Senior-DS",
+                "Curious-browser"
+              ],
+              "synthetic_questions": [
+                "how to improve cluster utilization in cloud computing",
+                "what are admission control policies for cloud resources",
+                "how to match heterogeneous workloads to cloud resources",
+                "what is the cluster admission problem",
+                "how do MDPs apply to cloud computing",
+                "what is information elicitation in resource allocation"
+              ],
+              "use_cases": [
+                "Optimizing resource allocation in cloud services",
+                "Improving efficiency in data center operations",
+                "Enhancing performance of cloud-based applications"
+              ],
+              "methodology_tags": [
+                "markov-decision-processes"
+              ],
+              "key_findings": "Significantly improves cluster utilization.",
+              "research_questions": [
+                "How can admission control policies be designed to optimize cloud resource allocation?"
+              ]
             }
           ]
         }
@@ -30521,7 +31423,42 @@
                 "Structural Estimation",
                 "Demand Estimation (BLP)"
               ],
-              "citations": 2959
+              "citations": 2959,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "instrumental-variables"
+              ],
+              "topic_tags": [
+                "structural-estimation",
+                "demand-estimation",
+                "product-differentiation"
+              ],
+              "summary": "This paper addresses the challenge of estimating discrete-choice models in markets with differentiated products. Its main contribution is the introduction of market share inversion mapping, which relates observed shares to mean utilities and facilitates instrumental variable estimation using aggregate data.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to estimate discrete-choice models",
+                "what is market share inversion",
+                "how to use IV estimation with aggregate data",
+                "what are the applications of BLP models",
+                "how to analyze product differentiation",
+                "what methods are used for demand estimation"
+              ],
+              "use_cases": [
+                "Estimating demand for differentiated products",
+                "Analyzing market shares in competitive industries",
+                "Applying IV estimation techniques to aggregate data"
+              ],
+              "methodology_tags": [
+                "instrumental-variables"
+              ],
+              "key_findings": "One sentence: main result if mentioned in description, or empty string",
+              "research_questions": [
+                "How can market share data be used to estimate consumer preferences?"
+              ]
             },
             {
               "title": "Automobile Prices in Market Equilibrium",
@@ -30533,7 +31470,43 @@
                 "Structural Estimation",
                 "Demand Estimation (BLP)"
               ],
-              "citations": 4952
+              "citations": 4952,
+              "difficulty": "advanced",
+              "prerequisites": [
+                "random-coefficients-logit",
+                "endogenous-prices"
+              ],
+              "topic_tags": [
+                "structural-estimation",
+                "demand-estimation",
+                "econometrics"
+              ],
+              "summary": "This paper addresses the challenge of estimating demand in markets with differentiated products using a structural approach. Its main contribution is the introduction of a random coefficients logit model that accounts for unobserved product characteristics and endogenous prices.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS",
+                "Senior-DS"
+              ],
+              "synthetic_questions": [
+                "how to estimate demand for differentiated products",
+                "what is the BLP model",
+                "how to account for unobserved product characteristics",
+                "how to use random coefficients logit",
+                "what are endogenous prices in demand estimation",
+                "how to apply structural estimation in economics"
+              ],
+              "use_cases": [
+                "Estimating demand for new automobile models",
+                "Analyzing the impact of price changes on consumer choice",
+                "Evaluating market equilibrium in the automotive industry"
+              ],
+              "methodology_tags": [
+                "random-coefficients-logit"
+              ],
+              "research_questions": [
+                "How do unobserved product characteristics affect demand estimation?"
+              ]
             },
             {
               "title": "A Practitioner's Guide to Estimation of Random-Coefficients Logit Models of Demand",
@@ -30545,7 +31518,36 @@
                 "Structural Estimation",
                 "Demand Estimation (BLP)"
               ],
-              "citations": 750
+              "citations": 750,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "structural-estimation",
+                "demand-estimation",
+                "BLP"
+              ],
+              "summary": "This paper serves as an essential implementation guide for practitioners looking to estimate random-coefficients logit models of demand. It clarifies BLP algorithms and computational practices, helping researchers and practitioners effectively apply these methods.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to estimate random-coefficients logit models",
+                "what are BLP algorithms",
+                "how to implement demand estimation techniques",
+                "best practices for structural estimation",
+                "challenges in estimating demand models",
+                "how to apply computational practices in demand estimation"
+              ],
+              "use_cases": [
+                "Estimating consumer demand for a new product",
+                "Evaluating the impact of pricing strategies on sales",
+                "Analyzing market competition using demand models"
+              ],
+              "research_questions": [
+                "How can random-coefficients logit models be effectively estimated?"
+              ]
             },
             {
               "title": "Identification in Differentiated Products Markets Using Market Level Data",
@@ -30557,7 +31559,36 @@
                 "Structural Estimation",
                 "Demand Estimation (BLP)"
               ],
-              "citations": 97
+              "citations": 97,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "structural-estimation",
+                "demand-estimation",
+                "market-analysis"
+              ],
+              "summary": "This paper addresses the problem of identifying demand in differentiated products markets using market level data. Its main contribution is establishing rigorous nonparametric identification foundations that clarify when demand can be identified.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to identify demand in differentiated products",
+                "what is nonparametric identification in economics",
+                "how to use market level data for demand estimation",
+                "what are the foundations of structural estimation",
+                "how to analyze differentiated products markets",
+                "what methods establish demand identification"
+              ],
+              "use_cases": [
+                "Estimating demand for a new product in a competitive market",
+                "Analyzing consumer preferences in differentiated product categories",
+                "Evaluating the impact of market changes on demand"
+              ],
+              "research_questions": [
+                "When is demand identified in differentiated products markets?"
+              ]
             },
             {
               "title": "Best Practices for Differentiated Products Demand Estimation with PyBLP",
@@ -30569,7 +31600,36 @@
                 "Structural Estimation",
                 "Demand Estimation (BLP)"
               ],
-              "citations": 144
+              "citations": 144,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Structural Estimation",
+                "Demand Estimation",
+                "BLP"
+              ],
+              "summary": "This paper addresses modern best practices for estimating demand for differentiated products using the BLP model. It provides an open-source Python implementation that improves numerical stability and optimizes the use of instruments.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to estimate demand for differentiated products",
+                "what are best practices for BLP estimation",
+                "how to improve numerical stability in demand estimation",
+                "what instruments are optimal for demand estimation",
+                "how to implement BLP in Python",
+                "what is the PyBLP library"
+              ],
+              "use_cases": [
+                "Estimating demand for a new product in a competitive market",
+                "Analyzing consumer preferences for differentiated goods",
+                "Improving the accuracy of demand forecasts using BLP"
+              ],
+              "research_questions": [
+                "What are the best practices for differentiated products demand estimation?"
+              ]
             },
             {
               "title": "Valuing New Goods in a Model with Complementarity: Online Newspapers",
@@ -30581,7 +31641,40 @@
                 "Structural Estimation",
                 "Demand Estimation (BLP)"
               ],
-              "citations": 519
+              "citations": 519,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Structural Estimation",
+                "Demand Estimation",
+                "Digital Goods"
+              ],
+              "summary": "This paper addresses the valuation of new goods in the context of complementarity between products. Its main contribution is the extension of discrete choice models to estimate the substitution effects between print and online news, using data from the Washington Post.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "How to estimate substitution between print and online news?",
+                "What is the impact of complementarity on demand estimation?",
+                "How to apply structural estimation to digital goods?",
+                "What methods are used to analyze online newspaper consumption?",
+                "How to model consumer choice with complementary products?",
+                "What data is needed for estimating demand in media markets?"
+              ],
+              "use_cases": [
+                "Estimating the impact of digital transformation on traditional media",
+                "Analyzing consumer preferences in the context of complementary goods",
+                "Developing pricing strategies for online news platforms"
+              ],
+              "key_findings": "This paper estimates substitution between print and online news.",
+              "research_questions": [
+                "How do consumers value online newspapers compared to print newspapers?"
+              ],
+              "datasets_used": [
+                "Washington Post data"
+              ]
             },
             {
               "title": "Estimating Demand for Mobile Applications in the New Economy",
@@ -30593,7 +31686,43 @@
                 "Structural Estimation",
                 "Demand Estimation (BLP)"
               ],
-              "citations": 141
+              "citations": 141,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "structural-estimation",
+                "demand-estimation"
+              ],
+              "topic_tags": [
+                "structural-estimation",
+                "demand-estimation",
+                "mobile-apps"
+              ],
+              "summary": "This paper addresses the demand estimation for mobile applications in the context of the new economy. It contributes by providing a BLP-style random coefficients nested logit model that estimates significant consumer surplus and quantifies the effects of in-app purchases and advertising.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to estimate demand for mobile apps",
+                "impact of in-app purchases on consumer surplus",
+                "what is the consumer surplus from mobile applications",
+                "how to apply BLP-style models to app stores",
+                "effects of advertising in mobile apps",
+                "estimating demand in the new economy"
+              ],
+              "use_cases": [
+                "Estimating the economic impact of mobile applications",
+                "Analyzing consumer behavior in app stores",
+                "Evaluating the effectiveness of in-app advertising strategies"
+              ],
+              "methodology_tags": [
+                "nested-logit"
+              ],
+              "key_findings": "Estimates $33.6 billion annual consumer surplus from mobile apps.",
+              "research_questions": [
+                "What is the demand for mobile applications in the new economy?"
+              ]
             }
           ]
         },
@@ -30612,7 +31741,41 @@
                 "Structural Estimation",
                 "Entry & Competition"
               ],
-              "citations": 1472
+              "citations": 1472,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "ordered-probit",
+                "market-structure"
+              ],
+              "topic_tags": [
+                "structural-estimation",
+                "entry-competition"
+              ],
+              "summary": "This paper addresses the problem of understanding competitive effects in concentrated markets through a foundational ordered probit entry model. Its main contribution lies in using threshold ratios to infer these effects from market structure.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to model entry in concentrated markets",
+                "what is the ordered probit entry model",
+                "how to infer competitive effects from market structure",
+                "what are threshold ratios in market analysis",
+                "how does market structure affect competition",
+                "what is structural estimation in economics"
+              ],
+              "use_cases": [
+                "Analyzing entry strategies in oligopolistic markets",
+                "Evaluating the impact of market structure on competition",
+                "Developing policies to encourage market entry"
+              ],
+              "methodology_tags": [
+                "ordered-probit"
+              ],
+              "research_questions": [
+                "What competitive effects can be inferred from market structure using entry models?"
+              ]
             },
             {
               "title": "Estimation of a Model of Entry in the Airline Industry",
@@ -30624,7 +31787,41 @@
                 "Structural Estimation",
                 "Entry & Competition"
               ],
-              "citations": 1025
+              "citations": 1025,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "discrete-games",
+                "multiple-equilibria"
+              ],
+              "topic_tags": [
+                "structural-estimation",
+                "entry-competition"
+              ],
+              "summary": "This paper addresses the estimation of models related to entry in the airline industry, focusing on methods for discrete games with multiple equilibria. Its main contribution lies in providing a foundation for applying these estimation techniques to airline entry scenarios.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to estimate entry in the airline industry",
+                "what are methods for discrete games",
+                "how to analyze competition in airlines",
+                "what is structural estimation in economics",
+                "how to model multiple equilibria",
+                "what techniques are used for airline entry analysis"
+              ],
+              "use_cases": [
+                "Estimating the impact of new entrants in the airline market",
+                "Analyzing competitive dynamics in the airline industry",
+                "Applying structural estimation methods to other industries"
+              ],
+              "methodology_tags": [
+                "structural-estimation"
+              ],
+              "research_questions": [
+                "What are the methods for estimating entry in the airline industry?"
+              ]
             },
             {
               "title": "Empirical Models of Entry and Market Structure",
@@ -30636,7 +31833,35 @@
                 "Structural Estimation",
                 "Entry & Competition"
               ],
-              "citations": 144
+              "citations": 144,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Structural Estimation",
+                "Entry & Competition"
+              ],
+              "summary": "This paper provides an authoritative survey of static and dynamic entry models, focusing on identification and estimation methods. Its main contribution lies in synthesizing existing methodologies for understanding market entry and structure.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What are static entry models?",
+                "How to estimate market structure?",
+                "What are dynamic entry models?",
+                "What identification methods are used in entry models?",
+                "How to apply structural estimation in competition analysis?",
+                "What are the challenges in estimating entry models?"
+              ],
+              "use_cases": [
+                "Analyzing market entry strategies for new firms",
+                "Evaluating competition in regulated industries",
+                "Understanding the impact of policy changes on market structure"
+              ],
+              "research_questions": [
+                "What are the identification and estimation methods for entry models?"
+              ]
             },
             {
               "title": "Market Structure and Multiple Equilibria in Airline Markets",
@@ -30648,7 +31873,41 @@
                 "Structural Estimation",
                 "Entry & Competition"
               ],
-              "citations": 643
+              "citations": 643,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "bayesian-inference",
+                "game-theory"
+              ],
+              "topic_tags": [
+                "structural-estimation",
+                "entry-competition"
+              ],
+              "summary": "This paper addresses the challenges of inferring entry games with multiple equilibria. Its main contribution lies in developing inference methods that utilize partial identification.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to analyze market structure in airline markets",
+                "what are entry games in economics",
+                "how to apply partial identification in econometrics",
+                "what methods are used for structural estimation",
+                "how to infer multiple equilibria",
+                "what are the implications of competition in airline markets"
+              ],
+              "use_cases": [
+                "Estimating the impact of new entrants in the airline market",
+                "Analyzing competition strategies among airlines",
+                "Evaluating regulatory impacts on market structure"
+              ],
+              "methodology_tags": [
+                "partial-identification"
+              ],
+              "research_questions": [
+                "What are the implications of multiple equilibria in airline market entry?"
+              ]
             },
             {
               "title": "The Welfare Effects of Peer Entry: The Case of Airbnb and the Accommodation Industry",
@@ -30660,7 +31919,35 @@
                 "Structural Estimation",
                 "Entry & Competition"
               ],
-              "citations": 81
+              "citations": 81,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Structural Estimation",
+                "Entry & Competition"
+              ],
+              "summary": "This paper addresses the competition dynamics between flexible peer suppliers like Airbnb and traditional hotels. It contributes to the understanding of welfare effects generated by peer entry in the accommodation industry.",
+              "audience": [
+                "Mid-DS",
+                "Senior-DS"
+              ],
+              "synthetic_questions": [
+                "What are the welfare effects of Airbnb on the accommodation industry?",
+                "How does peer entry affect competition in the hotel market?",
+                "What is the consumer surplus generated by Airbnb?",
+                "How to model competition between flexible and dedicated sellers?",
+                "What are the implications of Airbnb on hotel pricing?",
+                "How does capacity constraint influence consumer surplus in accommodation?"
+              ],
+              "use_cases": [
+                "Evaluating the impact of peer-to-peer platforms on traditional industries",
+                "Policy analysis regarding short-term rental regulations",
+                "Understanding consumer behavior in the accommodation sector"
+              ],
+              "key_findings": "$41 consumer surplus per room-night generated by Airbnb during capacity-constrained periods.",
+              "research_questions": [
+                "What are the welfare effects of peer entry in the accommodation industry?"
+              ]
             },
             {
               "title": "What Happens When Wal-Mart Comes to Town: An Empirical Analysis of the Discount Retailing Industry",
@@ -30672,7 +31959,38 @@
                 "Structural Estimation",
                 "Entry & Competition"
               ],
-              "citations": 0
+              "citations": 0,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "computational-methods",
+                "entry-games"
+              ],
+              "topic_tags": [
+                "structural-estimation",
+                "entry-competition"
+              ],
+              "summary": "This paper develops computational methods for large-scale entry games, providing a tractable approach for analyzing markets with many potential entrants. Its main contribution is relevant to platform expansion analysis.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "what happens when Wal-Mart comes to town",
+                "empirical analysis of discount retailing",
+                "how to analyze market entry",
+                "computational methods for entry games",
+                "impact of discount retailers on local economies",
+                "methods for estimating competition in retail"
+              ],
+              "use_cases": [
+                "analyzing the impact of new entrants in retail markets",
+                "evaluating strategies for platform expansion",
+                "understanding competition dynamics in discount retailing"
+              ],
+              "research_questions": [
+                "What happens when a large discount retailer enters a local market?"
+              ]
             }
           ]
         },
@@ -30691,7 +32009,42 @@
                 "Structural Estimation",
                 "Dynamic Structural Models"
               ],
-              "citations": 1756
+              "citations": 1756,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "nested-fixed-point",
+                "conditional-independence"
+              ],
+              "topic_tags": [
+                "structural-estimation",
+                "dynamic-structural-models"
+              ],
+              "summary": "This paper addresses the optimal replacement of GMC bus engines using an empirical model. Its main contribution is the introduction of the nested fixed point (NFXP) algorithm and the establishment of conditional independence assumptions.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "what is the nested fixed point algorithm",
+                "how to apply conditional independence in structural models",
+                "optimal replacement strategies for bus engines",
+                "how to estimate engine performance",
+                "what are dynamic structural models",
+                "applications of NFXP algorithm in economics"
+              ],
+              "use_cases": [
+                "optimizing engine replacement schedules",
+                "improving bus fleet management",
+                "analyzing the economic impact of engine performance"
+              ],
+              "methodology_tags": [
+                "nested-fixed-point"
+              ],
+              "research_questions": [
+                "What is the optimal strategy for replacing GMC bus engines?"
+              ],
+              "implements_method": "nested-fixed-point"
             },
             {
               "title": "Conditional Choice Probabilities and the Estimation of Dynamic Models",
@@ -30703,7 +32056,35 @@
                 "Structural Estimation",
                 "Dynamic Structural Models"
               ],
-              "citations": 1031
+              "citations": 1031,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Structural Estimation",
+                "Dynamic Structural Models"
+              ],
+              "summary": "This paper addresses the estimation of dynamic models using a conditional choice probabilities (CCP) approach. Its main contribution is the revolutionary method of expressing value functions as functions of observable choice probabilities.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What are conditional choice probabilities?",
+                "How to estimate dynamic models?",
+                "What is the CCP approach in structural estimation?",
+                "How do observable choice probabilities relate to value functions?",
+                "What are the applications of dynamic structural models?",
+                "How to apply CCP in econometrics?"
+              ],
+              "use_cases": [
+                "Estimating consumer behavior in dynamic settings",
+                "Analyzing policy impacts over time",
+                "Modeling decision-making processes in economics"
+              ],
+              "research_questions": [
+                "How can conditional choice probabilities improve the estimation of dynamic models?"
+              ]
             },
             {
               "title": "Sequential Estimation of Dynamic Discrete Games",
@@ -30715,7 +32096,42 @@
                 "Structural Estimation",
                 "Dynamic Structural Models"
               ],
-              "citations": 11
+              "citations": 11,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "dynamic-programming",
+                "structural-estimation"
+              ],
+              "topic_tags": [
+                "structural-estimation",
+                "dynamic-structural-models"
+              ],
+              "summary": "This paper addresses computational challenges in estimating dynamic discrete games by extending the Conditional Choice Probability (CCP) method. The main contribution is the introduction of a nested pseudo-likelihood approach.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to estimate dynamic discrete games",
+                "what is nested pseudo-likelihood",
+                "how to apply CCP in dynamic settings",
+                "challenges in structural estimation",
+                "methods for dynamic structural models",
+                "applications of dynamic discrete games"
+              ],
+              "use_cases": [
+                "Estimating player strategies in economic games",
+                "Analyzing consumer behavior in dynamic settings",
+                "Evaluating policy impacts in dynamic environments"
+              ],
+              "methodology_tags": [
+                "structural-estimation"
+              ],
+              "research_questions": [
+                "How can computational challenges in dynamic discrete games be addressed?"
+              ],
+              "implements_method": "nested-pseudo-likelihood"
             },
             {
               "title": "Conditional Choice Probability Estimation of Dynamic Discrete Choice Models with Unobserved Heterogeneity",
@@ -30727,7 +32143,41 @@
                 "Structural Estimation",
                 "Dynamic Structural Models"
               ],
-              "citations": 390
+              "citations": 390,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "structural-estimation",
+                "dynamic-structural-models"
+              ],
+              "topic_tags": [
+                "structural-estimation",
+                "dynamic-structural-models"
+              ],
+              "summary": "This paper addresses the challenge of estimating conditional choice probabilities in dynamic discrete choice models by incorporating unobserved heterogeneity. The main contribution is the integration of an EM algorithm to enhance CCP estimators.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to estimate conditional choice probabilities",
+                "what is unobserved heterogeneity in econometrics",
+                "how to apply EM algorithm in structural models",
+                "what are dynamic discrete choice models",
+                "how to integrate unobserved factors in estimation",
+                "what is the impact of unobserved heterogeneity on CCP"
+              ],
+              "use_cases": [
+                "Estimating consumer choice behavior in dynamic settings",
+                "Analyzing labor market decisions over time",
+                "Evaluating policy impacts in dynamic discrete choice frameworks"
+              ],
+              "methodology_tags": [
+                "em-algorithm"
+              ],
+              "research_questions": [
+                "How can unobserved heterogeneity be integrated into CCP estimators?"
+              ]
             },
             {
               "title": "Practical Methods for Estimation of Dynamic Discrete Choice Models",
@@ -30739,7 +32189,34 @@
                 "Structural Estimation",
                 "Dynamic Structural Models"
               ],
-              "citations": 149
+              "citations": 149,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Structural Estimation",
+                "Dynamic Structural Models"
+              ],
+              "summary": "This paper provides practical methods for estimating dynamic discrete choice models, addressing the gap between theoretical frameworks and real-world implementation. It serves as a guide for researchers and practitioners looking to apply these models effectively.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to estimate dynamic discrete choice models",
+                "practical methods for structural estimation",
+                "implementing dynamic structural models",
+                "bridging theory and implementation in econometrics",
+                "applications of dynamic discrete choice models",
+                "best practices for structural estimation"
+              ],
+              "use_cases": [
+                "Estimating consumer choice behavior over time",
+                "Analyzing the impact of policy changes on decision-making processes"
+              ],
+              "research_questions": [
+                "What are effective methods for estimating dynamic discrete choice models?"
+              ]
             },
             {
               "title": "Changing Their Tune: How Consumers' Adoption of Online Streaming Affects Music Consumption and Discovery",
@@ -30751,7 +32228,36 @@
                 "Structural Estimation",
                 "Dynamic Structural Models"
               ],
-              "citations": 254
+              "citations": 254,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "music-consumption",
+                "streaming",
+                "consumer-behavior"
+              ],
+              "summary": "This paper addresses how the adoption of online streaming services impacts music consumption and discovery. It contributes to understanding the dynamics of music consumption by analyzing individual listening histories across various streaming platforms.",
+              "audience": [
+                "Mid-DS",
+                "Curious-browser"
+              ],
+              "synthetic_questions": [
+                "How does online streaming affect music consumption?",
+                "What are the effects of streaming on music diversity?",
+                "How do consumers discover music through streaming?",
+                "What is the impact of streaming adoption on listening habits?",
+                "How to analyze individual listening histories?",
+                "What are the consumption dynamics in music streaming?"
+              ],
+              "use_cases": [
+                "Analyzing consumer behavior in digital music markets",
+                "Evaluating the impact of streaming on music industry revenue",
+                "Studying changes in music discovery methods"
+              ],
+              "key_findings": "Streaming adoption increases quantity and diversity of music consumption.",
+              "research_questions": [
+                "How does consumers' adoption of online streaming affect their music consumption and discovery?"
+              ]
             },
             {
               "title": "State Dependence and Alternative Explanations for Consumer Inertia",
@@ -30763,7 +32269,39 @@
                 "Structural Estimation",
                 "Dynamic Structural Models"
               ],
-              "citations": 362
+              "citations": 362,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Structural Estimation",
+                "Dynamic Structural Models"
+              ],
+              "summary": "This paper addresses the issue of consumer inertia by separating structural state dependence from heterogeneity using household scanner data. Its main contribution is enhancing the understanding of subscription stickiness and switching costs in digital services.",
+              "audience": [
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What is consumer inertia?",
+                "How does state dependence affect consumer behavior?",
+                "What are switching costs in digital services?",
+                "How to analyze household scanner data?",
+                "What is structural estimation?",
+                "How to model subscription stickiness?",
+                "What are dynamic structural models?",
+                "How to separate state dependence from heterogeneity?"
+              ],
+              "use_cases": [
+                "Analyzing consumer behavior in subscription services",
+                "Evaluating the impact of switching costs on customer retention",
+                "Understanding dynamics of consumer choices in digital markets"
+              ],
+              "research_questions": [
+                "What are the factors contributing to consumer inertia?"
+              ],
+              "datasets_used": [
+                "household scanner data"
+              ]
             }
           ]
         },
@@ -30782,7 +32320,36 @@
                 "Structural Estimation",
                 "Auction Estimation"
               ],
-              "citations": 715
+              "citations": 715,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "structural-estimation",
+                "auction-estimation"
+              ],
+              "summary": "This paper addresses the problem of estimating private value distributions in first-price auctions using nonparametric bid inversion. Its main contribution is the introduction of a method that allows for the recovery of these distributions without parametric assumptions.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to estimate private value distributions in auctions",
+                "what is nonparametric bid inversion",
+                "how to analyze first-price auctions",
+                "methods for auction estimation",
+                "applications of structural estimation in auctions",
+                "what are the challenges in auction estimation"
+              ],
+              "use_cases": [
+                "Estimating bidder behavior in first-price auctions",
+                "Analyzing the impact of auction design on bidding strategies",
+                "Recovering value distributions for policy analysis in auction markets"
+              ],
+              "research_questions": [
+                "How can private value distributions be estimated in first-price auctions?"
+              ],
+              "implements_method": "nonparametric bid inversion"
             },
             {
               "title": "Identification of Standard Auction Models",
@@ -30794,7 +32361,33 @@
                 "Structural Estimation",
                 "Auction Estimation"
               ],
-              "citations": 73
+              "citations": 73,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Structural Estimation",
+                "Auction Estimation"
+              ],
+              "summary": "This paper establishes nonparametric identification conditions for major auction formats, addressing the challenges in auction estimation. Its main contribution lies in providing a framework for understanding the identification of auction models.",
+              "audience": [
+                "Mid-DS",
+                "Senior-DS"
+              ],
+              "synthetic_questions": [
+                "What are nonparametric identification conditions for auctions?",
+                "How to identify auction models?",
+                "What is auction estimation?",
+                "What are the major auction formats?",
+                "How to apply structural estimation in auctions?",
+                "What challenges exist in auction estimation?"
+              ],
+              "use_cases": [
+                "Analyzing bidding strategies in auctions",
+                "Evaluating the efficiency of different auction formats"
+              ],
+              "research_questions": [
+                "What are the identification conditions for major auction formats?"
+              ]
             },
             {
               "title": "Nonparametric Approaches to Auctions",
@@ -30806,7 +32399,35 @@
                 "Structural Estimation",
                 "Auction Estimation"
               ],
-              "citations": 4
+              "citations": 4,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Structural Estimation",
+                "Auction Estimation"
+              ],
+              "summary": "This paper provides a comprehensive overview of nonparametric methods in auction theory, focusing on identification and estimation techniques. Its main contribution is the authoritative survey of these approaches, which aids in understanding auction dynamics.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What are nonparametric approaches to auctions?",
+                "How to estimate auction outcomes?",
+                "What is structural estimation in auctions?",
+                "What methods are used for auction estimation?",
+                "How to identify parameters in auction models?",
+                "What are the challenges in auction estimation?"
+              ],
+              "use_cases": [
+                "Applying nonparametric methods to real-world auction data",
+                "Estimating the effects of auction design on outcomes",
+                "Identifying bidder behavior in competitive auctions"
+              ],
+              "research_questions": [
+                "What are the identification and estimation challenges in auction theory?"
+              ]
             },
             {
               "title": "Identification and Estimation of Auction Models with Unobserved Heterogeneity",
@@ -30818,7 +32439,35 @@
                 "Structural Estimation",
                 "Auction Estimation"
               ],
-              "citations": 219
+              "citations": 219,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "structural-estimation",
+                "auction-estimation"
+              ],
+              "summary": "This paper addresses the issue of unobserved heterogeneity in auction models by employing a multiplicative structure. Its main contribution lies in the application of these models in procurement settings.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to estimate auction models",
+                "what is unobserved heterogeneity in auctions",
+                "how to apply structural estimation in procurement",
+                "methods for auction estimation",
+                "impact of unobserved factors on auction outcomes",
+                "how to model heterogeneity in auctions"
+              ],
+              "use_cases": [
+                "Estimating the effects of bidder characteristics on auction outcomes",
+                "Analyzing procurement strategies in public auctions",
+                "Improving auction design based on bidder behavior"
+              ],
+              "research_questions": [
+                "What is the impact of unobserved heterogeneity on auction outcomes?"
+              ]
             },
             {
               "title": "An Empirical Perspective on Auctions",
@@ -30830,7 +32479,38 @@
                 "Structural Estimation",
                 "Auction Estimation"
               ],
-              "citations": 34
+              "citations": 34,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "auction-theory",
+                "structural-estimation"
+              ],
+              "summary": "This paper addresses the practical application of auction theory through empirical testing and structural estimation. It contributes to the understanding of how auction mechanisms can be analyzed and estimated in real-world scenarios.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "what is auction theory?",
+                "how to apply structural estimation in auctions?",
+                "what are the empirical methods for auction analysis?",
+                "how to test auction theory?",
+                "what is the role of structural estimation in auctions?",
+                "how to estimate auction outcomes?"
+              ],
+              "use_cases": [
+                "Analyzing bidding strategies in real-world auctions",
+                "Estimating the impact of auction design on outcomes",
+                "Testing theoretical predictions of auction models"
+              ],
+              "methodology_tags": [
+                "structural-estimation"
+              ],
+              "research_questions": [
+                "How can auction theory be empirically tested and estimated?"
+              ]
             },
             {
               "title": "Internet Advertising and the Generalized Second-Price Auction: Selling Billions of Dollars Worth of Keywords",
@@ -30842,7 +32522,36 @@
                 "Structural Estimation",
                 "Auction Estimation"
               ],
-              "citations": 1598
+              "citations": 1598,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "auction-theory",
+                "advertising-economics"
+              ],
+              "summary": "This paper analyzes the Generalized Second-Price auction mechanism used by major online platforms like Google and Yahoo. It characterizes equilibria and proves revenue equivalence under complete information, providing foundational insights for ad auction design.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What is the Generalized Second-Price auction?",
+                "How does the GSP auction mechanism work?",
+                "What are the equilibria in auction theory?",
+                "How does revenue equivalence apply in auctions?",
+                "What are the implications of GSP auctions for online advertising?",
+                "How to design effective ad auctions?"
+              ],
+              "use_cases": [
+                "Designing online advertising auctions",
+                "Analyzing competition in digital ad markets",
+                "Evaluating revenue models for search engines"
+              ],
+              "key_findings": "This paper proves revenue equivalence under complete information.",
+              "research_questions": [
+                "What are the equilibria of the Generalized Second-Price auction?"
+              ]
             },
             {
               "title": "A Structural Model of Sponsored Search Advertising Auctions",
@@ -30854,7 +32563,42 @@
                 "Structural Estimation",
                 "Auction Estimation"
               ],
-              "citations": 117
+              "citations": 117,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "structural-estimation",
+                "auction-theory"
+              ],
+              "topic_tags": [
+                "structural-estimation",
+                "auction",
+                "advertising"
+              ],
+              "summary": "This paper addresses the estimation of bidder valuations in sponsored search auctions using structural econometric methods. Its main contribution is bridging GSP theory with empirical estimation of ad auction data.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to estimate bidder valuations in auctions",
+                "what is GSP theory in advertising",
+                "how to apply structural econometric methods",
+                "what are the challenges in auction estimation",
+                "how does sponsored search advertising work",
+                "what data is used in ad auction analysis"
+              ],
+              "use_cases": [
+                "estimating bidder behavior in online auctions",
+                "analyzing the effectiveness of advertising strategies",
+                "developing auction-based pricing models"
+              ],
+              "methodology_tags": [
+                "structural-estimation"
+              ],
+              "research_questions": [
+                "What are the bidder valuations in sponsored search auctions?"
+              ]
             }
           ]
         },
@@ -30873,7 +32617,42 @@
                 "Structural Estimation",
                 "Production & Cost Estimation"
               ],
-              "citations": 1153
+              "citations": 1153,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "structural-estimation",
+                "production-theory"
+              ],
+              "topic_tags": [
+                "structural-estimation",
+                "telecommunications",
+                "productivity"
+              ],
+              "summary": "This paper addresses the challenge of measuring unobserved productivity in the telecommunications equipment industry. It introduces a foundational control function approach that uses investment as a proxy for productivity, contributing to the understanding of productivity dynamics in this sector.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to measure productivity in telecommunications",
+                "what is the control function approach",
+                "how to proxy for unobserved productivity",
+                "impact of investment on productivity",
+                "structural estimation in economics",
+                "analysis of telecommunications equipment industry"
+              ],
+              "use_cases": [
+                "Evaluating productivity changes in telecommunications firms",
+                "Applying control function approaches in empirical research",
+                "Understanding investment impacts on productivity metrics"
+              ],
+              "methodology_tags": [
+                "control-function"
+              ],
+              "research_questions": [
+                "How can investment be used to measure unobserved productivity?"
+              ]
             },
             {
               "title": "Estimating Production Functions Using Inputs to Control for Unobservables",
@@ -30885,7 +32664,34 @@
                 "Structural Estimation",
                 "Production & Cost Estimation"
               ],
-              "citations": 14
+              "citations": 14,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Structural Estimation",
+                "Production & Cost Estimation"
+              ],
+              "summary": "This paper addresses the challenge of estimating production functions by using intermediate inputs as proxies for unobservables. Its main contribution is demonstrating that this approach is more widely applicable than traditional methods due to better data availability.",
+              "audience": [
+                "Mid-DS",
+                "Curious-browser"
+              ],
+              "synthetic_questions": [
+                "how to estimate production functions",
+                "what are intermediate inputs in production estimation",
+                "how to control for unobservables in econometrics",
+                "applications of structural estimation in production",
+                "advantages of using proxies in economic models",
+                "how to improve data availability for production estimates"
+              ],
+              "use_cases": [
+                "Estimating production functions in industries with limited data",
+                "Applying structural estimation techniques in economic research",
+                "Using intermediate inputs to enhance econometric models"
+              ],
+              "research_questions": [
+                "What is the role of intermediate inputs in estimating production functions?"
+              ]
             },
             {
               "title": "Identification Properties of Recent Production Function Estimators",
@@ -30897,7 +32703,40 @@
                 "Structural Estimation",
                 "Production & Cost Estimation"
               ],
-              "citations": 1977
+              "citations": 1977,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "structural-estimation",
+                "production-functions"
+              ],
+              "topic_tags": [
+                "structural-estimation",
+                "production-cost-estimation"
+              ],
+              "summary": "This paper resolves functional dependence problems in output and labor productivity models. The main contribution is establishing the 'ACF' estimator as a standard practice in production function estimation.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to resolve functional dependence in production functions",
+                "what is the ACF estimator",
+                "how to estimate production functions",
+                "what are recent advancements in production function estimators",
+                "how to apply structural estimation in economics",
+                "what are the identification properties of production function estimators"
+              ],
+              "use_cases": [
+                "Estimating production functions in empirical research",
+                "Analyzing cost structures in firms",
+                "Evaluating the impact of labor on productivity"
+              ],
+              "key_findings": "The 'ACF' estimator is now standard practice.",
+              "research_questions": [
+                "What are the identification properties of recent production function estimators?"
+              ],
+              "implements_method": "ACF"
             },
             {
               "title": "Markups and Firm-Level Export Status",
@@ -30909,7 +32748,41 @@
                 "Structural Estimation",
                 "Production & Cost Estimation"
               ],
-              "citations": 1278
+              "citations": 1278,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "production-function",
+                "markup-estimation"
+              ],
+              "topic_tags": [
+                "structural-estimation",
+                "production-cost-estimation"
+              ],
+              "summary": "This paper addresses the estimation of markups at the firm level and their relationship with export status. Its main contribution is the development of a highly influential methodology that combines production function and markup estimation.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to estimate markups",
+                "impact of export status on firm performance",
+                "methods for production function estimation",
+                "what is structural estimation",
+                "how to combine production function and markup estimation",
+                "importance of markups in international trade"
+              ],
+              "use_cases": [
+                "Analyzing the impact of export status on firm profitability",
+                "Estimating production functions for policy evaluation",
+                "Understanding the relationship between markups and market structure"
+              ],
+              "methodology_tags": [
+                "structural-estimation"
+              ],
+              "research_questions": [
+                "How do markups vary with firm-level export status?"
+              ]
             },
             {
               "title": "On the Identification of Gross Output Production Functions",
@@ -30921,7 +32794,34 @@
                 "Structural Estimation",
                 "Production & Cost Estimation"
               ],
-              "citations": 83
+              "citations": 83,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Structural Estimation",
+                "Production & Cost Estimation"
+              ],
+              "summary": "This paper addresses the identification issues associated with gross output in production functions. It contributes by applying nonparametric instrumental variable methods to resolve these challenges.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to resolve identification issues in gross output",
+                "what are nonparametric IV methods",
+                "how to estimate production functions",
+                "what is gross output production function",
+                "how to apply structural estimation",
+                "what are the challenges in production and cost estimation"
+              ],
+              "use_cases": [],
+              "methodology_tags": [
+                "instrumental-variables"
+              ],
+              "research_questions": [
+                "What are the identification issues with gross output?"
+              ]
             }
           ]
         },
@@ -30940,7 +32840,34 @@
                 "Structural Estimation",
                 "Platform & Network Effects Estimation"
               ],
-              "citations": 2935
+              "citations": 2935,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Structural Estimation",
+                "Platform & Network Effects Estimation"
+              ],
+              "summary": "This paper provides a canonical theoretical framework for understanding two-sided markets, emphasizing the importance of price structure and introducing key concepts such as membership fees and indirect network effects.",
+              "audience": [
+                "Mid-DS",
+                "Curious-browser"
+              ],
+              "synthetic_questions": [
+                "What are two-sided markets?",
+                "How do membership fees affect two-sided markets?",
+                "What are indirect network effects?",
+                "How to analyze platform pricing structures?",
+                "What is the role of usage fees in two-sided markets?",
+                "How to estimate network effects in economics?"
+              ],
+              "use_cases": [
+                "Analyzing pricing strategies for platforms",
+                "Evaluating the impact of fees on user engagement in two-sided markets",
+                "Designing economic models for platform businesses"
+              ],
+              "research_questions": [
+                "What defines a two-sided market and how does price structure influence it?"
+              ]
             },
             {
               "title": "Competition Between Networks: A Study of the Market for Yellow Pages",
@@ -30952,7 +32879,39 @@
                 "Structural Estimation",
                 "Platform & Network Effects Estimation"
               ],
-              "citations": 517
+              "citations": 517,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "structural-estimation",
+                "platform-effects",
+                "network-effects"
+              ],
+              "summary": "This paper addresses the estimation of cross-side network effects in two-sided markets, providing a rigorous structural estimation approach. Its main contribution lies in estimating simultaneous equations for consumer demand, advertiser demand, and publisher pricing.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to estimate cross-side network effects",
+                "what is structural estimation in two-sided markets",
+                "how to analyze consumer and advertiser demand",
+                "what are platform effects in economics",
+                "how to model pricing in two-sided markets",
+                "what are the implications of network effects on competition"
+              ],
+              "use_cases": [
+                "Analyzing the impact of network effects on market pricing",
+                "Estimating demand in two-sided platforms",
+                "Evaluating competition strategies among yellow pages providers"
+              ],
+              "methodology_tags": [
+                "structural-estimation"
+              ],
+              "research_questions": [
+                "What are the cross-side network effects in two-sided markets?"
+              ]
             },
             {
               "title": "A Price Theory of Multi-Sided Platforms",
@@ -30964,7 +32923,35 @@
                 "Structural Estimation",
                 "Platform & Network Effects Estimation"
               ],
-              "citations": 59
+              "citations": 59,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Structural Estimation",
+                "Platform & Network Effects Estimation"
+              ],
+              "summary": "This paper addresses the pricing strategies of multi-sided platforms, highlighting how these platforms internalize the externalities associated with marginal users. It contributes to the understanding of market power measurement in platform markets.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What is the price theory of multi-sided platforms?",
+                "How do platforms internalize user externalities?",
+                "What is Spence distortion in platform pricing?",
+                "How to measure market power in platform markets?",
+                "What are the implications of monopoly platform pricing?",
+                "How do network effects impact platform pricing strategies?"
+              ],
+              "use_cases": [
+                "Analyzing pricing strategies for new multi-sided platforms",
+                "Evaluating market power in existing platform markets",
+                "Understanding the impact of user externalities on platform pricing"
+              ],
+              "research_questions": [
+                "How do multi-sided platforms determine pricing in the presence of externalities?"
+              ]
             },
             {
               "title": "Identification of Peer Effects Through Social Networks",
@@ -30976,7 +32963,35 @@
                 "Structural Estimation",
                 "Platform & Network Effects Estimation"
               ],
-              "citations": 1
+              "citations": 1,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Structural Estimation",
+                "Platform & Network Effects Estimation"
+              ],
+              "summary": "This paper provides necessary and sufficient conditions for identifying peer effects using network structure. It demonstrates how intransitive networks can resolve Manski's reflection problem.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to identify peer effects in social networks",
+                "what are the conditions for identifying peer effects",
+                "how do intransitive networks solve Manski's reflection problem",
+                "what is the reflection problem in peer effects",
+                "how to analyze network structures in economics",
+                "what methods are used for structural estimation in networks"
+              ],
+              "use_cases": [
+                "Analyzing peer influence in educational settings",
+                "Evaluating social media effects on consumer behavior",
+                "Studying the impact of network structures on economic outcomes"
+              ],
+              "research_questions": [
+                "What conditions are necessary for identifying peer effects in social networks?"
+              ]
             },
             {
               "title": "Distinguishing Influence-Based Contagion from Homophily-Driven Diffusion in Dynamic Networks",
@@ -30988,7 +33003,39 @@
                 "Structural Estimation",
                 "Platform & Network Effects Estimation"
               ],
-              "citations": 1214
+              "citations": 1214,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Structural Estimation",
+                "Platform & Network Effects Estimation"
+              ],
+              "summary": "This paper addresses the challenge of distinguishing between peer influence and selection in social networks. It contributes a methodology that demonstrates previous methods significantly overestimate influence, providing essential insights for identifying network effects.",
+              "audience": [
+                "Mid-DS",
+                "Senior-DS",
+                "Curious-browser"
+              ],
+              "synthetic_questions": [
+                "how to separate peer influence from selection",
+                "what is influence-based contagion",
+                "how to measure network effects",
+                "methods for analyzing dynamic networks",
+                "impact of homophily on diffusion",
+                "how to estimate peer influence in networks"
+              ],
+              "use_cases": [
+                "Analyzing social media influence",
+                "Evaluating marketing strategies in networks",
+                "Studying information diffusion in online platforms"
+              ],
+              "key_findings": "Previous methods overestimate influence by 300-700%.",
+              "research_questions": [
+                "How can we distinguish between influence-based contagion and homophily-driven diffusion?"
+              ],
+              "datasets_used": [
+                "Yahoo users"
+              ]
             },
             {
               "title": "Evidence on Learning and Network Externalities in the Diffusion of Home Computers",
@@ -31000,7 +33047,37 @@
                 "Structural Estimation",
                 "Platform & Network Effects Estimation"
               ],
-              "citations": 422
+              "citations": 422,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Structural Estimation",
+                "Platform & Network Effects Estimation"
+              ],
+              "summary": "This paper addresses the distinction between network externalities and learning spillovers in the diffusion of home computers. It contributes empirical evidence supporting the communication network hypothesis by analyzing geographic variations in email and internet use.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS",
+                "Senior-DS"
+              ],
+              "synthetic_questions": [
+                "What are network externalities in technology adoption?",
+                "How do learning spillovers affect technology diffusion?",
+                "What empirical evidence exists for the communication network hypothesis?",
+                "How to analyze geographic variations in technology use?",
+                "What is the impact of home computers on communication?",
+                "How to estimate the effects of email and internet use on technology adoption?"
+              ],
+              "use_cases": [
+                "Evaluating the impact of technology on communication networks.",
+                "Understanding the role of learning in technology adoption.",
+                "Analyzing the effects of geographic factors on technology diffusion."
+              ],
+              "key_findings": "The effects of network externalities are tied to email and internet use.",
+              "research_questions": [
+                "What are the effects of network externalities and learning spillovers in technology diffusion?"
+              ]
             }
           ]
         },
@@ -31019,7 +33096,44 @@
                 "Structural Estimation",
                 "Digital Goods, Streaming & Content Markets"
               ],
-              "citations": 107
+              "citations": 107,
+              "difficulty": "advanced",
+              "prerequisites": [
+                "structural-estimation",
+                "Nash-bargaining"
+              ],
+              "topic_tags": [
+                "structural-estimation",
+                "digital-goods",
+                "streaming-markets"
+              ],
+              "summary": "This paper addresses the welfare implications of bundling in multichannel television markets. It contributes by presenting a full industry structural model that incorporates various factors, revealing that unbundling significantly increases negotiated input costs.",
+              "audience": [
+                "Mid-DS",
+                "Senior-DS"
+              ],
+              "synthetic_questions": [
+                "What are the welfare effects of bundling in television markets?",
+                "How does unbundling affect input costs?",
+                "What is a structural model in economics?",
+                "How do distributors negotiate with content providers?",
+                "What is Nash bargaining in the context of media?",
+                "What are the implications of bundling for digital goods?",
+                "How does viewership impact pricing strategies?",
+                "What is the impact of bundling on consumer welfare?"
+              ],
+              "use_cases": [
+                "Analyzing pricing strategies for streaming services",
+                "Evaluating the effects of bundling on consumer choice",
+                "Studying the negotiation dynamics between content providers and distributors"
+              ],
+              "methodology_tags": [
+                "structural-estimation"
+              ],
+              "key_findings": "Unbundling raises negotiated input costs 103%.",
+              "research_questions": [
+                "What are the welfare effects of bundling in multichannel television markets?"
+              ]
             },
             {
               "title": "As Streaming Reaches Flood Stage, Does it Stimulate or Depress Music Sales?",
@@ -31031,7 +33145,37 @@
                 "Structural Estimation",
                 "Digital Goods, Streaming & Content Markets"
               ],
-              "citations": 117
+              "citations": 117,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Structural Estimation",
+                "Digital Goods",
+                "Streaming & Content Markets"
+              ],
+              "summary": "This paper investigates the impact of streaming on music sales, particularly focusing on Spotify's growth. It finds that while streaming displaces some track sales, it also reduces piracy, leading to a net neutral effect on revenue.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What is the impact of streaming on music sales?",
+                "Does streaming reduce music piracy?",
+                "How does Spotify affect music sales?",
+                "What are the economic effects of streaming services?",
+                "How many streams displace a track sale?",
+                "Is streaming revenue-neutral for the music industry?"
+              ],
+              "use_cases": [
+                "Analyzing the economic impact of digital goods",
+                "Evaluating the effects of streaming on traditional sales",
+                "Studying market dynamics in content industries"
+              ],
+              "key_findings": "137 streams displace 1 track sale but streaming also displaces piracy, making it approximately revenue-neutral.",
+              "research_questions": [
+                "Does streaming stimulate or depress music sales?"
+              ]
             },
             {
               "title": "Music for a Song: An Empirical Look at Uniform Pricing and Its Alternatives",
@@ -31043,7 +33187,42 @@
                 "Structural Estimation",
                 "Digital Goods, Streaming & Content Markets"
               ],
-              "citations": 17
+              "citations": 17,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "structural-estimation"
+              ],
+              "topic_tags": [
+                "digital-goods",
+                "streaming-markets",
+                "pricing-strategies"
+              ],
+              "summary": "This paper addresses the problem of pricing strategies for digital songs by estimating willingness-to-pay and simulating revenue under various pricing alternatives. Its main contribution is demonstrating that bundling can significantly increase revenue compared to uniform pricing.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to estimate willingness-to-pay for digital goods",
+                "what are the effects of bundling on revenue",
+                "how does uniform pricing compare to alternative pricing strategies",
+                "what is the impact of pricing strategies in streaming markets",
+                "how to simulate revenue under different pricing models",
+                "what are the benefits of two-part tariffs in digital content"
+              ],
+              "use_cases": [
+                "Analyzing pricing strategies for digital music platforms",
+                "Evaluating revenue models for streaming services",
+                "Designing pricing experiments for digital goods"
+              ],
+              "methodology_tags": [
+                "structural-estimation"
+              ],
+              "key_findings": "Bundling raises revenue 16-33% over uniform pricing.",
+              "research_questions": [
+                "What is the impact of different pricing strategies on revenue for digital songs?"
+              ]
             },
             {
               "title": "The Effect of File Sharing on Record Sales: An Empirical Analysis",
@@ -31055,7 +33234,41 @@
                 "Structural Estimation",
                 "Digital Goods, Streaming & Content Markets"
               ],
-              "citations": 876
+              "citations": 876,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "structural-estimation"
+              ],
+              "topic_tags": [
+                "digital-goods",
+                "streaming-content-markets",
+                "structural-estimation"
+              ],
+              "summary": "This paper analyzes the impact of file sharing on record sales using matched data. It establishes a framework for understanding the effects of digital piracy on the music industry.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What is the effect of file sharing on record sales?",
+                "How does digital piracy impact the music industry?",
+                "What methodologies are used to analyze file sharing effects?",
+                "What data is used to study the relationship between file sharing and sales?",
+                "How do school holidays affect record sales?",
+                "What empirical methods are applied in piracy research?"
+              ],
+              "use_cases": [
+                "Analyzing the impact of digital piracy on sales in various industries",
+                "Evaluating the effectiveness of copyright policies",
+                "Understanding consumer behavior in streaming markets"
+              ],
+              "methodology_tags": [
+                "instrumental-variables"
+              ],
+              "research_questions": [
+                "What is the effect of file sharing on record sales?"
+              ]
             },
             {
               "title": "Piracy and Copyright Enforcement Mechanisms",
@@ -31067,7 +33280,36 @@
                 "Structural Estimation",
                 "Digital Goods, Streaming & Content Markets"
               ],
-              "citations": 46
+              "citations": 46,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Structural Estimation",
+                "Digital Goods",
+                "Streaming & Content Markets"
+              ],
+              "summary": "This paper addresses the impacts of piracy on creative incentives and the effectiveness of copyright enforcement mechanisms. It serves as a methodological guide for researchers studying digital content.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What are the effects of piracy on digital content?",
+                "How does copyright enforcement impact creative incentives?",
+                "What methodologies are used to study piracy displacement?",
+                "How effective are different enforcement mechanisms?",
+                "What is the relationship between piracy and streaming markets?",
+                "How to analyze the economic impact of piracy?"
+              ],
+              "use_cases": [
+                "Evaluating the impact of piracy on a specific digital market",
+                "Designing enforcement strategies for copyright protection",
+                "Conducting research on consumer behavior in streaming services"
+              ],
+              "research_questions": [
+                "What are the effects of piracy on copyright enforcement?"
+              ]
             }
           ]
         },
@@ -31086,7 +33328,36 @@
                 "Structural Estimation",
                 "E-commerce & Online Retail"
               ],
-              "citations": 1187
+              "citations": 1187,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Structural Estimation",
+                "E-commerce",
+                "Online Retail"
+              ],
+              "summary": "This paper addresses the welfare gains from increased product variety in the digital economy, specifically in online bookselling. It contributes foundational insights into the significance of e-commerce by quantifying the benefits of variety compared to price competition.",
+              "audience": [
+                "Early-PhD",
+                "Curious-browser"
+              ],
+              "synthetic_questions": [
+                "What is consumer surplus in the digital economy?",
+                "How does product variety impact welfare?",
+                "What are the benefits of e-commerce?",
+                "How to estimate the value of increased product variety?",
+                "What is the Long Tail effect in online retail?",
+                "How does Amazon's variety compare to price competition?"
+              ],
+              "use_cases": [
+                "Evaluating the impact of product variety on consumer welfare",
+                "Analyzing e-commerce strategies for online retailers",
+                "Understanding the economic implications of digital marketplaces"
+              ],
+              "key_findings": "Amazon variety benefits were 7-10x larger than price competition gains.",
+              "research_questions": [
+                "What is the value of increased product variety at online booksellers?"
+              ]
             },
             {
               "title": "Search, Obfuscation, and Price Elasticities on the Internet",
@@ -31098,7 +33369,35 @@
                 "Structural Estimation",
                 "E-commerce & Online Retail"
               ],
-              "citations": 551
+              "citations": 551,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Structural Estimation",
+                "E-commerce",
+                "Online Retail"
+              ],
+              "summary": "This paper addresses the price dispersion puzzle by explaining why price dispersion persists despite low online search costs. It contributes to the understanding of retailer strategies, including the use of add-on pricing and complex fees to make search more difficult for consumers.",
+              "audience": [
+                "Mid-DS",
+                "Senior-DS"
+              ],
+              "synthetic_questions": [
+                "What is the price dispersion puzzle?",
+                "How do retailers use add-on pricing?",
+                "Why does price dispersion persist online?",
+                "What are the effects of search costs on pricing?",
+                "How does obfuscation affect consumer behavior?",
+                "What strategies do retailers employ to influence search?"
+              ],
+              "use_cases": [
+                "Analyzing pricing strategies in online retail",
+                "Understanding consumer behavior in e-commerce",
+                "Developing pricing models that account for search costs"
+              ],
+              "research_questions": [
+                "What explains the persistence of price dispersion in online markets?"
+              ]
             },
             {
               "title": "Testing Models of Consumer Search Using Data on Web Browsing and Purchasing Behavior",
@@ -31110,7 +33409,37 @@
                 "Structural Estimation",
                 "E-commerce & Online Retail"
               ],
-              "citations": 459
+              "citations": 459,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "structural-estimation",
+                "e-commerce",
+                "online-retail"
+              ],
+              "summary": "This paper addresses the problem of understanding consumer search behavior in online environments by utilizing clickstream data. Its main contribution is the rejection of standard sequential search models in favor of a fixed sample size model, providing a methodological benchmark for structural search estimation.",
+              "audience": [
+                "Mid-DS",
+                "Senior-DS",
+                "Curious-browser"
+              ],
+              "synthetic_questions": [
+                "how to analyze consumer search behavior",
+                "what is fixed sample size model in search estimation",
+                "how to use clickstream data for research",
+                "what are the limitations of sequential search models",
+                "how to estimate structural search models",
+                "what is the impact of search sequences on purchasing behavior"
+              ],
+              "use_cases": [
+                "Analyzing consumer behavior in e-commerce",
+                "Estimating search costs in online retail",
+                "Benchmarking structural estimation methods"
+              ],
+              "key_findings": "This paper rejects standard sequential search in favor of a fixed sample size model.",
+              "research_questions": [
+                "What models best explain consumer search behavior in online environments?"
+              ]
             },
             {
               "title": "Consumer Price Search and Platform Design in Internet Commerce",
@@ -31122,7 +33451,36 @@
                 "Structural Estimation",
                 "E-commerce & Online Retail"
               ],
-              "citations": 209
+              "citations": 209,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Structural Estimation",
+                "E-commerce",
+                "Online Retail"
+              ],
+              "summary": "This paper addresses the equilibrium model of search and price competition on platforms like eBay. It quantifies the trade-offs in platform design between match quality and price competition using detailed browsing data.",
+              "audience": [
+                "Mid-DS",
+                "Senior-DS",
+                "Curious-browser"
+              ],
+              "synthetic_questions": [
+                "What is the impact of platform design on price competition?",
+                "How does consumer price search affect e-commerce?",
+                "What are the trade-offs in match quality and price competition?",
+                "How to model search behavior in online marketplaces?",
+                "What data is needed to analyze price competition on platforms?",
+                "How to evaluate platform design strategies?"
+              ],
+              "use_cases": [
+                "Analyzing consumer behavior on e-commerce platforms",
+                "Designing pricing strategies for online marketplaces",
+                "Improving match quality in digital platforms"
+              ],
+              "research_questions": [
+                "What are the effects of platform design on consumer price search and competition?"
+              ]
             },
             {
               "title": "Auctions versus Posted Prices in Online Markets",
@@ -31134,7 +33492,40 @@
                 "Structural Estimation",
                 "E-commerce & Online Retail"
               ],
-              "citations": 0
+              "citations": 0,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "structural-estimation",
+                "e-commerce",
+                "online-retail"
+              ],
+              "summary": "This paper addresses the trade-offs between price discovery and convenience in online markets, particularly focusing on eBay's transition from auctions to posted prices. The main contribution is the estimation of demand trade-offs using data from millions of seller experiments.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS",
+                "Curious-browser"
+              ],
+              "synthetic_questions": [
+                "What are the advantages of posted prices over auctions?",
+                "How does eBay's pricing strategy affect seller behavior?",
+                "What is the impact of pricing methods on consumer convenience?",
+                "How to analyze demand trade-offs in online markets?",
+                "What factors influence the choice between auctions and posted prices?",
+                "How to estimate the effectiveness of different pricing strategies?"
+              ],
+              "use_cases": [
+                "Analyzing the effectiveness of pricing strategies in e-commerce",
+                "Evaluating seller performance in online marketplaces",
+                "Understanding consumer behavior in response to different pricing models"
+              ],
+              "methodology_tags": [
+                "structural-estimation"
+              ],
+              "research_questions": [
+                "What are the demand trade-offs between price discovery and convenience in online markets?"
+              ]
             }
           ]
         },
@@ -31153,7 +33544,36 @@
                 "Structural Estimation",
                 "Search, Advertising & Attention"
               ],
-              "citations": 342
+              "citations": 342,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Structural Estimation",
+                "Search",
+                "Advertising & Attention"
+              ],
+              "summary": "This paper addresses the problem of estimating search costs by developing a methodology that derives search cost distributions from equilibrium prices. Its main contribution lies in providing a foundational approach that has influenced subsequent empirical search estimation studies.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to estimate search costs from price distributions",
+                "what is the methodology for backing out search cost distributions",
+                "how do equilibrium prices relate to search costs",
+                "what are the implications of search costs in advertising",
+                "how to conduct empirical search estimation",
+                "what foundational methodologies exist for search cost estimation"
+              ],
+              "use_cases": [
+                "Estimating search costs in online advertising markets",
+                "Analyzing consumer behavior in price search",
+                "Evaluating the efficiency of search processes in various markets"
+              ],
+              "research_questions": [
+                "How can search costs be estimated from price distributions?"
+              ]
             },
             {
               "title": "The Power of Rankings: Quantifying the Effect of Rankings on Online Consumer Search and Purchase Decisions",
@@ -31165,7 +33585,37 @@
                 "Structural Estimation",
                 "Search, Advertising & Attention"
               ],
-              "citations": 297
+              "citations": 297,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Structural Estimation",
+                "Search",
+                "Advertising & Attention"
+              ],
+              "summary": "This paper quantifies the effect of rankings on online consumer search and purchase decisions using a field experiment. It provides causal evidence for position effects in digital platforms, contributing significantly to the understanding of ranking effects.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What is the impact of rankings on consumer behavior?",
+                "How do rankings influence online purchases?",
+                "What are position effects in digital advertising?",
+                "How to measure the effect of rankings on search outcomes?",
+                "What methodologies are used to analyze ranking effects?",
+                "How do field experiments inform our understanding of consumer search?"
+              ],
+              "use_cases": [
+                "Improving online marketing strategies based on ranking effects",
+                "Designing user interfaces that optimize product visibility",
+                "Analyzing consumer behavior in response to ranking changes"
+              ],
+              "key_findings": "Causally identifies position effects of $1.92 per position.",
+              "research_questions": [
+                "What is the effect of rankings on online consumer search and purchase decisions?"
+              ]
             },
             {
               "title": "Advertising, Consumer Awareness, and Choice: Evidence from the U.S. Banking Industry",
@@ -31177,7 +33627,42 @@
                 "Structural Estimation",
                 "Search, Advertising & Attention"
               ],
-              "citations": 350
+              "citations": 350,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "costly-search",
+                "endogenous-consideration-set"
+              ],
+              "topic_tags": [
+                "structural-estimation",
+                "search",
+                "advertising"
+              ],
+              "summary": "This paper addresses the impact of advertising on consumer awareness and choice within the U.S. banking industry. Its main contribution is demonstrating that advertising primarily shifts consumer awareness rather than preferences, which in turn enhances competition.",
+              "audience": [
+                "Mid-DS",
+                "Senior-DS"
+              ],
+              "synthetic_questions": [
+                "What is the effect of advertising on consumer awareness?",
+                "How does advertising influence competition in banking?",
+                "What role does search play in consumer choice?",
+                "How to analyze the impact of advertising on market dynamics?",
+                "What is the relationship between consumer awareness and choice?",
+                "How to measure the effects of advertising in the banking industry?"
+              ],
+              "use_cases": [
+                "Evaluating the effectiveness of advertising strategies in banking",
+                "Understanding consumer behavior in response to advertising",
+                "Analyzing competition dynamics in markets with high advertising"
+              ],
+              "methodology_tags": [
+                "structural-estimation"
+              ],
+              "key_findings": "Advertising shifts awareness rather than preferences, increasing competition.",
+              "research_questions": [
+                "How does advertising affect consumer awareness and choice in the banking industry?"
+              ]
             },
             {
               "title": "What Makes Them Click: Empirical Analysis of Consumer Demand for Search Advertising",
@@ -31189,7 +33674,43 @@
                 "Structural Estimation",
                 "Search, Advertising & Attention"
               ],
-              "citations": 9
+              "citations": 9,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "structural-estimation",
+                "search",
+                "advertising"
+              ],
+              "summary": "This paper analyzes consumer demand for search advertising through a canonical consumer-side structural model using Bing data. It finds that ad competition significantly impacts click rates, suggesting that understanding attention allocation is crucial for optimizing advertising strategies.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What factors influence consumer demand for search advertising?",
+                "How does ad competition affect click rates?",
+                "What is a structural model in the context of advertising?",
+                "How to analyze consumer behavior in search advertising?",
+                "What data is used to study search advertising?",
+                "What are the implications of ad competition on consumer clicks?"
+              ],
+              "use_cases": [
+                "Optimizing advertising strategies based on consumer behavior",
+                "Understanding the impact of competition on ad performance",
+                "Developing models for predicting click rates in search advertising"
+              ],
+              "methodology_tags": [
+                "structural-estimation"
+              ],
+              "key_findings": "51% more clicks would occur without ad competition.",
+              "research_questions": [
+                "What makes consumers click on search advertisements?"
+              ],
+              "datasets_used": [
+                "Bing data"
+              ]
             }
           ]
         },
@@ -31208,7 +33729,42 @@
                 "Structural Estimation",
                 "Machine Learning & Structural Estimation"
               ],
-              "citations": 1894
+              "citations": 1894,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "machine-learning",
+                "structural-estimation"
+              ],
+              "topic_tags": [
+                "machine-learning",
+                "structural-estimation"
+              ],
+              "summary": "This paper presents a foundational framework for using machine learning to estimate nuisance parameters while ensuring valid inference on structural parameters. The main contribution lies in the use of orthogonal scores and cross-fitting to achieve this.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to estimate treatment effects",
+                "what is double/debiased machine learning",
+                "how to use machine learning for structural estimation",
+                "what are orthogonal scores in ML",
+                "how to preserve valid inference in ML",
+                "what is cross-fitting in machine learning"
+              ],
+              "use_cases": [
+                "Estimating treatment effects in economic studies",
+                "Applying machine learning techniques to structural estimation problems",
+                "Improving inference validity in econometric models"
+              ],
+              "methodology_tags": [
+                "machine-learning",
+                "structural-estimation"
+              ],
+              "research_questions": [
+                "How can machine learning be used to estimate nuisance parameters while preserving valid inference on structural parameters?"
+              ]
             },
             {
               "title": "Estimation and Inference of Heterogeneous Treatment Effects using Random Forests",
@@ -31220,7 +33776,43 @@
                 "Structural Estimation",
                 "Machine Learning & Structural Estimation"
               ],
-              "citations": 2467
+              "citations": 2467,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "causal-inference",
+                "machine-learning"
+              ],
+              "topic_tags": [
+                "causal-inference",
+                "machine-learning",
+                "personalization"
+              ],
+              "summary": "This paper develops causal forests for estimating heterogeneous treatment effects, providing valid confidence intervals. It is critical for applications in personalization, targeting, and A/B test analysis.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to estimate treatment effects",
+                "what are causal forests",
+                "how to use random forests for treatment effect estimation",
+                "A/B testing with heterogeneous treatment effects",
+                "valid confidence intervals in treatment effect estimation",
+                "personalization in machine learning"
+              ],
+              "use_cases": [
+                "personalizing marketing strategies",
+                "optimizing A/B test designs",
+                "targeting interventions based on treatment effects"
+              ],
+              "methodology_tags": [
+                "causal-forest"
+              ],
+              "research_questions": [
+                "How can we estimate heterogeneous treatment effects using machine learning methods?"
+              ],
+              "implements_method": "causal-forest"
             },
             {
               "title": "Deep IV: A Flexible Approach for Counterfactual Prediction",
@@ -31232,7 +33824,43 @@
                 "Structural Estimation",
                 "Machine Learning & Structural Estimation"
               ],
-              "citations": 155
+              "citations": 155,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "instrumental-variables",
+                "deep-learning"
+              ],
+              "topic_tags": [
+                "structural-estimation",
+                "machine-learning",
+                "demand-estimation"
+              ],
+              "summary": "This paper presents a deep learning framework for counterfactual prediction using instrumental variables. It introduces a two-stage neural network approach to demand estimation that addresses price endogeneity, bridging deep learning techniques with the core BLP problem.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to estimate demand with price endogeneity",
+                "what is a two-stage neural network approach",
+                "how to apply instrumental variables in deep learning",
+                "what are the applications of structural estimation",
+                "how does deep learning improve demand estimation",
+                "what is the BLP problem in economics"
+              ],
+              "use_cases": [
+                "Estimating demand in markets with price endogeneity",
+                "Applying deep learning techniques to structural estimation problems",
+                "Using instrumental variables in economic modeling"
+              ],
+              "methodology_tags": [
+                "instrumental-variables"
+              ],
+              "research_questions": [
+                "How can deep learning frameworks be applied to counterfactual prediction in economics?"
+              ],
+              "implements_method": "Deep IV"
             },
             {
               "title": "Deep Neural Networks for Estimation and Inference",
@@ -31244,7 +33872,41 @@
                 "Structural Estimation",
                 "Machine Learning & Structural Estimation"
               ],
-              "citations": 260
+              "citations": 260,
+              "difficulty": "advanced",
+              "prerequisites": [
+                "semiparametric-inference",
+                "causal-inference"
+              ],
+              "topic_tags": [
+                "structural-estimation",
+                "machine-learning",
+                "causal-inference"
+              ],
+              "summary": "This paper addresses the use of deep neural networks as first-step estimators in semiparametric inference. The main contribution is the theoretical foundations and convergence bounds that validate the application of neural networks for causal inference.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS",
+                "Senior-DS"
+              ],
+              "synthetic_questions": [
+                "how to use deep neural networks for estimation",
+                "what are convergence bounds in neural networks",
+                "can neural networks be used for causal inference",
+                "how to apply semiparametric inference with deep learning",
+                "what are the theoretical foundations of deep nets in estimation",
+                "how to validate neural networks for causal analysis"
+              ],
+              "use_cases": [
+                "Estimating treatment effects in economic models",
+                "Applying deep learning techniques in structural estimation",
+                "Using neural networks for causal inference in policy analysis"
+              ],
+              "key_findings": "Deep neural networks can serve as first-step estimators in semiparametric inference.",
+              "research_questions": [
+                "How can deep neural networks be utilized in semiparametric inference?"
+              ]
             }
           ]
         }
@@ -31271,7 +33933,38 @@
                 "Choice Models & Dynamic Choice",
                 "Discrete Choice (Logit, Mixed Logit)"
               ],
-              "citations": 13967
+              "citations": 13967,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "random-utility-maximization"
+              ],
+              "topic_tags": [
+                "choice-models",
+                "discrete-choice",
+                "logit"
+              ],
+              "summary": "This paper addresses the problem of modeling qualitative choice behavior by deriving the multinomial logit model from the principles of random utility maximization. Its main contribution is the establishment of a framework for modern discrete choice analysis.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "what is multinomial logit",
+                "how to model qualitative choice behavior",
+                "applications of discrete choice models",
+                "understanding random utility maximization",
+                "how to derive multinomial logit",
+                "importance of choice models in economics"
+              ],
+              "use_cases": [
+                "analyzing consumer choice in marketing",
+                "evaluating transportation mode selection",
+                "studying voting behavior"
+              ],
+              "research_questions": [
+                "How can qualitative choice behavior be modeled effectively?"
+              ]
             },
             {
               "title": "Automobile Prices in Market Equilibrium",
@@ -31283,7 +33976,42 @@
                 "Choice Models & Dynamic Choice",
                 "Discrete Choice (Logit, Mixed Logit)"
               ],
-              "citations": 4952
+              "citations": 4952,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "random-coefficients",
+                "market-level-data"
+              ],
+              "topic_tags": [
+                "choice-models",
+                "discrete-choice",
+                "empirical-demand"
+              ],
+              "summary": "This paper addresses the problem of estimating demand in the automobile market using random coefficients. Its main contribution is providing a framework that integrates market-level data for understanding consumer choice.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to estimate demand in the automobile market",
+                "what are random coefficients in demand models",
+                "how to analyze market-level data",
+                "what is the impact of consumer choice on automobile prices",
+                "how to apply discrete choice models",
+                "what are the applications of empirical demand analysis"
+              ],
+              "use_cases": [
+                "Estimating consumer demand for new automobile models",
+                "Analyzing the impact of market changes on automobile prices",
+                "Evaluating the effectiveness of marketing strategies in the automobile industry"
+              ],
+              "methodology_tags": [
+                "random-coefficients"
+              ],
+              "research_questions": [
+                "How does consumer choice affect automobile prices in market equilibrium?"
+              ]
             },
             {
               "title": "Mixed MNL Models for Discrete Response",
@@ -31295,7 +34023,39 @@
                 "Choice Models & Dynamic Choice",
                 "Discrete Choice (Logit, Mixed Logit)"
               ],
-              "citations": 3943
+              "citations": 3943,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "random-utility-model",
+                "simulation-based-estimation"
+              ],
+              "topic_tags": [
+                "choice-models",
+                "discrete-choice"
+              ],
+              "summary": "This paper proves that mixed logit models can approximate any random utility model, addressing limitations in traditional discrete choice models. The main contribution is the establishment of simulation-based estimation techniques for these models.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to estimate mixed logit models",
+                "what is simulation-based estimation",
+                "how does mixed logit approximate random utility models",
+                "applications of mixed MNL models",
+                "advantages of mixed logit over traditional models",
+                "how to apply choice models in economics"
+              ],
+              "use_cases": [
+                "Estimating consumer preferences in market research",
+                "Analyzing transportation choices in urban planning",
+                "Evaluating policy impacts on discrete choices"
+              ],
+              "key_findings": "Mixed logit approximates any random utility model.",
+              "research_questions": [
+                "How can mixed logit models be used to improve discrete choice analysis?"
+              ]
             },
             {
               "title": "Discrete Choice Methods with Simulation (2nd ed.)",
@@ -31306,6 +34066,34 @@
               "tags": [
                 "Choice Models & Dynamic Choice",
                 "Discrete Choice (Logit, Mixed Logit)"
+              ],
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Choice Models & Dynamic Choice",
+                "Discrete Choice (Logit, Mixed Logit)"
+              ],
+              "summary": "This textbook addresses the complexities of discrete choice methods and simulation techniques. It serves as an essential reference for practitioners in the field.",
+              "audience": [
+                "Junior-DS",
+                "Mid-DS",
+                "Senior-DS"
+              ],
+              "synthetic_questions": [
+                "what are logit variants",
+                "how to use simulation methods in choice modeling",
+                "what is discrete choice analysis",
+                "applications of mixed logit models",
+                "how to model consumer choice behavior",
+                "best practices for discrete choice methods"
+              ],
+              "use_cases": [
+                "Estimating consumer preferences in marketing",
+                "Analyzing transportation choices",
+                "Evaluating policy impacts on decision-making"
+              ],
+              "research_questions": [
+                "What are the applications of discrete choice methods in economics?"
               ]
             },
             {
@@ -31318,7 +34106,42 @@
                 "Choice Models & Dynamic Choice",
                 "Discrete Choice (Logit, Mixed Logit)"
               ],
-              "citations": 519
+              "citations": 519,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "mixed-logit",
+                "discrete-choice"
+              ],
+              "topic_tags": [
+                "choice-models",
+                "digital-products",
+                "news"
+              ],
+              "summary": "This paper addresses the valuation of new digital goods, specifically online newspapers, by applying a mixed logit model. It estimates the substitution effects between print and online news, highlighting the implications of cannibalization.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "how to estimate substitution between print and online news",
+                "what are the implications of cannibalization in digital products",
+                "how does mixed logit apply to online newspapers",
+                "what is the impact of new goods on consumer choice",
+                "how to analyze digital product valuation",
+                "what methods are used to study online news consumption"
+              ],
+              "use_cases": [
+                "Estimating the impact of online news on print subscriptions",
+                "Analyzing consumer preferences for digital versus traditional news",
+                "Evaluating the effectiveness of digital product offerings in media"
+              ],
+              "methodology_tags": [
+                "mixed-logit"
+              ],
+              "research_questions": [
+                "How do consumers substitute between print and online news?"
+              ]
             },
             {
               "title": "What Drives Media Slant? Evidence from U.S. Daily Newspapers",
@@ -31330,7 +34153,40 @@
                 "Choice Models & Dynamic Choice",
                 "Discrete Choice (Logit, Mixed Logit)"
               ],
-              "citations": 1428
+              "citations": 1428,
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "discrete-choice-models"
+              ],
+              "topic_tags": [
+                "choice-models",
+                "information-markets"
+              ],
+              "summary": "This paper addresses how consumer preferences influence product differentiation in information markets through a discrete choice demand model that incorporates ideological content. Its main contribution is demonstrating the relationship between media slant and consumer demand.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What drives media slant in newspapers?",
+                "How do consumer preferences affect media content?",
+                "What is a discrete choice demand model?",
+                "How to analyze ideological content in media?",
+                "What is the impact of media slant on information markets?",
+                "How to measure product differentiation in media?"
+              ],
+              "use_cases": [
+                "Analyzing media bias in political reporting",
+                "Studying consumer behavior in media consumption",
+                "Evaluating the impact of ideological content on newspaper sales"
+              ],
+              "methodology_tags": [
+                "discrete-choice-models"
+              ],
+              "research_questions": [
+                "What drives media slant in U.S. daily newspapers?"
+              ]
             }
           ]
         },
@@ -31349,7 +34205,37 @@
                 "Choice Models & Dynamic Choice",
                 "Consideration Sets & Attention"
               ],
-              "citations": 1024
+              "citations": 1024,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Choice Models",
+                "Dynamic Choice",
+                "Consideration Sets",
+                "Attention"
+              ],
+              "summary": "This paper addresses the formation of consideration sets in decision-making processes by modeling the cost-benefit tradeoff involved. Its main contribution lies in providing a foundational framework for understanding how consumers narrow down their choices.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What is a consideration set?",
+                "How do cost-benefit tradeoffs affect decision making?",
+                "What models explain consideration set formation?",
+                "How to evaluate consideration sets in consumer behavior?",
+                "What are the implications of consideration sets in marketing?",
+                "How to analyze choice models in economics?"
+              ],
+              "use_cases": [
+                "Applying the model to marketing strategies",
+                "Evaluating consumer behavior in product selection",
+                "Understanding attention allocation in decision processes"
+              ],
+              "research_questions": [
+                "How do consumers form consideration sets based on costs and benefits?"
+              ]
             },
             {
               "title": "Limited Information and Advertising in the U.S. Personal Computer Industry",
@@ -31361,7 +34247,37 @@
                 "Choice Models & Dynamic Choice",
                 "Consideration Sets & Attention"
               ],
-              "citations": 393
+              "citations": 393,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Choice Models",
+                "Dynamic Choice",
+                "Consideration Sets",
+                "Attention"
+              ],
+              "summary": "This paper addresses the impact of limited information on consumer behavior in the U.S. personal computer industry. It contributes to the understanding of how advertising influences consideration sets in decision-making processes.",
+              "audience": [
+                "Mid-DS",
+                "Senior-DS",
+                "Curious-browser"
+              ],
+              "synthetic_questions": [
+                "What is the effect of advertising on consumer consideration sets?",
+                "How does limited information influence demand in the PC industry?",
+                "What are BLP-style demand models?",
+                "How to analyze advertising effects in market demand?",
+                "What methods are used to study consumer choice in technology markets?",
+                "How does consumer attention affect purchasing decisions?"
+              ],
+              "use_cases": [
+                "Analyzing the effectiveness of advertising strategies in tech markets",
+                "Developing marketing campaigns based on consumer consideration sets",
+                "Studying consumer behavior in industries with limited information"
+              ],
+              "research_questions": [
+                "How does limited information affect consumer choices in the personal computer industry?"
+              ]
             },
             {
               "title": "Revealed Attention",
@@ -31373,7 +34289,35 @@
                 "Choice Models & Dynamic Choice",
                 "Consideration Sets & Attention"
               ],
-              "citations": 300
+              "citations": 300,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Choice Models & Dynamic Choice",
+                "Consideration Sets & Attention"
+              ],
+              "summary": "This paper provides an axiomatic foundation for choice under limited attention, introducing the concept of 'attention filters'. Its main contribution lies in formalizing how attention influences decision-making processes.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What are attention filters in decision-making?",
+                "How does limited attention affect choice models?",
+                "What is the axiomatic foundation for choice with limited attention?",
+                "How to model consideration sets in economics?",
+                "What are the implications of attention in economic choices?",
+                "How to apply attention filters in choice theory?"
+              ],
+              "use_cases": [
+                "Analyzing consumer behavior under limited attention",
+                "Developing models for marketing strategies based on attention",
+                "Studying decision-making processes in economics"
+              ],
+              "research_questions": [
+                "How does limited attention impact economic choices?"
+              ]
             },
             {
               "title": "Costly Information Acquisition: Experimental Analysis of a Boundedly Rational Model",
@@ -31385,7 +34329,35 @@
                 "Choice Models & Dynamic Choice",
                 "Consideration Sets & Attention"
               ],
-              "citations": 598
+              "citations": 598,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Choice Models & Dynamic Choice",
+                "Consideration Sets & Attention"
+              ],
+              "summary": "This paper addresses the challenges of information acquisition in decision-making processes under bounded rationality. Its main contribution lies in providing experimental evidence that enhances understanding of how directed cognition influences search behavior.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What is bounded rationality?",
+                "How does directed cognition affect decision-making?",
+                "What are the implications of costly information acquisition?",
+                "How can experimental analysis inform economic models?",
+                "What are consideration sets in decision-making?",
+                "How to design experiments to study cognition and search behavior?"
+              ],
+              "use_cases": [
+                "Understanding consumer behavior in economics",
+                "Designing interventions to improve decision-making processes",
+                "Analyzing the impact of information costs on market dynamics"
+              ],
+              "research_questions": [
+                "How does bounded rationality affect information acquisition?"
+              ]
             },
             {
               "title": "The Power of Rankings: Quantifying the Effect of Rankings on Online Consumer Search and Purchase Decisions",
@@ -31397,7 +34369,37 @@
                 "Choice Models & Dynamic Choice",
                 "Consideration Sets & Attention"
               ],
-              "citations": 297
+              "citations": 297,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Choice Models",
+                "Dynamic Choice",
+                "Consideration Sets",
+                "Attention"
+              ],
+              "summary": "This paper explores how rankings influence online consumer behavior, specifically focusing on search and purchase decisions. The main contribution is the identification of position effects through a field experiment conducted by Expedia.",
+              "audience": [
+                "Mid-DS",
+                "Curious-browser"
+              ],
+              "synthetic_questions": [
+                "How do rankings affect online consumer search behavior?",
+                "What is the impact of rankings on purchase decisions?",
+                "How to analyze position effects in online markets?",
+                "What methods can be used to study consumer attention?",
+                "How to conduct a field experiment in consumer behavior?",
+                "What are the implications of ranking systems for e-commerce?"
+              ],
+              "use_cases": [
+                "Understanding consumer behavior in e-commerce",
+                "Designing effective ranking algorithms for online platforms",
+                "Evaluating the impact of search position on sales"
+              ],
+              "key_findings": "Rankings affect search behavior but not purchase conditional on search.",
+              "research_questions": [
+                "What is the effect of rankings on online consumer search and purchase decisions?"
+              ]
             },
             {
               "title": "Quantifying Search and Switching Costs in the U.S. Auto Insurance Industry",
@@ -31409,7 +34411,34 @@
                 "Choice Models & Dynamic Choice",
                 "Consideration Sets & Attention"
               ],
-              "citations": 380
+              "citations": 380,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Choice Models & Dynamic Choice",
+                "Consideration Sets & Attention"
+              ],
+              "summary": "This paper develops an integrated model to quantify search and switching costs in the U.S. auto insurance industry. The main contribution is a methodological template for separating search from switching frictions using consideration set data.",
+              "audience": [
+                "Mid-DS",
+                "Curious-browser"
+              ],
+              "synthetic_questions": [
+                "How to quantify search costs in auto insurance?",
+                "What are switching costs in the insurance industry?",
+                "How to analyze consideration sets in consumer choice?",
+                "What models can separate search from switching frictions?",
+                "How to estimate the impact of search costs on consumer behavior?",
+                "What methodologies are used to study switching costs in markets?"
+              ],
+              "use_cases": [
+                "Applying the model to other industries with similar consumer behavior",
+                "Evaluating the effectiveness of marketing strategies in reducing switching costs",
+                "Understanding consumer decision-making processes in insurance markets"
+              ],
+              "research_questions": [
+                "What are the search and switching costs in the U.S. auto insurance industry?"
+              ]
             },
             {
               "title": "Product Differentiation, Search Costs, and Competition in the Mutual Fund Industry: A Case Study of S&P 500 Index Funds",
@@ -31421,7 +34450,37 @@
                 "Choice Models & Dynamic Choice",
                 "Consideration Sets & Attention"
               ],
-              "citations": 615
+              "citations": 615,
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "Choice Models",
+                "Dynamic Choice",
+                "Consideration Sets",
+                "Attention"
+              ],
+              "summary": "This paper models search frictions in the mutual fund industry, particularly focusing on S&P 500 index funds. It explains the proliferation of funds and the dispersion of fees through the lens of information costs.",
+              "audience": [
+                "Early-PhD",
+                "Junior-DS",
+                "Mid-DS"
+              ],
+              "synthetic_questions": [
+                "What are search frictions in financial markets?",
+                "How do search costs affect competition in mutual funds?",
+                "What is the impact of fund proliferation on fees?",
+                "How can we model choice in homogeneous products?",
+                "What role do information costs play in mutual fund selection?",
+                "How does competition influence fund performance?"
+              ],
+              "use_cases": [
+                "Analyzing competition in financial markets",
+                "Understanding consumer behavior in fund selection",
+                "Evaluating the impact of search costs on market outcomes"
+              ],
+              "research_questions": [
+                "How do search costs influence competition in the mutual fund industry?"
+              ]
             }
           ]
         },

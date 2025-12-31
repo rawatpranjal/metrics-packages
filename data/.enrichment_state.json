@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1",
-  "last_run": "2025-12-31T02:38:51.921362+00:00",
+  "last_run": "2025-12-31T02:49:58.630411+00:00",
   "items": {
     "packages.json": {
       "BayesianBandits": {
@@ -16419,8 +16419,8 @@
         "confidence": 1.0
       },
       "Double/Debiased Machine Learning for Treatment and Structural Parameters": {
-        "content_hash": "567cf445ab01a4ea",
-        "enriched_at": "2025-12-31T02:27:32.770310+00:00",
+        "content_hash": "6385b60cddccec20",
+        "enriched_at": "2025-12-31T02:48:11.744717+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -16601,8 +16601,8 @@
         "confidence": 1.0
       },
       "Estimation and Inference of Heterogeneous Treatment Effects using Random Forests": {
-        "content_hash": "36fb4963d9a54fa5",
-        "enriched_at": "2025-12-31T02:27:14.952485+00:00",
+        "content_hash": "0029d72cef49da37",
+        "enriched_at": "2025-12-31T02:48:18.606192+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -17875,11 +17875,11 @@
         "confidence": 0.9
       },
       "Conditional Logit Analysis of Qualitative Choice Behavior": {
-        "content_hash": "5e3c4834817d9a0d",
-        "enriched_at": "2025-12-31T01:55:55.349615+00:00",
+        "content_hash": "904e96ad9da7ff5e",
+        "enriched_at": "2025-12-31T02:48:38.040036+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 1.0
+        "confidence": 0.9
       },
       "Stochastic Choice and Revealed Perturbed Utility": {
         "content_hash": "61fbeeec24c8e004",
@@ -18932,8 +18932,8 @@
         "confidence": 0.9
       },
       "Estimating Discrete-Choice Models of Product Differentiation": {
-        "content_hash": "855b24f3a978ad29",
-        "enriched_at": "2025-12-31T02:13:26.165807+00:00",
+        "content_hash": "c226bdeb5bca026c",
+        "enriched_at": "2025-12-31T02:42:38.787009+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -19247,8 +19247,8 @@
         "confidence": 0.9
       },
       "Position Auctions": {
-        "content_hash": "00606e8bd8ca63dc",
-        "enriched_at": "2025-12-31T02:19:39.918541+00:00",
+        "content_hash": "c08944dd83863945",
+        "enriched_at": "2025-12-31T02:40:04.352455+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -19807,15 +19807,15 @@
         "confidence": 0.9
       },
       "Two-Sided Markets: A Progress Report": {
-        "content_hash": "bd44fe64a70116bf",
-        "enriched_at": "2025-12-31T02:29:44.766711+00:00",
+        "content_hash": "cf74c7942a11491f",
+        "enriched_at": "2025-12-31T02:46:01.572797+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "A Price Theory of Multi-Sided Platforms": {
-        "content_hash": "4153054666b5ae4a",
-        "enriched_at": "2025-12-31T02:30:04.239216+00:00",
+        "content_hash": "e9e758cfca56d52b",
+        "enriched_at": "2025-12-31T02:46:16.227173+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -20136,15 +20136,15 @@
         "confidence": 0.9
       },
       "Consumer Price Search and Platform Design in Internet Commerce": {
-        "content_hash": "0122dd3d95ecf4e0",
-        "enriched_at": "2025-12-31T02:35:31.756590+00:00",
+        "content_hash": "21f8a44a874b6b34",
+        "enriched_at": "2025-12-31T02:47:29.877849+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "The Welfare Effects of Peer Entry: The Case of Airbnb and the Accommodation Industry": {
-        "content_hash": "66f302dd70801cc3",
-        "enriched_at": "2025-12-31T02:35:39.806931+00:00",
+        "content_hash": "57a181cbf0fae726",
+        "enriched_at": "2025-12-31T02:43:50.494453+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -20292,6 +20292,608 @@
       "Course Match: A Large-Scale Implementation of Approximate Competitive Equilibrium from Equal Incomes": {
         "content_hash": "c0c0d0c30be9fb9d",
         "enriched_at": "2025-12-31T02:38:51.877667+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Commitment on Volunteer Crowdsourcing Platforms: Implications for Growth and Engagement": {
+        "content_hash": "5f433de16d270872",
+        "enriched_at": "2025-12-31T02:38:58.851906+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Course Allocation by Proxy Auction": {
+        "content_hash": "51cab863f2a5f917",
+        "enriched_at": "2025-12-31T02:39:10.641525+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Strategic Information Transmission": {
+        "content_hash": "4f07eb27c22784a7",
+        "enriched_at": "2025-12-31T02:39:17.488356+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Bayesian Persuasion": {
+        "content_hash": "1b7efe3ff6c7601a",
+        "enriched_at": "2025-12-31T02:39:23.643637+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Competition in Persuasion": {
+        "content_hash": "e07a55514f936aa5",
+        "enriched_at": "2025-12-31T02:39:30.672792+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Information Design: A Unified Perspective": {
+        "content_hash": "41f4cd31c94e34dd",
+        "enriched_at": "2025-12-31T02:39:36.189853+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "First-Price Auctions with General Information Structures: Implications for Bidding and Revenue": {
+        "content_hash": "4dc7bc4fa3e4b033",
+        "enriched_at": "2025-12-31T02:39:44.024963+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Optimal Information Disclosure in Classic Auctions": {
+        "content_hash": "1d38c8a0be32e6da",
+        "enriched_at": "2025-12-31T02:39:50.443663+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Internet Advertising and the Generalized Second-Price Auction: Selling Billions of Dollars Worth of Keywords": {
+        "content_hash": "3c7bea9adf047b7c",
+        "enriched_at": "2025-12-31T02:45:17.430645+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Sponsored Search Auctions": {
+        "content_hash": "1a6ef15844fa6c1b",
+        "enriched_at": "2025-12-31T02:40:11.162069+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Reserve Prices in Internet Advertising Auctions: A Field Experiment": {
+        "content_hash": "d44e13a0982ab1d7",
+        "enriched_at": "2025-12-31T02:40:17.507013+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Optimal Real-Time Bidding for Display Advertising": {
+        "content_hash": "8bb45f3f17847a91",
+        "enriched_at": "2025-12-31T02:40:25.082137+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Reserve Price Optimization for First Price Auctions in Display Advertising": {
+        "content_hash": "06d3c3b77cc464c3",
+        "enriched_at": "2025-12-31T02:40:31.534544+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Algorithmic Mechanism Design": {
+        "content_hash": "7a166c11efc371b1",
+        "enriched_at": "2025-12-31T02:40:37.882438+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Simple versus Optimal Mechanisms": {
+        "content_hash": "d914aed9901e5667",
+        "enriched_at": "2025-12-31T02:40:44.891779+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Multi-Parameter Mechanism Design and Sequential Posted Pricing": {
+        "content_hash": "95b5ce399c2a9bc2",
+        "enriched_at": "2025-12-31T02:40:50.594630+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Optimal Multi-Dimensional Mechanism Design: Reducing Revenue to Welfare Maximization": {
+        "content_hash": "e8d142f096b65b20",
+        "enriched_at": "2025-12-31T02:40:57.239565+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Matroid Prophet Inequalities": {
+        "content_hash": "efd322618029018c",
+        "enriched_at": "2025-12-31T02:41:04.066889+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Two-Sided Platforms: Product Variety and Pricing Structures": {
+        "content_hash": "ad814d8d202cff8a",
+        "enriched_at": "2025-12-31T02:41:18.622196+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Multi-Sided Platforms": {
+        "content_hash": "b7cf52139511a664",
+        "enriched_at": "2025-12-31T02:41:25.363320+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Online Labor Markets": {
+        "content_hash": "bbbf19d796a2d068",
+        "enriched_at": "2025-12-31T02:41:32.155643+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Equilibrium Effects of Pay Transparency": {
+        "content_hash": "d554a69b5415ddeb",
+        "enriched_at": "2025-12-31T02:41:40.042957+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Mechanism Design via Differential Privacy": {
+        "content_hash": "7f2bc7def4a04d08",
+        "enriched_at": "2025-12-31T02:41:47.881219+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Selling Privacy at Auction": {
+        "content_hash": "fa0f64c60d9a0f49",
+        "enriched_at": "2025-12-31T02:41:56.272270+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Privacy and Mechanism Design": {
+        "content_hash": "a1f9511b9086d3ab",
+        "enriched_at": "2025-12-31T02:42:04.508105+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Deconstructing Amazon EC2 Spot Instance Pricing": {
+        "content_hash": "b9859d4460f822c3",
+        "enriched_at": "2025-12-31T02:42:12.299274+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Cloud Pricing: The Spot Market Strikes Back": {
+        "content_hash": "f695fc0166811611",
+        "enriched_at": "2025-12-31T02:42:18.541881+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "An Online Auction Framework for Dynamic Resource Provisioning in Cloud Computing": {
+        "content_hash": "cc6c78ec32eb2733",
+        "enriched_at": "2025-12-31T02:42:25.505071+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "On the Cluster Admission Problem for Cloud Computing": {
+        "content_hash": "0fceabd3ec34cd7e",
+        "enriched_at": "2025-12-31T02:42:31.239628+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Automobile Prices in Market Equilibrium": {
+        "content_hash": "79df0fba83176e99",
+        "enriched_at": "2025-12-31T02:48:44.411964+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "A Practitioner's Guide to Estimation of Random-Coefficients Logit Models of Demand": {
+        "content_hash": "f3aa912f35e6b564",
+        "enriched_at": "2025-12-31T02:42:52.642459+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Identification in Differentiated Products Markets Using Market Level Data": {
+        "content_hash": "3e312702fa6ee26b",
+        "enriched_at": "2025-12-31T02:42:59.191639+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Best Practices for Differentiated Products Demand Estimation with PyBLP": {
+        "content_hash": "1b780422331dd8d2",
+        "enriched_at": "2025-12-31T02:43:05.342105+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Valuing New Goods in a Model with Complementarity: Online Newspapers": {
+        "content_hash": "c8ce43edc5c0ad1e",
+        "enriched_at": "2025-12-31T02:49:04.706874+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Estimating Demand for Mobile Applications in the New Economy": {
+        "content_hash": "0e75695e0b516284",
+        "enriched_at": "2025-12-31T02:43:19.164534+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Entry and Competition in Concentrated Markets": {
+        "content_hash": "f72aa1402c9fa554",
+        "enriched_at": "2025-12-31T02:43:25.203268+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Estimation of a Model of Entry in the Airline Industry": {
+        "content_hash": "311d0bcd649cb7af",
+        "enriched_at": "2025-12-31T02:43:30.704549+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Empirical Models of Entry and Market Structure": {
+        "content_hash": "7ff552eee80c88ef",
+        "enriched_at": "2025-12-31T02:43:37.081212+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Market Structure and Multiple Equilibria in Airline Markets": {
+        "content_hash": "e5da963974cfb411",
+        "enriched_at": "2025-12-31T02:43:43.843581+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "What Happens When Wal-Mart Comes to Town: An Empirical Analysis of the Discount Retailing Industry": {
+        "content_hash": "ff6447a1d201231a",
+        "enriched_at": "2025-12-31T02:43:56.741017+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Optimal Replacement of GMC Bus Engines: An Empirical Model of Harold Zurcher": {
+        "content_hash": "1fca8d2a137e76c7",
+        "enriched_at": "2025-12-31T02:44:02.886348+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Conditional Choice Probabilities and the Estimation of Dynamic Models": {
+        "content_hash": "412bdebef05c8e00",
+        "enriched_at": "2025-12-31T02:44:08.896284+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Sequential Estimation of Dynamic Discrete Games": {
+        "content_hash": "789b7639a742ebaa",
+        "enriched_at": "2025-12-31T02:44:14.968917+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Conditional Choice Probability Estimation of Dynamic Discrete Choice Models with Unobserved Heterogeneity": {
+        "content_hash": "30aa11482bd7ed15",
+        "enriched_at": "2025-12-31T02:44:21.424813+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Practical Methods for Estimation of Dynamic Discrete Choice Models": {
+        "content_hash": "3430197e5dbed920",
+        "enriched_at": "2025-12-31T02:44:28.465779+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Changing Their Tune: How Consumers' Adoption of Online Streaming Affects Music Consumption and Discovery": {
+        "content_hash": "7a771c11293e7c8c",
+        "enriched_at": "2025-12-31T02:44:35.548882+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "State Dependence and Alternative Explanations for Consumer Inertia": {
+        "content_hash": "af021d576889e836",
+        "enriched_at": "2025-12-31T02:44:40.668110+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Optimal Nonparametric Estimation of First-Price Auctions": {
+        "content_hash": "bad064a133ca8d1a",
+        "enriched_at": "2025-12-31T02:44:45.949533+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Identification of Standard Auction Models": {
+        "content_hash": "5358b37c5845797f",
+        "enriched_at": "2025-12-31T02:44:51.316558+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Nonparametric Approaches to Auctions": {
+        "content_hash": "ddba4918f598f742",
+        "enriched_at": "2025-12-31T02:44:56.918589+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Identification and Estimation of Auction Models with Unobserved Heterogeneity": {
+        "content_hash": "eea5593f52ac2a39",
+        "enriched_at": "2025-12-31T02:45:04.122542+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "An Empirical Perspective on Auctions": {
+        "content_hash": "155345fefe9d3833",
+        "enriched_at": "2025-12-31T02:45:10.366779+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "A Structural Model of Sponsored Search Advertising Auctions": {
+        "content_hash": "241ea7982f7e35c4",
+        "enriched_at": "2025-12-31T02:45:25.109824+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "The Dynamics of Productivity in the Telecommunications Equipment Industry": {
+        "content_hash": "c0c60af6ab2e2910",
+        "enriched_at": "2025-12-31T02:45:31.486549+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Estimating Production Functions Using Inputs to Control for Unobservables": {
+        "content_hash": "bd2b9c1f05923be0",
+        "enriched_at": "2025-12-31T02:45:37.425641+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Identification Properties of Recent Production Function Estimators": {
+        "content_hash": "dd408e41c1dee173",
+        "enriched_at": "2025-12-31T02:45:44.304845+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Markups and Firm-Level Export Status": {
+        "content_hash": "1af5fc2b0d34b465",
+        "enriched_at": "2025-12-31T02:45:50.916435+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "On the Identification of Gross Output Production Functions": {
+        "content_hash": "3df9b86545662c1d",
+        "enriched_at": "2025-12-31T02:45:55.780337+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Competition Between Networks: A Study of the Market for Yellow Pages": {
+        "content_hash": "74cdf9cec05bf1be",
+        "enriched_at": "2025-12-31T02:46:09.878434+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Identification of Peer Effects Through Social Networks": {
+        "content_hash": "c8b55cff54213cd1",
+        "enriched_at": "2025-12-31T02:46:21.558866+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Distinguishing Influence-Based Contagion from Homophily-Driven Diffusion in Dynamic Networks": {
+        "content_hash": "3b21eb431440b774",
+        "enriched_at": "2025-12-31T02:46:27.907494+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Evidence on Learning and Network Externalities in the Diffusion of Home Computers": {
+        "content_hash": "8850ab0bcfba80cd",
+        "enriched_at": "2025-12-31T02:46:36.075736+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "The Welfare Effects of Bundling in Multichannel Television Markets": {
+        "content_hash": "e56764c0b3a8d62f",
+        "enriched_at": "2025-12-31T02:46:43.675321+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "As Streaming Reaches Flood Stage, Does it Stimulate or Depress Music Sales?": {
+        "content_hash": "91180249eabcd3ae",
+        "enriched_at": "2025-12-31T02:46:50.745034+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Music for a Song: An Empirical Look at Uniform Pricing and Its Alternatives": {
+        "content_hash": "60b60b90e76d6285",
+        "enriched_at": "2025-12-31T02:46:56.585751+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "The Effect of File Sharing on Record Sales: An Empirical Analysis": {
+        "content_hash": "f096fe8a9d7613be",
+        "enriched_at": "2025-12-31T02:47:03.291083+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Piracy and Copyright Enforcement Mechanisms": {
+        "content_hash": "bf85a133a5ecd034",
+        "enriched_at": "2025-12-31T02:47:08.669138+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Consumer Surplus in the Digital Economy: Estimating the Value of Increased Product Variety at Online Booksellers": {
+        "content_hash": "13273b82ee1e8723",
+        "enriched_at": "2025-12-31T02:47:14.737090+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Search, Obfuscation, and Price Elasticities on the Internet": {
+        "content_hash": "350a71d36ec21eaa",
+        "enriched_at": "2025-12-31T02:47:17.986762+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Testing Models of Consumer Search Using Data on Web Browsing and Purchasing Behavior": {
+        "content_hash": "88ae1f0993c005e0",
+        "enriched_at": "2025-12-31T02:47:24.129310+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Auctions versus Posted Prices in Online Markets": {
+        "content_hash": "5e0b0a64164a6d90",
+        "enriched_at": "2025-12-31T02:47:36.109334+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Using Price Distributions to Estimate Search Costs": {
+        "content_hash": "c26c5f97dfe51877",
+        "enriched_at": "2025-12-31T02:47:43.172985+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "The Power of Rankings: Quantifying the Effect of Rankings on Online Consumer Search and Purchase Decisions": {
+        "content_hash": "c844c5eccf05adfb",
+        "enriched_at": "2025-12-31T02:49:44.929485+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Advertising, Consumer Awareness, and Choice: Evidence from the U.S. Banking Industry": {
+        "content_hash": "27f736677b97defe",
+        "enriched_at": "2025-12-31T02:47:55.974198+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "What Makes Them Click: Empirical Analysis of Consumer Demand for Search Advertising": {
+        "content_hash": "a5b10be6e285a0d5",
+        "enriched_at": "2025-12-31T02:48:04.679760+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Deep IV: A Flexible Approach for Counterfactual Prediction": {
+        "content_hash": "1dd3df89ea5966cf",
+        "enriched_at": "2025-12-31T02:48:26.695411+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Deep Neural Networks for Estimation and Inference": {
+        "content_hash": "cee45e7b95ba15d5",
+        "enriched_at": "2025-12-31T02:48:32.827425+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Mixed MNL Models for Discrete Response": {
+        "content_hash": "6372bf11173de12e",
+        "enriched_at": "2025-12-31T02:48:49.768651+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Discrete Choice Methods with Simulation (2nd ed.)": {
+        "content_hash": "44683037e9829a8d",
+        "enriched_at": "2025-12-31T02:48:55.573837+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "What Drives Media Slant? Evidence from U.S. Daily Newspapers": {
+        "content_hash": "85a1fa3a98c0e361",
+        "enriched_at": "2025-12-31T02:49:11.032679+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "An Evaluation Cost Model of Consideration Sets": {
+        "content_hash": "213aa3c84d105a03",
+        "enriched_at": "2025-12-31T02:49:16.358828+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Limited Information and Advertising in the U.S. Personal Computer Industry": {
+        "content_hash": "e2769ae28fa1c744",
+        "enriched_at": "2025-12-31T02:49:22.952438+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Revealed Attention": {
+        "content_hash": "0beba5a71684f1ae",
+        "enriched_at": "2025-12-31T02:49:29.277003+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Costly Information Acquisition: Experimental Analysis of a Boundedly Rational Model": {
+        "content_hash": "734a8fa6b0290485",
+        "enriched_at": "2025-12-31T02:49:36.429455+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Quantifying Search and Switching Costs in the U.S. Auto Insurance Industry": {
+        "content_hash": "588bfc9e17a99d47",
+        "enriched_at": "2025-12-31T02:49:51.524139+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Product Differentiation, Search Costs, and Competition in the Mutual Fund Industry: A Case Study of S&P 500 Index Funds": {
+        "content_hash": "88677a583f1a9388",
+        "enriched_at": "2025-12-31T02:49:58.552510+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
