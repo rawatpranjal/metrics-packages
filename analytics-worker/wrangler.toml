@@ -7,11 +7,13 @@ workers_dev = true
 [vars]
 # Get your Zone ID from Cloudflare Dashboard > Overview (right sidebar)
 CF_ZONE_ID = "005264aee472c876aa0ddbfe46ae8601"
+# Account ID for Web Analytics API
+CF_ACCOUNT_ID = "e53411f5363195f142c4b30558be082a"
 
 # Secrets (set via: wrangler secret put <NAME>)
-# CF_API_TOKEN - Create at https://dash.cloudflare.com/profile/api-tokens
-#   Permissions: Zone > Analytics > Read
-#   Zone Resources: Include > Specific zone > tech-econ.com
+# CF_API_TOKEN - Zone analytics (optional)
+# CF_ACCOUNT_TOKEN - Account analytics for Web Analytics (required for /web-stats)
+#   Permissions: Account > Account Analytics > Read
 # ADMIN_KEY - Random secret for /migrate endpoint protection
 #   Generate: openssl rand -hex 32
 

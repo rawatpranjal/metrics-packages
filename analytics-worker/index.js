@@ -61,9 +61,14 @@ export default {
         return handleExport(request, env, origin, url);
       }
 
-      // Route: GET /cf-stats - Cloudflare analytics
+      // Route: GET /cf-stats - Cloudflare zone analytics
       if (request.method === 'GET' && url.pathname === '/cf-stats') {
         return handleCfStats(request, env, origin);
+      }
+
+      // Route: GET /web-stats - Cloudflare Web Analytics (RUM)
+      if (request.method === 'GET' && url.pathname === '/web-stats') {
+        return handleWebStats(request, env, origin, url);
       }
 
       // Route: GET /migrate - Migrate KV data to D1 (protected, one-time)
@@ -1110,6 +1115,142 @@ async function handleCfStats(request, env, origin) {
       maxVisitors: 37,
       _fallback: true
     }, origin);
+  }
+}
+
+// ============================================
+// GET /web-stats - Cloudflare Web Analytics (RUM)
+// ============================================
+
+async function handleWebStats(request, env, origin, url) {
+  if (origin && !isAllowedOrigin(origin)) {
+    return new Response('Forbidden', { status: 403 });
+  }
+
+  // Check cache
+  const cacheKey = `web-stats-${url.searchParams.get('days') || '7'}`;
+  const cached = await getCache(env, cacheKey);
+  if (cached) {
+    return jsonResponse({ ...cached, _cached: true }, origin);
+  }
+
+  if (!env.CF_ACCOUNT_TOKEN || !env.CF_ACCOUNT_ID) {
+    return jsonResponse({
+      error: 'Web Analytics API not configured',
+      hint: 'Set CF_ACCOUNT_TOKEN and CF_ACCOUNT_ID'
+    }, origin);
+  }
+
+  try {
+    const days = parseInt(url.searchParams.get('days') || '7', 10);
+    const endDate = new Date().toISOString().split('T')[0];
+    const startDate = new Date(Date.now() - days * 24 * 60 * 60 * 1000).toISOString().split('T')[0];
+
+    const query = `{
+      viewer {
+        accounts(filter: { accountTag: "${env.CF_ACCOUNT_ID}" }) {
+          rumPageloadEventsAdaptiveGroups(
+            limit: 500
+            filter: { date_geq: "${startDate}", date_leq: "${endDate}" }
+          ) {
+            count
+            dimensions { date requestPath countryName deviceType }
+            sum { visits }
+          }
+        }
+      }
+    }`;
+
+    const response = await fetch('https://api.cloudflare.com/client/v4/graphql', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${env.CF_ACCOUNT_TOKEN}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ query })
+    });
+
+    if (!response.ok) {
+      throw new Error(`Cloudflare API error: ${response.status}`);
+    }
+
+    const result = await response.json();
+
+    if (result.errors) {
+      throw new Error(result.errors[0]?.message || 'GraphQL error');
+    }
+
+    const rows = result?.data?.viewer?.accounts?.[0]?.rumPageloadEventsAdaptiveGroups || [];
+
+    // Aggregate data
+    const byDate = {};
+    const byPage = {};
+    const byCountry = {};
+    const byDevice = {};
+    let totalViews = 0;
+    let totalVisits = 0;
+
+    for (const r of rows) {
+      const { date, requestPath, countryName, deviceType } = r.dimensions;
+      const views = r.count;
+      const visits = r.sum?.visits || 0;
+
+      totalViews += views;
+      totalVisits += visits;
+
+      // By date
+      if (!byDate[date]) byDate[date] = { views: 0, visits: 0 };
+      byDate[date].views += views;
+      byDate[date].visits += visits;
+
+      // By page
+      if (!byPage[requestPath]) byPage[requestPath] = 0;
+      byPage[requestPath] += views;
+
+      // By country
+      if (!byCountry[countryName]) byCountry[countryName] = 0;
+      byCountry[countryName] += views;
+
+      // By device
+      if (!byDevice[deviceType]) byDevice[deviceType] = 0;
+      byDevice[deviceType] += views;
+    }
+
+    // Sort and limit
+    const topPages = Object.entries(byPage)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 20)
+      .map(([path, views]) => ({ path, views }));
+
+    const topCountries = Object.entries(byCountry)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 10)
+      .map(([country, views]) => ({ country, views, pct: Math.round(100 * views / totalViews) }));
+
+    const devices = Object.entries(byDevice)
+      .sort((a, b) => b[1] - a[1])
+      .map(([device, views]) => ({ device, views, pct: Math.round(100 * views / totalViews) }));
+
+    const daily = Object.entries(byDate)
+      .sort((a, b) => a[0].localeCompare(b[0]))
+      .map(([date, data]) => ({ date, ...data }));
+
+    const stats = {
+      period: { start: startDate, end: endDate, days },
+      totals: { views: totalViews, visits: totalVisits, pagesPerVisit: totalVisits > 0 ? (totalViews / totalVisits).toFixed(1) : 0 },
+      daily,
+      topPages,
+      topCountries,
+      devices,
+      updated: Date.now()
+    };
+
+    await setCache(env, cacheKey, stats, CACHE_TTL);
+    return jsonResponse(stats, origin);
+
+  } catch (err) {
+    console.error('Web Stats error:', err);
+    return jsonResponse({ error: err.message }, origin, 500);
   }
 }
 
