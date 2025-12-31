@@ -58,6 +58,11 @@ export default {
         return handleCfStats(request, env, origin);
       }
 
+      // Route: GET /migrate - Migrate KV data to D1 (one-time)
+      if (request.method === 'GET' && url.pathname === '/migrate') {
+        return handleMigrate(request, env);
+      }
+
       return new Response('Not found', { status: 404 });
     } catch (err) {
       console.error('Worker error:', err);
@@ -837,6 +842,207 @@ async function handleCfStats(request, env, origin) {
       maxVisitors: 37,
       _fallback: true
     }, origin);
+  }
+}
+
+// ============================================
+// GET /migrate - One-time KV to D1 migration
+// ============================================
+
+async function handleMigrate(request, env) {
+  if (!env.ANALYTICS_EVENTS || !env.DB) {
+    return jsonResponse({ error: 'Both KV and D1 must be configured' }, null, 500);
+  }
+
+  const url = new URL(request.url);
+  const limit = parseInt(url.searchParams.get('limit') || '50', 10);
+  const cursor = url.searchParams.get('cursor') || null;
+
+  const stats = {
+    keysProcessed: 0,
+    totalEvents: 0,
+    clicksUpserted: 0,
+    searchesUpserted: 0,
+    pagesUpserted: 0,
+    dailyUpserted: 0,
+    nextCursor: null,
+    errors: []
+  };
+
+  try {
+    // Fetch a batch of event keys from KV
+    const allEvents = [];
+    const list = await env.ANALYTICS_EVENTS.list({ prefix: 'events:', cursor, limit });
+
+    for (const key of list.keys) {
+      try {
+        const data = await env.ANALYTICS_EVENTS.get(key.name);
+        if (data) {
+          const events = JSON.parse(data);
+          allEvents.push(...events);
+          stats.keysProcessed++;
+        }
+      } catch (e) {
+        stats.errors.push(`Key ${key.name}: ${e.message}`);
+      }
+    }
+
+    stats.nextCursor = list.list_complete ? null : list.cursor;
+
+    // Aggregation maps
+    const clicks = {};
+    const searches = {};
+    const pages = {};
+    const daily = {};
+    const hourly = {};
+    const countries = {};
+    const sessions = new Set();
+
+    // Process events
+    for (const event of allEvents) {
+      const timestamp = event.ts || event._received || Date.now();
+      const date = new Date(timestamp).toISOString().split('T')[0];
+      const hourBucket = new Date(timestamp).toISOString().slice(0, 13).replace('T', '-');
+      const country = event._country || 'unknown';
+
+      if (event.sid) sessions.add(event.sid);
+
+      if (!daily[date]) {
+        daily[date] = { pageviews: 0, sessions: new Set(), clicks: 0, searches: 0 };
+      }
+      if (event.sid) daily[date].sessions.add(event.sid);
+
+      if (!hourly[hourBucket]) {
+        hourly[hourBucket] = { pageviews: 0, clicks: 0 };
+      }
+
+      if (country !== 'unknown' && event.sid) {
+        countries[country] = countries[country] || new Set();
+        countries[country].add(event.sid);
+      }
+
+      switch (event.t) {
+        case 'pageview':
+          daily[date].pageviews++;
+          hourly[hourBucket].pageviews++;
+          if (event.d?.path || event.p) {
+            const path = event.d?.path || event.p;
+            pages[path] = (pages[path] || 0) + 1;
+          }
+          break;
+
+        case 'click':
+          daily[date].clicks++;
+          hourly[hourBucket].clicks++;
+          if (event.d?.type === 'card' && event.d?.name) {
+            const key = `${event.d.name}|||${event.d.section || 'other'}`;
+            if (!clicks[key]) {
+              clicks[key] = {
+                name: event.d.name,
+                section: event.d.section || 'other',
+                category: event.d.category || null,
+                count: 0
+              };
+            }
+            clicks[key].count++;
+          }
+          break;
+
+        case 'search':
+          daily[date].searches++;
+          if (event.d?.q) {
+            const query = event.d.q.toLowerCase().trim();
+            searches[query] = (searches[query] || 0) + 1;
+          }
+          break;
+      }
+    }
+
+    // Build batch inserts
+    const batch = [];
+
+    for (const [date, data] of Object.entries(daily)) {
+      batch.push(env.DB.prepare(`
+        INSERT INTO daily_stats (date, pageviews, unique_sessions, clicks, searches, updated_at)
+        VALUES (?, ?, ?, ?, ?, datetime('now'))
+        ON CONFLICT(date) DO UPDATE SET
+          pageviews = pageviews + excluded.pageviews,
+          unique_sessions = excluded.unique_sessions,
+          clicks = clicks + excluded.clicks,
+          searches = searches + excluded.searches
+      `).bind(date, data.pageviews, data.sessions.size, data.clicks, data.searches));
+      stats.dailyUpserted++;
+    }
+
+    for (const click of Object.values(clicks)) {
+      batch.push(env.DB.prepare(`
+        INSERT INTO content_clicks (name, section, category, click_count, last_clicked)
+        VALUES (?, ?, ?, ?, datetime('now'))
+        ON CONFLICT(name, section) DO UPDATE SET
+          click_count = click_count + excluded.click_count,
+          last_clicked = datetime('now')
+      `).bind(click.name, click.section, click.category, click.count));
+      stats.clicksUpserted++;
+    }
+
+    for (const [query, count] of Object.entries(searches)) {
+      batch.push(env.DB.prepare(`
+        INSERT INTO search_queries (query, search_count, last_searched)
+        VALUES (?, ?, datetime('now'))
+        ON CONFLICT(query) DO UPDATE SET
+          search_count = search_count + excluded.search_count
+      `).bind(query, count));
+      stats.searchesUpserted++;
+    }
+
+    for (const [path, count] of Object.entries(pages)) {
+      batch.push(env.DB.prepare(`
+        INSERT INTO page_views (path, view_count, last_viewed)
+        VALUES (?, ?, datetime('now'))
+        ON CONFLICT(path) DO UPDATE SET
+          view_count = view_count + excluded.view_count
+      `).bind(path, count));
+      stats.pagesUpserted++;
+    }
+
+    for (const [bucket, data] of Object.entries(hourly)) {
+      batch.push(env.DB.prepare(`
+        INSERT INTO hourly_stats (hour_bucket, pageviews, clicks, updated_at)
+        VALUES (?, ?, ?, datetime('now'))
+        ON CONFLICT(hour_bucket) DO UPDATE SET
+          pageviews = pageviews + excluded.pageviews,
+          clicks = clicks + excluded.clicks
+      `).bind(bucket, data.pageviews, data.clicks));
+    }
+
+    for (const [country, sessionSet] of Object.entries(countries)) {
+      batch.push(env.DB.prepare(`
+        INSERT INTO country_stats (country, session_count, last_seen)
+        VALUES (?, ?, datetime('now'))
+        ON CONFLICT(country) DO UPDATE SET
+          session_count = session_count + excluded.session_count
+      `).bind(country, sessionSet.size));
+    }
+
+    // Execute in batches
+    const BATCH_SIZE = 50;
+    for (let i = 0; i < batch.length; i += BATCH_SIZE) {
+      await env.DB.batch(batch.slice(i, i + BATCH_SIZE));
+    }
+
+    // Clear cache
+    await env.DB.prepare("DELETE FROM cache_meta WHERE key = 'stats'").run();
+
+    stats.totalEvents = allEvents.length;
+    stats.totalSessions = sessions.size;
+    stats.success = true;
+
+    return jsonResponse(stats, null);
+
+  } catch (err) {
+    stats.error = err.message;
+    stats.success = false;
+    return jsonResponse(stats, null, 500);
   }
 }
 
