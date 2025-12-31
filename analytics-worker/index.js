@@ -517,6 +517,18 @@ async function updateAggregates(env, aggregates, country) {
     }
   }
 
+  // Store search clicks
+  if (aggregates.searchClicks) {
+    for (const sc of aggregates.searchClicks) {
+      updates.push(env.DB.prepare(`
+        INSERT INTO search_sessions (session_id, query_id, clicks, timestamp)
+        VALUES (?, ?, ?, ?)
+        ON CONFLICT(query_id) DO UPDATE SET
+          clicks = json_insert(COALESCE(clicks, '[]'), '$[#]', json_object('id', json_extract(excluded.clicks, '$[0].id'), 'position', json_extract(excluded.clicks, '$[0].position')))
+      `).bind(sc.sid, sc.qid, JSON.stringify([{ id: sc.resultId, position: sc.position }]), sc.ts));
+    }
+  }
+
   // Store search abandonment
   if (aggregates.searchAbandons) {
     for (const sa of aggregates.searchAbandons) {
