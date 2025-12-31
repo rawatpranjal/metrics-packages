@@ -6,7 +6,7 @@ workers_dev = true
 # Environment variables
 [vars]
 # Get your Zone ID from Cloudflare Dashboard > Overview (right sidebar)
-CF_ZONE_ID = "YOUR_ZONE_ID_HERE"
+CF_ZONE_ID = "005264aee472c876aa0ddbfe46ae8601"
 
 # Secrets (set via: wrangler secret put <NAME>)
 # CF_API_TOKEN - Create at https://dash.cloudflare.com/profile/api-tokens
