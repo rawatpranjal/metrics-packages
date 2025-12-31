@@ -1,7 +1,22 @@
 {
-  "version": "1.0",
+  "version": "2.0",
   "generated_at": "2024-12-31",
   "description": "Narrative-driven carousels for Netflix-style discovery",
+  "stats": {
+    "total": 113,
+    "manual": 10,
+    "generated": 104,
+    "by_template": {
+      "person": 21,
+      "method": 41,
+      "tool": 31,
+      "journey": 15,
+      "problem": 2,
+      "dataset": 1,
+      "era": 1,
+      "company": 1
+    }
+  },
   "carousels": [
     {
       "id": "susan-athey-universe",
@@ -15,13 +30,38 @@
         "url": "https://www.youtube.com/watch?v=yKs6msnw9m8"
       },
       "items": [
-        {"id": "package-econml", "type": "package", "title": "EconML", "url": "https://github.com/py-why/EconML"},
-        {"id": "paper-generalized-random-forests", "type": "paper", "title": "Generalized Random Forests"},
-        {"id": "talk-susan-athey-economics-ai", "type": "talk", "title": "Economics & AI"},
-        {"id": "resource-mark-white-s-practical-causal-forest-tutorial", "type": "resource", "title": "Practical Causal Forest Tutorial"},
-        {"id": "package-dowhy", "type": "package", "title": "DoWhy"}
+        {
+          "id": "package-econml",
+          "type": "package",
+          "title": "EconML",
+          "url": "https://github.com/py-why/EconML"
+        },
+        {
+          "id": "paper-generalized-random-forests",
+          "type": "paper",
+          "title": "Generalized Random Forests"
+        },
+        {
+          "id": "talk-susan-athey-economics-ai",
+          "type": "talk",
+          "title": "Economics & AI"
+        },
+        {
+          "id": "resource-mark-white-s-practical-causal-forest-tutorial",
+          "type": "resource",
+          "title": "Practical Causal Forest Tutorial"
+        },
+        {
+          "id": "package-dowhy",
+          "type": "package",
+          "title": "DoWhy"
+        }
       ],
-      "seed": {"type": "person", "name": "Susan Athey", "company": "Stanford GSB"}
+      "seed": {
+        "type": "person",
+        "name": "Susan Athey",
+        "company": "Stanford GSB"
+      }
     },
     {
       "id": "bus-engine-econometrics",
@@ -35,12 +75,32 @@
         "citations": 4500
       },
       "items": [
-        {"id": "paper-conditional-choice-probabilities", "type": "paper", "title": "Conditional Choice Probabilities (Hotz-Miller)"},
-        {"id": "resource-mit-ocw-dynamic-programming", "type": "resource", "title": "MIT OCW: Dynamic Programming"},
-        {"id": "paper-dynamic-discrete-choice-models-methods", "type": "paper", "title": "Dynamic Discrete Choice Methods Survey"},
-        {"id": "package-ruspy", "type": "package", "title": "ruspy"}
+        {
+          "id": "paper-conditional-choice-probabilities",
+          "type": "paper",
+          "title": "Conditional Choice Probabilities (Hotz-Miller)"
+        },
+        {
+          "id": "resource-mit-ocw-dynamic-programming",
+          "type": "resource",
+          "title": "MIT OCW: Dynamic Programming"
+        },
+        {
+          "id": "paper-dynamic-discrete-choice-models-methods",
+          "type": "paper",
+          "title": "Dynamic Discrete Choice Methods Survey"
+        },
+        {
+          "id": "package-ruspy",
+          "type": "package",
+          "title": "ruspy"
+        }
       ],
-      "seed": {"type": "method", "paper": "Rust 1987", "field": "structural-estimation"}
+      "seed": {
+        "type": "method",
+        "paper": "Rust 1987",
+        "field": "structural-estimation"
+      }
     },
     {
       "id": "uber-pricing",
@@ -54,12 +114,32 @@
         "url": "https://www.econtalk.org/john-list-on-scale-uber-and-the-voltage-effect/"
       },
       "items": [
-        {"id": "talk-john-list-market-design-in-ride-sharing", "type": "talk", "title": "Market Design in Ride-Sharing"},
-        {"id": "talk-keith-chen-your-brain-on-uber", "type": "talk", "title": "Your Brain on Uber"},
-        {"id": "paper-uber-surge-pricing", "type": "paper", "title": "The Effects of Uber's Surge Pricing"},
-        {"id": "paper-matching-and-pricing-ride-hailing", "type": "paper", "title": "Matching and Pricing in Ride-Hailing"}
+        {
+          "id": "talk-john-list-market-design-in-ride-sharing",
+          "type": "talk",
+          "title": "Market Design in Ride-Sharing"
+        },
+        {
+          "id": "talk-keith-chen-your-brain-on-uber",
+          "type": "talk",
+          "title": "Your Brain on Uber"
+        },
+        {
+          "id": "paper-uber-surge-pricing",
+          "type": "paper",
+          "title": "The Effects of Uber's Surge Pricing"
+        },
+        {
+          "id": "paper-matching-and-pricing-ride-hailing",
+          "type": "paper",
+          "title": "Matching and Pricing in Ride-Hailing"
+        }
       ],
-      "seed": {"type": "company", "name": "Uber", "theme": "pricing"}
+      "seed": {
+        "type": "company",
+        "name": "Uber",
+        "theme": "pricing"
+      }
     },
     {
       "id": "peeking-problem",
@@ -72,12 +152,32 @@
         "title": "Peeking at A/B Tests: Why It Matters"
       },
       "items": [
-        {"id": "paper-always-valid-inference", "type": "paper", "title": "Always Valid Inference"},
-        {"id": "paper-sequential-testing", "type": "paper", "title": "Sequential Testing for Experiments"},
-        {"id": "package-savvi", "type": "package", "title": "Savvi: Sequential A/B Testing"},
-        {"id": "resource-spotify-sequential-testing", "type": "resource", "title": "Spotify: Sequential Testing at Scale"}
+        {
+          "id": "paper-always-valid-inference",
+          "type": "paper",
+          "title": "Always Valid Inference"
+        },
+        {
+          "id": "paper-sequential-testing",
+          "type": "paper",
+          "title": "Sequential Testing for Experiments"
+        },
+        {
+          "id": "package-savvi",
+          "type": "package",
+          "title": "Savvi: Sequential A/B Testing"
+        },
+        {
+          "id": "resource-spotify-sequential-testing",
+          "type": "resource",
+          "title": "Spotify: Sequential Testing at Scale"
+        }
       ],
-      "seed": {"type": "problem", "name": "peeking-problem", "domain": "experimentation"}
+      "seed": {
+        "type": "problem",
+        "name": "peeking-problem",
+        "domain": "experimentation"
+      }
     },
     {
       "id": "econml-ecosystem",
@@ -92,13 +192,37 @@
         "stars": 3800
       },
       "items": [
-        {"id": "package-dowhy", "type": "package", "title": "DoWhy"},
-        {"id": "package-causalml", "type": "package", "title": "CausalML"},
-        {"id": "paper-generalized-random-forests", "type": "paper", "title": "Generalized Random Forests (Athey)"},
-        {"id": "resource-causal-inference-for-the-brave-and-true", "type": "resource", "title": "Causal Inference for the Brave and True"},
-        {"id": "talk-susan-athey-applied-researchers-causation", "type": "talk", "title": "Susan Athey on Causal ML"}
+        {
+          "id": "package-dowhy",
+          "type": "package",
+          "title": "DoWhy"
+        },
+        {
+          "id": "package-causalml",
+          "type": "package",
+          "title": "CausalML"
+        },
+        {
+          "id": "paper-generalized-random-forests",
+          "type": "paper",
+          "title": "Generalized Random Forests (Athey)"
+        },
+        {
+          "id": "resource-causal-inference-for-the-brave-and-true",
+          "type": "resource",
+          "title": "Causal Inference for the Brave and True"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey on Causal ML"
+        }
       ],
-      "seed": {"type": "tool", "name": "EconML", "ecosystem": "causal-ml"}
+      "seed": {
+        "type": "tool",
+        "name": "EconML",
+        "ecosystem": "causal-ml"
+      }
     },
     {
       "id": "netflix-prize",
@@ -112,12 +236,32 @@
         "size": "100M+ ratings"
       },
       "items": [
-        {"id": "paper-matrix-factorization-techniques", "type": "paper", "title": "Matrix Factorization Techniques for Recommender Systems"},
-        {"id": "paper-netflix-prize-winners", "type": "paper", "title": "The BigChaos Solution to the Netflix Grand Prize"},
-        {"id": "package-surprise", "type": "package", "title": "Surprise: A Python scikit for Recommender Systems"},
-        {"id": "dataset-netflix-viewing-behavior", "type": "dataset", "title": "Netflix Viewing Behavior"}
+        {
+          "id": "paper-matrix-factorization-techniques",
+          "type": "paper",
+          "title": "Matrix Factorization Techniques for Recommender Systems"
+        },
+        {
+          "id": "paper-netflix-prize-winners",
+          "type": "paper",
+          "title": "The BigChaos Solution to the Netflix Grand Prize"
+        },
+        {
+          "id": "package-surprise",
+          "type": "package",
+          "title": "Surprise: A Python scikit for Recommender Systems"
+        },
+        {
+          "id": "dataset-netflix-viewing-behavior",
+          "type": "dataset",
+          "title": "Netflix Viewing Behavior"
+        }
       ],
-      "seed": {"type": "dataset", "name": "Netflix Prize", "domain": "recommendations"}
+      "seed": {
+        "type": "dataset",
+        "name": "Netflix Prize",
+        "domain": "recommendations"
+      }
     },
     {
       "id": "ols-to-causal-forests",
@@ -131,13 +275,37 @@
         "url": "https://matheusfacure.github.io/python-causality-handbook/"
       },
       "items": [
-        {"id": "resource-statsmodels-ols-tutorial", "type": "resource", "title": "Statsmodels OLS Tutorial"},
-        {"id": "paper-mostly-harmless-econometrics", "type": "paper", "title": "Mostly Harmless Econometrics"},
-        {"id": "paper-difference-in-differences", "type": "paper", "title": "Difference-in-Differences"},
-        {"id": "paper-generalized-random-forests", "type": "paper", "title": "Generalized Random Forests"},
-        {"id": "package-econml", "type": "package", "title": "EconML"}
+        {
+          "id": "resource-statsmodels-ols-tutorial",
+          "type": "resource",
+          "title": "Statsmodels OLS Tutorial"
+        },
+        {
+          "id": "paper-mostly-harmless-econometrics",
+          "type": "paper",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-difference-in-differences",
+          "type": "paper",
+          "title": "Difference-in-Differences"
+        },
+        {
+          "id": "paper-generalized-random-forests",
+          "type": "paper",
+          "title": "Generalized Random Forests"
+        },
+        {
+          "id": "package-econml",
+          "type": "package",
+          "title": "EconML"
+        }
       ],
-      "seed": {"type": "journey", "start": "OLS", "end": "Causal Forests"}
+      "seed": {
+        "type": "journey",
+        "start": "OLS",
+        "end": "Causal Forests"
+      }
     },
     {
       "id": "credibility-revolution",
@@ -151,12 +319,32 @@
         "authors": "Angrist & Pischke"
       },
       "items": [
-        {"id": "paper-minimum-wages-and-employment-card-krueger", "type": "paper", "title": "Minimum Wages and Employment (Card & Krueger)"},
-        {"id": "paper-instrumental-variables-angrist-krueger", "type": "paper", "title": "Instrumental Variables (Angrist & Krueger)"},
-        {"id": "resource-andrew-heiss-causal-inference", "type": "resource", "title": "Andrew Heiss: Causal Inference Course"},
-        {"id": "talk-angrist-nobel-lecture", "type": "talk", "title": "Joshua Angrist Nobel Lecture"}
+        {
+          "id": "paper-minimum-wages-and-employment-card-krueger",
+          "type": "paper",
+          "title": "Minimum Wages and Employment (Card & Krueger)"
+        },
+        {
+          "id": "paper-instrumental-variables-angrist-krueger",
+          "type": "paper",
+          "title": "Instrumental Variables (Angrist & Krueger)"
+        },
+        {
+          "id": "resource-andrew-heiss-causal-inference",
+          "type": "resource",
+          "title": "Andrew Heiss: Causal Inference Course"
+        },
+        {
+          "id": "talk-angrist-nobel-lecture",
+          "type": "talk",
+          "title": "Joshua Angrist Nobel Lecture"
+        }
       ],
-      "seed": {"type": "era", "name": "Credibility Revolution", "years": "1990-2015"}
+      "seed": {
+        "type": "era",
+        "name": "Credibility Revolution",
+        "years": "1990-2015"
+      }
     },
     {
       "id": "cold-start-problem",
@@ -170,12 +358,32 @@
         "authors": "Andrew Chen"
       },
       "items": [
-        {"id": "paper-two-sided-markets-rochet-tirole", "type": "paper", "title": "Two-Sided Markets (Rochet & Tirole)"},
-        {"id": "paper-network-effects", "type": "paper", "title": "Network Effects and Externalities"},
-        {"id": "resource-platform-economics", "type": "resource", "title": "Platform Economics Guide"},
-        {"id": "talk-marketplace-design", "type": "talk", "title": "Marketplace Design Talk"}
+        {
+          "id": "paper-two-sided-markets-rochet-tirole",
+          "type": "paper",
+          "title": "Two-Sided Markets (Rochet & Tirole)"
+        },
+        {
+          "id": "paper-network-effects",
+          "type": "paper",
+          "title": "Network Effects and Externalities"
+        },
+        {
+          "id": "resource-platform-economics",
+          "type": "resource",
+          "title": "Platform Economics Guide"
+        },
+        {
+          "id": "talk-marketplace-design",
+          "type": "talk",
+          "title": "Marketplace Design Talk"
+        }
       ],
-      "seed": {"type": "problem", "name": "cold-start", "domain": "marketplaces"}
+      "seed": {
+        "type": "problem",
+        "name": "cold-start",
+        "domain": "marketplaces"
+      }
     },
     {
       "id": "hal-varian-playbook",
@@ -190,12 +398,5425 @@
         "year": 2007
       },
       "items": [
-        {"id": "book-information-rules", "type": "book", "title": "Information Rules (Shapiro & Varian)"},
-        {"id": "paper-predicting-the-present-google-trends", "type": "paper", "title": "Predicting the Present with Google Trends"},
-        {"id": "paper-generalized-second-price-auctions", "type": "paper", "title": "Generalized Second Price Auctions"},
-        {"id": "resource-ad-auction-tutorial", "type": "resource", "title": "How Ad Auctions Work"}
+        {
+          "id": "book-information-rules",
+          "type": "book",
+          "title": "Information Rules (Shapiro & Varian)"
+        },
+        {
+          "id": "paper-predicting-the-present-google-trends",
+          "type": "paper",
+          "title": "Predicting the Present with Google Trends"
+        },
+        {
+          "id": "paper-generalized-second-price-auctions",
+          "type": "paper",
+          "title": "Generalized Second Price Auctions"
+        },
+        {
+          "id": "resource-ad-auction-tutorial",
+          "type": "resource",
+          "title": "How Ad Auctions Work"
+        }
       ],
-      "seed": {"type": "person", "name": "Hal Varian", "company": "Google"}
+      "seed": {
+        "type": "person",
+        "name": "Hal Varian",
+        "company": "Google"
+      }
+    },
+    {
+      "id": "andrey-fradkin-universe",
+      "template": "person",
+      "name": "Andrey Fradkin's Universe",
+      "description": "Andrey Fradkin studies online marketplaces and platform economics. His research on Airbnb helped sha...",
+      "hero": {
+        "id": "talk-susan-athey-applied-researchers-wanted",
+        "type": "talk",
+        "title": "Susan Athey: applied researchers Wanted",
+        "url": "https://www.aeaweb.org/research/athey-luca-interview-tech-economics"
+      },
+      "items": [
+        {
+          "id": "resource-uber-engineering",
+          "type": "resource",
+          "title": "Uber Engineering"
+        },
+        {
+          "id": "talk-chiara-farronato-beyond-chicken-and-egg-hbs",
+          "type": "talk",
+          "title": "Chiara Farronato: Beyond Chicken and Egg (HBS)"
+        },
+        {
+          "id": "book-matchmakers",
+          "type": "book",
+          "title": "Matchmakers"
+        },
+        {
+          "id": "paper-search-matching-and-the-role-of-digital-marketplace-design-in-enabling-trade-evidence-from-airbnb",
+          "type": "paper",
+          "title": "Search, Matching, and the Role of Digital Marketplace Design in Enabling Trade: Evidence from Airbnb"
+        },
+        {
+          "id": "resource-nfx-network-effects-bible",
+          "type": "resource",
+          "title": "NFX Network Effects Bible"
+        },
+        {
+          "id": "talk-bg2pod-bill-gurley-brad-gerstner",
+          "type": "talk",
+          "title": "BG2Pod: Bill Gurley & Brad Gerstner"
+        },
+        {
+          "id": "book-platform-revolution",
+          "type": "book",
+          "title": "Platform Revolution"
+        }
+      ],
+      "seed": {
+        "type": "person",
+        "name": "Andrey Fradkin",
+        "company": "Boston University"
+      }
+    },
+    {
+      "id": "chris-nosko-universe",
+      "template": "person",
+      "name": "Chris Nosko's Universe",
+      "description": "Chris Nosko leads Uber's data science and analytics organization. Before Uber, he was a professor at...",
+      "hero": {
+        "id": "talk-susan-athey-applied-researchers-wanted",
+        "type": "talk",
+        "title": "Susan Athey: applied researchers Wanted",
+        "url": "https://www.aeaweb.org/research/athey-luca-interview-tech-economics"
+      },
+      "items": [
+        {
+          "id": "package-mfilter",
+          "type": "package",
+          "title": "mFilter"
+        },
+        {
+          "id": "talk-john-list-scale-uber-the-voltage-effect",
+          "type": "talk",
+          "title": "John List: Scale, Uber & The Voltage Effect"
+        },
+        {
+          "id": "dataset-uber-movement",
+          "type": "dataset",
+          "title": "Uber Movement"
+        },
+        {
+          "id": "book-the-cold-start-problem",
+          "type": "book",
+          "title": "The Cold Start Problem"
+        },
+        {
+          "id": "paper-design-and-analysis-of-switchback-experiments",
+          "type": "paper",
+          "title": "Design and Analysis of Switchback Experiments"
+        },
+        {
+          "id": "resource-the-theory-and-practice-of-revenue-management",
+          "type": "resource",
+          "title": "The Theory and Practice of Revenue Management"
+        },
+        {
+          "id": "talk-john-list-scaling-proven-ideas",
+          "type": "talk",
+          "title": "John List: Scaling Proven Ideas"
+        }
+      ],
+      "seed": {
+        "type": "person",
+        "name": "Chris Nosko",
+        "company": "Uber"
+      }
+    },
+    {
+      "id": "colin-gray-universe",
+      "template": "person",
+      "name": "Colin Gray's Universe",
+      "description": "Colin Gray leads economics and data science at Netflix, where he applies causal inference and machin...",
+      "hero": {
+        "id": "talk-susan-athey-applied-researchers-causation",
+        "type": "talk",
+        "title": "Susan Athey: applied researchers & Causation",
+        "url": "https://www.youtube.com/watch?v=q4hWBep5RIc"
+      },
+      "items": [
+        {
+          "id": "package-dagitty",
+          "type": "package",
+          "title": "dagitty"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-economics-ai",
+          "type": "talk",
+          "title": "Susan Athey: Economics & AI"
+        },
+        {
+          "id": "dataset-stanford-gsb-experiment-collection",
+          "type": "dataset",
+          "title": "Stanford GSB Experiment Collection"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "package-pcalg",
+          "type": "package",
+          "title": "pcalg"
+        },
+        {
+          "id": "resource-uber-engineering",
+          "type": "resource",
+          "title": "Uber Engineering"
+        }
+      ],
+      "seed": {
+        "type": "person",
+        "name": "Colin Gray",
+        "company": "Netflix"
+      }
+    },
+    {
+      "id": "erik-brynjolfsson-universe",
+      "template": "person",
+      "name": "Erik Brynjolfsson's Universe",
+      "description": "Erik Brynjolfsson is the world's leading researcher on the economics of AI and digital transformatio...",
+      "hero": {
+        "id": "talk-susan-athey-economics-ai",
+        "type": "talk",
+        "title": "Susan Athey: Economics & AI",
+        "url": "https://www.youtube.com/watch?v=lNsl76AD1kE"
+      },
+      "items": [
+        {
+          "id": "resource-stanford-ee364a-youtube",
+          "type": "resource",
+          "title": "Stanford EE364A (YouTube)"
+        },
+        {
+          "id": "talk-guido-imbens-nobel-lecture-2021",
+          "type": "talk",
+          "title": "Guido Imbens: Nobel Lecture 2021"
+        },
+        {
+          "id": "dataset-stanford-gsb-experiment-collection",
+          "type": "dataset",
+          "title": "Stanford GSB Experiment Collection"
+        },
+        {
+          "id": "paper-how-budget-allocation-relates-to-productivity-in-marketing-spending-an-international-comparison",
+          "type": "paper",
+          "title": "How Budget Allocation Relates to Productivity in Marketing Spending: An International Comparison"
+        },
+        {
+          "id": "book-prediction-machines",
+          "type": "book",
+          "title": "Prediction Machines"
+        },
+        {
+          "id": "talk-erik-brynjolfsson-ai-and-the-economy",
+          "type": "talk",
+          "title": "Erik Brynjolfsson: AI and the Economy"
+        },
+        {
+          "id": "dataset-stanford-amazonbeer",
+          "type": "dataset",
+          "title": "Stanford Amazon/Beer"
+        }
+      ],
+      "seed": {
+        "type": "person",
+        "name": "Erik Brynjolfsson",
+        "company": "Stanford"
+      }
+    },
+    {
+      "id": "hal-varian-universe",
+      "template": "person",
+      "name": "Hal Varian's Universe",
+      "description": "Hal Varian invented the role of 'Chief Economist' in tech when he joined Google in 2002. He designed...",
+      "hero": {
+        "id": "talk-hal-varian-googlenomics-long-read-qa-aei",
+        "type": "talk",
+        "title": "Hal Varian: Googlenomics Long-read Q&A (AEI)",
+        "url": "https://www.aei.org/economics/googlenomics-a-long-read-qa-with-chief-economist-hal-varian/"
+      },
+      "items": [
+        {
+          "id": "package-bsts",
+          "type": "package",
+          "title": "bsts"
+        },
+        {
+          "id": "resource-auctions-in-ad-tech-sanjiv-das",
+          "type": "resource",
+          "title": "Auctions in Ad Tech (Sanjiv Das)"
+        },
+        {
+          "id": "talk-hal-varian-chief-scientist-at-google",
+          "type": "talk",
+          "title": "Hal Varian: Chief Scientist at Google"
+        },
+        {
+          "id": "dataset-google-merchandise",
+          "type": "dataset",
+          "title": "Google Merchandise"
+        },
+        {
+          "id": "book-information-rules",
+          "type": "book",
+          "title": "Information Rules"
+        },
+        {
+          "id": "paper-estimating-uncertainty-for-massive-data-streams",
+          "type": "paper",
+          "title": "Estimating Uncertainty for Massive Data Streams"
+        },
+        {
+          "id": "package-pcalg",
+          "type": "package",
+          "title": "pcalg"
+        }
+      ],
+      "seed": {
+        "type": "person",
+        "name": "Hal Varian",
+        "company": "Google"
+      }
+    },
+    {
+      "id": "john-list-universe",
+      "template": "person",
+      "name": "John List's Universe",
+      "description": "John List revolutionized how companies run experiments. As Chief Economist at Uber and Lyft, he buil...",
+      "hero": {
+        "id": "talk-john-list-scale-uber-the-voltage-effect",
+        "type": "talk",
+        "title": "John List: Scale, Uber & The Voltage Effect",
+        "url": "https://www.econtalk.org/john-list-on-scale-uber-and-the-voltage-effect/"
+      },
+      "items": [
+        {
+          "id": "package-numpyro",
+          "type": "package",
+          "title": "NumPyro"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-john-list-scaling-proven-ideas",
+          "type": "talk",
+          "title": "John List: Scaling Proven Ideas"
+        },
+        {
+          "id": "dataset-brazilian-ecommerce",
+          "type": "dataset",
+          "title": "Brazilian eCommerce"
+        },
+        {
+          "id": "book-priceless",
+          "type": "book",
+          "title": "Priceless"
+        },
+        {
+          "id": "package-pymc",
+          "type": "package",
+          "title": "PyMC"
+        },
+        {
+          "id": "resource-noahpinion-noah-smith",
+          "type": "resource",
+          "title": "Noahpinion (Noah Smith)"
+        }
+      ],
+      "seed": {
+        "type": "person",
+        "name": "John List",
+        "company": "Walmart (prev. Uber, Lyft)"
+      }
+    },
+    {
+      "id": "jonathan-hall-universe",
+      "template": "person",
+      "name": "Jonathan Hall's Universe",
+      "description": "Jonathan Hall is Uber's Chief Economist, responsible for pricing strategy including surge pricing. H...",
+      "hero": {
+        "id": "talk-john-list-scale-uber-the-voltage-effect",
+        "type": "talk",
+        "title": "John List: Scale, Uber & The Voltage Effect",
+        "url": "https://www.econtalk.org/john-list-on-scale-uber-and-the-voltage-effect/"
+      },
+      "items": [
+        {
+          "id": "resource-the-theory-and-practice-of-revenue-management",
+          "type": "resource",
+          "title": "The Theory and Practice of Revenue Management"
+        },
+        {
+          "id": "talk-john-list-scaling-proven-ideas",
+          "type": "talk",
+          "title": "John List: Scaling Proven Ideas"
+        },
+        {
+          "id": "dataset-office-supplies-dmda-2023",
+          "type": "dataset",
+          "title": "Office Supplies (DMDA 2023)"
+        },
+        {
+          "id": "book-the-cold-start-problem",
+          "type": "book",
+          "title": "The Cold Start Problem"
+        },
+        {
+          "id": "paper-estimating-uncertainty-for-massive-data-streams",
+          "type": "paper",
+          "title": "Estimating Uncertainty for Massive Data Streams"
+        },
+        {
+          "id": "resource-uber-engineering",
+          "type": "resource",
+          "title": "Uber Engineering"
+        },
+        {
+          "id": "talk-john-list-market-design-in-ride-sharing",
+          "type": "talk",
+          "title": "John List: Market Design in Ride-Sharing"
+        }
+      ],
+      "seed": {
+        "type": "person",
+        "name": "Jonathan Hall",
+        "company": "Uber"
+      }
+    },
+    {
+      "id": "kyle-kretschman-universe",
+      "template": "person",
+      "name": "Kyle Kretschman's Universe",
+      "description": "Kyle Kretschman leads economics at Spotify, applying economic thinking to music streaming, creator p...",
+      "hero": {
+        "id": "talk-hal-varian-chief-scientist-at-google",
+        "type": "talk",
+        "title": "Hal Varian: Chief Scientist at Google",
+        "url": "https://www.youtube.com/watch?v=d3CtB_gVV18"
+      },
+      "items": [
+        {
+          "id": "resource-the-theory-and-practice-of-revenue-management",
+          "type": "resource",
+          "title": "The Theory and Practice of Revenue Management"
+        },
+        {
+          "id": "talk-kyle-kretschman-economics-at-spotify",
+          "type": "talk",
+          "title": "Kyle Kretschman: Economics at Spotify"
+        },
+        {
+          "id": "dataset-brazilian-ecommerce",
+          "type": "dataset",
+          "title": "Brazilian eCommerce"
+        },
+        {
+          "id": "book-matchmakers",
+          "type": "book",
+          "title": "Matchmakers"
+        },
+        {
+          "id": "paper-resampling-free-bootstrap-inference-for-quantiles",
+          "type": "paper",
+          "title": "Resampling-Free Bootstrap Inference for Quantiles"
+        },
+        {
+          "id": "resource-uber-engineering",
+          "type": "resource",
+          "title": "Uber Engineering"
+        },
+        {
+          "id": "talk-ml-for-pricing-auctions-icml",
+          "type": "talk",
+          "title": "ML for Pricing & Auctions (ICML)"
+        }
+      ],
+      "seed": {
+        "type": "person",
+        "name": "Kyle Kretschman",
+        "company": "Spotify"
+      }
+    },
+    {
+      "id": "liran-einav-universe",
+      "template": "person",
+      "name": "Liran Einav's Universe",
+      "description": "Liran Einav pioneered the use of large-scale private sector data for economics research. His collabo...",
+      "hero": {
+        "id": "talk-susan-athey-economics-ai",
+        "type": "talk",
+        "title": "Susan Athey: Economics & AI",
+        "url": "https://www.youtube.com/watch?v=lNsl76AD1kE"
+      },
+      "items": [
+        {
+          "id": "resource-stanford-ee364a-youtube",
+          "type": "resource",
+          "title": "Stanford EE364A (YouTube)"
+        },
+        {
+          "id": "talk-guido-imbens-nobel-lecture-2021",
+          "type": "talk",
+          "title": "Guido Imbens: Nobel Lecture 2021"
+        },
+        {
+          "id": "dataset-stanford-gsb-experiment-collection",
+          "type": "dataset",
+          "title": "Stanford GSB Experiment Collection"
+        },
+        {
+          "id": "paper-approximating-purchase-propensities-and-reservation-prices-from-broad-consumer-tracking",
+          "type": "paper",
+          "title": "Approximating Purchase Propensities and Reservation Prices from Broad Consumer Tracking"
+        },
+        {
+          "id": "resource-stanford-fintech-lab-rob-wang-block",
+          "type": "resource",
+          "title": "Stanford FinTech Lab: Rob Wang (Block)"
+        },
+        {
+          "id": "talk-erik-brynjolfsson-ai-and-the-economy",
+          "type": "talk",
+          "title": "Erik Brynjolfsson: AI and the Economy"
+        },
+        {
+          "id": "dataset-stanford-amazonbeer",
+          "type": "dataset",
+          "title": "Stanford Amazon/Beer"
+        }
+      ],
+      "seed": {
+        "type": "person",
+        "name": "Liran Einav",
+        "company": "Stanford"
+      }
+    },
+    {
+      "id": "michael-luca-universe",
+      "template": "person",
+      "name": "Michael Luca's Universe",
+      "description": "Michael Luca is the leading researcher on platform design and the economics of reputation. His work ...",
+      "hero": {
+        "id": "talk-glen-weyl-radical-markets",
+        "type": "talk",
+        "title": "Glen Weyl: Radical Markets",
+        "url": "https://www.youtube.com/watch?v=yxVikHslgHA"
+      },
+      "items": [
+        {
+          "id": "package-ax-meta-adaptive-experimentation",
+          "type": "package",
+          "title": "Ax (Meta Adaptive Experimentation)"
+        },
+        {
+          "id": "talk-sendhil-mullainathan-before-agi-podcast",
+          "type": "talk",
+          "title": "Sendhil Mullainathan: Before AGI Podcast"
+        },
+        {
+          "id": "dataset-assistments-dataset",
+          "type": "dataset",
+          "title": "ASSISTments Dataset"
+        },
+        {
+          "id": "book-priceless",
+          "type": "book",
+          "title": "Priceless"
+        },
+        {
+          "id": "resource-knowledge-project-102-sendhil-mullainathan",
+          "type": "resource",
+          "title": "Knowledge Project #102: Sendhil Mullainathan"
+        },
+        {
+          "id": "talk-the-mixtape-with-scott-cunningham",
+          "type": "talk",
+          "title": "The Mixtape with Scott Cunningham"
+        },
+        {
+          "id": "dataset-codalab",
+          "type": "dataset",
+          "title": "CodaLab"
+        }
+      ],
+      "seed": {
+        "type": "person",
+        "name": "Michael Luca",
+        "company": "Harvard Business School"
+      }
+    },
+    {
+      "id": "michael-ostrovsky-universe",
+      "template": "person",
+      "name": "Michael Ostrovsky's Universe",
+      "description": "Michael Ostrovsky is the theorist behind modern ad auctions. His work with Schwarz on generalized se...",
+      "hero": {
+        "id": "talk-susan-athey-economics-ai",
+        "type": "talk",
+        "title": "Susan Athey: Economics & AI",
+        "url": "https://www.youtube.com/watch?v=lNsl76AD1kE"
+      },
+      "items": [
+        {
+          "id": "package-matching",
+          "type": "package",
+          "title": "matching"
+        },
+        {
+          "id": "resource-gsp-auction-paper-edelman-et-al-aer-2007",
+          "type": "resource",
+          "title": "GSP Auction Paper (Edelman et al., AER 2007)"
+        },
+        {
+          "id": "talk-hal-varian-chief-scientist-at-google",
+          "type": "talk",
+          "title": "Hal Varian: Chief Scientist at Google"
+        },
+        {
+          "id": "dataset-stanford-gsb-experiment-collection",
+          "type": "dataset",
+          "title": "Stanford GSB Experiment Collection"
+        },
+        {
+          "id": "book-who-gets-what-and-why",
+          "type": "book",
+          "title": "Who Gets What and Why"
+        },
+        {
+          "id": "paper-auctions-and-bidding-a-guide-for-computer-scientists",
+          "type": "paper",
+          "title": "Auctions and Bidding: A Guide for Computer Scientists"
+        },
+        {
+          "id": "package-scarfmatch",
+          "type": "package",
+          "title": "scarfmatch"
+        }
+      ],
+      "seed": {
+        "type": "person",
+        "name": "Michael Ostrovsky",
+        "company": "Stanford GSB"
+      }
+    },
+    {
+      "id": "michael-schwarz-universe",
+      "template": "person",
+      "name": "Michael Schwarz's Universe",
+      "description": "Michael Schwarz leads Microsoft's Office of the Chief Economist. He was previously Chief Economist a...",
+      "hero": {
+        "id": "talk-susan-athey-applied-researchers-causation",
+        "type": "talk",
+        "title": "Susan Athey: applied researchers & Causation",
+        "url": "https://www.youtube.com/watch?v=q4hWBep5RIc"
+      },
+      "items": [
+        {
+          "id": "package-econml",
+          "type": "package",
+          "title": "EconML"
+        },
+        {
+          "id": "resource-gsp-auction-paper-edelman-et-al-aer-2007",
+          "type": "resource",
+          "title": "GSP Auction Paper (Edelman et al., AER 2007)"
+        },
+        {
+          "id": "talk-hal-varian-chief-scientist-at-google",
+          "type": "talk",
+          "title": "Hal Varian: Chief Scientist at Google"
+        },
+        {
+          "id": "dataset-microsoft-research",
+          "type": "dataset",
+          "title": "Microsoft Research"
+        },
+        {
+          "id": "book-who-gets-what-and-why",
+          "type": "book",
+          "title": "Who Gets What and Why"
+        },
+        {
+          "id": "paper-diagnosing-sample-ratio-mismatch-in-online-controlled-experiments-a-taxonomy-and-rules-of-thumb-for-practitioners",
+          "type": "paper",
+          "title": "Diagnosing Sample Ratio Mismatch in Online Controlled Experiments: A Taxonomy and Rules of Thumb for Practitioners"
+        },
+        {
+          "id": "package-synapseml",
+          "type": "package",
+          "title": "SynapseML"
+        }
+      ],
+      "seed": {
+        "type": "person",
+        "name": "Michael Schwarz",
+        "company": "Microsoft"
+      }
+    },
+    {
+      "id": "pat-bajari-universe",
+      "template": "person",
+      "name": "Pat Bajari's Universe",
+      "description": "Pat Bajari built Amazon's economics team from scratch to 400+ PhD economists, creating the template ...",
+      "hero": {
+        "id": "talk-pat-bajari-building-applied-analytics-at-amazon",
+        "type": "talk",
+        "title": "Pat Bajari: Building applied analytics at Amazon",
+        "url": "https://www.keystone.ai/news-publications/patrick-bajari-qa"
+      },
+      "items": [
+        {
+          "id": "package-rsample",
+          "type": "package",
+          "title": "rsample"
+        },
+        {
+          "id": "resource-leetcode-sql-50",
+          "type": "resource",
+          "title": "LeetCode SQL 50"
+        },
+        {
+          "id": "talk-ml-for-pricing-auctions-icml",
+          "type": "talk",
+          "title": "ML for Pricing & Auctions (ICML)"
+        },
+        {
+          "id": "dataset-jdcom-2020-msom-20",
+          "type": "dataset",
+          "title": "JD.com 2020 (MSOM-20)"
+        },
+        {
+          "id": "paper-the-no-u-turn-sampler-adaptively-setting-path-lengths-in-hamiltonian-monte-carlo",
+          "type": "paper",
+          "title": "The No-U-Turn Sampler: Adaptively Setting Path Lengths in Hamiltonian Monte Carlo"
+        },
+        {
+          "id": "package-ggdag",
+          "type": "package",
+          "title": "ggdag"
+        },
+        {
+          "id": "resource-neetcode",
+          "type": "resource",
+          "title": "NeetCode"
+        }
+      ],
+      "seed": {
+        "type": "person",
+        "name": "Pat Bajari",
+        "company": "Amazon (1969-2025)"
+      }
+    },
+    {
+      "id": "patrick-hummel-universe",
+      "template": "person",
+      "name": "Patrick Hummel's Universe",
+      "description": "Patrick Hummel leads economics for Microsoft Cloud, working on pricing, capacity planning, and marke...",
+      "hero": {
+        "id": "talk-hal-varian-chief-scientist-at-google",
+        "type": "talk",
+        "title": "Hal Varian: Chief Scientist at Google",
+        "url": "https://www.youtube.com/watch?v=d3CtB_gVV18"
+      },
+      "items": [
+        {
+          "id": "package-deep-opt-auctions",
+          "type": "package",
+          "title": "deep-opt-auctions"
+        },
+        {
+          "id": "talk-preston-mcafee-auction-design-applied-analytics",
+          "type": "talk",
+          "title": "Preston McAfee: Auction Design & applied analytics"
+        },
+        {
+          "id": "dataset-brazilian-ecommerce",
+          "type": "dataset",
+          "title": "Brazilian eCommerce"
+        },
+        {
+          "id": "book-who-gets-what-and-why",
+          "type": "book",
+          "title": "Who Gets What and Why"
+        },
+        {
+          "id": "paper-personalized-dynamic-pricing-with-machine-learning-high-dimensional-features-and-heterogeneous-elasticity",
+          "type": "paper",
+          "title": "Personalized Dynamic Pricing with Machine Learning: High-Dimensional Features and Heterogeneous Elasticity"
+        },
+        {
+          "id": "resource-the-theory-and-practice-of-revenue-management",
+          "type": "resource",
+          "title": "The Theory and Practice of Revenue Management"
+        },
+        {
+          "id": "talk-ml-for-pricing-auctions-icml",
+          "type": "talk",
+          "title": "ML for Pricing & Auctions (ICML)"
+        }
+      ],
+      "seed": {
+        "type": "person",
+        "name": "Patrick Hummel",
+        "company": "Microsoft Cloud"
+      }
+    },
+    {
+      "id": "peter-coles-universe",
+      "template": "person",
+      "name": "Peter Coles's Universe",
+      "description": "Peter Coles leads economics at Airbnb, applying market design to the sharing economy. Previously Hea...",
+      "hero": {
+        "id": "talk-susan-athey-applied-researchers-wanted",
+        "type": "talk",
+        "title": "Susan Athey: applied researchers Wanted",
+        "url": "https://www.aeaweb.org/research/athey-luca-interview-tech-economics"
+      },
+      "items": [
+        {
+          "id": "package-matching",
+          "type": "package",
+          "title": "matching"
+        },
+        {
+          "id": "resource-gsp-auction-paper-edelman-et-al-aer-2007",
+          "type": "resource",
+          "title": "GSP Auction Paper (Edelman et al., AER 2007)"
+        },
+        {
+          "id": "talk-hal-varian-chief-scientist-at-google",
+          "type": "talk",
+          "title": "Hal Varian: Chief Scientist at Google"
+        },
+        {
+          "id": "dataset-airbnb-inside-airbnb",
+          "type": "dataset",
+          "title": "AirBnb (Inside Airbnb)"
+        },
+        {
+          "id": "book-the-cold-start-problem",
+          "type": "book",
+          "title": "The Cold Start Problem"
+        },
+        {
+          "id": "paper-switchback-experiments-and-randomized-experiments-for-estimating-platform-level-effects",
+          "type": "paper",
+          "title": "Switchback Experiments and Randomized Experiments for Estimating Platform-Level Effects"
+        },
+        {
+          "id": "package-scarfmatch",
+          "type": "package",
+          "title": "scarfmatch"
+        }
+      ],
+      "seed": {
+        "type": "person",
+        "name": "Peter Coles",
+        "company": "Airbnb"
+      }
+    },
+    {
+      "id": "preston-mcafee-universe",
+      "template": "person",
+      "name": "Preston McAfee's Universe",
+      "description": "Preston McAfee is an auction design legend. He designed the FCC spectrum auctions with Milgrom and W...",
+      "hero": {
+        "id": "talk-preston-mcafee-auction-design-applied-analytics",
+        "type": "talk",
+        "title": "Preston McAfee: Auction Design & applied analytics",
+        "url": "https://www.richmondfed.org/publications/research/econ_focus/2018/q4/interview"
+      },
+      "items": [
+        {
+          "id": "package-fairpy",
+          "type": "package",
+          "title": "fairpy"
+        },
+        {
+          "id": "resource-tim-roughgardens-cs364a-mechanism-design",
+          "type": "resource",
+          "title": "Tim Roughgarden's CS364A: Mechanism Design"
+        },
+        {
+          "id": "talk-nikhil-devanur-lagrangian-duality-in-mechanism-design",
+          "type": "talk",
+          "title": "Nikhil Devanur: Lagrangian Duality in Mechanism Design"
+        },
+        {
+          "id": "dataset-fcc-spectrum-auctions",
+          "type": "dataset",
+          "title": "FCC Spectrum Auctions"
+        },
+        {
+          "id": "paper-optimal-auctions-through-deep-learning",
+          "type": "paper",
+          "title": "Optimal Auctions through Deep Learning"
+        },
+        {
+          "id": "package-pygambit",
+          "type": "package",
+          "title": "pygambit"
+        },
+        {
+          "id": "resource-jonathan-levins-revenue-equivalence-notes",
+          "type": "resource",
+          "title": "Jonathan Levin's Revenue Equivalence Notes"
+        }
+      ],
+      "seed": {
+        "type": "person",
+        "name": "Preston McAfee",
+        "company": "Google (prev. Microsoft, Yahoo)"
+      }
+    },
+    {
+      "id": "scott-kominers-universe",
+      "template": "person",
+      "name": "Scott Kominers's Universe",
+      "description": "Scott Kominers bridges market design theory and crypto/Web3 practice. He's a professor at Harvard Bu...",
+      "hero": {
+        "id": "talk-hal-varian-chief-scientist-at-google",
+        "type": "talk",
+        "title": "Hal Varian: Chief Scientist at Google",
+        "url": "https://www.youtube.com/watch?v=d3CtB_gVV18"
+      },
+      "items": [
+        {
+          "id": "package-matching",
+          "type": "package",
+          "title": "matching"
+        },
+        {
+          "id": "resource-gsp-auction-paper-edelman-et-al-aer-2007",
+          "type": "resource",
+          "title": "GSP Auction Paper (Edelman et al., AER 2007)"
+        },
+        {
+          "id": "talk-hal-varian-doing-economics-at-google",
+          "type": "talk",
+          "title": "Hal Varian: Doing Economics at Google"
+        },
+        {
+          "id": "dataset-optn-organ-transplant",
+          "type": "dataset",
+          "title": "OPTN Organ Transplant"
+        },
+        {
+          "id": "paper-nobel-prize-scientific-background-dmp-model",
+          "type": "paper",
+          "title": "Nobel Prize Scientific Background: DMP Model"
+        },
+        {
+          "id": "package-scarfmatch",
+          "type": "package",
+          "title": "scarfmatch"
+        },
+        {
+          "id": "resource-causal-inference-the-mixtape",
+          "type": "resource",
+          "title": "Causal Inference: The Mixtape"
+        }
+      ],
+      "seed": {
+        "type": "person",
+        "name": "Scott Kominers",
+        "company": "Harvard & a16z crypto"
+      }
+    },
+    {
+      "id": "sonia-jaffe-universe",
+      "template": "person",
+      "name": "Sonia Jaffe's Universe",
+      "description": "Sonia Jaffe works in Microsoft's Office of the Chief Economist on antitrust, labor, and health econo...",
+      "hero": {
+        "id": "talk-nikhil-devanur-lagrangian-duality-in-mechanism-design",
+        "type": "talk",
+        "title": "Nikhil Devanur: Lagrangian Duality in Mechanism Design",
+        "url": "https://mediaspace.gatech.edu/media/Nikhil+Devanur+-+Lagrangian+Duality+in+Mechanism+Design/1_oj4qzj8x"
+      },
+      "items": [
+        {
+          "id": "resource-microsoft-research-adversarial-ml-and-instrumental-variables",
+          "type": "resource",
+          "title": "Microsoft Research: Adversarial ML and Instrumental Variables"
+        },
+        {
+          "id": "talk-jean-tirole-nobel-lecture-2014",
+          "type": "talk",
+          "title": "Jean Tirole: Nobel Lecture 2014"
+        },
+        {
+          "id": "dataset-microsoft-research",
+          "type": "dataset",
+          "title": "Microsoft Research"
+        },
+        {
+          "id": "paper-artificial-intelligence-algorithmic-pricing-and-collusion",
+          "type": "paper",
+          "title": "Artificial Intelligence, Algorithmic Pricing, and Collusion"
+        },
+        {
+          "id": "resource-microsoft-research-end-to-end-causal-inference-at-scale-demo",
+          "type": "resource",
+          "title": "Microsoft Research: End-to-End Causal Inference at Scale Demo"
+        },
+        {
+          "id": "paper-sustainable-and-unchallenged-algorithmic-tacit-collusion",
+          "type": "paper",
+          "title": "Sustainable and Unchallenged Algorithmic Tacit Collusion"
+        },
+        {
+          "id": "talk-fiona-scott-morton-tech-antitrust-testimony",
+          "type": "talk",
+          "title": "Fiona Scott Morton: Tech Antitrust Testimony"
+        }
+      ],
+      "seed": {
+        "type": "person",
+        "name": "Sonia Jaffe",
+        "company": "Microsoft Research"
+      }
+    },
+    {
+      "id": "steve-tadelis-universe",
+      "template": "person",
+      "name": "Steve Tadelis's Universe",
+      "description": "Steve Tadelis is the godfather of tech-economics field experiments. He led eBay's research team and ...",
+      "hero": {
+        "id": "talk-steve-tadelis-causal-inference-in-tech",
+        "type": "talk",
+        "title": "Steve Tadelis: Causal Inference in Tech",
+        "url": "https://www.youtube.com/watch?v=0l4cAWWMAKQ"
+      },
+      "items": [
+        {
+          "id": "package-matching",
+          "type": "package",
+          "title": "matching"
+        },
+        {
+          "id": "resource-gsp-auction-paper-edelman-et-al-aer-2007",
+          "type": "resource",
+          "title": "GSP Auction Paper (Edelman et al., AER 2007)"
+        },
+        {
+          "id": "talk-hal-varian-chief-scientist-at-google",
+          "type": "talk",
+          "title": "Hal Varian: Chief Scientist at Google"
+        },
+        {
+          "id": "dataset-optn-organ-transplant",
+          "type": "dataset",
+          "title": "OPTN Organ Transplant"
+        },
+        {
+          "id": "book-who-gets-what-and-why",
+          "type": "book",
+          "title": "Who Gets What and Why"
+        },
+        {
+          "id": "paper-digital-advertising-and-consumer-price-search",
+          "type": "paper",
+          "title": "Digital Advertising and Consumer Price Search"
+        },
+        {
+          "id": "package-scarfmatch",
+          "type": "package",
+          "title": "scarfmatch"
+        }
+      ],
+      "seed": {
+        "type": "person",
+        "name": "Steve Tadelis",
+        "company": "UC Berkeley Haas (prev. eBay, Amazon)"
+      }
+    },
+    {
+      "id": "learn-python",
+      "template": "journey",
+      "name": "Learn Python",
+      "description": "Programming fundamentals for researchers — data manipulation, visualization, and workflows",
+      "hero": {
+        "id": "resource-coding-for-practitioners",
+        "type": "resource",
+        "title": "Coding for practitioners",
+        "url": "https://aeturrell.github.io/coding-for-economists/intro.html"
+      },
+      "items": [
+        {
+          "id": "resource-the-missing-semester-mit",
+          "type": "resource",
+          "title": "The Missing Semester (MIT)"
+        },
+        {
+          "id": "package-python-for-econometrics",
+          "type": "package",
+          "title": "Python for Econometrics"
+        },
+        {
+          "id": "resource-python-data-science-handbook",
+          "type": "resource",
+          "title": "Python Data Science Handbook"
+        },
+        {
+          "id": "package-beyond-jupyter-transferlab",
+          "type": "package",
+          "title": "Beyond Jupyter (TransferLab)"
+        },
+        {
+          "id": "package-rdd",
+          "type": "package",
+          "title": "rdd"
+        }
+      ],
+      "seed": {
+        "type": "journey",
+        "name": "Learn Python"
+      }
+    },
+    {
+      "id": "learn-statistics",
+      "template": "journey",
+      "name": "Learn Statistics",
+      "description": "Hypothesis testing, inference, and distributions — the foundation for empirical work",
+      "hero": {
+        "id": "resource-statquest-josh-starmer",
+        "type": "resource",
+        "title": "StatQuest (Josh Starmer)",
+        "url": "https://www.youtube.com/@statquest"
+      },
+      "items": [
+        {
+          "id": "resource-seeing-theory-brown",
+          "type": "resource",
+          "title": "Seeing Theory (Brown)"
+        },
+        {
+          "id": "resource-think-stats",
+          "type": "resource",
+          "title": "Think Stats"
+        },
+        {
+          "id": "resource-scipystats-documentation",
+          "type": "resource",
+          "title": "Scipy.stats Documentation"
+        },
+        {
+          "id": "package-scipyoptimize",
+          "type": "package",
+          "title": "scipy.optimize"
+        },
+        {
+          "id": "package-pingouin",
+          "type": "package",
+          "title": "Pingouin"
+        }
+      ],
+      "seed": {
+        "type": "journey",
+        "name": "Learn Statistics"
+      }
+    },
+    {
+      "id": "learn-ml",
+      "template": "journey",
+      "name": "Learn ML",
+      "description": "Prediction, tree models, and cross-validation — for forecasting and pattern recognition",
+      "hero": {
+        "id": "resource-andrew-ngs-ml-specialization",
+        "type": "resource",
+        "title": "Andrew Ng's ML Specialization",
+        "url": "https://www.coursera.org/specializations/machine-learning-introduction"
+      },
+      "items": [
+        {
+          "id": "resource-google-ml-crash-course",
+          "type": "resource",
+          "title": "Google ML Crash Course"
+        },
+        {
+          "id": "resource-fastai-practical-deep-learning-for-coders",
+          "type": "resource",
+          "title": "Fast.ai Practical Deep Learning for Coders"
+        },
+        {
+          "id": "resource-introduction-to-statistical-learning",
+          "type": "resource",
+          "title": "Introduction to Statistical Learning"
+        },
+        {
+          "id": "package-mabwiser",
+          "type": "package",
+          "title": "MABWiser"
+        },
+        {
+          "id": "package-superlearner",
+          "type": "package",
+          "title": "SuperLearner"
+        }
+      ],
+      "seed": {
+        "type": "journey",
+        "name": "Learn ML"
+      }
+    },
+    {
+      "id": "learn-causal-inference",
+      "template": "journey",
+      "name": "Learn Causal Inference",
+      "description": "Treatment effects, DiD, RDD, and IV — answer 'what if' questions with data",
+      "hero": {
+        "id": "package-causal-inference-for-the-brave-and-true",
+        "type": "package",
+        "title": "Causal Inference for the Brave and True",
+        "url": "https://matheusfacure.github.io/python-causality-handbook/"
+      },
+      "items": [
+        {
+          "id": "package-bsts",
+          "type": "package",
+          "title": "bsts"
+        },
+        {
+          "id": "package-causaldata",
+          "type": "package",
+          "title": "causaldata"
+        },
+        {
+          "id": "package-dowhy",
+          "type": "package",
+          "title": "DoWhy"
+        },
+        {
+          "id": "package-econml",
+          "type": "package",
+          "title": "EconML"
+        }
+      ],
+      "seed": {
+        "type": "journey",
+        "name": "Learn Causal Inference"
+      }
+    },
+    {
+      "id": "learn-product-sense",
+      "template": "journey",
+      "name": "Learn Product Sense",
+      "description": "PM thinking, metrics selection, and product strategy — build intuition for what to build and why",
+      "hero": {
+        "id": "resource-svpg-product-management-start-here",
+        "type": "resource",
+        "title": "SVPG: Product Management Start Here",
+        "url": "https://www.svpg.com/product-management-start-here/"
+      },
+      "items": [
+        {
+          "id": "resource-lennys-newsletter-podcast",
+          "type": "resource",
+          "title": "Lenny's Newsletter & Podcast"
+        },
+        {
+          "id": "resource-marty-cagan-inspired",
+          "type": "resource",
+          "title": "Marty Cagan: INSPIRED"
+        },
+        {
+          "id": "resource-ken-norton-how-to-hire-a-pm",
+          "type": "resource",
+          "title": "Ken Norton: How to Hire a PM"
+        },
+        {
+          "id": "resource-intercom-rice-framework",
+          "type": "resource",
+          "title": "Intercom: RICE Framework"
+        }
+      ],
+      "seed": {
+        "type": "journey",
+        "name": "Learn Product Sense"
+      }
+    },
+    {
+      "id": "learn-experimentation",
+      "template": "journey",
+      "name": "Learn Experimentation",
+      "description": "A/B testing, power analysis, and statistical rigor — bridge your training to industry experiments",
+      "hero": {
+        "id": "resource-trustworthy-online-controlled-experiments-kohavi",
+        "type": "resource",
+        "title": "Trustworthy Online Controlled Experiments (Kohavi)",
+        "url": "https://experimentguide.com/"
+      },
+      "items": [
+        {
+          "id": "resource-evan-millers-ab-testing-tools",
+          "type": "resource",
+          "title": "Evan Miller's A/B Testing Tools"
+        },
+        {
+          "id": "resource-understanding-cuped-matteo-courthoud",
+          "type": "resource",
+          "title": "Understanding CUPED (Matteo Courthoud)"
+        },
+        {
+          "id": "resource-netflix-tech-blog-experimentation-series",
+          "type": "resource",
+          "title": "Netflix Tech Blog: Experimentation Series"
+        },
+        {
+          "id": "resource-uber-supercharging-ab-testing",
+          "type": "resource",
+          "title": "Uber: Supercharging A/B Testing"
+        }
+      ],
+      "seed": {
+        "type": "journey",
+        "name": "Learn Experimentation"
+      }
+    },
+    {
+      "id": "learn-sql",
+      "template": "journey",
+      "name": "Learn SQL",
+      "description": "Querying data, joins, and aggregations — essential for any data role",
+      "hero": {
+        "id": "resource-sqlbolt",
+        "type": "resource",
+        "title": "SQLBolt",
+        "url": "https://sqlbolt.com/"
+      },
+      "items": [
+        {
+          "id": "resource-mode-sql-tutorial",
+          "type": "resource",
+          "title": "Mode SQL Tutorial"
+        },
+        {
+          "id": "resource-select-star-sql",
+          "type": "resource",
+          "title": "SELECT Star SQL"
+        },
+        {
+          "id": "resource-8-week-sql-challenge-danny-ma",
+          "type": "resource",
+          "title": "8 Week SQL Challenge (Danny Ma)"
+        },
+        {
+          "id": "resource-datalemur",
+          "type": "resource",
+          "title": "DataLemur"
+        },
+        {
+          "id": "package-duckreg",
+          "type": "package",
+          "title": "duckreg"
+        }
+      ],
+      "seed": {
+        "type": "journey",
+        "name": "Learn SQL"
+      }
+    },
+    {
+      "id": "learn-data-structures",
+      "template": "journey",
+      "name": "Learn Data Structures",
+      "description": "Arrays, linked lists, trees, and graphs — the building blocks for efficient algorithms",
+      "hero": {
+        "id": "resource-problem-solving-with-algorithms-data-structures-python",
+        "type": "resource",
+        "title": "Problem Solving with Algorithms & Data Structures (Python)",
+        "url": "https://runestone.academy/ns/books/published/pythonds/index.html"
+      },
+      "items": [
+        {
+          "id": "resource-real-python-data-structures",
+          "type": "resource",
+          "title": "Real Python: Data Structures"
+        },
+        {
+          "id": "resource-usf-data-structure-visualizations",
+          "type": "resource",
+          "title": "USF Data Structure Visualizations"
+        },
+        {
+          "id": "resource-leetcode-explore-data-structures",
+          "type": "resource",
+          "title": "LeetCode Explore: Data Structures"
+        }
+      ],
+      "seed": {
+        "type": "journey",
+        "name": "Learn Data Structures"
+      }
+    },
+    {
+      "id": "learn-algorithms",
+      "template": "journey",
+      "name": "Learn Algorithms",
+      "description": "Sorting, searching, dynamic programming, and graph algorithms — the patterns that power interviews",
+      "hero": {
+        "id": "resource-freecodecamp-algorithms-course",
+        "type": "resource",
+        "title": "freeCodeCamp: Algorithms Course",
+        "url": "https://www.youtube.com/watch?v=8hly31xKli0"
+      },
+      "items": [
+        {
+          "id": "resource-abdul-bari-youtube",
+          "type": "resource",
+          "title": "Abdul Bari (YouTube)"
+        },
+        {
+          "id": "resource-visualgo",
+          "type": "resource",
+          "title": "VisuAlgo"
+        },
+        {
+          "id": "resource-thealgorithmspython",
+          "type": "resource",
+          "title": "TheAlgorithms/Python"
+        }
+      ],
+      "seed": {
+        "type": "journey",
+        "name": "Learn Algorithms"
+      }
+    },
+    {
+      "id": "learn-leetcode",
+      "template": "journey",
+      "name": "Learn LeetCode",
+      "description": "Coding interview practice — curated problem sets and patterns for FAANG interviews",
+      "hero": {
+        "id": "resource-neetcode-roadmap",
+        "type": "resource",
+        "title": "NeetCode Roadmap",
+        "url": "https://neetcode.io/"
+      },
+      "items": [
+        {
+          "id": "resource-blind-75-grind-75",
+          "type": "resource",
+          "title": "Blind 75 / Grind 75"
+        },
+        {
+          "id": "resource-leetcode-patterns",
+          "type": "resource",
+          "title": "LeetCode Patterns"
+        },
+        {
+          "id": "resource-hackerrank-interview-prep-kit",
+          "type": "resource",
+          "title": "HackerRank Interview Prep Kit"
+        },
+        {
+          "id": "resource-structy",
+          "type": "resource",
+          "title": "Structy"
+        }
+      ],
+      "seed": {
+        "type": "journey",
+        "name": "Learn LeetCode"
+      }
+    },
+    {
+      "id": "learn-automation",
+      "template": "journey",
+      "name": "Learn Automation",
+      "description": "Web scraping, APIs, and workflow automation — collect and process data at scale",
+      "hero": {
+        "id": "resource-automate-the-boring-stuff-with-python",
+        "type": "resource",
+        "title": "Automate the Boring Stuff with Python",
+        "url": "https://automatetheboringstuff.com/"
+      },
+      "items": [
+        {
+          "id": "resource-postman-academy",
+          "type": "resource",
+          "title": "Postman Academy"
+        },
+        {
+          "id": "resource-real-python-web-scraping",
+          "type": "resource",
+          "title": "Real Python: Web Scraping"
+        },
+        {
+          "id": "resource-playwright-for-python",
+          "type": "resource",
+          "title": "Playwright for Python"
+        },
+        {
+          "id": "resource-scrapy-documentation",
+          "type": "resource",
+          "title": "Scrapy Documentation"
+        }
+      ],
+      "seed": {
+        "type": "journey",
+        "name": "Learn Automation"
+      }
+    },
+    {
+      "id": "learn-optimization-or",
+      "template": "journey",
+      "name": "Learn Optimization (OR)",
+      "description": "Linear programming, convex optimization, and combinatorial methods — solve pricing, scheduling, and allocation problems",
+      "hero": {
+        "id": "resource-mit-15053-optimization-methods-in-management-science",
+        "type": "resource",
+        "title": "MIT 15.053: Optimization Methods in Management Science",
+        "url": "https://ocw.mit.edu/courses/15-053-optimization-methods-in-management-science-spring-2013/"
+      },
+      "items": [
+        {
+          "id": "resource-quantecon-linear-programming-introduction",
+          "type": "resource",
+          "title": "QuantEcon: Linear Programming Introduction"
+        },
+        {
+          "id": "resource-real-python-linear-programming-with-python",
+          "type": "resource",
+          "title": "Real Python: Linear Programming with Python"
+        },
+        {
+          "id": "resource-cvxpy-short-course",
+          "type": "resource",
+          "title": "CVXPY Short Course"
+        },
+        {
+          "id": "resource-convex-optimization-boyd-vandenberghe",
+          "type": "resource",
+          "title": "Convex Optimization (Boyd & Vandenberghe)"
+        },
+        {
+          "id": "package-scipyoptimize",
+          "type": "package",
+          "title": "scipy.optimize"
+        }
+      ],
+      "seed": {
+        "type": "journey",
+        "name": "Learn Optimization (OR)"
+      }
+    },
+    {
+      "id": "learn-agentic-workflows",
+      "template": "journey",
+      "name": "Learn Agentic Workflows",
+      "description": "Build AI agents that reason, plan, and execute — tool use, multi-agent systems, and orchestration",
+      "hero": {
+        "id": "resource-agentic-ai-deeplearningai",
+        "type": "resource",
+        "title": "Agentic AI (DeepLearning.AI)",
+        "url": "https://www.deeplearning.ai/short-courses/ai-agentic-design-patterns-with-autogen/"
+      },
+      "items": [
+        {
+          "id": "resource-ai-agents-in-langgraph-deeplearningai",
+          "type": "resource",
+          "title": "AI Agents in LangGraph (DeepLearning.AI)"
+        },
+        {
+          "id": "resource-building-effective-agents-anthropic",
+          "type": "resource",
+          "title": "Building Effective Agents (Anthropic)"
+        },
+        {
+          "id": "resource-langgraph-documentation",
+          "type": "resource",
+          "title": "LangGraph Documentation"
+        },
+        {
+          "id": "package-langgraph",
+          "type": "package",
+          "title": "langgraph"
+        },
+        {
+          "id": "package-langchain",
+          "type": "package",
+          "title": "langchain"
+        }
+      ],
+      "seed": {
+        "type": "journey",
+        "name": "Learn Agentic Workflows"
+      }
+    },
+    {
+      "id": "learn-forecasting",
+      "template": "journey",
+      "name": "Learn Forecasting",
+      "description": "Time series analysis, demand forecasting, and prediction — ARIMA, Prophet, and modern ML methods for business planning",
+      "hero": {
+        "id": "resource-forecasting-principles-and-practice-python",
+        "type": "resource",
+        "title": "Forecasting: Principles and Practice (Python)",
+        "url": "https://otexts.com/fpppy/"
+      },
+      "items": [
+        {
+          "id": "resource-penn-state-stat-510",
+          "type": "resource",
+          "title": "Penn State STAT 510"
+        },
+        {
+          "id": "resource-uber-forecasting-introduction",
+          "type": "resource",
+          "title": "Uber: Forecasting Introduction"
+        },
+        {
+          "id": "resource-statsforecast-documentation",
+          "type": "resource",
+          "title": "statsforecast Documentation"
+        },
+        {
+          "id": "resource-sktime-unified-framework",
+          "type": "resource",
+          "title": "sktime: Unified Framework"
+        },
+        {
+          "id": "package-statsmodels",
+          "type": "package",
+          "title": "Statsmodels"
+        },
+        {
+          "id": "package-augurs",
+          "type": "package",
+          "title": "Augurs"
+        }
+      ],
+      "seed": {
+        "type": "journey",
+        "name": "Learn Forecasting"
+      }
+    },
+    {
+      "id": "tools-adaptive-experimentation-bandits",
+      "template": "tool",
+      "name": "Adaptive Experimentation & Bandits Toolkit",
+      "description": "Essential tools for adaptive experimentation & bandits",
+      "hero": {
+        "id": "package-bayesianbandits",
+        "type": "package",
+        "title": "BayesianBandits",
+        "url": "https://github.com/bayesianbandits/bayesianbandits"
+      },
+      "items": [
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        },
+        {
+          "id": "package-mabwiser",
+          "type": "package",
+          "title": "MABWiser"
+        },
+        {
+          "id": "package-open-bandit-pipeline-obp",
+          "type": "package",
+          "title": "Open Bandit Pipeline (OBP)"
+        },
+        {
+          "id": "package-abracadabra",
+          "type": "package",
+          "title": "abracadabra"
+        },
+        {
+          "id": "package-ax-meta-adaptive-experimentation",
+          "type": "package",
+          "title": "Ax (Meta Adaptive Experimentation)"
+        },
+        {
+          "id": "package-pyxab",
+          "type": "package",
+          "title": "PyXAB"
+        },
+        {
+          "id": "package-smpybandits",
+          "type": "package",
+          "title": "SMPyBandits"
+        },
+        {
+          "id": "resource-the-theory-and-practice-of-revenue-management",
+          "type": "resource",
+          "title": "The Theory and Practice of Revenue Management"
+        },
+        {
+          "id": "resource-spotify-rd",
+          "type": "resource",
+          "title": "Spotify R&D"
+        },
+        {
+          "id": "resource-doordash-engineering",
+          "type": "resource",
+          "title": "DoorDash Engineering"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Adaptive Experimentation & Bandits"
+      }
+    },
+    {
+      "id": "tools-agentic-ai",
+      "template": "tool",
+      "name": "Agentic AI Toolkit",
+      "description": "Essential tools for agentic ai",
+      "hero": {
+        "id": "package-langchain",
+        "type": "package",
+        "title": "langchain",
+        "url": "https://python.langchain.com/"
+      },
+      "items": [
+        {
+          "id": "package-langgraph",
+          "type": "package",
+          "title": "langgraph"
+        },
+        {
+          "id": "package-crewai",
+          "type": "package",
+          "title": "crewai"
+        },
+        {
+          "id": "package-openai-agents",
+          "type": "package",
+          "title": "openai-agents"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "resource-coding-for-economists-arthur-turrell",
+          "type": "resource",
+          "title": "Coding for Economists (Arthur Turrell)"
+        },
+        {
+          "id": "resource-beyond-jupyter",
+          "type": "resource",
+          "title": "Beyond Jupyter"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Agentic AI"
+      }
+    },
+    {
+      "id": "tools-bayesian-econometrics",
+      "template": "tool",
+      "name": "Bayesian Econometrics Toolkit",
+      "description": "Essential tools for bayesian econometrics",
+      "hero": {
+        "id": "package-bambi",
+        "type": "package",
+        "title": "Bambi",
+        "url": "https://github.com/bambinos/bambi"
+      },
+      "items": [
+        {
+          "id": "package-pymc",
+          "type": "package",
+          "title": "PyMC"
+        },
+        {
+          "id": "package-numpyro",
+          "type": "package",
+          "title": "NumPyro"
+        },
+        {
+          "id": "package-lightweightmmm",
+          "type": "package",
+          "title": "LightweightMMM"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "resource-coding-for-economists-arthur-turrell",
+          "type": "resource",
+          "title": "Coding for Economists (Arthur Turrell)"
+        },
+        {
+          "id": "resource-python-for-econometrics",
+          "type": "resource",
+          "title": "Python for Econometrics"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Bayesian Econometrics"
+      }
+    },
+    {
+      "id": "tools-bayesian-inference",
+      "template": "tool",
+      "name": "Bayesian Inference Toolkit",
+      "description": "Essential tools for bayesian inference",
+      "hero": {
+        "id": "package-bayesplot",
+        "type": "package",
+        "title": "bayesplot",
+        "url": "https://cran.r-project.org/package=bayesplot"
+      },
+      "items": [
+        {
+          "id": "package-brms",
+          "type": "package",
+          "title": "brms"
+        },
+        {
+          "id": "package-rstan",
+          "type": "package",
+          "title": "rstan"
+        },
+        {
+          "id": "package-rstanarm",
+          "type": "package",
+          "title": "rstanarm"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "resource-coding-for-economists-arthur-turrell",
+          "type": "resource",
+          "title": "Coding for Economists (Arthur Turrell)"
+        },
+        {
+          "id": "resource-uber-engineering",
+          "type": "resource",
+          "title": "Uber Engineering"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Bayesian Inference"
+      }
+    },
+    {
+      "id": "tools-causal-discovery",
+      "template": "tool",
+      "name": "Causal Discovery Toolkit",
+      "description": "Essential tools for causal discovery",
+      "hero": {
+        "id": "package-dagitty",
+        "type": "package",
+        "title": "dagitty",
+        "url": "https://cran.r-project.org/package=dagitty"
+      },
+      "items": [
+        {
+          "id": "package-ggdag",
+          "type": "package",
+          "title": "ggdag"
+        },
+        {
+          "id": "package-bnlearn",
+          "type": "package",
+          "title": "bnlearn"
+        },
+        {
+          "id": "package-pcalg",
+          "type": "package",
+          "title": "pcalg"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "resource-uber-engineering",
+          "type": "resource",
+          "title": "Uber Engineering"
+        },
+        {
+          "id": "resource-meta-engineering-data-science",
+          "type": "resource",
+          "title": "Meta Engineering - Data Science"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Causal Discovery"
+      }
+    },
+    {
+      "id": "tools-causal-discovery-graphical-models",
+      "template": "tool",
+      "name": "Causal Discovery & Graphical Models Toolkit",
+      "description": "Essential tools for causal discovery & graphical models",
+      "hero": {
+        "id": "package-ananke",
+        "type": "package",
+        "title": "Ananke",
+        "url": "https://gitlab.com/causal/ananke"
+      },
+      "items": [
+        {
+          "id": "package-benchpress",
+          "type": "package",
+          "title": "Benchpress"
+        },
+        {
+          "id": "package-causal-discovery-toolbox-cdt",
+          "type": "package",
+          "title": "Causal Discovery Toolbox (CDT)"
+        },
+        {
+          "id": "package-lingam",
+          "type": "package",
+          "title": "LiNGAM"
+        },
+        {
+          "id": "package-tigramite",
+          "type": "package",
+          "title": "Tigramite"
+        },
+        {
+          "id": "package-causal-learn",
+          "type": "package",
+          "title": "causal-learn"
+        },
+        {
+          "id": "package-causal-llm-bfs",
+          "type": "package",
+          "title": "causal-llm-bfs"
+        },
+        {
+          "id": "package-gcastle",
+          "type": "package",
+          "title": "gCastle"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "resource-the-theory-and-practice-of-revenue-management",
+          "type": "resource",
+          "title": "The Theory and Practice of Revenue Management"
+        },
+        {
+          "id": "resource-uber-engineering",
+          "type": "resource",
+          "title": "Uber Engineering"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Causal Discovery & Graphical Models"
+      }
+    },
+    {
+      "id": "tools-causal-inference-matching",
+      "template": "tool",
+      "name": "Causal Inference & Matching Toolkit",
+      "description": "Essential tools for causal inference & matching",
+      "hero": {
+        "id": "package-causalinference",
+        "type": "package",
+        "title": "CausalInference",
+        "url": "https://github.com/laurencium/causalinference"
+      },
+      "items": [
+        {
+          "id": "package-causallib",
+          "type": "package",
+          "title": "CausalLib"
+        },
+        {
+          "id": "package-causalml",
+          "type": "package",
+          "title": "CausalML"
+        },
+        {
+          "id": "package-causalplayground",
+          "type": "package",
+          "title": "CausalPlayground"
+        },
+        {
+          "id": "package-dowhy",
+          "type": "package",
+          "title": "DoWhy"
+        },
+        {
+          "id": "package-pysensemakr",
+          "type": "package",
+          "title": "PySensemakr"
+        },
+        {
+          "id": "package-causal-curve",
+          "type": "package",
+          "title": "causal-curve"
+        },
+        {
+          "id": "package-mcf-modified-causal-forest",
+          "type": "package",
+          "title": "mcf (Modified Causal Forest)"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "resource-coding-for-economists-arthur-turrell",
+          "type": "resource",
+          "title": "Coding for Economists (Arthur Turrell)"
+        },
+        {
+          "id": "resource-the-theory-and-practice-of-revenue-management",
+          "type": "resource",
+          "title": "The Theory and Practice of Revenue Management"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Causal Inference & Matching"
+      }
+    },
+    {
+      "id": "tools-marketing-mix-models-mmm-business-analytics",
+      "template": "tool",
+      "name": "Marketing Mix Models (MMM) & Business Analytics Toolkit",
+      "description": "Essential tools for marketing mix models (mmm) & business analytics",
+      "hero": {
+        "id": "package-pymc-marketing",
+        "type": "package",
+        "title": "PyMC Marketing",
+        "url": "https://github.com/pymc-labs/pymc-marketing"
+      },
+      "items": [
+        {
+          "id": "package-lifetimes",
+          "type": "package",
+          "title": "Lifetimes"
+        },
+        {
+          "id": "package-ziln_cltv",
+          "type": "package",
+          "title": "ziln_cltv"
+        },
+        {
+          "id": "package-mmm_stan",
+          "type": "package",
+          "title": "mmm_stan"
+        },
+        {
+          "id": "package-mamimo",
+          "type": "package",
+          "title": "MaMiMo"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "resource-the-theory-and-practice-of-revenue-management",
+          "type": "resource",
+          "title": "The Theory and Practice of Revenue Management"
+        },
+        {
+          "id": "resource-spotify-rd",
+          "type": "resource",
+          "title": "Spotify R&D"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Marketing Mix Models (MMM) & Business Analytics"
+      }
+    },
+    {
+      "id": "tools-causal-inference-did",
+      "template": "tool",
+      "name": "Causal Inference (DiD) Toolkit",
+      "description": "Essential tools for causal inference (did)",
+      "hero": {
+        "id": "package-drdid",
+        "type": "package",
+        "title": "DRDID",
+        "url": "https://cran.r-project.org/package=DRDID"
+      },
+      "items": [
+        {
+          "id": "package-honestdid",
+          "type": "package",
+          "title": "HonestDiD"
+        },
+        {
+          "id": "package-bacondecomp",
+          "type": "package",
+          "title": "bacondecomp"
+        },
+        {
+          "id": "package-did",
+          "type": "package",
+          "title": "did"
+        },
+        {
+          "id": "package-didimputation",
+          "type": "package",
+          "title": "didimputation"
+        },
+        {
+          "id": "package-fastdid",
+          "type": "package",
+          "title": "fastdid"
+        },
+        {
+          "id": "package-fect",
+          "type": "package",
+          "title": "fect"
+        },
+        {
+          "id": "package-staggered",
+          "type": "package",
+          "title": "staggered"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "resource-coding-for-economists-arthur-turrell",
+          "type": "resource",
+          "title": "Coding for Economists (Arthur Turrell)"
+        },
+        {
+          "id": "resource-uber-engineering",
+          "type": "resource",
+          "title": "Uber Engineering"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Causal Inference (DiD)"
+      }
+    },
+    {
+      "id": "tools-causal-inference-ml",
+      "template": "tool",
+      "name": "Causal Inference (ML) Toolkit",
+      "description": "Essential tools for causal inference (ml)",
+      "hero": {
+        "id": "package-evalue",
+        "type": "package",
+        "title": "EValue",
+        "url": "https://cran.r-project.org/package=EValue"
+      },
+      "items": [
+        {
+          "id": "package-superlearner",
+          "type": "package",
+          "title": "SuperLearner"
+        },
+        {
+          "id": "package-causalweight",
+          "type": "package",
+          "title": "causalweight"
+        },
+        {
+          "id": "package-ddml",
+          "type": "package",
+          "title": "ddml"
+        },
+        {
+          "id": "package-grf",
+          "type": "package",
+          "title": "grf"
+        },
+        {
+          "id": "package-hdm",
+          "type": "package",
+          "title": "hdm"
+        },
+        {
+          "id": "package-ltmle",
+          "type": "package",
+          "title": "ltmle"
+        },
+        {
+          "id": "package-sensemakr",
+          "type": "package",
+          "title": "sensemakr"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "resource-coding-for-economists-arthur-turrell",
+          "type": "resource",
+          "title": "Coding for Economists (Arthur Turrell)"
+        },
+        {
+          "id": "resource-uber-engineering",
+          "type": "resource",
+          "title": "Uber Engineering"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Causal Inference (ML)"
+      }
+    },
+    {
+      "id": "tools-causal-inference-matching",
+      "template": "tool",
+      "name": "Causal Inference (Matching) Toolkit",
+      "description": "Essential tools for causal inference (matching)",
+      "hero": {
+        "id": "package-cbps",
+        "type": "package",
+        "title": "CBPS",
+        "url": "https://cran.r-project.org/package=CBPS"
+      },
+      "items": [
+        {
+          "id": "package-matchit",
+          "type": "package",
+          "title": "MatchIt"
+        },
+        {
+          "id": "package-weightit",
+          "type": "package",
+          "title": "WeightIt"
+        },
+        {
+          "id": "package-cobalt",
+          "type": "package",
+          "title": "cobalt"
+        },
+        {
+          "id": "package-optmatch",
+          "type": "package",
+          "title": "optmatch"
+        },
+        {
+          "id": "package-ebal",
+          "type": "package",
+          "title": "ebal"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "resource-coding-for-economists-arthur-turrell",
+          "type": "resource",
+          "title": "Coding for Economists (Arthur Turrell)"
+        },
+        {
+          "id": "resource-uber-engineering",
+          "type": "resource",
+          "title": "Uber Engineering"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Causal Inference (Matching)"
+      }
+    },
+    {
+      "id": "tools-causal-inference-rdd",
+      "template": "tool",
+      "name": "Causal Inference (RDD) Toolkit",
+      "description": "Essential tools for causal inference (rdd)",
+      "hero": {
+        "id": "package-rddapp",
+        "type": "package",
+        "title": "rddapp",
+        "url": "https://cran.r-project.org/package=rddapp"
+      },
+      "items": [
+        {
+          "id": "package-rddensity",
+          "type": "package",
+          "title": "rddensity"
+        },
+        {
+          "id": "package-rdlocrand",
+          "type": "package",
+          "title": "rdlocrand"
+        },
+        {
+          "id": "package-rdmulti",
+          "type": "package",
+          "title": "rdmulti"
+        },
+        {
+          "id": "package-rdpower",
+          "type": "package",
+          "title": "rdpower"
+        },
+        {
+          "id": "package-rddtools",
+          "type": "package",
+          "title": "rddtools"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "resource-coding-for-economists-arthur-turrell",
+          "type": "resource",
+          "title": "Coding for Economists (Arthur Turrell)"
+        },
+        {
+          "id": "resource-uber-engineering",
+          "type": "resource",
+          "title": "Uber Engineering"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Causal Inference (RDD)"
+      }
+    },
+    {
+      "id": "tools-causal-inference-synthetic-control",
+      "template": "tool",
+      "name": "Causal Inference (Synthetic Control) Toolkit",
+      "description": "Essential tools for causal inference (synthetic control)",
+      "hero": {
+        "id": "package-synth",
+        "type": "package",
+        "title": "Synth",
+        "url": "https://cran.r-project.org/package=Synth"
+      },
+      "items": [
+        {
+          "id": "package-augsynth",
+          "type": "package",
+          "title": "augsynth"
+        },
+        {
+          "id": "package-gsynth",
+          "type": "package",
+          "title": "gsynth"
+        },
+        {
+          "id": "package-synthdid",
+          "type": "package",
+          "title": "synthdid"
+        },
+        {
+          "id": "package-sctools",
+          "type": "package",
+          "title": "SCtools"
+        },
+        {
+          "id": "package-microsynth",
+          "type": "package",
+          "title": "microsynth"
+        },
+        {
+          "id": "package-pensynth",
+          "type": "package",
+          "title": "pensynth"
+        },
+        {
+          "id": "package-tidysynth",
+          "type": "package",
+          "title": "tidysynth"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "resource-coding-for-economists-arthur-turrell",
+          "type": "resource",
+          "title": "Coding for Economists (Arthur Turrell)"
+        },
+        {
+          "id": "resource-uber-engineering",
+          "type": "resource",
+          "title": "Uber Engineering"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Causal Inference (Synthetic Control)"
+      }
+    },
+    {
+      "id": "tools-conformal-prediction-uncertainty",
+      "template": "tool",
+      "name": "Conformal Prediction & Uncertainty Toolkit",
+      "description": "Essential tools for conformal prediction & uncertainty",
+      "hero": {
+        "id": "package-mapie",
+        "type": "package",
+        "title": "MAPIE",
+        "url": "https://github.com/scikit-learn-contrib/MAPIE"
+      },
+      "items": [
+        {
+          "id": "package-crepes",
+          "type": "package",
+          "title": "crepes"
+        },
+        {
+          "id": "package-fortuna",
+          "type": "package",
+          "title": "fortuna"
+        },
+        {
+          "id": "package-torchcp",
+          "type": "package",
+          "title": "TorchCP"
+        },
+        {
+          "id": "package-puncc",
+          "type": "package",
+          "title": "puncc"
+        },
+        {
+          "id": "resource-the-theory-and-practice-of-revenue-management",
+          "type": "resource",
+          "title": "The Theory and Practice of Revenue Management"
+        },
+        {
+          "id": "resource-spotify-rd",
+          "type": "resource",
+          "title": "Spotify R&D"
+        },
+        {
+          "id": "resource-convex-optimization-boyd-vandenberghe",
+          "type": "resource",
+          "title": "Convex Optimization (Boyd & Vandenberghe)"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Conformal Prediction & Uncertainty"
+      }
+    },
+    {
+      "id": "tools-core-libraries-linear-models",
+      "template": "tool",
+      "name": "Core Libraries & Linear Models Toolkit",
+      "description": "Essential tools for core libraries & linear models",
+      "hero": {
+        "id": "package-linregress",
+        "type": "package",
+        "title": "Linregress",
+        "url": "https://crates.io/crates/linregress"
+      },
+      "items": [
+        {
+          "id": "package-polars",
+          "type": "package",
+          "title": "Polars"
+        },
+        {
+          "id": "package-statsmodels",
+          "type": "package",
+          "title": "Statsmodels"
+        },
+        {
+          "id": "package-appelpy",
+          "type": "package",
+          "title": "appelpy"
+        },
+        {
+          "id": "package-h2o-sparkling-water",
+          "type": "package",
+          "title": "H2O Sparkling Water"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "resource-the-theory-and-practice-of-revenue-management",
+          "type": "resource",
+          "title": "The Theory and Practice of Revenue Management"
+        },
+        {
+          "id": "resource-auctions-in-ad-tech-sanjiv-das",
+          "type": "resource",
+          "title": "Auctions in Ad Tech (Sanjiv Das)"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Core Libraries & Linear Models"
+      }
+    },
+    {
+      "id": "tools-tree-ensemble-methods-for-prediction",
+      "template": "tool",
+      "name": "Tree & Ensemble Methods for Prediction Toolkit",
+      "description": "Essential tools for tree & ensemble methods for prediction",
+      "hero": {
+        "id": "package-scikit-learn-ens",
+        "type": "package",
+        "title": "Scikit-learn Ens.",
+        "url": "https://github.com/scikit-learn/scikit-learn"
+      },
+      "items": [
+        {
+          "id": "package-catboost",
+          "type": "package",
+          "title": "CatBoost"
+        },
+        {
+          "id": "package-lightgbm",
+          "type": "package",
+          "title": "LightGBM"
+        },
+        {
+          "id": "package-linfa",
+          "type": "package",
+          "title": "Linfa"
+        },
+        {
+          "id": "package-ngboost",
+          "type": "package",
+          "title": "NGBoost"
+        },
+        {
+          "id": "package-smartcore",
+          "type": "package",
+          "title": "SmartCore"
+        },
+        {
+          "id": "package-xgboost",
+          "type": "package",
+          "title": "XGBoost"
+        },
+        {
+          "id": "package-cuml-rapids",
+          "type": "package",
+          "title": "cuML (RAPIDS)"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "resource-coding-for-economists-arthur-turrell",
+          "type": "resource",
+          "title": "Coding for Economists (Arthur Turrell)"
+        },
+        {
+          "id": "resource-the-missing-semester-mit",
+          "type": "resource",
+          "title": "The Missing Semester (MIT)"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Tree & Ensemble Methods for Prediction"
+      }
+    },
+    {
+      "id": "tools-data-workflow",
+      "template": "tool",
+      "name": "Data Workflow Toolkit",
+      "description": "Essential tools for data workflow",
+      "hero": {
+        "id": "package-collapse",
+        "type": "package",
+        "title": "collapse",
+        "url": "https://cran.r-project.org/package=collapse"
+      },
+      "items": [
+        {
+          "id": "package-datatable",
+          "type": "package",
+          "title": "data.table"
+        },
+        {
+          "id": "package-haven",
+          "type": "package",
+          "title": "haven"
+        },
+        {
+          "id": "package-tidyverse",
+          "type": "package",
+          "title": "tidyverse"
+        },
+        {
+          "id": "resource-coding-for-economists-arthur-turrell",
+          "type": "resource",
+          "title": "Coding for Economists (Arthur Turrell)"
+        },
+        {
+          "id": "resource-stitch-fix-algorithms-tour",
+          "type": "resource",
+          "title": "Stitch Fix: Algorithms Tour"
+        },
+        {
+          "id": "resource-noahpinion-noah-smith",
+          "type": "resource",
+          "title": "Noahpinion (Noah Smith)"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Data Workflow"
+      }
+    },
+    {
+      "id": "tools-discrete-choice-models",
+      "template": "tool",
+      "name": "Discrete Choice Models Toolkit",
+      "description": "Essential tools for discrete choice models",
+      "hero": {
+        "id": "package-biogeme",
+        "type": "package",
+        "title": "Biogeme",
+        "url": "https://github.com/michelbierlaire/biogeme"
+      },
+      "items": [
+        {
+          "id": "package-pyblp",
+          "type": "package",
+          "title": "PyBLP"
+        },
+        {
+          "id": "package-xlogit",
+          "type": "package",
+          "title": "XLogit"
+        },
+        {
+          "id": "package-torch-choice",
+          "type": "package",
+          "title": "torch-choice"
+        },
+        {
+          "id": "package-pylogit",
+          "type": "package",
+          "title": "PyLogit"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "resource-python-for-econometrics",
+          "type": "resource",
+          "title": "Python for Econometrics"
+        },
+        {
+          "id": "resource-modeling-discrete-optimization-coursera",
+          "type": "resource",
+          "title": "Modeling Discrete Optimization (Coursera)"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Discrete Choice Models"
+      }
+    },
+    {
+      "id": "tools-doubledebiased-machine-learning-dml",
+      "template": "tool",
+      "name": "Double/Debiased Machine Learning (DML) Toolkit",
+      "description": "Essential tools for double/debiased machine learning (dml)",
+      "hero": {
+        "id": "package-econml",
+        "type": "package",
+        "title": "EconML",
+        "url": "https://github.com/py-why/EconML"
+      },
+      "items": [
+        {
+          "id": "package-doubleml",
+          "type": "package",
+          "title": "DoubleML"
+        },
+        {
+          "id": "package-doubly-debiased-lasso",
+          "type": "package",
+          "title": "Doubly-Debiased-Lasso"
+        },
+        {
+          "id": "package-synapseml",
+          "type": "package",
+          "title": "SynapseML"
+        },
+        {
+          "id": "package-pydoublelasso",
+          "type": "package",
+          "title": "pydoublelasso"
+        },
+        {
+          "id": "package-pyhtelasso",
+          "type": "package",
+          "title": "pyhtelasso"
+        },
+        {
+          "id": "resource-coding-for-economists-arthur-turrell",
+          "type": "resource",
+          "title": "Coding for Economists (Arthur Turrell)"
+        },
+        {
+          "id": "resource-beyond-jupyter",
+          "type": "resource",
+          "title": "Beyond Jupyter"
+        },
+        {
+          "id": "resource-spotify-rd",
+          "type": "resource",
+          "title": "Spotify R&D"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Double/Debiased Machine Learning (DML)"
+      }
+    },
+    {
+      "id": "tools-experimental-design",
+      "template": "tool",
+      "name": "Experimental Design Toolkit",
+      "description": "Essential tools for experimental design",
+      "hero": {
+        "id": "package-declaredesign",
+        "type": "package",
+        "title": "DeclareDesign",
+        "url": "https://cran.r-project.org/package=DeclareDesign"
+      },
+      "items": [
+        {
+          "id": "package-contextual",
+          "type": "package",
+          "title": "contextual"
+        },
+        {
+          "id": "package-fabricatr",
+          "type": "package",
+          "title": "fabricatr"
+        },
+        {
+          "id": "package-randomizr",
+          "type": "package",
+          "title": "randomizr"
+        },
+        {
+          "id": "resource-the-missing-semester-mit",
+          "type": "resource",
+          "title": "The Missing Semester (MIT)"
+        },
+        {
+          "id": "resource-beyond-jupyter",
+          "type": "resource",
+          "title": "Beyond Jupyter"
+        },
+        {
+          "id": "resource-uber-engineering",
+          "type": "resource",
+          "title": "Uber Engineering"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Experimental Design"
+      }
+    },
+    {
+      "id": "tools-game-theory-mechanism-design",
+      "template": "tool",
+      "name": "Game Theory & Mechanism Design Toolkit",
+      "description": "Essential tools for game theory & mechanism design",
+      "hero": {
+        "id": "package-nashpy",
+        "type": "package",
+        "title": "Nashpy",
+        "url": "https://github.com/drvinceknight/Nashpy"
+      },
+      "items": [
+        {
+          "id": "package-openspiel",
+          "type": "package",
+          "title": "OpenSpiel"
+        },
+        {
+          "id": "package-fairpy",
+          "type": "package",
+          "title": "fairpy"
+        },
+        {
+          "id": "package-pygambit",
+          "type": "package",
+          "title": "pygambit"
+        },
+        {
+          "id": "package-fairpyx",
+          "type": "package",
+          "title": "fairpyx"
+        },
+        {
+          "id": "resource-the-missing-semester-mit",
+          "type": "resource",
+          "title": "The Missing Semester (MIT)"
+        },
+        {
+          "id": "resource-beyond-jupyter",
+          "type": "resource",
+          "title": "Beyond Jupyter"
+        },
+        {
+          "id": "resource-the-theory-and-practice-of-revenue-management",
+          "type": "resource",
+          "title": "The Theory and Practice of Revenue Management"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Game Theory & Mechanism Design"
+      }
+    },
+    {
+      "id": "tools-inference-reporting-tools",
+      "template": "tool",
+      "name": "Inference & Reporting Tools Toolkit",
+      "description": "Essential tools for inference & reporting tools",
+      "hero": {
+        "id": "package-computational-methods-for-practitioners",
+        "type": "package",
+        "title": "Computational Methods for practitioners",
+        "url": "https://opensourceecon.github.io/CompMethods/"
+      },
+      "items": [
+        {
+          "id": "package-econ-project-templates",
+          "type": "package",
+          "title": "Econ Project Templates"
+        },
+        {
+          "id": "package-first-course-in-causal-inference-python",
+          "type": "package",
+          "title": "First Course in Causal Inference (Python)"
+        },
+        {
+          "id": "package-maketables",
+          "type": "package",
+          "title": "maketables"
+        },
+        {
+          "id": "package-awesome-economics",
+          "type": "package",
+          "title": "Awesome Economics"
+        },
+        {
+          "id": "package-python-packages-for-applied-economists",
+          "type": "package",
+          "title": "Python Packages for Applied Economists"
+        },
+        {
+          "id": "package-clusterbootstraps",
+          "type": "package",
+          "title": "clusterbootstraps"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "resource-coding-for-economists-arthur-turrell",
+          "type": "resource",
+          "title": "Coding for Economists (Arthur Turrell)"
+        },
+        {
+          "id": "resource-the-theory-and-practice-of-revenue-management",
+          "type": "resource",
+          "title": "The Theory and Practice of Revenue Management"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Inference & Reporting Tools"
+      }
+    },
+    {
+      "id": "tools-instrumental-variables",
+      "template": "tool",
+      "name": "Instrumental Variables Toolkit",
+      "description": "Essential tools for instrumental variables",
+      "hero": {
+        "id": "package-ivreg",
+        "type": "package",
+        "title": "ivreg",
+        "url": "https://cran.r-project.org/package=ivreg"
+      },
+      "items": [
+        {
+          "id": "package-shiftsharese",
+          "type": "package",
+          "title": "ShiftShareSE"
+        },
+        {
+          "id": "package-ivmodel",
+          "type": "package",
+          "title": "ivmodel"
+        },
+        {
+          "id": "package-gmm",
+          "type": "package",
+          "title": "gmm"
+        },
+        {
+          "id": "package-systemfit",
+          "type": "package",
+          "title": "systemfit"
+        },
+        {
+          "id": "package-momentfit",
+          "type": "package",
+          "title": "momentfit"
+        },
+        {
+          "id": "resource-matteo-courthouds-iv-tutorial",
+          "type": "resource",
+          "title": "Matteo Courthoud's IV Tutorial"
+        },
+        {
+          "id": "resource-teconomics-machine-learning-meets-instrumental-variables",
+          "type": "resource",
+          "title": "Teconomics: Machine Learning Meets Instrumental Variables"
+        },
+        {
+          "id": "resource-m5-competition-analysis-learnings-and-winning-solutions",
+          "type": "resource",
+          "title": "M5 Competition Analysis: Learnings and Winning Solutions"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Instrumental Variables"
+      }
+    },
+    {
+      "id": "tools-machine-learning",
+      "template": "tool",
+      "name": "Machine Learning Toolkit",
+      "description": "Essential tools for machine learning",
+      "hero": {
+        "id": "package-tidymodels",
+        "type": "package",
+        "title": "tidymodels",
+        "url": "https://cran.r-project.org/package=tidymodels"
+      },
+      "items": [
+        {
+          "id": "package-ranger",
+          "type": "package",
+          "title": "ranger"
+        },
+        {
+          "id": "package-xgboost",
+          "type": "package",
+          "title": "xgboost"
+        },
+        {
+          "id": "package-glmnet",
+          "type": "package",
+          "title": "glmnet"
+        },
+        {
+          "id": "resource-coding-for-economists-arthur-turrell",
+          "type": "resource",
+          "title": "Coding for Economists (Arthur Turrell)"
+        },
+        {
+          "id": "resource-beyond-jupyter",
+          "type": "resource",
+          "title": "Beyond Jupyter"
+        },
+        {
+          "id": "resource-spotify-rd",
+          "type": "resource",
+          "title": "Spotify R&D"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Machine Learning"
+      }
+    },
+    {
+      "id": "tools-matching-market-design",
+      "template": "tool",
+      "name": "Matching & Market Design Toolkit",
+      "description": "Essential tools for matching & market design",
+      "hero": {
+        "id": "package-matching",
+        "type": "package",
+        "title": "matching",
+        "url": "https://github.com/daffidwilde/matching"
+      },
+      "items": [
+        {
+          "id": "package-deep-opt-auctions",
+          "type": "package",
+          "title": "deep-opt-auctions"
+        },
+        {
+          "id": "package-kep_solver",
+          "type": "package",
+          "title": "kep_solver"
+        },
+        {
+          "id": "package-scarfmatch",
+          "type": "package",
+          "title": "scarfmatch"
+        },
+        {
+          "id": "package-algmatch",
+          "type": "package",
+          "title": "algmatch"
+        },
+        {
+          "id": "resource-the-missing-semester-mit",
+          "type": "resource",
+          "title": "The Missing Semester (MIT)"
+        },
+        {
+          "id": "resource-beyond-jupyter",
+          "type": "resource",
+          "title": "Beyond Jupyter"
+        },
+        {
+          "id": "resource-the-theory-and-practice-of-revenue-management",
+          "type": "resource",
+          "title": "The Theory and Practice of Revenue Management"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Matching & Market Design"
+      }
+    },
+    {
+      "id": "tools-mixed-effects",
+      "template": "tool",
+      "name": "Mixed Effects Toolkit",
+      "description": "Essential tools for mixed effects",
+      "hero": {
+        "id": "package-glmmtmb",
+        "type": "package",
+        "title": "glmmTMB",
+        "url": "https://cran.r-project.org/package=glmmTMB"
+      },
+      "items": [
+        {
+          "id": "package-lme4",
+          "type": "package",
+          "title": "lme4"
+        },
+        {
+          "id": "package-lmertest",
+          "type": "package",
+          "title": "lmerTest"
+        },
+        {
+          "id": "package-nlme",
+          "type": "package",
+          "title": "nlme"
+        },
+        {
+          "id": "resource-modeling-discrete-optimization-coursera",
+          "type": "resource",
+          "title": "Modeling Discrete Optimization (Coursera)"
+        },
+        {
+          "id": "resource-real-python-linear-programming-with-python",
+          "type": "resource",
+          "title": "Real Python: Linear Programming with Python"
+        },
+        {
+          "id": "resource-pulp-official-documentation",
+          "type": "resource",
+          "title": "PuLP Official Documentation"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Mixed Effects"
+      }
+    },
+    {
+      "id": "tools-natural-language-processing-for-economics",
+      "template": "tool",
+      "name": "Natural Language Processing for Economics Toolkit",
+      "description": "Essential tools for natural language processing for economics",
+      "hero": {
+        "id": "package-gensim",
+        "type": "package",
+        "title": "Gensim",
+        "url": "https://github.com/RaRe-Technologies/gensim"
+      },
+      "items": [
+        {
+          "id": "package-transformers",
+          "type": "package",
+          "title": "Transformers"
+        },
+        {
+          "id": "package-spacy",
+          "type": "package",
+          "title": "spaCy"
+        },
+        {
+          "id": "package-causalnlp",
+          "type": "package",
+          "title": "CausalNLP"
+        },
+        {
+          "id": "resource-coding-for-economists-arthur-turrell",
+          "type": "resource",
+          "title": "Coding for Economists (Arthur Turrell)"
+        },
+        {
+          "id": "resource-the-missing-semester-mit",
+          "type": "resource",
+          "title": "The Missing Semester (MIT)"
+        },
+        {
+          "id": "resource-beyond-jupyter",
+          "type": "resource",
+          "title": "Beyond Jupyter"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Natural Language Processing for Economics"
+      }
+    },
+    {
+      "id": "tools-network-analysis",
+      "template": "tool",
+      "name": "Network Analysis Toolkit",
+      "description": "Essential tools for network analysis",
+      "hero": {
+        "id": "package-tidygraph",
+        "type": "package",
+        "title": "tidygraph",
+        "url": "https://cran.r-project.org/package=tidygraph"
+      },
+      "items": [
+        {
+          "id": "package-ggraph",
+          "type": "package",
+          "title": "ggraph"
+        },
+        {
+          "id": "package-igraph",
+          "type": "package",
+          "title": "igraph"
+        },
+        {
+          "id": "package-sna",
+          "type": "package",
+          "title": "sna"
+        },
+        {
+          "id": "resource-coding-for-economists-arthur-turrell",
+          "type": "resource",
+          "title": "Coding for Economists (Arthur Turrell)"
+        },
+        {
+          "id": "resource-ben-evans-newsletter",
+          "type": "resource",
+          "title": "Ben Evans Newsletter"
+        },
+        {
+          "id": "resource-duckdb-documentation",
+          "type": "resource",
+          "title": "DuckDB Documentation"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Network Analysis"
+      }
+    },
+    {
+      "id": "tools-numerical-optimization-computational-tools",
+      "template": "tool",
+      "name": "Numerical Optimization & Computational Tools Toolkit",
+      "description": "Essential tools for numerical optimization & computational tools",
+      "hero": {
+        "id": "package-faer",
+        "type": "package",
+        "title": "Faer",
+        "url": "https://crates.io/crates/faer"
+      },
+      "items": [
+        {
+          "id": "package-nalgebra",
+          "type": "package",
+          "title": "Nalgebra"
+        },
+        {
+          "id": "package-ndarray",
+          "type": "package",
+          "title": "Ndarray"
+        },
+        {
+          "id": "package-pytorch",
+          "type": "package",
+          "title": "PyTorch"
+        },
+        {
+          "id": "package-jax",
+          "type": "package",
+          "title": "JAX"
+        },
+        {
+          "id": "package-torchonometrics",
+          "type": "package",
+          "title": "torchonometrics"
+        },
+        {
+          "id": "package-jaxonometrics",
+          "type": "package",
+          "title": "jaxonometrics"
+        },
+        {
+          "id": "resource-the-theory-and-practice-of-revenue-management",
+          "type": "resource",
+          "title": "The Theory and Practice of Revenue Management"
+        },
+        {
+          "id": "resource-spotify-rd",
+          "type": "resource",
+          "title": "Spotify R&D"
+        },
+        {
+          "id": "resource-doordash-engineering",
+          "type": "resource",
+          "title": "DoorDash Engineering"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Numerical Optimization & Computational Tools"
+      }
+    },
+    {
+      "id": "tools-optimization",
+      "template": "tool",
+      "name": "Optimization Toolkit",
+      "description": "Essential tools for optimization",
+      "hero": {
+        "id": "package-scipyoptimize",
+        "type": "package",
+        "title": "scipy.optimize",
+        "url": "https://docs.scipy.org/doc/scipy/reference/optimize.html"
+      },
+      "items": [
+        {
+          "id": "package-cvxpy",
+          "type": "package",
+          "title": "cvxpy"
+        },
+        {
+          "id": "package-ortools",
+          "type": "package",
+          "title": "ortools"
+        },
+        {
+          "id": "package-argmin",
+          "type": "package",
+          "title": "Argmin"
+        },
+        {
+          "id": "package-gurobipy",
+          "type": "package",
+          "title": "gurobipy"
+        },
+        {
+          "id": "resource-doordash-engineering",
+          "type": "resource",
+          "title": "DoorDash Engineering"
+        },
+        {
+          "id": "resource-lyft-quantifying-efficiency-in-ridesharing",
+          "type": "resource",
+          "title": "Lyft: Quantifying Efficiency in Ridesharing"
+        },
+        {
+          "id": "resource-stitch-fix-algorithms-blog",
+          "type": "resource",
+          "title": "Stitch Fix Algorithms Blog"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Optimization"
+      }
+    },
+    {
+      "id": "method-deep-residual-learning-for-image-recogni",
+      "template": "method",
+      "name": "The Deep Residual Learning for Image Recognition... Legacy",
+      "description": "A foundational paper with 156,789+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-deep-residual-learning-for-image-recognition-resnet",
+        "type": "paper",
+        "title": "Deep Residual Learning for Image Recognition (ResNet)",
+        "citations": 156789
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-coding-for-economists-arthur-turrell",
+          "type": "resource",
+          "title": "Coding for Economists (Arthur Turrell)"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-wanted",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers Wanted"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-the-cold-start-problem",
+          "type": "book",
+          "title": "The Cold Start Problem"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Deep Residual Learning for Image Recognition (ResNet)"
+      }
+    },
+    {
+      "id": "method-deep-residual-learning-for-image-recogni",
+      "template": "method",
+      "name": "The Deep Residual Learning for Image Recognition... Legacy",
+      "description": "A foundational paper with 156,789+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-deep-residual-learning-for-image-recognition-resnet",
+        "type": "paper",
+        "title": "Deep Residual Learning for Image Recognition (ResNet)",
+        "citations": 156789
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-coding-for-economists-arthur-turrell",
+          "type": "resource",
+          "title": "Coding for Economists (Arthur Turrell)"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-wanted",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers Wanted"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-the-cold-start-problem",
+          "type": "book",
+          "title": "The Cold Start Problem"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Deep Residual Learning for Image Recognition (ResNet)"
+      }
+    },
+    {
+      "id": "method-controlling-the-false-discovery-rate-a-p",
+      "template": "method",
+      "name": "The Controlling the False Discovery Rate: A... Legacy",
+      "description": "A foundational paper with 103,590+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-controlling-the-false-discovery-rate-a-practical-and-powerful-approach-to-multiple-testing",
+        "type": "paper",
+        "title": "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing",
+        "citations": 103590
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing"
+      }
+    },
+    {
+      "id": "method-controlling-the-false-discovery-rate-a-p",
+      "template": "method",
+      "name": "The Controlling the False Discovery Rate: A... Legacy",
+      "description": "A foundational paper with 103,590+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-controlling-the-false-discovery-rate-a-practical-and-powerful-approach-to-multiple-testing",
+        "type": "paper",
+        "title": "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing",
+        "citations": 103590
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing"
+      }
+    },
+    {
+      "id": "method-regression-models-and-life-tables",
+      "template": "method",
+      "name": "The Regression Models and Life-Tables Legacy",
+      "description": "A foundational paper with 38,454+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-regression-models-and-life-tables",
+        "type": "paper",
+        "title": "Regression Models and Life-Tables",
+        "citations": 38454
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-for-standard-errors-confidence-intervals-and-other-measures-of-statistical-accuracy",
+          "type": "paper",
+          "title": "Bootstrap Methods for Standard Errors, Confidence Intervals, and Other Measures of Statistical Accuracy"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Regression Models and Life-Tables"
+      }
+    },
+    {
+      "id": "method-regression-models-and-life-tables",
+      "template": "method",
+      "name": "The Regression Models and Life-Tables Legacy",
+      "description": "A foundational paper with 38,454+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-regression-models-and-life-tables",
+        "type": "paper",
+        "title": "Regression Models and Life-Tables",
+        "citations": 38454
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Regression Models and Life-Tables"
+      }
+    },
+    {
+      "id": "method-nonparametric-estimation-from-incomplete",
+      "template": "method",
+      "name": "The Nonparametric Estimation from Incomplete Observations Legacy",
+      "description": "A foundational paper with 38,451+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-nonparametric-estimation-from-incomplete-observations",
+        "type": "paper",
+        "title": "Nonparametric Estimation from Incomplete Observations",
+        "citations": 38451
+      },
+      "items": [
+        {
+          "id": "package-boot",
+          "type": "package",
+          "title": "boot"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-john-list-market-design-in-ride-sharing",
+          "type": "talk",
+          "title": "John List: Market Design in Ride-Sharing"
+        },
+        {
+          "id": "dataset-arena-human-preference-55k",
+          "type": "dataset",
+          "title": "Arena Human Preference (55K)"
+        },
+        {
+          "id": "book-who-gets-what-and-why",
+          "type": "book",
+          "title": "Who Gets What and Why"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-bunching",
+          "type": "package",
+          "title": "bunching"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Nonparametric Estimation from Incomplete Observations"
+      }
+    },
+    {
+      "id": "method-nonparametric-estimation-from-incomplete",
+      "template": "method",
+      "name": "The Nonparametric Estimation from Incomplete Observations Legacy",
+      "description": "A foundational paper with 38,451+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-nonparametric-estimation-from-incomplete-observations",
+        "type": "paper",
+        "title": "Nonparametric Estimation from Incomplete Observations",
+        "citations": 38451
+      },
+      "items": [
+        {
+          "id": "package-boot",
+          "type": "package",
+          "title": "boot"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-john-list-market-design-in-ride-sharing",
+          "type": "talk",
+          "title": "John List: Market Design in Ride-Sharing"
+        },
+        {
+          "id": "dataset-arena-human-preference-55k",
+          "type": "dataset",
+          "title": "Arena Human Preference (55K)"
+        },
+        {
+          "id": "book-who-gets-what-and-why",
+          "type": "book",
+          "title": "Who Gets What and Why"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-bunching",
+          "type": "package",
+          "title": "bunching"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Nonparametric Estimation from Incomplete Observations"
+      }
+    },
+    {
+      "id": "method-the-central-role-of-the-propensity-score",
+      "template": "method",
+      "name": "The The Central Role of the Propensity... Legacy",
+      "description": "A foundational paper with 29,661+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-the-central-role-of-the-propensity-score-in-observational-studies",
+        "type": "paper",
+        "title": "The Central Role of the Propensity Score in Observational Studies",
+        "citations": 29661
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "The Central Role of the Propensity Score in Observational Studies"
+      }
+    },
+    {
+      "id": "method-the-central-role-of-the-propensity-score",
+      "template": "method",
+      "name": "The The Central Role of the Propensity... Legacy",
+      "description": "A foundational paper with 29,661+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-the-central-role-of-the-propensity-score-in-observational-studies",
+        "type": "paper",
+        "title": "The Central Role of the Propensity Score in Observational Studies",
+        "citations": 29661
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "The Central Role of the Propensity Score in Observational Studies"
+      }
+    },
+    {
+      "id": "method-smote-synthetic-minority-over-sampling-t",
+      "template": "method",
+      "name": "The SMOTE: Synthetic Minority Over-sampling Technique Legacy",
+      "description": "A foundational paper with 28,400+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-smote-synthetic-minority-over-sampling-technique",
+        "type": "paper",
+        "title": "SMOTE: Synthetic Minority Over-sampling Technique",
+        "citations": 28400
+      },
+      "items": [
+        {
+          "id": "package-rstan",
+          "type": "package",
+          "title": "rstan"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-ml-for-pricing-auctions-icml",
+          "type": "talk",
+          "title": "ML for Pricing & Auctions (ICML)"
+        },
+        {
+          "id": "dataset-gamified-learning",
+          "type": "dataset",
+          "title": "Gamified Learning"
+        },
+        {
+          "id": "paper-bootstrap-methods-for-standard-errors-confidence-intervals-and-other-measures-of-statistical-accuracy",
+          "type": "paper",
+          "title": "Bootstrap Methods for Standard Errors, Confidence Intervals, and Other Measures of Statistical Accuracy"
+        },
+        {
+          "id": "package-causal-llm-bfs",
+          "type": "package",
+          "title": "causal-llm-bfs"
+        },
+        {
+          "id": "resource-uber-engineering",
+          "type": "resource",
+          "title": "Uber Engineering"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "SMOTE: Synthetic Minority Over-sampling Technique"
+      }
+    },
+    {
+      "id": "method-smote-synthetic-minority-over-sampling-t",
+      "template": "method",
+      "name": "The SMOTE: Synthetic Minority Over-sampling Technique Legacy",
+      "description": "A foundational paper with 28,400+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-smote-synthetic-minority-over-sampling-technique",
+        "type": "paper",
+        "title": "SMOTE: Synthetic Minority Over-sampling Technique",
+        "citations": 28400
+      },
+      "items": [
+        {
+          "id": "package-rstan",
+          "type": "package",
+          "title": "rstan"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-ml-for-pricing-auctions-icml",
+          "type": "talk",
+          "title": "ML for Pricing & Auctions (ICML)"
+        },
+        {
+          "id": "dataset-gamified-learning",
+          "type": "dataset",
+          "title": "Gamified Learning"
+        },
+        {
+          "id": "paper-bootstrap-methods-for-standard-errors-confidence-intervals-and-other-measures-of-statistical-accuracy",
+          "type": "paper",
+          "title": "Bootstrap Methods for Standard Errors, Confidence Intervals, and Other Measures of Statistical Accuracy"
+        },
+        {
+          "id": "package-causal-llm-bfs",
+          "type": "package",
+          "title": "causal-llm-bfs"
+        },
+        {
+          "id": "resource-uber-engineering",
+          "type": "resource",
+          "title": "Uber Engineering"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "SMOTE: Synthetic Minority Over-sampling Technique"
+      }
+    },
+    {
+      "id": "method-latent-dirichlet-allocation",
+      "template": "method",
+      "name": "The Latent Dirichlet Allocation Legacy",
+      "description": "A foundational paper with 26,859+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-latent-dirichlet-allocation",
+        "type": "paper",
+        "title": "Latent Dirichlet Allocation",
+        "citations": 26859
+      },
+      "items": [
+        {
+          "id": "package-gsynth",
+          "type": "package",
+          "title": "gsynth"
+        },
+        {
+          "id": "resource-the-theory-and-practice-of-revenue-management",
+          "type": "resource",
+          "title": "The Theory and Practice of Revenue Management"
+        },
+        {
+          "id": "paper-on-the-two-different-aspects-of-the-representative-method-the-method-of-stratified-sampling-and-the-method-of-purposive-selection",
+          "type": "paper",
+          "title": "On the Two Different Aspects of the Representative Method: The Method of Stratified Sampling and the Method of Purposive Selection"
+        },
+        {
+          "id": "package-factoranalyzer",
+          "type": "package",
+          "title": "FactorAnalyzer"
+        },
+        {
+          "id": "resource-uber-engineering-uplift-modeling-for-multiple-treatments",
+          "type": "resource",
+          "title": "Uber Engineering: Uplift Modeling for Multiple Treatments"
+        },
+        {
+          "id": "paper-3-irt-a-new-item-response-model-and-its-applications",
+          "type": "paper",
+          "title": "β³-IRT: A New Item Response Model and its Applications"
+        },
+        {
+          "id": "package-fairpy",
+          "type": "package",
+          "title": "fairpy"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Latent Dirichlet Allocation"
+      }
+    },
+    {
+      "id": "method-latent-dirichlet-allocation",
+      "template": "method",
+      "name": "The Latent Dirichlet Allocation Legacy",
+      "description": "A foundational paper with 26,859+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-latent-dirichlet-allocation",
+        "type": "paper",
+        "title": "Latent Dirichlet Allocation",
+        "citations": 26859
+      },
+      "items": [
+        {
+          "id": "package-bsts",
+          "type": "package",
+          "title": "bsts"
+        },
+        {
+          "id": "resource-the-theory-and-practice-of-revenue-management",
+          "type": "resource",
+          "title": "The Theory and Practice of Revenue Management"
+        },
+        {
+          "id": "talk-probabilistic-modeling-case-studies",
+          "type": "talk",
+          "title": "Probabilistic Modeling Case Studies"
+        },
+        {
+          "id": "dataset-ngsim-vehicle-trajectories",
+          "type": "dataset",
+          "title": "NGSIM Vehicle Trajectories"
+        },
+        {
+          "id": "book-credit-risk-modeling-using-excel-and-vba",
+          "type": "book",
+          "title": "Credit Risk Modeling using Excel and VBA"
+        },
+        {
+          "id": "paper-bayesian-methods-for-media-mix-modeling-with-carryover-and-shape-effects",
+          "type": "paper",
+          "title": "Bayesian Methods for Media Mix Modeling with Carryover and Shape Effects"
+        },
+        {
+          "id": "package-lightweightmmm",
+          "type": "package",
+          "title": "LightweightMMM"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Latent Dirichlet Allocation"
+      }
+    },
+    {
+      "id": "method-a-simple-sequentially-rejective-multiple",
+      "template": "method",
+      "name": "The A Simple Sequentially Rejective Multiple Test... Legacy",
+      "description": "A foundational paper with 21,731+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-a-simple-sequentially-rejective-multiple-test-procedure",
+        "type": "paper",
+        "title": "A Simple Sequentially Rejective Multiple Test Procedure",
+        "citations": 21731
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "A Simple Sequentially Rejective Multiple Test Procedure"
+      }
+    },
+    {
+      "id": "method-a-simple-sequentially-rejective-multiple",
+      "template": "method",
+      "name": "The A Simple Sequentially Rejective Multiple Test... Legacy",
+      "description": "A foundational paper with 21,731+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-a-simple-sequentially-rejective-multiple-test-procedure",
+        "type": "paper",
+        "title": "A Simple Sequentially Rejective Multiple Test Procedure",
+        "citations": 21731
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "A Simple Sequentially Rejective Multiple Test Procedure"
+      }
+    },
+    {
+      "id": "method-time-series-analysis-forecasting-and-con",
+      "template": "method",
+      "name": "The Time Series Analysis: Forecasting and Control Legacy",
+      "description": "A foundational paper with 19,295+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-time-series-analysis-forecasting-and-control",
+        "type": "paper",
+        "title": "Time Series Analysis: Forecasting and Control",
+        "citations": 19295
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-for-standard-errors-confidence-intervals-and-other-measures-of-statistical-accuracy",
+          "type": "paper",
+          "title": "Bootstrap Methods for Standard Errors, Confidence Intervals, and Other Measures of Statistical Accuracy"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Time Series Analysis: Forecasting and Control"
+      }
+    },
+    {
+      "id": "method-time-series-analysis-forecasting-and-con",
+      "template": "method",
+      "name": "The Time Series Analysis: Forecasting and Control Legacy",
+      "description": "A foundational paper with 19,295+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-time-series-analysis-forecasting-and-control",
+        "type": "paper",
+        "title": "Time Series Analysis: Forecasting and Control",
+        "citations": 19295
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-for-standard-errors-confidence-intervals-and-other-measures-of-statistical-accuracy",
+          "type": "paper",
+          "title": "Bootstrap Methods for Standard Errors, Confidence Intervals, and Other Measures of Statistical Accuracy"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Time Series Analysis: Forecasting and Control"
+      }
+    },
+    {
+      "id": "method-a-density-based-algorithm-for-discoverin",
+      "template": "method",
+      "name": "The A Density-Based Algorithm for Discovering Clusters... Legacy",
+      "description": "A foundational paper with 19,113+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-a-density-based-algorithm-for-discovering-clusters-dbscan",
+        "type": "paper",
+        "title": "A Density-Based Algorithm for Discovering Clusters (DBSCAN)",
+        "citations": 19113
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "A Density-Based Algorithm for Discovering Clusters (DBSCAN)"
+      }
+    },
+    {
+      "id": "method-a-density-based-algorithm-for-discoverin",
+      "template": "method",
+      "name": "The A Density-Based Algorithm for Discovering Clusters... Legacy",
+      "description": "A foundational paper with 19,113+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-a-density-based-algorithm-for-discovering-clusters-dbscan",
+        "type": "paper",
+        "title": "A Density-Based Algorithm for Discovering Clusters (DBSCAN)",
+        "citations": 19113
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "A Density-Based Algorithm for Discovering Clusters (DBSCAN)"
+      }
+    },
+    {
+      "id": "method-hierarchical-grouping-to-optimize-an-obj",
+      "template": "method",
+      "name": "The Hierarchical Grouping to Optimize an Objective... Legacy",
+      "description": "A foundational paper with 18,547+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-hierarchical-grouping-to-optimize-an-objective-function",
+        "type": "paper",
+        "title": "Hierarchical Grouping to Optimize an Objective Function",
+        "citations": 18547
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Hierarchical Grouping to Optimize an Objective Function"
+      }
+    },
+    {
+      "id": "method-hierarchical-grouping-to-optimize-an-obj",
+      "template": "method",
+      "name": "The Hierarchical Grouping to Optimize an Objective... Legacy",
+      "description": "A foundational paper with 18,547+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-hierarchical-grouping-to-optimize-an-objective-function",
+        "type": "paper",
+        "title": "Hierarchical Grouping to Optimize an Objective Function",
+        "citations": 18547
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Hierarchical Grouping to Optimize an Objective Function"
+      }
+    },
+    {
+      "id": "method-bootstrap-methods-another-look-at-the-ja",
+      "template": "method",
+      "name": "The Bootstrap Methods: Another Look at the... Legacy",
+      "description": "A foundational paper with 16,966+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+        "type": "paper",
+        "title": "Bootstrap Methods: Another Look at the Jackknife",
+        "citations": 16966
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-for-standard-errors-confidence-intervals-and-other-measures-of-statistical-accuracy",
+          "type": "paper",
+          "title": "Bootstrap Methods for Standard Errors, Confidence Intervals, and Other Measures of Statistical Accuracy"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Bootstrap Methods: Another Look at the Jackknife"
+      }
+    },
+    {
+      "id": "method-bootstrap-methods-another-look-at-the-ja",
+      "template": "method",
+      "name": "The Bootstrap Methods: Another Look at the... Legacy",
+      "description": "A foundational paper with 16,966+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+        "type": "paper",
+        "title": "Bootstrap Methods: Another Look at the Jackknife",
+        "citations": 16966
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-for-standard-errors-confidence-intervals-and-other-measures-of-statistical-accuracy",
+          "type": "paper",
+          "title": "Bootstrap Methods for Standard Errors, Confidence Intervals, and Other Measures of Statistical Accuracy"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Bootstrap Methods: Another Look at the Jackknife"
+      }
+    },
+    {
+      "id": "method-algorithm-as-136-a-k-means-clustering-al",
+      "template": "method",
+      "name": "The Algorithm AS 136: A K-Means Clustering... Legacy",
+      "description": "A foundational paper with 14,024+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-algorithm-as-136-a-k-means-clustering-algorithm",
+        "type": "paper",
+        "title": "Algorithm AS 136: A K-Means Clustering Algorithm",
+        "citations": 14024
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Algorithm AS 136: A K-Means Clustering Algorithm"
+      }
+    },
+    {
+      "id": "method-algorithm-as-136-a-k-means-clustering-al",
+      "template": "method",
+      "name": "The Algorithm AS 136: A K-Means Clustering... Legacy",
+      "description": "A foundational paper with 14,024+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-algorithm-as-136-a-k-means-clustering-algorithm",
+        "type": "paper",
+        "title": "Algorithm AS 136: A K-Means Clustering Algorithm",
+        "citations": 14024
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Algorithm AS 136: A K-Means Clustering Algorithm"
+      }
+    },
+    {
+      "id": "method-conditional-logit-analysis-of-qualitativ",
+      "template": "method",
+      "name": "The Conditional Logit Analysis of Qualitative Choice... Legacy",
+      "description": "A foundational paper with 13,967+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-conditional-logit-analysis-of-qualitative-choice-behavior",
+        "type": "paper",
+        "title": "Conditional Logit Analysis of Qualitative Choice Behavior",
+        "citations": 13967
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-coding-for-economists-arthur-turrell",
+          "type": "resource",
+          "title": "Coding for Economists (Arthur Turrell)"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Conditional Logit Analysis of Qualitative Choice Behavior"
+      }
+    },
+    {
+      "id": "method-conditional-logit-analysis-of-qualitativ",
+      "template": "method",
+      "name": "The Conditional Logit Analysis of Qualitative Choice... Legacy",
+      "description": "A foundational paper with 13,967+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-conditional-logit-analysis-of-qualitative-choice-behavior",
+        "type": "paper",
+        "title": "Conditional Logit Analysis of Qualitative Choice Behavior",
+        "citations": 13967
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-coding-for-economists-arthur-turrell",
+          "type": "resource",
+          "title": "Coding for Economists (Arthur Turrell)"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Conditional Logit Analysis of Qualitative Choice Behavior"
+      }
+    },
+    {
+      "id": "method-conditional-logit-analysis-of-qualitativ",
+      "template": "method",
+      "name": "The Conditional Logit Analysis of Qualitative Choice... Legacy",
+      "description": "A foundational paper with 13,967+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-conditional-logit-analysis-of-qualitative-choice-behavior",
+        "type": "paper",
+        "title": "Conditional Logit Analysis of Qualitative Choice Behavior",
+        "citations": 13967
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-coding-for-economists-arthur-turrell",
+          "type": "resource",
+          "title": "Coding for Economists (Arthur Turrell)"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Conditional Logit Analysis of Qualitative Choice Behavior"
+      }
+    },
+    {
+      "id": "method-conditional-logit-analysis-of-qualitativ",
+      "template": "method",
+      "name": "The Conditional Logit Analysis of Qualitative Choice... Legacy",
+      "description": "A foundational paper with 13,967+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-conditional-logit-analysis-of-qualitative-choice-behavior",
+        "type": "paper",
+        "title": "Conditional Logit Analysis of Qualitative Choice Behavior",
+        "citations": 13967
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-coding-for-economists-arthur-turrell",
+          "type": "resource",
+          "title": "Coding for Economists (Arthur Turrell)"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Conditional Logit Analysis of Qualitative Choice Behavior"
+      }
+    },
+    {
+      "id": "method-financial-ratios-discriminant-analysis-a",
+      "template": "method",
+      "name": "The Financial Ratios, Discriminant Analysis and the... Legacy",
+      "description": "A foundational paper with 13,152+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-financial-ratios-discriminant-analysis-and-the-prediction-of-corporate-bankruptcy",
+        "type": "paper",
+        "title": "Financial Ratios, Discriminant Analysis and the Prediction of Corporate Bankruptcy",
+        "citations": 13152
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-for-standard-errors-confidence-intervals-and-other-measures-of-statistical-accuracy",
+          "type": "paper",
+          "title": "Bootstrap Methods for Standard Errors, Confidence Intervals, and Other Measures of Statistical Accuracy"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Financial Ratios, Discriminant Analysis and the Prediction of Corporate Bankruptcy"
+      }
+    },
+    {
+      "id": "method-financial-ratios-discriminant-analysis-a",
+      "template": "method",
+      "name": "The Financial Ratios, Discriminant Analysis and the... Legacy",
+      "description": "A foundational paper with 13,152+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-financial-ratios-discriminant-analysis-and-the-prediction-of-corporate-bankruptcy",
+        "type": "paper",
+        "title": "Financial Ratios, Discriminant Analysis and the Prediction of Corporate Bankruptcy",
+        "citations": 13152
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-for-standard-errors-confidence-intervals-and-other-measures-of-statistical-accuracy",
+          "type": "paper",
+          "title": "Bootstrap Methods for Standard Errors, Confidence Intervals, and Other Measures of Statistical Accuracy"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Financial Ratios, Discriminant Analysis and the Prediction of Corporate Bankruptcy"
+      }
+    },
+    {
+      "id": "method-a-proportional-hazards-model-for-the-sub",
+      "template": "method",
+      "name": "The A Proportional Hazards Model for the... Legacy",
+      "description": "A foundational paper with 12,984+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-a-proportional-hazards-model-for-the-subdistribution-of-a-competing-risk",
+        "type": "paper",
+        "title": "A Proportional Hazards Model for the Subdistribution of a Competing Risk",
+        "citations": 12984
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "A Proportional Hazards Model for the Subdistribution of a Competing Risk"
+      }
+    },
+    {
+      "id": "method-a-proportional-hazards-model-for-the-sub",
+      "template": "method",
+      "name": "The A Proportional Hazards Model for the... Legacy",
+      "description": "A foundational paper with 12,984+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-a-proportional-hazards-model-for-the-subdistribution-of-a-competing-risk",
+        "type": "paper",
+        "title": "A Proportional Hazards Model for the Subdistribution of a Competing Risk",
+        "citations": 12984
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "A Proportional Hazards Model for the Subdistribution of a Competing Risk"
+      }
+    },
+    {
+      "id": "method-credit-rationing-in-markets-with-imperfe",
+      "template": "method",
+      "name": "The Credit Rationing in Markets with Imperfect... Legacy",
+      "description": "A foundational paper with 12,857+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-credit-rationing-in-markets-with-imperfect-information",
+        "type": "paper",
+        "title": "Credit Rationing in Markets with Imperfect Information",
+        "citations": 12857
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Credit Rationing in Markets with Imperfect Information"
+      }
+    },
+    {
+      "id": "method-credit-rationing-in-markets-with-imperfe",
+      "template": "method",
+      "name": "The Credit Rationing in Markets with Imperfect... Legacy",
+      "description": "A foundational paper with 12,857+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-credit-rationing-in-markets-with-imperfect-information",
+        "type": "paper",
+        "title": "Credit Rationing in Markets with Imperfect Information",
+        "citations": 12857
+      },
+      "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-causation",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers & Causation"
+        },
+        {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "paper-bootstrap-methods-another-look-at-the-jackknife",
+          "type": "paper",
+          "title": "Bootstrap Methods: Another Look at the Jackknife"
+        },
+        {
+          "id": "package-contextualbandits",
+          "type": "package",
+          "title": "ContextualBandits"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Credit Rationing in Markets with Imperfect Information"
+      }
+    },
+    {
+      "id": "method-regression-quantiles",
+      "template": "method",
+      "name": "The Regression Quantiles Legacy",
+      "description": "A foundational paper with 11,974+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-regression-quantiles",
+        "type": "paper",
+        "title": "Regression Quantiles",
+        "citations": 11974
+      },
+      "items": [
+        {
+          "id": "package-bsts",
+          "type": "package",
+          "title": "bsts"
+        },
+        {
+          "id": "resource-andrew-heisss-rdd-course-examples",
+          "type": "resource",
+          "title": "Andrew Heiss's RDD Course Examples"
+        },
+        {
+          "id": "talk-guido-imbens-nobel-lecture-2021",
+          "type": "talk",
+          "title": "Guido Imbens: Nobel Lecture 2021"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "package-rstanarm",
+          "type": "package",
+          "title": "rstanarm"
+        },
+        {
+          "id": "resource-tilburg-science-hub-rdd-tutorials",
+          "type": "resource",
+          "title": "Tilburg Science Hub RDD Tutorials"
+        },
+        {
+          "id": "talk-nber-methods-lectures-feldstein-lectures",
+          "type": "talk",
+          "title": "NBER: Methods Lectures & Feldstein Lectures"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Regression Quantiles"
+      }
+    },
+    {
+      "id": "method-regression-quantiles",
+      "template": "method",
+      "name": "The Regression Quantiles Legacy",
+      "description": "A foundational paper with 11,974+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-regression-quantiles",
+        "type": "paper",
+        "title": "Regression Quantiles",
+        "citations": 11974
+      },
+      "items": [
+        {
+          "id": "package-bsts",
+          "type": "package",
+          "title": "bsts"
+        },
+        {
+          "id": "resource-stitch-fix-algorithms-blog",
+          "type": "resource",
+          "title": "Stitch Fix Algorithms Blog"
+        },
+        {
+          "id": "talk-hal-varian-chief-scientist-at-google",
+          "type": "talk",
+          "title": "Hal Varian: Chief Scientist at Google"
+        },
+        {
+          "id": "dataset-walmart-m5",
+          "type": "dataset",
+          "title": "Walmart (M5)"
+        },
+        {
+          "id": "book-mostly-harmless-econometrics",
+          "type": "book",
+          "title": "Mostly Harmless Econometrics"
+        },
+        {
+          "id": "package-rstanarm",
+          "type": "package",
+          "title": "rstanarm"
+        },
+        {
+          "id": "resource-instacart-tech-blog",
+          "type": "resource",
+          "title": "Instacart Tech Blog"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Regression Quantiles"
+      }
+    },
+    {
+      "id": "method-nudge-improving-decisions-about-health-w",
+      "template": "method",
+      "name": "The Nudge: Improving Decisions About Health, Wealth,... Legacy",
+      "description": "A foundational paper with 11,808+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-nudge-improving-decisions-about-health-wealth-and-happiness",
+        "type": "paper",
+        "title": "Nudge: Improving Decisions About Health, Wealth, and Happiness",
+        "citations": 11808
+      },
+      "items": [
+        {
+          "id": "package-dtrreg",
+          "type": "package",
+          "title": "DTRreg"
+        },
+        {
+          "id": "talk-pricing-heroes",
+          "type": "talk",
+          "title": "Pricing Heroes"
+        },
+        {
+          "id": "dataset-open-cdp",
+          "type": "dataset",
+          "title": "Open CDP"
+        },
+        {
+          "id": "book-priceless",
+          "type": "book",
+          "title": "Priceless"
+        },
+        {
+          "id": "resource-statistical-rethinking",
+          "type": "resource",
+          "title": "Statistical Rethinking"
+        },
+        {
+          "id": "talk-the-brainy-business",
+          "type": "talk",
+          "title": "The Brainy Business"
+        },
+        {
+          "id": "dataset-coveo-shopping-sigir-21",
+          "type": "dataset",
+          "title": "Coveo Shopping (SIGIR-21)"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Nudge: Improving Decisions About Health, Wealth, and Happiness"
+      }
+    },
+    {
+      "id": "method-nudge-improving-decisions-about-health-w",
+      "template": "method",
+      "name": "The Nudge: Improving Decisions About Health, Wealth,... Legacy",
+      "description": "A foundational paper with 11,808+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-nudge-improving-decisions-about-health-wealth-and-happiness",
+        "type": "paper",
+        "title": "Nudge: Improving Decisions About Health, Wealth, and Happiness",
+        "citations": 11808
+      },
+      "items": [
+        {
+          "id": "package-dtrreg",
+          "type": "package",
+          "title": "DTRreg"
+        },
+        {
+          "id": "talk-pricing-heroes",
+          "type": "talk",
+          "title": "Pricing Heroes"
+        },
+        {
+          "id": "dataset-open-cdp",
+          "type": "dataset",
+          "title": "Open CDP"
+        },
+        {
+          "id": "book-priceless",
+          "type": "book",
+          "title": "Priceless"
+        },
+        {
+          "id": "resource-statistical-rethinking",
+          "type": "resource",
+          "title": "Statistical Rethinking"
+        },
+        {
+          "id": "talk-the-brainy-business",
+          "type": "talk",
+          "title": "The Brainy Business"
+        },
+        {
+          "id": "dataset-coveo-shopping-sigir-21",
+          "type": "dataset",
+          "title": "Coveo Shopping (SIGIR-21)"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Nudge: Improving Decisions About Health, Wealth, and Happiness"
+      }
     }
   ]
 }
