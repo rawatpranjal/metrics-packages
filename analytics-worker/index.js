@@ -1,6 +1,6 @@
 /**
  * Tech-Econ Analytics Endpoint
- * Cloudflare Worker for receiving and aggregating analytics events
+ * Cloudflare Worker with D1 database for analytics storage
  */
 
 const ALLOWED_ORIGINS = [
@@ -9,6 +9,8 @@ const ALLOWED_ORIGINS = [
   'https://rawatpranjal.github.io',
   'http://localhost:1313'
 ];
+
+const CACHE_TTL = 3600; // 1 hour cache
 
 export default {
   async fetch(request, env, ctx) {
@@ -20,22 +22,50 @@ export default {
       return handleCORS(request);
     }
 
-    // Route: GET /stats - Return aggregated analytics
-    if (request.method === 'GET' && url.pathname === '/stats') {
-      return handleStats(request, env, origin);
-    }
+    try {
+      // Route: POST /events - Receive events
+      if (request.method === 'POST' && (url.pathname === '/events' || url.pathname === '/')) {
+        return handleEvents(request, env, ctx, origin);
+      }
 
-    // Route: GET /cf-stats - Return Cloudflare analytics (hourly visitors)
-    if (request.method === 'GET' && url.pathname === '/cf-stats') {
-      return handleCfStats(request, env, origin);
-    }
+      // Route: GET /stats - Dashboard summary
+      if (request.method === 'GET' && url.pathname === '/stats') {
+        return handleStats(request, env, origin);
+      }
 
-    // Route: POST /events - Receive events
-    if (request.method === 'POST' && (url.pathname === '/events' || url.pathname === '/')) {
-      return handleEvents(request, env, ctx, origin);
-    }
+      // Route: GET /timeseries - Time-series data
+      if (request.method === 'GET' && url.pathname === '/timeseries') {
+        return handleTimeseries(request, env, origin, url);
+      }
 
-    return new Response('Not found', { status: 404 });
+      // Route: GET /clicks - Top clicked content
+      if (request.method === 'GET' && url.pathname === '/clicks') {
+        return handleClicks(request, env, origin, url);
+      }
+
+      // Route: GET /searches - Top searches
+      if (request.method === 'GET' && url.pathname === '/searches') {
+        return handleSearches(request, env, origin, url);
+      }
+
+      // Route: GET /export - CSV export
+      if (request.method === 'GET' && url.pathname === '/export') {
+        return handleExport(request, env, origin, url);
+      }
+
+      // Route: GET /cf-stats - Cloudflare analytics
+      if (request.method === 'GET' && url.pathname === '/cf-stats') {
+        return handleCfStats(request, env, origin);
+      }
+
+      return new Response('Not found', { status: 404 });
+    } catch (err) {
+      console.error('Worker error:', err);
+      return new Response(JSON.stringify({ error: err.message }), {
+        status: 500,
+        headers: { 'Content-Type': 'application/json' }
+      });
+    }
   }
 };
 
@@ -55,20 +85,13 @@ async function handleEvents(request, env, ctx, origin) {
       return new Response('Invalid payload', { status: 400 });
     }
 
-    const enrichedEvents = payload.events.map(event => ({
-      ...event,
-      _received: Date.now(),
-      _country: request.cf?.country || 'unknown'
-    }));
+    const country = request.cf?.country || 'unknown';
+    const now = Date.now();
 
-    const key = `events:${Date.now()}:${crypto.randomUUID()}`;
-    ctx.waitUntil(
-      env.ANALYTICS_EVENTS.put(key, JSON.stringify(enrichedEvents), {
-        expirationTtl: 86400 * 30
-      })
-    );
+    // Process events in background
+    ctx.waitUntil(processEvents(env, payload.events, country, now));
 
-    return new Response(JSON.stringify({ ok: true }), {
+    return new Response(JSON.stringify({ ok: true, received: payload.events.length }), {
       status: 200,
       headers: {
         'Content-Type': 'application/json',
@@ -77,177 +100,688 @@ async function handleEvents(request, env, ctx, origin) {
     });
 
   } catch (err) {
-    console.error('Analytics error:', err);
+    console.error('Events error:', err);
     return new Response('Server error', { status: 500 });
   }
 }
 
+async function processEvents(env, events, country, receivedAt) {
+  // Check if D1 is available
+  if (!env.DB) {
+    // Fall back to KV if D1 not configured
+    if (env.ANALYTICS_EVENTS) {
+      const key = `events:${receivedAt}:${crypto.randomUUID()}`;
+      await env.ANALYTICS_EVENTS.put(key, JSON.stringify(events.map(e => ({
+        ...e,
+        _received: receivedAt,
+        _country: country
+      }))), { expirationTtl: 86400 * 30 });
+    }
+    return;
+  }
+
+  // Insert events into D1
+  const insertStmt = env.DB.prepare(`
+    INSERT INTO events (type, session_id, path, timestamp, country, data)
+    VALUES (?, ?, ?, ?, ?, ?)
+  `);
+
+  const batch = [];
+  const aggregates = {
+    pageviews: {},      // date -> count
+    clicks: {},         // name:section -> {name, section, category}
+    searches: {},       // query -> count
+    pages: {},          // path -> count
+    hourly: {},         // hour_bucket -> {pageviews, clicks}
+    sessions: new Set(),
+    engageTimes: []
+  };
+
+  for (const event of events) {
+    const timestamp = event.ts || receivedAt;
+    const date = new Date(timestamp).toISOString().split('T')[0];
+    const hourBucket = new Date(timestamp).toISOString().slice(0, 13).replace('T', '-');
+
+    // Insert raw event
+    batch.push(insertStmt.bind(
+      event.t,
+      event.sid || null,
+      event.p || event.d?.path || null,
+      timestamp,
+      country,
+      JSON.stringify(event.d || {})
+    ));
+
+    // Track session
+    if (event.sid) {
+      aggregates.sessions.add(event.sid);
+    }
+
+    // Aggregate by type
+    switch (event.t) {
+      case 'pageview':
+        aggregates.pageviews[date] = (aggregates.pageviews[date] || 0) + 1;
+        aggregates.hourly[hourBucket] = aggregates.hourly[hourBucket] || { pageviews: 0, clicks: 0 };
+        aggregates.hourly[hourBucket].pageviews++;
+        if (event.d?.path) {
+          aggregates.pages[event.d.path] = (aggregates.pages[event.d.path] || 0) + 1;
+        }
+        break;
+
+      case 'click':
+        if (event.d?.type === 'card' && event.d?.name) {
+          const key = `${event.d.name}:${event.d.section || 'other'}`;
+          aggregates.clicks[key] = {
+            name: event.d.name,
+            section: event.d.section || 'other',
+            category: event.d.category || null
+          };
+        }
+        aggregates.hourly[hourBucket] = aggregates.hourly[hourBucket] || { pageviews: 0, clicks: 0 };
+        aggregates.hourly[hourBucket].clicks++;
+        break;
+
+      case 'search':
+        if (event.d?.q) {
+          const query = event.d.q.toLowerCase().trim();
+          aggregates.searches[query] = (aggregates.searches[query] || 0) + 1;
+        }
+        break;
+
+      case 'engage':
+        if (event.d?.timeOnPage) {
+          aggregates.engageTimes.push(event.d.timeOnPage);
+        }
+        break;
+    }
+  }
+
+  try {
+    // Execute batch insert
+    if (batch.length > 0) {
+      await env.DB.batch(batch);
+    }
+
+    // Update aggregates
+    await updateAggregates(env, aggregates, country);
+  } catch (err) {
+    console.error('D1 batch error:', err);
+  }
+}
+
+async function updateAggregates(env, aggregates, country) {
+  const updates = [];
+
+  // Update daily stats
+  for (const [date, count] of Object.entries(aggregates.pageviews)) {
+    updates.push(env.DB.prepare(`
+      INSERT INTO daily_stats (date, pageviews, unique_sessions, updated_at)
+      VALUES (?, ?, ?, datetime('now'))
+      ON CONFLICT(date) DO UPDATE SET
+        pageviews = pageviews + excluded.pageviews,
+        unique_sessions = unique_sessions + excluded.unique_sessions,
+        updated_at = datetime('now')
+    `).bind(date, count, aggregates.sessions.size));
+  }
+
+  // Update content clicks
+  for (const click of Object.values(aggregates.clicks)) {
+    updates.push(env.DB.prepare(`
+      INSERT INTO content_clicks (name, section, category, click_count, last_clicked)
+      VALUES (?, ?, ?, 1, datetime('now'))
+      ON CONFLICT(name, section) DO UPDATE SET
+        click_count = click_count + 1,
+        last_clicked = datetime('now')
+    `).bind(click.name, click.section, click.category));
+  }
+
+  // Update search queries
+  for (const [query, count] of Object.entries(aggregates.searches)) {
+    updates.push(env.DB.prepare(`
+      INSERT INTO search_queries (query, search_count, last_searched)
+      VALUES (?, ?, datetime('now'))
+      ON CONFLICT(query) DO UPDATE SET
+        search_count = search_count + excluded.search_count,
+        last_searched = datetime('now')
+    `).bind(query, count));
+  }
+
+  // Update page views
+  for (const [path, count] of Object.entries(aggregates.pages)) {
+    updates.push(env.DB.prepare(`
+      INSERT INTO page_views (path, view_count, last_viewed)
+      VALUES (?, ?, datetime('now'))
+      ON CONFLICT(path) DO UPDATE SET
+        view_count = view_count + excluded.view_count,
+        last_viewed = datetime('now')
+    `).bind(path, count));
+  }
+
+  // Update hourly stats
+  for (const [bucket, stats] of Object.entries(aggregates.hourly)) {
+    updates.push(env.DB.prepare(`
+      INSERT INTO hourly_stats (hour_bucket, pageviews, clicks, updated_at)
+      VALUES (?, ?, ?, datetime('now'))
+      ON CONFLICT(hour_bucket) DO UPDATE SET
+        pageviews = pageviews + excluded.pageviews,
+        clicks = clicks + excluded.clicks,
+        updated_at = datetime('now')
+    `).bind(bucket, stats.pageviews, stats.clicks));
+  }
+
+  // Update country stats
+  if (country && country !== 'unknown') {
+    updates.push(env.DB.prepare(`
+      INSERT INTO country_stats (country, session_count, last_seen)
+      VALUES (?, ?, datetime('now'))
+      ON CONFLICT(country) DO UPDATE SET
+        session_count = session_count + excluded.session_count,
+        last_seen = datetime('now')
+    `).bind(country, aggregates.sessions.size));
+  }
+
+  if (updates.length > 0) {
+    try {
+      await env.DB.batch(updates);
+    } catch (err) {
+      console.error('Aggregate update error:', err);
+    }
+  }
+}
+
 // ============================================
-// GET /stats - Return aggregated statistics
+// GET /stats - Dashboard summary
 // ============================================
 
 async function handleStats(request, env, origin) {
-  // Allow stats from allowed origins or no origin (direct access)
   if (origin && !isAllowedOrigin(origin)) {
     return new Response('Forbidden', { status: 403 });
   }
 
-  const CACHE_KEY = 'stats:cached';
-  const CACHE_TTL = 21600; // 6 hours (reduces KV reads on free tier)
-
   try {
-    const now = Date.now();
-
-    // Check cache first
-    const cached = await env.ANALYTICS_EVENTS.get(CACHE_KEY);
+    // Check cache
+    const cached = await getCache(env, 'stats');
     if (cached) {
-      try {
-        const { data, ts } = JSON.parse(cached);
-        if (now - ts < CACHE_TTL * 1000) {
-          // Cache hit - return cached data
-          return new Response(JSON.stringify({ ...data, _cached: true }), {
-            status: 200,
-            headers: {
-              'Content-Type': 'application/json',
-              'Cache-Control': 'public, max-age=1800',
-              ...corsHeaders(origin || '*')
-            }
-          });
-        }
-      } catch (e) {
-        // Invalid cache, continue to regenerate
-      }
+      return jsonResponse({ ...cached, _cached: true }, origin);
     }
 
-    // Cache miss or stale - fetch and aggregate
-    const sevenDaysAgo = now - (7 * 24 * 60 * 60 * 1000);
-    const allEvents = [];
-    let cursor = null;
+    let stats;
 
-    // Limit total keys to avoid "Too many API requests" error (CF limit is 1000 KV reads/request)
-    const MAX_KEYS = 800;
-    let totalKeysFetched = 0;
+    if (env.DB) {
+      stats = await getStatsFromD1(env);
+    } else if (env.ANALYTICS_EVENTS) {
+      stats = await getStatsFromKV(env);
+    } else {
+      stats = { error: 'No storage configured' };
+    }
 
-    do {
-      const list = await env.ANALYTICS_EVENTS.list({ prefix: 'events:', cursor, limit: 200 });
+    // Cache for 1 hour
+    await setCache(env, 'stats', stats, CACHE_TTL);
 
-      // Fetch keys in smaller batches
-      const BATCH_SIZE = 25;
-      for (let i = 0; i < list.keys.length && totalKeysFetched < MAX_KEYS; i += BATCH_SIZE) {
-        const batch = list.keys.slice(i, Math.min(i + BATCH_SIZE, list.keys.length));
-        if (totalKeysFetched + batch.length > MAX_KEYS) {
-          break;
+    return jsonResponse(stats, origin);
+  } catch (err) {
+    console.error('Stats error:', err);
+    return jsonResponse({ error: err.message }, origin, 500);
+  }
+}
+
+async function getStatsFromD1(env) {
+  const now = Date.now();
+  const sevenDaysAgo = new Date(now - 7 * 24 * 60 * 60 * 1000).toISOString().split('T')[0];
+
+  // Get summary stats
+  const summary = await env.DB.prepare(`
+    SELECT
+      COALESCE(SUM(pageviews), 0) as pageviews,
+      COALESCE(SUM(unique_sessions), 0) as sessions,
+      COALESCE(SUM(clicks), 0) as clicks,
+      COALESCE(SUM(searches), 0) as searches
+    FROM daily_stats
+    WHERE date >= ?
+  `).bind(sevenDaysAgo).first();
+
+  // Get daily breakdown
+  const daily = await env.DB.prepare(`
+    SELECT date, pageviews, unique_sessions, clicks
+    FROM daily_stats
+    WHERE date >= ?
+    ORDER BY date ASC
+  `).bind(sevenDaysAgo).all();
+
+  // Get top pages
+  const topPages = await env.DB.prepare(`
+    SELECT path as name, view_count as count
+    FROM page_views
+    ORDER BY view_count DESC
+    LIMIT 10
+  `).all();
+
+  // Get top clicks
+  const topClicks = await env.DB.prepare(`
+    SELECT name, section, category, click_count as count
+    FROM content_clicks
+    ORDER BY click_count DESC
+    LIMIT 20
+  `).all();
+
+  // Get top searches
+  const topSearches = await env.DB.prepare(`
+    SELECT query as name, search_count as count
+    FROM search_queries
+    ORDER BY search_count DESC
+    LIMIT 20
+  `).all();
+
+  // Get countries
+  const countries = await env.DB.prepare(`
+    SELECT country as name, session_count as count
+    FROM country_stats
+    ORDER BY session_count DESC
+    LIMIT 10
+  `).all();
+
+  // Get hourly activity (last 24 hours)
+  const hourlyActivity = {};
+  const hourlyData = await env.DB.prepare(`
+    SELECT hour_bucket, pageviews
+    FROM hourly_stats
+    WHERE hour_bucket >= ?
+    ORDER BY hour_bucket ASC
+  `).bind(new Date(now - 24 * 60 * 60 * 1000).toISOString().slice(0, 13).replace('T', '-')).all();
+
+  for (const row of hourlyData.results || []) {
+    const hour = parseInt(row.hour_bucket.split('-')[3], 10);
+    hourlyActivity[hour] = (hourlyActivity[hour] || 0) + row.pageviews;
+  }
+
+  // Organize clicks by section
+  const clicksBySection = { packages: [], datasets: [], learning: [], other: [] };
+  for (const click of (topClicks.results || [])) {
+    const section = click.section || 'other';
+    const bucket = clicksBySection[section] || clicksBySection.other;
+    bucket.push({ name: click.name, count: click.count, category: click.category });
+  }
+
+  return {
+    updated: now,
+    summary: {
+      pageviews: summary?.pageviews || 0,
+      sessions: summary?.sessions || 0,
+      clicks: summary?.clicks || 0,
+      searches: summary?.searches || 0,
+      avgTimeOnPage: 0 // TODO: calculate from events
+    },
+    dailyPageviews: Object.fromEntries(
+      (daily.results || []).map(r => [r.date, r.pageviews])
+    ),
+    topPages: topPages.results || [],
+    topClicks: clicksBySection,
+    topSearches: topSearches.results || [],
+    countries: countries.results || [],
+    hourlyActivity,
+    _source: 'd1'
+  };
+}
+
+async function getStatsFromKV(env) {
+  // Fallback to KV-based stats (existing logic)
+  const now = Date.now();
+  const sevenDaysAgo = now - 7 * 24 * 60 * 60 * 1000;
+  const allEvents = [];
+  let cursor = null;
+  const MAX_KEYS = 500;
+  let totalKeysFetched = 0;
+
+  do {
+    const list = await env.ANALYTICS_EVENTS.list({ prefix: 'events:', cursor, limit: 100 });
+
+    for (const key of list.keys) {
+      if (totalKeysFetched >= MAX_KEYS) break;
+      try {
+        const data = await env.ANALYTICS_EVENTS.get(key.name);
+        if (data) {
+          const events = JSON.parse(data);
+          allEvents.push(...events);
         }
+        totalKeysFetched++;
+      } catch (e) {}
+    }
 
-        const results = await Promise.all(
-          batch.map(async key => {
-            try {
-              return await env.ANALYTICS_EVENTS.get(key.name);
-            } catch (e) {
-              console.error('Failed to get key:', key.name, e);
-              return null;
-            }
-          })
-        );
+    cursor = list.list_complete ? null : list.cursor;
+  } while (cursor && totalKeysFetched < MAX_KEYS);
 
-        totalKeysFetched += batch.length;
+  const recentEvents = allEvents.filter(e => e.ts >= sevenDaysAgo);
+  return aggregateKVEvents(recentEvents, now);
+}
 
-        for (const data of results) {
-          if (data) {
-            try {
-              const events = JSON.parse(data);
-              allEvents.push(...events);
-            } catch (e) {}
-          }
+function aggregateKVEvents(events, now) {
+  const stats = {
+    updated: now,
+    summary: { pageviews: 0, sessions: new Set(), clicks: 0, searches: 0, avgTimeOnPage: 0 },
+    dailyPageviews: {},
+    topPages: {},
+    topClicks: { packages: {}, datasets: {}, learning: {}, other: {} },
+    topSearches: {},
+    countries: {},
+    hourlyActivity: {},
+    _source: 'kv'
+  };
+
+  let totalTime = 0, timeCount = 0;
+
+  for (const event of events) {
+    if (event.sid) stats.summary.sessions.add(event.sid);
+
+    switch (event.t) {
+      case 'pageview':
+        stats.summary.pageviews++;
+        const day = new Date(event.ts).toISOString().split('T')[0];
+        stats.dailyPageviews[day] = (stats.dailyPageviews[day] || 0) + 1;
+        if (event.d?.path) {
+          stats.topPages[event.d.path] = (stats.topPages[event.d.path] || 0) + 1;
         }
-      }
+        const hour = new Date(event.ts).getUTCHours();
+        stats.hourlyActivity[hour] = (stats.hourlyActivity[hour] || 0) + 1;
+        break;
 
-      cursor = (list.list_complete || totalKeysFetched >= MAX_KEYS) ? null : list.cursor;
-    } while (cursor);
+      case 'click':
+        stats.summary.clicks++;
+        if (event.d?.type === 'card' && event.d?.name) {
+          const section = event.d.section || 'other';
+          const bucket = stats.topClicks[section] || stats.topClicks.other;
+          bucket[event.d.name] = (bucket[event.d.name] || 0) + 1;
+        }
+        break;
 
-    // Filter to recent events
-    const recentEvents = allEvents.filter(e => e.ts >= sevenDaysAgo);
+      case 'search':
+        stats.summary.searches++;
+        if (event.d?.q) {
+          stats.topSearches[event.d.q.toLowerCase()] = (stats.topSearches[event.d.q.toLowerCase()] || 0) + 1;
+        }
+        break;
 
-    // Aggregate statistics
-    const stats = aggregateEvents(recentEvents, now);
+      case 'engage':
+        if (event.d?.timeOnPage) {
+          totalTime += event.d.timeOnPage;
+          timeCount++;
+        }
+        break;
+    }
 
-    // Store in cache
-    await env.ANALYTICS_EVENTS.put(CACHE_KEY, JSON.stringify({
-      data: stats,
-      ts: now
-    }), { expirationTtl: CACHE_TTL });
+    if (event._country && event._country !== 'unknown') {
+      stats.countries[event._country] = (stats.countries[event._country] || 0) + 1;
+    }
+  }
 
-    return new Response(JSON.stringify(stats), {
+  stats.summary.sessions = stats.summary.sessions.size;
+  stats.summary.avgTimeOnPage = timeCount > 0 ? Math.round(totalTime / timeCount) : 0;
+
+  // Convert to arrays
+  stats.topPages = sortAndLimit(stats.topPages, 10);
+  stats.topSearches = sortAndLimit(stats.topSearches, 20);
+  stats.countries = sortAndLimit(stats.countries, 10);
+  for (const section of ['packages', 'datasets', 'learning', 'other']) {
+    stats.topClicks[section] = sortAndLimit(stats.topClicks[section], 10);
+  }
+
+  return stats;
+}
+
+// ============================================
+// GET /timeseries - Time-series data
+// ============================================
+
+async function handleTimeseries(request, env, origin, url) {
+  if (origin && !isAllowedOrigin(origin)) {
+    return new Response('Forbidden', { status: 403 });
+  }
+
+  const days = Math.min(parseInt(url.searchParams.get('days') || '7', 10), 90);
+  const granularity = url.searchParams.get('granularity') || 'daily'; // daily or hourly
+
+  if (!env.DB) {
+    return jsonResponse({ error: 'D1 not configured' }, origin, 500);
+  }
+
+  try {
+    const startDate = new Date(Date.now() - days * 24 * 60 * 60 * 1000).toISOString().split('T')[0];
+
+    if (granularity === 'hourly') {
+      const hourly = await env.DB.prepare(`
+        SELECT hour_bucket, pageviews, clicks
+        FROM hourly_stats
+        WHERE hour_bucket >= ?
+        ORDER BY hour_bucket ASC
+      `).bind(startDate.replace(/-/g, '-') + '-00').all();
+
+      return jsonResponse({
+        granularity: 'hourly',
+        days,
+        data: hourly.results || []
+      }, origin);
+    }
+
+    const daily = await env.DB.prepare(`
+      SELECT date, pageviews, unique_sessions as sessions, clicks, searches
+      FROM daily_stats
+      WHERE date >= ?
+      ORDER BY date ASC
+    `).bind(startDate).all();
+
+    return jsonResponse({
+      granularity: 'daily',
+      days,
+      data: daily.results || []
+    }, origin);
+
+  } catch (err) {
+    console.error('Timeseries error:', err);
+    return jsonResponse({ error: err.message }, origin, 500);
+  }
+}
+
+// ============================================
+// GET /clicks - Top clicked content
+// ============================================
+
+async function handleClicks(request, env, origin, url) {
+  if (origin && !isAllowedOrigin(origin)) {
+    return new Response('Forbidden', { status: 403 });
+  }
+
+  const limit = Math.min(parseInt(url.searchParams.get('limit') || '50', 10), 200);
+  const section = url.searchParams.get('section'); // optional filter
+
+  if (!env.DB) {
+    return jsonResponse({ error: 'D1 not configured' }, origin, 500);
+  }
+
+  try {
+    let query = `
+      SELECT name, section, category, click_count as count, last_clicked
+      FROM content_clicks
+    `;
+    const params = [];
+
+    if (section) {
+      query += ' WHERE section = ?';
+      params.push(section);
+    }
+
+    query += ' ORDER BY click_count DESC LIMIT ?';
+    params.push(limit);
+
+    const clicks = await env.DB.prepare(query).bind(...params).all();
+
+    return jsonResponse({
+      total: clicks.results?.length || 0,
+      data: clicks.results || []
+    }, origin);
+
+  } catch (err) {
+    console.error('Clicks error:', err);
+    return jsonResponse({ error: err.message }, origin, 500);
+  }
+}
+
+// ============================================
+// GET /searches - Top search queries
+// ============================================
+
+async function handleSearches(request, env, origin, url) {
+  if (origin && !isAllowedOrigin(origin)) {
+    return new Response('Forbidden', { status: 403 });
+  }
+
+  const limit = Math.min(parseInt(url.searchParams.get('limit') || '50', 10), 200);
+
+  if (!env.DB) {
+    return jsonResponse({ error: 'D1 not configured' }, origin, 500);
+  }
+
+  try {
+    const searches = await env.DB.prepare(`
+      SELECT query, search_count as count, last_searched
+      FROM search_queries
+      ORDER BY search_count DESC
+      LIMIT ?
+    `).bind(limit).all();
+
+    return jsonResponse({
+      total: searches.results?.length || 0,
+      data: searches.results || []
+    }, origin);
+
+  } catch (err) {
+    console.error('Searches error:', err);
+    return jsonResponse({ error: err.message }, origin, 500);
+  }
+}
+
+// ============================================
+// GET /export - CSV export
+// ============================================
+
+async function handleExport(request, env, origin, url) {
+  if (origin && !isAllowedOrigin(origin)) {
+    return new Response('Forbidden', { status: 403 });
+  }
+
+  const format = url.searchParams.get('format') || 'csv';
+  const type = url.searchParams.get('type') || 'events'; // events, clicks, searches, daily
+  const days = Math.min(parseInt(url.searchParams.get('days') || '30', 10), 90);
+
+  if (!env.DB) {
+    return jsonResponse({ error: 'D1 not configured' }, origin, 500);
+  }
+
+  try {
+    const startDate = new Date(Date.now() - days * 24 * 60 * 60 * 1000);
+    let data, headers;
+
+    switch (type) {
+      case 'clicks':
+        const clicks = await env.DB.prepare(`
+          SELECT name, section, category, click_count, first_clicked, last_clicked
+          FROM content_clicks
+          ORDER BY click_count DESC
+        `).all();
+        data = clicks.results || [];
+        headers = ['name', 'section', 'category', 'click_count', 'first_clicked', 'last_clicked'];
+        break;
+
+      case 'searches':
+        const searches = await env.DB.prepare(`
+          SELECT query, search_count, first_searched, last_searched
+          FROM search_queries
+          ORDER BY search_count DESC
+        `).all();
+        data = searches.results || [];
+        headers = ['query', 'search_count', 'first_searched', 'last_searched'];
+        break;
+
+      case 'daily':
+        const daily = await env.DB.prepare(`
+          SELECT date, pageviews, unique_sessions, clicks, searches
+          FROM daily_stats
+          WHERE date >= ?
+          ORDER BY date ASC
+        `).bind(startDate.toISOString().split('T')[0]).all();
+        data = daily.results || [];
+        headers = ['date', 'pageviews', 'unique_sessions', 'clicks', 'searches'];
+        break;
+
+      case 'events':
+      default:
+        const events = await env.DB.prepare(`
+          SELECT type, session_id, path, timestamp, country, data
+          FROM events
+          WHERE timestamp >= ?
+          ORDER BY timestamp DESC
+          LIMIT 10000
+        `).bind(startDate.getTime()).all();
+        data = events.results || [];
+        headers = ['type', 'session_id', 'path', 'timestamp', 'country', 'data'];
+        break;
+    }
+
+    if (format === 'json') {
+      return jsonResponse({ type, days, count: data.length, data }, origin);
+    }
+
+    // CSV format
+    const csv = [
+      headers.join(','),
+      ...data.map(row => headers.map(h => {
+        let val = row[h];
+        if (val === null || val === undefined) return '';
+        if (typeof val === 'object') val = JSON.stringify(val);
+        val = String(val).replace(/"/g, '""');
+        return val.includes(',') || val.includes('"') || val.includes('\n') ? `"${val}"` : val;
+      }).join(','))
+    ].join('\n');
+
+    return new Response(csv, {
       status: 200,
       headers: {
-        'Content-Type': 'application/json',
-        'Cache-Control': 'public, max-age=1800',
+        'Content-Type': 'text/csv',
+        'Content-Disposition': `attachment; filename="analytics-${type}-${new Date().toISOString().split('T')[0]}.csv"`,
         ...corsHeaders(origin || '*')
       }
     });
 
   } catch (err) {
-    console.error('Stats error:', err);
-    return new Response(JSON.stringify({ error: 'Failed to fetch stats' }), {
-      status: 500,
-      headers: { 'Content-Type': 'application/json' }
-    });
+    console.error('Export error:', err);
+    return jsonResponse({ error: err.message }, origin, 500);
   }
 }
 
 // ============================================
-// GET /cf-stats - Return Cloudflare Analytics
+// GET /cf-stats - Cloudflare Analytics
 // ============================================
 
 async function handleCfStats(request, env, origin) {
-  // Allow from allowed origins or no origin (direct access)
   if (origin && !isAllowedOrigin(origin)) {
     return new Response('Forbidden', { status: 403 });
   }
 
-  const CF_CACHE_KEY = 'cf-stats:cached';
-  const CF_CACHE_TTL = 3600; // 1 hour
+  // Check cache
+  const cached = await getCache(env, 'cf-stats');
+  if (cached) {
+    return jsonResponse({ ...cached, _cached: true }, origin);
+  }
+
+  if (!env.CF_API_TOKEN || !env.CF_ZONE_ID) {
+    return jsonResponse({
+      error: 'Cloudflare API not configured',
+      minVisitors: 11,
+      maxVisitors: 37,
+      _fallback: true
+    }, origin);
+  }
 
   try {
     const now = Date.now();
-
-    // Check cache first
-    const cached = await env.ANALYTICS_EVENTS.get(CF_CACHE_KEY);
-    if (cached) {
-      try {
-        const { data, ts } = JSON.parse(cached);
-        if (now - ts < CF_CACHE_TTL * 1000) {
-          return new Response(JSON.stringify({ ...data, _cached: true }), {
-            status: 200,
-            headers: {
-              'Content-Type': 'application/json',
-              'Cache-Control': 'public, max-age=1800',
-              ...corsHeaders(origin || '*')
-            }
-          });
-        }
-      } catch (e) {
-        // Invalid cache, continue to regenerate
-      }
-    }
-
-    // Check if API token and Zone ID are configured
-    if (!env.CF_API_TOKEN || !env.CF_ZONE_ID) {
-      return new Response(JSON.stringify({
-        error: 'Cloudflare API not configured',
-        minVisitors: 11,
-        maxVisitors: 37,
-        _fallback: true
-      }), {
-        status: 200,
-        headers: {
-          'Content-Type': 'application/json',
-          ...corsHeaders(origin || '*')
-        }
-      });
-    }
-
-    // Fetch from Cloudflare GraphQL Analytics API
     const yesterday = new Date(now - 24 * 60 * 60 * 1000).toISOString().split('T')[0];
     const today = new Date(now).toISOString().split('T')[0];
 
@@ -259,12 +793,8 @@ async function handleCfStats(request, env, origin) {
               limit: 24
               filter: { date_geq: "${yesterday}", date_leq: "${today}" }
             ) {
-              dimensions {
-                datetime
-              }
-              uniq {
-                uniques
-              }
+              dimensions { datetime }
+              uniq { uniques }
             }
           }
         }
@@ -286,211 +816,85 @@ async function handleCfStats(request, env, origin) {
 
     const result = await response.json();
     const hourlyData = result?.data?.viewer?.zones?.[0]?.httpRequests1hGroups || [];
-
-    // Calculate min/max unique visitors
-    const uniqueCounts = hourlyData
-      .map(h => h.uniq?.uniques || 0)
-      .filter(n => n > 0);
+    const uniqueCounts = hourlyData.map(h => h.uniq?.uniques || 0).filter(n => n > 0);
 
     const stats = {
       minVisitors: uniqueCounts.length > 0 ? Math.min(...uniqueCounts) : 11,
       maxVisitors: uniqueCounts.length > 0 ? Math.max(...uniqueCounts) : 37,
-      avgVisitors: uniqueCounts.length > 0
-        ? Math.round(uniqueCounts.reduce((a, b) => a + b, 0) / uniqueCounts.length)
-        : 20,
+      avgVisitors: uniqueCounts.length > 0 ? Math.round(uniqueCounts.reduce((a, b) => a + b, 0) / uniqueCounts.length) : 20,
       hoursAnalyzed: uniqueCounts.length,
       updated: now
     };
 
-    // Cache the result
-    await env.ANALYTICS_EVENTS.put(CF_CACHE_KEY, JSON.stringify({
-      data: stats,
-      ts: now
-    }), { expirationTtl: CF_CACHE_TTL });
-
-    return new Response(JSON.stringify(stats), {
-      status: 200,
-      headers: {
-        'Content-Type': 'application/json',
-        'Cache-Control': 'public, max-age=1800',
-        ...corsHeaders(origin || '*')
-      }
-    });
+    await setCache(env, 'cf-stats', stats, CACHE_TTL);
+    return jsonResponse(stats, origin);
 
   } catch (err) {
     console.error('CF Stats error:', err);
-    // Return fallback data on error
-    return new Response(JSON.stringify({
+    return jsonResponse({
       error: err.message,
       minVisitors: 11,
       maxVisitors: 37,
       _fallback: true
-    }), {
-      status: 200,
-      headers: {
-        'Content-Type': 'application/json',
-        ...corsHeaders(origin || '*')
-      }
-    });
+    }, origin);
   }
 }
 
 // ============================================
-// Aggregation Logic
+// Cache Helpers
 // ============================================
 
-function aggregateEvents(events, now) {
-  const stats = {
-    updated: now,
-    totalEvents: events.length,
-    summary: {
-      pageviews: 0,
-      sessions: new Set(),
-      searches: 0,
-      clicks: 0,
-      avgTimeOnPage: 0
-    },
-    topSearches: {},
-    topPages: {},
-    topClicks: {
-      packages: {},
-      datasets: {},
-      learning: {},
-      other: {}
-    },
-    externalLinks: {},  // Track external link clicks
-    hourlyActivity: {},  // Track activity by hour (0-23)
-    dailyPageviews: {},
-    countries: {},
-    _countryBySid: {},  // Track unique country+session pairs
-    performance: {
-      lcp: [],
-      fid: [],
-      cls: []
-    }
-  };
+async function getCache(env, key) {
+  if (env.DB) {
+    try {
+      const row = await env.DB.prepare(
+        'SELECT value, expires_at FROM cache_meta WHERE key = ?'
+      ).bind(key).first();
 
-  let totalTimeOnPage = 0;
-  let timeOnPageCount = 0;
-
-  for (const event of events) {
-    // Count sessions
-    if (event.sid) {
-      stats.summary.sessions.add(event.sid);
-    }
-
-    // Count by type
-    switch (event.t) {
-      case 'pageview':
-        stats.summary.pageviews++;
-
-        // Daily pageviews
-        const day = new Date(event.ts).toISOString().split('T')[0];
-        stats.dailyPageviews[day] = (stats.dailyPageviews[day] || 0) + 1;
-
-        // Top pages
-        if (event.d?.path) {
-          stats.topPages[event.d.path] = (stats.topPages[event.d.path] || 0) + 1;
-        }
-        break;
-
-      case 'search':
-        stats.summary.searches++;
-        if (event.d?.q) {
-          const query = event.d.q.toLowerCase().trim();
-          stats.topSearches[query] = (stats.topSearches[query] || 0) + 1;
-        }
-        break;
-
-      case 'click':
-        stats.summary.clicks++;
-        if (event.d?.type === 'card' && event.d?.name) {
-          const section = event.d.section || 'other';
-          const bucket = stats.topClicks[section] || stats.topClicks.other;
-          bucket[event.d.name] = (bucket[event.d.name] || 0) + 1;
-        }
-        // Track external link clicks
-        if (event.d?.type === 'external' && event.d?.text) {
-          const linkText = event.d.text.trim().toLowerCase();
-          if (linkText) {
-            stats.externalLinks[linkText] = (stats.externalLinks[linkText] || 0) + 1;
-          }
-        }
-        break;
-
-      case 'engage':
-        if (event.d?.timeOnPage) {
-          totalTimeOnPage += event.d.timeOnPage;
-          timeOnPageCount++;
-        }
-        break;
-
-      case 'vitals':
-        if (event.d?.metric && event.d?.value !== undefined) {
-          const metric = event.d.metric.toLowerCase();
-          if (stats.performance[metric]) {
-            stats.performance[metric].push(event.d.value);
-          }
-        }
-        break;
-    }
-
-    // Countries (count by unique session, not every event)
-    if (event._country && event._country !== 'unknown' && event.sid) {
-      const key = `${event._country}:${event.sid}`;
-      if (!stats._countryBySid[key]) {
-        stats._countryBySid[key] = true;
-        stats.countries[event._country] = (stats.countries[event._country] || 0) + 1;
+      if (row && row.expires_at > Date.now()) {
+        return JSON.parse(row.value);
       }
-    }
-
-    // Track hourly activity (for pageviews only)
-    if (event.t === 'pageview' && event.ts) {
-      const hour = new Date(event.ts).getUTCHours();
-      stats.hourlyActivity[hour] = (stats.hourlyActivity[hour] || 0) + 1;
-    }
+    } catch (e) {}
   }
 
-  // Calculate averages
-  stats.summary.sessions = stats.summary.sessions.size;
-  stats.summary.avgTimeOnPage = timeOnPageCount > 0
-    ? Math.round(totalTimeOnPage / timeOnPageCount)
-    : 0;
-
-  // Sort and limit top items
-  stats.topSearches = sortAndLimit(stats.topSearches, 20);
-  stats.topPages = sortAndLimit(stats.topPages, 10);
-  stats.topClicks.packages = sortAndLimit(stats.topClicks.packages, 10);
-  stats.topClicks.datasets = sortAndLimit(stats.topClicks.datasets, 10);
-  stats.topClicks.learning = sortAndLimit(stats.topClicks.learning, 10);
-  stats.externalLinks = sortAndLimit(stats.externalLinks, 10);
-  stats.countries = sortAndLimit(stats.countries, 10);
-
-  // Calculate performance averages
-  for (const metric of ['lcp', 'fid', 'cls']) {
-    const values = stats.performance[metric];
-    if (values.length > 0) {
-      const avg = values.reduce((a, b) => a + b, 0) / values.length;
-      stats.performance[metric] = {
-        avg: Math.round(avg * 100) / 100,
-        samples: values.length
-      };
-    } else {
-      stats.performance[metric] = { avg: null, samples: 0 };
-    }
+  if (env.ANALYTICS_EVENTS) {
+    try {
+      const cached = await env.ANALYTICS_EVENTS.get(`cache:${key}`);
+      if (cached) {
+        const { data, ts } = JSON.parse(cached);
+        if (Date.now() - ts < CACHE_TTL * 1000) {
+          return data;
+        }
+      }
+    } catch (e) {}
   }
 
-  // Sort daily pageviews by date
-  const sortedDaily = Object.entries(stats.dailyPageviews)
-    .sort((a, b) => a[0].localeCompare(b[0]))
-    .slice(-7);
-  stats.dailyPageviews = Object.fromEntries(sortedDaily);
-
-  // Remove helper properties
-  delete stats._countryBySid;
-
-  return stats;
+  return null;
 }
+
+async function setCache(env, key, data, ttl) {
+  const expiresAt = Date.now() + ttl * 1000;
+
+  if (env.DB) {
+    try {
+      await env.DB.prepare(`
+        INSERT INTO cache_meta (key, value, expires_at)
+        VALUES (?, ?, ?)
+        ON CONFLICT(key) DO UPDATE SET value = excluded.value, expires_at = excluded.expires_at
+      `).bind(key, JSON.stringify(data), expiresAt).run();
+    } catch (e) {}
+  }
+
+  if (env.ANALYTICS_EVENTS) {
+    try {
+      await env.ANALYTICS_EVENTS.put(`cache:${key}`, JSON.stringify({ data, ts: Date.now() }), { expirationTtl: ttl });
+    } catch (e) {}
+  }
+}
+
+// ============================================
+// Utility Functions
+// ============================================
 
 function sortAndLimit(obj, limit) {
   return Object.entries(obj)
@@ -499,9 +903,16 @@ function sortAndLimit(obj, limit) {
     .map(([name, count]) => ({ name, count }));
 }
 
-// ============================================
-// CORS Helpers
-// ============================================
+function jsonResponse(data, origin, status = 200) {
+  return new Response(JSON.stringify(data), {
+    status,
+    headers: {
+      'Content-Type': 'application/json',
+      'Cache-Control': 'public, max-age=300',
+      ...corsHeaders(origin || '*')
+    }
+  });
+}
 
 function isAllowedOrigin(origin) {
   if (!origin) return false;

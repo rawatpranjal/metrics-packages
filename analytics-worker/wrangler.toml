@@ -20,10 +20,19 @@ CF_ZONE_ID = "YOUR_ZONE_ID_HERE"
 binding = "ANALYTICS_EVENTS"
 id = "55666fb0baa64b12a16c9bc307483781"
 
+# D1 Database for analytics storage
+# Run: wrangler d1 create tech-econ-analytics-db
+# Then update the database_id below
+[[d1_databases]]
+binding = "DB"
+database_name = "tech-econ-analytics-db"
+database_id = "7c92226a-53ba-4d34-97ba-09bb985321a3"
+
 # To deploy:
 # 1. Install wrangler: npm install -g wrangler
 # 2. Login: wrangler login
-# 3. Create KV namespace: wrangler kv:namespace create ANALYTICS_EVENTS
-# 4. Update the id above with the namespace ID from step 3
-# 5. Deploy: wrangler deploy
-# 6. Update hugo.toml trackerEndpoint with your worker URL
+# 3. Create D1 database: wrangler d1 create tech-econ-analytics-db
+# 4. Update database_id above with the ID from step 3
+# 5. Run schema: wrangler d1 execute tech-econ-analytics-db --file=./schema.sql
+# 6. Deploy: wrangler deploy
+# 7. Update hugo.toml trackerEndpoint with your worker URL
