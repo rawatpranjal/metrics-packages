@@ -1,0 +1,329 @@
+/* ==============================================
+   MAGIC LAYER - Netflix-Style UI Enhancements
+   File: static/css/magic-layer.css
+
+   Add this AFTER custom.css to enhance the site
+   with smooth animations and polished interactions.
+   ============================================== */
+
+/* -----------------------------------------
+   TABLE OF CONTENTS
+   -----------------------------------------
+   1. Smooth Scroll & Base
+   2. Card Hover Magic (Enhanced lift & glow)
+   3. Gradient Hero Overlays
+   4. Staggered Card Entrance Animations
+   5. Glowing Active States
+   6. Number Counter Animation
+   7. Custom Scrollbar Styling
+   8. Selection Color
+   9. Reduced Motion Support
+   ----------------------------------------- */
+
+
+/* ===========================================
+   1. SMOOTH SCROLL & BASE
+   =========================================== */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* ===========================================
+   2. CARD HOVER MAGIC - Enhanced lift & glow
+   =========================================== */
+
+/* Ensure cards have proper transition */
+.package-card,
+.resource-card,
+.topic-card,
+.section-card {
+    transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+                box-shadow 0.3s ease;
+}
+
+/* Light theme hover effects */
+.package-card:hover,
+.resource-card:hover,
+.topic-card:hover,
+.section-card:hover {
+    transform: translateY(-6px) !important;
+    box-shadow:
+        0 12px 28px rgba(0, 102, 204, 0.12),
+        0 8px 16px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Dark theme hover - use accent color glow */
+[data-theme="dark"] .package-card:hover,
+[data-theme="dark"] .resource-card:hover,
+[data-theme="dark"] .topic-card:hover,
+[data-theme="dark"] .section-card:hover {
+    box-shadow:
+        0 12px 28px rgba(77, 166, 255, 0.15),
+        0 8px 16px rgba(0, 0, 0, 0.25) !important;
+}
+
+/* Section cards with images - enhance background zoom */
+.section-card-with-image:hover .card-bg {
+    transform: scale(1.08) !important;
+}
+
+
+/* ===========================================
+   3. GRADIENT HERO OVERLAYS - Atmospheric
+   =========================================== */
+
+/* Enhance hero with image background gradient */
+.hero-with-image::before {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.25) 0%,
+        rgba(0, 0, 0, 0.5) 50%,
+        rgba(0, 0, 0, 0.8) 100%
+    ) !important;
+}
+
+/* Add subtle bottom fade for smoother transition */
+.hero-with-image::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background: linear-gradient(
+        to top,
+        var(--bg-primary) 0%,
+        transparent 100%
+    );
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* Ensure hero content stays above overlays */
+.hero-with-image > * {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* ===========================================
+   4. STAGGERED CARD ENTRANCE ANIMATIONS
+   =========================================== */
+
+@keyframes fadeSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Base animation for all cards */
+.package-card,
+.resource-card,
+.topic-card,
+.section-card {
+    opacity: 0;
+    animation: fadeSlideUp 0.5s ease-out forwards;
+}
+
+/* Staggered delays for grids */
+.cards-row > *:nth-child(1),
+.section-grid > *:nth-child(1),
+.topics-grid > *:nth-child(1) { animation-delay: 0.05s; }
+
+.cards-row > *:nth-child(2),
+.section-grid > *:nth-child(2),
+.topics-grid > *:nth-child(2) { animation-delay: 0.1s; }
+
+.cards-row > *:nth-child(3),
+.section-grid > *:nth-child(3),
+.topics-grid > *:nth-child(3) { animation-delay: 0.15s; }
+
+.cards-row > *:nth-child(4),
+.section-grid > *:nth-child(4),
+.topics-grid > *:nth-child(4) { animation-delay: 0.2s; }
+
+.cards-row > *:nth-child(5),
+.section-grid > *:nth-child(5),
+.topics-grid > *:nth-child(5) { animation-delay: 0.25s; }
+
+.cards-row > *:nth-child(6),
+.section-grid > *:nth-child(6),
+.topics-grid > *:nth-child(6) { animation-delay: 0.3s; }
+
+/* Cap delay for remaining cards */
+.cards-row > *:nth-child(n+7),
+.section-grid > *:nth-child(n+7),
+.topics-grid > *:nth-child(n+7) { animation-delay: 0.35s; }
+
+
+/* ===========================================
+   5. GLOWING ACTIVE STATES
+   =========================================== */
+
+/* Sidebar active link glow */
+.sidebar-link.active {
+    box-shadow:
+        0 0 12px rgba(77, 166, 255, 0.3),
+        inset 0 0 20px rgba(77, 166, 255, 0.1) !important;
+}
+
+/* Sidebar hover glow */
+.sidebar-link:hover {
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.08);
+}
+
+/* Toggle and category button active glow - light theme */
+.toggle-btn.active,
+.category-btn.active {
+    box-shadow: 0 0 12px rgba(0, 102, 204, 0.25);
+}
+
+/* Toggle and category button active glow - dark theme */
+[data-theme="dark"] .toggle-btn.active,
+[data-theme="dark"] .category-btn.active {
+    box-shadow: 0 0 12px rgba(77, 166, 255, 0.35);
+}
+
+
+/* ===========================================
+   6. NUMBER COUNTER ANIMATION
+   =========================================== */
+
+@keyframes countFadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.85);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.result-count,
+.count,
+.stat-number,
+.hero-subtitle {
+    animation: countFadeIn 0.5s ease-out forwards;
+}
+
+
+/* ===========================================
+   7. CUSTOM SCROLLBAR STYLING
+   =========================================== */
+
+/* WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--text-muted);
+    border-radius: 5px;
+    border: 2px solid var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--text-secondary);
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--text-muted) var(--bg-secondary);
+}
+
+/* Dark theme scrollbar refinements */
+[data-theme="dark"] ::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb {
+    background: #555;
+    border-color: #1a1a1a;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
+
+
+/* ===========================================
+   8. SELECTION COLOR
+   =========================================== */
+
+::selection {
+    background: var(--accent);
+    color: white;
+}
+
+::-moz-selection {
+    background: var(--accent);
+    color: white;
+}
+
+/* Dark theme selection - keep contrast */
+[data-theme="dark"] ::selection {
+    background: var(--accent);
+    color: #121212;
+}
+
+[data-theme="dark"] ::-moz-selection {
+    background: var(--accent);
+    color: #121212;
+}
+
+
+/* ===========================================
+   9. REDUCED MOTION SUPPORT
+   =========================================== */
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto !important;
+    }
+
+    /* Disable entrance animations */
+    .package-card,
+    .resource-card,
+    .topic-card,
+    .section-card {
+        animation: none !important;
+        opacity: 1 !important;
+    }
+
+    /* Disable hover transforms but keep color changes */
+    .package-card:hover,
+    .resource-card:hover,
+    .topic-card:hover,
+    .section-card:hover {
+        transform: none !important;
+        transition: box-shadow 0.2s ease !important;
+    }
+
+    /* Disable counter animation */
+    .result-count,
+    .count,
+    .stat-number,
+    .hero-subtitle {
+        animation: none !important;
+    }
+
+    /* Disable background zoom */
+    .section-card-with-image:hover .card-bg {
+        transform: none !important;
+    }
+}
