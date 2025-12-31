@@ -5,7 +5,10 @@
 </header>
 
 <div class="container" style="max-width: 600px; margin: 0 auto; padding: 2rem;">
-    <form action="https://formspree.io/f/mqekqrob" method="POST" class="submit-form">
+    <!-- Success/Error Messages -->
+    <div id="submit-message" class="submit-message" style="display: none;"></div>
+
+    <form id="submit-form" class="submit-form">
         <!-- Resource Type -->
         <div class="form-group">
             <label for="resource_type">Resource Type <span class="required">*</span></label>
@@ -23,7 +26,7 @@
 
         <div class="form-group">
             <label for="resource_name">Resource Name <span class="required">*</span></label>
-            <input type="text" id="resource_name" name="resource_name" placeholder="e.g., statsmodels, EconML Tutorial" required>
+            <input type="text" id="resource_name" name="resource_name" placeholder="e.g., statsmodels, EconML Tutorial" required maxlength="200">
         </div>
 
         <div class="form-group">
@@ -38,7 +41,7 @@
 
         <div class="form-group">
             <label for="description">Brief Description <span class="optional">(optional)</span></label>
-            <textarea id="description" name="description" placeholder="What does this resource do?" rows="3"></textarea>
+            <textarea id="description" name="description" placeholder="What does this resource do?" rows="3" maxlength="1000"></textarea>
         </div>
 
         <div class="form-group">
@@ -46,9 +49,94 @@
             <input type="email" id="email" name="email" placeholder="your@email.com">
         </div>
 
-        <button type="submit" class="submit-button">Submit Resource</button>
+        <button type="submit" class="submit-button" id="submit-btn">
+            <span class="btn-text">Submit Resource</span>
+            <span class="btn-loading" style="display: none;">Submitting...</span>
+        </button>
     </form>
+
+    <!-- Fallback for noscript -->
+    <noscript>
+        <p style="text-align: center; margin-top: 1rem; color: var(--text-muted);">
+            JavaScript required for automatic submission.
+            <a href="mailto:contact@tech-econ.com">Email us</a> instead.
+        </p>
+    </noscript>
 </div>
+
+<script>
+(function() {
+    const WORKER_URL = 'https://tech-econ-submit.rawat-pranjal010.workers.dev/submit';
+    const form = document.getElementById('submit-form');
+    const messageEl = document.getElementById('submit-message');
+    const submitBtn = document.getElementById('submit-btn');
+    const btnText = submitBtn.querySelector('.btn-text');
+    const btnLoading = submitBtn.querySelector('.btn-loading');
+
+    function showMessage(type, text) {
+        messageEl.className = 'submit-message submit-message-' + type;
+        messageEl.textContent = text;
+        messageEl.style.display = 'block';
+        messageEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    function setLoading(loading) {
+        submitBtn.disabled = loading;
+        btnText.style.display = loading ? 'none' : 'inline';
+        btnLoading.style.display = loading ? 'inline' : 'none';
+    }
+
+    form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+
+        // Gather form data
+        const formData = new FormData(form);
+        const data = Object.fromEntries(formData.entries());
+
+        // Client-side validation
+        if (!data.resource_type) {
+            showMessage('error', 'Please select a resource type.');
+            return;
+        }
+        if (!data.resource_name || data.resource_name.trim().length < 2) {
+            showMessage('error', 'Please enter a resource name (at least 2 characters).');
+            return;
+        }
+        if (!data.url) {
+            showMessage('error', 'Please enter a URL.');
+            return;
+        }
+
+        setLoading(true);
+        messageEl.style.display = 'none';
+
+        try {
+            const response = await fetch(WORKER_URL, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            });
+
+            const result = await response.json();
+
+            if (result.success) {
+                showMessage('success', result.message || 'Resource submitted successfully! It will appear on the site within a few minutes.');
+                form.reset();
+            } else {
+                const errorMsg = result.errors ? result.errors.join('. ') : (result.error || 'Submission failed. Please try again.');
+                showMessage('error', errorMsg);
+            }
+        } catch (err) {
+            console.error('Submit error:', err);
+            showMessage('error', 'Network error. Please check your connection and try again.');
+        } finally {
+            setLoading(false);
+        }
+    });
+})();
+</script>
 
 <style>
 .submit-form {
@@ -122,11 +210,48 @@
     border: none;
     border-radius: 6px;
     cursor: pointer;
-    transition: background 0.2s;
+    transition: background 0.2s, opacity 0.2s;
 }
 
-.submit-button:hover {
+.submit-button:hover:not(:disabled) {
     background: var(--accent-hover);
+}
+
+.submit-button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* Message Styles */
+.submit-message {
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+}
+
+.submit-message-success {
+    background: #dcfce7;
+    color: #166534;
+    border: 1px solid #86efac;
+}
+
+.submit-message-error {
+    background: #fee2e2;
+    color: #991b1b;
+    border: 1px solid #fca5a5;
+}
+
+[data-theme="dark"] .submit-message-success {
+    background: #14532d;
+    color: #86efac;
+    border-color: #166534;
+}
+
+[data-theme="dark"] .submit-message-error {
+    background: #7f1d1d;
+    color: #fca5a5;
+    border-color: #991b1b;
 }
 </style>
 {{ end }}

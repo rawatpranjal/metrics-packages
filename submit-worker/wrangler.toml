@@ -1,0 +1,21 @@
+name = "tech-econ-submit"
+main = "index.js"
+compatibility_date = "2024-01-01"
+workers_dev = true
+
+# Environment variables
+[vars]
+REPO_OWNER = "rawatpranjal"
+REPO_NAME = "metrics-packages"
+BRANCH = "main"
+
+# Secrets (set via: wrangler secret put <NAME>)
+# GITHUB_TOKEN - Personal Access Token with contents:write permission
+#   Create at: https://github.com/settings/tokens/new
+#   Scope: repo > Contents (read and write)
+
+# To deploy:
+# 1. Install wrangler: npm install -g wrangler
+# 2. Login: wrangler login
+# 3. Set GitHub token: wrangler secret put GITHUB_TOKEN
+# 4. Deploy: wrangler deploy
