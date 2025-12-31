@@ -9126,7 +9126,15 @@ mark.partial {
     flex: 0 0 240px;
     min-width: 240px;
     max-width: 240px;
-    height: 160px;
+    height: 200px;
+}
+
+.home-trending .explore-card-desc {
+    font-size: 0.75rem;
+    line-height: 1.4;
+    margin: 0.25rem 0;
+    -webkit-line-clamp: 2;
+    flex-grow: 0;
 }
 
 .home-trending .explore-card-content {

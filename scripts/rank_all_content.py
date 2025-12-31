@@ -433,6 +433,7 @@ def main():
             'name': item.get('original_name', name),
             'type': item['type'],
             'category': item.get('category', ''),
+            'description': item.get('description', ''),
             'url': item.get('url', ''),
             'score': round(score_info['score'], 4),
             'cold_start': score_info['cold_start'],

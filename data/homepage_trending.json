@@ -1,11 +1,12 @@
 {
-  "updated": "2025-12-31T21:48:24.474100Z",
+  "updated": "2025-12-31T23:37:39.324830Z",
   "count": 12,
   "items": [
     {
       "name": "Causal Inference for the Brave and True",
       "type": "package",
       "category": "Standard Errors, Bootstrapping & Reporting",
+      "description": "Modern introduction to causal inference methods (DiD, IV, RDD, Synth, ML-based) with Python code examples.",
       "url": "https://matheusfacure.github.io/python-causality-handbook/",
       "score": 0.6996,
       "cold_start": false,
@@ -20,6 +21,7 @@
       "name": "spaCy",
       "type": "package",
       "category": "Natural Language Processing for Economics",
+      "description": "Industrial-strength NLP library for efficient text processing pipelines (NER, POS tagging, etc.).",
       "url": "https://github.com/explosion/spaCy",
       "score": 0.5995,
       "cold_start": false,
@@ -34,6 +36,7 @@
       "name": "JD.com 2020 (MSOM-20)",
       "type": "dataset",
       "category": "E-Commerce",
+      "description": "2.5M customers (457k purchasers) and 31,868 SKUs from JD.com",
       "url": "https://connect.informs.org/msom/events/datadriven2020",
       "score": 0.5995,
       "cold_start": false,
@@ -48,6 +51,7 @@
       "name": "BestBuy",
       "type": "dataset",
       "category": "E-Commerce",
+      "description": "Mobile website clicks (~42k) for Xbox games from BestBuy",
       "url": "https://www.kaggle.com/competitions/acm-sf-chapter-hackathon-big",
       "score": 0.5995,
       "cold_start": false,
@@ -59,9 +63,25 @@
       "rank": 4
     },
     {
+      "name": "Scott Cunningham: Causal Inference Substack",
+      "type": "resource",
+      "category": "Causal Inference & ML",
+      "description": "Substack and podcast 'The Mixtape with Scott' featuring interviews with leading causal inference researchers. Bridges academic methods and practical application.",
+      "url": "https://causalinf.substack.com/",
+      "score": 0.5125,
+      "cold_start": false,
+      "signals": {
+        "clicks": 2,
+        "impressions": 3,
+        "dwell_ms": 11820
+      },
+      "rank": 36
+    },
+    {
       "name": "Ax (Meta Adaptive Experimentation)",
       "type": "package",
       "category": "Adaptive Experimentation & Bandits",
+      "description": "Meta's open-source platform for adaptive experimentation. Bayesian optimization, multi-objective optimization, and automated experiment design. Built on BoTorch for AI-assisted experimentation.",
       "url": "https://ax.dev",
       "score": 0.4373,
       "cold_start": false,
@@ -70,12 +90,13 @@
         "impressions": 1,
         "dwell_ms": 4188
       },
-      "rank": 76
+      "rank": 84
     },
     {
       "name": "Google Research: Market Algorithms Team",
       "type": "resource",
       "category": "Auction Theory",
+      "description": "Direct from engineers designing Google's auction systems. Ad exchange design, budget-constrained mechanisms, autobidding formulas, Price of Anarchy. Collaboration between Roughgarden, Tardos, and Google engineers.",
       "url": "https://research.google/teams/market-algorithms/",
       "score": 0.4326,
       "cold_start": false,
@@ -84,12 +105,13 @@
         "impressions": 1,
         "dwell_ms": 0
       },
-      "rank": 82
+      "rank": 92
     },
     {
       "name": "Ananke",
       "type": "package",
       "category": "Causal Discovery & Graphical Models",
+      "description": "Causal inference using graphical models (DAGs), including identification theory and effect estimation.",
       "url": "https://gitlab.com/causal/ananke",
       "score": 0.3993,
       "cold_start": false,
@@ -98,12 +120,13 @@
         "impressions": 0,
         "dwell_ms": 0
       },
-      "rank": 148
+      "rank": 156
     },
     {
       "name": "EconML",
       "type": "package",
       "category": "Double/Debiased Machine Learning (DML)",
+      "description": "Microsoft toolkit for estimating heterogeneous treatment effects using DML, causal forests, meta-learners, and orthogonal ML methods.",
       "url": "https://github.com/py-why/EconML",
       "score": 0.3993,
       "cold_start": false,
@@ -112,12 +135,13 @@
         "impressions": 0,
         "dwell_ms": 0
       },
-      "rank": 149
+      "rank": 157
     },
     {
       "name": "LMSYS-Chat-1M",
       "type": "dataset",
       "category": "AI & LLM",
+      "description": "1M real-world conversations with 25 state-of-the-art LLMs spanning 154 languages",
       "url": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m",
       "score": 0.3993,
       "cold_start": false,
@@ -126,12 +150,13 @@
         "impressions": 0,
         "dwell_ms": 0
       },
-      "rank": 150
+      "rank": 158
     },
     {
       "name": "DiQAD",
       "type": "dataset",
       "category": "AI & LLM",
+      "description": "100K real-world user dialogues with comprehensive 6-dimension quality assessment",
       "url": "https://github.com/yukunZhao/Dataset_Dialogue_quality_evaluation",
       "score": 0.3993,
       "cold_start": false,
@@ -140,12 +165,13 @@
         "impressions": 0,
         "dwell_ms": 0
       },
-      "rank": 151
+      "rank": 159
     },
     {
       "name": "Instacart",
       "type": "dataset",
       "category": "Food & Delivery",
+      "description": "3.4M orders, 206k+ users, 49k+ products with reorder behavior",
       "url": "https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis",
       "score": 0.3993,
       "cold_start": false,
@@ -154,21 +180,7 @@
         "impressions": 0,
         "dwell_ms": 0
       },
-      "rank": 152
-    },
-    {
-      "name": "Open E-Commerce 1.0 (MIT)",
-      "type": "dataset",
-      "category": "E-Commerce",
-      "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YGAVK9",
-      "score": 0.3993,
-      "cold_start": false,
-      "signals": {
-        "clicks": 2,
-        "impressions": 0,
-        "dwell_ms": 0
-      },
-      "rank": 153
+      "rank": 160
     }
   ]
 }
