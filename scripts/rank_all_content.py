@@ -227,12 +227,14 @@ def build_features_for_regression(items):
     all_categories = list(set(item.get('category') or 'other' for item in items))
     all_difficulties = list(set(item.get('difficulty') or 'intermediate' for item in items))
     all_domains = list(set(extract_url_domain(item.get('url', '')) for item in items))
+    all_languages = list(set(item.get('language') or 'unknown' for item in items))
 
     # Create encoders
     type_encoder = {t: i for i, t in enumerate(sorted(all_types))}
     category_encoder = {c: i for i, c in enumerate(sorted(all_categories))}
     difficulty_encoder = {d: i for i, d in enumerate(sorted(all_difficulties))}
     domain_encoder = {d: i for i, d in enumerate(sorted(all_domains))}
+    language_encoder = {l: i for i, l in enumerate(sorted(all_languages))}
 
     # Build categorical/numeric features
     cat_features = []
@@ -243,12 +245,18 @@ def build_features_for_regression(items):
         name = item.get('name') or ''
         tags = item.get('tags') or []
         topic_tags = item.get('topic_tags') or []
+        audience = item.get('audience') or []
+        use_cases = item.get('use_cases') or []
+        related = item.get('related_packages') or []
+        synthetic_q = item.get('synthetic_questions') or []
+        best_for = item.get('best_for') or ''
 
         # Text for BERT: combine name + description
         text = f"{name}. {desc}" if desc else name
         descriptions.append(text)
 
         cat_row = [
+            # Original features (10)
             type_encoder.get(item.get('type') or 'unknown', 0),
             category_encoder.get(item.get('category') or 'other', 0),
             difficulty_encoder.get(item.get('difficulty') or 'intermediate', 0),
@@ -259,6 +267,15 @@ def build_features_for_regression(items):
             1 if item.get('url') else 0,
             item.get('citations') or 0,
             len(name),
+            # New features (8)
+            len(audience) if isinstance(audience, list) else 0,  # n_audience
+            len(use_cases) if isinstance(use_cases, list) else 0,  # n_use_cases
+            len(related) if isinstance(related, list) else 0,  # n_related
+            1 if item.get('github_url') else 0,  # has_github
+            language_encoder.get(item.get('language') or 'unknown', 0),  # language
+            len(synthetic_q) if isinstance(synthetic_q, list) else 0,  # n_synthetic_q
+            len(desc.split()) if desc else 0,  # desc_word_count
+            1 if best_for else 0,  # has_best_for
         ]
         cat_features.append(cat_row)
 
@@ -279,6 +296,7 @@ def build_features_for_regression(items):
         'category_encoder': category_encoder,
         'difficulty_encoder': difficulty_encoder,
         'domain_encoder': domain_encoder,
+        'language_encoder': language_encoder,
         'n_categorical': cat_features.shape[1],
         'n_bert': embeddings.shape[1],
     }
@@ -317,8 +335,9 @@ def train_regression_model(items, item_signals):
 
     # Proper train/test split on ALL data (including zeros)
     print("\n  Train/test split (80/20)...")
-    X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=0.2, random_state=42, stratify=(y > 0)
+    indices = np.arange(len(y))
+    X_train, X_test, y_train, y_test, idx_train, idx_test = train_test_split(
+        X, y, indices, test_size=0.2, random_state=42, stratify=(y > 0)
     )
 
     n_train_engaged = np.sum(y_train > 0)
@@ -384,7 +403,17 @@ def train_regression_model(items, item_signals):
     print(f"  Baseline RMSE (train mean): {baseline_rmse:.3f}")
     if baseline_rmse > 0:
         print(f"  RMSE vs baseline: {(test_rmse/baseline_rmse)*100:.1f}%")
-    print(f"  AUC (engaged vs not): {test_auc:.3f}")
+    print(f"  AUC (any engagement): {test_auc:.3f}")
+
+    # Per-interaction AUC
+    for signal_name, signal_key in [('clicks', 'clicks'), ('impressions', 'impressions'), ('dwell', 'dwell_ms')]:
+        signal_binary = np.array([
+            1 if item_signals.get(items[i]['name'], {}).get(signal_key, 0) > 0 else 0
+            for i in idx_test
+        ])
+        if signal_binary.sum() > 0 and signal_binary.sum() < len(signal_binary):
+            signal_auc = roc_auc_score(signal_binary, y_pred_test)
+            print(f"  AUC ({signal_name}): {signal_auc:.3f}")
 
     # Retrain on full data for final model
     print(f"\n  Retraining on full data...")
@@ -409,7 +438,10 @@ def train_regression_model(items, item_signals):
 
     # Show feature importance
     n_cat = encoders['n_categorical']
-    feature_names = ['type', 'category', 'difficulty', 'domain', 'desc_len', 'n_tags', 'n_topics', 'has_url', 'citations', 'name_len']
+    feature_names = [
+        'type', 'category', 'difficulty', 'domain', 'desc_len', 'n_tags', 'n_topics', 'has_url', 'citations', 'name_len',
+        'n_audience', 'n_use_cases', 'n_related', 'has_github', 'language', 'n_synthetic_q', 'desc_words', 'has_best_for'
+    ]
 
     if HAS_LIGHTGBM and hasattr(model, 'feature_importances_'):
         importances = model.feature_importances_
