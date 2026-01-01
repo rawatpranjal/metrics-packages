@@ -19237,5 +19237,497 @@
       "requests"
     ],
     "maintenance_status": "active"
+  },
+  {
+    "name": "Skyfield",
+    "description": "Elegant astronomy library for computing satellite and celestial positions using JPL ephemeris data",
+    "category": "Space & Orbital Analysis",
+    "docs_url": "https://rhodesmill.org/skyfield/",
+    "github_url": "https://github.com/skyfielders/python-skyfield",
+    "url": "https://rhodesmill.org/skyfield/",
+    "install": "pip install skyfield",
+    "tags": [
+      "satellites",
+      "astronomy",
+      "orbital mechanics",
+      "ephemeris"
+    ],
+    "best_for": "Computing satellite positions and passes for space economics research",
+    "language": "Python",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "orbital-mechanics-basics"
+    ],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "High-precision astronomy library for computing satellite and celestial body positions. Uses JPL ephemeris data. Essential for space situational awareness analysis.",
+    "use_cases": [
+      "Satellite pass prediction",
+      "Constellation analysis",
+      "Space visualization"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Python satellite tracking",
+      "Skyfield astronomy",
+      "satellite position calculation"
+    ],
+    "primary_use_cases": [
+      "Satellite tracking",
+      "Orbital analysis"
+    ],
+    "api_complexity": "medium",
+    "related_packages": [
+      "SGP4",
+      "astropy"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "sgp4",
+    "description": "Implementation of the SGP4/SDP4 satellite propagation algorithms for processing TLE orbital data",
+    "category": "Space & Orbital Analysis",
+    "docs_url": "https://pypi.org/project/sgp4/",
+    "github_url": "https://github.com/brandon-rhodes/python-sgp4",
+    "url": "https://pypi.org/project/sgp4/",
+    "install": "pip install sgp4",
+    "tags": [
+      "satellites",
+      "TLE",
+      "propagation",
+      "orbital mechanics"
+    ],
+    "best_for": "Processing Space-Track TLE data for satellite position prediction",
+    "language": "Python",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "orbital-mechanics-basics"
+    ],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "Standard implementation of SGP4/SDP4 algorithms used by NORAD/Space Force. Essential for working with TLE data from Space-Track.org.",
+    "use_cases": [
+      "TLE processing",
+      "Satellite propagation",
+      "Conjunction analysis"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "SGP4 Python",
+      "TLE propagation",
+      "satellite orbit prediction"
+    ],
+    "primary_use_cases": [
+      "Satellite propagation",
+      "TLE processing"
+    ],
+    "api_complexity": "medium",
+    "related_packages": [
+      "Skyfield",
+      "poliastro"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "nvdlib",
+    "description": "Python wrapper for the NIST National Vulnerability Database (NVD) API for automated vulnerability intelligence",
+    "category": "Cybersecurity",
+    "docs_url": "https://nvdlib.com/",
+    "github_url": "https://github.com/vehemont/nvdlib",
+    "url": "https://nvdlib.com/",
+    "install": "pip install nvdlib",
+    "tags": [
+      "vulnerabilities",
+      "CVE",
+      "NVD",
+      "security research"
+    ],
+    "best_for": "Programmatic access to vulnerability data for security economics research",
+    "language": "Python",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "Simple Python wrapper for NIST NVD API. Enables automated retrieval of CVE data for Gordon-Loeb model implementations and vulnerability research.",
+    "use_cases": [
+      "Vulnerability research",
+      "Security metrics",
+      "Risk analysis"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "NVD API Python",
+      "CVE data Python",
+      "vulnerability database API"
+    ],
+    "primary_use_cases": [
+      "Vulnerability data access",
+      "Security research"
+    ],
+    "api_complexity": "low",
+    "related_packages": [
+      "requests",
+      "pandas"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "peacesciencer",
+    "description": "R package for generating dyad-year and state-year datasets with conflict, democracy, alliance, and contiguity data",
+    "category": "Defense Research",
+    "docs_url": "http://svmiller.com/peacesciencer/",
+    "github_url": "https://github.com/svmiller/peacesciencer",
+    "url": "http://svmiller.com/peacesciencer/",
+    "install": "install.packages('peacesciencer')",
+    "tags": [
+      "conflict data",
+      "COW-MID",
+      "UCDP",
+      "dyad-year"
+    ],
+    "best_for": "Constructing datasets for quantitative defense and peace research",
+    "language": "R",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "R-basics",
+      "conflict-studies"
+    ],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "Most integrated environment for quantitative defense research by Steven V. Miller. Generates dyad-year datasets with COW-MID, UCDP conflict data, democracy scores, and alliance data built in.",
+    "use_cases": [
+      "Conflict research",
+      "Alliance analysis",
+      "Democracy and war studies"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "R conflict data",
+      "peacesciencer package",
+      "dyad-year data R"
+    ],
+    "primary_use_cases": [
+      "Dataset construction",
+      "Conflict research"
+    ],
+    "api_complexity": "medium",
+    "related_packages": [
+      "countrycode",
+      "states"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "countrycode",
+    "description": "R package for converting between country naming and coding conventions essential for merging defense datasets",
+    "category": "Data Wrangling",
+    "docs_url": "https://vincentarelbundock.github.io/countrycode/",
+    "github_url": "https://github.com/vincentarelbundock/countrycode",
+    "url": "https://vincentarelbundock.github.io/countrycode/",
+    "install": "install.packages('countrycode')",
+    "tags": [
+      "country codes",
+      "data merging",
+      "ISO",
+      "COW"
+    ],
+    "best_for": "Merging datasets using different country coding schemes (ISO, COW, SIPRI)",
+    "language": "R",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "Essential utility for defense research. Converts between ISO, COW, SIPRI, and other country coding schemes. Critical for merging SIPRI with COW conflict data.",
+    "use_cases": [
+      "Dataset merging",
+      "Country code conversion",
+      "Cross-dataset analysis"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "R country codes",
+      "countrycode package",
+      "convert country names R"
+    ],
+    "primary_use_cases": [
+      "Country code conversion",
+      "Data merging"
+    ],
+    "api_complexity": "low",
+    "related_packages": [
+      "peacesciencer",
+      "states"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "igraph",
+    "description": "Network analysis and visualization library for R and Python, applicable to defense supply chains and alliance networks",
+    "category": "Network Analysis",
+    "docs_url": "https://igraph.org/r/",
+    "github_url": "https://github.com/igraph/rigraph",
+    "url": "https://igraph.org/",
+    "install": "install.packages('igraph')",
+    "tags": [
+      "networks",
+      "graphs",
+      "visualization",
+      "analysis"
+    ],
+    "best_for": "Analyzing defense supply chain networks and alliance structures",
+    "language": "R",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "R-basics"
+    ],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "Comprehensive network analysis toolkit. Applicable to defense supply chain analysis, alliance network visualization, and arms trade flow mapping.",
+    "use_cases": [
+      "Alliance network analysis",
+      "Supply chain visualization",
+      "Arms trade networks"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "R network analysis",
+      "igraph defense",
+      "alliance networks R"
+    ],
+    "primary_use_cases": [
+      "Network analysis",
+      "Visualization"
+    ],
+    "api_complexity": "medium",
+    "related_packages": [
+      "NetworkX",
+      "ggraph"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "sf",
+    "description": "R package for simple features geospatial data handling, useful for military installation mapping and conflict geography",
+    "category": "Geospatial",
+    "docs_url": "https://r-spatial.github.io/sf/",
+    "github_url": "https://github.com/r-spatial/sf",
+    "url": "https://r-spatial.github.io/sf/",
+    "install": "install.packages('sf')",
+    "tags": [
+      "geospatial",
+      "GIS",
+      "mapping",
+      "spatial analysis"
+    ],
+    "best_for": "Mapping military installations and analyzing conflict geography",
+    "language": "R",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "R-basics"
+    ],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "Modern R interface for geospatial data. Essential for mapping military bases, visualizing conflict zones, and analyzing territorial disputes.",
+    "use_cases": [
+      "Military base mapping",
+      "Conflict geography",
+      "Border analysis"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "R geospatial military",
+      "sf package mapping",
+      "military installation GIS"
+    ],
+    "primary_use_cases": [
+      "Geospatial analysis",
+      "Mapping"
+    ],
+    "api_complexity": "medium",
+    "related_packages": [
+      "tmap",
+      "leaflet"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "python-louvain",
+    "description": "Community detection in large networks using the Louvain algorithm, applicable to defense network analysis",
+    "category": "Network Analysis",
+    "docs_url": "https://python-louvain.readthedocs.io/",
+    "github_url": "https://github.com/taynaud/python-louvain",
+    "url": "https://python-louvain.readthedocs.io/",
+    "install": "pip install python-louvain",
+    "tags": [
+      "community detection",
+      "clustering",
+      "networks",
+      "Louvain"
+    ],
+    "best_for": "Identifying clusters in defense supply chains and alliance networks",
+    "language": "Python",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python",
+      "network-basics"
+    ],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "Implementation of Louvain community detection algorithm. Useful for identifying clusters in arms trade networks and defense contractor ecosystems.",
+    "use_cases": [
+      "Alliance clustering",
+      "Supply chain communities",
+      "Defense network analysis"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Python community detection",
+      "Louvain clustering",
+      "network modularity"
+    ],
+    "primary_use_cases": [
+      "Community detection",
+      "Network clustering"
+    ],
+    "api_complexity": "low",
+    "related_packages": [
+      "NetworkX",
+      "igraph"
+    ],
+    "maintenance_status": "maintained"
+  },
+  {
+    "name": "conflictcartographer",
+    "description": "Python package for conflict event data visualization and geospatial analysis",
+    "category": "Defense Research",
+    "docs_url": "https://github.com/conflictcartographer/conflictcartographer",
+    "github_url": "https://github.com/conflictcartographer/conflictcartographer",
+    "url": "https://github.com/conflictcartographer/conflictcartographer",
+    "install": "pip install conflictcartographer",
+    "tags": [
+      "conflict",
+      "mapping",
+      "ACLED",
+      "visualization"
+    ],
+    "best_for": "Visualizing conflict events from ACLED and similar datasets",
+    "language": "Python",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python",
+      "geopandas"
+    ],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "Specialized toolkit for conflict data visualization. Works with ACLED and similar event datasets to create conflict maps and animations.",
+    "use_cases": [
+      "Conflict mapping",
+      "Event visualization",
+      "Temporal analysis"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "conflict mapping Python",
+      "ACLED visualization",
+      "war mapping tool"
+    ],
+    "primary_use_cases": [
+      "Conflict visualization",
+      "Event mapping"
+    ],
+    "api_complexity": "medium",
+    "related_packages": [
+      "geopandas",
+      "folium"
+    ],
+    "maintenance_status": "maintained"
+  },
+  {
+    "name": "spacetrack",
+    "description": "Python client for the Space-Track.org API to access satellite catalog and TLE data",
+    "category": "Space & Orbital Analysis",
+    "docs_url": "https://spacetrack.readthedocs.io/",
+    "github_url": "https://github.com/python-astraea/spacetrack",
+    "url": "https://spacetrack.readthedocs.io/",
+    "install": "pip install spacetrack",
+    "tags": [
+      "Space-Track",
+      "satellites",
+      "API",
+      "TLE"
+    ],
+    "best_for": "Programmatic access to Space-Track.org satellite data",
+    "language": "Python",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python"
+    ],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "Python client for Space-Track.org API. Enables automated retrieval of satellite catalog and orbital element data for space economics research.",
+    "use_cases": [
+      "Satellite data retrieval",
+      "Catalog analysis",
+      "Orbital research"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Space-Track API Python",
+      "satellite data download",
+      "TLE API"
+    ],
+    "primary_use_cases": [
+      "Data access",
+      "Satellite research"
+    ],
+    "api_complexity": "medium",
+    "related_packages": [
+      "sgp4",
+      "Skyfield"
+    ],
+    "maintenance_status": "active"
   }
 ]

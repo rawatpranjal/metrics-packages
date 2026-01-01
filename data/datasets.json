@@ -12298,5 +12298,529 @@
     "temporal_coverage": "varies by ISO",
     "geographic_scope": "United States",
     "size_category": "large"
+  },
+  {
+    "name": "SIPRI Military Expenditure Database",
+    "description": "Comprehensive annual military spending data covering all countries since 1949 in local currency, constant/current USD, and GDP shares",
+    "category": "Defense Economics",
+    "url": "https://www.sipri.org/databases/milex",
+    "docs_url": "https://www.sipri.org/databases/milex/sources-and-methods",
+    "github_url": null,
+    "tags": [
+      "military spending",
+      "defense budgets",
+      "international",
+      "SIPRI"
+    ],
+    "best_for": "Cross-country defense spending analysis and burden-sharing studies",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "Gold standard for cross-country military expenditure comparisons. SIPRI provides consistent methodology across 170+ countries with historical data from 1949.",
+    "use_cases": [
+      "Alliance burden-sharing analysis",
+      "Defense spending trends",
+      "Military-economic correlations"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "SIPRI military spending",
+      "defense expenditure data",
+      "country military budgets"
+    ],
+    "domain_tags": [
+      "defense"
+    ],
+    "data_modality": "tabular",
+    "temporal_coverage": "1949-present",
+    "geographic_scope": "Global",
+    "size_category": "medium"
+  },
+  {
+    "name": "DoD National Defense Budget Estimates (Green Book)",
+    "description": "Detailed U.S. defense spending by program element, military department, and appropriation from FY1945 to present",
+    "category": "Defense Economics",
+    "url": "https://comptroller.defense.gov/Budget-Materials/",
+    "docs_url": "https://comptroller.defense.gov/Portals/45/Documents/defbudget/fy2024/FY2024_Green_Book.pdf",
+    "github_url": null,
+    "tags": [
+      "US defense",
+      "budget",
+      "Pentagon",
+      "appropriations"
+    ],
+    "best_for": "Detailed analysis of U.S. military spending by program and service branch",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "government-budget-basics"
+    ],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "The authoritative source for U.S. defense budget details. Published annually by the DoD Comptroller with historical data back to 1945.",
+    "use_cases": [
+      "U.S. defense budget analysis",
+      "Program-level spending trends",
+      "Service branch comparisons"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "Pentagon budget data",
+      "DoD spending by program",
+      "US military budget history"
+    ],
+    "domain_tags": [
+      "defense"
+    ],
+    "data_modality": "tabular",
+    "temporal_coverage": "1945-present",
+    "geographic_scope": "United States",
+    "size_category": "medium"
+  },
+  {
+    "name": "NATO Defence Expenditure",
+    "description": "Standardized defense spending data for all NATO members enabling alliance burden-sharing analysis and 2% GDP target tracking",
+    "category": "Defense Economics",
+    "url": "https://www.nato.int/cps/en/natohq/topics_49198.htm",
+    "docs_url": "https://www.nato.int/nato_static_fl2014/assets/pdf/2024/3/pdf/240314-def-exp-2023-en.pdf",
+    "github_url": null,
+    "tags": [
+      "NATO",
+      "alliance",
+      "burden-sharing",
+      "Europe"
+    ],
+    "best_for": "Analyzing NATO burden-sharing and 2% GDP spending targets",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "Official NATO statistics on member defense spending using standardized definitions. Essential for testing Olson-Zeckhauser alliance theory predictions.",
+    "use_cases": [
+      "Burden-sharing analysis",
+      "2% target compliance",
+      "Alliance economics research"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "NATO spending data",
+      "alliance burden sharing",
+      "European defense spending"
+    ],
+    "domain_tags": [
+      "defense"
+    ],
+    "data_modality": "tabular",
+    "temporal_coverage": "1949-present",
+    "geographic_scope": "NATO members",
+    "size_category": "small"
+  },
+  {
+    "name": "SIPRI Arms Transfers Database",
+    "description": "Most comprehensive public source on international transfers of major conventional weapons since 1950",
+    "category": "Defense Economics",
+    "url": "https://www.sipri.org/databases/armstransfers",
+    "docs_url": "https://www.sipri.org/databases/armstransfers/sources-and-methods",
+    "github_url": null,
+    "tags": [
+      "arms trade",
+      "weapons transfers",
+      "international",
+      "SIPRI"
+    ],
+    "best_for": "Analyzing global arms trade patterns and supplier-recipient relationships",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "Tracks international arms transfers using trend-indicator values (TIV) to measure volume. Covers major weapons from aircraft to warships since 1950.",
+    "use_cases": [
+      "Arms trade network analysis",
+      "Supplier market share",
+      "Regional arms flows"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "SIPRI arms transfers",
+      "weapons trade data",
+      "international arms sales"
+    ],
+    "domain_tags": [
+      "defense"
+    ],
+    "data_modality": "tabular",
+    "temporal_coverage": "1950-present",
+    "geographic_scope": "Global",
+    "size_category": "medium"
+  },
+  {
+    "name": "SIPRI Arms Industry Database",
+    "description": "Financial data on the 100 largest defense companies worldwide including revenue, profits, and employment",
+    "category": "Defense Economics",
+    "url": "https://www.sipri.org/databases/armsindustry",
+    "docs_url": "https://www.sipri.org/databases/armsindustry/sources-and-methods",
+    "github_url": null,
+    "tags": [
+      "defense industry",
+      "contractors",
+      "companies",
+      "SIPRI"
+    ],
+    "best_for": "Analyzing defense industry concentration and contractor performance",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "Tracks arms sales revenue for the Top 100 defense companies since 2002. Essential for analyzing industry consolidation trends.",
+    "use_cases": [
+      "Defense industry analysis",
+      "Market concentration studies",
+      "Contractor comparisons"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "top defense companies",
+      "arms industry revenue",
+      "defense contractors data"
+    ],
+    "domain_tags": [
+      "defense"
+    ],
+    "data_modality": "tabular",
+    "temporal_coverage": "2002-present",
+    "geographic_scope": "Global",
+    "size_category": "small"
+  },
+  {
+    "name": "Federal Procurement Data System (FPDS)",
+    "description": "Comprehensive U.S. government contract database with 50+ million unclassified actions and 200+ data elements per transaction",
+    "category": "Defense Economics",
+    "url": "https://www.fpds.gov/",
+    "docs_url": "https://www.fpds.gov/wiki/index.php/V1.4_Atom_Feed_FAQ",
+    "github_url": null,
+    "tags": [
+      "procurement",
+      "contracts",
+      "government",
+      "acquisition"
+    ],
+    "best_for": "Analyzing U.S. defense contracting patterns and vendor relationships",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "sql",
+      "data-wrangling"
+    ],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "The most granular source for U.S. government contracts. DoD data has 90-day delay for operational security. Enables detailed procurement analysis.",
+    "use_cases": [
+      "Contract type analysis",
+      "Vendor performance",
+      "Competition trends"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "FPDS contract data",
+      "government procurement data",
+      "defense contracts"
+    ],
+    "domain_tags": [
+      "defense"
+    ],
+    "data_modality": "tabular",
+    "temporal_coverage": "2004-present",
+    "geographic_scope": "United States",
+    "size_category": "very-large"
+  },
+  {
+    "name": "USAspending.gov",
+    "description": "User-friendly interface to federal spending data with bulk downloads in CSV/JSON and visualization tools",
+    "category": "Defense Economics",
+    "url": "https://www.usaspending.gov/",
+    "docs_url": "https://api.usaspending.gov/",
+    "github_url": "https://github.com/fedspendingtransparency/usaspending-api",
+    "tags": [
+      "spending",
+      "contracts",
+      "grants",
+      "government"
+    ],
+    "best_for": "Accessible exploration of federal defense spending without FPDS complexity",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "Treasury Department portal providing more accessible view of federal spending than FPDS. Includes API access and bulk data downloads.",
+    "use_cases": [
+      "Defense spending exploration",
+      "Agency comparisons",
+      "Trend analysis"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "USA spending data",
+      "federal contracts search",
+      "government spending API"
+    ],
+    "domain_tags": [
+      "defense"
+    ],
+    "data_modality": "tabular",
+    "temporal_coverage": "2000-present",
+    "geographic_scope": "United States",
+    "size_category": "very-large"
+  },
+  {
+    "name": "CFR Cyber Operations Tracker",
+    "description": "Database of publicly known state-sponsored cyber incidents since 2005 with threat actor attribution",
+    "category": "Cybersecurity",
+    "url": "https://www.cfr.org/cyber-operations/",
+    "docs_url": "https://www.cfr.org/cyber-operations/",
+    "github_url": null,
+    "tags": [
+      "cyber attacks",
+      "nation-state",
+      "attribution",
+      "incidents"
+    ],
+    "best_for": "Tracking state-sponsored cyber operations and attack patterns",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "Council on Foreign Relations tracker of state-sponsored cyber operations. Includes attribution, targets, and operation types since 2005.",
+    "use_cases": [
+      "Cyber threat analysis",
+      "Nation-state attribution",
+      "Attack trend research"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "state cyber attacks",
+      "nation-state hacking data",
+      "cyber operations database"
+    ],
+    "domain_tags": [
+      "cybersecurity",
+      "defense"
+    ],
+    "data_modality": "tabular",
+    "temporal_coverage": "2005-present",
+    "geographic_scope": "Global",
+    "size_category": "small"
+  },
+  {
+    "name": "NIST National Vulnerability Database (NVD)",
+    "description": "Comprehensive database of 500,000+ CVE vulnerability entries with CVSS severity scores and free API access",
+    "category": "Cybersecurity",
+    "url": "https://nvd.nist.gov/",
+    "docs_url": "https://nvd.nist.gov/developers",
+    "github_url": null,
+    "tags": [
+      "vulnerabilities",
+      "CVE",
+      "CVSS",
+      "security"
+    ],
+    "best_for": "Vulnerability research and security investment prioritization",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "security-basics"
+    ],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "The authoritative U.S. government repository of vulnerability data. Essential for operationalizing Gordon-Loeb model security investments.",
+    "use_cases": [
+      "Vulnerability analysis",
+      "Risk scoring",
+      "Security research"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "NVD vulnerability data",
+      "CVE database",
+      "security vulnerability API"
+    ],
+    "domain_tags": [
+      "cybersecurity"
+    ],
+    "data_modality": "structured",
+    "temporal_coverage": "1999-present",
+    "geographic_scope": "Global",
+    "size_category": "large"
+  },
+  {
+    "name": "CSIS Significant Cyber Incidents",
+    "description": "Curated list of major cyber attacks with losses exceeding $1 million, maintained by leading security think tank",
+    "category": "Cybersecurity",
+    "url": "https://www.csis.org/programs/strategic-technologies-program/significant-cyber-incidents",
+    "docs_url": "https://www.csis.org/programs/strategic-technologies-program/significant-cyber-incidents",
+    "github_url": null,
+    "tags": [
+      "cyber incidents",
+      "major attacks",
+      "economic impact"
+    ],
+    "best_for": "Analyzing high-impact cyber events for economic research",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "CSIS maintains a curated timeline of significant cyber incidents focused on events with major economic or strategic impact.",
+    "use_cases": [
+      "Case study research",
+      "Economic impact analysis",
+      "Policy research"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "major cyber attacks list",
+      "significant cyber incidents",
+      "cyber attack timeline"
+    ],
+    "domain_tags": [
+      "cybersecurity",
+      "defense"
+    ],
+    "data_modality": "text",
+    "temporal_coverage": "2006-present",
+    "geographic_scope": "Global",
+    "size_category": "small"
+  },
+  {
+    "name": "Space-Track.org",
+    "description": "Official U.S. Space Force data on tracked orbital objects with 138+ million historical element sets",
+    "category": "Space",
+    "url": "https://www.space-track.org/",
+    "docs_url": "https://www.space-track.org/documentation",
+    "github_url": null,
+    "tags": [
+      "satellites",
+      "orbital debris",
+      "TLE",
+      "space situational awareness"
+    ],
+    "best_for": "Tracking satellites and debris for space economics research",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "orbital-mechanics-basics"
+    ],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "Authoritative source for space object tracking data. Free registration provides access to TLE orbital elements for all tracked objects.",
+    "use_cases": [
+      "Satellite tracking",
+      "Debris analysis",
+      "Conjunction assessment"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "satellite tracking data",
+      "space debris database",
+      "TLE orbital data"
+    ],
+    "domain_tags": [
+      "space",
+      "defense"
+    ],
+    "data_modality": "structured",
+    "temporal_coverage": "1957-present",
+    "geographic_scope": "Global (orbital)",
+    "size_category": "very-large"
+  },
+  {
+    "name": "CelesTrak",
+    "description": "Well-organized TLE and OMM orbital data by satellite category including SOCRATES collision assessment tool",
+    "category": "Space",
+    "url": "https://celestrak.org/",
+    "docs_url": "https://celestrak.org/NORAD/documentation/",
+    "github_url": null,
+    "tags": [
+      "satellites",
+      "orbital elements",
+      "collision",
+      "debris"
+    ],
+    "best_for": "Accessible satellite data organized by mission type and constellation",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "CelesTrak provides curated satellite catalog data organized by mission type. SOCRATES tool enables satellite conjunction analysis.",
+    "use_cases": [
+      "Constellation analysis",
+      "Satellite categorization",
+      "Collision risk research"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "CelesTrak satellite data",
+      "satellite catalog",
+      "space object categories"
+    ],
+    "domain_tags": [
+      "space",
+      "defense"
+    ],
+    "data_modality": "structured",
+    "temporal_coverage": "current",
+    "geographic_scope": "Global (orbital)",
+    "size_category": "medium"
   }
 ]

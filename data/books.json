@@ -2305,5 +2305,296 @@
     "skill_progression": [
       "Advanced"
     ]
+  },
+  {
+    "name": "Handbook of Defense Economics (Volumes 1 & 2)",
+    "author": "Keith Hartley and Todd Sandler",
+    "year": 2007,
+    "isbn": "978-0444519108",
+    "description": "The definitive academic reference covering alliances, arms races, military spending, procurement, and conversion economics across two comprehensive volumes",
+    "category": "Defense Economics",
+    "type": "handbook",
+    "url": "https://www.sciencedirect.com/handbook/handbook-of-defense-economics",
+    "tags": [
+      "defense economics",
+      "handbook",
+      "reference",
+      "academic"
+    ],
+    "difficulty": "advanced",
+    "prerequisites": [
+      "microeconomics",
+      "game-theory"
+    ],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "The authoritative Elsevier handbook covering all aspects of defense economics. Volume 1 (1995) covers theory; Volume 2 (2007) adds empirical work. Essential reference for any serious defense economics research.",
+    "use_cases": [
+      "Research reference",
+      "Graduate study",
+      "Comprehensive overview"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "Hartley Sandler handbook",
+      "defense economics textbook",
+      "military economics reference"
+    ],
+    "content_format": "academic-handbook",
+    "skill_progression": [
+      "Advanced"
+    ]
+  },
+  {
+    "name": "Arms and Influence",
+    "author": "Thomas C. Schelling",
+    "year": 1966,
+    "isbn": "978-0300002218",
+    "description": "Classic analysis of coercion, deterrence, and the role of violence in international relations from the 2005 Nobel laureate in economics",
+    "category": "Defense Economics",
+    "type": "classic",
+    "url": "https://yalebooks.yale.edu/book/9780300143379/arms-and-influence/",
+    "tags": [
+      "deterrence",
+      "coercion",
+      "game theory",
+      "Nobel Prize"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "basic-game-theory"
+    ],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "Schelling's foundational work on the economics and strategy of military coercion. Earned him the 2005 Nobel Prize alongside Aumann for contributions to game theory.",
+    "use_cases": [
+      "Understanding deterrence theory",
+      "Strategic analysis",
+      "Policy research"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "Schelling Arms and Influence",
+      "deterrence theory book",
+      "coercion economics"
+    ],
+    "content_format": "academic-classic",
+    "skill_progression": [
+      "Intermediate to Advanced"
+    ]
+  },
+  {
+    "name": "The Strategy of Conflict",
+    "author": "Thomas C. Schelling",
+    "year": 1960,
+    "isbn": "978-0674840317",
+    "description": "Nobel Prize-winning work introducing focal points, commitment devices, and bargaining theory to strategic analysis",
+    "category": "Defense Economics",
+    "type": "classic",
+    "url": "https://www.hup.harvard.edu/books/9780674840317",
+    "tags": [
+      "game theory",
+      "bargaining",
+      "focal points",
+      "Nobel Prize"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "Schelling's earlier work that introduced focal points (Schelling points), commitment, and mixed-motive games to strategic thinking. Foundation for modern strategic analysis.",
+    "use_cases": [
+      "Game theory applications",
+      "Negotiation analysis",
+      "Strategic thinking"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Schelling Strategy of Conflict",
+      "Schelling points book",
+      "bargaining game theory"
+    ],
+    "content_format": "academic-classic",
+    "skill_progression": [
+      "Intermediate"
+    ]
+  },
+  {
+    "name": "Security Engineering: A Guide to Building Dependable Distributed Systems",
+    "author": "Ross Anderson",
+    "year": 2020,
+    "isbn": "978-1119642787",
+    "description": "Comprehensive guide to information security covering technical security plus economics, psychology, and policy by the founder of security economics",
+    "category": "Cybersecurity",
+    "type": "textbook",
+    "url": "https://www.cl.cam.ac.uk/~rja14/book.html",
+    "tags": [
+      "security",
+      "cryptography",
+      "economics",
+      "policy"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "Anderson created the field of security economics. This 3rd edition covers technical security plus the economics, psychology, and policy that explain why security fails. Free chapter PDFs available.",
+    "use_cases": [
+      "Security fundamentals",
+      "Economics of security",
+      "Policy analysis"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "Practitioner"
+    ],
+    "synthetic_questions": [
+      "Ross Anderson Security Engineering",
+      "security economics book",
+      "information security textbook"
+    ],
+    "content_format": "technical-textbook",
+    "skill_progression": [
+      "Beginner to Advanced"
+    ]
+  },
+  {
+    "name": "Unit X: How the Pentagon and Silicon Valley Are Transforming the Future of War",
+    "author": "Raj Shah and Christopher Kirchhoff",
+    "year": 2024,
+    "isbn": "978-1541704558",
+    "description": "Inside story of the Defense Innovation Unit from its founders, shortlisted for the 2024 Financial Times Business Book of the Year",
+    "category": "Defense Technology",
+    "type": "popular-science",
+    "url": "https://www.publicaffairsbooks.com/titles/raj-m-shah/unit-x/9781541704558/",
+    "tags": [
+      "DIU",
+      "defense innovation",
+      "Silicon Valley",
+      "Pentagon"
+    ],
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "The definitive account of how the Defense Innovation Unit bridges Silicon Valley and the Pentagon. Shortlisted for FT Business Book of the Year 2024.",
+    "use_cases": [
+      "Understanding defense innovation",
+      "Tech-defense integration",
+      "Policy insights"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Unit X book",
+      "Defense Innovation Unit history",
+      "Pentagon Silicon Valley"
+    ],
+    "content_format": "popular-science",
+    "skill_progression": [
+      "Beginner"
+    ]
+  },
+  {
+    "name": "The Kill Chain: Defending America in the Future of High-Tech Warfare",
+    "author": "Christian Brose",
+    "year": 2020,
+    "isbn": "978-0316533539",
+    "description": "Critical analysis of U.S. military technological vulnerability from the former Senate Armed Services Committee Staff Director",
+    "category": "Defense Technology",
+    "type": "popular-science",
+    "url": "https://www.hachettebookgroup.com/titles/christian-brose/the-kill-chain/9780316533539/",
+    "tags": [
+      "defense technology",
+      "military strategy",
+      "China",
+      "innovation"
+    ],
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "Brose argues America is losing its military-technological edge. Written from deep policy experience as Senate Armed Services Committee Staff Director. Essential reading on great power competition.",
+    "use_cases": [
+      "Defense policy understanding",
+      "Tech competition analysis",
+      "Strategy insights"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Kill Chain book",
+      "Christian Brose defense",
+      "US China military technology"
+    ],
+    "content_format": "popular-science",
+    "skill_progression": [
+      "Beginner"
+    ]
+  },
+  {
+    "name": "Chip War: The Fight for the World's Most Critical Technology",
+    "author": "Chris Miller",
+    "year": 2022,
+    "isbn": "978-1982172008",
+    "description": "FT Business Book of the Year on semiconductor geopolitics, essential for understanding defense supply chain vulnerabilities",
+    "category": "Defense Technology",
+    "type": "popular-science",
+    "url": "https://www.simonandschuster.com/books/Chip-War/Chris-Miller/9781982172008",
+    "tags": [
+      "semiconductors",
+      "Taiwan",
+      "China",
+      "supply chains"
+    ],
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "Winner of the 2022 FT Business Book of the Year. Miller traces how semiconductors became the world's most fought-over resource. Essential for understanding defense industrial base vulnerabilities.",
+    "use_cases": [
+      "Supply chain analysis",
+      "Geopolitics understanding",
+      "Technology policy"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Chip War book",
+      "semiconductor geopolitics",
+      "Taiwan chips defense"
+    ],
+    "content_format": "popular-science",
+    "skill_progression": [
+      "Beginner"
+    ]
   }
 ]

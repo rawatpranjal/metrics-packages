@@ -200,6 +200,7 @@
   var dwellData = new Map();
   var dwellObserver = null;
   var viewabilityTimers = new Map();
+  var impressedItems = new Set();  // Track impressions (dedupe per session)
 
   function initDwellTracking() {
     if (!('IntersectionObserver' in window)) return;
@@ -238,6 +239,15 @@
 
           // Add to item sequence
           addToSequence('item', { name: name, section: getSection(el), ts: Date.now() });
+
+          // Track impression (first time visible per session)
+          if (!impressedItems.has(key)) {
+            impressedItems.add(key);
+            track('impression', {
+              name: name,
+              section: getSection(el)
+            });
+          }
 
         } else if (dwellData.has(key)) {
           // Stop tracking

@@ -48913,6 +48913,476 @@
           ]
         }
       ]
+    },
+    {
+      "id": "defense-security-economics",
+      "name": "Defense & Security Tech Economics",
+      "description": "Analyze defense spending, cybersecurity investments, and emerging military technologies",
+      "image_url": "/images/topics/defense.webp",
+      "subtopics": [
+        {
+          "id": "classic-defense-economics",
+          "name": "Classic Defense Economics",
+          "application": "Understand the economics of military spending and alliances",
+          "papers": [
+            {
+              "title": "Defense and Economic Growth in Developing Countries",
+              "authors": "Emile Benoit",
+              "year": 1973,
+              "tag": "Classic",
+              "description": "Controversial finding of positive correlations between military spending and growth in developing countries, launching decades of debate that largely overturned these results.",
+              "url": "https://www.worldcat.org/title/defense-and-economic-growth-in-developing-countries/oclc/655755",
+              "tags": [
+                "Defense Economics",
+                "Economic Growth"
+              ]
+            },
+            {
+              "title": "Military Spending and Economic Growth: A Survey",
+              "authors": "J. Paul Dunne and Nan Tian",
+              "year": 2013,
+              "tag": "Survey",
+              "description": "Comprehensive review concluding that most evidence suggests military spending has no positive effect on growth, and likely negative effects, overturning Benoit's earlier findings.",
+              "url": "https://ideas.repec.org/p/uwe/wpaper/1302.html",
+              "tags": [
+                "Defense Economics",
+                "Survey"
+              ]
+            },
+            {
+              "title": "An Economic Theory of Alliances",
+              "authors": "Mancur Olson and Richard Zeckhauser",
+              "year": 1966,
+              "tag": "Classic",
+              "description": "Predicts larger alliance members bear disproportionate defense burdens due to free-riding\u2014a prediction NATO data has largely confirmed for sixty years. Foundational public goods application.",
+              "url": "https://www.jstor.org/stable/1927082",
+              "tags": [
+                "Alliance Economics",
+                "Public Goods"
+              ]
+            },
+            {
+              "title": "The Political Economy of NATO",
+              "authors": "Todd Sandler",
+              "year": 1993,
+              "tag": "Survey",
+              "description": "Synthesizes how joint products, technology changes, and publicness affect alliance burden-sharing dynamics. Essential reading on NATO economics.",
+              "url": "https://www.jstor.org/stable/174528",
+              "tags": [
+                "Alliance Economics",
+                "NATO"
+              ]
+            },
+            {
+              "title": "Arms and Insecurity",
+              "authors": "Lewis Fry Richardson",
+              "year": 1960,
+              "tag": "Classic",
+              "description": "Introduced the famous differential equations with 'fatigue,' 'reaction,' and 'grievance' terms that still structure formal arms race analysis.",
+              "url": "https://www.worldcat.org/title/arms-and-insecurity/oclc/254273",
+              "tags": [
+                "Arms Races",
+                "Mathematical Models"
+              ]
+            },
+            {
+              "title": "Strategic Missile Equations and the Allocation of Resources",
+              "authors": "Michael D. Intriligator",
+              "year": 1975,
+              "tag": "Classic",
+              "description": "Shows how Richardson-type equations emerge from rational optimization under nuclear deterrence scenarios. Bridge between formal modeling and strategic analysis.",
+              "url": "https://www.jstor.org/stable/1830649",
+              "tags": [
+                "Arms Races",
+                "Game Theory"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "defense-procurement-costs",
+          "name": "Defense Procurement & Costs",
+          "application": "Analyze why weapons programs exceed budgets",
+          "papers": [
+            {
+              "title": "Sources of Weapon System Cost Growth",
+              "authors": "Joseph G. Bolten, Robert S. Leonard, Mark V. Arena, Obaid Younossi, Jerry M. Sollinger",
+              "year": 2008,
+              "tag": "Industry",
+              "description": "RAND analysis of 35 major acquisition programs identifying four major categories of cost growth: estimation errors, government decisions, financial matters, and miscellaneous factors.",
+              "url": "https://www.rand.org/pubs/monographs/MG670.html",
+              "tags": [
+                "Defense Procurement",
+                "Cost Analysis"
+              ]
+            },
+            {
+              "title": "Why Has the Cost of Navy Ships Risen?",
+              "authors": "Mark V. Arena, Irv Blickstein, Obaid Younossi, Clifford A. Grammich",
+              "year": 2006,
+              "tag": "Industry",
+              "description": "Documents Augustine's Law phenomena in shipbuilding\u2014systematic cost growth exceeding inflation due to increasing complexity in naval vessels.",
+              "url": "https://www.rand.org/pubs/monographs/MG484.html",
+              "tags": [
+                "Defense Procurement",
+                "Navy"
+              ]
+            },
+            {
+              "title": "The Weapons Acquisition Process: Economic Incentives",
+              "authors": "F.M. Scherer",
+              "year": 1964,
+              "tag": "Classic",
+              "description": "Classic study of how contract types shape contractor behavior in defense acquisition. Foundation for understanding procurement incentives.",
+              "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=5882",
+              "tags": [
+                "Defense Procurement",
+                "Contract Theory"
+              ]
+            },
+            {
+              "title": "The Macroeconomic Impact of Defense Industry Consolidation",
+              "authors": "Rodrigo Carril and Mark Duggan",
+              "year": 2020,
+              "tag": "SOTA",
+              "description": "Found defense industry consolidation increased use of cost-plus contracts and reduced competitive bidding, though government buyer power constrained cost increases.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S004727272030095X",
+              "tags": [
+                "Defense Industry",
+                "Market Structure"
+              ]
+            },
+            {
+              "title": "Quandaries in the Economics of Dual Technologies",
+              "authors": "Robin Cowan and Dominique Foray",
+              "year": 1995,
+              "tag": "Classic",
+              "description": "Analyzes conditions under which military R&D generates civilian benefits, highlighting measurement challenges in dual-use technology spillovers.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/004873339400790C",
+              "tags": [
+                "Dual-Use Technology",
+                "R&D Spillovers"
+              ]
+            },
+            {
+              "title": "Research and Development Funding and the Changing Structure of the Tech Industry",
+              "authors": "Pierre Azoulay, Erica Fuchs, Anna Goldstein, Michael Kearney",
+              "year": 2019,
+              "tag": "Survey",
+              "description": "Identifies when ARPA-style funding works: mission orientation, nascent S-curve technologies, and market frictions justifying government intervention.",
+              "url": "https://www.nber.org/papers/w26268",
+              "tags": [
+                "Defense R&D",
+                "DARPA"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cybersecurity-economics",
+          "name": "Cybersecurity Economics",
+          "application": "Optimize security investments under uncertainty",
+          "papers": [
+            {
+              "title": "Why Information Security is Hard\u2014An Economic Perspective",
+              "authors": "Ross Anderson",
+              "year": 2001,
+              "tag": "Classic",
+              "description": "Founded security economics by arguing information insecurity stems from perverse economic incentives, not just technical failures. Introduced network externalities, asymmetric information, and moral hazard in security contexts.",
+              "url": "https://www.acsac.org/2001/papers/110.pdf",
+              "tags": [
+                "Security Economics",
+                "Information Security"
+              ]
+            },
+            {
+              "title": "The Economics of Information Security Investment",
+              "authors": "Lawrence A. Gordon and Martin P. Loeb",
+              "year": 2002,
+              "tag": "Classic",
+              "description": "The Gordon-Loeb Model: organizations should invest no more than 37% of expected loss from a breach, and investing in moderately vulnerable systems may yield higher returns.",
+              "url": "https://dl.acm.org/doi/10.1145/581271.581274",
+              "tags": [
+                "Security Investment",
+                "Risk Management"
+              ]
+            },
+            {
+              "title": "System Reliability and Free Riding",
+              "authors": "Hal Varian",
+              "year": 2004,
+              "tag": "Classic",
+              "description": "Analyzed 'weakest link' versus 'best shot' security models, showing how network structure affects optimal investment strategies.",
+              "url": "https://link.springer.com/chapter/10.1007/1-4020-8090-5_1",
+              "tags": [
+                "Network Security",
+                "Game Theory"
+              ]
+            },
+            {
+              "title": "Interdependent Security",
+              "authors": "Howard Kunreuther and Geoffrey Heal",
+              "year": 2003,
+              "tag": "Classic",
+              "description": "Game-theoretic foundations for understanding why firms systematically underinvest when security decisions create externalities.",
+              "url": "https://onlinelibrary.wiley.com/doi/abs/10.1046/j.1539-6924.2003.00388.x",
+              "tags": [
+                "Security Economics",
+                "Externalities"
+              ]
+            },
+            {
+              "title": "Insurability of Cyber Risk: An Empirical Analysis",
+              "authors": "Christian Biener, Martin Eling, and Jan Hendrik Wirfs",
+              "year": 2015,
+              "tag": "SOTA",
+              "description": "Winner of the Shin Research Excellence Award. Extracted 994 cyber loss cases identifying heavy tails, correlated risks, and information asymmetries as key barriers to sustainable cyber insurance markets.",
+              "url": "https://link.springer.com/article/10.1057/gpp.2014.19",
+              "tags": [
+                "Cyber Insurance",
+                "Risk Analysis"
+              ]
+            },
+            {
+              "title": "Cyber Risk, Market Failures, and Financial Stability",
+              "authors": "Emanuel Kopp, Lincoln Kaffenberger, and Christopher Wilson",
+              "year": 2017,
+              "tag": "Industry",
+              "description": "IMF analysis of cyber risk market failures and financial stability implications, providing policy recommendations for systemic risk management.",
+              "url": "https://www.imf.org/en/Publications/WP/Issues/2017/08/07/Cyber-Risk-Market-Failures-and-Financial-Stability-45104",
+              "tags": [
+                "Cyber Risk",
+                "Financial Stability"
+              ]
+            },
+            {
+              "title": "An Empirical Analysis of the Welfare Effects of Vulnerability Disclosure",
+              "authors": "Ashish Arora, Rahul Telang, and Hao Xu",
+              "year": 2004,
+              "tag": "Methodological",
+              "description": "Found public disclosure speeds vendor patch response compared to private disclosure, though attacks increase temporarily. Seminal WEIS paper on disclosure economics.",
+              "url": "https://weis2004.econinfosec.org/program.html",
+              "tags": [
+                "Vulnerability Disclosure",
+                "Security Policy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "space-economics",
+          "name": "Space Economics",
+          "application": "Value orbital resources and satellite infrastructure",
+          "papers": [
+            {
+              "title": "Space, the Final Economic Frontier",
+              "authors": "Matthew Weinzierl",
+              "year": 2018,
+              "tag": "Survey",
+              "description": "Brought space economics to mainstream economics attention in JEP, analyzing the shift from government to commercial priorities in a sector now exceeding $300 billion annually.",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/jep.32.2.173",
+              "tags": [
+                "Space Economics",
+                "Commercial Space"
+              ]
+            },
+            {
+              "title": "The Recent Large Reduction in Space Launch Cost",
+              "authors": "Harry W. Jones",
+              "year": 2020,
+              "tag": "Industry",
+              "description": "NASA technical analysis documenting transformative 20x reduction in LEO launch costs: Space Shuttle $54,500/kg versus Falcon 9 $2,720/kg.",
+              "url": "https://ntrs.nasa.gov/citations/20200001093",
+              "tags": [
+                "Launch Economics",
+                "SpaceX"
+              ]
+            },
+            {
+              "title": "Orbital-Use Fees Could More Than Quadruple the Value of the Space Industry",
+              "authors": "Akhil Rao, Matthew Burgess, and Daniel Kaffine",
+              "year": 2023,
+              "tag": "SOTA",
+              "description": "PNAS paper showing imperfect competition among satellite constellations reduces welfare from orbit use by up to 12%\u2014approximately $1.1 billion per year\u2014using a coupled physico-economic model.",
+              "url": "https://www.pnas.org/doi/10.1073/pnas.2221343120",
+              "tags": [
+                "Space Debris",
+                "Orbital Economics"
+              ]
+            },
+            {
+              "title": "Ordering the Cosmos: Private Law and Celestial Property Rights",
+              "authors": "Alexander William Salter",
+              "year": 2017,
+              "tag": "Methodological",
+              "description": "Examines space debris through law and economics frameworks, noting China (42%), US (27.5%), and Russia (25.5%) bear primary responsibility for existing debris.",
+              "url": "https://law.stanford.edu/publications/ordering-the-cosmos-private-law-and-celestial-property-rights/",
+              "tags": [
+                "Space Law",
+                "Property Rights"
+              ]
+            },
+            {
+              "title": "Economic Benefits of the Global Positioning System (GPS)",
+              "authors": "RTI International",
+              "year": 2019,
+              "tag": "Industry",
+              "description": "NIST-commissioned study estimating a 30-day GPS outage would cost $1 billion per day, with GPS contributing to 13 of 16 critical infrastructure sectors.",
+              "url": "https://www.nist.gov/news-events/news/2019/06/economic-benefits-global-positioning-system-gps",
+              "tags": [
+                "GPS",
+                "Critical Infrastructure"
+              ]
+            },
+            {
+              "title": "The Economics of Space Debris: A Model of Orbital Sustainability",
+              "authors": "Dynamic Integrated Space Economy (DISE)",
+              "year": 2025,
+              "tag": "SOTA",
+              "description": "Projects debris costs could exceed 0.5% of world GDP long-term without intervention, using integrated assessment modeling for orbital sustainability.",
+              "url": "https://link.springer.com/article/10.1007/s10640-024-00912-6",
+              "tags": [
+                "Space Debris",
+                "Sustainability"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "autonomous-systems-economics",
+          "name": "Autonomous Systems Economics",
+          "application": "Evaluate costs of drone warfare and autonomous weapons",
+          "papers": [
+            {
+              "title": "The Economics of Russian Drone Warfare",
+              "authors": "CSIS",
+              "year": 2025,
+              "tag": "Industry",
+              "description": "Analysis of Russian drone strikes finding Shahed drones cost approximately $35,000 each\u2014with less than 10% hit rates, they represent the most cost-effective munition. When $3 million missiles target $200 drones, the 15,000:1 cost disadvantage threatens traditional air defense economics.",
+              "url": "https://www.csis.org/analysis/economics-russian-drone-warfare",
+              "tags": [
+                "Drone Economics",
+                "Ukraine"
+              ]
+            },
+            {
+              "title": "Looking Back to Look Forward: Autonomous Systems in Military History",
+              "authors": "Journal of Strategic Studies",
+              "year": 2023,
+              "tag": "Survey",
+              "description": "Argues autonomy should optimize political and economic cost rather than just tactical characteristics. Autonomous systems work best as cost-saving complements to manned missions.",
+              "url": "https://www.tandfonline.com/doi/full/10.1080/01402390.2023.2174420",
+              "tags": [
+                "Autonomous Weapons",
+                "Military Strategy"
+              ]
+            },
+            {
+              "title": "Losing Humanity: The Case Against Killer Robots",
+              "authors": "Human Rights Watch",
+              "year": 2012,
+              "tag": "Industry",
+              "description": "Introduced the human-in-the-loop, human-on-the-loop, and human-out-of-the-loop framework now standard in lethal autonomous weapons system (LAWS) policy discussions.",
+              "url": "https://www.hrw.org/report/2012/11/19/losing-humanity/case-against-killer-robots",
+              "tags": [
+                "LAWS",
+                "AI Ethics"
+              ]
+            },
+            {
+              "title": "Military Applications of Artificial Intelligence",
+              "authors": "RAND Corporation",
+              "year": 2020,
+              "tag": "Survey",
+              "description": "Comprehensive RAND assessment comparing U.S., China, and Russia military AI development efforts, with implications for strategic competition.",
+              "url": "https://www.rand.org/pubs/research_reports/RR3139-1.html",
+              "tags": [
+                "Military AI",
+                "Great Power Competition"
+              ]
+            },
+            {
+              "title": "Targeting the Computer: Government Support and International Competition",
+              "authors": "Kenneth Flamm",
+              "year": 1987,
+              "tag": "Classic",
+              "description": "Brookings study documenting the massive role of military procurement in creating U.S. technological leadership in computing.",
+              "url": "https://www.brookings.edu/books/targeting-the-computer/",
+              "tags": [
+                "Defense R&D",
+                "Computing History"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "emerging-defense-technologies",
+          "name": "Emerging Defense Technologies",
+          "application": "Assess military AI and quantum cryptography transitions",
+          "papers": [
+            {
+              "title": "Code, Command, and Conflict: The Economics of Military AI",
+              "authors": "Belfer Center for Science and International Affairs",
+              "year": 2025,
+              "tag": "Industry",
+              "description": "Documents global military AI spending doubling from $4.6B to $9.2B (2022-2023), projected to reach $38.8B by 2028. Analyzes Project Maven's evolution and private sector dependencies.",
+              "url": "https://www.belfercenter.org/publication/code-command-and-conflict",
+              "tags": [
+                "Military AI",
+                "Defense Spending"
+              ]
+            },
+            {
+              "title": "Post-Quantum Cryptography Standards",
+              "authors": "NIST",
+              "year": 2024,
+              "tag": "Industry",
+              "description": "Finalization of post-quantum cryptography standards (FIPS 203, 204, 205) after eight years of global evaluation. Selected from 82 algorithms submitted by 25 countries.",
+              "url": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+              "tags": [
+                "Post-Quantum Cryptography",
+                "Standards"
+              ]
+            },
+            {
+              "title": "AI Failures and Their Strategic Consequences",
+              "authors": "CSET Georgetown",
+              "year": 2023,
+              "tag": "Survey",
+              "description": "Addresses AI system failures and their interaction with strategic factors, recommending approaches to reduce failure likelihood and contain consequences.",
+              "url": "https://cset.georgetown.edu/publication/ai-failures-and-their-strategic-consequences/",
+              "tags": [
+                "AI Safety",
+                "Strategic Risk"
+              ]
+            },
+            {
+              "title": "GPS Vulnerability and Resilient PNT",
+              "authors": "CSIS",
+              "year": 2024,
+              "tag": "Industry",
+              "description": "Notes China has pulled ahead in resilient PNT infrastructure through Beidou constellation plus terrestrial backup systems\u2014a strategic asymmetry with economic implications.",
+              "url": "https://www.csis.org/analysis/resilient-pnt-national-security-imperative",
+              "tags": [
+                "GPS",
+                "PNT Infrastructure"
+              ]
+            },
+            {
+              "title": "Commercial National Security Algorithm Suite 2.0 Transition",
+              "authors": "NSA",
+              "year": 2022,
+              "tag": "Industry",
+              "description": "Addresses the 'harvest now, decrypt later' threat that makes current encrypted data potentially vulnerable to future quantum computers, with transition timeline guidance.",
+              "url": "https://media.defense.gov/2022/Sep/07/2003071834/-1/-1/0/CSA_CNSA_2.0_ALGORITHMS_.PDF",
+              "tags": [
+                "Quantum Security",
+                "NSA Guidance"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

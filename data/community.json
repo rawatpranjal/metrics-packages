@@ -18864,5 +18864,219 @@
     "event_format": "research-meetings",
     "geographic_focus": "International",
     "frequency": "multiple-per-year"
+  },
+  {
+    "name": "Workshop on the Economics of Information Security (WEIS)",
+    "description": "Premier interdisciplinary forum combining economics, social science, business, law, and computer science perspectives on security",
+    "category": "Conference",
+    "subcategory": "Cybersecurity Economics",
+    "url": "https://weis2024.econinfosec.org/",
+    "type": "conference",
+    "location": "Various (rotating)",
+    "dates": "Annual, Summer",
+    "attendees": "150+",
+    "best_for": "Presenting security economics research and building interdisciplinary networks",
+    "tags": [
+      "security economics",
+      "cybersecurity",
+      "research",
+      "interdisciplinary"
+    ],
+    "start_date": null,
+    "end_date": null,
+    "difficulty": "advanced",
+    "prerequisites": [],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "Running for over 20 years, WEIS is the essential venue for security economics. Papers publish in partnership with Oxford's Journal of Cybersecurity. Founded by Ross Anderson.",
+    "use_cases": [
+      "Research presentation",
+      "Networking",
+      "Field building"
+    ],
+    "audience": [
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "WEIS conference",
+      "security economics conference",
+      "cybersecurity economics workshop"
+    ],
+    "event_format": "academic-conference",
+    "geographic_focus": "International",
+    "frequency": "annual"
+  },
+  {
+    "name": "Defence and Peace Economics Journal",
+    "description": "Leading academic journal publishing empirical and theoretical research on defense economics, conflict, and peace",
+    "category": "Academic Journal",
+    "subcategory": "Defense Economics",
+    "url": "https://www.tandfonline.com/journals/gdpe20",
+    "type": "journal",
+    "location": "Online",
+    "dates": "Ongoing",
+    "attendees": null,
+    "best_for": "Publishing defense economics research and following field developments",
+    "tags": [
+      "journal",
+      "defense economics",
+      "academic",
+      "peer-review"
+    ],
+    "start_date": null,
+    "end_date": null,
+    "difficulty": "advanced",
+    "prerequisites": [],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "The primary outlet for defense economics research. Founded by Keith Hartley, publishes theoretical and empirical work on military spending, arms races, and conflict economics.",
+    "use_cases": [
+      "Publishing research",
+      "Literature review",
+      "Field tracking"
+    ],
+    "audience": [
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "defense economics journal",
+      "military economics publications",
+      "peace economics research"
+    ],
+    "event_format": "academic-journal",
+    "geographic_focus": "International",
+    "frequency": "continuous"
+  },
+  {
+    "name": "CSIS Defense and Security Events",
+    "description": "Regular briefings and events from the #1 ranked defense and national security think tank",
+    "category": "Think Tank Events",
+    "subcategory": "Defense Policy",
+    "url": "https://www.csis.org/events",
+    "type": "events-series",
+    "location": "Washington, DC / Virtual",
+    "dates": "Ongoing",
+    "attendees": "varies",
+    "best_for": "Staying current on defense policy debates and networking with practitioners",
+    "tags": [
+      "CSIS",
+      "policy",
+      "events",
+      "defense"
+    ],
+    "start_date": null,
+    "end_date": null,
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "CSIS hosts frequent events on defense, technology, and national security. Many available virtually. Good for understanding policy context and meeting practitioners.",
+    "use_cases": [
+      "Policy insights",
+      "Networking",
+      "Current events"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "Practitioner"
+    ],
+    "synthetic_questions": [
+      "CSIS events",
+      "defense policy events DC",
+      "national security briefings"
+    ],
+    "event_format": "policy-events",
+    "geographic_focus": "United States",
+    "frequency": "multiple-per-week"
+  },
+  {
+    "name": "RAND Events and Seminars",
+    "description": "Research presentations and policy discussions from the nation's leading defense analysis organization",
+    "category": "Think Tank Events",
+    "subcategory": "Defense Analysis",
+    "url": "https://www.rand.org/events.html",
+    "type": "events-series",
+    "location": "Multiple locations / Virtual",
+    "dates": "Ongoing",
+    "attendees": "varies",
+    "best_for": "Learning from defense analysts and understanding research methodology",
+    "tags": [
+      "RAND",
+      "research",
+      "seminars",
+      "analysis"
+    ],
+    "start_date": null,
+    "end_date": null,
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "RAND hosts regular research presentations and policy discussions. Their seminars provide insight into defense analysis methodology and current research.",
+    "use_cases": [
+      "Research methodology",
+      "Policy understanding",
+      "Professional development"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "RAND seminars",
+      "defense analysis events",
+      "RAND presentations"
+    ],
+    "event_format": "research-seminars",
+    "geographic_focus": "United States",
+    "frequency": "weekly"
+  },
+  {
+    "name": "NBER National Security Working Group",
+    "description": "NBER working group bringing economics methodology to national security questions",
+    "category": "Research Group",
+    "subcategory": "Security Economics",
+    "url": "https://www.nber.org/programs-projects/programs-working-groups/national-security",
+    "type": "research-group",
+    "location": "Cambridge, MA / Virtual",
+    "dates": "Multiple meetings per year",
+    "attendees": "50+",
+    "best_for": "Following frontier research applying economics to national security",
+    "tags": [
+      "NBER",
+      "research",
+      "national security",
+      "economics"
+    ],
+    "start_date": null,
+    "end_date": null,
+    "difficulty": "advanced",
+    "prerequisites": [],
+    "topic_tags": [
+      "defense-security-economics"
+    ],
+    "summary": "NBER's National Security working group applies rigorous economics methodology to defense and security questions. Distributes working papers and organizes research meetings.",
+    "use_cases": [
+      "Frontier research access",
+      "Networking with economists",
+      "Working paper access"
+    ],
+    "audience": [
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "NBER national security",
+      "economics defense research",
+      "security economics working papers"
+    ],
+    "event_format": "research-meetings",
+    "geographic_focus": "United States",
+    "frequency": "multiple-per-year"
   }
 ]
