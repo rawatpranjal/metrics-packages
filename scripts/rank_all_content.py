@@ -375,6 +375,21 @@ def main():
     # Step 2: Fetch engagement data
     clicks, impressions, dwell = fetch_engagement_data()
 
+    # Calculate coverage stats
+    click_names = {row['name'].lower().strip() for row in clicks}
+    impression_names = {row['name'].lower().strip() for row in impressions}
+    dwell_names = {row['name'].lower().strip() for row in dwell}
+    any_interaction_names = click_names | impression_names | dwell_names
+
+    coverage = {
+        'total_items': len(items),
+        'items_with_clicks': len(click_names),
+        'items_with_impressions': len(impression_names),
+        'items_with_dwell': len(dwell_names),
+        'items_with_any': len(any_interaction_names),
+        'coverage_pct': round(len(any_interaction_names) / len(items) * 100, 1) if items else 0,
+    }
+
     # Step 3: Build engagement scores for observed items
     print("\nBuilding engagement scores...")
     raw_scores, item_signals = build_engagement_scores(clicks, impressions, dwell)
@@ -463,6 +478,7 @@ def main():
         'total_items': len(rankings),
         'observed_items': observed_count,
         'cold_start_items': cold_count,
+        'coverage': coverage,
         'weights': {
             'clicks': CLICK_WEIGHT,
             'impressions': IMPRESSION_WEIGHT,
@@ -486,6 +502,14 @@ def main():
     print(f"Total items ranked: {len(rankings)}")
     print(f"  With engagement data: {observed_count}")
     print(f"  Cold start (propagated): {cold_count}")
+
+    print("\n" + "-" * 60)
+    print("INTERACTION COVERAGE")
+    print("-" * 60)
+    print(f"Items with clicks:      {coverage['items_with_clicks']:>5} ({coverage['items_with_clicks']/len(items)*100:.1f}%)")
+    print(f"Items with impressions: {coverage['items_with_impressions']:>5} ({coverage['items_with_impressions']/len(items)*100:.1f}%)")
+    print(f"Items with dwell:       {coverage['items_with_dwell']:>5} ({coverage['items_with_dwell']/len(items)*100:.1f}%)")
+    print(f"Items with ANY:         {coverage['items_with_any']:>5} ({coverage['coverage_pct']:.1f}%)")
 
     print("\n" + "-" * 60)
     print("TOP 20 ITEMS")

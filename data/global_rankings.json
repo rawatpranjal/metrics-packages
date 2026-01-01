@@ -1,9 +1,17 @@
 {
-  "updated": "2026-01-01T19:16:34.118185Z",
+  "updated": "2026-01-01T19:19:10.600126Z",
   "algorithm": "enhanced_knn_with_citations_boost",
   "total_items": 3588,
   "observed_items": 293,
   "cold_start_items": 3295,
+  "coverage": {
+    "total_items": 3588,
+    "items_with_clicks": 50,
+    "items_with_impressions": 259,
+    "items_with_dwell": 135,
+    "items_with_any": 302,
+    "coverage_pct": 8.4
+  },
   "weights": {
     "clicks": 5.0,
     "impressions": 1.0,
