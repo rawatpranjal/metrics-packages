@@ -15,24 +15,17 @@ import math
 from datetime import datetime
 from collections import defaultdict
 from pathlib import Path
+from urllib.parse import urlparse
 
 import numpy as np
-from scipy.sparse import csr_matrix
-from sklearn.metrics.pairwise import cosine_similarity
-
-try:
-    from implicit.als import AlternatingLeastSquares
-    HAS_IMPLICIT = True
-except ImportError:
-    HAS_IMPLICIT = False
-    print("Warning: implicit library not installed. Run: pip install implicit")
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.preprocessing import LabelEncoder
 
 
-# Signal weights for engagement scoring
+# Signal weights for fallback scoring
 CLICK_WEIGHT = 5.0
 IMPRESSION_WEIGHT = 1.0
 DWELL_WEIGHT = 1.0  # per minute
-CITATION_WEIGHT = 0  # disabled
 
 
 def fetch_d1_data(query):
@@ -185,191 +178,135 @@ def build_engagement_scores(clicks, impressions, dwell):
     return dict(scores), dict(item_signals)
 
 
-def build_als_model(clicks, impressions, dwell):
-    """Build ALS model from all interaction data and return item scores + factors."""
-    if not HAS_IMPLICIT:
-        return None, None, {}
+def extract_url_domain(url):
+    """Extract domain from URL."""
+    if not url:
+        return 'none'
+    try:
+        parsed = urlparse(url)
+        domain = parsed.netloc.lower()
+        # Simplify common domains
+        if 'github' in domain:
+            return 'github'
+        elif 'arxiv' in domain:
+            return 'arxiv'
+        elif 'youtube' in domain:
+            return 'youtube'
+        elif 'kaggle' in domain:
+            return 'kaggle'
+        elif 'medium' in domain:
+            return 'medium'
+        elif 'substack' in domain:
+            return 'substack'
+        elif domain:
+            return 'other'
+        return 'none'
+    except:
+        return 'none'
 
-    print("\nBuilding ALS model from interaction data...")
 
-    # Collect all items from interactions
-    all_items = set()
-    for row in clicks:
-        if row.get('name'):
-            all_items.add(row['name'].lower().strip())
-    for row in impressions:
-        if row.get('name'):
-            all_items.add(row['name'].lower().strip())
-    for row in dwell:
-        if row.get('name'):
-            all_items.add(row['name'].lower().strip())
+def build_features_for_boosting(items):
+    """Build feature matrix for boosting model."""
+    print("\nBuilding features for boosting model...")
 
-    if len(all_items) < 5:
-        print("  Not enough items for ALS model")
-        return None, None, {}
+    # Collect unique values for encoding (handle None values)
+    all_types = list(set(item.get('type') or 'unknown' for item in items))
+    all_categories = list(set(item.get('category') or 'other' for item in items))
+    all_difficulties = list(set(item.get('difficulty') or 'intermediate' for item in items))
+    all_domains = list(set(extract_url_domain(item.get('url', '')) for item in items))
 
-    items = sorted(all_items)
-    item_idx = {it: i for i, it in enumerate(items)}
-    idx_to_item = {i: it for it, i in item_idx.items()}
+    # Create encoders
+    type_encoder = {t: i for i, t in enumerate(sorted(all_types))}
+    category_encoder = {c: i for i, c in enumerate(sorted(all_categories))}
+    difficulty_encoder = {d: i for i, d in enumerate(sorted(all_difficulties))}
+    domain_encoder = {d: i for i, d in enumerate(sorted(all_domains))}
 
-    # Build sessions from dwell data (real sessions)
-    sessions_set = set()
-    for row in dwell:
-        if row.get('session_id'):
-            sessions_set.add(row['session_id'])
+    # Build feature matrix
+    features = []
+    for item in items:
+        desc = item.get('description') or ''
+        tags = item.get('tags') or []
+        topic_tags = item.get('topic_tags') or []
 
-    # Create synthetic sessions for click/impression aggregates
-    synthetic_counter = 0
-    click_sessions = {}
-    impression_sessions = {}
+        feature_row = [
+            type_encoder.get(item.get('type') or 'unknown', 0),
+            category_encoder.get(item.get('category') or 'other', 0),
+            difficulty_encoder.get(item.get('difficulty') or 'intermediate', 0),
+            domain_encoder.get(extract_url_domain(item.get('url') or ''), 0),
+            len(desc),  # description length
+            len(tags) if isinstance(tags, list) else 0,  # number of tags
+            len(topic_tags) if isinstance(topic_tags, list) else 0,  # number of topic tags
+            1 if item.get('url') else 0,  # has URL
+            item.get('citations') or 0,  # citations (for papers)
+            len(item.get('name') or ''),  # name length
+        ]
+        features.append(feature_row)
 
-    for row in clicks:
-        name = row.get('name', '').lower().strip()
-        if name and name not in click_sessions:
-            click_sessions[name] = f"__click_{synthetic_counter}"
-            sessions_set.add(click_sessions[name])
-            synthetic_counter += 1
+    X = np.array(features)
+    print(f"  Feature matrix shape: {X.shape}")
+    print(f"  Features: type, category, difficulty, domain, desc_len, n_tags, n_topics, has_url, citations, name_len")
 
-    for row in impressions:
-        name = row.get('name', '').lower().strip()
-        if name and name not in impression_sessions:
-            impression_sessions[name] = f"__imp_{synthetic_counter}"
-            sessions_set.add(impression_sessions[name])
-            synthetic_counter += 1
+    return X, {
+        'type_encoder': type_encoder,
+        'category_encoder': category_encoder,
+        'difficulty_encoder': difficulty_encoder,
+        'domain_encoder': domain_encoder,
+    }
 
-    sessions = sorted(sessions_set)
-    session_idx = {s: i for i, s in enumerate(sessions)}
 
-    print(f"  Items: {len(items)}, Sessions: {len(sessions)} (real + synthetic)")
+def train_boosting_model(items, interacted_names):
+    """Train a boosting model to predict interaction probability."""
+    print("\nTraining boosting model to predict interactions...")
 
-    # Build user-item interaction matrix
-    interactions = defaultdict(float)
+    # Build features
+    X, encoders = build_features_for_boosting(items)
 
-    # Dwell data (strongest signal)
-    for row in dwell:
-        session = row.get('session_id')
-        name = row.get('name', '').lower().strip()
-        dwell_ms = row.get('total_dwell') or row.get('dwell_ms') or 0
+    # Build labels: 1 if item has any interaction, 0 otherwise
+    y = np.array([1 if item['name'] in interacted_names else 0 for item in items])
 
-        if session in session_idx and name in item_idx:
-            key = (session_idx[session], item_idx[name])
-            interactions[key] += dwell_ms / 1000.0  # seconds
+    n_positive = y.sum()
+    n_negative = len(y) - n_positive
+    print(f"  Positive (interacted): {n_positive}")
+    print(f"  Negative (no interaction): {n_negative}")
 
-    # Click data (strong signal)
-    for row in clicks:
-        name = row.get('name', '').lower().strip()
-        count = row.get('click_count', 0) or 0
+    if n_positive < 5:
+        print("  Not enough positive samples for training")
+        return None, None, encoders
 
-        if name in click_sessions and name in item_idx:
-            session = click_sessions[name]
-            key = (session_idx[session], item_idx[name])
-            interactions[key] += count * 10
+    # Train GradientBoosting with balanced class weights
+    # Use scale_pos_weight to handle class imbalance
+    scale = n_negative / n_positive
 
-    # Impression data (weak signal)
-    for row in impressions:
-        name = row.get('name', '').lower().strip()
-        count = row.get('impression_count', 0) or 0
-
-        if name in impression_sessions and name in item_idx:
-            session = impression_sessions[name]
-            key = (session_idx[session], item_idx[name])
-            interactions[key] += count * 0.5
-
-    # Convert to sparse matrix
-    data, rows, cols = [], [], []
-    for (row, col), score in interactions.items():
-        rows.append(row)
-        cols.append(col)
-        data.append(score)
-
-    n_users = len(sessions)
-    n_items = len(items)
-    user_item_matrix = csr_matrix((data, (rows, cols)), shape=(n_users, n_items))
-
-    print(f"  Matrix: {n_users} x {n_items}, {user_item_matrix.nnz} interactions")
-
-    # Train ALS model
-    n_factors = min(32, min(n_users, n_items) - 1)
-    n_factors = max(n_factors, 5)
-
-    model = AlternatingLeastSquares(
-        factors=n_factors,
-        regularization=0.1,
-        iterations=15,
+    model = GradientBoostingClassifier(
+        n_estimators=100,
+        max_depth=4,
+        learning_rate=0.1,
+        min_samples_leaf=5,
         random_state=42
     )
 
-    # Fit on item-user matrix
-    item_user_matrix = user_item_matrix.T.tocsr()
-    model.fit(item_user_matrix)
+    model.fit(X, y)
+    print(f"  Model trained with {model.n_estimators} trees")
 
-    print(f"  ALS trained with {n_factors} factors")
-
-    # Compute item popularity scores
-    # Score = sum of predicted interactions across all users
-    user_factors = model.user_factors  # (n_users, n_factors)
-    item_factors = model.item_factors  # (n_items, n_factors)
-
-    # Sum of all user affinities for each item
-    user_sum = user_factors.sum(axis=0)  # (n_factors,)
-    item_scores = item_factors @ user_sum  # (n_items,)
+    # Get predicted probabilities for all items
+    proba = model.predict_proba(X)[:, 1]  # probability of class 1 (interaction)
 
     # Build score dict
-    als_scores = {}
+    scores = {}
     for i, item in enumerate(items):
-        als_scores[item] = float(item_scores[i])
+        scores[item['name']] = float(proba[i])
 
-    print(f"  Computed scores for {len(als_scores)} items")
+    print(f"  Scored {len(scores)} items")
 
-    return model, item_factors, als_scores, idx_to_item
+    # Show feature importances
+    feature_names = ['type', 'category', 'difficulty', 'domain', 'desc_len', 'n_tags', 'n_topics', 'has_url', 'citations', 'name_len']
+    importances = model.feature_importances_
+    sorted_idx = np.argsort(importances)[::-1]
+    print("  Feature importances:")
+    for idx in sorted_idx[:5]:
+        print(f"    {feature_names[idx]}: {importances[idx]:.3f}")
 
-
-def propagate_als_cold_start(items, als_scores, item_factors, idx_to_item, k=5):
-    """Propagate ALS scores to cold-start items using item factor similarity."""
-    print(f"\nPropagating ALS scores to cold-start items (k={k})...")
-
-    if item_factors is None or len(als_scores) == 0:
-        print("  No ALS model available, returning empty scores")
-        return {}
-
-    # Create reverse lookup: item_name -> factor_index
-    item_to_als_idx = {name: i for i, name in idx_to_item.items()}
-
-    # Identify observed and cold-start items
-    observed_items = []
-    observed_indices = []
-    observed_scores = []
-    cold_items = []
-
-    for item in items:
-        name = item['name']
-        if name in als_scores:
-            observed_items.append(name)
-            observed_indices.append(item_to_als_idx[name])
-            observed_scores.append(als_scores[name])
-        else:
-            cold_items.append(item)
-
-    print(f"  Observed: {len(observed_items)}, Cold-start: {len(cold_items)}")
-
-    if not cold_items:
-        return {}
-
-    # For cold-start items, we don't have factors, so we fall back to
-    # assigning the mean score of similar observed items by type
-    type_scores = defaultdict(list)
-    for i, name in enumerate(observed_items):
-        item_type = next((it['type'] for it in items if it['name'] == name), 'unknown')
-        type_scores[item_type].append(observed_scores[i])
-
-    type_avg = {t: np.mean(scores) if scores else 0 for t, scores in type_scores.items()}
-    global_avg = np.mean(observed_scores) if observed_scores else 0
-
-    cold_scores = {}
-    for item in cold_items:
-        cold_scores[item['name']] = type_avg.get(item['type'], global_avg)
-
-    return cold_scores
+    return model, scores, encoders
 
 
 def safe_join(val):
@@ -589,47 +526,45 @@ def main():
     raw_scores, item_signals = build_engagement_scores(clicks, impressions, dwell)
     print(f"  Items with engagement data: {len(raw_scores)}")
 
-    # Step 4: Train ALS model and get scores
-    als_result = build_als_model(clicks, impressions, dwell)
-    if als_result and len(als_result) == 4:
-        model, item_factors, als_scores, idx_to_item = als_result
-    else:
-        model, item_factors, als_scores, idx_to_item = None, None, {}, {}
+    # Step 4: Train boosting model to predict interactions
+    model, boosting_scores, encoders = train_boosting_model(items, any_interaction_names)
 
-    # Step 5: Use ALS scores if available, otherwise fall back to weighted
-    if als_scores:
-        observed_scores = normalize_scores(als_scores)
-        scoring_method = 'als'
+    # Step 5: Use boosting scores if available, otherwise fall back to weighted
+    if boosting_scores:
+        # Normalize boosting scores (predicted probability)
+        norm_boosting = normalize_scores(boosting_scores)
+        # Normalize actual engagement scores
+        norm_engagement = normalize_scores(raw_scores)
+
+        # Hybrid scoring: combine prediction with actual engagement
+        # Items with real interactions get boosted
+        combined_scores = {}
+        for item in items:
+            name = item['name']
+            pred_score = norm_boosting.get(name, 0)
+            engagement_score = norm_engagement.get(name, 0)
+
+            if name in any_interaction_names:
+                # Real interaction: blend prediction with actual engagement (favor actual)
+                combined_scores[name] = 0.3 * pred_score + 0.7 * engagement_score
+            else:
+                # Cold start: use prediction only
+                combined_scores[name] = pred_score * 0.5  # Discount cold-start items
+
+        scoring_method = 'boosting_hybrid'
     else:
         print("  Falling back to weighted scoring...")
-        observed_scores = normalize_scores(raw_scores)
+        combined_scores = normalize_scores(raw_scores)
         scoring_method = 'weighted'
 
-    # Step 6: Propagate to cold start items
-    cold_scores = propagate_als_cold_start(
-        items, observed_scores, item_factors, idx_to_item, k=args.k_neighbors
-    )
+    # Re-normalize combined scores
+    combined_scores = normalize_scores(combined_scores)
 
-    # Step 7: Combine all scores
-    print("\nCombining scores...")
-    combined_scores = {}
+    # Step 6: Mark cold start flags (items without real interactions)
     cold_start_flags = {}
-
     for item in items:
         name = item['name']
-        if name in observed_scores:
-            combined_scores[name] = observed_scores[name]
-            cold_start_flags[name] = False
-        elif name in cold_scores:
-            combined_scores[name] = cold_scores[name]
-            cold_start_flags[name] = True
-        else:
-            combined_scores[name] = 0.0
-            cold_start_flags[name] = True
-
-    # Step 8: Apply citations boost for papers (disabled)
-    print("\nApplying citations boost...")
-    combined_scores = apply_citations_boost(items, combined_scores)
+        cold_start_flags[name] = name not in any_interaction_names
 
     # Build final scores dict
     all_scores = {}
@@ -678,14 +613,14 @@ def main():
     # Build output
     output = {
         'updated': datetime.utcnow().isoformat() + 'Z',
-        'algorithm': f'hybrid_als_{scoring_method}',
+        'algorithm': f'boosting_{scoring_method}',
         'total_items': len(rankings),
         'observed_items': observed_count,
         'cold_start_items': cold_count,
         'coverage': coverage,
         'scoring': {
             'method': scoring_method,
-            'als_factors': model.factors if model else None,
+            'n_estimators': model.n_estimators if model else None,
             'fallback_weights': {
                 'clicks': CLICK_WEIGHT,
                 'impressions': IMPRESSION_WEIGHT,
@@ -707,8 +642,8 @@ def main():
     print("RANKING SUMMARY")
     print("=" * 60)
     print(f"Scoring method: {scoring_method.upper()}")
-    if model:
-        print(f"  ALS factors: {model.factors}")
+    if model and hasattr(model, 'n_estimators'):
+        print(f"  Boosting trees: {model.n_estimators}")
     print(f"Total items ranked: {len(rankings)}")
     print(f"  With engagement data: {observed_count}")
     print(f"  Cold start (propagated): {cold_count}")
