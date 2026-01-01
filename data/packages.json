@@ -16453,7 +16453,12 @@
     "github_url": "https://github.com/jldbc/pybaseball",
     "url": "https://github.com/jldbc/pybaseball",
     "install": "pip install pybaseball",
-    "tags": ["baseball", "sports-analytics", "Statcast", "sabermetrics"],
+    "tags": [
+      "baseball",
+      "sports-analytics",
+      "Statcast",
+      "sabermetrics"
+    ],
     "best_for": "Baseball analytics, Statcast data access, and sabermetric research",
     "language": "Python"
   },
@@ -16465,7 +16470,12 @@
     "github_url": "https://github.com/swar/nba_api",
     "url": "https://github.com/swar/nba_api",
     "install": "pip install nba_api",
-    "tags": ["basketball", "sports-analytics", "NBA", "shot-charts"],
+    "tags": [
+      "basketball",
+      "sports-analytics",
+      "NBA",
+      "shot-charts"
+    ],
     "best_for": "Basketball analytics, player performance analysis, and shot chart visualization",
     "language": "Python"
   },
@@ -16477,7 +16487,13 @@
     "github_url": "https://github.com/statsbomb/statsbombpy",
     "url": "https://github.com/statsbomb/statsbombpy",
     "install": "pip install statsbombpy",
-    "tags": ["soccer", "football", "sports-analytics", "xG", "event-data"],
+    "tags": [
+      "soccer",
+      "football",
+      "sports-analytics",
+      "xG",
+      "event-data"
+    ],
     "best_for": "Soccer analytics, expected goals modeling, and tactical analysis",
     "language": "Python"
   },
@@ -16489,7 +16505,13 @@
     "github_url": "https://github.com/nflverse/nfl_data_py",
     "url": "https://github.com/nflverse/nfl_data_py",
     "install": "pip install nfl_data_py",
-    "tags": ["football", "sports-analytics", "NFL", "EPA", "play-by-play"],
+    "tags": [
+      "football",
+      "sports-analytics",
+      "NFL",
+      "EPA",
+      "play-by-play"
+    ],
     "best_for": "NFL analytics, expected points analysis, and fourth-down decision modeling",
     "language": "Python"
   },
@@ -16501,7 +16523,12 @@
     "github_url": "https://github.com/andrewRowlinson/mplsoccer",
     "url": "https://github.com/andrewRowlinson/mplsoccer",
     "install": "pip install mplsoccer",
-    "tags": ["soccer", "football", "visualization", "sports-analytics"],
+    "tags": [
+      "soccer",
+      "football",
+      "visualization",
+      "sports-analytics"
+    ],
     "best_for": "Soccer data visualization, pitch plotting, and tactical analysis presentation",
     "language": "Python"
   },
@@ -16513,7 +16540,13 @@
     "github_url": "https://github.com/cdalzell/Lahman",
     "url": "https://cran.r-project.org/package=Lahman",
     "install": "install.packages(\"Lahman\")",
-    "tags": ["baseball", "sports-analytics", "R", "sabermetrics", "historical"],
+    "tags": [
+      "baseball",
+      "sports-analytics",
+      "R",
+      "sabermetrics",
+      "historical"
+    ],
     "best_for": "Baseball analytics in R, historical trend analysis, and teaching sabermetrics",
     "language": "R"
   },
@@ -16525,7 +16558,13 @@
     "github_url": "https://github.com/nflverse/nflfastR",
     "url": "https://github.com/nflverse/nflfastR",
     "install": "install.packages(\"nflfastR\")",
-    "tags": ["football", "sports-analytics", "R", "NFL", "EPA"],
+    "tags": [
+      "football",
+      "sports-analytics",
+      "R",
+      "NFL",
+      "EPA"
+    ],
     "best_for": "NFL analytics in R, expected points analysis, and game strategy research",
     "language": "R"
   },
@@ -16537,7 +16576,13 @@
     "github_url": "https://github.com/sportsdataverse/hoopR",
     "url": "https://github.com/sportsdataverse/hoopR",
     "install": "install.packages(\"hoopR\")",
-    "tags": ["basketball", "sports-analytics", "R", "NBA", "college-basketball"],
+    "tags": [
+      "basketball",
+      "sports-analytics",
+      "R",
+      "NBA",
+      "college-basketball"
+    ],
     "best_for": "Basketball analytics in R, combining NBA and college basketball data",
     "language": "R"
   },
@@ -16549,7 +16594,14 @@
     "github_url": "https://github.com/JaseZiv/worldfootballR",
     "url": "https://github.com/JaseZiv/worldfootballR",
     "install": "devtools::install_github(\"JaseZiv/worldfootballR\")",
-    "tags": ["soccer", "football", "sports-analytics", "R", "xG", "Transfermarkt"],
+    "tags": [
+      "soccer",
+      "football",
+      "sports-analytics",
+      "R",
+      "xG",
+      "Transfermarkt"
+    ],
     "best_for": "Soccer analytics in R, player valuation, and cross-league analysis",
     "language": "R"
   },
@@ -16561,7 +16613,13 @@
     "github_url": "https://github.com/danmorse314/hockeyR",
     "url": "https://github.com/danmorse314/hockeyR",
     "install": "devtools::install_github(\"danmorse314/hockeyR\")",
-    "tags": ["hockey", "sports-analytics", "R", "NHL", "xG"],
+    "tags": [
+      "hockey",
+      "sports-analytics",
+      "R",
+      "NHL",
+      "xG"
+    ],
     "best_for": "Hockey analytics in R, expected goals modeling, and player evaluation",
     "language": "R"
   },
@@ -16573,7 +16631,13 @@
     "github_url": "https://github.com/casact/chainladder-python",
     "url": "https://github.com/casact/chainladder-python",
     "install": "pip install chainladder",
-    "tags": ["actuarial", "reserving", "chain-ladder", "loss-triangles", "P&C-insurance"],
+    "tags": [
+      "actuarial",
+      "reserving",
+      "chain-ladder",
+      "loss-triangles",
+      "P&C-insurance"
+    ],
     "best_for": "P&C insurance loss reserving, IBNR estimation, and actuarial analysis in Python",
     "language": "Python"
   },
@@ -16585,7 +16649,13 @@
     "github_url": "https://github.com/franciscogarate/pyliferisk",
     "url": "https://github.com/franciscogarate/pyliferisk",
     "install": "pip install pyliferisk",
-    "tags": ["life-insurance", "actuarial", "annuities", "mortality", "commutation-functions"],
+    "tags": [
+      "life-insurance",
+      "actuarial",
+      "annuities",
+      "mortality",
+      "commutation-functions"
+    ],
     "best_for": "Life insurance calculations, annuity valuation, and actuarial education in Python",
     "language": "Python"
   },
@@ -16597,7 +16667,13 @@
     "github_url": "https://github.com/lifelib-dev/lifelib",
     "url": "https://lifelib.io/",
     "install": "pip install lifelib",
-    "tags": ["life-insurance", "actuarial-modeling", "cash-flow-projection", "reserving", "ALM"],
+    "tags": [
+      "life-insurance",
+      "actuarial-modeling",
+      "cash-flow-projection",
+      "reserving",
+      "ALM"
+    ],
     "best_for": "Life insurance product modeling, ALM analysis, and actuarial cash flow projections",
     "language": "Python"
   },
@@ -16609,7 +16685,13 @@
     "github_url": "https://github.com/CamDavidsonPilon/lifelines",
     "url": "https://github.com/CamDavidsonPilon/lifelines",
     "install": "pip install lifelines",
-    "tags": ["survival-analysis", "Kaplan-Meier", "Cox-regression", "time-to-event", "hazard-models"],
+    "tags": [
+      "survival-analysis",
+      "Kaplan-Meier",
+      "Cox-regression",
+      "time-to-event",
+      "hazard-models"
+    ],
     "best_for": "Customer churn analysis, mortality modeling, and survival curve estimation",
     "language": "Python"
   },
@@ -16621,7 +16703,13 @@
     "github_url": "https://github.com/sebp/scikit-survival",
     "url": "https://github.com/sebp/scikit-survival",
     "install": "pip install scikit-survival",
-    "tags": ["survival-analysis", "machine-learning", "scikit-learn", "random-forests", "gradient-boosting"],
+    "tags": [
+      "survival-analysis",
+      "machine-learning",
+      "scikit-learn",
+      "random-forests",
+      "gradient-boosting"
+    ],
     "best_for": "ML-based survival prediction, combining modern algorithms with censored data handling",
     "language": "Python"
   },
@@ -16633,7 +16721,13 @@
     "github_url": "https://github.com/slundberg/shap",
     "url": "https://github.com/slundberg/shap",
     "install": "pip install shap",
-    "tags": ["explainability", "interpretability", "Shapley-values", "model-agnostic", "feature-importance"],
+    "tags": [
+      "explainability",
+      "interpretability",
+      "Shapley-values",
+      "model-agnostic",
+      "feature-importance"
+    ],
     "best_for": "Explaining insurance pricing models, regulatory compliance, and model governance",
     "language": "Python"
   },
@@ -16645,7 +16739,13 @@
     "github_url": "https://github.com/fairlearn/fairlearn",
     "url": "https://fairlearn.org/",
     "install": "pip install fairlearn",
-    "tags": ["fairness", "bias-mitigation", "regulatory-compliance", "discrimination", "model-auditing"],
+    "tags": [
+      "fairness",
+      "bias-mitigation",
+      "regulatory-compliance",
+      "discrimination",
+      "model-auditing"
+    ],
     "best_for": "Detecting and mitigating bias in insurance underwriting and pricing models",
     "language": "Python"
   },
@@ -16657,7 +16757,13 @@
     "github_url": "https://github.com/mages/ChainLadder",
     "url": "https://cran.r-project.org/package=ChainLadder",
     "install": "install.packages(\"ChainLadder\")",
-    "tags": ["actuarial", "reserving", "chain-ladder", "Mack-model", "bootstrap"],
+    "tags": [
+      "actuarial",
+      "reserving",
+      "chain-ladder",
+      "Mack-model",
+      "bootstrap"
+    ],
     "best_for": "P&C reserving in R with stochastic methods and uncertainty estimation",
     "language": "R"
   },
@@ -16669,7 +16775,13 @@
     "github_url": "https://gitlab.com/vigou3/actuar",
     "url": "https://cran.r-project.org/package=actuar",
     "install": "install.packages(\"actuar\")",
-    "tags": ["actuarial", "loss-distributions", "credibility", "ruin-theory", "aggregate-claims"],
+    "tags": [
+      "actuarial",
+      "loss-distributions",
+      "credibility",
+      "ruin-theory",
+      "aggregate-claims"
+    ],
     "best_for": "Core actuarial calculations in R including loss modeling and credibility premium",
     "language": "R"
   },
@@ -16681,7 +16793,13 @@
     "github_url": "https://github.com/spedygiorgio/lifecontingencies",
     "url": "https://cran.r-project.org/package=lifecontingencies",
     "install": "install.packages(\"lifecontingencies\")",
-    "tags": ["life-insurance", "actuarial", "annuities", "life-tables", "present-values"],
+    "tags": [
+      "life-insurance",
+      "actuarial",
+      "annuities",
+      "life-tables",
+      "present-values"
+    ],
     "best_for": "Life insurance pricing in R using standard actuarial notation and methods",
     "language": "R"
   },
@@ -16693,7 +16811,13 @@
     "github_url": "https://github.com/therneau/survival",
     "url": "https://cran.r-project.org/package=survival",
     "install": "install.packages(\"survival\")",
-    "tags": ["survival-analysis", "Cox-regression", "Kaplan-Meier", "time-to-event", "hazard-models"],
+    "tags": [
+      "survival-analysis",
+      "Cox-regression",
+      "Kaplan-Meier",
+      "time-to-event",
+      "hazard-models"
+    ],
     "best_for": "Foundation for survival analysis in R, mortality studies, and duration modeling",
     "language": "R"
   },
@@ -16705,7 +16829,13 @@
     "github_url": "https://github.com/kassambara/survminer",
     "url": "https://cran.r-project.org/package=survminer",
     "install": "install.packages(\"survminer\")",
-    "tags": ["survival-visualization", "Kaplan-Meier-plots", "ggplot2", "publication-ready", "risk-tables"],
+    "tags": [
+      "survival-visualization",
+      "Kaplan-Meier-plots",
+      "ggplot2",
+      "publication-ready",
+      "risk-tables"
+    ],
     "best_for": "Creating publication-quality survival curves and risk tables for actuarial reports",
     "language": "R"
   },
@@ -16717,7 +16847,13 @@
     "github_url": "https://github.com/chjackson/flexsurv",
     "url": "https://cran.r-project.org/package=flexsurv",
     "install": "install.packages(\"flexsurv\")",
-    "tags": ["flexible-survival", "parametric-models", "splines", "multi-state", "cure-models"],
+    "tags": [
+      "flexible-survival",
+      "parametric-models",
+      "splines",
+      "multi-state",
+      "cure-models"
+    ],
     "best_for": "Advanced survival modeling with flexible hazard shapes and multi-state transitions",
     "language": "R"
   },
@@ -16729,7 +16865,13 @@
     "github_url": "https://github.com/actuarialvoodoo/cplm",
     "url": "https://cran.r-project.org/package=cplm",
     "install": "install.packages(\"cplm\")",
-    "tags": ["Tweedie", "compound-Poisson", "claims-modeling", "zero-inflation", "GLM"],
+    "tags": [
+      "Tweedie",
+      "compound-Poisson",
+      "claims-modeling",
+      "zero-inflation",
+      "GLM"
+    ],
     "best_for": "Insurance claims modeling with Tweedie distributions handling zero claims",
     "language": "R"
   },
@@ -16741,7 +16883,13 @@
     "github_url": null,
     "url": "https://cran.r-project.org/package=evd",
     "install": "install.packages(\"evd\")",
-    "tags": ["extreme-values", "GEV", "GPD", "catastrophe-modeling", "tail-risk"],
+    "tags": [
+      "extreme-values",
+      "GEV",
+      "GPD",
+      "catastrophe-modeling",
+      "tail-risk"
+    ],
     "best_for": "Extreme value analysis for reinsurance pricing and catastrophe risk assessment",
     "language": "R"
   },
@@ -16753,7 +16901,13 @@
     "github_url": "https://github.com/lbelzile/extRemes",
     "url": "https://cran.r-project.org/package=extRemes",
     "install": "install.packages(\"extRemes\")",
-    "tags": ["extreme-values", "return-levels", "climate-risk", "non-stationary", "catastrophe"],
+    "tags": [
+      "extreme-values",
+      "return-levels",
+      "climate-risk",
+      "non-stationary",
+      "catastrophe"
+    ],
     "best_for": "Climate risk analysis, return period estimation, and catastrophe loss modeling",
     "language": "R"
   },
@@ -16765,8 +16919,650 @@
     "github_url": "https://github.com/OasisLMF/OasisLMF",
     "url": "https://oasislmf.org/",
     "install": "pip install oasislmf",
-    "tags": ["catastrophe-modeling", "reinsurance", "exposure-management", "loss-modeling", "open-source"],
+    "tags": [
+      "catastrophe-modeling",
+      "reinsurance",
+      "exposure-management",
+      "loss-modeling",
+      "open-source"
+    ],
     "best_for": "Building and running catastrophe models for property insurance and reinsurance",
     "language": "Python"
+  },
+  {
+    "name": "Biogeme",
+    "description": "The reference Python package for discrete choice model estimation (logit, nested logit, mixed logit). Developed by Michel Bierlaire at EPFL, widely used in transportation research.",
+    "category": "Transportation Economics & Analytics",
+    "docs_url": "https://biogeme.epfl.ch/",
+    "github_url": "https://github.com/michelbierlaire/biogeme",
+    "url": "https://biogeme.epfl.ch/",
+    "install": "pip install biogeme",
+    "tags": [
+      "discrete choice",
+      "logit",
+      "transportation",
+      "mode choice"
+    ],
+    "best_for": "Discrete choice modeling, mode choice analysis, stated preference experiments",
+    "language": "Python",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "pandas",
+      "numpy"
+    ],
+    "topic_tags": [
+      "transportation",
+      "econometrics"
+    ],
+    "summary": "Biogeme is the gold-standard open source package for discrete choice model estimation. It supports multinomial logit, nested logit, cross-nested logit, and mixed logit models with flexible utility specifications.",
+    "use_cases": [
+      "Mode choice modeling",
+      "Route choice analysis",
+      "Stated preference surveys",
+      "Demand forecasting"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "python discrete choice modeling",
+      "multinomial logit python",
+      "biogeme tutorial",
+      "mode choice model estimation"
+    ],
+    "primary_use_cases": [
+      "Discrete choice modeling"
+    ],
+    "api_complexity": "intermediate",
+    "related_packages": [
+      "xlogit",
+      "PyLogit",
+      "Apollo"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "xlogit",
+    "description": "GPU-accelerated estimation of mixed logit models using CuPy/NumPy. Orders of magnitude faster than traditional packages for large datasets.",
+    "category": "Transportation Economics & Analytics",
+    "docs_url": "https://xlogit.readthedocs.io/",
+    "github_url": "https://github.com/arteagac/xlogit",
+    "url": "https://github.com/arteagac/xlogit",
+    "install": "pip install xlogit",
+    "tags": [
+      "discrete choice",
+      "mixed logit",
+      "GPU",
+      "machine learning"
+    ],
+    "best_for": "Large-scale mixed logit estimation with GPU acceleration",
+    "language": "Python",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "numpy"
+    ],
+    "topic_tags": [
+      "transportation",
+      "econometrics",
+      "gpu"
+    ],
+    "summary": "xlogit provides GPU-accelerated mixed logit model estimation, achieving 50-1000x speedups over CPU implementations. Ideal for large stated preference datasets or computationally intensive random coefficient models.",
+    "use_cases": [
+      "Large-scale choice modeling",
+      "Mixed logit with many random parameters",
+      "High-performance demand estimation"
+    ],
+    "audience": [
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "fast mixed logit python",
+      "GPU discrete choice",
+      "xlogit vs biogeme",
+      "scalable logit estimation"
+    ],
+    "primary_use_cases": [
+      "Discrete choice modeling"
+    ],
+    "api_complexity": "intermediate",
+    "related_packages": [
+      "Biogeme",
+      "PyLogit",
+      "CuPy"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "PyLogit",
+    "description": "Sklearn-style API for discrete choice models (MNL, nested, mixed logit). Integrates well with pandas DataFrames and scikit-learn workflows.",
+    "category": "Transportation Economics & Analytics",
+    "docs_url": "https://github.com/timothyb0912/pylogit",
+    "github_url": "https://github.com/timothyb0912/pylogit",
+    "url": "https://github.com/timothyb0912/pylogit",
+    "install": "pip install pylogit",
+    "tags": [
+      "discrete choice",
+      "logit",
+      "sklearn",
+      "pandas"
+    ],
+    "best_for": "Choice modeling with familiar sklearn-style interface",
+    "language": "Python",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "pandas",
+      "scipy"
+    ],
+    "topic_tags": [
+      "transportation",
+      "econometrics"
+    ],
+    "summary": "PyLogit brings discrete choice modeling to the scikit-learn ecosystem with a familiar API. Supports multinomial logit, nested logit, and mixed logit models with pandas DataFrame integration.",
+    "use_cases": [
+      "Mode choice modeling",
+      "Consumer choice analysis",
+      "Integration with ML pipelines"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "sklearn discrete choice",
+      "pylogit tutorial",
+      "pandas logit model",
+      "simple multinomial logit python"
+    ],
+    "primary_use_cases": [
+      "Discrete choice modeling"
+    ],
+    "api_complexity": "beginner",
+    "related_packages": [
+      "Biogeme",
+      "xlogit",
+      "scikit-learn"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "OSMnx",
+    "description": "Download, model, analyze, and visualize street networks and urban infrastructure from OpenStreetMap. Essential for transportation network analysis.",
+    "category": "Transportation Economics & Analytics",
+    "docs_url": "https://osmnx.readthedocs.io/",
+    "github_url": "https://github.com/gboeing/osmnx",
+    "url": "https://geoffboeing.com/publications/osmnx-complex-street-networks/",
+    "install": "pip install osmnx",
+    "tags": [
+      "networks",
+      "OpenStreetMap",
+      "urban",
+      "GIS",
+      "routing"
+    ],
+    "best_for": "Street network analysis, urban form metrics, routing algorithms",
+    "language": "Python",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "networkx",
+      "geopandas"
+    ],
+    "topic_tags": [
+      "transportation",
+      "networks",
+      "urban"
+    ],
+    "summary": "OSMnx lets you download and analyze street networks from OpenStreetMap for any location. Compute shortest paths, network statistics, urban form metrics, and create publication-quality visualizations.",
+    "use_cases": [
+      "Street network analysis",
+      "Accessibility analysis",
+      "Route optimization",
+      "Urban planning research"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "download street network python",
+      "openstreetmap network analysis",
+      "osmnx shortest path",
+      "urban network metrics"
+    ],
+    "primary_use_cases": [
+      "Network analysis"
+    ],
+    "api_complexity": "beginner",
+    "related_packages": [
+      "NetworkX",
+      "GeoPandas",
+      "Shapely"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "gtfs-kit",
+    "description": "Analyze General Transit Feed Specification (GTFS) data. Compute route statistics, service frequencies, and visualize transit networks.",
+    "category": "Transportation Economics & Analytics",
+    "docs_url": "https://mrcagney.github.io/gtfs_kit_docs/",
+    "github_url": "https://github.com/mrcagney/gtfs_kit",
+    "url": "https://github.com/mrcagney/gtfs_kit",
+    "install": "pip install gtfs-kit",
+    "tags": [
+      "GTFS",
+      "transit",
+      "public transportation",
+      "scheduling"
+    ],
+    "best_for": "GTFS feed analysis, transit service metrics, schedule validation",
+    "language": "Python",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "pandas",
+      "shapely"
+    ],
+    "topic_tags": [
+      "transportation",
+      "transit"
+    ],
+    "summary": "gtfs-kit provides tools for reading, analyzing, and visualizing GTFS transit feeds. Calculate headways, speeds, service coverage, and export geospatial data for mapping.",
+    "use_cases": [
+      "Transit service analysis",
+      "Schedule optimization",
+      "Accessibility studies",
+      "Transit planning"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "python GTFS analysis",
+      "transit feed tools",
+      "gtfs headway calculation",
+      "public transit data python"
+    ],
+    "primary_use_cases": [
+      "Transit analysis"
+    ],
+    "api_complexity": "intermediate",
+    "related_packages": [
+      "tidytransit",
+      "partridge",
+      "peartree"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "Apollo",
+    "description": "Comprehensive R package for advanced choice modeling including mixed logit, latent class, hybrid choice, and integrated choice-latent variable models.",
+    "category": "Transportation Economics & Analytics",
+    "docs_url": "http://www.apollochoicemodelling.com/",
+    "github_url": "https://github.com/apollochoicemodelling/apollo",
+    "url": "http://www.apollochoicemodelling.com/",
+    "install": "install.packages('apollo')",
+    "tags": [
+      "discrete choice",
+      "R",
+      "mixed logit",
+      "latent class"
+    ],
+    "best_for": "Advanced choice models with latent variables and hybrid specifications",
+    "language": "R",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "R basics"
+    ],
+    "topic_tags": [
+      "transportation",
+      "econometrics"
+    ],
+    "summary": "Apollo is the most comprehensive R package for choice modeling, supporting everything from simple MNL to complex hybrid choice models with latent variables. Extensively documented with tutorials.",
+    "use_cases": [
+      "Hybrid choice models",
+      "Latent class analysis",
+      "Integrated choice and latent variable models",
+      "Complex stated preference"
+    ],
+    "audience": [
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "R choice modeling package",
+      "apollo vs mlogit",
+      "hybrid choice model R",
+      "latent class logit R"
+    ],
+    "primary_use_cases": [
+      "Discrete choice modeling"
+    ],
+    "api_complexity": "advanced",
+    "related_packages": [
+      "mlogit",
+      "gmnl",
+      "Biogeme"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "mlogit",
+    "description": "The standard R package for multinomial logit estimation. Clean formula interface, nested logit support, and integration with R's modeling ecosystem.",
+    "category": "Transportation Economics & Analytics",
+    "docs_url": "https://cran.r-project.org/web/packages/mlogit/",
+    "github_url": "https://github.com/ycroissant/mlogit",
+    "url": "https://cran.r-project.org/web/packages/mlogit/",
+    "install": "install.packages('mlogit')",
+    "tags": [
+      "discrete choice",
+      "R",
+      "logit",
+      "econometrics"
+    ],
+    "best_for": "Standard multinomial and nested logit models in R",
+    "language": "R",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "R basics"
+    ],
+    "topic_tags": [
+      "transportation",
+      "econometrics"
+    ],
+    "summary": "mlogit is the workhorse R package for multinomial logit models with a familiar formula interface. Supports nested logit, heteroscedastic logit, and mixed logit specifications.",
+    "use_cases": [
+      "Mode choice modeling",
+      "Brand choice analysis",
+      "Nested logit estimation"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "multinomial logit R",
+      "mlogit tutorial",
+      "nested logit R package",
+      "discrete choice R"
+    ],
+    "primary_use_cases": [
+      "Discrete choice modeling"
+    ],
+    "api_complexity": "intermediate",
+    "related_packages": [
+      "Apollo",
+      "gmnl",
+      "nnet"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "gmnl",
+    "description": "R package for generalized multinomial logit models including G-MNL, LC-MNL, and MM-MNL for flexible preference heterogeneity.",
+    "category": "Transportation Economics & Analytics",
+    "docs_url": "https://cran.r-project.org/web/packages/gmnl/",
+    "github_url": "https://github.com/edsandorf/gmnl",
+    "url": "https://cran.r-project.org/web/packages/gmnl/",
+    "install": "install.packages('gmnl')",
+    "tags": [
+      "discrete choice",
+      "R",
+      "heterogeneity",
+      "mixed logit"
+    ],
+    "best_for": "Flexible preference heterogeneity models (G-MNL, scale heterogeneity)",
+    "language": "R",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "mlogit"
+    ],
+    "topic_tags": [
+      "transportation",
+      "econometrics"
+    ],
+    "summary": "gmnl extends mlogit with generalized multinomial logit models that capture both preference and scale heterogeneity. Implements Fiebig et al. (2010) G-MNL and related specifications.",
+    "use_cases": [
+      "Scale heterogeneity modeling",
+      "Willingness-to-pay estimation",
+      "Advanced stated preference"
+    ],
+    "audience": [
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "generalized multinomial logit R",
+      "scale heterogeneity choice model",
+      "gmnl vs mixl",
+      "G-MNL estimation"
+    ],
+    "primary_use_cases": [
+      "Discrete choice modeling"
+    ],
+    "api_complexity": "advanced",
+    "related_packages": [
+      "mlogit",
+      "Apollo",
+      "mixl"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "mixl",
+    "description": "Fast maximum simulated likelihood estimation of mixed logit models in R. Optimized for speed with large datasets.",
+    "category": "Transportation Economics & Analytics",
+    "docs_url": "https://cran.r-project.org/web/packages/mixl/",
+    "github_url": "https://github.com/joemolloy/mixl",
+    "url": "https://cran.r-project.org/web/packages/mixl/",
+    "install": "install.packages('mixl')",
+    "tags": [
+      "discrete choice",
+      "R",
+      "mixed logit",
+      "performance"
+    ],
+    "best_for": "Fast mixed logit estimation for large stated preference datasets",
+    "language": "R",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "R basics"
+    ],
+    "topic_tags": [
+      "transportation",
+      "econometrics"
+    ],
+    "summary": "mixl is optimized for fast mixed logit estimation using compiled C++ code. Ideal for large choice experiments where estimation speed matters.",
+    "use_cases": [
+      "Large-scale choice experiments",
+      "Mixed logit with many draws",
+      "Production model estimation"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "fast mixed logit R",
+      "mixl vs mlogit speed",
+      "efficient choice model R",
+      "large dataset logit"
+    ],
+    "primary_use_cases": [
+      "Discrete choice modeling"
+    ],
+    "api_complexity": "intermediate",
+    "related_packages": [
+      "mlogit",
+      "gmnl",
+      "Apollo"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "tidytransit",
+    "description": "Read and analyze GTFS transit feeds in the tidyverse style. Integrates with sf for spatial analysis and dplyr for data manipulation.",
+    "category": "Transportation Economics & Analytics",
+    "docs_url": "https://r-transit.github.io/tidytransit/",
+    "github_url": "https://github.com/r-transit/tidytransit",
+    "url": "https://r-transit.github.io/tidytransit/",
+    "install": "install.packages('tidytransit')",
+    "tags": [
+      "GTFS",
+      "transit",
+      "R",
+      "tidyverse",
+      "spatial"
+    ],
+    "best_for": "GTFS analysis with tidyverse workflows",
+    "language": "R",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "tidyverse",
+      "sf"
+    ],
+    "topic_tags": [
+      "transportation",
+      "transit"
+    ],
+    "summary": "tidytransit brings GTFS transit feed analysis to the tidyverse with clean tibble outputs, sf geometry support, and pipe-friendly functions for calculating frequencies, travel times, and service patterns.",
+    "use_cases": [
+      "Transit service analysis",
+      "Accessibility mapping",
+      "Schedule visualization",
+      "Service pattern analysis"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "R GTFS package",
+      "tidyverse transit analysis",
+      "gtfs to sf R",
+      "transit frequency R"
+    ],
+    "primary_use_cases": [
+      "Transit analysis"
+    ],
+    "api_complexity": "beginner",
+    "related_packages": [
+      "gtfs-kit",
+      "sf",
+      "dplyr"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "SUMO",
+    "description": "Simulation of Urban Mobility - open source traffic simulation suite for modeling road networks, public transit, pedestrians, and multimodal scenarios.",
+    "category": "Transportation Economics & Analytics",
+    "docs_url": "https://sumo.dlr.de/docs/",
+    "github_url": "https://github.com/eclipse/sumo",
+    "url": "https://eclipse.dev/sumo/",
+    "install": "brew install sumo  # or apt-get install sumo",
+    "tags": [
+      "simulation",
+      "traffic",
+      "microsimulation",
+      "multimodal"
+    ],
+    "best_for": "Traffic microsimulation, signal timing optimization, scenario analysis",
+    "language": "C++/Python",
+    "difficulty": "advanced",
+    "prerequisites": [],
+    "topic_tags": [
+      "transportation",
+      "simulation"
+    ],
+    "summary": "SUMO (Simulation of Urban Mobility) is the leading open source traffic microsimulation package. Model individual vehicles, optimize traffic signals, evaluate transit priority, and test autonomous vehicle scenarios.",
+    "use_cases": [
+      "Traffic signal optimization",
+      "Congestion modeling",
+      "Transit priority evaluation",
+      "AV scenario testing"
+    ],
+    "audience": [
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "open source traffic simulation",
+      "SUMO tutorial",
+      "microsimulation software free",
+      "traffic modeling python"
+    ],
+    "primary_use_cases": [
+      "Traffic simulation"
+    ],
+    "api_complexity": "advanced",
+    "related_packages": [
+      "TraCI",
+      "MATSIM",
+      "VISSIM"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "OpenTripPlanner",
+    "description": "Open source multimodal trip planning engine. Combines GTFS transit, OpenStreetMap streets, and bike-share for routing and isochrone analysis.",
+    "category": "Transportation Economics & Analytics",
+    "docs_url": "https://docs.opentripplanner.org/",
+    "github_url": "https://github.com/opentripplanner/OpenTripPlanner",
+    "url": "https://www.opentripplanner.org/",
+    "install": "java -jar otp.jar --build --serve",
+    "tags": [
+      "routing",
+      "multimodal",
+      "GTFS",
+      "isochrones",
+      "accessibility"
+    ],
+    "best_for": "Multimodal routing, transit accessibility analysis, isochrone mapping",
+    "language": "Java",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "Java"
+    ],
+    "topic_tags": [
+      "transportation",
+      "routing",
+      "transit"
+    ],
+    "summary": "OpenTripPlanner is the premier open source multimodal routing engine, powering transit apps worldwide. Build isochrones, analyze accessibility, and route across transit, walking, biking, and driving.",
+    "use_cases": [
+      "Transit trip planning",
+      "Accessibility analysis",
+      "Isochrone generation",
+      "Multimodal routing research"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "open source trip planner",
+      "multimodal routing engine",
+      "GTFS routing",
+      "transit isochrone python"
+    ],
+    "primary_use_cases": [
+      "Routing and accessibility"
+    ],
+    "api_complexity": "intermediate",
+    "related_packages": [
+      "r5",
+      "Valhalla",
+      "OSRM"
+    ],
+    "maintenance_status": "active"
   }
 ]

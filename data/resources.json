@@ -17959,7 +17959,12 @@
     "category": "Sports Analytics",
     "url": "https://www.coursera.org/specializations/sports-analytics",
     "type": "Course",
-    "tags": ["Sports Analytics", "Course", "Machine Learning", "Multi-Sport"],
+    "tags": [
+      "Sports Analytics",
+      "Course",
+      "Machine Learning",
+      "Multi-Sport"
+    ],
     "level": "Medium",
     "domain": "Sports Analytics"
   },
@@ -17969,7 +17974,12 @@
     "category": "Sports Analytics",
     "url": "https://library.fangraphs.com/",
     "type": "Online Book",
-    "tags": ["Sports Analytics", "Baseball", "Sabermetrics", "Reference"],
+    "tags": [
+      "Sports Analytics",
+      "Baseball",
+      "Sabermetrics",
+      "Reference"
+    ],
     "level": "Easy",
     "domain": "Sports Analytics"
   },
@@ -17979,7 +17989,12 @@
     "category": "Insurance & Actuarial",
     "url": "https://github.com/JSchelldorfer/ActuarialDataScience",
     "type": "Tutorial",
-    "tags": ["Insurance & Actuarial", "Machine Learning", "Tutorial", "ETH Zurich"],
+    "tags": [
+      "Insurance & Actuarial",
+      "Machine Learning",
+      "Tutorial",
+      "ETH Zurich"
+    ],
     "level": "Medium",
     "domain": "Insurance & Actuarial"
   },
@@ -17989,7 +18004,12 @@
     "category": "Insurance & Actuarial",
     "url": "https://www.mygreatlearning.com/academy/learn-for-free/courses/insurance-analytics",
     "type": "Course",
-    "tags": ["Insurance & Actuarial", "Course", "Python", "Claims Prediction"],
+    "tags": [
+      "Insurance & Actuarial",
+      "Course",
+      "Python",
+      "Claims Prediction"
+    ],
     "level": "Easy",
     "domain": "Insurance & Actuarial"
   },
@@ -17999,7 +18019,12 @@
     "category": "Insurance & Actuarial",
     "url": "https://www.coachingactuaries.com/",
     "type": "Platform",
-    "tags": ["Insurance & Actuarial", "Actuarial Exams", "SOA", "CAS"],
+    "tags": [
+      "Insurance & Actuarial",
+      "Actuarial Exams",
+      "SOA",
+      "CAS"
+    ],
     "level": "Medium",
     "domain": "Insurance & Actuarial"
   },
@@ -18009,8 +18034,156 @@
     "category": "Insurance & Actuarial",
     "url": "https://freakonometrics.hypotheses.org/",
     "type": "Blog",
-    "tags": ["Insurance & Actuarial", "Blog", "R Programming", "Machine Learning"],
+    "tags": [
+      "Insurance & Actuarial",
+      "Blog",
+      "R Programming",
+      "Machine Learning"
+    ],
     "level": "Medium",
     "domain": "Insurance & Actuarial"
+  },
+  {
+    "name": "MIT OCW: Transportation Systems Analysis",
+    "description": "MIT's classic graduate course on demand modeling, networks, and intelligent transportation systems. Covers discrete choice theory, traffic flow, and transit planning.",
+    "category": "Transportation Economics & Analytics",
+    "url": "https://ocw.mit.edu/courses/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/",
+    "type": "Course",
+    "level": "Advanced",
+    "tags": [
+      "Transportation",
+      "MIT",
+      "OCW",
+      "Free",
+      "Graduate"
+    ],
+    "domain": "Transportation",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "microeconomics",
+      "statistics"
+    ],
+    "topic_tags": [
+      "transportation",
+      "discrete-choice",
+      "demand-modeling"
+    ],
+    "summary": "This MIT OpenCourseWare class covers transportation demand modeling, network analysis, and intelligent transportation systems. Taught by leading transportation economists with full lecture notes and problem sets.",
+    "use_cases": [
+      "Graduate study",
+      "Self-directed learning",
+      "Research preparation"
+    ],
+    "audience": [
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "MIT transportation course",
+      "free transportation economics course",
+      "demand modeling course",
+      "OCW transportation"
+    ],
+    "content_format": "course",
+    "skill_progression": [
+      "demand modeling basics",
+      "network optimization",
+      "ITS applications"
+    ]
+  },
+  {
+    "name": "Foundations of Transportation Network Analysis (edX)",
+    "description": "MIT MicroMasters course on network modeling, traffic assignment, and transportation optimization. Part of the Transportation specialization on edX.",
+    "category": "Transportation Economics & Analytics",
+    "url": "https://www.edx.org/learn/engineering/massachusetts-institute-of-technology-principles-of-modeling-simulating-and-controlling-traffic-flow",
+    "type": "Course",
+    "level": "Advanced",
+    "tags": [
+      "Transportation",
+      "MIT",
+      "edX",
+      "Networks",
+      "Certificate"
+    ],
+    "domain": "Transportation",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "linear algebra",
+      "optimization"
+    ],
+    "topic_tags": [
+      "transportation",
+      "networks",
+      "traffic-flow",
+      "optimization"
+    ],
+    "summary": "This edX MicroMasters course covers traffic flow theory, network equilibrium, and simulation methods. Earn a certificate while learning from MIT faculty.",
+    "use_cases": [
+      "Professional development",
+      "Career advancement",
+      "Research skills"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "MIT edX transportation",
+      "traffic flow course",
+      "network equilibrium online course",
+      "transportation certificate"
+    ],
+    "content_format": "course",
+    "skill_progression": [
+      "traffic flow fundamentals",
+      "network equilibrium",
+      "simulation methods"
+    ]
+  },
+  {
+    "name": "Class Central: Transportation Courses",
+    "description": "Aggregated list of online transportation courses from universities worldwide. Filter by level, platform, and topic to find the right course.",
+    "category": "Transportation Economics & Analytics",
+    "url": "https://www.classcentral.com/subject/transportation",
+    "type": "Course Aggregator",
+    "level": "All Levels",
+    "tags": [
+      "Transportation",
+      "Aggregator",
+      "MOOC",
+      "Directory"
+    ],
+    "domain": "Transportation",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "transportation",
+      "education",
+      "online-learning"
+    ],
+    "summary": "Class Central aggregates transportation courses from Coursera, edX, Udacity, and other platforms. Find courses on logistics, urban planning, sustainable transport, and more.",
+    "use_cases": [
+      "Finding courses",
+      "Comparing options",
+      "Self-directed learning"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "transportation online courses",
+      "best transport MOOC",
+      "free transportation classes",
+      "logistics courses online"
+    ],
+    "content_format": "aggregator",
+    "skill_progression": [
+      "finding courses",
+      "comparing platforms",
+      "structured learning"
+    ]
   }
 ]

@@ -10654,5 +10654,105 @@
     "github_url": "https://github.com/freakonometrics/CASdatasets",
     "tags": ["actuarial", "P&C-insurance", "loss-triangles", "claims-data", "teaching-datasets"],
     "best_for": "Learning actuarial methods, pricing model development, and reserving exercises"
+  },
+  {
+    "name": "National Household Travel Survey (NHTS)",
+    "description": "Comprehensive US travel behavior data since 1969 capturing daily non-commercial travel by all modes. The authoritative source on American travel patterns.",
+    "category": "Transportation Economics & Analytics",
+    "url": "https://nhts.ornl.gov/",
+    "docs_url": "https://nhts.ornl.gov/documentation",
+    "github_url": null,
+    "tags": ["travel-behavior", "survey", "mode-choice", "demographics", "commuting"],
+    "best_for": "Understanding travel demand patterns, mode choice analysis, and transportation planning"
+  },
+  {
+    "name": "NYC TLC Trip Records",
+    "description": "Complete trip-level data for all NYC taxi and for-hire vehicle trips including Uber and Lyft. Billions of records since 2009 with pickups, dropoffs, fares, and tips.",
+    "category": "Transportation Economics & Analytics",
+    "url": "https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page",
+    "docs_url": "https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records.pdf",
+    "github_url": null,
+    "tags": ["taxi", "rideshare", "NYC", "trip-data", "surge-pricing"],
+    "best_for": "Ridesharing analysis, surge pricing research, and urban mobility patterns"
+  },
+  {
+    "name": "Transitland GTFS Feeds",
+    "description": "Aggregated GTFS data from 2,500+ transit agencies across 55+ countries. The largest open transit data aggregator with REST and GraphQL APIs.",
+    "category": "Transportation Economics & Analytics",
+    "url": "https://www.transit.land/",
+    "docs_url": "https://www.transit.land/documentation",
+    "github_url": "https://github.com/transitland",
+    "tags": ["transit", "GTFS", "schedules", "public-transportation", "global"],
+    "best_for": "Transit network analysis, accessibility research, and cross-city comparisons"
+  },
+  {
+    "name": "MobilityData GTFS Catalog",
+    "description": "Curated directory of 1,327+ GTFS feeds from transit agencies globally with quality metrics, update frequency, and standardized metadata.",
+    "category": "Transportation Economics & Analytics",
+    "url": "https://database.mobilitydata.org/",
+    "docs_url": "https://mobilitydata.org/",
+    "github_url": null,
+    "tags": ["transit", "GTFS", "open-data", "schedules", "catalog"],
+    "best_for": "Finding and comparing transit data quality across cities and agencies"
+  },
+  {
+    "name": "Chicago Rideshare Data",
+    "description": "Trip-level data for all Transportation Network Provider (Uber/Lyft) trips in Chicago since 2018. Includes ~57 million trips annually with origins, destinations, and fares.",
+    "category": "Transportation Economics & Analytics",
+    "url": "https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips/m6dm-c72p",
+    "docs_url": null,
+    "github_url": null,
+    "tags": ["rideshare", "Chicago", "trip-data", "urban-mobility", "Uber", "Lyft"],
+    "best_for": "Ridesharing market analysis, platform competition, and urban transportation research"
+  },
+  {
+    "name": "DB1B Airline Origin and Destination Survey",
+    "description": "10% random sample of all US airline tickets with origin, destination, fare, and itinerary details. Quarterly since 1993. The gold standard for airline pricing research.",
+    "category": "Transportation Economics & Analytics",
+    "url": "https://www.transtats.bts.gov/DatabaseInfo.asp?QO_VQ=EFI",
+    "docs_url": "https://www.transtats.bts.gov/Fields.asp?gnoession_VQ=FHK",
+    "github_url": null,
+    "tags": ["airlines", "fares", "routes", "BTS", "pricing"],
+    "best_for": "Airline pricing research, competition analysis, and route economics"
+  },
+  {
+    "name": "National Transit Database (NTD)",
+    "description": "Definitive source for US transit statistics since 2002. Ridership, operating expenses, capital expenses, safety incidents for all federally-funded transit agencies.",
+    "category": "Transportation Economics & Analytics",
+    "url": "https://www.transit.dot.gov/ntd",
+    "docs_url": "https://www.transit.dot.gov/ntd/ntd-data",
+    "github_url": null,
+    "tags": ["transit", "ridership", "financials", "safety", "US"],
+    "best_for": "Transit system performance analysis, cost benchmarking, and ridership trends"
+  },
+  {
+    "name": "FHWA Highway Statistics",
+    "description": "Annual data on US highway system including vehicle miles traveled, fuel consumption, road infrastructure, and highway financing since 1945.",
+    "category": "Transportation Economics & Analytics",
+    "url": "https://www.fhwa.dot.gov/policyinformation/statistics.cfm",
+    "docs_url": null,
+    "github_url": null,
+    "tags": ["highways", "VMT", "infrastructure", "federal", "fuel"],
+    "best_for": "Aggregate transportation trends, infrastructure analysis, and policy research"
+  },
+  {
+    "name": "OpenStreetMap Road Network",
+    "description": "Open-source global road network data including road types, speeds, and connectivity. Downloadable via Overpass API or pre-processed extracts.",
+    "category": "Transportation Economics & Analytics",
+    "url": "https://www.openstreetmap.org/",
+    "docs_url": "https://wiki.openstreetmap.org/wiki/Main_Page",
+    "github_url": "https://github.com/openstreetmap",
+    "tags": ["road-network", "open-data", "global", "GIS", "routing"],
+    "best_for": "Road network analysis, routing, accessibility studies, and urban form research"
+  },
+  {
+    "name": "Citi Bike System Data",
+    "description": "Trip-level records for NYC's bike-share system since 2013. ~2 million trips monthly in peak season with station-level origin-destination and duration data.",
+    "category": "Transportation Economics & Analytics",
+    "url": "https://citibikenyc.com/system-data",
+    "docs_url": null,
+    "github_url": null,
+    "tags": ["bike-share", "NYC", "micromobility", "trip-data", "cycling"],
+    "best_for": "Bike-share demand analysis, first/last mile research, and micromobility studies"
   }
 ]

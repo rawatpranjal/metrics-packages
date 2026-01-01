@@ -10235,7 +10235,12 @@
     "category": "Sports Analytics",
     "url": "https://blogs.fangraphs.com/category/effectively-wild/",
     "type": "Podcast",
-    "tags": ["Sports Analytics", "Baseball", "Sabermetrics", "Podcast"]
+    "tags": [
+      "Sports Analytics",
+      "Baseball",
+      "Sabermetrics",
+      "Podcast"
+    ]
   },
   {
     "name": "Expected Value",
@@ -10243,7 +10248,12 @@
     "category": "Sports Analytics",
     "url": "https://podcasts.apple.com/us/podcast/expected-value/id1490714230",
     "type": "Podcast",
-    "tags": ["Sports Analytics", "Multi-Sport", "Methodology", "Podcast"]
+    "tags": [
+      "Sports Analytics",
+      "Multi-Sport",
+      "Methodology",
+      "Podcast"
+    ]
   },
   {
     "name": "Wharton Moneyball",
@@ -10251,7 +10261,12 @@
     "category": "Sports Analytics",
     "url": "https://podcasts.apple.com/us/podcast/wharton-moneyball/id1076390048",
     "type": "Podcast",
-    "tags": ["Sports Analytics", "Economics", "Multi-Sport", "Academic"]
+    "tags": [
+      "Sports Analytics",
+      "Economics",
+      "Multi-Sport",
+      "Academic"
+    ]
   },
   {
     "name": "Open Source Sports",
@@ -10259,7 +10274,12 @@
     "category": "Sports Analytics",
     "url": "https://podcasts.apple.com/us/podcast/open-source-sports/id1500280595",
     "type": "Podcast",
-    "tags": ["Sports Analytics", "Research", "Methodology", "Academic"]
+    "tags": [
+      "Sports Analytics",
+      "Research",
+      "Methodology",
+      "Academic"
+    ]
   },
   {
     "name": "Mario Wuthrich ETH Actuarial Lectures",
@@ -10267,7 +10287,12 @@
     "category": "Insurance & Actuarial",
     "url": "https://people.math.ethz.ch/~wuethr/lectures.html",
     "type": "Lecture Series",
-    "tags": ["Insurance & Actuarial", "Machine Learning", "Academic", "ETH Zurich"]
+    "tags": [
+      "Insurance & Actuarial",
+      "Machine Learning",
+      "Academic",
+      "ETH Zurich"
+    ]
   },
   {
     "name": "Arthur Charpentier Actuarial Tutorials",
@@ -10275,6 +10300,108 @@
     "category": "Insurance & Actuarial",
     "url": "https://www.youtube.com/@faboratoire",
     "type": "Tutorial Channel",
-    "tags": ["Insurance & Actuarial", "R Programming", "Tutorials", "Machine Learning"]
+    "tags": [
+      "Insurance & Actuarial",
+      "R Programming",
+      "Tutorials",
+      "Machine Learning"
+    ]
+  },
+  {
+    "name": "Daniel McFadden Nobel Prize Lecture: Economic Choices",
+    "description": "2000 Nobel Lecture on discrete choice theory and its origins in transportation research. McFadden explains how analyzing BART ridership led to foundational econometric methods now used across economics.",
+    "category": "Transportation Economics & Analytics",
+    "url": "https://www.nobelprize.org/prizes/economic-sciences/2000/mcfadden/lecture/",
+    "type": "Lecture",
+    "tags": [
+      "Transportation",
+      "Nobel",
+      "Discrete Choice",
+      "Classic"
+    ],
+    "difficulty": "advanced",
+    "prerequisites": [
+      "econometrics basics"
+    ],
+    "topic_tags": [
+      "transportation",
+      "discrete-choice",
+      "econometrics",
+      "history"
+    ],
+    "summary": "Daniel McFadden's Nobel lecture traces the development of discrete choice theory from his work on BART demand forecasting in the 1970s. He explains random utility theory, the conditional logit model, and their broad applications.",
+    "use_cases": [
+      "Understanding discrete choice origins",
+      "Learning economic history",
+      "Appreciating methodological development"
+    ],
+    "audience": [
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "McFadden Nobel lecture",
+      "discrete choice history",
+      "BART demand model",
+      "random utility theory origin"
+    ],
+    "speaker_expertise": [
+      "Discrete Choice",
+      "Econometrics",
+      "Transportation"
+    ],
+    "key_insights": [
+      "Random utility theory emerged from transportation planning",
+      "Conditional logit enables practical demand forecasting",
+      "Choice modeling applies far beyond transportation"
+    ]
+  },
+  {
+    "name": "Susan Shaheen: Shared Mobility and the Transformation of Transportation",
+    "description": "UC Berkeley ITS director discusses how carsharing, bikesharing, and ridehailing are reshaping urban mobility. Covers research on adoption patterns, environmental impacts, and policy implications.",
+    "category": "Transportation Economics & Analytics",
+    "url": "https://www.youtube.com/watch?v=8FBbPsXEFos",
+    "type": "Talk",
+    "tags": [
+      "Transportation",
+      "Shared Mobility",
+      "Urban",
+      "Policy"
+    ],
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "transportation",
+      "shared-mobility",
+      "urban-planning",
+      "policy"
+    ],
+    "summary": "Susan Shaheen, a pioneer in shared mobility research, discusses the evolution of carsharing, bikesharing, and ridehailing. She presents data on adoption patterns, environmental benefits, and regulatory challenges.",
+    "use_cases": [
+      "Understanding shared mobility trends",
+      "Learning about policy implications",
+      "Exploring urban transportation futures"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "shared mobility research",
+      "carsharing impact",
+      "Susan Shaheen mobility",
+      "ridehailing policy"
+    ],
+    "speaker_expertise": [
+      "Shared Mobility",
+      "Transportation Policy",
+      "Sustainability"
+    ],
+    "key_insights": [
+      "Shared mobility reduces vehicle ownership",
+      "Regulatory frameworks lag innovation",
+      "Environmental benefits depend on mode substitution"
+    ]
   }
 ]

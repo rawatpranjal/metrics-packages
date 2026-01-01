@@ -1,7 +1,7 @@
 [
   {
     "name": "Mostly Harmless Econometrics",
-    "author": "Joshua D. Angrist & Jörn-Steffen Pischke",
+    "author": "Joshua D. Angrist & J\u00f6rn-Steffen Pischke",
     "year": 2009,
     "isbn": "0691120358",
     "description": "THE bible of applied econometrics. Covers regression, IV, DiD, and RDD with focus on clean identification. Nobel laureate Angrist's practical guide to credible causal inference.",
@@ -13,7 +13,10 @@
       "Econometrics"
     ],
     "difficulty": "intermediate",
-    "prerequisites": ["regression", "statistics"],
+    "prerequisites": [
+      "regression",
+      "statistics"
+    ],
     "topic_tags": [
       "causal-inference",
       "econometrics",
@@ -1008,7 +1011,11 @@
     "category": "Sports Economics & Analytics",
     "type": "Book",
     "url": "https://www.amazon.com/Moneyball-Art-Winning-Unfair-Game/dp/0393324818",
-    "tags": ["Sports Economics & Analytics", "Baseball", "Sabermetrics"]
+    "tags": [
+      "Sports Economics & Analytics",
+      "Baseball",
+      "Sabermetrics"
+    ]
   },
   {
     "name": "The Book: Playing the Percentages in Baseball",
@@ -1019,7 +1026,11 @@
     "category": "Sports Economics & Analytics",
     "type": "Book",
     "url": "https://www.amazon.com/Book-Playing-Percentages-Baseball/dp/1597971294",
-    "tags": ["Sports Economics & Analytics", "Baseball", "Sabermetrics"]
+    "tags": [
+      "Sports Economics & Analytics",
+      "Baseball",
+      "Sabermetrics"
+    ]
   },
   {
     "name": "Basketball on Paper",
@@ -1030,7 +1041,11 @@
     "category": "Sports Economics & Analytics",
     "type": "Book",
     "url": "https://www.amazon.com/Basketball-Paper-Rules-Performance-Analysis/dp/1574886886",
-    "tags": ["Sports Economics & Analytics", "Basketball", "Four Factors"]
+    "tags": [
+      "Sports Economics & Analytics",
+      "Basketball",
+      "Four Factors"
+    ]
   },
   {
     "name": "Sprawlball: A Visual Tour of the New Era of the NBA",
@@ -1041,7 +1056,11 @@
     "category": "Sports Economics & Analytics",
     "type": "Book",
     "url": "https://www.amazon.com/Sprawlball-Visual-Tour-New-Era/dp/1328767515",
-    "tags": ["Sports Economics & Analytics", "Basketball", "Visualization"]
+    "tags": [
+      "Sports Economics & Analytics",
+      "Basketball",
+      "Visualization"
+    ]
   },
   {
     "name": "Mathletics: How Gamblers, Managers, and Sports Enthusiasts Use Mathematics in Baseball, Basketball, and Football",
@@ -1052,18 +1071,26 @@
     "category": "Sports Economics & Analytics",
     "type": "Book",
     "url": "https://www.amazon.com/Mathletics-Gamblers-Managers-Enthusiasts-Mathematics/dp/0691154589",
-    "tags": ["Sports Economics & Analytics", "Mathematics", "Multi-Sport"]
+    "tags": [
+      "Sports Economics & Analytics",
+      "Mathematics",
+      "Multi-Sport"
+    ]
   },
   {
     "name": "Playbooks and Checkbooks: An Introduction to the Economics of Modern Sports",
     "author": "Stefan Szymanski",
     "year": 2009,
     "isbn": "0691127506",
-    "description": "The best introductory text for sports economics—'lively, literate, lucid, and edifying' (Andrew Zimbalist). Covers labor markets, franchise values, stadium subsidies, and competitive balance.",
+    "description": "The best introductory text for sports economics\u2014'lively, literate, lucid, and edifying' (Andrew Zimbalist). Covers labor markets, franchise values, stadium subsidies, and competitive balance.",
     "category": "Sports Economics & Analytics",
     "type": "Book",
     "url": "https://www.amazon.com/Playbooks-Checkbooks-Introduction-Economics-Modern/dp/0691127506",
-    "tags": ["Sports Economics & Analytics", "Economics", "Labor Markets"]
+    "tags": [
+      "Sports Economics & Analytics",
+      "Economics",
+      "Labor Markets"
+    ]
   },
   {
     "name": "Soccernomics",
@@ -1074,7 +1101,11 @@
     "category": "Sports Economics & Analytics",
     "type": "Book",
     "url": "https://www.amazon.com/Soccernomics-England-Germany-Australia-Destined/dp/1568584814",
-    "tags": ["Sports Economics & Analytics", "Soccer", "Economics"]
+    "tags": [
+      "Sports Economics & Analytics",
+      "Soccer",
+      "Economics"
+    ]
   },
   {
     "name": "Handbook on the Economics of Sport",
@@ -1085,7 +1116,11 @@
     "category": "Sports Economics & Analytics",
     "type": "Book",
     "url": "https://www.amazon.com/Handbook-Economics-Elgar-Original-Reference/dp/1843766086",
-    "tags": ["Sports Economics & Analytics", "Economics", "Reference"]
+    "tags": [
+      "Sports Economics & Analytics",
+      "Economics",
+      "Reference"
+    ]
   },
   {
     "name": "Loss Models: From Data to Decisions",
@@ -1096,7 +1131,11 @@
     "category": "Insurance & Actuarial",
     "type": "Book",
     "url": "https://www.wiley.com/en-us/Loss+Models%3A+From+Data+to+Decisions%2C+5th+Edition-p-9781119523789",
-    "tags": ["Insurance & Actuarial", "Loss Distributions", "Credibility Theory"]
+    "tags": [
+      "Insurance & Actuarial",
+      "Loss Distributions",
+      "Credibility Theory"
+    ]
   },
   {
     "name": "Actuarial Mathematics for Life Contingent Risks",
@@ -1107,7 +1146,11 @@
     "category": "Insurance & Actuarial",
     "type": "Book",
     "url": "https://www.cambridge.org/core/books/actuarial-mathematics-for-life-contingent-risks/FF9C41CEE1D83E8C0B9A2D6E2E1C8F1F",
-    "tags": ["Insurance & Actuarial", "Life Insurance", "Actuarial Mathematics"]
+    "tags": [
+      "Insurance & Actuarial",
+      "Life Insurance",
+      "Actuarial Mathematics"
+    ]
   },
   {
     "name": "Regression Modeling with Actuarial and Financial Applications",
@@ -1118,7 +1161,11 @@
     "category": "Insurance & Actuarial",
     "type": "Book",
     "url": "https://www.cambridge.org/core/books/regression-modeling-with-actuarial-and-financial-applications/A81CFD79F8F2F6D2AF02B4D8E1F17C23",
-    "tags": ["Insurance & Actuarial", "Regression", "GLM"]
+    "tags": [
+      "Insurance & Actuarial",
+      "Regression",
+      "GLM"
+    ]
   },
   {
     "name": "Handbook of Insurance",
@@ -1129,7 +1176,11 @@
     "category": "Insurance & Actuarial",
     "type": "Book",
     "url": "https://link.springer.com/book/10.1007/978-1-4614-0155-1",
-    "tags": ["Insurance & Actuarial", "Insurance Economics", "Reference"]
+    "tags": [
+      "Insurance & Actuarial",
+      "Insurance Economics",
+      "Reference"
+    ]
   },
   {
     "name": "Financial Economics of Insurance",
@@ -1140,7 +1191,11 @@
     "category": "Insurance & Actuarial",
     "type": "Book",
     "url": "https://press.uchicago.edu/ucp/books/book/chicago/F/bo182892012.html",
-    "tags": ["Insurance & Actuarial", "Financial Economics", "Asset Pricing"]
+    "tags": [
+      "Insurance & Actuarial",
+      "Financial Economics",
+      "Asset Pricing"
+    ]
   },
   {
     "name": "Computational Actuarial Science with R",
@@ -1151,7 +1206,11 @@
     "category": "Insurance & Actuarial",
     "type": "Book",
     "url": "https://www.routledge.com/Computational-Actuarial-Science-with-R/Charpentier/p/book/9781466592599",
-    "tags": ["Insurance & Actuarial", "R Programming", "Computational Methods"]
+    "tags": [
+      "Insurance & Actuarial",
+      "R Programming",
+      "Computational Methods"
+    ]
   },
   {
     "name": "Predictive Modeling Applications in Actuarial Science",
@@ -1162,7 +1221,11 @@
     "category": "Insurance & Actuarial",
     "type": "Book",
     "url": "https://www.cambridge.org/core/books/predictive-modeling-applications-in-actuarial-science/D7FEA71F1B8F0F1F1F1F1F1F1F1F1F1F",
-    "tags": ["Insurance & Actuarial", "Machine Learning", "Predictive Modeling"]
+    "tags": [
+      "Insurance & Actuarial",
+      "Machine Learning",
+      "Predictive Modeling"
+    ]
   },
   {
     "name": "Statistical Foundations of Actuarial Learning and its Applications",
@@ -1173,18 +1236,26 @@
     "category": "Insurance & Actuarial",
     "type": "Book",
     "url": "https://link.springer.com/book/10.1007/978-3-031-12409-9",
-    "tags": ["Insurance & Actuarial", "Machine Learning", "Neural Networks"]
+    "tags": [
+      "Insurance & Actuarial",
+      "Machine Learning",
+      "Neural Networks"
+    ]
   },
   {
     "name": "The INSURTECH Book",
-    "author": "Sabine VanderLinden, Shân Millie, Nico Anderson",
+    "author": "Sabine VanderLinden, Sh\u00e2n Millie, Nico Anderson",
     "year": 2018,
     "isbn": "1119362210",
     "description": "Industry overview of digital disruption in insurance. Covers blockchain, IoT, AI applications, and business model innovation from 80+ InsurTech executives.",
     "category": "Insurance & Actuarial",
     "type": "Book",
     "url": "https://www.wiley.com/en-us/The+INSURTECH+Book-p-9781119362210",
-    "tags": ["Insurance & Actuarial", "InsurTech", "Digital Transformation"]
+    "tags": [
+      "Insurance & Actuarial",
+      "InsurTech",
+      "Digital Transformation"
+    ]
   },
   {
     "name": "Navigating Insurtech",
@@ -1195,6 +1266,303 @@
     "category": "Insurance & Actuarial",
     "type": "Book",
     "url": "https://www.wiley.com/en-us/Navigating+Insurtech-p-9781119895657",
-    "tags": ["Insurance & Actuarial", "InsurTech", "Entrepreneurship"]
+    "tags": [
+      "Insurance & Actuarial",
+      "InsurTech",
+      "Entrepreneurship"
+    ]
+  },
+  {
+    "name": "The Economics of Urban Transportation",
+    "author": "Kenneth Small, Erik Verhoef & Robin Lindsey",
+    "year": 2024,
+    "isbn": "0367456451",
+    "description": "The definitive graduate textbook on urban transportation economics. Covers congestion pricing, mode choice, land use interactions, and policy evaluation with rigorous economic modeling.",
+    "category": "Transportation Economics & Analytics",
+    "type": "Book",
+    "url": "https://www.routledge.com/The-Economics-of-Urban-Transportation/Small-Verhoef-Lindsey/p/book/9780367456450",
+    "tags": [
+      "Transportation",
+      "Urban Economics",
+      "Congestion"
+    ],
+    "difficulty": "advanced",
+    "prerequisites": [
+      "microeconomics",
+      "calculus"
+    ],
+    "topic_tags": [
+      "transportation",
+      "urban-economics",
+      "congestion-pricing",
+      "mode-choice"
+    ],
+    "summary": "The third edition of this classic textbook provides comprehensive coverage of urban transportation economics, from basic demand theory to advanced congestion models, environmental externalities, and policy evaluation.",
+    "use_cases": [
+      "Graduate coursework",
+      "Transportation policy analysis",
+      "Research reference"
+    ],
+    "audience": [
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "transportation economics textbook",
+      "congestion pricing theory",
+      "urban transportation economics book",
+      "Kenneth Small transportation"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "understanding transport demand",
+      "modeling congestion",
+      "evaluating transport policies"
+    ]
+  },
+  {
+    "name": "Discrete Choice Analysis: Theory and Application to Travel Demand",
+    "author": "Moshe Ben-Akiva & Steven Lerman",
+    "year": 1985,
+    "isbn": "0262022176",
+    "description": "The foundational text on discrete choice modeling in transportation. Developed the random utility framework that underpins modern mode choice and demand forecasting.",
+    "category": "Transportation Economics & Analytics",
+    "type": "Book",
+    "url": "https://mitpress.mit.edu/9780262022170/discrete-choice-analysis/",
+    "tags": [
+      "Discrete Choice",
+      "Transportation",
+      "Econometrics",
+      "Classic"
+    ],
+    "difficulty": "advanced",
+    "prerequisites": [
+      "probability",
+      "statistics",
+      "econometrics"
+    ],
+    "topic_tags": [
+      "transportation",
+      "discrete-choice",
+      "demand-modeling",
+      "econometrics"
+    ],
+    "summary": "This classic text developed the theoretical foundations of discrete choice modeling for travel demand. Covers random utility theory, logit/probit models, nested structures, and estimation methods that remain the basis of transport planning.",
+    "use_cases": [
+      "Learning discrete choice theory",
+      "Travel demand modeling",
+      "Academic research"
+    ],
+    "audience": [
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "discrete choice theory book",
+      "Ben-Akiva Lerman",
+      "random utility model book",
+      "travel demand modeling textbook"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "random utility theory",
+      "logit model derivation",
+      "nested choice structures"
+    ]
+  },
+  {
+    "name": "Discrete Choice Methods with Simulation",
+    "author": "Kenneth Train",
+    "year": 2009,
+    "isbn": "0521766559",
+    "description": "Essential guide to modern discrete choice methods including mixed logit, probit simulation, and Bayesian approaches. Free PDF available from the author's website.",
+    "category": "Transportation Economics & Analytics",
+    "type": "Book",
+    "url": "https://eml.berkeley.edu/books/choice2.html",
+    "tags": [
+      "Discrete Choice",
+      "Simulation",
+      "Mixed Logit",
+      "Free"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "probability",
+      "basic econometrics"
+    ],
+    "topic_tags": [
+      "transportation",
+      "discrete-choice",
+      "simulation",
+      "mixed-logit"
+    ],
+    "summary": "Kenneth Train's accessible guide to simulated discrete choice methods covers mixed logit, probit simulation, and Bayesian techniques. The second edition is freely available online, making it the go-to resource for researchers.",
+    "use_cases": [
+      "Learning mixed logit",
+      "Simulation-based estimation",
+      "Applied choice modeling"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "Kenneth Train discrete choice",
+      "mixed logit textbook",
+      "free choice modeling book",
+      "simulation based estimation book"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "simulation methods",
+      "mixed logit estimation",
+      "Bayesian choice models"
+    ]
+  },
+  {
+    "name": "Transport Economics",
+    "author": "Kenneth Button",
+    "year": 2010,
+    "isbn": "1840641916",
+    "description": "Comprehensive undergraduate/MBA textbook covering all transport modes (road, rail, air, maritime) with accessible economic analysis and policy discussions.",
+    "category": "Transportation Economics & Analytics",
+    "type": "Book",
+    "url": "https://www.e-elgar.com/shop/usd/transport-economics-9781840641912.html",
+    "tags": [
+      "Transportation",
+      "Economics",
+      "Policy",
+      "Textbook"
+    ],
+    "difficulty": "beginner",
+    "prerequisites": [
+      "basic economics"
+    ],
+    "topic_tags": [
+      "transportation",
+      "economics",
+      "policy",
+      "regulation"
+    ],
+    "summary": "Kenneth Button's widely-used textbook provides accessible introduction to transport economics across all modes. Covers market structure, pricing, externalities, regulation, and policy for roads, rail, aviation, and shipping.",
+    "use_cases": [
+      "Undergraduate courses",
+      "MBA programs",
+      "Policy overview"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "transport economics textbook",
+      "introduction to transportation economics",
+      "Kenneth Button book",
+      "multimodal transport economics"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "transport market basics",
+      "pricing and costs",
+      "regulatory frameworks"
+    ]
+  },
+  {
+    "name": "Lectures on Urban Economics",
+    "author": "Jan Brueckner",
+    "year": 2011,
+    "isbn": "0262016362",
+    "description": "Graduate text connecting urban economics with transportation. Covers land use, housing markets, urban spatial structure, and transport infrastructure with elegant models.",
+    "category": "Transportation Economics & Analytics",
+    "type": "Book",
+    "url": "https://mitpress.mit.edu/9780262016360/lectures-on-urban-economics/",
+    "tags": [
+      "Urban Economics",
+      "Land Use",
+      "Transportation",
+      "Graduate"
+    ],
+    "difficulty": "advanced",
+    "prerequisites": [
+      "microeconomics",
+      "calculus"
+    ],
+    "topic_tags": [
+      "urban-economics",
+      "transportation",
+      "land-use",
+      "spatial"
+    ],
+    "summary": "Jan Brueckner's graduate textbook develops the monocentric city model and its extensions, connecting transportation costs to land use patterns, housing markets, and urban spatial structure.",
+    "use_cases": [
+      "Graduate urban economics",
+      "Land use-transport research",
+      "Academic reference"
+    ],
+    "audience": [
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "urban economics textbook",
+      "monocentric city model book",
+      "land use transportation book",
+      "Jan Brueckner"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "monocentric model",
+      "land rent gradients",
+      "urban spatial equilibrium"
+    ]
+  },
+  {
+    "name": "Three Revolutions: Steering Automated, Shared, and Electric Vehicles to a Better Future",
+    "author": "Daniel Sperling",
+    "year": 2018,
+    "isbn": "1610919076",
+    "description": "Forward-looking analysis of how autonomous vehicles, shared mobility, and electrification will transform transportation. By the founder of UC Davis ITS.",
+    "category": "Transportation Economics & Analytics",
+    "type": "Book",
+    "url": "https://islandpress.org/books/three-revolutions",
+    "tags": [
+      "Autonomous Vehicles",
+      "Shared Mobility",
+      "Electric Vehicles",
+      "Future"
+    ],
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "transportation",
+      "autonomous-vehicles",
+      "shared-mobility",
+      "electric-vehicles"
+    ],
+    "summary": "Daniel Sperling examines how the convergence of autonomous vehicles, shared mobility, and electrification could reshape transportation and cities\u2014for better or worse depending on policy choices.",
+    "use_cases": [
+      "Understanding mobility futures",
+      "Policy thinking",
+      "Industry trends"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "autonomous vehicles future book",
+      "shared mobility book",
+      "Daniel Sperling",
+      "transportation disruption"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "understanding AV technology",
+      "shared mobility models",
+      "policy scenarios"
+    ]
   }
 ]

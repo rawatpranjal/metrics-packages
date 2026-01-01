@@ -18203,10 +18203,21 @@
     "best_for": "InsurTech trends, startup networking, incumbent-startup partnerships, digital insurance innovation",
     "difficulty": "intermediate",
     "prerequisites": [],
-    "topic_tags": ["insurtech", "insurance-innovation", "digital-transformation"],
+    "topic_tags": [
+      "insurtech",
+      "insurance-innovation",
+      "digital-transformation"
+    ],
     "summary": "ITC Vegas is the world's largest gathering of insurance innovation, featuring keynotes from industry leaders, startup showcases, and networking with investors and executives.",
-    "use_cases": ["networking with InsurTech leaders", "discovering insurance startups", "learning about digital transformation"],
-    "audience": ["Senior-DS", "Mid-DS"],
+    "use_cases": [
+      "networking with InsurTech leaders",
+      "discovering insurance startups",
+      "learning about digital transformation"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Mid-DS"
+    ],
     "event_format": "conference",
     "geographic_focus": "Las Vegas, USA"
   },
@@ -18220,10 +18231,21 @@
     "best_for": "Regional InsurTech trends, embedded insurance, claims technology, AI in insurance",
     "difficulty": "intermediate",
     "prerequisites": [],
-    "topic_tags": ["insurtech", "embedded-insurance", "AI-insurance"],
+    "topic_tags": [
+      "insurtech",
+      "embedded-insurance",
+      "AI-insurance"
+    ],
     "summary": "Insurtech Insights is a global conference series bringing together insurance industry leaders and innovators across multiple regions.",
-    "use_cases": ["regional InsurTech networking", "learning about embedded insurance", "claims automation insights"],
-    "audience": ["Senior-DS", "Mid-DS"],
+    "use_cases": [
+      "regional InsurTech networking",
+      "learning about embedded insurance",
+      "claims automation insights"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Mid-DS"
+    ],
     "event_format": "conference",
     "geographic_focus": "Global"
   },
@@ -18237,10 +18259,21 @@
     "best_for": "Insurance ML research, actuarial data science, academic-industry collaboration",
     "difficulty": "advanced",
     "prerequisites": [],
-    "topic_tags": ["insurance-ML", "actuarial-data-science", "research"],
+    "topic_tags": [
+      "insurance-ML",
+      "actuarial-data-science",
+      "research"
+    ],
     "summary": "The Insurance Data Science Conference at ETH Zurich brings together researchers and practitioners to discuss cutting-edge ML applications in insurance.",
-    "use_cases": ["learning insurance ML research", "academic networking", "presenting actuarial research"],
-    "audience": ["Early-PhD", "Senior-DS"],
+    "use_cases": [
+      "learning insurance ML research",
+      "academic networking",
+      "presenting actuarial research"
+    ],
+    "audience": [
+      "Early-PhD",
+      "Senior-DS"
+    ],
     "event_format": "conference",
     "geographic_focus": "Zurich, Switzerland"
   },
@@ -18254,11 +18287,167 @@
     "best_for": "Actuarial professional development, life insurance practice, pension actuarial topics",
     "difficulty": "intermediate",
     "prerequisites": [],
-    "topic_tags": ["actuarial", "life-insurance", "professional-development"],
+    "topic_tags": [
+      "actuarial",
+      "life-insurance",
+      "professional-development"
+    ],
     "summary": "The SOA Annual Meeting is the premier gathering for actuaries focusing on life, health, and pension practice areas.",
-    "use_cases": ["actuarial continuing education", "professional networking", "career development"],
-    "audience": ["Mid-DS", "Senior-DS"],
+    "use_cases": [
+      "actuarial continuing education",
+      "professional networking",
+      "career development"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
     "event_format": "conference",
     "geographic_focus": "USA"
+  },
+  {
+    "name": "TRB Annual Meeting",
+    "description": "Transportation Research Board Annual Meeting. The largest transportation research conference globally with 13,000+ attendees, 5,000+ presentations, and sessions covering all transportation modes and disciplines.",
+    "category": "Conferences",
+    "subcategory": "Transportation Economics & Analytics",
+    "url": "https://www.trb.org/AnnualMeeting/AnnualMeeting.aspx",
+    "type": "Annual Conference",
+    "location": "Washington, DC",
+    "dates": "January (annually)",
+    "attendees": "13,000+",
+    "best_for": "Transportation researchers, planners, and engineers across all modes",
+    "tags": [
+      "Transportation",
+      "Research",
+      "Policy",
+      "Engineering"
+    ],
+    "start_date": "2025-01-05",
+    "end_date": "2025-01-09",
+    "difficulty": null,
+    "prerequisites": [],
+    "topic_tags": [
+      "transportation",
+      "conference",
+      "policy",
+      "research"
+    ],
+    "summary": "TRB Annual Meeting is the world's largest transportation research gathering. Sessions cover economics, planning, engineering, safety, and policy across road, rail, transit, aviation, and maritime modes.",
+    "use_cases": [
+      "Present research",
+      "Network with practitioners",
+      "Learn about policy developments",
+      "Find collaborators"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "TRB conference",
+      "transportation research conference",
+      "TRB annual meeting registration",
+      "transportation conference DC"
+    ],
+    "event_format": "conference",
+    "geographic_focus": "Washington, DC",
+    "frequency": "annual"
+  },
+  {
+    "name": "ITEA Annual Conference",
+    "description": "International Transportation Economics Association annual conference. Academic focus on transportation economics research including pricing, mode choice, environmental policy, and network modeling.",
+    "category": "Conferences",
+    "subcategory": "Transportation Economics & Analytics",
+    "url": "https://www.itea-org.net/",
+    "type": "Annual Conference",
+    "location": "Various (rotating)",
+    "dates": "June (annually)",
+    "attendees": "200+",
+    "best_for": "Academic transportation economists and advanced PhD students",
+    "tags": [
+      "Transportation",
+      "Economics",
+      "Academic",
+      "Research"
+    ],
+    "start_date": "2025-06-15",
+    "end_date": "2025-06-17",
+    "difficulty": null,
+    "prerequisites": [
+      "economics background"
+    ],
+    "topic_tags": [
+      "transportation",
+      "economics",
+      "academic-conference"
+    ],
+    "summary": "ITEA conference brings together academic transportation economists for rigorous research presentations on congestion pricing, demand modeling, environmental economics, and infrastructure policy.",
+    "use_cases": [
+      "Present academic research",
+      "Get feedback from experts",
+      "Build academic network"
+    ],
+    "audience": [
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "ITEA conference",
+      "transportation economics conference",
+      "academic transport conference",
+      "transport economics association"
+    ],
+    "event_format": "conference",
+    "geographic_focus": "International (rotating)",
+    "frequency": "annual"
+  },
+  {
+    "name": "UC Berkeley Institute of Transportation Studies",
+    "description": "Leading transportation research center with faculty spanning economics, engineering, and planning. Hosts seminars, publishes working papers, and trains the next generation of transportation researchers.",
+    "category": "Research Centers",
+    "subcategory": "Transportation Economics & Analytics",
+    "url": "https://its.berkeley.edu/",
+    "type": "Research Center",
+    "location": "Berkeley, CA",
+    "dates": "Ongoing",
+    "attendees": null,
+    "best_for": "Researchers seeking collaborations, students considering PhD programs",
+    "tags": [
+      "Transportation",
+      "Research",
+      "Berkeley",
+      "Academic"
+    ],
+    "start_date": null,
+    "end_date": null,
+    "difficulty": null,
+    "prerequisites": [],
+    "topic_tags": [
+      "transportation",
+      "research-center",
+      "academia"
+    ],
+    "summary": "UC Berkeley ITS is one of the world's premier transportation research institutes. Home to leading scholars in transportation economics, policy, and engineering with active seminar series and working paper publications.",
+    "use_cases": [
+      "Find working papers",
+      "Attend seminars",
+      "Explore PhD programs",
+      "Seek collaborations"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "Berkeley transportation research",
+      "ITS Berkeley",
+      "transportation PhD Berkeley",
+      "transportation research center"
+    ],
+    "event_format": "research_center",
+    "geographic_focus": "Berkeley, CA",
+    "frequency": "ongoing"
   }
 ]
