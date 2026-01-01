@@ -2,6 +2,33 @@
 {{ $topicId := .Params.topic_id }}
 {{ $topic := index (where .Site.Data.papers.topics "id" $topicId) 0 }}
 
+<!-- CollectionPage Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "{{ $topic.name }} Papers",
+  "description": "{{ $topic.description }}",
+  "url": "{{ .Permalink }}",
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListElement": [{{ $idx := 0 }}{{ range $topic.subtopics }}{{ range .papers }}{{ if $idx }},{{ end }}
+      {
+        "@type": "ListItem",
+        "position": {{ add $idx 1 }},
+        "item": {
+          "@type": "ScholarlyArticle",
+          "name": "{{ .title }}",
+          "author": "{{ .authors }}",
+          "datePublished": "{{ .year }}",
+          "url": "{{ .url }}"
+        }
+      }{{ $idx = add $idx 1 }}{{ end }}{{ end }}
+    ]
+  }
+}
+</script>
+
 <!-- Hero Section -->
 <header class="hero hero-with-image hero-papers">
     <div class="hero-breadcrumb">

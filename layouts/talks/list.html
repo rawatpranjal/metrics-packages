@@ -69,7 +69,7 @@
                     <div class="resource-card" data-name="{{ .name | lower }}" data-description="{{ .description | lower }}" data-category="{{ .category }}">
                         {{ if .image_url }}
                         <a href="{{ .url }}" target="_blank" class="talk-thumbnail-link">
-                            <img src="{{ .image_url }}" alt="" class="talk-thumbnail" loading="lazy">
+                            <img src="{{ .image_url }}" alt="{{ .name }}" class="talk-thumbnail" loading="lazy">
                         </a>
                         {{ else if findRE "youtube\\.com/@|youtube\\.com/c/|youtube\\.com/channel/" .url }}
                         <a href="{{ .url }}" target="_blank" class="talk-thumbnail-link talk-thumbnail-yt-channel">
@@ -82,7 +82,7 @@
                         {{ else if findRE "youtube\\.com|youtu\\.be" .url }}
                         {{ $videoId := replaceRE ".*(?:v=|youtu\\.be/)([^&?]+).*" "$1" .url }}
                         <a href="{{ .url }}" target="_blank" class="talk-thumbnail-link">
-                            <img src="https://img.youtube.com/vi/{{ $videoId }}/mqdefault.jpg" alt="" class="talk-thumbnail" loading="lazy">
+                            <img src="https://img.youtube.com/vi/{{ $videoId }}/mqdefault.jpg" alt="{{ .name }}" class="talk-thumbnail" loading="lazy">
                             <div class="play-overlay">
                                 <svg viewBox="0 0 24 24" width="48" height="48" fill="white">
                                     <polygon points="5,3 19,12 5,21"></polygon>

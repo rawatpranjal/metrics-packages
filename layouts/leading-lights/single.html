@@ -3,6 +3,25 @@
 {{ $person := index (where .Site.Data.leading_lights "slug" $slug) 0 }}
 
 {{ if $person }}
+<!-- Person Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ $person.name }}",
+  "jobTitle": "{{ $person.title }}",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "{{ $person.company }}"
+  },
+  "image": "{{ $person.image }}",
+  "url": "{{ .Permalink }}",
+  "description": "{{ $person.bio | truncate 200 }}",
+  "alumniOf": "{{ $person.phd }}"{{ with $person.links }},
+  "sameAs": [{{ $first := true }}{{ with .personal }}{{ if not $first }},{{ end }}{{ $first = false }}"{{ . }}"{{ end }}{{ with .scholar }}{{ if not $first }},{{ end }}{{ $first = false }}"{{ . }}"{{ end }}{{ with .twitter }}{{ if not $first }},{{ end }}{{ $first = false }}"{{ . }}"{{ end }}{{ with .linkedin }}{{ if not $first }},{{ end }}{{ $first = false }}"{{ . }}"{{ end }}]{{ end }}
+}
+</script>
+
 <!-- Hero Section with Large Photo -->
 <header class="profile-hero">
     <div class="profile-hero-content">
