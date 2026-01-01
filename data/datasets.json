@@ -13617,5 +13617,1030 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium"
+  },
+  {
+    "name": "Google Dataset Search",
+    "description": "Search engine indexing 45M+ datasets from 13,000+ websites using schema.org metadata",
+    "category": "Dataset Aggregators",
+    "url": "https://datasetsearch.research.google.com",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "search",
+      "discovery",
+      "meta-search",
+      "aggregator"
+    ],
+    "best_for": "Discovering datasets across government portals, research institutions, and commercial providers",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "data discovery"
+    ],
+    "summary": "Google Dataset Search indexes 45+ million datasets from over 13,000 websites. Functions like Google Scholar for datasets, with filters for data type, license, format, and date.",
+    "use_cases": [
+      "Finding datasets by topic",
+      "Discovering government open data",
+      "Locating research datasets"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Where can I search for datasets?",
+      "How do I find public datasets?",
+      "What is Google Dataset Search?"
+    ],
+    "domain_tags": [
+      "General"
+    ],
+    "data_modality": "various",
+    "size_category": "aggregator"
+  },
+  {
+    "name": "Kaggle Datasets",
+    "description": "50,000+ public datasets with free GPU notebooks and active ML community of 23M members",
+    "category": "Dataset Aggregators",
+    "url": "https://www.kaggle.com/datasets",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "ML",
+      "competitions",
+      "notebooks",
+      "community"
+    ],
+    "best_for": "Applied machine learning with financial, economic, and pricing datasets",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "machine learning",
+      "data science"
+    ],
+    "summary": "Kaggle hosts 50,000+ public datasets alongside competitions and free GPU notebooks. Owned by Google, with usability scores and direct notebook integration.",
+    "use_cases": [
+      "ML model training",
+      "Competition datasets",
+      "Learning data science"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Where can I find ML datasets?",
+      "What datasets are on Kaggle?",
+      "How do I access Kaggle data?"
+    ],
+    "domain_tags": [
+      "ML",
+      "Data Science"
+    ],
+    "data_modality": "various",
+    "size_category": "aggregator"
+  },
+  {
+    "name": "Hugging Face Datasets",
+    "description": "659,000+ datasets across text, image, audio, and tabular with one-line data loaders",
+    "category": "Dataset Aggregators",
+    "url": "https://huggingface.co/datasets",
+    "docs_url": "https://huggingface.co/docs/datasets",
+    "github_url": "https://github.com/huggingface/datasets",
+    "tags": [
+      "NLP",
+      "AI",
+      "ML",
+      "transformers",
+      "streaming"
+    ],
+    "best_for": "Modern AI/NLP research with seamless ML framework integration",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "NLP",
+      "deep learning",
+      "AI"
+    ],
+    "summary": "Hugging Face has emerged as the largest ML dataset hub with 659,000+ datasets. One-line data loaders and streaming capabilities for large datasets make it indispensable for modern AI research.",
+    "use_cases": [
+      "NLP model training",
+      "LLM fine-tuning",
+      "Multimodal AI research"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Where can I find NLP datasets?",
+      "What is Hugging Face Datasets?",
+      "How do I load datasets in Python?"
+    ],
+    "domain_tags": [
+      "AI",
+      "NLP"
+    ],
+    "data_modality": "various",
+    "size_category": "aggregator"
+  },
+  {
+    "name": "UCI Machine Learning Repository",
+    "description": "688 curated benchmark datasets since 1987 - gold standard for ML research",
+    "category": "Dataset Aggregators",
+    "url": "https://archive.ics.uci.edu",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "benchmarks",
+      "classic",
+      "ML",
+      "academic"
+    ],
+    "best_for": "Benchmark datasets with extensive documentation for reproducible ML research",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "machine learning",
+      "benchmarks"
+    ],
+    "summary": "The gold standard for benchmark datasets since 1987, hosting 688 curated datasets with extensive documentation. Classic datasets like Adult Income and Bank Marketing serve economics applications.",
+    "use_cases": [
+      "ML benchmarking",
+      "Algorithm comparison",
+      "Teaching ML"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What are classic ML datasets?",
+      "Where is the UCI repository?",
+      "What datasets are used for ML benchmarks?"
+    ],
+    "domain_tags": [
+      "ML"
+    ],
+    "data_modality": "various",
+    "size_category": "aggregator"
+  },
+  {
+    "name": "Papers With Code Datasets",
+    "description": "Datasets linked to research papers, code implementations, and SOTA leaderboards",
+    "category": "Dataset Aggregators",
+    "url": "https://paperswithcode.com/datasets",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "reproducibility",
+      "SOTA",
+      "benchmarks",
+      "papers"
+    ],
+    "best_for": "Tracking which datasets power cutting-edge ML research with code links",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "research",
+      "reproducibility"
+    ],
+    "summary": "Links datasets directly to research papers, code implementations, and state-of-the-art leaderboards. Essential for tracking which datasets power cutting-edge ML research.",
+    "use_cases": [
+      "Finding SOTA datasets",
+      "Reproducible research",
+      "Tracking benchmarks"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What datasets are used in SOTA papers?",
+      "Where can I find datasets with code?",
+      "How do I find benchmark datasets?"
+    ],
+    "domain_tags": [
+      "Research"
+    ],
+    "data_modality": "various",
+    "size_category": "aggregator"
+  },
+  {
+    "name": "OpenML",
+    "description": "ML benchmarking platform with standardized train-test splits for reproducible comparisons",
+    "category": "Dataset Aggregators",
+    "url": "https://www.openml.org",
+    "docs_url": "https://docs.openml.org",
+    "github_url": "https://github.com/openml/openml-python",
+    "tags": [
+      "benchmarking",
+      "reproducibility",
+      "ML",
+      "AutoML"
+    ],
+    "best_for": "Reproducible ML benchmarking with standardized experimental setups",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "machine learning",
+      "benchmarks"
+    ],
+    "summary": "Specializes in reproducible benchmarking with standardized train-test splits enabling direct comparisons across studies. Integrates with scikit-learn and AutoML frameworks.",
+    "use_cases": [
+      "Algorithm benchmarking",
+      "AutoML experiments",
+      "Reproducible ML"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "How do I benchmark ML algorithms?",
+      "What is OpenML?",
+      "Where can I find standardized ML datasets?"
+    ],
+    "domain_tags": [
+      "ML"
+    ],
+    "data_modality": "tabular",
+    "size_category": "aggregator"
+  },
+  {
+    "name": "Zenodo",
+    "description": "CERN-operated research data repository with DOI citations, accepts all file types up to 50GB",
+    "category": "Dataset Aggregators",
+    "url": "https://zenodo.org",
+    "docs_url": "https://help.zenodo.org",
+    "github_url": null,
+    "tags": [
+      "DOI",
+      "CERN",
+      "open science",
+      "preservation"
+    ],
+    "best_for": "Publishing and preserving research data with persistent DOI citations",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "research data",
+      "open science"
+    ],
+    "summary": "Operated by CERN under the EU OpenAIRE program, accepts all file types up to 50GB and integrates with GitHub for software preservation. Provides free DOI assignment.",
+    "use_cases": [
+      "Publishing research data",
+      "Data preservation",
+      "GitHub integration"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "How do I publish research data?",
+      "What is Zenodo?",
+      "How do I get a DOI for my dataset?"
+    ],
+    "domain_tags": [
+      "Research"
+    ],
+    "data_modality": "various",
+    "size_category": "aggregator"
+  },
+  {
+    "name": "Harvard Dataverse",
+    "description": "Global network of 120+ Dataverse installations hosting 75,000+ datasets with free 1TB storage",
+    "category": "Dataset Aggregators",
+    "url": "https://dataverse.harvard.edu",
+    "docs_url": "https://guides.dataverse.org",
+    "github_url": "https://github.com/IQSS/dataverse",
+    "tags": [
+      "social science",
+      "replication",
+      "DOI",
+      "academic"
+    ],
+    "best_for": "Social science data with support for Stata, SPSS, and R formats",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "social science",
+      "research data"
+    ],
+    "summary": "Anchors a global network of 120+ Dataverse installations in 38 countries, hosting 75,000+ datasets. Free storage up to 1TB with support for Stata, SPSS, and R formats.",
+    "use_cases": [
+      "Publishing social science data",
+      "Replication packages",
+      "Academic data sharing"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Where can I find social science datasets?",
+      "What is Dataverse?",
+      "How do I share research data?"
+    ],
+    "domain_tags": [
+      "Social Science"
+    ],
+    "data_modality": "various",
+    "size_category": "aggregator"
+  },
+  {
+    "name": "FRED (Federal Reserve Economic Data)",
+    "description": "816,000+ US macroeconomic time series from 100+ sources with free API",
+    "category": "Dataset Aggregators",
+    "url": "https://fred.stlouisfed.org",
+    "docs_url": "https://fred.stlouisfed.org/docs/api/fred/",
+    "github_url": null,
+    "tags": [
+      "macro",
+      "economics",
+      "time series",
+      "Fed",
+      "API"
+    ],
+    "best_for": "US macroeconomic research - Paul Krugman called it 'the most amazing economics website'",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "macroeconomics",
+      "monetary policy"
+    ],
+    "summary": "The premier resource for US macroeconomic research with 816,000+ time series from 100+ sources. Features GeoFRED mapping, ALFRED for vintage data, and free API with Python/R/Excel libraries.",
+    "use_cases": [
+      "Macro forecasting",
+      "Economic research",
+      "Policy analysis"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Where can I find US economic data?",
+      "What is FRED?",
+      "How do I access Fed data?"
+    ],
+    "domain_tags": [
+      "Economics",
+      "Macro"
+    ],
+    "data_modality": "time series",
+    "size_category": "aggregator"
+  },
+  {
+    "name": "Data.gov",
+    "description": "370,000+ datasets from US federal, state, and local agencies",
+    "category": "Dataset Aggregators",
+    "url": "https://data.gov",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "government",
+      "US",
+      "open data",
+      "CKAN"
+    ],
+    "best_for": "Central clearinghouse for BLS, Census, BEA, and trade data",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "government data",
+      "open data"
+    ],
+    "summary": "Aggregates 370,000+ datasets from US federal, state, and local agencies implementing the OPEN Government Data Act. Built on open-source CKAN software.",
+    "use_cases": [
+      "Government statistics",
+      "Policy research",
+      "Economic indicators"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Where is US government data?",
+      "What is Data.gov?",
+      "How do I find federal datasets?"
+    ],
+    "domain_tags": [
+      "Government"
+    ],
+    "data_modality": "various",
+    "size_category": "aggregator"
+  },
+  {
+    "name": "World Bank Open Data",
+    "description": "1,400+ development indicators for 217 economies spanning 50+ years with free API",
+    "category": "Dataset Aggregators",
+    "url": "https://data.worldbank.org",
+    "docs_url": "https://datahelpdesk.worldbank.org",
+    "github_url": null,
+    "tags": [
+      "development",
+      "international",
+      "poverty",
+      "GDP",
+      "API"
+    ],
+    "best_for": "Cross-country comparisons in development economics and poverty research",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "development economics",
+      "international"
+    ],
+    "summary": "Provides 1,400+ development indicators for 217 economies spanning 50+ years. Free API (no key required) and DataBank query tool essential for cross-country comparisons.",
+    "use_cases": [
+      "Development research",
+      "Cross-country analysis",
+      "Poverty studies"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Where can I find international economic data?",
+      "What data does World Bank have?",
+      "How do I compare countries?"
+    ],
+    "domain_tags": [
+      "Development",
+      "International"
+    ],
+    "data_modality": "time series",
+    "size_category": "aggregator"
+  },
+  {
+    "name": "IMF Data",
+    "description": "International macroeconomic forecasts, BOP, and financial statistics for 195 countries",
+    "category": "Dataset Aggregators",
+    "url": "https://data.imf.org",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "macro",
+      "international",
+      "forecasts",
+      "BOP",
+      "IFS"
+    ],
+    "best_for": "World Economic Outlook forecasts and International Financial Statistics",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "macroeconomics",
+      "international finance"
+    ],
+    "summary": "Delivers authoritative international macroeconomic forecasts including World Economic Outlook, International Financial Statistics, and Balance of Payments data for 195 member countries.",
+    "use_cases": [
+      "Macro forecasting",
+      "International finance research",
+      "Policy analysis"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Where are IMF forecasts?",
+      "What is IMF data?",
+      "How do I access WEO data?"
+    ],
+    "domain_tags": [
+      "International",
+      "Macro"
+    ],
+    "data_modality": "time series",
+    "size_category": "aggregator"
+  },
+  {
+    "name": "OECD Data",
+    "description": "Harmonized indicators for 38 member countries - gold standard for advanced economy comparisons",
+    "category": "Dataset Aggregators",
+    "url": "https://data-explorer.oecd.org",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "OECD",
+      "international",
+      "harmonized",
+      "SDMX",
+      "API"
+    ],
+    "best_for": "Harmonized cross-country comparisons for advanced economies",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "international economics",
+      "policy"
+    ],
+    "summary": "Offers harmonized indicators for 38 member countries with SDMX API for programmatic access. The gold standard for advanced economy comparisons.",
+    "use_cases": [
+      "Cross-country analysis",
+      "Policy comparisons",
+      "Economic indicators"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Where is OECD data?",
+      "How do I compare OECD countries?",
+      "What data does OECD provide?"
+    ],
+    "domain_tags": [
+      "International",
+      "Policy"
+    ],
+    "data_modality": "time series",
+    "size_category": "aggregator"
+  },
+  {
+    "name": "EU Open Data Portal",
+    "description": "2 million datasets from 205 catalogues across 36 European countries",
+    "category": "Dataset Aggregators",
+    "url": "https://data.europa.eu",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "EU",
+      "Europe",
+      "Eurostat",
+      "open data"
+    ],
+    "best_for": "European economic data including comprehensive Eurostat statistics",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "European economics",
+      "open data"
+    ],
+    "summary": "Consolidates 2 million datasets from 205 catalogues across 36 European countries, including comprehensive Eurostat economic data.",
+    "use_cases": [
+      "European research",
+      "Eurostat access",
+      "Cross-EU comparisons"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Where is European data?",
+      "What is EU Open Data?",
+      "How do I access Eurostat?"
+    ],
+    "domain_tags": [
+      "Europe",
+      "Government"
+    ],
+    "data_modality": "various",
+    "size_category": "aggregator"
+  },
+  {
+    "name": "ICPSR",
+    "description": "World's largest social science archive - 250,000+ files across 16,000 studies since 1962",
+    "category": "Dataset Aggregators",
+    "url": "https://www.icpsr.umich.edu",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "social science",
+      "surveys",
+      "GSS",
+      "ANES",
+      "academic"
+    ],
+    "best_for": "GSS, ANES, World Values Survey - essential for empirical economics research",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "social science",
+      "surveys"
+    ],
+    "summary": "World's largest social science archive at University of Michigan since 1962, maintaining 250,000+ files across 16,000 studies. Requires institutional membership or per-dataset fees.",
+    "use_cases": [
+      "Survey research",
+      "Social science analysis",
+      "Empirical economics"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What is ICPSR?",
+      "Where can I find GSS data?",
+      "How do I access social science surveys?"
+    ],
+    "domain_tags": [
+      "Social Science",
+      "Academic"
+    ],
+    "data_modality": "survey",
+    "size_category": "aggregator"
+  },
+  {
+    "name": "AEA Data and Code Repository",
+    "description": "Replication packages for all AEA publications since 2019 with DOI-assigned packages",
+    "category": "Dataset Aggregators",
+    "url": "https://www.openicpsr.org/openicpsr/search/aea/studies",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "replication",
+      "AEA",
+      "economics",
+      "reproducibility"
+    ],
+    "best_for": "Verifying published empirical work with data, code, and documentation",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "replication",
+      "economics research"
+    ],
+    "summary": "Archives all replication packages for American Economic Association publications since 2019. Free access enables verification of published empirical work with DOI-assigned packages.",
+    "use_cases": [
+      "Replication studies",
+      "Learning econometrics",
+      "Research verification"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Where are AEA replication files?",
+      "How do I replicate economics papers?",
+      "What is the AEA data repository?"
+    ],
+    "domain_tags": [
+      "Economics",
+      "Academic"
+    ],
+    "data_modality": "various",
+    "size_category": "aggregator"
+  },
+  {
+    "name": "IPUMS",
+    "description": "Harmonized microdata from US Census (1850-present), ACS, CPS, and 103+ countries' censuses",
+    "category": "Dataset Aggregators",
+    "url": "https://www.ipums.org",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "census",
+      "microdata",
+      "harmonized",
+      "demographics"
+    ],
+    "best_for": "Harmonized census microdata across time and countries - free for academic research",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "demographics",
+      "census"
+    ],
+    "summary": "Delivers harmonized microdata from US Census (1850-present), American Community Survey, Current Population Survey, and 103+ countries' censuses. Free for academic research with registration.",
+    "use_cases": [
+      "Demographic research",
+      "Historical analysis",
+      "Cross-country comparisons"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Where can I find census microdata?",
+      "What is IPUMS?",
+      "How do I access ACS data?"
+    ],
+    "domain_tags": [
+      "Demographics",
+      "Census"
+    ],
+    "data_modality": "microdata",
+    "size_category": "aggregator"
+  },
+  {
+    "name": "World Inequality Database",
+    "description": "Income and wealth inequality data for 100+ countries by Piketty, Saez, and Zucman",
+    "category": "Dataset Aggregators",
+    "url": "https://wid.world",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "inequality",
+      "wealth",
+      "income",
+      "Piketty"
+    ],
+    "best_for": "Income and wealth distribution research with free visualization tools",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "inequality",
+      "wealth distribution"
+    ],
+    "summary": "Tracks income and wealth inequality across 100+ countries, led by Piketty, Saez, and Zucman. Freely accessible data and visualization tools.",
+    "use_cases": [
+      "Inequality research",
+      "Wealth distribution analysis",
+      "Policy studies"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Where is inequality data?",
+      "What is WID?",
+      "How do I access Piketty's data?"
+    ],
+    "domain_tags": [
+      "Inequality",
+      "Economics"
+    ],
+    "data_modality": "time series",
+    "size_category": "aggregator"
+  },
+  {
+    "name": "AWS Open Data Registry",
+    "description": "300+ petabytes across hundreds of datasets - Common Crawl, satellite imagery, genomics",
+    "category": "Dataset Aggregators",
+    "url": "https://registry.opendata.aws",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "cloud",
+      "petabyte",
+      "Common Crawl",
+      "satellite",
+      "genomics"
+    ],
+    "best_for": "Large-scale data - Common Crawl (300B+ web pages), satellite imagery, genomics",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "AWS account"
+    ],
+    "topic_tags": [
+      "cloud computing",
+      "big data"
+    ],
+    "summary": "Hosts 300+ petabytes across hundreds of datasets with AWS covering storage costs. Key holdings include Common Crawl (300 billion+ web pages), TCGA genomics, and Sentinel-2 satellite imagery.",
+    "use_cases": [
+      "LLM training data",
+      "Satellite analysis",
+      "Genomics research"
+    ],
+    "audience": [
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Where is Common Crawl data?",
+      "What datasets does AWS host?",
+      "How do I access large public datasets?"
+    ],
+    "domain_tags": [
+      "Cloud",
+      "Big Data"
+    ],
+    "data_modality": "various",
+    "size_category": "aggregator"
+  },
+  {
+    "name": "Google Cloud Public Datasets",
+    "description": "20+ petabytes across 200+ datasets with 1TB free BigQuery queries monthly",
+    "category": "Dataset Aggregators",
+    "url": "https://cloud.google.com/datasets",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "cloud",
+      "BigQuery",
+      "climate",
+      "blockchain",
+      "COVID"
+    ],
+    "best_for": "SQL-based analysis of climate, blockchain, and Google Trends data",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "GCP account"
+    ],
+    "topic_tags": [
+      "cloud computing",
+      "BigQuery"
+    ],
+    "summary": "Offers 20+ petabytes across 200+ datasets with 1TB of free BigQuery queries monthly. Native BigQuery integration for ERA5 climate, blockchain records, and Google Trends.",
+    "use_cases": [
+      "Climate research",
+      "Blockchain analysis",
+      "Trend analysis"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What datasets are on Google Cloud?",
+      "How do I query public datasets?",
+      "Where is Google Trends data?"
+    ],
+    "domain_tags": [
+      "Cloud",
+      "Big Data"
+    ],
+    "data_modality": "various",
+    "size_category": "aggregator"
+  },
+  {
+    "name": "Criteo AI Lab Datasets",
+    "description": "World's largest public ML dataset - 1TB Click Logs with 4 billion advertising events",
+    "category": "Dataset Aggregators",
+    "url": "https://ailab.criteo.com/ressources/",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "advertising",
+      "CTR",
+      "recommendations",
+      "benchmark"
+    ],
+    "best_for": "Click-through rate prediction and recommendation systems benchmarks",
+    "difficulty": "advanced",
+    "prerequisites": [],
+    "topic_tags": [
+      "ad tech",
+      "recommendations"
+    ],
+    "summary": "Released the world's largest public ML dataset - 1TB Click Logs with 4 billion advertising events. De facto standard for CTR prediction and recommendation systems research.",
+    "use_cases": [
+      "CTR modeling",
+      "Recommendation systems",
+      "Ad tech research"
+    ],
+    "audience": [
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Where is the Criteo dataset?",
+      "What is the largest click dataset?",
+      "How do I benchmark CTR models?"
+    ],
+    "domain_tags": [
+      "Advertising",
+      "ML"
+    ],
+    "data_modality": "tabular",
+    "size_category": "large"
+  },
+  {
+    "name": "WRDS (Wharton Research Data Services)",
+    "description": "350+ terabytes from CRSP, Compustat, TAQ - de facto standard for academic finance",
+    "category": "Dataset Aggregators",
+    "url": "https://wrds-www.wharton.upenn.edu",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "finance",
+      "CRSP",
+      "Compustat",
+      "academic",
+      "premium"
+    ],
+    "best_for": "Publication in top finance journals - requires institutional subscription",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "Institutional access"
+    ],
+    "topic_tags": [
+      "finance",
+      "accounting"
+    ],
+    "summary": "De facto standard for academic finance, hosting 350+ terabytes from CRSP, Compustat, TAQ, and other premium vendors. Requires institutional subscription with PhD-level support.",
+    "use_cases": [
+      "Finance research",
+      "Asset pricing",
+      "Corporate finance"
+    ],
+    "audience": [
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What is WRDS?",
+      "Where can I access CRSP data?",
+      "How do I get Compustat data?"
+    ],
+    "domain_tags": [
+      "Finance",
+      "Academic"
+    ],
+    "data_modality": "time series",
+    "size_category": "aggregator"
+  },
+  {
+    "name": "Nasdaq Data Link",
+    "description": "250+ datasets from 400+ publishers with API access - formerly Quandl",
+    "category": "Dataset Aggregators",
+    "url": "https://data.nasdaq.com",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "finance",
+      "Quandl",
+      "alternative data",
+      "API"
+    ],
+    "best_for": "Financial econometrics and alternative data research with Python/R/Excel",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "finance",
+      "alternative data"
+    ],
+    "summary": "Formerly Quandl, offers 250+ datasets from 400+ publishers with API access in Python, R, and Excel. Free tier allows 25 requests/day; premium unlocks additional datasets.",
+    "use_cases": [
+      "Financial modeling",
+      "Alternative data",
+      "Quant research"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What happened to Quandl?",
+      "Where is Nasdaq data?",
+      "How do I access financial APIs?"
+    ],
+    "domain_tags": [
+      "Finance"
+    ],
+    "data_modality": "time series",
+    "size_category": "aggregator"
+  },
+  {
+    "name": "Alpha Vantage",
+    "description": "NASDAQ-licensed stock data for 200,000+ tickers with free tier (25 requests/day)",
+    "category": "Dataset Aggregators",
+    "url": "https://www.alphavantage.co",
+    "docs_url": "https://www.alphavantage.co/documentation/",
+    "github_url": null,
+    "tags": [
+      "stocks",
+      "free",
+      "API",
+      "technical indicators"
+    ],
+    "best_for": "Individual researchers needing free stock data with 50+ technical indicators",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "stocks",
+      "technical analysis"
+    ],
+    "summary": "Provides NASDAQ-licensed data covering 200,000+ tickers with a free tier (25 requests/day) and 50+ technical indicators. Good for preliminary research.",
+    "use_cases": [
+      "Stock analysis",
+      "Technical indicators",
+      "Learning finance APIs"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "Where can I get free stock data?",
+      "What is Alpha Vantage?",
+      "How do I access stock APIs?"
+    ],
+    "domain_tags": [
+      "Finance",
+      "Stocks"
+    ],
+    "data_modality": "time series",
+    "size_category": "aggregator"
   }
 ]
