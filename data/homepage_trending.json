@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-01T19:30:47.531538Z",
+  "updated": "2026-01-01T19:42:44.016082Z",
   "count": 12,
   "items": [
     {
@@ -19,139 +19,19 @@
       "rank": 1
     },
     {
-      "name": "causal-learn",
-      "type": "package",
-      "category": "Causal Discovery & Graphical Models",
-      "description": "Comprehensive Python package serving as Python translation and extension of Java-based Tetrad toolkit for causal discovery algorithms.",
-      "url": "https://github.com/py-why/causal-learn",
-      "score": 0.9011,
-      "cold_start": false,
-      "signals": {
-        "clicks": 3,
-        "impressions": 1,
-        "dwell_ms": 5887
-      },
-      "rank": 2
-    },
-    {
       "name": "Causal Inference for the Brave and True",
       "type": "package",
       "category": "Standard Errors, Bootstrapping & Reporting",
       "description": "Modern introduction to causal inference methods (DiD, IV, RDD, Synth, ML-based) with Python code examples.",
       "url": "https://matheusfacure.github.io/python-causality-handbook/",
-      "score": 0.8681,
+      "score": 0.9199,
       "cold_start": false,
       "signals": {
         "clicks": 3,
         "impressions": 8,
         "dwell_ms": 0
       },
-      "rank": 3
-    },
-    {
-      "name": "Ax (Meta Adaptive Experimentation)",
-      "type": "package",
-      "category": "Adaptive Experimentation & Bandits",
-      "description": "Meta's open-source platform for adaptive experimentation. Bayesian optimization, multi-objective optimization, and automated experiment design. Built on BoTorch for AI-assisted experimentation.",
-      "url": "https://ax.dev",
-      "score": 0.854,
-      "cold_start": false,
-      "signals": {
-        "clicks": 2,
-        "impressions": 4,
-        "dwell_ms": 14628
-      },
-      "rank": 4
-    },
-    {
-      "name": "BestBuy",
-      "type": "dataset",
-      "category": "E-Commerce",
-      "description": "Mobile website clicks (~42k) for Xbox games from BestBuy",
-      "url": "https://www.kaggle.com/competitions/acm-sf-chapter-hackathon-big",
-      "score": 0.8004,
-      "cold_start": false,
-      "signals": {
-        "clicks": 3,
-        "impressions": 0,
-        "dwell_ms": 0
-      },
-      "rank": 5
-    },
-    {
-      "name": "Bambi",
-      "type": "package",
-      "category": "Bayesian Econometrics",
-      "description": "High-level interface for building Bayesian GLMMs, built on top of PyMC. Uses formula syntax similar to R's `lme4`.",
-      "url": "https://github.com/bambinos/bambi",
-      "score": 0.7815,
-      "cold_start": false,
-      "signals": {
-        "clicks": 2,
-        "impressions": 2,
-        "dwell_ms": 2587
-      },
-      "rank": 6
-    },
-    {
-      "name": "PyMC Labs Blog",
-      "type": "resource",
-      "category": "Bayesian Methods",
-      "description": "Bayesian causal inference done right. MCMC, probabilistic programming, and causal models from the PyMC team.",
-      "url": "https://www.pymc-labs.com/blog-posts/",
-      "score": 0.7708,
-      "cold_start": false,
-      "signals": {
-        "clicks": 0,
-        "impressions": 11,
-        "dwell_ms": 81189
-      },
-      "rank": 7
-    },
-    {
-      "name": "Coding for Economists (Arthur Turrell)",
-      "type": "resource",
-      "category": "Causal Inference & ML",
-      "description": "Python workflow for economists covering data transformation, econometrics, Bayesian inference, and ML. Modern Python-first approach.",
-      "url": "https://aeturrell.github.io/coding-for-economists/",
-      "score": 0.7646,
-      "cold_start": false,
-      "signals": {
-        "clicks": 2,
-        "impressions": 3,
-        "dwell_ms": 22011
-      },
-      "rank": 8
-    },
-    {
-      "name": "LMSYS-Chat-1M",
-      "type": "dataset",
-      "category": "AI & LLM",
-      "description": "1M real-world conversations with 25 state-of-the-art LLMs spanning 154 languages",
-      "url": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m",
-      "score": 0.7565,
-      "cold_start": false,
-      "signals": {
-        "clicks": 2,
-        "impressions": 1,
-        "dwell_ms": 8517
-      },
-      "rank": 9
-    },
-    {
-      "name": "Ananke",
-      "type": "package",
-      "category": "Causal Discovery & Graphical Models",
-      "description": "Causal inference using graphical models (DAGs), including identification theory and effect estimation.",
-      "url": "https://gitlab.com/causal/ananke",
-      "score": 0.7446,
-      "cold_start": false,
-      "signals": {
-        "clicks": 2,
-        "impressions": 1,
-        "dwell_ms": 0
-      },
-      "rank": 10
+      "rank": 2
     },
     {
       "name": "Scott Cunningham: Causal Inference Substack",
@@ -159,27 +39,147 @@
       "category": "Causal Inference & ML",
       "description": "Substack and podcast 'The Mixtape with Scott' featuring interviews with leading causal inference researchers. Bridges academic methods and practical application.",
       "url": "https://causalinf.substack.com/",
-      "score": 0.7078,
+      "score": 0.7323,
       "cold_start": false,
       "signals": {
         "clicks": 2,
         "impressions": 8,
         "dwell_ms": 18783
       },
-      "rank": 11
+      "rank": 3
     },
     {
-      "name": "DiQAD",
+      "name": "causal-learn",
+      "type": "package",
+      "category": "Causal Discovery & Graphical Models",
+      "description": "Comprehensive Python package serving as Python translation and extension of Java-based Tetrad toolkit for causal discovery algorithms.",
+      "url": "https://github.com/py-why/causal-learn",
+      "score": 0.6436,
+      "cold_start": false,
+      "signals": {
+        "clicks": 3,
+        "impressions": 1,
+        "dwell_ms": 5887
+      },
+      "rank": 4
+    },
+    {
+      "name": "Lyft Engineering",
+      "type": "resource",
+      "category": "Marketplace Economics",
+      "description": "Rideshare economics, forecasting, and marketplace efficiency. Technical deep-dives on pricing, dispatch, and causal inference.",
+      "url": "https://eng.lyft.com/",
+      "score": 0.6413,
+      "cold_start": false,
+      "signals": {
+        "clicks": 3,
+        "impressions": 1,
+        "dwell_ms": 2430
+      },
+      "rank": 5
+    },
+    {
+      "name": "Retail Rocket",
       "type": "dataset",
-      "category": "AI & LLM",
-      "description": "100K real-world user dialogues with comprehensive 6-dimension quality assessment",
-      "url": "https://github.com/yukunZhao/Dataset_Dialogue_quality_evaluation",
-      "score": 0.7068,
+      "category": "E-Commerce",
+      "description": "2.76M events (views, carts, purchases) from 1.4M visitors",
+      "url": "https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset",
+      "score": 0.6156,
+      "cold_start": false,
+      "signals": {
+        "clicks": 3,
+        "impressions": 0,
+        "dwell_ms": 23919
+      },
+      "rank": 6
+    },
+    {
+      "name": "JD.com 2020 (MSOM-20)",
+      "type": "dataset",
+      "category": "E-Commerce",
+      "description": "2.5M customers (457k purchasers) and 31,868 SKUs from JD.com",
+      "url": "https://connect.informs.org/msom/events/datadriven2020",
+      "score": 0.6025,
+      "cold_start": false,
+      "signals": {
+        "clicks": 3,
+        "impressions": 0,
+        "dwell_ms": 4284
+      },
+      "rank": 7
+    },
+    {
+      "name": "spaCy",
+      "type": "package",
+      "category": "Natural Language Processing for Economics",
+      "description": "Industrial-strength NLP library for efficient text processing pipelines (NER, POS tagging, etc.).",
+      "url": "https://github.com/explosion/spaCy",
+      "score": 0.5996,
+      "cold_start": false,
+      "signals": {
+        "clicks": 3,
+        "impressions": 0,
+        "dwell_ms": 0
+      },
+      "rank": 8
+    },
+    {
+      "name": "BestBuy",
+      "type": "dataset",
+      "category": "E-Commerce",
+      "description": "Mobile website clicks (~42k) for Xbox games from BestBuy",
+      "url": "https://www.kaggle.com/competitions/acm-sf-chapter-hackathon-big",
+      "score": 0.5996,
+      "cold_start": false,
+      "signals": {
+        "clicks": 3,
+        "impressions": 0,
+        "dwell_ms": 0
+      },
+      "rank": 9
+    },
+    {
+      "name": "Ax (Meta Adaptive Experimentation)",
+      "type": "package",
+      "category": "Adaptive Experimentation & Bandits",
+      "description": "Meta's open-source platform for adaptive experimentation. Bayesian optimization, multi-objective optimization, and automated experiment design. Built on BoTorch for AI-assisted experimentation.",
+      "url": "https://ax.dev",
+      "score": 0.5693,
       "cold_start": false,
       "signals": {
         "clicks": 2,
-        "impressions": 0,
-        "dwell_ms": 1406
+        "impressions": 4,
+        "dwell_ms": 14628
+      },
+      "rank": 10
+    },
+    {
+      "name": "Coding for Economists (Arthur Turrell)",
+      "type": "resource",
+      "category": "Causal Inference & ML",
+      "description": "Python workflow for economists covering data transformation, econometrics, Bayesian inference, and ML. Modern Python-first approach.",
+      "url": "https://aeturrell.github.io/coding-for-economists/",
+      "score": 0.5342,
+      "cold_start": false,
+      "signals": {
+        "clicks": 2,
+        "impressions": 3,
+        "dwell_ms": 22011
+      },
+      "rank": 11
+    },
+    {
+      "name": "Causal Inference: The Mixtape",
+      "type": "resource",
+      "category": "Causal Inference & ML",
+      "description": "Scott Cunningham's academic-quality but accessible methodology covering causal methods essential for marketing measurement.",
+      "url": "https://mixtape.scunning.com/",
+      "score": 0.5235,
+      "cold_start": false,
+      "signals": {
+        "clicks": 1,
+        "impressions": 8,
+        "dwell_ms": 5906
       },
       "rank": 12
     }

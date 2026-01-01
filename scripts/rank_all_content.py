@@ -18,11 +18,16 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 import numpy as np
-from sklearn.ensemble import GradientBoostingClassifier
-from sklearn.preprocessing import LabelEncoder
+from sklearn.linear_model import Ridge
+from sklearn.preprocessing import StandardScaler
+from sentence_transformers import SentenceTransformer
 
+# Load sentence transformer model for semantic embeddings
+print("Loading sentence-BERT model...")
+SBERT_MODEL = SentenceTransformer('all-MiniLM-L6-v2')
+print("  Model loaded: all-MiniLM-L6-v2 (384 dimensions)")
 
-# Signal weights for fallback scoring
+# Signal weights for engagement scoring
 CLICK_WEIGHT = 5.0
 IMPRESSION_WEIGHT = 1.0
 DWELL_WEIGHT = 1.0  # per minute
@@ -205,9 +210,9 @@ def extract_url_domain(url):
         return 'none'
 
 
-def build_features_for_boosting(items):
-    """Build feature matrix for boosting model."""
-    print("\nBuilding features for boosting model...")
+def build_features_for_regression(items):
+    """Build feature matrix with BERT embeddings for regression model."""
+    print("\nBuilding features for regression model...")
 
     # Collect unique values for encoding (handle None values)
     all_types = list(set(item.get('type') or 'unknown' for item in items))
@@ -221,90 +226,142 @@ def build_features_for_boosting(items):
     difficulty_encoder = {d: i for i, d in enumerate(sorted(all_difficulties))}
     domain_encoder = {d: i for i, d in enumerate(sorted(all_domains))}
 
-    # Build feature matrix
-    features = []
+    # Build categorical/numeric features
+    cat_features = []
+    descriptions = []
+
     for item in items:
         desc = item.get('description') or ''
+        name = item.get('name') or ''
         tags = item.get('tags') or []
         topic_tags = item.get('topic_tags') or []
 
-        feature_row = [
+        # Text for BERT: combine name + description
+        text = f"{name}. {desc}" if desc else name
+        descriptions.append(text)
+
+        cat_row = [
             type_encoder.get(item.get('type') or 'unknown', 0),
             category_encoder.get(item.get('category') or 'other', 0),
             difficulty_encoder.get(item.get('difficulty') or 'intermediate', 0),
             domain_encoder.get(extract_url_domain(item.get('url') or ''), 0),
-            len(desc),  # description length
-            len(tags) if isinstance(tags, list) else 0,  # number of tags
-            len(topic_tags) if isinstance(topic_tags, list) else 0,  # number of topic tags
-            1 if item.get('url') else 0,  # has URL
-            item.get('citations') or 0,  # citations (for papers)
-            len(item.get('name') or ''),  # name length
+            len(desc),
+            len(tags) if isinstance(tags, list) else 0,
+            len(topic_tags) if isinstance(topic_tags, list) else 0,
+            1 if item.get('url') else 0,
+            item.get('citations') or 0,
+            len(name),
         ]
-        features.append(feature_row)
+        cat_features.append(cat_row)
 
-    X = np.array(features)
-    print(f"  Feature matrix shape: {X.shape}")
-    print(f"  Features: type, category, difficulty, domain, desc_len, n_tags, n_topics, has_url, citations, name_len")
+    cat_features = np.array(cat_features)
+    print(f"  Categorical features: {cat_features.shape}")
+
+    # Generate BERT embeddings for descriptions
+    print("  Encoding descriptions with sentence-BERT...")
+    embeddings = SBERT_MODEL.encode(descriptions, show_progress_bar=True, batch_size=64)
+    print(f"  BERT embeddings: {embeddings.shape}")
+
+    # Concatenate categorical + BERT features
+    X = np.hstack([cat_features, embeddings])
+    print(f"  Combined feature matrix: {X.shape}")
 
     return X, {
         'type_encoder': type_encoder,
         'category_encoder': category_encoder,
         'difficulty_encoder': difficulty_encoder,
         'domain_encoder': domain_encoder,
+        'n_categorical': cat_features.shape[1],
+        'n_bert': embeddings.shape[1],
     }
 
 
-def train_boosting_model(items, interacted_names):
-    """Train a boosting model to predict interaction probability."""
-    print("\nTraining boosting model to predict interactions...")
+def train_regression_model(items, item_signals):
+    """Train a regression model to predict engagement score."""
+    print("\nTraining regression model to predict engagement scores...")
 
-    # Build features
-    X, encoders = build_features_for_boosting(items)
+    # Build features with BERT embeddings
+    X, encoders = build_features_for_regression(items)
 
-    # Build labels: 1 if item has any interaction, 0 otherwise
-    y = np.array([1 if item['name'] in interacted_names else 0 for item in items])
+    # Build target: engagement score = clicks*5 + impressions*1 + dwell_minutes
+    y = []
+    for item in items:
+        name = item['name']
+        signals = item_signals.get(name, {})
+        clicks = signals.get('clicks', 0)
+        impressions = signals.get('impressions', 0)
+        dwell_ms = signals.get('dwell_ms', 0)
+        dwell_minutes = dwell_ms / 60000.0
 
-    n_positive = y.sum()
-    n_negative = len(y) - n_positive
-    print(f"  Positive (interacted): {n_positive}")
-    print(f"  Negative (no interaction): {n_negative}")
+        score = clicks * CLICK_WEIGHT + impressions * IMPRESSION_WEIGHT + dwell_minutes * DWELL_WEIGHT
+        y.append(score)
 
-    if n_positive < 5:
-        print("  Not enough positive samples for training")
+    y = np.array(y)
+
+    n_with_score = np.sum(y > 0)
+    print(f"  Items with engagement: {n_with_score}")
+    print(f"  Items without engagement: {len(y) - n_with_score}")
+    print(f"  Max score: {y.max():.2f}, Mean (non-zero): {y[y > 0].mean():.2f}")
+
+    if n_with_score < 5:
+        print("  Not enough samples with engagement for training")
         return None, None, encoders
 
-    # Train GradientBoosting with balanced class weights
-    # Use scale_pos_weight to handle class imbalance
-    scale = n_negative / n_positive
+    # Cross-validation to check for overfitting
+    from sklearn.model_selection import cross_val_score
+    print("\n  Evaluating with 5-fold cross-validation...")
 
-    model = GradientBoostingClassifier(
-        n_estimators=100,
-        max_depth=4,
-        learning_rate=0.1,
-        min_samples_leaf=5,
-        random_state=42
-    )
+    # Scale features for Ridge regression
+    scaler = StandardScaler()
+    X_scaled = scaler.fit_transform(X)
 
-    model.fit(X, y)
-    print(f"  Model trained with {model.n_estimators} trees")
+    # Use Ridge regression - better for high-dimensional sparse targets
+    model = Ridge(alpha=10.0)  # Strong regularization
 
-    # Get predicted probabilities for all items
-    proba = model.predict_proba(X)[:, 1]  # probability of class 1 (interaction)
+    # Cross-validation on items with engagement only (more meaningful)
+    has_engagement = y > 0
+    X_engaged = X_scaled[has_engagement]
+    y_engaged = y[has_engagement]
+
+    cv_scores = cross_val_score(model, X_engaged, y_engaged, cv=5, scoring='r2')
+    print(f"  CV R² scores: {cv_scores}")
+    print(f"  Mean CV R²: {cv_scores.mean():.3f} (+/- {cv_scores.std()*2:.3f})")
+
+    # Train on full data
+    model.fit(X_scaled, y)
+    train_r2 = model.score(X_scaled, y)
+    print(f"  Train R²: {train_r2:.3f}")
+    print(f"  Ridge regression trained (alpha={model.alpha})")
+
+    # Store scaler in encoders for reference
+    encoders['scaler'] = scaler
+
+    # Get predicted scores for all items (use scaled features)
+    predictions = model.predict(X_scaled)
+
+    # Clip negative predictions to 0
+    predictions = np.maximum(predictions, 0)
 
     # Build score dict
     scores = {}
     for i, item in enumerate(items):
-        scores[item['name']] = float(proba[i])
+        scores[item['name']] = float(predictions[i])
 
     print(f"  Scored {len(scores)} items")
+    print(f"  Predicted range: {predictions.min():.2f} to {predictions.max():.2f}")
 
-    # Show feature importances
+    # Show feature importance via coefficient magnitudes
+    n_cat = encoders['n_categorical']
+    coefs = np.abs(model.coef_)
+    cat_coefs = coefs[:n_cat]
+    bert_coef_sum = coefs[n_cat:].sum()
+
     feature_names = ['type', 'category', 'difficulty', 'domain', 'desc_len', 'n_tags', 'n_topics', 'has_url', 'citations', 'name_len']
-    importances = model.feature_importances_
-    sorted_idx = np.argsort(importances)[::-1]
-    print("  Feature importances:")
+    sorted_idx = np.argsort(cat_coefs)[::-1]
+    print("  Top coefficient magnitudes:")
     for idx in sorted_idx[:5]:
-        print(f"    {feature_names[idx]}: {importances[idx]:.3f}")
+        print(f"    {feature_names[idx]}: {cat_coefs[idx]:.3f}")
+    print(f"    BERT embeddings (sum): {bert_coef_sum:.3f}")
 
     return model, scores, encoders
 
@@ -526,39 +583,34 @@ def main():
     raw_scores, item_signals = build_engagement_scores(clicks, impressions, dwell)
     print(f"  Items with engagement data: {len(raw_scores)}")
 
-    # Step 4: Train boosting model to predict interactions
-    model, boosting_scores, encoders = train_boosting_model(items, any_interaction_names)
+    # Step 4: Train regression model to predict engagement scores
+    model, regression_scores, encoders = train_regression_model(items, item_signals)
 
-    # Step 5: Use boosting scores if available, otherwise fall back to weighted
-    if boosting_scores:
-        # Normalize boosting scores (predicted probability)
-        norm_boosting = normalize_scores(boosting_scores)
+    # Step 5: Hybrid scoring - actual engagement for observed, predicted for cold-start
+    if regression_scores:
         # Normalize actual engagement scores
         norm_engagement = normalize_scores(raw_scores)
+        # Normalize predicted scores
+        norm_predicted = normalize_scores(regression_scores)
 
-        # Hybrid scoring: combine prediction with actual engagement
-        # Items with real interactions get boosted
+        # Hybrid: use actual for items with engagement, predicted (discounted) for cold-start
         combined_scores = {}
         for item in items:
             name = item['name']
-            pred_score = norm_boosting.get(name, 0)
-            engagement_score = norm_engagement.get(name, 0)
-
             if name in any_interaction_names:
-                # Real interaction: blend prediction with actual engagement (favor actual)
-                combined_scores[name] = 0.3 * pred_score + 0.7 * engagement_score
+                # Has real interaction - use actual engagement score
+                combined_scores[name] = norm_engagement.get(name, 0)
             else:
-                # Cold start: use prediction only
-                combined_scores[name] = pred_score * 0.5  # Discount cold-start items
+                # Cold start - use predicted score but discount it
+                combined_scores[name] = norm_predicted.get(name, 0) * 0.3  # Cold-start discount
 
-        scoring_method = 'boosting_hybrid'
+        # Re-normalize
+        combined_scores = normalize_scores(combined_scores)
+        scoring_method = 'hybrid_bert'
     else:
         print("  Falling back to weighted scoring...")
         combined_scores = normalize_scores(raw_scores)
         scoring_method = 'weighted'
-
-    # Re-normalize combined scores
-    combined_scores = normalize_scores(combined_scores)
 
     # Step 6: Mark cold start flags (items without real interactions)
     cold_start_flags = {}
@@ -613,19 +665,22 @@ def main():
     # Build output
     output = {
         'updated': datetime.utcnow().isoformat() + 'Z',
-        'algorithm': f'boosting_{scoring_method}',
+        'algorithm': scoring_method,
         'total_items': len(rankings),
         'observed_items': observed_count,
         'cold_start_items': cold_count,
         'coverage': coverage,
         'scoring': {
             'method': scoring_method,
-            'n_estimators': model.n_estimators if model else None,
-            'fallback_weights': {
+            'model': 'ridge' if model else None,
+            'alpha': model.alpha if model and hasattr(model, 'alpha') else None,
+            'n_features': encoders.get('n_categorical', 0) + encoders.get('n_bert', 0) if encoders else None,
+            'n_bert_dims': encoders.get('n_bert', 0) if encoders else None,
+            'target_weights': {
                 'clicks': CLICK_WEIGHT,
                 'impressions': IMPRESSION_WEIGHT,
                 'dwell_per_minute': DWELL_WEIGHT,
-            } if scoring_method == 'weighted' else None,
+            },
         },
         'metadata_fields': [
             'name', 'description', 'summary', 'category', 'tags', 'topic_tags',
@@ -642,8 +697,10 @@ def main():
     print("RANKING SUMMARY")
     print("=" * 60)
     print(f"Scoring method: {scoring_method.upper()}")
-    if model and hasattr(model, 'n_estimators'):
-        print(f"  Boosting trees: {model.n_estimators}")
+    if model and hasattr(model, 'alpha'):
+        print(f"  Ridge alpha: {model.alpha}")
+        if encoders:
+            print(f"  Features: {encoders.get('n_categorical', 0)} categorical + {encoders.get('n_bert', 0)} BERT dims")
     print(f"Total items ranked: {len(rankings)}")
     print(f"  With engagement data: {observed_count}")
     print(f"  Cold start (propagated): {cold_count}")
