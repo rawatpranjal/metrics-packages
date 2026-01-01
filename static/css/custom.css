@@ -9127,17 +9127,6 @@ mark.partial {
     min-width: 240px;
     max-width: 240px;
     height: 200px;
-}
-
-.home-trending .explore-card-desc {
-    font-size: 0.75rem;
-    line-height: 1.4;
-    margin: 0.25rem 0;
-    -webkit-line-clamp: 2;
-    flex-grow: 0;
-}
-
-.home-trending .explore-card {
     flex-direction: column;
     gap: 0;
 }
@@ -9146,19 +9135,23 @@ mark.partial {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    flex-shrink: 0;
     margin-bottom: 0.5rem;
 }
 
 .home-trending .explore-card-icon {
     width: 32px;
     height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+    flex-shrink: 0;
     border-radius: 6px;
     overflow: hidden;
     background: var(--bg-hover);
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
 }
 
 .home-trending .explore-card-icon img {
@@ -9197,8 +9190,15 @@ mark.partial {
 }
 
 .home-trending .explore-card-desc {
+    font-size: 0.75rem;
+    line-height: 1.4;
+    color: var(--text-secondary);
+    margin: 0;
     flex-grow: 1;
+    display: -webkit-box;
     -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .explore-card-category {
