@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-01T00:46:59.557128Z",
+  "updated": "2026-01-01T07:06:30.040033Z",
   "count": 12,
   "items": [
     {
@@ -31,7 +31,7 @@
         "impressions": 3,
         "dwell_ms": 0
       },
-      "rank": 5
+      "rank": 4
     },
     {
       "name": "Retail Rocket",
@@ -46,7 +46,7 @@
         "impressions": 0,
         "dwell_ms": 23919
       },
-      "rank": 11
+      "rank": 13
     },
     {
       "name": "JD.com 2020 (MSOM-20)",
@@ -61,7 +61,7 @@
         "impressions": 0,
         "dwell_ms": 4284
       },
-      "rank": 13
+      "rank": 16
     },
     {
       "name": "spaCy",
@@ -76,7 +76,7 @@
         "impressions": 0,
         "dwell_ms": 0
       },
-      "rank": 15
+      "rank": 18
     },
     {
       "name": "BestBuy",
@@ -91,7 +91,22 @@
         "impressions": 0,
         "dwell_ms": 0
       },
-      "rank": 16
+      "rank": 19
+    },
+    {
+      "name": "Ax (Meta Adaptive Experimentation)",
+      "type": "package",
+      "category": "Adaptive Experimentation & Bandits",
+      "description": "Meta's open-source platform for adaptive experimentation. Bayesian optimization, multi-objective optimization, and automated experiment design. Built on BoTorch for AI-assisted experimentation.",
+      "url": "https://ax.dev",
+      "score": 0.5157,
+      "cold_start": false,
+      "signals": {
+        "clicks": 2,
+        "impressions": 3,
+        "dwell_ms": 14628
+      },
+      "rank": 58
     },
     {
       "name": "Scott Cunningham: Causal Inference Substack",
@@ -106,22 +121,22 @@
         "impressions": 3,
         "dwell_ms": 11820
       },
-      "rank": 66
+      "rank": 63
     },
     {
-      "name": "Ax (Meta Adaptive Experimentation)",
-      "type": "package",
-      "category": "Adaptive Experimentation & Bandits",
-      "description": "Meta's open-source platform for adaptive experimentation. Bayesian optimization, multi-objective optimization, and automated experiment design. Built on BoTorch for AI-assisted experimentation.",
-      "url": "https://ax.dev",
-      "score": 0.4414,
+      "name": "LMSYS-Chat-1M",
+      "type": "dataset",
+      "category": "AI & LLM",
+      "description": "1M real-world conversations with 25 state-of-the-art LLMs spanning 154 languages",
+      "url": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m",
+      "score": 0.4421,
       "cold_start": false,
       "signals": {
         "clicks": 2,
         "impressions": 1,
-        "dwell_ms": 7881
+        "dwell_ms": 8517
       },
-      "rank": 134
+      "rank": 128
     },
     {
       "name": "Google Research: Market Algorithms Team",
@@ -136,7 +151,7 @@
         "impressions": 1,
         "dwell_ms": 0
       },
-      "rank": 145
+      "rank": 149
     },
     {
       "name": "Open E-Commerce 1.0 (MIT)",
@@ -151,22 +166,7 @@
         "impressions": 0,
         "dwell_ms": 4319
       },
-      "rank": 193
-    },
-    {
-      "name": "LMSYS-Chat-1M",
-      "type": "dataset",
-      "category": "AI & LLM",
-      "description": "1M real-world conversations with 25 state-of-the-art LLMs spanning 154 languages",
-      "url": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m",
-      "score": 0.4008,
-      "cold_start": false,
-      "signals": {
-        "clicks": 2,
-        "impressions": 0,
-        "dwell_ms": 1406
-      },
-      "rank": 201
+      "rank": 190
     },
     {
       "name": "DiQAD",
@@ -181,7 +181,7 @@
         "impressions": 0,
         "dwell_ms": 1406
       },
-      "rank": 202
+      "rank": 198
     }
   ]
 }
