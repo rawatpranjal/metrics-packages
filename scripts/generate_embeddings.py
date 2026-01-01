@@ -24,7 +24,7 @@ def get_model():
     """Load the sentence-transformers model."""
     try:
         from sentence_transformers import SentenceTransformer
-        return SentenceTransformer('thenlper/gte-small')
+        return SentenceTransformer('BAAI/bge-large-en-v1.5')
     except ImportError:
         print("Error: sentence-transformers not installed")
         print("Install with: pip install sentence-transformers")
@@ -515,8 +515,8 @@ def generate_all_outputs(items: List[Dict[str, Any]], model, output_dir: Path, c
     # 2. Build metadata (items without embeddings, for client-side matching)
     metadata = {
         "version": 4,  # Bumped for all enriched fields
-        "model": "gte-small",
-        "dimensions": 384,
+        "model": "bge-large-en-v1.5",
+        "dimensions": 1024,
         "count": len(items),
         "generatedAt": datetime.utcnow().isoformat() + "Z",
         "contentHash": content_hash,
@@ -556,8 +556,8 @@ def generate_all_outputs(items: List[Dict[str, Any]], model, output_dir: Path, c
 
     # 4. Legacy JSON format (for backwards compatibility during migration)
     legacy_output = {
-        "model": "gte-small",
-        "dimensions": 384,
+        "model": "bge-large-en-v1.5",
+        "dimensions": 1024,
         "count": len(items),
         "items": []
     }

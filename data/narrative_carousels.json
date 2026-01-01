@@ -3,12 +3,12 @@
   "generated_at": "2024-12-31",
   "description": "Narrative-driven carousels for Netflix-style discovery",
   "stats": {
-    "total": 96,
+    "total": 97,
     "manual": 8,
-    "generated": 89,
+    "generated": 90,
     "by_template": {
       "person": 13,
-      "method": 33,
+      "method": 34,
       "tool": 31,
       "journey": 15,
       "problem": 2,
@@ -372,10 +372,16 @@
           "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3258234"
         },
         {
-          "id": "package-mfilter",
+          "id": "package-causalml",
           "type": "package",
-          "title": "mFilter",
-          "url": "https://cran.r-project.org/package=mFilter"
+          "title": "CausalML",
+          "url": "https://github.com/uber/causalml"
+        },
+        {
+          "id": "talk-susan-athey-applied-researchers-wanted",
+          "type": "talk",
+          "title": "Susan Athey: applied researchers Wanted",
+          "url": "https://www.aeaweb.org/research/athey-luca-interview-tech-economics"
         },
         {
           "id": "dataset-uber-movement",
@@ -390,16 +396,10 @@
           "url": "https://www.amazon.com/Cold-Start-Problem-Andrew-Chen/dp/0062969749"
         },
         {
-          "id": "resource-uber-dynamic-pricing-and-matching-in-ride-hailing",
+          "id": "resource-uber-engineering-causal-inference-at-uber",
           "type": "resource",
-          "title": "Uber: Dynamic Pricing and Matching in Ride-Hailing",
-          "url": "https://www.uber.com/blog/research/dynamic-pricing-and-matching-in-ride-hailing-platforms/"
-        },
-        {
-          "id": "paper-pricing-in-ride-sharing-platforms-a-queueing-theoretic-approach",
-          "type": "paper",
-          "title": "Pricing in Ride-Sharing Platforms: A Queueing-Theoretic Approach",
-          "url": "https://dl.acm.org/doi/10.1145/2764468.2764527"
+          "title": "Uber Engineering: Causal Inference at Uber",
+          "url": "https://www.uber.com/blog/causal-inference-at-uber/"
         }
       ],
       "seed": {
@@ -439,28 +439,28 @@
           "url": "https://github.com/gsbDBI/ExperimentData"
         },
         {
+          "id": "book-health-economics",
+          "type": "book",
+          "title": "Health Economics",
+          "url": "https://www.routledge.com/Health-Economics/Phelps/p/book/9780132948531"
+        },
+        {
           "id": "paper-how-budget-allocation-relates-to-productivity-in-marketing-spending-an-international-comparison",
           "type": "paper",
           "title": "How Budget Allocation Relates to Productivity in Marketing Spending: An International Comparison",
           "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.1110.0665"
         },
         {
-          "id": "book-prediction-machines",
-          "type": "book",
-          "title": "Prediction Machines",
-          "url": "https://www.amazon.com/Prediction-Machines-Economics-Artificial-Intelligence/dp/1633695670"
+          "id": "talk-hbs-managing-the-future-of-work",
+          "type": "talk",
+          "title": "HBS Managing the Future of Work",
+          "url": "https://www.hbs.edu/managing-the-future-of-work/podcast/"
         },
         {
-          "id": "resource-stanford-fintech-lab-rob-wang-block",
+          "id": "resource-stanford-ml-causal-inference-short-course",
           "type": "resource",
-          "title": "Stanford FinTech Lab: Rob Wang (Block)",
-          "url": "https://fintech.stanford.edu/events/aftlab-seminars/rob-wang-square-machine-learning-financial-fraud-detection"
-        },
-        {
-          "id": "dataset-stanford-amazonbeer",
-          "type": "dataset",
-          "title": "Stanford Amazon/Beer",
-          "url": "https://snap.stanford.edu/data/#amazon"
+          "title": "Stanford ML & Causal Inference Short Course",
+          "url": "https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil/research/methods/ai-machine-learning/short-course"
         }
       ],
       "seed": {
@@ -482,16 +482,22 @@
       },
       "items": [
         {
-          "id": "talk-hal-varian-chief-scientist-at-google",
+          "id": "talk-hal-varian-googlenomics-long-read-qa-aei",
           "type": "talk",
-          "title": "Hal Varian: Chief Scientist at Google",
-          "url": "https://www.youtube.com/watch?v=d3CtB_gVV18"
+          "title": "Hal Varian: Googlenomics Long-read Q&A (AEI)",
+          "url": "https://www.aei.org/economics/googlenomics-a-long-read-qa-with-chief-economist-hal-varian/"
         },
         {
-          "id": "resource-hal-varian-machine-learning-and-econometrics-berkeley",
+          "id": "resource-cepr-voxeu-doing-economics-at-google",
           "type": "resource",
-          "title": "Hal Varian: Machine Learning and Econometrics (Berkeley)",
-          "url": "https://www.youtube.com/watch?v=EraG-2p9VuE"
+          "title": "CEPR VoxEU: Doing Economics at Google",
+          "url": "https://cepr.org/multimedia/doing-economics-google"
+        },
+        {
+          "id": "paper-ghost-ads-improving-the-economics-of-measuring-online-ad-effectiveness",
+          "type": "paper",
+          "title": "Ghost Ads: Improving the Economics of Measuring Online Ad Effectiveness",
+          "url": "https://journals.sagepub.com/doi/10.1509/jmr.15.0297"
         },
         {
           "id": "book-information-rules",
@@ -500,28 +506,22 @@
           "url": "https://www.amazon.com/Information-Rules-Strategic-Network-Economy/dp/087584863X"
         },
         {
-          "id": "paper-estimating-uncertainty-for-massive-data-streams",
-          "type": "paper",
-          "title": "Estimating Uncertainty for Massive Data Streams",
-          "url": "https://research.google/pubs/estimating-uncertainty-for-massive-data-streams/"
-        },
-        {
           "id": "package-bsts",
           "type": "package",
           "title": "bsts",
           "url": "https://cran.r-project.org/package=bsts"
         },
         {
-          "id": "dataset-google-merchandise",
+          "id": "dataset-optn-organ-transplant",
           "type": "dataset",
-          "title": "Google Merchandise",
-          "url": "https://www.kaggle.com/datasets/bigquery/google-analytics-sample"
+          "title": "OPTN Organ Transplant",
+          "url": "https://optn.transplant.hrsa.gov/data/"
         },
         {
-          "id": "talk-hal-varian-conversation-at-council-on-foreign-relations",
+          "id": "talk-hal-varian-chief-scientist-at-google",
           "type": "talk",
-          "title": "Hal Varian: Conversation at Council on Foreign Relations",
-          "url": "https://www.cfr.org/event/conversation-googles-hal-varian"
+          "title": "Hal Varian: Chief Scientist at Google",
+          "url": "https://www.youtube.com/watch?v=d3CtB_gVV18"
         }
       ],
       "seed": {
@@ -549,10 +549,10 @@
           "url": "https://tim.blog/2022/01/26/john-list/"
         },
         {
-          "id": "paper-probabilistic-matrix-factorization",
+          "id": "paper-personalization-in-email-marketing-the-role-of-noninformative-advertising-content",
           "type": "paper",
-          "title": "Probabilistic Matrix Factorization",
-          "url": "https://papers.nips.cc/paper/2007/hash/d7322ed717dedf1eb4e6e52a37ea7bcd-Abstract.html"
+          "title": "Personalization in Email Marketing: The Role of Noninformative Advertising Content",
+          "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.2017.1066"
         },
         {
           "id": "package-numpyro",
@@ -567,10 +567,10 @@
           "url": "https://www.pymc-labs.com/blog-posts/"
         },
         {
-          "id": "dataset-brazilian-ecommerce",
+          "id": "dataset-optn-organ-transplant",
           "type": "dataset",
-          "title": "Brazilian eCommerce",
-          "url": "https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce"
+          "title": "OPTN Organ Transplant",
+          "url": "https://optn.transplant.hrsa.gov/data/"
         },
         {
           "id": "book-priceless",
@@ -579,10 +579,10 @@
           "url": "https://www.amazon.com/Priceless-Myth-Fair-Value-Advantage/dp/0809078813"
         },
         {
-          "id": "paper-personalization-in-email-marketing-the-role-of-noninformative-advertising-content",
-          "type": "paper",
-          "title": "Personalization in Email Marketing: The Role of Noninformative Advertising Content",
-          "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.2017.1066"
+          "id": "talk-john-list-voltage-effect-and-life-at-uberlyftwalmart",
+          "type": "talk",
+          "title": "John List: Voltage Effect and Life at Uber/Lyft/Walmart",
+          "url": "https://podcasts.apple.com/us/podcast/045-john-list-on-the-voltage-effect-life-at-uber-lyft/id1575240086?i=1000579563856"
         }
       ],
       "seed": {
@@ -616,16 +616,16 @@
           "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3258234"
         },
         {
-          "id": "resource-uber-dynamic-pricing-and-matching-in-ride-hailing",
+          "id": "resource-uber-engineering-causal-inference-at-uber",
           "type": "resource",
-          "title": "Uber: Dynamic Pricing and Matching in Ride-Hailing",
-          "url": "https://www.uber.com/blog/research/dynamic-pricing-and-matching-in-ride-hailing-platforms/"
+          "title": "Uber Engineering: Causal Inference at Uber",
+          "url": "https://www.uber.com/blog/causal-inference-at-uber/"
         },
         {
-          "id": "dataset-office-supplies-dmda-2023",
-          "type": "dataset",
-          "title": "Office Supplies (DMDA 2023)",
-          "url": "https://sites.google.com/view/dmdaworkshop2023/data-challenge"
+          "id": "package-causalml",
+          "type": "package",
+          "title": "CausalML",
+          "url": "https://github.com/uber/causalml"
         },
         {
           "id": "book-the-cold-start-problem",
@@ -683,16 +683,16 @@
           "url": "https://www.sciencedirect.com/science/article/pii/S0167718718301395"
         },
         {
-          "id": "dataset-brazilian-ecommerce",
-          "type": "dataset",
-          "title": "Brazilian eCommerce",
-          "url": "https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce"
+          "id": "package-fairlearn",
+          "type": "package",
+          "title": "Fairlearn",
+          "url": "https://fairlearn.org/"
         },
         {
-          "id": "book-matchmakers",
+          "id": "book-the-cold-start-problem",
           "type": "book",
-          "title": "Matchmakers",
-          "url": "https://www.amazon.com/Matchmakers-New-Economics-Multisided-Platforms/dp/1633691721"
+          "title": "The Cold Start Problem",
+          "url": "https://www.amazon.com/Cold-Start-Problem-Andrew-Chen/dp/0062969749"
         },
         {
           "id": "talk-kyle-kretschman-economics-as-storytelling-ut-austin",
@@ -701,10 +701,10 @@
           "url": "https://lifeandletters.la.utexas.edu/2022/12/economics-as-storytelling-alumni-qa-with-kyle-kretschman/"
         },
         {
-          "id": "resource-rochet-tirole-platform-competition-in-two-sided-markets",
+          "id": "resource-thumbtack-engineering-blog",
           "type": "resource",
-          "title": "Rochet & Tirole: Platform Competition in Two-Sided Markets",
-          "url": "https://www.jstor.org/stable/3590105"
+          "title": "Thumbtack Engineering Blog",
+          "url": "https://medium.com/thumbtack-engineering"
         }
       ],
       "seed": {
@@ -750,16 +750,16 @@
           "url": "https://www.amazon.com/Priceless-Myth-Fair-Value-Advantage/dp/0809078813"
         },
         {
-          "id": "talk-the-mixtape-with-scott-cunningham",
+          "id": "talk-steve-tadelis-trust-and-reputation-in-game-theory-game-changer",
           "type": "talk",
-          "title": "The Mixtape with Scott Cunningham",
-          "url": "https://causalinf.substack.com/podcast"
+          "title": "Steve Tadelis: Trust and Reputation in Game Theory (Game Changer)",
+          "url": "https://tws-gamechanger.libsyn.com/playing-nice-trust-and-reputation-in-game-theory-ecommerce-and-vaccinations-with-steve-tadelis"
         },
         {
-          "id": "resource-knowledge-project-102-sendhil-mullainathan",
+          "id": "resource-recast-blog-mmm-verification",
           "type": "resource",
-          "title": "Knowledge Project #102: Sendhil Mullainathan",
-          "url": "https://fs.blog/knowledge-project-podcast/sendhil-mullainathan/"
+          "title": "Recast Blog: MMM Verification",
+          "url": "https://www.getrecast.com/blog"
         },
         {
           "id": "dataset-codalab",
@@ -796,19 +796,19 @@
           "id": "package-econml",
           "type": "package",
           "title": "EconML",
-          "url": "https://github.com/py-why/EconML"
+          "url": "https://github.com/microsoft/EconML"
         },
         {
-          "id": "resource-gsp-auction-paper-edelman-et-al-aer-2007",
+          "id": "resource-kdd-2021-tutorial-causal-inference-with-econml-and-causalml",
           "type": "resource",
-          "title": "GSP Auction Paper (Edelman et al., AER 2007)",
-          "url": "https://www.benedelman.org/publications/gsp-060801.pdf"
+          "title": "KDD 2021 Tutorial: Causal Inference with EconML and CausalML",
+          "url": "https://causal-machine-learning.github.io/kdd2021-tutorial/"
         },
         {
-          "id": "dataset-microsoft-research",
+          "id": "dataset-optn-organ-transplant",
           "type": "dataset",
-          "title": "Microsoft Research",
-          "url": "https://www.microsoft.com/en-us/research/tools/"
+          "title": "OPTN Organ Transplant",
+          "url": "https://optn.transplant.hrsa.gov/data/"
         },
         {
           "id": "book-who-gets-what-and-why",
@@ -817,10 +817,10 @@
           "url": "https://www.amazon.com/Who-Gets-What-Why-Matchmaking/dp/0544291131"
         },
         {
-          "id": "paper-diagnosing-sample-ratio-mismatch-in-online-controlled-experiments-a-taxonomy-and-rules-of-thumb-for-practitioners",
+          "id": "paper-risk-based-authentication-practical-deployments-and-research-challenges",
           "type": "paper",
-          "title": "Diagnosing Sample Ratio Mismatch in Online Controlled Experiments: A Taxonomy and Rules of Thumb for Practitioners",
-          "url": "https://dl.acm.org/doi/10.1145/3292500.3330722"
+          "title": "Risk-Based Authentication: Practical Deployments and Research Challenges",
+          "url": "https://riskbasedauthentication.org/publications/"
         },
         {
           "id": "talk-experimentation-masters",
@@ -860,16 +860,22 @@
           "url": "https://github.com/OpenSourceEconomics/dcegm"
         },
         {
-          "id": "resource-leetcode-sql-50",
+          "id": "resource-lyft-engineering",
           "type": "resource",
-          "title": "LeetCode SQL 50",
-          "url": "https://leetcode.com/studyplan/top-sql-50/"
+          "title": "Lyft Engineering",
+          "url": "https://eng.lyft.com/"
         },
         {
           "id": "dataset-jdcom-2020-msom-20",
           "type": "dataset",
           "title": "JD.com 2020 (MSOM-20)",
           "url": "https://connect.informs.org/msom/events/datadriven2020"
+        },
+        {
+          "id": "book-sprawlball-a-visual-tour-of-the-new-era-of-the-nba",
+          "type": "book",
+          "title": "Sprawlball: A Visual Tour of the New Era of the NBA",
+          "url": "https://www.amazon.com/Sprawlball-Visual-Tour-New-Era/dp/1328767515"
         },
         {
           "id": "paper-the-no-u-turn-sampler-adaptively-setting-path-lengths-in-hamiltonian-monte-carlo",
@@ -882,12 +888,6 @@
           "type": "talk",
           "title": "ML for Pricing & Auctions (ICML)",
           "url": "https://www.youtube.com/watch?v=gsPWQqVhb74"
-        },
-        {
-          "id": "package-rsample",
-          "type": "package",
-          "title": "rsample",
-          "url": "https://cran.r-project.org/package=rsample"
         }
       ],
       "seed": {
@@ -915,10 +915,10 @@
           "url": "https://www.youtube.com/channel/UCe9KREYNZuvgnDe0lQWi6Vw"
         },
         {
-          "id": "resource-tim-roughgardens-cs364a-mechanism-design",
+          "id": "resource-dirk-bergemanns-yale-courses",
           "type": "resource",
-          "title": "Tim Roughgarden's CS364A: Mechanism Design",
-          "url": "https://timroughgarden.org/f13/f13.html"
+          "title": "Dirk Bergemann's Yale Courses",
+          "url": "https://campuspress.yale.edu/dirkbergemann/"
         },
         {
           "id": "paper-auctions-and-bidding-a-guide-for-computer-scientists",
@@ -939,16 +939,16 @@
           "url": "https://www.fcc.gov/auctions-summary"
         },
         {
-          "id": "talk-nikhil-devanur-lagrangian-duality-in-mechanism-design",
+          "id": "talk-glen-weyl-radical-markets",
           "type": "talk",
-          "title": "Nikhil Devanur: Lagrangian Duality in Mechanism Design",
-          "url": "https://mediaspace.gatech.edu/media/Nikhil+Devanur+-+Lagrangian+Duality+in+Mechanism+Design/1_oj4qzj8x"
+          "title": "Glen Weyl: Radical Markets",
+          "url": "https://www.youtube.com/watch?v=yxVikHslgHA"
         },
         {
-          "id": "resource-jonathan-levins-revenue-equivalence-notes",
+          "id": "resource-tim-roughgardens-cs364a-mechanism-design",
           "type": "resource",
-          "title": "Jonathan Levin's Revenue Equivalence Notes",
-          "url": "https://economics.utoronto.ca/damiano/ps426/RET-Levin-Notes.pdf"
+          "title": "Tim Roughgarden's CS364A: Mechanism Design",
+          "url": "https://timroughgarden.org/f13/f13.html"
         }
       ],
       "seed": {
@@ -970,10 +970,10 @@
       },
       "items": [
         {
-          "id": "talk-steve-tadelis-does-advertising-actually-work-freakonomics",
+          "id": "talk-nber-economics-of-ai-toronto-2017",
           "type": "talk",
-          "title": "Steve Tadelis: Does Advertising Actually Work? (Freakonomics)",
-          "url": "https://freakonomics.com/podcast/does-advertising-actually-work-part-2-digital-ep-441/"
+          "title": "NBER Economics of AI: Toronto 2017",
+          "url": "https://www.economicsofai.com/nber-conference-toronto-2017"
         },
         {
           "id": "package-matching",
@@ -1055,10 +1055,10 @@
           "url": "https://transferlab.ai/trainings/beyond-jupyter/"
         },
         {
-          "id": "package-rdd",
+          "id": "package-pingouin",
           "type": "package",
-          "title": "rdd",
-          "url": "https://github.com/evan-magnusson/rdd"
+          "title": "Pingouin",
+          "url": "https://github.com/raphaelvallat/pingouin"
         }
       ],
       "seed": {
@@ -1097,10 +1097,10 @@
           "url": "https://docs.scipy.org/doc/scipy/reference/stats.html"
         },
         {
-          "id": "package-scipyoptimize",
+          "id": "package-pingouin",
           "type": "package",
-          "title": "scipy.optimize",
-          "url": "https://docs.scipy.org/doc/scipy/reference/optimize.html"
+          "title": "Pingouin",
+          "url": "https://github.com/raphaelvallat/pingouin"
         },
         {
           "id": "package-pingouin",
@@ -1190,13 +1190,13 @@
           "id": "package-dowhy",
           "type": "package",
           "title": "DoWhy",
-          "url": "https://github.com/py-why/dowhy"
+          "url": "https://www.pywhy.org/dowhy/"
         },
         {
           "id": "package-econml",
           "type": "package",
           "title": "EconML",
-          "url": "https://github.com/py-why/EconML"
+          "url": "https://github.com/microsoft/EconML"
         }
       ],
       "seed": {
@@ -1631,10 +1631,10 @@
           "url": "https://github.com/statsmodels/statsmodels"
         },
         {
-          "id": "package-augurs",
+          "id": "package-prophet",
           "type": "package",
-          "title": "Augurs",
-          "url": "https://crates.io/crates/augurs"
+          "title": "Prophet",
+          "url": "https://facebook.github.io/prophet/"
         }
       ],
       "seed": {
@@ -1643,17 +1643,233 @@
       }
     },
     {
+      "id": "tools-standard-errors-bootstrapping-reporting",
+      "template": "tool",
+      "name": "Standard Errors, Bootstrapping & Reporting Toolkit",
+      "description": "Essential tools for standard errors, bootstrapping & reporting",
+      "hero": {
+        "id": "package-wildboottest",
+        "type": "package",
+        "title": "wildboottest",
+        "url": "https://github.com/py-econometrics/wildboottest"
+      },
+      "items": [
+        {
+          "id": "package-scipy-bootstrap",
+          "type": "package",
+          "title": "SciPy Bootstrap",
+          "url": "https://github.com/scipy/scipy"
+        },
+        {
+          "id": "package-causal-inference-for-the-brave-and-true",
+          "type": "package",
+          "title": "Causal Inference for the Brave and True",
+          "url": "https://matheusfacure.github.io/python-causality-handbook/"
+        },
+        {
+          "id": "package-coding-for-economists",
+          "type": "package",
+          "title": "Coding for Economists",
+          "url": "https://aeturrell.github.io/coding-for-economists/"
+        },
+        {
+          "id": "package-beyond-jupyter-transferlab",
+          "type": "package",
+          "title": "Beyond Jupyter (TransferLab)",
+          "url": "https://transferlab.ai/trainings/beyond-jupyter/"
+        },
+        {
+          "id": "package-deep-learning-specialization-coursera",
+          "type": "package",
+          "title": "Deep Learning Specialization (Coursera)",
+          "url": "https://www.coursera.org/specializations/deep-learning"
+        },
+        {
+          "id": "package-python-for-econometrics",
+          "type": "package",
+          "title": "Python for Econometrics",
+          "url": "https://www.kevinsheppard.com/files/teaching/python/notes/python_introduction_2023.pdf"
+        },
+        {
+          "id": "package-awesome-quant",
+          "type": "package",
+          "title": "Awesome Quant",
+          "url": "https://wilsonfreitas.github.io/awesome-quant/"
+        },
+        {
+          "id": "resource-growth-accounting-backtraced-growth-accounting",
+          "type": "resource",
+          "title": "Growth Accounting & Backtraced Growth Accounting",
+          "url": "https://bytepawn.com/growth-accounting-and-backtraced-growth-accounting.html"
+        },
+        {
+          "id": "talk-econometrics-hansen",
+          "type": "talk",
+          "title": "Econometrics (Hansen)",
+          "url": "https://www.ssc.wisc.edu/~bhansen/econometrics/"
+        },
+        {
+          "id": "paper-bootstrap-methods-for-standard-errors-confidence-intervals-and-other-measures-of-statistical-accuracy",
+          "type": "paper",
+          "title": "Bootstrap Methods for Standard Errors, Confidence Intervals, and Other Measures of Statistical Accuracy",
+          "url": "https://projecteuclid.org/journals/statistical-science/volume-1/issue-1/Bootstrap-Methods-for-Standard-Errors-Confidence-Intervals-and-Other-Measures/10.1214/ss/1177013815.full"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Standard Errors, Bootstrapping & Reporting"
+      }
+    },
+    {
+      "id": "tools-causal-discovery-graphical-models",
+      "template": "tool",
+      "name": "Causal Discovery & Graphical Models Toolkit",
+      "description": "Essential tools for causal discovery & graphical models",
+      "hero": {
+        "id": "package-causal-learn",
+        "type": "package",
+        "title": "causal-learn",
+        "url": "https://github.com/py-why/causal-learn"
+      },
+      "items": [
+        {
+          "id": "package-ananke",
+          "type": "package",
+          "title": "Ananke",
+          "url": "https://gitlab.com/causal/ananke"
+        },
+        {
+          "id": "package-dagitty",
+          "type": "package",
+          "title": "dagitty",
+          "url": "https://cran.r-project.org/package=dagitty"
+        },
+        {
+          "id": "package-ggdag",
+          "type": "package",
+          "title": "ggdag",
+          "url": "https://cran.r-project.org/package=ggdag"
+        },
+        {
+          "id": "package-causal-llm-bfs",
+          "type": "package",
+          "title": "causal-llm-bfs",
+          "url": "https://github.com/superkaiba/causal-llm-bfs"
+        },
+        {
+          "id": "package-gcastle",
+          "type": "package",
+          "title": "gCastle",
+          "url": "https://github.com/huawei-noah/trustworthyAI"
+        },
+        {
+          "id": "package-lingam",
+          "type": "package",
+          "title": "LiNGAM",
+          "url": "https://github.com/cdt15/lingam"
+        },
+        {
+          "id": "package-tigramite",
+          "type": "package",
+          "title": "Tigramite",
+          "url": "https://github.com/jakobrunge/tigramite"
+        },
+        {
+          "id": "talk-jonathaninterviews-data-science-careers-causal-inference",
+          "type": "talk",
+          "title": "Jonathan.Interviews: Data Science Careers & Causal Inference",
+          "url": "https://www.youtube.com/@data-science-interviews"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog",
+          "url": "https://www.pymc-labs.com/blog-posts/"
+        },
+        {
+          "id": "resource-brady-neals-introduction-to-causal-inference",
+          "type": "resource",
+          "title": "Brady Neal's Introduction to Causal Inference",
+          "url": "https://www.bradyneal.com/causal-inference-course"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Causal Discovery & Graphical Models"
+      }
+    },
+    {
+      "id": "tools-natural-language-processing-for-economics",
+      "template": "tool",
+      "name": "Natural Language Processing for Economics Toolkit",
+      "description": "Essential tools for natural language processing for economics",
+      "hero": {
+        "id": "package-gensim",
+        "type": "package",
+        "title": "Gensim",
+        "url": "https://github.com/RaRe-Technologies/gensim"
+      },
+      "items": [
+        {
+          "id": "package-spacy",
+          "type": "package",
+          "title": "spaCy",
+          "url": "https://github.com/explosion/spaCy"
+        },
+        {
+          "id": "package-transformers",
+          "type": "package",
+          "title": "Transformers",
+          "url": "https://github.com/huggingface/transformers"
+        },
+        {
+          "id": "package-causalnlp",
+          "type": "package",
+          "title": "CausalNLP",
+          "url": "https://github.com/amaiya/causalnlp"
+        },
+        {
+          "id": "resource-google-ai-blog",
+          "type": "resource",
+          "title": "Google AI Blog",
+          "url": "https://ai.googleblog.com/"
+        },
+        {
+          "id": "talk-pat-bajari-amazon-data-science-day-keynote-columbia",
+          "type": "talk",
+          "title": "Pat Bajari: Amazon Data Science Day Keynote (Columbia)",
+          "url": "https://datascience.columbia.edu/news/2021/amazon-economist-pat-bajari-delivers-data-science-day-2021-keynote/"
+        },
+        {
+          "id": "dataset-ethos-hate-speech",
+          "type": "dataset",
+          "title": "ETHOS Hate Speech",
+          "url": "https://zenodo.org/records/4459923"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Natural Language Processing for Economics"
+      }
+    },
+    {
       "id": "tools-adaptive-experimentation-bandits",
       "template": "tool",
       "name": "Adaptive Experimentation & Bandits Toolkit",
       "description": "Essential tools for adaptive experimentation & bandits",
       "hero": {
-        "id": "package-bayesianbandits",
+        "id": "package-ax-meta-adaptive-experimentation",
         "type": "package",
-        "title": "BayesianBandits",
-        "url": "https://github.com/bayesianbandits/bayesianbandits"
+        "title": "Ax (Meta Adaptive Experimentation)",
+        "url": "https://ax.dev"
       },
       "items": [
+        {
+          "id": "package-bayesianbandits",
+          "type": "package",
+          "title": "BayesianBandits",
+          "url": "https://github.com/bayesianbandits/bayesianbandits"
+        },
         {
           "id": "package-contextualbandits",
           "type": "package",
@@ -1677,12 +1893,6 @@
           "type": "package",
           "title": "abracadabra",
           "url": "https://pypi.org/project/abracadabra/"
-        },
-        {
-          "id": "package-ax-meta-adaptive-experimentation",
-          "type": "package",
-          "title": "Ax (Meta Adaptive Experimentation)",
-          "url": "https://ax.dev"
         },
         {
           "id": "package-pyxab",
@@ -1709,69 +1919,15 @@
           "url": "https://tor-lattimore.com/downloads/book/book.pdf"
         },
         {
-          "id": "resource-eugene-yan-bandits-for-recommender-systems",
+          "id": "resource-haus-blog-synthetic-control-geo-experimentation",
           "type": "resource",
-          "title": "Eugene Yan: Bandits for Recommender Systems",
-          "url": "https://eugeneyan.com/writing/bandits/"
+          "title": "Haus Blog: Synthetic Control & Geo-Experimentation",
+          "url": "https://www.haus.io/blog"
         }
       ],
       "seed": {
         "type": "tool",
         "category": "Adaptive Experimentation & Bandits"
-      }
-    },
-    {
-      "id": "tools-agentic-ai",
-      "template": "tool",
-      "name": "Agentic AI Toolkit",
-      "description": "Essential tools for agentic ai",
-      "hero": {
-        "id": "package-langchain",
-        "type": "package",
-        "title": "langchain",
-        "url": "https://python.langchain.com/"
-      },
-      "items": [
-        {
-          "id": "package-langgraph",
-          "type": "package",
-          "title": "langgraph",
-          "url": "https://langchain-ai.github.io/langgraph/"
-        },
-        {
-          "id": "package-crewai",
-          "type": "package",
-          "title": "crewai",
-          "url": "https://www.crewai.com/"
-        },
-        {
-          "id": "package-openai-agents",
-          "type": "package",
-          "title": "openai-agents",
-          "url": "https://openai.github.io/openai-agents-python/"
-        },
-        {
-          "id": "resource-walmart-global-tech",
-          "type": "resource",
-          "title": "Walmart Global Tech",
-          "url": "https://tech.walmart.com/"
-        },
-        {
-          "id": "resource-pymc-labs-blog",
-          "type": "resource",
-          "title": "PyMC Labs Blog",
-          "url": "https://www.pymc-labs.com/blog-posts/"
-        },
-        {
-          "id": "resource-coding-for-economists-arthur-turrell",
-          "type": "resource",
-          "title": "Coding for Economists (Arthur Turrell)",
-          "url": "https://aeturrell.github.io/coding-for-economists/"
-        }
-      ],
-      "seed": {
-        "type": "tool",
-        "category": "Agentic AI"
       }
     },
     {
@@ -1817,15 +1973,429 @@
           "url": "https://www.pymc-labs.com/blog-posts/"
         },
         {
-          "id": "resource-python-for-econometrics",
+          "id": "resource-statistical-rethinking",
           "type": "resource",
-          "title": "Python for Econometrics",
-          "url": "https://bashtage.github.io/kevinsheppard.com/teaching/python/notes/"
+          "title": "Statistical Rethinking",
+          "url": "https://xcelab.net/rm/statistical-rethinking/"
         }
       ],
       "seed": {
         "type": "tool",
         "category": "Bayesian Econometrics"
+      }
+    },
+    {
+      "id": "tools-doubledebiased-machine-learning-dml",
+      "template": "tool",
+      "name": "Double/Debiased Machine Learning (DML) Toolkit",
+      "description": "Essential tools for double/debiased machine learning (dml)",
+      "hero": {
+        "id": "package-econml",
+        "type": "package",
+        "title": "EconML",
+        "url": "https://github.com/py-why/EconML"
+      },
+      "items": [
+        {
+          "id": "package-doubleml",
+          "type": "package",
+          "title": "DoubleML",
+          "url": "https://github.com/DoubleML/doubleml-for-py"
+        },
+        {
+          "id": "package-doubly-debiased-lasso",
+          "type": "package",
+          "title": "Doubly-Debiased-Lasso",
+          "url": "https://github.com/zijguo/Doubly-Debiased-Lasso"
+        },
+        {
+          "id": "package-synapseml",
+          "type": "package",
+          "title": "SynapseML",
+          "url": "https://github.com/microsoft/SynapseML"
+        },
+        {
+          "id": "package-pyhtelasso",
+          "type": "package",
+          "title": "pyhtelasso",
+          "url": "https://pypi.org/project/pyhtelasso/"
+        },
+        {
+          "id": "package-pydoublelasso",
+          "type": "package",
+          "title": "pydoublelasso",
+          "url": "https://pypi.org/project/pydoublelasso/"
+        },
+        {
+          "id": "resource-doubledebiased-machine-learning-guide",
+          "type": "resource",
+          "title": "Double/Debiased Machine Learning Guide",
+          "url": "https://dmlguide.github.io/"
+        },
+        {
+          "id": "resource-applied-causal-inference-book-chernozhukov-et-al",
+          "type": "resource",
+          "title": "Applied Causal Inference Book (Chernozhukov et al.)",
+          "url": "https://causalml-book.org/"
+        },
+        {
+          "id": "paper-doubledebiased-machine-learning-for-treatment-and-structural-parameters",
+          "type": "paper",
+          "title": "Double/Debiased Machine Learning for Treatment and Structural Parameters",
+          "url": "https://academic.oup.com/ectj/article/21/1/C1/5056401"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Double/Debiased Machine Learning (DML)"
+      }
+    },
+    {
+      "id": "tools-healthcare-economics-health-tech",
+      "template": "tool",
+      "name": "Healthcare Economics & Health-Tech Toolkit",
+      "description": "Essential tools for healthcare economics & health-tech",
+      "hero": {
+        "id": "package-econml",
+        "type": "package",
+        "title": "EconML",
+        "url": "https://econml.azurewebsites.net/"
+      },
+      "items": [
+        {
+          "id": "package-causalml",
+          "type": "package",
+          "title": "CausalML",
+          "url": "https://github.com/uber/causalml"
+        },
+        {
+          "id": "package-lifelines",
+          "type": "package",
+          "title": "lifelines",
+          "url": "https://lifelines.readthedocs.io/"
+        },
+        {
+          "id": "package-bcea",
+          "type": "package",
+          "title": "BCEA",
+          "url": "https://cran.r-project.org/web/packages/BCEA/"
+        },
+        {
+          "id": "package-fhirclient",
+          "type": "package",
+          "title": "fhirclient",
+          "url": "https://github.com/smart-on-fhir/client-py"
+        },
+        {
+          "id": "package-monai",
+          "type": "package",
+          "title": "MONAI",
+          "url": "https://monai.io/"
+        },
+        {
+          "id": "package-hesim",
+          "type": "package",
+          "title": "hesim",
+          "url": "https://hesim-dev.github.io/hesim/"
+        },
+        {
+          "id": "package-heemod",
+          "type": "package",
+          "title": "heemod",
+          "url": "https://pierucci.org/heemod/"
+        },
+        {
+          "id": "resource-coursera-the-economics-of-health-care-delivery",
+          "type": "resource",
+          "title": "Coursera: The Economics of Health Care Delivery",
+          "url": "https://www.coursera.org/learn/health-economics-us-healthcare-systems"
+        },
+        {
+          "id": "resource-georgetown-ma-in-security-studies",
+          "type": "resource",
+          "title": "Georgetown MA in Security Studies",
+          "url": "https://sfs.georgetown.edu/programs/masters-security-studies/"
+        },
+        {
+          "id": "resource-rochet-tirole-two-sided-markets-rand",
+          "type": "resource",
+          "title": "Rochet & Tirole: Two-Sided Markets (RAND)",
+          "url": "https://www.jstor.org/stable/1593720"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Healthcare Economics & Health-Tech"
+      }
+    },
+    {
+      "id": "tools-causal-inference",
+      "template": "tool",
+      "name": "Causal Inference Toolkit",
+      "description": "Essential tools for causal inference",
+      "hero": {
+        "id": "package-econml",
+        "type": "package",
+        "title": "EconML",
+        "url": "https://econml.azurewebsites.net/"
+      },
+      "items": [
+        {
+          "id": "package-dowhy",
+          "type": "package",
+          "title": "DoWhy",
+          "url": "https://www.pywhy.org/dowhy/"
+        },
+        {
+          "id": "package-causalml",
+          "type": "package",
+          "title": "CausalML",
+          "url": "https://causalml.readthedocs.io/"
+        },
+        {
+          "id": "package-causalimpact",
+          "type": "package",
+          "title": "CausalImpact",
+          "url": "https://google.github.io/CausalImpact/"
+        },
+        {
+          "id": "package-geolift",
+          "type": "package",
+          "title": "GeoLift",
+          "url": "https://facebookincubator.github.io/GeoLift/"
+        },
+        {
+          "id": "resource-causal-inference-for-the-brave-and-true",
+          "type": "resource",
+          "title": "Causal Inference for the Brave and True",
+          "url": "https://matheusfacure.github.io/python-causality-handbook/"
+        },
+        {
+          "id": "resource-scott-cunningham-causal-inference-substack",
+          "type": "resource",
+          "title": "Scott Cunningham: Causal Inference Substack",
+          "url": "https://causalinf.substack.com/"
+        },
+        {
+          "id": "resource-lyft-engineering",
+          "type": "resource",
+          "title": "Lyft Engineering",
+          "url": "https://eng.lyft.com/"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Causal Inference"
+      }
+    },
+    {
+      "id": "tools-martech-customer-analytics",
+      "template": "tool",
+      "name": "MarTech & Customer Analytics Toolkit",
+      "description": "Essential tools for martech & customer analytics",
+      "hero": {
+        "id": "package-econml",
+        "type": "package",
+        "title": "EconML",
+        "url": "https://github.com/microsoft/EconML"
+      },
+      "items": [
+        {
+          "id": "package-causalml",
+          "type": "package",
+          "title": "CausalML",
+          "url": "https://github.com/uber/causalml"
+        },
+        {
+          "id": "package-lifetimes",
+          "type": "package",
+          "title": "lifetimes",
+          "url": "https://github.com/CamDavidsonPilon/lifetimes"
+        },
+        {
+          "id": "package-pymc-marketing",
+          "type": "package",
+          "title": "PyMC-Marketing",
+          "url": "https://www.pymc-marketing.io/"
+        },
+        {
+          "id": "package-btydplus",
+          "type": "package",
+          "title": "BTYDplus",
+          "url": "https://github.com/mplatzer/BTYDplus"
+        },
+        {
+          "id": "package-causalpy",
+          "type": "package",
+          "title": "CausalPy",
+          "url": "https://github.com/pymc-labs/CausalPy"
+        },
+        {
+          "id": "package-clvtools",
+          "type": "package",
+          "title": "CLVTools",
+          "url": "https://www.clvtools.com/"
+        },
+        {
+          "id": "package-recbole",
+          "type": "package",
+          "title": "RecBole",
+          "url": "https://recbole.io/"
+        },
+        {
+          "id": "resource-pymc-marketing-clv-quickstart",
+          "type": "resource",
+          "title": "PyMC-Marketing CLV Quickstart",
+          "url": "https://www.pymc-marketing.io/en/latest/notebooks/clv/clv_quickstart.html"
+        },
+        {
+          "id": "resource-pymc-marketing-documentation",
+          "type": "resource",
+          "title": "PyMC-Marketing Documentation",
+          "url": "https://www.pymc-marketing.io/en/stable/"
+        },
+        {
+          "id": "resource-growth-accounting-backtraced-growth-accounting",
+          "type": "resource",
+          "title": "Growth Accounting & Backtraced Growth Accounting",
+          "url": "https://bytepawn.com/growth-accounting-and-backtraced-growth-accounting.html"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "MarTech & Customer Analytics"
+      }
+    },
+    {
+      "id": "tools-causal-inference-matching",
+      "template": "tool",
+      "name": "Causal Inference & Matching Toolkit",
+      "description": "Essential tools for causal inference & matching",
+      "hero": {
+        "id": "package-causallib",
+        "type": "package",
+        "title": "CausalLib",
+        "url": "https://github.com/IBM/causallib"
+      },
+      "items": [
+        {
+          "id": "package-causalinference",
+          "type": "package",
+          "title": "CausalInference",
+          "url": "https://github.com/laurencium/causalinference"
+        },
+        {
+          "id": "package-dowhy",
+          "type": "package",
+          "title": "DoWhy",
+          "url": "https://github.com/py-why/dowhy"
+        },
+        {
+          "id": "package-mcf-modified-causal-forest",
+          "type": "package",
+          "title": "mcf (Modified Causal Forest)",
+          "url": "https://github.com/MCFpy/mcf"
+        },
+        {
+          "id": "package-y0",
+          "type": "package",
+          "title": "y0",
+          "url": "https://github.com/y0-causal-inference/y0"
+        },
+        {
+          "id": "package-causalplayground",
+          "type": "package",
+          "title": "CausalPlayground",
+          "url": "https://github.com/sa-and/CausalPlayground"
+        },
+        {
+          "id": "package-scikit-uplift",
+          "type": "package",
+          "title": "scikit-uplift",
+          "url": "https://github.com/maks-sh/scikit-uplift"
+        },
+        {
+          "id": "package-causalml",
+          "type": "package",
+          "title": "CausalML",
+          "url": "https://github.com/uber/causalml"
+        },
+        {
+          "id": "resource-stanford-ml-causal-inference-short-course",
+          "type": "resource",
+          "title": "Stanford ML & Causal Inference Short Course",
+          "url": "https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil/research/methods/ai-machine-learning/short-course"
+        },
+        {
+          "id": "resource-uber-engineering-causal-inference-at-uber",
+          "type": "resource",
+          "title": "Uber Engineering: Causal Inference at Uber",
+          "url": "https://www.uber.com/blog/causal-inference-at-uber/"
+        },
+        {
+          "id": "resource-tilburg-science-hub-rdd-tutorials",
+          "type": "resource",
+          "title": "Tilburg Science Hub RDD Tutorials",
+          "url": "https://tilburgsciencehub.com/topics/analyze/causal-inference/rdd/fuzzy-rdd/"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Causal Inference & Matching"
+      }
+    },
+    {
+      "id": "tools-agentic-ai",
+      "template": "tool",
+      "name": "Agentic AI Toolkit",
+      "description": "Essential tools for agentic ai",
+      "hero": {
+        "id": "package-langchain",
+        "type": "package",
+        "title": "langchain",
+        "url": "https://python.langchain.com/"
+      },
+      "items": [
+        {
+          "id": "package-langgraph",
+          "type": "package",
+          "title": "langgraph",
+          "url": "https://langchain-ai.github.io/langgraph/"
+        },
+        {
+          "id": "package-crewai",
+          "type": "package",
+          "title": "crewai",
+          "url": "https://www.crewai.com/"
+        },
+        {
+          "id": "package-openai-agents",
+          "type": "package",
+          "title": "openai-agents",
+          "url": "https://openai.github.io/openai-agents-python/"
+        },
+        {
+          "id": "resource-walmart-global-tech",
+          "type": "resource",
+          "title": "Walmart Global Tech",
+          "url": "https://tech.walmart.com/"
+        },
+        {
+          "id": "resource-causal-inference-for-the-brave-and-true",
+          "type": "resource",
+          "title": "Causal Inference for the Brave and True",
+          "url": "https://matheusfacure.github.io/python-causality-handbook/"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog",
+          "url": "https://www.pymc-labs.com/blog-posts/"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Agentic AI"
       }
     },
     {
@@ -1859,16 +2429,16 @@
           "url": "https://cran.r-project.org/package=rstanarm"
         },
         {
-          "id": "resource-pymc-labs-blog",
-          "type": "resource",
-          "title": "PyMC Labs Blog",
-          "url": "https://www.pymc-labs.com/blog-posts/"
-        },
-        {
           "id": "resource-coding-for-economists-arthur-turrell",
           "type": "resource",
           "title": "Coding for Economists (Arthur Turrell)",
           "url": "https://aeturrell.github.io/coding-for-economists/"
+        },
+        {
+          "id": "resource-pymc-labs-blog",
+          "type": "resource",
+          "title": "PyMC Labs Blog",
+          "url": "https://www.pymc-labs.com/blog-posts/"
         },
         {
           "id": "resource-statistical-rethinking",
@@ -1883,213 +2453,141 @@
       }
     },
     {
-      "id": "tools-causal-discovery",
+      "id": "tools-discrete-choice-models",
       "template": "tool",
-      "name": "Causal Discovery Toolkit",
-      "description": "Essential tools for causal discovery",
+      "name": "Discrete Choice Models Toolkit",
+      "description": "Essential tools for discrete choice models",
       "hero": {
-        "id": "package-dagitty",
+        "id": "package-xlogit",
         "type": "package",
-        "title": "dagitty",
-        "url": "https://cran.r-project.org/package=dagitty"
+        "title": "XLogit",
+        "url": "https://github.com/arteagac/xlogit"
       },
       "items": [
         {
-          "id": "package-ggdag",
+          "id": "package-biogeme",
           "type": "package",
-          "title": "ggdag",
-          "url": "https://cran.r-project.org/package=ggdag"
+          "title": "Biogeme",
+          "url": "https://github.com/michelbierlaire/biogeme"
         },
         {
-          "id": "package-bnlearn",
+          "id": "package-pyblp",
           "type": "package",
-          "title": "bnlearn",
-          "url": "https://cran.r-project.org/package=bnlearn"
+          "title": "PyBLP",
+          "url": "https://github.com/jeffgortmaker/pyblp"
         },
         {
-          "id": "package-pcalg",
+          "id": "package-torch-choice",
           "type": "package",
-          "title": "pcalg",
-          "url": "https://cran.r-project.org/package=pcalg"
+          "title": "torch-choice",
+          "url": "https://github.com/gsbDBI/torch-choice"
         },
         {
-          "id": "resource-meta-engineering-data-science",
-          "type": "resource",
-          "title": "Meta Engineering - Data Science",
-          "url": "https://engineering.fb.com/"
+          "id": "package-pylogit",
+          "type": "package",
+          "title": "PyLogit",
+          "url": "https://github.com/timothyb0912/pylogit"
         },
         {
-          "id": "resource-brady-neals-introduction-to-causal-inference",
-          "type": "resource",
-          "title": "Brady Neal's Introduction to Causal Inference",
-          "url": "https://www.bradyneal.com/causal-inference-course"
+          "id": "book-discrete-choice-analysis-theory-and-application-to-travel-demand",
+          "type": "book",
+          "title": "Discrete Choice Analysis: Theory and Application to Travel Demand",
+          "url": "https://mitpress.mit.edu/9780262022170/discrete-choice-analysis/"
         },
         {
-          "id": "resource-pywhy-causal-discovery-example",
-          "type": "resource",
-          "title": "PyWhy: Causal Discovery Example",
-          "url": "https://www.pywhy.org/dowhy/v0.11/example_notebooks/dowhy_causal_discovery_example.html"
+          "id": "paper-estimating-discrete-choice-models-of-product-differentiation",
+          "type": "paper",
+          "title": "Estimating Discrete-Choice Models of Product Differentiation",
+          "url": "https://www.jstor.org/stable/2555829"
+        },
+        {
+          "id": "paper-conditional-choice-probability-estimation-of-dynamic-discrete-choice-models-with-unobserved-heterogeneity",
+          "type": "paper",
+          "title": "Conditional Choice Probability Estimation of Dynamic Discrete Choice Models with Unobserved Heterogeneity",
+          "url": "https://www.econometricsociety.org/doi/10.3982/ECTA7743"
         }
       ],
       "seed": {
         "type": "tool",
-        "category": "Causal Discovery"
+        "category": "Discrete Choice Models"
       }
     },
     {
-      "id": "tools-causal-discovery-graphical-models",
+      "id": "tools-transportation-economics-technology",
       "template": "tool",
-      "name": "Causal Discovery & Graphical Models Toolkit",
-      "description": "Essential tools for causal discovery & graphical models",
+      "name": "Transportation Economics & Technology Toolkit",
+      "description": "Essential tools for transportation economics & technology",
       "hero": {
-        "id": "package-ananke",
+        "id": "package-gtfs-kit",
         "type": "package",
-        "title": "Ananke",
-        "url": "https://gitlab.com/causal/ananke"
+        "title": "gtfs-kit",
+        "url": "https://github.com/mrcagney/gtfs_kit"
       },
       "items": [
         {
-          "id": "package-benchpress",
+          "id": "package-tidytransit",
           "type": "package",
-          "title": "Benchpress",
-          "url": "https://github.com/felixleopoldo/benchpress"
+          "title": "tidytransit",
+          "url": "https://r-transit.github.io/tidytransit/"
         },
         {
-          "id": "package-causal-discovery-toolbox-cdt",
+          "id": "package-sumo",
           "type": "package",
-          "title": "Causal Discovery Toolbox (CDT)",
-          "url": "https://github.com/FenTechSolutions/CausalDiscoveryToolbox"
+          "title": "SUMO",
+          "url": "https://eclipse.dev/sumo/"
         },
         {
-          "id": "package-lingam",
+          "id": "package-xlogit",
           "type": "package",
-          "title": "LiNGAM",
-          "url": "https://github.com/cdt15/lingam"
+          "title": "xlogit",
+          "url": "https://github.com/arteagac/xlogit"
         },
         {
-          "id": "package-tigramite",
+          "id": "package-osmnx",
           "type": "package",
-          "title": "Tigramite",
-          "url": "https://github.com/jakobrunge/tigramite"
+          "title": "OSMnx",
+          "url": "https://geoffboeing.com/publications/osmnx-complex-street-networks/"
         },
         {
-          "id": "package-causal-learn",
+          "id": "package-apollo",
           "type": "package",
-          "title": "causal-learn",
-          "url": "https://github.com/py-why/causal-learn"
+          "title": "Apollo",
+          "url": "http://www.apollochoicemodelling.com/"
         },
         {
-          "id": "package-causal-llm-bfs",
+          "id": "package-mlogit",
           "type": "package",
-          "title": "causal-llm-bfs",
-          "url": "https://github.com/superkaiba/causal-llm-bfs"
+          "title": "mlogit",
+          "url": "https://cran.r-project.org/web/packages/mlogit/"
         },
         {
-          "id": "package-gcastle",
+          "id": "package-gmnl",
           "type": "package",
-          "title": "gCastle",
-          "url": "https://github.com/huawei-noah/trustworthyAI"
+          "title": "gmnl",
+          "url": "https://cran.r-project.org/web/packages/gmnl/"
         },
         {
-          "id": "talk-jonathaninterviews-data-science-careers-causal-inference",
-          "type": "talk",
-          "title": "Jonathan.Interviews: Data Science Careers & Causal Inference",
-          "url": "https://www.youtube.com/@data-science-interviews"
-        },
-        {
-          "id": "resource-pymc-labs-blog",
+          "id": "resource-mit-ocw-transportation-systems-analysis",
           "type": "resource",
-          "title": "PyMC Labs Blog",
-          "url": "https://www.pymc-labs.com/blog-posts/"
+          "title": "MIT OCW: Transportation Systems Analysis",
+          "url": "https://ocw.mit.edu/courses/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/"
         },
         {
-          "id": "resource-meta-engineering-data-science",
+          "id": "resource-class-central-transportation-courses",
           "type": "resource",
-          "title": "Meta Engineering - Data Science",
-          "url": "https://engineering.fb.com/"
+          "title": "Class Central: Transportation Courses",
+          "url": "https://www.classcentral.com/subject/transportation"
+        },
+        {
+          "id": "resource-foundations-of-transportation-network-analysis-edx",
+          "type": "resource",
+          "title": "Foundations of Transportation Network Analysis (edX)",
+          "url": "https://www.edx.org/learn/engineering/massachusetts-institute-of-technology-principles-of-modeling-simulating-and-controlling-traffic-flow"
         }
       ],
       "seed": {
         "type": "tool",
-        "category": "Causal Discovery & Graphical Models"
-      }
-    },
-    {
-      "id": "tools-causal-inference-matching",
-      "template": "tool",
-      "name": "Causal Inference & Matching Toolkit",
-      "description": "Essential tools for causal inference & matching",
-      "hero": {
-        "id": "package-causalinference",
-        "type": "package",
-        "title": "CausalInference",
-        "url": "https://github.com/laurencium/causalinference"
-      },
-      "items": [
-        {
-          "id": "package-causallib",
-          "type": "package",
-          "title": "CausalLib",
-          "url": "https://github.com/IBM/causallib"
-        },
-        {
-          "id": "package-causalml",
-          "type": "package",
-          "title": "CausalML",
-          "url": "https://github.com/uber/causalml"
-        },
-        {
-          "id": "package-causalplayground",
-          "type": "package",
-          "title": "CausalPlayground",
-          "url": "https://github.com/sa-and/CausalPlayground"
-        },
-        {
-          "id": "package-dowhy",
-          "type": "package",
-          "title": "DoWhy",
-          "url": "https://github.com/py-why/dowhy"
-        },
-        {
-          "id": "package-pysensemakr",
-          "type": "package",
-          "title": "PySensemakr",
-          "url": "https://github.com/carloscinelli/PySensemakr"
-        },
-        {
-          "id": "package-causal-curve",
-          "type": "package",
-          "title": "causal-curve",
-          "url": "https://github.com/ronikobrosly/causal-curve"
-        },
-        {
-          "id": "package-mcf-modified-causal-forest",
-          "type": "package",
-          "title": "mcf (Modified Causal Forest)",
-          "url": "https://github.com/MCFpy/mcf"
-        },
-        {
-          "id": "resource-stanford-ml-causal-inference-short-course",
-          "type": "resource",
-          "title": "Stanford ML & Causal Inference Short Course",
-          "url": "https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil/research/methods/ai-machine-learning/short-course"
-        },
-        {
-          "id": "resource-uber-engineering-causal-inference-at-uber",
-          "type": "resource",
-          "title": "Uber Engineering: Causal Inference at Uber",
-          "url": "https://www.uber.com/blog/causal-inference-at-uber/"
-        },
-        {
-          "id": "resource-tilburg-science-hub-rdd-tutorials",
-          "type": "resource",
-          "title": "Tilburg Science Hub RDD Tutorials",
-          "url": "https://tilburgsciencehub.com/topics/analyze/causal-inference/rdd/fuzzy-rdd/"
-        }
-      ],
-      "seed": {
-        "type": "tool",
-        "category": "Causal Inference & Matching"
+        "category": "Transportation Economics & Technology"
       }
     },
     {
@@ -2141,10 +2639,10 @@
           "url": "https://www.pymc-marketing.io/en/latest/notebooks/clv/clv_quickstart.html"
         },
         {
-          "id": "resource-parker-van-alstyne-choudary-pipelines-platforms-and-the-new-rules-of-strategy",
+          "id": "resource-mike-taylor-vexpower-mmm-tutorials",
           "type": "resource",
-          "title": "Parker, Van Alstyne & Choudary: Pipelines, Platforms, and the New Rules of Strategy",
-          "url": "https://hbr.org/2016/04/pipelines-platforms-and-the-new-rules-of-strategy"
+          "title": "Mike Taylor: Vexpower MMM Tutorials",
+          "url": "https://www.vexpower.com/"
         }
       ],
       "seed": {
@@ -2153,274 +2651,58 @@
       }
     },
     {
-      "id": "tools-causal-inference-did",
+      "id": "tools-inference-reporting-tools",
       "template": "tool",
-      "name": "Causal Inference (DiD) Toolkit",
-      "description": "Essential tools for causal inference (did)",
+      "name": "Inference & Reporting Tools Toolkit",
+      "description": "Essential tools for inference & reporting tools",
       "hero": {
-        "id": "package-drdid",
+        "id": "package-computational-methods-for-practitioners",
         "type": "package",
-        "title": "DRDID",
-        "url": "https://cran.r-project.org/package=DRDID"
+        "title": "Computational Methods for practitioners",
+        "url": "https://opensourceecon.github.io/CompMethods/"
       },
       "items": [
         {
-          "id": "package-honestdid",
+          "id": "package-first-course-in-causal-inference-python",
           "type": "package",
-          "title": "HonestDiD",
-          "url": "https://cran.r-project.org/package=HonestDiD"
+          "title": "First Course in Causal Inference (Python)",
+          "url": "https://github.com/apoorvalal/ding_causalInference_python"
         },
         {
-          "id": "package-bacondecomp",
+          "id": "package-econ-project-templates",
           "type": "package",
-          "title": "bacondecomp",
-          "url": "https://cran.r-project.org/package=bacondecomp"
+          "title": "Econ Project Templates",
+          "url": "https://github.com/OpenSourceEconomics/econ-project-templates"
         },
         {
-          "id": "package-did",
+          "id": "package-maketables",
           "type": "package",
-          "title": "did",
-          "url": "https://cran.r-project.org/package=did"
+          "title": "maketables",
+          "url": "https://github.com/py-econometrics/maketables"
         },
         {
-          "id": "package-didimputation",
+          "id": "package-python-packages-for-applied-economists",
           "type": "package",
-          "title": "didimputation",
-          "url": "https://cran.r-project.org/package=didimputation"
+          "title": "Python Packages for Applied Economists",
+          "url": "https://github.com/clibassi/python-packages-for-applied-economists"
         },
         {
-          "id": "package-fastdid",
+          "id": "package-clusterbootstraps",
           "type": "package",
-          "title": "fastdid",
-          "url": "https://cran.r-project.org/package=fastdid"
+          "title": "clusterbootstraps",
+          "url": "https://pypi.org/project/clusterbootstraps/"
         },
         {
-          "id": "package-fect",
+          "id": "package-awesome-economics",
           "type": "package",
-          "title": "fect",
-          "url": "https://cran.r-project.org/package=fect"
+          "title": "Awesome Economics",
+          "url": "https://github.com/antontarasenko/awesome-economics"
         },
         {
-          "id": "package-staggered",
-          "type": "package",
-          "title": "staggered",
-          "url": "https://cran.r-project.org/package=staggered"
-        },
-        {
-          "id": "resource-asjad-naqvis-did-repository",
+          "id": "resource-stanford-ml-causal-inference-short-course",
           "type": "resource",
-          "title": "Asjad Naqvi's DiD Repository",
-          "url": "https://asjadnaqvi.github.io/DiD/"
-        },
-        {
-          "id": "resource-pedro-santannas-did-resources",
-          "type": "resource",
-          "title": "Pedro Sant'Anna's DiD Resources",
-          "url": "https://psantanna.com/did-resources/"
-        },
-        {
-          "id": "talk-nber-methods-lectures-feldstein-lectures",
-          "type": "talk",
-          "title": "NBER: Methods Lectures & Feldstein Lectures",
-          "url": "https://www.youtube.com/@NBERvideos"
-        }
-      ],
-      "seed": {
-        "type": "tool",
-        "category": "Causal Inference (DiD)"
-      }
-    },
-    {
-      "id": "tools-causal-inference-ml",
-      "template": "tool",
-      "name": "Causal Inference (ML) Toolkit",
-      "description": "Essential tools for causal inference (ml)",
-      "hero": {
-        "id": "package-evalue",
-        "type": "package",
-        "title": "EValue",
-        "url": "https://cran.r-project.org/package=EValue"
-      },
-      "items": [
-        {
-          "id": "package-superlearner",
-          "type": "package",
-          "title": "SuperLearner",
-          "url": "https://cran.r-project.org/package=SuperLearner"
-        },
-        {
-          "id": "package-causalweight",
-          "type": "package",
-          "title": "causalweight",
-          "url": "https://cran.r-project.org/package=causalweight"
-        },
-        {
-          "id": "package-ddml",
-          "type": "package",
-          "title": "ddml",
-          "url": "https://cran.r-project.org/package=ddml"
-        },
-        {
-          "id": "package-grf",
-          "type": "package",
-          "title": "grf",
-          "url": "https://cran.r-project.org/package=grf"
-        },
-        {
-          "id": "package-hdm",
-          "type": "package",
-          "title": "hdm",
-          "url": "https://cran.r-project.org/package=hdm"
-        },
-        {
-          "id": "package-ltmle",
-          "type": "package",
-          "title": "ltmle",
-          "url": "https://cran.r-project.org/package=ltmle"
-        },
-        {
-          "id": "package-sensemakr",
-          "type": "package",
-          "title": "sensemakr",
-          "url": "https://cran.r-project.org/package=sensemakr"
-        },
-        {
-          "id": "resource-pymc-labs-blog",
-          "type": "resource",
-          "title": "PyMC Labs Blog",
-          "url": "https://www.pymc-labs.com/blog-posts/"
-        },
-        {
-          "id": "resource-uber-engineering",
-          "type": "resource",
-          "title": "Uber Engineering",
-          "url": "https://www.uber.com/blog/engineering/"
-        },
-        {
-          "id": "resource-meta-engineering-data-science",
-          "type": "resource",
-          "title": "Meta Engineering - Data Science",
-          "url": "https://engineering.fb.com/"
-        }
-      ],
-      "seed": {
-        "type": "tool",
-        "category": "Causal Inference (ML)"
-      }
-    },
-    {
-      "id": "tools-causal-inference-matching",
-      "template": "tool",
-      "name": "Causal Inference (Matching) Toolkit",
-      "description": "Essential tools for causal inference (matching)",
-      "hero": {
-        "id": "package-cbps",
-        "type": "package",
-        "title": "CBPS",
-        "url": "https://cran.r-project.org/package=CBPS"
-      },
-      "items": [
-        {
-          "id": "package-matchit",
-          "type": "package",
-          "title": "MatchIt",
-          "url": "https://cran.r-project.org/package=MatchIt"
-        },
-        {
-          "id": "package-weightit",
-          "type": "package",
-          "title": "WeightIt",
-          "url": "https://cran.r-project.org/package=WeightIt"
-        },
-        {
-          "id": "package-cobalt",
-          "type": "package",
-          "title": "cobalt",
-          "url": "https://cran.r-project.org/package=cobalt"
-        },
-        {
-          "id": "package-optmatch",
-          "type": "package",
-          "title": "optmatch",
-          "url": "https://cran.r-project.org/package=optmatch"
-        },
-        {
-          "id": "package-ebal",
-          "type": "package",
-          "title": "ebal",
-          "url": "https://cran.r-project.org/package=ebal"
-        },
-        {
-          "id": "resource-pymc-labs-blog",
-          "type": "resource",
-          "title": "PyMC Labs Blog",
-          "url": "https://www.pymc-labs.com/blog-posts/"
-        },
-        {
-          "id": "resource-uber-engineering",
-          "type": "resource",
-          "title": "Uber Engineering",
-          "url": "https://www.uber.com/blog/engineering/"
-        },
-        {
-          "id": "resource-meta-engineering-data-science",
-          "type": "resource",
-          "title": "Meta Engineering - Data Science",
-          "url": "https://engineering.fb.com/"
-        }
-      ],
-      "seed": {
-        "type": "tool",
-        "category": "Causal Inference (Matching)"
-      }
-    },
-    {
-      "id": "tools-causal-inference-rdd",
-      "template": "tool",
-      "name": "Causal Inference (RDD) Toolkit",
-      "description": "Essential tools for causal inference (rdd)",
-      "hero": {
-        "id": "package-rddapp",
-        "type": "package",
-        "title": "rddapp",
-        "url": "https://cran.r-project.org/package=rddapp"
-      },
-      "items": [
-        {
-          "id": "package-rddensity",
-          "type": "package",
-          "title": "rddensity",
-          "url": "https://cran.r-project.org/package=rddensity"
-        },
-        {
-          "id": "package-rdlocrand",
-          "type": "package",
-          "title": "rdlocrand",
-          "url": "https://cran.r-project.org/package=rdlocrand"
-        },
-        {
-          "id": "package-rdmulti",
-          "type": "package",
-          "title": "rdmulti",
-          "url": "https://cran.r-project.org/package=rdmulti"
-        },
-        {
-          "id": "package-rdpower",
-          "type": "package",
-          "title": "rdpower",
-          "url": "https://cran.r-project.org/package=rdpower"
-        },
-        {
-          "id": "package-rddtools",
-          "type": "package",
-          "title": "rddtools",
-          "url": "https://cran.r-project.org/package=rddtools"
-        },
-        {
-          "id": "resource-andrew-heisss-rdd-course-examples",
-          "type": "resource",
-          "title": "Andrew Heiss's RDD Course Examples",
-          "url": "https://evalf20.classes.andrewheiss.com/example/rdd/"
+          "title": "Stanford ML & Causal Inference Short Course",
+          "url": "https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil/research/methods/ai-machine-learning/short-course"
         },
         {
           "id": "resource-tilburg-science-hub-rdd-tutorials",
@@ -2429,153 +2711,93 @@
           "url": "https://tilburgsciencehub.com/topics/analyze/causal-inference/rdd/fuzzy-rdd/"
         },
         {
-          "id": "talk-nber-methods-lectures-feldstein-lectures",
-          "type": "talk",
-          "title": "NBER: Methods Lectures & Feldstein Lectures",
-          "url": "https://www.youtube.com/@NBERvideos"
+          "id": "resource-haus-blog-synthetic-control-geo-experimentation",
+          "type": "resource",
+          "title": "Haus Blog: Synthetic Control & Geo-Experimentation",
+          "url": "https://www.haus.io/blog"
         }
       ],
       "seed": {
         "type": "tool",
-        "category": "Causal Inference (RDD)"
+        "category": "Inference & Reporting Tools"
       }
     },
     {
-      "id": "tools-causal-inference-synthetic-control",
+      "id": "tools-structural-econometrics-estimation",
       "template": "tool",
-      "name": "Causal Inference (Synthetic Control) Toolkit",
-      "description": "Essential tools for causal inference (synthetic control)",
+      "name": "Structural Econometrics & Estimation Toolkit",
+      "description": "Essential tools for structural econometrics & estimation",
       "hero": {
-        "id": "package-synth",
+        "id": "package-hark",
         "type": "package",
-        "title": "Synth",
-        "url": "https://cran.r-project.org/package=Synth"
+        "title": "HARK",
+        "url": "https://github.com/econ-ark/HARK"
       },
       "items": [
         {
-          "id": "package-augsynth",
+          "id": "package-dolo",
           "type": "package",
-          "title": "augsynth",
-          "url": "https://github.com/ebenmichael/augsynth"
+          "title": "Dolo",
+          "url": "https://github.com/EconForge/dolo"
         },
         {
-          "id": "package-gsynth",
+          "id": "package-quanteconpy",
           "type": "package",
-          "title": "gsynth",
-          "url": "https://cran.r-project.org/package=gsynth"
+          "title": "QuantEcon.py",
+          "url": "https://github.com/QuantEcon/QuantEcon.py"
         },
         {
-          "id": "package-synthdid",
+          "id": "package-respy",
           "type": "package",
-          "title": "synthdid",
-          "url": "https://cran.r-project.org/package=synthdid"
+          "title": "respy",
+          "url": "https://github.com/OpenSourceEconomics/respy"
         },
         {
-          "id": "package-sctools",
+          "id": "package-econpizza",
           "type": "package",
-          "title": "SCtools",
-          "url": "https://cran.r-project.org/package=SCtools"
+          "title": "econpizza",
+          "url": "https://github.com/gboehl/econpizza"
         },
         {
-          "id": "package-microsynth",
+          "id": "package-ruspy",
           "type": "package",
-          "title": "microsynth",
-          "url": "https://cran.r-project.org/package=microsynth"
+          "title": "ruspy",
+          "url": "https://github.com/OpenSourceEconomics/ruspy"
         },
         {
-          "id": "package-pensynth",
+          "id": "package-greeners",
           "type": "package",
-          "title": "pensynth",
-          "url": "https://cran.r-project.org/package=pensynth"
+          "title": "Greeners",
+          "url": "https://crates.io/crates/greeners"
         },
         {
-          "id": "package-tidysynth",
+          "id": "package-geconpy",
           "type": "package",
-          "title": "tidysynth",
-          "url": "https://cran.r-project.org/package=tidysynth"
+          "title": "gEconpy",
+          "url": "https://github.com/jessegrabowski/gEconpy"
         },
         {
-          "id": "resource-netflix-round-2-causal-inference-survey-synthetic-control",
+          "id": "resource-stanford-ml-causal-inference-short-course",
           "type": "resource",
-          "title": "Netflix: Round 2 - Causal Inference Survey (Synthetic Control)",
-          "url": "https://netflixtechblog.com/round-2-a-survey-of-causal-inference-applications-at-netflix-fd78328ee0bb"
+          "title": "Stanford ML & Causal Inference Short Course",
+          "url": "https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil/research/methods/ai-machine-learning/short-course"
         },
         {
-          "id": "talk-brady-neal-causal-inference-course",
-          "type": "talk",
-          "title": "Brady Neal: Causal Inference Course",
-          "url": "https://www.youtube.com/@BradyNealCausalInference"
+          "id": "resource-open-source-economics-structural-estimation",
+          "type": "resource",
+          "title": "Open Source Economics: Structural Estimation",
+          "url": "https://opensourceecon.github.io/CompMethods/struct_est/intro.html"
         },
         {
-          "id": "talk-nber-methods-lectures-feldstein-lectures",
-          "type": "talk",
-          "title": "NBER: Methods Lectures & Feldstein Lectures",
-          "url": "https://www.youtube.com/@NBERvideos"
+          "id": "resource-apoorva-lal-applied-econometrics-notes",
+          "type": "resource",
+          "title": "Apoorva Lal: Applied Econometrics Notes",
+          "url": "https://apoorvalal.github.io/notebook/"
         }
       ],
       "seed": {
         "type": "tool",
-        "category": "Causal Inference (Synthetic Control)"
-      }
-    },
-    {
-      "id": "tools-conformal-prediction-uncertainty",
-      "template": "tool",
-      "name": "Conformal Prediction & Uncertainty Toolkit",
-      "description": "Essential tools for conformal prediction & uncertainty",
-      "hero": {
-        "id": "package-mapie",
-        "type": "package",
-        "title": "MAPIE",
-        "url": "https://github.com/scikit-learn-contrib/MAPIE"
-      },
-      "items": [
-        {
-          "id": "package-crepes",
-          "type": "package",
-          "title": "crepes",
-          "url": "https://github.com/henrikbostrom/crepes"
-        },
-        {
-          "id": "package-fortuna",
-          "type": "package",
-          "title": "fortuna",
-          "url": "https://github.com/awslabs/fortuna"
-        },
-        {
-          "id": "package-torchcp",
-          "type": "package",
-          "title": "TorchCP",
-          "url": "https://github.com/ml-stat-Sustech/TorchCP"
-        },
-        {
-          "id": "package-puncc",
-          "type": "package",
-          "title": "puncc",
-          "url": "https://github.com/deel-ai/puncc"
-        },
-        {
-          "id": "resource-conformal-prediction-intervals-for-time-series",
-          "type": "resource",
-          "title": "Conformal Prediction Intervals for Time Series",
-          "url": "https://towardsdatascience.com/time-series-forecasting-with-conformal-prediction-intervals-scikit-learn-is-all-you-need-4b68143a027a/"
-        },
-        {
-          "id": "talk-susan-athey-applied-researchers-causation",
-          "type": "talk",
-          "title": "Susan Athey: applied researchers & Causation",
-          "url": "https://www.youtube.com/watch?v=q4hWBep5RIc"
-        },
-        {
-          "id": "talk-patterns-predictions-and-actions",
-          "type": "talk",
-          "title": "Patterns, Predictions, and Actions",
-          "url": "https://mlstory.org/"
-        }
-      ],
-      "seed": {
-        "type": "tool",
-        "category": "Conformal Prediction & Uncertainty"
+        "category": "Structural Econometrics & Estimation"
       }
     },
     {
@@ -2584,10 +2806,10 @@
       "name": "Core Libraries & Linear Models Toolkit",
       "description": "Essential tools for core libraries & linear models",
       "hero": {
-        "id": "package-linregress",
+        "id": "package-statsmodels",
         "type": "package",
-        "title": "Linregress",
-        "url": "https://crates.io/crates/linregress"
+        "title": "Statsmodels",
+        "url": "https://github.com/statsmodels/statsmodels"
       },
       "items": [
         {
@@ -2597,16 +2819,16 @@
           "url": "https://crates.io/crates/polars"
         },
         {
-          "id": "package-statsmodels",
-          "type": "package",
-          "title": "Statsmodels",
-          "url": "https://github.com/statsmodels/statsmodels"
-        },
-        {
           "id": "package-appelpy",
           "type": "package",
           "title": "appelpy",
           "url": "https://github.com/mfarragher/appelpy"
+        },
+        {
+          "id": "package-linregress",
+          "type": "package",
+          "title": "Linregress",
+          "url": "https://crates.io/crates/linregress"
         },
         {
           "id": "package-h2o-sparkling-water",
@@ -2627,10 +2849,10 @@
           "url": "https://arxiv.org/abs/1606.07792"
         },
         {
-          "id": "resource-convex-optimization-boyd-vandenberghe",
-          "type": "resource",
-          "title": "Convex Optimization (Boyd & Vandenberghe)",
-          "url": "https://web.stanford.edu/~boyd/cvxbook/"
+          "id": "paper-machine-learning-in-pc-insurance-a-review-for-pricing-and-reserving",
+          "type": "paper",
+          "title": "Machine Learning in P&C Insurance: A Review for Pricing and Reserving",
+          "url": "https://www.mdpi.com/2227-9091/9/1/4"
         }
       ],
       "seed": {
@@ -2639,292 +2861,190 @@
       }
     },
     {
-      "id": "tools-tree-ensemble-methods-for-prediction",
+      "id": "tools-spatial-econometrics",
       "template": "tool",
-      "name": "Tree & Ensemble Methods for Prediction Toolkit",
-      "description": "Essential tools for tree & ensemble methods for prediction",
+      "name": "Spatial Econometrics Toolkit",
+      "description": "Essential tools for spatial econometrics",
       "hero": {
-        "id": "package-scikit-learn-ens",
+        "id": "package-pysal-core",
         "type": "package",
-        "title": "Scikit-learn Ens.",
-        "url": "https://github.com/scikit-learn/scikit-learn"
+        "title": "(PySAL Core)",
+        "url": "https://github.com/pysal/pysal"
       },
       "items": [
         {
-          "id": "package-catboost",
+          "id": "package-pysal-spreg",
           "type": "package",
-          "title": "CatBoost",
-          "url": "https://github.com/catboost/catboost"
+          "title": "PySAL (spreg)",
+          "url": "https://github.com/pysal/spreg"
         },
         {
-          "id": "package-lightgbm",
+          "id": "package-apache-sedona",
           "type": "package",
-          "title": "LightGBM",
-          "url": "https://github.com/microsoft/LightGBM"
+          "title": "Apache Sedona",
+          "url": "https://github.com/apache/sedona"
         },
         {
-          "id": "package-linfa",
+          "id": "package-spdep",
           "type": "package",
-          "title": "Linfa",
-          "url": "https://crates.io/crates/linfa"
+          "title": "spdep",
+          "url": "https://cran.r-project.org/package=spdep"
         },
         {
-          "id": "package-ngboost",
+          "id": "package-sf",
           "type": "package",
-          "title": "NGBoost",
-          "url": "https://github.com/stanfordmlgroup/ngboost"
+          "title": "sf",
+          "url": "https://cran.r-project.org/package=sf"
         },
         {
-          "id": "package-smartcore",
+          "id": "package-spatialreg",
           "type": "package",
-          "title": "SmartCore",
-          "url": "https://crates.io/crates/smartcore"
+          "title": "spatialreg",
+          "url": "https://cran.r-project.org/package=spatialreg"
         },
         {
-          "id": "package-xgboost",
+          "id": "package-splm",
           "type": "package",
-          "title": "XGBoost",
-          "url": "https://github.com/dmlc/xgboost"
+          "title": "splm",
+          "url": "https://cran.r-project.org/package=splm"
         },
         {
-          "id": "package-cuml-rapids",
-          "type": "package",
-          "title": "cuML (RAPIDS)",
-          "url": "https://github.com/rapidsai/cuml"
+          "id": "paper-spatial-econometrics-methods-and-models",
+          "type": "paper",
+          "title": "Spatial Econometrics: Methods and Models",
+          "url": "https://link.springer.com/book/10.1007/978-94-015-7799-1"
         },
         {
-          "id": "resource-tilburg-science-hub-rdd-tutorials",
-          "type": "resource",
-          "title": "Tilburg Science Hub RDD Tutorials",
-          "url": "https://tilburgsciencehub.com/topics/analyze/causal-inference/rdd/fuzzy-rdd/"
-        },
-        {
-          "id": "resource-matteo-courthouds-meta-learners-tutorial",
-          "type": "resource",
-          "title": "Matteo Courthoud's Meta-Learners Tutorial",
-          "url": "https://matteocourthoud.github.io/post/meta_learners/"
-        },
-        {
-          "id": "resource-conformal-prediction-intervals-for-time-series",
-          "type": "resource",
-          "title": "Conformal Prediction Intervals for Time Series",
-          "url": "https://towardsdatascience.com/time-series-forecasting-with-conformal-prediction-intervals-scikit-learn-is-all-you-need-4b68143a027a/"
-        }
-      ],
-      "seed": {
-        "type": "tool",
-        "category": "Tree & Ensemble Methods for Prediction"
-      }
-    },
-    {
-      "id": "tools-data-workflow",
-      "template": "tool",
-      "name": "Data Workflow Toolkit",
-      "description": "Essential tools for data workflow",
-      "hero": {
-        "id": "package-collapse",
-        "type": "package",
-        "title": "collapse",
-        "url": "https://cran.r-project.org/package=collapse"
-      },
-      "items": [
-        {
-          "id": "package-datatable",
-          "type": "package",
-          "title": "data.table",
-          "url": "https://cran.r-project.org/package=data.table"
-        },
-        {
-          "id": "package-haven",
-          "type": "package",
-          "title": "haven",
-          "url": "https://cran.r-project.org/package=haven"
-        },
-        {
-          "id": "package-tidyverse",
-          "type": "package",
-          "title": "tidyverse",
-          "url": "https://cran.r-project.org/package=tidyverse"
+          "id": "paper-pysal-a-python-library-for-spatial-analysis",
+          "type": "paper",
+          "title": "PySAL: A Python Library for Spatial Analysis",
+          "url": "https://pysal.org/pysal/"
         },
         {
           "id": "resource-coding-for-economists-arthur-turrell",
           "type": "resource",
           "title": "Coding for Economists (Arthur Turrell)",
           "url": "https://aeturrell.github.io/coding-for-economists/"
-        },
-        {
-          "id": "resource-mark-whites-practical-causal-forest-tutorial",
-          "type": "resource",
-          "title": "Mark White's Practical Causal Forest Tutorial",
-          "url": "https://www.markhw.com/blog/causalforestintro"
-        },
-        {
-          "id": "resource-uber-backtesting-at-scale",
-          "type": "resource",
-          "title": "Uber: Backtesting at Scale",
-          "url": "https://www.uber.com/blog/backtesting-at-scale/"
         }
       ],
       "seed": {
         "type": "tool",
-        "category": "Data Workflow"
+        "category": "Spatial Econometrics"
       }
     },
     {
-      "id": "tools-discrete-choice-models",
+      "id": "tools-state-space-volatility-models",
       "template": "tool",
-      "name": "Discrete Choice Models Toolkit",
-      "description": "Essential tools for discrete choice models",
+      "name": "State Space & Volatility Models Toolkit",
+      "description": "Essential tools for state space & volatility models",
       "hero": {
-        "id": "package-biogeme",
+        "id": "package-filterpy",
         "type": "package",
-        "title": "Biogeme",
-        "url": "https://github.com/michelbierlaire/biogeme"
+        "title": "FilterPy",
+        "url": "https://github.com/rlabbe/filterpy"
       },
       "items": [
         {
-          "id": "package-pyblp",
+          "id": "package-pykalman",
           "type": "package",
-          "title": "PyBLP",
-          "url": "https://github.com/jeffgortmaker/pyblp"
+          "title": "PyKalman",
+          "url": "https://github.com/pykalman/pykalman"
         },
         {
-          "id": "package-xlogit",
+          "id": "package-stochvol",
           "type": "package",
-          "title": "XLogit",
-          "url": "https://github.com/arteagac/xlogit"
+          "title": "stochvol",
+          "url": "https://github.com/gregorkastner/stochvol"
         },
         {
-          "id": "package-torch-choice",
+          "id": "package-pymc-statespace",
           "type": "package",
-          "title": "torch-choice",
-          "url": "https://github.com/gsbDBI/torch-choice"
+          "title": "PyMC Statespace",
+          "url": "https://github.com/jessegrabowski/pymc_statespace"
         },
         {
-          "id": "package-pylogit",
+          "id": "package-metran",
           "type": "package",
-          "title": "PyLogit",
-          "url": "https://github.com/timothyb0912/pylogit"
+          "title": "Metran",
+          "url": "https://github.com/pastas/metran"
         },
         {
-          "id": "paper-estimating-discrete-choice-models-of-product-differentiation",
+          "id": "paper-deep-state-space-models-for-time-series-forecasting",
           "type": "paper",
-          "title": "Estimating Discrete-Choice Models of Product Differentiation",
-          "url": "https://www.jstor.org/stable/2555829"
+          "title": "Deep State Space Models for Time Series Forecasting",
+          "url": "https://papers.nips.cc/paper/2018/hash/5cf68969fb67aa6082363a6d4e6468e2-Abstract.html"
         },
         {
-          "id": "paper-conditional-choice-probability-estimation-of-dynamic-discrete-choice-models-with-unobserved-heterogeneity",
-          "type": "paper",
-          "title": "Conditional Choice Probability Estimation of Dynamic Discrete Choice Models with Unobserved Heterogeneity",
-          "url": "https://www.econometricsociety.org/doi/10.3982/ECTA7743"
+          "id": "resource-growth-accounting-backtraced-growth-accounting",
+          "type": "resource",
+          "title": "Growth Accounting & Backtraced Growth Accounting",
+          "url": "https://bytepawn.com/growth-accounting-and-backtraced-growth-accounting.html"
         },
         {
-          "id": "paper-practical-methods-for-estimation-of-dynamic-discrete-choice-models",
-          "type": "paper",
-          "title": "Practical Methods for Estimation of Dynamic Discrete Choice Models",
-          "url": "https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-111809-125038"
+          "id": "resource-paul-rubin-or-in-an-ob-world",
+          "type": "resource",
+          "title": "Paul Rubin: OR in an OB World",
+          "url": "https://orinanobworld.blogspot.com/"
         }
       ],
       "seed": {
         "type": "tool",
-        "category": "Discrete Choice Models"
+        "category": "State Space & Volatility Models"
       }
     },
     {
-      "id": "tools-doubledebiased-machine-learning-dml",
+      "id": "tools-instrumental-variables",
       "template": "tool",
-      "name": "Double/Debiased Machine Learning (DML) Toolkit",
-      "description": "Essential tools for double/debiased machine learning (dml)",
+      "name": "Instrumental Variables Toolkit",
+      "description": "Essential tools for instrumental variables",
       "hero": {
-        "id": "package-econml",
+        "id": "package-ivreg",
         "type": "package",
-        "title": "EconML",
-        "url": "https://github.com/py-why/EconML"
+        "title": "ivreg",
+        "url": "https://cran.r-project.org/package=ivreg"
       },
       "items": [
         {
-          "id": "package-doubleml",
+          "id": "package-shiftsharese",
           "type": "package",
-          "title": "DoubleML",
-          "url": "https://github.com/DoubleML/doubleml-for-py"
+          "title": "ShiftShareSE",
+          "url": "https://cran.r-project.org/package=ShiftShareSE"
         },
         {
-          "id": "package-doubly-debiased-lasso",
+          "id": "package-ivmodel",
           "type": "package",
-          "title": "Doubly-Debiased-Lasso",
-          "url": "https://github.com/zijguo/Doubly-Debiased-Lasso"
+          "title": "ivmodel",
+          "url": "https://cran.r-project.org/package=ivmodel"
         },
         {
-          "id": "package-synapseml",
+          "id": "package-gmm",
           "type": "package",
-          "title": "SynapseML",
-          "url": "https://github.com/microsoft/SynapseML"
+          "title": "gmm",
+          "url": "https://cran.r-project.org/package=gmm"
         },
         {
-          "id": "package-pydoublelasso",
+          "id": "package-systemfit",
           "type": "package",
-          "title": "pydoublelasso",
-          "url": "https://pypi.org/project/pydoublelasso/"
+          "title": "systemfit",
+          "url": "https://cran.r-project.org/package=systemfit"
         },
         {
-          "id": "package-pyhtelasso",
+          "id": "package-momentfit",
           "type": "package",
-          "title": "pyhtelasso",
-          "url": "https://pypi.org/project/pyhtelasso/"
+          "title": "momentfit",
+          "url": "https://cran.r-project.org/package=momentfit"
         },
         {
-          "id": "resource-doubledebiased-machine-learning-guide",
+          "id": "package-py-econometrics-gmm",
+          "type": "package",
+          "title": "py-econometrics `gmm`",
+          "url": "https://github.com/py-econometrics/gmm"
+        },
+        {
+          "id": "resource-teconomics-machine-learning-meets-instrumental-variables",
           "type": "resource",
-          "title": "Double/Debiased Machine Learning Guide",
-          "url": "https://dmlguide.github.io/"
-        },
-        {
-          "id": "resource-applied-causal-inference-book-chernozhukov-et-al",
-          "type": "resource",
-          "title": "Applied Causal Inference Book (Chernozhukov et al.)",
-          "url": "https://causalml-book.org/"
-        },
-        {
-          "id": "paper-doubledebiased-machine-learning-for-treatment-and-structural-parameters",
-          "type": "paper",
-          "title": "Double/Debiased Machine Learning for Treatment and Structural Parameters",
-          "url": "https://academic.oup.com/ectj/article/21/1/C1/5056401"
-        }
-      ],
-      "seed": {
-        "type": "tool",
-        "category": "Double/Debiased Machine Learning (DML)"
-      }
-    },
-    {
-      "id": "tools-experimental-design",
-      "template": "tool",
-      "name": "Experimental Design Toolkit",
-      "description": "Essential tools for experimental design",
-      "hero": {
-        "id": "package-declaredesign",
-        "type": "package",
-        "title": "DeclareDesign",
-        "url": "https://cran.r-project.org/package=DeclareDesign"
-      },
-      "items": [
-        {
-          "id": "package-contextual",
-          "type": "package",
-          "title": "contextual",
-          "url": "https://cran.r-project.org/package=contextual"
-        },
-        {
-          "id": "package-fabricatr",
-          "type": "package",
-          "title": "fabricatr",
-          "url": "https://cran.r-project.org/package=fabricatr"
-        },
-        {
-          "id": "package-randomizr",
-          "type": "package",
-          "title": "randomizr",
-          "url": "https://cran.r-project.org/package=randomizr"
+          "title": "Teconomics: Machine Learning Meets Instrumental Variables",
+          "url": "https://medium.com/teconomics-blog/machine-learning-meets-instrumental-variables-c8eecf5cec95"
         },
         {
           "id": "resource-matteo-courthouds-iv-tutorial",
@@ -2933,21 +3053,93 @@
           "url": "https://matteocourthoud.github.io/post/instrumental_variables/"
         },
         {
-          "id": "resource-wayfair-geo-experiments-for-incrementality",
+          "id": "resource-microsoft-research-adversarial-ml-and-instrumental-variables",
           "type": "resource",
-          "title": "Wayfair: Geo Experiments for Incrementality",
-          "url": "https://www.aboutwayfair.com/careers/tech-blog/how-wayfair-uses-geo-experiments-to-measure-incrementality"
-        },
-        {
-          "id": "resource-kuang-xu-newsletter",
-          "type": "resource",
-          "title": "Kuang Xu Newsletter",
-          "url": "https://kuangxu.substack.com/"
+          "title": "Microsoft Research: Adversarial ML and Instrumental Variables",
+          "url": "https://www.microsoft.com/en-us/research/blog/adversarial-machine-learning-and-instrumental-variables-for-flexible-causal-modeling/"
         }
       ],
       "seed": {
         "type": "tool",
-        "category": "Experimental Design"
+        "category": "Instrumental Variables"
+      }
+    },
+    {
+      "id": "tools-statistical-inference-hypothesis-testing",
+      "template": "tool",
+      "name": "Statistical Inference & Hypothesis Testing Toolkit",
+      "description": "Essential tools for statistical inference & hypothesis testing",
+      "hero": {
+        "id": "package-pingouin",
+        "type": "package",
+        "title": "Pingouin",
+        "url": "https://github.com/raphaelvallat/pingouin"
+      },
+      "items": [
+        {
+          "id": "package-pywhy-stats",
+          "type": "package",
+          "title": "PyWhy-Stats",
+          "url": "https://github.com/py-why/pywhy-stats"
+        },
+        {
+          "id": "package-lifelines",
+          "type": "package",
+          "title": "lifelines",
+          "url": "https://github.com/CamDavidsonPilon/lifelines"
+        },
+        {
+          "id": "package-miceforest",
+          "type": "package",
+          "title": "miceforest",
+          "url": "https://github.com/AnotherSamWilson/miceforest"
+        },
+        {
+          "id": "package-statrs",
+          "type": "package",
+          "title": "Statrs",
+          "url": "https://crates.io/crates/statrs"
+        },
+        {
+          "id": "package-hypors",
+          "type": "package",
+          "title": "HypoRS",
+          "url": "https://crates.io/crates/hypors"
+        },
+        {
+          "id": "package-hypothetical",
+          "type": "package",
+          "title": "hypothetical",
+          "url": "https://github.com/aschleg/hypothetical"
+        },
+        {
+          "id": "package-savvi",
+          "type": "package",
+          "title": "savvi",
+          "url": "https://pypi.org/project/savvi/"
+        },
+        {
+          "id": "talk-casual-inference-podcast",
+          "type": "talk",
+          "title": "Casual Inference Podcast",
+          "url": "https://casualinfer.libsyn.com/"
+        },
+        {
+          "id": "resource-matteo-courthouds-experimentation-series",
+          "type": "resource",
+          "title": "Matteo Courthoud's Experimentation Series",
+          "url": "https://matteocourthoud.github.io/post/"
+        },
+        {
+          "id": "resource-growthbooks-experimentation-fundamentals",
+          "type": "resource",
+          "title": "GrowthBook's Experimentation Fundamentals",
+          "url": "https://docs.growthbook.io/using/fundamentals"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Statistical Inference & Hypothesis Testing"
       }
     },
     {
@@ -2999,10 +3191,10 @@
           "url": "https://tws-gamechanger.libsyn.com/playing-nice-trust-and-reputation-in-game-theory-ecommerce-and-vaccinations-with-steve-tadelis"
         },
         {
-          "id": "resource-tim-roughgardens-cs364a-mechanism-design",
+          "id": "resource-dirk-bergemanns-yale-courses",
           "type": "resource",
-          "title": "Tim Roughgarden's CS364A: Mechanism Design",
-          "url": "https://timroughgarden.org/f13/f13.html"
+          "title": "Dirk Bergemann's Yale Courses",
+          "url": "https://campuspress.yale.edu/dirkbergemann/"
         }
       ],
       "seed": {
@@ -3011,58 +3203,46 @@
       }
     },
     {
-      "id": "tools-inference-reporting-tools",
+      "id": "tools-power-simulation-design-of-experiments",
       "template": "tool",
-      "name": "Inference & Reporting Tools Toolkit",
-      "description": "Essential tools for inference & reporting tools",
+      "name": "Power Simulation & Design of Experiments Toolkit",
+      "description": "Essential tools for power simulation & design of experiments",
       "hero": {
-        "id": "package-computational-methods-for-practitioners",
+        "id": "package-tea-tasting",
         "type": "package",
-        "title": "Computational Methods for practitioners",
-        "url": "https://opensourceecon.github.io/CompMethods/"
+        "title": "tea-tasting",
+        "url": "https://github.com/e10v/tea-tasting"
       },
       "items": [
         {
-          "id": "package-econ-project-templates",
+          "id": "package-pydoe2",
           "type": "package",
-          "title": "Econ Project Templates",
-          "url": "https://github.com/OpenSourceEconomics/econ-project-templates"
+          "title": "pyDOE2",
+          "url": "https://github.com/clicumu/pyDOE2"
         },
         {
-          "id": "package-first-course-in-causal-inference-python",
+          "id": "package-adaptive",
           "type": "package",
-          "title": "First Course in Causal Inference (Python)",
-          "url": "https://github.com/apoorvalal/ding_causalInference_python"
+          "title": "Adaptive",
+          "url": "https://github.com/python-adaptive/adaptive"
         },
         {
-          "id": "package-maketables",
+          "id": "package-adopy",
           "type": "package",
-          "title": "maketables",
-          "url": "https://github.com/py-econometrics/maketables"
+          "title": "ADOpy",
+          "url": "https://github.com/adopy/adopy"
         },
         {
-          "id": "package-awesome-economics",
+          "id": "package-doegen",
           "type": "package",
-          "title": "Awesome Economics",
-          "url": "https://github.com/antontarasenko/awesome-economics"
+          "title": "DoEgen",
+          "url": "https://github.com/sebhaan/DoEgen"
         },
         {
-          "id": "package-python-packages-for-applied-economists",
+          "id": "package-ambrosia",
           "type": "package",
-          "title": "Python Packages for Applied Economists",
-          "url": "https://github.com/clibassi/python-packages-for-applied-economists"
-        },
-        {
-          "id": "package-clusterbootstraps",
-          "type": "package",
-          "title": "clusterbootstraps",
-          "url": "https://pypi.org/project/clusterbootstraps/"
-        },
-        {
-          "id": "resource-meta-engineering-data-science",
-          "type": "resource",
-          "title": "Meta Engineering - Data Science",
-          "url": "https://engineering.fb.com/"
+          "title": "Ambrosia",
+          "url": "https://github.com/MobileTeleSystems/Ambrosia"
         },
         {
           "id": "resource-stanford-ml-causal-inference-short-course",
@@ -3075,425 +3255,251 @@
           "type": "resource",
           "title": "Tilburg Science Hub RDD Tutorials",
           "url": "https://tilburgsciencehub.com/topics/analyze/causal-inference/rdd/fuzzy-rdd/"
+        },
+        {
+          "id": "resource-matteo-courthoud-group-sequential-testing",
+          "type": "resource",
+          "title": "Matteo Courthoud: Group Sequential Testing",
+          "url": "https://matteocourthoud.github.io/post/group_sequential_testing/"
         }
       ],
       "seed": {
         "type": "tool",
-        "category": "Inference & Reporting Tools"
+        "category": "Power Simulation & Design of Experiments"
       }
     },
     {
-      "id": "tools-instrumental-variables",
+      "id": "tools-panel-data-fixed-effects",
       "template": "tool",
-      "name": "Instrumental Variables Toolkit",
-      "description": "Essential tools for instrumental variables",
+      "name": "Panel Data & Fixed Effects Toolkit",
+      "description": "Essential tools for panel data & fixed effects",
       "hero": {
-        "id": "package-ivreg",
+        "id": "package-linearmodels",
         "type": "package",
-        "title": "ivreg",
-        "url": "https://cran.r-project.org/package=ivreg"
+        "title": "Linearmodels",
+        "url": "https://github.com/bashtage/linearmodels"
       },
       "items": [
         {
-          "id": "package-shiftsharese",
+          "id": "package-pydynpd",
           "type": "package",
-          "title": "ShiftShareSE",
-          "url": "https://cran.r-project.org/package=ShiftShareSE"
+          "title": "pydynpd",
+          "url": "https://github.com/dazhwu/pydynpd"
         },
         {
-          "id": "package-ivmodel",
+          "id": "package-alpaca",
           "type": "package",
-          "title": "ivmodel",
-          "url": "https://cran.r-project.org/package=ivmodel"
+          "title": "alpaca",
+          "url": "https://cran.r-project.org/package=alpaca"
         },
         {
-          "id": "package-gmm",
+          "id": "package-bife",
           "type": "package",
-          "title": "gmm",
-          "url": "https://cran.r-project.org/package=gmm"
+          "title": "bife",
+          "url": "https://cran.r-project.org/package=bife"
         },
         {
-          "id": "package-systemfit",
+          "id": "package-panelhetero",
           "type": "package",
-          "title": "systemfit",
-          "url": "https://cran.r-project.org/package=systemfit"
+          "title": "panelhetero",
+          "url": "https://github.com/tkhdyanagi/panelhetero"
         },
         {
-          "id": "package-momentfit",
+          "id": "package-plm",
           "type": "package",
-          "title": "momentfit",
-          "url": "https://cran.r-project.org/package=momentfit"
+          "title": "plm",
+          "url": "https://cran.r-project.org/package=plm"
         },
         {
-          "id": "resource-matteo-courthouds-iv-tutorial",
+          "id": "package-fixest",
+          "type": "package",
+          "title": "fixest",
+          "url": "https://cran.r-project.org/package=fixest"
+        },
+        {
+          "id": "package-panelr",
+          "type": "package",
+          "title": "panelr",
+          "url": "https://cran.r-project.org/package=panelr"
+        },
+        {
+          "id": "paper-on-the-pooling-of-time-series-and-cross-section-data",
+          "type": "paper",
+          "title": "On the Pooling of Time Series and Cross Section Data",
+          "url": "https://www.jstor.org/stable/1913646"
+        },
+        {
+          "id": "paper-matrix-completion-methods-for-causal-panel-data-models",
+          "type": "paper",
+          "title": "Matrix Completion Methods for Causal Panel Data Models",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/01621459.2021.1891924"
+        },
+        {
+          "id": "resource-problem-solving-with-algorithms-data-structures-python",
           "type": "resource",
-          "title": "Matteo Courthoud's IV Tutorial",
-          "url": "https://matteocourthoud.github.io/post/instrumental_variables/"
-        },
-        {
-          "id": "resource-teconomics-machine-learning-meets-instrumental-variables",
-          "type": "resource",
-          "title": "Teconomics: Machine Learning Meets Instrumental Variables",
-          "url": "https://medium.com/teconomics-blog/machine-learning-meets-instrumental-variables-c8eecf5cec95"
-        },
-        {
-          "id": "resource-spotify-encouragement-designs-and-instrumental-variables-for-ab-testing",
-          "type": "resource",
-          "title": "Spotify: Encouragement Designs and Instrumental Variables for A/B Testing",
-          "url": "https://engineering.atspotify.com/2023/08/encouragement-designs-and-instrumental-variables-for-a-b-testing"
+          "title": "Problem Solving with Algorithms & Data Structures (Python)",
+          "url": "https://runestone.academy/ns/books/published/pythonds/index.html"
         }
       ],
       "seed": {
         "type": "tool",
-        "category": "Instrumental Variables"
+        "category": "Panel Data & Fixed Effects"
       }
     },
     {
-      "id": "tools-machine-learning",
+      "id": "tools-insurance-actuarial",
       "template": "tool",
-      "name": "Machine Learning Toolkit",
-      "description": "Essential tools for machine learning",
+      "name": "Insurance & Actuarial Toolkit",
+      "description": "Essential tools for insurance & actuarial",
       "hero": {
-        "id": "package-tidymodels",
+        "id": "package-lifelib",
         "type": "package",
-        "title": "tidymodels",
-        "url": "https://cran.r-project.org/package=tidymodels"
+        "title": "lifelib",
+        "url": "https://lifelib.io/"
       },
       "items": [
         {
-          "id": "package-ranger",
+          "id": "package-lifelines",
           "type": "package",
-          "title": "ranger",
-          "url": "https://cran.r-project.org/package=ranger"
+          "title": "lifelines",
+          "url": "https://github.com/CamDavidsonPilon/lifelines"
+        },
+        {
+          "id": "package-chainladder-python",
+          "type": "package",
+          "title": "chainladder-python",
+          "url": "https://github.com/casact/chainladder-python"
+        },
+        {
+          "id": "package-fairlearn",
+          "type": "package",
+          "title": "Fairlearn",
+          "url": "https://fairlearn.org/"
+        },
+        {
+          "id": "package-shap",
+          "type": "package",
+          "title": "SHAP",
+          "url": "https://github.com/slundberg/shap"
+        },
+        {
+          "id": "package-survminer",
+          "type": "package",
+          "title": "survminer",
+          "url": "https://cran.r-project.org/package=survminer"
+        },
+        {
+          "id": "package-cplm",
+          "type": "package",
+          "title": "cplm",
+          "url": "https://cran.r-project.org/package=cplm"
+        },
+        {
+          "id": "package-pyliferisk",
+          "type": "package",
+          "title": "pyliferisk",
+          "url": "https://github.com/franciscogarate/pyliferisk"
+        },
+        {
+          "id": "dataset-casdatasets-r-package",
+          "type": "dataset",
+          "title": "CASdatasets R Package",
+          "url": "https://cran.r-project.org/package=CASdatasets"
+        },
+        {
+          "id": "resource-freakonometrics-blog",
+          "type": "resource",
+          "title": "Freakonometrics Blog",
+          "url": "https://freakonometrics.hypotheses.org/"
+        },
+        {
+          "id": "talk-arthur-charpentier-actuarial-tutorials",
+          "type": "talk",
+          "title": "Arthur Charpentier Actuarial Tutorials",
+          "url": "https://www.youtube.com/@faboratoire"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Insurance & Actuarial"
+      }
+    },
+    {
+      "id": "tools-tree-ensemble-methods-for-prediction",
+      "template": "tool",
+      "name": "Tree & Ensemble Methods for Prediction Toolkit",
+      "description": "Essential tools for tree & ensemble methods for prediction",
+      "hero": {
+        "id": "package-catboost",
+        "type": "package",
+        "title": "CatBoost",
+        "url": "https://github.com/catboost/catboost"
+      },
+      "items": [
+        {
+          "id": "package-lightgbm",
+          "type": "package",
+          "title": "LightGBM",
+          "url": "https://github.com/microsoft/LightGBM"
+        },
+        {
+          "id": "package-cuml-rapids",
+          "type": "package",
+          "title": "cuML (RAPIDS)",
+          "url": "https://github.com/rapidsai/cuml"
+        },
+        {
+          "id": "package-linfa",
+          "type": "package",
+          "title": "Linfa",
+          "url": "https://crates.io/crates/linfa"
+        },
+        {
+          "id": "package-ngboost",
+          "type": "package",
+          "title": "NGBoost",
+          "url": "https://github.com/stanfordmlgroup/ngboost"
+        },
+        {
+          "id": "package-smartcore",
+          "type": "package",
+          "title": "SmartCore",
+          "url": "https://crates.io/crates/smartcore"
+        },
+        {
+          "id": "package-scikit-learn-ens",
+          "type": "package",
+          "title": "Scikit-learn Ens.",
+          "url": "https://github.com/scikit-learn/scikit-learn"
         },
         {
           "id": "package-xgboost",
           "type": "package",
-          "title": "xgboost",
-          "url": "https://cran.r-project.org/package=xgboost"
+          "title": "XGBoost",
+          "url": "https://github.com/dmlc/xgboost"
         },
         {
-          "id": "package-glmnet",
-          "type": "package",
-          "title": "glmnet",
-          "url": "https://cran.r-project.org/package=glmnet"
-        },
-        {
-          "id": "resource-coding-for-economists-arthur-turrell",
-          "type": "resource",
-          "title": "Coding for Economists (Arthur Turrell)",
-          "url": "https://aeturrell.github.io/coding-for-economists/"
-        },
-        {
-          "id": "resource-beyond-jupyter",
-          "type": "resource",
-          "title": "Beyond Jupyter",
-          "url": "https://github.com/aai-institute/beyond-jupyter"
-        },
-        {
-          "id": "resource-spotify-rd",
-          "type": "resource",
-          "title": "Spotify R&D",
-          "url": "https://research.atspotify.com/"
-        }
-      ],
-      "seed": {
-        "type": "tool",
-        "category": "Machine Learning"
-      }
-    },
-    {
-      "id": "tools-matching-market-design",
-      "template": "tool",
-      "name": "Matching & Market Design Toolkit",
-      "description": "Essential tools for matching & market design",
-      "hero": {
-        "id": "package-matching",
-        "type": "package",
-        "title": "matching",
-        "url": "https://github.com/daffidwilde/matching"
-      },
-      "items": [
-        {
-          "id": "package-deep-opt-auctions",
-          "type": "package",
-          "title": "deep-opt-auctions",
-          "url": "https://github.com/saisrivatsan/deep-opt-auctions"
-        },
-        {
-          "id": "package-kep_solver",
-          "type": "package",
-          "title": "kep_solver",
-          "url": "https://pypi.org/project/kep_solver/"
-        },
-        {
-          "id": "package-scarfmatch",
-          "type": "package",
-          "title": "scarfmatch",
-          "url": "https://pypi.org/project/scarfmatch/"
-        },
-        {
-          "id": "package-algmatch",
-          "type": "package",
-          "title": "algmatch",
-          "url": "https://pypi.org/project/algmatch/"
-        },
-        {
-          "id": "talk-alvin-roth-nobel-lecture-2012",
-          "type": "talk",
-          "title": "Alvin Roth: Nobel Lecture 2012",
-          "url": "https://www.youtube.com/watch?v=A2XXItBvQi8"
-        },
-        {
-          "id": "talk-alvin-roth-google-tech-talk-on-matching",
-          "type": "talk",
-          "title": "Alvin Roth: Google Tech Talk on Matching",
-          "url": "https://www.youtube.com/watch?v=4tdOY-HHC7s"
-        },
-        {
-          "id": "talk-mad-seminar-marketplace-algorithms-design",
-          "type": "talk",
-          "title": "MAD Seminar: Marketplace Algorithms & Design",
-          "url": "https://www.youtube.com/channel/UCe9KREYNZuvgnDe0lQWi6Vw"
-        }
-      ],
-      "seed": {
-        "type": "tool",
-        "category": "Matching & Market Design"
-      }
-    },
-    {
-      "id": "tools-mixed-effects",
-      "template": "tool",
-      "name": "Mixed Effects Toolkit",
-      "description": "Essential tools for mixed effects",
-      "hero": {
-        "id": "package-glmmtmb",
-        "type": "package",
-        "title": "glmmTMB",
-        "url": "https://cran.r-project.org/package=glmmTMB"
-      },
-      "items": [
-        {
-          "id": "package-lme4",
-          "type": "package",
-          "title": "lme4",
-          "url": "https://cran.r-project.org/package=lme4"
-        },
-        {
-          "id": "package-lmertest",
-          "type": "package",
-          "title": "lmerTest",
-          "url": "https://cran.r-project.org/package=lmerTest"
-        },
-        {
-          "id": "package-nlme",
-          "type": "package",
-          "title": "nlme",
-          "url": "https://cran.r-project.org/package=nlme"
-        },
-        {
-          "id": "paper-recovery-of-inter-block-information-when-block-sizes-are-unequal",
+          "id": "paper-bagging-and-boosting-classification-trees-to-predict-churn",
           "type": "paper",
-          "title": "Recovery of Inter-Block Information when Block Sizes are Unequal",
-          "url": "https://www.jstor.org/stable/2334389"
+          "title": "Bagging and Boosting Classification Trees to Predict Churn",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S037722170500124X"
         },
         {
-          "id": "paper-fitting-linear-mixed-effects-models-using-lme4",
-          "type": "paper",
-          "title": "Fitting Linear Mixed-Effects Models Using lme4",
-          "url": "https://www.jstatsoft.org/article/view/v067i01"
+          "id": "resource-matteo-courthouds-meta-learners-tutorial",
+          "type": "resource",
+          "title": "Matteo Courthoud's Meta-Learners Tutorial",
+          "url": "https://matteocourthoud.github.io/post/meta_learners/"
         },
         {
-          "id": "paper-valuing-new-goods-in-a-model-with-complementarity-online-newspapers",
-          "type": "paper",
-          "title": "Valuing New Goods in a Model with Complementarity: Online Newspapers",
-          "url": "https://www.jstor.org/stable/30034408"
+          "id": "resource-tilburg-science-hub-rdd-tutorials",
+          "type": "resource",
+          "title": "Tilburg Science Hub RDD Tutorials",
+          "url": "https://tilburgsciencehub.com/topics/analyze/causal-inference/rdd/fuzzy-rdd/"
         }
       ],
       "seed": {
         "type": "tool",
-        "category": "Mixed Effects"
-      }
-    },
-    {
-      "id": "tools-natural-language-processing-for-economics",
-      "template": "tool",
-      "name": "Natural Language Processing for Economics Toolkit",
-      "description": "Essential tools for natural language processing for economics",
-      "hero": {
-        "id": "package-gensim",
-        "type": "package",
-        "title": "Gensim",
-        "url": "https://github.com/RaRe-Technologies/gensim"
-      },
-      "items": [
-        {
-          "id": "package-transformers",
-          "type": "package",
-          "title": "Transformers",
-          "url": "https://github.com/huggingface/transformers"
-        },
-        {
-          "id": "package-spacy",
-          "type": "package",
-          "title": "spaCy",
-          "url": "https://github.com/explosion/spaCy"
-        },
-        {
-          "id": "package-causalnlp",
-          "type": "package",
-          "title": "CausalNLP",
-          "url": "https://github.com/amaiya/causalnlp"
-        },
-        {
-          "id": "resource-google-ai-blog",
-          "type": "resource",
-          "title": "Google AI Blog",
-          "url": "https://ai.googleblog.com/"
-        },
-        {
-          "id": "talk-pat-bajari-amazon-data-science-day-keynote-columbia",
-          "type": "talk",
-          "title": "Pat Bajari: Amazon Data Science Day Keynote (Columbia)",
-          "url": "https://datascience.columbia.edu/news/2021/amazon-economist-pat-bajari-delivers-data-science-day-2021-keynote/"
-        },
-        {
-          "id": "dataset-ethos-hate-speech",
-          "type": "dataset",
-          "title": "ETHOS Hate Speech",
-          "url": "https://zenodo.org/records/4459923"
-        }
-      ],
-      "seed": {
-        "type": "tool",
-        "category": "Natural Language Processing for Economics"
-      }
-    },
-    {
-      "id": "tools-network-analysis",
-      "template": "tool",
-      "name": "Network Analysis Toolkit",
-      "description": "Essential tools for network analysis",
-      "hero": {
-        "id": "package-tidygraph",
-        "type": "package",
-        "title": "tidygraph",
-        "url": "https://cran.r-project.org/package=tidygraph"
-      },
-      "items": [
-        {
-          "id": "package-ggraph",
-          "type": "package",
-          "title": "ggraph",
-          "url": "https://cran.r-project.org/package=ggraph"
-        },
-        {
-          "id": "package-igraph",
-          "type": "package",
-          "title": "igraph",
-          "url": "https://cran.r-project.org/package=igraph"
-        },
-        {
-          "id": "package-sna",
-          "type": "package",
-          "title": "sna",
-          "url": "https://cran.r-project.org/package=sna"
-        },
-        {
-          "id": "resource-dean-eckles-blog-on-network-experiments-and-social-influence",
-          "type": "resource",
-          "title": "Dean Eckles: Blog on Network Experiments and Social Influence",
-          "url": "https://deaneckles.com/blog"
-        },
-        {
-          "id": "resource-eugene-wei-seeing-like-an-algorithm-tiktok",
-          "type": "resource",
-          "title": "Eugene Wei: Seeing Like an Algorithm (TikTok)",
-          "url": "https://www.eugenewei.com/blog/2020/8/3/tiktok-and-the-sorting-hat"
-        },
-        {
-          "id": "dataset-orbitaal-bitcoin-transactions",
-          "type": "dataset",
-          "title": "ORBITAAL Bitcoin Transactions",
-          "url": "https://zenodo.org/records/7958648"
-        }
-      ],
-      "seed": {
-        "type": "tool",
-        "category": "Network Analysis"
-      }
-    },
-    {
-      "id": "tools-numerical-optimization-computational-tools",
-      "template": "tool",
-      "name": "Numerical Optimization & Computational Tools Toolkit",
-      "description": "Essential tools for numerical optimization & computational tools",
-      "hero": {
-        "id": "package-faer",
-        "type": "package",
-        "title": "Faer",
-        "url": "https://crates.io/crates/faer"
-      },
-      "items": [
-        {
-          "id": "package-nalgebra",
-          "type": "package",
-          "title": "Nalgebra",
-          "url": "https://crates.io/crates/nalgebra"
-        },
-        {
-          "id": "package-ndarray",
-          "type": "package",
-          "title": "Ndarray",
-          "url": "https://crates.io/crates/ndarray"
-        },
-        {
-          "id": "package-pytorch",
-          "type": "package",
-          "title": "PyTorch",
-          "url": "https://github.com/pytorch/pytorch"
-        },
-        {
-          "id": "package-jax",
-          "type": "package",
-          "title": "JAX",
-          "url": "https://github.com/google/jax"
-        },
-        {
-          "id": "package-torchonometrics",
-          "type": "package",
-          "title": "torchonometrics",
-          "url": "https://github.com/apoorvalal/torchonometrics"
-        },
-        {
-          "id": "package-jaxonometrics",
-          "type": "package",
-          "title": "jaxonometrics",
-          "url": "https://github.com/py-econometrics/jaxonometrics"
-        },
-        {
-          "id": "resource-convex-optimization-boyd-vandenberghe",
-          "type": "resource",
-          "title": "Convex Optimization (Boyd & Vandenberghe)",
-          "url": "https://web.stanford.edu/~boyd/cvxbook/"
-        },
-        {
-          "id": "resource-google-or-tools-vrp-vrptw-tutorial",
-          "type": "resource",
-          "title": "Google OR-Tools: VRP + VRPTW Tutorial",
-          "url": "https://developers.google.com/optimization/routing/vrp"
-        },
-        {
-          "id": "resource-quantecon-linear-programming-introduction",
-          "type": "resource",
-          "title": "QuantEcon: Linear Programming Introduction",
-          "url": "https://intro.quantecon.org/lp_intro.html"
-        }
-      ],
-      "seed": {
-        "type": "tool",
-        "category": "Numerical Optimization & Computational Tools"
+        "category": "Tree & Ensemble Methods for Prediction"
       }
     },
     {
@@ -3509,6 +3515,12 @@
       },
       "items": [
         {
+          "id": "package-highs",
+          "type": "package",
+          "title": "HiGHS",
+          "url": "https://highs.dev/"
+        },
+        {
           "id": "package-cvxpy",
           "type": "package",
           "title": "cvxpy",
@@ -3519,6 +3531,12 @@
           "type": "package",
           "title": "ortools",
           "url": "https://developers.google.com/optimization"
+        },
+        {
+          "id": "package-pyomo",
+          "type": "package",
+          "title": "Pyomo",
+          "url": "https://www.pyomo.org/"
         },
         {
           "id": "package-argmin",
@@ -3533,27 +3551,183 @@
           "url": "https://www.gurobi.com/"
         },
         {
-          "id": "resource-doordash-engineering",
+          "id": "resource-quantecon-linear-programming-introduction",
           "type": "resource",
-          "title": "DoorDash Engineering",
-          "url": "https://doordash.engineering/"
+          "title": "QuantEcon: Linear Programming Introduction",
+          "url": "https://intro.quantecon.org/lp_intro.html"
         },
         {
-          "id": "resource-lyft-quantifying-efficiency-in-ridesharing",
+          "id": "resource-doordash-next-generation-dasher-dispatch-optimization",
           "type": "resource",
-          "title": "Lyft: Quantifying Efficiency in Ridesharing",
-          "url": "https://eng.lyft.com/quantifying-efficiency-in-ridesharing-marketplaces-affd53043db2"
+          "title": "DoorDash: Next-Generation Dasher Dispatch Optimization",
+          "url": "https://careersatdoordash.com/blog/next-generation-optimization-for-dasher-dispatch-at-doordash/"
         },
         {
-          "id": "resource-stitch-fix-algorithms-blog",
+          "id": "resource-mit-15053-optimization-methods-in-management-science",
           "type": "resource",
-          "title": "Stitch Fix Algorithms Blog",
-          "url": "https://multithreaded.stitchfix.com/algorithms/blog/"
+          "title": "MIT 15.053: Optimization Methods in Management Science",
+          "url": "https://ocw.mit.edu/courses/15-053-optimization-methods-in-management-science-spring-2013/"
         }
       ],
       "seed": {
         "type": "tool",
         "category": "Optimization"
+      }
+    },
+    {
+      "id": "tools-time-series-econometrics",
+      "template": "tool",
+      "name": "Time Series Econometrics Toolkit",
+      "description": "Essential tools for time series econometrics",
+      "hero": {
+        "id": "package-vars",
+        "type": "package",
+        "title": "vars",
+        "url": "https://cran.r-project.org/package=vars"
+      },
+      "items": [
+        {
+          "id": "package-kats",
+          "type": "package",
+          "title": "Kats",
+          "url": "https://github.com/facebookresearch/Kats"
+        },
+        {
+          "id": "package-arch",
+          "type": "package",
+          "title": "ARCH",
+          "url": "https://github.com/bashtage/arch"
+        },
+        {
+          "id": "package-ts-flint",
+          "type": "package",
+          "title": "TS-Flint",
+          "url": "https://github.com/twosigma/flint"
+        },
+        {
+          "id": "package-urca",
+          "type": "package",
+          "title": "urca",
+          "url": "https://cran.r-project.org/package=urca"
+        },
+        {
+          "id": "package-kfas",
+          "type": "package",
+          "title": "KFAS",
+          "url": "https://cran.r-project.org/package=KFAS"
+        },
+        {
+          "id": "package-tsdyn",
+          "type": "package",
+          "title": "tsDyn",
+          "url": "https://cran.r-project.org/package=tsDyn"
+        },
+        {
+          "id": "package-mfilter",
+          "type": "package",
+          "title": "mFilter",
+          "url": "https://cran.r-project.org/package=mFilter"
+        },
+        {
+          "id": "resource-causal-inference-for-the-brave-and-true-time-series",
+          "type": "resource",
+          "title": "Causal Inference for the Brave and True: Time Series",
+          "url": "https://matheusfacure.github.io/python-causality-handbook/landing-page.html"
+        },
+        {
+          "id": "paper-on-the-pooling-of-time-series-and-cross-section-data",
+          "type": "paper",
+          "title": "On the Pooling of Time Series and Cross Section Data",
+          "url": "https://www.jstor.org/stable/1913646"
+        },
+        {
+          "id": "resource-googles-causalimpact-blog-post",
+          "type": "resource",
+          "title": "Google's CausalImpact Blog Post",
+          "url": "https://opensource.googleblog.com/2014/09/causalimpact-new-open-source-package.html"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Time Series Econometrics"
+      }
+    },
+    {
+      "id": "tools-causal-inference-ml",
+      "template": "tool",
+      "name": "Causal Inference (ML) Toolkit",
+      "description": "Essential tools for causal inference (ml)",
+      "hero": {
+        "id": "package-causalweight",
+        "type": "package",
+        "title": "causalweight",
+        "url": "https://cran.r-project.org/package=causalweight"
+      },
+      "items": [
+        {
+          "id": "package-ddml",
+          "type": "package",
+          "title": "ddml",
+          "url": "https://cran.r-project.org/package=ddml"
+        },
+        {
+          "id": "package-superlearner",
+          "type": "package",
+          "title": "SuperLearner",
+          "url": "https://cran.r-project.org/package=SuperLearner"
+        },
+        {
+          "id": "package-hdm",
+          "type": "package",
+          "title": "hdm",
+          "url": "https://cran.r-project.org/package=hdm"
+        },
+        {
+          "id": "package-sensemakr",
+          "type": "package",
+          "title": "sensemakr",
+          "url": "https://cran.r-project.org/package=sensemakr"
+        },
+        {
+          "id": "package-evalue",
+          "type": "package",
+          "title": "EValue",
+          "url": "https://cran.r-project.org/package=EValue"
+        },
+        {
+          "id": "package-grf",
+          "type": "package",
+          "title": "grf",
+          "url": "https://cran.r-project.org/package=grf"
+        },
+        {
+          "id": "package-ltmle",
+          "type": "package",
+          "title": "ltmle",
+          "url": "https://cran.r-project.org/package=ltmle"
+        },
+        {
+          "id": "resource-causal-inference-for-the-brave-and-true",
+          "type": "resource",
+          "title": "Causal Inference for the Brave and True",
+          "url": "https://matheusfacure.github.io/python-causality-handbook/"
+        },
+        {
+          "id": "resource-scott-cunningham-causal-inference-substack",
+          "type": "resource",
+          "title": "Scott Cunningham: Causal Inference Substack",
+          "url": "https://causalinf.substack.com/"
+        },
+        {
+          "id": "resource-lyft-engineering",
+          "type": "resource",
+          "title": "Lyft Engineering",
+          "url": "https://eng.lyft.com/"
+        }
+      ],
+      "seed": {
+        "type": "tool",
+        "category": "Causal Inference (ML)"
       }
     },
     {
@@ -3581,16 +3755,16 @@
           "url": "https://proceedings.mlr.press/v48/finn16.html"
         },
         {
-          "id": "package-catenets",
+          "id": "package-deepctr",
           "type": "package",
-          "title": "CATENets",
-          "url": "https://github.com/AliciaCurth/CATENets"
+          "title": "DeepCTR",
+          "url": "https://deepctr-doc.readthedocs.io/"
         },
         {
-          "id": "resource-stanford-ee364a-youtube",
+          "id": "resource-ahead-of-ai-sebastian-raschka",
           "type": "resource",
-          "title": "Stanford EE364A (YouTube)",
-          "url": "https://www.youtube.com/playlist?list=PL3940DD956CDF0622"
+          "title": "Ahead of AI (Sebastian Raschka)",
+          "url": "https://magazine.sebastianraschka.com/"
         },
         {
           "id": "talk-ml-for-pricing-auctions-icml",
@@ -3599,16 +3773,16 @@
           "url": "https://www.youtube.com/watch?v=gsPWQqVhb74"
         },
         {
-          "id": "dataset-m5product",
-          "type": "dataset",
-          "title": "M5Product",
-          "url": "https://xiaodongsuper.github.io/M5Product_dataset/index.html"
+          "id": "book-deep-medicine-how-artificial-intelligence-can-make-healthcare-human-again",
+          "type": "book",
+          "title": "Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again",
+          "url": "https://www.basicbooks.com/titles/eric-topol/deep-medicine/9781541644632/"
         },
         {
-          "id": "resource-scikit-learn-outlier-detection",
-          "type": "resource",
-          "title": "scikit-learn: Outlier Detection",
-          "url": "https://scikit-learn.org/stable/modules/outlier_detection.html"
+          "id": "paper-deepsurv-personalized-treatment-recommender-system-using-a-cox-proportional-hazards-deep-neural-network",
+          "type": "paper",
+          "title": "DeepSurv: Personalized Treatment Recommender System Using a Cox Proportional Hazards Deep Neural Network",
+          "url": "https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-018-0482-1"
         }
       ],
       "seed": {
@@ -3701,10 +3875,10 @@
           "url": "https://www.jstor.org/stable/2344614"
         },
         {
-          "id": "package-scikit-learn-ens",
+          "id": "package-lifelines",
           "type": "package",
-          "title": "Scikit-learn Ens.",
-          "url": "https://github.com/scikit-learn/scikit-learn"
+          "title": "lifelines",
+          "url": "https://lifelines.readthedocs.io/"
         },
         {
           "id": "paper-semiparametric-efficiency-in-multivariate-regression-models-with-missing-data",
@@ -3713,16 +3887,16 @@
           "url": "https://www.jstor.org/stable/2291135"
         },
         {
-          "id": "package-maketables",
+          "id": "package-pysal-spreg",
           "type": "package",
-          "title": "maketables",
-          "url": "https://github.com/py-econometrics/maketables"
+          "title": "PySAL (spreg)",
+          "url": "https://github.com/pysal/spreg"
         },
         {
-          "id": "package-systemfit",
+          "id": "package-sna",
           "type": "package",
-          "title": "systemfit",
-          "url": "https://cran.r-project.org/package=systemfit"
+          "title": "sna",
+          "url": "https://cran.r-project.org/package=sna"
         },
         {
           "id": "package-glmnet",
@@ -3791,10 +3965,10 @@
       },
       "items": [
         {
-          "id": "package-causalinference",
+          "id": "package-causalmatch",
           "type": "package",
-          "title": "CausalInference",
-          "url": "https://github.com/laurencium/causalinference"
+          "title": "CausalMatch",
+          "url": "https://github.com/bytedance/CausalMatch"
         },
         {
           "id": "resource-stanford-ml-causal-inference-short-course",
@@ -3809,10 +3983,10 @@
           "url": "https://ailab.criteo.com/criteo-uplift-prediction-dataset/"
         },
         {
-          "id": "package-causalmatch",
+          "id": "package-causalinference",
           "type": "package",
-          "title": "CausalMatch",
-          "url": "https://github.com/bytedance/CausalMatch"
+          "title": "CausalInference",
+          "url": "https://github.com/laurencium/causalinference"
         },
         {
           "id": "resource-andrew-heisss-dag-and-backdoor-tutorials",
@@ -3863,10 +4037,10 @@
           "url": "https://www.youtube.com/@data-science-interviews"
         },
         {
-          "id": "resource-wayfair-geo-experiments-for-incrementality",
+          "id": "resource-causal-inference-for-the-brave-and-true-time-series",
           "type": "resource",
-          "title": "Wayfair: Geo Experiments for Incrementality",
-          "url": "https://www.aboutwayfair.com/careers/tech-blog/how-wayfair-uses-geo-experiments-to-measure-incrementality"
+          "title": "Causal Inference for the Brave and True: Time Series",
+          "url": "https://matheusfacure.github.io/python-causality-handbook/landing-page.html"
         },
         {
           "id": "talk-brady-neal-causal-inference-course",
@@ -3875,10 +4049,10 @@
           "url": "https://www.youtube.com/@BradyNealCausalInference"
         },
         {
-          "id": "resource-causal-inference-for-the-brave-and-true-time-series",
+          "id": "resource-wayfair-geo-experiments-for-incrementality",
           "type": "resource",
-          "title": "Causal Inference for the Brave and True: Time Series",
-          "url": "https://matheusfacure.github.io/python-causality-handbook/landing-page.html"
+          "title": "Wayfair: Geo Experiments for Incrementality",
+          "url": "https://www.aboutwayfair.com/careers/tech-blog/how-wayfair-uses-geo-experiments-to-measure-incrementality"
         },
         {
           "id": "talk-nber-methods-lectures-feldstein-lectures",
@@ -3887,15 +4061,75 @@
           "url": "https://www.youtube.com/@NBERvideos"
         },
         {
-          "id": "resource-lyft-challenges-in-experimentation",
+          "id": "resource-juan-orduz-bayesian-marketing-methods",
           "type": "resource",
-          "title": "Lyft: Challenges in Experimentation",
-          "url": "https://eng.lyft.com/challenges-in-experimentation-be9ab98a7ef4"
+          "title": "Juan Orduz: Bayesian Marketing Methods",
+          "url": "https://juanitorduz.github.io/"
         }
       ],
       "seed": {
         "type": "method",
         "paper": "SMOTE: Synthetic Minority Over-sampling Technique"
+      }
+    },
+    {
+      "id": "method-the-market-for-lemons-quality-uncertaint",
+      "template": "method",
+      "name": "The Market for 'Lemons': Quality Uncertainty... Legacy",
+      "description": "A foundational paper with 21,952+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-the-market-for-lemons-quality-uncertainty-and-the-market-mechanism",
+        "type": "paper",
+        "title": "The Market for 'Lemons': Quality Uncertainty and the Market Mechanism",
+        "citations": 21952
+      },
+      "items": [
+        {
+          "id": "paper-decision-making-under-uncertainty-capturing-dynamic-brand-choice-processes-in-turbulent-consumer-goods-markets",
+          "type": "paper",
+          "title": "Decision-Making Under Uncertainty: Capturing Dynamic Brand Choice Processes in Turbulent Consumer Goods Markets",
+          "url": "https://pubsonline.informs.org/doi/10.1287/mksc.15.1.1"
+        },
+        {
+          "id": "package-pymc-marketing",
+          "type": "package",
+          "title": "PyMC-Marketing",
+          "url": "https://www.pymc-marketing.io/"
+        },
+        {
+          "id": "talk-hal-varian-conversations-with-tyler",
+          "type": "talk",
+          "title": "Hal Varian: Conversations with Tyler",
+          "url": "https://conversationswithtyler.com/episodes/hal-varian/"
+        },
+        {
+          "id": "paper-asymmetric-information-adverse-selection-and-online-disclosure-the-case-of-ebay-motors",
+          "type": "paper",
+          "title": "Asymmetric Information, Adverse Selection and Online Disclosure: The Case of eBay Motors",
+          "url": "https://www.aeaweb.org/articles?id=10.1257/aer.101.4.1535"
+        },
+        {
+          "id": "resource-causal-inference-the-mixtape",
+          "type": "resource",
+          "title": "Causal Inference: The Mixtape",
+          "url": "https://mixtape.scunning.com/"
+        },
+        {
+          "id": "book-handbook-of-insurance",
+          "type": "book",
+          "title": "Handbook of Insurance",
+          "url": "https://link.springer.com/book/10.1007/978-1-4614-0155-1"
+        },
+        {
+          "id": "paper-equilibrium-in-competitive-insurance-markets-an-essay-on-the-economics-of-imperfect-information",
+          "type": "paper",
+          "title": "Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information",
+          "url": "https://doi.org/10.2307/1885326"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "The Market for 'Lemons': Quality Uncertainty and the Market Mechanism"
       }
     },
     {
@@ -3971,16 +4205,16 @@
       },
       "items": [
         {
-          "id": "package-arch",
+          "id": "package-causalpy",
           "type": "package",
-          "title": "ARCH",
-          "url": "https://github.com/bashtage/arch"
+          "title": "CausalPy",
+          "url": "https://github.com/pymc-labs/CausalPy"
         },
         {
-          "id": "resource-time-series-handbook-lightgbm-for-m5",
+          "id": "resource-causal-inference-for-the-brave-and-true-time-series",
           "type": "resource",
-          "title": "Time Series Handbook: LightGBM for M5",
-          "url": "https://phdinds-aim.github.io/time_series_handbook/08_WinningestMethods/lightgbm_m5_forecasting.html"
+          "title": "Causal Inference for the Brave and True: Time Series",
+          "url": "https://matheusfacure.github.io/python-causality-handbook/landing-page.html"
         },
         {
           "id": "talk-rob-hyndman-forecasting-talks",
@@ -3995,16 +4229,16 @@
           "url": "https://robjhyndman.com/papers/hksg.pdf"
         },
         {
-          "id": "package-kfas",
-          "type": "package",
-          "title": "KFAS",
-          "url": "https://cran.r-project.org/package=KFAS"
+          "id": "book-discrete-choice-analysis-theory-and-application-to-travel-demand",
+          "type": "book",
+          "title": "Discrete Choice Analysis: Theory and Application to Travel Demand",
+          "url": "https://mitpress.mit.edu/9780262022170/discrete-choice-analysis/"
         },
         {
-          "id": "resource-blocked-time-series-cross-validation",
+          "id": "resource-tensorflow-time-series-forecasting-tutorial",
           "type": "resource",
-          "title": "Blocked Time Series Cross Validation",
-          "url": "https://towardsdatascience.com/reduce-bias-in-time-series-cross-validation-with-blocked-split-4ecbfc88f5a4/"
+          "title": "TensorFlow Time Series Forecasting Tutorial",
+          "url": "https://www.tensorflow.org/tutorials/structured_data/time_series"
         },
         {
           "id": "dataset-makridakis-competitions",
@@ -4095,6 +4329,12 @@
           "type": "paper",
           "title": "Proximal Policy Optimization Algorithms",
           "url": "https://arxiv.org/abs/1707.06347"
+        },
+        {
+          "id": "package-robyn",
+          "type": "package",
+          "title": "Robyn",
+          "url": "https://facebookexperimental.github.io/Robyn/"
         }
       ],
       "seed": {
@@ -4127,22 +4367,22 @@
           "url": "https://arxiv.org/abs/1203.6402"
         },
         {
-          "id": "resource-stitch-fix-algorithms-tour",
+          "id": "resource-google-research-market-algorithms-team",
           "type": "resource",
-          "title": "Stitch Fix: Algorithms Tour",
-          "url": "https://algorithms-tour.stitchfix.com/"
+          "title": "Google Research: Market Algorithms Team",
+          "url": "https://research.google/teams/market-algorithms/"
         },
         {
-          "id": "talk-sendhil-mullainathan-before-agi-podcast",
+          "id": "talk-sendhil-mullainathan-cornell-messenger-lectures",
           "type": "talk",
-          "title": "Sendhil Mullainathan: Before AGI Podcast",
-          "url": "https://www.youtube.com/watch?v=7GGuFjrfShs"
+          "title": "Sendhil Mullainathan: Cornell Messenger Lectures",
+          "url": "https://events.cornell.edu/event/messenger-lecture-sendhil-mullainathan"
         },
         {
-          "id": "dataset-coveo-shopping-sigir-21",
+          "id": "dataset-ieee-cis-fraud-detection",
           "type": "dataset",
-          "title": "Coveo Shopping (SIGIR-21)",
-          "url": "https://github.com/coveooss/SIGIR-ecom-data-challenge"
+          "title": "IEEE-CIS Fraud Detection",
+          "url": "https://www.kaggle.com/competitions/ieee-fraud-detection"
         },
         {
           "id": "book-weapons-of-math-destruction",
@@ -4175,10 +4415,10 @@
       },
       "items": [
         {
-          "id": "package-pylogit",
+          "id": "package-dagitty",
           "type": "package",
-          "title": "PyLogit",
-          "url": "https://github.com/timothyb0912/pylogit"
+          "title": "dagitty",
+          "url": "https://cran.r-project.org/package=dagitty"
         },
         {
           "id": "resource-frank-pinters-demand-estimation-notes",
@@ -4187,34 +4427,34 @@
           "url": "https://frankpinter.com/notes/Demand_Estimation_Notes.pdf"
         },
         {
+          "id": "talk-daniel-mcfadden-nobel-prize-lecture-economic-choices",
+          "type": "talk",
+          "title": "Daniel McFadden Nobel Prize Lecture: Economic Choices",
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/2000/mcfadden/lecture/"
+        },
+        {
+          "id": "book-discrete-choice-methods-with-simulation",
+          "type": "book",
+          "title": "Discrete Choice Methods with Simulation",
+          "url": "https://eml.berkeley.edu/books/choice2.html"
+        },
+        {
           "id": "paper-a-proportional-hazards-model-for-the-subdistribution-of-a-competing-risk",
           "type": "paper",
           "title": "A Proportional Hazards Model for the Subdistribution of a Competing Risk",
           "url": "https://www.jstor.org/stable/2670170"
         },
         {
-          "id": "package-dagitty",
+          "id": "package-apollo",
           "type": "package",
-          "title": "dagitty",
-          "url": "https://cran.r-project.org/package=dagitty"
+          "title": "Apollo",
+          "url": "http://www.apollochoicemodelling.com/"
         },
         {
-          "id": "dataset-open-e-commerce-10-mit",
-          "type": "dataset",
-          "title": "Open E-Commerce 1.0 (MIT)",
-          "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YGAVK9"
-        },
-        {
-          "id": "paper-stochastic-choice-and-revealed-perturbed-utility",
-          "type": "paper",
-          "title": "Stochastic Choice and Revealed Perturbed Utility",
-          "url": "https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA12660"
-        },
-        {
-          "id": "package-biogeme",
-          "type": "package",
-          "title": "Biogeme",
-          "url": "https://github.com/michelbierlaire/biogeme"
+          "id": "resource-mit-ocw-transportation-systems-analysis",
+          "type": "resource",
+          "title": "MIT OCW: Transportation Systems Analysis",
+          "url": "https://ocw.mit.edu/courses/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/"
         }
       ],
       "seed": {
@@ -4241,40 +4481,40 @@
           "url": "https://etsin.fairdata.fi/dataset/73eb48d7-4dbc-4a10-a52a-da745b47a649"
         },
         {
+          "id": "package-scikit-survival",
+          "type": "package",
+          "title": "scikit-survival",
+          "url": "https://scikit-survival.readthedocs.io/"
+        },
+        {
           "id": "talk-aswath-damodaran-valuation-lectures",
           "type": "talk",
           "title": "Aswath Damodaran: Valuation Lectures",
           "url": "https://pages.stern.nyu.edu/~adamodar/"
         },
         {
-          "id": "dataset-criteo-display-advertising",
+          "id": "dataset-wrds-wharton-research-data-services",
           "type": "dataset",
-          "title": "Criteo Display Advertising",
-          "url": "https://ailab.criteo.com/ressources/"
+          "title": "WRDS (Wharton Research Data Services)",
+          "url": "https://wrds-www.wharton.upenn.edu"
         },
         {
-          "id": "paper-model-based-clustering-discriminant-analysis-and-density-estimation",
-          "type": "paper",
-          "title": "Model-Based Clustering, Discriminant Analysis, and Density Estimation",
-          "url": "https://www.tandfonline.com/doi/abs/10.1198/016214502760047131"
+          "id": "resource-uber-dynamic-pricing-and-matching-in-ride-hailing",
+          "type": "resource",
+          "title": "Uber: Dynamic Pricing and Matching in Ride-Hailing",
+          "url": "https://www.uber.com/blog/research/dynamic-pricing-and-matching-in-ride-hailing-platforms/"
         },
         {
-          "id": "paper-predicting-player-churn-in-video-games-using-survival-analysis-and-clustering",
+          "id": "paper-conditional-logit-analysis-of-qualitative-choice-behavior",
           "type": "paper",
-          "title": "Predicting Player Churn in Video Games Using Survival Analysis and Clustering",
-          "url": "https://ieeexplore.ieee.org/document/7317943"
+          "title": "Conditional Logit Analysis of Qualitative Choice Behavior",
+          "url": "https://eml.berkeley.edu/reprints/mcfadden/zarembka.pdf"
         },
         {
-          "id": "paper-churn-prediction-in-mobile-social-games-towards-a-complete-assessment-using-survival-ensembles",
-          "type": "paper",
-          "title": "Churn Prediction in Mobile Social Games: Towards a Complete Assessment Using Survival Ensembles",
-          "url": "https://ieeexplore.ieee.org/document/7837911"
-        },
-        {
-          "id": "paper-does-retaining-customers-pay-off",
-          "type": "paper",
-          "title": "Does Retaining Customers Pay Off?",
-          "url": "https://sloanreview.mit.edu/article/the-mismanagement-of-customer-loyalty/"
+          "id": "dataset-national-transit-database-ntd",
+          "type": "dataset",
+          "title": "National Transit Database (NTD)",
+          "url": "https://www.transit.dot.gov/ntd"
         }
       ],
       "seed": {
@@ -4295,16 +4535,34 @@
       },
       "items": [
         {
+          "id": "package-lifelines",
+          "type": "package",
+          "title": "lifelines",
+          "url": "https://lifelines.readthedocs.io/"
+        },
+        {
           "id": "paper-regression-models-and-life-tables",
           "type": "paper",
           "title": "Regression Models and Life-Tables",
           "url": "https://www.jstor.org/stable/2985181"
         },
         {
+          "id": "package-scikit-survival",
+          "type": "package",
+          "title": "scikit-survival",
+          "url": "https://scikit-survival.readthedocs.io/"
+        },
+        {
           "id": "paper-customer-attrition-analysis-for-financial-services-using-proportional-hazard-models",
           "type": "paper",
           "title": "Customer Attrition Analysis for Financial Services Using Proportional Hazard Models",
           "url": "https://www.sciencedirect.com/science/article/abs/pii/S0377221703001068"
+        },
+        {
+          "id": "package-flexsurv",
+          "type": "package",
+          "title": "flexsurv",
+          "url": "https://cran.r-project.org/package=flexsurv"
         },
         {
           "id": "paper-random-survival-forests",
@@ -4336,6 +4594,12 @@
         "citations": 12857
       },
       "items": [
+        {
+          "id": "paper-equilibrium-in-competitive-insurance-markets-an-essay-on-the-economics-of-imperfect-information",
+          "type": "paper",
+          "title": "Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information",
+          "url": "https://doi.org/10.2307/1885326"
+        },
         {
           "id": "book-information-rules",
           "type": "book",
@@ -4371,17 +4635,71 @@
           "type": "paper",
           "title": "Predictably Unequal? The Effects of Machine Learning on Credit Markets",
           "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3072038"
-        },
-        {
-          "id": "paper-estimating-welfare-in-insurance-markets-using-variation-in-prices",
-          "type": "paper",
-          "title": "Estimating Welfare in Insurance Markets Using Variation in Prices",
-          "url": "https://www.nber.org/papers/w13839"
         }
       ],
       "seed": {
         "type": "method",
         "paper": "Credit Rationing in Markets with Imperfect Information"
+      }
+    },
+    {
+      "id": "method-dermatologist-level-classification-of-sk",
+      "template": "method",
+      "name": "The Dermatologist-level Classification of Skin Cancer with... Legacy",
+      "description": "A foundational paper with 12,511+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-dermatologist-level-classification-of-skin-cancer-with-deep-neural-networks",
+        "type": "paper",
+        "title": "Dermatologist-level Classification of Skin Cancer with Deep Neural Networks",
+        "citations": 12511
+      },
+      "items": [
+        {
+          "id": "package-machine-learning-specialization-coursera",
+          "type": "package",
+          "title": "Machine Learning Specialization (Coursera)",
+          "url": "https://www.coursera.org/specializations/machine-learning-introduction/"
+        },
+        {
+          "id": "resource-andrej-karpathys-neural-networks-zero-to-hero",
+          "type": "resource",
+          "title": "Andrej Karpathy's Neural Networks: Zero to Hero",
+          "url": "https://karpathy.ai/zero-to-hero.html"
+        },
+        {
+          "id": "talk-geometric-deep-learning",
+          "type": "talk",
+          "title": "Geometric Deep Learning",
+          "url": "https://arxiv.org/abs/2104.13478"
+        },
+        {
+          "id": "dataset-fashion-mnist",
+          "type": "dataset",
+          "title": "Fashion-MNIST",
+          "url": "https://github.com/zalandoresearch/fashion-mnist"
+        },
+        {
+          "id": "book-deep-medicine-how-artificial-intelligence-can-make-healthcare-human-again",
+          "type": "book",
+          "title": "Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again",
+          "url": "https://www.basicbooks.com/titles/eric-topol/deep-medicine/9781541644632/"
+        },
+        {
+          "id": "paper-deepsurv-personalized-treatment-recommender-system-using-a-cox-proportional-hazards-deep-neural-network",
+          "type": "paper",
+          "title": "DeepSurv: Personalized Treatment Recommender System Using a Cox Proportional Hazards Deep Neural Network",
+          "url": "https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-018-0482-1"
+        },
+        {
+          "id": "package-deep-opt-auctions",
+          "type": "package",
+          "title": "deep-opt-auctions",
+          "url": "https://github.com/saisrivatsan/deep-opt-auctions"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Dermatologist-level Classification of Skin Cancer with Deep Neural Networks"
       }
     },
     {
@@ -4397,10 +4715,10 @@
       },
       "items": [
         {
-          "id": "package-keceni",
+          "id": "package-catboost",
           "type": "package",
-          "title": "KECENI",
-          "url": "https://pypi.org/project/KECENI/"
+          "title": "CatBoost",
+          "url": "https://github.com/catboost/catboost"
         },
         {
           "id": "talk-mit-code-conference-on-digital-experimentation",
@@ -4415,10 +4733,10 @@
           "url": "https://projecteuclid.org/journals/annals-of-applied-statistics/volume-2/issue-3/Random-survival-forests/10.1214/08-AOAS169.full"
         },
         {
-          "id": "package-dlm",
+          "id": "package-keceni",
           "type": "package",
-          "title": "dlm",
-          "url": "https://cran.r-project.org/package=dlm"
+          "title": "KECENI",
+          "url": "https://pypi.org/project/KECENI/"
         },
         {
           "id": "talk-amazons-secret-economists-cnn",
@@ -4433,10 +4751,10 @@
           "url": "https://www.jstor.org/stable/2285923"
         },
         {
-          "id": "package-catboost",
+          "id": "package-dlm",
           "type": "package",
-          "title": "CatBoost",
-          "url": "https://github.com/catboost/catboost"
+          "title": "dlm",
+          "url": "https://cran.r-project.org/package=dlm"
         }
       ],
       "seed": {
@@ -4457,10 +4775,10 @@
       },
       "items": [
         {
-          "id": "paper-probabilistic-matrix-factorization",
-          "type": "paper",
-          "title": "Probabilistic Matrix Factorization",
-          "url": "https://papers.nips.cc/paper/2007/hash/d7322ed717dedf1eb4e6e52a37ea7bcd-Abstract.html"
+          "id": "package-recommenderlab",
+          "type": "package",
+          "title": "recommenderlab",
+          "url": "https://github.com/mhahsler/recommenderlab"
         },
         {
           "id": "resource-eugene-yan-bandits-for-recommender-systems",
@@ -4487,16 +4805,16 @@
           "url": "https://ieeexplore.ieee.org/document/4781121"
         },
         {
+          "id": "package-faer",
+          "type": "package",
+          "title": "Faer",
+          "url": "https://crates.io/crates/faer"
+        },
+        {
           "id": "resource-andrew-ngs-machine-learning-specialization",
           "type": "resource",
           "title": "Andrew Ng's Machine Learning Specialization",
           "url": "https://www.coursera.org/specializations/machine-learning-introduction"
-        },
-        {
-          "id": "talk-data-skeptic",
-          "type": "talk",
-          "title": "Data Skeptic",
-          "url": "https://dataskeptic.com/"
         }
       ],
       "seed": {
@@ -4523,16 +4841,16 @@
           "url": "https://www.casact.org/monograph/cas-monograph-no-5"
         },
         {
-          "id": "paper-economics-of-a-bottleneck",
-          "type": "paper",
-          "title": "Economics of a Bottleneck",
-          "url": "https://www.sciencedirect.com/science/article/pii/009411909090028L"
-        },
-        {
           "id": "paper-dynamic-online-pricing-with-incomplete-information-using-multi-armed-bandit-experiments",
           "type": "paper",
           "title": "Dynamic Online Pricing with Incomplete Information Using Multi-Armed Bandit Experiments",
           "url": "https://pubsonline.informs.org/doi/10.1287/mksc.2018.1129"
+        },
+        {
+          "id": "book-financial-economics-of-insurance",
+          "type": "book",
+          "title": "Financial Economics of Insurance",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/F/bo182892012.html"
         },
         {
           "id": "paper-dynamic-pricing-without-knowing-the-demand-function-risk-bounds-and-near-optimal-algorithms",
@@ -4595,10 +4913,10 @@
           "url": "https://www.jstor.org/stable/3088784"
         },
         {
-          "id": "resource-marty-cagan-inspired",
+          "id": "resource-slacks-2000-messages-activation-metric",
           "type": "resource",
-          "title": "Marty Cagan: INSPIRED",
-          "url": "https://www.svpg.com/books/inspired-how-to-create-tech-products-customers-love-2nd-edition/"
+          "title": "Slack's 2000 Messages Activation Metric",
+          "url": "https://www.growth-letter.com/p/inside-slacks-4-billion-growth-system"
         },
         {
           "id": "paper-controlling-the-false-discovery-rate-via-knockoffs",
@@ -4679,40 +4997,40 @@
           "url": "https://arxiv.org/abs/1908.10084"
         },
         {
-          "id": "package-deep-learning-specialization-coursera",
+          "id": "package-python-louvain",
           "type": "package",
-          "title": "Deep Learning Specialization (Coursera)",
-          "url": "https://www.coursera.org/specializations/deep-learning"
+          "title": "python-louvain",
+          "url": "https://python-louvain.readthedocs.io/"
         },
         {
-          "id": "resource-googles-recommendation-systems-course",
+          "id": "resource-tensorflow-time-series-forecasting-tutorial",
           "type": "resource",
-          "title": "Google's Recommendation Systems Course",
-          "url": "https://developers.google.com/machine-learning/recommendation"
+          "title": "TensorFlow Time Series Forecasting Tutorial",
+          "url": "https://www.tensorflow.org/tutorials/structured_data/time_series"
         },
         {
-          "id": "paper-wide-deep-learning-for-recommender-systems",
-          "type": "paper",
-          "title": "Wide & Deep Learning for Recommender Systems",
-          "url": "https://arxiv.org/abs/1606.07792"
-        },
-        {
-          "id": "package-text2vec",
-          "type": "package",
-          "title": "text2vec",
-          "url": "https://cran.r-project.org/package=text2vec"
-        },
-        {
-          "id": "resource-tensorflow-recommenders-tutorials",
-          "type": "resource",
-          "title": "TensorFlow Recommenders Tutorials",
-          "url": "https://www.tensorflow.org/recommenders"
+          "id": "talk-mario-wuthrich-eth-actuarial-lectures",
+          "type": "talk",
+          "title": "Mario Wuthrich ETH Actuarial Lectures",
+          "url": "https://people.math.ethz.ch/~wuethr/lectures.html"
         },
         {
           "id": "paper-causal-embeddings-for-recommendation",
           "type": "paper",
           "title": "Causal Embeddings for Recommendation",
           "url": "https://dl.acm.org/doi/10.1145/3240323.3240360"
+        },
+        {
+          "id": "package-deep-learning-specialization-coursera",
+          "type": "package",
+          "title": "Deep Learning Specialization (Coursera)",
+          "url": "https://www.coursera.org/specializations/deep-learning"
+        },
+        {
+          "id": "resource-mit-ocw-transportation-systems-analysis",
+          "type": "resource",
+          "title": "MIT OCW: Transportation Systems Analysis",
+          "url": "https://ocw.mit.edu/courses/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/"
         }
       ],
       "seed": {
@@ -4751,33 +5069,93 @@
           "url": "https://www.dataschool.io/15-hours-of-expert-machine-learning-videos/"
         },
         {
+          "id": "book-statistical-foundations-of-actuarial-learning-and-its-applications",
+          "type": "book",
+          "title": "Statistical Foundations of Actuarial Learning and its Applications",
+          "url": "https://link.springer.com/book/10.1007/978-3-031-12409-9"
+        },
+        {
           "id": "paper-random-effects-models-for-longitudinal-data",
           "type": "paper",
           "title": "Random-Effects Models for Longitudinal Data",
           "url": "https://www.jstor.org/stable/2529876"
         },
         {
-          "id": "package-lingam",
+          "id": "package-gcastle",
           "type": "package",
-          "title": "LiNGAM",
-          "url": "https://github.com/cdt15/lingam"
+          "title": "gCastle",
+          "url": "https://github.com/huawei-noah/trustworthyAI"
         },
         {
           "id": "resource-matteo-courthouds-rdd-tutorial",
           "type": "resource",
           "title": "Matteo Courthoud's RDD Tutorial",
           "url": "https://matteocourthoud.github.io/post/regression_discontinuity/"
-        },
-        {
-          "id": "dataset-makridakis-competitions",
-          "type": "dataset",
-          "title": "Makridakis Competitions",
-          "url": "https://www.mcompetitions.unic.ac.cy/the-dataset/"
         }
       ],
       "seed": {
         "type": "method",
         "paper": "Spatial Econometrics: Methods and Models"
+      }
+    },
+    {
+      "id": "method-item-based-collaborative-filtering-recom",
+      "template": "method",
+      "name": "The Item-Based Collaborative Filtering Recommendation Algorithms Legacy",
+      "description": "A foundational paper with 8,793+ citations and its ecosystem",
+      "hero": {
+        "id": "paper-item-based-collaborative-filtering-recommendation-algorithms",
+        "type": "paper",
+        "title": "Item-Based Collaborative Filtering Recommendation Algorithms",
+        "citations": 8793
+      },
+      "items": [
+        {
+          "id": "resource-googles-recommendation-systems-course",
+          "type": "resource",
+          "title": "Google's Recommendation Systems Course",
+          "url": "https://developers.google.com/machine-learning/recommendation"
+        },
+        {
+          "id": "package-implicit",
+          "type": "package",
+          "title": "Implicit",
+          "url": "https://github.com/benfred/implicit"
+        },
+        {
+          "id": "talk-xavier-amatriain-recsys-talks",
+          "type": "talk",
+          "title": "Xavier Amatriain: RecSys Talks",
+          "url": "https://amatria.in/talks/"
+        },
+        {
+          "id": "paper-collaborative-filtering-with-temporal-dynamics",
+          "type": "paper",
+          "title": "Collaborative Filtering with Temporal Dynamics",
+          "url": "https://dl.acm.org/doi/10.1145/1557019.1557072"
+        },
+        {
+          "id": "book-the-filter-bubble",
+          "type": "book",
+          "title": "The Filter Bubble",
+          "url": "https://www.amazon.com/Filter-Bubble-What-Internet-Hiding/dp/1594203008"
+        },
+        {
+          "id": "package-recbole",
+          "type": "package",
+          "title": "RecBole",
+          "url": "https://recbole.io/"
+        },
+        {
+          "id": "dataset-recsys-challenge-2024-eb-nerd",
+          "type": "dataset",
+          "title": "RecSys Challenge 2024 (EB-NeRD)",
+          "url": "https://www.recsyschallenge.com/2024/"
+        }
+      ],
+      "seed": {
+        "type": "method",
+        "paper": "Item-Based Collaborative Filtering Recommendation Algorithms"
       }
     },
     {
@@ -4811,6 +5189,18 @@
           "url": "https://www.youtube.com/@data-science-interviews"
         },
         {
+          "id": "dataset-lmsys-chat-1m",
+          "type": "dataset",
+          "title": "LMSYS-Chat-1M",
+          "url": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m"
+        },
+        {
+          "id": "book-loss-models-from-data-to-decisions",
+          "type": "book",
+          "title": "Loss Models: From Data to Decisions",
+          "url": "https://www.wiley.com/en-us/Loss+Models%3A+From+Data+to+Decisions%2C+5th+Edition-p-9781119523789"
+        },
+        {
           "id": "paper-regression-models-and-life-tables",
           "type": "paper",
           "title": "Regression Models and Life-Tables",
@@ -4821,18 +5211,6 @@
           "type": "package",
           "title": "lme4",
           "url": "https://cran.r-project.org/package=lme4"
-        },
-        {
-          "id": "resource-frank-pinters-demand-estimation-notes",
-          "type": "resource",
-          "title": "Frank Pinter's Demand Estimation Notes",
-          "url": "https://frankpinter.com/notes/Demand_Estimation_Notes.pdf"
-        },
-        {
-          "id": "dataset-lmsys-chat-1m",
-          "type": "dataset",
-          "title": "LMSYS-Chat-1M",
-          "url": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m"
         }
       ],
       "seed": {
@@ -4852,12 +5230,6 @@
         "citations": 8284
       },
       "items": [
-        {
-          "id": "paper-targeting-and-privacy-in-mobile-advertising",
-          "type": "paper",
-          "title": "Targeting and Privacy in Mobile Advertising",
-          "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.2020.1235"
-        },
         {
           "id": "paper-amplification-by-shuffling-from-local-to-central-differential-privacy-via-anonymity",
           "type": "paper",
@@ -4893,6 +5265,12 @@
           "type": "paper",
           "title": "Robust De-anonymization of Large Sparse Datasets (Netflix)",
           "url": "https://arxiv.org/abs/cs/0610105"
+        },
+        {
+          "id": "paper-t-closeness-privacy-beyond-k-anonymity-and-l-diversity",
+          "type": "paper",
+          "title": "t-Closeness: Privacy Beyond k-Anonymity and ℓ-Diversity",
+          "url": "https://www.cs.purdue.edu/homes/ninghui/papers/t_closeness_icde07.pdf"
         }
       ],
       "seed": {
@@ -4937,22 +5315,22 @@
           "url": "https://casualinfer.libsyn.com/"
         },
         {
-          "id": "resource-lennys-newsletter-consumer-marketing-measurement",
-          "type": "resource",
-          "title": "Lenny's Newsletter: Consumer Marketing Measurement",
-          "url": "https://www.lennysnewsletter.com/"
-        },
-        {
-          "id": "paper-a-scalable-bootstrap-for-massive-data",
-          "type": "paper",
-          "title": "A Scalable Bootstrap for Massive Data",
-          "url": "https://rss.onlinelibrary.wiley.com/doi/10.1111/rssb.12050"
-        },
-        {
           "id": "package-abracadabra",
           "type": "package",
           "title": "abracadabra",
           "url": "https://pypi.org/project/abracadabra/"
+        },
+        {
+          "id": "resource-scipystats-documentation",
+          "type": "resource",
+          "title": "Scipy.stats Documentation",
+          "url": "https://docs.scipy.org/doc/scipy/reference/stats.html"
+        },
+        {
+          "id": "paper-minimax-play-at-wimbledon",
+          "type": "paper",
+          "title": "Minimax Play at Wimbledon",
+          "url": "https://www.aeaweb.org/articles?id=10.1257/aer.91.5.1521"
         }
       ],
       "seed": {
@@ -4973,10 +5351,10 @@
       },
       "items": [
         {
-          "id": "package-igraph",
+          "id": "package-python-louvain",
           "type": "package",
-          "title": "igraph",
-          "url": "https://cran.r-project.org/package=igraph"
+          "title": "python-louvain",
+          "url": "https://python-louvain.readthedocs.io/"
         },
         {
           "id": "resource-change-point-detection-in-time-series",
@@ -4991,16 +5369,16 @@
           "url": "https://link.springer.com/article/10.1023/A:1013689704352"
         },
         {
-          "id": "package-dlm",
+          "id": "package-linfa",
           "type": "package",
-          "title": "dlm",
-          "url": "https://cran.r-project.org/package=dlm"
+          "title": "Linfa",
+          "url": "https://crates.io/crates/linfa"
         },
         {
-          "id": "resource-ieee-spectrum-the-secret-of-airbnbs-pricing-algorithm",
+          "id": "resource-uber-dynamic-pricing-and-matching-in-ride-hailing",
           "type": "resource",
-          "title": "IEEE Spectrum: The Secret of Airbnb's Pricing Algorithm",
-          "url": "https://spectrum.ieee.org/the-secret-of-airbnbs-pricing-algorithm"
+          "title": "Uber: Dynamic Pricing and Matching in Ride-Hailing",
+          "url": "https://www.uber.com/blog/research/dynamic-pricing-and-matching-in-ride-hailing-platforms/"
         },
         {
           "id": "paper-contextual-bandits-with-linear-payoff-functions",
@@ -5009,10 +5387,10 @@
           "url": "https://proceedings.mlr.press/v15/chu11a.html"
         },
         {
-          "id": "package-linfa",
+          "id": "package-dlm",
           "type": "package",
-          "title": "Linfa",
-          "url": "https://crates.io/crates/linfa"
+          "title": "dlm",
+          "url": "https://cran.r-project.org/package=dlm"
         }
       ],
       "seed": {
@@ -5057,22 +5435,22 @@
           "url": "https://arxiv.org/abs/2402.02592"
         },
         {
-          "id": "package-weightit",
+          "id": "book-discrete-choice-methods-with-simulation",
+          "type": "book",
+          "title": "Discrete Choice Methods with Simulation",
+          "url": "https://eml.berkeley.edu/books/choice2.html"
+        },
+        {
+          "id": "package-dowhy",
           "type": "package",
-          "title": "WeightIt",
-          "url": "https://cran.r-project.org/package=WeightIt"
+          "title": "DoWhy",
+          "url": "https://www.pywhy.org/dowhy/"
         },
         {
-          "id": "resource-uber-dynamic-pricing-and-matching-in-ride-hailing",
+          "id": "resource-made-with-ml",
           "type": "resource",
-          "title": "Uber: Dynamic Pricing and Matching in Ride-Hailing",
-          "url": "https://www.uber.com/blog/research/dynamic-pricing-and-matching-in-ride-hailing-platforms/"
-        },
-        {
-          "id": "talk-neurips-2024-causality-for-llms-tutorial",
-          "type": "talk",
-          "title": "NeurIPS 2024: Causality for LLMs Tutorial",
-          "url": "https://neurips.cc/virtual/2024/tutorial/99520"
+          "title": "Made With ML",
+          "url": "https://madewithml.com/courses/foundations/"
         }
       ],
       "seed": {
@@ -5153,10 +5531,10 @@
           "url": "https://arxiv.org/abs/1602.04938"
         },
         {
-          "id": "package-causallib",
+          "id": "package-xlogit",
           "type": "package",
-          "title": "CausalLib",
-          "url": "https://github.com/IBM/causallib"
+          "title": "xlogit",
+          "url": "https://github.com/arteagac/xlogit"
         },
         {
           "id": "talk-aea-webcasts",
@@ -5165,22 +5543,22 @@
           "url": "https://www.youtube.com/@AEA"
         },
         {
-          "id": "dataset-yandex-datasets",
+          "id": "dataset-openml",
           "type": "dataset",
-          "title": "Yandex Datasets",
-          "url": "https://research.yandex.com/datasets"
+          "title": "OpenML",
+          "url": "https://www.openml.org"
         },
         {
-          "id": "book-weapons-of-math-destruction",
+          "id": "book-statistical-foundations-of-actuarial-learning-and-its-applications",
           "type": "book",
-          "title": "Weapons of Math Destruction",
-          "url": "https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815"
+          "title": "Statistical Foundations of Actuarial Learning and its Applications",
+          "url": "https://link.springer.com/book/10.1007/978-3-031-12409-9"
         },
         {
-          "id": "paper-3-irt-a-new-item-response-model-and-its-applications",
-          "type": "paper",
-          "title": "β³-IRT: A New Item Response Model and its Applications",
-          "url": "https://proceedings.mlr.press/v89/chen19b.html"
+          "id": "resource-nathan-brixius-ml-optimization",
+          "type": "resource",
+          "title": "Nathan Brixius: ML + Optimization",
+          "url": "https://nathanbrixius.wordpress.com/"
         }
       ],
       "seed": {
@@ -5297,135 +5675,15 @@
           "url": "https://hbr.org/2016/04/pipelines-platforms-and-the-new-rules-of-strategy"
         },
         {
-          "id": "package-h2o-sparkling-water",
+          "id": "package-momentfit",
           "type": "package",
-          "title": "H2O Sparkling Water",
-          "url": "https://github.com/h2oai/sparkling-water"
+          "title": "momentfit",
+          "url": "https://cran.r-project.org/package=momentfit"
         }
       ],
       "seed": {
         "type": "method",
         "paper": "Generalized Linear Models"
-      }
-    },
-    {
-      "id": "method-calibrating-noise-to-sensitivity-in-priv",
-      "template": "method",
-      "name": "The Calibrating Noise to Sensitivity in Private... Legacy",
-      "description": "A foundational paper with 6,726+ citations and its ecosystem",
-      "hero": {
-        "id": "paper-calibrating-noise-to-sensitivity-in-private-data-analysis",
-        "type": "paper",
-        "title": "Calibrating Noise to Sensitivity in Private Data Analysis",
-        "citations": 6726
-      },
-      "items": [
-        {
-          "id": "package-mediation",
-          "type": "package",
-          "title": "mediation",
-          "url": "https://cran.r-project.org/package=mediation"
-        },
-        {
-          "id": "dataset-israeli-grocery",
-          "type": "dataset",
-          "title": "Israeli Grocery",
-          "url": "https://www.kaggle.com/datasets/arielpazsawicki/kimonaim"
-        },
-        {
-          "id": "resource-coding-for-economists-arthur-turrell",
-          "type": "resource",
-          "title": "Coding for Economists (Arthur Turrell)",
-          "url": "https://aeturrell.github.io/coding-for-economists/"
-        },
-        {
-          "id": "talk-aki-vehtari-bayesian-data-analysis",
-          "type": "talk",
-          "title": "Aki Vehtari: Bayesian Data Analysis",
-          "url": "https://www.youtube.com/@aki_vehtari_aalto"
-        },
-        {
-          "id": "book-the-great-reversal",
-          "type": "book",
-          "title": "The Great Reversal",
-          "url": "https://www.amazon.com/Great-Reversal-America-Gave-Markets/dp/0674237544"
-        },
-        {
-          "id": "package-abracadabra",
-          "type": "package",
-          "title": "abracadabra",
-          "url": "https://pypi.org/project/abracadabra/"
-        },
-        {
-          "id": "dataset-open-e-commerce-10-mit",
-          "type": "dataset",
-          "title": "Open E-Commerce 1.0 (MIT)",
-          "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YGAVK9"
-        }
-      ],
-      "seed": {
-        "type": "method",
-        "paper": "Calibrating Noise to Sensitivity in Private Data Analysis"
-      }
-    },
-    {
-      "id": "method-a-simple-model-of-herd-behavior",
-      "template": "method",
-      "name": "A Simple Model of Herd Behavior Legacy",
-      "description": "A foundational paper with 6,368+ citations and its ecosystem",
-      "hero": {
-        "id": "paper-a-simple-model-of-herd-behavior",
-        "type": "paper",
-        "title": "A Simple Model of Herd Behavior",
-        "citations": 6368
-      },
-      "items": [
-        {
-          "id": "package-biogeme",
-          "type": "package",
-          "title": "Biogeme",
-          "url": "https://github.com/michelbierlaire/biogeme"
-        },
-        {
-          "id": "talk-john-list-macro-hive-podcast",
-          "type": "talk",
-          "title": "John List: Macro Hive Podcast",
-          "url": "https://macrohive.com/hive-podcasts/ep-101-john-list-on-insights-from-uber-paying-bonuses-and-scaling-ideas/"
-        },
-        {
-          "id": "paper-a-proportional-hazards-model-for-the-subdistribution-of-a-competing-risk",
-          "type": "paper",
-          "title": "A Proportional Hazards Model for the Subdistribution of a Competing Risk",
-          "url": "https://www.jstor.org/stable/2670170"
-        },
-        {
-          "id": "package-ziln_cltv",
-          "type": "package",
-          "title": "ziln_cltv",
-          "url": "https://github.com/google/lifetime_value"
-        },
-        {
-          "id": "dataset-instacart",
-          "type": "dataset",
-          "title": "Instacart",
-          "url": "https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis"
-        },
-        {
-          "id": "paper-quasi-likelihood-functions-generalized-linear-models-and-the-gauss-newton-method",
-          "type": "paper",
-          "title": "Quasi-Likelihood Functions, Generalized Linear Models, and the Gauss-Newton Method",
-          "url": "https://www.jstor.org/stable/2334725"
-        },
-        {
-          "id": "package-see",
-          "type": "package",
-          "title": "see",
-          "url": "https://cran.r-project.org/package=see"
-        }
-      ],
-      "seed": {
-        "type": "method",
-        "paper": "A Simple Model of Herd Behavior"
       }
     }
   ]
