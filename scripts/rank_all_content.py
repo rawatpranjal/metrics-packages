@@ -18,9 +18,17 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 import numpy as np
-from sklearn.linear_model import Ridge
 from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import cross_val_predict
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from sentence_transformers import SentenceTransformer
+
+try:
+    import lightgbm as lgb
+    HAS_LIGHTGBM = True
+except ImportError:
+    HAS_LIGHTGBM = False
+    print("Warning: lightgbm not installed, falling back to Ridge regression")
 
 # Load sentence transformer model for semantic embeddings
 print("Loading sentence-BERT model...")
@@ -307,37 +315,66 @@ def train_regression_model(items, item_signals):
         print("  Not enough samples with engagement for training")
         return None, None, encoders
 
-    # Cross-validation to check for overfitting
-    from sklearn.model_selection import cross_val_score
     print("\n  Evaluating with 5-fold cross-validation...")
-
-    # Scale features for Ridge regression
-    scaler = StandardScaler()
-    X_scaled = scaler.fit_transform(X)
-
-    # Use Ridge regression - better for high-dimensional sparse targets
-    model = Ridge(alpha=10.0)  # Strong regularization
 
     # Cross-validation on items with engagement only (more meaningful)
     has_engagement = y > 0
-    X_engaged = X_scaled[has_engagement]
+    X_engaged = X[has_engagement]
     y_engaged = y[has_engagement]
 
-    cv_scores = cross_val_score(model, X_engaged, y_engaged, cv=5, scoring='r2')
-    print(f"  CV R² scores: {cv_scores}")
-    print(f"  Mean CV R²: {cv_scores.mean():.3f} (+/- {cv_scores.std()*2:.3f})")
+    if HAS_LIGHTGBM:
+        # Use LightGBM for gradient boosting
+        model = lgb.LGBMRegressor(
+            n_estimators=100,
+            max_depth=5,
+            learning_rate=0.05,
+            num_leaves=31,
+            min_child_samples=5,
+            subsample=0.8,
+            colsample_bytree=0.8,
+            reg_alpha=1.0,
+            reg_lambda=1.0,
+            random_state=42,
+            verbose=-1
+        )
+        model_name = "LightGBM"
+    else:
+        from sklearn.linear_model import Ridge
+        scaler = StandardScaler()
+        X = scaler.fit_transform(X)
+        X_engaged = X[has_engagement]
+        model = Ridge(alpha=10.0)
+        encoders['scaler'] = scaler
+        model_name = "Ridge"
+
+    # Cross-validation predictions for evaluation
+    y_pred_cv = cross_val_predict(model, X_engaged, y_engaged, cv=5)
+
+    # Compute comprehensive metrics
+    cv_rmse = np.sqrt(mean_squared_error(y_engaged, y_pred_cv))
+    cv_mae = mean_absolute_error(y_engaged, y_pred_cv)
+    cv_r2 = r2_score(y_engaged, y_pred_cv)
+
+    # Baseline comparison (predicting mean)
+    baseline_pred = np.full_like(y_engaged, y_engaged.mean())
+    baseline_rmse = np.sqrt(mean_squared_error(y_engaged, baseline_pred))
+
+    print(f"  CV RMSE: {cv_rmse:.3f}")
+    print(f"  CV MAE: {cv_mae:.3f}")
+    print(f"  CV R²: {cv_r2:.3f}")
+    print(f"  Baseline RMSE (mean): {baseline_rmse:.3f}")
+    if baseline_rmse > 0:
+        print(f"  RMSE vs baseline: {(cv_rmse/baseline_rmse)*100:.1f}% (lower is better)")
 
     # Train on full data
-    model.fit(X_scaled, y)
-    train_r2 = model.score(X_scaled, y)
+    model.fit(X, y)
+    train_preds = model.predict(X)
+    train_r2 = r2_score(y, train_preds)
     print(f"  Train R²: {train_r2:.3f}")
-    print(f"  Ridge regression trained (alpha={model.alpha})")
+    print(f"  {model_name} trained")
 
-    # Store scaler in encoders for reference
-    encoders['scaler'] = scaler
-
-    # Get predicted scores for all items (use scaled features)
-    predictions = model.predict(X_scaled)
+    # Get predicted scores for all items
+    predictions = model.predict(X)
 
     # Clip negative predictions to 0
     predictions = np.maximum(predictions, 0)
@@ -350,18 +387,30 @@ def train_regression_model(items, item_signals):
     print(f"  Scored {len(scores)} items")
     print(f"  Predicted range: {predictions.min():.2f} to {predictions.max():.2f}")
 
-    # Show feature importance via coefficient magnitudes
+    # Show feature importance
     n_cat = encoders['n_categorical']
-    coefs = np.abs(model.coef_)
-    cat_coefs = coefs[:n_cat]
-    bert_coef_sum = coefs[n_cat:].sum()
-
     feature_names = ['type', 'category', 'difficulty', 'domain', 'desc_len', 'n_tags', 'n_topics', 'has_url', 'citations', 'name_len']
-    sorted_idx = np.argsort(cat_coefs)[::-1]
-    print("  Top coefficient magnitudes:")
-    for idx in sorted_idx[:5]:
-        print(f"    {feature_names[idx]}: {cat_coefs[idx]:.3f}")
-    print(f"    BERT embeddings (sum): {bert_coef_sum:.3f}")
+
+    if HAS_LIGHTGBM and hasattr(model, 'feature_importances_'):
+        importances = model.feature_importances_
+        cat_importances = importances[:n_cat]
+        bert_importance_sum = importances[n_cat:].sum()
+
+        sorted_idx = np.argsort(cat_importances)[::-1]
+        print("  Top feature importances:")
+        for idx in sorted_idx[:5]:
+            print(f"    {feature_names[idx]}: {cat_importances[idx]:.1f}")
+        print(f"    BERT embeddings (sum): {bert_importance_sum:.1f}")
+    elif hasattr(model, 'coef_'):
+        coefs = np.abs(model.coef_)
+        cat_coefs = coefs[:n_cat]
+        bert_coef_sum = coefs[n_cat:].sum()
+
+        sorted_idx = np.argsort(cat_coefs)[::-1]
+        print("  Top coefficient magnitudes:")
+        for idx in sorted_idx[:5]:
+            print(f"    {feature_names[idx]}: {cat_coefs[idx]:.3f}")
+        print(f"    BERT embeddings (sum): {bert_coef_sum:.3f}")
 
     return model, scores, encoders
 
@@ -697,8 +746,11 @@ def main():
     print("RANKING SUMMARY")
     print("=" * 60)
     print(f"Scoring method: {scoring_method.upper()}")
-    if model and hasattr(model, 'alpha'):
-        print(f"  Ridge alpha: {model.alpha}")
+    if model:
+        if hasattr(model, 'n_estimators'):
+            print(f"  LightGBM: {model.n_estimators} trees, max_depth={model.max_depth}")
+        elif hasattr(model, 'alpha'):
+            print(f"  Ridge alpha: {model.alpha}")
         if encoders:
             print(f"  Features: {encoders.get('n_categorical', 0)} categorical + {encoders.get('n_bert', 0)} BERT dims")
     print(f"Total items ranked: {len(rankings)}")
