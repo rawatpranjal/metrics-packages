@@ -1,11 +1,11 @@
 {
   "schema_version": "2.1",
-  "last_run": "2025-12-31T03:20:12.698298+00:00",
+  "last_run": "2026-01-01T02:52:06.214598+00:00",
   "items": {
     "packages.json": {
       "BayesianBandits": {
-        "content_hash": "29fe373a900043cf",
-        "enriched_at": "2025-12-30T21:12:16.285058+00:00",
+        "content_hash": "ff10bef2b3ced772",
+        "enriched_at": "2026-01-01T02:17:14.839031+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -32,8 +32,8 @@
         "confidence": 1.0
       },
       "PyXAB": {
-        "content_hash": "c7b2fd8a5d7faf5f",
-        "enriched_at": "2025-12-30T21:12:44.026241+00:00",
+        "content_hash": "97e14ebd6f45ae0e",
+        "enriched_at": "2026-01-01T02:17:19.152362+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -200,8 +200,8 @@
         "confidence": 1.0
       },
       "Ananke": {
-        "content_hash": "a6e323b2dfbc35e9",
-        "enriched_at": "2025-12-30T21:15:05.581903+00:00",
+        "content_hash": "7e27095a7ba5834f",
+        "enriched_at": "2026-01-01T02:17:25.069489+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -221,8 +221,8 @@
         "confidence": 1.0
       },
       "CausalNex": {
-        "content_hash": "62540415538eff17",
-        "enriched_at": "2025-12-30T21:15:23.706298+00:00",
+        "content_hash": "9f8899c5f5cf76a1",
+        "enriched_at": "2026-01-01T02:17:32.544269+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -277,8 +277,8 @@
         "confidence": 1.0
       },
       "py-tetrad": {
-        "content_hash": "6eb1ad9d679ed30a",
-        "enriched_at": "2025-12-30T21:16:08.479059+00:00",
+        "content_hash": "6c605182a6f9a7f4",
+        "enriched_at": "2026-01-01T02:17:38.585259+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -305,8 +305,8 @@
         "confidence": 1.0
       },
       "CausalML": {
-        "content_hash": "9dc665f06de5dea2",
-        "enriched_at": "2025-12-30T21:16:33.234073+00:00",
+        "content_hash": "de07bde48ac86e9f",
+        "enriched_at": "2026-01-01T02:36:08.323972+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -319,22 +319,22 @@
         "confidence": 1.0
       },
       "CausalPlayground": {
-        "content_hash": "80aaeae5e8078f47",
-        "enriched_at": "2025-12-30T21:16:43.581074+00:00",
+        "content_hash": "40d00cc6b1724a74",
+        "enriched_at": "2026-01-01T02:17:45.081312+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.85
+        "confidence": 1.0
       },
       "CausalPy": {
-        "content_hash": "4b13a2912b30c966",
-        "enriched_at": "2025-12-30T21:16:49.983168+00:00",
+        "content_hash": "8f744f3fd1677648",
+        "enriched_at": "2026-01-01T02:28:00.330167+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "DoWhy": {
         "content_hash": "3cfbc4057d14323b",
-        "enriched_at": "2025-12-30T21:16:55.764084+00:00",
+        "enriched_at": "2026-01-01T02:33:39.584777+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -936,10 +936,10 @@
       },
       "Biogeme": {
         "content_hash": "04055f6423fb3449",
-        "enriched_at": "2025-12-30T21:25:15.103450+00:00",
+        "enriched_at": "2026-01-01T02:33:45.088599+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 1.0
+        "confidence": 0.9
       },
       "PyBLP": {
         "content_hash": "87463af8ae40dc66",
@@ -950,7 +950,7 @@
       },
       "PyLogit": {
         "content_hash": "66b7c3c14727aa13",
-        "enriched_at": "2025-12-30T21:25:26.011389+00:00",
+        "enriched_at": "2026-01-01T02:33:50.298880+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -984,8 +984,8 @@
         "confidence": 1.0
       },
       "EconML": {
-        "content_hash": "f6c425404fa0f9bd",
-        "enriched_at": "2025-12-30T21:25:54.706718+00:00",
+        "content_hash": "f5ce0010ed6b898c",
+        "enriched_at": "2026-01-01T02:36:13.355928+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -1090,7 +1090,7 @@
       },
       "GeoLift": {
         "content_hash": "fc21e2b1f9ae2196",
-        "enriched_at": "2025-12-30T21:27:11.970348+00:00",
+        "enriched_at": "2026-01-01T02:34:02.487393+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -1251,10 +1251,10 @@
       },
       "xgboost": {
         "content_hash": "2b740c21bee27fed",
-        "enriched_at": "2025-12-30T21:29:23.051890+00:00",
+        "enriched_at": "2026-01-01T02:34:07.886942+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 1.0
+        "confidence": 0.9
       },
       "emmeans": {
         "content_hash": "8c96a8f1c261c405",
@@ -1285,8 +1285,8 @@
         "confidence": 0.9
       },
       "PyMC Marketing": {
-        "content_hash": "315d46572eba3751",
-        "enriched_at": "2025-12-30T21:29:55.215231+00:00",
+        "content_hash": "06a2d571b660e04b",
+        "enriched_at": "2026-01-01T02:17:49.973898+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -1426,10 +1426,10 @@
       },
       "igraph": {
         "content_hash": "3c59b750696c74da",
-        "enriched_at": "2025-12-30T21:31:52.500396+00:00",
+        "enriched_at": "2026-01-01T02:34:12.259678+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 1.0
+        "confidence": 0.9
       },
       "sna": {
         "content_hash": "afe9b048c968b062",
@@ -1685,7 +1685,7 @@
       },
       "CausalImpact": {
         "content_hash": "b70237a868d30321",
-        "enriched_at": "2025-12-30T21:35:39.377291+00:00",
+        "enriched_at": "2026-01-01T02:34:18.462392+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -1733,8 +1733,8 @@
         "confidence": 1.0
       },
       "mlsynth": {
-        "content_hash": "a00bdea8abb96f21",
-        "enriched_at": "2025-12-30T21:36:19.916786+00:00",
+        "content_hash": "947413a925ed4701",
+        "enriched_at": "2026-01-01T02:18:03.608670+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -1916,7 +1916,7 @@
       },
       "sf": {
         "content_hash": "74cfcd2f83076387",
-        "enriched_at": "2025-12-30T21:38:53.721432+00:00",
+        "enriched_at": "2026-01-01T02:34:23.098429+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -1999,11 +1999,11 @@
         "confidence": 0.7000000000000001
       },
       "SciPy Bootstrap": {
-        "content_hash": "2c3c3d2b4bc80119",
-        "enriched_at": "2025-12-30T21:39:57.176702+00:00",
+        "content_hash": "0367e4207b2280cd",
+        "enriched_at": "2026-01-01T02:18:09.271304+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Stargazer": {
         "content_hash": "7fafd9da8c2f14a1",
@@ -2048,15 +2048,15 @@
         "confidence": 1.0
       },
       "PyMC Statespace": {
-        "content_hash": "fbfa96f982f56189",
-        "enriched_at": "2025-12-30T21:40:28.958052+00:00",
+        "content_hash": "0ba3a3c3ef9fcf0f",
+        "enriched_at": "2026-01-01T02:18:13.603951+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "stochvol": {
-        "content_hash": "ff77ec8ae947927c",
-        "enriched_at": "2025-12-30T21:40:33.770648+00:00",
+        "content_hash": "e6b8e9a7707c2a7f",
+        "enriched_at": "2026-01-01T02:18:18.460451+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -2118,8 +2118,8 @@
         "confidence": 1.0
       },
       "lifelines": {
-        "content_hash": "5a3487b50a789280",
-        "enriched_at": "2025-12-30T21:41:17.125431+00:00",
+        "content_hash": "3537030843c11c24",
+        "enriched_at": "2026-01-01T02:34:51.182293+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -2392,7 +2392,7 @@
       },
       "Prophet": {
         "content_hash": "78c98eb477a178d1",
-        "enriched_at": "2025-12-30T21:44:48.937568+00:00",
+        "enriched_at": "2026-01-01T02:34:33.083631+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -2448,7 +2448,7 @@
       },
       "LightGBM": {
         "content_hash": "142c1c4ef762393e",
-        "enriched_at": "2025-12-30T21:45:35.702518+00:00",
+        "enriched_at": "2026-01-01T02:34:39.557018+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -2468,8 +2468,8 @@
         "confidence": 0.9
       },
       "Scikit-learn Ens.": {
-        "content_hash": "caa4e7054d13112b",
-        "enriched_at": "2025-12-30T21:45:52.013195+00:00",
+        "content_hash": "05691a9c3c48a885",
+        "enriched_at": "2026-01-01T02:17:56.714317+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -2543,6 +2543,517 @@
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
+      },
+      "Surprise": {
+        "content_hash": "bc4e3c85fdc64355",
+        "enriched_at": "2026-01-01T02:34:44.574052+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "ruspy": {
+        "content_hash": "8b4fe37e0f6f1e7d",
+        "enriched_at": "2026-01-01T02:18:29.116143+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "pybaseball": {
+        "content_hash": "30a477073bccb9e8",
+        "enriched_at": "2026-01-01T02:18:33.685966+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "nba_api": {
+        "content_hash": "aab42cecb546a91a",
+        "enriched_at": "2026-01-01T02:18:38.900527+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "statsbombpy": {
+        "content_hash": "5af578b480ff3ca8",
+        "enriched_at": "2026-01-01T02:18:43.922684+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "nfl-data-py": {
+        "content_hash": "da134cfea90b9fad",
+        "enriched_at": "2026-01-01T02:18:48.787232+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "mplsoccer": {
+        "content_hash": "d65614af496626fc",
+        "enriched_at": "2026-01-01T02:18:54.385158+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Lahman": {
+        "content_hash": "bb850930564b8539",
+        "enriched_at": "2026-01-01T02:18:58.835933+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "nflfastR": {
+        "content_hash": "31a4dc11ecb0bbe3",
+        "enriched_at": "2026-01-01T02:19:04.234420+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "hoopR": {
+        "content_hash": "51d66400e75860c3",
+        "enriched_at": "2026-01-01T02:19:09.250871+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "worldfootballR": {
+        "content_hash": "44034186f88785a7",
+        "enriched_at": "2026-01-01T02:19:14.166050+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "hockeyR": {
+        "content_hash": "311a14d87f935b3c",
+        "enriched_at": "2026-01-01T02:19:18.941943+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "chainladder-python": {
+        "content_hash": "e00e9b0d481764cd",
+        "enriched_at": "2026-01-01T02:19:25.343098+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "pyliferisk": {
+        "content_hash": "3aa429732ba1e355",
+        "enriched_at": "2026-01-01T02:19:29.805759+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "lifelib": {
+        "content_hash": "0e1f256f53e7e19f",
+        "enriched_at": "2026-01-01T02:19:34.952631+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "scikit-survival": {
+        "content_hash": "a9742091f3bb4089",
+        "enriched_at": "2026-01-01T02:34:56.861545+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "SHAP": {
+        "content_hash": "fddafa9cec960f29",
+        "enriched_at": "2026-01-01T02:19:53.383788+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Fairlearn": {
+        "content_hash": "dfefb0f1dab0de2d",
+        "enriched_at": "2026-01-01T02:19:59.630393+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "ChainLadder": {
+        "content_hash": "e703c3b72ccbe0ea",
+        "enriched_at": "2026-01-01T02:20:05.030818+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "actuar": {
+        "content_hash": "d0fcae7c3296b73c",
+        "enriched_at": "2026-01-01T02:20:10.910155+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "lifecontingencies": {
+        "content_hash": "3c00ad9b540b88cd",
+        "enriched_at": "2026-01-01T02:20:15.338366+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "survival": {
+        "content_hash": "4048c2b218979fbd",
+        "enriched_at": "2026-01-01T02:35:02.247131+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "survminer": {
+        "content_hash": "0d9634e79d0f3153",
+        "enriched_at": "2026-01-01T02:20:25.832286+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "flexsurv": {
+        "content_hash": "149c73365590cda9",
+        "enriched_at": "2026-01-01T02:20:31.271061+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "cplm": {
+        "content_hash": "8f522249fc162e60",
+        "enriched_at": "2026-01-01T02:20:36.709765+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "evd": {
+        "content_hash": "c5b95e296082cefd",
+        "enriched_at": "2026-01-01T02:20:41.921261+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "extRemes": {
+        "content_hash": "c9cab897bcff55df",
+        "enriched_at": "2026-01-01T02:20:49.112632+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "OasisLMF": {
+        "content_hash": "7eb27701500dfa28",
+        "enriched_at": "2026-01-01T02:20:56.027692+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "xlogit": {
+        "content_hash": "39c76f9f28d00d2a",
+        "enriched_at": "2026-01-01T02:21:06.601039+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "OSMnx": {
+        "content_hash": "9bc93e023a839b1b",
+        "enriched_at": "2026-01-01T02:21:17.335010+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "gtfs-kit": {
+        "content_hash": "5bb26c8d74834330",
+        "enriched_at": "2026-01-01T02:21:23.251489+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Apollo": {
+        "content_hash": "ffc522c4f8ae2778",
+        "enriched_at": "2026-01-01T02:21:27.902340+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "mlogit": {
+        "content_hash": "fd4a2d4ded6b06da",
+        "enriched_at": "2026-01-01T02:21:33.736003+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "gmnl": {
+        "content_hash": "435a67b5d019433f",
+        "enriched_at": "2026-01-01T02:21:40.713695+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "mixl": {
+        "content_hash": "c53f25099f29688d",
+        "enriched_at": "2026-01-01T02:21:46.444600+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "tidytransit": {
+        "content_hash": "fd81727bc489b577",
+        "enriched_at": "2026-01-01T02:21:51.861064+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "SUMO": {
+        "content_hash": "475c4ae9e6e6eaeb",
+        "enriched_at": "2026-01-01T02:21:57.495195+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "OpenTripPlanner": {
+        "content_hash": "028f2dafc627f5f5",
+        "enriched_at": "2026-01-01T02:22:02.845744+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "MONAI": {
+        "content_hash": "6d5311fb6bed600c",
+        "enriched_at": "2026-01-01T02:22:37.943401+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "fhirclient": {
+        "content_hash": "99744d643cce7ea2",
+        "enriched_at": "2026-01-01T02:22:43.883022+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "hesim": {
+        "content_hash": "162da4ddef6f5835",
+        "enriched_at": "2026-01-01T02:22:50.183013+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "heemod": {
+        "content_hash": "4c76955c4c5d446e",
+        "enriched_at": "2026-01-01T02:22:56.241375+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "survHE": {
+        "content_hash": "f11c42651df5dab3",
+        "enriched_at": "2026-01-01T02:23:02.322011+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "BCEA": {
+        "content_hash": "8e92d4a400ed8382",
+        "enriched_at": "2026-01-01T02:23:08.571101+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "mstate": {
+        "content_hash": "7e4cf1e8ffc70029",
+        "enriched_at": "2026-01-01T02:23:21.618331+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "PyPSA": {
+        "content_hash": "ccb829a626c60752",
+        "enriched_at": "2026-01-01T02:35:18.775609+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "pandapower": {
+        "content_hash": "ab35d57890ca2957",
+        "enriched_at": "2026-01-01T02:35:23.967473+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Pyomo": {
+        "content_hash": "be1d3fbc83cf6e44",
+        "enriched_at": "2026-01-01T02:35:29.219133+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "HiGHS": {
+        "content_hash": "9fb402042dcafa5e",
+        "enriched_at": "2026-01-01T02:35:34.133974+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "GenX": {
+        "content_hash": "1a56577600d88f47",
+        "enriched_at": "2026-01-01T02:35:39.255347+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "PowerModels.jl": {
+        "content_hash": "3854ac5b12416345",
+        "enriched_at": "2026-01-01T02:35:43.810789+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "OpenDSS": {
+        "content_hash": "f897e4d58658337b",
+        "enriched_at": "2026-01-01T02:35:50.518964+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "eiapy": {
+        "content_hash": "7a84d6d8f42a7d30",
+        "enriched_at": "2026-01-01T02:35:55.638520+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "catalystcoop-pudl": {
+        "content_hash": "2ca5c0cf5fee0b5d",
+        "enriched_at": "2026-01-01T02:36:02.755968+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "gridstatus": {
+        "content_hash": "8fbfc1842e504b99",
+        "enriched_at": "2026-01-01T02:25:04.849269+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Skyfield": {
+        "content_hash": "754505cf8ddf267f",
+        "enriched_at": "2026-01-01T02:25:11.252910+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "sgp4": {
+        "content_hash": "f2c270ca9b56045a",
+        "enriched_at": "2026-01-01T02:25:16.406940+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "nvdlib": {
+        "content_hash": "00bf22b591f7665a",
+        "enriched_at": "2026-01-01T02:25:21.379045+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.75
+      },
+      "peacesciencer": {
+        "content_hash": "c1186cf40aed3cbe",
+        "enriched_at": "2026-01-01T02:25:28.037300+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "countrycode": {
+        "content_hash": "934b22ef46dca2a4",
+        "enriched_at": "2026-01-01T02:25:33.967923+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "python-louvain": {
+        "content_hash": "f226acff6790d84e",
+        "enriched_at": "2026-01-01T02:25:51.172033+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "conflictcartographer": {
+        "content_hash": "ee73e468e70fa85f",
+        "enriched_at": "2026-01-01T02:25:56.687952+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "spacetrack": {
+        "content_hash": "b2eb6d394d33bbe4",
+        "enriched_at": "2026-01-01T02:26:02.082119+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Robyn": {
+        "content_hash": "a0e4e1c09d86293d",
+        "enriched_at": "2026-01-01T02:26:34.722263+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "PyMC-Marketing": {
+        "content_hash": "91db475920ab1064",
+        "enriched_at": "2026-01-01T02:36:18.926848+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "DeepCTR": {
+        "content_hash": "d0316f579f810b29",
+        "enriched_at": "2026-01-01T02:26:45.442738+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "lifetimes": {
+        "content_hash": "9ba16e31ee227737",
+        "enriched_at": "2026-01-01T02:27:04.947759+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "LightFM": {
+        "content_hash": "ad8aa97442b005ab",
+        "enriched_at": "2026-01-01T02:27:21.078575+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Implicit": {
+        "content_hash": "194f9da4cb314062",
+        "enriched_at": "2026-01-01T02:27:26.096086+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "RecBole": {
+        "content_hash": "4eaee3a52cf200ee",
+        "enriched_at": "2026-01-01T02:27:31.934308+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "CLVTools": {
+        "content_hash": "d75b9571311bb712",
+        "enriched_at": "2026-01-01T02:27:35.972450+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "BTYDplus": {
+        "content_hash": "7af35ecedea13c26",
+        "enriched_at": "2026-01-01T02:27:41.967971+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "recommenderlab": {
+        "content_hash": "740a93b839f38f08",
+        "enriched_at": "2026-01-01T02:27:47.803554+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
       }
     },
     "datasets.json": {
@@ -3402,7 +3913,7 @@
       },
       "NYC TLC Trip Records": {
         "content_hash": "b59db3ae57e77a2c",
-        "enriched_at": "2025-12-30T21:59:11.098601+00:00",
+        "enriched_at": "2026-01-01T02:36:25.901311+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -3632,8 +4143,8 @@
         "confidence": 1.0
       },
       "OpenML": {
-        "content_hash": "1f8cf88c204530c2",
-        "enriched_at": "2025-12-30T22:02:48.693445+00:00",
+        "content_hash": "4c3c05c831d22f8c",
+        "enriched_at": "2026-01-01T02:42:20.712794+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -4087,18 +4598,18 @@
         "confidence": 1.0
       },
       "Google Dataset Search": {
-        "content_hash": "bd83209bdf0f1abc",
-        "enriched_at": "2025-12-30T22:12:01.127164+00:00",
+        "content_hash": "b58d8583ab679383",
+        "enriched_at": "2026-01-01T02:41:47.791930+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "Hugging Face Datasets": {
-        "content_hash": "98932379d2117c08",
-        "enriched_at": "2025-12-30T22:12:07.626277+00:00",
+        "content_hash": "5716a623fe9e48d2",
+        "enriched_at": "2026-01-01T02:42:02.845581+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 1.0
+        "confidence": 0.9
       },
       "Criteo Terabyte": {
         "content_hash": "370b5549a80633d1",
@@ -4159,6 +4670,727 @@
       "LaDe (Cainiao)": {
         "content_hash": "f7925ba74cf79d9f",
         "enriched_at": "2025-12-30T22:13:14.212221+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Lahman Baseball Database": {
+        "content_hash": "47f566f3741b30f8",
+        "enriched_at": "2026-01-01T02:28:13.608309+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Retrosheet": {
+        "content_hash": "30644cf7e834ecef",
+        "enriched_at": "2026-01-01T02:28:19.957146+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Statcast / Baseball Savant": {
+        "content_hash": "9108a0ed62221e19",
+        "enriched_at": "2026-01-01T02:28:25.897670+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "NBA Stats API": {
+        "content_hash": "ea760c6e57bfedf1",
+        "enriched_at": "2026-01-01T02:28:31.153202+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "StatsBomb Open Data": {
+        "content_hash": "bff1424a80d4c29d",
+        "enriched_at": "2026-01-01T02:28:38.389117+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "nflverse": {
+        "content_hash": "f351a1dc23352e68",
+        "enriched_at": "2026-01-01T02:28:45.352621+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "NHL API": {
+        "content_hash": "bd6deab0c9ff4ebf",
+        "enriched_at": "2026-01-01T02:28:50.677345+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Jeff Sackmann Tennis Data": {
+        "content_hash": "1517a826c290ef0b",
+        "enriched_at": "2026-01-01T02:28:58.459639+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "MEPS (Medical Expenditure Panel Survey)": {
+        "content_hash": "1ed39af797757bce",
+        "enriched_at": "2026-01-01T02:29:06.792802+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "CMS Medicare & Medicaid Data": {
+        "content_hash": "998849af5160474a",
+        "enriched_at": "2026-01-01T02:29:14.182641+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "HCUP (Healthcare Cost and Utilization Project)": {
+        "content_hash": "a353733d987bde1b",
+        "enriched_at": "2026-01-01T02:29:21.909633+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "French Motor TPL (freMTPL2)": {
+        "content_hash": "a8c3da5acf1d4ff6",
+        "enriched_at": "2026-01-01T02:29:26.826009+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "NHTSA FARS (Fatality Analysis Reporting System)": {
+        "content_hash": "a1db8212bbcad727",
+        "enriched_at": "2026-01-01T02:29:36.863858+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "FEMA NFIP Claims & Policies": {
+        "content_hash": "a7bd0289fa00555a",
+        "enriched_at": "2026-01-01T02:29:45.154070+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "NOAA Storm Events Database": {
+        "content_hash": "48e46c76c08d8e15",
+        "enriched_at": "2026-01-01T02:29:51.299501+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "EM-DAT International Disaster Database": {
+        "content_hash": "67d9122dd15caa72",
+        "enriched_at": "2026-01-01T02:29:58.979053+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Human Mortality Database": {
+        "content_hash": "2fb52a3b5684a8dd",
+        "enriched_at": "2026-01-01T02:30:09.525366+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "SOA Mortality Tables": {
+        "content_hash": "00e1f807cfb322fd",
+        "enriched_at": "2026-01-01T02:30:16.234524+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "AXA Driver Telematics (Kaggle)": {
+        "content_hash": "de926025b762a472",
+        "enriched_at": "2026-01-01T02:30:24.475061+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "CASdatasets R Package": {
+        "content_hash": "36e6c6facb6f8691",
+        "enriched_at": "2026-01-01T02:30:30.005653+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "National Household Travel Survey (NHTS)": {
+        "content_hash": "8c13524f1d94e46a",
+        "enriched_at": "2026-01-01T02:30:38.095238+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Transitland GTFS Feeds": {
+        "content_hash": "0c264599f493a6ef",
+        "enriched_at": "2026-01-01T02:30:52.932602+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "MobilityData GTFS Catalog": {
+        "content_hash": "e0e076e94a0895cb",
+        "enriched_at": "2026-01-01T02:31:02.978340+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Chicago Rideshare Data": {
+        "content_hash": "0fefc3b8be2d63d3",
+        "enriched_at": "2026-01-01T02:31:10.256835+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "DB1B Airline Origin and Destination Survey": {
+        "content_hash": "4ef242e5c5cf563e",
+        "enriched_at": "2026-01-01T02:31:16.753117+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "National Transit Database (NTD)": {
+        "content_hash": "9be2558e3a28a048",
+        "enriched_at": "2026-01-01T02:31:24.073319+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "FHWA Highway Statistics": {
+        "content_hash": "f0ee66d3d44323a2",
+        "enriched_at": "2026-01-01T02:31:31.933952+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "OpenStreetMap Road Network": {
+        "content_hash": "3e58254d8836c872",
+        "enriched_at": "2026-01-01T02:31:37.999079+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Citi Bike System Data": {
+        "content_hash": "9fed331d87c90496",
+        "enriched_at": "2026-01-01T02:31:43.429150+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "MIMIC-IV": {
+        "content_hash": "c584173588bfc2fa",
+        "enriched_at": "2026-01-01T02:31:51.106350+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Medicare Claims (ResDAC)": {
+        "content_hash": "cacb1ba5ecfe47d7",
+        "enriched_at": "2026-01-01T02:31:57.352597+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Merative MarketScan": {
+        "content_hash": "136c0101a4bd6fe5",
+        "enriched_at": "2026-01-01T02:32:03.394784+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Medical Expenditure Panel Survey (MEPS)": {
+        "content_hash": "37ea0efdf7ab5ef6",
+        "enriched_at": "2026-01-01T02:32:08.993759+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "National Health Interview Survey (NHIS)": {
+        "content_hash": "a5166d3e5ffe8b97",
+        "enriched_at": "2026-01-01T02:32:15.992521+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Behavioral Risk Factor Surveillance System (BRFSS)": {
+        "content_hash": "772314a24c4568c2",
+        "enriched_at": "2026-01-01T02:32:26.720059+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "NHANES (National Health and Nutrition Examination Survey)": {
+        "content_hash": "eba4afa4851dfdba",
+        "enriched_at": "2026-01-01T02:32:33.014843+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "UK Biobank": {
+        "content_hash": "4bb795d0da258639",
+        "enriched_at": "2026-01-01T02:32:39.649428+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "All of Us Research Program": {
+        "content_hash": "9a0c084844d75b01",
+        "enriched_at": "2026-01-01T02:32:45.071922+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "FDA Adverse Event Reporting System (FAERS)": {
+        "content_hash": "88ee047720a33f13",
+        "enriched_at": "2026-01-01T02:32:50.583329+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "EIA Form 923": {
+        "content_hash": "74d599ceed9e309f",
+        "enriched_at": "2026-01-01T02:36:32.716855+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "EIA Form 860": {
+        "content_hash": "0d9d2957ab2b9e2e",
+        "enriched_at": "2026-01-01T02:36:39.303215+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "FERC Form 714": {
+        "content_hash": "54896efadaf27f78",
+        "enriched_at": "2026-01-01T02:37:50.226257+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "PUDL (Public Utility Data Liberation)": {
+        "content_hash": "0c4bcad363b622d8",
+        "enriched_at": "2026-01-01T02:37:56.071413+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "EPA CEMS (Continuous Emissions Monitoring System)": {
+        "content_hash": "d7dedd6d77c4de49",
+        "enriched_at": "2026-01-01T02:36:55.057108+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "CAISO OASIS": {
+        "content_hash": "4b70cd7d56591955",
+        "enriched_at": "2026-01-01T02:38:09.372380+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "PJM Data Miner": {
+        "content_hash": "ab78ef2b6bb081b1",
+        "enriched_at": "2026-01-01T02:38:14.698886+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "NREL NSRDB (National Solar Radiation Database)": {
+        "content_hash": "c49f93f16614a8b7",
+        "enriched_at": "2026-01-01T02:38:21.764259+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Ember Global Electricity Data": {
+        "content_hash": "37b70acdc2411a85",
+        "enriched_at": "2026-01-01T02:38:28.623929+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "gridstatus": {
+        "content_hash": "5cf5d5a61f86fb77",
+        "enriched_at": "2026-01-01T02:38:33.847459+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "EIA-923 Power Plant Operations": {
+        "content_hash": "43d9649f704aecb1",
+        "enriched_at": "2026-01-01T02:37:33.328986+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "EIA-860 Generator Inventory": {
+        "content_hash": "ded3611803f909a9",
+        "enriched_at": "2026-01-01T02:37:44.182316+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "EPA CEMS (Continuous Emissions Monitoring)": {
+        "content_hash": "e76a71fdb24a1820",
+        "enriched_at": "2026-01-01T02:38:03.126385+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "SIPRI Military Expenditure Database": {
+        "content_hash": "47a0f379528e5606",
+        "enriched_at": "2026-01-01T02:38:39.889186+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "DoD National Defense Budget Estimates (Green Book)": {
+        "content_hash": "7470aa8a4896fb80",
+        "enriched_at": "2026-01-01T02:38:46.748117+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "NATO Defence Expenditure": {
+        "content_hash": "411c52e4d9c2ab1a",
+        "enriched_at": "2026-01-01T02:38:53.509007+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "SIPRI Arms Transfers Database": {
+        "content_hash": "fa80b4d45591b913",
+        "enriched_at": "2026-01-01T02:38:58.729429+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "SIPRI Arms Industry Database": {
+        "content_hash": "85c8c5a8ef6ebcd1",
+        "enriched_at": "2026-01-01T02:39:04.337725+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Federal Procurement Data System (FPDS)": {
+        "content_hash": "7f13427a3aa7bfcd",
+        "enriched_at": "2026-01-01T02:39:10.711393+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "USAspending.gov": {
+        "content_hash": "7ded89694fc77579",
+        "enriched_at": "2026-01-01T02:39:17.366104+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "CFR Cyber Operations Tracker": {
+        "content_hash": "5f43eac66e6b3e48",
+        "enriched_at": "2026-01-01T02:39:22.179309+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "NIST National Vulnerability Database (NVD)": {
+        "content_hash": "ba025563ecae0562",
+        "enriched_at": "2026-01-01T02:39:28.014688+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "CSIS Significant Cyber Incidents": {
+        "content_hash": "653336eea09a3f9c",
+        "enriched_at": "2026-01-01T02:39:33.045179+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Space-Track.org": {
+        "content_hash": "2560f6401eb6f985",
+        "enriched_at": "2026-01-01T02:39:38.950163+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "CelesTrak": {
+        "content_hash": "d3af095dbb2d7ee4",
+        "enriched_at": "2026-01-01T02:39:47.116632+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Criteo 1TB Click Logs": {
+        "content_hash": "d619499904cffde6",
+        "enriched_at": "2026-01-01T02:39:51.158441+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Criteo Kaggle CTR Dataset": {
+        "content_hash": "1f1070f974985a95",
+        "enriched_at": "2026-01-01T02:39:56.482962+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "iPinYou RTB Dataset": {
+        "content_hash": "967aa01fd14beb59",
+        "enriched_at": "2026-01-01T02:40:04.675711+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Avazu Click-Through Rate Dataset": {
+        "content_hash": "5ae55f09f2160e86",
+        "enriched_at": "2026-01-01T02:40:10.307534+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Criteo Uplift Prediction Dataset": {
+        "content_hash": "5a687c34b3d16919",
+        "enriched_at": "2026-01-01T02:40:20.549015+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Criteo Attribution Dataset": {
+        "content_hash": "a10c87d72c802e7f",
+        "enriched_at": "2026-01-01T02:40:26.505127+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "TalkingData AdTracking Fraud Detection": {
+        "content_hash": "e3a5d1766f865ada",
+        "enriched_at": "2026-01-01T02:40:33.348466+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Multi-Region MMM eCommerce Dataset": {
+        "content_hash": "772c30706d546655",
+        "enriched_at": "2026-01-01T02:40:39.185445+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Yahoo A1 Search Advertising Dataset": {
+        "content_hash": "5e969cb99f9094d6",
+        "enriched_at": "2026-01-01T02:40:45.430492+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Outbrain Click Prediction Dataset": {
+        "content_hash": "9a347f42f7a83107",
+        "enriched_at": "2026-01-01T02:40:51.039965+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Online Retail II (UCI)": {
+        "content_hash": "2d77416d8f5e05c5",
+        "enriched_at": "2026-01-01T02:40:58.435282+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Telco Customer Churn (IBM)": {
+        "content_hash": "c7547e9cd19a059c",
+        "enriched_at": "2026-01-01T02:41:02.736191+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "MovieLens 25M": {
+        "content_hash": "e9841c2b9c334c3f",
+        "enriched_at": "2026-01-01T02:41:09.596806+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Amazon Reviews 2023": {
+        "content_hash": "8823b428f27b429a",
+        "enriched_at": "2026-01-01T02:41:15.638713+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Instacart Market Basket Analysis": {
+        "content_hash": "ce31426d68bad1ee",
+        "enriched_at": "2026-01-01T02:41:21.475872+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Amazon Fine Foods Reviews": {
+        "content_hash": "7cdeba49935fdf88",
+        "enriched_at": "2026-01-01T02:41:28.550283+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "KDD Cup 2009 Customer Relationship Prediction": {
+        "content_hash": "4a1066c72d956873",
+        "enriched_at": "2026-01-01T02:41:35.094757+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Retail Rocket Recommender System Dataset": {
+        "content_hash": "9609e146a73a7dc7",
+        "enriched_at": "2026-01-01T02:41:41.957545+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Kaggle Datasets": {
+        "content_hash": "88b05e31ecc38c99",
+        "enriched_at": "2026-01-01T02:41:56.803402+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "UCI Machine Learning Repository": {
+        "content_hash": "501fd061576a4d46",
+        "enriched_at": "2026-01-01T02:42:07.763127+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Papers With Code Datasets": {
+        "content_hash": "e75d5a4faaf6e73e",
+        "enriched_at": "2026-01-01T02:42:12.474954+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.6000000000000001
+      },
+      "Zenodo": {
+        "content_hash": "83b04454f70f9493",
+        "enriched_at": "2026-01-01T02:42:26.493306+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Harvard Dataverse": {
+        "content_hash": "781aa15b9624a4c3",
+        "enriched_at": "2026-01-01T02:42:32.079318+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "FRED (Federal Reserve Economic Data)": {
+        "content_hash": "c7b1a435c3cc3be5",
+        "enriched_at": "2026-01-01T02:42:38.923081+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Data.gov": {
+        "content_hash": "01b2e9236152994c",
+        "enriched_at": "2026-01-01T02:42:44.044003+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "World Bank Open Data": {
+        "content_hash": "8dac72b0609b44ce",
+        "enriched_at": "2026-01-01T02:42:51.839848+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "IMF Data": {
+        "content_hash": "b4859f0b56dbb5f0",
+        "enriched_at": "2026-01-01T02:42:59.674497+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "OECD Data": {
+        "content_hash": "1ab149fb8ae40c39",
+        "enriched_at": "2026-01-01T02:43:04.903750+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "EU Open Data Portal": {
+        "content_hash": "df091a50cf72f836",
+        "enriched_at": "2026-01-01T02:43:11.456059+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "ICPSR": {
+        "content_hash": "c81359fac4733788",
+        "enriched_at": "2026-01-01T02:43:16.634652+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "AEA Data and Code Repository": {
+        "content_hash": "d6f86c54a30c0f4a",
+        "enriched_at": "2026-01-01T02:43:23.948644+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "IPUMS": {
+        "content_hash": "a9813e3c6458ae12",
+        "enriched_at": "2026-01-01T02:43:29.782999+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "World Inequality Database": {
+        "content_hash": "8f18634a294d4b18",
+        "enriched_at": "2026-01-01T02:43:35.137954+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "AWS Open Data Registry": {
+        "content_hash": "62dcb9a2d427a09f",
+        "enriched_at": "2026-01-01T02:43:39.511492+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Google Cloud Public Datasets": {
+        "content_hash": "73fdb2a43b8ae328",
+        "enriched_at": "2026-01-01T02:43:44.734910+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Criteo AI Lab Datasets": {
+        "content_hash": "4b6f55feda7f3b15",
+        "enriched_at": "2026-01-01T02:43:49.856567+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "WRDS (Wharton Research Data Services)": {
+        "content_hash": "969436ba97dba8e5",
+        "enriched_at": "2026-01-01T02:43:57.433733+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Nasdaq Data Link": {
+        "content_hash": "6e96548ad3cd9714",
+        "enriched_at": "2026-01-01T02:44:04.600748+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Alpha Vantage": {
+        "content_hash": "ebe7d83896d384c8",
+        "enriched_at": "2026-01-01T02:44:11.532243+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -4677,8 +5909,8 @@
         "confidence": 1.0
       },
       "Uber: Dynamic Pricing and Matching in Ride-Hailing": {
-        "content_hash": "c32058105589f7f6",
-        "enriched_at": "2025-12-30T22:19:59.466821+00:00",
+        "content_hash": "7560065bbc60e4b2",
+        "enriched_at": "2026-01-01T02:44:21.711397+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -5188,8 +6420,8 @@
         "confidence": 0.8
       },
       "Matteo Courthoud's Experimentation Series": {
-        "content_hash": "60884236364b35e5",
-        "enriched_at": "2025-12-30T22:26:19.929225+00:00",
+        "content_hash": "0ca214002da02fd0",
+        "enriched_at": "2026-01-01T02:44:36.323800+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -5244,8 +6476,8 @@
         "confidence": 1.0
       },
       "Evan Miller: Simple Sequential A/B Testing": {
-        "content_hash": "5b2632630b793b01",
-        "enriched_at": "2025-12-30T22:44:06.224361+00:00",
+        "content_hash": "df1124746bb19adc",
+        "enriched_at": "2026-01-01T02:44:47.779493+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
@@ -5342,8 +6574,8 @@
         "confidence": 0.8
       },
       "StatQuest with Josh Starmer": {
-        "content_hash": "b2350b55523c10bd",
-        "enriched_at": "2025-12-30T22:28:17.876517+00:00",
+        "content_hash": "2d5592b78463b0a7",
+        "enriched_at": "2026-01-01T02:44:30.408083+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
@@ -5664,8 +6896,8 @@
         "confidence": 1.0
       },
       "AEA: Machine Learning and Econometrics (Athey/Imbens)": {
-        "content_hash": "c320393f8f394eed",
-        "enriched_at": "2025-12-30T22:32:37.698895+00:00",
+        "content_hash": "688e7ebf958f8875",
+        "enriched_at": "2026-01-01T02:44:54.704433+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -5972,8 +7204,8 @@
         "confidence": 1.0
       },
       "Teconomics: Machine Learning Meets Instrumental Variables": {
-        "content_hash": "5a0f082bce5bfe3e",
-        "enriched_at": "2025-12-30T22:36:39.113163+00:00",
+        "content_hash": "28a390e74bd40dba",
+        "enriched_at": "2026-01-01T02:44:42.384478+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -6553,8 +7785,8 @@
         "confidence": 1.0
       },
       "Ronny Kohavi: Seven Rules of Thumb for Web Site Experimenters": {
-        "content_hash": "0e738499c1f46e87",
-        "enriched_at": "2025-12-30T22:44:19.338843+00:00",
+        "content_hash": "2c2a9cb866cf447f",
+        "enriched_at": "2026-01-01T02:44:59.898243+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -6602,8 +7834,8 @@
         "confidence": 0.8
       },
       "Coding for Economists (Arthur Turrell)": {
-        "content_hash": "26b374c93861e8a1",
-        "enriched_at": "2025-12-30T22:44:58.895862+00:00",
+        "content_hash": "57727e90c908fc0b",
+        "enriched_at": "2026-01-01T02:44:15.807218+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
@@ -6765,6 +7997,573 @@
       "Nick Huntington-Klein: Animated Causal Graphs": {
         "content_hash": "091cb7105f4ed1af",
         "enriched_at": "2025-12-30T22:47:11.835770+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Lenny's Newsletter: Consumer Marketing Measurement": {
+        "content_hash": "f529aaaa1645437c",
+        "enriched_at": "2026-01-01T02:44:25.805120+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Growth Unhinged: SaaS Benchmarks from OpenView": {
+        "content_hash": "5d17c470834500ca",
+        "enriched_at": "2026-01-01T02:45:06.163066+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Erwin Kalvelagen: Yet Another Math Programming Consultant": {
+        "content_hash": "0e29a031d0eed0d3",
+        "enriched_at": "2026-01-01T02:45:10.860171+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Nathan Brixius: ML + Optimization": {
+        "content_hash": "1916c99ab1472b65",
+        "enriched_at": "2026-01-01T02:45:17.098471+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Alain Chabrier: Column Generation with CPLEX": {
+        "content_hash": "cb396ff23ab961ce",
+        "enriched_at": "2026-01-01T02:45:22.217867+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Ryan O'Neil: Real-Time Optimization": {
+        "content_hash": "de419c196094de1d",
+        "enriched_at": "2026-01-01T02:45:28.221249+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Stephen Maher: Optimisation in the Real World": {
+        "content_hash": "db4f1e1759cb0d24",
+        "enriched_at": "2026-01-01T02:45:34.359243+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Laura Albert: Punk Rock Operations Research": {
+        "content_hash": "725ec3f8ba9f2d1f",
+        "enriched_at": "2026-01-01T02:45:39.525584+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Paul Rubin: OR in an OB World": {
+        "content_hash": "36dd81dcecca4ccf",
+        "enriched_at": "2026-01-01T02:45:45.826721+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Tallys Yunes: OR by the Beach": {
+        "content_hash": "0c6b753bdb4d0afe",
+        "enriched_at": "2026-01-01T02:45:50.758781+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Michael Trick: Operations Research Blog": {
+        "content_hash": "f5c21d8022540aa5",
+        "enriched_at": "2026-01-01T02:45:56.023676+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Kevin Gue: Warehouse Design": {
+        "content_hash": "32b0ae3cdd0b48dd",
+        "enriched_at": "2026-01-01T02:46:00.838158+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Austin Buchanan: Farkas' Dilemma": {
+        "content_hash": "aec2922a8e6b1458",
+        "enriched_at": "2026-01-01T02:46:06.832284+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Dominik Krupke: CP-SAT Primer": {
+        "content_hash": "ba6d4111dfeef547",
+        "enriched_at": "2026-01-01T02:46:11.577610+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Hands-On Mathematical Optimization with Python (MO-book)": {
+        "content_hash": "e13546931fac10bc",
+        "enriched_at": "2026-01-01T02:46:16.900298+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Jeffrey Kantor: Pyomo Cookbook": {
+        "content_hash": "ff3fe175841cc038",
+        "enriched_at": "2026-01-01T02:46:20.894728+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "awesome-optimization": {
+        "content_hash": "f0e8c2670926ad38",
+        "enriched_at": "2026-01-01T02:46:25.364856+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "SolverMax: Python OR Library Comparison": {
+        "content_hash": "b808c01523cd4360",
+        "enriched_at": "2026-01-01T02:46:30.541497+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Afi Labs: Ride-Share Dispatch Algorithms": {
+        "content_hash": "178a6caaafbff450",
+        "enriched_at": "2026-01-01T02:46:35.744029+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Nextmv Blog": {
+        "content_hash": "b7bb1d6e5007d3c4",
+        "enriched_at": "2026-01-01T02:46:41.549692+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "VRPSolver: Column Generation for Vehicle Routing": {
+        "content_hash": "02a015e0fcfcbed1",
+        "enriched_at": "2026-01-01T02:46:47.007215+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Timefold Blog": {
+        "content_hash": "d5859913e6e0d904",
+        "enriched_at": "2026-01-01T02:46:50.972981+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "NSPLib: Nurse Scheduling Benchmarks (Ghent University)": {
+        "content_hash": "befe36afdad0c201",
+        "enriched_at": "2026-01-01T02:46:55.529165+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Feasible Newsletter": {
+        "content_hash": "42018d343ec9faa1",
+        "enriched_at": "2026-01-01T02:47:00.805157+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Kuang Xu Newsletter": {
+        "content_hash": "9892ebda4161bc26",
+        "enriched_at": "2026-01-01T02:47:05.729087+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Richard Oberdieck: Modern OR Software Engineering": {
+        "content_hash": "85c1a3db23ca6e0e",
+        "enriched_at": "2026-01-01T02:47:10.838379+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Franco Peschiera: PuLP Maintainer": {
+        "content_hash": "1f02fea95a804646",
+        "enriched_at": "2026-01-01T02:47:15.275731+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Juan Orduz: Bayesian Marketing Methods": {
+        "content_hash": "e6d271c3a5fe06b0",
+        "enriched_at": "2026-01-01T02:47:19.809431+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Mike Taylor: Vexpower MMM Tutorials": {
+        "content_hash": "e5f845163bcefe23",
+        "enriched_at": "2026-01-01T02:47:25.051692+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Mario Filho: Forecastegy": {
+        "content_hash": "4bcad40f787a3d7b",
+        "enriched_at": "2026-01-01T02:47:30.122979+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Recast Blog: MMM Verification": {
+        "content_hash": "8a92380c9420ede4",
+        "enriched_at": "2026-01-01T02:47:35.346859+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Mobile Dev Memo: Post-ATT Marketing Measurement": {
+        "content_hash": "c4427d38e05d01a7",
+        "enriched_at": "2026-01-01T02:47:40.731552+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Haus Blog: Synthetic Control & Geo-Experimentation": {
+        "content_hash": "12f8d3d1440ae516",
+        "enriched_at": "2026-01-01T02:47:47.158342+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Remerge Findings: Incrementality Testing Approaches": {
+        "content_hash": "9e204577e798d556",
+        "enriched_at": "2026-01-01T02:47:52.485207+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Eva Ascarza: Retention Futility Research": {
+        "content_hash": "deb281079b8e6998",
+        "enriched_at": "2026-01-01T02:48:00.810904+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Neil Hoyne: CLV-Focused Marketing": {
+        "content_hash": "5160163993c74037",
+        "enriched_at": "2026-01-01T02:48:06.681897+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Kevin Hillstrom: MineThatData": {
+        "content_hash": "eb28d8ad278e9f1a",
+        "enriched_at": "2026-01-01T02:48:11.980970+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "RevenueCat Sub Club: Subscription Analytics": {
+        "content_hash": "95d4f76ea1919da0",
+        "enriched_at": "2026-01-01T02:48:17.492267+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Marketing BS: Strategic Marketing Newsletter": {
+        "content_hash": "c6d74165f588d7b7",
+        "enriched_at": "2026-01-01T02:48:22.040871+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "021 Newsletter: Marketing & Data Teams Bridge": {
+        "content_hash": "8211f44f3e4d0c22",
+        "enriched_at": "2026-01-01T02:48:27.362431+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "MKT1: B2B Marketing Frameworks": {
+        "content_hash": "00585ecfe47556c6",
+        "enriched_at": "2026-01-01T02:48:31.483231+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.7000000000000001
+      },
+      "Byron Sharp: How Brands Grow": {
+        "content_hash": "a59db995fec8b8d8",
+        "enriched_at": "2026-01-01T02:48:36.326402+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Ron Berman: p-Hacking in A/B Testing": {
+        "content_hash": "3cf7d0a4d42d4783",
+        "enriched_at": "2026-01-01T02:48:41.598728+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Koen Pauwels: Marketing and Metrics": {
+        "content_hash": "f0d98c829064f7f1",
+        "enriched_at": "2026-01-01T02:48:46.308501+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Kevin Simler: Ads Don't Work That Way": {
+        "content_hash": "b4b880e3f6c5c024",
+        "enriched_at": "2026-01-01T02:48:52.656160+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Adjust Blog: Mobile Attribution & Privacy": {
+        "content_hash": "7c9ef3f591aad630",
+        "enriched_at": "2026-01-01T02:48:57.367520+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Branch Resources: Privacy-Centric Measurement": {
+        "content_hash": "67f2ce05740cb05c",
+        "enriched_at": "2026-01-01T02:49:02.283203+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "AppsFlyer Privacy Sandbox Hub": {
+        "content_hash": "eff8b205739b7b66",
+        "enriched_at": "2026-01-01T02:49:07.094976+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Lumen Research: Attention Metrics": {
+        "content_hash": "c6c4ec3cd6d54d48",
+        "enriched_at": "2026-01-01T02:49:11.805923+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Causal Inference for the Brave and True": {
+        "content_hash": "2c24ec086175291b",
+        "enriched_at": "2026-01-01T02:49:17.622890+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Causal Inference: The Mixtape": {
+        "content_hash": "2be61c85cc628945",
+        "enriched_at": "2026-01-01T02:49:23.255835+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Scott Cunningham: Causal Inference Substack": {
+        "content_hash": "971c4c6a7a41e91e",
+        "enriched_at": "2026-01-01T02:49:28.499437+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Sports Performance Analytics Specialization": {
+        "content_hash": "007e793fc556f71a",
+        "enriched_at": "2026-01-01T02:49:33.720581+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "FanGraphs Sabermetrics Library": {
+        "content_hash": "e173f752340fe998",
+        "enriched_at": "2026-01-01T02:49:37.908573+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Swiss Association of Actuaries Tutorials": {
+        "content_hash": "39b9211b1178ec22",
+        "enriched_at": "2026-01-01T02:49:44.064574+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Great Learning Insurance Analytics Course": {
+        "content_hash": "2e0f2cc0a702eb3a",
+        "enriched_at": "2026-01-01T02:49:49.181940+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Coaching Actuaries": {
+        "content_hash": "3df8d4fc0492fdff",
+        "enriched_at": "2026-01-01T02:49:54.544756+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Freakonometrics Blog": {
+        "content_hash": "e45ac172499d0d85",
+        "enriched_at": "2026-01-01T02:49:59.012513+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "MIT OCW: Transportation Systems Analysis": {
+        "content_hash": "f0c34d2b4e35de54",
+        "enriched_at": "2026-01-01T02:50:04.134112+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Foundations of Transportation Network Analysis (edX)": {
+        "content_hash": "6fd51d0a15f90042",
+        "enriched_at": "2026-01-01T02:50:09.254850+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Class Central: Transportation Courses": {
+        "content_hash": "c622d50f5398eb7a",
+        "enriched_at": "2026-01-01T02:50:13.863942+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "MIT OCW: Principles of Microeconomics (Healthcare Unit)": {
+        "content_hash": "4f6ba71db62c747b",
+        "enriched_at": "2026-01-01T02:50:18.161354+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Coursera: The Economics of Health Care Delivery": {
+        "content_hash": "7936172ad1638b92",
+        "enriched_at": "2026-01-01T02:50:22.871561+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "SHEPRD - R Packages for Health Economic Decision Science": {
+        "content_hash": "f7efd2f396a08abe",
+        "enriched_at": "2026-01-01T02:50:30.510481+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "MIT OCW: Energy Economics (14.44)": {
+        "content_hash": "cab6c56de0c25f29",
+        "enriched_at": "2026-01-01T02:50:35.469100+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "MIT OCW: Engineering, Economics and Regulation of Electric Power": {
+        "content_hash": "97f362b771bc1cdf",
+        "enriched_at": "2026-01-01T02:50:41.202303+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Energy Institute at Haas Blog": {
+        "content_hash": "d6fdff26e44245ab",
+        "enriched_at": "2026-01-01T02:50:59.943136+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "MIT OCW: Energy Decisions, Markets, and Policies": {
+        "content_hash": "fc00543a8ae8d714",
+        "enriched_at": "2026-01-01T02:50:50.009525+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "MIT OCW: Engineering, Economics, and Regulation of the Electric Power Sector": {
+        "content_hash": "0356a6a234b8e78d",
+        "enriched_at": "2026-01-01T02:50:54.719079+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Georgetown MA in Security Studies": {
+        "content_hash": "b59647852b2c362e",
+        "enriched_at": "2026-01-01T02:51:06.604955+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Defense Acquisition University (DAU)": {
+        "content_hash": "12238f3bedfc0c1e",
+        "enriched_at": "2026-01-01T02:51:12.625849+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "RAND Research Archive": {
+        "content_hash": "a0c65cd2802b6d7c",
+        "enriched_at": "2026-01-01T02:51:17.550296+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "CSIS Strategic Technologies Program": {
+        "content_hash": "d3e461169100bb28",
+        "enriched_at": "2026-01-01T02:51:23.491959+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "SIPRI Databases and Research": {
+        "content_hash": "0423b4dc056dc433",
+        "enriched_at": "2026-01-01T02:51:28.984777+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.7000000000000001
+      },
+      "Susan Athey's Stanford GSB Courses": {
+        "content_hash": "0e34af7080ebcbdb",
+        "enriched_at": "2026-01-01T02:51:34.856214+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Dirk Bergemann's Yale Courses": {
+        "content_hash": "7a7b9a8b11f5b3a7",
+        "enriched_at": "2026-01-01T02:51:40.288145+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "IAB and IAB Tech Lab": {
+        "content_hash": "a84fc830336b7ddb",
+        "enriched_at": "2026-01-01T02:51:45.042885+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Media Rating Council (MRC)": {
+        "content_hash": "3aa429d9964a3bee",
+        "enriched_at": "2026-01-01T02:51:49.810392+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.7000000000000001
+      },
+      "Clearcode AdTech Book": {
+        "content_hash": "9e8da9b629fdacd5",
+        "enriched_at": "2026-01-01T02:51:55.299445+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Wharton Customer Analytics (Coursera)": {
+        "content_hash": "b9babd309d10cdc9",
+        "enriched_at": "2026-01-01T02:52:01.364374+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Marketing Analytics (UVA Darden/Coursera)": {
+        "content_hash": "263d0359c9d46ab2",
+        "enriched_at": "2026-01-01T02:52:06.205813+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0

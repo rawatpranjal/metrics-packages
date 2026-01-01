@@ -59,7 +59,7 @@
       "Workflow"
     ],
     "domain": "Programming",
-    "difficulty": "beginner|intermediate|advanced",
+    "difficulty": "beginner|intermediate",
     "prerequisites": [
       "python-basics"
     ],
@@ -68,12 +68,10 @@
       "machine-learning",
       "econometrics"
     ],
-    "summary": "This resource teaches a modern Python workflow tailored for economists, focusing on data transformation, econometrics, Bayesian inference, and machine learning. It is suitable for those looking to enhance their skills in applying Python to economic data analysis.",
+    "summary": "This resource teaches a modern Python workflow for economists, focusing on data transformation, econometrics, Bayesian inference, and machine learning. It is suitable for economists looking to enhance their coding skills with Python.",
     "use_cases": [
-      "When you need to learn Python for economic research",
-      "When looking for practical coding examples in economics",
-      "when to analyze economic data with Python",
-      "when to apply machine learning techniques in economics"
+      "when to learn data transformation for econometrics",
+      "when to apply machine learning techniques in economic research"
     ],
     "audience": [
       "Early-PhD",
@@ -81,26 +79,17 @@
       "Mid-DS"
     ],
     "synthetic_questions": [
-      "What are the Python basics for economists?",
-      "How can Python be used in economic research?",
-      "What advanced workflows can be learned in Python?",
-      "Is this book suitable for beginners?",
-      "What coding skills will I gain?",
-      "How does this resource help with economic analysis?",
       "What is the Python workflow for economists?",
-      "How can I apply Bayesian inference in economics?",
-      "What are the best practices for data transformation in Python?",
-      "What machine learning techniques are relevant for economists?",
-      "How does econometrics integrate with Python?",
-      "What resources are available for learning Python for economic analysis?",
-      "What is the modern approach to econometrics using Python?",
-      "How can I improve my workflow as an economist using Python?"
+      "How can I apply machine learning in economics?",
+      "What are the basics of Bayesian inference?",
+      "What data transformation techniques are covered?",
+      "How does this resource help with econometrics?",
+      "Is this book suitable for beginners?",
+      "What skills can I gain from this online book?",
+      "Where can I find coding resources for economists?"
     ],
     "content_format": "book",
     "skill_progression": [
-      "Python programming skills",
-      "Data analysis for economics",
-      "Advanced coding techniques for researchers",
       "data transformation",
       "econometrics",
       "Bayesian inference",
@@ -3116,42 +3105,31 @@
     "topic_tags": [
       "optimization",
       "market-design",
-      "matching-algorithms",
-      "reinforcement-learning"
+      "matching"
     ],
-    "summary": "This resource explores the joint optimization of pricing and matching in the ride-hailing industry, specifically focusing on Uber's dynamic pricing model. It is suitable for those interested in applying academic concepts to real-world scenarios.",
-    "use_cases": [],
+    "summary": "This resource explores the application of classical two-sided matching in the context of ride-hailing, focusing on dynamic pricing and supply-demand balance. It is suitable for those interested in algorithms and quantitative analysis in market design.",
+    "use_cases": [
+      "Understanding dynamic pricing mechanisms",
+      "Analyzing matching algorithms in marketplaces"
+    ],
     "audience": [
-      "Junior-DS",
-      "Mid-DS",
-      "Curious-browser",
-      "Senior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
       "What is dynamic pricing in ride-hailing?",
-      "How does Uber optimize pricing and matching?",
-      "What are the implications of dynamic pricing?",
-      "What techniques are used in ride-hailing optimization?",
-      "How does optimization impact customer experience?",
-      "What are case studies on dynamic pricing?",
-      "How can I apply optimization in my own projects?",
-      "What are the challenges in ride-hailing pricing strategies?",
-      "What is two-sided matching in marketplaces?",
-      "How does reinforcement learning apply to supply-demand balance?",
-      "What are bipartite graph algorithms?",
-      "What are the quantitative production results of Uber's matching system?",
-      "How does batch matching differ from greedy matching?",
-      "What is the MDP framework in marketplace matching?",
-      "What are the challenges in marketplace predictions?",
-      "How can I implement matching algorithms in Python?"
+      "How does two-sided matching apply to Uber?",
+      "What algorithms are used in ride-hailing?",
+      "What is the MDP framework?",
+      "How does reinforcement learning balance supply and demand?",
+      "What are the quantitative results of Uber's matching system?",
+      "What is batch vs. greedy matching?",
+      "How do bipartite graph algorithms work in this context?"
     ],
     "content_format": "article",
     "skill_progression": [
-      "understanding dynamic pricing",
-      "applying optimization techniques",
-      "Understanding of marketplace dynamics",
+      "Understanding of dynamic pricing",
       "Knowledge of matching algorithms",
-      "Application of reinforcement learning in practical scenarios"
+      "Familiarity with reinforcement learning concepts"
     ]
   },
   {
@@ -3930,49 +3908,36 @@
       "Newsletter"
     ],
     "domain": "Product Sense",
-    "difficulty": "intermediate",
+    "difficulty": "beginner|intermediate",
     "prerequisites": [],
     "topic_tags": [
       "product-sense",
-      "PLG",
-      "marketing-measurement",
-      "case-studies",
-      "consumer-brands"
+      "consumer-marketing"
     ],
-    "summary": "Lenny Rachitsky reaches 700,000+ subscribers with product-led growth content. His post 'How today's top consumer brands measure marketing's impact' provides detailed case studies of MMM, MTA, and incrementality testing at McDonald's, Airbnb, and Uber.",
+    "summary": "This resource provides comprehensive frameworks for developing product sense in consumer marketing. It is ideal for marketers and product managers looking to enhance their skills in measurement and growth strategies.",
     "use_cases": [
-      "When looking to improve product management skills",
-      "When seeking tactical frameworks for product development",
-      "When learning from consumer brand case studies",
-      "When understanding measurement at scale",
-      "When exploring PLG"
+      "When developing product sense",
+      "When measuring consumer marketing effectiveness"
     ],
     "audience": [
       "Junior-DS",
       "Mid-DS",
-      "Senior-DS",
       "Curious-browser"
     ],
     "synthetic_questions": [
       "What is product sense?",
-      "How can I improve my product management skills?",
-      "What frameworks are used in product development?",
+      "How to measure consumer marketing?",
+      "What frameworks can improve growth?",
       "Who is Lenny Rachitsky?",
-      "What topics are covered in Lenny's Newsletter?",
-      "How to subscribe to Lenny's Podcast?",
-      "What are the benefits of following Lenny's insights?",
-      "What makes Lenny's Newsletter popular?",
-      "How does Airbnb measure marketing?",
-      "What is marketing measurement at scale?",
-      "Consumer brand case studies?"
+      "What are effective retention strategies?",
+      "How to apply marketing measurement in practice?",
+      "What insights can I gain from Lenny's Newsletter?",
+      "What are the benefits of subscribing to Lenny's Newsletter?"
     ],
     "content_format": "newsletter",
     "skill_progression": [
-      "Understanding of product management frameworks",
-      "Improvement in product sense",
-      "Consumer marketing",
-      "Case study analysis",
-      "Measurement at scale"
+      "Understanding consumer marketing measurement",
+      "Applying product sense frameworks"
     ]
   },
   {
@@ -4393,37 +4358,27 @@
       "statistics",
       "machine-learning"
     ],
-    "summary": "StatQuest with Josh Starmer provides visual explanations of key concepts in machine learning, such as cross-validation and gradient boosting. It is designed for learners who want to fill conceptual gaps in their understanding of these topics.",
+    "summary": "StatQuest with Josh Starmer provides visual explanations of key concepts in statistics and machine learning, making complex topics accessible. This resource is ideal for learners looking to fill conceptual gaps in their understanding of these subjects.",
     "use_cases": [
-      "when to learn statistics",
-      "understanding statistical concepts visually",
-      "when to understand machine learning fundamentals",
-      "when to clarify concepts missed in traditional courses"
+      "when to learn about cross-validation",
+      "when to understand regularization",
+      "when to explore gradient boosting"
     ],
     "audience": [
       "Curious-browser"
     ],
     "synthetic_questions": [
-      "What is StatQuest?",
-      "Who is Josh Starmer?",
-      "How can I learn statistics visually?",
-      "What topics are covered in StatQuest?",
-      "Is StatQuest suitable for beginners?",
-      "What is the Bill Nye of Statistics?",
-      "Where can I find StatQuest resources?",
-      "What is the focus of StatQuest?",
       "What is cross-validation?",
       "How does regularization work?",
       "What is gradient boosting?",
       "What is PCA?",
       "What is the bias-variance tradeoff?",
-      "How can I improve my understanding of machine learning concepts?",
-      "What are the fundamental concepts in machine learning?"
+      "How can I improve my understanding of statistics?",
+      "What are the key concepts in machine learning?",
+      "Why is visual learning effective for complex topics?"
     ],
     "content_format": "video",
     "skill_progression": [
-      "visual understanding of statistics",
-      "basic statistical concepts",
       "understanding of cross-validation",
       "knowledge of regularization techniques",
       "familiarity with gradient boosting",
@@ -5197,53 +5152,40 @@
       "Experimentation"
     ],
     "domain": "Causal Inference",
-    "difficulty": "beginner|intermediate",
+    "difficulty": "intermediate",
     "prerequisites": [
       "python-basics"
     ],
     "topic_tags": [
       "causal-inference",
+      "experimentation",
       "statistics"
     ],
-    "summary": "This blog provides insights into causal inference techniques for data scientists, focusing on topics like selection bias and DAGs. It is aimed at early PhD students and junior data scientists looking to deepen their understanding of causal analysis.",
+    "summary": "This series connects experimentation to econometric foundations, covering various advanced topics in A/B testing. It is suitable for those looking to deepen their understanding of causal inference and statistical methods in experimentation.",
     "use_cases": [
-      "Understanding causal relationships in data",
-      "Improving data analysis techniques",
-      "Learning practical applications of causal inference",
-      "When to apply Bayesian A/B testing",
-      "Understanding econometric foundations in experimentation"
+      "when to understand advanced A/B testing techniques",
+      "when to implement causal inference methods in experiments"
     ],
     "audience": [
-      "Early-PhD",
       "Junior-DS",
       "Mid-DS",
       "Senior-DS"
     ],
     "synthetic_questions": [
-      "What is causal inference?",
-      "How to address selection bias?",
-      "What are DAGs in causal analysis?",
-      "How to implement CUPED in Python?",
-      "What is the Frisch-Waugh-Lovell theorem?",
-      "How to choose between weighting and matching?",
-      "What Python libraries are useful for causal inference?",
-      "What are realistic examples of causal inference?",
       "What is CUPED in A/B testing?",
       "How to implement Bayesian A/B testing?",
       "What are clustered standard errors?",
-      "How to conduct group sequential testing?",
-      "What Python code is needed for A/B testing?",
-      "What are the econometric foundations of experimentation?",
-      "How does DiD relate to A/B testing?",
-      "What are the best practices for experimentation?"
+      "How does group sequential testing work?",
+      "What Python libraries are used for experimentation?",
+      "How to connect experimentation to econometric foundations?",
+      "What are the best practices for A/B testing?",
+      "How to analyze A/B test results using Python?"
     ],
     "content_format": "tutorial",
     "skill_progression": [
-      "Understanding causal inference concepts",
-      "Applying Python for causal analysis",
-      "Analyzing data with reduced bias",
-      "Understanding of A/B testing methods",
-      "Ability to implement statistical tests in Python"
+      "understanding of econometric foundations",
+      "ability to implement A/B testing techniques in Python",
+      "knowledge of Bayesian methods in experimentation"
     ]
   },
   {
@@ -5769,46 +5711,32 @@
     ],
     "topic_tags": [
       "causal-inference",
-      "machine-learning",
-      "statistics"
+      "machine-learning"
     ],
-    "summary": "This article discusses how to use past A/B tests as instruments for behaviors that cannot be randomized, focusing on IV for behavioral effects, Deep IV, and ML for instrument selection. It is aimed at data scientists looking to enhance their understanding of causal inference methods.",
+    "summary": "This resource teaches how to use past A/B tests as instruments for behaviors that cannot be randomized, focusing on IV for behavioral effects, Deep IV, and ML for instrument selection. It is actionable for data scientists looking to enhance their causal inference skills.",
     "use_cases": [
-      "When to apply instrumental variables in analysis",
-      "Using A/B tests for causal inference",
-      "When exploring causal relationships using A/B tests",
-      "When applying machine learning techniques to causal inference problems"
+      "When you need to analyze non-randomized behaviors using past A/B tests"
     ],
     "audience": [
       "Junior-DS",
-      "Mid-DS"
+      "Mid-DS",
+      "Senior-DS"
     ],
     "synthetic_questions": [
-      "What are instrumental variables?",
-      "How can A/B tests be used as instruments?",
+      "How to use A/B tests as instruments?",
       "What is Deep IV?",
       "How does machine learning aid in instrument selection?",
-      "What are the applications of causal inference?",
-      "What skills do I need to understand IV?",
-      "How to implement IV in Python?",
-      "What are the challenges in using IV for behavioral effects?",
-      "What are A/B tests in causal inference?",
-      "How to combine machine learning with instrumental variables?",
-      "What is the role of instrumental variables in ML?",
-      "When to use A/B tests as instruments?",
-      "What are the benefits of using ML for causal inference?",
-      "How do IV identification strategies work?",
-      "What skills are needed for causal inference?",
-      "What resources are available for learning about ML and IV?"
+      "What are instrumental variables in causal inference?",
+      "When to apply IV for behavioral effects?",
+      "What skills do I need for causal inference?",
+      "How to reframe past experiments for new insights?",
+      "What are the challenges in using IV?"
     ],
     "content_format": "article",
     "skill_progression": [
-      "Understanding of instrumental variables",
-      "Application of Deep IV",
-      "Machine learning techniques for instrument selection",
-      "Understanding of causal inference",
-      "Ability to apply machine learning techniques",
-      "Knowledge of instrumental variable strategies"
+      "Understanding instrumental variables",
+      "Applying machine learning in causal inference",
+      "Reframing experiments for new insights"
     ]
   },
   {
@@ -6635,15 +6563,13 @@
     "difficulty": "beginner|intermediate",
     "prerequisites": [],
     "topic_tags": [
+      "experiment",
       "sequential-testing",
-      "experimentation",
-      "statistics",
-      "AB Testing"
+      "A/B-testing"
     ],
-    "summary": "This resource introduces sequential testing methods that allow for valid early stopping in A/B testing. It is suitable for those looking to understand practical alternatives to fixed-horizon tests.",
+    "summary": "This resource teaches a simple sequential A/B testing method using gambler's ruin. It is suitable for those interested in experimentation and statistical testing.",
     "use_cases": [
-      "when to use sequential testing in experiments",
-      "when to use this resource"
+      "When to apply simple sequential A/B testing"
     ],
     "audience": [
       "Curious-browser"
@@ -6651,27 +6577,17 @@
     "synthetic_questions": [
       "What is simple sequential A/B testing?",
       "How does gambler's ruin apply to A/B testing?",
-      "What are the benefits of using sequential testing?",
-      "How can I implement a sequential A/B test?",
-      "What is the formula for stopping criteria in sequential testing?",
-      "What tools can I use for A/B testing?",
-      "What is the difference between sequential and traditional A/B testing?",
-      "How do I interpret results from a sequential A/B test?",
-      "What is sequential A/B testing?",
-      "How does early stopping work in A/B testing?",
-      "What are the advantages of sequential testing methods?",
-      "When should I use sequential testing?",
-      "What is the difference between fixed-horizon tests and sequential tests?",
-      "Who can benefit from learning about A/B testing?",
-      "What are practical applications of A/B testing?",
-      "How can I implement sequential testing in my projects?"
+      "What is the stopping criterion for this method?",
+      "How can I implement a simple sequential test?",
+      "What are the benefits of early stopping in A/B testing?",
+      "Where can I find an interactive calculator for A/B testing?",
+      "What are the key concepts in sequential testing?",
+      "How can I learn more about A/B testing?"
     ],
     "content_format": "blog post",
     "skill_progression": [
-      "understanding of sequential testing",
-      "ability to implement basic A/B tests",
-      "understanding of sequential testing methods",
-      "knowledge of early stopping in A/B testing"
+      "Understanding of sequential testing",
+      "Basic arithmetic application in testing"
     ]
   },
   {
@@ -9210,15 +9126,19 @@
     ],
     "domain": "Economics",
     "difficulty": "intermediate",
-    "prerequisites": [],
+    "prerequisites": [
+      "python-basics"
+    ],
     "topic_tags": [
       "causal-inference",
       "machine-learning",
       "econometrics"
     ],
-    "summary": "This course covers the intersection of machine learning and econometrics, focusing on topics such as heterogeneous treatment effects and policy learning. It is designed for those interested in applying machine learning techniques to economic data analysis.",
+    "summary": "This course covers the intersection of machine learning and econometrics, focusing on causal inference and heterogeneous treatment effects. It is designed for those interested in applying machine learning techniques within economic research.",
     "use_cases": [
-      "when to apply machine learning methods in econometrics"
+      "Understanding machine learning applications in economics",
+      "Learning about causal inference methods",
+      "Exploring policy learning techniques"
     ],
     "audience": [
       "Early-PhD",
@@ -9227,29 +9147,20 @@
     ],
     "synthetic_questions": [
       "What is the difference between ML and causal inference?",
-      "How can LASSO and random forests be applied in economics?",
-      "What are heterogeneous treatment effects?",
-      "Who are Athey and Imbens in the context of econometrics?",
-      "What skills can I gain from a course on ML and econometrics?",
-      "How does policy learning relate to machine learning?",
+      "How can LASSO be applied in econometrics?",
       "What are causal forests and how are they used?",
-      "What prerequisites do I need for a course on ML in economics?",
-      "What is machine learning in econometrics?",
-      "How can I apply ML methods in economic research?",
-      "What are the latest trends in econometrics?",
-      "Who are the leading researchers in ML and econometrics?",
-      "What skills do I need for ML in econometrics?",
-      "Where can I find resources on econometrics and machine learning?",
-      "What are the applications of ML in economics?",
-      "How does AEA's continuing education help in learning econometrics?"
+      "Who are Athey and Imbens in the context of economics?",
+      "What skills will I gain from this course?",
+      "Is this course suitable for beginners?",
+      "What topics are covered in the course?",
+      "How long is the course?"
     ],
-    "content_format": "course",
+    "content_format": "video",
     "estimated_duration": "9 hours",
     "skill_progression": [
-      "Understanding of causal inference",
-      "Application of machine learning techniques in economics",
-      "understanding of machine learning methods",
-      "application of econometric techniques"
+      "Understanding of machine learning techniques in economics",
+      "Ability to apply causal inference methods",
+      "Knowledge of heterogeneous treatment effects"
     ]
   },
   {
@@ -14437,32 +14348,32 @@
     "prerequisites": [],
     "topic_tags": [
       "experimentation",
-      "best-practices"
+      "best practices"
     ],
-    "summary": "This foundational paper outlines essential practices for conducting online experiments, making it a must-read for those involved in web experimentation. It is particularly useful for practitioners in tech companies looking to enhance their experimentation strategies.",
+    "summary": "This foundational paper outlines essential practices for conducting online experiments. It is aimed at practitioners and researchers interested in web experimentation.",
     "audience": [
       "Junior-DS",
       "Mid-DS",
       "Senior-DS"
     ],
     "synthetic_questions": [
-      "What are the core practices for online experimentation?",
-      "How can I improve my web experimentation skills?",
-      "What rules should I follow for A/B testing?",
-      "Who is Ronny Kohavi and what are his contributions?",
-      "What are the best practices for website experiments?",
-      "How do major tech companies conduct online experiments?",
-      "What is the significance of experimentation in tech?",
-      "What are the seven rules of thumb for web site experimenters?"
+      "What are the seven rules of thumb for web experimentation?",
+      "How can I apply Kohavi's principles in my experiments?",
+      "What best practices should I follow for A/B testing?",
+      "Why are Kohavi's rules still relevant today?",
+      "What foundational concepts are covered in this paper?",
+      "Who should read this paper?",
+      "How do major tech companies implement these rules?",
+      "What common mistakes should be avoided in web experimentation?"
     ],
     "use_cases": [
-      "when to establish best practices for A/B testing",
-      "when to learn about online experimentation methods"
+      "When designing A/B tests",
+      "To improve online experimentation practices"
     ],
     "content_format": "paper",
     "skill_progression": [
-      "understanding of A/B testing principles",
-      "knowledge of best practices in online experimentation"
+      "Understanding core principles of A/B testing",
+      "Applying best practices in web experimentation"
     ]
   },
   {
@@ -15543,44 +15454,36 @@
     ],
     "level": "Medium",
     "difficulty": "intermediate",
-    "prerequisites": [
-      "marketing-basics"
-    ],
+    "prerequisites": [],
     "topic_tags": [
-      "PLG",
-      "SaaS-benchmarks",
-      "pricing-optimization",
-      "CAC-payback"
+      "SaaS",
+      "Pricing",
+      "Growth & Retention"
     ],
-    "summary": "This resource provides insights into B2B monetization strategies, focusing on pricing, packaging, and growth metrics for SaaS companies. It is suitable for professionals and businesses looking to enhance their monetization approaches.",
+    "summary": "This resource provides insights into PLG metrics, pricing optimization, and CAC payback periods, making it ideal for professionals looking to enhance their understanding of SaaS growth strategies.",
     "audience": [
-      "Mid-DS",
-      "Senior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "What are the latest trends in B2B monetization?",
-      "How can SaaS companies optimize pricing strategies?",
-      "What metrics are essential for B2B growth?",
-      "What is the State of B2B Monetization 2025?",
-      "How to package products for better revenue?",
-      "What are effective monetization strategies for B2B?",
-      "How does pricing impact SaaS growth?",
-      "What research exists on B2B monetization?",
-      "What are good PLG benchmarks?",
-      "How to calculate CAC payback?",
-      "SaaS pricing optimization?"
+      "What are the latest SaaS benchmarks?",
+      "How to optimize pricing in SaaS?",
+      "What is CAC payback period?",
+      "What are PLG metrics?",
+      "How do portfolio companies influence SaaS growth?",
+      "What strategies can improve retention in B2B?",
+      "How to analyze growth metrics for SaaS?",
+      "What are the best practices for monetization in SaaS?"
     ],
     "use_cases": [
-      "When benchmarking SaaS metrics",
-      "When optimizing pricing",
-      "When modeling CAC payback"
+      "When looking to improve SaaS growth strategies",
+      "When needing insights on pricing optimization"
     ],
     "content_format": "newsletter",
     "domain": "Marketing",
     "skill_progression": [
-      "SaaS metrics",
-      "PLG benchmarking",
-      "Pricing optimization"
+      "Understanding of PLG metrics",
+      "Knowledge of pricing strategies",
+      "Insights into CAC payback periods"
     ]
   },
   {
@@ -15720,39 +15623,34 @@
       "Blog"
     ],
     "domain": "Optimization",
-    "difficulty": "advanced",
-    "prerequisites": [
-      "linear-programming",
-      "optimization-basics"
-    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "mathematical-programming",
-      "solver-tuning",
-      "GAMS",
-      "AMPL",
-      "CPLEX",
-      "MINLP"
+      "Operations Research",
+      "Mathematical Programming"
     ],
-    "summary": "Perhaps the highest concentration of practical modeling wisdom online. Erwin Kalvelagen shares decades of consulting experience with GAMS, AMPL, CPLEX, and MINOS, covering topics from large sparse transportation models to creative optimization problems.",
+    "summary": "This resource offers practical modeling insights and solver tuning techniques for those interested in mathematical programming. It is suitable for individuals looking to enhance their understanding of optimization problems.",
     "use_cases": [
-      "When you need solver tuning tips for production systems",
-      "When formulating complex MINLP models"
+      "When looking to improve optimization skills",
+      "When needing practical advice on mathematical modeling"
     ],
     "audience": [
-      "Senior-DS",
-      "Early-PhD"
+      "Mid-DS",
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "How to tune CPLEX for large-scale problems?",
-      "What are best practices for GAMS modeling?",
-      "How to formulate transportation problems?",
-      "MINLP formulation techniques?"
+      "What are solver tuning tricks?",
+      "How to formulate MINLP problems?",
+      "What is large sparse transportation modeling?",
+      "How can I optimize Wordle using mathematical programming?",
+      "What are the best practices in GAMS?",
+      "What insights can I gain from a math programming consultant?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "Mathematical programming fundamentals",
-      "Solver-specific tuning",
-      "Production optimization systems"
+      "Solver tuning techniques",
+      "Understanding of MINLP formulations",
+      "Large sparse transportation model handling"
     ]
   },
   {
@@ -15770,32 +15668,36 @@
     "domain": "Optimization",
     "difficulty": "intermediate",
     "prerequisites": [
-      "optimization-basics",
-      "machine-learning-basics"
+      "python-basics"
     ],
     "topic_tags": [
-      "ML-optimization-integration",
-      "solver-comparison",
-      "mathematical-programming"
+      "machine-learning",
+      "operations-research"
     ],
-    "summary": "Nathan Brixius, former Microsoft Solver Foundation developer, bridges optimization and machine learning. Essential reading for practitioners integrating ML predictions with optimization, including creative posts like solving Don Knuth's 1960 IP model with modern solvers.",
+    "summary": "This resource explores the intersection of machine learning and optimization, focusing on practical applications and historical problem-solving techniques. It is suitable for those with a foundational understanding of programming and a keen interest in advanced analytical methods.",
     "use_cases": [
-      "When integrating ML predictions into optimization pipelines",
-      "When comparing solver performance"
+      "When exploring the integration of machine learning and optimization techniques",
+      "For understanding historical optimization problems with modern approaches"
     ],
     "audience": [
+      "Junior-DS",
       "Mid-DS",
       "Senior-DS"
     ],
     "synthetic_questions": [
-      "How to chain machine learning and optimization models?",
-      "What is the Microsoft Solver Foundation?",
-      "How to integrate predictions into optimization?"
+      "How to integrate machine learning with optimization?",
+      "What are the modern solvers for historical IP problems?",
+      "Can optimization improve machine learning models?",
+      "What are the best practices for chaining ML models?",
+      "How does Nathan Brixius approach ML and optimization?",
+      "What are the applications of operations research in machine learning?",
+      "Where can I learn about optimization techniques?",
+      "What are the challenges in solving historical IP problems?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "Understanding ML-optimization integration",
-      "Solver comparison methodology"
+      "Understanding of optimization techniques",
+      "Ability to apply machine learning in operational contexts"
     ]
   },
   {
@@ -15812,36 +15714,32 @@
     ],
     "domain": "Optimization",
     "difficulty": "advanced",
-    "prerequisites": [
-      "linear-programming",
-      "VRP-basics"
-    ],
+    "prerequisites": [],
     "topic_tags": [
-      "column-generation",
-      "CPLEX",
-      "docplex",
-      "VRP",
-      "branch-and-price"
+      "Operations Research",
+      "Column Generation"
     ],
-    "summary": "Alain Chabrier, former IBM Decision Optimization Senior Technical Staff Member, publishes authoritative content on column generation with complete code examples. His PhD thesis solved 17 previously open Solomon VRP benchmark instances.",
-    "use_cases": [
-      "When implementing column generation algorithms",
-      "When solving large-scale VRP problems"
-    ],
+    "summary": "This resource provides authoritative content on column generation using docplex/CPLEX, aimed at those interested in advanced operations research techniques. It is suitable for individuals with a strong background in optimization and operations research.",
+    "use_cases": [],
     "audience": [
-      "Senior-DS",
-      "Early-PhD"
+      "Mid-DS",
+      "Senior-DS"
     ],
     "synthetic_questions": [
-      "How to implement column generation in Python?",
-      "What is docplex?",
-      "How to solve VRP with column generation?"
+      "What is column generation?",
+      "How to implement column generation with CPLEX?",
+      "What are the applications of column generation?",
+      "Who is Alain Chabrier?",
+      "What is the Solomon VRP benchmark?",
+      "How does CPLEX solve optimization problems?",
+      "What are the challenges in operations research?",
+      "What are the benefits of using docplex?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "Column generation fundamentals",
-      "Branch-and-price implementation",
-      "Large-scale VRP solving"
+      "Advanced optimization techniques",
+      "Understanding of column generation",
+      "Application of CPLEX in operations research"
     ]
   },
   {
@@ -15858,33 +15756,37 @@
     ],
     "domain": "Optimization",
     "difficulty": "intermediate",
-    "prerequisites": [
-      "optimization-basics"
-    ],
+    "prerequisites": [],
     "topic_tags": [
-      "real-time-optimization",
-      "decision-diagrams",
-      "delivery-optimization"
+      "operations-research",
+      "real-time-systems"
     ],
-    "summary": "Ryan O'Neil, co-founder of Nextmv and PhD from George Mason under Karla Hoffman, writes about real-time optimization for delivery platforms. His hybrid optimization and decision diagram expertise bridges academic research with commercial product development.",
+    "summary": "This resource explores real-time optimization techniques applicable to delivery platforms. It is suitable for those interested in operations research and optimization strategies.",
     "use_cases": [
-      "When building real-time optimization systems",
-      "When designing delivery platform algorithms"
+      "when to optimize delivery systems",
+      "understanding hybrid optimization techniques"
     ],
     "audience": [
+      "Junior-DS",
       "Mid-DS",
-      "Senior-DS"
+      "Senior-DS",
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "What is Nextmv?",
-      "How to build real-time optimization systems?",
-      "What are decision diagrams?"
+      "What is real-time optimization?",
+      "How does hybrid optimization work?",
+      "What are decision diagrams?",
+      "Applications of real-time optimization in delivery systems?",
+      "Who is Ryan O'Neil?",
+      "What are the challenges in real-time optimization?",
+      "How can I learn more about operations research?",
+      "What are the latest trends in optimization for delivery platforms?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "Real-time optimization concepts",
-      "Decision diagram applications",
-      "Production delivery systems"
+      "understanding of real-time optimization",
+      "knowledge of hybrid optimization",
+      "familiarity with decision diagrams"
     ]
   },
   {
@@ -15900,35 +15802,33 @@
       "Blog"
     ],
     "domain": "Optimization",
-    "difficulty": "intermediate",
-    "prerequisites": [
-      "optimization-basics"
-    ],
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
     "topic_tags": [
+      "operations-research",
       "renewable-energy",
-      "vaccine-distribution",
-      "supply-chain",
-      "sustainability"
+      "logistics"
     ],
-    "summary": "Stephen Maher applies OR to renewable energy, vaccine distribution logistics, and carbon-neutral supply chains. His creative real-world applications demonstrate practical optimization in diverse domains.",
-    "use_cases": [
-      "When exploring OR applications in sustainability",
-      "When learning about vaccine distribution optimization"
-    ],
+    "summary": "This resource explores the application of operations research in real-world scenarios, focusing on renewable energy and logistics. It is suitable for those interested in practical applications of optimization techniques.",
+    "use_cases": [],
     "audience": [
-      "Mid-DS",
       "Curious-browser"
     ],
     "synthetic_questions": [
-      "How is OR used in renewable energy?",
-      "How to optimize vaccine distribution?",
-      "What are carbon-neutral supply chain methods?"
+      "What is operations research?",
+      "How is optimization used in renewable energy?",
+      "What are the logistics challenges in vaccine distribution?",
+      "How can operations research improve supply chains?",
+      "What is beer brewing optimization?",
+      "What are creative applications of operations research?",
+      "Who is Stephen Maher?",
+      "What are the benefits of carbon-neutral supply chains?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "Applied OR thinking",
-      "Sustainability optimization",
-      "Real-world problem formulation"
+      "understanding of operations research applications",
+      "insights into renewable energy logistics",
+      "knowledge of optimization techniques"
     ]
   },
   {
@@ -15944,29 +15844,29 @@
       "Blog"
     ],
     "domain": "Optimization",
-    "difficulty": "beginner",
+    "difficulty": "intermediate",
     "prerequisites": [],
     "topic_tags": [
+      "operations-research",
       "emergency-response",
-      "ambulance-dispatch",
-      "homeland-security",
-      "OR-education"
+      "analytics"
     ],
-    "summary": "The most-read academic OR blog with 84,600+ annual hits. Laura Albert, 2023 INFORMS President and NSF CAREER Award winner, covers emergency response optimization, ambulance dispatch, and homeland security analytics with accessible explanations.",
+    "summary": "This blog explores the intersection of operations research with practical applications in emergency response and analytics. It is suitable for those interested in understanding how operations research can optimize real-world scenarios.",
     "use_cases": [
-      "When learning OR fundamentals through engaging examples",
-      "When exploring emergency response optimization"
+      "When looking to understand operations research applications in emergency services"
     ],
     "audience": [
-      "Curious-browser",
-      "Junior-DS",
-      "Early-PhD"
+      "Curious-browser"
     ],
     "synthetic_questions": [
       "What is operations research?",
-      "How is OR used in emergency response?",
-      "What is ambulance dispatch optimization?",
-      "How to apply OR to homeland security?"
+      "How can operations research improve emergency response?",
+      "What are the latest trends in ambulance dispatch optimization?",
+      "Who is Laura Albert?",
+      "What is the NSF CAREER Award?",
+      "How does homeland security analytics work?",
+      "What are the applications of operations research in public safety?",
+      "What are the most-read blogs in operations research?"
     ],
     "content_format": "blog",
     "skill_progression": [
@@ -15989,35 +15889,37 @@
     ],
     "domain": "Optimization",
     "difficulty": "advanced",
-    "prerequisites": [
-      "linear-programming",
-      "programming-basics"
-    ],
+    "prerequisites": [],
     "topic_tags": [
-      "CPLEX",
-      "Java-optimization",
-      "R-optimization",
-      "mathematical-programming"
+      "Operations Research",
+      "CPLEX"
     ],
-    "summary": "Paul Rubin, Professor Emeritus at Michigan State with 33+ years experience, provides the most technically detailed academic blog. Posts include specific CPLEX implementation tips, Java/R code snippets, and answers to reader questions.",
+    "summary": "This blog provides in-depth insights into Operations Research with a focus on CPLEX, featuring technical details, code snippets, and Q&A. It is ideal for those looking to deepen their understanding of OR techniques and applications.",
     "use_cases": [
-      "When debugging CPLEX implementations",
-      "When seeking expert advice on optimization code"
+      "When looking for advanced Operations Research techniques",
+      "When needing specific CPLEX coding advice",
+      "When seeking detailed academic insights in OR"
     ],
     "audience": [
+      "Mid-DS",
       "Senior-DS",
-      "Early-PhD"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "How to debug CPLEX models?",
-      "What are best practices for optimization in Java?",
-      "How to implement OR algorithms in R?"
+      "What are CPLEX tips for Operations Research?",
+      "How to implement Java code snippets in CPLEX?",
+      "What are common Q&A in Operations Research?",
+      "Where can I find detailed academic blogs on Operations Research?",
+      "What resources are available for learning CPLEX?",
+      "How to apply Operations Research techniques in real-world problems?",
+      "What is the experience level of Paul Rubin in Operations Research?",
+      "What are the best practices for using CPLEX in academic research?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "CPLEX mastery",
-      "Production optimization code",
-      "Mathematical programming implementation"
+      "Advanced understanding of Operations Research",
+      "Proficiency in CPLEX",
+      "Ability to implement Java/R code in OR contexts"
     ]
   },
   {
@@ -16033,32 +15935,34 @@
       "Blog"
     ],
     "domain": "Optimization",
-    "difficulty": "beginner",
+    "difficulty": "beginner|intermediate",
     "prerequisites": [],
     "topic_tags": [
-      "OR-education",
-      "integer-programming",
-      "accessibility"
+      "operations-research",
+      "optimization"
     ],
-    "summary": "Tallys Yunes, Associate Professor at University of Miami, focuses on making optimization accessible. His downloadable 'Optimization Games for the Young' teach OR concepts through play, while posts show integer programming in daily life.",
+    "summary": "This resource focuses on making optimization accessible through practical examples and downloadable materials. It is suitable for those interested in learning about operations research and optimization techniques.",
     "use_cases": [
-      "When teaching OR concepts",
-      "When seeking accessible optimization examples"
+      "when to learn about optimization",
+      "when to explore operations research concepts"
     ],
     "audience": [
-      "Curious-browser",
-      "Junior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "How to teach operations research?",
-      "What are fun ways to learn optimization?",
-      "How does OR apply to everyday life?"
+      "What is optimization?",
+      "How can optimization be applied in everyday life?",
+      "What are optimization games for young learners?",
+      "Who is Tallys Yunes?",
+      "What resources are available for learning operations research?",
+      "How to make optimization accessible?",
+      "What examples of everyday optimization exist?",
+      "Where can I download optimization materials?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "OR intuition",
-      "Integer programming concepts",
-      "Teaching optimization"
+      "understanding basic optimization concepts",
+      "applying optimization in real-world scenarios"
     ]
   },
   {
@@ -16074,34 +15978,34 @@
       "Blog"
     ],
     "domain": "Optimization",
-    "difficulty": "intermediate",
-    "prerequisites": [
-      "optimization-basics"
-    ],
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "sports-scheduling",
-      "OR-community",
-      "blog-aggregation"
+      "operations-research",
+      "sports-scheduling"
     ],
-    "summary": "Michael Trick, CMU Professor and former IFORS President, maintains both original content and the definitive aggregated listing of 40+ OR blogs. His sports scheduling work with MLB and NFL demonstrates theory-to-production application.",
+    "summary": "This blog provides insights into operations research and sports scheduling. It is suitable for those interested in the intersection of these fields, including students and professionals.",
     "use_cases": [
-      "When discovering OR blogs and resources",
-      "When learning about sports scheduling optimization"
+      "when to learn about operations research",
+      "when to explore sports scheduling techniques"
     ],
     "audience": [
-      "Mid-DS",
-      "Early-PhD"
+      "Curious-browser"
     ],
     "synthetic_questions": [
+      "What is operations research?",
+      "How is sports scheduling done?",
       "What are the best OR blogs?",
-      "How is optimization used in sports scheduling?",
-      "What is the IFORS?"
+      "Who is Michael Trick?",
+      "What is the role of an IFORS President?",
+      "How can I learn about sports scheduling?",
+      "What are the applications of operations research?",
+      "Where can I find OR resources?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "OR community awareness",
-      "Sports scheduling applications",
-      "Industry-academia bridge"
+      "understanding of operations research concepts",
+      "knowledge of sports scheduling methodologies"
     ]
   },
   {
@@ -16118,34 +16022,33 @@
     ],
     "domain": "Optimization",
     "difficulty": "intermediate",
-    "prerequisites": [
-      "optimization-basics"
-    ],
+    "prerequisites": [],
     "topic_tags": [
-      "warehouse-design",
-      "order-picking",
-      "logistics",
-      "academic-to-industry"
+      "operations-research",
+      "warehouse-design"
     ],
-    "summary": "Kevin Gue, now Senior Director of R&D at Fortna after academia at Naval Postgraduate School, Auburn, and Louisville, exemplifies the academic-to-industry transition. His DC Velocity columns on warehouse design bring research directly to practitioner audiences.",
+    "summary": "This resource provides insights into warehouse design and order picking routing from an expert in the field. It is suitable for those interested in operations research and logistics.",
     "use_cases": [
-      "When designing warehouse layouts",
-      "When optimizing order picking routes"
+      "when to learn about warehouse design",
+      "when to improve logistics operations"
     ],
     "audience": [
-      "Mid-DS",
-      "Senior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "How to optimize warehouse design?",
-      "What are order picking routing strategies?",
-      "How to transition from OR academia to industry?"
+      "What are the best practices in warehouse design?",
+      "How to optimize order picking routing?",
+      "What insights does Kevin Gue provide on warehouse operations?",
+      "What is the role of R&D in warehouse design?",
+      "How can operations research improve logistics?",
+      "What trends are emerging in warehouse management?",
+      "What are common challenges in warehouse design?",
+      "How to apply operations research in real-world scenarios?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "Warehouse operations understanding",
-      "Order picking optimization",
-      "Industry application of research"
+      "understanding warehouse design principles",
+      "applying operations research techniques to logistics"
     ]
   },
   {
@@ -16161,36 +16064,35 @@
       "Blog"
     ],
     "domain": "Optimization",
-    "difficulty": "advanced",
-    "prerequisites": [
-      "linear-programming",
-      "integer-programming"
-    ],
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "Benders-decomposition",
-      "Lagrangian-relaxation",
-      "redistricting",
-      "k-median"
+      "Operations Research",
+      "Decomposition Methods"
     ],
-    "summary": "Austin Buchanan, Oklahoma State Associate Professor, publishes accessible tutorials on advanced techniques: Benders decomposition, Lagrangian techniques for k-median, and political redistricting applications connecting OR to current policy debates.",
+    "summary": "This resource provides accessible tutorials on Benders decomposition, Lagrangian techniques for k-median, and political redistricting applications. It is suitable for those interested in operations research and related methodologies.",
     "use_cases": [
-      "When learning Benders decomposition",
-      "When implementing Lagrangian relaxation"
+      "when to learn about Benders decomposition",
+      "when to understand Lagrangian techniques"
     ],
     "audience": [
-      "Senior-DS",
-      "Early-PhD"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "How to implement Benders decomposition?",
-      "What is Lagrangian relaxation?",
-      "How is OR used in redistricting?"
+      "What is Benders decomposition?",
+      "How to apply Lagrangian techniques for k-median?",
+      "What are the applications of political redistricting?",
+      "Where can I find tutorials on operations research?",
+      "Who is Austin Buchanan?",
+      "What is the significance of decomposition methods in operations research?",
+      "How can I learn about political redistricting?",
+      "Are there beginner resources for operations research?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "Decomposition methods",
-      "Advanced LP techniques",
-      "Policy applications of OR"
+      "Understanding of Benders decomposition",
+      "Knowledge of Lagrangian techniques",
+      "Application of operations research methods"
     ]
   },
   {
@@ -16208,34 +16110,37 @@
     "domain": "Optimization",
     "difficulty": "intermediate",
     "prerequisites": [
-      "constraint-programming-basics"
+      "python-basics"
     ],
     "topic_tags": [
-      "CP-SAT",
-      "OR-Tools",
-      "constraint-programming",
-      "solver-tuning"
+      "operations-research",
+      "optimization"
     ],
-    "summary": "Fills a critical documentation gap as the most comprehensive unofficial guide to Google OR-Tools' CP-SAT solver. Chapters cover modeling patterns, parameter tuning, benchmarking methodology, and large neighborhood search\u2014content essential for practitioners.",
+    "summary": "This resource provides a comprehensive guide to Google OR-Tools' CP-SAT solver, covering various modeling patterns and techniques. It is suitable for individuals looking to deepen their understanding of operations research and optimization methods.",
     "use_cases": [
-      "When learning CP-SAT beyond official docs",
-      "When tuning CP-SAT for production"
+      "When to use CP-SAT for optimization problems",
+      "Understanding complex modeling patterns"
     ],
     "audience": [
+      "Junior-DS",
       "Mid-DS",
       "Senior-DS"
     ],
     "synthetic_questions": [
-      "How to use CP-SAT effectively?",
-      "What are CP-SAT modeling patterns?",
-      "How to tune CP-SAT parameters?",
-      "What is large neighborhood search in CP-SAT?"
+      "What is the CP-SAT solver?",
+      "How can I model problems using CP-SAT?",
+      "What are effective parameter tuning strategies?",
+      "What benchmarking methodologies are recommended?",
+      "How does large neighborhood search work?",
+      "What are common modeling patterns in operations research?",
+      "Who can benefit from learning CP-SAT?",
+      "What resources complement this guide?"
     ],
     "content_format": "book",
     "skill_progression": [
-      "CP-SAT fundamentals",
-      "Modeling patterns",
-      "Solver tuning for production"
+      "Understanding of CP-SAT solver",
+      "Ability to model optimization problems",
+      "Skills in parameter tuning and benchmarking"
     ]
   },
   {
@@ -16253,35 +16158,37 @@
     "domain": "Optimization",
     "difficulty": "intermediate",
     "prerequisites": [
-      "python-basics",
-      "linear-algebra"
+      "python-basics"
     ],
     "topic_tags": [
-      "Pyomo",
-      "linear-programming",
-      "optimization-under-uncertainty",
-      "mathematical-optimization"
+      "linear-optimization",
+      "optimization-under-uncertainty"
     ],
-    "summary": "50+ Jupyter notebooks covering linear optimization through optimization under uncertainty. By Krzysztof Postek (BCG), Alessandro Zocca, Joaquim Gromicho (ORTEC), and Jeffrey Kantor (Notre Dame). Cambridge University Press publication combining theory with Pyomo implementations.",
+    "summary": "This resource provides hands-on experience with mathematical optimization using Python through Jupyter notebooks. It is suitable for learners interested in applying optimization techniques in various scenarios.",
     "use_cases": [
-      "When learning mathematical optimization with Python",
-      "When implementing Pyomo models"
+      "when to learn mathematical optimization",
+      "when to apply optimization techniques in projects"
     ],
     "audience": [
       "Junior-DS",
       "Mid-DS",
-      "Early-PhD"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "How to learn Pyomo?",
       "What is mathematical optimization?",
-      "How to model uncertainty in optimization?"
+      "How to implement linear optimization in Python?",
+      "What are Jupyter notebooks?",
+      "What is Pyomo?",
+      "How to optimize under uncertainty?",
+      "What are the applications of linear programming?",
+      "What are the benefits of using Python for optimization?",
+      "Where can I find tutorials on optimization with Pyomo?"
     ],
     "content_format": "book",
     "skill_progression": [
-      "Linear programming fundamentals",
-      "Pyomo implementation",
-      "Stochastic optimization"
+      "mathematical optimization",
+      "using Pyomo for optimization",
+      "working with Jupyter notebooks"
     ]
   },
   {
@@ -16297,35 +16204,36 @@
       "Code Examples"
     ],
     "domain": "Optimization",
-    "difficulty": "intermediate",
+    "difficulty": "beginner|intermediate",
     "prerequisites": [
-      "python-basics",
-      "optimization-basics"
+      "python-basics"
     ],
     "topic_tags": [
-      "Pyomo",
-      "modeling-examples",
-      "mathematical-programming"
+      "linear-programming",
+      "pyomo"
     ],
-    "summary": "Jeffrey Kantor's Pyomo Cookbook with 381+ GitHub stars offers practical modeling examples that complement Pyomo's official documentation. Kantor's Notre Dame affiliation ensures academic quality while maintaining practitioner accessibility.",
+    "summary": "This resource provides practical Pyomo modeling examples that complement the official documentation. It is suitable for those looking to learn about linear programming through hands-on coding.",
     "use_cases": [
-      "When seeking Pyomo code examples",
-      "When learning optimization modeling patterns"
+      "when to learn Pyomo",
+      "when to apply linear programming techniques"
     ],
     "audience": [
+      "Junior-DS",
       "Mid-DS",
-      "Senior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "Where to find Pyomo examples?",
-      "How to model optimization problems in Pyomo?",
-      "What are common Pyomo patterns?"
+      "What is Pyomo?",
+      "How to model linear programming with Pyomo?",
+      "What are practical examples of Pyomo?",
+      "Where can I find Pyomo resources?",
+      "How to get started with Pyomo?",
+      "What are the benefits of using Pyomo for modeling?"
     ],
     "content_format": "repository",
     "skill_progression": [
-      "Pyomo syntax",
-      "Modeling patterns",
-      "Practical implementation"
+      "practical modeling skills",
+      "understanding of linear programming concepts"
     ]
   },
   {
@@ -16341,26 +16249,30 @@
       "Repository"
     ],
     "domain": "Optimization",
-    "difficulty": "beginner",
+    "difficulty": "beginner|intermediate|advanced",
     "prerequisites": [],
     "topic_tags": [
-      "optimization-resources",
-      "curated-list",
-      "learning-path"
+      "convex optimization",
+      "discrete optimization",
+      "metaheuristics"
     ],
-    "summary": "Curated list of courses, books, libraries, and frameworks across convex optimization, discrete optimization, and metaheuristics. A comprehensive starting point regularly updated for anyone entering the optimization field.",
+    "summary": "This resource provides a curated list of courses, books, libraries, and frameworks focused on optimization techniques. It is suitable for anyone looking to start or deepen their understanding of optimization in various contexts.",
     "use_cases": [
-      "When discovering optimization resources",
-      "When building an optimization learning path"
+      "when to start learning optimization",
+      "when looking for comprehensive resource lists"
     ],
     "audience": [
-      "Curious-browser",
-      "Junior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "What are the best optimization resources?",
-      "Where to start learning optimization?",
-      "What optimization libraries exist?"
+      "What are the best resources for learning convex optimization?",
+      "Where can I find courses on discrete optimization?",
+      "What libraries are available for metaheuristics?",
+      "How to start learning about optimization?",
+      "What frameworks are recommended for optimization problems?",
+      "Are there any comprehensive lists of optimization resources?",
+      "What books should I read for optimization?",
+      "How to find updated resources on optimization?"
     ],
     "content_format": "repository",
     "skill_progression": [
@@ -16381,33 +16293,35 @@
       "Blog"
     ],
     "domain": "Optimization",
-    "difficulty": "intermediate",
+    "difficulty": "beginner|intermediate",
     "prerequisites": [
       "python-basics"
     ],
     "topic_tags": [
-      "library-comparison",
-      "Python-optimization",
-      "solver-benchmarking"
+      "operations-research",
+      "library-comparison"
     ],
-    "summary": "SolverMax maintains both original content (13-article series comparing Python OR libraries) and the most comprehensive directory of optimization blogs with summaries and notable posts.",
+    "summary": "This resource offers a comprehensive comparison of Python optimization libraries through a series of articles, making it suitable for those looking to understand different options in operations research. It is ideal for beginners and intermediate learners interested in optimization techniques.",
     "use_cases": [
-      "When choosing between Python optimization libraries",
-      "When discovering OR blogs"
+      "When comparing different Python OR libraries",
+      "When looking for optimization blog resources"
     ],
     "audience": [
-      "Mid-DS",
-      "Senior-DS"
+      "Curious-browser",
+      "Junior-DS"
     ],
     "synthetic_questions": [
-      "Which Python optimization library should I use?",
-      "How do OR-Tools, Pyomo, and PuLP compare?",
-      "What are the best optimization blogs?"
+      "What are the best Python OR libraries?",
+      "How do Python optimization libraries compare?",
+      "What optimization blogs should I follow?",
+      "What are notable posts in optimization?",
+      "How to choose an OR library for Python?",
+      "What is the summary of optimization blogs?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "Library selection",
-      "Solver comparison methodology"
+      "Understanding of Python OR libraries",
+      "Ability to compare optimization techniques"
     ]
   },
   {
@@ -16425,34 +16339,35 @@
     "domain": "Optimization",
     "difficulty": "intermediate",
     "prerequisites": [
-      "optimization-basics",
       "python-basics"
     ],
     "topic_tags": [
-      "ride-share",
-      "dispatch-optimization",
-      "trip-chaining",
-      "assignment-problems"
+      "routing",
+      "logistics",
+      "ride-share"
     ],
-    "summary": "Afian Anwar (Solution Architect/CTO) provides complete worked examples for ride-share dispatch algorithms with full code. Posts explain why greedy nearest-driver matching fails compared to optimal trip chaining, with real API implementations.",
+    "summary": "This resource provides complete worked examples for ride-share dispatch algorithms, focusing on the comparison between greedy nearest-driver matching and optimal trip chaining. It is suitable for those looking to understand the intricacies of ride-share dispatch systems.",
     "use_cases": [
-      "When building ride-share dispatch systems",
-      "When understanding assignment problem trade-offs"
+      "When learning about ride-share systems",
+      "For understanding dispatch algorithms"
     ],
     "audience": [
-      "Mid-DS",
-      "Senior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "How to optimize ride-share dispatch?",
-      "Why is greedy matching suboptimal?",
-      "What is trip chaining optimization?"
+      "What are ride-share dispatch algorithms?",
+      "How does greedy nearest-driver matching work?",
+      "What is optimal trip chaining?",
+      "Why does greedy matching fail?",
+      "What coding examples are included?",
+      "How can I implement ride-share algorithms in Python?",
+      "What are the key concepts in ride-share logistics?",
+      "Where can I find more resources on routing and logistics?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "Dispatch fundamentals",
-      "Assignment problem modeling",
-      "Production implementation"
+      "Understanding ride-share dispatch algorithms",
+      "Implementing algorithms in Python"
     ]
   },
   {
@@ -16469,34 +16384,39 @@
     ],
     "domain": "Optimization",
     "difficulty": "intermediate",
-    "prerequisites": [
-      "optimization-basics"
-    ],
+    "prerequisites": [],
     "topic_tags": [
-      "production-optimization",
-      "decision-science",
-      "OR-Tools",
-      "NVIDIA-cuOpt"
+      "routing",
+      "logistics",
+      "operations-research"
     ],
-    "summary": "From former Convoy and Uber operations researchers, Nextmv Blog bridges open-source tools and production systems. DecisionFest recordings feature practitioners from IKEA, Walmart, Carvana, and Toyota discussing vehicle routing implementations.",
+    "summary": "The Nextmv Blog provides insights from experienced operations researchers and explores the intersection of open-source tools and production systems. It is aimed at professionals and enthusiasts in the fields of routing and logistics.",
     "use_cases": [
-      "When learning production optimization patterns",
-      "When integrating OR-Tools or cuOpt"
+      "When looking for insights on routing and logistics",
+      "When seeking case studies from industry leaders",
+      "When exploring open-source tools for production systems"
     ],
     "audience": [
+      "Junior-DS",
       "Mid-DS",
-      "Senior-DS"
+      "Senior-DS",
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "How do companies implement vehicle routing?",
-      "What is Nextmv?",
-      "How to use NVIDIA cuOpt?"
+      "What are the latest trends in routing and logistics?",
+      "How can open-source tools improve production systems?",
+      "What insights can be gained from DecisionFest recordings?",
+      "Who are the thought leaders in operations research?",
+      "What case studies are available for logistics optimization?",
+      "How do companies like IKEA and Walmart approach routing?",
+      "What is the role of operations research in logistics?",
+      "What tools do operations researchers recommend?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "Open-source to production bridge",
-      "Industry case studies",
-      "Modern solver integration"
+      "Understanding of routing and logistics concepts",
+      "Familiarity with production systems",
+      "Exposure to industry case studies"
     ]
   },
   {
@@ -16513,29 +16433,29 @@
     ],
     "domain": "Optimization",
     "difficulty": "advanced",
-    "prerequisites": [
-      "linear-programming",
-      "column-generation-basics"
-    ],
+    "prerequisites": [],
     "topic_tags": [
-      "branch-cut-and-price",
-      "VRP",
-      "column-generation",
-      "exact-methods"
+      "Routing & Logistics",
+      "Column Generation",
+      "Academic"
     ],
-    "summary": "Eduardo Uchoa, Artur Pessoa, and Lorenza Moreno (VRPSolver creators) provide cutting-edge branch-cut-and-price algorithms for vehicle routing. This represents state-of-the-art academic work with production solver implications.",
-    "use_cases": [
-      "When implementing exact VRP algorithms",
-      "When learning advanced column generation"
-    ],
+    "summary": "This resource presents cutting-edge algorithms for vehicle routing, focusing on branch-cut-and-price techniques. It is aimed at researchers and practitioners interested in advanced routing solutions.",
+    "use_cases": [],
     "audience": [
-      "Senior-DS",
-      "Early-PhD"
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
     ],
     "synthetic_questions": [
-      "What is branch-cut-and-price?",
-      "How does VRPSolver work?",
-      "What are exact methods for VRP?"
+      "What are branch-cut-and-price algorithms?",
+      "How can column generation improve vehicle routing?",
+      "What are the implications of this research for production solvers?",
+      "Who are the authors of VRPSolver?",
+      "What is the significance of this academic work?",
+      "How does this resource contribute to the field of logistics?",
+      "What techniques are used in VRPSolver?",
+      "Where can I find more information on vehicle routing algorithms?"
     ],
     "content_format": "book",
     "skill_progression": [
@@ -16557,35 +16477,37 @@
       "Blog"
     ],
     "domain": "Optimization",
-    "difficulty": "intermediate",
+    "difficulty": "beginner|intermediate",
     "prerequisites": [
-      "constraint-programming-basics"
+      "python-basics"
     ],
     "topic_tags": [
-      "employee-rostering",
-      "nurse-scheduling",
-      "constraint-programming",
-      "Timefold"
+      "operations-research",
+      "scheduling",
+      "constraint-programming"
     ],
-    "summary": "Founded by OptaPlanner creator Geoffrey De Smet (17+ years OR experience), Timefold Blog covers employee rostering, nurse scheduling, and constraint programming with Java/Kotlin/Python. Claims 2x performance improvement over OptaPlanner.",
+    "summary": "The Timefold Blog provides insights into employee rostering and nurse scheduling using constraint programming techniques. It is suitable for those interested in operations research and practical applications in scheduling.",
     "use_cases": [
-      "When building scheduling systems",
-      "When evaluating Timefold vs OptaPlanner"
+      "when to learn about scheduling techniques",
+      "when to explore operations research applications"
     ],
     "audience": [
-      "Mid-DS",
-      "Senior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "What is Timefold?",
-      "How does Timefold compare to OptaPlanner?",
-      "How to implement nurse scheduling?"
+      "What is employee rostering?",
+      "How to schedule nurses effectively?",
+      "What is constraint programming?",
+      "How can Java be used in scheduling?",
+      "What are the applications of OptaPlanner?",
+      "What programming languages are used in operations research?",
+      "What are the challenges in scheduling?",
+      "How to implement scheduling algorithms?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "Scheduling fundamentals",
-      "Constraint programming patterns",
-      "Production scheduling systems"
+      "understanding of scheduling algorithms",
+      "knowledge of constraint programming"
     ]
   },
   {
@@ -16601,36 +16523,34 @@
       "Dataset"
     ],
     "domain": "Optimization",
-    "difficulty": "advanced",
-    "prerequisites": [
-      "scheduling-basics",
-      "metaheuristics"
-    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "nurse-scheduling",
-      "benchmark-instances",
-      "genetic-algorithms",
-      "scatter-search"
+      "operations-research"
     ],
-    "summary": "Ghent University OR&S Research Group (Prof. Mario Vanhoucke and Dr. Broos Maenhout) publishes NSPLib benchmark instances for nurse scheduling with downloadable datasets and solutions. Research covers genetic algorithms, scatter search, and nurse rerostering.",
+    "summary": "This resource provides benchmark instances for nurse scheduling, focusing on genetic algorithms, scatter search, and nurse rerostering. It is suitable for researchers and practitioners interested in operations research and scheduling problems.",
     "use_cases": [
-      "When benchmarking scheduling algorithms",
-      "When researching nurse scheduling"
+      "when to evaluate nurse scheduling algorithms",
+      "when to compare different scheduling methods"
     ],
     "audience": [
-      "Senior-DS",
-      "Early-PhD"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "Where to find nurse scheduling benchmarks?",
-      "What are NSPLib instances?",
-      "How to evaluate scheduling algorithms?"
+      "What are the available datasets for nurse scheduling?",
+      "How can genetic algorithms be applied to nurse scheduling?",
+      "What solutions are provided for nurse rerostering?",
+      "Where can I find benchmarks for nurse scheduling?",
+      "What is scatter search in the context of nurse scheduling?",
+      "How to download datasets for nurse scheduling?",
+      "What are the challenges in nurse scheduling?",
+      "Who can benefit from nurse scheduling benchmarks?"
     ],
     "content_format": "dataset",
     "skill_progression": [
-      "Benchmark methodology",
-      "Algorithm comparison",
-      "Scheduling research"
+      "understanding of nurse scheduling problems",
+      "familiarity with benchmark datasets",
+      "knowledge of genetic algorithms and scatter search"
     ]
   },
   {
@@ -16646,34 +16566,34 @@
       "Newsletter"
     ],
     "domain": "Optimization",
-    "difficulty": "beginner",
+    "difficulty": "beginner|intermediate",
     "prerequisites": [],
     "topic_tags": [
-      "OR-industry",
-      "case-studies",
-      "career-guidance",
-      "solver-news"
+      "operations-research",
+      "industry-news"
     ],
-    "summary": "Borja Menendez delivers weekly OR industry news including real-world case studies from UPS ORION and Walmart Route Optimization, solver announcements, and career guidance. Practitioner perspective unavailable in academic publications.",
+    "summary": "The Feasible Newsletter provides insights into operations research through real-world case studies and industry news. It is suitable for individuals interested in learning about practical applications and career guidance in operations research.",
     "use_cases": [
-      "When staying current on OR industry",
-      "When seeking OR career advice"
+      "To stay updated on industry news in operations research",
+      "To learn about real-world applications of operations research"
     ],
     "audience": [
-      "Curious-browser",
-      "Junior-DS",
-      "Mid-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "What's happening in the OR industry?",
-      "How is OR used at UPS?",
-      "What are OR career paths?"
+      "What is the Feasible Newsletter?",
+      "How does UPS ORION optimize routes?",
+      "What are the latest trends in operations research?",
+      "What career guidance is available in the newsletter?",
+      "How does Walmart optimize its delivery routes?",
+      "What are solver announcements in operations research?",
+      "Where can I find industry news on operations research?",
+      "What case studies are featured in the Feasible Newsletter?"
     ],
     "content_format": "newsletter",
     "skill_progression": [
-      "Industry awareness",
-      "Case study exposure",
-      "Career development"
+      "Understanding of operations research applications",
+      "Awareness of industry trends and case studies"
     ]
   },
   {
@@ -16689,29 +16609,29 @@
       "Newsletter"
     ],
     "domain": "Optimization",
-    "difficulty": "intermediate",
-    "prerequisites": [
-      "optimization-basics"
-    ],
+    "difficulty": null,
+    "prerequisites": [],
     "topic_tags": [
-      "OR-AI-intersection",
-      "experimental-design",
-      "business-applications"
+      "Operations Research",
+      "AI Strategy"
     ],
-    "summary": "Kuang Xu, Stanford GSB Professor, bridges OR research with AI strategy and experimental design. Posts combine academic rigor with business applications, covering the intersection of operations research and modern AI.",
+    "summary": "The Kuang Xu Newsletter offers insights at the intersection of Operations Research and AI strategy, providing academic rigor with practical business applications. It is suitable for those interested in applying OR research to real-world scenarios.",
     "use_cases": [
-      "When exploring OR-AI intersection",
-      "When seeking academic perspective on business problems"
+      "to gain insights on AI strategy from an OR perspective",
+      "to learn about experimental design in business applications"
     ],
     "audience": [
-      "Mid-DS",
-      "Senior-DS",
-      "Early-PhD"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "How does OR relate to AI?",
-      "What is the intersection of optimization and machine learning?",
-      "How to apply OR in business strategy?"
+      "What is the Kuang Xu Newsletter?",
+      "How does Operations Research relate to AI strategy?",
+      "What are the key insights from 'The Importance of Being Modest'?",
+      "Who is Kuang Xu?",
+      "What topics are covered in the Kuang Xu Newsletter?",
+      "How can I apply OR research in business?",
+      "What is the significance of experimental design in AI?",
+      "Where can I subscribe to the Kuang Xu Newsletter?"
     ],
     "content_format": "newsletter",
     "skill_progression": [
@@ -16734,33 +16654,38 @@
     "domain": "Optimization",
     "difficulty": "intermediate",
     "prerequisites": [
-      "python-basics",
-      "optimization-basics"
+      "python-basics"
     ],
     "topic_tags": [
+      "operations-research",
       "software-engineering",
-      "LLM-optimization",
-      "Python-patterns"
+      "ai-or"
     ],
-    "summary": "Richard Oberdieck covers modern software engineering practices for optimization, including 'LLM-ify me \u2013 Optimization edition' exploring AI-OR integration and Python modeling patterns.",
+    "summary": "This resource explores modern software engineering practices specifically for optimization, including the integration of AI in operations research. It is suitable for individuals looking to enhance their understanding of optimization techniques and Python modeling.",
     "use_cases": [
-      "When building production optimization systems",
-      "When exploring LLM-OR integration"
+      "when to learn about AI integration in operations research",
+      "when to improve software engineering practices for optimization"
     ],
     "audience": [
+      "Junior-DS",
       "Mid-DS",
-      "Senior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "How to use LLMs with optimization?",
-      "What are software engineering best practices for OR?",
-      "How to structure Python optimization code?"
+      "What are modern software engineering practices for optimization?",
+      "How can AI be integrated into operations research?",
+      "What Python modeling patterns are used in optimization?",
+      "What is LLM-ify me - Optimization edition?",
+      "Who can benefit from learning about AI-OR integration?",
+      "What skills can I gain from this blog?",
+      "What are the best practices in software engineering for optimization?",
+      "How does Python facilitate optimization in operations research?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "Production OR systems",
-      "LLM integration",
-      "Software engineering patterns"
+      "understanding of optimization techniques",
+      "familiarity with AI integration in operations research",
+      "knowledge of Python modeling patterns"
     ]
   },
   {
@@ -16778,33 +16703,31 @@
     "domain": "Optimization",
     "difficulty": "intermediate",
     "prerequisites": [
-      "python-basics",
-      "linear-programming"
+      "python-basics"
     ],
     "topic_tags": [
-      "PuLP",
-      "open-source-OR",
-      "library-development"
+      "operations-research"
     ],
-    "summary": "Franco Peschiera, PuLP maintainer, publishes insider perspective on open-source OR library development. Posts include 'PuLP: past, present and future' and Timefold integration guidance.",
+    "summary": "This resource provides insights into the development of the PuLP library and its integration with Timefold. It is aimed at those interested in open-source operations research library development.",
     "use_cases": [
-      "When using PuLP in production",
-      "When contributing to open-source OR"
+      "Understanding the development of the PuLP library",
+      "Learning about open-source contributions in operations research"
     ],
     "audience": [
-      "Mid-DS",
-      "Senior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
+      "What is PuLP library?",
+      "How to integrate PuLP with Timefold?",
+      "What are the past developments of PuLP?",
       "What is the future of PuLP?",
-      "How to integrate PuLP with other tools?",
-      "How to contribute to open-source OR libraries?"
+      "How does open-source OR library development work?",
+      "What insights can a maintainer provide about PuLP?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "PuLP mastery",
-      "Open-source contribution",
-      "Library integration"
+      "insights into open-source library development",
+      "understanding of operations research tools"
     ]
   },
   {
@@ -16822,38 +16745,38 @@
     "domain": "Marketing",
     "difficulty": "advanced",
     "prerequisites": [
-      "bayesian-basics",
       "python-basics"
     ],
     "topic_tags": [
-      "MMM",
-      "Bayesian-marketing",
-      "adstock",
-      "saturation-curves",
-      "CLV",
-      "PyMC"
+      "causal-inference",
+      "bayesian-methods",
+      "marketing-science"
     ],
-    "summary": "Juan Orduz is the most prolific technical writer on Bayesian marketing methods. His 50+ posts cover media effect estimation with adstock and saturation curves, CLV modeling with BG/NBD, and causal inference with synthetic controls.",
+    "summary": "This resource explores advanced Bayesian marketing methods for estimating media effects and modeling customer lifetime value. It is suitable for data scientists and marketing professionals looking to deepen their understanding of quantitative marketing techniques.",
     "use_cases": [
-      "When implementing Bayesian MMM",
-      "When modeling customer lifetime value",
-      "When building media mix models"
+      "When to apply Bayesian methods for marketing analysis",
+      "Estimating media effects",
+      "Modeling customer lifetime value"
     ],
     "audience": [
-      "Senior-DS",
-      "Early-PhD"
+      "Mid-DS",
+      "Senior-DS"
     ],
     "synthetic_questions": [
-      "How to implement adstock in PyMC?",
-      "What is media mix modeling?",
-      "How to model saturation curves?",
-      "Bayesian CLV with BG/NBD?"
+      "What are Bayesian methods in marketing?",
+      "How to estimate media effects?",
+      "What is CLV modeling?",
+      "What are adstock curves?",
+      "How to apply synthetic controls in marketing?",
+      "What are saturation curves?",
+      "How to implement Bayesian marketing methods?",
+      "What are the benefits of using Bayesian methods in marketing?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "Bayesian marketing fundamentals",
-      "MMM implementation",
-      "CLV modeling"
+      "Advanced understanding of Bayesian methods",
+      "Skills in media effect estimation",
+      "Expertise in CLV modeling"
     ]
   },
   {
@@ -16869,39 +16792,33 @@
       "Tutorial"
     ],
     "domain": "Marketing",
-    "difficulty": "intermediate",
-    "prerequisites": [
-      "marketing-basics",
-      "python-basics"
-    ],
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "MMM",
-      "LightweightMMM",
-      "Robyn",
-      "Orbit",
-      "marketing-measurement"
+      "marketing-science",
+      "MMM"
     ],
-    "summary": "Mike Taylor bridges the gap between technical MMM implementation and marketing practitioners. His course library and YouTube walkthroughs make complex concepts approachable for non-technical marketers.",
+    "summary": "Learn the fundamentals of Marketing Mix Modeling (MMM) through accessible tutorials. This resource is ideal for those looking to understand LightweightMMM, Robyn, and Uber Orbit.",
     "use_cases": [
-      "When learning MMM from scratch",
-      "When comparing MMM tools",
-      "When explaining MMM to stakeholders"
+      "When to apply Marketing Mix Modeling techniques"
     ],
     "audience": [
-      "Mid-DS",
-      "Junior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
+      "What are MMM tutorials?",
       "How to use LightweightMMM?",
-      "What is Robyn?",
-      "How to compare MMM tools?",
-      "MMM for marketers?"
+      "What is Robyn in marketing?",
+      "Introduction to Uber Orbit?",
+      "Who is Mike Taylor?",
+      "What is marketing science?",
+      "How to manage marketing spend?",
+      "What are the benefits of MMM?"
     ],
     "content_format": "course",
     "skill_progression": [
-      "MMM concepts",
-      "Tool comparison",
-      "Implementation basics"
+      "Understanding of MMM concepts",
+      "Ability to apply LightweightMMM, Robyn, and Uber Orbit"
     ]
   },
   {
@@ -16917,37 +16834,38 @@
       "Kaggle"
     ],
     "domain": "Marketing",
-    "difficulty": "advanced",
+    "difficulty": "intermediate",
     "prerequisites": [
-      "machine-learning",
-      "python-advanced"
+      "python-basics"
     ],
     "topic_tags": [
-      "MMM",
-      "LightweightMMM",
-      "Orbit",
-      "time-varying-coefficients",
-      "marketing-measurement"
+      "marketing-science",
+      "MMM"
     ],
-    "summary": "Mario Filho brings rigorous ML methodology to marketing problems. His posts on LightweightMMM case studies and implementing Uber's time-varying coefficient model with Orbit are invaluable for practitioners.",
+    "summary": "This resource provides hands-on tutorials for Marketing Mix Modeling (MMM) using real advertising data. It is suitable for those looking to deepen their understanding of MMM and its practical applications.",
     "use_cases": [
-      "When implementing production MMM",
-      "When debugging MMM models",
-      "When working with real ad data"
+      "when to implement Marketing Mix Modeling",
+      "understanding advertising effectiveness"
     ],
     "audience": [
+      "Junior-DS",
+      "Mid-DS",
       "Senior-DS"
     ],
     "synthetic_questions": [
-      "How to implement time-varying MMM?",
-      "LightweightMMM case studies?",
-      "Uber Orbit for marketing?"
+      "What is Marketing Mix Modeling?",
+      "How can I implement MMM with real data?",
+      "What are the best practices for MMM?",
+      "Who is Mario Filho?",
+      "What are Kaggle competitions?",
+      "How does MMM apply to advertising?",
+      "What skills do I need for MMM?",
+      "Where can I find MMM tutorials?"
     ],
-    "content_format": "blog",
+    "content_format": "tutorial",
     "skill_progression": [
-      "Advanced MMM techniques",
-      "Time-varying coefficients",
-      "Production implementation"
+      "hands-on MMM implementation",
+      "working with advertising data"
     ]
   },
   {
@@ -16964,35 +16882,36 @@
     ],
     "domain": "Marketing",
     "difficulty": "intermediate",
-    "prerequisites": [
-      "marketing-basics"
-    ],
+    "prerequisites": [],
     "topic_tags": [
+      "marketing-science",
       "MMM",
-      "model-validation",
-      "hypothesis-testing",
-      "marketing-measurement"
+      "strategy"
     ],
-    "summary": "Recast blog contributes essential thinking on MMM verification and organizational adoption. Emphasis on hypothesis testing, model falsifiability, and when MMM investment makes sense.",
+    "summary": "This blog discusses MMM verification and its importance in marketing analytics. It is aimed at professionals interested in understanding model verification and investment strategies in marketing.",
     "use_cases": [
-      "When evaluating MMM approaches",
-      "When building MMM business case",
-      "When validating MMM outputs"
+      "Understanding when to use MMM verification in marketing strategies"
     ],
     "audience": [
+      "Junior-DS",
       "Mid-DS",
       "Senior-DS"
     ],
     "synthetic_questions": [
-      "How to validate MMM?",
-      "When does MMM make sense?",
-      "How to test MMM hypotheses?"
+      "What is MMM verification?",
+      "How does hypothesis testing apply to MMM?",
+      "When should I invest in MMM?",
+      "What are the challenges of model falsifiability?",
+      "What insights can I gain from this blog?",
+      "Who is Michael Kaminsky?",
+      "What is the role of analytics in marketing?",
+      "How can I apply MMM in my marketing strategy?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "MMM evaluation",
-      "Validation methodology",
-      "Business case building"
+      "Understanding of MMM verification",
+      "Knowledge of hypothesis testing",
+      "Insights into marketing investment strategies"
     ]
   },
   {
@@ -17009,37 +16928,37 @@
     ],
     "domain": "Marketing",
     "difficulty": "intermediate",
-    "prerequisites": [
-      "marketing-basics"
-    ],
+    "prerequisites": [],
     "topic_tags": [
-      "SKAdNetwork",
-      "ATT",
-      "iOS-attribution",
-      "incrementality",
-      "mobile-marketing"
+      "mobile-marketing",
+      "attribution",
+      "econometrics"
     ],
-    "summary": "Eric Seufert is the definitive voice on mobile marketing measurement in the post-ATT era. His 'App Tracking Transparency Codex' is the essential guide to IDFA deprecation, and his podcast features top academics bridging research and practice.",
+    "summary": "This resource provides insights into mobile marketing measurement, focusing on SKAdNetwork and iOS attribution challenges. It is suitable for marketers and data analysts interested in understanding advanced marketing measurement techniques.",
     "use_cases": [
-      "When navigating iOS attribution changes",
-      "When building post-ATT measurement",
-      "When understanding SKAdNetwork"
+      "when to understand mobile marketing measurement",
+      "when to analyze iOS attribution challenges"
     ],
     "audience": [
+      "Junior-DS",
       "Mid-DS",
-      "Senior-DS"
+      "Senior-DS",
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "How does SKAdNetwork work?",
-      "What is ATT?",
-      "How to measure after iOS 14.5?",
-      "Mobile attribution strategies?"
+      "What is SKAdNetwork?",
+      "How does iOS attribution work?",
+      "What are the challenges in mobile marketing measurement?",
+      "What is econometric marketing measurement?",
+      "How can I improve my mobile marketing strategy?",
+      "What are the latest trends in mobile ads and attribution?",
+      "How to measure the effectiveness of mobile ads?",
+      "What tools are available for mobile marketing measurement?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "Post-ATT measurement",
-      "SKAdNetwork mastery",
-      "Mobile attribution"
+      "understanding mobile marketing measurement",
+      "analyzing attribution challenges"
     ]
   },
   {
@@ -17055,38 +16974,39 @@
       "Experimentation"
     ],
     "domain": "Marketing",
-    "difficulty": "advanced",
-    "prerequisites": [
-      "causal-inference-basics",
-      "statistics"
-    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "synthetic-control",
+      "causal-inference",
       "geo-experimentation",
-      "incrementality",
-      "causal-inference"
+      "synthetic-control"
     ],
-    "summary": "Haus maintains the most rigorous blog on synthetic control and geo-experimentation methodology. Their PhD team produces 2-4 posts monthly covering geo-experiment fundamentals and privacy-durable marketing measurement.",
+    "summary": "This resource covers the fundamentals of geo-experimentation and synthetic control methodology, providing insights into the limitations of matched market tests. It is aimed at those interested in causal inference, particularly in an academic or research context.",
     "use_cases": [
-      "When designing geo-experiments",
-      "When learning synthetic control",
-      "When building incrementality testing"
+      "Understanding causal inference in advertising",
+      "Applying synthetic control in research",
+      "Evaluating the effectiveness of geo-experiments"
     ],
     "audience": [
-      "Senior-DS",
-      "Early-PhD"
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
     ],
     "synthetic_questions": [
-      "How to run geo-experiments?",
-      "What is synthetic control?",
-      "Why not matched market tests?",
-      "Privacy-durable measurement?"
+      "What is synthetic control methodology?",
+      "How does geo-experimentation work?",
+      "What are matched market tests?",
+      "Why are matched market tests considered insufficient?",
+      "What are the fundamentals of causal inference?",
+      "How can geo-experimentation be applied in research?",
+      "What are the best practices for conducting geo-experiments?",
+      "What are the limitations of synthetic control?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "Geo-experimentation",
-      "Synthetic control",
-      "Incrementality testing"
+      "Understanding of geo-experiment fundamentals",
+      "Knowledge of synthetic control methodology",
+      "Ability to critique matched market tests"
     ]
   },
   {
@@ -17103,38 +17023,37 @@
     ],
     "domain": "Marketing",
     "difficulty": "intermediate",
-    "prerequisites": [
-      "marketing-basics",
-      "experimentation-basics"
-    ],
+    "prerequisites": [],
     "topic_tags": [
       "incrementality",
-      "ghost-ads",
-      "PSA",
-      "intent-to-treat",
-      "ad-measurement"
+      "ads",
+      "attribution"
     ],
-    "summary": "Remerge provides excellent technical breakdowns of incrementality testing approaches from a DSP actively implementing these methods. Clear pros and cons analysis of intent-to-treat, PSA, ghost ads, and ghost bids.",
+    "summary": "This resource provides a technical breakdown of incrementality testing methods from a DSP perspective, including intent-to-treat, PSA, ghost ads, and ghost bids. It is suitable for those looking to understand the pros and cons of various approaches in advertising.",
     "use_cases": [
-      "When comparing incrementality methods",
-      "When understanding ghost ads",
-      "When designing ad experiments"
+      "When evaluating advertising effectiveness",
+      "When deciding on testing methods for campaigns"
     ],
     "audience": [
+      "Junior-DS",
       "Mid-DS",
-      "Senior-DS"
+      "Senior-DS",
+      "Curious-browser"
     ],
     "synthetic_questions": [
+      "What are incrementality testing methods?",
+      "How does intent-to-treat work?",
+      "What are the pros and cons of ghost bids?",
+      "What is a PSA in advertising?",
+      "How can I apply incrementality testing in my campaigns?",
+      "What is the DSP perspective on incrementality?",
       "What are ghost ads?",
-      "How does incrementality testing work?",
-      "PSA vs intent-to-treat?",
-      "Ghost bids methodology?"
+      "How do different testing approaches compare?"
     ],
-    "content_format": "blog",
+    "content_format": "article",
     "skill_progression": [
-      "Incrementality methods",
-      "Ad experiment design",
-      "Measurement comparison"
+      "Understanding incrementality testing",
+      "Evaluating different advertising methods"
     ]
   },
   {
@@ -17150,37 +17069,33 @@
       "Churn"
     ],
     "domain": "Marketing",
-    "difficulty": "advanced",
-    "prerequisites": [
-      "statistics",
-      "marketing-basics"
-    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "retention",
-      "churn-prevention",
-      "field-experiments",
-      "marketing-AI"
+      "retention-management",
+      "churn"
     ],
-    "summary": "Eva Ascarza challenges conventional retention management wisdom through field experiments. Her paradigm-shifting paper 'Retention Futility' is essential reading for anyone building retention programs.",
+    "summary": "This resource explores the challenges to conventional retention management through Eva Ascarza's research. It is suitable for those interested in understanding the complexities of customer retention strategies.",
     "use_cases": [
-      "When questioning retention strategies",
-      "When designing churn interventions",
-      "When evaluating marketing AI"
+      "when considering retention strategies",
+      "when analyzing customer churn data"
     ],
     "audience": [
-      "Senior-DS",
-      "Early-PhD"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "Does targeting high-risk customers work?",
       "What is retention futility?",
-      "How to design churn interventions?"
+      "How can churn interventions backfire?",
+      "What does Eva Ascarza's research suggest about retention?",
+      "Why is conventional retention management being challenged?",
+      "What are the implications of retention futility?",
+      "How can businesses improve their retention strategies?",
+      "What are the key findings of the paper 'Retention Futility'?"
     ],
-    "content_format": "academic",
+    "content_format": "article",
     "skill_progression": [
-      "Retention strategy",
-      "Experiment design",
-      "Marketing AI evaluation"
+      "understanding of retention strategies",
+      "insight into customer behavior"
     ]
   },
   {
@@ -17199,32 +17114,32 @@
     "difficulty": "beginner",
     "prerequisites": [],
     "topic_tags": [
-      "CLV",
-      "customer-centricity",
-      "Google-insights",
-      "marketing-strategy"
+      "marketing",
+      "customer lifetime value"
     ],
-    "summary": "Neil Hoyne translates Google's massive experimentation insights into practitioner frameworks. His bestselling book 'Converted' bridges academic rigor with real-world CLV application.",
+    "summary": "This resource provides insights into customer lifetime value marketing strategies. It is suitable for marketers and business professionals looking to enhance their understanding of growth and retention strategies.",
     "use_cases": [
-      "When learning CLV concepts",
-      "When building customer-centric strategy",
-      "When presenting to executives"
+      "when to improve customer retention",
+      "when to develop a marketing strategy focused on CLV"
     ],
     "audience": [
-      "Curious-browser",
       "Junior-DS",
-      "Mid-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "What is customer lifetime value?",
-      "How to implement CLV marketing?",
-      "Google's approach to CLV?"
+      "What is customer lifetime value marketing?",
+      "How can I apply CLV in my marketing strategy?",
+      "What are the key concepts in Neil Hoyne's book 'Converted'?",
+      "Who is Neil Hoyne and what is his expertise?",
+      "What strategies can improve customer retention?",
+      "How does CLV impact business growth?",
+      "What are the best practices for implementing CLV-focused marketing?",
+      "What resources are available for learning about CLV?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "CLV fundamentals",
-      "Customer-centric thinking",
-      "Strategic application"
+      "understanding customer lifetime value",
+      "applying marketing strategies for growth"
     ]
   },
   {
@@ -17240,37 +17155,39 @@
       "Blog"
     ],
     "domain": "Marketing",
-    "difficulty": "intermediate",
-    "prerequisites": [
-      "marketing-basics"
-    ],
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
     "topic_tags": [
       "email-marketing",
       "customer-development",
-      "catalog-measurement",
-      "profitability"
+      "catalog-measurement"
     ],
-    "summary": "Kevin Hillstrom offers 20+ years of continuous blogging from his background as VP of Database Marketing at Nordstrom. Daily posts focus on profitability over vanity metrics. He created the MineThatData email dataset used in uplift modeling research.",
+    "summary": "This blog provides insights into email marketing analytics and customer development strategies, focusing on profitability. It is suitable for marketers and business professionals looking to enhance their understanding of data-driven marketing.",
     "use_cases": [
-      "When optimizing email marketing",
-      "When measuring customer development",
-      "When focusing on profitability"
+      "when to improve email marketing strategies",
+      "when analyzing customer behavior",
+      "when measuring catalog performance"
     ],
     "audience": [
+      "Junior-DS",
       "Mid-DS",
-      "Senior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "How to measure email marketing?",
-      "What is customer development?",
-      "Profitability vs vanity metrics?",
-      "MineThatData dataset?"
+      "What are the best practices for email marketing analytics?",
+      "How can I improve customer development strategies?",
+      "What metrics should I focus on for catalog measurement?",
+      "What insights can I gain from Kevin Hillstrom's blog?",
+      "How does profitability relate to email marketing?",
+      "What are the key takeaways from 20 years of blogging on marketing?",
+      "How can I apply database marketing techniques to my business?",
+      "What are the latest trends in growth and retention strategies?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "Email analytics",
-      "Customer development",
-      "Profitability measurement"
+      "understanding email marketing analytics",
+      "developing customer strategies",
+      "measuring catalog profitability"
     ]
   },
   {
@@ -17286,36 +17203,34 @@
       "Mobile"
     ],
     "domain": "Marketing",
-    "difficulty": "intermediate",
-    "prerequisites": [
-      "marketing-basics"
-    ],
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "subscription-analytics",
-      "mobile-subscriptions",
-      "retention",
-      "pricing"
+      "subscriptions",
+      "analytics"
     ],
-    "summary": "RevenueCat's Sub Club is the definitive resource for mobile subscription analytics. David Barnard's newsletter and podcast feature practitioners from Duolingo, Strava, and Lose It! sharing actual retention data and benchmarks.",
+    "summary": "This resource provides insights into mobile subscription analytics through a bi-weekly newsletter and podcast. It is aimed at practitioners and those interested in understanding retention data from successful companies.",
     "use_cases": [
-      "When benchmarking subscription metrics",
-      "When optimizing mobile subscriptions",
-      "When learning retention strategies"
+      "to learn about mobile subscription analytics",
+      "to understand retention strategies in tech"
     ],
     "audience": [
-      "Mid-DS",
-      "Senior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "What are good subscription retention rates?",
-      "How to benchmark mobile apps?",
-      "Subscription pricing strategies?"
+      "What is RevenueCat Sub Club?",
+      "How can I analyze mobile subscription data?",
+      "What are the best practices for subscription retention?",
+      "Who are the featured practitioners in the newsletter?",
+      "What insights can I gain from the podcast?",
+      "How does Duolingo handle subscription analytics?",
+      "What are effective strategies for mobile subscriptions?",
+      "How often is the newsletter published?"
     ],
     "content_format": "newsletter",
     "skill_progression": [
-      "Subscription metrics",
-      "Mobile app benchmarks",
-      "Retention optimization"
+      "understanding subscription models",
+      "analyzing retention data"
     ]
   },
   {
@@ -17331,31 +17246,29 @@
       "Newsletter"
     ],
     "domain": "Marketing",
-    "difficulty": "intermediate",
-    "prerequisites": [
-      "marketing-basics"
-    ],
+    "difficulty": "beginner|intermediate|advanced",
+    "prerequisites": [],
     "topic_tags": [
-      "marketing-strategy",
-      "attribution",
-      "personalization",
-      "loyalty-programs"
+      "marketing",
+      "strategy"
     ],
-    "summary": "Edward Nevraumont provides CMO-level strategic thinking that challenges conventional marketing wisdom. His 'Marketing 201' index serves as a virtual marketing textbook with skeptical takes on personalization, loyalty programs, and attribution.",
+    "summary": "This newsletter challenges conventional marketing wisdom and provides insights from an experienced marketing professional. It is suitable for anyone interested in enhancing their marketing knowledge and skills.",
     "use_cases": [
-      "When questioning marketing assumptions",
-      "When building marketing strategy",
-      "When evaluating personalization"
+      "when to stay updated on marketing trends",
+      "when seeking unconventional marketing strategies"
     ],
     "audience": [
-      "Mid-DS",
-      "Senior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "Does personalization work?",
-      "Are loyalty programs effective?",
-      "What's wrong with attribution?",
-      "Marketing strategy frameworks?"
+      "What are the latest trends in marketing?",
+      "How can I improve my marketing strategy?",
+      "What insights does Edward Nevraumont offer?",
+      "What are the benefits of subscribing to a marketing newsletter?",
+      "How does this newsletter compare to others?",
+      "What are the open rates of marketing newsletters?",
+      "What topics are covered in the Strategic Marketing Newsletter?",
+      "Who is Edward Nevraumont?"
     ],
     "content_format": "newsletter",
     "skill_progression": [
@@ -17378,35 +17291,38 @@
     ],
     "domain": "Marketing",
     "difficulty": "intermediate",
-    "prerequisites": [
-      "marketing-basics",
-      "data-basics"
-    ],
+    "prerequisites": [],
     "topic_tags": [
-      "marketing-data",
-      "attribution-vs-MMM",
-      "incrementality",
-      "data-infrastructure"
+      "data",
+      "marketing",
+      "incrementality-testing"
     ],
-    "summary": "The 021 Newsletter specifically bridges the gap between marketers and data teams. Covers when to use click attribution versus MMM, how to structure incrementality testing, and practical marketing data infrastructure challenges.",
+    "summary": "This newsletter discusses the intersection of marketing and data teams, focusing on click attribution vs MMM and incrementality testing. It is suitable for marketers and data professionals looking to enhance their understanding of marketing data infrastructure.",
     "use_cases": [
-      "When aligning marketing and data teams",
-      "When choosing measurement approaches",
-      "When building data infrastructure"
+      "understanding marketing data infrastructure",
+      "implementing incrementality testing",
+      "deciding between click attribution and MMM"
     ],
     "audience": [
-      "Mid-DS"
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
     ],
     "synthetic_questions": [
-      "When to use MMM vs attribution?",
-      "How to structure marketing data team?",
-      "Incrementality testing setup?"
+      "What is click attribution?",
+      "How to structure incrementality testing?",
+      "What is marketing data infrastructure?",
+      "When to use MMM?",
+      "How do marketers and data teams collaborate?",
+      "What are the best practices for data-driven marketing?",
+      "How to measure marketing effectiveness?",
+      "What skills are needed for marketing data analysis?"
     ],
     "content_format": "newsletter",
     "skill_progression": [
-      "Marketing-data alignment",
-      "Measurement approach selection",
-      "Infrastructure design"
+      "understanding of marketing data concepts",
+      "ability to apply incrementality testing",
+      "knowledge of click attribution vs MMM"
     ]
   },
   {
@@ -17422,30 +17338,21 @@
       "Newsletter"
     ],
     "domain": "Marketing",
-    "difficulty": "intermediate",
-    "prerequisites": [
-      "marketing-basics"
-    ],
-    "topic_tags": [
-      "B2B-marketing",
-      "marketing-frameworks",
-      "measurement",
-      "scaling"
-    ],
-    "summary": "Emily Kramer serves 45,000+ subscribers with B2B marketing measurement frameworks. Her 'Krameworks' templates provide operational structures for marketing measurement that scale.",
-    "use_cases": [
-      "When building B2B marketing measurement",
-      "When scaling marketing operations",
-      "When creating frameworks"
-    ],
-    "audience": [
-      "Mid-DS",
-      "Senior-DS"
-    ],
+    "difficulty": null,
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "This newsletter provides frameworks for B2B marketing and measurement, aimed at marketing professionals looking to enhance their strategies. It is particularly beneficial for those interested in insights from industry leaders.",
+    "use_cases": [],
+    "audience": [],
     "synthetic_questions": [
-      "B2B marketing measurement?",
-      "How to scale marketing ops?",
-      "Marketing framework templates?"
+      "What are the best B2B marketing frameworks?",
+      "How can I measure marketing effectiveness?",
+      "What templates are available for marketing measurement?",
+      "Who is Emily Kramer and what is her marketing philosophy?",
+      "What do subscribers say about MKT1 newsletter?",
+      "How does Lenny Rachitsky rate this newsletter?",
+      "What strategies are covered in B2B marketing?",
+      "How to apply frameworks in real-world marketing scenarios?"
     ],
     "content_format": "newsletter",
     "skill_progression": [
@@ -17468,30 +17375,25 @@
     ],
     "domain": "Marketing",
     "difficulty": "intermediate",
-    "prerequisites": [
-      "marketing-basics"
-    ],
+    "prerequisites": [],
     "topic_tags": [
-      "brand-science",
-      "empirical-laws",
-      "Double-Jeopardy",
-      "evidence-based-marketing"
+      "marketing-science",
+      "brand-loyalty"
     ],
-    "summary": "Byron Sharp's book 'How Brands Grow' established empirical laws that challenge popular myths about brand loyalty and personalization. His evidence-based approach provides the intellectual foundation for questioning conventional marketing wisdom.",
-    "use_cases": [
-      "When questioning brand marketing myths",
-      "When building evidence-based strategy",
-      "When challenging personalization claims"
-    ],
+    "summary": "This resource discusses empirical laws in marketing that challenge common myths about brand loyalty. It is aimed at individuals interested in evidence-based marketing practices.",
+    "use_cases": [],
     "audience": [
-      "Mid-DS",
-      "Senior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "What is Double Jeopardy law?",
-      "Does brand loyalty exist?",
-      "Evidence-based marketing?",
-      "Marketing science foundations?"
+      "What are the empirical laws established by Byron Sharp?",
+      "How does Double Jeopardy relate to brand loyalty?",
+      "What is the Duplication of Purchase principle?",
+      "Why is evidence-based marketing important?",
+      "Who is Byron Sharp and what are his contributions?",
+      "What critiques does Byron Sharp have regarding marketing pseudoscience?",
+      "How can marketers apply the findings from the Ehrenberg-Bass Institute?",
+      "What are common myths about brand loyalty?"
     ],
     "content_format": "blog",
     "skill_progression": [
@@ -17513,38 +17415,35 @@
       "Research"
     ],
     "domain": "Marketing",
-    "difficulty": "advanced",
-    "prerequisites": [
-      "statistics",
-      "experimentation-basics"
-    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "p-hacking",
-      "false-discovery",
-      "A/B-testing",
-      "experimentation-pitfalls"
+      "marketing",
+      "experimentation",
+      "statistics"
     ],
-    "summary": "Ron Berman addresses methodological pitfalls tech companies face daily. His paper 'p-Hacking and False Discovery in A/B Testing' (MSI Working Paper Competition winner) demonstrates how common practices inflate false positives.",
+    "summary": "This resource explores the concept of p-hacking in A/B testing, highlighting how common practices can lead to inflated false positives in marketing experiments. It is suitable for individuals interested in understanding the implications of statistical practices in marketing science.",
     "use_cases": [
-      "When designing robust experiments",
-      "When questioning A/B test results",
-      "When building experimentation rigor"
+      "to understand the impact of statistical practices on marketing experiments"
     ],
     "audience": [
-      "Senior-DS",
-      "Early-PhD"
+      "Curious-browser"
     ],
     "synthetic_questions": [
       "What is p-hacking?",
-      "How to avoid false discoveries?",
-      "A/B testing pitfalls?",
-      "Experimentation best practices?"
+      "How does p-hacking affect A/B testing?",
+      "What are the implications of false positives in marketing?",
+      "Who is Ron Berman?",
+      "What is the significance of the paper 'p-Hacking and False Discovery in A/B Testing'?",
+      "How can I avoid p-hacking in my experiments?",
+      "What are common practices in A/B testing?",
+      "Why is understanding p-hacking important for marketers?"
     ],
-    "content_format": "academic",
+    "content_format": "article",
     "skill_progression": [
-      "Experimentation rigor",
-      "Statistical pitfalls",
-      "Best practices"
+      "understanding of p-hacking",
+      "awareness of false discovery rates",
+      "insight into marketing experiment design"
     ]
   },
   {
@@ -17560,32 +17459,30 @@
       "Industry"
     ],
     "domain": "Marketing",
-    "difficulty": "intermediate",
-    "prerequisites": [
-      "marketing-basics"
-    ],
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "marketing-science",
-      "academic-industry-bridge",
-      "MMM",
-      "experimentation"
+      "marketing-science"
     ],
-    "summary": "Koen Pauwels bridges academic marketing science and industry practice more actively than perhaps any other researcher. His books span practitioner and academic audiences, and his work with Julian Runge challenges overreliance on observational methods.",
+    "summary": "This resource provides insights into the intersection of academic marketing science and industry practice, featuring a newsletter that bridges theory and application. It is suitable for those interested in marketing metrics and industry insights.",
     "use_cases": [
-      "When connecting research to practice",
-      "When seeking academic validation",
-      "When building rigorous measurement"
+      "to understand the relationship between marketing science and industry",
+      "to gain insights from a leading expert in the field"
     ],
     "audience": [
-      "Senior-DS",
-      "Early-PhD"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "Academic marketing science resources?",
-      "How to apply research in practice?",
-      "Marketing measurement validation?"
+      "What is marketing science?",
+      "How do metrics impact marketing?",
+      "What insights can I gain from Koen Pauwels' newsletter?",
+      "Who is Koen Pauwels?",
+      "What is the role of an Editor-in-Chief in marketing?",
+      "How does academic research influence industry practices?",
+      "What are the latest trends in marketing science?",
+      "How can I apply marketing metrics in my business?"
     ],
-    "content_format": "blog",
+    "content_format": "newsletter",
     "skill_progression": [
       "Academic-industry translation",
       "Research application",
@@ -17605,35 +17502,34 @@
       "Essay"
     ],
     "domain": "Marketing",
-    "difficulty": "beginner",
+    "difficulty": "intermediate",
     "prerequisites": [],
     "topic_tags": [
       "advertising-theory",
-      "cultural-imprinting",
-      "brand-vs-performance",
-      "ad-effectiveness"
+      "marketing-science"
     ],
-    "summary": "Kevin Simler's essay 'Ads Don't Work That Way' distinguishes cultural imprinting from emotional inception. Essential context for understanding why broadcast advertising works differently than targeted digital in brand vs performance debates.",
+    "summary": "This resource explores essential advertising theory, focusing on the differences between cultural imprinting and emotional inception in advertising. It is suitable for those interested in understanding the nuances of broadcast versus targeted digital advertising.",
     "use_cases": [
-      "When understanding advertising theory",
-      "When debating brand vs performance",
-      "When explaining ad effectiveness"
+      "to understand the fundamentals of advertising theory",
+      "to differentiate between types of advertising strategies"
     ],
     "audience": [
-      "Curious-browser",
-      "Junior-DS",
-      "Mid-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "How does advertising work?",
-      "What is cultural imprinting?",
-      "Brand vs performance advertising?"
+      "What is cultural imprinting in advertising?",
+      "How does broadcast advertising differ from targeted digital ads?",
+      "What are the key theories in advertising?",
+      "Why do ads work differently in various formats?",
+      "What is emotional inception in marketing?",
+      "How can I apply advertising theory to my campaigns?",
+      "What are the implications of advertising theory for marketers?",
+      "What should I know about marketing science?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "Advertising theory",
-      "Brand understanding",
-      "Ad mechanism knowledge"
+      "understanding advertising theory",
+      "analyzing different advertising strategies"
     ]
   },
   {
@@ -17649,36 +17545,34 @@
       "Privacy"
     ],
     "domain": "Marketing",
-    "difficulty": "intermediate",
-    "prerequisites": [
-      "marketing-basics"
-    ],
+    "difficulty": "beginner",
+    "prerequisites": [],
     "topic_tags": [
-      "SKAdNetwork",
       "mobile-attribution",
-      "privacy-sandbox",
-      "AdAttributionKit"
+      "privacy"
     ],
-    "summary": "Adjust maintains the most current implementation guidance for SKAdNetwork, AdAttributionKit, and Privacy Sandbox. Essential for mobile marketers navigating privacy changes.",
+    "summary": "This resource provides guidance on mobile measurement and privacy practices, specifically focusing on SKAdNetwork and AdAttributionKit. It is suitable for marketers and developers interested in mobile advertising.",
     "use_cases": [
-      "When implementing SKAdNetwork",
-      "When understanding mobile privacy",
-      "When building attribution systems"
+      "When implementing mobile measurement solutions",
+      "When considering privacy in mobile advertising"
     ],
     "audience": [
-      "Mid-DS",
-      "Senior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "How to implement SKAdNetwork?",
+      "What is mobile attribution?",
+      "How does SKAdNetwork work?",
       "What is AdAttributionKit?",
-      "Mobile privacy sandbox?"
+      "What are the best practices for mobile privacy?",
+      "How to implement privacy measures in mobile ads?",
+      "What is the Privacy Sandbox?",
+      "Why is mobile attribution important?",
+      "How to measure mobile ad effectiveness?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "Mobile attribution",
-      "Privacy implementation",
-      "Platform compliance"
+      "Understanding mobile attribution",
+      "Implementing privacy measures in mobile ads"
     ]
   },
   {
@@ -17694,36 +17588,34 @@
       "Privacy"
     ],
     "domain": "Marketing",
-    "difficulty": "intermediate",
-    "prerequisites": [
-      "marketing-basics"
-    ],
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "aggregate-data",
-      "privacy-centric",
-      "mobile-measurement",
-      "deep-linking"
+      "privacy",
+      "data-aggregation"
     ],
-    "summary": "Branch's post 'Making sense of aggregate data: Privacy-centric measurement' and related resources are valuable for understanding the shift to privacy-preserving measurement.",
+    "summary": "This resource provides insights into privacy-centric measurement and mobile attribution. It is suitable for individuals interested in understanding aggregate data and its implications in advertising.",
     "use_cases": [
-      "When working with aggregate data",
-      "When building privacy-first measurement",
-      "When understanding deep linking"
+      "when to understand privacy in mobile advertising",
+      "when to analyze aggregate data"
     ],
     "audience": [
-      "Mid-DS",
-      "Senior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "How to use aggregate attribution data?",
-      "Privacy-centric measurement?",
-      "Deep linking analytics?"
+      "What is privacy-centric measurement?",
+      "How does mobile attribution work?",
+      "What are the best practices for aggregate data analysis?",
+      "Why is privacy important in advertising?",
+      "How can I implement privacy-centric measurement?",
+      "What tools are available for mobile attribution?",
+      "What challenges exist in privacy-centric data analysis?",
+      "How can I improve my understanding of ads and attribution?"
     ],
     "content_format": "blog",
     "skill_progression": [
-      "Aggregate data analysis",
-      "Privacy-first measurement",
-      "Deep linking"
+      "understanding of privacy in data measurement",
+      "knowledge of mobile attribution techniques"
     ]
   },
   {
@@ -17739,36 +17631,35 @@
       "Privacy"
     ],
     "domain": "Marketing",
-    "difficulty": "intermediate",
-    "prerequisites": [
-      "marketing-basics"
-    ],
+    "difficulty": "beginner",
+    "prerequisites": [],
     "topic_tags": [
-      "privacy-sandbox",
-      "iOS-vs-Android",
-      "cross-platform",
-      "mobile-attribution"
+      "privacy",
+      "mobile",
+      "ads"
     ],
-    "summary": "AppsFlyer's Privacy Sandbox Hub compares iOS and Android privacy frameworks comprehensively. Essential for mobile marketers working across platforms.",
+    "summary": "This resource provides a comprehensive comparison of iOS and Android privacy frameworks, essential for understanding cross-platform privacy measurement approaches. It is designed for individuals interested in mobile advertising and privacy.",
     "use_cases": [
-      "When comparing iOS and Android privacy",
-      "When building cross-platform measurement",
-      "When understanding Privacy Sandbox"
+      "When comparing privacy frameworks for mobile advertising",
+      "When needing to understand cross-platform privacy measurement"
     ],
     "audience": [
-      "Mid-DS",
-      "Senior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "iOS vs Android privacy differences?",
-      "Privacy Sandbox implementation?",
-      "Cross-platform attribution?"
+      "What are the differences between iOS and Android privacy frameworks?",
+      "How can I measure privacy across platforms?",
+      "What is the Privacy Sandbox?",
+      "Why is understanding privacy measurement important for ads?",
+      "What resources are available for learning about mobile privacy?",
+      "How do privacy frameworks impact advertising strategies?",
+      "What tools can help in cross-platform privacy measurement?",
+      "Where can I find more information on mobile ads and privacy?"
     ],
-    "content_format": "resource-hub",
+    "content_format": "resource hub",
     "skill_progression": [
-      "Cross-platform privacy",
-      "Platform comparison",
-      "Attribution systems"
+      "Understanding of privacy frameworks",
+      "Knowledge of mobile advertising strategies"
     ]
   },
   {
@@ -17785,35 +17676,34 @@
     ],
     "domain": "Marketing",
     "difficulty": "intermediate",
-    "prerequisites": [
-      "advertising-basics"
-    ],
+    "prerequisites": [],
     "topic_tags": [
-      "attention-metrics",
-      "viewability",
-      "ad-effectiveness",
-      "brand-measurement"
+      "ads",
+      "attribution",
+      "attention metrics"
     ],
-    "summary": "Lumen Research leads thinking on attention metrics as viewability's evolution. Their research shows attention is 3x better at predicting outcomes than viewability\u2014essential for brand measurement.",
+    "summary": "This resource explores the evolution of viewability through attention metrics, demonstrating that attention is a more effective predictor of outcomes. It is suitable for those interested in understanding the latest research in advertising metrics.",
     "use_cases": [
-      "When measuring attention",
-      "When evaluating viewability alternatives",
-      "When building brand metrics"
+      "when to evaluate advertising effectiveness",
+      "when to understand metrics in digital marketing"
     ],
     "audience": [
-      "Mid-DS",
-      "Senior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
       "What are attention metrics?",
-      "Attention vs viewability?",
-      "How to measure ad attention?"
+      "How does attention compare to viewability?",
+      "What research exists on attention metrics?",
+      "Why are attention metrics important in advertising?",
+      "How can I apply attention metrics?",
+      "What outcomes can attention metrics predict?",
+      "What is the evolution of viewability?",
+      "Who conducts research on attention metrics?"
     ],
-    "content_format": "blog",
+    "content_format": "article",
     "skill_progression": [
-      "Attention measurement",
-      "Brand metrics",
-      "Viewability evolution"
+      "understanding of attention metrics",
+      "knowledge of advertising research"
     ]
   },
   {
@@ -17831,35 +17721,38 @@
     "domain": "Statistics",
     "difficulty": "intermediate",
     "prerequisites": [
-      "python-basics",
-      "statistics-basics"
+      "python-basics"
     ],
     "topic_tags": [
       "causal-inference",
-      "synthetic-control",
-      "DiD",
-      "Python-implementation"
+      "machine-learning"
     ],
-    "summary": "Matheus Facure's free resource provides comprehensive Python-based coverage of synthetic control, difference-in-differences, and other methods central to marketing science.",
+    "summary": "This resource provides a comprehensive understanding of causal methods such as synthetic control and difference-in-differences, primarily using Python. It is aimed at individuals looking to deepen their knowledge in marketing science and causal inference.",
     "use_cases": [
-      "When learning causal inference with Python",
-      "When implementing synthetic control",
-      "When understanding DiD"
+      "When to apply synthetic control",
+      "When to use difference-in-differences",
+      "Analyzing marketing strategies",
+      "Evaluating causal relationships in data"
     ],
     "audience": [
       "Junior-DS",
-      "Mid-DS"
+      "Mid-DS",
+      "Senior-DS"
     ],
     "synthetic_questions": [
-      "How to implement causal inference in Python?",
-      "Synthetic control tutorial?",
-      "Difference-in-differences examples?"
+      "What is synthetic control?",
+      "How does difference-in-differences work?",
+      "What are causal methods in marketing science?",
+      "How can Python be used for causal inference?",
+      "What are the applications of causal inference?",
+      "What are the challenges in causal analysis?",
+      "How to implement causal methods in Python?",
+      "What resources are available for learning causal inference?"
     ],
     "content_format": "book",
     "skill_progression": [
-      "Causal inference foundations",
-      "Python implementation",
-      "Method comparison"
+      "Understanding of causal inference methods",
+      "Proficiency in Python for data analysis"
     ]
   },
   {
@@ -17876,36 +17769,34 @@
     ],
     "domain": "Statistics",
     "difficulty": "intermediate",
-    "prerequisites": [
-      "statistics-basics",
-      "econometrics-basics"
-    ],
+    "prerequisites": [],
     "topic_tags": [
       "causal-inference",
-      "econometrics",
-      "RCT",
-      "quasi-experiments"
+      "economics"
     ],
-    "summary": "Scott Cunningham's 'Causal Inference: The Mixtape' offers academic-quality but accessible methodology. His Substack and podcast feature interviews with leading researchers applying these methods.",
+    "summary": "This resource provides an academic-quality yet accessible methodology for understanding causal methods essential for marketing measurement. It is suitable for those looking to deepen their understanding of causal inference in the context of economics and marketing.",
     "use_cases": [
-      "When building causal inference foundations",
-      "When learning econometric methods",
-      "When connecting to research"
+      "When you need to understand causal relationships in marketing data"
     ],
     "audience": [
+      "Junior-DS",
       "Mid-DS",
-      "Early-PhD"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "Best causal inference textbook?",
-      "Econometrics for data scientists?",
-      "Quasi-experimental methods?"
+      "What is causal inference?",
+      "How can causal methods improve marketing measurement?",
+      "What are the key methodologies in causal inference?",
+      "Who is Scott Cunningham?",
+      "What topics are covered in Causal Inference: The Mixtape?",
+      "How accessible is this resource for beginners?",
+      "What are the applications of causal inference in economics?",
+      "Where can I find tutorials on causal inference?"
     ],
     "content_format": "book",
     "skill_progression": [
-      "Causal foundations",
-      "Econometric methods",
-      "Research connection"
+      "Understanding causal methods",
+      "Applying causal inference in marketing"
     ]
   },
   {
@@ -17921,36 +17812,36 @@
       "Newsletter"
     ],
     "domain": "Statistics",
-    "difficulty": "intermediate",
-    "prerequisites": [
-      "statistics-basics"
-    ],
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
     "topic_tags": [
       "causal-inference",
-      "researcher-interviews",
-      "academic-practice"
+      "machine-learning"
     ],
-    "summary": "Scott Cunningham's Substack and podcast 'The Mixtape with Scott' feature interviews with leading researchers applying causal inference methods, bridging academic research and practical application.",
+    "summary": "This resource features interviews with leading causal inference researchers, bridging academic methods with practical applications. It is suitable for those interested in learning about causal inference and its real-world applications.",
     "use_cases": [
-      "When staying current on causal methods",
-      "When learning from researchers",
-      "When connecting to academic work"
+      "When to apply causal inference methods",
+      "Understanding practical applications of causal inference"
     ],
     "audience": [
-      "Mid-DS",
-      "Senior-DS",
-      "Early-PhD"
+      "Early-PhD",
+      "Junior-DS",
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "Causal inference podcasts?",
-      "Research interviews on methods?",
-      "Academic-practice bridge?"
+      "What is causal inference?",
+      "How can I apply causal inference in practice?",
+      "What are the latest trends in causal inference research?",
+      "Who are the leading researchers in causal inference?",
+      "What is the Mixtape podcast about?",
+      "How does causal inference relate to machine learning?",
+      "What skills can I gain from learning about causal inference?",
+      "Where can I find resources on causal inference?"
     ],
     "content_format": "newsletter",
     "skill_progression": [
-      "Research awareness",
-      "Method updates",
-      "Academic connection"
+      "Understanding causal inference concepts",
+      "Applying causal inference methods in real-world scenarios"
     ]
   },
   {
@@ -17966,7 +17857,38 @@
       "Multi-Sport"
     ],
     "level": "Medium",
-    "domain": "Sports Analytics"
+    "domain": "Sports Analytics",
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [
+      "python-basics"
+    ],
+    "topic_tags": [
+      "sports-analytics",
+      "machine-learning"
+    ],
+    "summary": "This specialization covers the foundations of sports analytics through to machine learning, utilizing real data from various major leagues. It is designed for individuals interested in applying analytical techniques to sports data.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is sports performance analytics?",
+      "How can machine learning be applied in sports?",
+      "What data is used in sports analytics?",
+      "Who teaches the Sports Performance Analytics Specialization?",
+      "What sports are covered in this course?",
+      "What skills will I gain from this specialization?",
+      "Is this course suitable for beginners?",
+      "What universities offer sports analytics courses?"
+    ],
+    "use_cases": [
+      "when to analyze sports performance",
+      "when to apply machine learning in sports"
+    ],
+    "content_format": "course",
+    "skill_progression": [
+      "data analysis in sports",
+      "machine learning applications in sports"
+    ]
   },
   {
     "name": "FanGraphs Sabermetrics Library",
@@ -17981,7 +17903,36 @@
       "Reference"
     ],
     "level": "Easy",
-    "domain": "Sports Analytics"
+    "domain": "Sports Analytics",
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "statistics",
+      "sports analytics"
+    ],
+    "summary": "The FanGraphs Sabermetrics Library is a comprehensive resource for understanding advanced baseball statistics and analytics. It is designed for anyone interested in learning about modern baseball metrics.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is WAR in baseball?",
+      "How is wOBA calculated?",
+      "What does FIP stand for?",
+      "What are advanced baseball metrics?",
+      "How can I learn sabermetrics?",
+      "Where can I find baseball analytics resources?",
+      "What is the importance of statistics in baseball?",
+      "How do I analyze baseball performance using data?"
+    ],
+    "use_cases": [
+      "when to understand modern baseball statistics",
+      "when to learn about baseball analytics"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "understanding of advanced baseball metrics",
+      "ability to analyze baseball performance"
+    ]
   },
   {
     "name": "Swiss Association of Actuaries Tutorials",
@@ -17996,7 +17947,41 @@
       "ETH Zurich"
     ],
     "level": "Medium",
-    "domain": "Insurance & Actuarial"
+    "domain": "Insurance & Actuarial",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python-basics"
+    ],
+    "topic_tags": [
+      "machine-learning",
+      "actuarial-methods"
+    ],
+    "summary": "This resource provides professional tutorials on modern actuarial methods, focusing on machine learning applications in pricing, telematics, and reserving. It is suitable for actuaries and data scientists looking to enhance their skills in these areas.",
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What are modern actuarial methods?",
+      "How is machine learning applied in insurance?",
+      "What tutorials are available for pricing in insurance?",
+      "What is telematics in the context of actuarial science?",
+      "How can I learn about reserving techniques?",
+      "Who created the Swiss Association of Actuaries Tutorials?",
+      "What skills can I gain from these tutorials?",
+      "Are there tutorials for beginners in actuarial science?"
+    ],
+    "use_cases": [
+      "when to learn modern actuarial methods",
+      "when to apply machine learning in pricing"
+    ],
+    "content_format": "tutorial",
+    "skill_progression": [
+      "machine learning for pricing",
+      "telematics applications",
+      "reserving techniques"
+    ]
   },
   {
     "name": "Great Learning Insurance Analytics Course",
@@ -18011,7 +17996,43 @@
       "Claims Prediction"
     ],
     "level": "Easy",
-    "domain": "Insurance & Actuarial"
+    "domain": "Insurance & Actuarial",
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [
+      "python-basics"
+    ],
+    "topic_tags": [
+      "insurance-analytics",
+      "customer-segmentation",
+      "claims-prediction",
+      "fraud-detection"
+    ],
+    "summary": "This course covers the fundamentals of insurance analytics, including customer segmentation, claims prediction, and fraud detection using Python implementations. It is designed for individuals interested in understanding insurance analytics and applying these concepts in practice.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is insurance analytics?",
+      "How can Python be used in claims prediction?",
+      "What are the fundamentals of customer segmentation?",
+      "What techniques are used for fraud detection?",
+      "Is there a free course on insurance analytics?",
+      "What skills will I gain from the Great Learning Insurance Analytics Course?",
+      "Who should take the insurance analytics course?",
+      "What topics are covered in the course?"
+    ],
+    "use_cases": [
+      "When learning about insurance analytics fundamentals",
+      "When seeking to understand claims prediction",
+      "When interested in fraud detection techniques"
+    ],
+    "content_format": "course",
+    "skill_progression": [
+      "customer segmentation",
+      "claims prediction",
+      "fraud detection",
+      "Python programming"
+    ]
   },
   {
     "name": "Coaching Actuaries",
@@ -18026,7 +18047,34 @@
       "CAS"
     ],
     "level": "Medium",
-    "domain": "Insurance & Actuarial"
+    "domain": "Insurance & Actuarial",
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "Coaching Actuaries is a premium exam preparation platform designed for individuals preparing for SOA and CAS actuarial exams. It offers practice problems, video lessons, and adaptive learning tailored for aspiring actuaries.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is Coaching Actuaries?",
+      "How can I prepare for SOA exams?",
+      "What resources are available for CAS actuarial exams?",
+      "Are there practice problems for actuarial exams?",
+      "What type of learning does Coaching Actuaries provide?",
+      "Is Coaching Actuaries suitable for beginners?",
+      "What are the benefits of using Coaching Actuaries?",
+      "How does adaptive learning work in Coaching Actuaries?"
+    ],
+    "use_cases": [
+      "When preparing for SOA and CAS actuarial exams",
+      "For practice problems and video lessons in actuarial science"
+    ],
+    "content_format": "platform",
+    "skill_progression": [
+      "Understanding of actuarial concepts",
+      "Problem-solving skills for actuarial exams",
+      "Familiarity with exam formats and types of questions"
+    ]
   },
   {
     "name": "Freakonometrics Blog",
@@ -18041,7 +18089,42 @@
       "Machine Learning"
     ],
     "level": "Medium",
-    "domain": "Insurance & Actuarial"
+    "domain": "Insurance & Actuarial",
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "actuarial-science",
+      "machine-learning",
+      "R-programming",
+      "insurance-pricing",
+      "claims-modeling",
+      "statistical-methods"
+    ],
+    "summary": "Freakonometrics Blog offers rich tutorials on actuarial science, machine learning, and R programming. It is suitable for those interested in insurance pricing and statistical methods.",
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is actuarial science?",
+      "How to use R for machine learning?",
+      "What are the best practices in insurance pricing?",
+      "How to model claims effectively?",
+      "What statistical methods are used in actuarial science?",
+      "Where can I find tutorials on R programming?",
+      "What is the role of machine learning in insurance?",
+      "How to analyze data in R?"
+    ],
+    "use_cases": [
+      "when to learn about actuarial science",
+      "when to improve skills in R programming",
+      "when to understand machine learning applications in insurance"
+    ],
+    "content_format": "blog",
+    "skill_progression": [
+      "understanding of actuarial science",
+      "proficiency in R programming",
+      "knowledge of machine learning techniques"
+    ]
   },
   {
     "name": "MIT OCW: Transportation Systems Analysis",
@@ -18059,36 +18142,39 @@
     ],
     "domain": "Transportation",
     "difficulty": "advanced",
-    "prerequisites": [
-      "microeconomics",
-      "statistics"
-    ],
+    "prerequisites": [],
     "topic_tags": [
       "transportation",
-      "discrete-choice",
-      "demand-modeling"
+      "demand modeling",
+      "traffic flow",
+      "transit planning"
     ],
-    "summary": "This MIT OpenCourseWare class covers transportation demand modeling, network analysis, and intelligent transportation systems. Taught by leading transportation economists with full lecture notes and problem sets.",
+    "summary": "This course covers advanced topics in transportation systems analysis, focusing on demand modeling and intelligent transportation systems. It is designed for graduate students and professionals interested in transportation economics and technology.",
     "use_cases": [
-      "Graduate study",
-      "Self-directed learning",
-      "Research preparation"
+      "To understand demand modeling in transportation",
+      "For advanced studies in transportation economics",
+      "When exploring intelligent transportation systems"
     ],
     "audience": [
-      "Senior-DS",
-      "PhD"
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
     ],
     "synthetic_questions": [
-      "MIT transportation course",
-      "free transportation economics course",
-      "demand modeling course",
-      "OCW transportation"
+      "What is demand modeling in transportation?",
+      "How does traffic flow theory apply to urban planning?",
+      "What are intelligent transportation systems?",
+      "What skills are needed for transit planning?",
+      "How can discrete choice theory be applied in transportation?",
+      "What are the key concepts in transportation economics?",
+      "What are the benefits of studying transportation systems analysis?",
+      "Where can I find free transportation courses?"
     ],
     "content_format": "course",
     "skill_progression": [
-      "demand modeling basics",
-      "network optimization",
-      "ITS applications"
+      "Advanced understanding of transportation systems",
+      "Ability to analyze traffic flow",
+      "Skills in demand modeling and transit planning"
     ]
   },
   {
@@ -18106,39 +18192,27 @@
       "Certificate"
     ],
     "domain": "Transportation",
-    "difficulty": "advanced",
-    "prerequisites": [
-      "linear algebra",
-      "optimization"
-    ],
-    "topic_tags": [
-      "transportation",
-      "networks",
-      "traffic-flow",
-      "optimization"
-    ],
-    "summary": "This edX MicroMasters course covers traffic flow theory, network equilibrium, and simulation methods. Earn a certificate while learning from MIT faculty.",
-    "use_cases": [
-      "Professional development",
-      "Career advancement",
-      "Research skills"
-    ],
-    "audience": [
-      "Mid-DS",
-      "Senior-DS",
-      "PhD"
-    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "This course covers network modeling, traffic assignment, and transportation optimization, providing a comprehensive foundation in transportation network analysis. It is designed for individuals interested in transportation economics and technology.",
+    "use_cases": [],
+    "audience": [],
     "synthetic_questions": [
-      "MIT edX transportation",
-      "traffic flow course",
-      "network equilibrium online course",
-      "transportation certificate"
+      "What is transportation network analysis?",
+      "How does traffic assignment work?",
+      "What are the key concepts in transportation optimization?",
+      "Who offers the Foundations of Transportation Network Analysis course?",
+      "What skills can I gain from the MIT MicroMasters program?",
+      "How can I apply network modeling in real-world scenarios?",
+      "What is included in the Transportation specialization on edX?",
+      "Is there a certificate available for this course?"
     ],
     "content_format": "course",
     "skill_progression": [
-      "traffic flow fundamentals",
-      "network equilibrium",
-      "simulation methods"
+      "network modeling",
+      "traffic assignment",
+      "transportation optimization"
     ]
   },
   {
@@ -18155,31 +18229,27 @@
       "Directory"
     ],
     "domain": "Transportation",
-    "difficulty": "beginner",
+    "difficulty": null,
     "prerequisites": [],
     "topic_tags": [
-      "transportation",
-      "education",
-      "online-learning"
+      "Transportation"
     ],
-    "summary": "Class Central aggregates transportation courses from Coursera, edX, Udacity, and other platforms. Find courses on logistics, urban planning, sustainable transport, and more.",
+    "summary": "This resource provides an aggregated list of online transportation courses from universities worldwide, allowing users to filter by level, platform, and topic. It is suitable for anyone interested in learning about transportation economics and technology.",
     "use_cases": [
-      "Finding courses",
-      "Comparing options",
-      "Self-directed learning"
+      "Finding online courses in transportation economics and technology"
     ],
     "audience": [
-      "Junior-DS",
-      "Mid-DS",
       "Curious-browser"
     ],
     "synthetic_questions": [
-      "transportation online courses",
-      "best transport MOOC",
-      "free transportation classes",
-      "logistics courses online"
+      "What online transportation courses are available?",
+      "How can I filter transportation courses by level?",
+      "What platforms offer transportation courses?",
+      "Are there beginner transportation courses?",
+      "Where can I find university transportation courses?",
+      "What topics are covered in transportation courses?"
     ],
-    "content_format": "aggregator",
+    "content_format": "course",
     "skill_progression": [
       "finding courses",
       "comparing platforms",
@@ -18201,37 +18271,36 @@
       "Free"
     ],
     "domain": "Healthcare Economics",
-    "difficulty": "intermediate",
-    "prerequisites": [
-      "basic economics"
-    ],
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "health-economics",
-      "microeconomics",
-      "policy"
+      "healthcare",
+      "economics"
     ],
-    "summary": "Gruber's microeconomics course provides excellent healthcare economics coverage including insurance markets, moral hazard, and the ACA. Gruber was key architect of Massachusetts Romneycare and the ACA.",
+    "summary": "This course covers key concepts in healthcare economics, including the Affordable Care Act, moral hazard, and market failures. It is suitable for anyone interested in understanding the economic principles that govern healthcare.",
     "use_cases": [
-      "Healthcare economics foundations",
-      "Policy understanding",
-      "Self-study"
+      "to understand healthcare economics",
+      "to learn about the ACA",
+      "to explore moral hazard and adverse selection"
     ],
     "audience": [
-      "Junior-DS",
-      "Mid-DS",
       "Curious-browser"
     ],
     "synthetic_questions": [
-      "healthcare economics course free",
-      "Gruber MIT course",
-      "health insurance economics",
-      "ACA economics"
+      "What is the ACA?",
+      "How does moral hazard affect healthcare?",
+      "What are healthcare market failures?",
+      "What is adverse selection in health insurance?",
+      "How can economics inform healthcare policy?",
+      "What are the key concepts in healthcare economics?",
+      "Where can I find free economics courses?",
+      "What resources are available for learning about healthcare economics?"
     ],
     "content_format": "course",
     "skill_progression": [
-      "market fundamentals",
-      "insurance economics",
-      "policy analysis"
+      "understanding of healthcare economics",
+      "knowledge of the ACA",
+      "insight into market failures in healthcare"
     ]
   },
   {
@@ -18248,36 +18317,37 @@
       "Certificate"
     ],
     "domain": "Healthcare Economics",
-    "difficulty": "intermediate",
-    "prerequisites": [
-      "basic economics"
-    ],
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "health-economics",
-      "healthcare-delivery",
-      "policy"
+      "healthcare-economics",
+      "insurance-economics",
+      "value-based-care"
     ],
-    "summary": "Led by Ezekiel Emanuel (former Obama health policy advisor), this course covers the economics of healthcare delivery with focus on insurance, providers, and value-based care models.",
+    "summary": "This course covers the economics of health care delivery, focusing on insurance economics, physician and hospital economics, and value-based care. It is suitable for individuals interested in understanding the financial aspects of healthcare.",
     "use_cases": [
-      "Healthcare economics introduction",
-      "Industry understanding",
-      "Career transition"
+      "to understand healthcare economics",
+      "to learn about insurance and hospital economics",
+      "to explore value-based care models"
     ],
     "audience": [
-      "Junior-DS",
-      "Mid-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "healthcare economics Coursera",
-      "Ezekiel Emanuel course",
-      "healthcare delivery economics",
-      "health policy course"
+      "What is the economics of health care delivery?",
+      "How does insurance economics work?",
+      "What are the principles of value-based care?",
+      "Who teaches the Coursera course on healthcare economics?",
+      "What will I learn in the UPenn healthcare course?",
+      "Is there a certificate available for this course?",
+      "What topics are covered in the healthcare economics course?",
+      "Who are the instructors of the course?"
     ],
     "content_format": "course",
     "skill_progression": [
-      "healthcare system basics",
-      "insurance economics",
-      "value-based care"
+      "understanding of healthcare delivery economics",
+      "knowledge of insurance and hospital economics",
+      "insight into value-based care"
     ]
   },
   {
@@ -18294,37 +18364,33 @@
       "Guide"
     ],
     "domain": "Healthcare Economics",
-    "difficulty": "intermediate",
-    "prerequisites": [
-      "R basics",
-      "health economics"
-    ],
+    "difficulty": "beginner",
+    "prerequisites": [],
     "topic_tags": [
       "health-economics",
-      "r-packages",
-      "tools"
+      "R-packages"
     ],
-    "summary": "SHEPRD helps health economists navigate the R package ecosystem. Provides structured guidance on selecting appropriate tools for cost-effectiveness analysis, survival modeling, and decision modeling.",
+    "summary": "This resource provides curated guidance on selecting appropriate R packages for health economics, including tools like hesim and heemod. It is designed for individuals interested in health economic decision science.",
     "use_cases": [
-      "Package selection",
-      "Learning R for HE",
-      "Tool comparison"
+      "when to choose R packages for health economic analysis"
     ],
     "audience": [
-      "Mid-DS",
-      "Senior-DS"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "health economics R packages",
-      "SHEPRD guide",
-      "which R package CEA",
-      "cost-effectiveness R tools"
+      "What are the best R packages for health economics?",
+      "How to choose R packages for health economic analysis?",
+      "What is hesim in health economics?",
+      "How to use heemod for decision modeling?",
+      "What tools are available for health economic decision science?",
+      "What is BCEA and how is it used?",
+      "How can survHE assist in health economics?",
+      "Where to find guidance on R packages for health economics?"
     ],
-    "content_format": "guide",
+    "content_format": "resource guide",
     "skill_progression": [
-      "package overview",
-      "tool selection",
-      "workflow design"
+      "understanding of health economic decision science tools",
+      "ability to select appropriate R packages for analysis"
     ]
   },
   {
@@ -18342,36 +18408,34 @@
       "Free"
     ],
     "domain": "Energy Economics",
-    "difficulty": "advanced",
-    "prerequisites": [
-      "microeconomics"
-    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "energy",
-      "economics",
-      "electricity"
+      "energy-markets",
+      "environmental-economics"
     ],
-    "summary": "Joskow's MIT course provides graduate-level coverage of energy economics including electricity markets, oil/gas, and environmental policy. Full lecture notes available free.",
+    "summary": "This course provides theoretical and empirical perspectives on energy markets, focusing on electricity, oil, gas, and environmental economics. It is suitable for students and professionals interested in understanding the complexities of energy economics.",
     "use_cases": [
-      "Graduate study",
-      "Self-study",
-      "Research preparation"
+      "to gain insights into energy market dynamics",
+      "to understand the economic implications of energy policies"
     ],
     "audience": [
-      "Senior-DS",
-      "PhD"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "energy economics course MIT",
-      "Joskow course",
-      "electricity economics course",
-      "graduate energy economics"
+      "What is energy economics?",
+      "How do electricity markets function?",
+      "What are the environmental impacts of oil and gas?",
+      "What theoretical perspectives are used in energy economics?",
+      "How does MIT OCW structure its courses?",
+      "What are the key topics covered in MIT OCW Energy Economics?",
+      "Is this course suitable for beginners?",
+      "What resources are available for studying energy economics?"
     ],
     "content_format": "course",
     "skill_progression": [
-      "market fundamentals",
-      "regulation",
-      "policy analysis"
+      "understanding of energy markets",
+      "knowledge of environmental economics"
     ]
   },
   {
@@ -18389,37 +18453,33 @@
       "Free"
     ],
     "domain": "Energy Economics",
-    "difficulty": "advanced",
-    "prerequisites": [
-      "engineering or economics background"
-    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
     "topic_tags": [
       "energy",
-      "electricity",
-      "regulation"
+      "economics",
+      "engineering"
     ],
-    "summary": "This interdisciplinary MIT course bridges engineering and economics perspectives on electricity markets. Excellent for understanding technical constraints on market design.",
-    "use_cases": [
-      "Interdisciplinary learning",
-      "Policy analysis",
-      "Market-engineering interface"
-    ],
+    "summary": "This course provides an interdisciplinary approach to understanding the engineering, economic, legal, and environmental aspects of electricity. It is designed for individuals interested in the complexities of electric power systems and market design.",
+    "use_cases": [],
     "audience": [
-      "Mid-DS",
-      "Senior-DS",
-      "PhD"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "electricity regulation course",
-      "power sector economics",
-      "MIT electricity course",
-      "engineering economics electric"
+      "What is the relationship between engineering and economics in electric power?",
+      "How does market design affect electricity reliability?",
+      "What are the challenges of integrating renewable energy?",
+      "What legal perspectives are involved in electricity regulation?",
+      "How do engineering principles apply to economic models in energy?",
+      "What are the environmental impacts of electricity generation?",
+      "What skills will I gain from the MIT OCW course on electric power?",
+      "Is this course suitable for beginners in energy economics?"
     ],
     "content_format": "course",
     "skill_progression": [
-      "technical fundamentals",
-      "market design",
-      "policy context"
+      "understanding of electricity market design",
+      "knowledge of renewable energy integration",
+      "insight into legal and environmental issues in energy"
     ]
   },
   {
@@ -18439,26 +18499,29 @@
     "difficulty": "beginner",
     "prerequisites": [],
     "topic_tags": [
-      "energy",
-      "policy",
-      "research"
+      "energy-economics",
+      "climate-policy",
+      "electricity-markets",
+      "transportation"
     ],
-    "summary": "The EI@Haas blog translates cutting-edge energy economics research into accessible posts. Authors include Borenstein, Fowlie, and other leading researchers.",
+    "summary": "The Energy Institute at Haas Blog provides accessible research summaries on topics related to electricity markets, climate policy, and transportation, aimed at making complex energy economics understandable for a broader audience.",
     "use_cases": [
-      "Current research",
-      "Policy context",
-      "Accessible learning"
+      "to understand current research in energy economics",
+      "to stay updated on climate policy discussions",
+      "to learn about transportation economics"
     ],
     "audience": [
-      "Junior-DS",
-      "Mid-DS",
       "Curious-browser"
     ],
     "synthetic_questions": [
-      "energy economics blog",
-      "Berkeley energy research",
-      "electricity policy blog",
-      "accessible energy economics"
+      "What are the latest research findings on electricity markets?",
+      "How does climate policy impact energy economics?",
+      "What transportation strategies are being discussed in energy economics?",
+      "Who are the leading energy economists at UC Berkeley?",
+      "What is the Energy Institute at Haas?",
+      "How can I access research summaries on energy topics?",
+      "What are the key issues in energy and utilities economics?",
+      "Where can I find accessible energy research?"
     ],
     "content_format": "blog",
     "skill_progression": [
@@ -18482,33 +18545,40 @@
     ],
     "domain": "Energy Economics",
     "image_url": null,
-    "difficulty": "advanced",
-    "prerequisites": [
-      "microeconomics",
-      "statistics"
-    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "energy-utilities-economics"
+      "energy economics",
+      "market design",
+      "regulation",
+      "policy analysis"
     ],
-    "summary": "Comprehensive MIT course covering energy markets, electricity restructuring, environmental policy, and energy technology assessment. Taught by leading energy economists.",
+    "summary": "This course covers the economic principles related to energy decisions, market design, and regulatory frameworks. It is designed for graduate students and professionals interested in understanding the complexities of energy markets.",
     "use_cases": [
-      "Learning energy economics fundamentals",
-      "Understanding market restructuring",
-      "Policy analysis training"
+      "to understand energy market dynamics",
+      "to analyze energy policies",
+      "to design energy market regulations"
     ],
     "audience": [
-      "Mid-DS",
-      "Senior-DS",
-      "Researcher"
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
     ],
     "synthetic_questions": [
-      "MIT energy economics course",
-      "energy markets course",
-      "electricity economics OCW"
+      "What are the key concepts in energy economics?",
+      "How do market designs impact energy policy?",
+      "What regulations govern energy markets?",
+      "What skills can I gain from studying energy economics?",
+      "Who should take the MIT OCW Energy Decisions course?",
+      "What topics are covered in the course?",
+      "How does this course approach policy analysis?",
+      "What are the prerequisites for this course?"
     ],
-    "content_format": "video-lectures",
+    "content_format": "course",
     "skill_progression": [
-      "Intermediate to Advanced"
+      "understanding of energy market design",
+      "knowledge of energy regulation",
+      "ability to analyze energy policies"
     ]
   },
   {
@@ -18526,32 +18596,37 @@
     ],
     "domain": "Energy Economics",
     "image_url": null,
-    "difficulty": "advanced",
-    "prerequisites": [
-      "power-systems-basics",
-      "microeconomics"
-    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "energy-utilities-economics"
+      "power systems",
+      "electricity market economics",
+      "regulatory policy"
     ],
-    "summary": "Interdisciplinary MIT course covering the intersection of power systems engineering and electricity economics. Covers generation, transmission, distribution, and market design.",
+    "summary": "This course provides an understanding of the intersection between engineering and economics in the electric power sector. It is designed for individuals interested in the regulatory aspects and economic principles governing electricity markets.",
     "use_cases": [
-      "Understanding power system economics",
-      "Regulatory analysis",
-      "Grid modernization research"
+      "understanding the regulatory framework of electricity markets",
+      "applying engineering concepts to economic analysis in energy",
+      "learning about the intersection of technology and policy in the power sector"
     ],
     "audience": [
-      "Senior-DS",
-      "Researcher"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "MIT power systems economics",
-      "electric power regulation course",
-      "electricity sector OCW"
+      "What is the relationship between engineering and economics in the electric power sector?",
+      "How does regulation impact electricity markets?",
+      "What are the key concepts in power systems engineering?",
+      "What skills are needed for a career in electric power regulation?",
+      "How can I apply engineering principles to economic analysis in energy?",
+      "What are the challenges in regulating the electric power sector?",
+      "What role does market economics play in power system design?",
+      "Where can I find resources on electricity market regulation?"
     ],
-    "content_format": "video-lectures",
+    "content_format": "course",
     "skill_progression": [
-      "Advanced"
+      "understanding of power systems engineering",
+      "knowledge of electricity market economics",
+      "insight into regulatory policies affecting the electric power sector"
     ]
   },
   {
@@ -18569,28 +18644,32 @@
     ],
     "domain": "Energy Economics",
     "image_url": null,
-    "difficulty": "intermediate",
+    "difficulty": "beginner|intermediate",
     "prerequisites": [],
     "topic_tags": [
-      "energy-utilities-economics"
+      "energy economics",
+      "climate policy",
+      "electricity markets"
     ],
-    "summary": "Leading researchers from UC Berkeley's Energy Institute at Haas write accessible posts on energy economics, climate policy, electricity markets, and clean energy. Excellent for staying current on energy economics research.",
+    "summary": "The Energy Institute at Haas Blog provides accessible analysis on energy economics and climate policy. It is aimed at individuals interested in understanding the dynamics of electricity markets and related topics.",
     "use_cases": [
-      "Following energy economics research",
-      "Understanding policy debates",
-      "Learning applied analysis"
+      "when to understand energy economics",
+      "when to explore climate policy analysis"
     ],
     "audience": [
-      "Mid-DS",
-      "Senior-DS",
       "Curious-browser"
     ],
     "synthetic_questions": [
-      "Berkeley energy blog",
-      "Haas energy economics",
-      "energy policy blog"
+      "What are the latest trends in energy economics?",
+      "How does climate policy affect electricity markets?",
+      "What analysis does the Energy Institute provide?",
+      "Who can benefit from the Berkeley research blog?",
+      "What topics are covered in the Energy Institute at Haas Blog?",
+      "How accessible is the analysis on energy economics?",
+      "What is the focus of the Energy Institute at Haas?",
+      "How does the blog contribute to understanding climate policy?"
     ],
-    "content_format": "blog-posts",
+    "content_format": "blog",
     "skill_progression": [
       "Beginner to Intermediate"
     ]
@@ -18610,31 +18689,36 @@
     ],
     "domain": "Defense Economics",
     "image_url": null,
-    "difficulty": "advanced",
-    "prerequisites": [
-      "undergraduate-degree"
-    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "defense-security-economics"
+      "security studies",
+      "economics"
     ],
-    "summary": "Georgetown's Security Studies program at the School of Foreign Service is among the most respected in the field. Includes required economics and security coursework.",
+    "summary": "The Georgetown MA in Security Studies is a premier graduate program designed to train the next generation of defense analysts. Students will gain a strong foundation in the intersection of economics and security.",
     "use_cases": [
-      "Graduate education",
-      "Career preparation",
-      "Policy training"
+      "when considering a graduate program in security studies",
+      "for individuals interested in defense analysis careers"
     ],
     "audience": [
-      "Researcher",
-      "Practitioner"
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
     ],
     "synthetic_questions": [
-      "Georgetown security studies",
-      "defense economics graduate program",
-      "security studies masters"
+      "What is the Georgetown MA in Security Studies?",
+      "What are the requirements for the Georgetown MA in Security Studies?",
+      "How does economics relate to security studies?",
+      "What career paths can this program lead to?",
+      "What skills will I gain from the Georgetown MA in Security Studies?",
+      "Is this program suitable for someone with a background in economics?",
+      "What is the application process for the Georgetown MA in Security Studies?",
+      "What is the duration of the Georgetown MA in Security Studies?"
     ],
-    "content_format": "degree-program",
+    "content_format": "program",
     "skill_progression": [
-      "Advanced"
+      "defense analysis",
+      "economic analysis in security contexts"
     ]
   },
   {
@@ -18652,28 +18736,41 @@
     ],
     "domain": "Defense Procurement",
     "image_url": null,
-    "difficulty": "intermediate",
+    "difficulty": "beginner",
     "prerequisites": [],
     "topic_tags": [
-      "defense-security-economics"
+      "acquisition",
+      "contracting",
+      "program management",
+      "cost estimation"
     ],
-    "summary": "The official training institution for DoD acquisition workforce. Offers certifications in contracting, program management, and cost analysis. Many courses available online.",
+    "summary": "The Defense Acquisition University (DAU) provides official training for Department of Defense acquisition professionals. Participants will learn about contracting, program management, and cost estimation, making it suitable for those looking to enhance their skills in defense acquisition.",
     "use_cases": [
-      "DoD career development",
-      "Acquisition training",
-      "Certification"
+      "when to pursue a career in defense acquisition",
+      "when to seek certification in contracting"
     ],
     "audience": [
-      "Practitioner"
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "DAU training",
-      "defense acquisition training",
-      "DoD certification courses"
+      "What is the Defense Acquisition University?",
+      "What training does DAU offer for acquisition professionals?",
+      "How can I get certified in defense contracting?",
+      "What topics are covered in DAU training?",
+      "Who should attend DAU training?",
+      "What is the importance of program management in defense acquisition?",
+      "How does DAU support DoD acquisition professionals?",
+      "What skills can I gain from DAU training?"
     ],
-    "content_format": "professional-training",
+    "content_format": "course",
     "skill_progression": [
-      "Beginner to Advanced"
+      "contracting skills",
+      "program management skills",
+      "cost estimation skills"
     ]
   },
   {
@@ -18691,28 +18788,32 @@
     ],
     "domain": "Defense Economics",
     "image_url": null,
-    "difficulty": "intermediate",
+    "difficulty": null,
     "prerequisites": [],
     "topic_tags": [
-      "defense-security-economics"
+      "defense policy",
+      "research"
     ],
-    "summary": "RAND pioneered defense analysis and systems research. Their archive provides free access to thousands of reports on defense, security, and national security economics.",
+    "summary": "The RAND Research Archive provides free access to decades of defense policy research. It is ideal for those interested in understanding historical and current defense issues.",
     "use_cases": [
-      "Policy research",
-      "Case studies",
-      "Historical analysis"
+      "when researching defense policy",
+      "for academic purposes",
+      "to gain insights into historical defense strategies"
     ],
     "audience": [
-      "Mid-DS",
-      "Senior-DS",
-      "Researcher"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "RAND publications",
-      "defense policy research",
-      "RAND reports free"
+      "What is the RAND Research Archive?",
+      "How can I access defense policy research?",
+      "What topics are covered in the RAND Research Archive?",
+      "Who founded the RAND Corporation?",
+      "What type of research can I find in the RAND Research Archive?",
+      "Is the RAND Research Archive free?",
+      "What is the history of RAND Corporation?",
+      "How can I use RAND research for my studies?"
     ],
-    "content_format": "research-archive",
+    "content_format": "archive",
     "skill_progression": [
       "Intermediate"
     ]
@@ -18732,26 +18833,31 @@
     ],
     "domain": "Defense Technology",
     "image_url": null,
-    "difficulty": "intermediate",
+    "difficulty": null,
     "prerequisites": [],
     "topic_tags": [
-      "defense-security-economics"
+      "defense technology",
+      "cybersecurity",
+      "emerging technologies"
     ],
-    "summary": "CSIS ranks #1 among defense and national security think tanks for nine consecutive years. Strategic Technologies Program covers defense tech, cyber, and emerging technologies.",
+    "summary": "The CSIS Strategic Technologies Program provides insights into defense technology and cybersecurity, focusing on emerging technologies. It is designed for policymakers, researchers, and anyone interested in the intersection of technology and defense.",
     "use_cases": [
-      "Policy insights",
-      "Technology assessment",
-      "Events and briefings"
+      "to understand defense technology developments",
+      "to explore cybersecurity issues",
+      "to learn about emerging technologies in defense"
     ],
     "audience": [
-      "Mid-DS",
-      "Senior-DS",
-      "Practitioner"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "CSIS defense technology",
-      "cybersecurity policy research",
-      "defense think tank"
+      "What are the latest trends in defense technology?",
+      "How does cybersecurity impact national security?",
+      "What emerging technologies are being researched?",
+      "Who leads the CSIS Strategic Technologies Program?",
+      "What events are hosted by CSIS?",
+      "How can I access CSIS research on technology?",
+      "What is the role of think tanks in technology policy?",
+      "What publications are available from CSIS?"
     ],
     "content_format": "research-program",
     "skill_progression": [
@@ -18773,26 +18879,28 @@
     ],
     "domain": "Defense Economics",
     "image_url": null,
-    "difficulty": "beginner",
+    "difficulty": null,
     "prerequisites": [],
     "topic_tags": [
-      "defense-security-economics"
+      "arms control",
+      "military spending",
+      "research"
     ],
-    "summary": "Stockholm International Peace Research Institute provides independent research on international security. Their databases are the gold standard for defense economics empirical work.",
+    "summary": "SIPRI Databases and Research provides independent research on armaments and arms control, featuring authoritative databases and the annual SIPRI Yearbook. This resource is suitable for anyone interested in understanding military spending and arms control dynamics.",
     "use_cases": [
-      "Data access",
-      "Arms control research",
-      "Military spending analysis"
+      "when researching arms control",
+      "when studying military spending trends"
     ],
-    "audience": [
-      "Junior-DS",
-      "Mid-DS",
-      "Researcher"
-    ],
+    "audience": [],
     "synthetic_questions": [
-      "SIPRI research",
-      "arms control data",
-      "military spending research"
+      "What is SIPRI?",
+      "How does SIPRI contribute to arms control?",
+      "What databases does SIPRI offer?",
+      "What is the SIPRI Yearbook?",
+      "How to access SIPRI research?",
+      "What topics are covered in SIPRI databases?",
+      "Who uses SIPRI resources?",
+      "What is the significance of military spending data?"
     ],
     "content_format": "research-institute",
     "skill_progression": [
@@ -18814,32 +18922,40 @@
     ],
     "domain": "Ad Tech Economics",
     "image_url": null,
-    "difficulty": "advanced",
-    "prerequisites": [
-      "microeconomics",
-      "statistics"
-    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "adtech-advertising-economics"
+      "digital-economics",
+      "causal-inference",
+      "machine-learning",
+      "platform-economics"
     ],
-    "summary": "Athey, 2023 AEA President and former Microsoft Chief Economist, teaches cutting-edge courses on digital platform economics and causal inference in tech. Course materials often publicly available.",
+    "summary": "This course covers key concepts in digital economics, causal inference using machine learning, and the economics of tech platforms. It is designed for individuals interested in understanding the intersection of technology and economics.",
     "use_cases": [
-      "Digital economics foundations",
-      "Causal inference methods",
-      "Platform research"
+      "When studying the impact of technology on economic models",
+      "When learning about causal inference methods",
+      "When exploring platform-based business strategies"
     ],
     "audience": [
-      "Senior-DS",
-      "Researcher"
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
     ],
     "synthetic_questions": [
-      "Susan Athey courses",
-      "Stanford digital economics",
-      "platform economics course"
+      "What are the key concepts in digital economics?",
+      "How can machine learning be applied for causal inference?",
+      "What is the economics of tech platforms?",
+      "Who is Susan Athey?",
+      "What courses are offered at Stanford GSB?",
+      "How does digital economics impact business strategy?",
+      "What skills can I gain from studying tech platform economics?",
+      "What prerequisites do I need for Stanford GSB courses?"
     ],
-    "content_format": "academic-course",
+    "content_format": "course",
     "skill_progression": [
-      "Advanced"
+      "Understanding of digital economics",
+      "Ability to apply machine learning for causal inference",
+      "Knowledge of tech platform economics"
     ]
   },
   {
@@ -18857,32 +18973,39 @@
     ],
     "domain": "Auction Theory",
     "image_url": null,
-    "difficulty": "advanced",
-    "prerequisites": [
-      "microeconomics",
-      "game-theory"
-    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
     "topic_tags": [
-      "adtech-advertising-economics"
+      "information economics",
+      "mechanism design",
+      "dynamic auctions"
     ],
-    "summary": "Bergemann's research on information design and targeting markets directly informs ad auction optimization. Course materials on mechanism design and information economics.",
+    "summary": "This course covers key concepts in information economics and mechanism design, focusing on dynamic auctions. It is suitable for students and professionals interested in auction theory and economic mechanisms.",
     "use_cases": [
-      "Mechanism design theory",
-      "Information economics",
-      "Auction optimization"
+      "to understand auction theory",
+      "to learn about economic mechanisms",
+      "for academic research in economics"
     ],
     "audience": [
-      "Senior-DS",
-      "Researcher"
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
     ],
     "synthetic_questions": [
-      "Bergemann Yale",
-      "information design course",
-      "mechanism design course"
+      "What is information economics?",
+      "How does mechanism design work?",
+      "What are dynamic auctions?",
+      "Who is Dirk Bergemann?",
+      "What are the applications of auction theory?",
+      "What courses are offered by Yale in economics?",
+      "How to understand auction mechanisms?",
+      "What are the prerequisites for studying mechanism design?"
     ],
-    "content_format": "academic-course",
+    "content_format": "course",
     "skill_progression": [
-      "Advanced"
+      "understanding of auction theory",
+      "knowledge of economic mechanisms",
+      "ability to analyze dynamic auctions"
     ]
   },
   {
@@ -18900,26 +19023,25 @@
     ],
     "domain": "Ad Tech",
     "image_url": null,
-    "difficulty": "intermediate",
+    "difficulty": null,
     "prerequisites": [],
-    "topic_tags": [
-      "adtech-advertising-economics"
-    ],
-    "summary": "IAB Tech Lab develops technical standards for digital advertising including OpenRTB (RTB protocol), ads.txt (authorized seller verification), and VAST (video ads). Essential for understanding ad tech infrastructure.",
+    "topic_tags": [],
+    "summary": "This resource provides insights into the industry standards for programmatic advertising, including OpenRTB and ads.txt. It is suitable for individuals interested in understanding the frameworks that govern digital advertising.",
     "use_cases": [
-      "Technical standards",
-      "Protocol understanding",
-      "Industry compliance"
+      "Understanding industry standards in programmatic advertising"
     ],
     "audience": [
-      "Mid-DS",
-      "Senior-DS",
-      "Practitioner"
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "IAB Tech Lab",
-      "OpenRTB specs",
-      "ads.txt standard"
+      "What is OpenRTB?",
+      "How does ads.txt work?",
+      "What are the standards set by IAB?",
+      "What is the role of IAB Tech Lab?",
+      "What is programmatic advertising?",
+      "How to implement VAST standards?",
+      "What are sellers.json and its importance?",
+      "What are the benefits of industry standards in advertising?"
     ],
     "content_format": "standards-documentation",
     "skill_progression": [
@@ -18941,25 +19063,21 @@
     ],
     "domain": "Ad Measurement",
     "image_url": null,
-    "difficulty": "beginner",
+    "difficulty": null,
     "prerequisites": [],
-    "topic_tags": [
-      "adtech-advertising-economics"
-    ],
-    "summary": "MRC sets viewability standards (50% of pixels visible for 1 second) and accredits measurement vendors. Understanding MRC standards essential for ad measurement work.",
-    "use_cases": [
-      "Viewability standards",
-      "Measurement accreditation",
-      "Industry benchmarks"
-    ],
-    "audience": [
-      "Mid-DS",
-      "Practitioner"
-    ],
+    "topic_tags": [],
+    "summary": "The Media Rating Council (MRC) is an industry body that sets standards for viewability and measurement accreditation in digital advertising. This resource is for professionals and organizations involved in digital advertising looking to understand and implement industry standards.",
+    "use_cases": [],
+    "audience": [],
     "synthetic_questions": [
-      "MRC viewability",
-      "ad measurement standards",
-      "viewability definition"
+      "What is the Media Rating Council?",
+      "How does MRC influence digital advertising standards?",
+      "What are viewability standards?",
+      "What is measurement accreditation?",
+      "Why are industry standards important in digital advertising?",
+      "How can I learn about MRC's standards?",
+      "What role does MRC play in advertising measurement?",
+      "Where can I find MRC's guidelines?"
     ],
     "content_format": "standards-documentation",
     "skill_progression": [
@@ -18981,30 +19099,34 @@
     ],
     "domain": "Ad Tech",
     "image_url": null,
-    "difficulty": "beginner",
+    "difficulty": "beginner|intermediate",
     "prerequisites": [],
     "topic_tags": [
-      "adtech-advertising-economics"
+      "programmatic",
+      "ad tech"
     ],
-    "summary": "Comprehensive free online resource covering ad tech ecosystem, DSPs, SSPs, DMPs, RTB mechanics, and industry developments. Continuously updated by Clearcode, an ad tech development company.",
+    "summary": "This guide provides an overview of the programmatic advertising ecosystem and offers continuously updated technical insights. It is suitable for anyone looking to understand the basics of ad tech.",
     "use_cases": [
-      "Industry introduction",
-      "Technical understanding",
-      "Reference material"
+      "When you want to learn about programmatic advertising",
+      "When seeking a free resource on ad tech"
     ],
     "audience": [
-      "Junior-DS",
-      "Mid-DS",
       "Curious-browser"
     ],
     "synthetic_questions": [
-      "Clearcode ad tech",
-      "programmatic guide",
-      "ad tech ecosystem explained"
+      "What is programmatic advertising?",
+      "How does the ad tech ecosystem work?",
+      "What are the key components of programmatic advertising?",
+      "Where can I find a guide on ad tech?",
+      "What are the latest trends in programmatic advertising?",
+      "How to get started with ad tech?",
+      "What resources are available for learning about programmatic advertising?",
+      "Is there a free guide to ad tech?"
     ],
     "content_format": "online-guide",
     "skill_progression": [
-      "Beginner to Intermediate"
+      "Understanding programmatic advertising",
+      "Familiarity with ad tech concepts"
     ]
   },
   {
@@ -19023,36 +19145,38 @@
     "domain": "Marketing",
     "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/a6/b7d6b0d99011e7a9b1f7e7b2c3c3e1/Customer-Analytics.png",
     "difficulty": "intermediate",
-    "prerequisites": [
-      "basic-statistics"
-    ],
+    "prerequisites": [],
     "topic_tags": [
-      "martech-customer-analytics",
-      "clv",
+      "customer-analytics",
+      "predictive-analytics",
       "segmentation"
     ],
-    "summary": "Comprehensive customer analytics course from the leading experts at Wharton. Covers descriptive analytics, predictive modeling, prescriptive analytics, and CLV with real business applications.",
+    "summary": "This course provides a comprehensive understanding of customer analytics, focusing on customer lifetime value (CLV), segmentation, and predictive analytics. It is designed for individuals looking to enhance their skills in analyzing customer data.",
     "use_cases": [
-      "Learn customer analytics foundations",
-      "Understand CLV modeling from the experts",
-      "Build customer segmentation skills"
+      "When to analyze customer data",
+      "When to apply predictive analytics in marketing"
     ],
     "audience": [
       "Junior-DS",
       "Mid-DS",
+      "Senior-DS",
       "Curious-browser"
     ],
     "synthetic_questions": [
-      "Best course for customer analytics",
-      "Peter Fader CLV course",
-      "How to learn customer lifetime value",
-      "Wharton marketing analytics course"
+      "What is customer lifetime value?",
+      "How to segment customers effectively?",
+      "What are the key concepts in predictive analytics?",
+      "Who teaches the Wharton Customer Analytics course?",
+      "What skills will I gain from this course?",
+      "Is this course suitable for beginners?",
+      "What topics are covered in the course?",
+      "Where can I find the Wharton Customer Analytics course?"
     ],
     "content_format": "course",
     "skill_progression": [
-      "analytics foundations",
-      "CLV modeling",
-      "business applications"
+      "customer lifetime value analysis",
+      "customer segmentation techniques",
+      "predictive analytics skills"
     ]
   },
   {
@@ -19070,35 +19194,38 @@
     ],
     "domain": "Marketing",
     "difficulty": "intermediate",
-    "prerequisites": [
-      "basic-statistics"
-    ],
+    "prerequisites": [],
     "topic_tags": [
-      "martech-customer-analytics",
-      "experimentation",
-      "marketing-measurement"
+      "causal-inference",
+      "marketing-analytics",
+      "experiment-design"
     ],
-    "summary": "Comprehensive marketing analytics specialization from UVA Darden. Covers brand analytics, customer analytics, and marketing channels with strong emphasis on experimental methods.",
+    "summary": "This course covers essential concepts in marketing analytics, including brand measurement and customer lifetime value (CLV). It is designed for individuals looking to deepen their understanding of marketing strategies through data-driven insights.",
     "use_cases": [
-      "Learn marketing analytics with experiments",
-      "Understand brand measurement",
-      "Master marketing resource allocation"
+      "When to analyze marketing data",
+      "When to allocate marketing resources effectively"
     ],
     "audience": [
       "Junior-DS",
-      "Mid-DS"
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
     ],
     "synthetic_questions": [
-      "Marketing analytics course Coursera",
-      "How to measure marketing experiments",
-      "Brand analytics course",
-      "Marketing resource allocation"
+      "What is marketing analytics?",
+      "How to measure brand performance?",
+      "What is customer lifetime value?",
+      "How to design marketing experiments?",
+      "What are the best practices for marketing resource allocation?",
+      "How does causal inference apply to marketing?",
+      "What skills are needed for marketing analytics?",
+      "Where can I learn about CLV and experimentation?"
     ],
     "content_format": "course",
     "skill_progression": [
-      "brand analytics",
-      "customer analytics",
-      "experimentation"
+      "Understanding brand measurement",
+      "Applying CLV in marketing",
+      "Designing experiments for marketing"
     ]
   },
   {

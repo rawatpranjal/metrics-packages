@@ -9,5 +9,19 @@
       "audience": [],
       "synthetic_questions": []
     }
+  },
+  {
+    "item_id": "Papers With Code Datasets",
+    "confidence": 0.6000000000000001,
+    "reason": "low_confidence",
+    "timestamp": "2026-01-01T02:42:12.476425+00:00",
+    "enrichment_sample": {
+      "difficulty": "null",
+      "audience": [],
+      "synthetic_questions": [
+        "What datasets are linked to research papers?",
+        "How can I find datasets for SOTA benchmarks?"
+      ]
+    }
   }
 ]
