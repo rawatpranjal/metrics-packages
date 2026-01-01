@@ -11391,5 +11391,457 @@
     ],
     "update_frequency": "Quarterly",
     "geographic_coverage": "United States (primarily)"
+  },
+  {
+    "name": "EIA Form 923",
+    "description": "Monthly power plant operations data including generation by fuel type, fuel consumption, and fuel costs for ~3,000 U.S. power plants. Essential for electricity generation analysis.",
+    "category": "Energy & Utilities Economics",
+    "url": "https://www.eia.gov/electricity/data/eia923/",
+    "source": "U.S. Energy Information Administration",
+    "type": "Administrative",
+    "access": "Free download",
+    "format": "Excel/CSV",
+    "tags": [
+      "Energy",
+      "Electricity",
+      "Power Plants",
+      "Free"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "energy terminology"
+    ],
+    "topic_tags": [
+      "energy",
+      "electricity",
+      "generation"
+    ],
+    "summary": "EIA-923 provides comprehensive monthly data on power plant operations including generation, fuel consumption, and costs. Forms the backbone of U.S. electricity sector research.",
+    "use_cases": [
+      "Generation analysis",
+      "Fuel cost studies",
+      "Capacity utilization",
+      "Emissions estimation"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "power plant data",
+      "EIA generation data",
+      "electricity fuel costs",
+      "monthly generation data"
+    ],
+    "update_frequency": "Monthly",
+    "geographic_coverage": "United States"
+  },
+  {
+    "name": "EIA Form 860",
+    "description": "Generator-level data on capacity, technology, ownership, and location for all U.S. power plants from 1990-present. Includes planned additions and retirements.",
+    "category": "Energy & Utilities Economics",
+    "url": "https://www.eia.gov/electricity/data/eia860/",
+    "source": "U.S. Energy Information Administration",
+    "type": "Administrative",
+    "access": "Free download",
+    "format": "Excel/CSV",
+    "tags": [
+      "Energy",
+      "Electricity",
+      "Capacity",
+      "Free"
+    ],
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "energy",
+      "electricity",
+      "capacity"
+    ],
+    "summary": "EIA-860 provides the definitive database of U.S. power plant characteristics including capacity, technology, fuel type, ownership, and geographic location.",
+    "use_cases": [
+      "Capacity analysis",
+      "Technology tracking",
+      "Ownership studies",
+      "Resource planning"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "power plant capacity data",
+      "generator database",
+      "EIA 860 data",
+      "renewable capacity by state"
+    ],
+    "update_frequency": "Annual",
+    "geographic_coverage": "United States"
+  },
+  {
+    "name": "FERC Form 714",
+    "description": "Hourly load data from ~200 U.S. balancing authorities. Essential for load shape analysis, demand forecasting, and understanding temporal patterns in electricity consumption.",
+    "category": "Energy & Utilities Economics",
+    "url": "https://www.ferc.gov/industries-data/electric/general-information/electric-industry-forms/form-714-annual-electric",
+    "source": "Federal Energy Regulatory Commission",
+    "type": "Administrative",
+    "access": "Free download",
+    "format": "CSV",
+    "tags": [
+      "Energy",
+      "Electricity",
+      "Load",
+      "Hourly",
+      "Free"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "time series basics"
+    ],
+    "topic_tags": [
+      "energy",
+      "electricity",
+      "demand"
+    ],
+    "summary": "FERC 714 provides hourly electricity demand data from balancing authorities across the U.S. Essential for load forecasting, demand response analysis, and renewable integration studies.",
+    "use_cases": [
+      "Load forecasting",
+      "Demand analysis",
+      "Peak identification",
+      "Time-of-use studies"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "hourly electricity demand",
+      "FERC 714 data",
+      "load shape analysis",
+      "balancing authority data"
+    ],
+    "update_frequency": "Annual",
+    "geographic_coverage": "United States"
+  },
+  {
+    "name": "PUDL (Public Utility Data Liberation)",
+    "description": "Cleaned, integrated database combining EIA-860, EIA-861, EIA-923, FERC Form 1, and EPA CEMS into accessible SQLite/Parquet formats. Maintained by Catalyst Cooperative.",
+    "category": "Energy & Utilities Economics",
+    "url": "https://catalyst.coop/pudl/",
+    "source": "Catalyst Cooperative",
+    "type": "Integrated Database",
+    "access": "Free (open source)",
+    "format": "SQLite/Parquet/Python",
+    "tags": [
+      "Energy",
+      "Integrated",
+      "Open Source",
+      "Free"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "SQL or Python"
+    ],
+    "topic_tags": [
+      "energy",
+      "data-integration",
+      "open-source"
+    ],
+    "summary": "PUDL liberates U.S. energy data from difficult formats into analysis-ready databases. Links generation, capacity, emissions, and financial data across multiple federal sources.",
+    "use_cases": [
+      "Cross-dataset analysis",
+      "Emissions-generation linkage",
+      "Financial analysis",
+      "Research reproducibility"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "integrated energy data",
+      "PUDL database",
+      "cleaned EIA data",
+      "energy data Python"
+    ],
+    "update_frequency": "Monthly",
+    "geographic_coverage": "United States"
+  },
+  {
+    "name": "EPA CEMS (Continuous Emissions Monitoring System)",
+    "description": "Hourly emissions data (SO2, NOx, CO2) from U.S. power plants since 1995. Billions of records with unit-level emissions and generation. Part of the Clean Air Markets Program.",
+    "category": "Energy & Utilities Economics",
+    "url": "https://campd.epa.gov/",
+    "source": "U.S. Environmental Protection Agency",
+    "type": "Administrative",
+    "access": "Free (API available)",
+    "format": "CSV/API",
+    "tags": [
+      "Energy",
+      "Emissions",
+      "Environment",
+      "Hourly",
+      "Free"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "emissions basics"
+    ],
+    "topic_tags": [
+      "energy",
+      "emissions",
+      "environment"
+    ],
+    "summary": "EPA CEMS provides the most granular emissions data for U.S. power plants. Essential for emissions research, carbon pricing analysis, and environmental policy evaluation.",
+    "use_cases": [
+      "Emissions analysis",
+      "Carbon intensity",
+      "Environmental policy",
+      "Dispatch modeling"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "power plant emissions data",
+      "EPA CEMS",
+      "hourly emissions",
+      "CO2 generation data"
+    ],
+    "update_frequency": "Quarterly",
+    "geographic_coverage": "United States"
+  },
+  {
+    "name": "CAISO OASIS",
+    "description": "California ISO market data including day-ahead and real-time LMPs, renewable forecasts, curtailment, and ancillary service prices from 2009-present.",
+    "category": "Energy & Utilities Economics",
+    "url": "http://oasis.caiso.com/",
+    "source": "California ISO",
+    "type": "Market Data",
+    "access": "Free download",
+    "format": "CSV/XML",
+    "tags": [
+      "Energy",
+      "Market Data",
+      "California",
+      "LMP",
+      "Free"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "market basics"
+    ],
+    "topic_tags": [
+      "energy",
+      "electricity-markets",
+      "california"
+    ],
+    "summary": "CAISO OASIS provides comprehensive California electricity market data including locational prices, renewable generation, and system operations. Essential for western market research.",
+    "use_cases": [
+      "Price analysis",
+      "Renewable integration",
+      "Congestion studies",
+      "Market efficiency"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "California electricity prices",
+      "CAISO data",
+      "LMP data",
+      "California renewable curtailment"
+    ],
+    "update_frequency": "Real-time/Daily",
+    "geographic_coverage": "California"
+  },
+  {
+    "name": "PJM Data Miner",
+    "description": "Eastern U.S. interconnection market data including LMPs back to 1998, capacity auction results, generation by fuel type, and transmission data.",
+    "category": "Energy & Utilities Economics",
+    "url": "https://dataminer2.pjm.com/",
+    "source": "PJM Interconnection",
+    "type": "Market Data",
+    "access": "Free download",
+    "format": "CSV",
+    "tags": [
+      "Energy",
+      "Market Data",
+      "PJM",
+      "Eastern US",
+      "Free"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "market basics"
+    ],
+    "topic_tags": [
+      "energy",
+      "electricity-markets",
+      "pjm"
+    ],
+    "summary": "PJM Data Miner provides the longest continuous LMP series in the U.S. along with capacity market results, generation data, and system operations for 13 states.",
+    "use_cases": [
+      "Price analysis",
+      "Capacity market research",
+      "Long-term trends",
+      "Market design studies"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "PhD"
+    ],
+    "synthetic_questions": [
+      "PJM electricity data",
+      "eastern US market data",
+      "capacity auction data",
+      "PJM LMP history"
+    ],
+    "update_frequency": "Daily",
+    "geographic_coverage": "PJM region (13 states)"
+  },
+  {
+    "name": "NREL NSRDB (National Solar Radiation Database)",
+    "description": "Solar irradiance data at 30-minute/4km resolution covering the Americas from 1998-present. Includes GHI, DNI, DHI and meteorological variables. Free API access.",
+    "category": "Energy & Utilities Economics",
+    "url": "https://nsrdb.nrel.gov/",
+    "source": "National Renewable Energy Laboratory",
+    "type": "Resource Data",
+    "access": "Free (API available)",
+    "format": "CSV/API",
+    "tags": [
+      "Energy",
+      "Solar",
+      "Resource",
+      "Geospatial",
+      "Free"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "solar basics"
+    ],
+    "topic_tags": [
+      "energy",
+      "solar",
+      "resource-assessment"
+    ],
+    "summary": "NSRDB provides the authoritative solar resource data for the Americas. Essential for solar project development, capacity factor estimation, and renewable integration studies.",
+    "use_cases": [
+      "Solar resource assessment",
+      "Capacity factor estimation",
+      "Site selection",
+      "Production modeling"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "solar irradiance data",
+      "NSRDB API",
+      "solar resource assessment",
+      "GHI data"
+    ],
+    "update_frequency": "Annual",
+    "geographic_coverage": "Americas"
+  },
+  {
+    "name": "Ember Global Electricity Data",
+    "description": "Monthly electricity generation, capacity, and emissions data for 88 geographies covering 90%+ of global electricity demand. Free, open data with CC BY license.",
+    "category": "Energy & Utilities Economics",
+    "url": "https://ember-climate.org/data/",
+    "source": "Ember",
+    "type": "International",
+    "access": "Free (open data)",
+    "format": "CSV/Excel",
+    "tags": [
+      "Energy",
+      "Global",
+      "Monthly",
+      "Open Data",
+      "Free"
+    ],
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "energy",
+      "global",
+      "electricity"
+    ],
+    "summary": "Ember provides the most accessible global electricity dataset with monthly updates. Excellent for international comparisons, energy transition tracking, and policy analysis.",
+    "use_cases": [
+      "International comparisons",
+      "Transition tracking",
+      "Policy analysis",
+      "Teaching"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "global electricity data",
+      "Ember data",
+      "international energy comparison",
+      "renewable share by country"
+    ],
+    "update_frequency": "Monthly",
+    "geographic_coverage": "Global (88 countries)"
+  },
+  {
+    "name": "gridstatus",
+    "description": "Python package providing unified API access to real-time and historical data from all major U.S. ISOs (CAISO, PJM, ERCOT, MISO, NYISO, ISO-NE, SPP).",
+    "category": "Energy & Utilities Economics",
+    "url": "https://www.gridstatus.io/",
+    "source": "Grid Status",
+    "type": "API/Package",
+    "access": "Free (open source)",
+    "format": "Python/DataFrame",
+    "tags": [
+      "Energy",
+      "API",
+      "Real-time",
+      "Open Source",
+      "Free"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "Python",
+      "pandas"
+    ],
+    "topic_tags": [
+      "energy",
+      "api",
+      "market-data"
+    ],
+    "summary": "gridstatus unifies access to all major U.S. ISO data through a consistent Python interface. Provides real-time and historical prices, generation, load, and renewable forecasts.",
+    "use_cases": [
+      "Real-time analysis",
+      "Cross-ISO comparison",
+      "Data pipelines",
+      "Trading research"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "ISO API Python",
+      "gridstatus package",
+      "real-time electricity data",
+      "unified ISO data"
+    ],
+    "update_frequency": "Real-time",
+    "geographic_coverage": "United States (all ISOs)"
   }
 ]

@@ -46863,7 +46863,7 @@
     {
       "id": "insurance-economics-insurtech",
       "name": "Insurtech & Insurance Economics",
-      "description": "Price risk accurately, detect fraud, and build digital insurance products",
+      "description": "Price risk and detect fraud in insurance markets",
       "image_url": "/images/topics/insurance.webp",
       "subtopics": [
         {
@@ -47061,7 +47061,7 @@
     {
       "id": "sports-economics",
       "name": "Sports Economics & Analytics",
-      "description": "Analyze player value, predict game outcomes, and optimize team decisions",
+      "description": "Value players and predict outcomes in professional sports",
       "image_url": "/images/topics/sports.webp",
       "subtopics": [
         {
@@ -47322,7 +47322,7 @@
     {
       "id": "transportation-economics",
       "name": "Transportation Economics & Technology",
-      "description": "Model travel demand, optimize transit networks, and price congestion",
+      "description": "Model travel demand and optimize transportation networks",
       "image_url": "/images/topics/transportation.webp",
       "subtopics": [
         {
@@ -47743,7 +47743,7 @@
     {
       "id": "healthcare-economics",
       "name": "Healthcare Economics & Health-Tech",
-      "description": "Analyze healthcare markets, evaluate digital health interventions, and build clinical prediction models",
+      "description": "Evaluate healthcare interventions and predict clinical outcomes",
       "image_url": "/images/topics/healthcare.webp",
       "subtopics": [
         {
@@ -47872,7 +47872,8 @@
                 "methodology"
               ]
             }
-          ]
+          ],
+          "application": "Understand why healthcare markets differ from others"
         },
         {
           "id": "healthcare-experiments",
@@ -47952,7 +47953,8 @@
                 "regression-discontinuity"
               ]
             }
-          ]
+          ],
+          "application": "Design experiments to evaluate health policy effects"
         },
         {
           "id": "hospital-provider-economics",
@@ -48018,7 +48020,8 @@
                 "market-power"
               ]
             }
-          ]
+          ],
+          "application": "Analyze hospital competition and market power"
         },
         {
           "id": "digital-health-telemedicine",
@@ -48106,7 +48109,8 @@
                 "cost-effectiveness"
               ]
             }
-          ]
+          ],
+          "application": "Evaluate the economics of digital health interventions"
         },
         {
           "id": "healthcare-ai-ml",
@@ -48237,7 +48241,8 @@
                 "computer-vision"
               ]
             }
-          ]
+          ],
+          "application": "Build clinical prediction models and avoid algorithmic bias"
         },
         {
           "id": "medical-technology-hta",
@@ -48305,7 +48310,8 @@
                 "hta"
               ]
             }
-          ]
+          ],
+          "application": "Assess whether medical technologies are worth their costs"
         },
         {
           "id": "causal-inference-health",
@@ -48372,6 +48378,536 @@
                 "causal-inference",
                 "policy-evaluation",
                 "methodology"
+              ]
+            }
+          ],
+          "application": "Apply rigorous causal methods to health research"
+        }
+      ]
+    },
+    {
+      "id": "energy-utilities-economics",
+      "name": "Energy & Utilities Economics",
+      "description": "Design electricity markets and evaluate clean energy policies",
+      "image_url": "/images/topics/energy.webp",
+      "subtopics": [
+        {
+          "id": "electricity-market-design",
+          "name": "Electricity Market Design",
+          "application": "Understand how wholesale electricity markets work",
+          "papers": [
+            {
+              "title": "Restructuring, Competition and Regulatory Reform in the U.S. Electricity Sector",
+              "authors": [
+                "Paul L. Joskow"
+              ],
+              "year": 1997,
+              "venue": "Journal of Economic Perspectives",
+              "url": "https://doi.org/10.1257/jep.11.3.119",
+              "abstract": "Essential overview of why and how electricity restructuring occurred in the United States. Explains the economic rationale for separating generation from transmission/distribution and introducing competition in wholesale markets.",
+              "tags": [
+                "Classic"
+              ],
+              "citations": 2000,
+              "topic_tags": [
+                "electricity-markets",
+                "restructuring",
+                "regulation"
+              ]
+            },
+            {
+              "title": "Lessons Learned from Electricity Market Liberalization",
+              "authors": [
+                "Paul L. Joskow"
+              ],
+              "year": 2008,
+              "venue": "Energy Journal",
+              "url": "https://doi.org/10.5547/ISSN0195-6574-EJ-Vol29-NoSI2-3",
+              "abstract": "Comprehensive 20-year assessment of electricity market liberalization outcomes worldwide. Evaluates what worked, what failed, and key lessons for market design including the importance of capacity mechanisms.",
+              "tags": [
+                "Survey"
+              ],
+              "citations": 1500,
+              "topic_tags": [
+                "electricity-markets",
+                "liberalization",
+                "policy-evaluation"
+              ]
+            },
+            {
+              "title": "The Trouble with Electricity Markets: Understanding California's Restructuring Disaster",
+              "authors": [
+                "Severin Borenstein"
+              ],
+              "year": 2002,
+              "venue": "Journal of Economic Perspectives",
+              "url": "https://doi.org/10.1257/0895330027175",
+              "abstract": "Accessible explanation of California's 2000-2001 electricity crisis. Analyzes how market design flaws, regulatory constraints, and market power combined to produce rolling blackouts and wholesale price spikes.",
+              "tags": [],
+              "citations": 1200,
+              "topic_tags": [
+                "electricity-markets",
+                "california-crisis",
+                "market-failure"
+              ]
+            },
+            {
+              "title": "Contract Networks for Electric Power Transmission",
+              "authors": [
+                "William W. Hogan"
+              ],
+              "year": 1992,
+              "venue": "Journal of Regulatory Economics",
+              "url": "https://doi.org/10.1007/BF00133621",
+              "abstract": "The origin paper for locational marginal pricing (LMP) now used across all U.S. ISOs. Establishes the theoretical foundation for nodal pricing that reflects transmission congestion and losses.",
+              "tags": [
+                "Classic"
+              ],
+              "citations": 1000,
+              "topic_tags": [
+                "electricity-markets",
+                "lmp",
+                "transmission"
+              ]
+            },
+            {
+              "title": "Electricity Market Design",
+              "authors": [
+                "Peter Cramton"
+              ],
+              "year": 2017,
+              "venue": "Oxford Review of Economic Policy",
+              "url": "https://doi.org/10.1093/oxrep/grx041",
+              "abstract": "Comprehensive modern survey of electricity market design covering energy markets, capacity markets, ancillary services, and renewable integration. Essential reference for understanding current market structures.",
+              "tags": [
+                "Survey"
+              ],
+              "citations": 400,
+              "topic_tags": [
+                "electricity-markets",
+                "market-design",
+                "capacity-markets"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "market-power-regulation",
+          "name": "Market Power & Utility Regulation",
+          "application": "Detect market power and design effective regulation",
+          "papers": [
+            {
+              "title": "Measuring Market Inefficiencies in California's Restructured Wholesale Electricity Market",
+              "authors": [
+                "Severin Borenstein",
+                "James B. Bushnell",
+                "Frank A. Wolak"
+              ],
+              "year": 2002,
+              "venue": "American Economic Review",
+              "url": "https://doi.org/10.1257/000282802762024557",
+              "abstract": "Established the definitive methodology for measuring market power in electricity markets using competitive benchmark simulation. Found significant market inefficiencies in California's wholesale market.",
+              "tags": [
+                "Methodological"
+              ],
+              "citations": 1500,
+              "topic_tags": [
+                "market-power",
+                "california",
+                "competitive-benchmark"
+              ]
+            },
+            {
+              "title": "Measuring Duopoly Power in the British Electricity Spot Market",
+              "authors": [
+                "Catherine D. Wolfram"
+              ],
+              "year": 1999,
+              "venue": "American Economic Review",
+              "url": "https://doi.org/10.1257/aer.89.4.805",
+              "abstract": "Pioneered empirical study of strategic bidding behavior in electricity markets. Demonstrated how generators exercised market power in the British electricity pool through bid markup analysis.",
+              "tags": [],
+              "citations": 800,
+              "topic_tags": [
+                "market-power",
+                "strategic-bidding",
+                "uk-electricity"
+              ]
+            },
+            {
+              "title": "When Does Regulation Distort Costs? Lessons from Fuel Procurement in U.S. Electricity Generation",
+              "authors": [
+                "Steve Cicala"
+              ],
+              "year": 2015,
+              "venue": "American Economic Review",
+              "url": "https://doi.org/10.1257/aer.20131377",
+              "abstract": "Demonstrates that electricity deregulation reduced coal procurement costs by 12%. Uses the staggered timing of restructuring across states to identify efficiency gains from market incentives.",
+              "tags": [
+                "SOTA"
+              ],
+              "citations": 400,
+              "topic_tags": [
+                "regulation",
+                "efficiency",
+                "fuel-procurement"
+              ]
+            },
+            {
+              "title": "Behavior of the Firm Under Regulatory Constraint",
+              "authors": [
+                "Harvey Averch",
+                "Leland L. Johnson"
+              ],
+              "year": 1962,
+              "venue": "American Economic Review",
+              "url": "https://www.jstor.org/stable/1812181",
+              "abstract": "Established the rate-of-return regulation distortion (Averch-Johnson effect): regulated utilities over-invest in capital to expand the rate base. Motivated subsequent regulatory reform and incentive regulation.",
+              "tags": [
+                "Classic"
+              ],
+              "citations": 5000,
+              "topic_tags": [
+                "regulation",
+                "rate-of-return",
+                "utility-economics"
+              ]
+            },
+            {
+              "title": "Imperfect Markets versus Imperfect Regulation in U.S. Electricity Generation",
+              "authors": [
+                "Steve Cicala"
+              ],
+              "year": 2022,
+              "venue": "American Economic Review",
+              "url": "https://doi.org/10.1257/aer.20172034",
+              "abstract": "Shows that electricity markets reduced production costs by roughly $3 billion annually compared to continued regulation. Comprehensive welfare analysis comparing market and regulatory outcomes.",
+              "tags": [
+                "SOTA"
+              ],
+              "citations": 200,
+              "topic_tags": [
+                "regulation",
+                "markets",
+                "welfare-analysis"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "renewable-energy-economics",
+          "name": "Renewable Energy Economics",
+          "application": "Evaluate renewable energy costs and integration challenges",
+          "papers": [
+            {
+              "title": "The Market Value of Variable Renewables",
+              "authors": [
+                "Lion Hirth"
+              ],
+              "year": 2013,
+              "venue": "Energy Economics",
+              "url": "https://doi.org/10.1016/j.eneco.2013.02.004",
+              "abstract": "Demonstrates how wind's value falls from 110% to 50-75% of average electricity price as penetration increases\u2014the 'value deflation' problem. Essential framework for understanding renewable integration economics.",
+              "tags": [
+                "SOTA"
+              ],
+              "citations": 1500,
+              "topic_tags": [
+                "renewables",
+                "integration",
+                "value-deflation"
+              ]
+            },
+            {
+              "title": "Integration Costs Revisited \u2013 An Economic Framework for Wind and Solar Variability",
+              "authors": [
+                "Lion Hirth",
+                "Falko Ueckerdt",
+                "Ottmar Edenhofer"
+              ],
+              "year": 2015,
+              "venue": "Renewable Energy",
+              "url": "https://doi.org/10.1016/j.renene.2014.08.065",
+              "abstract": "Comprehensive framework decomposing integration costs into profile costs, balancing costs, and grid costs. Provides rigorous methodology for comparing renewable and conventional generation costs.",
+              "tags": [
+                "Methodological"
+              ],
+              "citations": 800,
+              "topic_tags": [
+                "renewables",
+                "integration-costs",
+                "methodology"
+              ]
+            },
+            {
+              "title": "The Private and Public Economics of Renewable Electricity Generation",
+              "authors": [
+                "Severin Borenstein"
+              ],
+              "year": 2012,
+              "venue": "Journal of Economic Perspectives",
+              "url": "https://doi.org/10.1257/jep.26.1.67",
+              "abstract": "Landmark article analyzing time- and location-dependent value of renewable generation. Shows how intermittency affects value and evaluates policies promoting renewable deployment.",
+              "tags": [],
+              "citations": 800,
+              "topic_tags": [
+                "renewables",
+                "solar",
+                "policy-evaluation"
+              ]
+            },
+            {
+              "title": "Beyond the Learning Curve: Factors Influencing Cost Reductions in Photovoltaics",
+              "authors": [
+                "Gregory F. Nemet"
+              ],
+              "year": 2006,
+              "venue": "Energy Policy",
+              "url": "https://doi.org/10.1016/j.enpol.2005.06.020",
+              "abstract": "Decomposed PV cost reductions beyond simple learning-by-doing to understand what drove solar's dramatic cost decline. Found R&D, economies of scale, and module efficiency gains all contributed.",
+              "tags": [],
+              "citations": 700,
+              "topic_tags": [
+                "solar",
+                "learning-curves",
+                "technology"
+              ]
+            },
+            {
+              "title": "Causal Effects of Renewable Portfolio Standards on Renewable Investments and Generation",
+              "authors": [
+                "Olivier Deschenes",
+                "Harouna Malloy",
+                "Justin Kirkpatrick McDonald"
+              ],
+              "year": 2023,
+              "venue": "Resource and Energy Economics",
+              "url": "https://doi.org/10.1016/j.reseneeco.2023.101376",
+              "abstract": "Most rigorous econometric analysis of RPS effects, finding RPS increases wind capacity by 600-1,200 MW (44% increase) but shows no significant effect on solar adoption.",
+              "tags": [
+                "SOTA"
+              ],
+              "citations": 50,
+              "topic_tags": [
+                "renewables",
+                "rps",
+                "policy-evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "carbon-pricing-environmental",
+          "name": "Carbon Pricing & Environmental Economics",
+          "application": "Design carbon markets and evaluate climate policy",
+          "papers": [
+            {
+              "title": "Prices vs. Quantities",
+              "authors": [
+                "Martin L. Weitzman"
+              ],
+              "year": 1974,
+              "venue": "Review of Economic Studies",
+              "url": "https://doi.org/10.2307/2296698",
+              "abstract": "The most-cited environmental economics paper. Shows that relative slopes of marginal cost and benefit curves determine whether price instruments (taxes) or quantity instruments (cap-and-trade) are optimal.",
+              "tags": [
+                "Classic"
+              ],
+              "citations": 8000,
+              "topic_tags": [
+                "environmental",
+                "carbon-pricing",
+                "instrument-choice"
+              ]
+            },
+            {
+              "title": "Does Pricing Carbon Mitigate Climate Change? Firm-level Evidence from the European Union Emissions Trading Scheme",
+              "authors": [
+                "Ralf Martin",
+                "Mirabelle Mu\u00fbls",
+                "Ulrich Wagner"
+              ],
+              "year": 2024,
+              "venue": "Review of Economic Studies",
+              "url": "https://doi.org/10.1093/restud/rdad055",
+              "abstract": "Provides definitive firm-level evidence of EU ETS effects: 10% emission reductions with no negative economic impacts on treated firms. Uses regression discontinuity at allocation threshold.",
+              "tags": [
+                "SOTA"
+              ],
+              "citations": 100,
+              "topic_tags": [
+                "carbon-pricing",
+                "eu-ets",
+                "firm-level"
+              ]
+            },
+            {
+              "title": "Estimates of the Social Cost of Carbon: Concepts and Results from the DICE-2013R Model",
+              "authors": [
+                "William D. Nordhaus"
+              ],
+              "year": 2014,
+              "venue": "Journal of the Association of Environmental and Resource Economists",
+              "url": "https://doi.org/10.1086/676035",
+              "abstract": "Reviews methodology and estimates for the social cost of carbon using the DICE integrated assessment model. Nobel Prize work providing foundation for benefit-cost analysis of climate policy.",
+              "tags": [
+                "Methodological"
+              ],
+              "citations": 1500,
+              "topic_tags": [
+                "carbon-pricing",
+                "social-cost-carbon",
+                "climate-economics"
+              ]
+            },
+            {
+              "title": "Social Norms and Energy Conservation",
+              "authors": [
+                "Hunt Allcott"
+              ],
+              "year": 2011,
+              "venue": "Journal of Public Economics",
+              "url": "https://doi.org/10.1016/j.jpubeco.2011.03.003",
+              "abstract": "Landmark OPOWER study showing 2% consumption reduction from social comparison messaging in a 600,000-household randomized experiment. Demonstrates behavioral interventions can reduce energy use at scale.",
+              "tags": [
+                "SOTA"
+              ],
+              "citations": 2500,
+              "topic_tags": [
+                "behavioral",
+                "energy-conservation",
+                "rct"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "demand-response-pricing",
+          "name": "Demand Response & Retail Pricing",
+          "application": "Design electricity rates that encourage efficient consumption",
+          "papers": [
+            {
+              "title": "The Long-Run Efficiency of Real-Time Electricity Pricing",
+              "authors": [
+                "Severin Borenstein"
+              ],
+              "year": 2005,
+              "venue": "Energy Journal",
+              "url": "https://doi.org/10.5547/ISSN0195-6574-EJ-Vol26-No3-5",
+              "abstract": "Demonstrates significant efficiency gains from real-time pricing even with relatively low demand elasticity. Shows flat retail rates impose substantial welfare costs when wholesale prices vary.",
+              "tags": [],
+              "citations": 600,
+              "topic_tags": [
+                "demand-response",
+                "real-time-pricing",
+                "efficiency"
+              ]
+            },
+            {
+              "title": "Knowledge is (Less) Power: Experimental Evidence from Residential Energy Use",
+              "authors": [
+                "Katrina Jessoe",
+                "David Rapson"
+              ],
+              "year": 2014,
+              "venue": "American Economic Review",
+              "url": "https://doi.org/10.1257/aer.104.4.1417",
+              "abstract": "Found information feedback increases price elasticity of electricity demand threefold. In-home displays showing real-time consumption enabled consumers to respond more effectively to prices.",
+              "tags": [],
+              "citations": 500,
+              "topic_tags": [
+                "demand-response",
+                "information",
+                "price-elasticity"
+              ]
+            },
+            {
+              "title": "Do Consumers Respond to Marginal or Average Price? Evidence from Nonlinear Electricity Pricing",
+              "authors": [
+                "Koichiro Ito"
+              ],
+              "year": 2014,
+              "venue": "American Economic Review",
+              "url": "https://doi.org/10.1257/aer.104.2.537",
+              "abstract": "Shows consumers respond to average rather than marginal electricity prices under increasing block tariffs. Has important implications for rate design and demand response program effectiveness.",
+              "tags": [],
+              "citations": 600,
+              "topic_tags": [
+                "demand-response",
+                "rate-design",
+                "consumer-behavior"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "storage-grid-modernization",
+          "name": "Storage & Grid Modernization",
+          "application": "Evaluate storage economics and grid infrastructure needs",
+          "papers": [
+            {
+              "title": "The Value of Energy Storage for Grid Applications",
+              "authors": [
+                "Paul Denholm",
+                "Jennie Jorgenson",
+                "Marissa Hummon",
+                "Thomas Jenkin",
+                "David Palchak",
+                "Brendan Kirby",
+                "Ookie Ma",
+                "Mark O'Malley"
+              ],
+              "year": 2013,
+              "venue": "NREL Technical Report",
+              "url": "https://www.nrel.gov/docs/fy13osti/58465.pdf",
+              "abstract": "Foundational NREL study on storage value streams including energy arbitrage, ancillary services, capacity, and transmission deferral. Essential reference for understanding storage economics.",
+              "tags": [
+                "Survey"
+              ],
+              "citations": 800,
+              "topic_tags": [
+                "storage",
+                "grid-applications",
+                "value-stacking"
+              ]
+            },
+            {
+              "title": "Re-examining Rates of Lithium-ion Battery Technology Improvement and Cost Decline",
+              "authors": [
+                "Micah S. Ziegler",
+                "Jessika E. Trancik"
+              ],
+              "year": 2021,
+              "venue": "Energy & Environmental Science",
+              "url": "https://doi.org/10.1039/D0EE02681F",
+              "abstract": "Comprehensive analysis of battery cost trajectories finding consistent 13% annual cost decline. Provides methodology for technology forecasting applicable to other clean energy technologies.",
+              "tags": [
+                "SOTA"
+              ],
+              "citations": 300,
+              "topic_tags": [
+                "storage",
+                "batteries",
+                "learning-curves"
+              ]
+            },
+            {
+              "title": "Evaluating the Causes of Cost Reduction in Photovoltaic Modules",
+              "authors": [
+                "Goksin Kavlak",
+                "James McNerney",
+                "Jessika E. Trancik"
+              ],
+              "year": 2018,
+              "venue": "Energy Policy",
+              "url": "https://doi.org/10.1016/j.enpol.2018.08.015",
+              "abstract": "Decomposes solar PV cost reductions across R&D, learning-by-doing, economies of scale, and material costs. Shows 99% cost decline since 1976 driven by multiple interacting factors.",
+              "tags": [],
+              "citations": 400,
+              "topic_tags": [
+                "solar",
+                "cost-reduction",
+                "technology-analysis"
               ]
             }
           ]
