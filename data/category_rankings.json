@@ -1,0 +1,3818 @@
+{
+  "packages": [
+    {
+      "category": "Causal Discovery & Graphical Models",
+      "total_score": 1.671,
+      "avg_score": 0.1044,
+      "max_score": 0.6436,
+      "count": 16,
+      "engaged_count": 16
+    },
+    {
+      "category": "Adaptive Experimentation & Bandits",
+      "total_score": 1.504,
+      "avg_score": 0.188,
+      "max_score": 0.5693,
+      "count": 8,
+      "engaged_count": 8
+    },
+    {
+      "category": "Standard Errors, Bootstrapping & Reporting",
+      "total_score": 1.052,
+      "avg_score": 0.0876,
+      "max_score": 0.9199,
+      "count": 12,
+      "engaged_count": 12
+    },
+    {
+      "category": "Bayesian Econometrics",
+      "total_score": 0.724,
+      "avg_score": 0.181,
+      "max_score": 0.4812,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Natural Language Processing for Economics",
+      "total_score": 0.602,
+      "avg_score": 0.1504,
+      "max_score": 0.5996,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Double/Debiased Machine Learning (DML)",
+      "total_score": 0.601,
+      "avg_score": 0.1002,
+      "max_score": 0.3994,
+      "count": 6,
+      "engaged_count": 6
+    },
+    {
+      "category": "Transportation Economics & Technology",
+      "total_score": 0.423,
+      "avg_score": 0.0352,
+      "max_score": 0.0421,
+      "count": 12,
+      "engaged_count": 12
+    },
+    {
+      "category": "Causal Inference",
+      "total_score": 0.413,
+      "avg_score": 0.0825,
+      "max_score": 0.3994,
+      "count": 5,
+      "engaged_count": 5
+    },
+    {
+      "category": "MarTech & Customer Analytics",
+      "total_score": 0.407,
+      "avg_score": 0.0339,
+      "max_score": 0.3994,
+      "count": 12,
+      "engaged_count": 12
+    },
+    {
+      "category": "Healthcare Economics & Health-Tech",
+      "total_score": 0.406,
+      "avg_score": 0.0338,
+      "max_score": 0.3994,
+      "count": 12,
+      "engaged_count": 12
+    },
+    {
+      "category": "Bayesian Inference",
+      "total_score": 0.32,
+      "avg_score": 0.0799,
+      "max_score": 0.0799,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Agentic AI",
+      "total_score": 0.318,
+      "avg_score": 0.0795,
+      "max_score": 0.0808,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Causal Inference & Matching",
+      "total_score": 0.254,
+      "avg_score": 0.0141,
+      "max_score": 0.1992,
+      "count": 18,
+      "engaged_count": 18
+    },
+    {
+      "category": "Bunching Estimation",
+      "total_score": 0.243,
+      "avg_score": 0.2426,
+      "max_score": 0.2426,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "Bootstrap & Inference",
+      "total_score": 0.24,
+      "avg_score": 0.08,
+      "max_score": 0.08,
+      "count": 3,
+      "engaged_count": 3
+    },
+    {
+      "category": "Bayesian Causal Inference",
+      "total_score": 0.088,
+      "avg_score": 0.0878,
+      "max_score": 0.0878,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "Discrete Choice Models",
+      "total_score": 0.045,
+      "avg_score": 0.009,
+      "max_score": 0.0421,
+      "count": 5,
+      "engaged_count": 5
+    },
+    {
+      "category": "CTR Prediction",
+      "total_score": 0.039,
+      "avg_score": 0.0391,
+      "max_score": 0.0391,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "Structural Econometrics & Estimation",
+      "total_score": 0.019,
+      "avg_score": 0.0015,
+      "max_score": 0.0046,
+      "count": 13,
+      "engaged_count": 12
+    },
+    {
+      "category": "Statistical Inference & Hypothesis Testing",
+      "total_score": 0.015,
+      "avg_score": 0.0015,
+      "max_score": 0.0036,
+      "count": 10,
+      "engaged_count": 10
+    },
+    {
+      "category": "Marketing Mix Models (MMM) & Business Analytics",
+      "total_score": 0.012,
+      "avg_score": 0.0024,
+      "max_score": 0.0054,
+      "count": 5,
+      "engaged_count": 5
+    },
+    {
+      "category": "Inference & Reporting Tools",
+      "total_score": 0.01,
+      "avg_score": 0.0015,
+      "max_score": 0.0047,
+      "count": 7,
+      "engaged_count": 7
+    },
+    {
+      "category": "Power Simulation & Design of Experiments",
+      "total_score": 0.009,
+      "avg_score": 0.0014,
+      "max_score": 0.0023,
+      "count": 6,
+      "engaged_count": 6
+    },
+    {
+      "category": "State Space & Volatility Models",
+      "total_score": 0.008,
+      "avg_score": 0.0016,
+      "max_score": 0.004,
+      "count": 5,
+      "engaged_count": 5
+    },
+    {
+      "category": "Panel Data & Fixed Effects",
+      "total_score": 0.007,
+      "avg_score": 0.0005,
+      "max_score": 0.0022,
+      "count": 13,
+      "engaged_count": 12
+    },
+    {
+      "category": "Program Evaluation Methods (DiD, SC, RDD)",
+      "total_score": 0.007,
+      "avg_score": 0.0005,
+      "max_score": 0.0011,
+      "count": 14,
+      "engaged_count": 14
+    },
+    {
+      "category": "Core Libraries & Linear Models",
+      "total_score": 0.006,
+      "avg_score": 0.0013,
+      "max_score": 0.0045,
+      "count": 5,
+      "engaged_count": 5
+    },
+    {
+      "category": "Game Theory & Mechanism Design",
+      "total_score": 0.006,
+      "avg_score": 0.0012,
+      "max_score": 0.0025,
+      "count": 5,
+      "engaged_count": 5
+    },
+    {
+      "category": "Instrumental Variables",
+      "total_score": 0.006,
+      "avg_score": 0.0009,
+      "max_score": 0.0037,
+      "count": 7,
+      "engaged_count": 7
+    },
+    {
+      "category": "Optimization",
+      "total_score": 0.006,
+      "avg_score": 0.0008,
+      "max_score": 0.0017,
+      "count": 7,
+      "engaged_count": 6
+    },
+    {
+      "category": "Spatial Econometrics",
+      "total_score": 0.006,
+      "avg_score": 0.0009,
+      "max_score": 0.004,
+      "count": 7,
+      "engaged_count": 7
+    },
+    {
+      "category": "Time Series Econometrics",
+      "total_score": 0.006,
+      "avg_score": 0.0005,
+      "max_score": 0.0017,
+      "count": 12,
+      "engaged_count": 12
+    },
+    {
+      "category": "Time Series Forecasting",
+      "total_score": 0.006,
+      "avg_score": 0.0006,
+      "max_score": 0.0013,
+      "count": 10,
+      "engaged_count": 10
+    },
+    {
+      "category": "Insurance & Actuarial",
+      "total_score": 0.006,
+      "avg_score": 0.0003,
+      "max_score": 0.0019,
+      "count": 17,
+      "engaged_count": 17
+    },
+    {
+      "category": "Causal Inference (ML)",
+      "total_score": 0.005,
+      "avg_score": 0.0004,
+      "max_score": 0.0016,
+      "count": 11,
+      "engaged_count": 11
+    },
+    {
+      "category": "Causal Inference (Synthetic Control)",
+      "total_score": 0.004,
+      "avg_score": 0.0004,
+      "max_score": 0.001,
+      "count": 9,
+      "engaged_count": 9
+    },
+    {
+      "category": "Tree & Ensemble Methods for Prediction",
+      "total_score": 0.004,
+      "avg_score": 0.0005,
+      "max_score": 0.0018,
+      "count": 8,
+      "engaged_count": 8
+    },
+    {
+      "category": "Datasets",
+      "total_score": 0.004,
+      "avg_score": 0.0012,
+      "max_score": 0.0028,
+      "count": 3,
+      "engaged_count": 3
+    },
+    {
+      "category": "Dimensionality Reduction",
+      "total_score": 0.004,
+      "avg_score": 0.0014,
+      "max_score": 0.0021,
+      "count": 3,
+      "engaged_count": 3
+    },
+    {
+      "category": "Energy & Utilities Economics",
+      "total_score": 0.004,
+      "avg_score": 0.0004,
+      "max_score": 0.0013,
+      "count": 10,
+      "engaged_count": 10
+    },
+    {
+      "category": "Causal Inference (DiD)",
+      "total_score": 0.003,
+      "avg_score": 0.0003,
+      "max_score": 0.0007,
+      "count": 8,
+      "engaged_count": 8
+    },
+    {
+      "category": "Matching & Market Design",
+      "total_score": 0.003,
+      "avg_score": 0.0005,
+      "max_score": 0.0012,
+      "count": 5,
+      "engaged_count": 5
+    },
+    {
+      "category": "Network Analysis",
+      "total_score": 0.003,
+      "avg_score": 0.0005,
+      "max_score": 0.0005,
+      "count": 6,
+      "engaged_count": 6
+    },
+    {
+      "category": "Numerical Optimization & Computational Tools",
+      "total_score": 0.003,
+      "avg_score": 0.0004,
+      "max_score": 0.0009,
+      "count": 7,
+      "engaged_count": 7
+    },
+    {
+      "category": "Quantile Regression & Distributional Methods",
+      "total_score": 0.003,
+      "avg_score": 0.001,
+      "max_score": 0.0019,
+      "count": 3,
+      "engaged_count": 3
+    },
+    {
+      "category": "Sports Analytics",
+      "total_score": 0.003,
+      "avg_score": 0.0003,
+      "max_score": 0.0006,
+      "count": 10,
+      "engaged_count": 10
+    },
+    {
+      "category": "Causal Inference (Matching)",
+      "total_score": 0.002,
+      "avg_score": 0.0003,
+      "max_score": 0.0006,
+      "count": 6,
+      "engaged_count": 6
+    },
+    {
+      "category": "Causal Inference (RDD)",
+      "total_score": 0.002,
+      "avg_score": 0.0003,
+      "max_score": 0.0006,
+      "count": 6,
+      "engaged_count": 6
+    },
+    {
+      "category": "Machine Learning",
+      "total_score": 0.002,
+      "avg_score": 0.0003,
+      "max_score": 0.0008,
+      "count": 6,
+      "engaged_count": 5
+    },
+    {
+      "category": "Regression Output",
+      "total_score": 0.002,
+      "avg_score": 0.0003,
+      "max_score": 0.0004,
+      "count": 6,
+      "engaged_count": 6
+    },
+    {
+      "category": "Causal Inference (Dynamic Treatment)",
+      "total_score": 0.001,
+      "avg_score": 0.0003,
+      "max_score": 0.0005,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "Causal Inference (Event Study)",
+      "total_score": 0.001,
+      "avg_score": 0.0003,
+      "max_score": 0.0005,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "Causal Inference (Interference)",
+      "total_score": 0.001,
+      "avg_score": 0.0004,
+      "max_score": 0.0005,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "Causal Inference (Mediation)",
+      "total_score": 0.001,
+      "avg_score": 0.0005,
+      "max_score": 0.0008,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "Conformal Prediction & Uncertainty",
+      "total_score": 0.001,
+      "avg_score": 0.0002,
+      "max_score": 0.0005,
+      "count": 5,
+      "engaged_count": 5
+    },
+    {
+      "category": "Conjoint Analysis",
+      "total_score": 0.001,
+      "avg_score": 0.0003,
+      "max_score": 0.0004,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "Data Workflow",
+      "total_score": 0.001,
+      "avg_score": 0.0004,
+      "max_score": 0.0005,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Experimental Design",
+      "total_score": 0.001,
+      "avg_score": 0.0004,
+      "max_score": 0.0008,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Geo-Experiments & Lift Measurement",
+      "total_score": 0.001,
+      "avg_score": 0.0003,
+      "max_score": 0.0004,
+      "count": 3,
+      "engaged_count": 3
+    },
+    {
+      "category": "Interference & Spillovers",
+      "total_score": 0.001,
+      "avg_score": 0.0003,
+      "max_score": 0.0004,
+      "count": 3,
+      "engaged_count": 3
+    },
+    {
+      "category": "Marginal Effects",
+      "total_score": 0.001,
+      "avg_score": 0.0005,
+      "max_score": 0.0007,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "Mixed Effects",
+      "total_score": 0.001,
+      "avg_score": 0.0002,
+      "max_score": 0.0003,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Power Analysis",
+      "total_score": 0.001,
+      "avg_score": 0.0002,
+      "max_score": 0.0003,
+      "count": 3,
+      "engaged_count": 3
+    },
+    {
+      "category": "Reproducibility",
+      "total_score": 0.001,
+      "avg_score": 0.0003,
+      "max_score": 0.0006,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Structural Equation Modeling",
+      "total_score": 0.001,
+      "avg_score": 0.0003,
+      "max_score": 0.0005,
+      "count": 3,
+      "engaged_count": 3
+    },
+    {
+      "category": "Synthetic Data Generation",
+      "total_score": 0.001,
+      "avg_score": 0.0003,
+      "max_score": 0.0004,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "Text Analysis",
+      "total_score": 0.001,
+      "avg_score": 0.0002,
+      "max_score": 0.0004,
+      "count": 4,
+      "engaged_count": 3
+    },
+    {
+      "category": "Uplift Modeling",
+      "total_score": 0.001,
+      "avg_score": 0.0004,
+      "max_score": 0.0007,
+      "count": 3,
+      "engaged_count": 3
+    },
+    {
+      "category": "Visualization",
+      "total_score": 0.001,
+      "avg_score": 0.0003,
+      "max_score": 0.0003,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "Energy Systems Modeling",
+      "total_score": 0.001,
+      "avg_score": 0.0002,
+      "max_score": 0.0004,
+      "count": 5,
+      "engaged_count": 5
+    },
+    {
+      "category": "Defense Research",
+      "total_score": 0.001,
+      "avg_score": 0.0003,
+      "max_score": 0.0005,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "Marketing Analytics",
+      "total_score": 0.001,
+      "avg_score": 0.0004,
+      "max_score": 0.0007,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "Causal Inference (Bounds)",
+      "total_score": 0.0,
+      "avg_score": 0.0004,
+      "max_score": 0.0004,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "Causal Inference (Continuous Treatment)",
+      "total_score": 0.0,
+      "avg_score": 0.0002,
+      "max_score": 0.0002,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "Causal Inference (Principal Stratification)",
+      "total_score": 0.0,
+      "avg_score": 0.0004,
+      "max_score": 0.0004,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "Generalized Additive Models",
+      "total_score": 0.0,
+      "avg_score": 0.0002,
+      "max_score": 0.0002,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "Model Diagnostics",
+      "total_score": 0.0,
+      "avg_score": 0.0001,
+      "max_score": 0.0002,
+      "count": 3,
+      "engaged_count": 3
+    },
+    {
+      "category": "Robust Standard Errors",
+      "total_score": 0.0,
+      "avg_score": 0.0001,
+      "max_score": 0.0002,
+      "count": 3,
+      "engaged_count": 2
+    },
+    {
+      "category": "Recommender Systems",
+      "total_score": 0.0,
+      "avg_score": 0.0001,
+      "max_score": 0.0001,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "Data Access",
+      "total_score": 0.0,
+      "avg_score": 0.0001,
+      "max_score": 0.0002,
+      "count": 3,
+      "engaged_count": 2
+    },
+    {
+      "category": "Space & Orbital Analysis",
+      "total_score": 0.0,
+      "avg_score": 0.0001,
+      "max_score": 0.0003,
+      "count": 3,
+      "engaged_count": 2
+    },
+    {
+      "category": "Cybersecurity",
+      "total_score": 0.0,
+      "avg_score": 0.0001,
+      "max_score": 0.0001,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "Data Wrangling",
+      "total_score": 0.0,
+      "avg_score": 0.0001,
+      "max_score": 0.0001,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "Geospatial",
+      "total_score": 0.0,
+      "avg_score": 0.0002,
+      "max_score": 0.0002,
+      "count": 1,
+      "engaged_count": 1
+    }
+  ],
+  "datasets": [
+    {
+      "category": "E-Commerce",
+      "total_score": 2.501,
+      "avg_score": 0.0736,
+      "max_score": 0.6156,
+      "count": 34,
+      "engaged_count": 34
+    },
+    {
+      "category": "AI & LLM",
+      "total_score": 0.85,
+      "avg_score": 0.17,
+      "max_score": 0.4452,
+      "count": 5,
+      "engaged_count": 3
+    },
+    {
+      "category": "Healthcare",
+      "total_score": 0.598,
+      "avg_score": 0.1992,
+      "max_score": 0.1992,
+      "count": 3,
+      "engaged_count": 3
+    },
+    {
+      "category": "Education",
+      "total_score": 0.402,
+      "avg_score": 0.0669,
+      "max_score": 0.3994,
+      "count": 6,
+      "engaged_count": 6
+    },
+    {
+      "category": "Transportation & Mobility",
+      "total_score": 0.402,
+      "avg_score": 0.0446,
+      "max_score": 0.1992,
+      "count": 9,
+      "engaged_count": 9
+    },
+    {
+      "category": "Food & Delivery",
+      "total_score": 0.401,
+      "avg_score": 0.0802,
+      "max_score": 0.3994,
+      "count": 5,
+      "engaged_count": 5
+    },
+    {
+      "category": "Financial Services",
+      "total_score": 0.208,
+      "avg_score": 0.016,
+      "max_score": 0.1992,
+      "count": 13,
+      "engaged_count": 13
+    },
+    {
+      "category": "Automotive",
+      "total_score": 0.2,
+      "avg_score": 0.0401,
+      "max_score": 0.1992,
+      "count": 5,
+      "engaged_count": 5
+    },
+    {
+      "category": "Data Portals",
+      "total_score": 0.018,
+      "avg_score": 0.0006,
+      "max_score": 0.0082,
+      "count": 31,
+      "engaged_count": 31
+    },
+    {
+      "category": "Advertising",
+      "total_score": 0.012,
+      "avg_score": 0.0005,
+      "max_score": 0.0018,
+      "count": 22,
+      "engaged_count": 22
+    },
+    {
+      "category": "Entertainment & Media",
+      "total_score": 0.009,
+      "avg_score": 0.0005,
+      "max_score": 0.0025,
+      "count": 19,
+      "engaged_count": 18
+    },
+    {
+      "category": "Dataset Aggregators",
+      "total_score": 0.009,
+      "avg_score": 0.0004,
+      "max_score": 0.0015,
+      "count": 24,
+      "engaged_count": 23
+    },
+    {
+      "category": "Grocery & Supermarkets",
+      "total_score": 0.008,
+      "avg_score": 0.0003,
+      "max_score": 0.0016,
+      "count": 24,
+      "engaged_count": 24
+    },
+    {
+      "category": "Insurance & Actuarial",
+      "total_score": 0.006,
+      "avg_score": 0.0005,
+      "max_score": 0.0017,
+      "count": 12,
+      "engaged_count": 12
+    },
+    {
+      "category": "Auctions & Marketplaces",
+      "total_score": 0.004,
+      "avg_score": 0.0005,
+      "max_score": 0.0012,
+      "count": 8,
+      "engaged_count": 8
+    },
+    {
+      "category": "Social & Web",
+      "total_score": 0.004,
+      "avg_score": 0.0003,
+      "max_score": 0.0007,
+      "count": 13,
+      "engaged_count": 13
+    },
+    {
+      "category": "Travel & Hospitality",
+      "total_score": 0.003,
+      "avg_score": 0.0009,
+      "max_score": 0.0012,
+      "count": 3,
+      "engaged_count": 3
+    },
+    {
+      "category": "Logistics & Supply Chain",
+      "total_score": 0.003,
+      "avg_score": 0.0006,
+      "max_score": 0.0017,
+      "count": 6,
+      "engaged_count": 6
+    },
+    {
+      "category": "Transportation Economics & Technology",
+      "total_score": 0.003,
+      "avg_score": 0.0003,
+      "max_score": 0.0009,
+      "count": 10,
+      "engaged_count": 9
+    },
+    {
+      "category": "Fashion & Apparel",
+      "total_score": 0.002,
+      "avg_score": 0.0003,
+      "max_score": 0.0007,
+      "count": 7,
+      "engaged_count": 7
+    },
+    {
+      "category": "Labor Markets",
+      "total_score": 0.002,
+      "avg_score": 0.0003,
+      "max_score": 0.0006,
+      "count": 5,
+      "engaged_count": 5
+    },
+    {
+      "category": "Healthcare Economics & Health-Tech",
+      "total_score": 0.002,
+      "avg_score": 0.0002,
+      "max_score": 0.0007,
+      "count": 10,
+      "engaged_count": 10
+    },
+    {
+      "category": "Energy",
+      "total_score": 0.002,
+      "avg_score": 0.0002,
+      "max_score": 0.0008,
+      "count": 10,
+      "engaged_count": 9
+    },
+    {
+      "category": "MarTech & Customer Analytics",
+      "total_score": 0.002,
+      "avg_score": 0.0003,
+      "max_score": 0.0006,
+      "count": 8,
+      "engaged_count": 8
+    },
+    {
+      "category": "Real Estate",
+      "total_score": 0.001,
+      "avg_score": 0.0002,
+      "max_score": 0.0007,
+      "count": 6,
+      "engaged_count": 6
+    },
+    {
+      "category": "App Stores",
+      "total_score": 0.001,
+      "avg_score": 0.0002,
+      "max_score": 0.0003,
+      "count": 3,
+      "engaged_count": 3
+    },
+    {
+      "category": "Content Moderation",
+      "total_score": 0.001,
+      "avg_score": 0.0002,
+      "max_score": 0.0004,
+      "count": 8,
+      "engaged_count": 8
+    },
+    {
+      "category": "Sports & Athletics",
+      "total_score": 0.001,
+      "avg_score": 0.0002,
+      "max_score": 0.0004,
+      "count": 8,
+      "engaged_count": 7
+    },
+    {
+      "category": "Defense Economics",
+      "total_score": 0.001,
+      "avg_score": 0.0001,
+      "max_score": 0.0003,
+      "count": 7,
+      "engaged_count": 6
+    },
+    {
+      "category": "Cybersecurity",
+      "total_score": 0.001,
+      "avg_score": 0.0002,
+      "max_score": 0.0004,
+      "count": 3,
+      "engaged_count": 3
+    },
+    {
+      "category": "Creator Economy",
+      "total_score": 0.0,
+      "avg_score": 0.0001,
+      "max_score": 0.0002,
+      "count": 3,
+      "engaged_count": 3
+    },
+    {
+      "category": "Space",
+      "total_score": 0.0,
+      "avg_score": 0.0001,
+      "max_score": 0.0002,
+      "count": 2,
+      "engaged_count": 1
+    },
+    {
+      "category": "Causal Inference",
+      "total_score": 0.0,
+      "avg_score": 0.0002,
+      "max_score": 0.0002,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "Fraud Detection",
+      "total_score": 0.0,
+      "avg_score": 0.0002,
+      "max_score": 0.0002,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "Marketing Mix",
+      "total_score": 0.0,
+      "avg_score": 0.0003,
+      "max_score": 0.0003,
+      "count": 1,
+      "engaged_count": 1
+    }
+  ],
+  "resources": [
+    {
+      "category": "Causal Inference & ML",
+      "total_score": 2.916,
+      "avg_score": 0.0583,
+      "max_score": 0.9199,
+      "count": 50,
+      "engaged_count": 50
+    },
+    {
+      "category": "Bayesian Methods",
+      "total_score": 1.663,
+      "avg_score": 0.4157,
+      "max_score": 0.4937,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Software Engineering",
+      "total_score": 1.283,
+      "avg_score": 0.1069,
+      "max_score": 0.1084,
+      "count": 12,
+      "engaged_count": 12
+    },
+    {
+      "category": "Marketplace Economics",
+      "total_score": 1.038,
+      "avg_score": 0.2076,
+      "max_score": 0.6413,
+      "count": 5,
+      "engaged_count": 5
+    },
+    {
+      "category": "Probability & Inference",
+      "total_score": 0.956,
+      "avg_score": 0.1913,
+      "max_score": 0.2583,
+      "count": 5,
+      "engaged_count": 5
+    },
+    {
+      "category": "Linear Programming",
+      "total_score": 0.917,
+      "avg_score": 0.0764,
+      "max_score": 0.2453,
+      "count": 12,
+      "engaged_count": 12
+    },
+    {
+      "category": "SQL",
+      "total_score": 0.794,
+      "avg_score": 0.0794,
+      "max_score": 0.0802,
+      "count": 10,
+      "engaged_count": 10
+    },
+    {
+      "category": "Auction Theory",
+      "total_score": 0.756,
+      "avg_score": 0.1512,
+      "max_score": 0.4395,
+      "count": 5,
+      "engaged_count": 5
+    },
+    {
+      "category": "Python",
+      "total_score": 0.721,
+      "avg_score": 0.1202,
+      "max_score": 0.1207,
+      "count": 6,
+      "engaged_count": 6
+    },
+    {
+      "category": "Growth & Retention",
+      "total_score": 0.521,
+      "avg_score": 0.0348,
+      "max_score": 0.0791,
+      "count": 15,
+      "engaged_count": 15
+    },
+    {
+      "category": "Convex Optimization",
+      "total_score": 0.482,
+      "avg_score": 0.0804,
+      "max_score": 0.0829,
+      "count": 6,
+      "engaged_count": 6
+    },
+    {
+      "category": "Ads & Attribution",
+      "total_score": 0.475,
+      "avg_score": 0.0432,
+      "max_score": 0.0791,
+      "count": 11,
+      "engaged_count": 11
+    },
+    {
+      "category": "Trust & Safety",
+      "total_score": 0.408,
+      "avg_score": 0.0408,
+      "max_score": 0.0475,
+      "count": 10,
+      "engaged_count": 10
+    },
+    {
+      "category": "Difference-in-Differences",
+      "total_score": 0.404,
+      "avg_score": 0.0807,
+      "max_score": 0.0831,
+      "count": 5,
+      "engaged_count": 5
+    },
+    {
+      "category": "Causal ML",
+      "total_score": 0.401,
+      "avg_score": 0.0802,
+      "max_score": 0.0808,
+      "count": 5,
+      "engaged_count": 5
+    },
+    {
+      "category": "Routing & Logistics",
+      "total_score": 0.315,
+      "avg_score": 0.0286,
+      "max_score": 0.0391,
+      "count": 11,
+      "engaged_count": 11
+    },
+    {
+      "category": "Fundamentals",
+      "total_score": 0.285,
+      "avg_score": 0.0407,
+      "max_score": 0.0791,
+      "count": 7,
+      "engaged_count": 7
+    },
+    {
+      "category": "Pricing & Revenue",
+      "total_score": 0.274,
+      "avg_score": 0.0229,
+      "max_score": 0.0466,
+      "count": 12,
+      "engaged_count": 12
+    },
+    {
+      "category": "Computational Economics",
+      "total_score": 0.235,
+      "avg_score": 0.0391,
+      "max_score": 0.0391,
+      "count": 6,
+      "engaged_count": 6
+    },
+    {
+      "category": "AB Testing",
+      "total_score": 0.233,
+      "avg_score": 0.0101,
+      "max_score": 0.1992,
+      "count": 23,
+      "engaged_count": 23
+    },
+    {
+      "category": "Operations Research",
+      "total_score": 0.176,
+      "avg_score": 0.0088,
+      "max_score": 0.0391,
+      "count": 20,
+      "engaged_count": 20
+    },
+    {
+      "category": "IV & RDD",
+      "total_score": 0.156,
+      "avg_score": 0.0391,
+      "max_score": 0.0391,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Synthetic Control",
+      "total_score": 0.156,
+      "avg_score": 0.0391,
+      "max_score": 0.0391,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Machine Learning",
+      "total_score": 0.125,
+      "avg_score": 0.0312,
+      "max_score": 0.1203,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Classical Methods",
+      "total_score": 0.117,
+      "avg_score": 0.0391,
+      "max_score": 0.0391,
+      "count": 3,
+      "engaged_count": 3
+    },
+    {
+      "category": "A/B Testing Fundamentals",
+      "total_score": 0.09,
+      "avg_score": 0.0226,
+      "max_score": 0.0791,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Academic Course",
+      "total_score": 0.088,
+      "avg_score": 0.0438,
+      "max_score": 0.0849,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "Platform Economics",
+      "total_score": 0.045,
+      "avg_score": 0.0009,
+      "max_score": 0.0038,
+      "count": 50,
+      "engaged_count": 49
+    },
+    {
+      "category": "Frameworks & Strategy",
+      "total_score": 0.028,
+      "avg_score": 0.0016,
+      "max_score": 0.0105,
+      "count": 17,
+      "engaged_count": 15
+    },
+    {
+      "category": "Case Studies",
+      "total_score": 0.018,
+      "avg_score": 0.0025,
+      "max_score": 0.0061,
+      "count": 7,
+      "engaged_count": 7
+    },
+    {
+      "category": "Search & Ranking",
+      "total_score": 0.018,
+      "avg_score": 0.0025,
+      "max_score": 0.0055,
+      "count": 7,
+      "engaged_count": 7
+    },
+    {
+      "category": "Variance Reduction",
+      "total_score": 0.015,
+      "avg_score": 0.0029,
+      "max_score": 0.0064,
+      "count": 5,
+      "engaged_count": 5
+    },
+    {
+      "category": "Deep Learning",
+      "total_score": 0.013,
+      "avg_score": 0.0015,
+      "max_score": 0.0041,
+      "count": 9,
+      "engaged_count": 9
+    },
+    {
+      "category": "LLMs & Agents",
+      "total_score": 0.013,
+      "avg_score": 0.0022,
+      "max_score": 0.0046,
+      "count": 6,
+      "engaged_count": 6
+    },
+    {
+      "category": "Interference & Switchback",
+      "total_score": 0.012,
+      "avg_score": 0.0023,
+      "max_score": 0.0039,
+      "count": 5,
+      "engaged_count": 5
+    },
+    {
+      "category": "Market Design & Matching",
+      "total_score": 0.01,
+      "avg_score": 0.0024,
+      "max_score": 0.0048,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Sequential Testing",
+      "total_score": 0.01,
+      "avg_score": 0.0025,
+      "max_score": 0.0049,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Gradient Boosting",
+      "total_score": 0.009,
+      "avg_score": 0.0023,
+      "max_score": 0.0053,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Specialized Methods",
+      "total_score": 0.008,
+      "avg_score": 0.0021,
+      "max_score": 0.0061,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Marketing Science",
+      "total_score": 0.008,
+      "avg_score": 0.001,
+      "max_score": 0.0032,
+      "count": 8,
+      "engaged_count": 8
+    },
+    {
+      "category": "Bandits & Adaptive",
+      "total_score": 0.007,
+      "avg_score": 0.0017,
+      "max_score": 0.0031,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "MarTech & Customer Analytics",
+      "total_score": 0.007,
+      "avg_score": 0.0013,
+      "max_score": 0.0027,
+      "count": 5,
+      "engaged_count": 3
+    },
+    {
+      "category": "Production Systems",
+      "total_score": 0.006,
+      "avg_score": 0.0014,
+      "max_score": 0.0022,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Insurance & Actuarial",
+      "total_score": 0.006,
+      "avg_score": 0.0016,
+      "max_score": 0.0037,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Metrics & Measurement",
+      "total_score": 0.004,
+      "avg_score": 0.0019,
+      "max_score": 0.002,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "Recommender Systems",
+      "total_score": 0.004,
+      "avg_score": 0.001,
+      "max_score": 0.0014,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Healthcare Economics & Health-Tech",
+      "total_score": 0.004,
+      "avg_score": 0.0012,
+      "max_score": 0.0024,
+      "count": 3,
+      "engaged_count": 3
+    },
+    {
+      "category": "Tech Strategy",
+      "total_score": 0.003,
+      "avg_score": 0.0004,
+      "max_score": 0.0008,
+      "count": 8,
+      "engaged_count": 7
+    },
+    {
+      "category": "Transportation Economics & Technology",
+      "total_score": 0.003,
+      "avg_score": 0.0011,
+      "max_score": 0.0018,
+      "count": 3,
+      "engaged_count": 2
+    },
+    {
+      "category": "Advertising & Attention",
+      "total_score": 0.002,
+      "avg_score": 0.001,
+      "max_score": 0.0018,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "Applied Economics",
+      "total_score": 0.002,
+      "avg_score": 0.0006,
+      "max_score": 0.0009,
+      "count": 3,
+      "engaged_count": 3
+    },
+    {
+      "category": "Academic Program",
+      "total_score": 0.002,
+      "avg_score": 0.0017,
+      "max_score": 0.0017,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "Energy & Utilities Economics",
+      "total_score": 0.001,
+      "avg_score": 0.0002,
+      "max_score": 0.0003,
+      "count": 3,
+      "engaged_count": 3
+    },
+    {
+      "category": "Course",
+      "total_score": 0.001,
+      "avg_score": 0.0003,
+      "max_score": 0.0004,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "Professional Training",
+      "total_score": 0.001,
+      "avg_score": 0.001,
+      "max_score": 0.001,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "Sports Analytics",
+      "total_score": 0.0,
+      "avg_score": 0.0002,
+      "max_score": 0.0003,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "Blog",
+      "total_score": 0.0,
+      "avg_score": 0.0002,
+      "max_score": 0.0002,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "Research Archive",
+      "total_score": 0.0,
+      "avg_score": 0.0004,
+      "max_score": 0.0004,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "Think Tank",
+      "total_score": 0.0,
+      "avg_score": 0.0004,
+      "max_score": 0.0004,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "Research Institute",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 1,
+      "engaged_count": 0
+    },
+    {
+      "category": "Industry Standards",
+      "total_score": 0.0,
+      "avg_score": 0.0002,
+      "max_score": 0.0004,
+      "count": 2,
+      "engaged_count": 1
+    },
+    {
+      "category": "Online Guide",
+      "total_score": 0.0,
+      "avg_score": 0.0003,
+      "max_score": 0.0003,
+      "count": 1,
+      "engaged_count": 1
+    }
+  ],
+  "papers": [
+    {
+      "category": "Experimentation > A/B Test Design & Analysis",
+      "total_score": 1.0,
+      "avg_score": 0.1667,
+      "max_score": 1.0,
+      "count": 6,
+      "engaged_count": 1
+    },
+    {
+      "category": "Pricing > Dynamic Pricing & Revenue Management",
+      "total_score": 0.047,
+      "avg_score": 0.0093,
+      "max_score": 0.0466,
+      "count": 5,
+      "engaged_count": 1
+    },
+    {
+      "category": "Statistics > Bootstrap & Resampling Methods",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Statistics > Survival Analysis & Time-to-Event Models",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Statistics > Bayesian Hierarchical Models",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Statistics > Generalized Linear Models",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Statistics > Mixed Effects & Multilevel Models",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Statistics > Multiple Testing & False Discovery Rate",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Statistics > Survey Sampling & Weighted Estimation",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Statistics > Extreme Value Theory",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Statistics > Item Response Theory",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Statistics > Post-Selection Inference",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Experimentation > Variance Reduction",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Experimentation > Sequential & Adaptive Testing",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Experimentation > Interference & Spillovers",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Experimentation > Switchback & Geo-Experiments",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Experimentation > Long-run Effects & Surrogates",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Observational Causal Inference > Matching & Propensity Scores",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Observational Causal Inference > Difference-in-Differences",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Observational Causal Inference > Synthetic Control",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Observational Causal Inference > Instrumental Variables & LATE",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Observational Causal Inference > Regression Discontinuity",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Observational Causal Inference > Double ML & Heterogeneous Effects",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Observational Causal Inference > Sensitivity & Bounds",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Recommender Systems > Collaborative Filtering & Matrix Factorization",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Recommender Systems > Deep Recommenders",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 8,
+      "engaged_count": 0
+    },
+    {
+      "category": "Recommender Systems > Causal Recommendations & Debiasing",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Recommender Systems > Exploration & Diversity",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Recommender Systems > Cold Start",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Recommender Systems > Graph Neural Networks for Recommendations",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Recommender Systems > Multi-Task & Multi-Objective Learning",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Recommender Systems > Reinforcement Learning for Recommendations",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Recommender Systems > Fairness & Responsible Recommendations",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Recommender Systems > Evaluation Methodology",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 3,
+      "engaged_count": 0
+    },
+    {
+      "category": "Search & Ranking > Learning to Rank",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Search & Ranking > Query Understanding",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Search & Ranking > Relevance vs. Engagement",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Search & Ranking > Position Bias & Debiasing",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Search & Ranking > Semantic Search & Embeddings",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 8,
+      "engaged_count": 0
+    },
+    {
+      "category": "Search & Ranking > Neural Ranking Models",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Search & Ranking > Retrieval-Augmented Generation",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Search & Ranking > Evaluation Methods for IR",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Search & Ranking > Personalized & Conversational Search",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Search & Ranking > Result Diversification",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 3,
+      "engaged_count": 0
+    },
+    {
+      "category": "Reinforcement Learning > Multi-Armed Bandits",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Reinforcement Learning > Contextual Bandits",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Reinforcement Learning > Thompson Sampling & Bayesian Bandits",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Reinforcement Learning > Off-Policy Evaluation",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Reinforcement Learning > Batch/Offline RL",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Reinforcement Learning > RL for Bidding & Pricing",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 8,
+      "engaged_count": 0
+    },
+    {
+      "category": "Reinforcement Learning > RL for Recommendations",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Reinforcement Learning > Safe & Constrained RL",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 3,
+      "engaged_count": 0
+    },
+    {
+      "category": "Reinforcement Learning > Exploration & Sample Efficiency",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Reinforcement Learning > Multi-Agent & Game-Theoretic RL",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Inverse RL & Preference Learning > Reward Inference from Behavior",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Inverse RL & Preference Learning > Imitation Learning",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Inverse RL & Preference Learning > Revealed Preference at Scale",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Inverse RL & Preference Learning > Human Feedback & RLHF",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 8,
+      "engaged_count": 0
+    },
+    {
+      "category": "Inverse RL & Preference Learning > Preference Elicitation & Active Learning",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Inverse RL & Preference Learning > Choice Modeling from Behavioral Data",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Inverse RL & Preference Learning > Value Alignment & AI Safety",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Inverse RL & Preference Learning > Personalization & User Modeling",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 3,
+      "engaged_count": 0
+    },
+    {
+      "category": "Forecasting > Time Series Foundations",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Forecasting > Probabilistic Forecasting",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Forecasting > Hierarchical & Grouped Forecasting",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Forecasting > Deep Learning for Forecasting",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Forecasting > Transformers & MLPs for Forecasting",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Forecasting > Foundation Models for Time Series",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Forecasting > Intermittent Demand Forecasting",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Forecasting > Time Series Anomaly Detection",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Forecasting > Causal Impact & Intervention",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Forecasting > Production Forecasting Systems",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Clustering & Segmentation > Customer Segmentation",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Clustering & Segmentation > Classical Clustering Algorithms",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 8,
+      "engaged_count": 0
+    },
+    {
+      "category": "Clustering & Segmentation > Model-Based Clustering",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Clustering & Segmentation > Embedding-Based Clustering",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 8,
+      "engaged_count": 0
+    },
+    {
+      "category": "Clustering & Segmentation > Segmentation for Targeting",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Clustering & Segmentation > Music & Audio Clustering",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Clustering & Segmentation > Video & Movie Clustering",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Clustering & Segmentation > Game & UGC Clustering",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Clustering & Segmentation > Text & Document Clustering",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Clustering & Segmentation > Visual Content Clustering",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Pricing > Markdown & Clearance",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Pricing > Surge & Real-time Pricing",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Pricing > Personalized Pricing",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Pricing > Demand Estimation & Elasticity",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Pricing > Price Experimentation",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Pricing > Subscription & Nonlinear Pricing",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Pricing > Algorithmic Pricing",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Pricing > RL for Pricing",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Subscriptions & Retention > Churn Prediction & Prevention",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 2,
+      "engaged_count": 0
+    },
+    {
+      "category": "Subscriptions & Retention > Lifetime Value Estimation",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 3,
+      "engaged_count": 0
+    },
+    {
+      "category": "Subscriptions & Retention > Free-to-Paid Conversion",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 2,
+      "engaged_count": 0
+    },
+    {
+      "category": "Subscriptions & Retention > Renewal & Cancellation Dynamics",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 2,
+      "engaged_count": 0
+    },
+    {
+      "category": "Subscriptions & Retention > Engagement & Habit Formation",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Subscriptions & Retention > Survival Analysis for Subscriptions",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Subscriptions & Retention > Customer Base Analysis & Cohort Methods",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 3,
+      "engaged_count": 0
+    },
+    {
+      "category": "Subscriptions & Retention > Network Effects on Retention",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Advertising > Ad Auctions (GSP, VCG)",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Advertising > Autobidding & Budget Pacing",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Advertising > Attribution & Incrementality",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Advertising > Targeting & Lookalikes",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Advertising > Brand vs. Performance",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Advertising > Privacy & Ad Effectiveness",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Advertising > Real-Time Bidding & Programmatic",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Advertising > Attention & Viewability",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Marketing & Growth > Acquisition & Referrals",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Marketing & Growth > Network Effects & Viral Growth",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Marketing & Growth > Promotions & Discounts",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Marketing & Growth > Marketing Mix Modeling",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Marketing & Growth > Uplift Modeling",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Marketing & Growth > Customer Journey & Funnel Analytics",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Marketing & Growth > A/B Testing & Experimentation",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Marketing & Growth > Loyalty Programs & CRM",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Marketing & Growth > Content & Social Media Marketing",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Matching & Marketplaces > Two-Sided Markets",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Matching & Marketplaces > Search & Matching Frictions",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 8,
+      "engaged_count": 0
+    },
+    {
+      "category": "Matching & Marketplaces > Matching Algorithms",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Matching & Marketplaces > Reputation & Reviews",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Matching & Marketplaces > Congestion & Rationing",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Matching & Marketplaces > Gig Economy & Platform Labor",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Matching & Marketplaces > Dynamic Pricing in Marketplaces",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 3,
+      "engaged_count": 0
+    },
+    {
+      "category": "Matching & Marketplaces > Marketplace Design & Experimentation",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Matching & Marketplaces > Platform Competition & Strategy",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Matching & Marketplaces > Information Design in Marketplaces",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 3,
+      "engaged_count": 0
+    },
+    {
+      "category": "Mechanism Design & Auctions > Auction Theory Foundations",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Mechanism Design & Auctions > Multi-unit & Combinatorial Auctions",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Mechanism Design & Auctions > Dynamic Auctions & Repeated Games",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 9,
+      "engaged_count": 0
+    },
+    {
+      "category": "Mechanism Design & Auctions > Market Design",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Mechanism Design & Auctions > Information Design & Signaling",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Mechanism Design & Auctions > Sponsored Search & Display Ad Auctions",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Mechanism Design & Auctions > Algorithmic Game Theory & Computational Mechanism Design",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Mechanism Design & Auctions > Platform Mechanism Design",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Mechanism Design & Auctions > Privacy-Preserving & Differential Privacy Mechanisms",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 3,
+      "engaged_count": 0
+    },
+    {
+      "category": "Mechanism Design & Auctions > Cloud & Computing Resource Auctions",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Structural Estimation > Demand Estimation (BLP)",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Structural Estimation > Entry & Competition",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Structural Estimation > Dynamic Structural Models",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Structural Estimation > Auction Estimation",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Structural Estimation > Production & Cost Estimation",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Structural Estimation > Platform & Network Effects Estimation",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Structural Estimation > Digital Goods, Streaming & Content Markets",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Structural Estimation > E-commerce & Online Retail",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Structural Estimation > Search, Advertising & Attention",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Structural Estimation > Machine Learning & Structural Estimation",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Choice Models & Dynamic Choice > Discrete Choice (Logit, Mixed Logit)",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Choice Models & Dynamic Choice > Consideration Sets & Attention",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Choice Models & Dynamic Choice > Dynamic Discrete Choice",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Choice Models & Dynamic Choice > Intertemporal Substitution",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Choice Models & Dynamic Choice > Choice Architecture & Nudges",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 8,
+      "engaged_count": 0
+    },
+    {
+      "category": "Choice Models & Dynamic Choice > Search & Sequential Choice",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Choice Models & Dynamic Choice > Learning & Experimentation in Choice",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Choice Models & Dynamic Choice > Recommendation Systems & Algorithmic Choice",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Choice Models & Dynamic Choice > Switching Costs & Platform Lock-in",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Choice Models & Dynamic Choice > Social Influence & Peer Effects",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Credit & Lending > Credit Scoring & Risk Models",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 8,
+      "engaged_count": 0
+    },
+    {
+      "category": "Credit & Lending > Fair Lending & Disparate Impact",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Credit & Lending > Pricing Credit Products",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Credit & Lending > Collections & Recovery",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Credit & Lending > Alternative Data",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Credit & Lending > Fraud, Credit and Claim Risk & Anomaly Detection",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Credit & Lending > Insurance Claims & Actuarial ML",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Credit & Lending > Safety & Trust Scoring on Platforms",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Credit & Lending > Explainability & Regulatory ML",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Credit & Lending > Real-time Decisioning & Deployment",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Trust & Safety > Fraud, Credit and Claim Risk",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 16,
+      "engaged_count": 0
+    },
+    {
+      "category": "Trust & Safety > Spam & Abuse",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Trust & Safety > Content Moderation & Toxicity",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Trust & Safety > Account Security & Identity",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0.0001,
+      "count": 5,
+      "engaged_count": 1
+    },
+    {
+      "category": "Trust & Safety > Coordinated Manipulation & Information Operations",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Trust & Safety > Abuse Detection in Human Interaction",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Trust & Safety > Privacy & Data Misuse",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Logistics & Operations > Routing & Dispatch",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 10,
+      "engaged_count": 0
+    },
+    {
+      "category": "Logistics & Operations > Inventory & Fulfillment",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Logistics & Operations > Supply Chain Demand Forecasting",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Logistics & Operations > ETA & Delivery Prediction",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 8,
+      "engaged_count": 0
+    },
+    {
+      "category": "Logistics & Operations > Capacity Planning",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 10,
+      "engaged_count": 0
+    },
+    {
+      "category": "Logistics & Operations > Last-Mile Optimization",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 9,
+      "engaged_count": 0
+    },
+    {
+      "category": "Logistics & Operations > Warehouse Robotics & Automation",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Logistics & Operations > Fleet Electrification & Green Logistics",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Privacy > Differential Privacy",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 9,
+      "engaged_count": 0
+    },
+    {
+      "category": "Privacy > Federated Learning",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Privacy > Privacy-Preserving Measurement",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Privacy > Synthetic Data",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Privacy > Anonymization & De-identification",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Privacy > Secure Computation & MPC",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Privacy > Privacy Economics & Regulation",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 3,
+      "engaged_count": 0
+    },
+    {
+      "category": "Privacy > ML Privacy Attacks",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Privacy > PIR & Anonymous Systems",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Privacy > Privacy-Preserving ML",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Spatial & Geo > Real Estate & Proptech",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 8,
+      "engaged_count": 0
+    },
+    {
+      "category": "Spatial & Geo > Geospatial Demand Modeling",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Spatial & Geo > Location Choice & Site Selection",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Spatial & Geo > Spatial Econometrics",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    },
+    {
+      "category": "Spatial & Geo > Mapping & Geocoding",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Spatial & Geo > Mobility & Movement Patterns",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 8,
+      "engaged_count": 0
+    }
+  ],
+  "career": [
+    {
+      "category": "Company Lists",
+      "total_score": 0.455,
+      "avg_score": 0.0009,
+      "max_score": 0.3994,
+      "count": 502,
+      "engaged_count": 4
+    },
+    {
+      "category": "Role Landscape",
+      "total_score": 0.2,
+      "avg_score": 0.008,
+      "max_score": 0.1992,
+      "count": 25,
+      "engaged_count": 5
+    },
+    {
+      "category": "Stats & Probability",
+      "total_score": 0.199,
+      "avg_score": 0.1992,
+      "max_score": 0.1992,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "ML System Design",
+      "total_score": 0.002,
+      "avg_score": 0.0003,
+      "max_score": 0.0023,
+      "count": 8,
+      "engaged_count": 1
+    },
+    {
+      "category": "ML Fundamentals",
+      "total_score": 0.001,
+      "avg_score": 0.0001,
+      "max_score": 0.0005,
+      "count": 8,
+      "engaged_count": 2
+    },
+    {
+      "category": "Experimentation",
+      "total_score": 0.001,
+      "avg_score": 0.0,
+      "max_score": 0.0003,
+      "count": 19,
+      "engaged_count": 4
+    },
+    {
+      "category": "Why Tech",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 2,
+      "engaged_count": 0
+    },
+    {
+      "category": "Team Types",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0.0001,
+      "count": 29,
+      "engaged_count": 2
+    },
+    {
+      "category": "PhD Transition",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 9,
+      "engaged_count": 0
+    },
+    {
+      "category": "Networking",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0.0001,
+      "count": 5,
+      "engaged_count": 1
+    },
+    {
+      "category": "Job Boards",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "SQL & Data",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0.0001,
+      "count": 7,
+      "engaged_count": 2
+    },
+    {
+      "category": "Causal Inference",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0.0001,
+      "count": 5,
+      "engaged_count": 1
+    },
+    {
+      "category": "Product Sense",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0.0001,
+      "count": 3,
+      "engaged_count": 1
+    },
+    {
+      "category": "Behavioral",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Take-Home",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 1,
+      "engaged_count": 0
+    },
+    {
+      "category": "Negotiation",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Materials",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Visa",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    }
+  ],
+  "community": [
+    {
+      "category": "Research Labs",
+      "total_score": 0.599,
+      "avg_score": 0.0428,
+      "max_score": 0.3994,
+      "count": 14,
+      "engaged_count": 5
+    },
+    {
+      "category": "Blogs",
+      "total_score": 0.201,
+      "avg_score": 0.0037,
+      "max_score": 0.1992,
+      "count": 54,
+      "engaged_count": 12
+    },
+    {
+      "category": "Conferences",
+      "total_score": 0.124,
+      "avg_score": 0.0012,
+      "max_score": 0.0427,
+      "count": 105,
+      "engaged_count": 8
+    },
+    {
+      "category": "Online",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0.0001,
+      "count": 62,
+      "engaged_count": 1
+    },
+    {
+      "category": "Notable Contributors",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0.0001,
+      "count": 81,
+      "engaged_count": 2
+    },
+    {
+      "category": "Meetups",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 87,
+      "engaged_count": 0
+    },
+    {
+      "category": "Leading Lights",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 16,
+      "engaged_count": 0
+    },
+    {
+      "category": "Academic",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Conference",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0.0001,
+      "count": 10,
+      "engaged_count": 1
+    },
+    {
+      "category": "Research Centers",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 1,
+      "engaged_count": 0
+    },
+    {
+      "category": "Research Programs",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 1,
+      "engaged_count": 0
+    },
+    {
+      "category": "Research Group",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 2,
+      "engaged_count": 0
+    },
+    {
+      "category": "Academic Journal",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 1,
+      "engaged_count": 0
+    },
+    {
+      "category": "Think Tank Events",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 2,
+      "engaged_count": 0
+    },
+    {
+      "category": "Legal Proceedings",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 1,
+      "engaged_count": 0
+    },
+    {
+      "category": "MarTech & Customer Analytics",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0.0001,
+      "count": 4,
+      "engaged_count": 1
+    }
+  ],
+  "talks": [
+    {
+      "category": "Causal Inference & ML",
+      "total_score": 1.026,
+      "avg_score": 0.0257,
+      "max_score": 0.2393,
+      "count": 40,
+      "engaged_count": 40
+    },
+    {
+      "category": "Strategy & Digital Platforms",
+      "total_score": 0.895,
+      "avg_score": 0.0407,
+      "max_score": 0.2996,
+      "count": 22,
+      "engaged_count": 22
+    },
+    {
+      "category": "Market Design & Auctions",
+      "total_score": 0.397,
+      "avg_score": 0.0331,
+      "max_score": 0.0391,
+      "count": 12,
+      "engaged_count": 12
+    },
+    {
+      "category": "Experimentation & Scaling",
+      "total_score": 0.178,
+      "avg_score": 0.0162,
+      "max_score": 0.0391,
+      "count": 11,
+      "engaged_count": 11
+    },
+    {
+      "category": "Antitrust & Competition",
+      "total_score": 0.157,
+      "avg_score": 0.0314,
+      "max_score": 0.0391,
+      "count": 5,
+      "engaged_count": 5
+    },
+    {
+      "category": "Nobel Lectures",
+      "total_score": 0.156,
+      "avg_score": 0.0391,
+      "max_score": 0.0391,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "AI & Labor",
+      "total_score": 0.136,
+      "avg_score": 0.0091,
+      "max_score": 0.0391,
+      "count": 15,
+      "engaged_count": 15
+    },
+    {
+      "category": "Tech Economics",
+      "total_score": 0.083,
+      "avg_score": 0.0092,
+      "max_score": 0.0391,
+      "count": 9,
+      "engaged_count": 9
+    },
+    {
+      "category": "AB Testing",
+      "total_score": 0.08,
+      "avg_score": 0.02,
+      "max_score": 0.0391,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Operations Research",
+      "total_score": 0.044,
+      "avg_score": 0.0088,
+      "max_score": 0.0391,
+      "count": 5,
+      "engaged_count": 5
+    },
+    {
+      "category": "Monographs",
+      "total_score": 0.041,
+      "avg_score": 0.0029,
+      "max_score": 0.0064,
+      "count": 14,
+      "engaged_count": 14
+    },
+    {
+      "category": "Pricing & Market Design",
+      "total_score": 0.04,
+      "avg_score": 0.0202,
+      "max_score": 0.0391,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "Machine Learning",
+      "total_score": 0.04,
+      "avg_score": 0.0134,
+      "max_score": 0.0391,
+      "count": 3,
+      "engaged_count": 3
+    },
+    {
+      "category": "Pricing & Behavioral",
+      "total_score": 0.026,
+      "avg_score": 0.0043,
+      "max_score": 0.0069,
+      "count": 6,
+      "engaged_count": 6
+    },
+    {
+      "category": "Platform Economics",
+      "total_score": 0.019,
+      "avg_score": 0.0007,
+      "max_score": 0.0022,
+      "count": 28,
+      "engaged_count": 28
+    },
+    {
+      "category": "Ad Tech & Advertising Economics",
+      "total_score": 0.009,
+      "avg_score": 0.0022,
+      "max_score": 0.005,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Gig Economy",
+      "total_score": 0.007,
+      "avg_score": 0.0011,
+      "max_score": 0.0028,
+      "count": 7,
+      "engaged_count": 7
+    },
+    {
+      "category": "Tech Strategy",
+      "total_score": 0.007,
+      "avg_score": 0.0011,
+      "max_score": 0.0019,
+      "count": 6,
+      "engaged_count": 6
+    },
+    {
+      "category": "Bayesian Statistics",
+      "total_score": 0.006,
+      "avg_score": 0.0029,
+      "max_score": 0.0032,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "Labor Economics",
+      "total_score": 0.004,
+      "avg_score": 0.0004,
+      "max_score": 0.001,
+      "count": 9,
+      "engaged_count": 9
+    },
+    {
+      "category": "Applied Economics",
+      "total_score": 0.004,
+      "avg_score": 0.0013,
+      "max_score": 0.0023,
+      "count": 3,
+      "engaged_count": 3
+    },
+    {
+      "category": "Marketing Science",
+      "total_score": 0.003,
+      "avg_score": 0.0009,
+      "max_score": 0.0018,
+      "count": 3,
+      "engaged_count": 3
+    },
+    {
+      "category": "Transportation Economics & Technology",
+      "total_score": 0.003,
+      "avg_score": 0.0014,
+      "max_score": 0.002,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "AI Economics & Labor",
+      "total_score": 0.002,
+      "avg_score": 0.0017,
+      "max_score": 0.0017,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "Real Estate Economics",
+      "total_score": 0.002,
+      "avg_score": 0.0004,
+      "max_score": 0.0006,
+      "count": 5,
+      "engaged_count": 5
+    },
+    {
+      "category": "Recommendation Systems",
+      "total_score": 0.002,
+      "avg_score": 0.0009,
+      "max_score": 0.0014,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "MLOps",
+      "total_score": 0.002,
+      "avg_score": 0.0009,
+      "max_score": 0.001,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "Insurance & Actuarial",
+      "total_score": 0.002,
+      "avg_score": 0.0011,
+      "max_score": 0.0014,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "MarTech & Customer Analytics",
+      "total_score": 0.002,
+      "avg_score": 0.0005,
+      "max_score": 0.0009,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Experimentation",
+      "total_score": 0.001,
+      "avg_score": 0.0009,
+      "max_score": 0.0009,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "Statistical Learning",
+      "total_score": 0.001,
+      "avg_score": 0.0008,
+      "max_score": 0.0008,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "Applied Statistics",
+      "total_score": 0.001,
+      "avg_score": 0.0014,
+      "max_score": 0.0014,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "Sports Analytics",
+      "total_score": 0.001,
+      "avg_score": 0.0003,
+      "max_score": 0.0004,
+      "count": 4,
+      "engaged_count": 4
+    },
+    {
+      "category": "Healthcare Economics & Health-Tech",
+      "total_score": 0.001,
+      "avg_score": 0.0004,
+      "max_score": 0.0006,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "Energy & Utilities Economics",
+      "total_score": 0.001,
+      "avg_score": 0.0003,
+      "max_score": 0.0003,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "Energy Economics",
+      "total_score": 0.001,
+      "avg_score": 0.0004,
+      "max_score": 0.0005,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "Defense Economics",
+      "total_score": 0.001,
+      "avg_score": 0.0005,
+      "max_score": 0.0005,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "Cybersecurity Economics",
+      "total_score": 0.001,
+      "avg_score": 0.0005,
+      "max_score": 0.0005,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "Forecasting",
+      "total_score": 0.0,
+      "avg_score": 0.0002,
+      "max_score": 0.0002,
+      "count": 1,
+      "engaged_count": 1
+    },
+    {
+      "category": "Growth & Retention",
+      "total_score": 0.0,
+      "avg_score": 0.0001,
+      "max_score": 0.0001,
+      "count": 2,
+      "engaged_count": 2
+    },
+    {
+      "category": "Defense Technology",
+      "total_score": 0.0,
+      "avg_score": 0.0002,
+      "max_score": 0.0002,
+      "count": 1,
+      "engaged_count": 1
+    }
+  ],
+  "books": [
+    {
+      "category": "Causal Inference",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 1,
+      "engaged_count": 0
+    },
+    {
+      "category": "Platform Economics",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Pricing & Market Design",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "AI & Machine Learning",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 4,
+      "engaged_count": 0
+    },
+    {
+      "category": "Advertising & Attention",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0.0001,
+      "count": 3,
+      "engaged_count": 1
+    },
+    {
+      "category": "Competition & Antitrust",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 3,
+      "engaged_count": 0
+    },
+    {
+      "category": "Labor & Gig Economy",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 1,
+      "engaged_count": 0
+    },
+    {
+      "category": "Risk Modeling",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 2,
+      "engaged_count": 0
+    },
+    {
+      "category": "Sports Economics & Analytics",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 8,
+      "engaged_count": 0
+    },
+    {
+      "category": "Insurance & Actuarial",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 10,
+      "engaged_count": 0
+    },
+    {
+      "category": "Transportation Economics & Technology",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0.0001,
+      "count": 6,
+      "engaged_count": 1
+    },
+    {
+      "category": "Healthcare Economics & Health-Tech",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 6,
+      "engaged_count": 0
+    },
+    {
+      "category": "Energy & Utilities Economics",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Energy Economics",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 5,
+      "engaged_count": 0
+    },
+    {
+      "category": "Defense Economics",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0.0001,
+      "count": 3,
+      "engaged_count": 1
+    },
+    {
+      "category": "Cybersecurity",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 1,
+      "engaged_count": 0
+    },
+    {
+      "category": "Defense Technology",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 3,
+      "engaged_count": 0
+    },
+    {
+      "category": "Auction Theory",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 2,
+      "engaged_count": 0
+    },
+    {
+      "category": "Advertising Economics",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 1,
+      "engaged_count": 0
+    },
+    {
+      "category": "Media Economics",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 1,
+      "engaged_count": 0
+    },
+    {
+      "category": "Ad Tech",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 1,
+      "engaged_count": 0
+    },
+    {
+      "category": "MarTech & Customer Analytics",
+      "total_score": 0.0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "count": 7,
+      "engaged_count": 0
+    }
+  ]
+}

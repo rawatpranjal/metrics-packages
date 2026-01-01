@@ -1,5 +1,142 @@
 [
   {
+    "name": "The Filter Bubble",
+    "author": "Eli Pariser",
+    "year": 2011,
+    "isbn": "1594203008",
+    "description": "Personalization and recommendation economics",
+    "category": "Advertising & Attention",
+    "type": "Book",
+    "url": "https://www.amazon.com/Filter-Bubble-What-Internet-Hiding/dp/1594203008",
+    "tags": [
+      "Advertising & Attention"
+    ],
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "advertising",
+      "economics"
+    ],
+    "summary": "This book explores the economics of personalization and recommendation systems. It is suitable for anyone interested in understanding how these systems impact advertising and attention.",
+    "use_cases": [
+      "when to understand the impact of personalization on advertising"
+    ],
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is the filter bubble?",
+      "How does personalization affect advertising?",
+      "What are recommendation systems?",
+      "Why is attention important in advertising?",
+      "What are the economic implications of the filter bubble?",
+      "How does personalization influence consumer behavior?",
+      "What are the risks of recommendation systems?",
+      "How can businesses leverage recommendation economics?"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "understanding of personalization economics",
+      "insight into advertising strategies"
+    ],
+    "model_score": 0.0001
+  },
+  {
+    "name": "Discrete Choice Methods with Simulation",
+    "author": "Kenneth Train",
+    "year": 2009,
+    "isbn": "0521766559",
+    "description": "Essential guide to modern discrete choice methods including mixed logit, probit simulation, and Bayesian approaches. Free PDF available from the author's website.",
+    "category": "Transportation Economics & Technology",
+    "type": "Book",
+    "url": "https://eml.berkeley.edu/books/choice2.html",
+    "tags": [
+      "Discrete Choice",
+      "Simulation",
+      "Mixed Logit",
+      "Free"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "transportation-economics",
+      "statistics"
+    ],
+    "summary": "This resource provides an essential guide to modern discrete choice methods including mixed logit, probit simulation, and Bayesian approaches. It is suitable for those looking to deepen their understanding of discrete choice modeling techniques.",
+    "use_cases": [
+      "When to apply discrete choice methods in research",
+      "Understanding consumer choice behavior"
+    ],
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What are discrete choice methods?",
+      "How to implement mixed logit models?",
+      "What is probit simulation?",
+      "What are Bayesian approaches in discrete choice?",
+      "Where can I find free PDFs on discrete choice methods?",
+      "What are the applications of discrete choice methods in transportation?",
+      "How to analyze choice data?",
+      "What resources are available for learning discrete choice modeling?"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "Understanding discrete choice models",
+      "Applying mixed logit and probit methods",
+      "Utilizing Bayesian approaches in analysis"
+    ],
+    "model_score": 0.0001
+  },
+  {
+    "name": "Arms and Influence",
+    "author": "Thomas C. Schelling",
+    "year": 1966,
+    "isbn": "978-0300002218",
+    "description": "Classic analysis of coercion, deterrence, and the role of violence in international relations from the 2005 Nobel laureate in economics",
+    "category": "Defense Economics",
+    "type": "classic",
+    "url": "https://yalebooks.yale.edu/book/9780300143379/arms-and-influence/",
+    "tags": [
+      "deterrence",
+      "coercion",
+      "game theory",
+      "Nobel Prize"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "defense economics",
+      "international relations",
+      "coercion",
+      "deterrence"
+    ],
+    "summary": "This resource provides a classic analysis of the role of violence in international relations, focusing on coercion and deterrence strategies. It is suitable for those interested in understanding the economic aspects of defense and international conflict.",
+    "use_cases": [
+      "to understand the economic analysis of international conflict",
+      "to explore theories of deterrence and coercion"
+    ],
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is the role of coercion in international relations?",
+      "How does deterrence theory apply to modern conflicts?",
+      "What insights does a Nobel laureate provide on violence?",
+      "What are the economic implications of defense strategies?",
+      "How can game theory be applied to international relations?",
+      "What are the key concepts in defense economics?"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "understanding of deterrence theory",
+      "insights into coercion in international relations"
+    ],
+    "model_score": 0.0001
+  },
+  {
     "name": "Mostly Harmless Econometrics",
     "author": "Joshua D. Angrist & J\u00f6rn-Steffen Pischke",
     "year": 2009,
@@ -43,7 +180,8 @@
       "Understanding of regression techniques",
       "Ability to apply IV and RDD methods",
       "Skills in identifying causal relationships"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "The Cold Start Problem",
@@ -89,7 +227,8 @@
       "Understanding network effects",
       "Applying platform economics concepts",
       "Analyzing growth strategies"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Information Rules",
@@ -131,7 +270,8 @@
     "skill_progression": [
       "understanding network effects",
       "applying economic principles to technology"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Matchmakers",
@@ -170,7 +310,8 @@
     "content_format": "book",
     "skill_progression": [
       "understanding of platform economics principles"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Platform Revolution",
@@ -208,7 +349,8 @@
     "skill_progression": [
       "Understanding platform economics",
       "Analyzing platform strategies"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Who Gets What and Why",
@@ -253,7 +395,8 @@
       "understanding of market mechanisms",
       "knowledge of auction theory",
       "insight into matching markets"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Prediction Machines",
@@ -289,7 +432,8 @@
       "What are the key takeaways from Prediction Machines?",
       "What is the significance of prediction in AI?"
     ],
-    "content_format": "book"
+    "content_format": "book",
+    "model_score": 0.0
   },
   {
     "name": "Power and Prediction",
@@ -324,7 +468,8 @@
       "What is the sequel to Prediction Machines about?",
       "What skills can be gained from reading this book?"
     ],
-    "content_format": "book"
+    "content_format": "book",
+    "model_score": 0.0
   },
   {
     "name": "The Attention Merchants",
@@ -367,7 +512,8 @@
     "skill_progression": [
       "understanding of advertising principles",
       "insight into economic theories related to attention"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Subprime Attention Crisis",
@@ -408,7 +554,8 @@
       "understanding of programmatic advertising",
       "insight into economic bubbles",
       "awareness of click fraud issues"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Priceless",
@@ -450,7 +597,8 @@
     "skill_progression": [
       "Understanding pricing strategies",
       "Applying behavioral economics principles"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Confessions of the Pricing Man",
@@ -495,7 +643,8 @@
     "skill_progression": [
       "understanding pricing strategies",
       "applying market design principles"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "The Age of Surveillance Capitalism",
@@ -535,7 +684,8 @@
     "skill_progression": [
       "Understanding data economics",
       "Analyzing behavioral surplus extraction"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Weapons of Math Destruction",
@@ -580,7 +730,8 @@
       "understanding algorithmic bias",
       "knowledge of fairness in AI",
       "insight into ML economics"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "The Alignment Problem",
@@ -623,7 +774,8 @@
     "skill_progression": [
       "Understanding AI alignment",
       "Recognizing ethical considerations in AI"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "The Curse of Bigness",
@@ -664,7 +816,8 @@
     "skill_progression": [
       "understanding of antitrust concepts",
       "knowledge of competition laws in tech"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "The Great Reversal",
@@ -707,7 +860,8 @@
     "skill_progression": [
       "understanding competition economics",
       "analyzing antitrust implications"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "The Platform Delusion",
@@ -743,7 +897,8 @@
       "What insights can be gained from The Platform Delusion?",
       "What is a contrarian take on platform economics?"
     ],
-    "content_format": "book"
+    "content_format": "book",
+    "model_score": 0.0
   },
   {
     "name": "Radical Markets",
@@ -788,7 +943,8 @@
       "Understanding of auctions",
       "Knowledge of Harberger taxes",
       "Familiarity with quadratic voting"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Uberland",
@@ -830,48 +986,8 @@
     "skill_progression": [
       "understanding of gig economy dynamics",
       "insight into algorithmic management practices"
-    ]
-  },
-  {
-    "name": "The Filter Bubble",
-    "author": "Eli Pariser",
-    "year": 2011,
-    "isbn": "1594203008",
-    "description": "Personalization and recommendation economics",
-    "category": "Advertising & Attention",
-    "type": "Book",
-    "url": "https://www.amazon.com/Filter-Bubble-What-Internet-Hiding/dp/1594203008",
-    "tags": [
-      "Advertising & Attention"
     ],
-    "difficulty": "beginner",
-    "prerequisites": [],
-    "topic_tags": [
-      "advertising",
-      "economics"
-    ],
-    "summary": "This book explores the economics of personalization and recommendation systems. It is suitable for anyone interested in understanding how these systems impact advertising and attention.",
-    "use_cases": [
-      "when to understand the impact of personalization on advertising"
-    ],
-    "audience": [
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "What is the filter bubble?",
-      "How does personalization affect advertising?",
-      "What are recommendation systems?",
-      "Why is attention important in advertising?",
-      "What are the economic implications of the filter bubble?",
-      "How does personalization influence consumer behavior?",
-      "What are the risks of recommendation systems?",
-      "How can businesses leverage recommendation economics?"
-    ],
-    "content_format": "book",
-    "skill_progression": [
-      "understanding of personalization economics",
-      "insight into advertising strategies"
-    ]
+    "model_score": 0.0
   },
   {
     "name": "Invisible Engines",
@@ -905,7 +1021,8 @@
       "What challenges do platforms face?",
       "How do you analyze platform economics?"
     ],
-    "content_format": "book"
+    "content_format": "book",
+    "model_score": 0.0
   },
   {
     "name": "Credit Risk Modeling using Excel and VBA",
@@ -949,7 +1066,8 @@
       "Credit risk estimation",
       "Excel modeling",
       "VBA programming"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Generalized Linear Models for Insurance Rating",
@@ -994,7 +1112,8 @@
       "understanding GLMs",
       "applying statistical methods to insurance",
       "analyzing risk in insurance pricing"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Moneyball: The Art of Winning an Unfair Game",
@@ -1036,7 +1155,8 @@
     "skill_progression": [
       "understanding of sports analytics",
       "knowledge of statistical methods in sports"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "The Book: Playing the Percentages in Baseball",
@@ -1082,7 +1202,8 @@
       "understanding of baseball analytics",
       "ability to apply statistical methods to sports",
       "knowledge of sabermetrics"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Basketball on Paper",
@@ -1118,7 +1239,8 @@
       "Where can I learn more about sports economics?"
     ],
     "use_cases": [],
-    "content_format": "book"
+    "content_format": "book",
+    "model_score": 0.0
   },
   {
     "name": "Sprawlball: A Visual Tour of the New Era of the NBA",
@@ -1161,7 +1283,8 @@
       "understanding basketball analytics",
       "data visualization techniques",
       "spatial analysis in sports"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Mathletics: How Gamblers, Managers, and Sports Enthusiasts Use Mathematics in Baseball, Basketball, and Football",
@@ -1206,7 +1329,8 @@
     "skill_progression": [
       "understanding of sports analytics",
       "application of mathematical concepts in sports"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Playbooks and Checkbooks: An Introduction to the Economics of Modern Sports",
@@ -1243,7 +1367,8 @@
     "content_format": "book",
     "skill_progression": [
       "Understanding of sports economics principles"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Soccernomics",
@@ -1287,7 +1412,8 @@
     "skill_progression": [
       "understanding sports economics",
       "applying economic principles to sports analysis"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Handbook on the Economics of Sport",
@@ -1341,7 +1467,8 @@
       "understanding of sports economics",
       "ability to analyze economic factors in sports",
       "knowledge of labor market dynamics in sports"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Loss Models: From Data to Decisions",
@@ -1391,7 +1518,8 @@
       "knowledge of credibility theory",
       "ability to apply risk measures",
       "skills in simulation techniques"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Actuarial Mathematics for Life Contingent Risks",
@@ -1440,7 +1568,8 @@
       "Understanding of life insurance mathematics",
       "Ability to apply survival models",
       "Knowledge of premium calculation techniques"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Regression Modeling with Actuarial and Financial Applications",
@@ -1487,7 +1616,8 @@
       "Understanding of GLMs",
       "Application of regression techniques",
       "Knowledge of credibility theory"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Handbook of Insurance",
@@ -1538,7 +1668,8 @@
       "Advanced understanding of insurance economics",
       "Ability to analyze empirical research in insurance",
       "Knowledge of regulatory issues in insurance"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Financial Economics of Insurance",
@@ -1584,7 +1715,8 @@
       "Understanding of asset pricing theory",
       "Analysis of insurance products",
       "Knowledge of systemic risk in finance"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Computational Actuarial Science with R",
@@ -1628,7 +1760,8 @@
       "Actuarial computing skills",
       "R programming proficiency",
       "Understanding of GLMs and mortality modeling"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Predictive Modeling Applications in Actuarial Science",
@@ -1678,7 +1811,8 @@
     "skill_progression": [
       "understanding of machine learning methods",
       "application of predictive modeling in insurance"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Statistical Foundations of Actuarial Learning and its Applications",
@@ -1729,7 +1863,8 @@
       "Understanding of neural networks",
       "Application of machine learning in insurance",
       "Interpretability of models in actuarial science"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "The INSURTECH Book",
@@ -1769,7 +1904,8 @@
       "How can traditional insurance companies adapt to digital disruption?"
     ],
     "use_cases": [],
-    "content_format": "book"
+    "content_format": "book",
+    "model_score": 0.0
   },
   {
     "name": "Navigating Insurtech",
@@ -1813,7 +1949,8 @@
     "skill_progression": [
       "Understanding of InsurTech concepts",
       "Knowledge of product development in insurance"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "The Economics of Urban Transportation",
@@ -1858,7 +1995,8 @@
       "understanding of urban transportation economics",
       "ability to evaluate transportation policies",
       "knowledge of economic modeling in transportation"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Discrete Choice Analysis: Theory and Application to Travel Demand",
@@ -1905,55 +2043,8 @@
     "skill_progression": [
       "Understanding discrete choice models",
       "Applying econometric techniques to transportation demand"
-    ]
-  },
-  {
-    "name": "Discrete Choice Methods with Simulation",
-    "author": "Kenneth Train",
-    "year": 2009,
-    "isbn": "0521766559",
-    "description": "Essential guide to modern discrete choice methods including mixed logit, probit simulation, and Bayesian approaches. Free PDF available from the author's website.",
-    "category": "Transportation Economics & Technology",
-    "type": "Book",
-    "url": "https://eml.berkeley.edu/books/choice2.html",
-    "tags": [
-      "Discrete Choice",
-      "Simulation",
-      "Mixed Logit",
-      "Free"
     ],
-    "difficulty": "intermediate",
-    "prerequisites": [],
-    "topic_tags": [
-      "transportation-economics",
-      "statistics"
-    ],
-    "summary": "This resource provides an essential guide to modern discrete choice methods including mixed logit, probit simulation, and Bayesian approaches. It is suitable for those looking to deepen their understanding of discrete choice modeling techniques.",
-    "use_cases": [
-      "When to apply discrete choice methods in research",
-      "Understanding consumer choice behavior"
-    ],
-    "audience": [
-      "Early-PhD",
-      "Junior-DS",
-      "Mid-DS"
-    ],
-    "synthetic_questions": [
-      "What are discrete choice methods?",
-      "How to implement mixed logit models?",
-      "What is probit simulation?",
-      "What are Bayesian approaches in discrete choice?",
-      "Where can I find free PDFs on discrete choice methods?",
-      "What are the applications of discrete choice methods in transportation?",
-      "How to analyze choice data?",
-      "What resources are available for learning discrete choice modeling?"
-    ],
-    "content_format": "book",
-    "skill_progression": [
-      "Understanding discrete choice models",
-      "Applying mixed logit and probit methods",
-      "Utilizing Bayesian approaches in analysis"
-    ]
+    "model_score": 0.0
   },
   {
     "name": "Transport Economics",
@@ -2000,7 +2091,8 @@
       "Understanding transport modes",
       "Analyzing transport policies",
       "Applying economic principles to transportation"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Lectures on Urban Economics",
@@ -2050,7 +2142,8 @@
       "Understanding urban economic models",
       "Analyzing transportation systems",
       "Evaluating land use policies"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Three Revolutions: Steering Automated, Shared, and Electric Vehicles to a Better Future",
@@ -2097,7 +2190,8 @@
     "skill_progression": [
       "Understanding of transportation economics",
       "Knowledge of emerging transportation technologies"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Health Economics",
@@ -2144,7 +2238,8 @@
       "theoretical understanding of health economics",
       "analysis of health policies",
       "application of economic theories to healthcare"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "The Economics of Health and Health Care",
@@ -2191,7 +2286,8 @@
       "understanding health care economics",
       "analyzing health disparities",
       "applying economic theory to health care"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Handbook of Health Economics",
@@ -2238,7 +2334,8 @@
     "skill_progression": [
       "understanding of health economics principles",
       "knowledge of health policy and insurance mechanisms"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again",
@@ -2280,7 +2377,8 @@
       "healthcare AI landscape",
       "clinical applications",
       "implementation challenges"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Causal Inference: What If",
@@ -2329,7 +2427,8 @@
       "Understanding of causal inference concepts",
       "Ability to identify and address confounding",
       "Skills in analyzing longitudinal data"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Healthcare Data Analytics",
@@ -2373,7 +2472,8 @@
     "skill_progression": [
       "Understanding healthcare data sources",
       "Applying analytical methods in healthcare"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Power System Economics: Designing Markets for Electricity",
@@ -2420,7 +2520,8 @@
       "Understanding of electricity markets",
       "Knowledge of market design principles",
       "Ability to analyze market reliability"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Fundamentals of Power System Economics",
@@ -2468,7 +2569,8 @@
       "Knowledge of market organization",
       "Insights into ancillary services",
       "Familiarity with renewable energy integration"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "International Energy Markets",
@@ -2514,7 +2616,8 @@
     "skill_progression": [
       "Understanding of energy markets",
       "Application of economic models in energy contexts"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "How Solar Energy Became Cheap",
@@ -2559,7 +2662,8 @@
       "Understanding energy economics",
       "Analyzing market dynamics",
       "Evaluating technological innovations"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Spot Pricing of Electricity",
@@ -2599,7 +2703,8 @@
       "pricing theory",
       "market design",
       "implementation concepts"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Power System Economics",
@@ -2646,7 +2751,8 @@
     "skill_progression": [
       "understanding of electricity market dynamics",
       "knowledge of pricing strategies in energy markets"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Fundamentals of Power System Economics",
@@ -2691,7 +2797,8 @@
       "understanding electricity market dynamics",
       "analyzing power system economics",
       "designing market structures"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "International Energy Markets",
@@ -2729,7 +2836,8 @@
     "content_format": "book",
     "skill_progression": [
       "Beginner to Intermediate"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "How Solar Energy Became Cheap",
@@ -2776,7 +2884,8 @@
     "skill_progression": [
       "understanding of solar energy economics",
       "insights into climate technology policy"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Spot Pricing of Electricity",
@@ -2816,7 +2925,8 @@
     "content_format": "book",
     "skill_progression": [
       "Advanced"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Handbook of Defense Economics (Volumes 1 & 2)",
@@ -2859,52 +2969,8 @@
     "content_format": "book",
     "skill_progression": [
       "Advanced"
-    ]
-  },
-  {
-    "name": "Arms and Influence",
-    "author": "Thomas C. Schelling",
-    "year": 1966,
-    "isbn": "978-0300002218",
-    "description": "Classic analysis of coercion, deterrence, and the role of violence in international relations from the 2005 Nobel laureate in economics",
-    "category": "Defense Economics",
-    "type": "classic",
-    "url": "https://yalebooks.yale.edu/book/9780300143379/arms-and-influence/",
-    "tags": [
-      "deterrence",
-      "coercion",
-      "game theory",
-      "Nobel Prize"
     ],
-    "difficulty": "intermediate",
-    "prerequisites": [],
-    "topic_tags": [
-      "defense economics",
-      "international relations",
-      "coercion",
-      "deterrence"
-    ],
-    "summary": "This resource provides a classic analysis of the role of violence in international relations, focusing on coercion and deterrence strategies. It is suitable for those interested in understanding the economic aspects of defense and international conflict.",
-    "use_cases": [
-      "to understand the economic analysis of international conflict",
-      "to explore theories of deterrence and coercion"
-    ],
-    "audience": [
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "What is the role of coercion in international relations?",
-      "How does deterrence theory apply to modern conflicts?",
-      "What insights does a Nobel laureate provide on violence?",
-      "What are the economic implications of defense strategies?",
-      "How can game theory be applied to international relations?",
-      "What are the key concepts in defense economics?"
-    ],
-    "content_format": "book",
-    "skill_progression": [
-      "understanding of deterrence theory",
-      "insights into coercion in international relations"
-    ]
+    "model_score": 0.0
   },
   {
     "name": "The Strategy of Conflict",
@@ -2948,7 +3014,8 @@
     "skill_progression": [
       "understanding of game theory concepts",
       "insight into bargaining strategies"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Security Engineering: A Guide to Building Dependable Distributed Systems",
@@ -2996,7 +3063,8 @@
       "understanding of security principles",
       "knowledge of economic factors in security",
       "awareness of psychological impacts on security policies"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Unit X: How the Pentagon and Silicon Valley Are Transforming the Future of War",
@@ -3038,7 +3106,8 @@
     "content_format": "book",
     "skill_progression": [
       "Beginner"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "The Kill Chain: Defending America in the Future of High-Tech Warfare",
@@ -3084,7 +3153,8 @@
     "content_format": "book",
     "skill_progression": [
       "Beginner"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Chip War: The Fight for the World's Most Critical Technology",
@@ -3129,7 +3199,8 @@
       "understanding of semiconductor technology",
       "insight into defense supply chain dynamics",
       "awareness of geopolitical factors affecting technology"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Auction Theory",
@@ -3179,7 +3250,8 @@
       "Understanding auction mechanisms",
       "Analyzing auction strategies",
       "Applying game theory to auctions"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Putting Auction Theory to Work",
@@ -3224,7 +3296,8 @@
     "skill_progression": [
       "understanding auction mechanisms",
       "applying auction theory to real-world scenarios"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "The Economics of Advertising (Handbook of Industrial Organization Chapter)",
@@ -3271,7 +3344,8 @@
     "skill_progression": [
       "Understanding advertising economics",
       "Analyzing empirical evidence in advertising"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Handbook of Media Economics (2 volumes)",
@@ -3307,7 +3381,8 @@
     "content_format": "handbook",
     "skill_progression": [
       "Advanced"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Introduction to Programmatic Advertising",
@@ -3355,7 +3430,8 @@
       "Understanding of programmatic advertising",
       "Familiarity with SSPs and DSPs",
       "Knowledge of real-time bidding processes"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Customer Centricity: Focus on the Right Customers for Strategic Advantage",
@@ -3394,7 +3470,8 @@
       "understanding CLV concept",
       "applying to strategy",
       "organizational change"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "The Customer Centricity Playbook",
@@ -3441,7 +3518,8 @@
       "understanding customer-centric strategies",
       "applying CLV metrics",
       "operationalizing marketing frameworks"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "The Customer-Base Audit: The First Step on the Journey to Customer Centricity",
@@ -3490,7 +3568,8 @@
       "customer behavior analysis",
       "customer lifetime value modeling",
       "analytical thinking"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Statistical Methods in Customer Relationship Management",
@@ -3536,7 +3615,8 @@
       "Statistical modeling",
       "Customer lifecycle analysis",
       "Resource allocation strategies"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Principles of Marketing Engineering and Analytics",
@@ -3586,7 +3666,8 @@
       "Understanding of marketing models",
       "Ability to apply analytics in marketing",
       "Skills in resource allocation and pricing strategies"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Marketing Data Science: Modeling Techniques in Predictive Analytics with R and Python",
@@ -3639,7 +3720,8 @@
       "Customer lifetime value analysis",
       "Text analytics",
       "Web analytics"
-    ]
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Marketing Metrics: The Manager's Guide to Measuring Marketing Performance",
@@ -3685,6 +3767,7 @@
     "skill_progression": [
       "Understanding of marketing metrics",
       "Ability to apply measurement techniques"
-    ]
+    ],
+    "model_score": 0.0
   }
 ]
