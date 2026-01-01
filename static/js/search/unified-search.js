@@ -85,6 +85,58 @@
       pattern: /book|textbook|reading|read|author/i,
       boostTypes: ['book'],
       boostFactor: 1.5
+    },
+    // Domain-specific intents
+    causal: {
+      pattern: /causal|RCT|experiment|A\/B test|treatment effect|DiD|diff-in-diff|regression discontinuity|instrumental variable|IV\b/i,
+      boostTypes: ['paper', 'package'],
+      boostFactor: 1.6
+    },
+    pricing: {
+      pattern: /pricing|revenue|demand estimation|elasticity|willingness to pay|conjoint|auction/i,
+      boostTypes: ['paper', 'package'],
+      boostFactor: 1.6
+    },
+    clv: {
+      pattern: /CLV|customer lifetime|churn|retention|BTYD|Pareto\/NBD|BG\/NBD|RFM/i,
+      boostTypes: ['paper', 'package', 'book'],
+      boostFactor: 1.6
+    },
+    recsys: {
+      pattern: /recommend|collaborative filtering|matrix factorization|personalization|content-based/i,
+      boostTypes: ['paper', 'package', 'dataset'],
+      boostFactor: 1.6
+    },
+    advertising: {
+      pattern: /advertis|ad tech|RTB|programmatic|attribution|ad auction|bidding|impression/i,
+      boostTypes: ['paper', 'package'],
+      boostFactor: 1.6
+    },
+    energy: {
+      pattern: /energy|electricity|grid|renewable|solar|wind|utility|power plant|emissions/i,
+      boostTypes: ['paper', 'dataset', 'package'],
+      boostFactor: 1.5
+    },
+    defense: {
+      pattern: /defense|military|security|procurement|SIPRI|arms|cyber|DoD/i,
+      boostTypes: ['paper', 'dataset'],
+      boostFactor: 1.5
+    },
+    // Methodology intents
+    ml: {
+      pattern: /machine learning|ML\b|neural|deep learning|transformer|BERT|GPT|XGBoost|random forest/i,
+      boostTypes: ['paper', 'package'],
+      boostFactor: 1.4
+    },
+    bayesian: {
+      pattern: /bayesian|posterior|prior|MCMC|PyMC|Stan\b|hierarchical model/i,
+      boostTypes: ['paper', 'package', 'book'],
+      boostFactor: 1.5
+    },
+    timeseries: {
+      pattern: /time series|forecast|ARIMA|prophet|seasonality|trend/i,
+      boostTypes: ['paper', 'package'],
+      boostFactor: 1.5
     }
   };
 
@@ -1893,7 +1945,19 @@
       career: { icon: '💼', label: 'Career', desc: 'Jobs & career content boosted' },
       talk: { icon: '🎤', label: 'Talk', desc: 'Videos & presentations boosted' },
       community: { icon: '👥', label: 'Community', desc: 'Community resources boosted' },
-      book: { icon: '📕', label: 'Book', desc: 'Books & textbooks boosted' }
+      book: { icon: '📕', label: 'Book', desc: 'Books & textbooks boosted' },
+      // Domain-specific
+      causal: { icon: '🔬', label: 'Causal', desc: 'Causal inference content boosted' },
+      pricing: { icon: '💰', label: 'Pricing', desc: 'Pricing & revenue content boosted' },
+      clv: { icon: '🎯', label: 'CLV', desc: 'Customer analytics boosted' },
+      recsys: { icon: '🎯', label: 'RecSys', desc: 'Recommendation systems boosted' },
+      advertising: { icon: '📺', label: 'AdTech', desc: 'Advertising tech boosted' },
+      energy: { icon: '⚡', label: 'Energy', desc: 'Energy economics boosted' },
+      defense: { icon: '🛡️', label: 'Defense', desc: 'Defense economics boosted' },
+      // Methodology
+      ml: { icon: '🤖', label: 'ML', desc: 'Machine learning content boosted' },
+      bayesian: { icon: '📈', label: 'Bayesian', desc: 'Bayesian methods boosted' },
+      timeseries: { icon: '📉', label: 'TimeSeries', desc: 'Time series content boosted' }
     };
 
     var display = intentLabels[intent.name] || { icon: '🔍', label: intent.name, desc: 'Related results boosted' };
