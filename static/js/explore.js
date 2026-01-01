@@ -179,6 +179,14 @@
             }
         }
 
+        // Boost clusters with high-engagement items (use model_score)
+        const topScores = sampleItems
+            .map(item => item.model_score || 0)
+            .sort((a, b) => b - a)
+            .slice(0, 5);
+        const engagementBonus = topScores.reduce((sum, s) => sum + s * 50, 0);
+        score += engagementBonus;
+
         // Add randomness to keep it fresh each load
         score += Math.random() * 20;
 
@@ -400,8 +408,15 @@
         const types = new Set(items.map(i => i._type));
         const isHomogeneous = types.size === 1;
 
-        items.forEach(item => {
-            const card = createExploreCard(item, isHomogeneous);
+        // Sort items by model_score (highest engagement first)
+        items.sort((a, b) => (b.model_score || 0) - (a.model_score || 0));
+
+        // First item with high score becomes hero
+        const hasHero = items.length > 0 && (items[0].model_score || 0) > 0.1;
+
+        items.forEach((item, idx) => {
+            const isHero = hasHero && idx === 0;
+            const card = createExploreCard(item, isHomogeneous, isHero);
             scroller.appendChild(card);
         });
 
