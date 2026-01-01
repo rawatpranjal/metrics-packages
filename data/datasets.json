@@ -12822,5 +12822,454 @@
     "temporal_coverage": "current",
     "geographic_scope": "Global (orbital)",
     "size_category": "medium"
+  },
+  {
+    "name": "Criteo 1TB Click Logs",
+    "description": "World's largest public ML advertising dataset with 4+ billion events, 13 integer and 26 categorical features across 24 days",
+    "category": "Ad Tech",
+    "url": "https://ailab.criteo.com/download-criteo-1tb-click-logs-dataset/",
+    "docs_url": "https://ailab.criteo.com/download-criteo-1tb-click-logs-dataset/",
+    "github_url": null,
+    "tags": [
+      "CTR prediction",
+      "click logs",
+      "large-scale",
+      "Criteo"
+    ],
+    "best_for": "Training and benchmarking large-scale CTR prediction models",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "distributed-computing",
+      "deep-learning"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "The gold standard for CTR prediction research. 4B+ events with anonymized features. Requires significant compute resources to process the full 1TB dataset.",
+    "use_cases": [
+      "CTR model training",
+      "Feature engineering research",
+      "Scalability benchmarks"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "Criteo 1TB dataset",
+      "large CTR dataset",
+      "ad click logs"
+    ],
+    "domain_tags": [
+      "advertising"
+    ],
+    "data_modality": "tabular",
+    "temporal_coverage": "24 days",
+    "geographic_scope": "Global",
+    "size_category": "very-large"
+  },
+  {
+    "name": "Criteo Kaggle CTR Dataset",
+    "description": "Standard CTR prediction benchmark with ~45 million records across 7 days, widely used for model comparison",
+    "category": "Ad Tech",
+    "url": "https://www.kaggle.com/c/criteo-display-ad-challenge/data",
+    "docs_url": "https://www.kaggle.com/c/criteo-display-ad-challenge",
+    "github_url": null,
+    "tags": [
+      "CTR prediction",
+      "benchmark",
+      "Kaggle",
+      "Criteo"
+    ],
+    "best_for": "Benchmarking CTR prediction models against standard baseline",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "machine-learning"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "The standard benchmark for CTR prediction research. 45M records with 13 integer and 26 hashed categorical features. Most deep CTR papers report results on this dataset.",
+    "use_cases": [
+      "Model benchmarking",
+      "Feature engineering",
+      "Algorithm comparison"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Criteo Kaggle dataset",
+      "CTR benchmark dataset",
+      "display ad dataset"
+    ],
+    "domain_tags": [
+      "advertising"
+    ],
+    "data_modality": "tabular",
+    "temporal_coverage": "7 days",
+    "geographic_scope": "Global",
+    "size_category": "large"
+  },
+  {
+    "name": "iPinYou RTB Dataset",
+    "description": "Real-time bidding dataset from Chinese DSP with ~35GB of bid requests, impressions, clicks, and conversions with bidding prices",
+    "category": "Ad Tech",
+    "url": "https://contest.ipinyou.com/",
+    "docs_url": "https://github.com/wnzhang/make-ipinyou-data",
+    "github_url": "https://github.com/wnzhang/make-ipinyou-data",
+    "tags": [
+      "RTB",
+      "bidding",
+      "conversions",
+      "iPinYou"
+    ],
+    "best_for": "Bid optimization and RTB algorithm research with actual market prices",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "rtb-basics",
+      "optimization"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Foundational dataset for RTB research with actual bid prices and market dynamics. Includes bid requests, impressions, clicks, and conversions across campaigns.",
+    "use_cases": [
+      "Bid optimization",
+      "RTB algorithms",
+      "Campaign analysis"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "iPinYou dataset",
+      "RTB dataset",
+      "programmatic advertising data"
+    ],
+    "domain_tags": [
+      "advertising"
+    ],
+    "data_modality": "tabular",
+    "temporal_coverage": "9 days (2013)",
+    "geographic_scope": "China",
+    "size_category": "large"
+  },
+  {
+    "name": "Avazu Click-Through Rate Dataset",
+    "description": "Mobile advertising dataset with 40+ million ad click records from Avazu mobile advertising platform",
+    "category": "Ad Tech",
+    "url": "https://www.kaggle.com/c/avazu-ctr-prediction/data",
+    "docs_url": "https://www.kaggle.com/c/avazu-ctr-prediction",
+    "github_url": null,
+    "tags": [
+      "mobile ads",
+      "CTR",
+      "Kaggle",
+      "Avazu"
+    ],
+    "best_for": "Mobile-specific CTR prediction and feature engineering",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "machine-learning"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Large mobile advertising dataset for CTR prediction. Features include device type, app/site categories, and temporal features. Good for mobile-specific modeling.",
+    "use_cases": [
+      "Mobile CTR prediction",
+      "App advertising",
+      "Feature engineering"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Avazu dataset",
+      "mobile ad CTR",
+      "app advertising data"
+    ],
+    "domain_tags": [
+      "advertising",
+      "mobile"
+    ],
+    "data_modality": "tabular",
+    "temporal_coverage": "10 days",
+    "geographic_scope": "Global",
+    "size_category": "large"
+  },
+  {
+    "name": "Criteo Uplift Prediction Dataset",
+    "description": "~25 million rows with treatment indicators for benchmarking Individual Treatment Effect (ITE) estimation in advertising",
+    "category": "Causal Inference",
+    "url": "https://ailab.criteo.com/criteo-uplift-prediction-dataset/",
+    "docs_url": "https://ailab.criteo.com/criteo-uplift-prediction-dataset/",
+    "github_url": null,
+    "tags": [
+      "uplift modeling",
+      "causal inference",
+      "ITE",
+      "Criteo"
+    ],
+    "best_for": "Benchmarking uplift and treatment effect models for advertising",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "causal-inference"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "The standard benchmark for uplift modeling in advertising. Includes treatment assignment and outcomes for ITE estimation. Essential for CATE/uplift research.",
+    "use_cases": [
+      "Uplift modeling",
+      "CATE estimation",
+      "Treatment effect benchmarking"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "Criteo uplift dataset",
+      "advertising causal inference",
+      "ITE benchmark"
+    ],
+    "domain_tags": [
+      "advertising",
+      "causal-inference"
+    ],
+    "data_modality": "tabular",
+    "temporal_coverage": "30 days",
+    "geographic_scope": "Global",
+    "size_category": "large"
+  },
+  {
+    "name": "Criteo Attribution Dataset",
+    "description": "30 days of advertising traffic with conversion attribution data for multi-touch attribution research",
+    "category": "Ad Tech",
+    "url": "https://ailab.criteo.com/criteo-attribution-modeling-bidding-dataset/",
+    "docs_url": "https://ailab.criteo.com/criteo-attribution-modeling-bidding-dataset/",
+    "github_url": null,
+    "tags": [
+      "attribution",
+      "conversions",
+      "touchpoints",
+      "Criteo"
+    ],
+    "best_for": "Multi-touch attribution modeling and conversion path analysis",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "attribution-basics"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Provides user-level conversion paths across touchpoints for attribution research. Includes timestamps, campaign info, and conversion outcomes.",
+    "use_cases": [
+      "Attribution modeling",
+      "Conversion analysis",
+      "Shapley value attribution"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "Criteo attribution dataset",
+      "multi-touch attribution data",
+      "conversion path data"
+    ],
+    "domain_tags": [
+      "advertising"
+    ],
+    "data_modality": "sequential",
+    "temporal_coverage": "30 days",
+    "geographic_scope": "Global",
+    "size_category": "large"
+  },
+  {
+    "name": "TalkingData AdTracking Fraud Detection",
+    "description": "200 million clicks with 0.25% positive fraud class for mobile ad fraud detection benchmarking",
+    "category": "Fraud Detection",
+    "url": "https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection/data",
+    "docs_url": "https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection",
+    "github_url": null,
+    "tags": [
+      "fraud detection",
+      "mobile",
+      "imbalanced",
+      "TalkingData"
+    ],
+    "best_for": "Developing and benchmarking ad fraud detection models",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "imbalanced-classification"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Standard benchmark for mobile ad fraud detection. Highly imbalanced (0.25% positive class) with click timing, IP, device, and app features. From TalkingData.",
+    "use_cases": [
+      "Fraud detection",
+      "Imbalanced classification",
+      "Feature engineering"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "TalkingData fraud dataset",
+      "ad fraud detection data",
+      "click fraud benchmark"
+    ],
+    "domain_tags": [
+      "advertising",
+      "fraud"
+    ],
+    "data_modality": "tabular",
+    "temporal_coverage": "4 days",
+    "geographic_scope": "China",
+    "size_category": "very-large"
+  },
+  {
+    "name": "Multi-Region MMM eCommerce Dataset",
+    "description": "Marketing mix modeling data for 100 brands across Google, Meta, and TikTok channels in multiple regions",
+    "category": "Marketing Mix",
+    "url": "https://figshare.com/articles/dataset/Multi-Region_MMM_Data/21629584",
+    "docs_url": "https://figshare.com/articles/dataset/Multi-Region_MMM_Data/21629584",
+    "github_url": null,
+    "tags": [
+      "MMM",
+      "marketing mix",
+      "ecommerce",
+      "multi-channel"
+    ],
+    "best_for": "Marketing mix modeling with cross-channel and cross-region data",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "mmm-basics"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Realistic MMM data for 100 brands with spend across major digital channels. Includes sales, spend, and external factors for MMM model training.",
+    "use_cases": [
+      "Marketing mix modeling",
+      "Budget allocation",
+      "Channel effectiveness"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "MMM dataset",
+      "marketing mix data",
+      "multi-channel advertising data"
+    ],
+    "domain_tags": [
+      "advertising",
+      "marketing"
+    ],
+    "data_modality": "time-series",
+    "temporal_coverage": "varies",
+    "geographic_scope": "Multiple regions",
+    "size_category": "medium"
+  },
+  {
+    "name": "Yahoo A1 Search Advertising Dataset",
+    "description": "Search advertising competition dataset with sponsored search auction features and click outcomes",
+    "category": "Ad Tech",
+    "url": "https://webscope.sandbox.yahoo.com/catalog.php?datatype=a",
+    "docs_url": "https://webscope.sandbox.yahoo.com/",
+    "github_url": null,
+    "tags": [
+      "search advertising",
+      "sponsored search",
+      "Yahoo",
+      "auctions"
+    ],
+    "best_for": "Sponsored search click prediction and auction dynamics research",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "search-advertising-basics"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Yahoo's search advertising dataset with query, ad, and user features. Useful for position effects, CTR prediction, and auction research. Requires Yahoo Webscope access.",
+    "use_cases": [
+      "Search advertising",
+      "Position auctions",
+      "CTR prediction"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "Yahoo search ads dataset",
+      "sponsored search data",
+      "search advertising research"
+    ],
+    "domain_tags": [
+      "advertising",
+      "search"
+    ],
+    "data_modality": "tabular",
+    "temporal_coverage": "varies",
+    "geographic_scope": "United States",
+    "size_category": "large"
+  },
+  {
+    "name": "Outbrain Click Prediction Dataset",
+    "description": "Content recommendation dataset with 2 billion page views and user engagement data from Outbrain",
+    "category": "Ad Tech",
+    "url": "https://www.kaggle.com/c/outbrain-click-prediction/data",
+    "docs_url": "https://www.kaggle.com/c/outbrain-click-prediction",
+    "github_url": null,
+    "tags": [
+      "content recommendation",
+      "native advertising",
+      "Outbrain",
+      "engagement"
+    ],
+    "best_for": "Native advertising and content recommendation CTR prediction",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "recommender-systems"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Large-scale native advertising dataset with page-level features, ad content features, and user engagement. 2B+ page views for content recommendation research.",
+    "use_cases": [
+      "Native ad prediction",
+      "Content recommendation",
+      "User engagement modeling"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "Outbrain dataset",
+      "native advertising data",
+      "content recommendation CTR"
+    ],
+    "domain_tags": [
+      "advertising",
+      "content"
+    ],
+    "data_modality": "tabular",
+    "temporal_coverage": "14 days",
+    "geographic_scope": "Global",
+    "size_category": "very-large"
   }
 ]

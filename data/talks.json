@@ -10802,5 +10802,195 @@
       "Taiwan's strategic importance",
       "Military applications of chips"
     ]
+  },
+  {
+    "name": "Hal Varian: How the Google Ad Auction Works",
+    "description": "Google's Chief Economist explains the mechanics of the AdWords auction, Ad Rank, Quality Score, and how second-price auctions determine what advertisers pay.",
+    "category": "Ad Tech & Advertising Economics",
+    "url": "https://digital.uni.edu/google-ad-auctions-explained-by-hal-varian/",
+    "type": "Video",
+    "tags": [
+      "Ad Tech & Advertising Economics",
+      "Video"
+    ],
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Hal Varian, Google's Chief Economist, explains the core mechanics of how Google's advertising auction works. He covers Ad Rank calculation (bid \u00d7 quality score), how the second-price auction means advertisers pay just enough to beat the next competitor, and the role of ad extensions and landing page quality in determining ad position and cost.",
+    "use_cases": [
+      "Understand how ad auctions actually work",
+      "Learn what Quality Score means for advertisers",
+      "Grasp the economics of second-price auctions",
+      "Optimize ad campaigns based on auction mechanics"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How does Google determine which ad shows first?",
+      "What is Ad Rank and how is it calculated?",
+      "Why do advertisers pay less than their max bid?",
+      "What factors contribute to Quality Score?",
+      "How do second-price auctions benefit advertisers?"
+    ],
+    "speaker_expertise": [
+      "Auction Theory",
+      "Mechanism Design",
+      "Platform Economics"
+    ],
+    "key_insights": [
+      "Ad position is determined by Ad Rank = bid \u00d7 quality score",
+      "Second-price auctions align incentives for truthful bidding",
+      "Quality improvements can lower cost while improving position"
+    ]
+  },
+  {
+    "name": "Susan Athey: Machine Learning and Causal Inference",
+    "description": "NBER Methods Lecture covering causal forests, heterogeneous treatment effects, and applications to digital advertising measurement and A/B testing.",
+    "category": "Ad Tech & Advertising Economics",
+    "url": "https://www.nber.org/research/videos/2015-methods-lecture-susan-athey-machine-learning-and-causal-inference",
+    "type": "Video",
+    "tags": [
+      "Ad Tech & Advertising Economics",
+      "Video",
+      "Causal Inference & ML"
+    ],
+    "difficulty": "advanced",
+    "prerequisites": [
+      "Basic econometrics",
+      "Machine learning fundamentals"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics",
+      "causal-inference"
+    ],
+    "summary": "Susan Athey presents methods for combining machine learning with causal inference, with emphasis on estimating heterogeneous treatment effects. Key applications include measuring advertising effectiveness across different customer segments and optimizing targeting decisions in digital marketing contexts.",
+    "use_cases": [
+      "Estimate heterogeneous treatment effects from ad experiments",
+      "Build causal forests for personalized targeting",
+      "Design better A/B tests for advertising campaigns",
+      "Understand when ML predictions miss causal effects"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "Early-PhD"
+    ],
+    "synthetic_questions": [
+      "How do causal forests estimate treatment effect heterogeneity?",
+      "What's the difference between prediction and causal inference?",
+      "How can ML improve A/B test analysis?",
+      "When should we use doubly robust estimators?",
+      "How do you handle selection bias in observational ad data?"
+    ],
+    "speaker_expertise": [
+      "Causal Inference",
+      "Machine Learning",
+      "Digital Economics",
+      "Auction Design"
+    ],
+    "key_insights": [
+      "Causal forests partition data to estimate heterogeneous effects",
+      "ML for prediction and ML for causation require different approaches",
+      "Proper experiment design is crucial even with sophisticated analysis"
+    ]
+  },
+  {
+    "name": "Catherine Tucker: Digital Advertising and Privacy",
+    "description": "MIT IDE podcast on how privacy regulations like GDPR and Apple ATT affect digital advertising effectiveness, targeting, and the economics of personal data.",
+    "category": "Ad Tech & Advertising Economics",
+    "url": "https://ide.mit.edu/insights/ef6-digital-advertising-and-privacy-w-catherine-tucker/",
+    "type": "Podcast",
+    "tags": [
+      "Ad Tech & Advertising Economics",
+      "Podcast"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Catherine Tucker discusses how privacy regulations reshape the digital advertising landscape. She covers the economic trade-offs between user privacy and ad targeting effectiveness, the unintended consequences of regulations like GDPR, and how perceived privacy control affects ad engagement.",
+    "use_cases": [
+      "Understand privacy regulation impacts on ad effectiveness",
+      "Evaluate the economics of first-party vs third-party data",
+      "Navigate GDPR, CCPA, and ATT implications",
+      "Design privacy-respecting targeting strategies"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How does GDPR affect digital advertising effectiveness?",
+      "What happens to ad performance without third-party cookies?",
+      "Why does perceived privacy control increase ad engagement?",
+      "How should advertisers adapt to privacy regulations?",
+      "What is the economic value of targeting data?"
+    ],
+    "speaker_expertise": [
+      "Digital Privacy",
+      "Online Advertising",
+      "Regulation Economics"
+    ],
+    "key_insights": [
+      "Privacy regulations can have unintended effects on competition",
+      "User perception of control matters more than actual privacy",
+      "First-party data becomes more valuable under privacy restrictions"
+    ]
+  },
+  {
+    "name": "Hal Varian: Economics at Google",
+    "description": "Conversations with Tyler podcast. Google's Chief Economist discusses auction design, advertising economics, machine learning in practice, and how economists work in tech companies.",
+    "category": "Ad Tech & Advertising Economics",
+    "url": "https://conversationswithtyler.com/episodes/hal-varian/",
+    "type": "Podcast",
+    "tags": [
+      "Ad Tech & Advertising Economics",
+      "Podcast",
+      "Strategy & Digital Platforms"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "adtech-advertising-economics",
+      "platform-economics"
+    ],
+    "summary": "Hal Varian discusses his work as Google's Chief Economist, covering how auction theory was applied to build AdWords, the economics of attention markets, and practical lessons from deploying machine learning at scale. He also reflects on the role of economists in tech and how data science has changed economic research.",
+    "use_cases": [
+      "Learn how economic theory shapes tech products",
+      "Understand the role of economists in tech companies",
+      "See auction theory applied in practice",
+      "Gain insights on data-driven decision making"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How did Google apply auction theory to AdWords?",
+      "What do economists actually do at tech companies?",
+      "How has machine learning changed advertising?",
+      "What lessons from academic economics apply in industry?",
+      "How does Google think about platform competition?"
+    ],
+    "speaker_expertise": [
+      "Auction Theory",
+      "Information Economics",
+      "Platform Economics",
+      "Machine Learning"
+    ],
+    "key_insights": [
+      "Academic auction theory directly informed AdWords design",
+      "Economists in tech need to balance rigor with speed",
+      "Data abundance changes both research and business decisions"
+    ]
   }
 ]

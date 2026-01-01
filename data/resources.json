@@ -18798,5 +18798,213 @@
     "skill_progression": [
       "Beginner to Advanced"
     ]
+  },
+  {
+    "name": "Susan Athey's Stanford GSB Courses",
+    "description": "Stanford courses on digital economics, machine learning for causal inference, and tech platform economics from former Microsoft Chief Economist",
+    "category": "Academic Course",
+    "url": "https://athey.people.stanford.edu/teaching",
+    "type": "course",
+    "level": "graduate",
+    "tags": [
+      "Stanford",
+      "digital economics",
+      "causal inference",
+      "platforms"
+    ],
+    "domain": "Ad Tech Economics",
+    "image_url": null,
+    "difficulty": "advanced",
+    "prerequisites": [
+      "microeconomics",
+      "statistics"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Athey, 2023 AEA President and former Microsoft Chief Economist, teaches cutting-edge courses on digital platform economics and causal inference in tech. Course materials often publicly available.",
+    "use_cases": [
+      "Digital economics foundations",
+      "Causal inference methods",
+      "Platform research"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "Susan Athey courses",
+      "Stanford digital economics",
+      "platform economics course"
+    ],
+    "content_format": "academic-course",
+    "skill_progression": [
+      "Advanced"
+    ]
+  },
+  {
+    "name": "Dirk Bergemann's Yale Courses",
+    "description": "Yale courses on information economics, mechanism design, and dynamic auctions from leading auction theory researcher",
+    "category": "Academic Course",
+    "url": "https://campuspress.yale.edu/dirkbergemann/",
+    "type": "course",
+    "level": "graduate",
+    "tags": [
+      "Yale",
+      "mechanism design",
+      "information economics",
+      "auctions"
+    ],
+    "domain": "Auction Theory",
+    "image_url": null,
+    "difficulty": "advanced",
+    "prerequisites": [
+      "microeconomics",
+      "game-theory"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Bergemann's research on information design and targeting markets directly informs ad auction optimization. Course materials on mechanism design and information economics.",
+    "use_cases": [
+      "Mechanism design theory",
+      "Information economics",
+      "Auction optimization"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "Bergemann Yale",
+      "information design course",
+      "mechanism design course"
+    ],
+    "content_format": "academic-course",
+    "skill_progression": [
+      "Advanced"
+    ]
+  },
+  {
+    "name": "IAB and IAB Tech Lab",
+    "description": "Industry standards body maintaining OpenRTB, ads.txt, sellers.json, VAST, and other programmatic advertising standards",
+    "category": "Industry Standards",
+    "url": "https://iabtechlab.com/",
+    "type": "standards-body",
+    "level": "general",
+    "tags": [
+      "standards",
+      "OpenRTB",
+      "ads.txt",
+      "programmatic"
+    ],
+    "domain": "Ad Tech",
+    "image_url": null,
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "IAB Tech Lab develops technical standards for digital advertising including OpenRTB (RTB protocol), ads.txt (authorized seller verification), and VAST (video ads). Essential for understanding ad tech infrastructure.",
+    "use_cases": [
+      "Technical standards",
+      "Protocol understanding",
+      "Industry compliance"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "Practitioner"
+    ],
+    "synthetic_questions": [
+      "IAB Tech Lab",
+      "OpenRTB specs",
+      "ads.txt standard"
+    ],
+    "content_format": "standards-documentation",
+    "skill_progression": [
+      "Intermediate"
+    ]
+  },
+  {
+    "name": "Media Rating Council (MRC)",
+    "description": "Industry body setting viewability standards and measurement accreditation for digital advertising",
+    "category": "Industry Standards",
+    "url": "https://mediaratingcouncil.org/",
+    "type": "standards-body",
+    "level": "general",
+    "tags": [
+      "viewability",
+      "measurement",
+      "accreditation",
+      "standards"
+    ],
+    "domain": "Ad Measurement",
+    "image_url": null,
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "MRC sets viewability standards (50% of pixels visible for 1 second) and accredits measurement vendors. Understanding MRC standards essential for ad measurement work.",
+    "use_cases": [
+      "Viewability standards",
+      "Measurement accreditation",
+      "Industry benchmarks"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Practitioner"
+    ],
+    "synthetic_questions": [
+      "MRC viewability",
+      "ad measurement standards",
+      "viewability definition"
+    ],
+    "content_format": "standards-documentation",
+    "skill_progression": [
+      "Beginner"
+    ]
+  },
+  {
+    "name": "Clearcode AdTech Book",
+    "description": "Free online guide to programmatic advertising ecosystem with continuously updated technical coverage",
+    "category": "Online Guide",
+    "url": "https://clearcode.cc/blog/what-is-adtech/",
+    "type": "online-guide",
+    "level": "general",
+    "tags": [
+      "programmatic",
+      "ad tech",
+      "guide",
+      "free"
+    ],
+    "domain": "Ad Tech",
+    "image_url": null,
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Comprehensive free online resource covering ad tech ecosystem, DSPs, SSPs, DMPs, RTB mechanics, and industry developments. Continuously updated by Clearcode, an ad tech development company.",
+    "use_cases": [
+      "Industry introduction",
+      "Technical understanding",
+      "Reference material"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Clearcode ad tech",
+      "programmatic guide",
+      "ad tech ecosystem explained"
+    ],
+    "content_format": "online-guide",
+    "skill_progression": [
+      "Beginner to Intermediate"
+    ]
   }
 ]

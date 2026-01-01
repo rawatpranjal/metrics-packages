@@ -19078,5 +19078,178 @@
     "event_format": "research-meetings",
     "geographic_focus": "United States",
     "frequency": "multiple-per-year"
+  },
+  {
+    "name": "ISMS Marketing Science Conference",
+    "description": "Premier academic marketing conference with strong emphasis on advertising effectiveness, digital marketing, and causal inference",
+    "category": "Conference",
+    "subcategory": "Marketing Science",
+    "url": "https://www.informs.org/Community/Marketing-Science",
+    "type": "conference",
+    "location": "Various (rotating)",
+    "dates": "Annual, June",
+    "attendees": "500+",
+    "best_for": "Presenting ad measurement research and networking with marketing academics",
+    "tags": [
+      "marketing science",
+      "academic",
+      "advertising",
+      "INFORMS"
+    ],
+    "start_date": null,
+    "end_date": null,
+    "difficulty": "advanced",
+    "prerequisites": [],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "The premier academic venue for marketing science research. Strong focus on advertising effectiveness, digital marketing, and causal inference methods. Papers often published in Marketing Science and JMR.",
+    "use_cases": [
+      "Research presentation",
+      "Academic networking",
+      "Industry-academia connection"
+    ],
+    "audience": [
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "ISMS conference",
+      "Marketing Science conference",
+      "academic advertising research"
+    ],
+    "event_format": "academic-conference",
+    "geographic_focus": "International",
+    "frequency": "annual"
+  },
+  {
+    "name": "ACM Conference on Economics and Computation (EC)",
+    "description": "Leading venue for ad auction research, mechanism design, and computational economics at the intersection of CS and economics",
+    "category": "Conference",
+    "subcategory": "Computational Economics",
+    "url": "https://sigecom.org/ec/",
+    "type": "conference",
+    "location": "Various (rotating)",
+    "dates": "Annual, July",
+    "attendees": "300+",
+    "best_for": "Cutting-edge research on ad auctions, mechanism design, and market algorithms",
+    "tags": [
+      "ACM",
+      "auctions",
+      "mechanism design",
+      "economics",
+      "computation"
+    ],
+    "start_date": null,
+    "end_date": null,
+    "difficulty": "advanced",
+    "prerequisites": [],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "ACM's flagship venue for computational economics. Many foundational ad auction papers (Varian, Edelman-Ostrovsky-Schwarz) published here. Essential for auction theory research.",
+    "use_cases": [
+      "Auction research",
+      "Mechanism design",
+      "Algorithmic economics"
+    ],
+    "audience": [
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "ACM EC conference",
+      "economics computation conference",
+      "ad auction research venue"
+    ],
+    "event_format": "academic-conference",
+    "geographic_focus": "International",
+    "frequency": "annual"
+  },
+  {
+    "name": "Programmatic I/O (AdExchanger)",
+    "description": "World's largest programmatic advertising conference bringing together brands, agencies, publishers, and ad tech providers",
+    "category": "Conference",
+    "subcategory": "Ad Tech Industry",
+    "url": "https://www.adexchanger.com/events/programmatic-io/",
+    "type": "conference",
+    "location": "New York / San Francisco",
+    "dates": "Twice yearly (Spring & Fall)",
+    "attendees": "1000+",
+    "best_for": "Industry networking, understanding practitioner perspectives on ad tech",
+    "tags": [
+      "programmatic",
+      "industry",
+      "AdExchanger",
+      "networking"
+    ],
+    "start_date": null,
+    "end_date": null,
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "AdExchanger's flagship industry event. Brings together buy-side, sell-side, and ad tech platforms. Good for understanding practitioner pain points and industry developments.",
+    "use_cases": [
+      "Industry networking",
+      "Trend awareness",
+      "Practitioner perspectives"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "Practitioner"
+    ],
+    "synthetic_questions": [
+      "Programmatic I/O",
+      "AdExchanger conference",
+      "ad tech industry event"
+    ],
+    "event_format": "industry-conference",
+    "geographic_focus": "United States",
+    "frequency": "twice-yearly"
+  },
+  {
+    "name": "Google Ad Tech Antitrust Case Documents",
+    "description": "Public court filings and exhibits from US v. Google (ad tech) providing unprecedented insight into market structure",
+    "category": "Legal Proceedings",
+    "subcategory": "Antitrust",
+    "url": "https://www.justice.gov/atr/case/us-v-google-llc-2023",
+    "type": "legal-documents",
+    "location": "Online",
+    "dates": "Ongoing (2023-present)",
+    "attendees": null,
+    "best_for": "Understanding ad tech market structure, vertical integration, and competition issues",
+    "tags": [
+      "antitrust",
+      "Google",
+      "DOJ",
+      "market structure"
+    ],
+    "start_date": null,
+    "end_date": null,
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "DOJ's antitrust case against Google's ad tech business provides unprecedented public access to internal documents, market data, and expert testimony on programmatic advertising market structure.",
+    "use_cases": [
+      "Market structure research",
+      "Competition analysis",
+      "Industry understanding"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "Google ad tech antitrust",
+      "DOJ Google case",
+      "ad tech monopoly"
+    ],
+    "event_format": "legal-proceedings",
+    "geographic_focus": "United States",
+    "frequency": "ongoing"
   }
 ]

@@ -19729,5 +19729,499 @@
       "Skyfield"
     ],
     "maintenance_status": "active"
+  },
+  {
+    "name": "CausalML",
+    "description": "Uber's Python library for uplift modeling and causal inference with meta-learners, uplift trees, and propensity methods",
+    "category": "Causal Inference",
+    "docs_url": "https://causalml.readthedocs.io/",
+    "github_url": "https://github.com/uber/causalml",
+    "url": "https://causalml.readthedocs.io/",
+    "install": "pip install causalml",
+    "tags": [
+      "uplift modeling",
+      "CATE",
+      "meta-learners",
+      "treatment effects"
+    ],
+    "best_for": "Estimating heterogeneous treatment effects for ad targeting optimization",
+    "language": "Python",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "causal-inference-basics"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Production-ready library from Uber with 3.3K+ GitHub stars. Implements S, T, X, R meta-learners, uplift trees, and propensity methods. Used for ad targeting and campaign optimization.",
+    "use_cases": [
+      "Uplift modeling",
+      "Treatment effect estimation",
+      "Ad targeting"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "CausalML Uber",
+      "uplift modeling Python",
+      "CATE estimation"
+    ],
+    "primary_use_cases": [
+      "Uplift modeling",
+      "Ad optimization"
+    ],
+    "api_complexity": "medium",
+    "related_packages": [
+      "EconML",
+      "DoWhy"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "DoWhy",
+    "description": "Microsoft's causal inference library with four-step Model-Identify-Estimate-Refute workflow",
+    "category": "Causal Inference",
+    "docs_url": "https://www.pywhy.org/dowhy/",
+    "github_url": "https://github.com/py-why/dowhy",
+    "url": "https://www.pywhy.org/dowhy/",
+    "install": "pip install dowhy",
+    "tags": [
+      "causal inference",
+      "DAG",
+      "refutation",
+      "Microsoft"
+    ],
+    "best_for": "End-to-end causal analysis with automated robustness checks",
+    "language": "Python",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "causal-inference-basics"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Microsoft/PyWhy library with principled four-step workflow: Model causal graph, Identify estimand, Estimate effect, Refute with robustness checks. Essential for rigorous ad measurement.",
+    "use_cases": [
+      "Causal analysis",
+      "Robustness testing",
+      "Ad effectiveness"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "DoWhy Python",
+      "causal inference library",
+      "refutation tests"
+    ],
+    "primary_use_cases": [
+      "Causal inference",
+      "Robustness analysis"
+    ],
+    "api_complexity": "medium",
+    "related_packages": [
+      "CausalML",
+      "EconML"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "EconML",
+    "description": "Microsoft's library for heterogeneous treatment effects with Double ML, Causal Forests, and DRLearner",
+    "category": "Causal Inference",
+    "docs_url": "https://econml.azurewebsites.net/",
+    "github_url": "https://github.com/py-why/econml",
+    "url": "https://econml.azurewebsites.net/",
+    "install": "pip install econml",
+    "tags": [
+      "Double ML",
+      "Causal Forest",
+      "CATE",
+      "Microsoft"
+    ],
+    "best_for": "State-of-the-art heterogeneous treatment effect estimation for targeting",
+    "language": "Python",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "causal-inference",
+      "machine-learning"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Microsoft's cutting-edge library implementing Double/Debiased ML, Causal Forests, DRLearner, and more. Academic quality with production readiness. Essential for modern ad targeting.",
+    "use_cases": [
+      "CATE estimation",
+      "Personalized targeting",
+      "Policy learning"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "EconML Python",
+      "Double ML",
+      "Causal Forest Python"
+    ],
+    "primary_use_cases": [
+      "Treatment effects",
+      "Policy optimization"
+    ],
+    "api_complexity": "high",
+    "related_packages": [
+      "CausalML",
+      "DoWhy"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "CausalImpact",
+    "description": "Google's Bayesian structural time-series package for measuring intervention effects on time series",
+    "category": "Causal Inference",
+    "docs_url": "https://google.github.io/CausalImpact/",
+    "github_url": "https://github.com/google/CausalImpact",
+    "url": "https://google.github.io/CausalImpact/",
+    "install": "install.packages('CausalImpact')",
+    "tags": [
+      "time series",
+      "Bayesian",
+      "intervention",
+      "Google"
+    ],
+    "best_for": "Measuring causal impact of ad campaigns on time-series outcomes",
+    "language": "R",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "time-series-basics"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Google's Bayesian structural time-series approach for measuring intervention effects. Based on the Brodersen et al. 2015 paper. Python port available via pycausalimpact.",
+    "use_cases": [
+      "Campaign measurement",
+      "Launch impact",
+      "Time series causal inference"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "CausalImpact R",
+      "Bayesian time series",
+      "intervention analysis"
+    ],
+    "primary_use_cases": [
+      "Time series causal inference",
+      "Campaign analysis"
+    ],
+    "api_complexity": "low",
+    "related_packages": [
+      "bsts",
+      "pycausalimpact"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "GeoLift",
+    "description": "Meta's geo-experimental methodology combining Augmented Synthetic Control with power analysis",
+    "category": "Causal Inference",
+    "docs_url": "https://facebookincubator.github.io/GeoLift/",
+    "github_url": "https://github.com/facebookincubator/GeoLift",
+    "url": "https://facebookincubator.github.io/GeoLift/",
+    "install": "devtools::install_github('facebookincubator/GeoLift')",
+    "tags": [
+      "geo experiments",
+      "synthetic control",
+      "power analysis",
+      "Meta"
+    ],
+    "best_for": "Designing and analyzing geo-holdout experiments for ad measurement",
+    "language": "R",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "causal-inference",
+      "experimental-design"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Meta's end-to-end geo-experimental methodology with power calculators and Augmented Synthetic Control. Essential when user-level randomization is infeasible.",
+    "use_cases": [
+      "Geo experiments",
+      "Incrementality testing",
+      "Power analysis"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "GeoLift Meta",
+      "geo experiments R",
+      "synthetic control marketing"
+    ],
+    "primary_use_cases": [
+      "Geo holdout tests",
+      "Incrementality measurement"
+    ],
+    "api_complexity": "high",
+    "related_packages": [
+      "Robyn",
+      "CausalImpact"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "Robyn",
+    "description": "Meta's AI/ML-powered Marketing Mix Modeling package with ridge regression and multi-objective optimization",
+    "category": "Marketing Analytics",
+    "docs_url": "https://facebookexperimental.github.io/Robyn/",
+    "github_url": "https://github.com/facebookexperimental/Robyn",
+    "url": "https://facebookexperimental.github.io/Robyn/",
+    "install": "remotes::install_github('facebookexperimental/Robyn/R')",
+    "tags": [
+      "MMM",
+      "marketing mix",
+      "budget optimization",
+      "Meta"
+    ],
+    "best_for": "Automated marketing mix modeling with budget allocation recommendations",
+    "language": "R",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "mmm-basics",
+      "time-series"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Meta's semi-automated MMM with Nevergrad optimization, Prophet for seasonality, and Pareto-optimal model selection. Industry-leading open-source MMM solution.",
+    "use_cases": [
+      "Marketing mix modeling",
+      "Budget allocation",
+      "ROAS estimation"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Practitioner"
+    ],
+    "synthetic_questions": [
+      "Robyn MMM",
+      "Meta marketing mix",
+      "automated MMM"
+    ],
+    "primary_use_cases": [
+      "MMM",
+      "Budget optimization"
+    ],
+    "api_complexity": "high",
+    "related_packages": [
+      "PyMC-Marketing",
+      "GeoLift"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "PyMC-Marketing",
+    "description": "Bayesian Marketing Mix Modeling and Customer Lifetime Value with PyMC, including GPU acceleration",
+    "category": "Marketing Analytics",
+    "docs_url": "https://www.pymc-marketing.io/",
+    "github_url": "https://github.com/pymc-labs/pymc-marketing",
+    "url": "https://www.pymc-marketing.io/",
+    "install": "pip install pymc-marketing",
+    "tags": [
+      "MMM",
+      "Bayesian",
+      "CLV",
+      "PyMC"
+    ],
+    "best_for": "Bayesian MMM with uncertainty quantification and GPU acceleration",
+    "language": "Python",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "bayesian-inference",
+      "pymc"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Bayesian MMM and CLV modeling built on PyMC. Includes adstock transformations, saturation curves, and GPU acceleration. Growing alternative to Robyn for Python users.",
+    "use_cases": [
+      "Bayesian MMM",
+      "CLV modeling",
+      "Uncertainty quantification"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "PyMC-Marketing",
+      "Bayesian MMM Python",
+      "marketing analytics PyMC"
+    ],
+    "primary_use_cases": [
+      "MMM",
+      "CLV modeling"
+    ],
+    "api_complexity": "high",
+    "related_packages": [
+      "Robyn",
+      "lifetimes"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "DeepCTR",
+    "description": "Easy-to-use implementations of deep CTR models including Wide&Deep, DeepFM, DIN, xDeepFM, and multi-task architectures",
+    "category": "CTR Prediction",
+    "docs_url": "https://deepctr-doc.readthedocs.io/",
+    "github_url": "https://github.com/shenweichen/DeepCTR",
+    "url": "https://deepctr-doc.readthedocs.io/",
+    "install": "pip install deepctr",
+    "tags": [
+      "CTR",
+      "deep learning",
+      "recommender",
+      "Wide&Deep"
+    ],
+    "best_for": "Implementing and benchmarking deep CTR prediction models",
+    "language": "Python",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "deep-learning",
+      "tensorflow"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Keras-style implementations of all major deep CTR architectures: Wide&Deep, DeepFM, DCN V2, xDeepFM, DIN, DIEN, and multi-task models (ESMM, MMOE). TensorFlow and PyTorch versions available.",
+    "use_cases": [
+      "CTR model prototyping",
+      "Architecture comparison",
+      "Production deployment"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "DeepCTR Python",
+      "Wide&Deep implementation",
+      "DeepFM library"
+    ],
+    "primary_use_cases": [
+      "CTR prediction",
+      "Model benchmarking"
+    ],
+    "api_complexity": "medium",
+    "related_packages": [
+      "TensorFlow",
+      "PyTorch"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "xgboost",
+    "description": "Gradient boosting framework widely used as baseline for CTR prediction and attribution modeling",
+    "category": "Machine Learning",
+    "docs_url": "https://xgboost.readthedocs.io/",
+    "github_url": "https://github.com/dmlc/xgboost",
+    "url": "https://xgboost.readthedocs.io/",
+    "install": "pip install xgboost",
+    "tags": [
+      "gradient boosting",
+      "CTR",
+      "baseline",
+      "XGBoost"
+    ],
+    "best_for": "Fast, high-performance baseline models for CTR and conversion prediction",
+    "language": "Python",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Industry-standard gradient boosting implementation. Strong baseline for CTR prediction that deep models must beat. GPU support, regularization, and handling of sparse features.",
+    "use_cases": [
+      "CTR baselines",
+      "Feature importance",
+      "Production models"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "XGBoost CTR",
+      "gradient boosting ads",
+      "XGBoost ad prediction"
+    ],
+    "primary_use_cases": [
+      "Classification",
+      "CTR prediction"
+    ],
+    "api_complexity": "low",
+    "related_packages": [
+      "LightGBM",
+      "CatBoost"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "LightGBM",
+    "description": "Microsoft's fast gradient boosting with histogram-based algorithm, widely used in ad tech for CTR prediction",
+    "category": "Machine Learning",
+    "docs_url": "https://lightgbm.readthedocs.io/",
+    "github_url": "https://github.com/microsoft/LightGBM",
+    "url": "https://lightgbm.readthedocs.io/",
+    "install": "pip install lightgbm",
+    "tags": [
+      "gradient boosting",
+      "fast",
+      "categorical",
+      "Microsoft"
+    ],
+    "best_for": "Large-scale CTR prediction with native categorical feature support",
+    "language": "Python",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Microsoft's histogram-based gradient boosting with native categorical feature handling. Faster than XGBoost on large datasets. Common choice for ad CTR prediction in production.",
+    "use_cases": [
+      "Large-scale CTR",
+      "Fast training",
+      "Categorical features"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "LightGBM CTR",
+      "fast gradient boosting",
+      "LightGBM categorical"
+    ],
+    "primary_use_cases": [
+      "CTR prediction",
+      "Large-scale classification"
+    ],
+    "api_complexity": "low",
+    "related_packages": [
+      "XGBoost",
+      "CatBoost"
+    ],
+    "maintenance_status": "active"
   }
 ]

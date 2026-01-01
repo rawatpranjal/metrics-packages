@@ -2596,5 +2596,218 @@
     "skill_progression": [
       "Beginner"
     ]
+  },
+  {
+    "name": "Auction Theory",
+    "author": "Vijay Krishna",
+    "year": 2010,
+    "isbn": "978-0123745071",
+    "description": "Standard graduate textbook on auction theory covering private values through multi-unit auctions, with chapter on position auctions",
+    "category": "Auction Theory",
+    "type": "textbook",
+    "url": "https://www.elsevier.com/books/auction-theory/krishna/978-0-12-374507-1",
+    "tags": [
+      "auctions",
+      "mechanism design",
+      "game theory",
+      "textbook"
+    ],
+    "difficulty": "advanced",
+    "prerequisites": [
+      "game-theory",
+      "microeconomics"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "The definitive graduate textbook on auction theory. 2nd edition includes chapter on position auctions (Chapter 14) directly applicable to ad auctions. Essential for understanding RTB theory.",
+    "use_cases": [
+      "Auction theory foundations",
+      "Mechanism design",
+      "Ad auction research"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "Krishna Auction Theory",
+      "auction theory textbook",
+      "position auctions book"
+    ],
+    "content_format": "academic-textbook",
+    "skill_progression": [
+      "Advanced"
+    ]
+  },
+  {
+    "name": "Putting Auction Theory to Work",
+    "author": "Paul Milgrom",
+    "year": 2004,
+    "isbn": "978-0521536721",
+    "description": "Nobel laureate bridges auction theory and practice, from the designer of FCC spectrum auctions and market design pioneer",
+    "category": "Auction Theory",
+    "type": "textbook",
+    "url": "https://www.cambridge.org/core/books/putting-auction-theory-to-work/7ADA18EE8AE3B5F6EDA8DA89C64E37D1",
+    "tags": [
+      "auctions",
+      "market design",
+      "spectrum auctions",
+      "Nobel Prize"
+    ],
+    "difficulty": "advanced",
+    "prerequisites": [
+      "microeconomics"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Milgrom designed the FCC spectrum auctions and won the 2020 Nobel Prize. This book bridges theory and practice, essential for understanding how auction design affects outcomes.",
+    "use_cases": [
+      "Practical auction design",
+      "Market mechanisms",
+      "Policy applications"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Researcher",
+      "Practitioner"
+    ],
+    "synthetic_questions": [
+      "Milgrom auction book",
+      "auction design practice",
+      "spectrum auctions"
+    ],
+    "content_format": "academic-textbook",
+    "skill_progression": [
+      "Intermediate to Advanced"
+    ]
+  },
+  {
+    "name": "The Economics of Advertising (Handbook of Industrial Organization Chapter)",
+    "author": "Kyle Bagwell",
+    "year": 2007,
+    "isbn": "978-0444824356",
+    "description": "Definitive 144-page academic survey covering informative vs persuasive advertising, signaling, and empirical evidence",
+    "category": "Advertising Economics",
+    "type": "handbook-chapter",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S1573448X06030287",
+    "tags": [
+      "advertising",
+      "survey",
+      "handbook",
+      "theory"
+    ],
+    "difficulty": "advanced",
+    "prerequisites": [
+      "microeconomics",
+      "industrial-organization"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "The authoritative academic survey of advertising economics. Covers informative vs persuasive debate, signaling models, and empirical evidence. Essential theoretical foundation.",
+    "use_cases": [
+      "Literature review",
+      "Theory foundations",
+      "Academic research"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "Bagwell advertising economics",
+      "advertising economics survey",
+      "IO advertising chapter"
+    ],
+    "content_format": "handbook-chapter",
+    "skill_progression": [
+      "Advanced"
+    ]
+  },
+  {
+    "name": "Handbook of Media Economics (2 volumes)",
+    "author": "Simon P. Anderson, Joel Waldfogel, and David Stromberg",
+    "year": 2015,
+    "isbn": "978-0444636850",
+    "description": "Comprehensive handbook with modern chapters on advertising platforms, targeting, and media markets",
+    "category": "Media Economics",
+    "type": "handbook",
+    "url": "https://www.elsevier.com/books/handbook-of-media-economics/anderson/978-0-444-63685-0",
+    "tags": [
+      "media economics",
+      "platforms",
+      "advertising",
+      "handbook"
+    ],
+    "difficulty": "advanced",
+    "prerequisites": [
+      "microeconomics"
+    ],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Modern handbook covering digital media economics. Includes chapters on advertising-supported media, platform competition, and targeting. More recent complement to Bagwell's survey.",
+    "use_cases": [
+      "Platform economics",
+      "Media markets",
+      "Modern advertising research"
+    ],
+    "audience": [
+      "Senior-DS",
+      "Researcher"
+    ],
+    "synthetic_questions": [
+      "Handbook Media Economics",
+      "media economics textbook",
+      "platform advertising handbook"
+    ],
+    "content_format": "academic-handbook",
+    "skill_progression": [
+      "Advanced"
+    ]
+  },
+  {
+    "name": "Introduction to Programmatic Advertising",
+    "author": "Dominik Kosorin",
+    "year": 2016,
+    "isbn": "978-1539684794",
+    "description": "First comprehensive introduction to real-time bidding, SSPs, DSPs, header bidding, and the programmatic advertising ecosystem",
+    "category": "Ad Tech",
+    "type": "practitioner-guide",
+    "url": "https://www.amazon.com/Introduction-Programmatic-Advertising-Dominik-Kosorin/dp/1539684792",
+    "tags": [
+      "programmatic",
+      "RTB",
+      "DSP",
+      "SSP",
+      "practitioner"
+    ],
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "adtech-advertising-economics"
+    ],
+    "summary": "Accessible introduction to programmatic advertising for practitioners. Covers RTB mechanics, exchange dynamics, DSPs, SSPs, and header bidding. Good starting point for industry understanding.",
+    "use_cases": [
+      "Industry introduction",
+      "Ad tech fundamentals",
+      "Career transition"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "programmatic advertising book",
+      "RTB introduction",
+      "ad tech ecosystem guide"
+    ],
+    "content_format": "practitioner-guide",
+    "skill_progression": [
+      "Beginner"
+    ]
   }
 ]

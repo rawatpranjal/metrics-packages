@@ -49383,6 +49383,536 @@
           ]
         }
       ]
+    },
+    {
+      "id": "adtech-advertising-economics",
+      "name": "Ad Tech & Digital Advertising Economics",
+      "description": "Design ad auctions, measure advertising effectiveness, and navigate privacy regulation",
+      "image_url": "/images/topics/adtech.webp",
+      "subtopics": [
+        {
+          "id": "advertising-economics-foundations",
+          "name": "Advertising Economics Foundations",
+          "application": "Understand attention markets and platform economics",
+          "papers": [
+            {
+              "title": "Optimal Advertising and Optimal Quality",
+              "authors": "Robert Dorfman and Peter O. Steiner",
+              "year": 1954,
+              "tag": "Classic",
+              "description": "Establishes that optimal advertising-to-sales ratio equals the ratio of advertising elasticity to price elasticity\u2014the foundation for budget allocation decisions.",
+              "url": "https://www.jstor.org/stable/1812319",
+              "tags": [
+                "Advertising Economics",
+                "Budget Optimization"
+              ]
+            },
+            {
+              "title": "Advertising as Information",
+              "authors": "Philip Nelson",
+              "year": 1974,
+              "tag": "Classic",
+              "description": "Distinguishes search goods from experience goods, showing advertising serves different informational functions for each category.",
+              "url": "https://www.jstor.org/stable/1837496",
+              "tags": [
+                "Information Economics",
+                "Consumer Behavior"
+              ]
+            },
+            {
+              "title": "Price and Advertising Signals of Product Quality",
+              "authors": "Paul Milgrom and John Roberts",
+              "year": 1986,
+              "tag": "Classic",
+              "description": "Formalizes how advertising expenditure and pricing jointly signal quality for experience goods, even when ads contain no direct information.",
+              "url": "https://www.jstor.org/stable/1833203",
+              "tags": [
+                "Signaling",
+                "Quality"
+              ]
+            },
+            {
+              "title": "The Economics of Information",
+              "authors": "George J. Stigler",
+              "year": 1961,
+              "tag": "Classic",
+              "description": "Nobel Prize-winning work on consumer search theory showing why price dispersion persists even in competitive markets with positive search costs.",
+              "url": "https://www.jstor.org/stable/1829263",
+              "tags": [
+                "Search Theory",
+                "Information Economics"
+              ]
+            },
+            {
+              "title": "Behavioral Inattention",
+              "authors": "Xavier Gabaix",
+              "year": 2019,
+              "tag": "Survey",
+              "description": "Comprehensive survey synthesizing decades of research on how consumers allocate limited attention\u2014the foundation of attention economics.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/B9780444633989000098",
+              "tags": [
+                "Behavioral Economics",
+                "Attention"
+              ]
+            },
+            {
+              "title": "Platform Competition in Two-Sided Markets",
+              "authors": "Jean-Charles Rochet and Jean Tirole",
+              "year": 2003,
+              "tag": "Classic",
+              "description": "Establishes that platforms must 'get both sides on board' and that price structure matters due to cross-group network externalities.",
+              "url": "https://www.jstor.org/stable/3700214",
+              "tags": [
+                "Platform Economics",
+                "Two-Sided Markets"
+              ]
+            },
+            {
+              "title": "Competition in Two-Sided Markets",
+              "authors": "Mark Armstrong",
+              "year": 2006,
+              "tag": "Classic",
+              "description": "Introduces 'competitive bottleneck' concept: when advertisers multi-home but users single-home, platforms gain market power over advertisers.",
+              "url": "https://www.jstor.org/stable/30034415",
+              "tags": [
+                "Platform Economics",
+                "Market Power"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ad-auction-mechanism-design",
+          "name": "Ad Auction Theory & Mechanism Design",
+          "application": "Design and optimize real-time bidding auctions",
+          "papers": [
+            {
+              "title": "Counterspeculation, Auctions, and Competitive Sealed Tenders",
+              "authors": "William Vickrey",
+              "year": 1961,
+              "tag": "Classic",
+              "description": "Nobel Prize-winning introduction of second-price sealed-bid auctions proving truthful bidding is dominant strategy\u2014the basis for historical RTB auction designs.",
+              "url": "https://www.jstor.org/stable/2977633",
+              "tags": [
+                "Auction Theory",
+                "Mechanism Design"
+              ]
+            },
+            {
+              "title": "Optimal Auction Design",
+              "authors": "Roger B. Myerson",
+              "year": 1981,
+              "tag": "Classic",
+              "description": "Nobel Prize-winning characterization of revenue-maximizing auctions introducing virtual valuations\u2014fundamental to reserve price optimization.",
+              "url": "https://www.jstor.org/stable/3689266",
+              "tags": [
+                "Auction Theory",
+                "Revenue Optimization"
+              ]
+            },
+            {
+              "title": "A Theory of Auctions and Competitive Bidding",
+              "authors": "Paul Milgrom and Robert Weber",
+              "year": 1982,
+              "tag": "Classic",
+              "description": "Develops affiliated values theory and the linkage principle explaining why open auctions generate higher revenue when values are correlated.",
+              "url": "https://www.jstor.org/stable/1912066",
+              "tags": [
+                "Auction Theory",
+                "Affiliated Values"
+              ]
+            },
+            {
+              "title": "Internet Advertising and the Generalized Second-Price Auction",
+              "authors": "Benjamin Edelman, Michael Ostrovsky, and Michael Schwarz",
+              "year": 2007,
+              "tag": "Classic",
+              "description": "Shows GSP is not truthful but has locally envy-free equilibria. Foundational paper for sponsored search auction economics.",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/aer.97.1.242",
+              "tags": [
+                "Sponsored Search",
+                "GSP Auctions"
+              ]
+            },
+            {
+              "title": "Position Auctions",
+              "authors": "Hal R. Varian",
+              "year": 2007,
+              "tag": "Classic",
+              "description": "Provides empirical evidence that symmetric Nash equilibrium describes Google's ad prices accurately, with analysis of advertiser behavior.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167718706001251",
+              "tags": [
+                "Sponsored Search",
+                "Google Ads"
+              ]
+            },
+            {
+              "title": "Position Auctions with Consumer Search",
+              "authors": "Susan Athey and Glenn Ellison",
+              "year": 2011,
+              "tag": "SOTA",
+              "description": "Endogenizes click-through rates by modeling consumer search behavior, providing theoretical motivation for position-specific reserve prices.",
+              "url": "https://academic.oup.com/qje/article/126/3/1213/1854394",
+              "tags": [
+                "Consumer Search",
+                "Reserve Prices"
+              ]
+            },
+            {
+              "title": "Reserve Prices in Internet Advertising Auctions: A Field Experiment",
+              "authors": "Michael Ostrovsky and Michael Schwarz",
+              "year": 2023,
+              "tag": "SOTA",
+              "description": "Large-scale Yahoo field experiment validating Myerson's theory in real ad markets, demonstrating optimal reserve price setting.",
+              "url": "https://www.journals.uchicago.edu/doi/10.1086/722076",
+              "tags": [
+                "Field Experiment",
+                "Reserve Prices"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "measuring-advertising-effects",
+          "name": "Measuring Advertising Effects",
+          "application": "Estimate causal ad effects despite targeting bias",
+          "papers": [
+            {
+              "title": "The Unfavorable Economics of Measuring the Returns to Advertising",
+              "authors": "Randall A. Lewis and Justin M. Rao",
+              "year": 2015,
+              "tag": "Classic",
+              "description": "Meta-analysis of 25 large field experiments showing median confidence intervals on ROI exceeding 100 percentage points, requiring 10M+ person-weeks for informative results.",
+              "url": "https://academic.oup.com/qje/article/130/4/1941/1921821",
+              "tags": [
+                "Ad Measurement",
+                "Field Experiments"
+              ]
+            },
+            {
+              "title": "A Comparison of Approaches to Advertising Measurement",
+              "authors": "Brett R. Gordon, Florian Zettelmeyer, Neha Bhargava, and Dan Chapsky",
+              "year": 2019,
+              "tag": "SOTA",
+              "description": "Compares 15 Facebook RCTs comprising 500M observations against observational methods, documenting that standard approaches fail due to 'activity bias.'",
+              "url": "https://pubsonline.informs.org/doi/10.1287/mksc.2018.1135",
+              "tags": [
+                "Causal Inference",
+                "Facebook"
+              ]
+            },
+            {
+              "title": "Ghost Ads: Improving the Economics of Measuring Online Ad Effectiveness",
+              "authors": "Garrett A. Johnson, Randall A. Lewis, and Elmar I. Nubbemeyer",
+              "year": 2017,
+              "tag": "Methodological",
+              "description": "Identifies control-group counterparts of exposed consumers without PSA controls, achieving 5.9-16.4x variance reduction. Meta-study of 432 Google Display experiments.",
+              "url": "https://journals.sagepub.com/doi/10.1509/jmr.15.0297",
+              "tags": [
+                "Ghost Ads",
+                "Variance Reduction"
+              ]
+            },
+            {
+              "title": "Inferring Causal Impact Using Bayesian Structural Time-Series Models",
+              "authors": "Kay H. Brodersen, Fabian Gallusser, Jim Koehler, Nicolas Remy, and Steven L. Scott",
+              "year": 2015,
+              "tag": "Methodological",
+              "description": "Introduces Bayesian structural time-series models for measuring intervention effects\u2014the foundation of Google's CausalImpact package.",
+              "url": "https://projecteuclid.org/journals/annals-of-applied-statistics/volume-9/issue-1/Inferring-causal-impact-using-Bayesian-structural-time-series-models/10.1214/14-AOAS788.full",
+              "tags": [
+                "Bayesian Methods",
+                "Time Series"
+              ]
+            },
+            {
+              "title": "Counterfactual Shapley Values for Multi-Touch Attribution",
+              "authors": "Vikalp Singal, Marjan Oudjat, and Nikhil Krishnan",
+              "year": 2019,
+              "tag": "Methodological",
+              "description": "Develops counterfactual-adjusted Shapley values for theoretically grounded allocation of credit across marketing touchpoints.",
+              "url": "https://dl.acm.org/doi/10.1145/3308558.3313668",
+              "tags": [
+                "Attribution",
+                "Shapley Values"
+              ]
+            },
+            {
+              "title": "Attribution and the Effectiveness of Online Advertising",
+              "authors": "Vibhanshu Abhishek, Stylianos Despotakis, and Raghuram Ravi",
+              "year": 2023,
+              "tag": "SOTA",
+              "description": "Shows attribution isn't just measurement: different rules affect publisher incentives and market equilibrium, with last-touch over-incentivizing late-funnel exposures.",
+              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3220990",
+              "tags": [
+                "Attribution",
+                "Publisher Incentives"
+              ]
+            },
+            {
+              "title": "GeoLift: Geo-Experimental Inference with Augmented Synthetic Control",
+              "authors": "Meta Research",
+              "year": 2022,
+              "tag": "Industry",
+              "description": "Combines Augmented Synthetic Control with power analysis for geo-holdout tests when user-level randomization is infeasible.",
+              "url": "https://facebookincubator.github.io/GeoLift/",
+              "tags": [
+                "Geo Experiments",
+                "Synthetic Control"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "privacy-economics-targeting",
+          "name": "Privacy Economics & Targeting",
+          "application": "Quantify the value of data and targeting under regulation",
+          "papers": [
+            {
+              "title": "The Economic Value of Cookies",
+              "authors": "Klaus Miller and Bernd Skiera",
+              "year": 2024,
+              "tag": "SOTA",
+              "description": "Best Paper Award winner finding average cookie lifetime of 279 days with average value of \u20ac2.52 per cookie; restricting to 1 year decreases value by ~25%.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167811624000060",
+              "tags": [
+                "Cookies",
+                "Data Valuation"
+              ]
+            },
+            {
+              "title": "Paying for Privacy: The Economic Cost of Third-Party Tracking Restrictions",
+              "authors": "Nils Wernerfelt, Anna Tuchman, Bradley Shapiro, and Robert Moakler",
+              "year": 2024,
+              "tag": "SOTA",
+              "description": "Large Meta experiment with 70K+ advertisers: median cost per incremental customer rose 31% (from $38.16 to $49.93) without offsite data.",
+              "url": "https://www.nber.org/papers/w32273",
+              "tags": [
+                "Third-Party Data",
+                "Meta"
+              ]
+            },
+            {
+              "title": "The Effects of Privacy Regulation on Advertising",
+              "authors": "Shijie Wang, Qingyang Jiang, and Sha Yang",
+              "year": 2024,
+              "tag": "SOTA",
+              "description": "Using 3.7B impressions, finds GDPR reduced revenue per click 5.7%, CTR 2.1%, conversion rates 5.4%\u2014though contextual targeting offset ~44% of conversion decline.",
+              "url": "https://journals.sagepub.com/doi/10.1177/00222437241231200",
+              "tags": [
+                "GDPR",
+                "Privacy Regulation"
+              ]
+            },
+            {
+              "title": "Privacy and the Market for Products: Economic Consequences of GDPR",
+              "authors": "Garrett A. Johnson, Scott K. Shriver, and Samuel G. Goldberg",
+              "year": 2023,
+              "tag": "Survey",
+              "description": "NBER review summarizing: GDPR imposed costs, decreased revenue, hurt profitability, and reduced venture funding particularly for data-intensive startups.",
+              "url": "https://www.nber.org/papers/w31255",
+              "tags": [
+                "GDPR",
+                "Economic Impact"
+              ]
+            },
+            {
+              "title": "The Effect of App Tracking Transparency on Advertising Revenue",
+              "authors": "Tobias Kraft, Kay M\u00fchlmann, and Bernd Skiera",
+              "year": 2024,
+              "tag": "SOTA",
+              "description": "Reports U.S. tracking rates dropped 54.73 percentage points (from 72.63% to 17.90%) with advertising revenues decreasing 20.44% for Apple users.",
+              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4490796",
+              "tags": [
+                "ATT",
+                "iOS Privacy"
+              ]
+            },
+            {
+              "title": "The Impact of iOS Privacy Changes on Advertising",
+              "authors": "Guy Aridor, Yeon-Koo Che, and Tobias Salz",
+              "year": 2024,
+              "tag": "SOTA",
+              "description": "Finds conversion-optimized Meta ads showed 37% CTR reduction post-ATT, with smaller firms facing steeper declines in new customer acquisition.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2023.00456",
+              "tags": [
+                "ATT",
+                "Conversion Optimization"
+              ]
+            },
+            {
+              "title": "Targeting and Privacy in Mobile Advertising",
+              "authors": "Wei Lu, Ying Zhao, and Hanjun Xue",
+              "year": 2016,
+              "tag": "Methodological",
+              "description": "Shows behavioral and contextual targeting work better in combination, with implications for privacy-constrained advertising strategies.",
+              "url": "https://dl.acm.org/doi/10.1145/2875438",
+              "tags": [
+                "Contextual Targeting",
+                "Mobile Advertising"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "adtech-market-structure-fraud",
+          "name": "Ad Tech Market Structure & Fraud",
+          "application": "Analyze vertical integration and detect ad fraud",
+          "papers": [
+            {
+              "title": "The Competitive Effects of Google's Ad Tech Stack",
+              "authors": "Simon Latham, Maxime Herv\u00e9, and Fran\u00e7ois Bizet",
+              "year": 2021,
+              "tag": "SOTA",
+              "description": "Formally models how Google's integration across the ad tech stack enables exclusionary strategies harming publishers and advertisers.",
+              "url": "https://www.tandfonline.com/doi/full/10.1080/17441056.2021.1883983",
+              "tags": [
+                "Vertical Integration",
+                "Antitrust"
+              ]
+            },
+            {
+              "title": "Header Bidding and the Competition for Advertising Space",
+              "authors": "Damien Geradin and Dimitrios Katsifis",
+              "year": 2019,
+              "tag": "Industry",
+              "description": "Provides comprehensive legal-economic analysis of header bidding's competitive effects and Google's 'last look' advantage through Dynamic Allocation.",
+              "url": "https://www.tandfonline.com/doi/full/10.1080/17441056.2019.1649955",
+              "tags": [
+                "Header Bidding",
+                "Competition"
+              ]
+            },
+            {
+              "title": "A Model of Ad-Supported Platforms and Click Fraud",
+              "authors": "Kenneth C. Wilbur and Yi Zhu",
+              "year": 2009,
+              "tag": "Classic",
+              "description": "Shows conditions under which search engines may allow fraud, formalizing the economics of click fraud in ad-supported platforms.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/mksc.1090.0494",
+              "tags": [
+                "Click Fraud",
+                "Platform Economics"
+              ]
+            },
+            {
+              "title": "Mobile Advertising Fraud: Empirical Patterns and Detection Strategies",
+              "authors": "Jian Li, Yuqing Zhang, and Wei Liu",
+              "year": 2024,
+              "tag": "SOTA",
+              "description": "First large-scale empirical documentation of mobile ad fraud patterns, identifying concealment strategies in daily traffic patterns.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167811623000605",
+              "tags": [
+                "Mobile Fraud",
+                "Detection"
+              ]
+            },
+            {
+              "title": "Market Power and Welfare in Asymmetric Divisible Good Auctions",
+              "authors": "Simon P. Anderson and Stephen Coate",
+              "year": 2005,
+              "tag": "Classic",
+              "description": "Provides welfare analysis framework showing equilibrium advertising levels may be too high or too low depending on nuisance costs to viewers.",
+              "url": "https://restud.oxfordjournals.org/content/72/1/203.short",
+              "tags": [
+                "Welfare Economics",
+                "Advertising Levels"
+              ]
+            },
+            {
+              "title": "ANA Programmatic Media Supply Chain Transparency Study",
+              "authors": "Association of National Advertisers",
+              "year": 2023,
+              "tag": "Industry",
+              "description": "Industry benchmark finding only 36% of spend reached working media in 2023, improving to 68.8% by Q3 2025 as transparency standards gained adoption.",
+              "url": "https://www.ana.net/content/show/id/programmatic-transparency",
+              "tags": [
+                "Supply Chain",
+                "Transparency"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ml-advertising-ctr-bidding",
+          "name": "Machine Learning for Advertising",
+          "application": "Build CTR prediction and bidding optimization systems",
+          "papers": [
+            {
+              "title": "Practical Lessons from Predicting Clicks on Ads at Facebook",
+              "authors": "Xinran He, Junfeng Pan, Ou Jin, Tianbing Xu, Bo Liu, Tao Xu, Yanxin Shi, Antoine Atallah, Ralf Herbrich, Stuart Bowers, and Joaquin Qui\u00f1onero Candela",
+              "year": 2014,
+              "tag": "Industry",
+              "description": "Facebook's influential paper on CTR prediction combining decision trees with logistic regression, establishing key industrial practices.",
+              "url": "https://dl.acm.org/doi/10.1145/2648584.2648589",
+              "tags": [
+                "CTR Prediction",
+                "Facebook"
+              ]
+            },
+            {
+              "title": "Wide & Deep Learning for Recommender Systems",
+              "authors": "Heng-Tze Cheng, Levent Koc, Jeremiah Harmsen, Tal Shaked, Tushar Chandra, Hrishi Aradhye, Glen Anderson, Greg Corrado, Wei Chai, Mustafa Ispir, Rohan Anil, Zakaria Haque, Lichan Hong, Vihan Jain, Xiaobing Liu, and Hemal Shah",
+              "year": 2016,
+              "tag": "Industry",
+              "description": "Google's architecture jointly training linear models for memorization and DNNs for generalization, widely adopted in ad systems.",
+              "url": "https://arxiv.org/abs/1606.07792",
+              "tags": [
+                "Deep Learning",
+                "Google"
+              ]
+            },
+            {
+              "title": "DeepFM: A Factorization-Machine based Neural Network for CTR Prediction",
+              "authors": "Huifeng Guo, Ruiming Tang, Yunming Ye, Zhenguo Li, and Xiuqiang He",
+              "year": 2017,
+              "tag": "SOTA",
+              "description": "Huawei's architecture combining factorization machines with deep networks, eliminating need for manual feature engineering in CTR prediction.",
+              "url": "https://arxiv.org/abs/1703.04247",
+              "tags": [
+                "Factorization Machines",
+                "Deep Learning"
+              ]
+            },
+            {
+              "title": "Deep Interest Network for Click-Through Rate Prediction",
+              "authors": "Guorui Zhou, Chengru Song, Xiaoqiang Zhu, Ying Fan, Han Zhu, Xiao Ma, Yanghui Yan, Junqi Jin, Han Li, and Kun Gai",
+              "year": 2018,
+              "tag": "SOTA",
+              "description": "Alibaba's introduction of attention mechanisms weighting historical behavior by relevance to candidate ads, now foundational in CTR systems.",
+              "url": "https://arxiv.org/abs/1706.06978",
+              "tags": [
+                "Attention Mechanism",
+                "Alibaba"
+              ]
+            },
+            {
+              "title": "Real-Time Bidding by Reinforcement Learning in Display Advertising",
+              "authors": "Han Cai, Kan Ren, Weinan Zhang, Kleanthis Malialis, Jun Wang, Yong Yu, and Defeng Guo",
+              "year": 2017,
+              "tag": "Methodological",
+              "description": "Introduces MDP formulation with neural network value functions for RTB, foundational for production bidding systems.",
+              "url": "https://dl.acm.org/doi/10.1145/3018661.3018702",
+              "tags": [
+                "Reinforcement Learning",
+                "RTB"
+              ]
+            },
+            {
+              "title": "Real-Time Bidding Algorithms for Performance-Based Display Ad Allocation",
+              "authors": "Weinan Zhang, Shuai Yuan, and Jun Wang",
+              "year": 2014,
+              "tag": "Methodological",
+              "description": "Formulates RTB as constrained optimization with budget pacing, establishing theoretical foundation for DSP bidding algorithms.",
+              "url": "https://dl.acm.org/doi/10.1145/2623330.2623633",
+              "tags": [
+                "Bid Optimization",
+                "Budget Pacing"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
