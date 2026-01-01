@@ -10992,5 +10992,183 @@
       "Economists in tech need to balance rigor with speed",
       "Data abundance changes both research and business decisions"
     ]
+  },
+  {
+    "name": "Peter Fader: The Customer Isn't Always Right, But Some Customers Are Better Than Others",
+    "description": "TEDxPenn talk where Wharton professor Peter Fader challenges the 'customer is always right' mantra and makes the case for customer centricity based on customer lifetime value.",
+    "category": "MarTech & Customer Analytics",
+    "url": "https://www.ted.com/talks/peter_fader_the_customer_isn_t_always_right_but_some_customers_are_better_than_others",
+    "type": "Video",
+    "tags": [
+      "MarTech & Customer Analytics",
+      "Video",
+      "TED"
+    ],
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "martech-customer-analytics"
+    ],
+    "summary": "Peter Fader argues that the customer isn't always right\u2014some customers are more valuable than others. He shows how customer-based corporate valuation can outperform Wall Street analysts and why companies should focus resources on their best customers.",
+    "use_cases": [
+      "Understand the case for customer centricity",
+      "Learn why not all customers are equal",
+      "See how CLV can predict company value"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is customer centricity?",
+      "Why focus on high-value customers?",
+      "Peter Fader CLV talk",
+      "TED talk on customer lifetime value"
+    ],
+    "speaker_expertise": [
+      "Customer Lifetime Value",
+      "Marketing Strategy",
+      "Customer Analytics"
+    ],
+    "key_insights": [
+      "Not all customers are created equal",
+      "Customer-based valuation can beat Wall Street predictions",
+      "Focus resources on your best customers"
+    ]
+  },
+  {
+    "name": "Bruce Hardie: Probability Models for Customer-Base Analysis",
+    "description": "Definitive tutorial on BTYD models from one of the field's pioneers. Covers Pareto/NBD, BG/NBD, and when to use each model based on business context (contractual vs non-contractual, continuous vs discrete).",
+    "category": "MarTech & Customer Analytics",
+    "url": "http://brucehardie.com/talks/ho_cba_tut_art_13.pdf",
+    "type": "Tutorial",
+    "tags": [
+      "MarTech & Customer Analytics",
+      "Tutorial",
+      "Technical"
+    ],
+    "difficulty": "advanced",
+    "prerequisites": [
+      "probability-theory",
+      "maximum-likelihood"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics"
+    ],
+    "summary": "Bruce Hardie's comprehensive tutorial on probabilistic customer-base analysis. Explains when to use Pareto/NBD vs BG/NBD, how to interpret model parameters, and the mathematical foundations of BTYD models.",
+    "use_cases": [
+      "Understand the mathematics behind CLV models",
+      "Choose the right BTYD model for your business",
+      "Implement CLV estimation from scratch"
+    ],
+    "audience": [
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "How does BG/NBD model work?",
+      "When to use Pareto/NBD vs BG/NBD?",
+      "BTYD model tutorial",
+      "Bruce Hardie CLV models"
+    ],
+    "speaker_expertise": [
+      "BTYD Models",
+      "Customer Lifetime Value",
+      "Marketing Science"
+    ],
+    "key_insights": [
+      "Different business settings require different BTYD variants",
+      "Contractual vs non-contractual determines model choice",
+      "Probability of being 'alive' is key to CLV estimation"
+    ]
+  },
+  {
+    "name": "Eva Ascarza: Retention Futility - Why Targeting High-Risk Customers Might Be Ineffective",
+    "description": "MSI presentation challenging conventional wisdom on churn targeting. Shows why high-risk customers are often the wrong targets for retention programs\u2014persuadability matters more than risk.",
+    "category": "MarTech & Customer Analytics",
+    "url": "https://www.msi.org/presentations/retention-futility-why-targeting-high-risk-customers-might-be-ineffective/",
+    "type": "Video",
+    "tags": [
+      "MarTech & Customer Analytics",
+      "Video",
+      "Research"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "causal-inference-basics"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics"
+    ],
+    "summary": "Eva Ascarza presents research showing that targeting customers with highest churn risk is often ineffective. The key insight: target customers who will respond to intervention (high lift), not just those likely to churn.",
+    "use_cases": [
+      "Redesign retention targeting strategy",
+      "Understand uplift vs risk in churn programs",
+      "Apply causal inference to retention marketing"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Why does targeting high-risk customers fail?",
+      "What is retention futility?",
+      "How to target customers for retention?",
+      "Uplift modeling for churn"
+    ],
+    "speaker_expertise": [
+      "Customer Retention",
+      "Causal Inference",
+      "Marketing Science"
+    ],
+    "key_insights": [
+      "High-risk customers are not always the best targets",
+      "Persuadability (lift) matters more than risk score",
+      "Combine prediction with causal inference for targeting"
+    ]
+  },
+  {
+    "name": "The Netflix Recommender System: Business Value and Innovation",
+    "description": "Netflix engineers explain how their recommendation system works and its business impact. Covers personalization architecture and the estimate that recommendations save over $1 billion annually.",
+    "category": "MarTech & Customer Analytics",
+    "url": "https://dl.acm.org/doi/10.1145/2843948",
+    "type": "Paper",
+    "tags": [
+      "MarTech & Customer Analytics",
+      "Industry",
+      "Recommendations"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "martech-customer-analytics"
+    ],
+    "summary": "Netflix's official disclosure of their recommendation architecture. Explains how personalization works at scale and quantifies the business value\u2014recommendations save over $1 billion annually through reduced churn.",
+    "use_cases": [
+      "Understand production recommendation systems",
+      "Quantify ROI of personalization",
+      "Learn Netflix's architecture"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "How does Netflix recommendation work?",
+      "Business value of recommendations",
+      "How much do recommendations save Netflix?",
+      "Production recommendation architecture"
+    ],
+    "speaker_expertise": [
+      "Recommendation Systems",
+      "Machine Learning Engineering",
+      "Personalization"
+    ],
+    "key_insights": [
+      "Recommendations save Netflix over $1 billion annually",
+      "Personalization reduces churn significantly",
+      "Multiple algorithms power different surfaces"
+    ]
   }
 ]

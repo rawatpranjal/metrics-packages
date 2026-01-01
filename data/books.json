@@ -2809,5 +2809,328 @@
     "skill_progression": [
       "Beginner"
     ]
+  },
+  {
+    "name": "Customer Centricity: Focus on the Right Customers for Strategic Advantage",
+    "author": "Peter Fader",
+    "year": 2020,
+    "isbn": "1613631413",
+    "description": "THE foundational book on CLV-driven strategy from the world's leading authority. Makes the case that not all customers are equal\u2014businesses should focus resources on high-value customers rather than treating all customers the same.",
+    "category": "MarTech & Customer Analytics",
+    "type": "Book",
+    "url": "https://www.amazon.com/Customer-Centricity-Strategic-Advantage-Publishing/dp/1613631413",
+    "tags": [
+      "MarTech & Customer Analytics",
+      "CLV",
+      "Strategy"
+    ],
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "martech-customer-analytics",
+      "clv",
+      "customer-strategy"
+    ],
+    "summary": "Peter Fader's manifesto on customer centricity. Argues that the traditional product-centric approach is obsolete and shows how to build strategy around customer lifetime value. Essential reading for any marketing data scientist.",
+    "use_cases": [
+      "Understanding CLV-based strategy",
+      "Building customer-centric organizations",
+      "Prioritizing marketing investments"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is customer centricity?",
+      "How do I prioritize customers by value?",
+      "Peter Fader CLV book",
+      "Best book on customer lifetime value strategy"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "understanding CLV concept",
+      "applying to strategy",
+      "organizational change"
+    ]
+  },
+  {
+    "name": "The Customer Centricity Playbook",
+    "author": "Peter Fader, Sarah E. Toms",
+    "year": 2018,
+    "isbn": "1613631510",
+    "description": "Implementation guide for customer centricity linking CLV to market valuation. Shows how to operationalize CLV-based strategy with practical frameworks, metrics, and case studies.",
+    "category": "MarTech & Customer Analytics",
+    "type": "Book",
+    "url": "https://www.amazon.com/Customer-Centricity-Playbook-Implement-Strategy/dp/1613631510",
+    "tags": [
+      "MarTech & Customer Analytics",
+      "CLV",
+      "Implementation"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "clv-basics"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics",
+      "clv",
+      "implementation"
+    ],
+    "summary": "The practical companion to Customer Centricity. Provides step-by-step playbook for implementing CLV-based strategy including organizational alignment, metrics, and real-world case studies.",
+    "use_cases": [
+      "Implementing customer-centric strategy",
+      "Building CLV measurement systems",
+      "Aligning organization around customer value"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "How do I implement customer centricity?",
+      "CLV implementation guide",
+      "Customer-centric metrics",
+      "Operationalizing CLV"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "CLV fundamentals",
+      "implementation planning",
+      "organizational execution"
+    ]
+  },
+  {
+    "name": "The Customer-Base Audit: The First Step on the Journey to Customer Centricity",
+    "author": "Peter Fader, Bruce G.S. Hardie, Michael Ross",
+    "year": 2022,
+    "isbn": "1613631618",
+    "description": "Five analytical lenses for assessing customer portfolio health. Teaches how to diagnose customer base composition and trends using customer behavior metrics before building CLV models.",
+    "category": "MarTech & Customer Analytics",
+    "type": "Book",
+    "url": "https://www.amazon.com/Customer-Base-Audit-Journey-Customer-Centricity/dp/1613631618",
+    "tags": [
+      "MarTech & Customer Analytics",
+      "CLV",
+      "Analytics"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "martech-customer-analytics",
+      "clv",
+      "customer-audit"
+    ],
+    "summary": "The diagnostic companion to Fader's CLV work. Introduces five lenses for auditing customer base health: cohort analysis, customer concentration, customer migration, monetary value evolution, and customer lifetime value distribution.",
+    "use_cases": [
+      "Diagnosing customer base health",
+      "Identifying customer trends",
+      "Setting up CLV analytics"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "How do I analyze customer base health?",
+      "Customer cohort analysis frameworks",
+      "Customer concentration metrics",
+      "Customer migration analysis"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "cohort analysis",
+      "concentration metrics",
+      "CLV diagnostics"
+    ]
+  },
+  {
+    "name": "Statistical Methods in Customer Relationship Management",
+    "author": "V. Kumar, J. Andrew Petersen",
+    "year": 2012,
+    "isbn": "1119993210",
+    "description": "Rigorous statistical treatment of the entire customer lifecycle. Covers acquisition modeling, CLV estimation, retention management, and resource allocation with detailed methodology.",
+    "category": "MarTech & Customer Analytics",
+    "type": "Book",
+    "url": "https://www.wiley.com/en-us/Statistical+Methods+in+Customer+Relationship+Management-p-9781119993216",
+    "tags": [
+      "MarTech & Customer Analytics",
+      "CRM",
+      "Statistics"
+    ],
+    "difficulty": "advanced",
+    "prerequisites": [
+      "statistics",
+      "regression"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics",
+      "clv",
+      "crm-analytics"
+    ],
+    "summary": "The academic reference for quantitative CRM. Provides rigorous statistical methodology for customer acquisition, retention, cross-selling, and CLV-based resource allocation. Essential for building production CRM analytics.",
+    "use_cases": [
+      "Building CRM prediction models",
+      "Statistical methodology for customer analytics",
+      "Resource allocation optimization"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Statistics for CRM",
+      "Academic book on customer analytics",
+      "CLV statistical methods",
+      "V. Kumar CRM book"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "CRM fundamentals",
+      "statistical methods",
+      "optimization"
+    ]
+  },
+  {
+    "name": "Principles of Marketing Engineering and Analytics",
+    "author": "Gary L. Lilien, Arvind Rangaswamy, Arnaud De Bruyn",
+    "year": 2017,
+    "isbn": "0985764821",
+    "description": "THE definitive marketing models textbook. Covers segmentation, positioning, choice models, pricing, CLV, and resource allocation with hands-on Excel/R applications.",
+    "category": "MarTech & Customer Analytics",
+    "type": "Book",
+    "url": "https://www.amazon.com/Principles-Marketing-Engineering-Analytics-3rd/dp/0985764821",
+    "tags": [
+      "MarTech & Customer Analytics",
+      "Marketing Science",
+      "Analytics"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "basic-statistics"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics",
+      "marketing-models",
+      "choice-modeling"
+    ],
+    "summary": "The standard graduate textbook for quantitative marketing. Covers the full toolkit: segmentation, choice models, conjoint analysis, pricing, CLV, and resource allocation. Includes hands-on exercises with marketing engineering software.",
+    "use_cases": [
+      "Learning marketing analytics foundations",
+      "Building marketing models",
+      "Graduate marketing courses"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Marketing analytics textbook",
+      "Best book for marketing science",
+      "Choice modeling textbook",
+      "Conjoint analysis book"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "marketing fundamentals",
+      "analytical models",
+      "decision tools"
+    ]
+  },
+  {
+    "name": "Marketing Data Science: Modeling Techniques in Predictive Analytics with R and Python",
+    "author": "Thomas W. Miller",
+    "year": 2015,
+    "isbn": "0133886557",
+    "description": "Practical implementations of marketing analytics in R and Python. Covers choice modeling, recommendations, CLV, text analytics, and web analytics with code examples.",
+    "category": "MarTech & Customer Analytics",
+    "type": "Book",
+    "url": "https://www.amazon.com/Marketing-Data-Science-Techniques-Predictive/dp/0133886557",
+    "tags": [
+      "MarTech & Customer Analytics",
+      "Data Science",
+      "Python",
+      "R"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "python-or-r"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics",
+      "implementation",
+      "coding"
+    ],
+    "summary": "Hands-on marketing analytics with code. Each chapter provides R and Python implementations for choice models, recommenders, CLV, text mining, and web analytics\u2014bridging theory and practice.",
+    "use_cases": [
+      "Implementing marketing analytics",
+      "Learning marketing data science",
+      "Code examples for marketing models"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "Marketing analytics with Python",
+      "R code for marketing models",
+      "Hands-on marketing data science book",
+      "Practical marketing analytics implementation"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "R/Python basics",
+      "marketing models",
+      "end-to-end implementation"
+    ]
+  },
+  {
+    "name": "Marketing Metrics: The Manager's Guide to Measuring Marketing Performance",
+    "author": "Paul W. Farris, Neil T. Bendle, Phillip E. Pfeifer, David J. Reibstein",
+    "year": 2021,
+    "isbn": "0136717136",
+    "description": "The standard reference for marketing measurement. Covers 50+ essential metrics across customer, product, sales, advertising, and financial categories with formulas and applications.",
+    "category": "MarTech & Customer Analytics",
+    "type": "Book",
+    "url": "https://www.amazon.com/Marketing-Metrics-Definitive-Measuring-Performance/dp/0136717136",
+    "tags": [
+      "MarTech & Customer Analytics",
+      "Metrics",
+      "Measurement"
+    ],
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "martech-customer-analytics",
+      "marketing-metrics",
+      "measurement"
+    ],
+    "summary": "The encyclopedia of marketing metrics. Defines and explains 50+ metrics including CLV, CAC, retention rate, NPS, ROMI, and brand metrics. Essential reference for any marketing analytics role.",
+    "use_cases": [
+      "Understanding marketing metrics",
+      "Building measurement frameworks",
+      "Communicating marketing performance"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Marketing metrics reference book",
+      "How to measure marketing performance",
+      "What metrics should I track for marketing?",
+      "CLV, CAC, ROMI definitions"
+    ],
+    "content_format": "book",
+    "skill_progression": [
+      "metric definitions",
+      "calculation methods",
+      "interpretation"
+    ]
   }
 ]

@@ -19006,5 +19006,233 @@
     "skill_progression": [
       "Beginner to Intermediate"
     ]
+  },
+  {
+    "name": "Wharton Customer Analytics (Coursera)",
+    "description": "The gold-standard course on customer analytics from Wharton's Customer Analytics Initiative. Taught by Eric Bradlow, Peter Fader, and Raghuram Iyengar covering CLV, segmentation, and predictive analytics.",
+    "category": "MarTech & Customer Analytics",
+    "url": "https://www.coursera.org/specializations/wharton-customer-analytics",
+    "type": "Online Course",
+    "level": "Intermediate",
+    "tags": [
+      "Customer Analytics",
+      "CLV",
+      "Coursera",
+      "Wharton"
+    ],
+    "domain": "Marketing",
+    "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/a6/b7d6b0d99011e7a9b1f7e7b2c3c3e1/Customer-Analytics.png",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "basic-statistics"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics",
+      "clv",
+      "segmentation"
+    ],
+    "summary": "Comprehensive customer analytics course from the leading experts at Wharton. Covers descriptive analytics, predictive modeling, prescriptive analytics, and CLV with real business applications.",
+    "use_cases": [
+      "Learn customer analytics foundations",
+      "Understand CLV modeling from the experts",
+      "Build customer segmentation skills"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Best course for customer analytics",
+      "Peter Fader CLV course",
+      "How to learn customer lifetime value",
+      "Wharton marketing analytics course"
+    ],
+    "content_format": "course",
+    "skill_progression": [
+      "analytics foundations",
+      "CLV modeling",
+      "business applications"
+    ]
+  },
+  {
+    "name": "Marketing Analytics (UVA Darden/Coursera)",
+    "description": "Rajkumar Venkatesan's course covering brand measurement, CLV, experiment design, and marketing resource allocation. Strong focus on causal inference for marketing.",
+    "category": "MarTech & Customer Analytics",
+    "url": "https://www.coursera.org/specializations/marketing-analytics",
+    "type": "Online Course",
+    "level": "Intermediate",
+    "tags": [
+      "Marketing Analytics",
+      "CLV",
+      "Experimentation",
+      "Darden"
+    ],
+    "domain": "Marketing",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "basic-statistics"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics",
+      "experimentation",
+      "marketing-measurement"
+    ],
+    "summary": "Comprehensive marketing analytics specialization from UVA Darden. Covers brand analytics, customer analytics, and marketing channels with strong emphasis on experimental methods.",
+    "use_cases": [
+      "Learn marketing analytics with experiments",
+      "Understand brand measurement",
+      "Master marketing resource allocation"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "Marketing analytics course Coursera",
+      "How to measure marketing experiments",
+      "Brand analytics course",
+      "Marketing resource allocation"
+    ],
+    "content_format": "course",
+    "skill_progression": [
+      "brand analytics",
+      "customer analytics",
+      "experimentation"
+    ]
+  },
+  {
+    "name": "Bruce Hardie's BTYD Tutorials",
+    "description": "Step-by-step mathematical derivations of Pareto/NBD, BG/NBD, and other BTYD models from one of the field's pioneers. Essential reference for implementing CLV models from scratch.",
+    "category": "MarTech & Customer Analytics",
+    "url": "http://brucehardie.com/notes/",
+    "type": "Tutorial",
+    "level": "Advanced",
+    "tags": [
+      "BTYD",
+      "CLV",
+      "Mathematical Derivation",
+      "Tutorial"
+    ],
+    "domain": "Marketing Science",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "probability-theory",
+      "maximum-likelihood"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics",
+      "btyd",
+      "clv"
+    ],
+    "summary": "The definitive technical resource for BTYD models. Bruce Hardie's notes provide complete mathematical derivations of Pareto/NBD, BG/NBD, and extensions\u2014essential for understanding the models beyond black-box usage.",
+    "use_cases": [
+      "Understand BTYD model mathematics",
+      "Implement CLV models from scratch",
+      "Debug CLV model implementations"
+    ],
+    "audience": [
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "How does BG/NBD model work mathematically?",
+      "Pareto/NBD derivation",
+      "Bruce Hardie BTYD notes",
+      "Mathematical foundation of CLV models"
+    ],
+    "content_format": "tutorial",
+    "skill_progression": [
+      "model foundations",
+      "likelihood derivation",
+      "implementation"
+    ]
+  },
+  {
+    "name": "Wharton Customer Analytics Initiative (WCAI)",
+    "description": "World's preeminent customer analytics research center. Pioneered industry-academic collaboration with access to proprietary datasets and practitioner-focused research.",
+    "category": "MarTech & Customer Analytics",
+    "url": "https://wcai.wharton.upenn.edu/",
+    "type": "Research Center",
+    "level": "All Levels",
+    "tags": [
+      "Research",
+      "Customer Analytics",
+      "Wharton",
+      "Industry"
+    ],
+    "domain": "Marketing Science",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "martech-customer-analytics",
+      "research",
+      "industry-academic"
+    ],
+    "summary": "The leading research center for customer analytics, founded by Peter Fader and Eric Bradlow. Bridges academic research and industry practice with conferences, datasets, and working papers.",
+    "use_cases": [
+      "Access cutting-edge customer analytics research",
+      "Find industry-relevant datasets",
+      "Connect with customer analytics community"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Customer analytics research center",
+      "Academic customer analytics resources",
+      "Where to find CLV research",
+      "Industry-academic marketing research"
+    ],
+    "content_format": "website",
+    "skill_progression": [
+      "research awareness",
+      "industry connections",
+      "advanced methods"
+    ]
+  },
+  {
+    "name": "Marketing Science Institute (MSI)",
+    "description": "Bridge between marketing academia and industry. Sets annual research priorities and publishes working papers on topics from brand measurement to customer analytics.",
+    "category": "MarTech & Customer Analytics",
+    "url": "https://www.msi.org/",
+    "type": "Research Organization",
+    "level": "Intermediate",
+    "tags": [
+      "Research",
+      "Marketing Science",
+      "Industry",
+      "Working Papers"
+    ],
+    "domain": "Marketing Science",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "martech-customer-analytics",
+      "research",
+      "marketing-science"
+    ],
+    "summary": "The primary organization connecting marketing academics and practitioners. Annual research priorities guide the field, and working papers provide early access to cutting-edge research.",
+    "use_cases": [
+      "Stay current on marketing research",
+      "Understand industry research priorities",
+      "Access working papers before publication"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Marketing research priorities",
+      "Marketing science organization",
+      "Where to find marketing working papers",
+      "Academic marketing research"
+    ],
+    "content_format": "website",
+    "skill_progression": [
+      "research awareness",
+      "industry trends",
+      "advanced topics"
+    ]
   }
 ]

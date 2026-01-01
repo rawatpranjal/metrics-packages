@@ -49913,6 +49913,924 @@
           ]
         }
       ]
+    },
+    {
+      "id": "martech-customer-analytics",
+      "name": "MarTech & Customer Analytics Economics",
+      "description": "Model customer lifetime value, build recommendation systems, and optimize retention marketing",
+      "image_url": "/images/topics/martech.webp",
+      "subtopics": [
+        {
+          "id": "clv-foundations",
+          "name": "Customer Lifetime Value Foundations",
+          "application": "Calculate customer value and allocate marketing resources",
+          "papers": [
+            {
+              "title": "Customer Lifetime Value: Marketing Models and Applications",
+              "authors": "Paul D. Berger, Nada I. Nasr",
+              "year": 1998,
+              "tag": "Classic",
+              "description": "The first comprehensive mathematical framework for CLV calculation. Systematizes approaches for computing customer lifetime value and demonstrates applications to acquisition, retention, and cross-selling decisions.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S1094996898702040",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Customer Lifetime Value"
+              ],
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "basic-statistics"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "clv",
+                "marketing-models"
+              ]
+            },
+            {
+              "title": "Valuing Customers",
+              "authors": "Sunil Gupta, Donald R. Lehmann, Jennifer Ames Stuart",
+              "year": 2004,
+              "tag": "Classic",
+              "description": "Demonstrates that CLV can value entire firms, showing a 1% improvement in retention improves firm value by 5% while the same margin improvement yields only 1%. Establishes retention's economic primacy in marketing strategy.",
+              "url": "https://journals.sagepub.com/doi/10.1509/jmkr.41.1.7.25084",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Customer Lifetime Value"
+              ],
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "finance-basics"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "clv",
+                "firm-valuation"
+              ]
+            },
+            {
+              "title": "Return on Marketing: Using Customer Equity to Focus Marketing Strategy",
+              "authors": "Roland T. Rust, Katherine N. Lemon, Valarie A. Zeithaml",
+              "year": 2004,
+              "tag": "Classic",
+              "description": "Operationalizes customer equity for competitive strategy, introducing the framework of Value Equity, Brand Equity, and Retention Equity. Shows how to link marketing actions to shareholder value through customer-level economics.",
+              "url": "https://journals.sagepub.com/doi/10.1509/jmkg.68.1.109.24030",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Customer Lifetime Value"
+              ],
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "customer-equity",
+                "marketing-strategy"
+              ]
+            },
+            {
+              "title": "Modeling Customer Lifetime Value",
+              "authors": "Sunil Gupta, Dominique Hanssens, Bruce Hardie, William Kahn, V. Kumar, Nathaniel Lin, Nalini Ravishanker, S. Sriram",
+              "year": 2006,
+              "tag": "Survey",
+              "description": "Comprehensive taxonomy consolidating CLV approaches for acquisition, retention, and cross-selling. Reviews probabilistic models, econometric approaches, and implementation challenges across industries.",
+              "url": "https://journals.sagepub.com/doi/10.1177/1094670506293810",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Customer Lifetime Value"
+              ],
+              "difficulty": "advanced",
+              "prerequisites": [
+                "clv-basics"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "clv",
+                "survey"
+              ]
+            },
+            {
+              "title": "Manage Marketing by the Customer Equity Test",
+              "authors": "Robert C. Blattberg, John Deighton",
+              "year": 1996,
+              "tag": "Classic",
+              "description": "First formal framework for the acquisition vs. retention allocation problem. Introduces the customer equity concept and demonstrates how to optimize marketing spending across the customer lifecycle.",
+              "url": "https://hbr.org/1996/07/manage-marketing-by-the-customer-equity-test",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Customer Lifetime Value"
+              ],
+              "difficulty": "beginner",
+              "prerequisites": [],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "customer-equity",
+                "marketing-allocation"
+              ]
+            },
+            {
+              "title": "On the Profitability of Long-Life Customers in a Noncontractual Setting",
+              "authors": "Werner Reinartz, V. Kumar",
+              "year": 2000,
+              "tag": "Classic",
+              "description": "Challenges the assumption that long-tenure customers are always more profitable. Using catalog retailer data, shows that customer lifetime and profitability are not strongly correlated\u2014critical insight for customer selection.",
+              "url": "https://journals.sagepub.com/doi/10.1509/jmkg.64.4.17.18077",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Customer Lifetime Value"
+              ],
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "clv",
+                "customer-profitability"
+              ]
+            },
+            {
+              "title": "A Customer Lifetime Value Framework for Customer Selection and Resource Allocation Strategy",
+              "authors": "Rajkumar Venkatesan, V. Kumar",
+              "year": 2004,
+              "tag": "Classic",
+              "description": "Demonstrates that marketing contacts influence CLV nonlinearly across channels. Develops a framework for selecting customers and allocating resources based on future CLV rather than past transactions.",
+              "url": "https://journals.sagepub.com/doi/10.1509/jmkg.68.4.106.42728",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Customer Lifetime Value"
+              ],
+              "difficulty": "advanced",
+              "prerequisites": [
+                "clv-basics"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "clv",
+                "resource-allocation"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "btyd-models",
+          "name": "Probabilistic 'Buy Till You Die' Models",
+          "application": "Predict customer activity and expected transactions",
+          "papers": [
+            {
+              "title": "Counting Your Customers: Who Are They and What Will They Do Next?",
+              "authors": "David C. Schmittlein, Donald G. Morrison, Richard Colombo",
+              "year": 1987,
+              "tag": "Classic",
+              "description": "THE foundational BTYD paper introducing the Pareto/NBD model. Computes the probability a customer remains 'alive' based on recency and frequency, enabling all subsequent probabilistic customer-base analysis.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.33.1.1",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "BTYD Models"
+              ],
+              "difficulty": "advanced",
+              "prerequisites": [
+                "probability-theory"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "btyd",
+                "pareto-nbd"
+              ]
+            },
+            {
+              "title": "Counting Your Customers the Easy Way: An Alternative to the Pareto/NBD Model",
+              "authors": "Peter S. Fader, Bruce G.S. Hardie, Ka Lok Lee",
+              "year": 2005,
+              "tag": "Classic",
+              "description": "Develops the BG/NBD (Beta-Geometric/Negative Binomial Distribution) model\u2014vastly easier to implement than Pareto/NBD while achieving similar predictive accuracy. The workhorse model for non-contractual CLV estimation.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.1040.0098",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "BTYD Models"
+              ],
+              "difficulty": "advanced",
+              "prerequisites": [
+                "probability-theory"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "btyd",
+                "bg-nbd"
+              ]
+            },
+            {
+              "title": "RFM and CLV: Using Iso-Value Curves for Customer Base Analysis",
+              "authors": "Peter S. Fader, Bruce G.S. Hardie, Ka Lok Lee",
+              "year": 2005,
+              "tag": "Methodological",
+              "description": "Bridges traditional RFM (Recency, Frequency, Monetary) analysis with probabilistic CLV approaches. Shows how to use iso-value curves for customer segmentation that aligns with expected lifetime value.",
+              "url": "https://journals.sagepub.com/doi/10.1509/jmkr.2005.42.4.415",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "BTYD Models"
+              ],
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "rfm-basics"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "rfm",
+                "clv"
+              ]
+            },
+            {
+              "title": "Probability Models for Customer-Base Analysis",
+              "authors": "Peter S. Fader, Bruce G.S. Hardie",
+              "year": 2009,
+              "tag": "Survey",
+              "description": "The definitive overview distinguishing contractual from non-contractual settings and discrete from continuous transaction timing. Essential framework for selecting the appropriate BTYD model for any business context.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S1094996809000145",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "BTYD Models"
+              ],
+              "difficulty": "advanced",
+              "prerequisites": [
+                "btyd-basics"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "btyd",
+                "probability-models"
+              ]
+            },
+            {
+              "title": "Customer-Base Valuation in a Contractual Setting: The Perils of Ignoring Heterogeneity",
+              "authors": "Peter S. Fader, Bruce G.S. Hardie",
+              "year": 2010,
+              "tag": "Methodological",
+              "description": "Extends BTYD models to subscription/contractual settings. Shows that ignoring customer heterogeneity leads to systematic overestimation of retention rates and customer value\u2014critical for SaaS and subscription businesses.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.1090.0502",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "BTYD Models"
+              ],
+              "difficulty": "advanced",
+              "prerequisites": [
+                "btyd-basics"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "btyd",
+                "contractual-settings"
+              ]
+            },
+            {
+              "title": "A Note on Deriving the Pareto/NBD Model and Related Expressions",
+              "authors": "Peter S. Fader, Bruce G.S. Hardie",
+              "year": 2005,
+              "tag": "Tutorial",
+              "description": "Step-by-step mathematical derivation of the Pareto/NBD model with detailed exposition of the likelihood function and conditional expectations. Essential reference for implementing BTYD models from scratch.",
+              "url": "http://brucehardie.com/notes/009/pareto_nbd_derivations_2005-11-05.pdf",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "BTYD Models"
+              ],
+              "difficulty": "advanced",
+              "prerequisites": [
+                "probability-theory",
+                "maximum-likelihood"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "btyd",
+                "pareto-nbd"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "recommendation-systems",
+          "name": "Recommendation Systems",
+          "application": "Build personalized product recommendations at scale",
+          "papers": [
+            {
+              "title": "Using Collaborative Filtering to Weave an Information Tapestry",
+              "authors": "David Goldberg, David Nichols, Brian M. Oki, Douglas Terry",
+              "year": 1992,
+              "tag": "Classic",
+              "description": "THE paper that coined 'collaborative filtering.' Describes the Tapestry system at Xerox PARC where users could annotate documents and filter based on others' reactions\u2014the conceptual foundation of all modern recommendation systems.",
+              "url": "https://dl.acm.org/doi/10.1145/138859.138867",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Recommendation Systems"
+              ],
+              "difficulty": "beginner",
+              "prerequisites": [],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "collaborative-filtering",
+                "recsys"
+              ]
+            },
+            {
+              "title": "GroupLens: An Open Architecture for Collaborative Filtering of Netnews",
+              "authors": "Paul Resnick, Neophytos Iacovou, Mitesh Suchak, Peter Bergstrom, John Riedl",
+              "year": 1994,
+              "tag": "Classic",
+              "description": "Introduces automated collaborative filtering using Pearson correlation coefficients to predict ratings. The GroupLens project at University of Minnesota became the foundation for recommender systems research.",
+              "url": "https://dl.acm.org/doi/10.1145/192844.192905",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Recommendation Systems"
+              ],
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "basic-statistics"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "collaborative-filtering",
+                "recsys"
+              ]
+            },
+            {
+              "title": "Item-Based Collaborative Filtering Recommendation Algorithms",
+              "authors": "Badrul Sarwar, George Karypis, Joseph Konstan, John Riedl",
+              "year": 2001,
+              "tag": "Classic",
+              "description": "Demonstrates that item-item collaborative filtering dramatically outperforms user-based methods in both quality and scalability. This approach became the foundation of Amazon's recommendation engine.",
+              "url": "https://dl.acm.org/doi/10.1145/371920.372071",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Recommendation Systems"
+              ],
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "collaborative-filtering-basics"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "item-based-cf",
+                "recsys"
+              ]
+            },
+            {
+              "title": "Matrix Factorization Techniques for Recommender Systems",
+              "authors": "Yehuda Koren, Robert Bell, Chris Volinsky",
+              "year": 2009,
+              "tag": "Classic",
+              "description": "THE definitive paper on matrix factorization for recommendations, emerging from the Netflix Prize. Shows how to decompose the user-item matrix, handle implicit feedback, and incorporate temporal dynamics.",
+              "url": "https://ieeexplore.ieee.org/document/5197422",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Recommendation Systems"
+              ],
+              "difficulty": "advanced",
+              "prerequisites": [
+                "linear-algebra",
+                "optimization"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "matrix-factorization",
+                "recsys"
+              ]
+            },
+            {
+              "title": "Probabilistic Matrix Factorization",
+              "authors": "Ruslan Salakhutdinov, Andriy Mnih",
+              "year": 2008,
+              "tag": "SOTA",
+              "description": "Introduces a probabilistic framework for matrix factorization that handles sparse data effectively through Bayesian priors. Achieves state-of-the-art performance on Netflix Prize and enables uncertainty quantification.",
+              "url": "https://proceedings.neurips.cc/paper/2007/hash/d7322ed717dedf1eb4e6e52a37ea7bcd-Abstract.html",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Recommendation Systems"
+              ],
+              "difficulty": "advanced",
+              "prerequisites": [
+                "bayesian-statistics",
+                "matrix-factorization"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "probabilistic-mf",
+                "recsys"
+              ]
+            },
+            {
+              "title": "Hybrid Recommender Systems: Survey and Experiments",
+              "authors": "Robin Burke",
+              "year": 2002,
+              "tag": "Survey",
+              "description": "Comprehensive taxonomy of hybrid recommendation approaches: weighted, switching, mixed, feature combination, cascade, feature augmentation, and meta-level. Essential framework for combining collaborative, content-based, and knowledge-based methods.",
+              "url": "https://link.springer.com/article/10.1023/A:1021240730564",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Recommendation Systems"
+              ],
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "recsys-basics"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "hybrid-recsys",
+                "survey"
+              ]
+            },
+            {
+              "title": "The Netflix Recommender System: Algorithms, Business Value, and Innovation",
+              "authors": "Carlos A. Gomez-Uribe, Neil Hunt",
+              "year": 2015,
+              "tag": "Industry",
+              "description": "Netflix's official disclosure of their recommendation architecture. Estimates that personalization saves over $1 billion annually through reduced churn\u2014the definitive business case for recommendation system investment.",
+              "url": "https://dl.acm.org/doi/10.1145/2843948",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Recommendation Systems"
+              ],
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "netflix",
+                "recsys-industry"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "churn-retention",
+          "name": "Churn Prediction & Retention Marketing",
+          "application": "Identify at-risk customers and optimize retention spend",
+          "papers": [
+            {
+              "title": "Retention Futility: Targeting High-Risk Customers Might Be Ineffective",
+              "authors": "Eva Ascarza",
+              "year": 2018,
+              "tag": "SOTA",
+              "description": "Paradigm-shifting paper showing that targeting highest-churn-risk customers for retention is often ineffective. Advocates targeting 'persuadable' customers\u2014those whose behavior changes with intervention\u2014rather than highest risk.",
+              "url": "https://journals.sagepub.com/doi/10.1509/jmr.16.0163",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Churn & Retention"
+              ],
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "churn",
+                "retention-marketing"
+              ]
+            },
+            {
+              "title": "Predicting Customer Lifetime Duration and Future Purchase Behavior",
+              "authors": "Greg M. Allenby, Robert P. Leone, Lichung Jen",
+              "year": 1999,
+              "tag": "Classic",
+              "description": "Early integration of customer lifetime duration prediction with purchase behavior modeling. Uses hazard models to jointly estimate when customers will leave and how much they'll spend while active.",
+              "url": "https://journals.sagepub.com/doi/10.1509/jmkr.36.4.419.18678",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Churn & Retention"
+              ],
+              "difficulty": "advanced",
+              "prerequisites": [
+                "survival-analysis"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "clv",
+                "hazard-models"
+              ]
+            },
+            {
+              "title": "Bagging and Boosting Classification Trees to Predict Churn",
+              "authors": "Aurelie Lemmens, Christophe Croux",
+              "year": 2006,
+              "tag": "Methodological",
+              "description": "Systematic comparison of machine learning methods for churn prediction. Shows that ensemble methods (bagging, boosting) substantially outperform logistic regression\u2014establishing ML approaches for churn classification.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S037722170500124X",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Churn & Retention"
+              ],
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "machine-learning-basics"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "churn-prediction",
+                "ensemble-methods"
+              ]
+            },
+            {
+              "title": "A Generalized Framework for Estimating Customer Lifetime Value When Customer Lifetimes Are Not Observed",
+              "authors": "Phillip E. Pfeifer, Robert L. Carraway",
+              "year": 2000,
+              "tag": "Methodological",
+              "description": "Develops Markov chain framework for CLV estimation when customer departure isn't directly observed. Essential methodology for subscription businesses with involuntary churn and non-contractual settings.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S1094996800701220",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Churn & Retention"
+              ],
+              "difficulty": "advanced",
+              "prerequisites": [
+                "markov-chains"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "clv",
+                "markov-models"
+              ]
+            },
+            {
+              "title": "Social Effects on Customer Retention",
+              "authors": "Irit Nitzan, Barak Libai",
+              "year": 2011,
+              "tag": "SOTA",
+              "description": "Demonstrates that customer churn has social network effects\u2014when one customer churns, connected customers are more likely to follow. Quantifies the 'defection contagion' effect for retention strategy.",
+              "url": "https://journals.sagepub.com/doi/10.1509/jmkg.75.2.24",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Churn & Retention"
+              ],
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "network-analysis"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "churn",
+                "social-networks"
+              ]
+            },
+            {
+              "title": "In Pursuit of Enhanced Customer Retention Management: Review, Key Issues, and Future Directions",
+              "authors": "Eva Ascarza, Scott A. Neslin, Oded Netzer, Zachery Anderson, Peter S. Fader, Sunil Gupta, Bruce G.S. Hardie, Aurelie Lemmens, Barak Libai, David Neal, Foster Provost, Rom Schrift",
+              "year": 2018,
+              "tag": "Survey",
+              "description": "Comprehensive review from leading researchers on customer retention management. Covers prediction, intervention design, and optimization\u2014synthesizing decades of research into actionable framework.",
+              "url": "https://link.springer.com/article/10.1007/s40547-017-0080-0",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Churn & Retention"
+              ],
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "retention",
+                "survey"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mmm-attribution",
+          "name": "Marketing Mix Modeling & Attribution",
+          "application": "Measure marketing ROI and allocate budgets across channels",
+          "papers": [
+            {
+              "title": "Aggregate Advertising Models: The State of the Art",
+              "authors": "John D.C. Little",
+              "year": 1979,
+              "tag": "Classic",
+              "description": "THE foundational paper for marketing mix modeling. Establishes diminishing returns, carryover effects, and competitive interactions\u2014the theoretical underpinning of all modern MMM systems.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.27.4.629",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Marketing Mix Modeling"
+              ],
+              "difficulty": "advanced",
+              "prerequisites": [
+                "econometrics"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "mmm",
+                "advertising-models"
+              ]
+            },
+            {
+              "title": "Sustained Spending and Persistent Response: A New Look at Long-Term Marketing Profitability",
+              "authors": "Marnik G. Dekimpe, Dominique M. Hanssens",
+              "year": 1999,
+              "tag": "Classic",
+              "description": "Pioneers distinguishing short-term versus long-term marketing effects using persistence modeling. Shows when marketing investments have permanent vs. temporary effects on sales\u2014essential for MMM interpretation.",
+              "url": "https://journals.sagepub.com/doi/10.1509/jmkr.36.4.397.18765",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Marketing Mix Modeling"
+              ],
+              "difficulty": "advanced",
+              "prerequisites": [
+                "time-series"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "mmm",
+                "long-term-effects"
+              ]
+            },
+            {
+              "title": "Return on Marketing Investment (ROMI): Definition, Uses, and Challenges",
+              "authors": "Dominique M. Hanssens",
+              "year": 2024,
+              "tag": "SOTA",
+              "description": "Proposes marginal ROMI as the unifying metric for marketing effectiveness measurement. Reviews common pitfalls in ROMI calculation and provides framework for managerial decision-making.",
+              "url": "https://journals.sagepub.com/doi/10.1177/00222429241258218",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Marketing Mix Modeling"
+              ],
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "romi",
+                "marketing-metrics"
+              ]
+            },
+            {
+              "title": "Data-driven Multi-touch Attribution Models",
+              "authors": "Xuhui Shao, Lexin Li",
+              "year": 2011,
+              "tag": "Methodological",
+              "description": "Technical foundation for algorithmic attribution. Develops probabilistic models for allocating conversion credit across marketing touchpoints\u2014moving beyond heuristic rules to data-driven attribution.",
+              "url": "https://dl.acm.org/doi/10.1145/2020408.2020453",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Attribution"
+              ],
+              "difficulty": "advanced",
+              "prerequisites": [
+                "probability-theory"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "attribution",
+                "multi-touch"
+              ]
+            },
+            {
+              "title": "A Comparison of Approaches to Advertising Measurement: Evidence from Big Field Experiments at Facebook",
+              "authors": "Brett R. Gordon, Florian Zettelmeyer, Neha Bhargava, Dan Chapsky",
+              "year": 2019,
+              "tag": "SOTA",
+              "description": "Demonstrates significant biases in non-experimental advertising measurement methods through large Facebook experiments. Shows observational methods overestimate effects by 2-3x\u2014making the case for experimental measurement.",
+              "url": "https://pubsonline.informs.org/doi/10.1287/mksc.2018.1135",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Attribution"
+              ],
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "causal-inference-basics"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "advertising-measurement",
+                "experiments"
+              ]
+            },
+            {
+              "title": "Bayesian Methods for Media Mix Modeling with Carryover and Shape Effects",
+              "authors": "Yuxue Jin, Yueqing Wang, Yunting Sun, David Chan, Jim Koehler",
+              "year": 2017,
+              "tag": "Industry",
+              "description": "Google's Bayesian approach to media mix modeling. Handles adstock (carryover) effects and diminishing returns through hierarchical priors\u2014the methodology underlying modern MMM tools.",
+              "url": "https://research.google/pubs/pub46001/",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Marketing Mix Modeling"
+              ],
+              "difficulty": "advanced",
+              "prerequisites": [
+                "bayesian-statistics"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "mmm",
+                "bayesian-methods"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "personalization-email",
+          "name": "Personalization & Email Marketing",
+          "application": "Optimize triggered campaigns and personalization strategies",
+          "papers": [
+            {
+              "title": "The Effectiveness of Triggered Email Marketing in Addressing Browse Abandonments",
+              "authors": "Miguel Goic, Alejandro Rojas, Ignacio Saavedra",
+              "year": 2021,
+              "tag": "SOTA",
+              "description": "First rigorous experimental evidence on browse abandonment email effectiveness. Quantifies the causal effect of triggered emails on conversion and identifies optimal timing and content strategies.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S1094996821000123",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Email Marketing"
+              ],
+              "difficulty": "intermediate",
+              "prerequisites": [
+                "experiment-design"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "email-marketing",
+                "triggered-campaigns"
+              ]
+            },
+            {
+              "title": "Personalization versus Privacy: An Empirical Examination of the Online Consumer's Dilemma",
+              "authors": "Ramnath K. Chellappa, Raymond G. Sin",
+              "year": 2005,
+              "tag": "Classic",
+              "description": "Establishes the foundational trade-off model where personalization value must exceed privacy costs. Uses conjoint analysis to quantify consumer willingness to trade privacy for personalization benefits.",
+              "url": "https://link.springer.com/article/10.1007/s10799-005-5879-y",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Personalization"
+              ],
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "personalization",
+                "privacy"
+              ]
+            },
+            {
+              "title": "The Personalization-Privacy Paradox in the Attention Economy",
+              "authors": "J\u00e9r\u00e9my Cloarec",
+              "year": 2020,
+              "tag": "SOTA",
+              "description": "Connects personalization-privacy trade-offs to the attention economy framework. Shows how platform incentives and attention scarcity affect consumer privacy decisions and personalization acceptance.",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0040162520309872",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Personalization"
+              ],
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "personalization",
+                "attention-economy"
+              ]
+            },
+            {
+              "title": "Customization of Online Advertising: The Role of Intrusiveness",
+              "authors": "Asim Ansari, Carl F. Mela",
+              "year": 2003,
+              "tag": "Classic",
+              "description": "Early experimental evidence on personalized content effectiveness. Shows how to optimize email content and timing based on individual-level response models\u2014foundational for personalization systems.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.22.1.131.12816",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Personalization"
+              ],
+              "difficulty": "advanced",
+              "prerequisites": [
+                "bayesian-statistics"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "personalization",
+                "email-optimization"
+              ]
+            },
+            {
+              "title": "Dynamic Pricing and Learning: Historical Origins, Current Research, and New Directions",
+              "authors": "Arnoud V. den Boer",
+              "year": 2015,
+              "tag": "Survey",
+              "description": "Comprehensive survey of dynamic pricing algorithms that learn optimal prices from demand data. Covers multi-armed bandits, Bayesian learning, and exploration-exploitation trade-offs in pricing.",
+              "url": "https://link.springer.com/article/10.1007/s10712-013-9226-0",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Dynamic Pricing"
+              ],
+              "difficulty": "advanced",
+              "prerequisites": [
+                "optimization"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "dynamic-pricing",
+                "pricing-optimization"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "promotions-loyalty",
+          "name": "Promotions & Loyalty Programs",
+          "application": "Design effective promotions and evaluate loyalty economics",
+          "papers": [
+            {
+              "title": "Decomposing the Promotional Revenue Bump for Loyalty Program Members versus Nonmembers",
+              "authors": "Harald J. van Heerde, Peter S.H. Leeflang, Dick R. Wittink",
+              "year": 2004,
+              "tag": "Classic",
+              "description": "Decomposes promotional effects into category expansion, brand switching, and purchase acceleration. Shows how loyalty program members respond differently to promotions than non-members.",
+              "url": "https://journals.sagepub.com/doi/10.1509/jmkr.41.4.443.47005",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Promotions"
+              ],
+              "difficulty": "advanced",
+              "prerequisites": [
+                "econometrics"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "promotions",
+                "loyalty-programs"
+              ]
+            },
+            {
+              "title": "How Promotions Work",
+              "authors": "Robert C. Blattberg, Richard Briesch, Edward J. Fox",
+              "year": 1995,
+              "tag": "Classic",
+              "description": "Establishes the empirical generalizations about promotional effectiveness that still guide practice today. Documents patterns in deal elasticities, stockpiling, and cross-category effects.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.14.3.G122",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Promotions"
+              ],
+              "difficulty": "intermediate",
+              "prerequisites": [],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "promotions",
+                "empirical-generalizations"
+              ]
+            },
+            {
+              "title": "The Long-Term Impact of Loyalty Programs on Consumer Purchase Behavior and Loyalty",
+              "authors": "Michael Lewis",
+              "year": 2004,
+              "tag": "Classic",
+              "description": "Develops the structural model for loyalty program ROI. Uses dynamic programming to separate true behavioral change from selection effects\u2014essential for evaluating loyalty program investments.",
+              "url": "https://journals.sagepub.com/doi/10.1509/jmkg.68.4.281.42722",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Loyalty Programs"
+              ],
+              "difficulty": "advanced",
+              "prerequisites": [
+                "dynamic-programming"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "loyalty-programs",
+                "program-roi"
+              ]
+            },
+            {
+              "title": "Do Customer Loyalty Programs Really Work?",
+              "authors": "Grahame R. Dowling, Mark Uncles",
+              "year": 1997,
+              "tag": "Classic",
+              "description": "Essential critical perspective on loyalty program effectiveness. Argues that most programs create loyalty to the program, not the brand\u2014challenging assumptions about loyalty program ROI.",
+              "url": "https://sloanreview.mit.edu/article/do-customer-loyalty-programs-really-work/",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Loyalty Programs"
+              ],
+              "difficulty": "beginner",
+              "prerequisites": [],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "loyalty-programs",
+                "critique"
+              ]
+            },
+            {
+              "title": "Optimal Dynamic Pricing of Inventories with Stochastic Demand over Finite Horizons",
+              "authors": "Guillermo Gallego, Garrett van Ryzin",
+              "year": 1994,
+              "tag": "Classic",
+              "description": "THE seminal paper for revenue management. Establishes theoretical foundations for dynamically pricing perishable inventory with uncertain demand\u2014underlying all modern pricing and promotion systems.",
+              "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.40.8.999",
+              "tags": [
+                "MarTech & Customer Analytics",
+                "Revenue Management"
+              ],
+              "difficulty": "advanced",
+              "prerequisites": [
+                "stochastic-optimization"
+              ],
+              "topic_tags": [
+                "martech-customer-analytics",
+                "revenue-management",
+                "dynamic-pricing"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

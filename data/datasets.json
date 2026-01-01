@@ -13271,5 +13271,351 @@
     "temporal_coverage": "14 days",
     "geographic_scope": "Global",
     "size_category": "very-large"
+  },
+  {
+    "name": "Online Retail II (UCI)",
+    "description": "1M+ transactions from a UK-based online retailer (2009-2011). Contains invoice number, stock code, description, quantity, invoice date, unit price, customer ID, and country. Standard benchmark for RFM analysis and CLV modeling.",
+    "category": "MarTech & Customer Analytics",
+    "url": "https://archive.ics.uci.edu/ml/datasets/Online+Retail+II",
+    "docs_url": "https://archive.ics.uci.edu/ml/datasets/Online+Retail+II",
+    "github_url": null,
+    "tags": [
+      "CLV",
+      "RFM",
+      "e-commerce",
+      "transaction-data"
+    ],
+    "best_for": "Learning CLV modeling with BG/NBD, RFM segmentation, and cohort analysis",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "martech-customer-analytics"
+    ],
+    "summary": "Classic e-commerce transaction dataset for customer analytics. Contains over 1 million transactions from a UK online retailer, enabling RFM analysis, CLV estimation, and customer segmentation exercises.",
+    "use_cases": [
+      "Implement BG/NBD and Pareto/NBD CLV models",
+      "Perform RFM customer segmentation",
+      "Build customer cohort analysis dashboards"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Where can I find e-commerce data for CLV modeling?",
+      "What datasets work with the lifetimes Python package?",
+      "How do I practice RFM analysis?",
+      "What's a good dataset for customer segmentation?"
+    ],
+    "domain_tags": [
+      "Retail",
+      "E-commerce"
+    ],
+    "data_modality": "tabular",
+    "size_category": "medium"
+  },
+  {
+    "name": "Telco Customer Churn (IBM)",
+    "description": "7,043 customers from a telecommunications company with 21 features including demographics, services, account information, and churn status. Industry-standard dataset for churn prediction benchmarking.",
+    "category": "MarTech & Customer Analytics",
+    "url": "https://www.kaggle.com/datasets/blastchar/telco-customer-churn",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "churn",
+      "classification",
+      "telecom",
+      "customer-analytics"
+    ],
+    "best_for": "Learning churn prediction, classification algorithms, and retention analysis",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "martech-customer-analytics"
+    ],
+    "summary": "The most popular dataset for learning churn prediction. Contains customer demographics, account information, and service subscriptions from a telecom company with binary churn labels.",
+    "use_cases": [
+      "Build churn classification models",
+      "Practice feature engineering for customer analytics",
+      "Compare ML algorithms for churn prediction"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What dataset should I use to learn churn prediction?",
+      "Where can I find telecom customer data?",
+      "What's a good beginner dataset for customer retention?"
+    ],
+    "domain_tags": [
+      "Telecom",
+      "Customer Analytics"
+    ],
+    "data_modality": "tabular",
+    "size_category": "small"
+  },
+  {
+    "name": "MovieLens 25M",
+    "description": "25 million ratings and 1 million tag applications across 62,000 movies by 162,000 users. The gold-standard benchmark for collaborative filtering research with rich metadata including genres, tags, and timestamps.",
+    "category": "MarTech & Customer Analytics",
+    "url": "https://grouplens.org/datasets/movielens/25m/",
+    "docs_url": "https://files.grouplens.org/datasets/movielens/ml-25m-README.html",
+    "github_url": null,
+    "tags": [
+      "recommendations",
+      "collaborative-filtering",
+      "movies",
+      "ratings"
+    ],
+    "best_for": "Learning recommendation systems, matrix factorization, and collaborative filtering",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "linear-algebra"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics"
+    ],
+    "summary": "The definitive benchmark dataset for recommendation system research from the GroupLens lab at University of Minnesota. Used to evaluate collaborative filtering, matrix factorization, and deep learning recommendation approaches.",
+    "use_cases": [
+      "Implement matrix factorization (SVD, ALS)",
+      "Build hybrid recommendation systems",
+      "Benchmark recommendation algorithms"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What dataset should I use to learn recommendation systems?",
+      "Where can I find movie ratings data?",
+      "What's the best dataset for collaborative filtering?",
+      "How can I benchmark my recommendation algorithm?"
+    ],
+    "domain_tags": [
+      "Entertainment",
+      "Recommendations"
+    ],
+    "data_modality": "tabular",
+    "size_category": "large"
+  },
+  {
+    "name": "Amazon Reviews 2023",
+    "description": "233 million product reviews across all Amazon categories with user IDs, timestamps, ratings, and review text. The largest public e-commerce review dataset for recommendation research.",
+    "category": "MarTech & Customer Analytics",
+    "url": "https://amazon-reviews-2023.github.io/",
+    "docs_url": "https://amazon-reviews-2023.github.io/",
+    "github_url": "https://github.com/hyp1231/AmazonReviews2023",
+    "tags": [
+      "recommendations",
+      "e-commerce",
+      "reviews",
+      "NLP",
+      "sentiment"
+    ],
+    "best_for": "Large-scale recommendation systems, sentiment analysis, and cross-domain recommendations",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "distributed-computing"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics"
+    ],
+    "summary": "Massive e-commerce dataset from Julian McAuley's lab at UCSD. Contains product reviews, metadata, and user behavior across all Amazon categories\u2014essential for training production-scale recommendation models.",
+    "use_cases": [
+      "Train large-scale recommendation models",
+      "Perform cross-category recommendation research",
+      "Build review-based sentiment systems"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Where can I find large-scale e-commerce data?",
+      "What dataset should I use for production recommendation systems?",
+      "How can I get Amazon product review data?"
+    ],
+    "domain_tags": [
+      "E-commerce",
+      "Retail"
+    ],
+    "data_modality": "text",
+    "size_category": "very-large"
+  },
+  {
+    "name": "Instacart Market Basket Analysis",
+    "description": "3 million grocery orders from 200,000 Instacart users with product details and order sequences. Released for a Kaggle competition to predict which products users will reorder.",
+    "category": "MarTech & Customer Analytics",
+    "url": "https://www.kaggle.com/c/instacart-market-basket-analysis/data",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "market-basket",
+      "sequential",
+      "grocery",
+      "reorder-prediction"
+    ],
+    "best_for": "Learning market basket analysis, sequential recommendations, and next-basket prediction",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "martech-customer-analytics"
+    ],
+    "summary": "Real grocery shopping data from Instacart. Contains full order history for each user, enabling market basket analysis, association rules, and sequential recommendation modeling.",
+    "use_cases": [
+      "Build next-basket prediction models",
+      "Perform market basket analysis",
+      "Learn sequential recommendation approaches"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Where can I find grocery shopping data?",
+      "What dataset is good for market basket analysis?",
+      "How can I learn sequential recommendations?",
+      "What data works for next-purchase prediction?"
+    ],
+    "domain_tags": [
+      "Grocery",
+      "Retail"
+    ],
+    "data_modality": "tabular",
+    "size_category": "large"
+  },
+  {
+    "name": "Amazon Fine Foods Reviews",
+    "description": "500,000+ food product reviews from Amazon spanning 1999-2012. Includes user/product IDs, ratings, helpfulness votes, and full review text. Popular for sentiment analysis and review-based recommendations.",
+    "category": "MarTech & Customer Analytics",
+    "url": "https://snap.stanford.edu/data/web-FineFoods.html",
+    "docs_url": "https://snap.stanford.edu/data/web-FineFoods.html",
+    "github_url": null,
+    "tags": [
+      "reviews",
+      "sentiment",
+      "food",
+      "NLP",
+      "recommendations"
+    ],
+    "best_for": "Learning sentiment analysis, review mining, and hybrid recommendation systems",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "martech-customer-analytics"
+    ],
+    "summary": "Stanford SNAP dataset of Amazon food product reviews. Contains rich text reviews with ratings, useful for NLP-based recommendation approaches and sentiment analysis.",
+    "use_cases": [
+      "Build sentiment classification models",
+      "Create content-based recommenders from reviews",
+      "Practice text feature engineering"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "Where can I find product review data?",
+      "What dataset is good for sentiment analysis?",
+      "How can I build review-based recommendations?"
+    ],
+    "domain_tags": [
+      "Food",
+      "E-commerce"
+    ],
+    "data_modality": "text",
+    "size_category": "medium"
+  },
+  {
+    "name": "KDD Cup 2009 Customer Relationship Prediction",
+    "description": "Orange Telecom CRM dataset with 50,000 customers and 230 anonymized features. Predict churn, appetency (propensity to buy), and up-selling. Classic benchmark for CRM analytics.",
+    "category": "MarTech & Customer Analytics",
+    "url": "https://www.kdd.org/kdd-cup/view/kdd-cup-2009/Data",
+    "docs_url": "https://www.kdd.org/kdd-cup/view/kdd-cup-2009",
+    "github_url": null,
+    "tags": [
+      "CRM",
+      "churn",
+      "uplift",
+      "classification"
+    ],
+    "best_for": "Learning CRM analytics, multi-task learning, and handling messy real-world data",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "feature-engineering"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics"
+    ],
+    "summary": "Real-world CRM data from a French telecom with three prediction tasks: churn, appetency, and up-selling. Known for challenging data quality issues that reflect production environments.",
+    "use_cases": [
+      "Practice CRM prediction pipelines",
+      "Learn multi-task classification",
+      "Handle missing values and noisy features"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What dataset reflects real CRM challenges?",
+      "Where can I find telecom CRM data?",
+      "How do I practice handling messy customer data?"
+    ],
+    "domain_tags": [
+      "Telecom",
+      "CRM"
+    ],
+    "data_modality": "tabular",
+    "size_category": "medium"
+  },
+  {
+    "name": "Retail Rocket Recommender System Dataset",
+    "description": "4.5 months of behavior data from a real e-commerce site: 2.7M sessions, item properties, and purchase events. Designed for session-based recommendation research.",
+    "category": "MarTech & Customer Analytics",
+    "url": "https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset",
+    "docs_url": null,
+    "github_url": null,
+    "tags": [
+      "session-based",
+      "e-commerce",
+      "recommendations",
+      "behavior"
+    ],
+    "best_for": "Learning session-based recommendations and real-time personalization",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "sequence-modeling"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics"
+    ],
+    "summary": "E-commerce behavior data with view, add-to-cart, and purchase events. Enables session-based recommendation research where user identity isn't persistent\u2014common in production e-commerce.",
+    "use_cases": [
+      "Build session-based recommenders",
+      "Practice real-time personalization",
+      "Model user behavior sequences"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What dataset is good for session-based recommendations?",
+      "Where can I find e-commerce behavior data?",
+      "How do I build recommendations without user IDs?"
+    ],
+    "domain_tags": [
+      "E-commerce",
+      "Retail"
+    ],
+    "data_modality": "tabular",
+    "size_category": "medium"
   }
 ]

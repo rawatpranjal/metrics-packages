@@ -20223,5 +20223,600 @@
       "CatBoost"
     ],
     "maintenance_status": "active"
+  },
+  {
+    "name": "lifetimes",
+    "description": "Industry-standard library for CLV modeling. Implements BG/NBD, Pareto/NBD for transaction prediction and Gamma-Gamma for monetary value modeling in non-contractual settings.",
+    "category": "MarTech & Customer Analytics",
+    "docs_url": "https://lifetimes.readthedocs.io/",
+    "github_url": "https://github.com/CamDavidsonPilon/lifetimes",
+    "url": "https://github.com/CamDavidsonPilon/lifetimes",
+    "install": "pip install lifetimes",
+    "tags": [
+      "CLV",
+      "BTYD",
+      "customer-analytics",
+      "RFM"
+    ],
+    "best_for": "Implementing probabilistic CLV models (BG/NBD, Pareto/NBD) from transaction data",
+    "language": "Python",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "pandas"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics"
+    ],
+    "summary": "The go-to Python library for 'Buy Till You Die' customer lifetime value models. Fits BG/NBD and Pareto/NBD models to transaction data and predicts future purchases and CLV.",
+    "use_cases": [
+      "Estimate customer lifetime value from transaction history",
+      "Predict future transactions per customer",
+      "Identify which customers are still 'alive'"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "How do I calculate CLV in Python?",
+      "What package implements BG/NBD model?",
+      "How do I predict customer transactions?",
+      "Python library for BTYD models"
+    ],
+    "primary_use_cases": [
+      "CLV modeling"
+    ],
+    "api_complexity": "simple",
+    "related_packages": [
+      "PyMC-Marketing",
+      "CLVTools"
+    ],
+    "maintenance_status": "maintenance-mode"
+  },
+  {
+    "name": "PyMC-Marketing",
+    "description": "Bayesian marketing analytics toolkit from PyMC Labs. Combines Marketing Mix Modeling, CLV estimation, and discrete choice models with full uncertainty quantification and GPU acceleration.",
+    "category": "MarTech & Customer Analytics",
+    "docs_url": "https://www.pymc-marketing.io/",
+    "github_url": "https://github.com/pymc-labs/pymc-marketing",
+    "url": "https://www.pymc-marketing.io/",
+    "install": "pip install pymc-marketing",
+    "tags": [
+      "CLV",
+      "MMM",
+      "Bayesian",
+      "marketing-analytics"
+    ],
+    "best_for": "Production-grade Bayesian CLV and media mix modeling with uncertainty estimates",
+    "language": "Python",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "pymc",
+      "bayesian-statistics"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics"
+    ],
+    "summary": "Modern Bayesian marketing analytics library. Provides BG/NBD and Pareto/NBD with Bayesian inference, marketing mix modeling with adstock effects, and customer spend models\u2014all with uncertainty quantification.",
+    "use_cases": [
+      "Build Bayesian CLV models with credible intervals",
+      "Create marketing mix models with carryover effects",
+      "Estimate heterogeneous customer response"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Bayesian CLV modeling in Python",
+      "Marketing mix modeling with uncertainty",
+      "How do I get confidence intervals for CLV?",
+      "PyMC for marketing analytics"
+    ],
+    "primary_use_cases": [
+      "CLV modeling",
+      "Marketing mix modeling"
+    ],
+    "api_complexity": "advanced",
+    "related_packages": [
+      "lifetimes",
+      "PyMC",
+      "Robyn"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "Surprise",
+    "description": "Scikit-learn-style library for building and analyzing recommender systems. Implements SVD, SVD++, NMF, KNN, and baseline algorithms with built-in cross-validation and hyperparameter search.",
+    "category": "MarTech & Customer Analytics",
+    "docs_url": "https://surpriselib.com/",
+    "github_url": "https://github.com/NicolasHug/Surprise",
+    "url": "https://surpriselib.com/",
+    "install": "pip install scikit-surprise",
+    "tags": [
+      "recommendations",
+      "collaborative-filtering",
+      "matrix-factorization"
+    ],
+    "best_for": "Learning and prototyping recommendation algorithms with a familiar sklearn API",
+    "language": "Python",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "scikit-learn"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics"
+    ],
+    "summary": "The easiest way to get started with collaborative filtering in Python. Provides SVD, NMF, KNN and other algorithms with sklearn-compatible API, cross-validation, and grid search.",
+    "use_cases": [
+      "Build movie/product recommendation systems",
+      "Benchmark collaborative filtering algorithms",
+      "Learn matrix factorization approaches"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "Easy recommendation library for Python",
+      "How do I implement SVD for recommendations?",
+      "Sklearn-style recommender system library",
+      "Beginner collaborative filtering Python"
+    ],
+    "primary_use_cases": [
+      "Recommendations"
+    ],
+    "api_complexity": "simple",
+    "related_packages": [
+      "LightFM",
+      "Implicit",
+      "RecBole"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "LightFM",
+    "description": "Hybrid recommendation library that handles cold-start by incorporating content features. Uses factorization machines to learn embeddings for users, items, and their features simultaneously.",
+    "category": "MarTech & Customer Analytics",
+    "docs_url": "https://making.lyst.com/lightfm/docs/home.html",
+    "github_url": "https://github.com/lyst/lightfm",
+    "url": "https://github.com/lyst/lightfm",
+    "install": "pip install lightfm",
+    "tags": [
+      "recommendations",
+      "hybrid",
+      "cold-start",
+      "factorization-machines"
+    ],
+    "best_for": "Building hybrid recommenders that work for new users/items using side information",
+    "language": "Python",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "martech-customer-analytics"
+    ],
+    "summary": "Production-ready hybrid recommendation library from Lyst. Solves cold-start by learning from user/item features alongside interactions. Supports BPR and WARP loss functions.",
+    "use_cases": [
+      "Recommend products to new users",
+      "Handle items with no interaction history",
+      "Combine collaborative and content-based signals"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "How do I handle cold start in recommendations?",
+      "Hybrid recommendation system Python",
+      "Recommendations with item features",
+      "Factorization machines for recommendations"
+    ],
+    "primary_use_cases": [
+      "Recommendations"
+    ],
+    "api_complexity": "intermediate",
+    "related_packages": [
+      "Surprise",
+      "Implicit",
+      "RecBole"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "Implicit",
+    "description": "GPU-accelerated library for collaborative filtering on implicit feedback data. Implements ALS, BPR, and logistic matrix factorization with CUDA support for scale.",
+    "category": "MarTech & Customer Analytics",
+    "docs_url": "https://benfred.github.io/implicit/",
+    "github_url": "https://github.com/benfred/implicit",
+    "url": "https://github.com/benfred/implicit",
+    "install": "pip install implicit",
+    "tags": [
+      "recommendations",
+      "implicit-feedback",
+      "GPU",
+      "ALS"
+    ],
+    "best_for": "Large-scale recommendation with click/purchase data (no explicit ratings)",
+    "language": "Python",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "martech-customer-analytics"
+    ],
+    "summary": "High-performance library for implicit feedback recommendations. Uses GPU acceleration for ALS matrix factorization\u2014essential for production systems with millions of users/items.",
+    "use_cases": [
+      "Build recommendations from purchase/click data",
+      "Scale recommendations to millions of users",
+      "Train recommendations quickly on GPU"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Recommendations without ratings data",
+      "GPU-accelerated collaborative filtering",
+      "ALS recommendations Python",
+      "How to handle implicit feedback recommendations"
+    ],
+    "primary_use_cases": [
+      "Recommendations"
+    ],
+    "api_complexity": "intermediate",
+    "related_packages": [
+      "Surprise",
+      "LightFM"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "RecBole",
+    "description": "Comprehensive recommendation library with 100+ algorithms spanning general, sequential, context-aware, and knowledge-based approaches. Built on PyTorch with unified data loading and evaluation.",
+    "category": "MarTech & Customer Analytics",
+    "docs_url": "https://recbole.io/",
+    "github_url": "https://github.com/RUCAIBox/RecBole",
+    "url": "https://recbole.io/",
+    "install": "pip install recbole",
+    "tags": [
+      "recommendations",
+      "deep-learning",
+      "sequential",
+      "benchmark"
+    ],
+    "best_for": "Research and benchmarking across recommendation paradigms",
+    "language": "Python",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "PyTorch"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics"
+    ],
+    "summary": "The most comprehensive recommendation library. Implements 100+ algorithms from classic CF to transformers, with unified APIs for training, evaluation, and hyperparameter search.",
+    "use_cases": [
+      "Benchmark recommendation algorithms",
+      "Implement deep learning recommenders",
+      "Research sequential recommendations"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Deep learning recommendations Python",
+      "Sequential recommendation library",
+      "How to benchmark recommender systems",
+      "Transformer-based recommendations"
+    ],
+    "primary_use_cases": [
+      "Recommendations"
+    ],
+    "api_complexity": "advanced",
+    "related_packages": [
+      "Surprise",
+      "LightFM",
+      "Implicit"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "CLVTools",
+    "description": "R package for probabilistic CLV modeling. Implements Pareto/NBD and BG/NBD with time-varying covariates, spending models, and customer-level predictions.",
+    "category": "MarTech & Customer Analytics",
+    "docs_url": "https://www.clvtools.com/",
+    "github_url": "https://github.com/bachmannpatrick/CLVTools",
+    "url": "https://www.clvtools.com/",
+    "install": "install.packages('CLVTools')",
+    "tags": [
+      "CLV",
+      "BTYD",
+      "R",
+      "customer-analytics"
+    ],
+    "best_for": "Production CLV modeling in R with time-varying covariates",
+    "language": "R",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "R-basics"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics"
+    ],
+    "summary": "The premier R package for BTYD CLV modeling. Extends classic Pareto/NBD with time-varying covariates like marketing spend, enabling causal analysis of CLV drivers.",
+    "use_cases": [
+      "Estimate CLV with marketing variables",
+      "Model how promotions affect customer value",
+      "Customer-level CLV predictions"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "CLV modeling in R",
+      "BTYD models with covariates",
+      "How to add marketing variables to CLV model",
+      "R package for customer lifetime value"
+    ],
+    "primary_use_cases": [
+      "CLV modeling"
+    ],
+    "api_complexity": "intermediate",
+    "related_packages": [
+      "BTYDplus",
+      "lifetimes"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "BTYDplus",
+    "description": "Extended BTYD models for R including MBG/NBD, Pareto/GGG, and hierarchical Bayesian variants. Handles regular purchasing patterns and incorporates purchase timing.",
+    "category": "MarTech & Customer Analytics",
+    "docs_url": "https://cran.r-project.org/package=BTYDplus",
+    "github_url": "https://github.com/mplatzer/BTYDplus",
+    "url": "https://github.com/mplatzer/BTYDplus",
+    "install": "install.packages('BTYDplus')",
+    "tags": [
+      "CLV",
+      "BTYD",
+      "R",
+      "hierarchical-Bayes"
+    ],
+    "best_for": "Advanced BTYD variants for subscription and regular-purchase businesses",
+    "language": "R",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "R-basics",
+      "btyd-basics"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics"
+    ],
+    "summary": "Advanced BTYD extensions for R. Adds MBG/NBD for contractual settings, Pareto/GGG for regularity, and hierarchical Bayesian estimation\u2014essential for subscription businesses.",
+    "use_cases": [
+      "Model subscription customer value",
+      "Handle regular purchasing patterns",
+      "Bayesian BTYD estimation"
+    ],
+    "audience": [
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "BTYD for subscription business",
+      "MBG/NBD model R",
+      "Hierarchical Bayesian CLV",
+      "Pareto/GGG model"
+    ],
+    "primary_use_cases": [
+      "CLV modeling"
+    ],
+    "api_complexity": "advanced",
+    "related_packages": [
+      "CLVTools",
+      "lifetimes"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "recommenderlab",
+    "description": "R infrastructure for developing and evaluating recommender systems. Provides UBCF, IBCF, SVD, popular/random baselines with unified evaluation framework.",
+    "category": "MarTech & Customer Analytics",
+    "docs_url": "https://cran.r-project.org/package=recommenderlab",
+    "github_url": "https://github.com/mhahsler/recommenderlab",
+    "url": "https://github.com/mhahsler/recommenderlab",
+    "install": "install.packages('recommenderlab')",
+    "tags": [
+      "recommendations",
+      "R",
+      "collaborative-filtering",
+      "evaluation"
+    ],
+    "best_for": "Building and evaluating recommendations in R",
+    "language": "R",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "R-basics"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics"
+    ],
+    "summary": "The standard R package for recommendation systems. Provides data structures, algorithms (UBCF, IBCF, SVD), and evaluation methods for collaborative filtering research.",
+    "use_cases": [
+      "Build recommendation systems in R",
+      "Evaluate CF algorithm performance",
+      "Prototype recommendations before production"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Recommendation systems in R",
+      "Collaborative filtering R package",
+      "How to evaluate recommenders in R"
+    ],
+    "primary_use_cases": [
+      "Recommendations"
+    ],
+    "api_complexity": "intermediate",
+    "related_packages": [
+      "Surprise",
+      "recosystem"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "CausalML",
+    "description": "Uber's library for uplift modeling and heterogeneous treatment effect estimation. Implements meta-learners (S, T, X, R, DR), uplift trees, and CATE estimation for targeting optimization.",
+    "category": "MarTech & Customer Analytics",
+    "docs_url": "https://causalml.readthedocs.io/",
+    "github_url": "https://github.com/uber/causalml",
+    "url": "https://github.com/uber/causalml",
+    "install": "pip install causalml",
+    "tags": [
+      "uplift",
+      "causal-inference",
+      "targeting",
+      "treatment-effects"
+    ],
+    "best_for": "Identifying which customers respond best to marketing interventions",
+    "language": "Python",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "causal-inference-basics"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics",
+      "causal-inference"
+    ],
+    "summary": "The go-to library for marketing uplift modeling. Estimates heterogeneous treatment effects to optimize targeting\u2014find customers who respond to treatment, not just those likely to convert.",
+    "use_cases": [
+      "Identify persuadable customers for campaigns",
+      "Optimize retention intervention targeting",
+      "Estimate heterogeneous marketing effects"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Uplift modeling in Python",
+      "How to find persuadable customers",
+      "CATE estimation for marketing",
+      "Treatment effect heterogeneity marketing"
+    ],
+    "primary_use_cases": [
+      "Uplift modeling"
+    ],
+    "api_complexity": "intermediate",
+    "related_packages": [
+      "EconML",
+      "CausalPy",
+      "DoWhy"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "CausalPy",
+    "description": "Bayesian causal inference library from PyMC Labs. Implements synthetic control, difference-in-differences, and interrupted time series for geo experiments and marketing measurement.",
+    "category": "MarTech & Customer Analytics",
+    "docs_url": "https://causalpy.readthedocs.io/",
+    "github_url": "https://github.com/pymc-labs/CausalPy",
+    "url": "https://github.com/pymc-labs/CausalPy",
+    "install": "pip install CausalPy",
+    "tags": [
+      "causal-inference",
+      "synthetic-control",
+      "DiD",
+      "Bayesian"
+    ],
+    "best_for": "Measuring geo experiments and quasi-experimental marketing effects",
+    "language": "Python",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "causal-inference-basics"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics",
+      "causal-inference"
+    ],
+    "summary": "Bayesian causal inference for marketing measurement. Provides synthetic control and difference-in-differences with uncertainty quantification\u2014essential for geo lift testing.",
+    "use_cases": [
+      "Measure geo marketing experiments",
+      "Estimate campaign effects without randomization",
+      "Quantify uncertainty in causal estimates"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Synthetic control in Python",
+      "Bayesian difference-in-differences",
+      "How to measure geo experiments",
+      "Marketing lift measurement"
+    ],
+    "primary_use_cases": [
+      "Causal inference"
+    ],
+    "api_complexity": "intermediate",
+    "related_packages": [
+      "CausalML",
+      "EconML",
+      "GeoLift"
+    ],
+    "maintenance_status": "active"
+  },
+  {
+    "name": "EconML",
+    "description": "Microsoft's library for heterogeneous treatment effect estimation. Implements DML, causal forests, and instrumental variable methods with sklearn-compatible API.",
+    "category": "MarTech & Customer Analytics",
+    "docs_url": "https://econml.azurewebsites.net/",
+    "github_url": "https://github.com/microsoft/EconML",
+    "url": "https://github.com/microsoft/EconML",
+    "install": "pip install econml",
+    "tags": [
+      "causal-inference",
+      "treatment-effects",
+      "DML",
+      "econometrics"
+    ],
+    "best_for": "Rigorous heterogeneous treatment effect estimation with econometric foundations",
+    "language": "Python",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "econometrics",
+      "machine-learning"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics",
+      "causal-inference"
+    ],
+    "summary": "State-of-the-art causal ML from Microsoft Research. Combines econometric rigor with ML flexibility for estimating heterogeneous treatment effects in marketing applications.",
+    "use_cases": [
+      "Estimate personalized marketing effects",
+      "Control for confounding in observational data",
+      "Build policy-optimal targeting rules"
+    ],
+    "audience": [
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Double machine learning Python",
+      "Causal forests for marketing",
+      "Econometric causal inference library",
+      "CATE estimation with confounding"
+    ],
+    "primary_use_cases": [
+      "Causal inference"
+    ],
+    "api_complexity": "advanced",
+    "related_packages": [
+      "CausalML",
+      "DoWhy",
+      "CausalPy"
+    ],
+    "maintenance_status": "active"
   }
 ]

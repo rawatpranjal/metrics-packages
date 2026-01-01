@@ -19251,5 +19251,157 @@
     "event_format": "legal-proceedings",
     "geographic_focus": "United States",
     "frequency": "ongoing"
+  },
+  {
+    "name": "INFORMS Marketing Science Conference",
+    "description": "Premier academic conference for quantitative marketing research. Covers customer analytics, pricing, advertising, and marketing models with strong industry participation.",
+    "category": "MarTech & Customer Analytics",
+    "url": "https://www.informs.org/Meetings-Conferences/INFORMS-Conference-Calendar/2025-INFORMS-Marketing-Science-Conference",
+    "type": "Academic Conference",
+    "tags": [
+      "Marketing Science",
+      "Conference",
+      "Academic"
+    ],
+    "domain": "Marketing",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "research-background"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics",
+      "marketing-science"
+    ],
+    "summary": "Annual academic conference for marketing science research. Features cutting-edge research on CLV, pricing, advertising, and marketing analytics with both academic and industry attendees.",
+    "use_cases": [
+      "Present marketing science research",
+      "Network with marketing academics and practitioners",
+      "Learn about latest marketing analytics methods"
+    ],
+    "audience": [
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Marketing science academic conference",
+      "Where to present marketing research",
+      "INFORMS marketing conference",
+      "Quantitative marketing conference"
+    ],
+    "community_type": "conference",
+    "engagement_level": "professional"
+  },
+  {
+    "name": "ACM RecSys Conference",
+    "description": "The premier conference on recommender systems. Covers collaborative filtering, content-based methods, deep learning, and evaluation with strong industry participation from Netflix, Spotify, Amazon.",
+    "category": "MarTech & Customer Analytics",
+    "url": "https://recsys.acm.org/",
+    "type": "Academic Conference",
+    "tags": [
+      "Recommendations",
+      "Conference",
+      "ACM"
+    ],
+    "domain": "Computer Science",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "machine-learning"
+    ],
+    "topic_tags": [
+      "martech-customer-analytics",
+      "recommendations"
+    ],
+    "summary": "Top-tier academic conference for recommendation systems. Features the latest research on collaborative filtering, deep learning recommendations, and evaluation methods with strong industry presence.",
+    "use_cases": [
+      "Learn about cutting-edge recommendation research",
+      "Network with recommendation practitioners",
+      "Present recommendation systems work"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Recommendation systems conference",
+      "Where to present recsys research",
+      "ACM RecSys conference",
+      "Top recommender systems venue"
+    ],
+    "community_type": "conference",
+    "engagement_level": "professional"
+  },
+  {
+    "name": "Wharton Customer Analytics Initiative (WCAI)",
+    "description": "World's preeminent customer analytics research center bridging academic research and industry practice. Hosts conferences, provides datasets, and publishes practitioner-focused research.",
+    "category": "MarTech & Customer Analytics",
+    "url": "https://wcai.wharton.upenn.edu/",
+    "type": "Research Center",
+    "tags": [
+      "Research",
+      "Customer Analytics",
+      "Industry-Academic"
+    ],
+    "domain": "Marketing",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "martech-customer-analytics",
+      "clv",
+      "research"
+    ],
+    "summary": "The leading research center connecting customer analytics academics and practitioners. Founded by Peter Fader and Eric Bradlow, WCAI provides datasets, hosts conferences, and publishes applied research.",
+    "use_cases": [
+      "Access industry-relevant research",
+      "Find customer analytics datasets",
+      "Connect with customer analytics community"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Customer analytics research community",
+      "Industry-academic marketing research",
+      "Where to find CLV datasets",
+      "Customer analytics practitioners"
+    ],
+    "community_type": "research-center",
+    "engagement_level": "professional"
+  },
+  {
+    "name": "Marketing Science Institute (MSI)",
+    "description": "The primary bridge between marketing academia and industry. Sets annual research priorities and publishes working papers that guide both academic research and industry practice.",
+    "category": "MarTech & Customer Analytics",
+    "url": "https://www.msi.org/",
+    "type": "Research Organization",
+    "tags": [
+      "Research",
+      "Marketing Science",
+      "Industry"
+    ],
+    "domain": "Marketing",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "martech-customer-analytics",
+      "marketing-science"
+    ],
+    "summary": "Central organization connecting marketing academics and practitioners. Annual research priorities influence academic agendas, and working papers provide early access to impactful research.",
+    "use_cases": [
+      "Understand industry research priorities",
+      "Access marketing working papers",
+      "Guide research agenda"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "Marketing research organization",
+      "Where to find marketing priorities",
+      "Academic-industry marketing bridge",
+      "Marketing working papers"
+    ],
+    "community_type": "professional-org",
+    "engagement_level": "professional"
   }
 ]
