@@ -60,41 +60,41 @@
             padding: 3rem;
         }
 
-        /* Typography - Professional Corporate */
+        /* Typography - LaTeX-like Academic */
         .reveal h1, .reveal h2, .reveal h3 {
-            font-weight: 600;
+            font-weight: 500;
             color: var(--te-text-primary);
             text-transform: none;
-            letter-spacing: -0.03em;
+            letter-spacing: -0.02em;
         }
 
         .reveal h1 {
-            font-size: 3em;
-            font-weight: 700;
+            font-size: 2.4em;
+            font-weight: 600;
         }
 
         .reveal h2 {
-            font-size: 2em;
+            font-size: 1.5em;
             color: var(--te-accent-light);
-            margin-bottom: 1.5rem;
+            margin-bottom: 1rem;
         }
 
         .reveal h3 {
-            font-size: 1.25em;
-            font-weight: 600;
+            font-size: 1.1em;
+            font-weight: 500;
             color: var(--te-text-primary);
         }
 
         .reveal p, .reveal li {
             color: var(--te-text-primary);
-            font-size: 1.1em;
-            line-height: 1.7;
+            font-size: 0.95em;
+            line-height: 1.5;
             font-weight: 400;
         }
 
         .reveal .muted {
             color: var(--te-text-muted);
-            font-size: 0.875em;
+            font-size: 0.8em;
             font-weight: 400;
         }
 
@@ -130,14 +130,14 @@
         }
 
         .tagline {
-            font-size: 1.5em !important;
+            font-size: 1.2em !important;
             color: var(--te-text-muted) !important;
             font-weight: 400;
             margin-bottom: 0.5rem;
         }
 
         .subtitle {
-            font-size: 1em !important;
+            font-size: 0.9em !important;
             color: var(--te-text-muted) !important;
             opacity: 0.6;
         }
@@ -165,19 +165,19 @@
         }
 
         .stat-number {
-            font-size: 3rem;
-            font-weight: 700;
+            font-size: 2.25rem;
+            font-weight: 600;
             color: var(--te-accent-light);
             font-variant-numeric: tabular-nums;
             line-height: 1;
         }
 
         .stat-label {
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             color: var(--te-text-muted);
-            margin-top: 0.5rem;
+            margin-top: 0.4rem;
             text-transform: uppercase;
-            letter-spacing: 0.08em;
+            letter-spacing: 0.06em;
             font-weight: 500;
         }
 
@@ -213,13 +213,13 @@
         }
 
         .section-content h3 {
-            margin: 0 0 0.25rem 0;
-            font-size: 1.5em;
+            margin: 0 0 0.2rem 0;
+            font-size: 1.2em;
         }
 
         .section-content p {
             margin: 0;
-            font-size: 1em;
+            font-size: 0.9em;
         }
 
         .section-content .muted {
@@ -244,15 +244,15 @@
 
         .feature h3 {
             color: var(--te-accent-light);
-            margin-bottom: 0.5rem;
-            font-size: 1.1em;
+            margin-bottom: 0.4rem;
+            font-size: 0.95em;
         }
 
         .feature p {
-            font-size: 0.9em !important;
+            font-size: 0.8em !important;
             color: var(--te-text-muted);
             margin: 0;
-            line-height: 1.5;
+            line-height: 1.4;
         }
 
         /* Tech stack code */
@@ -283,11 +283,11 @@
 
         .cta-button {
             display: inline-block;
-            padding: 0.875rem 2rem;
+            padding: 0.75rem 1.5rem;
             background: var(--te-accent);
             color: white !important;
             font-weight: 500;
-            font-size: 0.95rem;
+            font-size: 0.85rem;
             border-radius: 6px;
             text-decoration: none;
             transition: all 0.2s ease;
@@ -351,6 +351,93 @@
         /* Centered slides */
         .centered {
             text-align: center !important;
+        }
+
+        /* Compact mode for dense slides */
+        .compact h2 {
+            font-size: 1.75em;
+            margin-bottom: 1rem;
+        }
+
+        .compact p, .compact li {
+            font-size: 0.95em;
+            line-height: 1.5;
+        }
+
+        /* Process flow diagrams */
+        .flow-diagram {
+            font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+            font-size: 0.55em;
+            line-height: 1.3;
+            background: var(--te-bg-card);
+            padding: 1.25rem 1.5rem;
+            border-radius: 8px;
+            border: 1px solid var(--te-border);
+            white-space: pre;
+            text-align: left;
+            color: var(--te-text-muted);
+            max-width: 100%;
+            overflow-x: auto;
+            margin: 1rem auto;
+        }
+
+        .flow-diagram .highlight {
+            color: var(--te-accent-light);
+            font-weight: 600;
+        }
+
+        .flow-diagram .dim {
+            opacity: 0.6;
+        }
+
+        /* Pipeline cards for process flows */
+        .pipeline-row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            margin: 1rem 0;
+            flex-wrap: wrap;
+        }
+
+        .pipeline-box {
+            padding: 0.75rem 1.25rem;
+            background: var(--te-bg-card);
+            border: 1px solid var(--te-border);
+            border-radius: 6px;
+            text-align: center;
+            min-width: 140px;
+        }
+
+        .pipeline-box.accent {
+            border-color: var(--te-accent-light);
+            background: rgba(96, 165, 250, 0.08);
+        }
+
+        .pipeline-box h4 {
+            font-size: 0.8em;
+            font-weight: 600;
+            color: var(--te-accent-light);
+            margin: 0 0 0.2rem 0;
+        }
+
+        .pipeline-box p {
+            font-size: 0.65em !important;
+            color: var(--te-text-muted);
+            margin: 0;
+            line-height: 1.3;
+        }
+
+        .pipeline-arrow {
+            color: var(--te-text-muted);
+            font-size: 1.5em;
+            opacity: 0.5;
+        }
+
+        .pipeline-split {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
         }
 
         /* Responsive */
@@ -573,7 +660,131 @@
                 </div>
             </section>
 
-            <!-- ==================== SLIDE 6: TECH STACK ==================== -->
+            <!-- ==================== SLIDE 6: SEARCH PIPELINE ==================== -->
+            <section class="centered compact">
+                <h2>Hybrid Search Pipeline</h2>
+
+                <div class="pipeline-row">
+                    <div class="pipeline-box accent">
+                        <h4>Query</h4>
+                        <p>User input</p>
+                    </div>
+                </div>
+
+                <div class="pipeline-arrow">↓</div>
+
+                <div class="pipeline-split">
+                    <div class="pipeline-box fragment fade-up">
+                        <h4>Keyword</h4>
+                        <p>MiniSearch<br>BM25 · ~10ms</p>
+                    </div>
+                    <div class="pipeline-box fragment fade-up">
+                        <h4>Semantic</h4>
+                        <p>GTE-Small<br>384-dim vectors</p>
+                    </div>
+                </div>
+
+                <div class="pipeline-arrow">↓</div>
+
+                <div class="pipeline-row">
+                    <div class="pipeline-box accent fragment fade-up">
+                        <h4>RRF Fusion</h4>
+                        <p>k=60 · adaptive weights</p>
+                    </div>
+                </div>
+
+                <div class="pipeline-arrow">↓</div>
+
+                <div class="pipeline-row">
+                    <div class="pipeline-box fragment fade-up">
+                        <h4>Ranked Results</h4>
+                        <p>Top 20 · model score boost</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==================== SLIDE 7: RANKING SYSTEM ==================== -->
+            <section class="centered compact">
+                <h2>ML Ranking System</h2>
+
+                <div class="pipeline-row">
+                    <div class="pipeline-box accent">
+                        <h4>Engagement Signals</h4>
+                        <p>clicks ×5 · dwell ×1 · scroll ×2 · impressions ×0.5</p>
+                    </div>
+                </div>
+
+                <div class="pipeline-arrow">↓</div>
+
+                <div class="pipeline-row">
+                    <div class="pipeline-box fragment fade-up">
+                        <h4>LightGBM Tweedie</h4>
+                        <p>18 categorical + 384-dim embeddings</p>
+                    </div>
+                </div>
+
+                <div class="pipeline-arrow">↓</div>
+
+                <div class="pipeline-split">
+                    <div class="pipeline-box fragment fade-up">
+                        <h4>Warm Items</h4>
+                        <p>Real engagement<br>scores</p>
+                    </div>
+                    <div class="pipeline-box fragment fade-up">
+                        <h4>Cold Start</h4>
+                        <p>Predicted × 0.3<br>conservative</p>
+                    </div>
+                </div>
+
+                <div class="pipeline-arrow">↓</div>
+
+                <div class="pipeline-row">
+                    <div class="pipeline-box accent fragment fade-up">
+                        <h4>Model Score</h4>
+                        <p>0–1 normalized · powers search ranking</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==================== SLIDE 8: DISCOVER ==================== -->
+            <section class="centered compact">
+                <h2>Discover & Recommendations</h2>
+
+                <div class="pipeline-row">
+                    <div class="pipeline-box accent">
+                        <h4>Item Embeddings</h4>
+                        <p>bge-large-en-v1.5 · 1024-dim</p>
+                    </div>
+                </div>
+
+                <div class="pipeline-arrow">↓</div>
+
+                <div class="pipeline-split">
+                    <div class="pipeline-box fragment fade-up">
+                        <h4>Cosine Similarity</h4>
+                        <p>All-pairs comparison<br>threshold > 0.3</p>
+                    </div>
+                    <div class="pipeline-box fragment fade-up">
+                        <h4>Reading History</h4>
+                        <p>Local storage<br>weighted recency</p>
+                    </div>
+                </div>
+
+                <div class="pipeline-arrow">↓</div>
+
+                <div class="pipeline-row">
+                    <div class="pipeline-box fragment fade-up">
+                        <h4>Related Items</h4>
+                        <p>Top-5 semantic neighbors per item</p>
+                    </div>
+                    <div class="pipeline-box fragment fade-up">
+                        <h4>For You</h4>
+                        <p>Personalized from history + favorites</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==================== SLIDE 9: TECH STACK ==================== -->
             <section class="centered">
                 <h2>Under the Hood</h2>
                 <pre><code class="language-yaml" data-trim data-noescape>
@@ -587,7 +798,7 @@ Hosting:     Cloudflare Pages (global CDN)
                 </code></pre>
             </section>
 
-            <!-- ==================== SLIDE 7: CTA ==================== -->
+            <!-- ==================== SLIDE 10: CTA ==================== -->
             <section class="centered" data-background-gradient="linear-gradient(135deg, #0d1a2d 0%, #0a0a0a 50%, #0d1a2d 100%)">
                 <h2>Start Exploring</h2>
                 <div class="cta-buttons">
@@ -595,7 +806,7 @@ Hosting:     Cloudflare Pages (global CDN)
                     <a href="{{ "papers/" | relURL }}" class="cta-button">Explore Papers</a>
                     <a href="https://github.com/rawatpranjal/tech-econ" target="_blank" class="cta-button cta-secondary">View on GitHub</a>
                 </div>
-                <p class="muted" style="margin-top: 3rem; font-size: 1.5em;">tech-econ.com</p>
+                <p class="muted" style="margin-top: 2rem; font-size: 1.1em;">tech-econ.com</p>
             </section>
 
         </div>
