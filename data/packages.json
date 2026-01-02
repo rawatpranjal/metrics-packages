@@ -1,53 +1,5 @@
 [
   {
-    "name": "Causal Inference for the Brave and True",
-    "description": "Modern introduction to causal inference methods (DiD, IV, RDD, Synth, ML-based) with Python code examples.",
-    "category": "Standard Errors, Bootstrapping & Reporting",
-    "docs_url": "https://matheusfacure.github.io/python-causality-handbook/",
-    "github_url": null,
-    "url": "https://matheusfacure.github.io/python-causality-handbook/",
-    "install": "",
-    "tags": [
-      "bootstrap",
-      "standard errors"
-    ],
-    "best_for": "Robust inference, clustered SEs, result presentation",
-    "language": "Python",
-    "difficulty": "intermediate",
-    "prerequisites": [
-      "python-pandas",
-      "scikit-learn"
-    ],
-    "topic_tags": [
-      "causal-inference"
-    ],
-    "summary": "Causal Inference for the Brave and True is a modern introduction to various causal inference methods, including DiD, IV, RDD, and ML-based approaches, with practical Python code examples. It is aimed at data scientists and researchers looking to apply causal inference techniques in their work.",
-    "use_cases": [
-      "Analyzing the impact of a policy change",
-      "Evaluating treatment effects in clinical trials"
-    ],
-    "audience": [
-      "Junior-DS",
-      "Mid-DS",
-      "Senior-DS"
-    ],
-    "synthetic_questions": [
-      "python library for causal inference",
-      "how to do causal analysis in python",
-      "python examples for DiD",
-      "using IV methods in python",
-      "RDD implementation in python",
-      "machine learning for causal inference python"
-    ],
-    "primary_use_cases": [
-      "causal forest estimation",
-      "A/B test analysis"
-    ],
-    "api_complexity": "intermediate",
-    "maintenance_status": "active",
-    "model_score": 1.0
-  },
-  {
     "name": "causal-learn",
     "description": "Comprehensive Python package serving as Python translation and extension of Java-based Tetrad toolkit for causal discovery algorithms.",
     "category": "Causal Discovery & Graphical Models",
@@ -643,41 +595,6 @@
     "api_complexity": "intermediate",
     "maintenance_status": "active",
     "model_score": 0.2303
-  },
-  {
-    "name": "Python for Econometrics",
-    "description": "Comprehensive intro notes by Kevin Sheppard covering Python basics, core libraries, and econometrics applications.",
-    "category": "Standard Errors, Bootstrapping & Reporting",
-    "docs_url": "https://www.kevinsheppard.com/files/teaching/python/notes/python_introduction_2023.pdf",
-    "github_url": null,
-    "url": "https://www.kevinsheppard.com/files/teaching/python/notes/python_introduction_2023.pdf",
-    "install": "",
-    "tags": [
-      "bootstrap",
-      "standard errors"
-    ],
-    "best_for": "Robust inference, clustered SEs, result presentation",
-    "language": "Python",
-    "difficulty": "beginner",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "Python for Econometrics provides comprehensive introductory notes covering Python basics, core libraries, and applications in econometrics. It is useful for individuals looking to learn econometric methods using Python.",
-    "use_cases": [],
-    "audience": [
-      "Early-PhD",
-      "Junior-DS",
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "python library for econometrics",
-      "how to use python for standard errors",
-      "bootstrapping in python",
-      "python econometrics tutorial",
-      "learn python for data analysis",
-      "python econometrics applications"
-    ],
-    "api_complexity": "simple",
-    "model_score": 0.2292
   },
   {
     "name": "bsts",
@@ -3597,43 +3514,6 @@
     "model_score": 0.002
   },
   {
-    "name": "Awesome Quant",
-    "description": "Curated list of quantitative finance libraries and resources (many statistical/TS tools overlap with econometrics).",
-    "category": "Standard Errors, Bootstrapping & Reporting",
-    "docs_url": "https://wilsonfreitas.github.io/awesome-quant/",
-    "github_url": null,
-    "url": "https://wilsonfreitas.github.io/awesome-quant/",
-    "install": "",
-    "tags": [
-      "bootstrap",
-      "standard errors"
-    ],
-    "best_for": "Robust inference, clustered SEs, result presentation",
-    "language": "Python",
-    "difficulty": "beginner",
-    "prerequisites": [],
-    "topic_tags": [
-      "quantitative-finance",
-      "econometrics"
-    ],
-    "summary": "Awesome Quant is a curated list of quantitative finance libraries and resources that includes various statistical and time series tools, many of which overlap with econometrics. It is useful for individuals looking to explore quantitative finance methodologies.",
-    "use_cases": [],
-    "audience": [
-      "Early-PhD",
-      "Junior-DS",
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "python library for quantitative finance",
-      "how to find statistical tools in python",
-      "resources for econometrics in python",
-      "best python libraries for time series analysis",
-      "bootstrap techniques in python",
-      "standard errors calculation in python"
-    ],
-    "model_score": 0.0019
-  },
-  {
     "name": "MaMiMo",
     "description": "Lightweight Python library focused specifically on Marketing Mix Modeling implementation.",
     "category": "Marketing Mix Models (MMM) & Business Analytics",
@@ -5423,40 +5303,6 @@
     "model_score": 0.0009
   },
   {
-    "name": "The Missing Semester of Your CS Education (MIT)",
-    "description": "Teaches essential developer tools often skipped in formal education\u2014command line, Git, Vim, scripting, debugging, etc.",
-    "category": "Standard Errors, Bootstrapping & Reporting",
-    "docs_url": "https://missing.csail.mit.edu/",
-    "github_url": null,
-    "url": "https://missing.csail.mit.edu/",
-    "install": "",
-    "tags": [
-      "bootstrap",
-      "standard errors"
-    ],
-    "best_for": "Robust inference, clustered SEs, result presentation",
-    "language": "Python",
-    "difficulty": "beginner",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "The Missing Semester of Your CS Education teaches essential developer tools that are often overlooked in formal education, including command line, Git, Vim, scripting, and debugging. It is aimed at individuals looking to enhance their software development skills.",
-    "use_cases": [],
-    "audience": [
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "python library for command line tools",
-      "how to use Git in Python",
-      "Vim tutorials for developers",
-      "scripting in Python",
-      "debugging techniques in Python",
-      "essential developer tools for CS education"
-    ],
-    "api_complexity": "simple",
-    "maintenance_status": "active",
-    "model_score": 0.0009
-  },
-  {
     "name": "causalweight",
     "description": "Semiparametric causal inference methods based on inverse probability weighting and double machine learning for average treatment effects, causal mediation analysis (direct/indirect effects), and dynamic treatment evaluation. Supports LATE estimation with instrumental variables.",
     "category": "Causal Inference (ML)",
@@ -6987,42 +6833,6 @@
     "model_score": 0.0006
   },
   {
-    "name": "QuantEcon Lectures",
-    "description": "High-quality lecture series on quantitative economic modeling, computational tools, and economics using Python/Julia.",
-    "category": "Standard Errors, Bootstrapping & Reporting",
-    "docs_url": "https://quantecon.org/lectures/",
-    "github_url": null,
-    "url": "https://quantecon.org/lectures/",
-    "install": "",
-    "tags": [
-      "bootstrap",
-      "standard errors"
-    ],
-    "best_for": "Robust inference, clustered SEs, result presentation",
-    "language": "Python",
-    "difficulty": "beginner|intermediate",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "QuantEcon Lectures offers a high-quality lecture series focused on quantitative economic modeling and computational tools using Python and Julia. It is designed for those interested in economics and computational methods.",
-    "use_cases": [],
-    "audience": [
-      "Early-PhD",
-      "Junior-DS",
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "python library for economic modeling",
-      "how to use Python for bootstrapping",
-      "quantitative economics lectures",
-      "learning computational economics with Python",
-      "standard errors in Python",
-      "bootstrapping techniques in economics"
-    ],
-    "api_complexity": "simple",
-    "maintenance_status": "active",
-    "model_score": 0.0006
-  },
-  {
     "name": "rdd",
     "description": "Toolkit for sharp RDD analysis, including bandwidth calculation and estimation, integrating with pandas.",
     "category": "Program Evaluation Methods (DiD, SC, RDD)",
@@ -8147,52 +7957,6 @@
     "model_score": 0.0005
   },
   {
-    "name": "Coding for Economists",
-    "description": "Practical guide by A. Turrell on using Python for modern econometric research, data analysis, and workflows.",
-    "category": "Standard Errors, Bootstrapping & Reporting",
-    "docs_url": "https://aeturrell.github.io/coding-for-economists/",
-    "github_url": null,
-    "url": "https://aeturrell.github.io/coding-for-economists/",
-    "install": "",
-    "tags": [
-      "bootstrap",
-      "standard errors"
-    ],
-    "best_for": "Robust inference, clustered SEs, result presentation",
-    "language": "Python",
-    "difficulty": "intermediate",
-    "prerequisites": [
-      "python-pandas"
-    ],
-    "topic_tags": [
-      "standard errors",
-      "bootstrapping"
-    ],
-    "summary": "Coding for Economists is a practical guide that helps economists use Python for econometric research and data analysis. It is designed for those looking to enhance their workflows with modern programming techniques.",
-    "use_cases": [
-      "analyzing economic data",
-      "performing bootstrapping techniques"
-    ],
-    "audience": [
-      "Early-PhD",
-      "Junior-DS",
-      "Mid-DS"
-    ],
-    "synthetic_questions": [
-      "python library for econometric research",
-      "how to do data analysis in python",
-      "bootstrapping in python",
-      "standard errors calculation in python"
-    ],
-    "primary_use_cases": [
-      "bootstrapping",
-      "standard error estimation"
-    ],
-    "api_complexity": "intermediate",
-    "maintenance_status": "active",
-    "model_score": 0.0004
-  },
-  {
     "name": "scipy.optimize",
     "description": "Optimization algorithms built into SciPy. Minimization, root finding, curve fitting, and linear programming.",
     "category": "Optimization",
@@ -8236,43 +8000,6 @@
       "scikit-learn"
     ],
     "maintenance_status": "active",
-    "model_score": 0.0004
-  },
-  {
-    "name": "First Course in Causal Inference (Python)",
-    "description": "Python implementation of Peng Ding's textbook 'A First Course in Causal Inference'. Educational resource with code examples.",
-    "category": "Inference & Reporting Tools",
-    "docs_url": "https://github.com/apoorvalal/ding_causalInference_python",
-    "github_url": "https://github.com/apoorvalal/ding_causalInference_python",
-    "url": "https://github.com/apoorvalal/ding_causalInference_python",
-    "install": "",
-    "tags": [
-      "causal inference",
-      "education",
-      "textbook"
-    ],
-    "best_for": "Learning causal inference with Peng Ding's textbook",
-    "language": "Python",
-    "difficulty": "beginner",
-    "prerequisites": [],
-    "topic_tags": [
-      "causal-inference",
-      "education"
-    ],
-    "summary": "This package provides a Python implementation of Peng Ding's textbook 'A First Course in Causal Inference', offering educational resources and code examples for learning causal inference. It is designed for students and practitioners interested in understanding causal analysis.",
-    "use_cases": [],
-    "audience": [
-      "Early-PhD",
-      "Junior-DS",
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "python library for causal inference",
-      "how to learn causal inference in python",
-      "educational resources for causal analysis in python",
-      "examples of causal inference in python"
-    ],
-    "api_complexity": "simple",
     "model_score": 0.0004
   },
   {
@@ -11822,40 +11549,6 @@
       "rust matrix operations library"
     ],
     "api_complexity": "intermediate",
-    "maintenance_status": "active",
-    "model_score": 0.0002
-  },
-  {
-    "name": "Machine Learning Specialization (Coursera)",
-    "description": "Beginner-friendly 3-course series by Andrew Ng covering core ML methods (regression, classification, clustering, trees, NN) with hands-on projects.",
-    "category": "Standard Errors, Bootstrapping & Reporting",
-    "docs_url": "https://www.coursera.org/specializations/machine-learning-introduction/",
-    "github_url": null,
-    "url": "https://www.coursera.org/specializations/machine-learning-introduction/",
-    "install": "",
-    "tags": [
-      "bootstrap",
-      "standard errors"
-    ],
-    "best_for": "Robust inference, clustered SEs, result presentation",
-    "language": "Python",
-    "difficulty": "beginner",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "The Machine Learning Specialization is a beginner-friendly series of three courses by Andrew Ng that covers core machine learning methods such as regression, classification, clustering, decision trees, and neural networks. It is designed for individuals looking to gain practical experience through hands-on projects.",
-    "use_cases": [],
-    "audience": [
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "python library for machine learning",
-      "how to do regression in python",
-      "machine learning projects for beginners",
-      "introduction to classification in python",
-      "what is clustering in machine learning",
-      "neural networks tutorial python"
-    ],
-    "api_complexity": "simple",
     "maintenance_status": "active",
     "model_score": 0.0002
   },
@@ -15833,42 +15526,6 @@
     "model_score": 0.0001
   },
   {
-    "name": "Beyond Jupyter (TransferLab)",
-    "description": "Teaches software design principles for ML\u2014modularity, abstraction, and reproducibility\u2014going beyond ad hoc Jupyter workflows. Focus on maintainable, production-quality ML code.",
-    "category": "Standard Errors, Bootstrapping & Reporting",
-    "docs_url": "https://transferlab.ai/trainings/beyond-jupyter/",
-    "github_url": null,
-    "url": "https://transferlab.ai/trainings/beyond-jupyter/",
-    "install": "",
-    "tags": [
-      "bootstrap",
-      "standard errors"
-    ],
-    "best_for": "Robust inference, clustered SEs, result presentation",
-    "language": "Python",
-    "difficulty": "intermediate",
-    "prerequisites": [
-      "python"
-    ],
-    "topic_tags": [],
-    "summary": "Beyond Jupyter (TransferLab) teaches software design principles for machine learning, focusing on modularity, abstraction, and reproducibility. It is aimed at developers looking to create maintainable, production-quality ML code beyond ad hoc Jupyter workflows.",
-    "use_cases": [
-      "Developing production-quality ML applications",
-      "Improving Jupyter workflows for better maintainability"
-    ],
-    "audience": [
-      "Junior-DS",
-      "Mid-DS"
-    ],
-    "synthetic_questions": [
-      "python library for software design in ML",
-      "how to create maintainable ML code in python"
-    ],
-    "api_complexity": "intermediate",
-    "maintenance_status": "active",
-    "model_score": 0.0001
-  },
-  {
     "name": "Synthpop",
     "description": "Port of the R package for generating synthetic populations based on sample survey data.",
     "category": "Synthetic Data Generation",
@@ -17484,52 +17141,6 @@
       "R linear regression model checks"
     ],
     "api_complexity": "intermediate",
-    "maintenance_status": "active",
-    "model_score": 0.0001
-  },
-  {
-    "name": "Deep Learning Specialization (Coursera)",
-    "description": "Intermediate 5-course series by Andrew Ng covering deep neural networks, CNNs, RNNs, transformers, and real-world DL applications using TensorFlow.",
-    "category": "Standard Errors, Bootstrapping & Reporting",
-    "docs_url": "https://www.coursera.org/specializations/deep-learning",
-    "github_url": null,
-    "url": "https://www.coursera.org/specializations/deep-learning",
-    "install": "",
-    "tags": [
-      "bootstrap",
-      "standard errors",
-      "machine learning"
-    ],
-    "best_for": "Robust inference, clustered SEs, result presentation",
-    "language": "Python",
-    "difficulty": "intermediate",
-    "prerequisites": [],
-    "topic_tags": [
-      "machine learning"
-    ],
-    "summary": "The Deep Learning Specialization is an intermediate series of five courses by Andrew Ng that covers deep neural networks, CNNs, RNNs, transformers, and real-world deep learning applications using TensorFlow. It is designed for individuals looking to enhance their understanding of deep learning techniques and applications.",
-    "use_cases": [
-      "Building deep learning models for image recognition",
-      "Implementing RNNs for time series forecasting"
-    ],
-    "audience": [
-      "Mid-DS",
-      "Senior-DS",
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "python library for deep learning",
-      "how to implement CNN in python",
-      "deep learning courses on Coursera",
-      "real-world applications of deep learning",
-      "transformers in deep learning",
-      "using TensorFlow for RNNs",
-      "standard errors in machine learning"
-    ],
-    "api_complexity": "intermediate",
-    "framework_compatibility": [
-      "TensorFlow"
-    ],
     "maintenance_status": "active",
     "model_score": 0.0001
   },
@@ -20546,38 +20157,6 @@
     "model_score": 0.0
   },
   {
-    "name": "Awesome Economics",
-    "description": "Curated list of economics resources including datasets, software, courses, and blogs.",
-    "category": "Inference & Reporting Tools",
-    "docs_url": null,
-    "github_url": "https://github.com/antontarasenko/awesome-economics",
-    "url": "https://github.com/antontarasenko/awesome-economics",
-    "install": "",
-    "tags": [
-      "curated list",
-      "resources"
-    ],
-    "best_for": "Comprehensive economics resource directory",
-    "language": "Python",
-    "difficulty": "beginner",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "Awesome Economics is a curated list of resources for economics, including datasets, software, courses, and blogs. It is useful for anyone looking to explore various economics-related tools and information.",
-    "use_cases": [],
-    "audience": [
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "python library for economics resources",
-      "how to find economics datasets in python",
-      "best economics courses in python",
-      "python tools for economics blogs"
-    ],
-    "api_complexity": "simple",
-    "maintenance_status": "active",
-    "model_score": 0.0
-  },
-  {
     "name": "EValue",
     "description": "Conducts sensitivity analyses for unmeasured confounding, selection bias, and measurement error in observational studies and meta-analyses. Computes E-values representing the minimum strength of association unmeasured confounders would need to fully explain away an observed effect.",
     "category": "Causal Inference (ML)",
@@ -22037,23 +21616,6 @@
     "language": "Web"
   },
   {
-    "name": "Google NotebookLM",
-    "description": "AI-powered research notebook that auto-generates podcasts and summaries from uploaded research papers and documents.",
-    "category": "Research Tools",
-    "docs_url": null,
-    "github_url": null,
-    "url": "https://notebooklm.google.com/",
-    "install": null,
-    "tags": [
-      "research",
-      "AI-assistant",
-      "summarization",
-      "podcasts"
-    ],
-    "best_for": "Synthesizing and discussing research materials",
-    "language": "Web"
-  },
-  {
     "name": "Mesa",
     "description": "Leading open-source Python framework for agent-based modeling with spatial grids, agent schedulers, and Solara visualization. Mesa 3 (2025) requires Python 3.12+.",
     "category": "Simulation & Computational Economics",
@@ -22061,7 +21623,13 @@
     "github_url": "https://github.com/projectmesa/mesa",
     "url": "https://mesa.readthedocs.io/",
     "install": "pip install mesa",
-    "tags": ["agent-based-modeling", "simulation", "ABM", "multi-agent", "complexity"],
+    "tags": [
+      "agent-based-modeling",
+      "simulation",
+      "ABM",
+      "multi-agent",
+      "complexity"
+    ],
     "best_for": "Building and analyzing agent-based models of economic and social systems",
     "language": "Python"
   },
@@ -22073,7 +21641,12 @@
     "github_url": "https://github.com/JoelForamitti/agentpy",
     "url": "https://github.com/JoelForamitti/agentpy",
     "install": "pip install agentpy",
-    "tags": ["agent-based-modeling", "simulation", "sensitivity-analysis", "networks"],
+    "tags": [
+      "agent-based-modeling",
+      "simulation",
+      "sensitivity-analysis",
+      "networks"
+    ],
     "best_for": "Agent-based models with integrated sensitivity analysis and network support",
     "language": "Python"
   },
@@ -22085,7 +21658,13 @@
     "github_url": "https://github.com/AB-CE/abce",
     "url": "https://github.com/AB-CE/abce",
     "install": "pip install abce",
-    "tags": ["agent-based-modeling", "economics", "trade", "macroeconomics", "Oxford-INET"],
+    "tags": [
+      "agent-based-modeling",
+      "economics",
+      "trade",
+      "macroeconomics",
+      "Oxford-INET"
+    ],
     "best_for": "Economic agent-based models with automatic trade handling and accounting",
     "language": "Python"
   },
@@ -22097,7 +21676,12 @@
     "github_url": "https://github.com/EconForge/dolo.py",
     "url": "https://www.econforge.org/dolo.py/",
     "install": "pip install dolo",
-    "tags": ["DSGE", "rational-expectations", "macroeconomics", "dynamic-programming"],
+    "tags": [
+      "DSGE",
+      "rational-expectations",
+      "macroeconomics",
+      "dynamic-programming"
+    ],
     "best_for": "Solving and simulating DSGE and rational expectations models",
     "language": "Python"
   },
@@ -22109,19 +21693,29 @@
     "github_url": "https://github.com/quaquel/pyNetLogo",
     "url": "https://github.com/quaquel/pyNetLogo",
     "install": "pip install pynetlogo",
-    "tags": ["NetLogo", "agent-based-modeling", "sensitivity-analysis", "simulation"],
+    "tags": [
+      "NetLogo",
+      "agent-based-modeling",
+      "sensitivity-analysis",
+      "simulation"
+    ],
     "best_for": "Running NetLogo ABMs from Python with sensitivity analysis",
     "language": "Python"
   },
   {
     "name": "NetLogoR",
-    "description": "Pure R implementation of NetLogo framework—no NetLogo installation required. Benefits from ggplot2 integration and R spatial objects.",
+    "description": "Pure R implementation of NetLogo framework\u2014no NetLogo installation required. Benefits from ggplot2 integration and R spatial objects.",
     "category": "Simulation & Computational Economics",
     "docs_url": "https://cran.r-project.org/web/packages/NetLogoR/",
     "github_url": "https://github.com/PredictiveEcology/NetLogoR",
     "url": "https://cran.r-project.org/web/packages/NetLogoR/",
     "install": "install.packages('NetLogoR')",
-    "tags": ["NetLogo", "agent-based-modeling", "R", "spatial-modeling"],
+    "tags": [
+      "NetLogo",
+      "agent-based-modeling",
+      "R",
+      "spatial-modeling"
+    ],
     "best_for": "Agent-based modeling in R with NetLogo-style syntax",
     "language": "R"
   },
@@ -22133,7 +21727,12 @@
     "github_url": null,
     "url": "https://cran.r-project.org/package=RNetLogo",
     "install": "install.packages('RNetLogo')",
-    "tags": ["NetLogo", "agent-based-modeling", "R", "integration"],
+    "tags": [
+      "NetLogo",
+      "agent-based-modeling",
+      "R",
+      "integration"
+    ],
     "best_for": "Integrating NetLogo simulations with R statistical analysis",
     "language": "R"
   },
@@ -22145,7 +21744,13 @@
     "github_url": "https://github.com/ropensci/nlrx",
     "url": "https://docs.ropensci.org/nlrx/",
     "install": "install.packages('nlrx')",
-    "tags": ["NetLogo", "agent-based-modeling", "R", "experiment-design", "rOpenSci"],
+    "tags": [
+      "NetLogo",
+      "agent-based-modeling",
+      "R",
+      "experiment-design",
+      "rOpenSci"
+    ],
     "best_for": "Designing and running systematic NetLogo experiments from R",
     "language": "R"
   },
@@ -22157,7 +21762,13 @@
     "github_url": "https://github.com/Farama-Foundation/Gymnasium",
     "url": "https://gymnasium.farama.org/",
     "install": "pip install gymnasium",
-    "tags": ["reinforcement-learning", "environments", "RL", "OpenAI-Gym", "benchmarking"],
+    "tags": [
+      "reinforcement-learning",
+      "environments",
+      "RL",
+      "OpenAI-Gym",
+      "benchmarking"
+    ],
     "best_for": "Building and testing reinforcement learning environments",
     "language": "Python"
   },
@@ -22169,7 +21780,14 @@
     "github_url": "https://github.com/DLR-RM/stable-baselines3",
     "url": "https://stable-baselines3.readthedocs.io/",
     "install": "pip install stable-baselines3",
-    "tags": ["reinforcement-learning", "PyTorch", "PPO", "DQN", "SAC", "algorithms"],
+    "tags": [
+      "reinforcement-learning",
+      "PyTorch",
+      "PPO",
+      "DQN",
+      "SAC",
+      "algorithms"
+    ],
     "best_for": "Training RL agents with reliable, well-tested implementations",
     "language": "Python"
   },
@@ -22181,7 +21799,13 @@
     "github_url": "https://github.com/ray-project/ray",
     "url": "https://docs.ray.io/en/latest/rllib/",
     "install": "pip install 'ray[rllib]'",
-    "tags": ["reinforcement-learning", "distributed", "multi-agent", "scalable", "Ray"],
+    "tags": [
+      "reinforcement-learning",
+      "distributed",
+      "multi-agent",
+      "scalable",
+      "Ray"
+    ],
     "best_for": "Scalable multi-agent RL training on clusters",
     "language": "Python"
   },
@@ -22193,7 +21817,12 @@
     "github_url": "https://github.com/vwxyzjn/cleanrl",
     "url": "https://github.com/vwxyzjn/cleanrl",
     "install": "pip install cleanrl",
-    "tags": ["reinforcement-learning", "educational", "single-file", "reproducible"],
+    "tags": [
+      "reinforcement-learning",
+      "educational",
+      "single-file",
+      "reproducible"
+    ],
     "best_for": "Learning RL algorithms through readable single-file implementations",
     "language": "Python"
   },
@@ -22205,7 +21834,12 @@
     "github_url": "https://github.com/pytorch/rl",
     "url": "https://pytorch.org/rl/",
     "install": "pip install torchrl",
-    "tags": ["reinforcement-learning", "PyTorch", "modular", "TensorDict"],
+    "tags": [
+      "reinforcement-learning",
+      "PyTorch",
+      "modular",
+      "TensorDict"
+    ],
     "best_for": "Building modular RL systems with PyTorch ecosystem",
     "language": "Python"
   },
@@ -22217,7 +21851,13 @@
     "github_url": "https://github.com/Farama-Foundation/PettingZoo",
     "url": "https://pettingzoo.farama.org/",
     "install": "pip install pettingzoo",
-    "tags": ["multi-agent-RL", "environments", "games", "cooperative", "competitive"],
+    "tags": [
+      "multi-agent-RL",
+      "environments",
+      "games",
+      "cooperative",
+      "competitive"
+    ],
     "best_for": "Multi-agent reinforcement learning environments and research",
     "language": "Python"
   },
@@ -22229,7 +21869,12 @@
     "github_url": "https://github.com/Farama-Foundation/SuperSuit",
     "url": "https://github.com/Farama-Foundation/SuperSuit",
     "install": "pip install supersuit",
-    "tags": ["multi-agent-RL", "preprocessing", "wrappers", "PettingZoo"],
+    "tags": [
+      "multi-agent-RL",
+      "preprocessing",
+      "wrappers",
+      "PettingZoo"
+    ],
     "best_for": "Preprocessing and wrapping PettingZoo environments",
     "language": "Python"
   },
@@ -22241,7 +21886,12 @@
     "github_url": "https://github.com/Farama-Foundation/MO-Gymnasium",
     "url": "https://mo-gymnasium.farama.org/",
     "install": "pip install mo-gymnasium",
-    "tags": ["multi-objective", "reinforcement-learning", "Pareto", "trade-offs"],
+    "tags": [
+      "multi-objective",
+      "reinforcement-learning",
+      "Pareto",
+      "trade-offs"
+    ],
     "best_for": "Multi-objective RL with trade-offs between competing objectives",
     "language": "Python"
   },
@@ -22253,7 +21903,13 @@
     "github_url": "https://github.com/salesforce/ai-economist",
     "url": "https://github.com/salesforce/ai-economist",
     "install": "pip install ai-economist",
-    "tags": ["economic-simulation", "tax-policy", "multi-agent", "mechanism-design", "Salesforce"],
+    "tags": [
+      "economic-simulation",
+      "tax-policy",
+      "multi-agent",
+      "mechanism-design",
+      "Salesforce"
+    ],
     "best_for": "Designing and testing economic policies with RL agents",
     "language": "Python"
   },
@@ -22265,7 +21921,13 @@
     "github_url": "https://github.com/AI4Finance-Foundation/FinRL",
     "url": "https://github.com/AI4Finance-Foundation/FinRL",
     "install": "pip install finrl",
-    "tags": ["finance", "trading", "reinforcement-learning", "quantitative", "portfolio"],
+    "tags": [
+      "finance",
+      "trading",
+      "reinforcement-learning",
+      "quantitative",
+      "portfolio"
+    ],
     "best_for": "Training RL agents for stock trading and portfolio management",
     "language": "Python"
   },
@@ -22277,7 +21939,13 @@
     "github_url": "https://github.com/hubbs5/or-gym",
     "url": "https://github.com/hubbs5/or-gym",
     "install": "pip install or-gym",
-    "tags": ["operations-research", "inventory", "supply-chain", "optimization", "newsvendor"],
+    "tags": [
+      "operations-research",
+      "inventory",
+      "supply-chain",
+      "optimization",
+      "newsvendor"
+    ],
     "best_for": "RL for operations research and supply chain optimization",
     "language": "Python"
   },
@@ -22289,7 +21957,13 @@
     "github_url": "https://github.com/JJJerome/mbt_gym",
     "url": "https://github.com/JJJerome/mbt_gym",
     "install": "pip install mbt-gym",
-    "tags": ["market-making", "trading", "high-frequency", "optimal-execution", "reinforcement-learning"],
+    "tags": [
+      "market-making",
+      "trading",
+      "high-frequency",
+      "optimal-execution",
+      "reinforcement-learning"
+    ],
     "best_for": "RL for market-making and optimal execution strategies",
     "language": "Python"
   },
@@ -22301,7 +21975,13 @@
     "github_url": "https://github.com/jpmorganchase/abides-jpmc-public",
     "url": "https://github.com/jpmorganchase/abides-jpmc-public",
     "install": "pip install abides-jpmc",
-    "tags": ["market-simulation", "order-book", "agent-based", "microstructure", "JPMorgan"],
+    "tags": [
+      "market-simulation",
+      "order-book",
+      "agent-based",
+      "microstructure",
+      "JPMorgan"
+    ],
     "best_for": "Simulating limit order book markets with heterogeneous agents",
     "language": "Python"
   },
@@ -22313,7 +21993,13 @@
     "github_url": "https://github.com/amzn/auction-gym",
     "url": "https://github.com/amzn/auction-gym",
     "install": null,
-    "tags": ["auction-simulation", "mechanism-design", "advertising", "bidding", "Amazon"],
+    "tags": [
+      "auction-simulation",
+      "mechanism-design",
+      "advertising",
+      "bidding",
+      "Amazon"
+    ],
     "best_for": "Simulating and training RL agents for ad auction bidding",
     "language": "Python"
   },
@@ -22325,19 +22011,29 @@
     "github_url": "https://github.com/jtilly/matchingR",
     "url": "https://cran.r-project.org/web/packages/matchingR/",
     "install": "install.packages('matchingR')",
-    "tags": ["matching", "Gale-Shapley", "stable-matching", "market-design"],
+    "tags": [
+      "matching",
+      "Gale-Shapley",
+      "stable-matching",
+      "market-design"
+    ],
     "best_for": "Computing stable matchings for two-sided markets",
     "language": "R"
   },
   {
     "name": "gale-shapley",
-    "description": "Python O(n²) implementation of Gale-Shapley algorithm for stable matching with simulation capabilities.",
+    "description": "Python O(n\u00b2) implementation of Gale-Shapley algorithm for stable matching with simulation capabilities.",
     "category": "Matching & Market Design",
     "docs_url": null,
     "github_url": "https://github.com/oedokumaci/gale-shapley",
     "url": "https://github.com/oedokumaci/gale-shapley",
     "install": "pip install gale-shapley",
-    "tags": ["matching", "Gale-Shapley", "stable-matching", "algorithm"],
+    "tags": [
+      "matching",
+      "Gale-Shapley",
+      "stable-matching",
+      "algorithm"
+    ],
     "best_for": "Stable matching simulations in Python",
     "language": "Python"
   },
@@ -22349,7 +22045,13 @@
     "github_url": "https://github.com/sdv-dev/CTGAN",
     "url": "https://github.com/sdv-dev/CTGAN",
     "install": "pip install ctgan",
-    "tags": ["synthetic-data", "GAN", "tabular", "privacy", "deep-learning"],
+    "tags": [
+      "synthetic-data",
+      "GAN",
+      "tabular",
+      "privacy",
+      "deep-learning"
+    ],
     "best_for": "Generating realistic synthetic tabular data using GANs",
     "language": "Python"
   },
@@ -22361,7 +22063,12 @@
     "github_url": "https://github.com/sdv-dev/DeepEcho",
     "url": "https://github.com/sdv-dev/DeepEcho",
     "install": "pip install deepecho",
-    "tags": ["synthetic-data", "time-series", "sequential", "deep-learning"],
+    "tags": [
+      "synthetic-data",
+      "time-series",
+      "sequential",
+      "deep-learning"
+    ],
     "best_for": "Generating synthetic time series and sequential data",
     "language": "Python"
   },
@@ -22373,19 +22080,30 @@
     "github_url": "https://github.com/joke2k/faker",
     "url": "https://faker.readthedocs.io/",
     "install": "pip install faker",
-    "tags": ["synthetic-data", "test-data", "fake-data", "localization", "testing"],
+    "tags": [
+      "synthetic-data",
+      "test-data",
+      "fake-data",
+      "localization",
+      "testing"
+    ],
     "best_for": "Generating realistic fake data for testing and development",
     "language": "Python"
   },
   {
     "name": "Mimesis",
-    "description": "High-performance fake data generator—faster than Faker. Provides data for multiple domains and 35+ locales.",
+    "description": "High-performance fake data generator\u2014faster than Faker. Provides data for multiple domains and 35+ locales.",
     "category": "Synthetic Data Generation",
     "docs_url": "https://mimesis.name/en/master/",
     "github_url": "https://github.com/lk-geimfari/mimesis",
     "url": "https://mimesis.name/",
     "install": "pip install mimesis",
-    "tags": ["synthetic-data", "fake-data", "high-performance", "localization"],
+    "tags": [
+      "synthetic-data",
+      "fake-data",
+      "high-performance",
+      "localization"
+    ],
     "best_for": "Fast generation of realistic fake data at scale",
     "language": "Python"
   },
@@ -22397,7 +22115,12 @@
     "github_url": "https://github.com/gretelai/gretel-synthetics",
     "url": "https://github.com/gretelai/gretel-synthetics",
     "install": "pip install gretel-synthetics",
-    "tags": ["synthetic-data", "differential-privacy", "time-series", "ACTGAN"],
+    "tags": [
+      "synthetic-data",
+      "differential-privacy",
+      "time-series",
+      "ACTGAN"
+    ],
     "best_for": "Privacy-preserving synthetic data generation",
     "language": "Python"
   },
@@ -22409,7 +22132,12 @@
     "github_url": "https://github.com/DataResponsibly/DataSynthesizer",
     "url": "https://github.com/DataResponsibly/DataSynthesizer",
     "install": "pip install DataSynthesizer",
-    "tags": ["synthetic-data", "differential-privacy", "Bayesian-networks", "privacy"],
+    "tags": [
+      "synthetic-data",
+      "differential-privacy",
+      "Bayesian-networks",
+      "privacy"
+    ],
     "best_for": "Generating differentially private synthetic datasets",
     "language": "Python"
   },
@@ -22421,7 +22149,12 @@
     "github_url": "https://github.com/sdcTools/sdcMicro",
     "url": "https://cran.r-project.org/web/packages/sdcMicro/",
     "install": "install.packages('sdcMicro')",
-    "tags": ["statistical-disclosure-control", "privacy", "anonymization", "census"],
+    "tags": [
+      "statistical-disclosure-control",
+      "privacy",
+      "anonymization",
+      "census"
+    ],
     "best_for": "Statistical disclosure control and microdata anonymization",
     "language": "R"
   },
@@ -22433,7 +22166,12 @@
     "github_url": null,
     "url": "https://cran.r-project.org/web/packages/simPop/",
     "install": "install.packages('simPop')",
-    "tags": ["synthetic-population", "survey-data", "microsimulation", "EU-SILC"],
+    "tags": [
+      "synthetic-population",
+      "survey-data",
+      "microsimulation",
+      "EU-SILC"
+    ],
     "best_for": "Creating synthetic populations for survey microsimulation",
     "language": "R"
   },
@@ -22445,7 +22183,13 @@
     "github_url": "https://github.com/Yu-Group/simChef",
     "url": "https://yu-group.github.io/simChef/",
     "install": "install.packages('simChef')",
-    "tags": ["simulation", "DGP", "experiments", "reproducibility", "statistics"],
+    "tags": [
+      "simulation",
+      "DGP",
+      "experiments",
+      "reproducibility",
+      "statistics"
+    ],
     "best_for": "Designing and running systematic simulation studies",
     "language": "R"
   },
@@ -22457,7 +22201,12 @@
     "github_url": "https://github.com/arcaldwell49/Superpower",
     "url": "https://cran.r-project.org/web/packages/Superpower/",
     "install": "install.packages('Superpower')",
-    "tags": ["power-analysis", "ANOVA", "simulation", "factorial-design"],
+    "tags": [
+      "power-analysis",
+      "ANOVA",
+      "simulation",
+      "factorial-design"
+    ],
     "best_for": "Power analysis for complex factorial ANOVA designs",
     "language": "R"
   },
@@ -22469,7 +22218,12 @@
     "github_url": null,
     "url": "https://cran.r-project.org/web/packages/mlpwr/",
     "install": "install.packages('mlpwr')",
-    "tags": ["power-analysis", "machine-learning", "sample-size", "simulation"],
+    "tags": [
+      "power-analysis",
+      "machine-learning",
+      "sample-size",
+      "simulation"
+    ],
     "best_for": "ML-based power analysis for complex designs",
     "language": "R"
   },
@@ -22481,7 +22235,12 @@
     "github_url": null,
     "url": "https://cran.r-project.org/web/packages/microsynth/",
     "install": "install.packages('microsynth')",
-    "tags": ["synthetic-control", "causal-inference", "permutation-test", "micro-data"],
+    "tags": [
+      "synthetic-control",
+      "causal-inference",
+      "permutation-test",
+      "micro-data"
+    ],
     "best_for": "Synthetic control at micro/individual level",
     "language": "R"
   },
@@ -22493,7 +22252,12 @@
     "github_url": "https://github.com/InvestmentSystems/recombinator",
     "url": "https://pypi.org/project/recombinator/",
     "install": "pip install recombinator",
-    "tags": ["bootstrap", "time-series", "block-bootstrap", "resampling"],
+    "tags": [
+      "bootstrap",
+      "time-series",
+      "block-bootstrap",
+      "resampling"
+    ],
     "best_for": "Block bootstrap for dependent time series data",
     "language": "Python"
   },
@@ -22505,7 +22269,12 @@
     "github_url": null,
     "url": "https://cran.r-project.org/web/packages/bootUR/",
     "install": "install.packages('bootUR')",
-    "tags": ["bootstrap", "unit-root", "time-series", "stationarity"],
+    "tags": [
+      "bootstrap",
+      "unit-root",
+      "time-series",
+      "stationarity"
+    ],
     "best_for": "Bootstrap unit root testing for time series",
     "language": "R"
   },
@@ -22517,7 +22286,14 @@
     "github_url": "https://github.com/pymc-labs/CausalPy",
     "url": "https://causalpy.readthedocs.io/",
     "install": "pip install causalpy",
-    "tags": ["causal-inference", "Bayesian", "synthetic-control", "DiD", "RDD", "PyMC"],
+    "tags": [
+      "causal-inference",
+      "Bayesian",
+      "synthetic-control",
+      "DiD",
+      "RDD",
+      "PyMC"
+    ],
     "best_for": "Bayesian causal inference with uncertainty quantification",
     "language": "Python"
   },
@@ -22529,7 +22305,12 @@
     "github_url": "https://github.com/pymc-devs/pymc",
     "url": "https://www.pymc.io/",
     "install": "pip install pymc",
-    "tags": ["Bayesian", "MCMC", "probabilistic-programming", "statistical-modeling"],
+    "tags": [
+      "Bayesian",
+      "MCMC",
+      "probabilistic-programming",
+      "statistical-modeling"
+    ],
     "best_for": "Bayesian modeling and probabilistic machine learning",
     "language": "Python"
   }
