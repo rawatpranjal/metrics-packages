@@ -42,7 +42,7 @@
     "event_format": "conference",
     "geographic_focus": "Netflix",
     "frequency": "annual",
-    "model_score": 0.3294
+    "model_score": 0.0149
   },
   {
     "name": "Amazon Science Economics",
@@ -86,7 +86,7 @@
     ],
     "event_format": "workshop",
     "geographic_focus": "Amazon",
-    "model_score": 0.156
+    "model_score": 0.0071
   },
   {
     "name": "MeasuringU",
@@ -124,7 +124,7 @@
       "What are the benefits of attending MeasuringU?"
     ],
     "event_format": "online",
-    "model_score": 0.156
+    "model_score": 0.0071
   },
   {
     "name": "ASSA Annual Meeting",
@@ -174,7 +174,7 @@
     "event_format": "conference",
     "geographic_focus": "Various US cities",
     "frequency": "annual",
-    "model_score": 0.0665
+    "model_score": 0.003
   },
   {
     "name": "ACM EC (Economics and Computation)",
@@ -224,7 +224,7 @@
     ],
     "event_format": "annual conference",
     "frequency": "annual",
-    "model_score": 0.059
+    "model_score": 0.0027
   },
   {
     "name": "Causal Data Science Meeting",
@@ -274,7 +274,7 @@
     ],
     "event_format": "conference",
     "frequency": "annual",
-    "model_score": 0.0526
+    "model_score": 0.0024
   },
   {
     "name": "Vincent Arel-Bundock",
@@ -311,7 +311,7 @@
       "What topics are covered in 'Model to Meaning'?"
     ],
     "event_format": "online",
-    "model_score": 0.0002
+    "model_score": 0.0001
   },
   {
     "name": "Nick Huntington-Klein",
@@ -349,7 +349,7 @@
       "What resources are available for learning about statistical techniques?"
     ],
     "event_format": "online",
-    "model_score": 0.0002
+    "model_score": 0.0
   },
   {
     "name": "Northwestern Workshop on Causal Inference",
@@ -399,7 +399,7 @@
     ],
     "event_format": "workshop",
     "geographic_focus": "Chicago, IL",
-    "model_score": 0.0001
+    "model_score": 0.0
   },
   {
     "name": "Sean J. Taylor",
@@ -443,7 +443,7 @@
       "How can I apply causal inference in my work?"
     ],
     "event_format": "online",
-    "model_score": 0.0001
+    "model_score": 0.0
   },
   {
     "name": "Christoph Molnar",
@@ -487,7 +487,7 @@
       "What are the applications of interpretable machine learning?"
     ],
     "event_format": "online",
-    "model_score": 0.0001
+    "model_score": 0.0
   },
   {
     "name": "Kevin Kwok",
@@ -529,7 +529,7 @@
       "How to analyze platform businesses?"
     ],
     "event_format": "online",
-    "model_score": 0.0001
+    "model_score": 0.0
   },
   {
     "name": "IIOC (Industrial Organization Conference)",
@@ -581,7 +581,7 @@
     "event_format": "conference",
     "geographic_focus": "US",
     "frequency": "annual",
-    "model_score": 0.0001
+    "model_score": 0.0
   },
   {
     "name": "American Causal Inference Conference (ACIC)",
@@ -636,7 +636,7 @@
     "event_format": "conference",
     "geographic_focus": "Detroit, MI",
     "frequency": "annual",
-    "model_score": 0.0001
+    "model_score": 0.0
   },
   {
     "name": "Alex Deng",
@@ -675,7 +675,7 @@
       "What are the implications of variance reduction in experiments?"
     ],
     "event_format": "online",
-    "model_score": 0.0001
+    "model_score": 0.0
   },
   {
     "name": "Lucy D'Agostino McGowan",
@@ -717,7 +717,7 @@
       "What is the importance of causal mechanisms?"
     ],
     "event_format": "online",
-    "model_score": 0.0001
+    "model_score": 0.0
   },
   {
     "name": "Microsoft Research ALICE (EconML/DoWhy)",
@@ -762,7 +762,7 @@
     ],
     "event_format": "workshop",
     "geographic_focus": "Microsoft Research",
-    "model_score": 0.0001
+    "model_score": 0.0
   },
   {
     "name": "Matei Zaharia",
@@ -802,7 +802,7 @@
     ],
     "event_format": "conference",
     "geographic_focus": "Stanford, CA",
-    "model_score": 0.0001
+    "model_score": 0.0
   },
   {
     "name": "ACM Conference on Economics and Computation (EC)",
@@ -859,7 +859,7 @@
     "event_format": "conference",
     "geographic_focus": "International",
     "frequency": "annual",
-    "model_score": 0.0001
+    "model_score": 0.0
   },
   {
     "name": "INFORMS Marketing Science Conference",
@@ -905,7 +905,7 @@
     "engagement_level": "professional",
     "event_format": "conference",
     "frequency": "annual",
-    "model_score": 0.0001
+    "model_score": 0.0
   },
   {
     "name": "Neil Hoyne",
@@ -944,7 +944,7 @@
     "event_format": "online",
     "geographic_focus": "USA",
     "frequency": "one-time",
-    "model_score": 0.0001
+    "model_score": 0.0
   },
   {
     "name": "CLeaR (Causal Learning and Reasoning)",
@@ -20085,7 +20085,13 @@
     "type": "Annual Conference",
     "location": "Toronto / Various",
     "dates": "September (Annual)",
-    "tags": ["AI", "Economics", "NBER", "Research"]
+    "tags": [
+      "AI",
+      "Economics",
+      "NBER",
+      "Research"
+    ],
+    "model_score": 0.0
   },
   {
     "name": "MLESI - Machine Learning in Economics Summer Institute",
@@ -20095,7 +20101,13 @@
     "type": "Workshop",
     "location": "Chicago Booth",
     "dates": "August 7-13, 2025",
-    "tags": ["Machine Learning", "Economics", "Summer School", "Chicago Booth"]
+    "tags": [
+      "Machine Learning",
+      "Economics",
+      "Summer School",
+      "Chicago Booth"
+    ],
+    "model_score": 0.0
   },
   {
     "name": "SoFiE Financial Machine Learning Summer School",
@@ -20105,7 +20117,13 @@
     "type": "Workshop",
     "location": "Yale School of Management",
     "dates": "Annual (Summer)",
-    "tags": ["Machine Learning", "Finance", "Yale", "Summer School"]
+    "tags": [
+      "Machine Learning",
+      "Finance",
+      "Yale",
+      "Summer School"
+    ],
+    "model_score": 0.0
   },
   {
     "name": "ACM Economics and Computation (EC)",
@@ -20115,6 +20133,12 @@
     "type": "Annual Conference",
     "location": "Varies (2024: Yale)",
     "dates": "July (Annual)",
-    "tags": ["Economics", "Computation", "Market Design", "ACM"]
+    "tags": [
+      "Economics",
+      "Computation",
+      "Market Design",
+      "ACM"
+    ],
+    "model_score": 0.0
   }
 ]

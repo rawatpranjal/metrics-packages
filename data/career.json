@@ -46,7 +46,7 @@
     "company_context": [
       "startup"
     ],
-    "model_score": 0.3294
+    "model_score": 0.0149
   },
   {
     "name": "Ace the Data Science Interview",
@@ -96,7 +96,7 @@
       "FAANG",
       "startup"
     ],
-    "model_score": 0.156
+    "model_score": 0.0071
   },
   {
     "name": "Nick Singh's 40 Stats Questions",
@@ -143,7 +143,7 @@
       "FAANG",
       "Wall-Street"
     ],
-    "model_score": 0.156
+    "model_score": 0.0071
   },
   {
     "name": "Shopee",
@@ -188,7 +188,7 @@
     "company_context": [
       "startup"
     ],
-    "model_score": 0.0963
+    "model_score": 0.0044
   },
   {
     "name": "Flipkart",
@@ -233,7 +233,51 @@
     "company_context": [
       "e-commerce"
     ],
-    "model_score": 0.0573
+    "model_score": 0.0026
+  },
+  {
+    "name": "StatQuest with Josh Starmer",
+    "description": "Best resource for econ PhDs learning ML. Bias-variance, regularization, ensemble methods explained accessibly.",
+    "stage": "Interview Prep",
+    "category": "ML Fundamentals",
+    "url": "https://www.youtube.com/@statquest",
+    "type": "Video",
+    "tags": [
+      "visual-learning",
+      "beginner-friendly"
+    ],
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "ml-fundamentals",
+    "archived": true,
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "StatQuest with Josh Starmer provides accessible explanations of key machine learning concepts such as bias-variance, regularization, and ensemble methods, making it an excellent resource for econ PhDs looking to learn ML. The content is tailored to help beginners grasp complex topics in a straightforward manner.",
+    "use_cases": [
+      "when starting to learn machine learning concepts",
+      "to clarify complex ML topics"
+    ],
+    "audience": [
+      "Early-PhD",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are the best resources for learning machine learning as an economist?",
+      "How can I understand bias-variance tradeoff in machine learning?",
+      "What are ensemble methods in machine learning?",
+      "What is regularization and why is it important in ML?",
+      "Where can I find beginner-friendly ML tutorials?",
+      "How can econ PhDs transition to data science roles?",
+      "What are the key concepts in machine learning that I should learn first?",
+      "What resources are available for visual learning in ML?"
+    ],
+    "role_type": [
+      "data-scientist",
+      "economist"
+    ],
+    "experience_level": "entry",
+    "model_score": 0.0004
   },
   {
     "name": "Made With ML",
@@ -276,7 +320,7 @@
       "data-scientist"
     ],
     "experience_level": "entry|mid",
-    "model_score": 0.0009
+    "model_score": 0.0003
   },
   {
     "name": "Netflix: Experimentation Focus",
@@ -323,51 +367,7 @@
     "company_context": [
       "FAANG"
     ],
-    "model_score": 0.0004
-  },
-  {
-    "name": "StatQuest with Josh Starmer",
-    "description": "Best resource for econ PhDs learning ML. Bias-variance, regularization, ensemble methods explained accessibly.",
-    "stage": "Interview Prep",
-    "category": "ML Fundamentals",
-    "url": "https://www.youtube.com/@statquest",
-    "type": "Video",
-    "tags": [
-      "visual-learning",
-      "beginner-friendly"
-    ],
-    "section": "interview",
-    "tab": "interview",
-    "subtab": "ml-fundamentals",
-    "archived": true,
-    "difficulty": "beginner",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "StatQuest with Josh Starmer provides accessible explanations of key machine learning concepts such as bias-variance, regularization, and ensemble methods, making it an excellent resource for econ PhDs looking to learn ML. The content is tailored to help beginners grasp complex topics in a straightforward manner.",
-    "use_cases": [
-      "when starting to learn machine learning concepts",
-      "to clarify complex ML topics"
-    ],
-    "audience": [
-      "Early-PhD",
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "What are the best resources for learning machine learning as an economist?",
-      "How can I understand bias-variance tradeoff in machine learning?",
-      "What are ensemble methods in machine learning?",
-      "What is regularization and why is it important in ML?",
-      "Where can I find beginner-friendly ML tutorials?",
-      "How can econ PhDs transition to data science roles?",
-      "What are the key concepts in machine learning that I should learn first?",
-      "What resources are available for visual learning in ML?"
-    ],
-    "role_type": [
-      "data-scientist",
-      "economist"
-    ],
-    "experience_level": "entry",
-    "model_score": 0.0003
+    "model_score": 0.0001
   },
   {
     "name": "Google Research Careers",
@@ -407,7 +407,7 @@
     "company_context": [
       "FAANG"
     ],
-    "model_score": 0.0003
+    "model_score": 0.0
   },
   {
     "name": "Trustworthy Online Controlled Experiments (Kohavi)",
@@ -449,7 +449,7 @@
       "data-scientist"
     ],
     "experience_level": "mid|senior",
-    "model_score": 0.0001
+    "model_score": 0.0
   },
   {
     "name": "ACM EC Conference",
@@ -492,7 +492,7 @@
       "economist"
     ],
     "experience_level": "entry",
-    "model_score": 0.0001
+    "model_score": 0.0
   },
   {
     "name": "Microsoft Experimentation Platform",
@@ -540,7 +540,7 @@
     "company_context": [
       "Microsoft"
     ],
-    "model_score": 0.0001
+    "model_score": 0.0
   },
   {
     "name": "rbhatia46/Data-Science-Interview-Resources",
@@ -591,7 +591,7 @@
     "company_context": [
       "FAANG"
     ],
-    "model_score": 0.0001
+    "model_score": 0.0
   },
   {
     "name": "Amazon: Science of Price Experiments",
@@ -625,7 +625,7 @@
     "company_context": [
       "Amazon"
     ],
-    "model_score": 0.0001
+    "model_score": 0.0
   },
   {
     "name": "Statsig",

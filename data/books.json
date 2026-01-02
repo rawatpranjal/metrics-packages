@@ -39,7 +39,7 @@
       "understanding of personalization economics",
       "insight into advertising strategies"
     ],
-    "model_score": 0.0001
+    "model_score": 0.0
   },
   {
     "name": "Discrete Choice Methods with Simulation",
@@ -3779,7 +3779,13 @@
     "category": "Machine Learning",
     "type": "Book",
     "url": "https://link.springer.com/book/10.1007/978-1-4842-6373-0",
-    "tags": ["Machine Learning", "TensorFlow", "Economics", "Finance"]
+    "tags": [
+      "Machine Learning",
+      "TensorFlow",
+      "Economics",
+      "Finance"
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Business Data Science",
@@ -3790,7 +3796,12 @@
     "category": "Machine Learning",
     "type": "Book",
     "url": "https://www.amazon.com/Business-Data-Science-Combining-Accelerate/dp/1260452778",
-    "tags": ["Machine Learning", "Business Analytics", "Causal Inference"]
+    "tags": [
+      "Machine Learning",
+      "Business Analytics",
+      "Causal Inference"
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Causal Inference and Machine Learning for Economists",
@@ -3801,7 +3812,13 @@
     "category": "Machine Learning",
     "type": "Book",
     "url": "https://www.causalmlbook.com/",
-    "tags": ["Machine Learning", "Causal Inference", "Econometrics", "Free"]
+    "tags": [
+      "Machine Learning",
+      "Causal Inference",
+      "Econometrics",
+      "Free"
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Agent-Based and Individual-Based Modeling: A Practical Introduction",
@@ -3812,7 +3829,13 @@
     "category": "Computational Economics",
     "type": "Book",
     "url": "https://press.princeton.edu/books/paperback/9780691190839/agent-based-and-individual-based-modeling",
-    "tags": ["Agent-Based Modeling", "NetLogo", "Simulation", "Textbook"]
+    "tags": [
+      "Agent-Based Modeling",
+      "NetLogo",
+      "Simulation",
+      "Textbook"
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Growing Artificial Societies: Social Science from the Bottom Up",
@@ -3823,7 +3846,13 @@
     "category": "Computational Economics",
     "type": "Book",
     "url": "https://mitpress.mit.edu/9780262550253/growing-artificial-societies/",
-    "tags": ["Agent-Based Modeling", "Complexity", "Emergence", "Classic"]
+    "tags": [
+      "Agent-Based Modeling",
+      "Complexity",
+      "Emergence",
+      "Classic"
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Handbook of Computational Economics Vol. 2: Agent-Based Computational Economics",
@@ -3834,7 +3863,13 @@
     "category": "Computational Economics",
     "type": "Book",
     "url": "https://www.sciencedirect.com/handbook/handbook-of-computational-economics/vol/2",
-    "tags": ["Agent-Based Modeling", "Computational Economics", "Handbook", "Reference"]
+    "tags": [
+      "Agent-Based Modeling",
+      "Computational Economics",
+      "Handbook",
+      "Reference"
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Monte Carlo Methods in Financial Engineering",
@@ -3845,7 +3880,13 @@
     "category": "Pricing & Market Design",
     "type": "Book",
     "url": "https://link.springer.com/book/10.1007/978-0-387-21617-1",
-    "tags": ["Monte Carlo", "Finance", "Derivatives", "Simulation"]
+    "tags": [
+      "Monte Carlo",
+      "Finance",
+      "Derivatives",
+      "Simulation"
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Monte Carlo Simulation for Econometricians",
@@ -3856,7 +3897,13 @@
     "category": "Econometrics",
     "type": "Book",
     "url": "https://www.nowpublishers.com/article/Details/ECO-040",
-    "tags": ["Monte Carlo", "Econometrics", "Simulation", "Inference"]
+    "tags": [
+      "Monte Carlo",
+      "Econometrics",
+      "Simulation",
+      "Inference"
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Causal Inference in Python",
@@ -3867,7 +3914,14 @@
     "category": "Causal Inference & ML",
     "type": "Book",
     "url": "https://www.oreilly.com/library/view/causal-inference-in/9781098140243/",
-    "tags": ["Causal Inference", "Python", "DiD", "Synthetic Control", "Double ML"]
+    "tags": [
+      "Causal Inference",
+      "Python",
+      "DiD",
+      "Synthetic Control",
+      "Double ML"
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Causal Inference for Statistics, Social, and Biomedical Sciences",
@@ -3878,6 +3932,12 @@
     "category": "Causal Inference & ML",
     "type": "Book",
     "url": "https://www.cambridge.org/core/books/causal-inference-for-statistics-social-and-biomedical-sciences/71126BE90C58F1A431FE9B2DD07938AB",
-    "tags": ["Causal Inference", "Potential Outcomes", "Rubin", "Classic"]
+    "tags": [
+      "Causal Inference",
+      "Potential Outcomes",
+      "Rubin",
+      "Classic"
+    ],
+    "model_score": 0.0
   }
 ]
