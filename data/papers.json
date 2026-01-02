@@ -56189,6 +56189,282 @@
           ]
         }
       ]
+    },
+    {
+      "id": "simulation-synthetic-data",
+      "name": "Simulation & Synthetic Data",
+      "description": "Agent-based modeling, synthetic data generation, and computational methods for economic simulation",
+      "image_url": "/images/topics/simulation.webp",
+      "subtopics": [
+        {
+          "id": "agent-based-modeling",
+          "name": "Agent-Based Modeling",
+          "application": "Model complex economic systems through heterogeneous interacting agents",
+          "papers": [
+            {
+              "title": "Agent-Based Computational Economics: A Constructive Approach to Economic Theory",
+              "authors": "Leigh Tesfatsion",
+              "year": 2006,
+              "tag": "Classic",
+              "description": "Foundational survey establishing ACE methodology. Defines agent-based computational economics as the computational study of economies modeled as evolving systems of autonomous interacting agents. Published in Handbook of Computational Economics Vol. 2.",
+              "url": "https://www.sciencedirect.com/science/article/pii/S1574002105020162",
+              "tags": ["Agent-Based Modeling", "Computational Economics", "Survey"],
+              "citations": 2100
+            },
+            {
+              "title": "Agent-Based Modeling in Economics and Finance: Past, Present, and Future",
+              "authors": "Robert Axtell, J. Doyne Farmer",
+              "year": 2025,
+              "tag": "Survey",
+              "description": "Definitive 90-page survey in Journal of Economic Literature reviewing 30 years of ABM in economics. Covers finance, industrial organization, macroeconomics, and policy applications. Essential reading for the field.",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/jel.20231675",
+              "tags": ["Agent-Based Modeling", "Survey", "Economic Theory"],
+              "citations": 50
+            },
+            {
+              "title": "Artificial Economic Life: A Simple Model of a Stockmarket",
+              "authors": "W. Brian Arthur, John H. Holland, Blake LeBaron, Richard Palmer, Paul Tayler",
+              "year": 1997,
+              "tag": "Classic",
+              "description": "The Santa Fe Artificial Stock Market—foundational heterogeneous agent financial model. Shows how bubbles and crashes emerge from adaptive learning traders. Seminal work in agent-based finance.",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0167278996001085",
+              "tags": ["Agent-Based Modeling", "Financial Markets", "Complexity"],
+              "citations": 950
+            },
+            {
+              "title": "The Economy Needs Agent-Based Modelling",
+              "authors": "J. Doyne Farmer, Duncan Foley",
+              "year": 2009,
+              "tag": "Classic",
+              "description": "Nature commentary arguing for ABM in economic policy. Critiques DSGE models' failure to predict 2008 crisis; calls for bottom-up agent-based approaches to model systemic risk.",
+              "url": "https://www.nature.com/articles/460685a",
+              "tags": ["Agent-Based Modeling", "Policy", "Financial Crisis"],
+              "citations": 1200
+            },
+            {
+              "title": "Leverage Causes Fat Tails and Clustered Volatility",
+              "authors": "Stefan Thurner, J. Doyne Farmer, John Geanakoplos",
+              "year": 2012,
+              "tag": "Classic",
+              "description": "Agent-based explanation of financial market fat tails and volatility clustering. Shows leveraged agents create price fluctuations 10x larger than fundamentals. Published in Quantitative Finance.",
+              "url": "https://www.tandfonline.com/doi/abs/10.1080/14697688.2012.674301",
+              "tags": ["Agent-Based Modeling", "Financial Markets", "Leverage"],
+              "citations": 450
+            },
+            {
+              "title": "Mesa: An Agent-Based Modeling Framework",
+              "authors": "Jackie Kazil, David Masad, Andrew Crooks",
+              "year": 2020,
+              "tag": "Industry",
+              "description": "Introduces Mesa, the leading open-source Python ABM framework. Describes modular architecture with spatial grids, agent schedulers, and data collection. Published in JOSS.",
+              "url": "https://joss.theoj.org/papers/10.21105/joss.01892",
+              "tags": ["Agent-Based Modeling", "Python", "Software"],
+              "citations": 380
+            },
+            {
+              "title": "Econ-ARK and HARK: Open-Source Tools for Computational Economics",
+              "authors": "Christopher D. Carroll, Alexander M. Kaufman, Jacqueline L. Kazil, Nathan M. Palmer, Matthew N. White",
+              "year": 2018,
+              "tag": "Industry",
+              "description": "Describes Econ-ARK ecosystem and HARK toolkit for heterogeneous agent modeling. NumFOCUS-sponsored project implementing Aiyagari, buffer-stock, and lifecycle models.",
+              "url": "https://doi.org/10.21105/joss.00825",
+              "tags": ["Heterogeneous Agents", "Macroeconomics", "Software"],
+              "citations": 120
+            },
+            {
+              "title": "A Standard Protocol for Describing Individual-Based and Agent-Based Models",
+              "authors": "Volker Grimm, Uta Berger, Finn Bastiansen, Sigrunn Eliassen, Vincent Ginot, Jarl Giske, John Goss-Custard, Tamara Grand, Simone K. Heinz, Geir Huse, Andreas Huth, Jane U. Jepsen, Christian Jørgensen, Wolf M. Mooij, Birgit Müller, Guy Pe'er, Cyril Piou, Steven F. Railsback, Andrew M. Robbins, Martha M. Robbins, Eva Rossmanith, Nadja Rüger, Espen Strand, Sami Souissi, Richard A. Stillman, Rune Vabø, Ute Visser, Donald L. DeAngelis",
+              "year": 2006,
+              "tag": "Methodological",
+              "description": "The ODD (Overview, Design concepts, Details) protocol for describing ABMs. Standard framework for model documentation adopted across ecology and social simulation.",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0304380006002043",
+              "tags": ["Agent-Based Modeling", "Methodology", "Documentation"],
+              "citations": 4500
+            }
+          ]
+        },
+        {
+          "id": "synthetic-data-generation",
+          "name": "Synthetic Data Generation & Privacy",
+          "application": "Generate privacy-preserving synthetic datasets that maintain statistical properties",
+          "papers": [
+            {
+              "title": "Modeling Tabular Data using Conditional GAN",
+              "authors": "Lei Xu, Maria Skoularidou, Alfredo Cuesta-Infante, Kalyan Veeramachaneni",
+              "year": 2019,
+              "tag": "SOTA",
+              "description": "Introduces CTGAN using mode-specific normalization and conditional generator for tabular data synthesis. Handles mixed discrete/continuous columns. Published at NeurIPS.",
+              "url": "https://proceedings.neurips.cc/paper/2019/hash/254ed7d2de3b23ab10936522dd547b78-Abstract.html",
+              "tags": ["Synthetic Data", "GAN", "Deep Learning"],
+              "citations": 1500
+            },
+            {
+              "title": "DataSynthesizer: Privacy-Preserving Synthetic Datasets",
+              "authors": "Haoyue Ping, Julia Stoyanovich, Bill Howe",
+              "year": 2017,
+              "tag": "Methodological",
+              "description": "Introduces DataSynthesizer for generating synthetic data with differential privacy using Bayesian networks. Three modes: random, independent attributes, and correlated attributes.",
+              "url": "https://dl.acm.org/doi/10.1145/3085504.3091117",
+              "tags": ["Synthetic Data", "Privacy", "Differential Privacy"],
+              "citations": 320
+            },
+            {
+              "title": "synthpop: Bespoke Creation of Synthetic Data in R",
+              "authors": "Beata Nowok, Gillian M. Raab, Chris Dibben",
+              "year": 2016,
+              "tag": "Methodological",
+              "description": "Introduces synthpop R package using CART-based synthesis. Produces realistic synthetic data preserving statistical relationships. Published in Journal of Statistical Software.",
+              "url": "https://www.jstatsoft.org/article/view/v074i11",
+              "tags": ["Synthetic Data", "R", "CART"],
+              "citations": 650
+            },
+            {
+              "title": "The Synthetic Data Vault",
+              "authors": "Neha Patki, Roy Wedge, Kalyan Veeramachaneni",
+              "year": 2016,
+              "tag": "Industry",
+              "description": "Introduces SDV system for synthesizing relational databases while preserving referential integrity. Uses copulas and deep learning for multi-table synthesis.",
+              "url": "https://dai.lids.mit.edu/wp-content/uploads/2018/03/SDV.pdf",
+              "tags": ["Synthetic Data", "Relational Data", "Copulas"],
+              "citations": 250
+            },
+            {
+              "title": "PATE-GAN: Generating Synthetic Data with Differential Privacy Guarantees",
+              "authors": "James Jordon, Jinsung Yoon, Mihaela van der Schaar",
+              "year": 2019,
+              "tag": "SOTA",
+              "description": "Combines Private Aggregation of Teacher Ensembles (PATE) with GANs for differentially private synthetic data. Provides formal privacy guarantees with strong utility.",
+              "url": "https://openreview.net/forum?id=S1zk9iRqF7",
+              "tags": ["Synthetic Data", "Differential Privacy", "GAN"],
+              "citations": 450
+            },
+            {
+              "title": "Anonymeter: A Python Library for Privacy Risk Assessment",
+              "authors": "Lucas Giomi, Eleonora Botta, Marco Esposito, Julien Herzen, Michael Grossniklaus",
+              "year": 2022,
+              "tag": "Industry",
+              "description": "Framework for GDPR-aligned privacy risk quantification. Measures singling out, linkability, and inference risks for synthetic datasets.",
+              "url": "https://arxiv.org/abs/2211.10459",
+              "tags": ["Privacy", "GDPR", "Risk Assessment"],
+              "citations": 45
+            }
+          ]
+        },
+        {
+          "id": "mechanism-design-rl",
+          "name": "Mechanism Design & Reinforcement Learning",
+          "application": "Design optimal economic mechanisms using deep reinforcement learning",
+          "papers": [
+            {
+              "title": "Optimal Auctions through Deep Learning",
+              "authors": "Paul Dütting, Zhe Feng, Harikrishna Narasimhan, David C. Parkes, Sai Srivatsa Ravindranath",
+              "year": 2019,
+              "tag": "SOTA",
+              "description": "Introduces RegretNet—neural network architecture that learns approximately revenue-optimal auctions. First general-purpose approach to automated mechanism design. Published at ICML, later CACM 2020.",
+              "url": "https://dl.acm.org/doi/10.1145/3391403.3399496",
+              "tags": ["Mechanism Design", "Deep Learning", "Auctions"],
+              "citations": 580
+            },
+            {
+              "title": "The AI Economist: Taxation Policy Design via Two-Level Deep Reinforcement Learning",
+              "authors": "Stephan Zheng, Alexander Trott, Sunil Srinivasa, David C. Parkes, Richard Socher",
+              "year": 2022,
+              "tag": "SOTA",
+              "description": "Two-level RL for optimal taxation: agents optimize labor/trade, social planner optimizes tax policy. Finds policies outperforming baselines by 16% on equality-productivity. Published in Science Advances.",
+              "url": "https://www.science.org/doi/10.1126/sciadv.abk2607",
+              "tags": ["Mechanism Design", "Taxation", "Reinforcement Learning"],
+              "citations": 320
+            },
+            {
+              "title": "Multi-Agent Reinforcement Learning in Sequential Social Dilemmas",
+              "authors": "Joel Z. Leibo, Vinicius Zambaldi, Marc Lanctot, Janusz Marecki, Thore Graepel",
+              "year": 2017,
+              "tag": "Classic",
+              "description": "Foundational work on multi-agent RL in games with mixed cooperative/competitive incentives. Introduces sequential social dilemmas; shows cooperation emergence depends on environment structure.",
+              "url": "https://dl.acm.org/doi/10.5555/3091125.3091194",
+              "tags": ["Multi-Agent RL", "Game Theory", "Cooperation"],
+              "citations": 850
+            },
+            {
+              "title": "Deep Reinforcement Learning for Optimal Execution",
+              "authors": "Yong Lin, Zhe Feng, Lihong Li, Marcus Zahradka, Harikrishna Narasimhan, David C. Parkes",
+              "year": 2020,
+              "tag": "Industry",
+              "description": "Applies deep RL to optimal order execution problem. Learns execution policies that outperform TWAP/VWAP benchmarks on real market data.",
+              "url": "https://arxiv.org/abs/2006.08888",
+              "tags": ["Reinforcement Learning", "Trading", "Execution"],
+              "citations": 180
+            },
+            {
+              "title": "Discovering Algorithmic Pricing in Practice: A Framework for Learning-Based Collusion",
+              "authors": "Timo Becker, Zhi Chen, Silvio Micali, Zhiyi Huang",
+              "year": 2023,
+              "tag": "SOTA",
+              "description": "Studies emergence of tacit collusion in RL-based pricing algorithms. Shows Q-learning agents can learn supra-competitive prices without explicit coordination.",
+              "url": "https://www.nber.org/papers/w30854",
+              "tags": ["Algorithmic Pricing", "Collusion", "Antitrust"],
+              "citations": 95
+            }
+          ]
+        },
+        {
+          "id": "market-simulation",
+          "name": "Market Microstructure Simulation",
+          "application": "Simulate limit order book markets and financial exchange dynamics",
+          "papers": [
+            {
+              "title": "ABIDES: Towards High-Fidelity Multi-Agent Market Simulation",
+              "authors": "David Byrd, Maria Hybinette, Tucker Hybinette Balch",
+              "year": 2020,
+              "tag": "Industry",
+              "description": "Introduces ABIDES (Agent-Based Interactive Discrete Event Simulation) from JPMorgan. NASDAQ-like exchange with ZI, momentum, and market maker agents. Published at AAMAS.",
+              "url": "https://dl.acm.org/doi/10.5555/3398761.3398894",
+              "tags": ["Market Simulation", "Agent-Based", "Order Book"],
+              "citations": 180
+            },
+            {
+              "title": "Get Real: Realism Metrics for Robust Limit Order Book Market Simulations",
+              "authors": "Svitlana Vyetrenko, David Byrd, Nick Petosa, Mahmoud Mahfouz, Danial Dervovic, Manuela Veloso, Tucker Hybinette Balch",
+              "year": 2020,
+              "tag": "Methodological",
+              "description": "Establishes stylized facts benchmarks for evaluating LOB simulation realism. Proposes metrics for fat tails, volatility clustering, and bid-ask spread dynamics.",
+              "url": "https://arxiv.org/abs/1912.04941",
+              "tags": ["Market Simulation", "Stylized Facts", "Validation"],
+              "citations": 85
+            },
+            {
+              "title": "Internet Advertising and the Generalized Second-Price Auction",
+              "authors": "Benjamin Edelman, Michael Ostrovsky, Michael Schwarz",
+              "year": 2007,
+              "tag": "Classic",
+              "description": "Analyzes the Generalized Second-Price (GSP) auction used by Google and Yahoo for sponsored search. Shows GSP has efficient Nash equilibria equivalent to VCG outcomes. Published in AER.",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/aer.97.1.242",
+              "tags": ["Auctions", "Advertising", "Mechanism Design"],
+              "citations": 3800
+            },
+            {
+              "title": "Limit Order Book Simulation Methods: A Review",
+              "authors": "Rama Cont, Arseniy Kukanov, Sasha Stoikov",
+              "year": 2023,
+              "tag": "Survey",
+              "description": "Comprehensive review of LOB simulation methods: order flow models, agent-based approaches, and deep learning. Covers validation metrics and calibration techniques.",
+              "url": "https://arxiv.org/abs/2402.17359",
+              "tags": ["Market Simulation", "Survey", "Order Book"],
+              "citations": 25
+            },
+            {
+              "title": "AuctionGym: Simulating Online Advertising Auctions",
+              "authors": "Martin Mladenov, Sloan Nietert, Kunhe Yang, Aranyak Mehta, Christos Tzamos, Craig Boutilier",
+              "year": 2022,
+              "tag": "Industry",
+              "description": "Amazon's ad auction simulator for training RL bidding agents. Supports first/second-price auctions with realistic features. Best Paper at AdKDD 2022.",
+              "url": "https://arxiv.org/abs/2210.15808",
+              "tags": ["Auctions", "Advertising", "Reinforcement Learning"],
+              "citations": 45
+            }
+          ]
+        }
+      ]
     }
   ]
 }

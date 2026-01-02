@@ -19944,5 +19944,185 @@
     "level": "Medium",
     "tags": ["Machine Learning", "IMF", "Central Banking"],
     "domain": "Economics"
+  },
+  {
+    "name": "Introduction to Agent-Based Modeling",
+    "description": "Bill Rand's comprehensive free course on agent-based modeling from Santa Fe Institute's Complexity Explorer. Covers NetLogo, model design, and analysis.",
+    "category": "Computational Economics",
+    "url": "https://www.complexityexplorer.org/courses/183-introduction-to-agent-based-modeling",
+    "type": "Course",
+    "level": "Medium",
+    "tags": ["Agent-Based Modeling", "NetLogo", "Complexity", "Santa Fe Institute"],
+    "domain": "Computational Economics"
+  },
+  {
+    "name": "Agent-Based Models with Python: An Introduction to Mesa",
+    "description": "21-lesson course on Complexity Explorer covering agent-based modeling in Python using Mesa framework. Builds Sugarscape and other classic models.",
+    "category": "Computational Economics",
+    "url": "https://www.complexityexplorer.org/courses/172-agent-based-models-with-python-an-introduction-to-mesa",
+    "type": "Course",
+    "level": "Medium",
+    "tags": ["Mesa", "Python", "Agent-Based Modeling", "Sugarscape"],
+    "domain": "Computational Economics"
+  },
+  {
+    "name": "QuantEcon Python Lectures",
+    "description": "Comprehensive lecture series on computational economics covering dynamic programming, rational expectations, Markov chains, and heterogeneous agents.",
+    "category": "Computational Economics",
+    "url": "https://python.quantecon.org/",
+    "type": "Online Book",
+    "level": "Hard",
+    "tags": ["Python", "Macroeconomics", "Dynamic Programming", "Quantitative Economics"],
+    "domain": "Computational Economics"
+  },
+  {
+    "name": "Econ-ARK DemARK Examples",
+    "description": "Demonstration notebooks for HARK heterogeneous agent models. Includes buffer-stock, lifecycle, and Aiyagari model implementations.",
+    "category": "Computational Economics",
+    "url": "https://github.com/econ-ark/DemARK",
+    "type": "Tutorial",
+    "level": "Hard",
+    "tags": ["HARK", "Heterogeneous Agents", "Macroeconomics", "Jupyter"],
+    "domain": "Computational Economics"
+  },
+  {
+    "name": "SDV Getting Started Guide",
+    "description": "Official Synthetic Data Vault documentation covering GaussianCopula, CTGAN, and TVAE models for tabular data synthesis.",
+    "category": "Machine Learning",
+    "url": "https://docs.sdv.dev/sdv/getting-started/quickstart",
+    "type": "Tutorial",
+    "level": "Easy",
+    "tags": ["Synthetic Data", "SDV", "Privacy", "Machine Learning"],
+    "domain": "Synthetic Data"
+  },
+  {
+    "name": "Andrew Heiss: Synthetic Data for Program Evaluation",
+    "description": "Comprehensive guide for creating synthetic data for DiD, RDD, and IV evaluation designs. Includes R code examples.",
+    "category": "Causal Inference & ML",
+    "url": "https://evalsp21.classes.andrewheiss.com/example/synthetic-data/",
+    "type": "Tutorial",
+    "level": "Medium",
+    "tags": ["Synthetic Data", "Causal Inference", "R", "Program Evaluation"],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Uber: Gaining Insights in a Simulated Marketplace",
+    "description": "Uber Engineering blog on their agent-based discrete event simulator with GraphSAGE matching for marketplace simulation.",
+    "category": "Platform Economics",
+    "url": "https://www.uber.com/blog/simulated-marketplace/",
+    "type": "Blog",
+    "level": "Hard",
+    "tags": ["Simulation", "Marketplace", "Agent-Based", "Uber"],
+    "domain": "Platform Economics"
+  },
+  {
+    "name": "Uber: Unleashing the Power of Ads Simulation",
+    "description": "Uber Eats engineering post on building an ads marketplace simulator for testing ad ranking and bidding strategies.",
+    "category": "Platform Economics",
+    "url": "https://www.uber.com/blog/unleashing-the-power-of-ads-simulation/",
+    "type": "Blog",
+    "level": "Hard",
+    "tags": ["Simulation", "Advertising", "Marketplace", "Uber"],
+    "domain": "Platform Economics"
+  },
+  {
+    "name": "Lyft: Simulating a Ridesharing Marketplace",
+    "description": "Lyft engineering blog on counterfactual simulation framework for rideshare marketplace optimization.",
+    "category": "Platform Economics",
+    "url": "https://eng.lyft.com/https-medium-com-adamgreenhall-simulating-a-ridesharing-marketplace-36007a8a31f2",
+    "type": "Blog",
+    "level": "Hard",
+    "tags": ["Simulation", "Rideshare", "Counterfactual", "Lyft"],
+    "domain": "Platform Economics"
+  },
+  {
+    "name": "Lyft: Causal Forecasting at Lyft",
+    "description": "Two-part series on DAG-based structural modeling and causal forecasting for marketplace decisions at Lyft.",
+    "category": "Causal Inference & ML",
+    "url": "https://eng.lyft.com/causal-forecasting-at-lyft-part-1-14cca6ff3d6d",
+    "type": "Blog",
+    "level": "Hard",
+    "tags": ["Causal Inference", "DAG", "Forecasting", "Lyft"],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Netflix: Page Simulator for Better Offline Metrics",
+    "description": "Netflix Tech Blog on using simulation to test homepage recommendations before running A/B tests.",
+    "category": "AB Testing",
+    "url": "https://netflixtechblog.com/page-simulator-fa02069fb269",
+    "type": "Blog",
+    "level": "Hard",
+    "tags": ["Simulation", "Recommendations", "A/B Testing", "Netflix"],
+    "domain": "Experimentation"
+  },
+  {
+    "name": "Netflix: Sequential A/B Testing Keeps the World Streaming",
+    "description": "Two-part series on anytime-valid inference and sequential testing for Netflix canary deployments.",
+    "category": "AB Testing",
+    "url": "https://netflixtechblog.com/sequential-a-b-testing-keeps-the-world-streaming-netflix-part-1-continuous-data-cba6c7ed49df",
+    "type": "Blog",
+    "level": "Hard",
+    "tags": ["Sequential Testing", "A/B Testing", "Anytime-Valid", "Netflix"],
+    "domain": "Experimentation"
+  },
+  {
+    "name": "Netflix: Quasi Experimentation at Netflix",
+    "description": "Netflix Tech Blog covering synthetic control and difference-in-differences methods for observational causal inference.",
+    "category": "Causal Inference & ML",
+    "url": "https://netflixtechblog.com/quasi-experimentation-at-netflix-566b57d2e362",
+    "type": "Blog",
+    "level": "Hard",
+    "tags": ["Synthetic Control", "DiD", "Causal Inference", "Netflix"],
+    "domain": "Causal Inference"
+  },
+  {
+    "name": "Airbnb: Learning Market Dynamics for Optimal Pricing",
+    "description": "Airbnb Engineering post combining ML and structural modeling for Smart Pricing. Shows simulation-based approach to pricing.",
+    "category": "Platform Economics",
+    "url": "https://medium.com/airbnb-engineering/learning-market-dynamics-for-optimal-pricing-97cffbcc53e3",
+    "type": "Blog",
+    "level": "Hard",
+    "tags": ["Pricing", "Dynamic Pricing", "Marketplace", "Airbnb"],
+    "domain": "Platform Economics"
+  },
+  {
+    "name": "Stable-Baselines3 Documentation",
+    "description": "Official documentation and tutorials for Stable-Baselines3 reinforcement learning library covering PPO, SAC, DQN implementations.",
+    "category": "Machine Learning",
+    "url": "https://stable-baselines3.readthedocs.io/en/master/guide/quickstart.html",
+    "type": "Tutorial",
+    "level": "Medium",
+    "tags": ["Reinforcement Learning", "PyTorch", "PPO", "DQN"],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "Gymnasium Documentation",
+    "description": "Official Farama Foundation documentation for Gymnasium RL environments including tutorials on building custom environments.",
+    "category": "Machine Learning",
+    "url": "https://gymnasium.farama.org/tutorials/",
+    "type": "Tutorial",
+    "level": "Medium",
+    "tags": ["Reinforcement Learning", "Environments", "OpenAI Gym"],
+    "domain": "Machine Learning"
+  },
+  {
+    "name": "Mesa Documentation Tutorials",
+    "description": "Official Mesa ABM framework tutorials covering model building, data collection, and visualization step-by-step.",
+    "category": "Computational Economics",
+    "url": "https://mesa.readthedocs.io/latest/tutorials/0_first_model.html",
+    "type": "Tutorial",
+    "level": "Easy",
+    "tags": ["Mesa", "Agent-Based Modeling", "Python", "Tutorial"],
+    "domain": "Computational Economics"
+  },
+  {
+    "name": "ETH Zurich: Agent-Based Modeling of Economic Systems",
+    "description": "GitHub repository with course materials for ETH's ABM course using Mesa. Includes exercises on market simulation and network effects.",
+    "category": "Computational Economics",
+    "url": "https://github.com/alexmakassiouk/eth-agent-based-modeling-of-economic-systems",
+    "type": "Course",
+    "level": "Hard",
+    "tags": ["Agent-Based Modeling", "Mesa", "ETH", "Economics"],
+    "domain": "Computational Economics"
   }
 ]

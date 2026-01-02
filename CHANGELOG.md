@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-01-01 (Simulation & Synthetic Data content expansion)
+- Added ~80 new entries covering simulation, synthetic data, and computational economics
+- New packages: Mesa, AgentPy, ABCE, Gymnasium, Stable-Baselines3, RLlib, ABIDES, AuctionGym, CTGAN, Faker, CausalPy, PyMC
+- New paper topic: "Simulation & Synthetic Data" with 4 subtopics (ABM, Synthetic Data, Mechanism Design RL, Market Simulation)
+- New resources: SFI ABM courses, tech company simulation blogs (Uber, Lyft, Netflix, Airbnb)
+- New books: Railsback & Grimm ABM, Epstein & Axtell Sugarscape, Glasserman Monte Carlo
+
 ## 2026-01-01 (AI for Economists content expansion)
 - Added ~70 new entries for "AI for Economists" content across all data files
 - New paper topic: "AI for Economic Research" with 6 subtopics (LLMs, Homo Silicus, Causal ML, Text-as-Data, Satellite Imagery)

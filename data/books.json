@@ -3802,5 +3802,60 @@
     "type": "Book",
     "url": "https://www.causalmlbook.com/",
     "tags": ["Machine Learning", "Causal Inference", "Econometrics", "Free"]
+  },
+  {
+    "name": "Agent-Based and Individual-Based Modeling: A Practical Introduction",
+    "author": "Steven F. Railsback, Volker Grimm",
+    "year": 2019,
+    "isbn": "978-0691190839",
+    "description": "The standard textbook for agent-based modeling. Second edition covers model design, NetLogo programming, ODD protocol, and analysis techniques.",
+    "category": "Computational Economics",
+    "type": "Book",
+    "url": "https://press.princeton.edu/books/paperback/9780691190839/agent-based-and-individual-based-modeling",
+    "tags": ["Agent-Based Modeling", "NetLogo", "Simulation", "Textbook"]
+  },
+  {
+    "name": "Growing Artificial Societies: Social Science from the Bottom Up",
+    "author": "Joshua M. Epstein, Robert Axtell",
+    "year": 1996,
+    "isbn": "978-0262550253",
+    "description": "Foundational text on computational social science introducing the Sugarscape model. Shows how trade, conflict, and social dynamics emerge from simple agent rules.",
+    "category": "Computational Economics",
+    "type": "Book",
+    "url": "https://mitpress.mit.edu/9780262550253/growing-artificial-societies/",
+    "tags": ["Agent-Based Modeling", "Complexity", "Emergence", "Classic"]
+  },
+  {
+    "name": "Handbook of Computational Economics Vol. 2: Agent-Based Computational Economics",
+    "author": "Leigh Tesfatsion, Kenneth L. Judd (Eds.)",
+    "year": 2006,
+    "isbn": "978-0444512536",
+    "description": "Comprehensive reference on agent-based computational economics. Covers ACE methodology, financial markets, labor markets, and policy analysis.",
+    "category": "Computational Economics",
+    "type": "Book",
+    "url": "https://www.sciencedirect.com/handbook/handbook-of-computational-economics/vol/2",
+    "tags": ["Agent-Based Modeling", "Computational Economics", "Handbook", "Reference"]
+  },
+  {
+    "name": "Monte Carlo Methods in Financial Engineering",
+    "author": "Paul Glasserman",
+    "year": 2003,
+    "isbn": "978-0387004518",
+    "description": "Definitive text on Monte Carlo simulation for derivatives pricing and risk management. Covers variance reduction, quasi-Monte Carlo, and Greeks estimation.",
+    "category": "Pricing & Market Design",
+    "type": "Book",
+    "url": "https://link.springer.com/book/10.1007/978-0-387-21617-1",
+    "tags": ["Monte Carlo", "Finance", "Derivatives", "Simulation"]
+  },
+  {
+    "name": "Monte Carlo Simulation for Econometricians",
+    "author": "Jan F. Kiviet",
+    "year": 2019,
+    "isbn": "978-1680836165",
+    "description": "Practical guide to Monte Carlo methods for econometric analysis. Covers estimator evaluation, inference validation, and simulation design for applied research.",
+    "category": "Econometrics",
+    "type": "Book",
+    "url": "https://www.nowpublishers.com/article/Details/ECO-040",
+    "tags": ["Monte Carlo", "Econometrics", "Simulation", "Inference"]
   }
 ]

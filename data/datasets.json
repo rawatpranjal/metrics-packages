@@ -15630,5 +15630,15 @@
     "github_url": "https://github.com/nealjean/predicting-poverty",
     "tags": ["satellite", "poverty", "deep-learning", "Africa", "development"],
     "best_for": "Replicating and extending satellite-based poverty prediction research"
+  },
+  {
+    "name": "LOBSTER (Limit Order Book System)",
+    "description": "High-frequency limit order book tick data for NASDAQ stocks reconstructed from ITCH messages. Gold standard for market microstructure research.",
+    "category": "Financial Services",
+    "url": "https://lobsterdata.com/",
+    "docs_url": "https://lobsterdata.com/info/DataStructure.php",
+    "github_url": null,
+    "tags": ["high-frequency", "limit-order-book", "NASDAQ", "tick-data", "market-microstructure"],
+    "best_for": "Market microstructure research, algorithmic trading backtesting, LOB simulation validation"
   }
 ]
