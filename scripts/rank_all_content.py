@@ -37,8 +37,9 @@ print("  Model loaded: all-MiniLM-L6-v2 (384 dimensions)")
 
 # Signal weights for engagement scoring
 CLICK_WEIGHT = 5.0
-IMPRESSION_WEIGHT = 1.0
-DWELL_WEIGHT = 1.0  # per minute
+IMPRESSION_WEIGHT = 0.5  # Reduced since viewability adds quality signal
+VIEWABLE_WEIGHT = 0.1    # Per viewable second (IAB 50%+ visible)
+DWELL_WEIGHT = 1.0       # Per minute
 
 
 def fetch_d1_data(query):
@@ -153,10 +154,11 @@ def fetch_engagement_data():
     print(f"  Impressions: {len(impressions)} items")
 
     dwell = fetch_d1_data(
-        "SELECT name, section, SUM(dwell_ms) as total_dwell "
+        "SELECT name, section, SUM(dwell_ms) as total_dwell, "
+        "SUM(viewable_seconds) as total_viewable "
         "FROM content_dwell GROUP BY name, section"
     )
-    print(f"  Dwell: {len(dwell)} items")
+    print(f"  Dwell + Viewability: {len(dwell)} items")
 
     return clicks, impressions, dwell
 
@@ -164,7 +166,7 @@ def fetch_engagement_data():
 def build_engagement_scores(clicks, impressions, dwell):
     """Build weighted engagement scores for observed items."""
     scores = defaultdict(float)
-    item_signals = defaultdict(lambda: {'clicks': 0, 'impressions': 0, 'dwell_ms': 0})
+    item_signals = defaultdict(lambda: {'clicks': 0, 'impressions': 0, 'dwell_ms': 0, 'viewable_sec': 0})
 
     # Aggregate clicks
     for row in clicks:
@@ -180,13 +182,18 @@ def build_engagement_scores(clicks, impressions, dwell):
         scores[name] += count * IMPRESSION_WEIGHT
         item_signals[name]['impressions'] += count
 
-    # Aggregate dwell time
+    # Aggregate dwell time and viewability
     for row in dwell:
         name = row['name'].lower().strip()
         ms = row.get('total_dwell', 0) or 0
         minutes = ms / 60000.0
         scores[name] += minutes * DWELL_WEIGHT
         item_signals[name]['dwell_ms'] += ms
+
+        # Add viewability signal
+        viewable = row.get('total_viewable', 0) or 0
+        scores[name] += viewable * VIEWABLE_WEIGHT
+        item_signals[name]['viewable_sec'] += viewable
 
     return dict(scores), dict(item_signals)
 
@@ -668,6 +675,7 @@ def main():
     click_names = {row['name'].lower().strip() for row in clicks}
     impression_names = {row['name'].lower().strip() for row in impressions}
     dwell_names = {row['name'].lower().strip() for row in dwell}
+    viewable_names = {row['name'].lower().strip() for row in dwell if (row.get('total_viewable') or 0) > 0}
     any_interaction_names = click_names | impression_names | dwell_names
 
     coverage = {
@@ -675,6 +683,7 @@ def main():
         'items_with_clicks': len(click_names),
         'items_with_impressions': len(impression_names),
         'items_with_dwell': len(dwell_names),
+        'items_with_viewability': len(viewable_names),
         'items_with_any': len(any_interaction_names),
         'coverage_pct': round(len(any_interaction_names) / len(items) * 100, 1) if items else 0,
     }
@@ -780,6 +789,7 @@ def main():
             'target_weights': {
                 'clicks': CLICK_WEIGHT,
                 'impressions': IMPRESSION_WEIGHT,
+                'viewable_per_second': VIEWABLE_WEIGHT,
                 'dwell_per_minute': DWELL_WEIGHT,
             },
         },
@@ -817,6 +827,7 @@ def main():
     print(f"Items with clicks:      {coverage['items_with_clicks']:>5} ({coverage['items_with_clicks']/len(items)*100:.1f}%)")
     print(f"Items with impressions: {coverage['items_with_impressions']:>5} ({coverage['items_with_impressions']/len(items)*100:.1f}%)")
     print(f"Items with dwell:       {coverage['items_with_dwell']:>5} ({coverage['items_with_dwell']/len(items)*100:.1f}%)")
+    print(f"Items with viewability: {coverage['items_with_viewability']:>5} ({coverage['items_with_viewability']/len(items)*100:.1f}%)")
     print(f"Items with ANY:         {coverage['items_with_any']:>5} ({coverage['coverage_pct']:.1f}%)")
 
     print("\n" + "-" * 60)
