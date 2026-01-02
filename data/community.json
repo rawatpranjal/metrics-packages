@@ -20076,5 +20076,45 @@
     "engagement_level": "professional",
     "frequency": "annual",
     "model_score": 0.0
+  },
+  {
+    "name": "NBER Economics of AI Conference",
+    "description": "Annual NBER conference on the economics of artificial intelligence. Leading researchers present on AI's impact on labor, productivity, and economic growth.",
+    "category": "Conferences",
+    "url": "https://www.nber.org/conferences/economics-artificial-intelligence-fall-2024",
+    "type": "Annual Conference",
+    "location": "Toronto / Various",
+    "dates": "September (Annual)",
+    "tags": ["AI", "Economics", "NBER", "Research"]
+  },
+  {
+    "name": "MLESI - Machine Learning in Economics Summer Institute",
+    "description": "Chicago Booth summer institute bringing leading ML for economics researchers together with advanced graduate students.",
+    "category": "Conferences",
+    "url": "https://www.chicagobooth.edu/research/center-for-applied-artificial-intelligence/opportunities/event---mlesi",
+    "type": "Workshop",
+    "location": "Chicago Booth",
+    "dates": "August 7-13, 2025",
+    "tags": ["Machine Learning", "Economics", "Summer School", "Chicago Booth"]
+  },
+  {
+    "name": "SoFiE Financial Machine Learning Summer School",
+    "description": "Yale-hosted summer school on machine learning applications for asset pricing and financial econometrics.",
+    "category": "Conferences",
+    "url": "https://som.yale.edu/sofie-financial-machine-learning-summer-school",
+    "type": "Workshop",
+    "location": "Yale School of Management",
+    "dates": "Annual (Summer)",
+    "tags": ["Machine Learning", "Finance", "Yale", "Summer School"]
+  },
+  {
+    "name": "ACM Economics and Computation (EC)",
+    "description": "Premier venue for research at the intersection of economics and computation. Covers market design, mechanism design, and algorithmic game theory.",
+    "category": "Conferences",
+    "url": "https://ec24.sigecom.org/",
+    "type": "Annual Conference",
+    "location": "Varies (2024: Yale)",
+    "dates": "July (Annual)",
+    "tags": ["Economics", "Computation", "Market Design", "ACM"]
   }
 ]

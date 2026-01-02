@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-01-01 (AI for Economists content expansion)
+- Added ~70 new entries for "AI for Economists" content across all data files
+- New paper topic: "AI for Economic Research" with 6 subtopics (LLMs, Homo Silicus, Causal ML, Text-as-Data, Satellite Imagery)
+- New packages: EDSL, Anthropic SDK, OpenAI SDK, NLTK, sentence-transformers, TensorFlow, 6 research tools (Elicit, Consensus, etc.)
+- Added Korinek, Horton, Athey, Dell, Gentzkow foundational papers
+- New resources: Stanford GSB ML course, AEA webcasts, prompt engineering guides, Korinek newsletter
+- New conferences: NBER Economics of AI, MLESI, SoFiE, ACM EC
+
 ## 2026-01-02
 - Integrated model_score into search as post-RRF boost (0.4 weight)
 - Added popularity boost toggle in search modal (📈 icon, default ON)

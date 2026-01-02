@@ -15610,5 +15610,25 @@
     "size_category": "massive",
     "geographic_scope": "US",
     "model_score": 0.0
+  },
+  {
+    "name": "World Bank Light Every Night",
+    "description": "30 years of nighttime satellite imagery (250 terabytes) from DMSP and VIIRS sensors. Foundational dataset for using lights as GDP proxy.",
+    "category": "Geospatial",
+    "url": "https://registry.opendata.aws/wb-light-every-night/",
+    "docs_url": "https://worldbank.github.io/OpenNightLights/welcome.html",
+    "github_url": "https://github.com/worldbank/OpenNightLights",
+    "tags": ["satellite", "nighttime-lights", "GDP", "development", "World Bank"],
+    "best_for": "Economic measurement using satellite imagery, development economics research"
+  },
+  {
+    "name": "Predicting Poverty Replication Data",
+    "description": "Satellite imagery and survey data from Jean et al. (Science 2016) for predicting poverty in African countries using deep learning.",
+    "category": "Geospatial",
+    "url": "https://github.com/nealjean/predicting-poverty",
+    "docs_url": null,
+    "github_url": "https://github.com/nealjean/predicting-poverty",
+    "tags": ["satellite", "poverty", "deep-learning", "Africa", "development"],
+    "best_for": "Replicating and extending satellite-based poverty prediction research"
   }
 ]

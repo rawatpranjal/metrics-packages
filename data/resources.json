@@ -19794,5 +19794,155 @@
       "advanced topics"
     ],
     "model_score": 0.0
+  },
+  {
+    "name": "Stanford GSB: Machine Learning & Causal Inference Short Course",
+    "description": "Free video course from Susan Athey, Jann Spiess, and Stefan Wager covering causal forests, double ML, and modern causal inference methods with R tutorials.",
+    "category": "Machine Learning",
+    "url": "https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil/research/methods/ai-machine-learning/short-course",
+    "type": "Course",
+    "level": "Medium",
+    "tags": ["Machine Learning", "Causal Inference", "R", "Stanford"],
+    "domain": "Causal ML"
+  },
+  {
+    "name": "AEA Continuing Education: ML and Econometrics (2018)",
+    "description": "9-part webcast series from Susan Athey and Guido Imbens on machine learning for economists. Freely available from the American Economic Association.",
+    "category": "Machine Learning",
+    "url": "https://www.aeaweb.org/conference/cont-ed/2018-webcasts",
+    "type": "Course",
+    "level": "Medium",
+    "tags": ["Machine Learning", "Econometrics", "AEA", "Webcast"],
+    "domain": "Economics"
+  },
+  {
+    "name": "Machine Learning for Economists (Hebrew University)",
+    "description": "Complete course materials from Itamar Caspi and Ariel Mansura with R and Python tutorials on ML methods for economic research.",
+    "category": "Machine Learning",
+    "url": "https://ml4econ.github.io/course-spring2019/",
+    "type": "Course",
+    "level": "Medium",
+    "tags": ["Machine Learning", "R", "Python", "Economics"],
+    "domain": "Economics"
+  },
+  {
+    "name": "QuantEcon: ML in Economics",
+    "description": "Interactive Python tutorials on machine learning for prediction and causal inference from the QuantEcon project.",
+    "category": "Machine Learning",
+    "url": "https://datascience.quantecon.org/applications/ml_in_economics.html",
+    "type": "Tutorial",
+    "level": "Medium",
+    "tags": ["Machine Learning", "Python", "Economics", "Interactive"],
+    "domain": "Economics"
+  },
+  {
+    "name": "NLP for Economists (MGSE)",
+    "description": "Munich Graduate School of Economics course on natural language processing methods for economics research by Sowmya Vajjala.",
+    "category": "Machine Learning",
+    "url": "https://econnlpcourse.github.io/",
+    "type": "Course",
+    "level": "Medium",
+    "tags": ["NLP", "Text Analysis", "Economics"],
+    "domain": "NLP"
+  },
+  {
+    "name": "DAIR.AI Prompt Engineering Guide",
+    "description": "Industry-standard open-source guide covering all prompting techniques for LLMs. Supports 13 languages with comprehensive coverage of chain-of-thought, few-shot, and advanced prompting methods.",
+    "category": "Machine Learning",
+    "url": "https://www.promptingguide.ai/",
+    "type": "Tutorial",
+    "level": "Easy",
+    "tags": ["LLM", "Prompt Engineering", "AI"],
+    "domain": "AI"
+  },
+  {
+    "name": "Anthropic Prompt Engineering Documentation",
+    "description": "Systematic approach to prompting Claude models effectively. Official documentation with best practices and examples.",
+    "category": "Machine Learning",
+    "url": "https://docs.anthropic.com/claude/docs/introduction-to-prompt-design",
+    "type": "Tutorial",
+    "level": "Easy",
+    "tags": ["LLM", "Claude", "Prompt Engineering"],
+    "domain": "AI"
+  },
+  {
+    "name": "EconDL: Deep Learning for Economists",
+    "description": "Companion website for Melissa Dell's JEL paper with demo notebooks, code examples, and tutorials on applying deep learning to economics research.",
+    "category": "Machine Learning",
+    "url": "https://econdl.github.io/",
+    "type": "Tutorial",
+    "level": "Medium",
+    "tags": ["Deep Learning", "Economics", "Notebooks"],
+    "domain": "Deep Learning"
+  },
+  {
+    "name": "Causal Inference: A Statistical Learning Approach",
+    "description": "Stefan Wager's free PDF textbook covering causal inference from a machine learning perspective with theoretical foundations and practical applications.",
+    "category": "Causal Inference & ML",
+    "url": "https://web.stanford.edu/~swager/causal_inf_book.pdf",
+    "type": "Online Book",
+    "level": "Hard",
+    "tags": ["Causal Inference", "Machine Learning", "Textbook", "Free"],
+    "domain": "Causal ML"
+  },
+  {
+    "name": "Applied Causal Inference Powered by ML and AI",
+    "description": "Chernozhukov et al. comprehensive textbook covering modern causal ML methods including double ML, causal forests, and policy learning.",
+    "category": "Causal Inference & ML",
+    "url": "https://causalml-book.org/",
+    "type": "Online Book",
+    "level": "Medium",
+    "tags": ["Causal Inference", "Machine Learning", "Textbook"],
+    "domain": "Causal ML"
+  },
+  {
+    "name": "GenAI for Econ Substack",
+    "description": "Anton Korinek's Substack newsletter with updates on LLM capabilities for economists and practical applications in research.",
+    "category": "Machine Learning",
+    "url": "https://genaiforecon.substack.com/",
+    "type": "Newsletter",
+    "level": "Easy",
+    "tags": ["LLM", "AI", "Economics", "Newsletter"],
+    "domain": "AI"
+  },
+  {
+    "name": "Anton Korinek Research",
+    "description": "Korinek's research page with all papers, updates, and resources on AI and economics including the evolving JEL paper series.",
+    "category": "Machine Learning",
+    "url": "https://www.korinek.com/research",
+    "type": "Blog",
+    "level": "Easy",
+    "tags": ["AI", "Economics", "Research"],
+    "domain": "AI"
+  },
+  {
+    "name": "Coding for Economists: NLP Chapter",
+    "description": "Arthur Turrell's comprehensive guide covering text-as-data methods, topic modeling, and NLP applications for economists.",
+    "category": "Machine Learning",
+    "url": "https://aeturrell.github.io/coding-for-economists/text-nlp.html",
+    "type": "Tutorial",
+    "level": "Medium",
+    "tags": ["NLP", "Python", "Economics", "Text Analysis"],
+    "domain": "NLP"
+  },
+  {
+    "name": "Dario Sansone's ML Resources for Economists",
+    "description": "Curated collection of machine learning resources specifically for economists including papers, code, and tutorials.",
+    "category": "Machine Learning",
+    "url": "https://sites.google.com/view/dariosansone/resources/machine-learning",
+    "type": "Blog",
+    "level": "Medium",
+    "tags": ["Machine Learning", "Economics", "Resources"],
+    "domain": "Economics"
+  },
+  {
+    "name": "IMF Machine Learning for Economists Course",
+    "description": "Course materials from Michal Andrle's IMF course on practical ML applications in economics and central banking.",
+    "category": "Machine Learning",
+    "url": "https://michalandrle.weebly.com/machine-learning-for-economists.html",
+    "type": "Course",
+    "level": "Medium",
+    "tags": ["Machine Learning", "IMF", "Central Banking"],
+    "domain": "Economics"
   }
 ]

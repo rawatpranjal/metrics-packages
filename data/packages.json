@@ -21846,5 +21846,211 @@
     ],
     "maintenance_status": "active",
     "model_score": 0.0
+  },
+  {
+    "name": "EDSL",
+    "description": "Expected Parrot Domain-Specific Language for designing and running LLM-powered surveys and experiments. Create AI agent personas with demographic traits for homo silicus research.",
+    "category": "Agentic AI",
+    "docs_url": "https://docs.expectedparrot.com",
+    "github_url": "https://github.com/expectedparrot/edsl",
+    "url": "https://www.expectedparrot.com/",
+    "install": "pip install edsl",
+    "tags": [
+      "LLM",
+      "surveys",
+      "experiments",
+      "homo-silicus",
+      "synthetic-agents"
+    ],
+    "best_for": "LLM-based surveys and simulated economic agents",
+    "language": "Python"
+  },
+  {
+    "name": "anthropic",
+    "description": "Official Python SDK for Claude and Anthropic's API. Build AI applications with Claude models.",
+    "category": "Agentic AI",
+    "docs_url": "https://docs.anthropic.com/",
+    "github_url": "https://github.com/anthropics/anthropic-sdk-python",
+    "url": "https://www.anthropic.com/",
+    "install": "pip install anthropic",
+    "tags": [
+      "LLM",
+      "Claude",
+      "API",
+      "Anthropic"
+    ],
+    "best_for": "Building applications with Claude models",
+    "language": "Python"
+  },
+  {
+    "name": "openai",
+    "description": "Official Python SDK for OpenAI's API. Access GPT-4, o1, DALL-E, embeddings, and other OpenAI models.",
+    "category": "Agentic AI",
+    "docs_url": "https://platform.openai.com/docs/",
+    "github_url": "https://github.com/openai/openai-python",
+    "url": "https://platform.openai.com/",
+    "install": "pip install openai",
+    "tags": [
+      "LLM",
+      "GPT",
+      "API",
+      "OpenAI",
+      "embeddings"
+    ],
+    "best_for": "Building applications with GPT and OpenAI models",
+    "language": "Python"
+  },
+  {
+    "name": "NLTK",
+    "description": "Natural Language Toolkit - comprehensive library for NLP research and education with 50+ corpora and lexical resources.",
+    "category": "Natural Language Processing for Economics",
+    "docs_url": "https://www.nltk.org/",
+    "github_url": "https://github.com/nltk/nltk",
+    "url": "https://www.nltk.org/",
+    "install": "pip install nltk",
+    "tags": [
+      "NLP",
+      "text-analysis",
+      "corpora",
+      "tokenization"
+    ],
+    "best_for": "NLP research, text preprocessing, educational use",
+    "language": "Python"
+  },
+  {
+    "name": "sentence-transformers",
+    "description": "Framework for state-of-the-art sentence, text and image embeddings. Powers semantic search and similarity applications.",
+    "category": "Natural Language Processing for Economics",
+    "docs_url": "https://www.sbert.net/",
+    "github_url": "https://github.com/UKPLab/sentence-transformers",
+    "url": "https://www.sbert.net/",
+    "install": "pip install sentence-transformers",
+    "tags": [
+      "embeddings",
+      "semantic-search",
+      "NLP",
+      "transformers"
+    ],
+    "best_for": "Sentence embeddings, semantic similarity, document search",
+    "language": "Python"
+  },
+  {
+    "name": "TensorFlow",
+    "description": "Google's end-to-end open-source machine learning platform. Build and deploy ML models at scale.",
+    "category": "Machine Learning",
+    "docs_url": "https://www.tensorflow.org/api_docs",
+    "github_url": "https://github.com/tensorflow/tensorflow",
+    "url": "https://www.tensorflow.org/",
+    "install": "pip install tensorflow",
+    "tags": [
+      "deep-learning",
+      "neural-networks",
+      "machine-learning",
+      "Google"
+    ],
+    "best_for": "Deep learning, neural networks, production ML systems",
+    "language": "Python"
+  },
+  {
+    "name": "Elicit",
+    "description": "AI research assistant that automates literature review across 126M+ academic papers. 99%+ accuracy in data extraction from research papers.",
+    "category": "Research Tools",
+    "docs_url": null,
+    "github_url": null,
+    "url": "https://elicit.com/",
+    "install": null,
+    "tags": [
+      "literature-review",
+      "research",
+      "AI-assistant",
+      "academic"
+    ],
+    "best_for": "Automated literature search and paper summarization",
+    "language": "Web"
+  },
+  {
+    "name": "Consensus",
+    "description": "AI-powered academic search engine providing evidence-based answers from peer-reviewed literature with economics specialty.",
+    "category": "Research Tools",
+    "docs_url": null,
+    "github_url": null,
+    "url": "https://consensus.app/",
+    "install": null,
+    "tags": [
+      "literature-review",
+      "research",
+      "evidence-based",
+      "academic"
+    ],
+    "best_for": "Finding research consensus on economic questions",
+    "language": "Web"
+  },
+  {
+    "name": "Semantic Scholar API",
+    "description": "AI-powered research tool with 200M+ papers indexed. Free API access for academic paper search and citation analysis.",
+    "category": "Research Tools",
+    "docs_url": "https://api.semanticscholar.org/",
+    "github_url": null,
+    "url": "https://www.semanticscholar.org/",
+    "install": "pip install semanticscholar",
+    "tags": [
+      "literature-review",
+      "API",
+      "citations",
+      "academic"
+    ],
+    "best_for": "Programmatic access to academic paper metadata and citations",
+    "language": "Python"
+  },
+  {
+    "name": "Research Rabbit",
+    "description": "Free tool for discovering academic papers through network visualization of paper connections and co-authorships.",
+    "category": "Research Tools",
+    "docs_url": null,
+    "github_url": null,
+    "url": "https://www.researchrabbit.ai/",
+    "install": null,
+    "tags": [
+      "literature-review",
+      "visualization",
+      "discovery",
+      "academic"
+    ],
+    "best_for": "Discovering related papers through citation networks",
+    "language": "Web"
+  },
+  {
+    "name": "Connected Papers",
+    "description": "Visual tool for exploring academic paper relationships. Creates visual graphs showing prior and derivative works.",
+    "category": "Research Tools",
+    "docs_url": null,
+    "github_url": null,
+    "url": "https://www.connectedpapers.com/",
+    "install": null,
+    "tags": [
+      "literature-review",
+      "visualization",
+      "citations",
+      "academic"
+    ],
+    "best_for": "Visualizing citation relationships between papers",
+    "language": "Web"
+  },
+  {
+    "name": "Google NotebookLM",
+    "description": "AI-powered research notebook that auto-generates podcasts and summaries from uploaded research papers and documents.",
+    "category": "Research Tools",
+    "docs_url": null,
+    "github_url": null,
+    "url": "https://notebooklm.google.com/",
+    "install": null,
+    "tags": [
+      "research",
+      "AI-assistant",
+      "summarization",
+      "podcasts"
+    ],
+    "best_for": "Synthesizing and discussing research materials",
+    "language": "Web"
   }
 ]

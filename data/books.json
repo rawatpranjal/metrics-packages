@@ -3769,5 +3769,38 @@
       "Ability to apply measurement techniques"
     ],
     "model_score": 0.0
+  },
+  {
+    "name": "Machine Learning for Economics and Finance in TensorFlow 2",
+    "author": "Isaiah Hull",
+    "year": 2021,
+    "isbn": "978-1484263723",
+    "description": "Applied ML for economists using TensorFlow. Covers portfolio choice, asset pricing, structural estimation, and macroeconomic applications.",
+    "category": "Machine Learning",
+    "type": "Book",
+    "url": "https://link.springer.com/book/10.1007/978-1-4842-6373-0",
+    "tags": ["Machine Learning", "TensorFlow", "Economics", "Finance"]
+  },
+  {
+    "name": "Business Data Science",
+    "author": "Matt Taddy",
+    "year": 2019,
+    "isbn": "978-1260452778",
+    "description": "Combining machine learning and economics for applied business problems. Written by former Amazon Chief Economist covering causal inference, experiments, and ML.",
+    "category": "Machine Learning",
+    "type": "Book",
+    "url": "https://www.amazon.com/Business-Data-Science-Combining-Accelerate/dp/1260452778",
+    "tags": ["Machine Learning", "Business Analytics", "Causal Inference"]
+  },
+  {
+    "name": "Causal Inference and Machine Learning for Economists",
+    "author": "Mehmet Yuksel, Mehdi Aydede",
+    "year": 2025,
+    "isbn": "978-1032679259",
+    "description": "Modern treatment of causal ML methods for economists. Free HTML version available online at causalmlbook.com.",
+    "category": "Machine Learning",
+    "type": "Book",
+    "url": "https://www.causalmlbook.com/",
+    "tags": ["Machine Learning", "Causal Inference", "Econometrics", "Free"]
   }
 ]

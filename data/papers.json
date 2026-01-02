@@ -55889,6 +55889,306 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ai-for-economic-research",
+      "name": "AI for Economic Research",
+      "description": "Large language models, synthetic agents, and AI tools transforming how economists conduct research",
+      "image_url": "/images/topics/ai-research.webp",
+      "subtopics": [
+        {
+          "id": "llms-for-economic-research",
+          "name": "LLMs for Economic Research",
+          "application": "Using large language models to augment ideation, writing, coding, and data analysis in economics",
+          "papers": [
+            {
+              "title": "Generative AI for Economic Research: Use Cases and Implications for Economists",
+              "authors": "Anton Korinek",
+              "year": 2023,
+              "tag": "Survey",
+              "description": "The foundational paper describing dozens of LLM use cases across six domains: ideation/feedback, writing, background research, data analysis, coding, and mathematical derivations. Published in Journal of Economic Literature.",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/jel.20231736",
+              "tags": ["AI for Economic Research", "LLMs"],
+              "citations": 150
+            },
+            {
+              "title": "AI Agents for Economic Research",
+              "authors": "Anton Korinek",
+              "year": 2025,
+              "tag": "SOTA",
+              "description": "NBER Working Paper 34202. Demystifies autonomous AI agents for multi-step research tasks, including 'vibe coding' with Claude Code and building research assistants with LangGraph.",
+              "url": "https://www.nber.org/papers/w34202",
+              "tags": ["AI for Economic Research", "LLMs", "AI Agents"],
+              "citations": 0
+            },
+            {
+              "title": "Large Language Models: An Applied Econometric Framework",
+              "authors": "Jens Ludwig, Sendhil Mullainathan, Ashesh Rambachan",
+              "year": 2024,
+              "tag": "Methodological",
+              "description": "Framework for valid LLM use in empirical research. Addresses when and how LLMs can be appropriately used for econometric analysis.",
+              "url": "https://arxiv.org/abs/2412.07031v1",
+              "tags": ["AI for Economic Research", "LLMs", "Econometrics"],
+              "citations": 5
+            },
+            {
+              "title": "Large Language Models: A Primer for Economists",
+              "authors": "Byeongwoo Kwon, Hyunju Lee, Patrick McSharry, Junmo Seong, Henry Wai-chung Yeung",
+              "year": 2024,
+              "tag": "Survey",
+              "description": "BIS Quarterly Review. 16-page primer with GitHub code for central banking applications of LLMs.",
+              "url": "https://www.bis.org/publ/qtrpdf/r_qt2412b.htm",
+              "tags": ["AI for Economic Research", "LLMs", "Central Banking"],
+              "citations": 3
+            },
+            {
+              "title": "How to Learn and Teach Economics with Large Language Models",
+              "authors": "Tyler Cowen, Alex Tabarrok",
+              "year": 2023,
+              "tag": "Survey",
+              "description": "Practical guide for GPT use in economics education from two prominent economists.",
+              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4391863",
+              "tags": ["AI for Economic Research", "LLMs", "Education"],
+              "citations": 45
+            }
+          ]
+        },
+        {
+          "id": "synthetic-agents-homo-silicus",
+          "name": "Synthetic Agents & Homo Silicus",
+          "application": "Using LLMs as computational models of humans for economic experiments and simulations",
+          "papers": [
+            {
+              "title": "Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?",
+              "authors": "John J. Horton, Apostolos Filippas, Benjamin S. Manning",
+              "year": 2023,
+              "tag": "Classic",
+              "description": "Foundational paper introducing homo silicus—using LLMs as implicit computational models of humans. Replicates classic experiments from Charness & Rabin (2002), Kahneman et al. (1986), finding qualitatively similar results. Published in ACM EC'24.",
+              "url": "https://www.nber.org/papers/w31122",
+              "tags": ["AI for Economic Research", "Synthetic Agents", "Behavioral Economics"],
+              "citations": 250
+            },
+            {
+              "title": "Automated Social Science: Language Models as Scientist and Subjects",
+              "authors": "Benjamin S. Manning, Kehang Zhu, John J. Horton",
+              "year": 2024,
+              "tag": "SOTA",
+              "description": "NBER Working Paper 32381. Framework using LLMs to both generate research hypotheses and serve as experimental subjects.",
+              "url": "https://www.nber.org/papers/w32381",
+              "tags": ["AI for Economic Research", "Synthetic Agents", "Automation"],
+              "citations": 20
+            },
+            {
+              "title": "Out of One, Many: Using Language Models to Simulate Human Samples",
+              "authors": "Lisa P. Argyle, Ethan C. Busby, Nancy Fulda, Joshua R. Gubler, Christopher Rytting, David Wingate",
+              "year": 2023,
+              "tag": "Methodological",
+              "description": "Introduces 'silicon sampling'—conditioning LLMs with demographic backstories to simulate subpopulation opinions. Develops 'algorithmic fidelity' concept measuring simulation accuracy. Published in Political Analysis.",
+              "url": "https://www.cambridge.org/core/journals/political-analysis/article/out-of-one-many-using-language-models-to-simulate-human-samples/035D7C8A55B237942FB6DBAD7CAA4E49",
+              "tags": ["AI for Economic Research", "Synthetic Agents", "Survey Methods"],
+              "citations": 180
+            },
+            {
+              "title": "Synthetic Replacements for Human Survey Data? The Perils of Large Language Models",
+              "authors": "James Bisbee, Joshua D. Clinton, Cassy Dorff, Brenton Kenkel, Jennifer Larson",
+              "year": 2024,
+              "tag": "Methodological",
+              "description": "Critical validation study: 48% of regression coefficients differ significantly from human data; 32% sign flips. Important cautionary findings.",
+              "url": "https://www.cambridge.org/core/journals/political-analysis/article/synthetic-replacements-for-human-survey-data-the-perils-of-large-language-models/8BB87E2F7BFBF58BA5BDE8A5AC48F95B",
+              "tags": ["AI for Economic Research", "Synthetic Agents", "Validation"],
+              "citations": 35
+            },
+            {
+              "title": "Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives",
+              "authors": "Chen Gao, Xiaochong Lan, Nian Li, Yuan Yuan, Jingtao Ding, Zhilun Zhou, Fengli Xu, Yong Li",
+              "year": 2024,
+              "tag": "Survey",
+              "description": "Comprehensive survey covering agent design, environment construction, and personalization for LLM-based simulations. Published in Nature Humanities and Social Sciences Communications.",
+              "url": "https://www.nature.com/articles/s41599-024-03611-3",
+              "tags": ["AI for Economic Research", "Agent-Based Modeling", "LLMs"],
+              "citations": 85
+            }
+          ]
+        },
+        {
+          "id": "ml-methods-for-economists",
+          "name": "ML Methods for Economists",
+          "application": "Foundational papers on integrating machine learning with economic research methodology",
+          "papers": [
+            {
+              "title": "Machine Learning: An Applied Econometric Approach",
+              "authors": "Sendhil Mullainathan, Jann Spiess",
+              "year": 2017,
+              "tag": "Classic",
+              "description": "THE foundational paper explaining ML's role in economics: ML solves prediction problems while economics focuses on parameter estimation. Over 1,500 citations. Published in Journal of Economic Perspectives.",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/jep.31.2.87",
+              "tags": ["Machine Learning", "Econometrics"],
+              "citations": 1500
+            },
+            {
+              "title": "Machine Learning Methods That Economists Should Know About",
+              "authors": "Susan Athey, Guido W. Imbens",
+              "year": 2019,
+              "tag": "Survey",
+              "description": "Comprehensive review including supervised/unsupervised learning, matrix completion, and ML-econometrics methods. Published in Annual Review of Economics.",
+              "url": "https://www.annualreviews.org/doi/10.1146/annurev-economics-080217-053433",
+              "tags": ["Machine Learning", "Econometrics"],
+              "citations": 1200
+            },
+            {
+              "title": "Deep Learning for Economists",
+              "authors": "Melissa Dell",
+              "year": 2025,
+              "tag": "Survey",
+              "description": "Comprehensive tutorial on classifiers, regression models, generative AI, and embedding models with demo notebooks. Published in Journal of Economic Literature. Companion site: econdl.github.io",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/jel.20241733",
+              "tags": ["Deep Learning", "Machine Learning", "Tutorial"],
+              "citations": 15
+            },
+            {
+              "title": "Machine Learning as a Tool for Hypothesis Generation",
+              "authors": "Jens Ludwig, Sendhil Mullainathan",
+              "year": 2024,
+              "tag": "Methodological",
+              "description": "Systematic ML procedure for generating novel hypotheses. Application: defendant mugshots explain ~50% of predictable variation in judge decisions. Published in Quarterly Journal of Economics.",
+              "url": "https://academic.oup.com/qje/article-abstract/139/2/751/7515309",
+              "tags": ["Machine Learning", "Hypothesis Generation"],
+              "citations": 50
+            }
+          ]
+        },
+        {
+          "id": "causal-machine-learning",
+          "name": "Causal Machine Learning",
+          "application": "ML methods for heterogeneous treatment effects and causal inference",
+          "papers": [
+            {
+              "title": "Recursive Partitioning for Heterogeneous Causal Effects",
+              "authors": "Susan Athey, Guido Imbens",
+              "year": 2016,
+              "tag": "Classic",
+              "description": "Introduces 'honest' causal trees using sample splitting. Published in PNAS.",
+              "url": "https://www.pnas.org/doi/10.1073/pnas.1510489113",
+              "tags": ["Causal Inference", "Machine Learning", "Heterogeneous Effects"],
+              "citations": 1800
+            },
+            {
+              "title": "Estimation and Inference of Heterogeneous Treatment Effects using Random Forests",
+              "authors": "Stefan Wager, Susan Athey",
+              "year": 2018,
+              "tag": "Classic",
+              "description": "Develops causal forests with asymptotic theory and valid confidence intervals. Published in JASA.",
+              "url": "https://www.tandfonline.com/doi/full/10.1080/01621459.2017.1319839",
+              "tags": ["Causal Inference", "Machine Learning", "Random Forests"],
+              "citations": 2500
+            },
+            {
+              "title": "Generalized Random Forests",
+              "authors": "Susan Athey, Julie Tibshirani, Stefan Wager",
+              "year": 2019,
+              "tag": "Classic",
+              "description": "Framework extending random forests to solve local moment equations. Published in Annals of Statistics.",
+              "url": "https://projecteuclid.org/journals/annals-of-statistics/volume-47/issue-2/Generalized-random-forests/10.1214/18-AOS1709.full",
+              "tags": ["Causal Inference", "Machine Learning", "Random Forests"],
+              "citations": 1100
+            },
+            {
+              "title": "Double/Debiased Machine Learning for Treatment and Structural Parameters",
+              "authors": "Victor Chernozhukov, Denis Chetverikov, Mert Demirer, Esther Duflo, Christian Hansen, Whitney Newey, James Robins",
+              "year": 2018,
+              "tag": "Classic",
+              "description": "Establishes Double ML using Neyman orthogonal scores and cross-fitting. Published in The Econometrics Journal.",
+              "url": "https://academic.oup.com/ectj/article/21/1/C1/5056401",
+              "tags": ["Causal Inference", "Machine Learning", "Double ML"],
+              "citations": 2200
+            }
+          ]
+        },
+        {
+          "id": "text-as-data",
+          "name": "Text as Data",
+          "application": "NLP and text analysis methods for economic research",
+          "papers": [
+            {
+              "title": "Text as Data",
+              "authors": "Matthew Gentzkow, Bryan Kelly, Matt Taddy",
+              "year": 2019,
+              "tag": "Survey",
+              "description": "THE seminal survey providing introduction to text-as-data methods in economics. Published in Journal of Economic Literature.",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/jel.20181020",
+              "tags": ["NLP", "Text Analysis", "Econometrics"],
+              "citations": 900
+            },
+            {
+              "title": "Measuring Group Differences in High-Dimensional Choices: Method and Application to Congressional Speech",
+              "authors": "Matthew Gentzkow, Jesse M. Shapiro, Matt Taddy",
+              "year": 2019,
+              "tag": "Methodological",
+              "description": "ML methodology for measuring partisanship in congressional speech (1873-2016). Published in Econometrica.",
+              "url": "https://www.econometricsociety.org/publications/econometrica/2019/07/01/measuring-group-differences-high-dimensional-choices-method-and",
+              "tags": ["NLP", "Text Analysis", "Political Economy"],
+              "citations": 400
+            },
+            {
+              "title": "Text Algorithms in Economics",
+              "authors": "Elliott Ash, Stephen Hansen",
+              "year": 2023,
+              "tag": "Survey",
+              "description": "Overview covering word embeddings, topic models, and transformers for economics research. Published in Annual Review of Economics.",
+              "url": "https://www.annualreviews.org/doi/10.1146/annurev-economics-082222-074352",
+              "tags": ["NLP", "Text Analysis", "Machine Learning"],
+              "citations": 75
+            }
+          ]
+        },
+        {
+          "id": "satellite-imagery-computer-vision",
+          "name": "Satellite Imagery & Computer Vision",
+          "application": "Using satellite and street-level imagery to measure economic activity",
+          "papers": [
+            {
+              "title": "Measuring Economic Growth from Outer Space",
+              "authors": "J. Vernon Henderson, Adam Storeygard, David N. Weil",
+              "year": 2012,
+              "tag": "Classic",
+              "description": "Foundational paper using nighttime lights to proxy GDP. For poor-data countries, optimal growth estimate weights lights equally with official statistics. Published in American Economic Review.",
+              "url": "https://www.aeaweb.org/articles?id=10.1257/aer.102.2.994",
+              "tags": ["Computer Vision", "Satellite Imagery", "Development"],
+              "citations": 2800
+            },
+            {
+              "title": "Combining Satellite Imagery and Machine Learning to Predict Poverty",
+              "authors": "Neal Jean, Marshall Burke, Michael Xie, W. Matthew Davis, David B. Lobell, Stefano Ermon",
+              "year": 2016,
+              "tag": "Classic",
+              "description": "Landmark study: CNNs trained on satellite imagery explain 75% of variation in local economic outcomes across 5 African countries. Published in Science.",
+              "url": "https://www.science.org/doi/10.1126/science.aaf7894",
+              "tags": ["Computer Vision", "Deep Learning", "Poverty"],
+              "citations": 2100
+            },
+            {
+              "title": "Using Publicly Available Satellite Imagery and Deep Learning to Understand Economic Well-Being in Africa",
+              "authors": "Christopher Yeh, Anthony Perez, Anne Driscoll, George Azzari, Zhongyi Tang, David Lobell, Stefano Ermon, Marshall Burke",
+              "year": 2020,
+              "tag": "SOTA",
+              "description": "Models predict 70% of variation in village wealth across held-out African countries. Published in Nature Communications.",
+              "url": "https://www.nature.com/articles/s41467-020-16185-w",
+              "tags": ["Computer Vision", "Deep Learning", "Development"],
+              "citations": 450
+            },
+            {
+              "title": "Using Deep Learning and Google Street View to Estimate the Demographic Makeup of Neighborhoods across the United States",
+              "authors": "Timnit Gebru, Jonathan Krause, Yilun Wang, Duyun Chen, Jia Deng, Erez Lieberman Aiden, Li Fei-Fei",
+              "year": 2017,
+              "tag": "Classic",
+              "description": "Car detection infers income, race, voting patterns from 50M Google Street View images. Published in PNAS.",
+              "url": "https://www.pnas.org/doi/10.1073/pnas.1700035114",
+              "tags": ["Computer Vision", "Deep Learning", "Demographics"],
+              "citations": 650
+            }
+          ]
+        }
+      ]
     }
   ]
 }
