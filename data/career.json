@@ -46,7 +46,7 @@
     "company_context": [
       "startup"
     ],
-    "model_score": 0.3994
+    "model_score": 0.3294
   },
   {
     "name": "Ace the Data Science Interview",
@@ -96,7 +96,7 @@
       "FAANG",
       "startup"
     ],
-    "model_score": 0.1992
+    "model_score": 0.156
   },
   {
     "name": "Nick Singh's 40 Stats Questions",
@@ -143,42 +143,7 @@
       "FAANG",
       "Wall-Street"
     ],
-    "model_score": 0.1992
-  },
-  {
-    "name": "Statsig",
-    "description": "Career portal",
-    "stage": "Discovery",
-    "category": "Company Lists",
-    "url": "https://www.statsig.com/careers",
-    "type": "Career Portal",
-    "tags": [
-      "experimentation",
-      "a-b-testing"
-    ],
-    "section": "companies",
-    "sector": "saas",
-    "tab": "find-jobs",
-    "subtab": "companies",
-    "vertical": "experimentation",
-    "difficulty": "beginner",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "Statsig serves as a career portal that provides resources and information for individuals looking to advance their careers in tech. It focuses on experimentation and A/B testing, which can be beneficial for those interested in data-driven decision-making.",
-    "use_cases": [],
-    "audience": [],
-    "synthetic_questions": [
-      "What are the best practices for A/B testing?",
-      "How can experimentation improve my career prospects?",
-      "What resources are available for learning about data science?",
-      "How do I prepare for a job in tech?",
-      "What skills are needed for a career in experimentation?",
-      "What are the latest trends in A/B testing?",
-      "How can I leverage data in my job search?",
-      "What companies are known for their experimentation culture?"
-    ],
-    "experience_level": "entry",
-    "model_score": 0.0391
+    "model_score": 0.156
   },
   {
     "name": "Shopee",
@@ -223,50 +188,7 @@
     "company_context": [
       "startup"
     ],
-    "model_score": 0.015
-  },
-  {
-    "name": "Made With ML",
-    "description": "47 free lessons covering complete ML lifecycle: product design, data prep, feature engineering, training, serving, monitoring, CI/CD, testing. 30k GitHub stars. Includes working code from laptop to distributed cluster.",
-    "url": "https://madewithml.com/courses/mlops/",
-    "type": "Course",
-    "tab": "interview",
-    "subtab": "ml-systems",
-    "category": "ML System Design",
-    "tags": [
-      "free",
-      "30k-stars",
-      "MLOps"
-    ],
-    "difficulty": "beginner|intermediate",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "Made With ML provides a comprehensive set of lessons that guide learners through the entire machine learning lifecycle, from product design to monitoring. It is an excellent resource for those looking to understand the practical aspects of MLOps and ML system design.",
-    "use_cases": [
-      "When learning about the ML lifecycle",
-      "For practical implementation of MLOps concepts"
-    ],
-    "audience": [
-      "Junior-DS",
-      "Mid-DS",
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "What are the key steps in the ML lifecycle?",
-      "How can I prepare data for machine learning?",
-      "What is MLOps and why is it important?",
-      "How do I implement CI/CD in machine learning projects?",
-      "What are the best practices for feature engineering?",
-      "How can I monitor machine learning models in production?",
-      "What tools are available for distributed machine learning?",
-      "How do I test machine learning models effectively?"
-    ],
-    "role_type": [
-      "ML-engineer",
-      "data-scientist"
-    ],
-    "experience_level": "entry|mid",
-    "model_score": 0.0023
+    "model_score": 0.0963
   },
   {
     "name": "Flipkart",
@@ -311,51 +233,50 @@
     "company_context": [
       "e-commerce"
     ],
-    "model_score": 0.0019
+    "model_score": 0.0573
   },
   {
-    "name": "StatQuest with Josh Starmer",
-    "description": "Best resource for econ PhDs learning ML. Bias-variance, regularization, ensemble methods explained accessibly.",
-    "stage": "Interview Prep",
-    "category": "ML Fundamentals",
-    "url": "https://www.youtube.com/@statquest",
-    "type": "Video",
-    "tags": [
-      "visual-learning",
-      "beginner-friendly"
-    ],
-    "section": "interview",
+    "name": "Made With ML",
+    "description": "47 free lessons covering complete ML lifecycle: product design, data prep, feature engineering, training, serving, monitoring, CI/CD, testing. 30k GitHub stars. Includes working code from laptop to distributed cluster.",
+    "url": "https://madewithml.com/courses/mlops/",
+    "type": "Course",
     "tab": "interview",
-    "subtab": "ml-fundamentals",
-    "archived": true,
-    "difficulty": "beginner",
+    "subtab": "ml-systems",
+    "category": "ML System Design",
+    "tags": [
+      "free",
+      "30k-stars",
+      "MLOps"
+    ],
+    "difficulty": "beginner|intermediate",
     "prerequisites": [],
     "topic_tags": [],
-    "summary": "StatQuest with Josh Starmer provides accessible explanations of key machine learning concepts such as bias-variance, regularization, and ensemble methods, making it an excellent resource for econ PhDs looking to learn ML. The content is tailored to help beginners grasp complex topics in a straightforward manner.",
+    "summary": "Made With ML provides a comprehensive set of lessons that guide learners through the entire machine learning lifecycle, from product design to monitoring. It is an excellent resource for those looking to understand the practical aspects of MLOps and ML system design.",
     "use_cases": [
-      "when starting to learn machine learning concepts",
-      "to clarify complex ML topics"
+      "When learning about the ML lifecycle",
+      "For practical implementation of MLOps concepts"
     ],
     "audience": [
-      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS",
       "Curious-browser"
     ],
     "synthetic_questions": [
-      "What are the best resources for learning machine learning as an economist?",
-      "How can I understand bias-variance tradeoff in machine learning?",
-      "What are ensemble methods in machine learning?",
-      "What is regularization and why is it important in ML?",
-      "Where can I find beginner-friendly ML tutorials?",
-      "How can econ PhDs transition to data science roles?",
-      "What are the key concepts in machine learning that I should learn first?",
-      "What resources are available for visual learning in ML?"
+      "What are the key steps in the ML lifecycle?",
+      "How can I prepare data for machine learning?",
+      "What is MLOps and why is it important?",
+      "How do I implement CI/CD in machine learning projects?",
+      "What are the best practices for feature engineering?",
+      "How can I monitor machine learning models in production?",
+      "What tools are available for distributed machine learning?",
+      "How do I test machine learning models effectively?"
     ],
     "role_type": [
-      "data-scientist",
-      "economist"
+      "ML-engineer",
+      "data-scientist"
     ],
-    "experience_level": "entry",
-    "model_score": 0.0005
+    "experience_level": "entry|mid",
+    "model_score": 0.0009
   },
   {
     "name": "Netflix: Experimentation Focus",
@@ -402,6 +323,90 @@
     "company_context": [
       "FAANG"
     ],
+    "model_score": 0.0004
+  },
+  {
+    "name": "StatQuest with Josh Starmer",
+    "description": "Best resource for econ PhDs learning ML. Bias-variance, regularization, ensemble methods explained accessibly.",
+    "stage": "Interview Prep",
+    "category": "ML Fundamentals",
+    "url": "https://www.youtube.com/@statquest",
+    "type": "Video",
+    "tags": [
+      "visual-learning",
+      "beginner-friendly"
+    ],
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "ml-fundamentals",
+    "archived": true,
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "StatQuest with Josh Starmer provides accessible explanations of key machine learning concepts such as bias-variance, regularization, and ensemble methods, making it an excellent resource for econ PhDs looking to learn ML. The content is tailored to help beginners grasp complex topics in a straightforward manner.",
+    "use_cases": [
+      "when starting to learn machine learning concepts",
+      "to clarify complex ML topics"
+    ],
+    "audience": [
+      "Early-PhD",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are the best resources for learning machine learning as an economist?",
+      "How can I understand bias-variance tradeoff in machine learning?",
+      "What are ensemble methods in machine learning?",
+      "What is regularization and why is it important in ML?",
+      "Where can I find beginner-friendly ML tutorials?",
+      "How can econ PhDs transition to data science roles?",
+      "What are the key concepts in machine learning that I should learn first?",
+      "What resources are available for visual learning in ML?"
+    ],
+    "role_type": [
+      "data-scientist",
+      "economist"
+    ],
+    "experience_level": "entry",
+    "model_score": 0.0003
+  },
+  {
+    "name": "Google Research Careers",
+    "description": "Research environment with focus on product impact at Google.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://research.google/careers/",
+    "type": "Career Portal",
+    "tags": [
+      "Google",
+      "research"
+    ],
+    "archived": true,
+    "difficulty": null,
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "Google Research Careers provides insights into working in a research environment that emphasizes product impact. It offers guidance for individuals interested in pursuing a career in research at Google.",
+    "use_cases": [
+      "when considering a career in research at Google"
+    ],
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is it like to work in research at Google?",
+      "What skills are needed for a research career?",
+      "How does research impact product development at Google?",
+      "What are the career paths in Google Research?",
+      "What is the work culture like in Google Research?",
+      "How can I prepare for a research role at Google?",
+      "What are the benefits of working in research at Google?",
+      "What types of projects are undertaken in Google Research?"
+    ],
+    "role_type": [
+      "research"
+    ],
+    "company_context": [
+      "FAANG"
+    ],
     "model_score": 0.0003
   },
   {
@@ -444,47 +449,7 @@
       "data-scientist"
     ],
     "experience_level": "mid|senior",
-    "model_score": 0.0002
-  },
-  {
-    "name": "Google Research Careers",
-    "description": "Research environment with focus on product impact at Google.",
-    "stage": "Strategy",
-    "category": "Role Landscape",
-    "url": "https://research.google/careers/",
-    "type": "Career Portal",
-    "tags": [
-      "Google",
-      "research"
-    ],
-    "archived": true,
-    "difficulty": null,
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "Google Research Careers provides insights into working in a research environment that emphasizes product impact. It offers guidance for individuals interested in pursuing a career in research at Google.",
-    "use_cases": [
-      "when considering a career in research at Google"
-    ],
-    "audience": [
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "What is it like to work in research at Google?",
-      "What skills are needed for a research career?",
-      "How does research impact product development at Google?",
-      "What are the career paths in Google Research?",
-      "What is the work culture like in Google Research?",
-      "How can I prepare for a research role at Google?",
-      "What are the benefits of working in research at Google?",
-      "What types of projects are undertaken in Google Research?"
-    ],
-    "role_type": [
-      "research"
-    ],
-    "company_context": [
-      "FAANG"
-    ],
-    "model_score": 0.0002
+    "model_score": 0.0001
   },
   {
     "name": "ACM EC Conference",
@@ -527,397 +492,6 @@
       "economist"
     ],
     "experience_level": "entry",
-    "model_score": 0.0001
-  },
-  {
-    "name": "DataLemur SQL",
-    "description": "Free SQL practice with FAANG questions. Created by ex-Facebook authors of Ace the Data Science Interview.",
-    "stage": "Interview Prep",
-    "category": "SQL & Data",
-    "url": "https://datalemur.com/",
-    "type": "Practice",
-    "tags": [
-      "FAANG",
-      "beginner-friendly"
-    ],
-    "section": "interview",
-    "tab": "interview",
-    "subtab": "sql",
-    "difficulty": "beginner",
-    "prerequisites": [],
-    "topic_tags": [
-      "interview-prep"
-    ],
-    "summary": "DataLemur SQL offers free SQL practice specifically designed to help users prepare for FAANG interviews. It is created by experienced authors from Facebook, making it a valuable resource for those looking to enhance their SQL skills.",
-    "use_cases": [
-      "when preparing for FAANG interviews",
-      "to practice SQL skills",
-      "to gain confidence in SQL for job applications"
-    ],
-    "audience": [
-      "Junior-DS",
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "How can I practice SQL for FAANG interviews?",
-      "What are some beginner-friendly SQL resources?",
-      "How do I prepare for data science interviews?",
-      "What types of questions are asked in SQL interviews?",
-      "Where can I find free SQL practice?",
-      "What is the best way to learn SQL for data science?",
-      "How important is SQL for data science roles?",
-      "What should I focus on when preparing for SQL interviews?"
-    ],
-    "role_type": [
-      "data-scientist"
-    ],
-    "experience_level": "entry",
-    "company_context": [
-      "FAANG"
-    ],
-    "model_score": 0.0001
-  },
-  {
-    "name": "Yuan Meng's Causal Inference in Data Science",
-    "description": "Most interview-relevant causal inference guide. Tech company case studies: switchback (DoorDash), DiD (Meta), synthetic control (Uber), RDD (DoorDash). By ML Engineer at DoorDash with Berkeley PhD.",
-    "stage": "Interview Prep",
-    "category": "Causal Inference",
-    "url": "https://www.yuan-meng.com/posts/causality/causality/",
-    "type": "Blog",
-    "tags": [
-      "DiD",
-      "synthetic-control",
-      "RDD",
-      "propensity-scores",
-      "tech-examples"
-    ],
-    "section": "interview",
-    "tab": "interview",
-    "subtab": "causal-inference",
-    "difficulty": "intermediate",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "This resource provides a comprehensive guide to causal inference relevant for tech interviews, featuring case studies from notable companies. It is especially useful for those preparing for data science roles in tech.",
-    "use_cases": [
-      "when preparing for data science interviews",
-      "when studying causal inference techniques",
-      "when looking for real-world examples in tech"
-    ],
-    "audience": [
-      "Junior-DS",
-      "Mid-DS",
-      "Senior-DS"
-    ],
-    "synthetic_questions": [
-      "What is causal inference?",
-      "How do I prepare for a data science interview?",
-      "What are common causal inference techniques?",
-      "What case studies should I review for tech interviews?",
-      "How does RDD work in practice?",
-      "What is the importance of DiD in causal analysis?",
-      "How can I apply synthetic control methods?",
-      "What are the best resources for learning causal inference?"
-    ],
-    "role_type": [
-      "data-scientist",
-      "ML-engineer"
-    ],
-    "experience_level": "mid",
-    "company_context": [
-      "tech"
-    ],
-    "model_score": 0.0001
-  },
-  {
-    "name": "DataLemur Meta DS Guide",
-    "description": "31 leaked Meta interview questions. Product sense and SQL focus.",
-    "stage": "Interview Prep",
-    "category": "Product Sense",
-    "url": "https://datalemur.com/blog/meta-data-scientist-interview-guide",
-    "type": "Guide",
-    "tags": [
-      "Meta",
-      "real-questions"
-    ],
-    "section": "interview",
-    "tab": "interview",
-    "subtab": "product",
-    "difficulty": "intermediate",
-    "prerequisites": [],
-    "topic_tags": [
-      "interview-prep"
-    ],
-    "summary": "This resource provides insights into the types of interview questions candidates may face when applying for positions at Meta, with a focus on product sense and SQL skills. It is designed to help candidates prepare effectively for their interviews.",
-    "use_cases": [
-      "when preparing for Meta interviews",
-      "when improving product sense skills"
-    ],
-    "audience": [
-      "Junior-DS",
-      "Mid-DS"
-    ],
-    "synthetic_questions": [
-      "What are common interview questions for data scientists?",
-      "How can I prepare for a Meta interview?",
-      "What is product sense in data science?",
-      "What SQL skills are important for data science interviews?",
-      "How do I negotiate salary after receiving a job offer?",
-      "What resources can help with job searching in data science?"
-    ],
-    "role_type": [
-      "data-scientist"
-    ],
-    "experience_level": "mid",
-    "company_context": [
-      "FAANG"
-    ],
-    "model_score": 0.0001
-  },
-  {
-    "name": "Chip Huyen ML Interviews Book",
-    "description": "200+ knowledge questions organized by difficulty for ML fundamentals.",
-    "stage": "Interview Prep",
-    "category": "ML Fundamentals",
-    "url": "https://huyenchip.com/ml-interviews-book/",
-    "type": "Book",
-    "tags": [
-      "comprehensive",
-      "by-difficulty"
-    ],
-    "section": "interview",
-    "tab": "interview",
-    "subtab": "ml-fundamentals",
-    "archived": true,
-    "difficulty": "beginner|intermediate|advanced",
-    "prerequisites": [],
-    "topic_tags": [
-      "interview-prep"
-    ],
-    "summary": "This resource provides a comprehensive set of knowledge questions that help individuals prepare for machine learning interviews, organized by difficulty. It serves as a guide for mastering ML fundamentals essential for job candidates.",
-    "use_cases": [
-      "when preparing for machine learning interviews",
-      "to assess knowledge in ML fundamentals"
-    ],
-    "audience": [
-      "Junior-DS",
-      "Mid-DS",
-      "Senior-DS",
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "What are common ML interview questions?",
-      "How can I prepare for a data science interview?",
-      "What topics should I study for ML fundamentals?",
-      "What is the best way to approach ML interview questions?",
-      "How do I assess my ML knowledge level?",
-      "What resources are recommended for ML interview prep?"
-    ],
-    "role_type": [
-      "data-scientist",
-      "ML-engineer"
-    ],
-    "experience_level": "entry|mid|senior",
-    "model_score": 0.0001
-  },
-  {
-    "name": "365 Data Science: DS vs MLE Skills",
-    "description": "ML requirements: 69.3% for DS vs 88.3% for MLE. AI: 21.2% for DS vs 60.4% for MLE.",
-    "stage": "Strategy",
-    "category": "Role Landscape",
-    "url": "https://365datascience.com/career-advice/career-guides/data-scientist-vs-machine-learning-engineer/",
-    "type": "Article",
-    "tags": [
-      "skills",
-      "data-driven"
-    ],
-    "archived": true,
-    "difficulty": "beginner|intermediate",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "This resource compares the skill requirements for Data Scientists (DS) and Machine Learning Engineers (MLE), highlighting the differences in ML and AI competencies needed for each role. It provides insights into the skills that are more critical for success in these career paths.",
-    "use_cases": [],
-    "audience": [
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "What skills are required for a Data Scientist?",
-      "How do the skills of a Machine Learning Engineer differ from those of a Data Scientist?",
-      "What percentage of ML skills are necessary for Data Scientists?",
-      "What AI skills should I focus on as a Machine Learning Engineer?",
-      "How can I transition from a Data Scientist to a Machine Learning Engineer?",
-      "What are the key competencies for success in data-driven roles?"
-    ],
-    "role_type": [
-      "data-scientist",
-      "ML-engineer"
-    ],
-    "model_score": 0.0001
-  },
-  {
-    "name": "Design Gurus: FAANG Levels Comparison",
-    "description": "Meta E3-E10, Google L3-L10, Amazon SDE I-III. Senior (L5) is 'terminal level' where many plateau.",
-    "stage": "Strategy",
-    "category": "Role Landscape",
-    "url": "https://www.designgurus.io/blog/understanding-faang-software-engineer-job-levels",
-    "type": "Guide",
-    "tags": [
-      "FAANG",
-      "levels"
-    ],
-    "archived": true,
-    "difficulty": "intermediate",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "This resource provides a comparison of design levels across major tech companies, specifically within the FAANG group. It highlights the terminal level for senior positions and offers insights into career progression within these organizations.",
-    "use_cases": [
-      "to understand career progression in design roles at FAANG companies",
-      "to compare design levels across major tech firms"
-    ],
-    "audience": [
-      "Mid-DS",
-      "Senior-DS"
-    ],
-    "synthetic_questions": [
-      "What are the different design levels at FAANG companies?",
-      "How does the senior level compare across Meta, Google, and Amazon?",
-      "What does it mean to plateau at a terminal level in tech?",
-      "What are the expectations for a Senior Designer at FAANG?",
-      "How do design roles differ between FAANG companies?",
-      "What career paths are available for designers in tech?",
-      "What skills are needed to advance to higher levels in design?",
-      "How can I prepare for a design role at a FAANG company?"
-    ],
-    "role_type": [
-      "designer"
-    ],
-    "experience_level": "mid|senior",
-    "company_context": [
-      "FAANG"
-    ],
-    "model_score": 0.0001
-  },
-  {
-    "name": "Lyft: Causal Forecasting",
-    "description": "DS builds causal models that are both predictive AND causally valid using experiments.",
-    "stage": "Strategy",
-    "category": "Team Types",
-    "url": "https://eng.lyft.com/causal-forecasting-at-lyft-part-1-14cca6ff3d6d",
-    "type": "Blog",
-    "tags": [
-      "forecasting",
-      "Lyft"
-    ],
-    "archived": true,
-    "difficulty": "intermediate",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "This resource provides insights into building causal models that are both predictive and causally valid, emphasizing the importance of experiments in data science.",
-    "use_cases": [],
-    "audience": [
-      "Mid-DS",
-      "Senior-DS"
-    ],
-    "synthetic_questions": [
-      "What are causal models in data science?",
-      "How can experiments improve forecasting accuracy?",
-      "What skills are needed for causal forecasting?",
-      "What are the challenges in building predictive models?",
-      "How does Lyft approach causal modeling?",
-      "What is the importance of causally valid models?",
-      "What tools are used in causal forecasting?",
-      "How can I transition from traditional forecasting to causal forecasting?"
-    ],
-    "role_type": [
-      "data-scientist"
-    ],
-    "experience_level": "mid",
-    "company_context": [
-      "Lyft"
-    ],
-    "model_score": 0.0001
-  },
-  {
-    "name": "DataRoot Labs: Surge Pricing Algorithms",
-    "description": "Uber uses LSTM networks; Lyft implements Prime Time (200% increase) and Happy Hour (50% discount).",
-    "stage": "Strategy",
-    "category": "Team Types",
-    "url": "https://datarootlabs.com/blog/uber-lift-gett-surge-pricing-algorithms",
-    "type": "Article",
-    "tags": [
-      "pricing",
-      "comparison"
-    ],
-    "archived": true,
-    "difficulty": "intermediate",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "This resource discusses the implementation of surge pricing algorithms by Uber and Lyft, highlighting the use of LSTM networks and specific pricing strategies. It provides insights into how these companies optimize pricing based on demand fluctuations.",
-    "use_cases": [
-      "when analyzing pricing strategies in ride-sharing services",
-      "when studying machine learning applications in economics"
-    ],
-    "audience": [
-      "Mid-DS",
-      "Senior-DS"
-    ],
-    "synthetic_questions": [
-      "What are surge pricing algorithms and how do they work?",
-      "How does Uber's use of LSTM networks improve pricing strategies?",
-      "What are the differences between Uber and Lyft's pricing models?",
-      "How can data scientists leverage pricing algorithms in their work?",
-      "What skills are needed to understand surge pricing in tech companies?",
-      "How do companies determine when to implement surge pricing?",
-      "What impact does surge pricing have on customer behavior?",
-      "What are the ethical considerations of surge pricing?"
-    ],
-    "role_type": [
-      "data-scientist",
-      "economist"
-    ],
-    "experience_level": "mid",
-    "model_score": 0.0001
-  },
-  {
-    "name": "Uber CausalML Package",
-    "description": "Open-source uplift modeling and CATE estimation with meta-learners (S, T, X-learner).",
-    "stage": "Interview Prep",
-    "category": "Experimentation",
-    "url": "https://github.com/uber/causalml",
-    "type": "Tool",
-    "tags": [
-      "causal-ML",
-      "open-source"
-    ],
-    "section": "interview",
-    "tab": "interview",
-    "subtab": "experimentation",
-    "difficulty": "intermediate",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "The Uber CausalML Package provides tools for uplift modeling and CATE estimation, which can help data scientists and economists understand the impact of interventions. It is particularly useful for those looking to apply causal inference techniques in their work.",
-    "use_cases": [
-      "when to use this resource"
-    ],
-    "audience": [
-      "Junior-DS",
-      "Mid-DS",
-      "Senior-DS"
-    ],
-    "synthetic_questions": [
-      "What is uplift modeling?",
-      "How can I estimate CATE?",
-      "What are meta-learners?",
-      "When should I use the X-learner?",
-      "What are the benefits of open-source tools?",
-      "How does causal ML differ from traditional ML?",
-      "What skills do I need to work with causal ML?",
-      "Where can I find resources for learning causal inference?"
-    ],
-    "role_type": [
-      "data-scientist",
-      "economist"
-    ],
-    "experience_level": "mid",
     "model_score": 0.0001
   },
   {
@@ -965,50 +539,6 @@
     "experience_level": "mid",
     "company_context": [
       "Microsoft"
-    ],
-    "model_score": 0.0001
-  },
-  {
-    "name": "Netflix DS and Engineering Team",
-    "description": "Team overview: data science at the center of Netflix's product decisions.",
-    "stage": "Strategy",
-    "category": "Role Landscape",
-    "url": "https://jobs.netflix.com/teams/data-science-and-engineering",
-    "type": "Career Portal",
-    "tags": [
-      "Netflix",
-      "team-overview"
-    ],
-    "archived": true,
-    "difficulty": "intermediate",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "This resource provides an overview of how data science influences product decisions at Netflix, highlighting the importance of data-driven approaches in tech roles.",
-    "use_cases": [
-      "to understand the role of data science in tech companies",
-      "to explore career opportunities in data science at Netflix"
-    ],
-    "audience": [
-      "Junior-DS",
-      "Mid-DS",
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "What is the role of data science in product decisions?",
-      "How does Netflix utilize data science?",
-      "What skills are needed for a data science role at Netflix?",
-      "What is the team structure of Netflix's data science team?",
-      "How can I prepare for a data science role at Netflix?",
-      "What are the career paths available in data science at Netflix?",
-      "What is the culture like in Netflix's data science team?",
-      "What tools do data scientists at Netflix use?"
-    ],
-    "role_type": [
-      "data-scientist"
-    ],
-    "experience_level": "mid",
-    "company_context": [
-      "FAANG"
     ],
     "model_score": 0.0001
   },
@@ -1062,6 +592,510 @@
       "FAANG"
     ],
     "model_score": 0.0001
+  },
+  {
+    "name": "Amazon: Science of Price Experiments",
+    "description": "Crossover experiments, random-days, causal forests for non-discriminatory pricing. Can't show different prices.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://www.amazon.science/blog/the-science-of-price-experiments-in-the-amazon-store",
+    "type": "Blog",
+    "tags": [
+      "pricing",
+      "Amazon"
+    ],
+    "archived": true,
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "This resource discusses the application of crossover experiments and causal forests in the context of pricing strategies, specifically focusing on non-discriminatory pricing methods. It highlights the complexities of conducting price experiments without revealing different price points to consumers.",
+    "use_cases": [],
+    "audience": [],
+    "synthetic_questions": [
+      "What are crossover experiments in pricing?",
+      "How can causal forests be applied to pricing strategies?",
+      "What is non-discriminatory pricing?",
+      "What are the challenges of conducting price experiments?",
+      "How does Amazon approach pricing experiments?",
+      "What statistical methods are used in price experiments?",
+      "What is the significance of random-days in pricing experiments?",
+      "How can I learn more about pricing strategies in data science?"
+    ],
+    "experience_level": "mid",
+    "company_context": [
+      "Amazon"
+    ],
+    "model_score": 0.0001
+  },
+  {
+    "name": "Statsig",
+    "description": "Career portal",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://www.statsig.com/careers",
+    "type": "Career Portal",
+    "tags": [
+      "experimentation",
+      "a-b-testing"
+    ],
+    "section": "companies",
+    "sector": "saas",
+    "tab": "find-jobs",
+    "subtab": "companies",
+    "vertical": "experimentation",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "Statsig serves as a career portal that provides resources and information for individuals looking to advance their careers in tech. It focuses on experimentation and A/B testing, which can be beneficial for those interested in data-driven decision-making.",
+    "use_cases": [],
+    "audience": [],
+    "synthetic_questions": [
+      "What are the best practices for A/B testing?",
+      "How can experimentation improve my career prospects?",
+      "What resources are available for learning about data science?",
+      "How do I prepare for a job in tech?",
+      "What skills are needed for a career in experimentation?",
+      "What are the latest trends in A/B testing?",
+      "How can I leverage data in my job search?",
+      "What companies are known for their experimentation culture?"
+    ],
+    "experience_level": "entry",
+    "model_score": 0.0
+  },
+  {
+    "name": "DataLemur SQL",
+    "description": "Free SQL practice with FAANG questions. Created by ex-Facebook authors of Ace the Data Science Interview.",
+    "stage": "Interview Prep",
+    "category": "SQL & Data",
+    "url": "https://datalemur.com/",
+    "type": "Practice",
+    "tags": [
+      "FAANG",
+      "beginner-friendly"
+    ],
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "sql",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "interview-prep"
+    ],
+    "summary": "DataLemur SQL offers free SQL practice specifically designed to help users prepare for FAANG interviews. It is created by experienced authors from Facebook, making it a valuable resource for those looking to enhance their SQL skills.",
+    "use_cases": [
+      "when preparing for FAANG interviews",
+      "to practice SQL skills",
+      "to gain confidence in SQL for job applications"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "How can I practice SQL for FAANG interviews?",
+      "What are some beginner-friendly SQL resources?",
+      "How do I prepare for data science interviews?",
+      "What types of questions are asked in SQL interviews?",
+      "Where can I find free SQL practice?",
+      "What is the best way to learn SQL for data science?",
+      "How important is SQL for data science roles?",
+      "What should I focus on when preparing for SQL interviews?"
+    ],
+    "role_type": [
+      "data-scientist"
+    ],
+    "experience_level": "entry",
+    "company_context": [
+      "FAANG"
+    ],
+    "model_score": 0.0
+  },
+  {
+    "name": "Yuan Meng's Causal Inference in Data Science",
+    "description": "Most interview-relevant causal inference guide. Tech company case studies: switchback (DoorDash), DiD (Meta), synthetic control (Uber), RDD (DoorDash). By ML Engineer at DoorDash with Berkeley PhD.",
+    "stage": "Interview Prep",
+    "category": "Causal Inference",
+    "url": "https://www.yuan-meng.com/posts/causality/causality/",
+    "type": "Blog",
+    "tags": [
+      "DiD",
+      "synthetic-control",
+      "RDD",
+      "propensity-scores",
+      "tech-examples"
+    ],
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "causal-inference",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "This resource provides a comprehensive guide to causal inference relevant for tech interviews, featuring case studies from notable companies. It is especially useful for those preparing for data science roles in tech.",
+    "use_cases": [
+      "when preparing for data science interviews",
+      "when studying causal inference techniques",
+      "when looking for real-world examples in tech"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What is causal inference?",
+      "How do I prepare for a data science interview?",
+      "What are common causal inference techniques?",
+      "What case studies should I review for tech interviews?",
+      "How does RDD work in practice?",
+      "What is the importance of DiD in causal analysis?",
+      "How can I apply synthetic control methods?",
+      "What are the best resources for learning causal inference?"
+    ],
+    "role_type": [
+      "data-scientist",
+      "ML-engineer"
+    ],
+    "experience_level": "mid",
+    "company_context": [
+      "tech"
+    ],
+    "model_score": 0.0
+  },
+  {
+    "name": "DataLemur Meta DS Guide",
+    "description": "31 leaked Meta interview questions. Product sense and SQL focus.",
+    "stage": "Interview Prep",
+    "category": "Product Sense",
+    "url": "https://datalemur.com/blog/meta-data-scientist-interview-guide",
+    "type": "Guide",
+    "tags": [
+      "Meta",
+      "real-questions"
+    ],
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "product",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "interview-prep"
+    ],
+    "summary": "This resource provides insights into the types of interview questions candidates may face when applying for positions at Meta, with a focus on product sense and SQL skills. It is designed to help candidates prepare effectively for their interviews.",
+    "use_cases": [
+      "when preparing for Meta interviews",
+      "when improving product sense skills"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What are common interview questions for data scientists?",
+      "How can I prepare for a Meta interview?",
+      "What is product sense in data science?",
+      "What SQL skills are important for data science interviews?",
+      "How do I negotiate salary after receiving a job offer?",
+      "What resources can help with job searching in data science?"
+    ],
+    "role_type": [
+      "data-scientist"
+    ],
+    "experience_level": "mid",
+    "company_context": [
+      "FAANG"
+    ],
+    "model_score": 0.0
+  },
+  {
+    "name": "Chip Huyen ML Interviews Book",
+    "description": "200+ knowledge questions organized by difficulty for ML fundamentals.",
+    "stage": "Interview Prep",
+    "category": "ML Fundamentals",
+    "url": "https://huyenchip.com/ml-interviews-book/",
+    "type": "Book",
+    "tags": [
+      "comprehensive",
+      "by-difficulty"
+    ],
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "ml-fundamentals",
+    "archived": true,
+    "difficulty": "beginner|intermediate|advanced",
+    "prerequisites": [],
+    "topic_tags": [
+      "interview-prep"
+    ],
+    "summary": "This resource provides a comprehensive set of knowledge questions that help individuals prepare for machine learning interviews, organized by difficulty. It serves as a guide for mastering ML fundamentals essential for job candidates.",
+    "use_cases": [
+      "when preparing for machine learning interviews",
+      "to assess knowledge in ML fundamentals"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are common ML interview questions?",
+      "How can I prepare for a data science interview?",
+      "What topics should I study for ML fundamentals?",
+      "What is the best way to approach ML interview questions?",
+      "How do I assess my ML knowledge level?",
+      "What resources are recommended for ML interview prep?"
+    ],
+    "role_type": [
+      "data-scientist",
+      "ML-engineer"
+    ],
+    "experience_level": "entry|mid|senior",
+    "model_score": 0.0
+  },
+  {
+    "name": "365 Data Science: DS vs MLE Skills",
+    "description": "ML requirements: 69.3% for DS vs 88.3% for MLE. AI: 21.2% for DS vs 60.4% for MLE.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://365datascience.com/career-advice/career-guides/data-scientist-vs-machine-learning-engineer/",
+    "type": "Article",
+    "tags": [
+      "skills",
+      "data-driven"
+    ],
+    "archived": true,
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "This resource compares the skill requirements for Data Scientists (DS) and Machine Learning Engineers (MLE), highlighting the differences in ML and AI competencies needed for each role. It provides insights into the skills that are more critical for success in these career paths.",
+    "use_cases": [],
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What skills are required for a Data Scientist?",
+      "How do the skills of a Machine Learning Engineer differ from those of a Data Scientist?",
+      "What percentage of ML skills are necessary for Data Scientists?",
+      "What AI skills should I focus on as a Machine Learning Engineer?",
+      "How can I transition from a Data Scientist to a Machine Learning Engineer?",
+      "What are the key competencies for success in data-driven roles?"
+    ],
+    "role_type": [
+      "data-scientist",
+      "ML-engineer"
+    ],
+    "model_score": 0.0
+  },
+  {
+    "name": "Design Gurus: FAANG Levels Comparison",
+    "description": "Meta E3-E10, Google L3-L10, Amazon SDE I-III. Senior (L5) is 'terminal level' where many plateau.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://www.designgurus.io/blog/understanding-faang-software-engineer-job-levels",
+    "type": "Guide",
+    "tags": [
+      "FAANG",
+      "levels"
+    ],
+    "archived": true,
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "This resource provides a comparison of design levels across major tech companies, specifically within the FAANG group. It highlights the terminal level for senior positions and offers insights into career progression within these organizations.",
+    "use_cases": [
+      "to understand career progression in design roles at FAANG companies",
+      "to compare design levels across major tech firms"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What are the different design levels at FAANG companies?",
+      "How does the senior level compare across Meta, Google, and Amazon?",
+      "What does it mean to plateau at a terminal level in tech?",
+      "What are the expectations for a Senior Designer at FAANG?",
+      "How do design roles differ between FAANG companies?",
+      "What career paths are available for designers in tech?",
+      "What skills are needed to advance to higher levels in design?",
+      "How can I prepare for a design role at a FAANG company?"
+    ],
+    "role_type": [
+      "designer"
+    ],
+    "experience_level": "mid|senior",
+    "company_context": [
+      "FAANG"
+    ],
+    "model_score": 0.0
+  },
+  {
+    "name": "Lyft: Causal Forecasting",
+    "description": "DS builds causal models that are both predictive AND causally valid using experiments.",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://eng.lyft.com/causal-forecasting-at-lyft-part-1-14cca6ff3d6d",
+    "type": "Blog",
+    "tags": [
+      "forecasting",
+      "Lyft"
+    ],
+    "archived": true,
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "This resource provides insights into building causal models that are both predictive and causally valid, emphasizing the importance of experiments in data science.",
+    "use_cases": [],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What are causal models in data science?",
+      "How can experiments improve forecasting accuracy?",
+      "What skills are needed for causal forecasting?",
+      "What are the challenges in building predictive models?",
+      "How does Lyft approach causal modeling?",
+      "What is the importance of causally valid models?",
+      "What tools are used in causal forecasting?",
+      "How can I transition from traditional forecasting to causal forecasting?"
+    ],
+    "role_type": [
+      "data-scientist"
+    ],
+    "experience_level": "mid",
+    "company_context": [
+      "Lyft"
+    ],
+    "model_score": 0.0
+  },
+  {
+    "name": "DataRoot Labs: Surge Pricing Algorithms",
+    "description": "Uber uses LSTM networks; Lyft implements Prime Time (200% increase) and Happy Hour (50% discount).",
+    "stage": "Strategy",
+    "category": "Team Types",
+    "url": "https://datarootlabs.com/blog/uber-lift-gett-surge-pricing-algorithms",
+    "type": "Article",
+    "tags": [
+      "pricing",
+      "comparison"
+    ],
+    "archived": true,
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "This resource discusses the implementation of surge pricing algorithms by Uber and Lyft, highlighting the use of LSTM networks and specific pricing strategies. It provides insights into how these companies optimize pricing based on demand fluctuations.",
+    "use_cases": [
+      "when analyzing pricing strategies in ride-sharing services",
+      "when studying machine learning applications in economics"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What are surge pricing algorithms and how do they work?",
+      "How does Uber's use of LSTM networks improve pricing strategies?",
+      "What are the differences between Uber and Lyft's pricing models?",
+      "How can data scientists leverage pricing algorithms in their work?",
+      "What skills are needed to understand surge pricing in tech companies?",
+      "How do companies determine when to implement surge pricing?",
+      "What impact does surge pricing have on customer behavior?",
+      "What are the ethical considerations of surge pricing?"
+    ],
+    "role_type": [
+      "data-scientist",
+      "economist"
+    ],
+    "experience_level": "mid",
+    "model_score": 0.0
+  },
+  {
+    "name": "Uber CausalML Package",
+    "description": "Open-source uplift modeling and CATE estimation with meta-learners (S, T, X-learner).",
+    "stage": "Interview Prep",
+    "category": "Experimentation",
+    "url": "https://github.com/uber/causalml",
+    "type": "Tool",
+    "tags": [
+      "causal-ML",
+      "open-source"
+    ],
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "experimentation",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "The Uber CausalML Package provides tools for uplift modeling and CATE estimation, which can help data scientists and economists understand the impact of interventions. It is particularly useful for those looking to apply causal inference techniques in their work.",
+    "use_cases": [
+      "when to use this resource"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What is uplift modeling?",
+      "How can I estimate CATE?",
+      "What are meta-learners?",
+      "When should I use the X-learner?",
+      "What are the benefits of open-source tools?",
+      "How does causal ML differ from traditional ML?",
+      "What skills do I need to work with causal ML?",
+      "Where can I find resources for learning causal inference?"
+    ],
+    "role_type": [
+      "data-scientist",
+      "economist"
+    ],
+    "experience_level": "mid",
+    "model_score": 0.0
+  },
+  {
+    "name": "Netflix DS and Engineering Team",
+    "description": "Team overview: data science at the center of Netflix's product decisions.",
+    "stage": "Strategy",
+    "category": "Role Landscape",
+    "url": "https://jobs.netflix.com/teams/data-science-and-engineering",
+    "type": "Career Portal",
+    "tags": [
+      "Netflix",
+      "team-overview"
+    ],
+    "archived": true,
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "This resource provides an overview of how data science influences product decisions at Netflix, highlighting the importance of data-driven approaches in tech roles.",
+    "use_cases": [
+      "to understand the role of data science in tech companies",
+      "to explore career opportunities in data science at Netflix"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is the role of data science in product decisions?",
+      "How does Netflix utilize data science?",
+      "What skills are needed for a data science role at Netflix?",
+      "What is the team structure of Netflix's data science team?",
+      "How can I prepare for a data science role at Netflix?",
+      "What are the career paths available in data science at Netflix?",
+      "What is the culture like in Netflix's data science team?",
+      "What tools do data scientists at Netflix use?"
+    ],
+    "role_type": [
+      "data-scientist"
+    ],
+    "experience_level": "mid",
+    "company_context": [
+      "FAANG"
+    ],
+    "model_score": 0.0
   },
   {
     "name": "Athey & Luca: Economists in Tech",
@@ -5353,40 +5387,6 @@
       "ML-engineer"
     ],
     "experience_level": "mid",
-    "model_score": 0.0
-  },
-  {
-    "name": "Amazon: Science of Price Experiments",
-    "description": "Crossover experiments, random-days, causal forests for non-discriminatory pricing. Can't show different prices.",
-    "stage": "Strategy",
-    "category": "Team Types",
-    "url": "https://www.amazon.science/blog/the-science-of-price-experiments-in-the-amazon-store",
-    "type": "Blog",
-    "tags": [
-      "pricing",
-      "Amazon"
-    ],
-    "archived": true,
-    "difficulty": "intermediate",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "This resource discusses the application of crossover experiments and causal forests in the context of pricing strategies, specifically focusing on non-discriminatory pricing methods. It highlights the complexities of conducting price experiments without revealing different price points to consumers.",
-    "use_cases": [],
-    "audience": [],
-    "synthetic_questions": [
-      "What are crossover experiments in pricing?",
-      "How can causal forests be applied to pricing strategies?",
-      "What is non-discriminatory pricing?",
-      "What are the challenges of conducting price experiments?",
-      "How does Amazon approach pricing experiments?",
-      "What statistical methods are used in price experiments?",
-      "What is the significance of random-days in pricing experiments?",
-      "How can I learn more about pricing strategies in data science?"
-    ],
-    "experience_level": "mid",
-    "company_context": [
-      "Amazon"
-    ],
     "model_score": 0.0
   },
   {

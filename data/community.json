@@ -42,7 +42,7 @@
     "event_format": "conference",
     "geographic_focus": "Netflix",
     "frequency": "annual",
-    "model_score": 0.3994
+    "model_score": 0.3294
   },
   {
     "name": "Amazon Science Economics",
@@ -86,7 +86,7 @@
     ],
     "event_format": "workshop",
     "geographic_focus": "Amazon",
-    "model_score": 0.1992
+    "model_score": 0.156
   },
   {
     "name": "MeasuringU",
@@ -124,7 +124,7 @@
       "What are the benefits of attending MeasuringU?"
     ],
     "event_format": "online",
-    "model_score": 0.1992
+    "model_score": 0.156
   },
   {
     "name": "ASSA Annual Meeting",
@@ -174,7 +174,7 @@
     "event_format": "conference",
     "geographic_focus": "Various US cities",
     "frequency": "annual",
-    "model_score": 0.0427
+    "model_score": 0.0665
   },
   {
     "name": "ACM EC (Economics and Computation)",
@@ -224,7 +224,7 @@
     ],
     "event_format": "annual conference",
     "frequency": "annual",
-    "model_score": 0.0408
+    "model_score": 0.059
   },
   {
     "name": "Causal Data Science Meeting",
@@ -274,7 +274,82 @@
     ],
     "event_format": "conference",
     "frequency": "annual",
-    "model_score": 0.0398
+    "model_score": 0.0526
+  },
+  {
+    "name": "Vincent Arel-Bundock",
+    "description": "Professor at Universit\u00e9 de Montr\u00e9al. Creator of the marginaleffects R/Python package. Causal inference including frontdoor adjustment, marginal effects interpretation. Author of 'Model to Meaning.'",
+    "category": "Blogs",
+    "url": "https://arelbundock.com/",
+    "image_url": "https://arelbundock.com/files/vincent.jpg",
+    "type": "Personal Blog",
+    "location": "Online",
+    "dates": "Ongoing",
+    "tags": [
+      "Blogs",
+      "Personal Blog"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "Vincent Arel-Bundock is a professor at Universit\u00e9 de Montr\u00e9al who specializes in causal inference and has created the marginaleffects R/Python package. This personal blog is likely attended by those interested in statistical methods and causal analysis.",
+    "use_cases": [
+      "Learn about causal inference techniques",
+      "Explore statistical programming with R/Python",
+      "Understand marginal effects interpretation"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is causal inference?",
+      "How to use the marginaleffects package?",
+      "What is frontdoor adjustment?",
+      "What are marginal effects?",
+      "Who is Vincent Arel-Bundock?",
+      "What topics are covered in 'Model to Meaning'?"
+    ],
+    "event_format": "online",
+    "model_score": 0.0002
+  },
+  {
+    "name": "Nick Huntington-Klein",
+    "description": "'The Effect' author. Animated causal inference plots, Library of Statistical Techniques founder.",
+    "category": "Blogs",
+    "url": "https://nickchk.com/",
+    "image_url": "https://nickchk.com/profile.jpg",
+    "type": "Personal Blog",
+    "location": "Online",
+    "dates": "Ongoing",
+    "tags": [
+      "Blogs",
+      "Personal Blog"
+    ],
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "Nick Huntington-Klein is the author of 'The Effect' and founder of the Library of Statistical Techniques. This personal blog features animated causal inference plots and is aimed at individuals interested in statistical techniques and causal inference.",
+    "use_cases": [
+      "to learn about causal inference",
+      "to explore statistical techniques",
+      "to follow Nick Huntington-Klein's work"
+    ],
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is causal inference?",
+      "How to create animated causal inference plots?",
+      "What statistical techniques are discussed in 'The Effect'?",
+      "Who is Nick Huntington-Klein?",
+      "Where can I find the Library of Statistical Techniques?",
+      "What are the main themes of Nick Huntington-Klein's blog?",
+      "How can I apply causal inference in my research?",
+      "What resources are available for learning about statistical techniques?"
+    ],
+    "event_format": "online",
+    "model_score": 0.0002
   },
   {
     "name": "Northwestern Workshop on Causal Inference",
@@ -324,82 +399,7 @@
     ],
     "event_format": "workshop",
     "geographic_focus": "Chicago, IL",
-    "model_score": 0.0003
-  },
-  {
-    "name": "Vincent Arel-Bundock",
-    "description": "Professor at Universit\u00e9 de Montr\u00e9al. Creator of the marginaleffects R/Python package. Causal inference including frontdoor adjustment, marginal effects interpretation. Author of 'Model to Meaning.'",
-    "category": "Blogs",
-    "url": "https://arelbundock.com/",
-    "image_url": "https://arelbundock.com/files/vincent.jpg",
-    "type": "Personal Blog",
-    "location": "Online",
-    "dates": "Ongoing",
-    "tags": [
-      "Blogs",
-      "Personal Blog"
-    ],
-    "difficulty": "intermediate",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "Vincent Arel-Bundock is a professor at Universit\u00e9 de Montr\u00e9al who specializes in causal inference and has created the marginaleffects R/Python package. This personal blog is likely attended by those interested in statistical methods and causal analysis.",
-    "use_cases": [
-      "Learn about causal inference techniques",
-      "Explore statistical programming with R/Python",
-      "Understand marginal effects interpretation"
-    ],
-    "audience": [
-      "Mid-DS",
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "What is causal inference?",
-      "How to use the marginaleffects package?",
-      "What is frontdoor adjustment?",
-      "What are marginal effects?",
-      "Who is Vincent Arel-Bundock?",
-      "What topics are covered in 'Model to Meaning'?"
-    ],
-    "event_format": "online",
-    "model_score": 0.0003
-  },
-  {
-    "name": "Nick Huntington-Klein",
-    "description": "'The Effect' author. Animated causal inference plots, Library of Statistical Techniques founder.",
-    "category": "Blogs",
-    "url": "https://nickchk.com/",
-    "image_url": "https://nickchk.com/profile.jpg",
-    "type": "Personal Blog",
-    "location": "Online",
-    "dates": "Ongoing",
-    "tags": [
-      "Blogs",
-      "Personal Blog"
-    ],
-    "difficulty": "beginner",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "Nick Huntington-Klein is the author of 'The Effect' and founder of the Library of Statistical Techniques. This personal blog features animated causal inference plots and is aimed at individuals interested in statistical techniques and causal inference.",
-    "use_cases": [
-      "to learn about causal inference",
-      "to explore statistical techniques",
-      "to follow Nick Huntington-Klein's work"
-    ],
-    "audience": [
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "What is causal inference?",
-      "How to create animated causal inference plots?",
-      "What statistical techniques are discussed in 'The Effect'?",
-      "Who is Nick Huntington-Klein?",
-      "Where can I find the Library of Statistical Techniques?",
-      "What are the main themes of Nick Huntington-Klein's blog?",
-      "How can I apply causal inference in my research?",
-      "What resources are available for learning about statistical techniques?"
-    ],
-    "event_format": "online",
-    "model_score": 0.0002
+    "model_score": 0.0001
   },
   {
     "name": "Sean J. Taylor",
@@ -443,7 +443,7 @@
       "How can I apply causal inference in my work?"
     ],
     "event_format": "online",
-    "model_score": 0.0002
+    "model_score": 0.0001
   },
   {
     "name": "Christoph Molnar",
@@ -487,7 +487,7 @@
       "What are the applications of interpretable machine learning?"
     ],
     "event_format": "online",
-    "model_score": 0.0002
+    "model_score": 0.0001
   },
   {
     "name": "Kevin Kwok",
@@ -529,7 +529,7 @@
       "How to analyze platform businesses?"
     ],
     "event_format": "online",
-    "model_score": 0.0002
+    "model_score": 0.0001
   },
   {
     "name": "IIOC (Industrial Organization Conference)",
@@ -639,194 +639,6 @@
     "model_score": 0.0001
   },
   {
-    "name": "CLeaR (Causal Learning and Reasoning)",
-    "description": "Dedicated venue for causal inference attracting both ML and economics researchers. Covers causal discovery, causal representation learning, and applications to decision-making.",
-    "category": "Conferences",
-    "subcategory": "Experimentation",
-    "url": "https://www.cclear.cc/",
-    "type": "Annual Conference",
-    "location": "Lausanne, Switzerland (2025)",
-    "dates": "May (annually)",
-    "best_for": "Causal ML researchers and econometricians",
-    "tags": [
-      "Conferences",
-      "Experimentation"
-    ],
-    "difficulty": null,
-    "prerequisites": [],
-    "topic_tags": [
-      "causal inference",
-      "machine learning",
-      "economics",
-      "decision-making"
-    ],
-    "summary": "CLeaR is a dedicated venue for causal inference that attracts both machine learning and economics researchers. The conference covers topics such as causal discovery, causal representation learning, and their applications to decision-making.",
-    "use_cases": [
-      "networking with researchers",
-      "learning about causal inference",
-      "exploring applications in decision-making"
-    ],
-    "audience": [
-      "Early-PhD",
-      "Junior-DS",
-      "Mid-DS",
-      "Senior-DS"
-    ],
-    "synthetic_questions": [
-      "What is CLeaR conference?",
-      "Who should attend CLeaR?",
-      "What topics are covered at CLeaR?",
-      "Where is CLeaR held?",
-      "When does CLeaR take place?",
-      "How can I participate in CLeaR?",
-      "What are the benefits of attending CLeaR?",
-      "Is CLeaR focused on machine learning or economics?"
-    ],
-    "attendees": "300+",
-    "lat": 46.5197,
-    "lng": 6.6323,
-    "start_date": "2025-05-07",
-    "end_date": "2025-05-09",
-    "event_format": "conference",
-    "geographic_focus": "Lausanne, Switzerland",
-    "frequency": "annual",
-    "model_score": 0.0001
-  },
-  {
-    "name": "SOLE/EALE Annual Meeting",
-    "description": "Primary academic labor economics conference. The 2025 edition is the 6th World Labor Conference held jointly with European and Asian associations, providing global labor economics perspectives.",
-    "category": "Conferences",
-    "subcategory": "Labor & Finance",
-    "url": "https://www.sole-jole.org/",
-    "type": "Annual Conference",
-    "location": "Toronto, Canada (2025)",
-    "dates": "June (annually)",
-    "best_for": "Labor economists",
-    "tags": [
-      "Conferences",
-      "Labor & Finance"
-    ],
-    "lat": 43.6532,
-    "lng": -79.3832,
-    "start_date": "2025-05-08",
-    "end_date": "2025-05-10",
-    "difficulty": "intermediate",
-    "prerequisites": [],
-    "topic_tags": [
-      "labor-economics",
-      "academic-conference",
-      "global-perspectives"
-    ],
-    "summary": "The SOLE/EALE Annual Meeting is the primary academic labor economics conference, featuring the 6th World Labor Conference in 2025. It attracts scholars and practitioners interested in global labor economics perspectives.",
-    "use_cases": [
-      "networking with academics",
-      "learning about labor economics",
-      "presenting research",
-      "collaborating with peers"
-    ],
-    "audience": [
-      "Early-PhD",
-      "Junior-DS",
-      "Mid-DS",
-      "Senior-DS"
-    ],
-    "synthetic_questions": [
-      "What is the SOLE/EALE Annual Meeting?",
-      "Who should attend the labor economics conference?",
-      "What topics are covered at the World Labor Conference?",
-      "How does the conference facilitate networking?",
-      "What are the benefits of attending academic conferences?",
-      "Where is the 2025 SOLE/EALE Annual Meeting held?",
-      "What is the significance of labor economics?",
-      "How to register for the conference?"
-    ],
-    "event_format": "conference",
-    "geographic_focus": "Toronto, Canada",
-    "frequency": "annual",
-    "model_score": 0.0001
-  },
-  {
-    "name": "Matteo Courthoud",
-    "description": "Zalando Applied Scientist. Weekly posts on causal inference with code \u2014 CUPED, causal forests, AIPW, and more.",
-    "category": "Blogs",
-    "url": "https://matteocourthoud.github.io/",
-    "image_url": "https://matteocourthoud.github.io/author/avatar_hu365eedc833ccd5578a90de7c849ec45e_385094_520x520_fill_q75_lanczos_center.jpg",
-    "type": "Personal Blog",
-    "location": "Online",
-    "dates": "Ongoing",
-    "tags": [
-      "Blogs",
-      "Personal Blog"
-    ],
-    "difficulty": "beginner",
-    "prerequisites": [],
-    "topic_tags": [
-      "blogs"
-    ],
-    "summary": "Matteo Courthoud shares insights on causal inference through weekly posts. This blog is suitable for anyone interested in applied data science and causal analysis.",
-    "use_cases": [
-      "to learn about causal inference techniques",
-      "to follow updates in applied data science",
-      "to gain insights from an experienced applied scientist"
-    ],
-    "audience": [
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "What is causal inference?",
-      "How to implement CUPED?",
-      "What are causal forests?",
-      "What is AIPW?",
-      "Where can I find resources on causal inference?",
-      "Who is Matteo Courthoud?",
-      "What are the latest trends in applied data science?",
-      "How to learn about data science methodologies?"
-    ],
-    "event_format": "online",
-    "frequency": "weekly",
-    "model_score": 0.0001
-  },
-  {
-    "name": "Matheus Facure",
-    "description": "'Causal Inference for the Brave and True' author. The primary bridge between econometric theory and Python production code. DML, uplift modeling, and synthetic controls implemented.",
-    "category": "Blogs",
-    "url": "https://matheusfacure.github.io/",
-    "image_url": "https://avatars.githubusercontent.com/u/18542597?v=4",
-    "type": "Personal Blog",
-    "location": "Online",
-    "dates": "Ongoing",
-    "tags": [
-      "Blogs",
-      "Personal Blog"
-    ],
-    "difficulty": "intermediate",
-    "prerequisites": [],
-    "topic_tags": [
-      "blogs"
-    ],
-    "summary": "Matheus Facure is the author of 'Causal Inference for the Brave and True', focusing on the intersection of econometric theory and Python production code. This personal blog is likely to attract those interested in causal inference and data science methodologies.",
-    "use_cases": [
-      "to learn about causal inference",
-      "to explore econometric theory applications",
-      "to find practical implementations in Python"
-    ],
-    "audience": [
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "What is causal inference?",
-      "How to implement DML in Python?",
-      "What are synthetic controls?",
-      "What is uplift modeling?",
-      "How does econometric theory apply to data science?",
-      "Where can I find resources on Python for econometrics?",
-      "What are the best practices for causal modeling?",
-      "Who is Matheus Facure?"
-    ],
-    "event_format": "online",
-    "model_score": 0.0001
-  },
-  {
     "name": "Alex Deng",
     "description": "Co-author 'Trustworthy Online Controlled Experiments'. Deep A/B testing statistics \u2014 variance reduction, sequential testing, stopping rules without p-hacking.",
     "category": "Blogs",
@@ -861,92 +673,6 @@
       "What are the best practices for deep A/B testing?",
       "How does sequential testing work?",
       "What are the implications of variance reduction in experiments?"
-    ],
-    "event_format": "online",
-    "model_score": 0.0001
-  },
-  {
-    "name": "Nathan Lambert",
-    "description": "Interconnects. The primary chronicler of RLHF. RLHF as mechanism design for AI: eliciting preferences and training reward models.",
-    "category": "Blogs",
-    "url": "https://www.interconnects.ai/",
-    "image_url": "https://substack-post-media.s3.amazonaws.com/public/images/8fedcdfb-e137-4f6a-9089-a46add6c6242_500x500.jpeg",
-    "type": "Personal Blog",
-    "location": "Online",
-    "dates": "Ongoing",
-    "tags": [
-      "Blogs",
-      "Personal Blog"
-    ],
-    "difficulty": "intermediate",
-    "prerequisites": [],
-    "topic_tags": [
-      "AI",
-      "mechanism design",
-      "RLHF"
-    ],
-    "summary": "Nathan Lambert's blog focuses on the concept of Reinforcement Learning from Human Feedback (RLHF) and its implications for AI. It is aimed at those interested in the intersection of AI and mechanism design.",
-    "use_cases": [
-      "to understand RLHF",
-      "to explore AI training methodologies"
-    ],
-    "audience": [
-      "Curious-browser",
-      "Mid-DS"
-    ],
-    "synthetic_questions": [
-      "What is RLHF?",
-      "How does RLHF relate to mechanism design?",
-      "What are the implications of RLHF for AI development?",
-      "Who is Nathan Lambert?",
-      "What are the key concepts in Nathan Lambert's blog?",
-      "How can RLHF be applied in practice?",
-      "What are the challenges of using RLHF?",
-      "What insights does Nathan Lambert provide on AI training?"
-    ],
-    "event_format": "online",
-    "model_score": 0.0001
-  },
-  {
-    "name": "Lilian Weng",
-    "description": "Lil'Log. OpenAI Safety Systems lead. The single best technical summaries on DL, agents, and RL. Often cited as primary sources in papers.",
-    "category": "Blogs",
-    "url": "https://lilianweng.github.io/",
-    "image_url": "https://avatars.githubusercontent.com/u/901179?v=4",
-    "type": "Personal Blog",
-    "location": "Online",
-    "dates": "Ongoing",
-    "tags": [
-      "Blogs",
-      "Personal Blog"
-    ],
-    "difficulty": "intermediate",
-    "prerequisites": [],
-    "topic_tags": [
-      "blogs"
-    ],
-    "summary": "Lilian Weng's blog, Lil'Log, provides technical summaries on deep learning, agents, and reinforcement learning. It is often cited as a primary source in academic papers, attracting readers interested in AI safety and technical insights.",
-    "use_cases": [
-      "to gain insights on AI safety",
-      "to understand deep learning concepts",
-      "to find reliable technical summaries",
-      "to stay updated on reinforcement learning"
-    ],
-    "audience": [
-      "Junior-DS",
-      "Mid-DS",
-      "Senior-DS",
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "What are the latest insights on deep learning?",
-      "How does reinforcement learning work?",
-      "What are the safety systems in AI?",
-      "Where can I find technical summaries on AI?",
-      "Who is Lilian Weng?",
-      "What topics does Lil'Log cover?",
-      "Why are Lil'Log's summaries often cited?",
-      "How can I follow Lilian Weng's work?"
     ],
     "event_format": "online",
     "model_score": 0.0001
@@ -1039,139 +765,6 @@
     "model_score": 0.0001
   },
   {
-    "name": "Google Market Algorithms",
-    "description": "Auction design, mechanism design, autobidding systems. Led by Vahab Mirrokni. Shapes Google's advertising marketplace.",
-    "category": "Research Labs",
-    "url": "https://research.google/teams/market-algorithms/",
-    "type": "Tech Lab",
-    "location": "Google Research",
-    "dates": "Active",
-    "tags": [
-      "Research Labs",
-      "Tech Lab"
-    ],
-    "difficulty": "intermediate",
-    "prerequisites": [],
-    "topic_tags": [
-      "research",
-      "auction-design",
-      "mechanism-design",
-      "advertising"
-    ],
-    "summary": "The event focuses on auction design and mechanism design within Google's advertising marketplace, specifically discussing autobidding systems. It is led by Vahab Mirrokni and is likely to attract professionals and researchers interested in advertising technologies.",
-    "use_cases": [
-      "to understand auction design",
-      "to learn about mechanism design",
-      "to explore autobidding systems",
-      "to network with industry professionals"
-    ],
-    "audience": [
-      "Mid-DS",
-      "Senior-DS",
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "What are Google's market algorithms?",
-      "How does auction design work?",
-      "What is mechanism design in advertising?",
-      "What are autobidding systems?",
-      "Who is Vahab Mirrokni?",
-      "How does Google's advertising marketplace function?",
-      "What are the implications of auction design?",
-      "What can I learn from this tech lab?"
-    ],
-    "event_format": "workshop",
-    "geographic_focus": "Google Research",
-    "model_score": 0.0001
-  },
-  {
-    "name": "Meta Core Data Science",
-    "description": "Experimentation at scale, network effects, peer effects, advertising analytics. Led by Nicolas Stier-Moses (VP).",
-    "category": "Research Labs",
-    "url": "https://engineering.fb.com/category/core-infra/",
-    "type": "Tech Lab",
-    "location": "Meta",
-    "dates": "Active",
-    "tags": [
-      "Research Labs",
-      "Tech Lab"
-    ],
-    "difficulty": "intermediate",
-    "prerequisites": [],
-    "topic_tags": [
-      "data-science",
-      "advertising-analytics",
-      "network-effects",
-      "peer-effects"
-    ],
-    "summary": "Meta Core Data Science focuses on experimentation at scale and the analysis of network and peer effects in advertising. It is led by Nicolas Stier-Moses and is suitable for those interested in advanced data science applications.",
-    "use_cases": [
-      "to learn about advanced data science techniques",
-      "to network with industry professionals",
-      "to understand the impact of advertising analytics",
-      "to explore research opportunities in tech"
-    ],
-    "audience": [
-      "Mid-DS",
-      "Senior-DS",
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "What is experimentation at scale?",
-      "How do network effects influence advertising?",
-      "What are peer effects in data science?",
-      "Who is Nicolas Stier-Moses?",
-      "What topics are covered in Meta Core Data Science?",
-      "How can I apply advertising analytics in my work?",
-      "What is the significance of research labs in tech?",
-      "What skills are needed for a tech lab?"
-    ],
-    "event_format": "workshop",
-    "geographic_focus": "Meta",
-    "model_score": 0.0001
-  },
-  {
-    "name": "Quant Trading App Discord",
-    "description": "~10,000 members. Quantitative trading and technical analysis discussions.",
-    "category": "Online",
-    "url": "https://discord.com/invite/quant-trading-app",
-    "type": "Discord Server",
-    "location": "Online",
-    "dates": "Ongoing",
-    "tags": [
-      "Online",
-      "Discord Server"
-    ],
-    "difficulty": "beginner|intermediate",
-    "prerequisites": [],
-    "topic_tags": [
-      "quantitative-trading",
-      "technical-analysis",
-      "online-community"
-    ],
-    "summary": "The Quant Trading App Discord is an online community with around 10,000 members focused on discussions related to quantitative trading and technical analysis. It attracts individuals interested in trading strategies and market analysis.",
-    "use_cases": [
-      "networking with other traders",
-      "learning about trading strategies",
-      "discussing market trends"
-    ],
-    "audience": [
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "What is quantitative trading?",
-      "How can I improve my trading skills?",
-      "What discussions happen in the Quant Trading App Discord?",
-      "Who can join the Quant Trading App Discord?",
-      "What resources are available for quantitative trading?",
-      "How to analyze technical indicators?",
-      "What tools are used for quantitative trading?",
-      "What are the benefits of joining a trading community?"
-    ],
-    "event_format": "online",
-    "model_score": 0.0001
-  },
-  {
     "name": "Matei Zaharia",
     "description": "Creator of Apache Spark and MLflow, Assistant Professor at Stanford, Chief Technologist at Databricks. PhD from UC Berkeley.",
     "category": "Notable Contributors",
@@ -1209,46 +802,6 @@
     ],
     "event_format": "conference",
     "geographic_focus": "Stanford, CA",
-    "model_score": 0.0001
-  },
-  {
-    "name": "Ferenc Huszar",
-    "description": "Former ML researcher at Twitter/X, PhD from Cambridge. Known for inFERENCe blog bridging ML research with causal inference.",
-    "category": "Notable Contributors",
-    "url": "https://www.inference.vc/",
-    "type": "Industry Leader",
-    "location": "London, UK",
-    "best_for": "Causal inference, do-calculus, counterfactuals, ML theory, Pearls work explained",
-    "difficulty": "intermediate",
-    "prerequisites": [],
-    "topic_tags": [
-      "machine-learning",
-      "causal-inference",
-      "industry-leader"
-    ],
-    "summary": "Ferenc Huszar is a notable contributor in the field of machine learning, known for his work bridging ML research with causal inference through his inFERENCe blog. This event is likely to attract professionals and researchers interested in the intersection of machine learning and causal analysis.",
-    "use_cases": [
-      "Gain insights from an industry leader",
-      "Network with professionals in ML and causal inference",
-      "Learn about the latest trends in machine learning"
-    ],
-    "audience": [
-      "Mid-DS",
-      "Senior-DS",
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "What is Ferenc Huszar's background?",
-      "How does causal inference relate to machine learning?",
-      "What insights can be gained from the inFERENCe blog?",
-      "Who are the notable contributors in ML?",
-      "What are the latest trends in machine learning research?",
-      "How can industry leaders influence ML practices?",
-      "What events feature discussions on causal inference?",
-      "Where can I learn more about ML research?"
-    ],
-    "event_format": "meetup",
-    "geographic_focus": "London, UK",
     "model_score": 0.0001
   },
   {
@@ -1353,6 +906,492 @@
     "event_format": "conference",
     "frequency": "annual",
     "model_score": 0.0001
+  },
+  {
+    "name": "Neil Hoyne",
+    "description": "Google Chief Strategist and Wharton Senior Fellow. Bestselling author of 'Converted' translating Google's experimentation insights into practitioner frameworks.",
+    "category": "Notable Contributors",
+    "url": "https://www.neilhoyne.com/",
+    "type": "Industry Leader",
+    "location": "USA",
+    "best_for": "Customer lifetime value, Google marketing insights, CLV-focused marketing, practitioner frameworks",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "industry-event"
+    ],
+    "summary": "Neil Hoyne, Google Chief Strategist and Wharton Senior Fellow, shares insights from his bestselling book 'Converted', focusing on Google's experimentation frameworks. This event is aimed at professionals interested in data-driven marketing and strategy.",
+    "use_cases": [
+      "to learn about data-driven marketing",
+      "to understand Google's approach to experimentation",
+      "to gain insights from a leading industry expert"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What insights does Neil Hoyne provide?",
+      "How can Google's experimentation frameworks be applied?",
+      "Who is Neil Hoyne?",
+      "What is the book 'Converted' about?",
+      "What are the key takeaways from this event?",
+      "How does Neil Hoyne's work influence marketing strategies?",
+      "What is the role of a Chief Strategist at Google?",
+      "What can attendees learn from industry leaders like Neil Hoyne?"
+    ],
+    "event_format": "online",
+    "geographic_focus": "USA",
+    "frequency": "one-time",
+    "model_score": 0.0001
+  },
+  {
+    "name": "CLeaR (Causal Learning and Reasoning)",
+    "description": "Dedicated venue for causal inference attracting both ML and economics researchers. Covers causal discovery, causal representation learning, and applications to decision-making.",
+    "category": "Conferences",
+    "subcategory": "Experimentation",
+    "url": "https://www.cclear.cc/",
+    "type": "Annual Conference",
+    "location": "Lausanne, Switzerland (2025)",
+    "dates": "May (annually)",
+    "best_for": "Causal ML researchers and econometricians",
+    "tags": [
+      "Conferences",
+      "Experimentation"
+    ],
+    "difficulty": null,
+    "prerequisites": [],
+    "topic_tags": [
+      "causal inference",
+      "machine learning",
+      "economics",
+      "decision-making"
+    ],
+    "summary": "CLeaR is a dedicated venue for causal inference that attracts both machine learning and economics researchers. The conference covers topics such as causal discovery, causal representation learning, and their applications to decision-making.",
+    "use_cases": [
+      "networking with researchers",
+      "learning about causal inference",
+      "exploring applications in decision-making"
+    ],
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What is CLeaR conference?",
+      "Who should attend CLeaR?",
+      "What topics are covered at CLeaR?",
+      "Where is CLeaR held?",
+      "When does CLeaR take place?",
+      "How can I participate in CLeaR?",
+      "What are the benefits of attending CLeaR?",
+      "Is CLeaR focused on machine learning or economics?"
+    ],
+    "attendees": "300+",
+    "lat": 46.5197,
+    "lng": 6.6323,
+    "start_date": "2025-05-07",
+    "end_date": "2025-05-09",
+    "event_format": "conference",
+    "geographic_focus": "Lausanne, Switzerland",
+    "frequency": "annual",
+    "model_score": 0.0
+  },
+  {
+    "name": "SOLE/EALE Annual Meeting",
+    "description": "Primary academic labor economics conference. The 2025 edition is the 6th World Labor Conference held jointly with European and Asian associations, providing global labor economics perspectives.",
+    "category": "Conferences",
+    "subcategory": "Labor & Finance",
+    "url": "https://www.sole-jole.org/",
+    "type": "Annual Conference",
+    "location": "Toronto, Canada (2025)",
+    "dates": "June (annually)",
+    "best_for": "Labor economists",
+    "tags": [
+      "Conferences",
+      "Labor & Finance"
+    ],
+    "lat": 43.6532,
+    "lng": -79.3832,
+    "start_date": "2025-05-08",
+    "end_date": "2025-05-10",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "labor-economics",
+      "academic-conference",
+      "global-perspectives"
+    ],
+    "summary": "The SOLE/EALE Annual Meeting is the primary academic labor economics conference, featuring the 6th World Labor Conference in 2025. It attracts scholars and practitioners interested in global labor economics perspectives.",
+    "use_cases": [
+      "networking with academics",
+      "learning about labor economics",
+      "presenting research",
+      "collaborating with peers"
+    ],
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What is the SOLE/EALE Annual Meeting?",
+      "Who should attend the labor economics conference?",
+      "What topics are covered at the World Labor Conference?",
+      "How does the conference facilitate networking?",
+      "What are the benefits of attending academic conferences?",
+      "Where is the 2025 SOLE/EALE Annual Meeting held?",
+      "What is the significance of labor economics?",
+      "How to register for the conference?"
+    ],
+    "event_format": "conference",
+    "geographic_focus": "Toronto, Canada",
+    "frequency": "annual",
+    "model_score": 0.0
+  },
+  {
+    "name": "Matteo Courthoud",
+    "description": "Zalando Applied Scientist. Weekly posts on causal inference with code \u2014 CUPED, causal forests, AIPW, and more.",
+    "category": "Blogs",
+    "url": "https://matteocourthoud.github.io/",
+    "image_url": "https://matteocourthoud.github.io/author/avatar_hu365eedc833ccd5578a90de7c849ec45e_385094_520x520_fill_q75_lanczos_center.jpg",
+    "type": "Personal Blog",
+    "location": "Online",
+    "dates": "Ongoing",
+    "tags": [
+      "Blogs",
+      "Personal Blog"
+    ],
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [
+      "blogs"
+    ],
+    "summary": "Matteo Courthoud shares insights on causal inference through weekly posts. This blog is suitable for anyone interested in applied data science and causal analysis.",
+    "use_cases": [
+      "to learn about causal inference techniques",
+      "to follow updates in applied data science",
+      "to gain insights from an experienced applied scientist"
+    ],
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is causal inference?",
+      "How to implement CUPED?",
+      "What are causal forests?",
+      "What is AIPW?",
+      "Where can I find resources on causal inference?",
+      "Who is Matteo Courthoud?",
+      "What are the latest trends in applied data science?",
+      "How to learn about data science methodologies?"
+    ],
+    "event_format": "online",
+    "frequency": "weekly",
+    "model_score": 0.0
+  },
+  {
+    "name": "Matheus Facure",
+    "description": "'Causal Inference for the Brave and True' author. The primary bridge between econometric theory and Python production code. DML, uplift modeling, and synthetic controls implemented.",
+    "category": "Blogs",
+    "url": "https://matheusfacure.github.io/",
+    "image_url": "https://avatars.githubusercontent.com/u/18542597?v=4",
+    "type": "Personal Blog",
+    "location": "Online",
+    "dates": "Ongoing",
+    "tags": [
+      "Blogs",
+      "Personal Blog"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "blogs"
+    ],
+    "summary": "Matheus Facure is the author of 'Causal Inference for the Brave and True', focusing on the intersection of econometric theory and Python production code. This personal blog is likely to attract those interested in causal inference and data science methodologies.",
+    "use_cases": [
+      "to learn about causal inference",
+      "to explore econometric theory applications",
+      "to find practical implementations in Python"
+    ],
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is causal inference?",
+      "How to implement DML in Python?",
+      "What are synthetic controls?",
+      "What is uplift modeling?",
+      "How does econometric theory apply to data science?",
+      "Where can I find resources on Python for econometrics?",
+      "What are the best practices for causal modeling?",
+      "Who is Matheus Facure?"
+    ],
+    "event_format": "online",
+    "model_score": 0.0
+  },
+  {
+    "name": "Nathan Lambert",
+    "description": "Interconnects. The primary chronicler of RLHF. RLHF as mechanism design for AI: eliciting preferences and training reward models.",
+    "category": "Blogs",
+    "url": "https://www.interconnects.ai/",
+    "image_url": "https://substack-post-media.s3.amazonaws.com/public/images/8fedcdfb-e137-4f6a-9089-a46add6c6242_500x500.jpeg",
+    "type": "Personal Blog",
+    "location": "Online",
+    "dates": "Ongoing",
+    "tags": [
+      "Blogs",
+      "Personal Blog"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "AI",
+      "mechanism design",
+      "RLHF"
+    ],
+    "summary": "Nathan Lambert's blog focuses on the concept of Reinforcement Learning from Human Feedback (RLHF) and its implications for AI. It is aimed at those interested in the intersection of AI and mechanism design.",
+    "use_cases": [
+      "to understand RLHF",
+      "to explore AI training methodologies"
+    ],
+    "audience": [
+      "Curious-browser",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What is RLHF?",
+      "How does RLHF relate to mechanism design?",
+      "What are the implications of RLHF for AI development?",
+      "Who is Nathan Lambert?",
+      "What are the key concepts in Nathan Lambert's blog?",
+      "How can RLHF be applied in practice?",
+      "What are the challenges of using RLHF?",
+      "What insights does Nathan Lambert provide on AI training?"
+    ],
+    "event_format": "online",
+    "model_score": 0.0
+  },
+  {
+    "name": "Lilian Weng",
+    "description": "Lil'Log. OpenAI Safety Systems lead. The single best technical summaries on DL, agents, and RL. Often cited as primary sources in papers.",
+    "category": "Blogs",
+    "url": "https://lilianweng.github.io/",
+    "image_url": "https://avatars.githubusercontent.com/u/901179?v=4",
+    "type": "Personal Blog",
+    "location": "Online",
+    "dates": "Ongoing",
+    "tags": [
+      "Blogs",
+      "Personal Blog"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "blogs"
+    ],
+    "summary": "Lilian Weng's blog, Lil'Log, provides technical summaries on deep learning, agents, and reinforcement learning. It is often cited as a primary source in academic papers, attracting readers interested in AI safety and technical insights.",
+    "use_cases": [
+      "to gain insights on AI safety",
+      "to understand deep learning concepts",
+      "to find reliable technical summaries",
+      "to stay updated on reinforcement learning"
+    ],
+    "audience": [
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are the latest insights on deep learning?",
+      "How does reinforcement learning work?",
+      "What are the safety systems in AI?",
+      "Where can I find technical summaries on AI?",
+      "Who is Lilian Weng?",
+      "What topics does Lil'Log cover?",
+      "Why are Lil'Log's summaries often cited?",
+      "How can I follow Lilian Weng's work?"
+    ],
+    "event_format": "online",
+    "model_score": 0.0
+  },
+  {
+    "name": "Google Market Algorithms",
+    "description": "Auction design, mechanism design, autobidding systems. Led by Vahab Mirrokni. Shapes Google's advertising marketplace.",
+    "category": "Research Labs",
+    "url": "https://research.google/teams/market-algorithms/",
+    "type": "Tech Lab",
+    "location": "Google Research",
+    "dates": "Active",
+    "tags": [
+      "Research Labs",
+      "Tech Lab"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "research",
+      "auction-design",
+      "mechanism-design",
+      "advertising"
+    ],
+    "summary": "The event focuses on auction design and mechanism design within Google's advertising marketplace, specifically discussing autobidding systems. It is led by Vahab Mirrokni and is likely to attract professionals and researchers interested in advertising technologies.",
+    "use_cases": [
+      "to understand auction design",
+      "to learn about mechanism design",
+      "to explore autobidding systems",
+      "to network with industry professionals"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are Google's market algorithms?",
+      "How does auction design work?",
+      "What is mechanism design in advertising?",
+      "What are autobidding systems?",
+      "Who is Vahab Mirrokni?",
+      "How does Google's advertising marketplace function?",
+      "What are the implications of auction design?",
+      "What can I learn from this tech lab?"
+    ],
+    "event_format": "workshop",
+    "geographic_focus": "Google Research",
+    "model_score": 0.0
+  },
+  {
+    "name": "Meta Core Data Science",
+    "description": "Experimentation at scale, network effects, peer effects, advertising analytics. Led by Nicolas Stier-Moses (VP).",
+    "category": "Research Labs",
+    "url": "https://engineering.fb.com/category/core-infra/",
+    "type": "Tech Lab",
+    "location": "Meta",
+    "dates": "Active",
+    "tags": [
+      "Research Labs",
+      "Tech Lab"
+    ],
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "data-science",
+      "advertising-analytics",
+      "network-effects",
+      "peer-effects"
+    ],
+    "summary": "Meta Core Data Science focuses on experimentation at scale and the analysis of network and peer effects in advertising. It is led by Nicolas Stier-Moses and is suitable for those interested in advanced data science applications.",
+    "use_cases": [
+      "to learn about advanced data science techniques",
+      "to network with industry professionals",
+      "to understand the impact of advertising analytics",
+      "to explore research opportunities in tech"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is experimentation at scale?",
+      "How do network effects influence advertising?",
+      "What are peer effects in data science?",
+      "Who is Nicolas Stier-Moses?",
+      "What topics are covered in Meta Core Data Science?",
+      "How can I apply advertising analytics in my work?",
+      "What is the significance of research labs in tech?",
+      "What skills are needed for a tech lab?"
+    ],
+    "event_format": "workshop",
+    "geographic_focus": "Meta",
+    "model_score": 0.0
+  },
+  {
+    "name": "Quant Trading App Discord",
+    "description": "~10,000 members. Quantitative trading and technical analysis discussions.",
+    "category": "Online",
+    "url": "https://discord.com/invite/quant-trading-app",
+    "type": "Discord Server",
+    "location": "Online",
+    "dates": "Ongoing",
+    "tags": [
+      "Online",
+      "Discord Server"
+    ],
+    "difficulty": "beginner|intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "quantitative-trading",
+      "technical-analysis",
+      "online-community"
+    ],
+    "summary": "The Quant Trading App Discord is an online community with around 10,000 members focused on discussions related to quantitative trading and technical analysis. It attracts individuals interested in trading strategies and market analysis.",
+    "use_cases": [
+      "networking with other traders",
+      "learning about trading strategies",
+      "discussing market trends"
+    ],
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is quantitative trading?",
+      "How can I improve my trading skills?",
+      "What discussions happen in the Quant Trading App Discord?",
+      "Who can join the Quant Trading App Discord?",
+      "What resources are available for quantitative trading?",
+      "How to analyze technical indicators?",
+      "What tools are used for quantitative trading?",
+      "What are the benefits of joining a trading community?"
+    ],
+    "event_format": "online",
+    "model_score": 0.0
+  },
+  {
+    "name": "Ferenc Huszar",
+    "description": "Former ML researcher at Twitter/X, PhD from Cambridge. Known for inFERENCe blog bridging ML research with causal inference.",
+    "category": "Notable Contributors",
+    "url": "https://www.inference.vc/",
+    "type": "Industry Leader",
+    "location": "London, UK",
+    "best_for": "Causal inference, do-calculus, counterfactuals, ML theory, Pearls work explained",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "machine-learning",
+      "causal-inference",
+      "industry-leader"
+    ],
+    "summary": "Ferenc Huszar is a notable contributor in the field of machine learning, known for his work bridging ML research with causal inference through his inFERENCe blog. This event is likely to attract professionals and researchers interested in the intersection of machine learning and causal analysis.",
+    "use_cases": [
+      "Gain insights from an industry leader",
+      "Network with professionals in ML and causal inference",
+      "Learn about the latest trends in machine learning"
+    ],
+    "audience": [
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What is Ferenc Huszar's background?",
+      "How does causal inference relate to machine learning?",
+      "What insights can be gained from the inFERENCe blog?",
+      "Who are the notable contributors in ML?",
+      "What are the latest trends in machine learning research?",
+      "How can industry leaders influence ML practices?",
+      "What events feature discussions on causal inference?",
+      "Where can I learn more about ML research?"
+    ],
+    "event_format": "meetup",
+    "geographic_focus": "London, UK",
+    "model_score": 0.0
   },
   {
     "name": "CODE@MIT Conference",
@@ -18414,45 +18453,6 @@
     ],
     "event_format": "conference",
     "geographic_focus": "Boston, USA",
-    "model_score": 0.0
-  },
-  {
-    "name": "Neil Hoyne",
-    "description": "Google Chief Strategist and Wharton Senior Fellow. Bestselling author of 'Converted' translating Google's experimentation insights into practitioner frameworks.",
-    "category": "Notable Contributors",
-    "url": "https://www.neilhoyne.com/",
-    "type": "Industry Leader",
-    "location": "USA",
-    "best_for": "Customer lifetime value, Google marketing insights, CLV-focused marketing, practitioner frameworks",
-    "difficulty": "beginner",
-    "prerequisites": [],
-    "topic_tags": [
-      "industry-event"
-    ],
-    "summary": "Neil Hoyne, Google Chief Strategist and Wharton Senior Fellow, shares insights from his bestselling book 'Converted', focusing on Google's experimentation frameworks. This event is aimed at professionals interested in data-driven marketing and strategy.",
-    "use_cases": [
-      "to learn about data-driven marketing",
-      "to understand Google's approach to experimentation",
-      "to gain insights from a leading industry expert"
-    ],
-    "audience": [
-      "Mid-DS",
-      "Senior-DS",
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "What insights does Neil Hoyne provide?",
-      "How can Google's experimentation frameworks be applied?",
-      "Who is Neil Hoyne?",
-      "What is the book 'Converted' about?",
-      "What are the key takeaways from this event?",
-      "How does Neil Hoyne's work influence marketing strategies?",
-      "What is the role of a Chief Strategist at Google?",
-      "What can attendees learn from industry leaders like Neil Hoyne?"
-    ],
-    "event_format": "online",
-    "geographic_focus": "USA",
-    "frequency": "one-time",
     "model_score": 0.0
   },
   {
