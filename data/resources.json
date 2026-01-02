@@ -48,7 +48,8 @@
       "Proficiency in Python for data analysis"
     ],
     "model_score": 0.0678,
-    "macro_category": "Causal Methods"
+    "macro_category": "Causal Methods",
+    "image_url": "/images/logos/github.png"
   },
   {
     "name": "PyMC Labs Blog",
@@ -693,7 +694,8 @@
       "ability to perform statistical tests"
     ],
     "model_score": 0.0204,
-    "macro_category": "Bayesian & Probability"
+    "macro_category": "Bayesian & Probability",
+    "image_url": "/images/logos/scipy.png"
   },
   {
     "name": "Evan Miller: How Not To Run an A/B Test",
@@ -1015,7 +1017,8 @@
       "shell scripting"
     ],
     "model_score": 0.0153,
-    "macro_category": "Programming"
+    "macro_category": "Programming",
+    "image_url": "/images/logos/mit.png"
   },
   {
     "name": "Problem Solving with Algorithms & Data Structures (Python)",
@@ -1148,7 +1151,8 @@
       "problem-solving skills in software engineering"
     ],
     "model_score": 0.0153,
-    "macro_category": "Programming"
+    "macro_category": "Programming",
+    "image_url": "/images/logos/leetcode.png"
   },
   {
     "name": "USF Data Structure Visualizations",
@@ -1191,7 +1195,8 @@
       "Ability to visualize algorithms"
     ],
     "model_score": 0.0153,
-    "macro_category": "Programming"
+    "macro_category": "Programming",
+    "image_url": "/images/logos/usfca.png"
   },
   {
     "name": "freeCodeCamp: Algorithms Course",
@@ -1463,7 +1468,8 @@
       "Applying economic principles to advertising"
     ],
     "model_score": 0.0124,
-    "macro_category": "Marketing & Growth"
+    "macro_category": "Marketing & Growth",
+    "image_url": "/images/logos/benedelman.png"
   },
   {
     "name": "QuantEcon: Linear Programming Introduction",
@@ -1771,7 +1777,8 @@
       "interacting with databases"
     ],
     "model_score": 0.0093,
-    "macro_category": "Programming"
+    "macro_category": "Programming",
+    "image_url": "/images/logos/sqlbolt.png"
   },
   {
     "name": "Meta Engineering - Data Science",
@@ -2130,7 +2137,8 @@
       "Learning to analyze data with DuckDB"
     ],
     "model_score": 0.0078,
-    "macro_category": "Programming"
+    "macro_category": "Programming",
+    "image_url": "/images/logos/duckdb.png"
   },
   {
     "name": "NeetCode",
@@ -2173,7 +2181,8 @@
       "understanding coding patterns"
     ],
     "model_score": 0.0078,
-    "macro_category": "Programming"
+    "macro_category": "Programming",
+    "image_url": "/images/logos/neetcode.png"
   },
   {
     "name": "Blind 75",
@@ -2221,7 +2230,8 @@
       "data structure manipulation"
     ],
     "model_score": 0.0078,
-    "macro_category": "Programming"
+    "macro_category": "Programming",
+    "image_url": "/images/logos/techinterviewhandbook.png"
   },
   {
     "name": "LeetCode Patterns",
@@ -2268,7 +2278,8 @@
       "application of Python in interviews"
     ],
     "model_score": 0.0078,
-    "macro_category": "Programming"
+    "macro_category": "Programming",
+    "image_url": "/images/logos/seanprashad.png"
   },
   {
     "name": "SELECT Star SQL",
@@ -2311,7 +2322,8 @@
       "Data analysis using SQL"
     ],
     "model_score": 0.0078,
-    "macro_category": "Programming"
+    "macro_category": "Programming",
+    "image_url": "/images/logos/selectstarsql.png"
   },
   {
     "name": "8 Week SQL Challenge (Danny Ma)",
@@ -2892,7 +2904,8 @@
       "Overbooking strategies"
     ],
     "model_score": 0.0058,
-    "macro_category": "Marketing & Growth"
+    "macro_category": "Marketing & Growth",
+    "image_url": "/images/logos/ethernet.edu.png"
   },
   {
     "name": "Coursera Pricing Strategy Optimization (UVA/BCG)",
@@ -3106,7 +3119,8 @@
       "Reframing experiments for new insights"
     ],
     "model_score": 0.0056,
-    "macro_category": "Causal Methods"
+    "macro_category": "Causal Methods",
+    "image_url": "/images/logos/medium.png"
   },
   {
     "name": "Uber Engineering: Uplift Modeling for Multiple Treatments",
@@ -3152,7 +3166,8 @@
     ],
     "model_score": 0.0055,
     "macro_category": "Causal Methods",
-    "subtopic": "Marketplaces"
+    "subtopic": "Marketplaces",
+    "image_url": "/images/logos/uber.png"
   },
   {
     "name": "Brady Neal's Introduction to Causal Inference",
@@ -3253,7 +3268,8 @@
       "Knowledge of CATE estimation techniques"
     ],
     "model_score": 0.0055,
-    "macro_category": "Machine Learning"
+    "macro_category": "Machine Learning",
+    "image_url": "/images/logos/stanford.png"
   },
   {
     "name": "Andrew Heiss's DAG and Backdoor Tutorials",
@@ -3492,7 +3508,8 @@
       "skills in using interactive tools for experimentation"
     ],
     "model_score": 0.0054,
-    "macro_category": "Experimentation"
+    "macro_category": "Experimentation",
+    "image_url": "/images/logos/evanmiller.png"
   },
   {
     "name": "Netflix Tech Blog: What is an A/B Test?",
@@ -3542,7 +3559,8 @@
     ],
     "model_score": 0.0054,
     "macro_category": "Experimentation",
-    "subtopic": "Streaming"
+    "subtopic": "Streaming",
+    "image_url": "/images/logos/netflixtechblog.png"
   },
   {
     "name": "LinkedIn: Our Evolution Towards T-REX",
@@ -3631,7 +3649,8 @@
       "knowledge of convergence visualizations"
     ],
     "model_score": 0.0051,
-    "macro_category": "Operations Research"
+    "macro_category": "Operations Research",
+    "image_url": "/images/logos/scipy-lectures.png"
   },
   {
     "name": "Lyft: Quantifying Efficiency in Ridesharing",
@@ -3675,7 +3694,8 @@
       "ability to analyze efficiency metrics"
     ],
     "model_score": 0.0048,
-    "macro_category": "Platform & Markets"
+    "macro_category": "Platform & Markets",
+    "image_url": "/images/logos/lyft.png"
   },
   {
     "name": "Instacart Tech Blog",
@@ -3779,7 +3799,7 @@
       "auctions"
     ],
     "domain": "Auction Theory",
-    "image_url": null,
+    "image_url": "/images/logos/yale.png",
     "difficulty": "intermediate",
     "prerequisites": [],
     "topic_tags": [
@@ -3958,7 +3978,8 @@
       "Ability to analyze revenue-maximizing strategies"
     ],
     "model_score": 0.0047,
-    "macro_category": "Platform & Markets"
+    "macro_category": "Platform & Markets",
+    "image_url": "/images/logos/timroughgarden.png"
   },
   {
     "name": "Easley & Kleinberg: Sponsored Search Markets",
@@ -4002,7 +4023,8 @@
       "Analyzing online ad mechanisms"
     ],
     "model_score": 0.0047,
-    "macro_category": "Platform & Markets"
+    "macro_category": "Platform & Markets",
+    "image_url": "/images/logos/cornell.png"
   },
   {
     "name": "Slack's 2000 Messages Activation Metric",
@@ -4398,7 +4420,8 @@
       "ability to visualize optimization problems"
     ],
     "model_score": 0.0036,
-    "macro_category": "Operations Research"
+    "macro_category": "Operations Research",
+    "image_url": "/images/logos/henryrobbins.png"
   },
   {
     "name": "QuantEcon DataScience",
@@ -4827,7 +4850,8 @@
       "Applying growth accounting frameworks"
     ],
     "model_score": 0.0031,
-    "macro_category": "Marketing & Growth"
+    "macro_category": "Marketing & Growth",
+    "image_url": "/images/logos/bytepawn.png"
   },
   {
     "name": "Guide to Product Metrics",
@@ -5884,7 +5908,8 @@
     ],
     "content_format": "article",
     "model_score": 0.0023,
-    "macro_category": "Operations Research"
+    "macro_category": "Operations Research",
+    "image_url": "/images/logos/gatech.png"
   },
   {
     "name": "DoorDash: ML + Optimization for Dispatch",
@@ -6054,7 +6079,8 @@
       "ability to analyze retention strategies"
     ],
     "model_score": 0.0023,
-    "macro_category": "Marketing & Growth"
+    "macro_category": "Marketing & Growth",
+    "image_url": "/images/logos/sequoiacap.png"
   },
   {
     "name": "A Quantitative Approach to Product-Market Fit (Tribe Capital)",
@@ -7290,7 +7316,8 @@
     ],
     "model_score": 0.0017,
     "macro_category": "Causal Methods",
-    "domain": "Causal Inference"
+    "domain": "Causal Inference",
+    "image_url": "/images/logos/causalwizard.png"
   },
   {
     "name": "Meta: Instagram Notification Management with ML and Causal Inference",
@@ -7383,7 +7410,8 @@
     ],
     "model_score": 0.0017,
     "macro_category": "Causal Methods",
-    "domain": "Causal Inference"
+    "domain": "Causal Inference",
+    "image_url": "/images/logos/google.png"
   },
   {
     "name": "Jonathan Levin's Revenue Equivalence Notes",
@@ -7426,7 +7454,8 @@
       "applying revenue equivalence in economic analysis"
     ],
     "model_score": 0.0016,
-    "macro_category": "Platform & Markets"
+    "macro_category": "Platform & Markets",
+    "image_url": "/images/logos/utoronto.png"
   },
   {
     "name": "Kevin Leyton-Brown's VCG Mechanism Lectures",
@@ -7470,7 +7499,8 @@
       "analyzing auction strategies"
     ],
     "model_score": 0.0016,
-    "macro_category": "Platform & Markets"
+    "macro_category": "Platform & Markets",
+    "image_url": "/images/logos/ubc.png"
   },
   {
     "name": "Netflix: It's All A/Bout Testing - The Experimentation Platform",
@@ -7785,7 +7815,8 @@
       "ability to apply hypothesis-driven iteration"
     ],
     "model_score": 0.0013,
-    "macro_category": "Strategy"
+    "macro_category": "Strategy",
+    "image_url": "/images/logos/acm.png"
   },
   {
     "name": "MIT 15.S08 FinTech (Gary Gensler)",
@@ -8118,7 +8149,8 @@
       "Python programming"
     ],
     "model_score": 0.0011,
-    "macro_category": "Industry Economics"
+    "macro_category": "Industry Economics",
+    "image_url": "/images/logos/mygreatlearning.png"
   },
   {
     "name": "StatQuest with Josh Starmer",
@@ -8251,7 +8283,8 @@
     "content_format": "article",
     "model_score": 0.001,
     "macro_category": "Causal Methods",
-    "domain": "Causal Inference"
+    "domain": "Causal Inference",
+    "image_url": "/images/logos/yanirseroussi.png"
   },
   {
     "name": "Shubhanshu Mishra: Awesome Causality",
@@ -8483,7 +8516,8 @@
     ],
     "model_score": 0.0009,
     "macro_category": "Causal Methods",
-    "domain": "Causal Inference"
+    "domain": "Causal Inference",
+    "image_url": "/images/logos/nickchk.png"
   },
   {
     "name": "DoorDash: Causal Modeling to Get Value from Flat Experiment Results",
@@ -9191,7 +9225,8 @@
     ],
     "model_score": 0.0007,
     "macro_category": "Causal Methods",
-    "domain": "Causal Inference"
+    "domain": "Causal Inference",
+    "image_url": "/images/logos/uchicago.png"
   },
   {
     "name": "Stanford STATS 361: Causal Inference Lecture Notes (Wager)",
@@ -9633,7 +9668,8 @@
     "model_score": 0.0007,
     "macro_category": "Platform & Markets",
     "domain": "Platform Economics",
-    "subtopic": "Marketplaces"
+    "subtopic": "Marketplaces",
+    "image_url": "/images/logos/fiverr.png"
   },
   {
     "name": "Clearcode AdTech Book",
@@ -9777,7 +9813,8 @@
     ],
     "model_score": 0.0006,
     "macro_category": "Experimentation",
-    "domain": "Experimentation"
+    "domain": "Experimentation",
+    "image_url": "/images/logos/exp-platform.png"
   },
   {
     "name": "Neptune.ai: When to Choose CatBoost Over XGBoost",
@@ -10012,7 +10049,8 @@
     ],
     "model_score": 0.0006,
     "macro_category": "Platform & Markets",
-    "domain": "Platform Economics"
+    "domain": "Platform Economics",
+    "image_url": "/images/logos/hbs.png"
   },
   {
     "name": "Freakonometrics Blog",
@@ -10065,7 +10103,8 @@
     ],
     "model_score": 0.0006,
     "macro_category": "Industry Economics",
-    "subtopic": "Research & Academia"
+    "subtopic": "Research & Academia",
+    "image_url": "/images/logos/hypotheses.png"
   },
   {
     "name": "Google Machine Learning Crash Course",
@@ -10164,7 +10203,8 @@
       "Knowledge of mobile advertising strategies"
     ],
     "model_score": 0.0006,
-    "macro_category": "Marketing & Growth"
+    "macro_category": "Marketing & Growth",
+    "image_url": "/images/logos/appsflyer.png"
   },
   {
     "name": "LinkedIn Engineering",
@@ -10641,7 +10681,7 @@
       "graduate"
     ],
     "domain": "Defense Economics",
-    "image_url": null,
+    "image_url": "/images/logos/georgetown.png",
     "difficulty": "intermediate",
     "prerequisites": [],
     "topic_tags": [
@@ -10970,7 +11010,7 @@
       "certification"
     ],
     "domain": "Defense Procurement",
-    "image_url": null,
+    "image_url": "/images/logos/dau.png",
     "difficulty": "beginner",
     "prerequisites": [],
     "topic_tags": [
@@ -11060,7 +11100,8 @@
     ],
     "model_score": 0.0005,
     "macro_category": "Operations Research",
-    "subtopic": "Operations Research"
+    "subtopic": "Operations Research",
+    "image_url": "/images/logos/oberdieck.png"
   },
   {
     "name": "Interpretable Machine Learning Book (Christoph Molnar)",
@@ -11257,7 +11298,8 @@
     ],
     "model_score": 0.0005,
     "macro_category": "Marketing & Growth",
-    "subtopic": "AdTech"
+    "subtopic": "AdTech",
+    "image_url": "/images/logos/neilhoyne.png"
   },
   {
     "name": "Microsoft ExP: Deep Dive into Variance Reduction",
@@ -12246,7 +12288,8 @@
     ],
     "content_format": "essay",
     "model_score": 0.0004,
-    "macro_category": "Strategy"
+    "macro_category": "Strategy",
+    "image_url": "/images/logos/shreyasdoshi.png"
   },
   {
     "name": "Made With ML",
@@ -12472,7 +12515,8 @@
       "insight into modern AI techniques"
     ],
     "model_score": 0.0004,
-    "macro_category": "Machine Learning"
+    "macro_category": "Machine Learning",
+    "image_url": "/images/logos/3blue1brown.png"
   },
   {
     "name": "Uber: Dynamic Pricing and Matching in Ride-Hailing",
@@ -12860,7 +12904,8 @@
       "structured learning"
     ],
     "model_score": 0.0004,
-    "macro_category": "Industry Economics"
+    "macro_category": "Industry Economics",
+    "image_url": "/images/logos/classcentral.png"
   },
   {
     "name": "Andrej Karpathy's Neural Networks: Zero to Hero",
@@ -13006,7 +13051,8 @@
     ],
     "model_score": 0.0004,
     "macro_category": "Causal Methods",
-    "domain": "Causal Inference"
+    "domain": "Causal Inference",
+    "image_url": "/images/logos/weebly.png"
   },
   {
     "name": "Chronos-Bolt: Fast Zero-Shot Forecasting (AWS)",
@@ -13518,7 +13564,8 @@
     ],
     "model_score": 0.0003,
     "macro_category": "Operations Research",
-    "subtopic": "Operations Research"
+    "subtopic": "Operations Research",
+    "image_url": "/images/logos/optimisationintherealworld.co.png"
   },
   {
     "name": "Juan Orduz: Bayesian Marketing Methods",
@@ -13667,7 +13714,8 @@
     ],
     "model_score": 0.0003,
     "macro_category": "Marketing & Growth",
-    "subtopic": "AdTech"
+    "subtopic": "AdTech",
+    "image_url": "/images/logos/getrecast.png"
   },
   {
     "name": "Causal Inference for the Brave and True: Time Series",
@@ -14100,7 +14148,8 @@
     ],
     "model_score": 0.0003,
     "macro_category": "Operations Research",
-    "subtopic": "Marketplaces"
+    "subtopic": "Marketplaces",
+    "image_url": "/images/logos/afi.png"
   },
   {
     "name": "LinkedIn: Detecting Interference - An A/B Test of A/B Tests",
@@ -14250,7 +14299,8 @@
     ],
     "model_score": 0.0003,
     "macro_category": "Causal Methods",
-    "domain": "Causal Inference"
+    "domain": "Causal Inference",
+    "image_url": "/images/logos/berkeley.png"
   },
   {
     "name": "Airbnb Engineering: Two-Sided Marketplace Matching",
@@ -14345,7 +14395,8 @@
       "ability to select appropriate R packages for analysis"
     ],
     "model_score": 0.0003,
-    "macro_category": "Industry Economics"
+    "macro_category": "Industry Economics",
+    "image_url": "/images/logos/netlify.png"
   },
   {
     "name": "Eugene Yan: Position Bias in Search",
@@ -14719,7 +14770,8 @@
     "content_format": "paper",
     "model_score": 0.0003,
     "macro_category": "Platform & Markets",
-    "domain": "Platform Economics"
+    "domain": "Platform Economics",
+    "image_url": "/images/logos/jstor.png"
   },
   {
     "name": "HBR IdeaCast: How to Build Dynamic Pricing That Works",
@@ -15216,7 +15268,8 @@
     ],
     "content_format": "article",
     "model_score": 0.0003,
-    "macro_category": "Strategy"
+    "macro_category": "Strategy",
+    "image_url": "/images/logos/bringthedonuts.png"
   },
   {
     "name": "NSPLib: Nurse Scheduling Benchmarks (Ghent University)",
@@ -15261,7 +15314,8 @@
       "knowledge of genetic algorithms and scatter search"
     ],
     "model_score": 0.0003,
-    "macro_category": "Operations Research"
+    "macro_category": "Operations Research",
+    "image_url": "/images/logos/ugent.png"
   },
   {
     "name": "Capitalisn't: Sendhil Mullainathan on Who Controls AI",
@@ -16063,7 +16117,8 @@
       "understanding agile documentation practices"
     ],
     "model_score": 0.0002,
-    "macro_category": "Strategy"
+    "macro_category": "Strategy",
+    "image_url": "/images/logos/atlassian.png"
   },
   {
     "name": "Upwork Engineering Blog",
@@ -16105,7 +16160,8 @@
     "model_score": 0.0002,
     "macro_category": "Platform & Markets",
     "domain": "Platform Economics",
-    "subtopic": "Marketplaces"
+    "subtopic": "Marketplaces",
+    "image_url": "/images/logos/upwork.png"
   },
   {
     "name": "Full Stack Economics (Timothy Lee)",
@@ -16333,7 +16389,8 @@
     "model_score": 0.0002,
     "macro_category": "Causal Methods",
     "domain": "Causal Inference",
-    "subtopic": "Social Media"
+    "subtopic": "Social Media",
+    "image_url": "/images/logos/deaneckles.png"
   },
   {
     "name": "021 Newsletter: Marketing & Data Teams Bridge",
@@ -16658,7 +16715,8 @@
     "model_score": 0.0002,
     "macro_category": "Strategy",
     "domain": "Product Sense",
-    "subtopic": "Research & Academia"
+    "subtopic": "Research & Academia",
+    "image_url": "/images/logos/blogspot.png"
   },
   {
     "name": "Mario Filho: Forecastegy",
@@ -16708,7 +16766,8 @@
     ],
     "model_score": 0.0002,
     "macro_category": "Marketing & Growth",
-    "subtopic": "AdTech"
+    "subtopic": "AdTech",
+    "image_url": "/images/logos/forecastegy.png"
   },
   {
     "name": "Matt Levine: The Crypto Story (Businessweek)",
@@ -16751,7 +16810,8 @@
     ],
     "model_score": 0.0002,
     "macro_category": "Strategy",
-    "domain": "Product Sense"
+    "domain": "Product Sense",
+    "image_url": "/images/logos/bloomberg.png"
   },
   {
     "name": "eBay Tech Blog",
@@ -16935,7 +16995,8 @@
     ],
     "model_score": 0.0002,
     "macro_category": "Platform & Markets",
-    "domain": "Platform Economics"
+    "domain": "Platform Economics",
+    "image_url": "/images/logos/hbr.png"
   },
   {
     "name": "Sangeet Choudary: Platform Scale Blog",
@@ -17020,7 +17081,8 @@
     "model_score": 0.0002,
     "macro_category": "Platform & Markets",
     "domain": "Platform Economics",
-    "subtopic": "Marketplaces"
+    "subtopic": "Marketplaces",
+    "image_url": "/images/logos/a16z.png"
   },
   {
     "name": "Marketing BS: Strategic Marketing Newsletter",
@@ -17392,7 +17454,8 @@
       "Ability to apply systematic tuning methodologies"
     ],
     "model_score": 0.0001,
-    "macro_category": "Machine Learning"
+    "macro_category": "Machine Learning",
+    "image_url": "/images/logos/analyticsvidhya.png"
   },
   {
     "name": "Netflix Technology Blog: Recommendation Systems",
@@ -17663,7 +17726,8 @@
     ],
     "model_score": 0.0001,
     "macro_category": "Causal Methods",
-    "domain": "Causal Inference"
+    "domain": "Causal Inference",
+    "image_url": "/images/logos/aeaweb.png"
   },
   {
     "name": "MIT OCW: Principles of Microeconomics (Healthcare Unit)",
@@ -18360,7 +18424,8 @@
     ],
     "model_score": 0.0001,
     "macro_category": "Operations Research",
-    "subtopic": "Operations Research"
+    "subtopic": "Operations Research",
+    "image_url": "/images/logos/nextmv.png"
   },
   {
     "name": "SVPG: Product Management Start Here",
@@ -18993,7 +19058,8 @@
     "model_score": 0.0001,
     "macro_category": "Platform & Markets",
     "domain": "Platform Economics",
-    "subtopic": "VC & Strategy"
+    "subtopic": "VC & Strategy",
+    "image_url": "/images/logos/abovethecrowd.png"
   },
   {
     "name": "Li Jin: Building for the Creator Middle Class",
@@ -19029,7 +19095,8 @@
     "model_score": 0.0001,
     "macro_category": "Platform & Markets",
     "domain": "Platform Economics",
-    "subtopic": "Creator Economy"
+    "subtopic": "Creator Economy",
+    "image_url": "/images/logos/substack.png"
   },
   {
     "name": "Laura Albert: Punk Rock Operations Research",
@@ -19465,7 +19532,8 @@
     "model_score": 0.0,
     "macro_category": "Platform & Markets",
     "domain": "Platform Economics",
-    "subtopic": "Creator Economy"
+    "subtopic": "Creator Economy",
+    "image_url": "/images/logos/future.png"
   },
   {
     "name": "Li Jin: Unbundling Work",
@@ -19608,7 +19676,8 @@
       "transportation optimization"
     ],
     "model_score": 0.0,
-    "macro_category": "Industry Economics"
+    "macro_category": "Industry Economics",
+    "image_url": "/images/logos/edx.png"
   },
   {
     "name": "SIPRI Databases and Research",
@@ -20246,7 +20315,8 @@
     ],
     "model_score": 0.0,
     "macro_category": "Operations Research",
-    "subtopic": "Operations Research"
+    "subtopic": "Operations Research",
+    "image_url": "/images/logos/ryanjoneil.png"
   },
   {
     "name": "Hands-On Mathematical Optimization with Python (MO-book)",
@@ -20497,7 +20567,8 @@
     ],
     "model_score": 0.0,
     "macro_category": "Marketing & Growth",
-    "subtopic": "AdTech"
+    "subtopic": "AdTech",
+    "image_url": "/images/logos/remerge.png"
   },
   {
     "name": "Adjust Blog: Mobile Attribution & Privacy",
@@ -20836,7 +20907,8 @@
     ],
     "domain": "AI",
     "macro_category": "Machine Learning",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/logos/promptingguide.png"
   },
   {
     "name": "Anthropic Prompt Engineering Documentation",
@@ -21042,7 +21114,8 @@
     ],
     "domain": "Computational Economics",
     "macro_category": "Industry Economics",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/logos/quantecon.png"
   },
   {
     "name": "Econ-ARK DemARK Examples",
@@ -21239,7 +21312,8 @@
     ],
     "domain": "Machine Learning",
     "macro_category": "Machine Learning",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/logos/readthedocs.png"
   },
   {
     "name": "Gymnasium Documentation",
