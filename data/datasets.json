@@ -48,7 +48,8 @@
     "data_modality": "tabular",
     "temporal_coverage": "2020",
     "size_category": "medium",
-    "model_score": 0.0309
+    "model_score": 0.0309,
+    "image_url": "/images/datasets/jdcom-2020-msom-20.png"
   },
   {
     "name": "Retail Rocket",
@@ -95,7 +96,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0303
+    "model_score": 0.0303,
+    "image_url": "/images/datasets/retail-rocket.png"
   },
   {
     "name": "BestBuy",
@@ -143,7 +145,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0235
+    "model_score": 0.0235,
+    "image_url": "/images/datasets/bestbuy.png"
   },
   {
     "name": "LMSYS-Chat-1M",
@@ -188,7 +191,8 @@
     ],
     "data_modality": "text",
     "size_category": "medium",
-    "model_score": 0.0212
+    "model_score": 0.0212,
+    "image_url": "/images/datasets/lmsys-chat-1m.png"
   },
   {
     "name": "Open E-Commerce 1.0 (MIT)",
@@ -330,7 +334,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0156
+    "model_score": 0.0156,
+    "image_url": "/images/datasets/instacart.png"
   },
   {
     "name": "Athey's Course Datasets",
@@ -421,7 +426,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0112
+    "model_score": 0.0112,
+    "image_url": "/images/datasets/amazon-sessions-kdd-cup-23.jpg"
   },
   {
     "name": "BLP US Car Data",
@@ -523,7 +529,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0078
+    "model_score": 0.0078,
+    "image_url": "/images/datasets/uber-movement.jpg"
   },
   {
     "name": "IEEE-CIS Fraud Detection",
@@ -572,7 +579,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0078
+    "model_score": 0.0078,
+    "image_url": "/images/datasets/ieee-cis-fraud-detection.jpg"
   },
   {
     "name": "Chicago TNC Trips",
@@ -816,7 +824,8 @@
     "temporal_coverage": "2016-2018",
     "geographic_scope": "Brazil",
     "size_category": "medium",
-    "model_score": 0.0053
+    "model_score": 0.0053,
+    "image_url": "/images/datasets/brazilian-ecommerce.png"
   },
   {
     "name": "Open CDP",
@@ -862,7 +871,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0053
+    "model_score": 0.0053,
+    "image_url": "/images/datasets/open-cdp.jpg"
   },
   {
     "name": "Alibaba Ads (IJCAI-18)",
@@ -953,7 +963,8 @@
     ],
     "data_modality": "mixed",
     "size_category": "massive",
-    "model_score": 0.0051
+    "model_score": 0.0051,
+    "image_url": "/images/datasets/coveo-shopping-sigir-21.png"
   },
   {
     "name": "Google Merchandise",
@@ -1002,7 +1013,8 @@
     "data_modality": "tabular",
     "temporal_coverage": "2020-2021",
     "size_category": "medium",
-    "model_score": 0.0051
+    "model_score": 0.0051,
+    "image_url": "/images/datasets/google-merchandise.jpeg"
   },
   {
     "name": "Shopee",
@@ -1049,7 +1061,8 @@
     "temporal_coverage": "2020",
     "geographic_scope": "Southeast Asia",
     "size_category": "medium",
-    "model_score": 0.0051
+    "model_score": 0.0051,
+    "image_url": "/images/datasets/shopee.jpg"
   },
   {
     "name": "Flipkart",
@@ -1095,7 +1108,8 @@
     "data_modality": "tabular",
     "geographic_scope": "India",
     "size_category": "medium",
-    "model_score": 0.0038
+    "model_score": 0.0038,
+    "image_url": "/images/datasets/flipkart.png"
   },
   {
     "name": "Pakistan e-commerce",
@@ -1145,7 +1159,8 @@
     "temporal_coverage": "2016-03 to 2018-08",
     "geographic_scope": "Pakistan",
     "size_category": "massive",
-    "model_score": 0.0034
+    "model_score": 0.0034,
+    "image_url": "/images/datasets/pakistan-e-commerce.jpg"
   },
   {
     "name": "Arena Human Preference (55K)",
@@ -1189,7 +1204,8 @@
     ],
     "data_modality": "text",
     "size_category": "medium",
-    "model_score": 0.0026
+    "model_score": 0.0026,
+    "image_url": "/images/datasets/arena-human-preference-55k.png"
   },
   {
     "name": "Used Car Auction (PakWheels)",
@@ -1236,7 +1252,8 @@
     "data_modality": "tabular",
     "geographic_scope": "Pakistan",
     "size_category": "medium",
-    "model_score": 0.0022
+    "model_score": 0.0022,
+    "image_url": "/images/datasets/used-car-auction-pakwheels.jpg"
   },
   {
     "name": "Yahoo A1 Search Advertising Dataset",
@@ -1379,7 +1396,8 @@
     "data_modality": "tabular",
     "temporal_coverage": "2023",
     "size_category": "medium",
-    "model_score": 0.0017
+    "model_score": 0.0017,
+    "image_url": "/images/datasets/art-auction-artists-for-lahaina.png"
   },
   {
     "name": "AXA Driver Telematics (Kaggle)",
@@ -1431,7 +1449,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0014
+    "model_score": 0.0014,
+    "image_url": "/images/datasets/axa-driver-telematics-kaggle.png"
   },
   {
     "name": "Fliggy Travel",
@@ -1607,7 +1626,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0013
+    "model_score": 0.0013,
+    "image_url": "/images/datasets/soso-kdd-cup-2012.png"
   },
   {
     "name": "Nasdaq Data Link",
@@ -1656,7 +1676,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0012
+    "model_score": 0.0012,
+    "image_url": "/images/datasets/nasdaq-data-link.jpg"
   },
   {
     "name": "ASOS Experiments",
@@ -1706,7 +1727,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0011
+    "model_score": 0.0011,
+    "image_url": "/images/datasets/asos-experiments.png"
   },
   {
     "name": "KuaiSAR",
@@ -1804,7 +1826,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0011
+    "model_score": 0.0011,
+    "image_url": "/images/datasets/apple-app-store-dataset.jpg"
   },
   {
     "name": "Alibaba Ads Dataset",
@@ -1900,7 +1923,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "massive",
-    "model_score": 0.001
+    "model_score": 0.001,
+    "image_url": "/images/datasets/lade-cainiao.png"
   },
   {
     "name": "Crypto Art (SuperRare)",
@@ -1950,7 +1974,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.001
+    "model_score": 0.001,
+    "image_url": "/images/datasets/crypto-art-superrare.png"
   },
   {
     "name": "WRDS (Wharton Research Data Services)",
@@ -2050,7 +2075,8 @@
     "data_modality": "tabular",
     "temporal_coverage": "1 year",
     "size_category": "medium",
-    "model_score": 0.001
+    "model_score": 0.001,
+    "image_url": "/images/datasets/netflix-viewing-behavior.png"
   },
   {
     "name": "SOA Mortality Tables",
@@ -2151,7 +2177,8 @@
     "temporal_coverage": "2006-present",
     "geographic_scope": "Global",
     "size_category": "medium",
-    "model_score": 0.001
+    "model_score": 0.001,
+    "image_url": "/images/datasets/csis-significant-cyber-incidents.jpeg"
   },
   {
     "name": "ICPSR",
@@ -2286,7 +2313,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0009
+    "model_score": 0.0009,
+    "image_url": "/images/datasets/avazu.png"
   },
   {
     "name": "Twitch Gamers Social Network",
@@ -2384,7 +2412,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0008
+    "model_score": 0.0008,
+    "image_url": "/images/datasets/outbrain-click-prediction.png"
   },
   {
     "name": "Diginetica Fashion",
@@ -2523,7 +2552,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0008
+    "model_score": 0.0008,
+    "image_url": "/images/datasets/real-time-advertisers-auction.jpg"
   },
   {
     "name": "Alibaba Fashion Combo",
@@ -2660,7 +2690,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0007
+    "model_score": 0.0007,
+    "image_url": "/images/datasets/microlens.png"
   },
   {
     "name": "Fliggy Transfers",
@@ -2753,7 +2784,8 @@
     "data_modality": "tabular",
     "geographic_scope": "India",
     "size_category": "medium",
-    "model_score": 0.0007
+    "model_score": 0.0007,
+    "image_url": "/images/datasets/indian-grocery-flipkart-supermart.png"
   },
   {
     "name": "CAISO OASIS",
@@ -2858,7 +2890,8 @@
     ],
     "data_modality": "text",
     "size_category": "medium",
-    "model_score": 0.0007
+    "model_score": 0.0007,
+    "image_url": "/images/datasets/coaid-covid-misinformation.png"
   },
   {
     "name": "Upworthy News Headlines",
@@ -2903,7 +2936,8 @@
     ],
     "data_modality": "mixed",
     "size_category": "medium",
-    "model_score": 0.0007
+    "model_score": 0.0007,
+    "image_url": "/images/datasets/upworthy-news-headlines.png"
   },
   {
     "name": "Netflix Prize",
@@ -2950,7 +2984,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0007
+    "model_score": 0.0007,
+    "image_url": "/images/datasets/netflix-prize.jpg"
   },
   {
     "name": "Criteo Counterfactual Learning",
@@ -3046,7 +3081,8 @@
     "temporal_coverage": "10 days",
     "geographic_scope": "Global",
     "size_category": "medium",
-    "model_score": 0.0006
+    "model_score": 0.0006,
+    "image_url": "/images/datasets/avazu-click-through-rate-dataset.png"
   },
   {
     "name": "CMS Medicare & Medicaid Data",
@@ -3147,7 +3183,8 @@
     "temporal_coverage": "9 days (2013)",
     "geographic_scope": "China",
     "size_category": "large",
-    "model_score": 0.0006
+    "model_score": 0.0006,
+    "image_url": "/images/datasets/ipinyou-rtb-dataset.png"
   },
   {
     "name": "Harvard Dataverse Auctions",
@@ -3296,7 +3333,8 @@
     "data_modality": "tabular",
     "geographic_scope": "Brazil",
     "size_category": "medium",
-    "model_score": 0.0006
+    "model_score": 0.0006,
+    "image_url": "/images/datasets/brazilian-drugs-anvisa.jpeg"
   },
   {
     "name": "Goodreads",
@@ -3532,7 +3570,8 @@
     "temporal_coverage": "14 days",
     "geographic_scope": "Global",
     "size_category": "medium",
-    "model_score": 0.0006
+    "model_score": 0.0006,
+    "image_url": "/images/datasets/outbrain-click-prediction-dataset.png"
   },
   {
     "name": "Innerwear Data",
@@ -3578,7 +3617,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0006
+    "model_score": 0.0006,
+    "image_url": "/images/datasets/innerwear-data.jpg"
   },
   {
     "name": "Montgomery Liquor",
@@ -3671,7 +3711,8 @@
     "data_modality": "tabular",
     "geographic_scope": "Vietnam",
     "size_category": "medium",
-    "model_score": 0.0006
+    "model_score": 0.0006,
+    "image_url": "/images/datasets/vietnam-supermarket.png"
   },
   {
     "name": "Expedia Hotel",
@@ -3718,7 +3759,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0006
+    "model_score": 0.0006,
+    "image_url": "/images/datasets/expedia-hotel.png"
   },
   {
     "name": "Romania Tenders",
@@ -3763,7 +3805,8 @@
     "temporal_coverage": "2007-2016",
     "geographic_scope": "Romania",
     "size_category": "medium",
-    "model_score": 0.0006
+    "model_score": 0.0006,
+    "image_url": "/images/datasets/romania-tenders.jpg"
   },
   {
     "name": "Italian Grocers",
@@ -3857,7 +3900,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0006
+    "model_score": 0.0006,
+    "image_url": "/images/datasets/nber-public-use-data-archive.jpg"
   },
   {
     "name": "Census Business Dynamics Statistics",
@@ -3901,7 +3945,8 @@
     "data_modality": "tabular",
     "temporal_coverage": "1977-present",
     "size_category": "massive",
-    "model_score": 0.0006
+    "model_score": 0.0006,
+    "image_url": "/images/datasets/census-business-dynamics-statistics.jpg"
   },
   {
     "name": "DrivenData Water Supply Forecasting (2024)",
@@ -4044,7 +4089,8 @@
     "data_modality": "time-series",
     "temporal_coverage": "5 years",
     "size_category": "medium",
-    "model_score": 0.0005
+    "model_score": 0.0005,
+    "image_url": "/images/datasets/store-item-demand.jpg"
   },
   {
     "name": "MobileRec",
@@ -4093,7 +4139,8 @@
     ],
     "data_modality": "text",
     "size_category": "medium",
-    "model_score": 0.0005
+    "model_score": 0.0005,
+    "image_url": "/images/datasets/mobilerec.png"
   },
   {
     "name": "Yelp Dataset",
@@ -4142,7 +4189,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0005
+    "model_score": 0.0005,
+    "image_url": "/images/datasets/yelp-dataset.jpg"
   },
   {
     "name": "Yoyi",
@@ -4425,7 +4473,8 @@
     "data_modality": "tabular",
     "geographic_scope": "Germany",
     "size_category": "medium",
-    "model_score": 0.0005
+    "model_score": 0.0005,
+    "image_url": "/images/datasets/rossmann-store-sales.png"
   },
   {
     "name": "Alibaba Cloud Theme",
@@ -4516,7 +4565,8 @@
     "data_modality": "tabular",
     "geographic_scope": "Ukraine",
     "size_category": "medium",
-    "model_score": 0.0005
+    "model_score": 0.0005,
+    "image_url": "/images/datasets/ukraine-procurement-prozorro.png"
   },
   {
     "name": "Spotify Music Streaming Sessions (MSSD)",
@@ -4563,7 +4613,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "massive",
-    "model_score": 0.0005
+    "model_score": 0.0005,
+    "image_url": "/images/datasets/spotify-music-streaming-sessions-mssd.png"
   },
   {
     "name": "Harvard Dataverse",
@@ -4605,7 +4656,8 @@
     ],
     "data_modality": "mixed",
     "size_category": "medium",
-    "model_score": 0.0005
+    "model_score": 0.0005,
+    "image_url": "/images/datasets/harvard-dataverse.png"
   },
   {
     "name": "Rakuten SIGIR",
@@ -4742,7 +4794,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0005
+    "model_score": 0.0005,
+    "image_url": "/images/datasets/google-play-store-dataset.jpg"
   },
   {
     "name": "Indian Sales",
@@ -4788,7 +4841,8 @@
     "data_modality": "tabular",
     "geographic_scope": "India",
     "size_category": "medium",
-    "model_score": 0.0005
+    "model_score": 0.0005,
+    "image_url": "/images/datasets/indian-sales.png"
   },
   {
     "name": "TalkingData AdTracking Fraud Detection",
@@ -4835,7 +4889,8 @@
     "temporal_coverage": "4 days",
     "geographic_scope": "China",
     "size_category": "medium",
-    "model_score": 0.0005
+    "model_score": 0.0005,
+    "image_url": "/images/datasets/talkingdata-adtracking-fraud-detection.jpg"
   },
   {
     "name": "EU Open Data Portal",
@@ -4975,7 +5030,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0004
+    "model_score": 0.0004,
+    "image_url": "/images/datasets/netflix-engagement-reports.png"
   },
   {
     "name": "Office Supplies (DMDA 2023)",
@@ -5020,7 +5076,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0004
+    "model_score": 0.0004,
+    "image_url": "/images/datasets/office-supplies-dmda-2023.png"
   },
   {
     "name": "Walmart Sales",
@@ -5066,7 +5123,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0004
+    "model_score": 0.0004,
+    "image_url": "/images/datasets/walmart-sales.jpg"
   },
   {
     "name": "FERC Form 714",
@@ -5252,7 +5310,8 @@
     "data_modality": "tabular",
     "geographic_scope": "Brazil",
     "size_category": "medium",
-    "model_score": 0.0004
+    "model_score": 0.0004,
+    "image_url": "/images/datasets/brazilian-store-chain.png"
   },
   {
     "name": "Stack Overflow Data Dump",
@@ -5353,7 +5412,8 @@
     "benchmark_usage": [
       "Model comparison"
     ],
-    "model_score": 0.0004
+    "model_score": 0.0004,
+    "image_url": "/images/datasets/criteo-kaggle-ctr-dataset.png"
   },
   {
     "name": "Multi-Region MMM eCommerce Dataset",
@@ -5450,7 +5510,8 @@
     "temporal_coverage": "1994-present",
     "geographic_scope": "United States",
     "size_category": "medium",
-    "model_score": 0.0004
+    "model_score": 0.0004,
+    "image_url": "/images/datasets/pudl-public-utility-data-liberation.png"
   },
   {
     "name": "Mexican Grocery",
@@ -5490,7 +5551,8 @@
     "data_modality": "tabular",
     "geographic_scope": "Mexico",
     "size_category": "medium",
-    "model_score": 0.0004
+    "model_score": 0.0004,
+    "image_url": "/images/datasets/mexican-grocery.png"
   },
   {
     "name": "Tencent Social Ads",
@@ -5576,7 +5638,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0004
+    "model_score": 0.0004,
+    "image_url": "/images/datasets/ipinyou-rtb.png"
   },
   {
     "name": "Amazon AWS Open Data",
@@ -6013,7 +6076,8 @@
     "data_modality": "tabular",
     "geographic_scope": "Ukraine",
     "size_category": "medium",
-    "model_score": 0.0003
+    "model_score": 0.0003,
+    "image_url": "/images/datasets/ukraine-ecommerce-fozzy.jpg"
   },
   {
     "name": "NYC Shopping",
@@ -6060,7 +6124,8 @@
     "data_modality": "tabular",
     "geographic_scope": "New York City",
     "size_category": "medium",
-    "model_score": 0.0003
+    "model_score": 0.0003,
+    "image_url": "/images/datasets/nyc-shopping.png"
   },
   {
     "name": "FCC Spectrum Auctions",
@@ -6103,7 +6168,8 @@
     "data_modality": "tabular",
     "temporal_coverage": "1994-present",
     "size_category": "medium",
-    "model_score": 0.0003
+    "model_score": 0.0003,
+    "image_url": "/images/datasets/fcc-spectrum-auctions.jpg"
   },
   {
     "name": "Walmart (M5)",
@@ -6152,7 +6218,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0003
+    "model_score": 0.0003,
+    "image_url": "/images/datasets/walmart-m5.jpg"
   },
   {
     "name": "Kaggle Datasets",
@@ -6192,7 +6259,8 @@
     ],
     "data_modality": "mixed",
     "size_category": "medium",
-    "model_score": 0.0003
+    "model_score": 0.0003,
+    "image_url": "/images/datasets/kaggle-datasets.png"
   },
   {
     "name": "Amazon Last Mile",
@@ -6379,7 +6447,8 @@
     "benchmark_usage": [
       "Common uses if mentioned in description"
     ],
-    "model_score": 0.0003
+    "model_score": 0.0003,
+    "image_url": "/images/datasets/fashion-mnist.png"
   },
   {
     "name": "Google Trends Datastore",
@@ -6476,7 +6545,8 @@
     "data_modality": "tabular",
     "temporal_coverage": "2017",
     "size_category": "medium",
-    "model_score": 0.0003
+    "model_score": 0.0003,
+    "image_url": "/images/datasets/twitch-streaming-dataset.png"
   },
   {
     "name": "EIA-923 Power Plant Operations",
@@ -6574,7 +6644,8 @@
     "data_modality": "tabular",
     "temporal_coverage": "2017-2019",
     "size_category": "medium",
-    "model_score": 0.0003
+    "model_score": 0.0003,
+    "image_url": "/images/datasets/facebook-url-shares.jpg"
   },
   {
     "name": "Hate Speech Data Catalogue",
@@ -6666,7 +6737,8 @@
     "data_modality": "tabular",
     "geographic_scope": "Ecuador",
     "size_category": "medium",
-    "model_score": 0.0003
+    "model_score": 0.0003,
+    "image_url": "/images/datasets/ecuador-grocery-favorita.jpg"
   },
   {
     "name": "Google Cloud Public Datasets",
@@ -6709,7 +6781,8 @@
     ],
     "data_modality": "mixed",
     "size_category": "medium",
-    "model_score": 0.0003
+    "model_score": 0.0003,
+    "image_url": "/images/datasets/google-cloud-public-datasets.png"
   },
   {
     "name": "French Motor TPL (freMTPL2)",
@@ -6858,7 +6931,8 @@
     ],
     "data_modality": "text",
     "size_category": "medium",
-    "model_score": 0.0003
+    "model_score": 0.0003,
+    "image_url": "/images/datasets/hateday.png"
   },
   {
     "name": "SNAP Facebook Ego Networks",
@@ -7007,7 +7081,8 @@
     ],
     "data_modality": "text",
     "size_category": "medium",
-    "model_score": 0.0003
+    "model_score": 0.0003,
+    "image_url": "/images/datasets/fakenewsnet.png"
   },
   {
     "name": "Criteo Terabyte",
@@ -7053,7 +7128,8 @@
     "benchmark_usage": [
       "CTR prediction"
     ],
-    "model_score": 0.0003
+    "model_score": 0.0003,
+    "image_url": "/images/datasets/criteo-terabyte.png"
   },
   {
     "name": "World Inequality Database",
@@ -7141,7 +7217,8 @@
     "data_modality": "tabular",
     "geographic_scope": "Chicago",
     "size_category": "medium",
-    "model_score": 0.0003
+    "model_score": 0.0003,
+    "image_url": "/images/datasets/dominicks-soft-drinks.jpg"
   },
   {
     "name": "Bandcamp Music Sales",
@@ -7518,7 +7595,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0002
+    "model_score": 0.0002,
+    "image_url": "/images/datasets/jd-pretrain-data.png"
   },
   {
     "name": "OpenStreetMap Planet",
@@ -7755,7 +7833,8 @@
     "data_modality": "tabular",
     "temporal_coverage": "1978-present",
     "size_category": "medium",
-    "model_score": 0.0002
+    "model_score": 0.0002,
+    "image_url": "/images/datasets/fema-nfip-claims-policies.png"
   },
   {
     "name": "DB1B Airline Origin and Destination Survey",
@@ -7957,7 +8036,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0002
+    "model_score": 0.0002,
+    "image_url": "/images/datasets/redfin-housing-market-data.png"
   },
   {
     "name": "OpenStreetMap Road Network",
@@ -8002,7 +8082,8 @@
     ],
     "data_modality": "mixed",
     "size_category": "medium",
-    "model_score": 0.0002
+    "model_score": 0.0002,
+    "image_url": "/images/datasets/openstreetmap-road-network.png"
   },
   {
     "name": "Israeli Grocery",
@@ -8048,7 +8129,8 @@
     "data_modality": "tabular",
     "geographic_scope": "Israel",
     "size_category": "medium",
-    "model_score": 0.0002
+    "model_score": 0.0002,
+    "image_url": "/images/datasets/israeli-grocery.png"
   },
   {
     "name": "LastFM-1B",
@@ -8181,7 +8263,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0002
+    "model_score": 0.0002,
+    "image_url": "/images/datasets/youtube-engagement-dataset.png"
   },
   {
     "name": "Polish Grocery",
@@ -8229,7 +8312,8 @@
     "temporal_coverage": "2018",
     "geographic_scope": "Poland",
     "size_category": "medium",
-    "model_score": 0.0002
+    "model_score": 0.0002,
+    "image_url": "/images/datasets/polish-grocery.jpg"
   },
   {
     "name": "Wikipedia Full Database Dump",
@@ -8421,7 +8505,8 @@
     "data_modality": "time-series",
     "temporal_coverage": "2000-present",
     "size_category": "medium",
-    "model_score": 0.0002
+    "model_score": 0.0002,
+    "image_url": "/images/datasets/bls-jolts.png"
   },
   {
     "name": "PJM Data Miner",
@@ -8562,7 +8647,8 @@
     "data_modality": "tabular",
     "geographic_scope": "UK",
     "size_category": "large",
-    "model_score": 0.0002
+    "model_score": 0.0002,
+    "image_url": "/images/datasets/uk-land-registry-price-paid.png"
   },
   {
     "name": "EM-DAT International Disaster Database",
@@ -8655,7 +8741,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0002
+    "model_score": 0.0002,
+    "image_url": "/images/datasets/casdatasets-r-package.png"
   },
   {
     "name": "Merative MarketScan",
@@ -8883,7 +8970,8 @@
     "data_modality": "tabular",
     "geographic_scope": "Brazil",
     "size_category": "medium",
-    "model_score": 0.0002
+    "model_score": 0.0002,
+    "image_url": "/images/datasets/brazil-medical.jpg"
   },
   {
     "name": "Turkish Drugs",
@@ -8926,7 +9014,8 @@
     "data_modality": "tabular",
     "geographic_scope": "Turkey",
     "size_category": "medium",
-    "model_score": 0.0002
+    "model_score": 0.0002,
+    "image_url": "/images/datasets/turkish-drugs.jpg"
   },
   {
     "name": "Indonesian Fashion",
@@ -8967,7 +9056,8 @@
     "data_modality": "image",
     "geographic_scope": "Indonesia",
     "size_category": "medium",
-    "model_score": 0.0002
+    "model_score": 0.0002,
+    "image_url": "/images/datasets/indonesian-fashion.png"
   },
   {
     "name": "Chicago Property Data",
@@ -9099,7 +9189,8 @@
     ],
     "data_modality": "mixed",
     "size_category": "medium",
-    "model_score": 0.0002
+    "model_score": 0.0002,
+    "image_url": "/images/datasets/yfcc100m.png"
   },
   {
     "name": "Glassdoor Reviews",
@@ -9190,7 +9281,8 @@
     ],
     "data_modality": "text",
     "size_category": "medium",
-    "model_score": 0.0002
+    "model_score": 0.0002,
+    "image_url": "/images/datasets/hatexplain.png"
   },
   {
     "name": "Creator Economy Reports",
@@ -9334,7 +9426,8 @@
     "data_modality": "mixed",
     "geographic_scope": "UK",
     "size_category": "medium",
-    "model_score": 0.0002
+    "model_score": 0.0002,
+    "image_url": "/images/datasets/uk-biobank.jpg"
   },
   {
     "name": "EIA-860 Generator Inventory",
@@ -9653,7 +9746,8 @@
     "benchmark_usage": [
       "100+ papers published"
     ],
-    "model_score": 0.0002
+    "model_score": 0.0002,
+    "image_url": "/images/datasets/pushshift-reddit-archive.png"
   },
   {
     "name": "Zillow Research Data",
@@ -9697,7 +9791,8 @@
     "data_modality": "time-series",
     "geographic_scope": "US",
     "size_category": "medium",
-    "model_score": 0.0002
+    "model_score": 0.0002,
+    "image_url": "/images/datasets/zillow-research-data.jpg"
   },
   {
     "name": "LIAR",
@@ -9787,7 +9882,8 @@
     "temporal_coverage": "2000-present",
     "geographic_scope": "United States",
     "size_category": "medium",
-    "model_score": 0.0002
+    "model_score": 0.0002,
+    "image_url": "/images/datasets/usaspendinggov.png"
   },
   {
     "name": "FRED (Federal Reserve Economic Data)",
@@ -10026,7 +10122,8 @@
     "data_modality": "tabular",
     "temporal_coverage": "1999-present",
     "size_category": "medium",
-    "model_score": 0.0001
+    "model_score": 0.0001,
+    "image_url": "/images/datasets/nflverse.png"
   },
   {
     "name": "NHL API",
@@ -10123,7 +10220,8 @@
     "temporal_coverage": "2002-present",
     "geographic_scope": "United States",
     "size_category": "medium",
-    "model_score": 0.0001
+    "model_score": 0.0001,
+    "image_url": "/images/datasets/national-transit-database-ntd.png"
   },
   {
     "name": "MEPS (Medical Expenditure Panel Survey)",
@@ -10217,7 +10315,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0001
+    "model_score": 0.0001,
+    "image_url": "/images/datasets/telco-customer-churn-ibm.jpg"
   },
   {
     "name": "KDD Cup 2009 Customer Relationship Prediction",
@@ -10318,7 +10417,8 @@
     "data_modality": "tabular",
     "temporal_coverage": "1871-2024",
     "size_category": "medium",
-    "model_score": 0.0001
+    "model_score": 0.0001,
+    "image_url": "/images/datasets/lahman-baseball-database.png"
   },
   {
     "name": "Retrosheet",
@@ -10405,7 +10505,8 @@
     ],
     "data_modality": "text",
     "size_category": "medium",
-    "model_score": 0.0001
+    "model_score": 0.0001,
+    "image_url": "/images/datasets/ethos-hate-speech.png"
   },
   {
     "name": "Revelio Labs COSMOS",
@@ -10447,7 +10548,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0001
+    "model_score": 0.0001,
+    "image_url": "/images/datasets/revelio-labs-cosmos.png"
   },
   {
     "name": "Transitland GTFS Feeds",
@@ -10492,7 +10594,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0001
+    "model_score": 0.0001,
+    "image_url": "/images/datasets/transitland-gtfs-feeds.png"
   },
   {
     "name": "NHANES (National Health and Nutrition Examination Survey)",
@@ -10542,7 +10645,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0001
+    "model_score": 0.0001,
+    "image_url": "/images/datasets/nhanes-national-health-and-nutrition-examination-survey.png"
   },
   {
     "name": "JobHop (Flanders)",
@@ -10770,7 +10874,8 @@
     ],
     "data_modality": "mixed",
     "size_category": "medium",
-    "model_score": 0.0001
+    "model_score": 0.0001,
+    "image_url": "/images/datasets/nba-stats-api.png"
   },
   {
     "name": "NHTSA FARS (Fatality Analysis Reporting System)",
@@ -10818,7 +10923,8 @@
     "temporal_coverage": "1975-present",
     "geographic_scope": "United States",
     "size_category": "medium",
-    "model_score": 0.0001
+    "model_score": 0.0001,
+    "image_url": "/images/datasets/nhtsa-fars-fatality-analysis-reporting-system.png"
   },
   {
     "name": "Human Mortality Database",
@@ -11058,7 +11164,8 @@
     "temporal_coverage": "1998-present",
     "geographic_scope": "Americas",
     "size_category": "medium",
-    "model_score": 0.0001
+    "model_score": 0.0001,
+    "image_url": "/images/datasets/nrel-nsrdb-national-solar-radiation-database.png"
   },
   {
     "name": "NIST National Vulnerability Database (NVD)",
@@ -11154,7 +11261,8 @@
     "benchmark_usage": [
       "Collaborative filtering research"
     ],
-    "model_score": 0.0001
+    "model_score": 0.0001,
+    "image_url": "/images/datasets/movielens-25m.jpg"
   },
   {
     "name": "Retail Rocket Recommender System Dataset",
@@ -11203,7 +11311,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0001
+    "model_score": 0.0001,
+    "image_url": "/images/datasets/retail-rocket-recommender-system-dataset.png"
   },
   {
     "name": "FHWA Highway Statistics",
@@ -11339,7 +11448,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0001
+    "model_score": 0.0001,
+    "image_url": "/images/datasets/spotify-million-playlist.png"
   },
   {
     "name": "Jeff Sackmann Tennis Data",
@@ -11386,7 +11496,8 @@
     "data_modality": "tabular",
     "temporal_coverage": "1973-present",
     "size_category": "medium",
-    "model_score": 0.0001
+    "model_score": 0.0001,
+    "image_url": "/images/datasets/jeff-sackmann-tennis-data.png"
   },
   {
     "name": "Citi Bike System Data",
@@ -11478,7 +11589,8 @@
     "temporal_coverage": "2000-present",
     "geographic_scope": "Global",
     "size_category": "medium",
-    "model_score": 0.0001
+    "model_score": 0.0001,
+    "image_url": "/images/datasets/ember-global-electricity-data.png"
   },
   {
     "name": "CFR Cyber Operations Tracker",
@@ -11568,7 +11680,8 @@
     ],
     "data_modality": "text",
     "size_category": "large",
-    "model_score": 0.0001
+    "model_score": 0.0001,
+    "image_url": "/images/datasets/amazon-reviews-2023.png"
   },
   {
     "name": "World Bank Open Data",
@@ -11612,7 +11725,8 @@
     "size_category": "medium",
     "temporal_coverage": "50+ years",
     "geographic_scope": "217 economies",
-    "model_score": 0.0001
+    "model_score": 0.0001,
+    "image_url": "/images/datasets/world-bank-open-data.svg"
   },
   {
     "name": "gridstatus",
@@ -11660,7 +11774,8 @@
     "temporal_coverage": "varies by ISO",
     "geographic_scope": "U.S.",
     "size_category": "medium",
-    "model_score": 0.0001
+    "model_score": 0.0001,
+    "image_url": "/images/datasets/gridstatus.png"
   },
   {
     "name": "Space-Track.org",
@@ -11795,7 +11910,8 @@
     ],
     "data_modality": "mixed",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/amazon-shopbench-kdd-cup-2024.jpg"
   },
   {
     "name": "Alibaba User Behavior 2018",
@@ -12046,7 +12162,8 @@
     "data_modality": "tabular",
     "geographic_scope": "Africa",
     "size_category": "massive",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/paysim-synthetic-transactions.jpg"
   },
   {
     "name": "European Car Market",
@@ -12287,7 +12404,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/online-shopping-intention.jpg"
   },
   {
     "name": "Criteo Attribution Dataset",
@@ -12335,7 +12453,8 @@
     "temporal_coverage": "30 days",
     "geographic_scope": "Global",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/criteo-attribution-dataset.jpg"
   },
   {
     "name": "BTS Airline On-Time Performance",
@@ -12587,7 +12706,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/recsys-challenge-2025-synerise.png"
   },
   {
     "name": "IJCAI Competitions",
@@ -12681,7 +12801,8 @@
     "data_modality": "tabular",
     "geographic_scope": "Germany",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/otto-session-data.png"
   },
   {
     "name": "ORBITAAL Bitcoin Graph",
@@ -12870,7 +12991,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/airline-delay.jpg"
   },
   {
     "name": "Flipkart Products",
@@ -12913,7 +13035,8 @@
     "data_modality": "tabular",
     "geographic_scope": "India",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/flipkart-products.png"
   },
   {
     "name": "OTTO Session-based Recommendations",
@@ -12965,7 +13088,8 @@
     "data_modality": "tabular",
     "geographic_scope": "Germany",
     "size_category": "massive",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/otto-session-based-recommendations.png"
   },
   {
     "name": "Inside Airbnb Raw Data",
@@ -13043,7 +13167,8 @@
       "Can I find datasets related to various domains on Microsoft Research?"
     ],
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/microsoft-research.jpg"
   },
   {
     "name": "Hugging Face Datasets",
@@ -13090,7 +13215,8 @@
     ],
     "data_modality": "mixed",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/hugging-face-datasets.png"
   },
   {
     "name": "Hugging Face Datasets",
@@ -13138,7 +13264,8 @@
     ],
     "data_modality": "mixed",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/hugging-face-datasets.png"
   },
   {
     "name": "Alibaba Personalized Re-Ranking",
@@ -13229,7 +13356,8 @@
     "data_modality": "tabular",
     "geographic_scope": "Germany",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/german-used-cars.jpg"
   },
   {
     "name": "Gamified Learning",
@@ -13500,7 +13628,8 @@
     "benchmark_usage": [
       "Benchmark for fraud ML research"
     ],
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/amazon-fraud-detection-benchmark.png"
   },
   {
     "name": "Grab Driving GPS Traces",
@@ -13544,7 +13673,8 @@
     "data_modality": "time-series",
     "geographic_scope": "Southeast Asia",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/grab-driving-gps-traces.png"
   },
   {
     "name": "NYC TLC Trip Records",
@@ -13595,7 +13725,8 @@
     "temporal_coverage": "2009-present",
     "geographic_scope": "NYC",
     "size_category": "massive",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/nyc-tlc-trip-records.png"
   },
   {
     "name": "IBM Developer Data",
@@ -13693,7 +13824,8 @@
     "temporal_coverage": "2009-2023",
     "geographic_scope": "New York City",
     "size_category": "massive",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/nyc-tlc-trip-records.png"
   },
   {
     "name": "Ele.me Search",
@@ -13833,7 +13965,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/cainiao-last-mile-msom18.png"
   },
   {
     "name": "MSOM Data Challenges",
@@ -14013,7 +14146,8 @@
     "benchmark_usage": [
       "Standardized train-test splits for reproducible comparisons"
     ],
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/openml.png"
   },
   {
     "name": "Google Dataset Search",
@@ -14130,7 +14264,8 @@
     ],
     "data_modality": "mixed",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/rakuten-data-release.png"
   },
   {
     "name": "Marketing Science Databases",
@@ -14263,7 +14398,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/recsys-datasets-collection.png"
   },
   {
     "name": "USASpending Federal Awards",
@@ -14453,7 +14589,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/wayfair-search-wands.png"
   },
   {
     "name": "Ele.me Clickstream",
@@ -14579,7 +14716,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/stanford-gsb-experiment-collection.png"
   },
   {
     "name": "Natural Driving in Ohio",
@@ -14667,7 +14805,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/prosper-loan-data.jpg"
   },
   {
     "name": "Prosper Loans",
@@ -14712,7 +14851,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/prosper-loans.png"
   },
   {
     "name": "DiDi GAIA Open Data",
@@ -14804,7 +14944,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/hashed-multimodal-banking.png"
   },
   {
     "name": "Google BigQuery Crypto",
@@ -14843,7 +14984,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/google-bigquery-crypto.png"
   },
   {
     "name": "SEC EDGAR Filings",
@@ -14891,7 +15033,8 @@
     "data_modality": "mixed",
     "temporal_coverage": "1994-2023",
     "size_category": "massive",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/sec-edgar-filings.png"
   },
   {
     "name": "Computational Neuroscience",
@@ -14972,7 +15115,8 @@
     "benchmark_usage": [
       "Datasets are used for benchmarking models and ensuring reproducibility."
     ],
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/papers-with-code-datasets.png"
   },
   {
     "name": "Baidu AI Datasets",
@@ -15066,7 +15210,8 @@
     "data_modality": "mixed",
     "temporal_coverage": "2008-2022",
     "size_category": "large",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/mimic-iv.jpg"
   },
   {
     "name": "Indian Automobiles (Telangana)",
@@ -15113,7 +15258,8 @@
     "temporal_coverage": "2023",
     "geographic_scope": "Telangana, India",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/indian-automobiles-telangana.png"
   },
   {
     "name": "PEP Experimental Research",
@@ -15201,7 +15347,8 @@
     "data_modality": "mixed",
     "geographic_scope": "Russia",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/yandex-datasets.png"
   },
   {
     "name": "Makridakis Competitions",
@@ -15338,7 +15485,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/home-depot-product-search.png"
   },
   {
     "name": "Russian Car Market",
@@ -15379,7 +15527,8 @@
     "data_modality": "tabular",
     "geographic_scope": "Russia",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/russian-car-market.jpg"
   },
   {
     "name": "StatsBomb Open Data",
@@ -15425,7 +15574,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/statsbomb-open-data.png"
   },
   {
     "name": "National Health Interview Survey (NHIS)",
@@ -15472,7 +15622,8 @@
     ],
     "data_modality": "tabular",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/national-health-interview-survey-nhis.png"
   },
   {
     "name": "LendingClub Loans",
@@ -15519,7 +15670,8 @@
     "data_modality": "tabular",
     "temporal_coverage": "2007-2019",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/lendingclub-loans.jpg"
   },
   {
     "name": "Behavioral Risk Factor Surveillance System (BRFSS)",
@@ -15609,7 +15761,8 @@
     "data_modality": "tabular",
     "temporal_coverage": "2015-present",
     "size_category": "medium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/statcast-baseball-savant.png"
   },
   {
     "name": "World Bank Light Every Night",
@@ -15626,7 +15779,8 @@
       "World Bank"
     ],
     "best_for": "Economic measurement using satellite imagery, development economics research",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/world-bank-light-every-night.png"
   },
   {
     "name": "Predicting Poverty Replication Data",
@@ -15643,7 +15797,8 @@
       "development"
     ],
     "best_for": "Replicating and extending satellite-based poverty prediction research",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/images/datasets/predicting-poverty-replication-data.png"
   },
   {
     "name": "LOBSTER (Limit Order Book System)",

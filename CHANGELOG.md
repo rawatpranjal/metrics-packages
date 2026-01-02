@@ -1,6 +1,10 @@
 # Changelog
 
 ## 2026-01-02
+- **Datasets page Netflix-style redesign**: horizontal scroll rows grouped by category (36 categories)
+- Downloaded 153 dataset images locally to /static/images/datasets/ via OG image fetching
+- Fallback displays category-colored gradient + 2-letter initials for datasets without images
+- Categories sorted by highest model_score item for better content discovery
 - Split Blogs tab into "Bloggers" (54 personal) + "Industry Blogs" (126 company) tabs
 - Added subtopic categorization for personal bloggers (9 topics: Causal Inference, ML & AI, etc.)
 - Added sector-based subtopics to Industry Blogs (10 sectors: Marketplaces, Streaming, Social Media, E-commerce, AdTech, etc.)

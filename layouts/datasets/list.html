@@ -1,165 +1,316 @@
 {{ define "main" }}
+<style>
+/* Dataset card - Netflix style */
+.dataset-card-netflix {
+    flex: 0 0 300px;
+    min-width: 300px;
+    max-width: 300px;
+    background: var(--bg-card);
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.15s;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    will-change: transform;
+    contain: layout style paint;
+}
+
+.dataset-card-netflix:hover {
+    transform: scale(1.03) translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.15);
+    border-color: var(--accent);
+    z-index: 5;
+}
+
+.dataset-card-thumbnail {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    background: var(--bg-hover);
+}
+
+.dataset-card-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Fallback with gradient + initials */
+.dataset-fallback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--accent) 0%, var(--bg-hover) 100%);
+}
+
+.dataset-initials {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    text-transform: uppercase;
+}
+
+/* Category-specific gradients */
+.dataset-fallback[data-category="E-Commerce"],
+.dataset-fallback[data-category="Grocery & Supermarkets"],
+.dataset-fallback[data-category="Food & Delivery"] {
+    background: linear-gradient(135deg, #FF6B6B 0%, #C44D4D 100%);
+}
+
+.dataset-fallback[data-category="Financial Services"],
+.dataset-fallback[data-category="Insurance & Actuarial"],
+.dataset-fallback[data-category="Fraud Detection"] {
+    background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%);
+}
+
+.dataset-fallback[data-category="Healthcare"],
+.dataset-fallback[data-category="Healthcare Economics & Health-Tech"],
+.dataset-fallback[data-category="Transportation & Mobility"],
+.dataset-fallback[data-category="Transportation Economics & Technology"] {
+    background: linear-gradient(135deg, #2196F3 0%, #1565C0 100%);
+}
+
+.dataset-fallback[data-category="AI & LLM"],
+.dataset-fallback[data-category="Entertainment & Media"],
+.dataset-fallback[data-category="Content Moderation"] {
+    background: linear-gradient(135deg, #9C27B0 0%, #6A1B9A 100%);
+}
+
+.dataset-fallback[data-category="Advertising"],
+.dataset-fallback[data-category="MarTech & Customer Analytics"],
+.dataset-fallback[data-category="Marketing Mix"] {
+    background: linear-gradient(135deg, #FF9800 0%, #E65100 100%);
+}
+
+.dataset-fallback[data-category="Social & Web"],
+.dataset-fallback[data-category="Creator Economy"],
+.dataset-fallback[data-category="App Stores"] {
+    background: linear-gradient(135deg, #00BCD4 0%, #00838F 100%);
+}
+
+.dataset-fallback[data-category="Education"],
+.dataset-fallback[data-category="Labor Markets"],
+.dataset-fallback[data-category="Causal Inference"] {
+    background: linear-gradient(135deg, #FFC107 0%, #FF8F00 100%);
+}
+
+.dataset-fallback[data-category="Dataset Aggregators"],
+.dataset-fallback[data-category="Data Portals"],
+.dataset-fallback[data-category="Defense Economics"],
+.dataset-fallback[data-category="Cybersecurity"] {
+    background: linear-gradient(135deg, #607D8B 0%, #455A64 100%);
+}
+
+.dataset-fallback[data-category="Auctions & Marketplaces"],
+.dataset-fallback[data-category="Real Estate"] {
+    background: linear-gradient(135deg, #795548 0%, #4E342E 100%);
+}
+
+.dataset-fallback[data-category="Automotive"],
+.dataset-fallback[data-category="Energy"],
+.dataset-fallback[data-category="Logistics & Supply Chain"] {
+    background: linear-gradient(135deg, #3F51B5 0%, #283593 100%);
+}
+
+.dataset-fallback[data-category="Travel & Hospitality"],
+.dataset-fallback[data-category="Sports & Athletics"],
+.dataset-fallback[data-category="Space"] {
+    background: linear-gradient(135deg, #E91E63 0%, #AD1457 100%);
+}
+
+.dataset-fallback[data-category="Fashion & Apparel"],
+.dataset-fallback[data-category="Geospatial"] {
+    background: linear-gradient(135deg, #8E24AA 0%, #6A1B9A 100%);
+}
+
+.dataset-card-content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.dataset-card-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0 0 0.5rem 0;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.dataset-card-desc {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    flex: 1;
+    margin: 0;
+}
+
+/* Filter bar styling */
+.datasets-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: var(--bg-card);
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 60px;
+    z-index: 50;
+}
+
+.datasets-filters .search-container {
+    flex: 1;
+    min-width: 200px;
+    max-width: 400px;
+}
+
+.datasets-filters .filter-select {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background: var(--background);
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    cursor: pointer;
+    min-width: 150px;
+}
+
+.datasets-filters .filter-select:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+/* Result count */
+.datasets-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 2rem;
+}
+
+/* Hidden row */
+.category-row.hidden {
+    display: none;
+}
+</style>
+
 <!-- Hero Section -->
 <header class="hero hero-with-image hero-datasets">
     <h1 class="hero-title">Datasets</h1>
     <p class="hero-tagline">{{ len .Site.Data.datasets }} industry datasets across e-commerce, economics, and ML.</p>
 </header>
 
-<!-- Search Index Data for Fuse.js -->
-<script id="search-data" type="application/json">
-[{{ range $i, $item := .Site.Data.datasets }}{{ if $i }},{{ end }}{"name":"{{ .name }}","description":"{{ .description | htmlEscape }}","category":"{{ .category }}","tags":"{{ delimit .tags "," }}"}{{ end }}]
-</script>
-
 <div class="container">
-    <!-- Search and Filters Row -->
-    <div class="search-filters-row">
-        <!-- Search Bar -->
+    {{/* Get unique categories */}}
+    {{ $categories := slice }}
+    {{ range .Site.Data.datasets }}
+        {{ if not (in $categories .category) }}
+            {{ $categories = $categories | append .category }}
+        {{ end }}
+    {{ end }}
+
+    <!-- Filter Bar -->
+    <div class="datasets-filters">
         <div class="search-container">
             <div class="search-input-wrapper">
                 <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
                     <circle cx="11" cy="11" r="8"></circle>
                     <path d="m21 21-4.35-4.35"></path>
                 </svg>
-                <input type="text"
-                       id="dataset-search"
-                       class="search-input"
-                       placeholder="Search datasets..."
-                       autocomplete="off">
-                <button id="clear-search" class="clear-btn" type="button" aria-label="Clear search">
-                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M18 6L6 18M6 6l12 12"></path>
-                    </svg>
-                </button>
+                <input type="text" id="datasets-search" class="search-input" placeholder="Search datasets..." autocomplete="off">
             </div>
         </div>
-
-        <!-- Category Dropdown -->
-        {{ $categories := slice }}
-        {{ range .Site.Data.datasets }}
-            {{ if not (in $categories .category) }}
-                {{ $categories = $categories | append .category }}
-            {{ end }}
-        {{ end }}
-        <select id="category-select" class="category-select">
+        <select id="datasets-category" class="filter-select">
             <option value="all">All Categories</option>
             {{ range $cat := sort $categories }}
             <option value="{{ $cat }}">{{ $cat }}</option>
             {{ end }}
         </select>
-
-        <!-- View Toggle -->
-        <div class="view-toggle">
-            <button id="btn-cards" class="toggle-btn active">Cards</button>
-            <button id="btn-table" class="toggle-btn">Table</button>
-        </div>
     </div>
 
-    <div id="result-count" class="result-count">{{ len .Site.Data.datasets }} datasets</div>
+    <div class="datasets-meta">
+        <span id="datasets-count" class="result-count">{{ len .Site.Data.datasets }} datasets</span>
+    </div>
 
-    <!-- Cards View -->
-    <div id="cards-view" class="package-grid">
+    <!-- Netflix-style Category Rows (sorted by top item score) -->
+    <div class="explore-rows" id="datasets-rows">
+        {{/* Build category list with scores for sorting */}}
+        {{ $categoryScores := slice }}
         {{ range $cat := $categories }}
+            {{ $items := where $.Site.Data.datasets "category" $cat }}
+            {{ $sortedItems := sort $items "model_score" "desc" }}
+            {{ $topScore := 0.0 }}
+            {{ with index $sortedItems 0 }}
+                {{ $topScore = .model_score | default 0 }}
+            {{ end }}
+            {{ $categoryScores = $categoryScores | append (dict "name" $cat "score" $topScore) }}
+        {{ end }}
+
+        {{ range sort $categoryScores "score" "desc" }}
+        {{ $cat := .name }}
         {{ $catDatasets := where $.Site.Data.datasets "category" $cat }}
-        <div class="category-section" data-section-category="{{ $cat }}">
-            <h2 class="category-title">{{ $cat }}</h2>
-            <div class="cards-row">
-                {{ range sort $catDatasets "model_score" "desc" }}
-                {{ $scoreInt := int (mul (default 0 .model_score) 1000) }}
-                <div class="package-card dataset-card"
-                     data-name="{{ .name | lower }}"
-                     data-description="{{ .description | lower }}"
-                     data-category="{{ .category }}"
-                     data-tags="{{ delimit .tags "," | lower }}"
-                     data-pagefind-sort="score:{{ $scoreInt }}"
-                     data-pagefind-filter="type:dataset"
-                     data-pagefind-filter="category:{{ .category }}"
-                     {{ with .difficulty }}data-pagefind-filter="difficulty:{{ . }}"{{ end }}
-                     {{ with .audience }}{{ range . }}data-pagefind-filter="audience:{{ . }}" {{ end }}{{ end }}>
-                    <span data-pagefind-weight="10" style="display:none;">{{ .name }}</span>
-                    <span data-pagefind-weight="5" style="display:none;">{{ .description }}</span>
-                    <div class="card-header">
-                        {{ if .github_url }}
-                        {{ $owner := replaceRE "https://github.com/([^/]+)/.*" "$1" .github_url }}
-                        <img data-src="https://github.com/{{ $owner }}.png?size=64"
-                             alt=""
-                             class="package-logo lazy-badge"
-                             loading="lazy"
-                             onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27 fill=%27%23666%27%3E%3Cpath d=%27M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z%27/%3E%3C/svg%3E'">
-                        {{ end }}
-                        <h3 class="package-name">
-                            <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
-                        </h3>
-                    </div>
-                    <p class="package-desc">{{ .description }}</p>
-                    {{ if .tags }}
-                    <div class="tag-container">
-                        {{ range .tags }}
-                        <span class="use-case-tag" data-tag="{{ . }}">{{ . }}</span>
-                        {{ end }}
-                    </div>
-                    {{ end }}
-                    <div class="card-footer">
-                        <span class="category-badge">{{ .category }}</span>
-                        <div class="card-links">
-                            {{ if .docs_url }}
-                            <a href="{{ .docs_url }}" target="_blank" class="link-btn" title="Documentation">Docs</a>
-                            {{ end }}
-                            {{ if .github_url }}
-                            <a href="{{ .github_url }}" target="_blank" class="link-btn" title="GitHub">GitHub</a>
-                            {{ end }}
-                            <a href="{{ .url }}" target="_blank" class="link-btn" title="Visit">Visit</a>
+        {{ if gt (len $catDatasets) 0 }}
+        <div class="explore-row category-row" data-category="{{ $cat }}">
+            <div class="explore-row-header">
+                <h2 class="explore-row-title">{{ $cat }}</h2>
+                <span class="explore-row-count">{{ len $catDatasets }} datasets</span>
+            </div>
+            <div class="explore-scroller-wrapper">
+                <div class="explore-scroller">
+                    {{ range sort $catDatasets "model_score" "desc" }}
+                    <a href="{{ .url }}" target="_blank" rel="noopener"
+                       class="dataset-card-netflix"
+                       data-name="{{ .name | lower }}"
+                       data-desc="{{ .description | lower }}"
+                       data-category="{{ .category }}">
+                        {{ if .image_url }}
+                        <div class="dataset-card-thumbnail">
+                            <img src="{{ .image_url }}" alt="{{ .name }}" loading="lazy">
                         </div>
-                    </div>
+                        {{ else }}
+                        {{/* Fallback: Gradient + Initials */}}
+                        <div class="dataset-card-thumbnail dataset-fallback" data-category="{{ .category }}">
+                            <span class="dataset-initials">{{ substr .name 0 2 }}</span>
+                        </div>
+                        {{ end }}
+                        <div class="dataset-card-content">
+                            <h3 class="dataset-card-title">{{ .name }}</h3>
+                            <p class="dataset-card-desc">{{ .description }}</p>
+                        </div>
+                    </a>
+                    {{ end }}
                 </div>
-                {{ end }}
+                <button class="scroller-nav prev" aria-label="Scroll left">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M15 18l-6-6 6-6"/>
+                    </svg>
+                </button>
+                <button class="scroller-nav next" aria-label="Scroll right">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 18l6-6-6-6"/>
+                    </svg>
+                </button>
             </div>
         </div>
         {{ end }}
-    </div>
-
-    <!-- No Results Message -->
-    <div id="no-results" class="no-results" style="display: none;">
-        <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5">
-            <circle cx="11" cy="11" r="8"></circle>
-            <path d="m21 21-4.35-4.35"></path>
-        </svg>
-        <p>No datasets found matching "<span id="search-term"></span>"</p>
-        <button id="reset-filters" class="btn-reset">Clear filters</button>
-    </div>
-
-    <!-- Table View -->
-    <div id="table-view" class="package-table-wrapper" style="display: none;">
-        <table class="package-table">
-            <thead>
-                <tr>
-                    <th>Dataset</th>
-                    <th>Description</th>
-                    <th>Category</th>
-                    <th>Links</th>
-                </tr>
-            </thead>
-            <tbody>
-                {{ range .Site.Data.datasets }}
-                <tr data-name="{{ .name | lower }}"
-                    data-description="{{ .description | lower }}"
-                    data-category="{{ .category }}"
-                    data-tags="{{ delimit .tags "," | lower }}">
-                    <td class="pkg-name">
-                        <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
-                    </td>
-                    <td class="pkg-desc">{{ .description }}</td>
-                    <td class="pkg-cat"><span class="category-badge-sm">{{ .category }}</span></td>
-                    <td class="pkg-links">
-                        {{ if .docs_url }}<a href="{{ .docs_url }}" target="_blank">Docs</a>{{ end }}
-                        {{ if and .docs_url .github_url }} | {{ end }}
-                        {{ if .github_url }}<a href="{{ .github_url }}" target="_blank">GitHub</a>{{ end }}
-                        {{ if or .docs_url .github_url }} | {{ end }}
-                        <a href="{{ .url }}" target="_blank">Visit</a>
-                    </td>
-                </tr>
-                {{ end }}
-            </tbody>
-        </table>
+        {{ end }}
     </div>
 
     <!-- Footer -->
@@ -170,76 +321,103 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // Lazy load images with Intersection Observer
-    var badgeObserver = new IntersectionObserver(function(entries) {
-        entries.forEach(function(entry) {
-            if (entry.isIntersecting) {
-                var img = entry.target;
-                if (img.dataset.src) {
-                    img.src = img.dataset.src;
-                    img.removeAttribute('data-src');
-                }
-                badgeObserver.unobserve(img);
-            }
-        });
-    }, { rootMargin: '100px' });
-
-    document.querySelectorAll('.lazy-badge').forEach(function(img) {
-        badgeObserver.observe(img);
-    });
-
-    // Initialize PageSearch with Fuse.js
-    new PageSearch({
-        searchInputId: 'dataset-search',
-        cardSelector: '.package-card',
-        tableRowSelector: '.package-table tbody tr',
-        itemLabel: 'datasets',
-        fuseKeys: [
-            { name: 'name', weight: 2 },
-            { name: 'tags', weight: 1.5 },
-            { name: 'description', weight: 1 },
-            { name: 'category', weight: 0.5 }
-        ]
-    });
-
-    // Tag clicks (page-specific)
-    document.addEventListener('click', function(e) {
-        if (e.target.classList.contains('use-case-tag')) {
-            var searchInput = document.getElementById('dataset-search');
-            searchInput.value = e.target.dataset.tag;
-            searchInput.dispatchEvent(new Event('input'));
-        }
-    });
-
-    // View toggle (page-specific)
-    const btnCards = document.getElementById('btn-cards');
-    const btnTable = document.getElementById('btn-table');
-    const cardsView = document.getElementById('cards-view');
-    const tableView = document.getElementById('table-view');
-
-    function setView(view) {
-        if (view === 'table') {
-            cardsView.style.display = 'none';
-            tableView.style.display = '';
-            btnCards.classList.remove('active');
-            btnTable.classList.add('active');
-        } else {
-            cardsView.style.display = '';
-            tableView.style.display = 'none';
-            btnCards.classList.add('active');
-            btnTable.classList.remove('active');
-        }
-        try { localStorage.setItem('datasetView', view); } catch(e) {}
+    // Debounce helper
+    function debounce(func, wait) {
+        let timeout;
+        return function(...args) {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => func.apply(this, args), wait);
+        };
     }
 
-    btnCards.addEventListener('click', function() { setView('cards'); });
-    btnTable.addEventListener('click', function() { setView('table'); });
+    // Filter functionality
+    const searchInput = document.getElementById('datasets-search');
+    const categoryFilter = document.getElementById('datasets-category');
+    const countEl = document.getElementById('datasets-count');
+    const rows = document.querySelectorAll('.category-row');
 
-    // Restore view preference
-    try {
-        const savedView = localStorage.getItem('datasetView');
-        if (savedView) setView(savedView);
-    } catch(e) {}
+    function filterAll() {
+        const searchTerm = searchInput.value.toLowerCase().trim();
+        const selectedCat = categoryFilter.value;
+        let visibleCount = 0;
+
+        rows.forEach(row => {
+            const rowCat = row.dataset.category;
+
+            // Hide row if category doesn't match
+            if (selectedCat !== 'all' && rowCat !== selectedCat) {
+                row.classList.add('hidden');
+                return;
+            }
+
+            // Filter cards within row
+            const cards = row.querySelectorAll('.dataset-card-netflix');
+            let visibleInRow = 0;
+
+            cards.forEach(card => {
+                const name = card.dataset.name || '';
+                const desc = card.dataset.desc || '';
+
+                const show = !searchTerm ||
+                    name.includes(searchTerm) ||
+                    desc.includes(searchTerm);
+
+                card.style.display = show ? '' : 'none';
+                if (show) {
+                    visibleInRow++;
+                    visibleCount++;
+                }
+            });
+
+            // Hide row if no visible cards
+            if (visibleInRow === 0) {
+                row.classList.add('hidden');
+            } else {
+                row.classList.remove('hidden');
+                // Update row count
+                const countSpan = row.querySelector('.explore-row-count');
+                if (countSpan) {
+                    countSpan.textContent = visibleInRow + ' datasets';
+                }
+            }
+        });
+
+        countEl.textContent = visibleCount + ' datasets';
+    }
+
+    searchInput.addEventListener('input', debounce(filterAll, 150));
+    categoryFilter.addEventListener('change', filterAll);
+
+    // Scroller navigation
+    function initScrollers() {
+        document.querySelectorAll('.explore-row').forEach(row => {
+            const scroller = row.querySelector('.explore-scroller');
+            const prevBtn = row.querySelector('.scroller-nav.prev');
+            const nextBtn = row.querySelector('.scroller-nav.next');
+
+            if (!scroller || !prevBtn || !nextBtn) return;
+
+            function updateNavState() {
+                const atStart = scroller.scrollLeft <= 0;
+                const atEnd = scroller.scrollLeft >= scroller.scrollWidth - scroller.clientWidth - 10;
+                prevBtn.classList.toggle('disabled', atStart);
+                nextBtn.classList.toggle('disabled', atEnd);
+            }
+
+            prevBtn.addEventListener('click', () => {
+                scroller.scrollBy({ left: -340, behavior: 'smooth' });
+            });
+
+            nextBtn.addEventListener('click', () => {
+                scroller.scrollBy({ left: 340, behavior: 'smooth' });
+            });
+
+            scroller.addEventListener('scroll', debounce(updateNavState, 50));
+            updateNavState();
+        });
+    }
+
+    initScrollers();
 });
 </script>
 {{ end }}
