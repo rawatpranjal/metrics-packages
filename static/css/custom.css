@@ -4750,6 +4750,38 @@ mark.partial {
     height: 14px;
 }
 
+/* Popularity Boost Toggle Button */
+.popularity-boost-toggle-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    color: var(--text-secondary);
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-light);
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    flex-shrink: 0;
+}
+
+.popularity-boost-toggle-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.popularity-boost-toggle-btn.active {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    border-color: transparent;
+    color: white;
+}
+
+.popularity-boost-toggle-btn .boost-icon {
+    width: 14px;
+    height: 14px;
+}
+
 /* LLM Status Indicator */
 .llm-status-indicator {
     display: inline-flex;

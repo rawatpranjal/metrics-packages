@@ -20,6 +20,7 @@ var transformersModel = null;
 var isModelLoading = false;
 var modelLoadPromise = null;
 var synonyms = null;
+var popularityBoostEnabled = true;  // Default ON
 
 // Configuration
 var CONFIG = {
@@ -160,6 +161,9 @@ self.onmessage = function(event) {
       break;
     case 'KEYWORD_SEARCH':
       handleKeywordSearch(message.payload, message.id);
+      break;
+    case 'SET_POPULARITY_BOOST':
+      popularityBoostEnabled = message.payload.enabled;
       break;
     default:
       console.warn('[SearchWorker] Unknown message type:', type);
@@ -854,8 +858,10 @@ function reciprocalRankFusion(keywordResults, semanticResults, topK, query) {
     // Apply audience boost multiplier (0.85-1.25x)
     var audienceMultiplier = getAudienceBoost(item, query);
 
-    // Apply model score boost multiplier (1.0-1.4x based on engagement)
-    var modelScoreMultiplier = getModelScoreBoost(item, CONFIG.MODEL_SCORE_WEIGHT);
+    // Apply model score boost multiplier (1.0-1.4x based on engagement) if enabled
+    var modelScoreMultiplier = popularityBoostEnabled
+      ? getModelScoreBoost(item, CONFIG.MODEL_SCORE_WEIGHT)
+      : 1.0;
 
     var finalScore = (baseScore + syntheticBonus) * audienceMultiplier * modelScoreMultiplier;
 

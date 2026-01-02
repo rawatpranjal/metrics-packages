@@ -27,7 +27,9 @@
     // LLM Enhancement Settings
     llmSearchKey: 'llm-search-enabled',
     llmExpandTimeout: 3000,    // 3s timeout for query expansion
-    llmExplainTimeout: 10000   // 10s timeout for explanations
+    llmExplainTimeout: 10000,  // 10s timeout for explanations
+    // Popularity Boost Settings
+    popularityBoostKey: 'popularity-boost-enabled'
   };
 
   // Type display configuration
@@ -316,6 +318,10 @@
     this.isExpandingQuery = false;
     this.expandedTerms = [];
     this.explanationAbortController = null;
+
+    // Popularity Boost state
+    this.popularityBoostEnabled = true;  // Default ON
+    this.popularityBoostBtn = null;
   }
 
   /**
@@ -1024,6 +1030,9 @@
 
     // Initialize LLM toggle
     this.initLLMToggle();
+
+    // Initialize popularity boost toggle
+    this.initPopularityBoostToggle();
 
     this.bindGlobalSearchEvents();
   };
@@ -3195,6 +3204,73 @@
       if (this.resultsContainer) {
         this.resultsContainer.classList.remove('llm-enabled');
       }
+    }
+  };
+
+  /**
+   * Initialize popularity boost toggle button and load preference
+   */
+  UnifiedSearch.prototype.initPopularityBoostToggle = function() {
+    var self = this;
+
+    this.popularityBoostBtn = document.getElementById('popularity-boost-toggle');
+    if (!this.popularityBoostBtn) return;
+
+    // Load saved preference (default ON)
+    try {
+      var saved = localStorage.getItem(CONFIG.popularityBoostKey);
+      this.popularityBoostEnabled = saved !== 'false';  // Default ON
+    } catch(e) {
+      this.popularityBoostEnabled = true;
+    }
+
+    this.updatePopularityBoostUI();
+
+    // Send initial state to worker
+    if (this.worker) {
+      this.worker.postMessage({
+        type: 'SET_POPULARITY_BOOST',
+        payload: { enabled: this.popularityBoostEnabled }
+      });
+    }
+
+    // Toggle click handler
+    this.popularityBoostBtn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      e.preventDefault();
+      self.popularityBoostEnabled = !self.popularityBoostEnabled;
+      try {
+        localStorage.setItem(CONFIG.popularityBoostKey, String(self.popularityBoostEnabled));
+      } catch(e) {}
+      self.updatePopularityBoostUI();
+
+      // Send state to worker
+      if (self.worker) {
+        self.worker.postMessage({
+          type: 'SET_POPULARITY_BOOST',
+          payload: { enabled: self.popularityBoostEnabled }
+        });
+      }
+
+      // Re-run current search with new setting if there's a query
+      if (self.input && self.input.value.trim().length >= 2) {
+        self.performGlobalSearch();
+      }
+    });
+  };
+
+  /**
+   * Update popularity boost toggle button UI
+   */
+  UnifiedSearch.prototype.updatePopularityBoostUI = function() {
+    if (!this.popularityBoostBtn) return;
+
+    if (this.popularityBoostEnabled) {
+      this.popularityBoostBtn.classList.add('active');
+      this.popularityBoostBtn.title = 'Popularity boost enabled (click to disable)';
+    } else {
+      this.popularityBoostBtn.classList.remove('active');
+      this.popularityBoostBtn.title = 'Enable popularity boost';
     }
   };
 
