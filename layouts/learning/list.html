@@ -124,11 +124,19 @@
                     <h3 class="category-title">{{ $cat }}</h3>
                     <div class="cards-row">
                         {{ range sort $catResources "model_score" "desc" }}
+                        {{ $scoreInt := int (mul (default 0 .model_score) 1000) }}
                         <div class="resource-card"
                              data-name="{{ .name | lower }}"
                              data-description="{{ .description | lower }}"
                              data-category="{{ .category }}"
-                             data-domain="{{ .domain }}">
+                             data-domain="{{ .domain }}"
+                             data-pagefind-sort="score:{{ $scoreInt }}"
+                             data-pagefind-filter="type:{{ .type | default "resource" }}"
+                             data-pagefind-filter="category:{{ .category }}"
+                             {{ with .difficulty }}data-pagefind-filter="difficulty:{{ . }}"{{ end }}
+                             {{ with .audience }}{{ range . }}data-pagefind-filter="audience:{{ . }}" {{ end }}{{ end }}>
+                            <span data-pagefind-weight="10" style="display:none;">{{ .name }}</span>
+                            <span data-pagefind-weight="5" style="display:none;">{{ .description }}</span>
                             <div class="card-header">
                                 <img class="resource-favicon lazy-favicon"
                                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"

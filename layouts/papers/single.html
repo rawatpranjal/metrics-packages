@@ -68,7 +68,16 @@
             <!-- Cards View -->
             <div class="papers-grid cards-view-content">
                 {{ range .papers }}
-                <div class="paper-card">
+                {{ $scoreInt := int (mul (default 0 .model_score) 1000) }}
+                <div class="paper-card"
+                     data-pagefind-sort="score:{{ $scoreInt }}"
+                     data-pagefind-filter="type:paper"
+                     data-pagefind-filter="category:{{ $topic.name }}"
+                     {{ with .difficulty }}data-pagefind-filter="difficulty:{{ . }}"{{ end }}
+                     {{ with .audience }}{{ range . }}data-pagefind-filter="audience:{{ . }}" {{ end }}{{ end }}>
+                    <span data-pagefind-weight="10" style="display:none;">{{ .title }}</span>
+                    <span data-pagefind-weight="5" style="display:none;">{{ .authors }}</span>
+                    <span data-pagefind-weight="3" style="display:none;">{{ .description }}</span>
                     <div class="paper-header">
                         <span class="paper-year">{{ .year }}</span>
                         {{ with .citations }}<span class="paper-citations">{{ . }} cited</span>{{ end }}

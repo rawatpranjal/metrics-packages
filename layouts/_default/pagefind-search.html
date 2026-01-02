@@ -17,8 +17,21 @@
                 showImages: false,
                 showSubResults: true,
                 showEmptyFilters: false,
-                excerptLength: 20,
-                resetStyles: false
+                excerptLength: 25,
+                resetStyles: false,
+                sort: { score: "desc" },
+                translations: {
+                    placeholder: "Search packages, datasets, papers, talks..."
+                },
+                filters: {
+                    type: { label: "Type" },
+                    category: { label: "Category" },
+                    difficulty: {
+                        label: "Difficulty",
+                        order: ["beginner", "intermediate", "advanced"]
+                    },
+                    audience: { label: "Audience" }
+                }
             });
         });
     </script>

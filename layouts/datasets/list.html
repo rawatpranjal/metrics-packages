@@ -64,11 +64,19 @@
             <h2 class="category-title">{{ $cat }}</h2>
             <div class="cards-row">
                 {{ range sort $catDatasets "model_score" "desc" }}
+                {{ $scoreInt := int (mul (default 0 .model_score) 1000) }}
                 <div class="package-card dataset-card"
                      data-name="{{ .name | lower }}"
                      data-description="{{ .description | lower }}"
                      data-category="{{ .category }}"
-                     data-tags="{{ delimit .tags "," | lower }}">
+                     data-tags="{{ delimit .tags "," | lower }}"
+                     data-pagefind-sort="score:{{ $scoreInt }}"
+                     data-pagefind-filter="type:dataset"
+                     data-pagefind-filter="category:{{ .category }}"
+                     {{ with .difficulty }}data-pagefind-filter="difficulty:{{ . }}"{{ end }}
+                     {{ with .audience }}{{ range . }}data-pagefind-filter="audience:{{ . }}" {{ end }}{{ end }}>
+                    <span data-pagefind-weight="10" style="display:none;">{{ .name }}</span>
+                    <span data-pagefind-weight="5" style="display:none;">{{ .description }}</span>
                     <div class="card-header">
                         {{ if .github_url }}
                         {{ $owner := replaceRE "https://github.com/([^/]+)/.*" "$1" .github_url }}

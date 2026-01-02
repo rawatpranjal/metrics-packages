@@ -1,0 +1,22 @@
+# Pagefind Configuration
+# See: https://pagefind.app/docs/config-options/
+
+site: public
+output_subdir: pagefind
+glob: "**/*.html"
+
+exclude_selectors:
+  - ".sidebar"
+  - ".sidebar-nav"
+  - ".sidebar-footer"
+  - ".footer"
+  - "nav"
+  - ".mobile-menu-toggle"
+  - "script"
+  - "style"
+  - ".search-filters-row"
+  - ".view-toggle"
+  - ".global-search-modal"
+
+root_selector: "[data-pagefind-body]"
+force_language: en
