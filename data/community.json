@@ -42,7 +42,8 @@
     "event_format": "conference",
     "geographic_focus": "Netflix",
     "frequency": "annual",
-    "model_score": 0.0149
+    "model_score": 0.0149,
+    "image_url": "https://research.netflix.com/public/images/og_netflix_research.png"
   },
   {
     "name": "Amazon Science Economics",
@@ -86,7 +87,8 @@
     ],
     "event_format": "workshop",
     "geographic_focus": "Amazon",
-    "model_score": 0.0071
+    "model_score": 0.0071,
+    "image_url": "https://assets.amazon.science/dims4/default/2eb32de/2147483647/strip/true/crop/1198x629+0+0/resize/1200x630!/quality/90/?url=http%3A%2F%2Famazon-topics-brightspot.s3.amazonaws.com%2Fscience%2Fa3%2Ff3%2F855c69f94f16a8803a91c00bdbbd%2Famazon-science-research-area-economics.jpg"
   },
   {
     "name": "MeasuringU",
@@ -225,7 +227,8 @@
     ],
     "event_format": "annual conference",
     "frequency": "annual",
-    "model_score": 0.0027
+    "model_score": 0.0027,
+    "image_url": "http://www.sigecom.org/image/sigecom-logo.png"
   },
   {
     "name": "Causal Data Science Meeting",
@@ -275,7 +278,8 @@
     ],
     "event_format": "conference",
     "frequency": "annual",
-    "model_score": 0.0024
+    "model_score": 0.0024,
+    "image_url": "https://cdn.prod.website-files.com/6521956630a53cecc9e188c3/66ed22ea77fcd2bfa70d51b5_Artboard.png"
   },
   {
     "name": "Nick Huntington-Klein",
@@ -627,7 +631,8 @@
     "event_format": "conference",
     "geographic_focus": "US",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "http://static1.squarespace.com/static/640aab201ef13474bb99736b/t/64b7010ef2fba876a9b9bcf9/1689714958480/IOS-gears.png?format=1500w"
   },
   {
     "name": "American Causal Inference Conference (ACIC)",
@@ -770,7 +775,8 @@
     ],
     "event_format": "workshop",
     "geographic_focus": "Microsoft Research",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/MSR-ALICE-HeaderGraphic-1920x720_1.jpg"
   },
   {
     "name": "Matei Zaharia",
@@ -810,7 +816,8 @@
     ],
     "event_format": "conference",
     "geographic_focus": "Stanford, CA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "//cs.stanford.edu/~matei/matei.jpg"
   },
   {
     "name": "ACM Conference on Economics and Computation (EC)",
@@ -1276,7 +1283,8 @@
     ],
     "event_format": "workshop",
     "geographic_focus": "Google Research",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://storage.googleapis.com/gweb-research2023-media/images/Open_Graph.width-800.format-jpeg.jpg"
   },
   {
     "name": "Meta Core Data Science",
@@ -1322,7 +1330,8 @@
     ],
     "event_format": "workshop",
     "geographic_focus": "Meta",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://engineering.fb.com/wp-content/themes/code-fb-com/img/default_feature.jpg"
   },
   {
     "name": "Quant Trading App Discord",
@@ -1363,7 +1372,8 @@
       "What are the benefits of joining a trading community?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://cdn.discordapp.com/assets/og_img_discord_home.png"
   },
   {
     "name": "Ferenc Huszar",
@@ -1461,7 +1471,8 @@
     "event_format": "conference",
     "geographic_focus": "Cambridge, MA",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://ide.mit.edu/wp-content/uploads/2016/10/05_FiresidePanel_orig.jpg"
   },
   {
     "name": "Econometric Society World Congress",
@@ -1567,7 +1578,8 @@
     "event_format": "conference",
     "geographic_focus": "Europe",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "eurocim-icon.gif"
   },
   {
     "name": "Global Antitrust Economics Conference",
@@ -1620,7 +1632,8 @@
     "event_format": "conference",
     "geographic_focus": "New York, NY",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.concurrences.com/local/cache-vignettes/L1200xH630/7ae2722b3ddfb5f927bb739b0738b4-884ae.svg"
   },
   {
     "name": "INFORMS Analytics+ Conference",
@@ -1676,7 +1689,8 @@
     "event_format": "conference",
     "geographic_focus": "Indianapolis, IN",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.informs.org/design/user_inform_v2/images/logo.png"
   },
   {
     "name": "INFORMS Annual Meeting",
@@ -1730,7 +1744,8 @@
     "event_format": "conference",
     "geographic_focus": "Atlanta, GA",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://meetings.informs.org/wordpress/annual/files/2023/10/logo.png"
   },
   {
     "name": "MIT Platform Strategy Summit",
@@ -1786,7 +1801,8 @@
     "event_format": "conference",
     "geographic_focus": "Cambridge, MA",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://ide.mit.edu/wp-content/uploads/2025/02/Platforms-2025-Graphic-Co-Chair-Post-Square-for-Website-Feature-Image-scaled.jpg"
   },
   {
     "name": "ML in Economics Summer Conference",
@@ -1839,7 +1855,8 @@
     "event_format": "conference",
     "geographic_focus": "Chicago, IL",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.chicagobooth.edu/-/media/project/chicago-booth/centers/caai/robot-and-girl.jpg?w=1920&h=800&hash=4AC77FF8758435121CB2D1C653CF35F3"
   },
   {
     "name": "NABE Annual Conference",
@@ -1996,7 +2013,8 @@
     "event_format": "conference",
     "geographic_focus": "Cambridge, MA",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.nber.org/sites/default/files/2022-06/NBER-FB-Share-Tile-1200.jpg"
   },
   {
     "name": "Northwestern Antitrust Conference",
@@ -2160,7 +2178,8 @@
     "event_format": "conference",
     "geographic_focus": "Chicago, IL",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.chicagobooth.edu/-/media/project/chicago-booth/centers/stigler/chicago-booth-ragu-luigi.jpg?w=1920&h=800&hash=30F2328B02FC96BABCC1A21A213AD6B4"
   },
   {
     "name": "The Web Conference (WWW)",
@@ -2377,7 +2396,8 @@
     "event_format": "retreat",
     "geographic_focus": "St. Simons Island, GA",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://experimentationisland.com/assets/images/share.jpg?v=74c0f273"
   },
   {
     "name": "ISMS Marketing Science Conference",
@@ -2429,7 +2449,8 @@
     "event_format": "conference",
     "geographic_focus": "Washington DC",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.informs.org/design/user_inform_v2/images/logo.png"
   },
   {
     "name": "ARF Marketing Analytics Accelerator",
@@ -2480,7 +2501,8 @@
     "event_format": "conference",
     "geographic_focus": "New York, NY",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://arfstg.wpenginepowered.com/wp-content/uploads/2023/01/ce22-450px-edit-002.jpg"
   },
   {
     "name": "Wharton Customer Analytics Conference",
@@ -2532,7 +2554,8 @@
     "event_format": "conference",
     "geographic_focus": "Philadelphia, PA",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://ai.wharton.upenn.edu/wp-content/uploads/2025/04/WHAIR-featured-image-large-929x632.png"
   },
   {
     "name": "ANA Measurement & Analytics Conference",
@@ -2638,7 +2661,8 @@
     "event_format": "conference",
     "geographic_focus": "Phoenix, AZ",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://marketinganalyticssummit.com/wp-content/uploads/sites/14/2025/11/MAS2026-OpenGraph.jpg"
   },
   {
     "name": "INFORMS Revenue Management and Pricing Conference",
@@ -2692,7 +2716,8 @@
     "event_format": "conference",
     "geographic_focus": "Columbia",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.informs.org/design/user_inform_v2/images/logo.png"
   },
   {
     "name": "MSOM Conference",
@@ -2745,7 +2770,8 @@
     "event_format": "conference",
     "geographic_focus": "London",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.informs.org/design/user_inform_v2/images/logo.png"
   },
   {
     "name": "POMS Annual Conference",
@@ -2899,7 +2925,8 @@
     "event_format": "conference",
     "geographic_focus": "Dallas/Las Vegas",
     "frequency": "biannual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://static.wixstatic.com/media/20d1c4_a474b8f0489f42c084a9161d00cf72a4%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/20d1c4_a474b8f0489f42c084a9161d00cf72a4%7Emv2.jpg"
   },
   {
     "name": "Workshop on Platform Analytics (WoPA)",
@@ -3011,7 +3038,8 @@
     "event_format": "conference",
     "geographic_focus": "Minneapolis",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/wp-content/uploads/2020/07/Recsys-OG.png"
   },
   {
     "name": "Marketplace Risk Conference",
@@ -3065,7 +3093,8 @@
     "event_format": "multi-event series",
     "geographic_focus": "Austin/SF/NYC",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://static.wixstatic.com/media/eb88a5_048451c604374950baad4454ef7e4bc0%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/eb88a5_048451c604374950baad4454ef7e4bc0%7Emv2.jpg"
   },
   {
     "name": "Shoptalk",
@@ -3179,7 +3208,8 @@
       "Toronto",
       "Chicago"
     ],
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://assetsacara.com/production/organizations/628726c0645e9fcb6e3fee28/1715192266507-PL-Summit-New-Site-Meta-2024-.webp"
   },
   {
     "name": "Joint Statistical Meetings (JSM)",
@@ -3235,7 +3265,8 @@
     "event_format": "conference",
     "geographic_focus": "Nashville",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.amstat.org/assets/images/fb-og.jpg"
   },
   {
     "name": "KDD (ACM SIGKDD)",
@@ -3341,7 +3372,8 @@
     "event_format": "conference",
     "geographic_focus": "Salt Lake City",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.amstat.org/assets/images/fb-og.jpg"
   },
   {
     "name": "Decision Sciences Institute (DSI) Conference",
@@ -3778,7 +3810,8 @@
     "event_format": "conference",
     "geographic_focus": "Atlanta, GA",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://robinson.gsu.edu/files/2022/06/social-share.jpg"
   },
   {
     "name": "Federal Reserve Bank of San Francisco Fintech Conference",
@@ -3832,7 +3865,8 @@
     "event_format": "conference",
     "geographic_focus": "San Francisco, CA",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.frbsf.org/wp-content/uploads/federal-reserve-bank-of-sf.png"
   },
   {
     "name": "Wharton People Analytics Conference",
@@ -3887,7 +3921,8 @@
     "event_format": "conference",
     "geographic_focus": "Philadelphia, PA",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "http://wpa.wharton.upenn.edu/wp-content/uploads/2016/02/wpa-fb-home.jpg"
   },
   {
     "name": "AREUEA (Real Estate and Urban Economics)",
@@ -3996,7 +4031,8 @@
     "event_format": "conference",
     "geographic_focus": "Chicago, IL",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://assets.swoogo.com/uploads/full/6024533-6900ef4949190.png"
   },
   {
     "name": "SJDM Annual Meeting",
@@ -4356,7 +4392,8 @@
     "event_format": "conference",
     "geographic_focus": "Boston, MA",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://static.wixstatic.com/media/6b3979_9ebc1479b8a6411c981959b697360277%7Emv2.png/v1/fit/w_2500,h_1330,al_c/6b3979_9ebc1479b8a6411c981959b697360277%7Emv2.png"
   },
   {
     "name": "Complex Networks Conference",
@@ -4515,7 +4552,8 @@
     "event_format": "conference",
     "geographic_focus": "Boston area",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://images.contentstack.io/v3/assets/bltd4dd5b2d705252bc/blta04c39010986d02b/632b26fe2343d638c6941bb3/iapp_logo.svg"
   },
   {
     "name": "ACM FAccT (Fairness, Accountability, and Transparency)",
@@ -4671,7 +4709,8 @@
     ],
     "event_format": "online",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://lh3.googleusercontent.com/sitesv/AAzXCkcpfcWFRh25wLNWnCzw16vkmVcv45N6ymZKyT1expw8VLekDHIasWpJWWT5HFBJCXPVecuCTRBTFjr7XdMLmfxCpaRRGR0VHa47LucNI9SU0N7rxDwjllzZeWtdqCwuQQilvRHgPYmGeEe39SLpLPb17gQgLgMEDnFeKKFbp0JDMjKJiHNoa4wULbY=w16383"
   },
   {
     "name": "UXPA International Conference",
@@ -4725,7 +4764,8 @@
     "event_format": "conference",
     "geographic_focus": "Las Vegas, NV",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://uxpa.org/wp-content/uploads/sites/9/2017/10/cropped-uxpaINTERN_web216x374px-3.png"
   },
   {
     "name": "ACM CHI (Conference on Human Factors in Computing Systems)",
@@ -4940,7 +4980,8 @@
     "event_format": "conference",
     "geographic_focus": "Berkeley, CA",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://manifest.is/images/gallery/1.jpg"
   },
   {
     "name": "Prediction Market Conference",
@@ -4990,7 +5031,8 @@
     "event_format": "conference",
     "geographic_focus": "Las Vegas, NV",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://kalshi.com/images/meta-og.png"
   },
   {
     "name": "MIT Sloan Sports Analytics Conference",
@@ -5045,7 +5087,8 @@
     "event_format": "conference",
     "geographic_focus": "Boston, MA",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://cdn.prod.website-files.com/5f1af76db47b36e28b98eead/5f731c657a02a677a6868724_5f2b1b974080847fe07ab39e_5f1af9613233f37293e1dea1_.jpg"
   },
   {
     "name": "SABR Analytics Conference",
@@ -5201,7 +5244,8 @@
     "event_format": "conference",
     "geographic_focus": "London, UK",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://static.hudl.com/craft/hudl-default-OG.jpg?mtime=20191218113232"
   },
   {
     "name": "NESSIS (New England Symposium on Statistics in Sports)",
@@ -5353,7 +5397,8 @@
     "event_format": "multi-event series",
     "geographic_focus": "Las Vegas, NV / New York, NY",
     "frequency": "biannual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.adexchanger.com/wp-content/uploads/2023/04/PROGIONY2023_Logo-w-dateplace_white-1024x232.png"
   },
   {
     "name": "Streaming Media Conference",
@@ -5405,7 +5450,8 @@
     "event_format": "conference",
     "geographic_focus": "Santa Monica, CA",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://s3.us-east-1.amazonaws.com/itipix.com/Images/OG_Images/SM21_Sub-OG-Image_1200x630.jpg"
   },
   {
     "name": "GDC Festival of Gaming",
@@ -5459,7 +5505,8 @@
     "event_format": "conference",
     "geographic_focus": "San Francisco, CA",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://knect365.imgix.net/uploads/GDC26-SEO-OG-Web-Red-16x9-SEO-1920x1080-31c28084217eca9c68056503eac198b1.png?auto=format&fit=max&w=400"
   },
   {
     "name": "EsportsNext",
@@ -5560,7 +5607,8 @@
     "event_format": "conference",
     "geographic_focus": "Las Vegas, NV",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://manife.st/wp-content/uploads/2025/02/Social-Post-2026-1024x536.png"
   },
   {
     "name": "CSCMP EDGE",
@@ -5664,7 +5712,8 @@
     "event_format": "workshop",
     "geographic_focus": "Seoul, Korea",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.informs.org/design/user_inform_v2/images/logo.png"
   },
   {
     "name": "ITC Vegas (InsureTech Connect)",
@@ -5771,7 +5820,8 @@
     "event_format": "conference",
     "geographic_focus": "Orlando, Chicago",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.casact.org/sites/default/files/styles/preview/public/2025-01/New_CAS_Portal_Live.jpg?h=518f6bdd&itok=Y4A-0oBa"
   },
   {
     "name": "NRF Retail's Big Show",
@@ -5825,7 +5875,8 @@
     "event_format": "conference",
     "geographic_focus": "New York, NY",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://a-us.storyblok.com/f/1020544/1200x630/514c71e194/2026nrf-social-share-nodate-1200x630.png"
   },
   {
     "name": "Groceryshop",
@@ -5929,7 +5980,8 @@
     "event_format": "conference",
     "geographic_focus": "San Mateo, CA",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "http://static1.squarespace.com/static/64f4f64746f48c15abf278fd/t/67e968fd07628e5605c1ea9e/1743350013865/ai2025Asset+1%404x.png?format=1500w"
   },
   {
     "name": "Gainsight Pulse",
@@ -5982,7 +6034,8 @@
     "event_format": "conference",
     "geographic_focus": "Las Vegas, NV",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://gainsightpulse.com/wp-content/uploads/2024/12/pulse-thumb.jpg"
   },
   {
     "name": "Data Council",
@@ -6036,7 +6089,8 @@
     "event_format": "conference",
     "geographic_focus": "Oakland, CA",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://aicouncil.com/hubfs/aicouncil-x%20(1200%20x%20628%20px)%20(1)-2.png"
   },
   {
     "name": "ODSC (Open Data Science Conference)",
@@ -6088,7 +6142,8 @@
     "event_format": "conference",
     "geographic_focus": "Boston, MA / San Francisco, CA",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://odsc.com/wp-content/uploads/2025/04/MOB-BANER_EAST2025_W2_main.png"
   },
   {
     "name": "WINE (Web and Internet Economics)",
@@ -6242,7 +6297,8 @@
       "Is DataTalks.Club suitable for beginners?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://datatalks.club/images/cover.jpg"
   },
   {
     "name": "dbt Community",
@@ -6288,7 +6344,8 @@
       "What resources are available for analytics engineers in the dbt Community?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.getdbt.com/img/site-meta/facebook.png"
   },
   {
     "name": "Economics Discord",
@@ -6333,7 +6390,8 @@
       "What kind of events are held in the Economics Discord?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://cdn.discordapp.com/splashes/420896774845104130/b1e96cb92a4a28cb42df05df93d29b7a.jpg?size=512"
   },
   {
     "name": "Locally Optimistic",
@@ -6465,7 +6523,8 @@
       "What resources are available for academic economics careers?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://cdn.discordapp.com/splashes/691632917578907710/589a1c68ef5d27edf4ce09f4419c4201.jpg?size=512"
   },
   {
     "name": "Apoorva Lal",
@@ -8293,7 +8352,8 @@
     ],
     "event_format": "conference",
     "geographic_focus": "LinkedIn",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://economicgraph.linkedin.com/content/dam/me/economicgraph/en-us/share/EG-share-image-new2.png"
   },
   {
     "name": "Salesforce AI Economist",
@@ -8569,7 +8629,8 @@
       "Who should attend Opportunity Insights events?"
     ],
     "geographic_focus": "Harvard",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://opportunityinsights.org/wp-content/uploads/2020/05/Screen-Shot-2020-05-07-at-1.19.03-AM_v2.png"
   },
   {
     "name": "MLOps Community",
@@ -8615,7 +8676,8 @@
       "Who are the members of the MLOps Community?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.tech.tickets/img/ttlogo3.png"
   },
   {
     "name": "Optimizely Developer Community",
@@ -8661,7 +8723,8 @@
       "What are best practices for experiment design?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://world.optimizely.com/resources/images/SocialShareImage.jpg"
   },
   {
     "name": "Stan Community",
@@ -8748,7 +8811,8 @@
       "How often do members engage in Measure Slack?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://lh6.googleusercontent.com/4YThV4xvpGDWrt9JxliCBSaiPdSVV3Ck2cVfXT0yovqxt0p4CpeDMYVeORPmtbGMOF0LTzcHoc3Wbjc=w1200-h630-p"
   },
   {
     "name": "RevGenius",
@@ -8790,7 +8854,8 @@
       "What resources are available in RevGenius?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://cdn.prod.website-files.com/67d1a424f6428d7e0d14991b/67daaa7f7891f7fa78003629_OGI.png"
   },
   {
     "name": "Analytics for Marketers",
@@ -8833,7 +8898,8 @@
       "Is this community suitable for beginners?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://communityinviter.com/img/media.png"
   },
   {
     "name": "Growmance",
@@ -8917,7 +8983,8 @@
       "What topics are discussed in the Mixpanel Community?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://api.tightknit.ai/public/og/home?tenant_id=c7222a6c-b062-413f-b893-11ae2fa587df"
   },
   {
     "name": "Mind the Product",
@@ -8958,7 +9025,8 @@
       "What is the size of the Mind the Product community?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/nextsiteimages/meta/meta-default-image.png"
   },
   {
     "name": "Amplitude Community",
@@ -8999,7 +9067,8 @@
       "Why should I engage with the Amplitude Community?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://us.v-cdn.net/6038560/uploads/7LYFD9W29Z83/cohort-a-community-by-amplitude.png"
   },
   {
     "name": "WizOps (Wizards of Ops)",
@@ -9083,7 +9152,8 @@
       "Is the Revenue Operations Alliance suitable for beginners?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.revenueoperationsalliance.com/content/images/size/w1200/2024/09/ROA_Meta_Images_--1--1.jpg"
   },
   {
     "name": "ResearchOps Community",
@@ -9130,7 +9200,8 @@
       "How to network with other researchers?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://researchops.community/wp-content/uploads/2022/04/Reops_Logo_White_Med.png"
   },
   {
     "name": "PySlackers",
@@ -9174,7 +9245,8 @@
       "How many members are in the PySlackers community?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://pyslackers.com/web/static/images/pyslackers_official.svg"
   },
   {
     "name": "R for Data Science",
@@ -9259,7 +9331,8 @@
       "What topics are discussed in the Data Visualization Society?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "http://static1.squarespace.com/static/5c6055b5fb18206d45d6b27e/t/641f2575d2795a15ae761f00/1668302481366/this+week+in+-+shared+link+image.png?format=1500w"
   },
   {
     "name": "Data Quality Camp",
@@ -9343,7 +9416,8 @@
       "What resources are available in the Data Science Salon Slack?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.datascience.salon/wp-content/uploads/2018/09/data-science-salon-register-now.jpg"
   },
   {
     "name": "Hugging Face Discord",
@@ -9387,7 +9461,8 @@
       "How many members are in the Hugging Face Discord?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://cdn.discordapp.com/splashes/879548962464493619/b94cb38dcf18b7a850bf75ee3be6118c.jpg?size=512"
   },
   {
     "name": "Python Discord",
@@ -9476,7 +9551,8 @@
       "What events are hosted in the fast.ai Discord?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://course.fast.ai/www/social.png"
   },
   {
     "name": "Data Science/ML/AI Discord",
@@ -9652,7 +9728,8 @@
       "Can I ask questions in the Statistics Discord?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://cdn.discordapp.com/assets/og_img_discord_home.png"
   },
   {
     "name": "discoRd (R Programming)",
@@ -9771,7 +9848,8 @@
       "How to improve my trading strategies?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://cdn.discordapp.com/splashes/701257937209000066/8ee1bd3c64a8685742b6267031397466.jpg?size=512"
   },
   {
     "name": "Quant Talk Discord",
@@ -9855,7 +9933,8 @@
       "Is the QuantConnect Discord suitable for beginners?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://cdn.quantconnect.com/web/i/docs/documentation_meta_image_rev0.png"
   },
   {
     "name": "r/datascience",
@@ -10285,7 +10364,8 @@
       "Can I learn statistics from Cross Validated?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://stats.stackexchange.com/Content/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc"
   },
   {
     "name": "Stan Forums",
@@ -10329,7 +10409,8 @@
       "What are the benefits of participating in Stan Forums?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://canada1.discourse-cdn.com/flex030/uploads/mc_stan/original/3X/e/e/eeaa089d307a4feb17e53c8a738d5a70f44e75cf.png"
   },
   {
     "name": "PyMC Discourse",
@@ -10373,7 +10454,8 @@
       "How can I participate in the PyMC community?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://canada1.discourse-cdn.com/flex036/uploads/pymc3/original/2X/2/25126eb40a4dfde600d829148cf158424684e8ed.png"
   },
   {
     "name": "OR Stack Exchange",
@@ -10414,7 +10496,8 @@
       "How can I improve my modeling skills?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://or.stackexchange.com/Content/Sites/or/Img/apple-touch-icon@2.png?v=2c3f77762af2"
   },
   {
     "name": "Kaggle Discussions",
@@ -10460,7 +10543,8 @@
       "What resources are available for learning from Kaggle?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.kaggle.com/static/images/logos/kaggle-logo-opengraph.png"
   },
   {
     "name": "Hacker News",
@@ -10766,7 +10850,8 @@
       "Is KDnuggets group suitable for beginners?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico"
   },
   {
     "name": "Advanced Analytics, Predictive Modeling & Statistical Analyses",
@@ -10809,7 +10894,8 @@
       "How to network with quantitative professionals?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico"
   },
   {
     "name": "Data Science Central",
@@ -10850,7 +10936,8 @@
       "Is Data Science Central free to join?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico"
   },
   {
     "name": "Consumer Insights Interest Group",
@@ -10891,7 +10978,8 @@
       "What resources are available for market research?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico"
   },
   {
     "name": "Women in Operations Research & Management Science (WORMS)",
@@ -10931,7 +11019,8 @@
       "Are there networking opportunities in WORMS?"
     ],
     "event_format": "online",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico"
   },
   {
     "name": "New York Open Statistical Programming (nyhackr)",
@@ -10978,7 +11067,8 @@
     "event_format": "meetup",
     "geographic_focus": "New York, NY",
     "frequency": "monthly",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/5/3/3/9/600_502401305.jpeg"
   },
   {
     "name": "NYC Data Science",
@@ -11025,7 +11115,8 @@
     "event_format": "meetup",
     "geographic_focus": "New York, NY",
     "frequency": "monthly",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/1/e/6/6/600_218767782.jpeg"
   },
   {
     "name": "NYC Experimentation Meetup",
@@ -11073,7 +11164,8 @@
     "event_format": "meetup",
     "geographic_focus": "New York, NY",
     "frequency": "quarterly",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://og.luma.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=419/api/event-one?calendar_avatar=https%3A%2F%2Fimages.lumacdn.com%2Fcalendars%2Fh3%2F3909d6d2-95eb-455a-ae4c-fcf718cc2fa0.png&calendar_name=Statsig%20Event%20Calendar&color0=%23eceef2&color1=%236197d2&color2=%23222222&color3=%23a393af&host_avatar=https%3A%2F%2Fimages.lumacdn.com%2Favatars%2Fyd%2Fd9b1805a-f431-4003-82ad-c147a2099114.jpg&host_name=Morgan%20Scalzo&img=https%3A%2F%2Fimages.lumacdn.com%2Fevent-covers%2F7e%2Fe9279139-5e23-494e-a876-139a8276f0df.png&name=NYC%20Experimentation%20Meetup"
   },
   {
     "name": "Data Umbrella NYC",
@@ -11120,7 +11212,8 @@
     "event_format": "meetup",
     "geographic_focus": "New York, NY",
     "frequency": "monthly",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/3/1/4/c/600_491412620.jpeg"
   },
   {
     "name": "PyData NYC",
@@ -11167,7 +11260,8 @@
     "event_format": "meetup|conference",
     "geographic_focus": "New York, NY",
     "frequency": "monthly|annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/c/0/7/b/600_467329275.jpeg"
   },
   {
     "name": "NYC ASA Chapter",
@@ -11262,7 +11356,8 @@
     "event_format": "meetup",
     "geographic_focus": "Boston, MA",
     "frequency": "monthly",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/5/2/0/2/600_467900994.jpeg"
   },
   {
     "name": "Boston AI Professionals",
@@ -11353,7 +11448,8 @@
     "event_format": "meetup",
     "geographic_focus": "Boston, MA",
     "frequency": "monthly",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/c/0/3/f/600_497809215.jpeg"
   },
   {
     "name": "ASA Boston Chapter",
@@ -11446,7 +11542,8 @@
     "event_format": "meetup",
     "geographic_focus": "Washington, DC",
     "frequency": "monthly",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/3/2/7/600_457440807.jpeg"
   },
   {
     "name": "Statistical Seminars DC",
@@ -11492,7 +11589,8 @@
     ],
     "event_format": "meetup",
     "geographic_focus": "Washington, DC",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "http://static1.squarespace.com/static/538cea80e4b00f1fad490c1b/t/56e02b193c44d8d06d90bec7/1457531673546/DC2_logo_wide_360wide.png?format=1500w"
   },
   {
     "name": "R Govys",
@@ -11584,7 +11682,8 @@
     ],
     "event_format": "meetup",
     "geographic_focus": "Washington, DC",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/a/4/d/0/600_483222192.jpeg"
   },
   {
     "name": "DataKind DC",
@@ -11763,7 +11862,8 @@
     ],
     "event_format": "meetup",
     "geographic_focus": "Toronto, Canada",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/5/d/d/6/600_520044022.jpeg"
   },
   {
     "name": "PyData Toronto",
@@ -11808,7 +11908,8 @@
     ],
     "event_format": "meetup",
     "geographic_focus": "Toronto, Canada",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/9/4/d/7/600_468818103.jpeg"
   },
   {
     "name": "GrowthTO",
@@ -11999,7 +12100,8 @@
     "event_format": "meetup",
     "geographic_focus": "San Francisco, CA",
     "frequency": "monthly",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/1/6/3/6/600_4865686.jpeg"
   },
   {
     "name": "Data Science Salon SF",
@@ -12091,7 +12193,8 @@
     "event_format": "meetup",
     "geographic_focus": "San Francisco, CA",
     "frequency": "monthly",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/7/a/4/f/600_517171311.jpeg"
   },
   {
     "name": "SF Bay Area ASA Chapter",
@@ -12187,7 +12290,8 @@
     "event_format": "meetup",
     "geographic_focus": "Seattle, WA",
     "frequency": "monthly",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/2/7/d/4/600_506890196.jpeg"
   },
   {
     "name": "Seattle Data/Analytics/ML",
@@ -12372,7 +12476,8 @@
     ],
     "event_format": "meetup",
     "geographic_focus": "Seattle, WA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/d/4/8/3/600_479274403.jpeg"
   },
   {
     "name": "Data Science Salon LA",
@@ -12553,7 +12658,8 @@
     "event_format": "meetup",
     "geographic_focus": "Los Angeles, CA",
     "frequency": "monthly",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/1/1/f/e/600_511684606.jpeg"
   },
   {
     "name": "Southern California ASA Chapter",
@@ -12687,7 +12793,8 @@
     ],
     "event_format": "meetup",
     "geographic_focus": "Austin, TX",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/9/2/3/e/600_516157438.jpeg"
   },
   {
     "name": "Austin Data Meetup",
@@ -12732,7 +12839,8 @@
     "event_format": "meetup",
     "geographic_focus": "Austin, TX",
     "frequency": "monthly",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/b/4/6/2/600_516286178.jpeg"
   },
   {
     "name": "Denver Data Dudes and Dudettes",
@@ -12908,7 +13016,8 @@
     ],
     "event_format": "hybrid",
     "geographic_focus": "Aurora, CO",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/5/b/f/2/600_514343538.jpeg"
   },
   {
     "name": "PyData Chicago",
@@ -13191,7 +13300,8 @@
     "event_format": "meetup",
     "geographic_focus": "Atlanta, GA",
     "frequency": "monthly",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/c/b/1/4/600_527151988.jpeg"
   },
   {
     "name": "PyData Atlanta",
@@ -13237,7 +13347,8 @@
     ],
     "event_format": "meetup",
     "geographic_focus": "Atlanta, GA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/3/b/9/a/600_469635258.jpeg"
   },
   {
     "name": "Atlanta AI Developers Group",
@@ -13420,7 +13531,8 @@
     ],
     "event_format": "meetup",
     "geographic_focus": "Miami, FL",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/9/8/e/7/600_486519143.jpeg"
   },
   {
     "name": "Nashville Data Nerds",
@@ -13515,7 +13627,8 @@
     "event_format": "meetup",
     "geographic_focus": "Raleigh-Durham, NC",
     "frequency": "monthly",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/a/b/f/c/600_451364028.jpeg"
   },
   {
     "name": "Charlotte Data Science/AI",
@@ -13797,7 +13910,8 @@
     ],
     "event_format": "meetup",
     "geographic_focus": "Pittsburgh, PA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/1/d/3/9/600_505207481.jpeg"
   },
   {
     "name": "Big Data Madison",
@@ -13936,7 +14050,8 @@
     "event_format": "meetup",
     "geographic_focus": "Cleveland, OH",
     "frequency": "monthly",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/b/f/2/1/600_529128929.jpeg"
   },
   {
     "name": "Data Science KC",
@@ -13984,7 +14099,8 @@
     "event_format": "meetup",
     "geographic_focus": "Kansas City, MO",
     "frequency": "monthly",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/b/2/7/8/600_515805688.jpeg"
   },
   {
     "name": "IndyPy",
@@ -14029,7 +14145,8 @@
     ],
     "event_format": "meetup",
     "geographic_focus": "Indianapolis, IN",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/6/9/6/1/600_477986977.jpeg"
   },
   {
     "name": "Detroit useR Group",
@@ -14255,7 +14372,8 @@
     "event_format": "meetup",
     "geographic_focus": "Dallas, TX",
     "frequency": "monthly",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/8/1/7/5/600_452733141.jpeg"
   },
   {
     "name": "San Diego AI Developers Group",
@@ -14480,7 +14598,8 @@
     ],
     "event_format": "meetup",
     "geographic_focus": "Phoenix, AZ",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/6/c/3/c/600_525267708.jpeg"
   },
   {
     "name": "PyData PDX",
@@ -14527,7 +14646,8 @@
     "event_format": "meetup",
     "geographic_focus": "Portland, OR",
     "frequency": "monthly",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/5/d/3/1/600_485543857.jpeg"
   },
   {
     "name": "AI Tinkerers Montreal",
@@ -14571,7 +14691,8 @@
     "event_format": "meetup",
     "geographic_focus": "Montreal, QC",
     "frequency": "monthly",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/a/c/5/4/600_524204116.jpeg"
   },
   {
     "name": "Statistical Society of Montreal",
@@ -14805,7 +14926,8 @@
     ],
     "event_format": "meetup",
     "geographic_focus": "Calgary, AB",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://cdn.prod.website-files.com/61894e5328f32120fe5e7ad8/66ede1fbf8660cc58e299015_og-yyc.jpg"
   },
   {
     "name": "CalgaryR",
@@ -14851,7 +14973,8 @@
     ],
     "event_format": "meetup",
     "geographic_focus": "Calgary, AB",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.meetupstatic.com/photos/event/3/e/5/b/600_436335963.jpeg"
   },
   {
     "name": "Machine Learning & AI Ottawa",
@@ -15179,7 +15302,8 @@
     ],
     "event_format": "conference",
     "geographic_focus": "Stanford, CA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.gsb.stanford.edu/sites/default/files/faculty/photo/Stanford_Susan_Athey112%20%282%29%20%282%29%202.jpg"
   },
   {
     "name": "Pat Bajari (1969-2025)",
@@ -15216,7 +15340,8 @@
     "event_format": "one-time",
     "geographic_focus": "Seattle, WA",
     "frequency": "one-time",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
   },
   {
     "name": "Steve Tadelis",
@@ -15452,7 +15577,8 @@
     ],
     "event_format": "meetup",
     "geographic_focus": "San Francisco, CA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://scholar.google.com/citations/images/avatar_scholar_256.png"
   },
   {
     "name": "Erik Brynjolfsson",
@@ -15531,7 +15657,8 @@
     ],
     "event_format": "online",
     "geographic_focus": "Redmond, WA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2015/07/MichaelSchwarz1BWsqr_2018.jpg"
   },
   {
     "name": "Diane Coyle",
@@ -15692,7 +15819,8 @@
     ],
     "event_format": "conference",
     "geographic_focus": "Philadelphia, PA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://substackcdn.com/image/fetch/$s_!n3f4!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Foneusefulthing.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D874919193%26version%3D9"
   },
   {
     "name": "Emily Oster",
@@ -15733,7 +15861,8 @@
     ],
     "event_format": "lecture",
     "geographic_focus": "Providence, RI",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://substackcdn.com/image/fetch/$s_!a_A6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F1577aa69-0f2a-449a-b025-7575cf20b34c_1000x1000.png"
   },
   {
     "name": "Glen Weyl",
@@ -15771,7 +15900,8 @@
     "event_format": "online",
     "geographic_focus": "null",
     "frequency": "one-time",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://glenweyl.com/wp-content/uploads/2023/03/removal.ai_tmp-640083cf1ab57_C4AJJG-1-1024x1021.png"
   },
   {
     "name": "Chris Nosko",
@@ -16094,7 +16224,8 @@
     ],
     "event_format": "conference",
     "geographic_focus": "San Francisco, CA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://abovethecrowd.com/wp-content/uploads/2021/06/above-illo-1.png"
   },
   {
     "name": "Li Jin",
@@ -16131,7 +16262,8 @@
       "What are the trends in the creator economy?"
     ],
     "geographic_focus": "San Francisco, CA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://substackcdn.com/image/fetch/$s_!3yJX!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fli.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1699811645%26version%3D9"
   },
   {
     "name": "Eugene Wei",
@@ -16170,7 +16302,8 @@
     ],
     "event_format": "meetup",
     "geographic_focus": "Seattle, WA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "http://static1.squarespace.com/static/4ff36e51e4b0d277e953e394/t/503fdf4be4b0c285641c3758/1346363211875/logo.png?format=1500w"
   },
   {
     "name": "Jean Tirole",
@@ -16212,7 +16345,8 @@
     "event_format": "conference",
     "geographic_focus": "Toulouse, France",
     "frequency": "one-time",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.tse-fr.eu/sites/default/files/TSE/images/illustrations/tse-co.jpg"
   },
   {
     "name": "Andrei Hagiu",
@@ -16253,7 +16387,8 @@
     ],
     "event_format": "conference",
     "geographic_focus": "Boston, MA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.bu.edu/questrom/wp-content/uploads/sites/2/2024/08/HagiuAndrei.jpg"
   },
   {
     "name": "Sangeet Paul Choudary",
@@ -16334,7 +16469,8 @@
     ],
     "event_format": "academic",
     "geographic_focus": "Hanover, NH",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://thayer-web.transforms.svdcdn.com/production/images/Geoffrey_Parker_headshot_2021_2024-12-23-195404_lzdn.jpg?w=1200&h=630&q=82&auto=format&fit=crop&dm=1734983660&s=a4c16e9178f5e3cad4e12bdb855214bd"
   },
   {
     "name": "Marshall Van Alstyne",
@@ -16376,7 +16512,8 @@
     ],
     "event_format": "academic",
     "geographic_focus": "Boston, MA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.bu.edu/questrom/wp-content/uploads/sites/2/2024/08/VanAlstyneMarshall.jpg"
   },
   {
     "name": "Olga Berezovsky",
@@ -16409,7 +16546,8 @@
       "What trends are emerging in product analytics?"
     ],
     "geographic_focus": "San Francisco, CA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://substackcdn.com/image/fetch/$s_!cRmV!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fdataanalysis.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1110690498%26version%3D9"
   },
   {
     "name": "Lukas Vermeer",
@@ -16515,7 +16653,8 @@
       "What topics does The Diff cover?"
     ],
     "geographic_focus": "New York, NY",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.thediff.co/content/images/size/w1200/2022/02/Screenshot-2022-02-17-at-12.51.50-1.png"
   },
   {
     "name": "Dylan Patel",
@@ -16551,7 +16690,8 @@
       "What are the benefits of following SemiAnalysis?"
     ],
     "geographic_focus": "San Francisco, CA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://i0.wp.com/semianalysis.com/wp-content/uploads/2025/04/SA_logo_black_background_tall.png?fit=1200%2C672&quality=80&ssl=1"
   },
   {
     "name": "Packy McCormick",
@@ -16584,7 +16724,8 @@
       "What are the benefits of following business newsletters?"
     ],
     "geographic_focus": "New York, NY",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://substackcdn.com/image/fetch/$s_!dbkv!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fnotboring.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1685959110%26version%3D9"
   },
   {
     "name": "Mario Gabriele",
@@ -16617,7 +16758,8 @@
       "What topics does Mario Gabriele cover in his writing?"
     ],
     "geographic_focus": "New York, NY",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://substackcdn.com/image/fetch/$s_!kEb4!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fthegeneralist.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1892162017%26version%3D9"
   },
   {
     "name": "Aswath Damodaran",
@@ -16678,7 +16820,8 @@
       "Why is Apricitas Economics recommended by Noah Smith?"
     ],
     "geographic_focus": "United States",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://substackcdn.com/image/fetch/$s_!vdzx!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fapricitas.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-1297034036%26version%3D9"
   },
   {
     "name": "Brian Albrecht",
@@ -16703,7 +16846,8 @@
       "Who are notable contributors in economics?"
     ],
     "geographic_focus": "United States",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://substackcdn.com/image/fetch/$s_!H_2c!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fpricetheory.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1552868815%26version%3D9"
   },
   {
     "name": "Mikkel Dengs\u00f8e",
@@ -16743,7 +16887,8 @@
     ],
     "event_format": "online",
     "geographic_focus": "London, UK",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://substackcdn.com/image/fetch/$s_!vYDq!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fmikkeldengsoe.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1500920578%26version%3D9"
   },
   {
     "name": "Timothy Lee",
@@ -16774,7 +16919,8 @@
       "What is the background of Timothy Lee?"
     ],
     "geographic_focus": "United States",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://substackcdn.com/image/fetch/$s_!ouyY!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Ffullstackeconomics.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-687783290%26version%3D9"
   },
   {
     "name": "Adam Kelleher",
@@ -16895,7 +17041,8 @@
     ],
     "event_format": "conference",
     "geographic_focus": "Nashville, TN",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://hbiostat.org/blog/saturnRings.jpg"
   },
   {
     "name": "Thomas Wiecki",
@@ -16931,7 +17078,8 @@
     ],
     "event_format": "meetup",
     "geographic_focus": "Berlin, Germany",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://twiecki.io/assets/images/twiecki-headshot.jpg"
   },
   {
     "name": "Rob Hyndman",
@@ -17009,7 +17157,8 @@
     ],
     "event_format": "meetup",
     "geographic_focus": "Houston, TX",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.johndcook.com/blog/wp-content/uploads/2022/05/twittercard.png"
   },
   {
     "name": "Georgi Georgiev",
@@ -17324,7 +17473,8 @@
     ],
     "event_format": "online",
     "geographic_focus": "Santa Clara, CA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://substackcdn.com/image/fetch/$s_!nlPk!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fxgblog.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1897328238%26version%3D9"
   },
   {
     "name": "Ben Gorman",
@@ -17360,7 +17510,8 @@
     ],
     "event_format": "meetup",
     "geographic_focus": "New Orleans, LA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.gormanalysis.com/logo.png"
   },
   {
     "name": "Xavier Amatriain",
@@ -17433,7 +17584,8 @@
     ],
     "event_format": "meetup",
     "geographic_focus": "Bay Area, CA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://miro.medium.com/v2/resize:fit:240/1*lg35qPQECjcskvrJj-e7yw.png"
   },
   {
     "name": "Jim Dowling",
@@ -17473,7 +17625,8 @@
     ],
     "event_format": "online",
     "geographic_focus": "Stockholm, Sweden",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://cdn.prod.website-files.com/5f6353590bb01cacbcecfbac/63984c76665829a3a6ee8933_Home2.png"
   },
   {
     "name": "Willem Pienaar",
@@ -17508,7 +17661,8 @@
       "What trends are emerging in data science platforms?"
     ],
     "geographic_focus": "Bay Area, CA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.databricks.com/sites/default/files/2025-02/databricks-blog-og.png"
   },
   {
     "name": "Mike Del Balso",
@@ -17546,7 +17700,8 @@
     ],
     "event_format": "online",
     "geographic_focus": "Bay Area, CA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.databricks.com/sites/default/files/2023-11/databricks-og-universal.png"
   },
   {
     "name": "Abhishek Thakur",
@@ -17581,7 +17736,8 @@
       "What is the significance of Kaggle competitions?"
     ],
     "geographic_focus": "Germany",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://avatars.githubusercontent.com/u/1183441?v=4?s=400"
   },
   {
     "name": "Hendrik Jacob van Veen (Triskelion)",
@@ -17694,7 +17850,8 @@
     "event_format": "conference",
     "geographic_focus": "Seattle, WA",
     "frequency": "one-time",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/img/icon-192.png"
   },
   {
     "name": "Jason Brownlee",
@@ -17730,7 +17887,8 @@
     ],
     "event_format": "online",
     "geographic_focus": "Australia",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://machinelearningmastery.com/wp-content/uploads/2014/07/MachineLearningMastery.png"
   },
   {
     "name": "Erwin Kalvelagen",
@@ -17784,7 +17942,8 @@
       "How can I learn more about optimization models?"
     ],
     "geographic_focus": "USA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://nathanbrixius.wordpress.com/wp-content/uploads/2017/11/fnnaobg2_400x400.jpg?w=200"
   },
   {
     "name": "Alain Chabrier",
@@ -17894,7 +18053,8 @@
     ],
     "event_format": "conference",
     "geographic_focus": "Belgium",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://timefold.ai/uploads/images/_1200x630_crop_center-center_82_none/og-wide.jpg?mtime=1738050609"
   },
   {
     "name": "Dominik Krupke",
@@ -17973,7 +18133,8 @@
     "event_format": "conference",
     "geographic_focus": "USA",
     "frequency": "one-time",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://punkrockor.com/wp-content/uploads/2017/03/punkrock-or-black.png?w=200"
   },
   {
     "name": "Paul Rubin",
@@ -18050,7 +18211,8 @@
     ],
     "event_format": "conference",
     "geographic_focus": "Miami, USA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://secure.gravatar.com/blavatar/19b3773df5eaeeeb8f84fb3ea974f4321482f96a2a00497594d24dd1f8103412?s=200&ts=1767387256"
   },
   {
     "name": "Michael Trick",
@@ -18129,7 +18291,8 @@
     ],
     "event_format": "conference",
     "geographic_focus": "USA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
   },
   {
     "name": "Austin Buchanan",
@@ -18169,7 +18332,8 @@
     ],
     "event_format": "conference",
     "geographic_focus": "Oklahoma, USA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
   },
   {
     "name": "Thomas Wiecki",
@@ -18236,7 +18400,8 @@
       "What insights can be gained from Mike Taylor's experience?"
     ],
     "geographic_focus": "USA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://cdn.prod.website-files.com/5f93e437229cf0448ec06084/63234026f43d5b4a15c2b57b_Frame%205.png"
   },
   {
     "name": "Mario Filho",
@@ -18348,7 +18513,8 @@
       "What are the best practices for mobile marketing?"
     ],
     "geographic_focus": "USA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://mobiledevmemo.com/wp-content/uploads/2022/10/MDM_logo_big.png"
   },
   {
     "name": "Garrett Johnson",
@@ -18389,7 +18555,8 @@
     ],
     "event_format": "conference",
     "geographic_focus": "Boston, USA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.bu.edu/questrom/wp-content/uploads/sites/2/2024/08/JohnsonGarrett.jpg"
   },
   {
     "name": "Koen Pauwels",
@@ -18430,7 +18597,8 @@
     ],
     "event_format": "conference",
     "geographic_focus": "Boston, USA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://marketingandmetrics.com/wp-content/uploads/2020/06/koenheadshot2017-Copy.jpg"
   },
   {
     "name": "Peter Fader",
@@ -18586,7 +18754,8 @@
     ],
     "event_format": "online",
     "geographic_focus": "USA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://substackcdn.com/image/fetch/$s_!OgoO!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fmarketingbs.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1563672793%26version%3D9"
   },
   {
     "name": "Kyle Poyar",
@@ -18613,7 +18782,8 @@
       "What can attendees learn from Kyle Poyar's insights?"
     ],
     "geographic_focus": "USA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/publication/thumbnail/92855c78-bedb-495e-8250-a39d9e2b2c4f/landscape_Headshot.jpg"
   },
   {
     "name": "Emily Kramer",
@@ -18640,7 +18810,8 @@
       "How does Emily Kramer define successful marketing?"
     ],
     "geographic_focus": "USA",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://substackcdn.com/image/fetch/$s_!p0FY!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fmkt1.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-86106990%26version%3D9"
   },
   {
     "name": "Dominique Hanssens",
@@ -18719,7 +18890,8 @@
     ],
     "event_format": "conference",
     "geographic_focus": "Australia",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
   },
   {
     "name": "Ron Berman",
@@ -18846,7 +19018,8 @@
       "What industries are represented at Insurtech Insights?"
     ],
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.insurtechinsights.com/wp-content/uploads/2020/05/WebsiteSquareImage4-1.png"
   },
   {
     "name": "Insurance Data Science Conference",
@@ -18889,7 +19062,8 @@
       "What kind of research is presented at the Insurance Data Science Conference?"
     ],
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://insurancedatascience.org/img/logos/InsuranceDataScienceLogo.png"
   },
   {
     "name": "SOA Annual Meeting",
@@ -18988,7 +19162,8 @@
     "event_format": "conference",
     "geographic_focus": "Washington, DC",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.nationalacademies.org/cover.jpg"
   },
   {
     "name": "ITEA Annual Conference",
@@ -19421,7 +19596,8 @@
     "event_format": "conference",
     "geographic_focus": "Cambridge, MA",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.nber.org/sites/default/files/2022-06/NBER-FB-Share-Tile-1200.jpg"
   },
   {
     "name": "USAEE/IAEE North American Conference",
@@ -19585,7 +19761,8 @@
     "event_format": "hybrid",
     "geographic_focus": "Cambridge, MA",
     "frequency": "multiple-per-year",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.nber.org/sites/default/files/2022-06/NBER-FB-Share-Tile-1200.jpg"
   },
   {
     "name": "Workshop on the Economics of Information Security (WEIS)",
@@ -19794,7 +19971,8 @@
     "event_format": "online",
     "geographic_focus": "United States",
     "frequency": "weekly",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.rand.org/content/rand/events/jcr:content/par/teaser.crop.1200x900.cm.png/1732201782539.png"
   },
   {
     "name": "NBER National Security Working Group",
@@ -19951,7 +20129,8 @@
     "event_format": "conference",
     "geographic_focus": "New York / San Francisco",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://adexchanger.com/wp-content/uploads/2012/12/programmatic-flow.gif"
   },
   {
     "name": "Google Ad Tech Antitrust Case Documents",
@@ -20047,7 +20226,8 @@
     "engagement_level": "professional",
     "event_format": "conference",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "/wp-content/uploads/2020/07/Recsys-OG.png"
   },
   {
     "name": "Wharton Customer Analytics Initiative (WCAI)",
@@ -20088,7 +20268,8 @@
     ],
     "community_type": "research-center",
     "engagement_level": "professional",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://ai.wharton.upenn.edu/wp-content/uploads/2025/04/WHAIR-featured-image-large-929x632.png"
   },
   {
     "name": "Marketing Science Institute (MSI)",
@@ -20131,7 +20312,8 @@
     "community_type": "professional-org",
     "engagement_level": "professional",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.msi.org/wp-content/uploads/2020/06/immersion_20181-scaled-e1594752119938.jpg"
   },
   {
     "name": "NBER Economics of AI Conference",
@@ -20147,7 +20329,8 @@
       "NBER",
       "Research"
     ],
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.nber.org/sites/default/files/2022-06/NBER-FB-Share-Tile-1200.jpg"
   },
   {
     "name": "MLESI - Machine Learning in Economics Summer Institute",
@@ -20163,7 +20346,8 @@
       "Summer School",
       "Chicago Booth"
     ],
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://www.chicagobooth.edu/-/media/project/chicago-booth/centers/caai/events/2022/zich_20aug2022_86.jpg?w=1920&h=800&hash=A3451DF60D2167FF775295A3BECFE602"
   },
   {
     "name": "SoFiE Financial Machine Learning Summer School",
@@ -20179,7 +20363,8 @@
       "Yale",
       "Summer School"
     ],
-    "model_score": 0.0
+    "model_score": 0.0,
+    "image_url": "https://som.yale.edu/sites/default/files/styles/open_graph/public/2024-08/Evans1_0.jpg?h=839433ec&itok=rMrQ4H0X"
   },
   {
     "name": "ACM Economics and Computation (EC)",

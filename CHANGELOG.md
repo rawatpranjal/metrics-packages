@@ -19,6 +19,7 @@
 - Created OG image fetching script; 181/264 talks now have thumbnails
 - Added analytics D1 query reference to CLAUDE.md for checking recent clicks/impressions/searches
 - Fixed 9 INFORMS login-wall links → public URLs (conferences, chapters, datasets)
+- Fetched OG images for learning resources (211/366), industry blogs (56/126), conferences (52/109)
 
 ## 2026-01-01 (Learning page Netflix-style redesign)
 - Reorganized resources.json: 64→48 categories, 80→10 types, added macro_category field
