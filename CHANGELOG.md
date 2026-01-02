@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-01-02
+- Downloaded 54 blogger images locally to /static/images/bloggers/ (previously external URLs)
 - Talks page Netflix-style redesign with horizontal scrollers per subtopic
 - Carousel rows now sorted by top item's model_score (highest-scoring content first)
 - Added macro_category + subtopic fields to talks.json (8 macro categories, 36 subtopics)
