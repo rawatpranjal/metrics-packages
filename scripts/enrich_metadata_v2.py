@@ -83,6 +83,118 @@ CRITICAL: Only include information that can be reasonably inferred from the prov
 """
 
 # =============================================================================
+# Content-Type Specific Embedding Text Instructions
+# =============================================================================
+
+EMBEDDING_TEXT_BASE = """
+EMBEDDING_TEXT: Generate a rich, dense description (500-1000 words) for semantic search.
+Write as continuous prose, keyword-rich, technically accurate.
+Do NOT invent specific paper names, dataset names, or tool names not in the source.
+"""
+
+EMBEDDING_TEXT_PAPER = EMBEDDING_TEXT_BASE + """
+For this PAPER, include:
+- Research problem and motivation
+- Key methodology/approach in technical detail
+- Main findings and contributions
+- Econometric/statistical techniques used
+- Data requirements and assumptions
+- Limitations and caveats
+- Related research areas this connects to
+- Practical implications for applied researchers
+- When/why a practitioner would cite or apply this paper
+"""
+
+EMBEDDING_TEXT_PACKAGE = EMBEDDING_TEXT_BASE + """
+For this PACKAGE/LIBRARY, include:
+- Core functionality and main features
+- API design philosophy (object-oriented, functional, declarative)
+- Key classes, functions, or modules
+- Installation and basic usage patterns
+- Comparison to alternative approaches (without inventing names)
+- Performance characteristics and scalability
+- Integration with data science workflows
+- Common pitfalls and best practices
+- When to use vs when NOT to use this package
+"""
+
+EMBEDDING_TEXT_DATASET = EMBEDDING_TEXT_BASE + """
+For this DATASET, include:
+- Data structure and schema (rows, columns, variables)
+- Collection methodology and data sources
+- Coverage: temporal, geographic, demographic
+- Key variables and what they measure
+- Data quality and known limitations
+- Common preprocessing steps needed
+- Research questions it can address
+- Types of analyses it supports (regression, ML, descriptive)
+- How researchers typically use this in studies
+"""
+
+EMBEDDING_TEXT_RESOURCE = EMBEDDING_TEXT_BASE + """
+For this LEARNING RESOURCE, include:
+- Topics and concepts covered in detail
+- Teaching approach and pedagogy
+- Prerequisites and assumed knowledge
+- Learning outcomes and skills gained
+- Hands-on exercises or projects included
+- How it compares to other learning paths
+- Best audience (students, practitioners, career changers)
+- How long it takes to complete
+- What you can do after finishing this resource
+"""
+
+EMBEDDING_TEXT_TALK = EMBEDDING_TEXT_BASE + """
+For this TALK/PODCAST/VIDEO, include:
+- Main topics and themes discussed
+- Key insights and takeaways
+- Speaker's perspective and expertise
+- Industry or academic context
+- Practical advice or recommendations shared
+- Questions answered or raised
+- Relevance to different audience segments
+- How it fits in the broader discourse
+- Why someone would watch/listen to this
+"""
+
+EMBEDDING_TEXT_CAREER = EMBEDDING_TEXT_BASE + """
+For this CAREER RESOURCE, include:
+- Career paths and roles discussed
+- Skills and qualifications emphasized
+- Industry and company context
+- Interview preparation content
+- Salary and compensation insights (if any)
+- Day-to-day job responsibilities covered
+- Career progression and growth paths
+- Networking and job search strategies
+- Common challenges and how to overcome them
+"""
+
+EMBEDDING_TEXT_COMMUNITY = EMBEDDING_TEXT_BASE + """
+For this CONFERENCE/EVENT, include:
+- Event focus and main themes
+- Typical attendee profile
+- Session formats (talks, workshops, networking)
+- Academic vs industry orientation
+- Geographic reach and accessibility
+- Notable tracks or special sessions
+- Networking opportunities
+- What attendees typically gain
+- How it compares to similar events
+"""
+
+EMBEDDING_TEXT_MAP = {
+    "paper": EMBEDDING_TEXT_PAPER,
+    "package": EMBEDDING_TEXT_PACKAGE,
+    "dataset": EMBEDDING_TEXT_DATASET,
+    "resource": EMBEDDING_TEXT_RESOURCE,
+    "book": EMBEDDING_TEXT_RESOURCE,
+    "talk": EMBEDDING_TEXT_TALK,
+    "career": EMBEDDING_TEXT_CAREER,
+    "community": EMBEDDING_TEXT_COMMUNITY,
+}
+
+# =============================================================================
 # Pydantic Schemas - Section Specific
 # =============================================================================
 
@@ -201,7 +313,8 @@ Return JSON:
   "research_questions": ["What question does this answer?"],
   "datasets_used": ["Only if explicitly mentioned in description, else empty array"],
   "implements_method": "Name of new method if this paper introduces one, else null",
-  "builds_on": ["Only well-known foundational papers if clearly referenced, else empty"]
+  "builds_on": ["Only well-known foundational papers if clearly referenced, else empty"],
+  "embedding_text": "500-1000 word dense description for semantic search (see instructions below)"
 }}
 
 RULES:
@@ -210,6 +323,8 @@ RULES:
 - SYNTHETIC_QUESTIONS: Natural queries like "how to estimate treatment effects"
 - KEY_FINDINGS: Only include if explicitly stated in description; leave empty if not mentioned
 {anti_hallucination}
+
+{embedding_text_instruction}
 
 JSON only, no markdown."""
 
@@ -237,7 +352,8 @@ Return JSON:
   "framework_compatibility": ["Only include if explicitly mentioned or obvious from description"],
   "implements_paper": "Author (Year) only if clearly documented, else null",
   "related_packages": ["Only well-known similar packages you're confident exist"],
-  "maintenance_status": "active|stable|unmaintained"
+  "maintenance_status": "active|stable|unmaintained",
+  "embedding_text": "500-1000 word dense description for semantic search (see instructions below)"
 }}
 
 RULES:
@@ -246,6 +362,8 @@ RULES:
 - RELATED_PACKAGES: Only include packages you're certain exist
 - SYNTHETIC_QUESTIONS: "python library for X", "how to do Y in python"
 {anti_hallucination}
+
+{embedding_text_instruction}
 
 JSON only, no markdown."""
 
@@ -272,7 +390,8 @@ Return JSON:
   "temporal_coverage": "Only if explicitly mentioned, else null",
   "geographic_scope": "Only if explicitly mentioned, else null",
   "size_category": "small|medium|large|massive - only if inferable, default medium",
-  "benchmark_usage": ["Common uses if mentioned in description"]
+  "benchmark_usage": ["Common uses if mentioned in description"],
+  "embedding_text": "500-1000 word dense description for semantic search (see instructions below)"
 }}
 
 RULES:
@@ -281,6 +400,8 @@ RULES:
 - TEMPORAL_COVERAGE: Only if years are explicitly mentioned
 - GEOGRAPHIC_SCOPE: Only if location/region is explicitly mentioned
 {anti_hallucination}
+
+{embedding_text_instruction}
 
 JSON only, no markdown."""
 
@@ -305,9 +426,12 @@ Return JSON:
   "use_cases": ["when to use this resource"],
   "content_format": "article|tutorial|course|video|book|newsletter",
   "estimated_duration": "Only if inferable from description, else null",
-  "skill_progression": ["skills you'll gain based on description"]
+  "skill_progression": ["skills you'll gain based on description"],
+  "embedding_text": "500-1000 word dense description for semantic search (see instructions below)"
 }}
 {anti_hallucination}
+
+{embedding_text_instruction}
 
 JSON only, no markdown."""
 
@@ -332,9 +456,12 @@ Return JSON:
   "use_cases": ["why watch/listen to this"],
   "speaker_expertise": ["areas mentioned in description"],
   "key_insights": ["Only insights explicitly mentioned in description"],
-  "mentioned_tools": ["Only tools/methods explicitly mentioned"]
+  "mentioned_tools": ["Only tools/methods explicitly mentioned"],
+  "embedding_text": "500-1000 word dense description for semantic search (see instructions below)"
 }}
 {anti_hallucination}
+
+{embedding_text_instruction}
 
 JSON only, no markdown."""
 
@@ -358,9 +485,12 @@ Return JSON:
   "use_cases": ["when to use this resource"],
   "role_type": ["data-scientist", "economist", "ML-engineer", etc.],
   "experience_level": "entry|mid|senior|executive",
-  "company_context": ["Only if mentioned: FAANG, startup, finance, etc."]
+  "company_context": ["Only if mentioned: FAANG, startup, finance, etc."],
+  "embedding_text": "500-1000 word dense description for semantic search (see instructions below)"
 }}
 {anti_hallucination}
+
+{embedding_text_instruction}
 
 JSON only, no markdown."""
 
@@ -386,9 +516,12 @@ Return JSON:
   "use_cases": ["why attend this"],
   "event_format": "conference|meetup|workshop|online|hybrid",
   "geographic_focus": "Only if location is mentioned, else null",
-  "frequency": "annual|biannual|quarterly|monthly|one-time"
+  "frequency": "annual|biannual|quarterly|monthly|one-time",
+  "embedding_text": "500-1000 word dense description for semantic search (see instructions below)"
 }}
 {anti_hallucination}
+
+{embedding_text_instruction}
 
 JSON only, no markdown."""
 
@@ -585,6 +718,8 @@ def format_prompt(item: dict, content_type: str) -> str:
         "citations": item.get("citations", 0),
         "tags": ", ".join(item.get("tags", [])) if isinstance(item.get("tags"), list) else item.get("tags", ""),
         "anti_hallucination": ANTI_HALLUCINATION,
+        # Get content-type specific embedding text instruction
+        "embedding_text_instruction": EMBEDDING_TEXT_MAP.get(content_type, EMBEDDING_TEXT_BASE),
     }
 
     return template.format(**format_dict)
@@ -604,7 +739,7 @@ def enrich_item(client: Any, item: dict, content_type: str) -> tuple[dict | None
                 },
                 {"role": "user", "content": prompt}
             ],
-            max_tokens=800,
+            max_tokens=2000,  # Increased from 800 to accommodate embedding_text
             temperature=0.3,  # Lower temperature for more consistent output
             response_format={"type": "json_object"}  # Force JSON response
         )
@@ -638,7 +773,7 @@ def apply_enrichment(item: dict, enrichment: dict, content_type: str) -> None:
     # Base fields (all content types)
     base_fields = [
         "difficulty", "prerequisites", "topic_tags", "summary",
-        "audience", "synthetic_questions", "use_cases"
+        "audience", "synthetic_questions", "use_cases", "embedding_text"
     ]
 
     # Extended fields per content type

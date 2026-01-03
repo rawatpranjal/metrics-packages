@@ -142,9 +142,33 @@ def combine_text_for_embedding(item: Dict[str, Any]) -> str:
     """
     Combine relevant fields into a single text for embedding.
 
-    Strategy: Name first (most important), then description, then enriched metadata.
-    Enriched fields from LLM (summary, use_cases, synthetic_questions) boost semantic matching.
+    Strategy:
+    - If embedding_text exists (LLM-generated dense description), use it as primary source
+    - Otherwise, fall back to combining name + description + other enriched fields
     """
+    # Check for rich embedding_text field (LLM-generated, 500-1000 words)
+    embedding_text = item.get("embedding_text", "").strip()
+    if embedding_text and len(embedding_text) > 200:
+        # Use embedding_text as primary source
+        parts = []
+
+        # Name is always first for identity
+        name = item.get("name", "").strip()
+        if name:
+            parts.append(name)
+
+        # The rich embedding_text is the core semantic content
+        parts.append(embedding_text)
+
+        # Still append synthetic questions for query matching
+        synthetic_questions = item.get("synthetic_questions", [])
+        if synthetic_questions and isinstance(synthetic_questions, list) and len(synthetic_questions) > 0:
+            questions_text = " ".join(str(q) for q in synthetic_questions)
+            parts.append(questions_text)
+
+        return ". ".join(parts)
+
+    # Fallback: combine multiple fields (legacy behavior for items without embedding_text)
     parts = []
 
     # Name is most important - always first
