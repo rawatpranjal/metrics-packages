@@ -46,7 +46,7 @@
     "company_context": [
       "startup"
     ],
-    "model_score": 0.0156
+    "model_score": 0.0155
   },
   {
     "name": "Ace the Data Science Interview",
@@ -233,7 +233,7 @@
     "company_context": [
       "e-commerce"
     ],
-    "model_score": 0.0038
+    "model_score": 0.0037
   },
   {
     "name": "StatQuest with Josh Starmer",
@@ -277,7 +277,7 @@
       "economist"
     ],
     "experience_level": "entry",
-    "model_score": 0.0009
+    "model_score": 0.0014
   },
   {
     "name": "Statsig",
@@ -312,6 +312,104 @@
       "What companies are known for their experimentation culture?"
     ],
     "experience_level": "entry",
+    "model_score": 0.0008
+  },
+  {
+    "name": "OpenAI",
+    "description": "Career portal",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://openai.com/careers/",
+    "type": "Career Portal",
+    "tags": [
+      "emerging",
+      "residency",
+      "networking-required",
+      "economist-title"
+    ],
+    "section": "companies",
+    "sector": "ai",
+    "tab": "find-jobs",
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "OpenAI's career portal provides resources and opportunities for individuals interested in careers related to economics and technology. It focuses on networking and emerging roles in the field.",
+    "use_cases": [
+      "when looking for career opportunities in tech and economics",
+      "when seeking networking opportunities"
+    ],
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What career opportunities are available at OpenAI?",
+      "How can I network in the tech-economics field?",
+      "What is the residency program at OpenAI?",
+      "What titles are available for economists at OpenAI?",
+      "How do I prepare for a career in tech economics?",
+      "What skills are needed for a role at OpenAI?",
+      "What does the career portal offer?",
+      "How can I connect with professionals in the field?"
+    ],
+    "role_type": [
+      "economist"
+    ],
+    "experience_level": "entry",
+    "company_context": [
+      "startup"
+    ],
+    "model_score": 0.0008
+  },
+  {
+    "name": "Anthropic",
+    "description": "Career portal",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://www.anthropic.com/careers/",
+    "type": "Career Portal",
+    "tags": [
+      "emerging",
+      "no-internship",
+      "networking-required",
+      "economist-title"
+    ],
+    "section": "companies",
+    "sector": "ai",
+    "tab": "find-jobs",
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "The Anthropic career portal provides resources and information for individuals seeking careers in the tech and economics fields, with a focus on networking and opportunities that do not require internships.",
+    "use_cases": [
+      "when looking for career opportunities in tech economics",
+      "when needing to network with professionals in the field"
+    ],
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What career opportunities are available at Anthropic?",
+      "How can I network effectively in tech economics?",
+      "What roles are suitable for economists in tech?",
+      "Are there any internships offered by Anthropic?",
+      "What skills are needed for a career in tech economics?",
+      "How to prepare for interviews in tech companies?",
+      "What is the salary range for economists at tech firms?",
+      "What networking strategies work best in the tech industry?"
+    ],
+    "role_type": [
+      "economist"
+    ],
+    "experience_level": "entry",
+    "company_context": [
+      "startup"
+    ],
     "model_score": 0.0008
   },
   {
@@ -355,7 +453,7 @@
       "data-scientist"
     ],
     "experience_level": "entry|mid",
-    "model_score": 0.0005
+    "model_score": 0.0004
   },
   {
     "name": "Netflix: Experimentation Focus",
@@ -444,7 +542,7 @@
       "data-scientist"
     ],
     "experience_level": "mid|senior",
-    "model_score": 0.0001
+    "model_score": 0.0
   },
   {
     "name": "Google Research Careers",
@@ -3636,104 +3734,6 @@
       "How does Roblox support career development for economists?",
       "What skills are important for a career at Roblox?",
       "What are the benefits of working at Roblox?"
-    ],
-    "role_type": [
-      "economist"
-    ],
-    "experience_level": "entry",
-    "company_context": [
-      "startup"
-    ],
-    "model_score": 0.0
-  },
-  {
-    "name": "OpenAI",
-    "description": "Career portal",
-    "stage": "Discovery",
-    "category": "Company Lists",
-    "url": "https://openai.com/careers/",
-    "type": "Career Portal",
-    "tags": [
-      "emerging",
-      "residency",
-      "networking-required",
-      "economist-title"
-    ],
-    "section": "companies",
-    "sector": "ai",
-    "tab": "find-jobs",
-    "subtab": "companies",
-    "difficulty": "beginner",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "OpenAI's career portal provides resources and opportunities for individuals interested in careers related to economics and technology. It focuses on networking and emerging roles in the field.",
-    "use_cases": [
-      "when looking for career opportunities in tech and economics",
-      "when seeking networking opportunities"
-    ],
-    "audience": [
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "What career opportunities are available at OpenAI?",
-      "How can I network in the tech-economics field?",
-      "What is the residency program at OpenAI?",
-      "What titles are available for economists at OpenAI?",
-      "How do I prepare for a career in tech economics?",
-      "What skills are needed for a role at OpenAI?",
-      "What does the career portal offer?",
-      "How can I connect with professionals in the field?"
-    ],
-    "role_type": [
-      "economist"
-    ],
-    "experience_level": "entry",
-    "company_context": [
-      "startup"
-    ],
-    "model_score": 0.0
-  },
-  {
-    "name": "Anthropic",
-    "description": "Career portal",
-    "stage": "Discovery",
-    "category": "Company Lists",
-    "url": "https://www.anthropic.com/careers/",
-    "type": "Career Portal",
-    "tags": [
-      "emerging",
-      "no-internship",
-      "networking-required",
-      "economist-title"
-    ],
-    "section": "companies",
-    "sector": "ai",
-    "tab": "find-jobs",
-    "subtab": "companies",
-    "difficulty": "beginner",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "The Anthropic career portal provides resources and information for individuals seeking careers in the tech and economics fields, with a focus on networking and opportunities that do not require internships.",
-    "use_cases": [
-      "when looking for career opportunities in tech economics",
-      "when needing to network with professionals in the field"
-    ],
-    "audience": [
-      "Early-PhD",
-      "Junior-DS",
-      "Mid-DS",
-      "Senior-DS",
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "What career opportunities are available at Anthropic?",
-      "How can I network effectively in tech economics?",
-      "What roles are suitable for economists in tech?",
-      "Are there any internships offered by Anthropic?",
-      "What skills are needed for a career in tech economics?",
-      "How to prepare for interviews in tech companies?",
-      "What is the salary range for economists at tech firms?",
-      "What networking strategies work best in the tech industry?"
     ],
     "role_type": [
       "economist"
