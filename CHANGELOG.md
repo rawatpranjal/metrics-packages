@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-01-03
+- Added `embedding_text` field (500-1000 words) to LLM enrichment for richer semantic embeddings
+- Content-type specific prompts for papers, packages, datasets, resources, talks, career, community
+
 ## 2026-01-02
 - **Datasets page Netflix-style redesign**: horizontal scroll rows grouped by category (36 categories)
 - Downloaded 153 dataset images locally to /static/images/datasets/ via OG image fetching
