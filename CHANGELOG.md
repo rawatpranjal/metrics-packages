@@ -3,6 +3,7 @@
 ## 2026-01-03
 - Added `embedding_text` field (500-1000 words) to LLM enrichment for richer semantic embeddings
 - Content-type specific prompts for papers, packages, datasets, resources, talks, career, community
+- **Async batch processing**: 10x faster enrichment using asyncio (batch size 10, semaphore rate limiting)
 
 ## 2026-01-02
 - **Datasets page Netflix-style redesign**: horizontal scroll rows grouped by category (36 categories)
