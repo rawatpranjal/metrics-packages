@@ -42,7 +42,7 @@
     "event_format": "conference",
     "geographic_focus": "Netflix",
     "frequency": "annual",
-    "model_score": 0.0147,
+    "model_score": 0.0146,
     "image_url": "",
     "embedding_text": "The Netflix Causal Inference event is a pivotal gathering that delves into the intricacies of causal inference as it pertains to recommender systems. This annual conference is part of the CompCI project and features the CIDER roundtable, where leading experts, including research advisor Nathan Kallus from Cornell, share their insights and findings. The event attracts a diverse audience, primarily consisting of mid-level and senior data scientists, along with curious browsers eager to expand their understanding of advanced methodologies in recommendation algorithms. Attendees can expect a mix of engaging talks, workshops, and networking opportunities that facilitate collaboration and knowledge exchange. The focus on causal inference positions this event at the intersection of academia and industry, making it a unique venue for discussing cutting-edge research and practical applications. Participants typically gain a deeper understanding of how causal inference can enhance recommendation systems, as well as the chance to connect with peers and leaders in the field. The event's accessibility and relevance to both researchers and practitioners make it a valuable experience for anyone interested in the future of recommendation technology.",
     "tfidf_keywords": [
@@ -264,7 +264,7 @@
     "event_format": "conference",
     "geographic_focus": "Various US cities",
     "frequency": "annual",
-    "model_score": 0.003,
+    "model_score": 0.0029,
     "image_url": "/images/logos/aeaweb.png",
     "embedding_text": "The ASSA Annual Meeting, organized by the Allied Social Science Associations, represents the largest convergence of economists in the world. This prestigious event focuses on a variety of themes central to the field of economics, including applied analytics, market design, and causal inference. It attracts a diverse audience comprising economists from academia, industry professionals, and policymakers, all eager to engage in discussions that shape the future of economic research and practice. The meeting features a range of session formats, including keynote talks, panel discussions, and workshops, allowing for both formal presentations and informal exchanges of ideas. Notably, the event is characterized by its strong academic orientation, with significant participation from leading economic associations such as the American Economic Association (AEA) and the Econometric Society, alongside over 60 allied associations. This creates a rich environment for interdisciplinary collaboration and networking opportunities, enabling attendees to connect with peers, share insights, and explore potential partnerships. The ASSA Annual Meeting is held in various cities across the United States, making it accessible to a wide audience. Participants typically gain valuable knowledge about the latest research trends, methodologies, and applications in economics, enhancing their professional development and academic pursuits. Compared to similar events, the ASSA Annual Meeting stands out due to its scale, breadth of topics covered, and the caliber of speakers and attendees, making it a must-attend for anyone serious about economics.",
     "tfidf_keywords": [
@@ -464,6 +464,82 @@
     ]
   },
   {
+    "name": "INFORMS Marketing Science Conference",
+    "description": "Premier academic conference for quantitative marketing research. Covers customer analytics, pricing, advertising, and marketing models with strong industry participation.",
+    "category": "MarTech & Customer Analytics",
+    "url": "https://www.informs.org/Meetings-Conferences/INFORMS-Conference-Calendar/2025-INFORMS-Marketing-Science-Conference",
+    "type": "Academic Conference",
+    "tags": [
+      "Marketing Science",
+      "Conference",
+      "Academic"
+    ],
+    "domain": "Marketing",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "academic-conference",
+      "industry-event",
+      "networking"
+    ],
+    "summary": "The INFORMS Marketing Science Conference is a premier academic event focusing on quantitative marketing research. It attracts a diverse audience including academics and industry professionals interested in customer analytics, pricing strategies, advertising, and marketing models.",
+    "use_cases": [
+      "gain insights into quantitative marketing research",
+      "network with industry professionals",
+      "learn about the latest trends in customer analytics"
+    ],
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What are the key themes of the INFORMS Marketing Science Conference?",
+      "Who typically attends the INFORMS Marketing Science Conference?",
+      "What types of sessions are offered at the INFORMS Marketing Science Conference?",
+      "How does the INFORMS Marketing Science Conference compare to other marketing conferences?",
+      "What networking opportunities are available at the INFORMS Marketing Science Conference?",
+      "What can attendees expect to learn at the INFORMS Marketing Science Conference?",
+      "What is the focus of the INFORMS Marketing Science Conference?",
+      "How does the conference support both academic and industry perspectives?"
+    ],
+    "community_type": "conference",
+    "engagement_level": "professional",
+    "event_format": "conference",
+    "frequency": "annual",
+    "model_score": 0.0001,
+    "embedding_text": "The INFORMS Marketing Science Conference serves as a leading platform for the presentation and discussion of research in quantitative marketing. This event is characterized by its strong academic orientation, drawing researchers and practitioners alike who are eager to explore the latest methodologies and applications in marketing science. Attendees typically include early-stage PhD candidates, junior and mid-level data scientists, as well as senior professionals from both academia and industry. The conference features a variety of session formats, including keynote talks, panel discussions, and workshops, which facilitate knowledge sharing and collaboration among participants. The focus areas of the conference encompass critical themes such as customer analytics, pricing strategies, advertising effectiveness, and advanced marketing models. These topics are not only relevant to academic research but also have significant implications for industry practices, making the conference a unique intersection of theory and application. Networking opportunities abound, allowing attendees to connect with leading experts and peers, fostering relationships that can lead to future collaborations or career advancements. Participants can expect to gain valuable insights into the latest research findings, practical applications, and emerging trends in the field of marketing science. Compared to similar events, the INFORMS Marketing Science Conference stands out due to its rigorous academic standards and the high level of industry participation, ensuring a rich exchange of ideas and experiences.",
+    "tfidf_keywords": [
+      "customer-analytics",
+      "pricing-strategies",
+      "advertising-effectiveness",
+      "marketing-models",
+      "quantitative-research",
+      "industry-participation",
+      "academic-conference",
+      "networking-opportunities",
+      "data-science",
+      "marketing-science"
+    ],
+    "semantic_cluster": "marketing-science-research",
+    "content_format": "community",
+    "depth_level": "intermediate",
+    "related_concepts": [
+      "consumer-behavior",
+      "econometrics",
+      "statistics",
+      "data-engineering",
+      "behavioral-economics"
+    ],
+    "canonical_topics": [
+      "consumer-behavior",
+      "econometrics",
+      "statistics",
+      "marketing-science"
+    ]
+  },
+  {
     "name": "Wharton Customer Analytics Initiative (WCAI)",
     "description": "World's preeminent customer analytics research center bridging academic research and industry practice. Hosts conferences, provides datasets, and publishes practitioner-focused research.",
     "category": "MarTech & Customer Analytics",
@@ -505,7 +581,7 @@
     ],
     "community_type": "research-center",
     "engagement_level": "professional",
-    "model_score": 0.0002,
+    "model_score": 0.0,
     "image_url": "https://ai.wharton.upenn.edu/wp-content/uploads/2025/04/WHAIR-featured-image-large-929x632.png",
     "embedding_text": "The Wharton Customer Analytics Initiative (WCAI) stands as the world's preeminent research center dedicated to customer analytics, uniquely positioned to bridge the gap between academic research and industry practice. With a strong emphasis on fostering collaboration between scholars and practitioners, WCAI hosts annual conferences that attract a diverse audience of professionals from both academia and industry. Attendees typically include data scientists, marketing professionals, and researchers eager to explore the latest advancements in customer analytics. The event features a variety of session formats, including keynote talks from leading experts, interactive workshops, and panel discussions that encourage networking and knowledge sharing. This blend of academic rigor and practical application makes WCAI a vital platform for those looking to deepen their understanding of customer behavior through data-driven insights. The conference not only highlights cutting-edge research but also offers attendees the opportunity to engage with datasets and methodologies that are shaping the future of customer analytics. Networking opportunities abound, allowing participants to connect with peers, share ideas, and foster collaborations that extend beyond the event. Attendees leave with valuable insights and practical knowledge that can be applied directly to their work, making WCAI a must-attend event for anyone serious about customer analytics. Compared to similar events, WCAI's unique focus on the intersection of academia and industry sets it apart, providing a rich environment for learning and professional growth.",
     "event_format": "conference",
@@ -584,7 +660,7 @@
     "community_type": "professional-org",
     "engagement_level": "professional",
     "frequency": "annual",
-    "model_score": 0.0001,
+    "model_score": 0.0,
     "image_url": "https://www.msi.org/wp-content/uploads/2020/06/immersion_20181-scaled-e1594752119938.jpg",
     "embedding_text": "The Marketing Science Institute (MSI) plays a crucial role in connecting the realms of marketing academia and industry, serving as a primary bridge that facilitates the exchange of ideas and research findings. With a focus on setting annual research priorities, MSI publishes working papers that guide both academic research and industry practice, making it a key player in the marketing landscape. Attendees of MSI events typically include a diverse mix of marketing professionals, researchers, and academics who are eager to engage with the latest developments in marketing science. The event features a variety of session formats, including talks, workshops, and networking opportunities, allowing participants to delve into the intricacies of marketing research while also fostering connections with peers and industry leaders. The orientation of the event leans towards both academic and industry perspectives, ensuring that discussions are relevant and applicable to real-world challenges faced by marketers today. While the specific geographic reach of MSI events may vary, they are designed to be accessible to a wide audience, drawing participants from various regions who are interested in advancing their understanding of marketing science. Notable tracks or special sessions often highlight emerging trends and innovative methodologies, providing attendees with valuable insights that can be directly applied to their work. Networking opportunities abound, allowing participants to connect with thought leaders and fellow attendees, facilitating collaborations and knowledge sharing. Ultimately, attendees leave MSI events with a deeper understanding of marketing science, equipped with new ideas and strategies that can enhance their professional practice. Compared to similar events, MSI stands out for its unique focus on the intersection of academic research and industry application, making it an essential gathering for those committed to advancing the field of marketing.",
     "event_format": "conference",
@@ -615,82 +691,6 @@
       "industrial-organization",
       "behavioral-economics",
       "marketing"
-    ]
-  },
-  {
-    "name": "INFORMS Marketing Science Conference",
-    "description": "Premier academic conference for quantitative marketing research. Covers customer analytics, pricing, advertising, and marketing models with strong industry participation.",
-    "category": "MarTech & Customer Analytics",
-    "url": "https://www.informs.org/Meetings-Conferences/INFORMS-Conference-Calendar/2025-INFORMS-Marketing-Science-Conference",
-    "type": "Academic Conference",
-    "tags": [
-      "Marketing Science",
-      "Conference",
-      "Academic"
-    ],
-    "domain": "Marketing",
-    "difficulty": "intermediate",
-    "prerequisites": [],
-    "topic_tags": [
-      "academic-conference",
-      "industry-event",
-      "networking"
-    ],
-    "summary": "The INFORMS Marketing Science Conference is a premier academic event focusing on quantitative marketing research. It attracts a diverse audience including academics and industry professionals interested in customer analytics, pricing strategies, advertising, and marketing models.",
-    "use_cases": [
-      "gain insights into quantitative marketing research",
-      "network with industry professionals",
-      "learn about the latest trends in customer analytics"
-    ],
-    "audience": [
-      "Early-PhD",
-      "Junior-DS",
-      "Mid-DS",
-      "Senior-DS"
-    ],
-    "synthetic_questions": [
-      "What are the key themes of the INFORMS Marketing Science Conference?",
-      "Who typically attends the INFORMS Marketing Science Conference?",
-      "What types of sessions are offered at the INFORMS Marketing Science Conference?",
-      "How does the INFORMS Marketing Science Conference compare to other marketing conferences?",
-      "What networking opportunities are available at the INFORMS Marketing Science Conference?",
-      "What can attendees expect to learn at the INFORMS Marketing Science Conference?",
-      "What is the focus of the INFORMS Marketing Science Conference?",
-      "How does the conference support both academic and industry perspectives?"
-    ],
-    "community_type": "conference",
-    "engagement_level": "professional",
-    "event_format": "conference",
-    "frequency": "annual",
-    "model_score": 0.0,
-    "embedding_text": "The INFORMS Marketing Science Conference serves as a leading platform for the presentation and discussion of research in quantitative marketing. This event is characterized by its strong academic orientation, drawing researchers and practitioners alike who are eager to explore the latest methodologies and applications in marketing science. Attendees typically include early-stage PhD candidates, junior and mid-level data scientists, as well as senior professionals from both academia and industry. The conference features a variety of session formats, including keynote talks, panel discussions, and workshops, which facilitate knowledge sharing and collaboration among participants. The focus areas of the conference encompass critical themes such as customer analytics, pricing strategies, advertising effectiveness, and advanced marketing models. These topics are not only relevant to academic research but also have significant implications for industry practices, making the conference a unique intersection of theory and application. Networking opportunities abound, allowing attendees to connect with leading experts and peers, fostering relationships that can lead to future collaborations or career advancements. Participants can expect to gain valuable insights into the latest research findings, practical applications, and emerging trends in the field of marketing science. Compared to similar events, the INFORMS Marketing Science Conference stands out due to its rigorous academic standards and the high level of industry participation, ensuring a rich exchange of ideas and experiences.",
-    "tfidf_keywords": [
-      "customer-analytics",
-      "pricing-strategies",
-      "advertising-effectiveness",
-      "marketing-models",
-      "quantitative-research",
-      "industry-participation",
-      "academic-conference",
-      "networking-opportunities",
-      "data-science",
-      "marketing-science"
-    ],
-    "semantic_cluster": "marketing-science-research",
-    "content_format": "community",
-    "depth_level": "intermediate",
-    "related_concepts": [
-      "consumer-behavior",
-      "econometrics",
-      "statistics",
-      "data-engineering",
-      "behavioral-economics"
-    ],
-    "canonical_topics": [
-      "consumer-behavior",
-      "econometrics",
-      "statistics",
-      "marketing-science"
     ]
   },
   {

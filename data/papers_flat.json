@@ -17,7 +17,7 @@
     "category": "Experimentation > A/B Test Design & Analysis",
     "topic": "Experimentation",
     "subtopic": "A/B Test Design & Analysis",
-    "model_score": 0.063
+    "model_score": 0.0642
   },
   {
     "id": "paper-the-theory-and-practice-of-revenue-management",
@@ -37,7 +37,47 @@
     "category": "Pricing > Dynamic Pricing & Revenue Management",
     "topic": "Pricing",
     "subtopic": "Dynamic Pricing & Revenue Management",
-    "model_score": 0.0058
+    "model_score": 0.0065
+  },
+  {
+    "id": "paper-from-first-price-auctions-to-incentive-compatible-auctions",
+    "name": "From First-Price Auctions to Incentive-Compatible Auctions",
+    "title": "From First-Price Auctions to Incentive-Compatible Auctions",
+    "authors": "Yuan Deng, S\u00e9bastien Lahaie, Vahab Mirrokni",
+    "year": 2021,
+    "url": "https://arxiv.org/abs/2103.07012",
+    "description": "Mechanism design for autobidders and the transition to first-price auctions.",
+    "citations": null,
+    "tag": "",
+    "tags": [
+      "Advertising",
+      "Autobidding & Budget Pacing"
+    ],
+    "type": "paper",
+    "category": "Advertising > Autobidding & Budget Pacing",
+    "topic": "Advertising",
+    "subtopic": "Autobidding & Budget Pacing",
+    "model_score": 0.0001
+  },
+  {
+    "id": "paper-personalization-in-email-marketing-the-role-of-noninformative-advertising-content",
+    "name": "Personalization in Email Marketing: The Role of Noninformative Advertising Content",
+    "title": "Personalization in Email Marketing: The Role of Noninformative Advertising Content",
+    "authors": "Navdeep S. Sahni, S. Christian Wheeler, Pradeep Chintagunta",
+    "year": 2018,
+    "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.2017.1066",
+    "description": "Field experiments showing adding recipient names increases open rates by 20%, sales leads by 31%\u2014even though names are non-informative. Gary Lilien Prize Finalist.",
+    "citations": 0,
+    "tag": "",
+    "tags": [
+      "Advertising",
+      "Targeting & Lookalikes"
+    ],
+    "type": "paper",
+    "category": "Advertising > Targeting & Lookalikes",
+    "topic": "Advertising",
+    "subtopic": "Targeting & Lookalikes",
+    "model_score": 0.0001
   },
   {
     "id": "paper-risk-based-authentication-practical-deployments-and-research-challenges",
@@ -10540,26 +10580,6 @@
     "model_score": 0.0
   },
   {
-    "id": "paper-from-first-price-auctions-to-incentive-compatible-auctions",
-    "name": "From First-Price Auctions to Incentive-Compatible Auctions",
-    "title": "From First-Price Auctions to Incentive-Compatible Auctions",
-    "authors": "Yuan Deng, S\u00e9bastien Lahaie, Vahab Mirrokni",
-    "year": 2021,
-    "url": "https://arxiv.org/abs/2103.07012",
-    "description": "Mechanism design for autobidders and the transition to first-price auctions.",
-    "citations": null,
-    "tag": "",
-    "tags": [
-      "Advertising",
-      "Autobidding & Budget Pacing"
-    ],
-    "type": "paper",
-    "category": "Advertising > Autobidding & Budget Pacing",
-    "topic": "Advertising",
-    "subtopic": "Autobidding & Budget Pacing",
-    "model_score": 0.0
-  },
-  {
     "id": "paper-learning-in-repeated-auctions-with-budgets-regret-minimization-and-equilibrium-1",
     "name": "Learning in Repeated Auctions with Budgets: Regret Minimization and Equilibrium",
     "title": "Learning in Repeated Auctions with Budgets: Regret Minimization and Equilibrium",
@@ -10828,26 +10848,6 @@
     "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.2020.1235",
     "description": "Unified framework combining ML-based targeting with auction models; shows efficient targeting improves CTR by 66.8% over current practice, with implications for privacy regulation.",
     "citations": 187,
-    "tag": "",
-    "tags": [
-      "Advertising",
-      "Targeting & Lookalikes"
-    ],
-    "type": "paper",
-    "category": "Advertising > Targeting & Lookalikes",
-    "topic": "Advertising",
-    "subtopic": "Targeting & Lookalikes",
-    "model_score": 0.0
-  },
-  {
-    "id": "paper-personalization-in-email-marketing-the-role-of-noninformative-advertising-content",
-    "name": "Personalization in Email Marketing: The Role of Noninformative Advertising Content",
-    "title": "Personalization in Email Marketing: The Role of Noninformative Advertising Content",
-    "authors": "Navdeep S. Sahni, S. Christian Wheeler, Pradeep Chintagunta",
-    "year": 2018,
-    "url": "https://pubsonline.informs.org/doi/abs/10.1287/mksc.2017.1066",
-    "description": "Field experiments showing adding recipient names increases open rates by 20%, sales leads by 31%\u2014even though names are non-informative. Gary Lilien Prize Finalist.",
-    "citations": 0,
     "tag": "",
     "tags": [
       "Advertising",
