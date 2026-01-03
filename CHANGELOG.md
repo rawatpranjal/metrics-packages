@@ -1,6 +1,17 @@
 # Changelog
 
 ## 2026-01-03
+- **Comprehensive Queueing Theory Resources Directory** (~70 new entries):
+  - 7 simulation packages (SimPy, Ciw, simmer, queueing, AnyLogic, Arena, Simio)
+  - 8 textbooks (Kleinrock, Harchol-Balter, Gross & Harris, Ross, Hillier, Law, Nelson)
+  - 2 conferences (ACM SIGMETRICS, Winter Simulation Conference)
+  - 25 resources (MIT courses, industry blogs, calculators, tutorials)
+  - 25 papers in new "Queueing Theory & Operations" topic (5 subtopics: Foundational, Ride-Sharing, Call Centers, Cloud/Server, Healthcare)
+- Added 31 queueing/operations datasets total:
+  - Part 1: 15 Kaggle datasets (call centers, healthcare, server logs, theme parks, flights)
+  - Part 2: 16 premium sources (CAIDA, Google Cluster, Technion call center, NYC EMS, etc.)
+- New categories: Operations & Service, Technology & Infrastructure, Manufacturing, Telecommunications
+- Fetched 28 new dataset images + 22 logo fallbacks (181 total dataset images, 227 logos)
 - Added `embedding_text` field (500-1000 words) to LLM enrichment for richer semantic embeddings
 - Content-type specific prompts for papers, packages, datasets, resources, talks, career, community
 - **Async batch processing**: 10x faster enrichment using asyncio (batch size 10, semaphore rate limiting)
