@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1",
-  "last_run": "2026-01-01T04:38:28.536294+00:00",
+  "last_run": "2026-01-03T10:01:23.358882+00:00",
   "items": {
     "packages.json": {
       "BayesianBandits": {
@@ -110,7 +110,7 @@
       },
       "PyMC": {
         "content_hash": "70cdd9a75b34bf88",
-        "enriched_at": "2025-12-30T21:13:44.896731+00:00",
+        "enriched_at": "2026-01-03T10:01:23.263431+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -172,29 +172,29 @@
         "confidence": 0.9
       },
       "bnlearn": {
-        "content_hash": "edf6e6e9fb5076d4",
-        "enriched_at": "2025-12-30T21:14:42.037774+00:00",
+        "content_hash": "cc8c9bb2d83545ac",
+        "enriched_at": "2026-01-03T07:52:13.446675+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "dagitty": {
-        "content_hash": "597ee060b56ab6c9",
-        "enriched_at": "2025-12-30T21:14:47.416977+00:00",
+        "content_hash": "29d878d4239a7ea9",
+        "enriched_at": "2026-01-03T07:52:13.446716+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "ggdag": {
-        "content_hash": "c795f9b94345e8e9",
-        "enriched_at": "2025-12-30T21:14:53.448258+00:00",
+        "content_hash": "841a67e4cd6dba1e",
+        "enriched_at": "2026-01-03T07:52:13.446789+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "pcalg": {
-        "content_hash": "60ad26374610937c",
-        "enriched_at": "2025-12-30T21:14:58.968331+00:00",
+        "content_hash": "328a5b7263a4354a",
+        "enriched_at": "2026-01-03T07:52:13.446821+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -305,8 +305,8 @@
         "confidence": 1.0
       },
       "CausalML": {
-        "content_hash": "de07bde48ac86e9f",
-        "enriched_at": "2026-01-01T02:36:08.323972+00:00",
+        "content_hash": "234ae1886745ca0d",
+        "enriched_at": "2026-01-03T10:01:23.263575+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -326,15 +326,15 @@
         "confidence": 1.0
       },
       "CausalPy": {
-        "content_hash": "8f744f3fd1677648",
-        "enriched_at": "2026-01-01T02:28:00.330167+00:00",
+        "content_hash": "6c0e7704c86b40a4",
+        "enriched_at": "2026-01-03T10:01:23.263977+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "DoWhy": {
         "content_hash": "3cfbc4057d14323b",
-        "enriched_at": "2026-01-01T02:33:39.584777+00:00",
+        "enriched_at": "2026-01-03T10:01:23.263470+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -739,8 +739,8 @@
         "confidence": 0.9
       },
       "microsynth": {
-        "content_hash": "f678efbbda3b2577",
-        "enriched_at": "2025-12-30T21:22:40.045405+00:00",
+        "content_hash": "1c2bed6461273152",
+        "enriched_at": "2026-01-03T10:01:23.264081+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -935,11 +935,11 @@
         "confidence": 0.9
       },
       "Biogeme": {
-        "content_hash": "04055f6423fb3449",
-        "enriched_at": "2026-01-01T02:33:45.088599+00:00",
+        "content_hash": "43f614da014d00e7",
+        "enriched_at": "2026-01-03T10:01:23.264045+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "PyBLP": {
         "content_hash": "87463af8ae40dc66",
@@ -949,11 +949,11 @@
         "confidence": 0.9
       },
       "PyLogit": {
-        "content_hash": "66b7c3c14727aa13",
-        "enriched_at": "2026-01-01T02:33:50.298880+00:00",
+        "content_hash": "d4fb0a415870ab4d",
+        "enriched_at": "2026-01-03T10:01:23.264244+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "XLogit": {
         "content_hash": "75b683788731018e",
@@ -985,7 +985,7 @@
       },
       "EconML": {
         "content_hash": "f5ce0010ed6b898c",
-        "enriched_at": "2026-01-01T02:36:13.355928+00:00",
+        "enriched_at": "2026-01-03T10:01:23.263393+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -1089,8 +1089,8 @@
         "confidence": 0.9
       },
       "GeoLift": {
-        "content_hash": "fc21e2b1f9ae2196",
-        "enriched_at": "2026-01-01T02:34:02.487393+00:00",
+        "content_hash": "8ba982143500692c",
+        "enriched_at": "2026-01-03T10:01:23.264667+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -1201,11 +1201,11 @@
         "confidence": 0.9
       },
       "py-econometrics `gmm`": {
-        "content_hash": "1bd97212b2571ce1",
-        "enriched_at": "2025-12-30T21:28:36.553316+00:00",
+        "content_hash": "2d14443ad7821da9",
+        "enriched_at": "2026-01-03T10:01:23.263939+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "CausalMotifs": {
         "content_hash": "1b9055a363791820",
@@ -1250,11 +1250,11 @@
         "confidence": 0.9
       },
       "xgboost": {
-        "content_hash": "2b740c21bee27fed",
-        "enriched_at": "2026-01-01T02:34:07.886942+00:00",
+        "content_hash": "05660acecceb56c8",
+        "enriched_at": "2026-01-03T10:01:23.264635+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "emmeans": {
         "content_hash": "8c96a8f1c261c405",
@@ -1425,8 +1425,8 @@
         "confidence": 0.9
       },
       "igraph": {
-        "content_hash": "3c59b750696c74da",
-        "enriched_at": "2026-01-01T02:34:12.259678+00:00",
+        "content_hash": "de2b7757013fb3d7",
+        "enriched_at": "2026-01-03T10:01:23.264444+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -1684,8 +1684,8 @@
         "confidence": 1.0
       },
       "CausalImpact": {
-        "content_hash": "b70237a868d30321",
-        "enriched_at": "2026-01-01T02:34:18.462392+00:00",
+        "content_hash": "034645dddfc4385d",
+        "enriched_at": "2026-01-03T10:01:23.264313+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -1915,8 +1915,8 @@
         "confidence": 1.0
       },
       "sf": {
-        "content_hash": "74cfcd2f83076387",
-        "enriched_at": "2026-01-01T02:34:23.098429+00:00",
+        "content_hash": "e33420576b81557f",
+        "enriched_at": "2026-01-03T10:01:23.264604+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -2118,8 +2118,8 @@
         "confidence": 1.0
       },
       "lifelines": {
-        "content_hash": "3537030843c11c24",
-        "enriched_at": "2026-01-01T02:34:51.182293+00:00",
+        "content_hash": "bd14f925c4cd01a2",
+        "enriched_at": "2026-01-03T10:01:23.263837+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -2139,11 +2139,11 @@
         "confidence": 1.0
       },
       "Dolo": {
-        "content_hash": "c380367defde2909",
-        "enriched_at": "2025-12-30T21:41:33.509632+00:00",
+        "content_hash": "eeab9670d562f452",
+        "enriched_at": "2026-01-03T10:01:23.263760+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 1.0
+        "confidence": 0.9
       },
       "Greeners": {
         "content_hash": "4e28a58ed2e94f5a",
@@ -2391,8 +2391,8 @@
         "confidence": 0.9
       },
       "Prophet": {
-        "content_hash": "78c98eb477a178d1",
-        "enriched_at": "2026-01-01T02:34:33.083631+00:00",
+        "content_hash": "4174addbf4d937d5",
+        "enriched_at": "2026-01-03T10:01:23.263612+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -2447,11 +2447,11 @@
         "confidence": 0.9
       },
       "LightGBM": {
-        "content_hash": "142c1c4ef762393e",
-        "enriched_at": "2026-01-01T02:34:39.557018+00:00",
+        "content_hash": "65edaa9b5919ab75",
+        "enriched_at": "2026-01-03T10:01:23.263872+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Linfa": {
         "content_hash": "8e7dc958107261e1",
@@ -2545,15 +2545,15 @@
         "confidence": 1.0
       },
       "Surprise": {
-        "content_hash": "bc4e3c85fdc64355",
-        "enriched_at": "2026-01-01T02:34:44.574052+00:00",
+        "content_hash": "cf8ae345893fed14",
+        "enriched_at": "2026-01-03T10:01:23.264545+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "ruspy": {
-        "content_hash": "8b4fe37e0f6f1e7d",
-        "enriched_at": "2026-01-01T02:18:29.116143+00:00",
+        "content_hash": "9674f5f5a47ab8a5",
+        "enriched_at": "2026-01-03T10:01:23.264412+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -2650,8 +2650,8 @@
         "confidence": 0.9
       },
       "scikit-survival": {
-        "content_hash": "a9742091f3bb4089",
-        "enriched_at": "2026-01-01T02:34:56.861545+00:00",
+        "content_hash": "a5a4fb560a108259",
+        "enriched_at": "2026-01-03T10:01:23.264379+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -2692,8 +2692,8 @@
         "confidence": 0.9
       },
       "survival": {
-        "content_hash": "4048c2b218979fbd",
-        "enriched_at": "2026-01-01T02:35:02.247131+00:00",
+        "content_hash": "cfa9282838e47ff6",
+        "enriched_at": "2026-01-03T10:01:23.264476+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -2860,64 +2860,64 @@
         "confidence": 0.9
       },
       "PyPSA": {
-        "content_hash": "ccb829a626c60752",
-        "enriched_at": "2026-01-01T02:35:18.775609+00:00",
+        "content_hash": "89efd3b73f624af5",
+        "enriched_at": "2026-01-03T10:01:23.264511+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "pandapower": {
-        "content_hash": "ab35d57890ca2957",
-        "enriched_at": "2026-01-01T02:35:23.967473+00:00",
+        "content_hash": "53edaa59012963e3",
+        "enriched_at": "2026-01-03T10:01:23.264179+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Pyomo": {
-        "content_hash": "be1d3fbc83cf6e44",
-        "enriched_at": "2026-01-01T02:35:29.219133+00:00",
+        "content_hash": "94d9022a354c5d03",
+        "enriched_at": "2026-01-03T10:01:23.264118+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "HiGHS": {
-        "content_hash": "9fb402042dcafa5e",
-        "enriched_at": "2026-01-01T02:35:34.133974+00:00",
+        "content_hash": "8d18589dd4dfc097",
+        "enriched_at": "2026-01-03T10:01:23.263904+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "GenX": {
-        "content_hash": "1a56577600d88f47",
-        "enriched_at": "2026-01-01T02:35:39.255347+00:00",
+        "content_hash": "43d80b5c65a3ea84",
+        "enriched_at": "2026-01-03T10:01:23.264345+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "PowerModels.jl": {
-        "content_hash": "3854ac5b12416345",
-        "enriched_at": "2026-01-01T02:35:43.810789+00:00",
+        "content_hash": "621ed522fc8322be",
+        "enriched_at": "2026-01-03T10:01:23.264574+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "OpenDSS": {
-        "content_hash": "f897e4d58658337b",
-        "enriched_at": "2026-01-01T02:35:50.518964+00:00",
+        "content_hash": "d080ce407788f380",
+        "enriched_at": "2026-01-03T10:01:23.264148+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "eiapy": {
-        "content_hash": "7a84d6d8f42a7d30",
-        "enriched_at": "2026-01-01T02:35:55.638520+00:00",
+        "content_hash": "f59abc1e87ba0b11",
+        "enriched_at": "2026-01-03T10:01:23.264275+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "catalystcoop-pudl": {
-        "content_hash": "2ca5c0cf5fee0b5d",
-        "enriched_at": "2026-01-01T02:36:02.755968+00:00",
+        "content_hash": "228dd196edd5fbc7",
+        "enriched_at": "2026-01-03T10:01:23.264212+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -2993,8 +2993,8 @@
         "confidence": 1.0
       },
       "PyMC-Marketing": {
-        "content_hash": "91db475920ab1064",
-        "enriched_at": "2026-01-01T02:36:18.926848+00:00",
+        "content_hash": "530982b42c5e55f2",
+        "enriched_at": "2026-01-03T10:01:23.264012+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -3054,6 +3054,335 @@
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
+      },
+      "EDSL": {
+        "content_hash": "e87479488444c1f4",
+        "enriched_at": "2026-01-03T10:01:23.263650+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "anthropic": {
+        "content_hash": "a2c9972b522177ca",
+        "enriched_at": "2026-01-03T10:01:23.263691+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "openai": {
+        "content_hash": "ac48ce542517e013",
+        "enriched_at": "2026-01-03T10:01:23.263727+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "NLTK": {
+        "content_hash": "098eaf78ec570c94",
+        "enriched_at": "2026-01-03T10:01:23.264703+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "sentence-transformers": {
+        "content_hash": "71148445c93c2db1",
+        "enriched_at": "2026-01-03T10:01:23.264733+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "TensorFlow": {
+        "content_hash": "1737091f8ad22783",
+        "enriched_at": "2026-01-03T10:01:23.264764+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Elicit": {
+        "content_hash": "f931a558d48dce64",
+        "enriched_at": "2026-01-03T10:01:23.264795+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Consensus": {
+        "content_hash": "a048548d9eecd5bd",
+        "enriched_at": "2026-01-03T10:01:23.264825+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Semantic Scholar API": {
+        "content_hash": "5614160b922706fd",
+        "enriched_at": "2026-01-03T10:01:23.264854+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Research Rabbit": {
+        "content_hash": "e660dde3ecea69dc",
+        "enriched_at": "2026-01-03T10:01:23.264882+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Connected Papers": {
+        "content_hash": "4783ebe86873cd94",
+        "enriched_at": "2026-01-03T10:01:23.264912+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Mesa": {
+        "content_hash": "a0b41848fa2157d0",
+        "enriched_at": "2026-01-03T10:01:23.264942+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "AgentPy": {
+        "content_hash": "083b713c738ba7a9",
+        "enriched_at": "2026-01-03T10:01:23.264972+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "ABCE": {
+        "content_hash": "69fea3198981da41",
+        "enriched_at": "2026-01-03T10:01:23.265345+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "pyNetLogo": {
+        "content_hash": "703dd3f3a213c0d8",
+        "enriched_at": "2026-01-03T10:01:23.265376+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "NetLogoR": {
+        "content_hash": "6470cfc6f7262289",
+        "enriched_at": "2026-01-03T10:01:23.265407+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "RNetLogo": {
+        "content_hash": "9183ee9a724d9e1f",
+        "enriched_at": "2026-01-03T10:01:23.265438+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "nlrx": {
+        "content_hash": "4ccddf8de3726a60",
+        "enriched_at": "2026-01-03T10:01:23.265467+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Gymnasium": {
+        "content_hash": "3e8e4227e3407a8e",
+        "enriched_at": "2026-01-03T10:01:23.265498+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Stable-Baselines3": {
+        "content_hash": "12637bc5407a7f2b",
+        "enriched_at": "2026-01-03T10:01:23.265532+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "RLlib": {
+        "content_hash": "ab9afe5ed0858ca1",
+        "enriched_at": "2026-01-03T10:01:23.265563+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "CleanRL": {
+        "content_hash": "a6584c3434214fe4",
+        "enriched_at": "2026-01-03T10:01:23.265593+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "TorchRL": {
+        "content_hash": "69ce72996436497e",
+        "enriched_at": "2026-01-03T10:01:23.265623+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "PettingZoo": {
+        "content_hash": "8e9637f8832ad09e",
+        "enriched_at": "2026-01-03T10:01:23.265651+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "SuperSuit": {
+        "content_hash": "522e104a76d69346",
+        "enriched_at": "2026-01-03T10:01:23.265688+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "MO-Gymnasium": {
+        "content_hash": "e6553dd03efb085d",
+        "enriched_at": "2026-01-03T10:01:23.265718+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "AI Economist": {
+        "content_hash": "105feb8c64c2cf56",
+        "enriched_at": "2026-01-03T10:01:23.265754+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "FinRL": {
+        "content_hash": "ba40e030a8635c53",
+        "enriched_at": "2026-01-03T10:01:23.265786+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "OR-Gym": {
+        "content_hash": "f987e7d23153e77d",
+        "enriched_at": "2026-01-03T10:01:23.265815+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "mbt_gym": {
+        "content_hash": "9dac6021eade32a0",
+        "enriched_at": "2026-01-03T10:01:23.265844+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "ABIDES": {
+        "content_hash": "bdc702c7046a2aa9",
+        "enriched_at": "2026-01-03T10:01:23.265878+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "AuctionGym": {
+        "content_hash": "4e4c03128792c023",
+        "enriched_at": "2026-01-03T10:01:23.265908+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "matchingR": {
+        "content_hash": "abf851352678a0fc",
+        "enriched_at": "2026-01-03T10:01:23.265936+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "gale-shapley": {
+        "content_hash": "bf53e1eb35af10d4",
+        "enriched_at": "2026-01-03T10:01:23.265967+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "CTGAN": {
+        "content_hash": "c41d2bde22a81e29",
+        "enriched_at": "2026-01-03T10:01:23.266174+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.85
+      },
+      "DeepEcho": {
+        "content_hash": "13e30007a93e4126",
+        "enriched_at": "2026-01-03T10:01:23.266206+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Faker": {
+        "content_hash": "d6de07ec909465d9",
+        "enriched_at": "2026-01-03T10:01:23.266234+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Mimesis": {
+        "content_hash": "efa5922c812493d5",
+        "enriched_at": "2026-01-03T10:01:23.266264+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Gretel Synthetics": {
+        "content_hash": "7601c7c391659a04",
+        "enriched_at": "2026-01-03T10:01:23.266294+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "DataSynthesizer": {
+        "content_hash": "44ba037416f6b697",
+        "enriched_at": "2026-01-03T10:01:23.266323+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "sdcMicro": {
+        "content_hash": "93bcff25e0dcedff",
+        "enriched_at": "2026-01-03T10:01:23.266352+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "simPop": {
+        "content_hash": "5f8cc65b49a26e6b",
+        "enriched_at": "2026-01-03T10:01:23.266381+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.75
+      },
+      "simChef": {
+        "content_hash": "b03ec5870db11188",
+        "enriched_at": "2026-01-03T10:01:23.266411+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Superpower": {
+        "content_hash": "8d6739de7bdb461a",
+        "enriched_at": "2026-01-03T10:01:23.266439+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "mlpwr": {
+        "content_hash": "45507bd61b8938a6",
+        "enriched_at": "2026-01-03T10:01:23.266468+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "recombinator": {
+        "content_hash": "e639357f154f4ce0",
+        "enriched_at": "2026-01-03T10:01:23.266497+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "bootUR": {
+        "content_hash": "5048d094df880c30",
+        "enriched_at": "2026-01-03T10:01:23.266524+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
       }
     },
     "datasets.json": {
@@ -3107,8 +3436,8 @@
         "confidence": 1.0
       },
       "JD.com 2020 (MSOM-20)": {
-        "content_hash": "9db8c4d60cdc5eca",
-        "enriched_at": "2025-12-30T21:47:32.674861+00:00",
+        "content_hash": "4c184f8711dc152a",
+        "enriched_at": "2026-01-03T10:01:23.266600+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -3730,8 +4059,8 @@
         "confidence": 1.0
       },
       "NetEase Music (INFORMS)": {
-        "content_hash": "03ff99b50f315951",
-        "enriched_at": "2025-12-30T21:56:39.017515+00:00",
+        "content_hash": "dcdba2eb9df2a497",
+        "enriched_at": "2026-01-03T10:01:23.266804+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -3912,8 +4241,8 @@
         "confidence": 1.0
       },
       "NYC TLC Trip Records": {
-        "content_hash": "b59db3ae57e77a2c",
-        "enriched_at": "2026-01-01T02:36:25.901311+00:00",
+        "content_hash": "127de42161d074f1",
+        "enriched_at": "2026-01-03T10:01:23.266933+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -4143,8 +4472,8 @@
         "confidence": 1.0
       },
       "OpenML": {
-        "content_hash": "4c3c05c831d22f8c",
-        "enriched_at": "2026-01-01T02:42:20.712794+00:00",
+        "content_hash": "1f8cf88c204530c2",
+        "enriched_at": "2026-01-03T10:01:23.266967+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -4598,18 +4927,18 @@
         "confidence": 1.0
       },
       "Google Dataset Search": {
-        "content_hash": "b58d8583ab679383",
-        "enriched_at": "2026-01-01T02:41:47.791930+00:00",
+        "content_hash": "bd83209bdf0f1abc",
+        "enriched_at": "2026-01-03T10:01:23.266996+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "Hugging Face Datasets": {
-        "content_hash": "5716a623fe9e48d2",
-        "enriched_at": "2026-01-01T02:42:02.845581+00:00",
+        "content_hash": "98932379d2117c08",
+        "enriched_at": "2026-01-03T10:01:23.266899+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Criteo Terabyte": {
         "content_hash": "370b5549a80633d1",
@@ -5123,29 +5452,29 @@
         "confidence": 1.0
       },
       "Criteo 1TB Click Logs": {
-        "content_hash": "d619499904cffde6",
-        "enriched_at": "2026-01-01T02:39:51.158441+00:00",
+        "content_hash": "8ba637a8ee74b302",
+        "enriched_at": "2026-01-03T10:01:23.266867+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Criteo Kaggle CTR Dataset": {
-        "content_hash": "1f1070f974985a95",
-        "enriched_at": "2026-01-01T02:39:56.482962+00:00",
+        "content_hash": "313f63894f980e95",
+        "enriched_at": "2026-01-03T10:01:23.266704+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "iPinYou RTB Dataset": {
-        "content_hash": "967aa01fd14beb59",
-        "enriched_at": "2026-01-01T02:40:04.675711+00:00",
+        "content_hash": "6060b2dde9d83c7c",
+        "enriched_at": "2026-01-03T10:01:23.266773+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Avazu Click-Through Rate Dataset": {
-        "content_hash": "5ae55f09f2160e86",
-        "enriched_at": "2026-01-01T02:40:10.307534+00:00",
+        "content_hash": "868d99ba72e88ff0",
+        "enriched_at": "2026-01-03T10:01:23.266740+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -5158,8 +5487,8 @@
         "confidence": 1.0
       },
       "Criteo Attribution Dataset": {
-        "content_hash": "a10c87d72c802e7f",
-        "enriched_at": "2026-01-01T02:40:26.505127+00:00",
+        "content_hash": "6466a07199b6647d",
+        "enriched_at": "2026-01-03T10:01:23.266835+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -5179,15 +5508,15 @@
         "confidence": 1.0
       },
       "Yahoo A1 Search Advertising Dataset": {
-        "content_hash": "5e969cb99f9094d6",
-        "enriched_at": "2026-01-01T02:40:45.430492+00:00",
+        "content_hash": "bbc01535eb9a87ba",
+        "enriched_at": "2026-01-03T10:01:23.266635+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Outbrain Click Prediction Dataset": {
-        "content_hash": "9a347f42f7a83107",
-        "enriched_at": "2026-01-01T02:40:51.039965+00:00",
+        "content_hash": "151852dcd5a1d093",
+        "enriched_at": "2026-01-03T10:01:23.266670+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -5394,6 +5723,27 @@
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
+      },
+      "World Bank Light Every Night": {
+        "content_hash": "76cf4bd39d481513",
+        "enriched_at": "2026-01-03T10:01:23.267029+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Predicting Poverty Replication Data": {
+        "content_hash": "c84b2ac629796b14",
+        "enriched_at": "2026-01-03T10:01:23.267060+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "LOBSTER (Limit Order Book System)": {
+        "content_hash": "c259f8c0d8931680",
+        "enriched_at": "2026-01-03T10:01:23.267091+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
       }
     },
     "resources.json": {
@@ -5405,22 +5755,22 @@
         "confidence": 1.0
       },
       "Coding for Economists": {
-        "content_hash": "5f9862a5793fbb6d",
-        "enriched_at": "2025-12-30T22:13:24.988210+00:00",
+        "content_hash": "2d92df409d758595",
+        "enriched_at": "2026-01-03T10:01:23.272081+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "The Missing Semester (MIT)": {
-        "content_hash": "d1b7e27aa6e7923f",
-        "enriched_at": "2025-12-30T22:13:30.026271+00:00",
+        "content_hash": "af6da8a54331f424",
+        "enriched_at": "2026-01-03T10:01:23.267579+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "Beyond Jupyter": {
-        "content_hash": "80aece2d75184197",
-        "enriched_at": "2025-12-30T22:13:35.250386+00:00",
+        "content_hash": "bb2d257f31d4481d",
+        "enriched_at": "2026-01-03T10:01:23.267412+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -5524,78 +5874,78 @@
         "confidence": 1.0
       },
       "Mode SQL Tutorial": {
-        "content_hash": "180165f53527f326",
-        "enriched_at": "2025-12-30T22:14:57.837082+00:00",
+        "content_hash": "3888cdcb40d2f685",
+        "enriched_at": "2026-01-03T10:01:23.267948+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "SQLBolt": {
-        "content_hash": "dcbafcc0fb6cec5f",
-        "enriched_at": "2025-12-30T22:15:03.829323+00:00",
+        "content_hash": "f6ceae44d36e8742",
+        "enriched_at": "2026-01-03T10:01:23.267868+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "LeetCode SQL 50": {
-        "content_hash": "dd00d565a86d85db",
-        "enriched_at": "2025-12-30T22:15:09.219624+00:00",
+        "content_hash": "95e6b36c939d8095",
+        "enriched_at": "2026-01-03T10:01:23.268000+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "DuckDB Documentation": {
-        "content_hash": "3a3c3ba3074e7174",
-        "enriched_at": "2025-12-30T22:15:22.414609+00:00",
+        "content_hash": "c13f36ebd37380a0",
+        "enriched_at": "2026-01-03T10:01:23.268026+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "NeetCode": {
-        "content_hash": "659302aee8c68bb5",
-        "enriched_at": "2025-12-30T22:15:27.269413+00:00",
+        "content_hash": "2147bdea6ab66cd7",
+        "enriched_at": "2026-01-03T10:01:23.268052+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "Blind 75": {
-        "content_hash": "5b4c41e63e0c7ef8",
-        "enriched_at": "2025-12-30T22:15:33.617457+00:00",
+        "content_hash": "3a731931d9874039",
+        "enriched_at": "2026-01-03T10:01:23.268078+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "LeetCode Patterns": {
-        "content_hash": "b823b29a46078633",
-        "enriched_at": "2025-12-30T22:15:39.279474+00:00",
+        "content_hash": "f5ef0172d25aa583",
+        "enriched_at": "2026-01-03T10:01:23.268104+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Automate the Boring Stuff with Python": {
-        "content_hash": "ec3b9241670bb9e1",
-        "enriched_at": "2025-12-30T22:15:45.472722+00:00",
+        "content_hash": "d493a4b115c5e7fa",
+        "enriched_at": "2026-01-03T10:01:23.267765+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.8
+        "confidence": 1.0
       },
       "Scrapy Documentation": {
-        "content_hash": "1ae6ab5e2996534e",
-        "enriched_at": "2025-12-30T22:15:51.953117+00:00",
+        "content_hash": "0b6395f214082484",
+        "enriched_at": "2026-01-03T10:01:23.267791+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.8
+        "confidence": 1.0
       },
       "Real Python: Web Scraping": {
-        "content_hash": "35f24fa06d08c9dd",
-        "enriched_at": "2025-12-30T22:15:57.134566+00:00",
+        "content_hash": "2ea3a612662416a3",
+        "enriched_at": "2026-01-03T10:01:23.267816+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "Python for Econometrics": {
-        "content_hash": "8c4969e37e7ffba4",
-        "enriched_at": "2025-12-30T22:16:02.771051+00:00",
+        "content_hash": "234a72b4f726e003",
+        "enriched_at": "2026-01-03T10:01:23.267841+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
@@ -6077,8 +6427,8 @@
         "confidence": 1.0
       },
       "How to Measure Cohort Retention (Lenny's Newsletter)": {
-        "content_hash": "a0b48c7c6c767a45",
-        "enriched_at": "2025-12-30T22:21:59.585758+00:00",
+        "content_hash": "ec9256bde0579372",
+        "enriched_at": "2026-01-03T10:01:23.267266+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -6091,8 +6441,8 @@
         "confidence": 0.8
       },
       "How Superhuman Built an Engine to Find PMF (First Round)": {
-        "content_hash": "e6229c8b50913e7f",
-        "enriched_at": "2025-12-30T22:22:10.280099+00:00",
+        "content_hash": "c3e0b4947695d8dc",
+        "enriched_at": "2026-01-03T10:01:23.267324+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -6105,15 +6455,15 @@
         "confidence": 1.0
       },
       "Coding for practitioners": {
-        "content_hash": "7f2bd5d6b2de480c",
-        "enriched_at": "2025-12-30T22:22:19.908990+00:00",
+        "content_hash": "1f36ac53e2c9ff23",
+        "enriched_at": "2026-01-03T10:01:23.267894+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Python Data Science Handbook": {
-        "content_hash": "f9eebbdd85ffcf10",
-        "enriched_at": "2025-12-30T22:22:25.312512+00:00",
+        "content_hash": "a986853bafc9fcbe",
+        "enriched_at": "2026-01-03T10:01:23.267922+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
@@ -6126,106 +6476,106 @@
         "confidence": 0.8
       },
       "Seeing Theory (Brown)": {
-        "content_hash": "5cc96d162938a556",
-        "enriched_at": "2025-12-30T22:22:34.055607+00:00",
+        "content_hash": "d82e3e6665141820",
+        "enriched_at": "2026-01-03T10:01:23.267295+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Scipy.stats Documentation": {
-        "content_hash": "a80a032a5051ba9e",
-        "enriched_at": "2025-12-30T22:22:39.565852+00:00",
+        "content_hash": "4ce13206555e8058",
+        "enriched_at": "2026-01-03T10:01:23.267351+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.8
+        "confidence": 1.0
       },
       "SELECT Star SQL": {
-        "content_hash": "9783617fe1ae76e5",
-        "enriched_at": "2025-12-30T22:22:43.754195+00:00",
+        "content_hash": "5bad126b412673a6",
+        "enriched_at": "2026-01-03T10:01:23.268130+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "8 Week SQL Challenge (Danny Ma)": {
-        "content_hash": "00c5de186f6b2fd1",
-        "enriched_at": "2025-12-30T22:22:47.979194+00:00",
+        "content_hash": "34192426dca4d2e9",
+        "enriched_at": "2026-01-03T10:01:23.268156+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "DataLemur": {
-        "content_hash": "924faa151b61f03b",
-        "enriched_at": "2025-12-30T22:22:54.027580+00:00",
+        "content_hash": "fad5b968eb477527",
+        "enriched_at": "2026-01-03T10:01:23.267974+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Problem Solving with Algorithms & Data Structures (Python)": {
-        "content_hash": "c7d66453930e4dd9",
-        "enriched_at": "2025-12-30T22:23:00.013990+00:00",
+        "content_hash": "e73e1b48c32bb0b8",
+        "enriched_at": "2026-01-03T10:01:23.267605+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "Real Python: Data Structures": {
-        "content_hash": "b5315146361896b9",
-        "enriched_at": "2025-12-30T22:23:03.873713+00:00",
+        "content_hash": "edc3239f4955f20c",
+        "enriched_at": "2026-01-03T10:01:23.267632+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "USF Data Structure Visualizations": {
-        "content_hash": "933a98c6ee6abd39",
-        "enriched_at": "2025-12-30T22:23:09.026999+00:00",
+        "content_hash": "fa98d4c5472b6d2f",
+        "enriched_at": "2026-01-03T10:01:23.267683+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.8
+        "confidence": 1.0
       },
       "LeetCode Explore: Data Structures": {
-        "content_hash": "ab9caaf687c36f47",
-        "enriched_at": "2025-12-30T22:23:13.503758+00:00",
+        "content_hash": "b5ca380b45e793f5",
+        "enriched_at": "2026-01-03T10:01:23.267657+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "freeCodeCamp: Algorithms Course": {
-        "content_hash": "629ae79af7ca53fe",
-        "enriched_at": "2025-12-30T22:23:19.823957+00:00",
+        "content_hash": "3b9d9bcc88783215",
+        "enriched_at": "2026-01-03T10:01:23.267711+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Abdul Bari (YouTube)": {
-        "content_hash": "74b0f1ba908a3c16",
-        "enriched_at": "2025-12-30T22:23:25.111777+00:00",
+        "content_hash": "ad64950f518be4a5",
+        "enriched_at": "2026-01-03T10:01:23.267737+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.8
+        "confidence": 1.0
       },
       "VisuAlgo": {
-        "content_hash": "f7bcd9f0129a82ab",
-        "enriched_at": "2025-12-30T22:23:29.529601+00:00",
+        "content_hash": "193488539387959c",
+        "enriched_at": "2026-01-03T10:01:23.267444+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "TheAlgorithms/Python": {
-        "content_hash": "7e70201281bab7b7",
-        "enriched_at": "2025-12-30T22:23:34.260044+00:00",
+        "content_hash": "db64ee95d9014486",
+        "enriched_at": "2026-01-03T10:01:23.267472+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "Postman Academy": {
-        "content_hash": "673cc6308353d372",
-        "enriched_at": "2025-12-30T22:23:38.525695+00:00",
+        "content_hash": "3a6451fd065824a8",
+        "enriched_at": "2026-01-03T10:01:23.267498+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "Playwright for Python": {
-        "content_hash": "84c175f145f7215d",
-        "enriched_at": "2025-12-30T22:23:43.300500+00:00",
+        "content_hash": "156d811256713e4d",
+        "enriched_at": "2026-01-03T10:01:23.267523+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
@@ -6238,15 +6588,15 @@
         "confidence": 1.0
       },
       "Brady Neal's Introduction to Causal Inference": {
-        "content_hash": "d44ddf4965628450",
-        "enriched_at": "2025-12-30T22:23:53.902765+00:00",
+        "content_hash": "18e4ceb5973d106f",
+        "enriched_at": "2026-01-03T10:01:23.268437+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.8
+        "confidence": 1.0
       },
       "Stanford ML & Causal Inference Short Course": {
-        "content_hash": "e15e4a415588b2ba",
-        "enriched_at": "2025-12-30T22:24:00.421623+00:00",
+        "content_hash": "34bf1887de2c4d05",
+        "enriched_at": "2026-01-03T10:01:23.268467+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -6259,15 +6609,15 @@
         "confidence": 0.8
       },
       "Andrew Heiss's DAG and Backdoor Tutorials": {
-        "content_hash": "aa42e9a2c83d2203",
-        "enriched_at": "2025-12-30T22:24:11.166148+00:00",
+        "content_hash": "1c9b7f9f027b1a2d",
+        "enriched_at": "2026-01-03T10:01:23.268739+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "Uber Engineering: Causal Inference at Uber": {
-        "content_hash": "19cce9a191d7087a",
-        "enriched_at": "2025-12-30T22:24:17.303572+00:00",
+        "content_hash": "eaa17bd272625a77",
+        "enriched_at": "2026-01-03T10:01:23.269066+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -6371,64 +6721,64 @@
         "confidence": 1.0
       },
       "Matteo Courthoud's Meta-Learners Tutorial": {
-        "content_hash": "2f65653b5c734b48",
-        "enriched_at": "2025-12-30T22:25:41.898895+00:00",
+        "content_hash": "bfa13fc9170ad910",
+        "enriched_at": "2026-01-03T10:01:23.268292+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "KDD 2021 Tutorial: Causal Inference with EconML and CausalML": {
-        "content_hash": "0d857d79070d985c",
-        "enriched_at": "2025-12-30T22:25:47.129707+00:00",
+        "content_hash": "da379c51e67debe3",
+        "enriched_at": "2026-01-03T10:01:23.268323+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Double/Debiased Machine Learning Guide": {
-        "content_hash": "fc3024bd01afc6b8",
-        "enriched_at": "2025-12-30T22:25:52.432441+00:00",
+        "content_hash": "2759030578a9d575",
+        "enriched_at": "2026-01-03T10:01:23.268348+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Mark White's Practical Causal Forest Tutorial": {
-        "content_hash": "2680efb5761f2cdd",
-        "enriched_at": "2025-12-30T22:25:58.801375+00:00",
+        "content_hash": "6449758978f8779c",
+        "enriched_at": "2026-01-03T10:01:23.268184+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Uber Engineering: Uplift Modeling for Multiple Treatments": {
-        "content_hash": "c446f8c096a6733c",
-        "enriched_at": "2025-12-30T22:26:05.428056+00:00",
+        "content_hash": "e491a6495a8a994e",
+        "enriched_at": "2026-01-03T10:01:23.268403+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Evan Miller's A/B Testing Tools": {
-        "content_hash": "65581174b9da5963",
-        "enriched_at": "2025-12-30T22:26:09.878574+00:00",
+        "content_hash": "0ce6ba56eced250f",
+        "enriched_at": "2026-01-03T10:01:23.268210+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.8
+        "confidence": 1.0
       },
       "GrowthBook's Experimentation Fundamentals": {
-        "content_hash": "93fc820b391c1540",
-        "enriched_at": "2025-12-30T22:26:15.216000+00:00",
+        "content_hash": "9beacd8e39cd42de",
+        "enriched_at": "2026-01-03T10:01:23.269433+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.8
+        "confidence": 1.0
       },
       "Matteo Courthoud's Experimentation Series": {
-        "content_hash": "0ca214002da02fd0",
-        "enriched_at": "2026-01-01T02:44:36.323800+00:00",
+        "content_hash": "443ac2875809b72c",
+        "enriched_at": "2026-01-03T10:01:23.267552+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Netflix Tech Blog: What is an A/B Test?": {
-        "content_hash": "d38b702a2f36f3c2",
-        "enriched_at": "2025-12-30T22:26:25.004705+00:00",
+        "content_hash": "2577528f8ec28dea",
+        "enriched_at": "2026-01-03T10:01:23.268236+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -6490,8 +6840,8 @@
         "confidence": 1.0
       },
       "Netflix: Sequential A/B Testing Keeps the World Streaming": {
-        "content_hash": "60dfd26e82a1ffa8",
-        "enriched_at": "2025-12-30T22:27:12.684320+00:00",
+        "content_hash": "d8b5973e573c45a3",
+        "enriched_at": "2026-01-03T10:01:23.270884+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -6560,32 +6910,32 @@
         "confidence": 1.0
       },
       "Google Machine Learning Crash Course": {
-        "content_hash": "ee66461e1a5af274",
-        "enriched_at": "2025-12-30T22:28:05.332254+00:00",
+        "content_hash": "69121dec1ddf8dd3",
+        "enriched_at": "2026-01-03T10:01:23.270268+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.8
+        "confidence": 1.0
       },
       "Andrew Ng's Machine Learning Specialization": {
-        "content_hash": "48e06737c50f185d",
-        "enriched_at": "2025-12-30T22:28:12.243083+00:00",
+        "content_hash": "d718c677bacfba1a",
+        "enriched_at": "2026-01-03T10:01:23.270636+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "StatQuest with Josh Starmer": {
-        "content_hash": "2d5592b78463b0a7",
-        "enriched_at": "2026-01-01T02:44:30.408083+00:00",
+        "content_hash": "0a9124d66b202bcf",
+        "enriched_at": "2026-01-03T10:01:23.269381+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "Made With ML": {
-        "content_hash": "19dd2e6fd9776e2b",
-        "enriched_at": "2025-12-30T22:28:23.203406+00:00",
+        "content_hash": "d26b4b590949061b",
+        "enriched_at": "2026-01-03T10:01:23.270454+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.8
+        "confidence": 1.0
       },
       "Kaggle's Intermediate Machine Learning": {
         "content_hash": "324f199ee3212231",
@@ -7043,169 +7393,169 @@
         "confidence": 1.0
       },
       "Uber: Analyzing Experiment Outcomes Beyond Average Treatment Effects": {
-        "content_hash": "2c4a64f2dd6a9608",
-        "enriched_at": "2025-12-30T22:34:37.049632+00:00",
+        "content_hash": "7a40622724482ab0",
+        "enriched_at": "2026-01-03T10:01:23.270189+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Uber: Making Experiment Evaluation Engine 100x Faster": {
-        "content_hash": "e07860dbe64590e0",
-        "enriched_at": "2025-12-30T22:34:42.554133+00:00",
+        "content_hash": "4aec20c271d008a7",
+        "enriched_at": "2026-01-03T10:01:23.269355+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Netflix: Heterogeneous Treatment Effects": {
-        "content_hash": "4c1b2c25da7b3a7d",
-        "enriched_at": "2025-12-30T22:34:47.833942+00:00",
+        "content_hash": "8bb8e848f097c03e",
+        "enriched_at": "2026-01-03T10:01:23.270912+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Netflix: Return-Aware Experimentation": {
-        "content_hash": "6925b6d70e0af6c1",
-        "enriched_at": "2025-12-30T22:34:52.956923+00:00",
+        "content_hash": "8362ca18d9098430",
+        "enriched_at": "2026-01-03T10:01:23.269119+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Netflix: It's All A/Bout Testing - The Experimentation Platform": {
-        "content_hash": "926f93921ef31277",
-        "enriched_at": "2025-12-30T22:34:57.639896+00:00",
+        "content_hash": "5af2e3c99359ec57",
+        "enriched_at": "2026-01-03T10:01:23.269407+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Spotify: Risk-Aware Product Decisions in A/B Tests": {
-        "content_hash": "cdeb240c158c4685",
-        "enriched_at": "2025-12-30T22:35:03.320330+00:00",
+        "content_hash": "145f196c0ca8c67b",
+        "enriched_at": "2026-01-03T10:01:23.270349+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Spotify: Encouragement Designs and Instrumental Variables for A/B Testing": {
-        "content_hash": "8f318c2d463881d3",
-        "enriched_at": "2025-12-30T22:35:08.546229+00:00",
+        "content_hash": "fd45954dcab4df0f",
+        "enriched_at": "2026-01-03T10:01:23.270375+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Spotify: New Experimentation Platform (Part 1)": {
-        "content_hash": "68b494e9dda2f8c6",
-        "enriched_at": "2025-12-30T22:35:12.894736+00:00",
+        "content_hash": "c3e4cbd071b23513",
+        "enriched_at": "2026-01-03T10:01:23.269303+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "LinkedIn: Our Evolution Towards T-REX": {
-        "content_hash": "c8f5f68d30d8ec2d",
-        "enriched_at": "2025-12-30T22:35:18.416229+00:00",
+        "content_hash": "338ce083a57c1beb",
+        "enriched_at": "2026-01-03T10:01:23.268263+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "LinkedIn: A/B Testing Variant Assignment at Scale": {
-        "content_hash": "f47832e073aa53d4",
-        "enriched_at": "2025-12-30T22:35:23.373700+00:00",
+        "content_hash": "09d8ff778020a4ff",
+        "enriched_at": "2026-01-03T10:01:23.270583+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "LinkedIn: Building Inclusive Products Through A/B Testing": {
-        "content_hash": "1a667765e676d24a",
-        "enriched_at": "2025-12-30T22:35:28.145222+00:00",
+        "content_hash": "0302ed018af918c2",
+        "enriched_at": "2026-01-03T10:01:23.270857+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "DoorDash: Causal Modeling to Get Value from Flat Experiment Results": {
-        "content_hash": "726d494bcbe0543d",
-        "enriched_at": "2025-12-30T22:35:32.463937+00:00",
+        "content_hash": "c37addd7a5a33b2c",
+        "enriched_at": "2026-01-03T10:01:23.269533+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "DoorDash: Using Back-Door Adjustment for Pre-Post Analysis": {
-        "content_hash": "2b6011ad29137069",
-        "enriched_at": "2025-12-30T22:35:37.667826+00:00",
+        "content_hash": "00fccc23ff0e1234",
+        "enriched_at": "2026-01-03T10:01:23.269277+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Lyft: Challenges in Experimentation": {
-        "content_hash": "0dd32cf7be81100b",
-        "enriched_at": "2025-12-30T22:35:42.949380+00:00",
+        "content_hash": "f36968279ebaa54e",
+        "enriched_at": "2026-01-03T10:01:23.269958+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Airbnb: ACE - Artificial Counterfactual Estimation": {
-        "content_hash": "0bc66502e5e3d592",
-        "enriched_at": "2025-12-30T22:35:48.814990+00:00",
+        "content_hash": "95c687118cb87ab0",
+        "enriched_at": "2026-01-03T10:01:23.269774+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Dean Eckles: Blog on Network Experiments and Social Influence": {
-        "content_hash": "05456b2c7c988b5d",
-        "enriched_at": "2025-12-30T22:35:54.371146+00:00",
+        "content_hash": "623ff02fe1a931a1",
+        "enriched_at": "2026-01-03T10:01:23.270800+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Yanir Seroussi: Curated Causal Inference Resources": {
-        "content_hash": "826fc3fc68c04c03",
-        "enriched_at": "2025-12-30T22:35:59.462638+00:00",
+        "content_hash": "5d7a535550d96390",
+        "enriched_at": "2026-01-03T10:01:23.269507+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "LinkedIn: Detecting Interference - An A/B Test of A/B Tests": {
-        "content_hash": "c4876e78a8415831",
-        "enriched_at": "2025-12-30T22:36:03.578753+00:00",
+        "content_hash": "1ec8f2e2f01dd476",
+        "enriched_at": "2026-01-03T10:01:23.270401+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Meta: How Meta Tests Products with Strong Network Effects": {
-        "content_hash": "5323bfe681691d62",
-        "enriched_at": "2025-12-30T22:36:08.693516+00:00",
+        "content_hash": "31f6045c0c050e94",
+        "enriched_at": "2026-01-03T10:01:23.269722+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "R-causal Book: DAG Construction Chapter": {
-        "content_hash": "127f03bbf5f9c5e1",
-        "enriched_at": "2025-12-30T22:36:15.069490+00:00",
+        "content_hash": "56cbb9a86a548120",
+        "enriched_at": "2026-01-03T10:01:23.268768+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.8
+        "confidence": 1.0
       },
       "PyWhy: Causal Discovery Example": {
-        "content_hash": "1b915ed3801520e8",
-        "enriched_at": "2025-12-30T22:36:21.147131+00:00",
+        "content_hash": "a16afcd320fc7104",
+        "enriched_at": "2026-01-03T10:01:23.269173+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "Microsoft ExP: Deep Dive into Variance Reduction": {
-        "content_hash": "726919b98dd60f1c",
-        "enriched_at": "2025-12-30T22:36:26.607841+00:00",
+        "content_hash": "0f020a6961674ffb",
+        "enriched_at": "2026-01-03T10:01:23.270112+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "LOST Stats: Event Study Designs": {
-        "content_hash": "d1a25fa34af39761",
-        "enriched_at": "2025-12-30T22:36:31.706059+00:00",
+        "content_hash": "77fe602c50d16f7f",
+        "enriched_at": "2026-01-03T10:01:23.270322+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Teconomics: Machine Learning Meets Instrumental Variables": {
-        "content_hash": "28a390e74bd40dba",
-        "enriched_at": "2026-01-01T02:44:42.384478+00:00",
+        "content_hash": "ce90a3e1e7076395",
+        "enriched_at": "2026-01-03T10:01:23.268376+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -7281,8 +7631,8 @@
         "confidence": 1.0
       },
       "Netflix: Decision Making at Netflix": {
-        "content_hash": "5cbd887a426d388c",
-        "enriched_at": "2025-12-30T22:37:32.372641+00:00",
+        "content_hash": "ef2660c73f32848f",
+        "enriched_at": "2026-01-03T10:01:23.270139+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -7323,22 +7673,22 @@
         "confidence": 1.0
       },
       "EconTalk: Susan Athey on ML, Big Data, and Causation": {
-        "content_hash": "2591e3c32e3d5f81",
-        "enriched_at": "2025-12-30T22:38:02.037513+00:00",
+        "content_hash": "9366747de1e5ee77",
+        "enriched_at": "2026-01-03T10:01:23.270164+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "World of DaaS: Susan Athey - Tech Economists and ML": {
-        "content_hash": "496c6e2767b2cbfe",
-        "enriched_at": "2025-12-30T22:38:07.096072+00:00",
+        "content_hash": "117202d4ef2d2fd9",
+        "enriched_at": "2026-01-03T10:01:23.270032+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "AEA/AFA 2019: Impact of Machine Learning on Economics": {
-        "content_hash": "7af221c01b74b52a",
-        "enriched_at": "2025-12-30T22:38:12.527767+00:00",
+        "content_hash": "aed109f676ffbf1f",
+        "enriched_at": "2026-01-03T10:01:23.270941+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -7351,43 +7701,43 @@
         "confidence": 1.0
       },
       "Capitalisn't: Sendhil Mullainathan on Who Controls AI": {
-        "content_hash": "442426e17284b615",
-        "enriched_at": "2025-12-30T22:38:23.190829+00:00",
+        "content_hash": "7d1c1b322835c73a",
+        "enriched_at": "2026-01-03T10:01:23.270745+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Knowledge Project #102: Sendhil Mullainathan": {
-        "content_hash": "b273c3ba2deb1bf3",
-        "enriched_at": "2025-12-30T22:38:30.624476+00:00",
+        "content_hash": "13ba21f473e7d3bf",
+        "enriched_at": "2026-01-03T10:01:23.270505+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Stanford Fintech: Sendhil Mullainathan on ML as Tool for Science": {
-        "content_hash": "e63aa802076a690d",
-        "enriched_at": "2025-12-30T22:38:35.904398+00:00",
+        "content_hash": "26fc622a4cc9948f",
+        "enriched_at": "2026-01-03T10:01:23.269615+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "UChicago Law: Discrimination by Algorithm and People": {
-        "content_hash": "b4279b4eee2b3b20",
-        "enriched_at": "2025-12-30T22:38:40.311473+00:00",
+        "content_hash": "aa88bc099d0d49aa",
+        "enriched_at": "2026-01-03T10:01:23.269982+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Hal Varian: Machine Learning and Econometrics (Berkeley)": {
-        "content_hash": "0e484910292af5d7",
-        "enriched_at": "2025-12-30T22:38:45.097374+00:00",
+        "content_hash": "b17d1a33f4c9d9b8",
+        "enriched_at": "2026-01-03T10:01:23.270776+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Hal Varian: Big Data - New Tricks for Econometrics": {
-        "content_hash": "c5a4d19f2f0b5dc3",
-        "enriched_at": "2025-12-30T22:38:50.718399+00:00",
+        "content_hash": "748e046e9d7001f7",
+        "enriched_at": "2026-01-03T10:01:23.270718+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -7407,36 +7757,36 @@
         "confidence": 1.0
       },
       "Applied Causal Inference Book (Chernozhukov et al.)": {
-        "content_hash": "5e614b72c627a99e",
-        "enriched_at": "2025-12-30T22:39:07.153002+00:00",
+        "content_hash": "8e76bb628f83cdba",
+        "enriched_at": "2026-01-03T10:01:23.269013+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Stanford STATS 361: Causal Inference Lecture Notes (Wager)": {
-        "content_hash": "6fd74a860ccc6477",
-        "enriched_at": "2025-12-30T22:39:12.387132+00:00",
+        "content_hash": "58c6d648abf8a335",
+        "enriched_at": "2026-01-03T10:01:23.269830+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Netflix: A Survey of Causal Inference Applications": {
-        "content_hash": "e1f2da53ebd84dce",
-        "enriched_at": "2025-12-30T22:39:17.527130+00:00",
+        "content_hash": "f1acb32c8308153d",
+        "enriched_at": "2026-01-03T10:01:23.270214+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Netflix: Computational Causal Inference": {
-        "content_hash": "a79a161d9fbf15f9",
-        "enriched_at": "2025-12-30T22:39:23.440835+00:00",
+        "content_hash": "45c8f70632eee2ac",
+        "enriched_at": "2026-01-03T10:01:23.270007+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Netflix: Round 2 - Causal Inference Survey (Synthetic Control)": {
-        "content_hash": "df23f2945e2ff11c",
-        "enriched_at": "2025-12-30T22:39:28.060379+00:00",
+        "content_hash": "ebc271a28be71f0b",
+        "enriched_at": "2026-01-03T10:01:23.270692+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -7449,67 +7799,67 @@
         "confidence": 1.0
       },
       "Airbnb: Experiments at Airbnb": {
-        "content_hash": "5d4bab497becceeb",
-        "enriched_at": "2025-12-30T22:39:39.451352+00:00",
+        "content_hash": "6ed609df9b4f9164",
+        "enriched_at": "2026-01-03T10:01:23.269856+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "DoorDash: Leveraging Causal Inference for Forecasts": {
-        "content_hash": "3dcbfbdf2780baa3",
-        "enriched_at": "2025-12-30T22:39:44.738627+00:00",
+        "content_hash": "3a718058b2c69fb7",
+        "enriched_at": "2026-01-03T10:01:23.268985+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Meta: Instagram Notification Management with ML and Causal Inference": {
-        "content_hash": "552389f49bd51ba4",
-        "enriched_at": "2025-12-30T22:39:50.699695+00:00",
+        "content_hash": "2a2fa9bbe34cda8b",
+        "enriched_at": "2026-01-03T10:01:23.269458+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Microsoft Research: Adversarial ML and Instrumental Variables": {
-        "content_hash": "9b58e1e27a59cede",
-        "enriched_at": "2025-12-30T22:39:56.269906+00:00",
+        "content_hash": "4eab8f639fb6cecd",
+        "enriched_at": "2026-01-03T10:01:23.270426+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Microsoft Research: End-to-End Causal Inference at Scale Demo": {
-        "content_hash": "1a1e0b6081dc485a",
-        "enriched_at": "2025-12-30T22:40:01.008899+00:00",
+        "content_hash": "152a07f9221f83b4",
+        "enriched_at": "2026-01-03T10:01:23.268877+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.8
+        "confidence": 1.0
       },
       "Google Research: CausalImpact Paper": {
-        "content_hash": "cea31714468e6f5f",
-        "enriched_at": "2025-12-30T22:40:06.762895+00:00",
+        "content_hash": "912bd7f2f7234dce",
+        "enriched_at": "2026-01-03T10:01:23.269200+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Interpretable Machine Learning Book (Christoph Molnar)": {
-        "content_hash": "f737a1d72e471e0f",
-        "enriched_at": "2025-12-30T22:40:12.749633+00:00",
+        "content_hash": "b39a9e8d9a461c0a",
+        "enriched_at": "2026-01-03T10:01:23.270295+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "LOST Statistics: Causal Forest Tutorial": {
-        "content_hash": "73cb0dc6f18c9cda",
-        "enriched_at": "2025-12-30T22:40:18.440314+00:00",
+        "content_hash": "68b760be6cff7c6d",
+        "enriched_at": "2026-01-03T10:01:23.268850+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "IMF: Cross-Validation for Economists": {
-        "content_hash": "4ddd74d4600d73ac",
-        "enriched_at": "2025-12-30T22:40:24.353785+00:00",
+        "content_hash": "9904a6091e872b5c",
+        "enriched_at": "2026-01-03T10:01:23.269907+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.8
+        "confidence": 1.0
       },
       "Bill Gurley: All Markets Are Not Created Equal": {
         "content_hash": "a9a7615d9b914cf9",
@@ -7757,151 +8107,151 @@
         "confidence": 1.0
       },
       "Spotify Confidence": {
-        "content_hash": "0193f603fb7318e9",
-        "enriched_at": "2025-12-30T22:43:46.923315+00:00",
+        "content_hash": "c49aa9621f7e9f40",
+        "enriched_at": "2026-01-03T10:01:23.269747+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Evan Miller: How Not To Run an A/B Test": {
-        "content_hash": "d29cd6b35a89c15c",
-        "enriched_at": "2025-12-30T22:43:54.091253+00:00",
+        "content_hash": "a6bb60ec5575a7d4",
+        "enriched_at": "2026-01-03T10:01:23.267381+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Evan Miller: Formulas for Bayesian A/B Testing": {
-        "content_hash": "5ed6c44863fafe1e",
-        "enriched_at": "2025-12-30T22:44:00.701027+00:00",
+        "content_hash": "fd4966b3745e41fb",
+        "enriched_at": "2026-01-03T10:01:23.269251+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Ronny Kohavi: Trustworthy Online Controlled Experiments": {
-        "content_hash": "83c0f09cfe95501c",
-        "enriched_at": "2025-12-30T22:44:13.325029+00:00",
+        "content_hash": "381d317bdf94445d",
+        "enriched_at": "2026-01-03T10:01:23.270058+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Ronny Kohavi: Seven Rules of Thumb for Web Site Experimenters": {
-        "content_hash": "2c2a9cb866cf447f",
-        "enriched_at": "2026-01-01T02:44:59.898243+00:00",
+        "content_hash": "8beee38ec27b08a7",
+        "enriched_at": "2026-01-03T10:01:23.270530+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "ExP Platform: Microsoft Experimentation Resources": {
-        "content_hash": "4d10dbfb3eec615b",
-        "enriched_at": "2025-12-30T22:44:24.953872+00:00",
+        "content_hash": "0f8374bd66061305",
+        "enriched_at": "2026-01-03T10:01:23.270241+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Lukas Vermeer: Building Experimentation Infrastructure": {
-        "content_hash": "b7b116ac3d9f9bb5",
-        "enriched_at": "2025-12-30T22:44:29.746922+00:00",
+        "content_hash": "3f68007c1337625d",
+        "enriched_at": "2026-01-03T10:01:23.269931+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Data Analysis Journal (Olga Berezovsky)": {
-        "content_hash": "8f81fd07d71d2582",
-        "enriched_at": "2025-12-30T22:44:34.347353+00:00",
+        "content_hash": "f8758591a607d757",
+        "enriched_at": "2026-01-03T10:01:23.269559+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "Adam Kelleher: Causal Data Science Medium Series": {
-        "content_hash": "b9965aefc9557db4",
-        "enriched_at": "2025-12-30T22:44:39.641330+00:00",
+        "content_hash": "0e0a0cec5237ab05",
+        "enriched_at": "2026-01-03T10:01:23.269640+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.8
+        "confidence": 1.0
       },
       "Adam Kelleher: Causality Python Package": {
-        "content_hash": "c1bc7cf82f5c7ffe",
-        "enriched_at": "2025-12-30T22:44:45.769129+00:00",
+        "content_hash": "847e32e4bddf054d",
+        "enriched_at": "2026-01-03T10:01:23.268930+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "The Effect (Nick Huntington-Klein)": {
-        "content_hash": "7794ce01be3ff30f",
-        "enriched_at": "2025-12-30T22:44:51.486175+00:00",
+        "content_hash": "e567e81cfe56ca07",
+        "enriched_at": "2026-01-03T10:01:23.269483+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "Coding for Economists (Arthur Turrell)": {
-        "content_hash": "57727e90c908fc0b",
-        "enriched_at": "2026-01-01T02:44:15.807218+00:00",
+        "content_hash": "6cd5ac67a52f19b4",
+        "enriched_at": "2026-01-03T10:01:23.267234+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.8
+        "confidence": 1.0
       },
       "QuantEcon DataScience": {
-        "content_hash": "65c1b0aecc4943f0",
-        "enriched_at": "2025-12-30T22:45:04.258223+00:00",
+        "content_hash": "2dfea1d560ae8387",
+        "enriched_at": "2026-01-03T10:01:23.268822+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "EGAP Learning Days: Field Experiments": {
-        "content_hash": "da8c216a93469ee5",
-        "enriched_at": "2025-12-30T22:45:10.391752+00:00",
+        "content_hash": "e2d5272230507d16",
+        "enriched_at": "2026-01-03T10:01:23.269695+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Causal Econometrics Course": {
-        "content_hash": "93b3a3feadd71e73",
-        "enriched_at": "2025-12-30T22:45:15.592651+00:00",
+        "content_hash": "dae03c5784953a9a",
+        "enriched_at": "2026-01-03T10:01:23.268904+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Ben Elsner: Causal Inference & Policy Evaluation": {
-        "content_hash": "b6657da669b70901",
-        "enriched_at": "2025-12-30T22:45:20.945232+00:00",
+        "content_hash": "fa3aa669f5eff18f",
+        "enriched_at": "2026-01-03T10:01:23.269328+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Apoorva Lal: Applied Econometrics Notes": {
-        "content_hash": "8812133a98ce08b6",
-        "enriched_at": "2025-12-30T22:45:26.464182+00:00",
+        "content_hash": "b48cd63d6fe888ae",
+        "enriched_at": "2026-01-03T10:01:23.269881+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Awesome Causal Inference (Matteo Courthoud)": {
-        "content_hash": "2b457122b4698492",
-        "enriched_at": "2025-12-30T22:45:31.513321+00:00",
+        "content_hash": "f6bbd62e4efbcb26",
+        "enriched_at": "2026-01-03T10:01:23.268959+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Causal Wizard Reading List": {
-        "content_hash": "73925de94ee0c653",
-        "enriched_at": "2025-12-30T22:45:36.779359+00:00",
+        "content_hash": "a9a537ad95ddc7ee",
+        "enriched_at": "2026-01-03T10:01:23.269039+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "Shubhanshu Mishra: Awesome Causality": {
-        "content_hash": "f9952fb734eb0c4b",
-        "enriched_at": "2025-12-30T22:45:43.351580+00:00",
+        "content_hash": "a9b5e9fd64d0da93",
+        "enriched_at": "2026-01-03T10:01:23.269225+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.8
+        "confidence": 1.0
       },
       "Dario Sansone: ML for Economists Resources": {
-        "content_hash": "945a52b224625084",
-        "enriched_at": "2025-12-30T22:45:49.386034+00:00",
+        "content_hash": "c38d6fe27806832d",
+        "enriched_at": "2026-01-03T10:01:23.269146+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.8
+        "confidence": 1.0
       },
       "The Diff (Byrne Hobart)": {
         "content_hash": "5e763caf5c4b58f1",
@@ -7995,8 +8345,8 @@
         "confidence": 1.0
       },
       "Nick Huntington-Klein: Animated Causal Graphs": {
-        "content_hash": "091cb7105f4ed1af",
-        "enriched_at": "2025-12-30T22:47:11.835770+00:00",
+        "content_hash": "a1cbc1733fa047c1",
+        "enriched_at": "2026-01-03T10:01:23.269589+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -8345,25 +8695,25 @@
         "confidence": 1.0
       },
       "Causal Inference for the Brave and True": {
-        "content_hash": "2c24ec086175291b",
-        "enriched_at": "2026-01-01T02:49:17.622890+00:00",
+        "content_hash": "d1118002d75eeaba",
+        "enriched_at": "2026-01-03T10:01:23.267174+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Causal Inference: The Mixtape": {
-        "content_hash": "2be61c85cc628945",
-        "enriched_at": "2026-01-01T02:49:23.255835+00:00",
+        "content_hash": "f811a26c8c8d55c6",
+        "enriched_at": "2026-01-03T10:01:23.267205+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Scott Cunningham: Causal Inference Substack": {
-        "content_hash": "971c4c6a7a41e91e",
-        "enriched_at": "2026-01-01T02:49:28.499437+00:00",
+        "content_hash": "2bbc1e3fc2c7a593",
+        "enriched_at": "2026-01-03T10:01:23.267140+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.8
+        "confidence": 1.0
       },
       "Sports Performance Analytics Specialization": {
         "content_hash": "007e793fc556f71a",
@@ -8464,95 +8814,95 @@
         "confidence": 1.0
       },
       "Energy Institute at Haas Blog": {
-        "content_hash": "d6fdff26e44245ab",
-        "enriched_at": "2026-01-01T02:50:59.943136+00:00",
+        "content_hash": "b5ada09d85b20cd5",
+        "enriched_at": "2026-01-03T10:01:23.270997+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.8
+        "confidence": 1.0
       },
       "MIT OCW: Energy Decisions, Markets, and Policies": {
-        "content_hash": "fc00543a8ae8d714",
-        "enriched_at": "2026-01-01T02:50:50.009525+00:00",
+        "content_hash": "f27d7c7ef0b4002d",
+        "enriched_at": "2026-01-03T10:01:23.270609+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "MIT OCW: Engineering, Economics, and Regulation of the Electric Power Sector": {
-        "content_hash": "0356a6a234b8e78d",
-        "enriched_at": "2026-01-01T02:50:54.719079+00:00",
+        "content_hash": "377a8f14df22d4b5",
+        "enriched_at": "2026-01-03T10:01:23.270663+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Georgetown MA in Security Studies": {
-        "content_hash": "b59647852b2c362e",
-        "enriched_at": "2026-01-01T02:51:06.604955+00:00",
+        "content_hash": "8359e42ac749be4f",
+        "enriched_at": "2026-01-03T10:01:23.270086+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 1.0
+        "confidence": 0.8
       },
       "Defense Acquisition University (DAU)": {
-        "content_hash": "12238f3bedfc0c1e",
-        "enriched_at": "2026-01-01T02:51:12.625849+00:00",
+        "content_hash": "2b434eb6cb8bb600",
+        "enriched_at": "2026-01-03T10:01:23.270557+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "RAND Research Archive": {
-        "content_hash": "a0c65cd2802b6d7c",
-        "enriched_at": "2026-01-01T02:51:17.550296+00:00",
+        "content_hash": "ebe262b3a94464aa",
+        "enriched_at": "2026-01-03T10:01:23.269667+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.8
+        "confidence": 1.0
       },
       "CSIS Strategic Technologies Program": {
-        "content_hash": "d3e461169100bb28",
-        "enriched_at": "2026-01-01T02:51:23.491959+00:00",
+        "content_hash": "9808b8a31f381c04",
+        "enriched_at": "2026-01-03T10:01:23.269092+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "SIPRI Databases and Research": {
-        "content_hash": "0423b4dc056dc433",
-        "enriched_at": "2026-01-01T02:51:28.984777+00:00",
+        "content_hash": "12293bdc91484c63",
+        "enriched_at": "2026-01-03T10:01:23.271026+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.7000000000000001
+        "confidence": 1.0
       },
       "Susan Athey's Stanford GSB Courses": {
-        "content_hash": "0e34af7080ebcbdb",
-        "enriched_at": "2026-01-01T02:51:34.856214+00:00",
+        "content_hash": "8baad1d663d70951",
+        "enriched_at": "2026-01-03T10:01:23.270481+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Dirk Bergemann's Yale Courses": {
-        "content_hash": "7a7b9a8b11f5b3a7",
-        "enriched_at": "2026-01-01T02:51:40.288145+00:00",
+        "content_hash": "fe99aa0e3e697c25",
+        "enriched_at": "2026-01-03T10:01:23.268795+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "IAB and IAB Tech Lab": {
-        "content_hash": "a84fc830336b7ddb",
-        "enriched_at": "2026-01-01T02:51:45.042885+00:00",
+        "content_hash": "7c14434a76bd0534",
+        "enriched_at": "2026-01-03T10:01:23.270828+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "Media Rating Council (MRC)": {
-        "content_hash": "3aa429d9964a3bee",
-        "enriched_at": "2026-01-01T02:51:49.810392+00:00",
-        "model_version": "gpt-4o-mini",
-        "schema_version": "2.1",
-        "confidence": 0.7000000000000001
-      },
-      "Clearcode AdTech Book": {
-        "content_hash": "9e8da9b629fdacd5",
-        "enriched_at": "2026-01-01T02:51:55.299445+00:00",
+        "content_hash": "b15a4d1e95d42beb",
+        "enriched_at": "2026-01-03T10:01:23.271057+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
+      },
+      "Clearcode AdTech Book": {
+        "content_hash": "f45e372f776ec2dc",
+        "enriched_at": "2026-01-03T10:01:23.269799+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
       },
       "Wharton Customer Analytics (Coursera)": {
         "content_hash": "b9babd309d10cdc9",
@@ -8588,6 +8938,293 @@
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.7000000000000001
+      },
+      "Stanford GSB: Machine Learning & Causal Inference Short Course": {
+        "content_hash": "deb270d6c06c8c47",
+        "enriched_at": "2026-01-03T10:01:23.271085+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "AEA Continuing Education: ML and Econometrics (2018)": {
+        "content_hash": "7d78c0ff705da473",
+        "enriched_at": "2026-01-03T10:01:23.271112+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Machine Learning for Economists (Hebrew University)": {
+        "content_hash": "a296e21ed5ae04ff",
+        "enriched_at": "2026-01-03T10:01:23.271139+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "QuantEcon: ML in Economics": {
+        "content_hash": "d77bf3cbfac35029",
+        "enriched_at": "2026-01-03T10:01:23.271165+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "NLP for Economists (MGSE)": {
+        "content_hash": "425ae4832e69b4fe",
+        "enriched_at": "2026-01-03T10:01:23.271191+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "DAIR.AI Prompt Engineering Guide": {
+        "content_hash": "fbd9d969f9d58716",
+        "enriched_at": "2026-01-03T10:01:23.271219+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Anthropic Prompt Engineering Documentation": {
+        "content_hash": "fe596026ebfbc7df",
+        "enriched_at": "2026-01-03T10:01:23.271244+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "EconDL: Deep Learning for Economists": {
+        "content_hash": "6288f8be26443714",
+        "enriched_at": "2026-01-03T10:01:23.271270+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Causal Inference: A Statistical Learning Approach": {
+        "content_hash": "a677666c84bbb3b5",
+        "enriched_at": "2026-01-03T10:01:23.271296+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Applied Causal Inference Powered by ML and AI": {
+        "content_hash": "64ae25851c4cf126",
+        "enriched_at": "2026-01-03T10:01:23.271324+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "GenAI for Econ Substack": {
+        "content_hash": "e47c0e468e281625",
+        "enriched_at": "2026-01-03T10:01:23.271353+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Anton Korinek Research": {
+        "content_hash": "8f75646dda383042",
+        "enriched_at": "2026-01-03T10:01:23.271378+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Coding for Economists: NLP Chapter": {
+        "content_hash": "93c2e267c8a0e98e",
+        "enriched_at": "2026-01-03T10:01:23.271404+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Dario Sansone's ML Resources for Economists": {
+        "content_hash": "5a2fef79fcd4fe50",
+        "enriched_at": "2026-01-03T10:01:23.271430+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "IMF Machine Learning for Economists Course": {
+        "content_hash": "ffb59958abf598b7",
+        "enriched_at": "2026-01-03T10:01:23.271456+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Introduction to Agent-Based Modeling": {
+        "content_hash": "d7f7ec79d44d948a",
+        "enriched_at": "2026-01-03T10:01:23.271484+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Agent-Based Models with Python: An Introduction to Mesa": {
+        "content_hash": "b1130b8af509500b",
+        "enriched_at": "2026-01-03T10:01:23.271510+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "QuantEcon Python Lectures": {
+        "content_hash": "b8302a803af86e22",
+        "enriched_at": "2026-01-03T10:01:23.271536+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Econ-ARK DemARK Examples": {
+        "content_hash": "9f6a7bf5473ad09f",
+        "enriched_at": "2026-01-03T10:01:23.271561+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "SDV Getting Started Guide": {
+        "content_hash": "fbff4720acbb8b69",
+        "enriched_at": "2026-01-03T10:01:23.271590+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Andrew Heiss: Synthetic Data for Program Evaluation": {
+        "content_hash": "bbb9045824b682b2",
+        "enriched_at": "2026-01-03T10:01:23.271615+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Uber: Gaining Insights in a Simulated Marketplace": {
+        "content_hash": "338dbde3f4f01883",
+        "enriched_at": "2026-01-03T10:01:23.271640+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Uber: Unleashing the Power of Ads Simulation": {
+        "content_hash": "2c804bb563ce5876",
+        "enriched_at": "2026-01-03T10:01:23.271663+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Lyft: Simulating a Ridesharing Marketplace": {
+        "content_hash": "b5d478f39fa6a492",
+        "enriched_at": "2026-01-03T10:01:23.271771+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Lyft: Causal Forecasting at Lyft": {
+        "content_hash": "f3c5d948bb2b7229",
+        "enriched_at": "2026-01-03T10:01:23.271797+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Netflix: Page Simulator for Better Offline Metrics": {
+        "content_hash": "9d81506cceb7c2e8",
+        "enriched_at": "2026-01-03T10:01:23.271823+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Netflix: Quasi Experimentation at Netflix": {
+        "content_hash": "1e157344d4274a5d",
+        "enriched_at": "2026-01-03T10:01:23.271848+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Airbnb: Learning Market Dynamics for Optimal Pricing": {
+        "content_hash": "757a68f4bfc9e3df",
+        "enriched_at": "2026-01-03T10:01:23.271876+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Stable-Baselines3 Documentation": {
+        "content_hash": "a93488b651dcef47",
+        "enriched_at": "2026-01-03T10:01:23.271901+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Gymnasium Documentation": {
+        "content_hash": "af2bf78e927645c2",
+        "enriched_at": "2026-01-03T10:01:23.271926+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Mesa Documentation Tutorials": {
+        "content_hash": "11d0e314d5f53419",
+        "enriched_at": "2026-01-03T10:01:23.271952+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "ETH Zurich: Agent-Based Modeling of Economic Systems": {
+        "content_hash": "1e61ad34cb8874a1",
+        "enriched_at": "2026-01-03T10:01:23.271980+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Awesome Quant": {
+        "content_hash": "3533017094654a66",
+        "enriched_at": "2026-01-03T10:01:23.272005+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "The Missing Semester of Your CS Education (MIT)": {
+        "content_hash": "d0c21f44dbdab974",
+        "enriched_at": "2026-01-03T10:01:23.272031+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "QuantEcon Lectures": {
+        "content_hash": "db75118dd310453c",
+        "enriched_at": "2026-01-03T10:01:23.272056+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "First Course in Causal Inference (Python)": {
+        "content_hash": "f0df7f16154ad251",
+        "enriched_at": "2026-01-03T10:01:23.272107+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Machine Learning Specialization (Coursera)": {
+        "content_hash": "9534f8bb721fdb7f",
+        "enriched_at": "2026-01-03T10:01:23.272134+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Beyond Jupyter (TransferLab)": {
+        "content_hash": "bdfed367a8a379b7",
+        "enriched_at": "2026-01-03T10:01:23.272160+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Deep Learning Specialization (Coursera)": {
+        "content_hash": "88ec1d6e2fe832db",
+        "enriched_at": "2026-01-03T10:01:23.272189+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Awesome Economics": {
+        "content_hash": "4670af14a44b914e",
+        "enriched_at": "2026-01-03T10:01:23.272214+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Google NotebookLM": {
+        "content_hash": "1753e619b50c1f77",
+        "enriched_at": "2026-01-03T10:01:23.272240+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
       }
     },
     "books.json": {
@@ -8977,29 +9614,29 @@
         "confidence": 1.0
       },
       "Fundamentals of Power System Economics": {
-        "content_hash": "98b8a2513975bab0",
-        "enriched_at": "2026-01-01T03:58:32.154718+00:00",
+        "content_hash": "5ae33f81b31f43ce",
+        "enriched_at": "2026-01-03T10:01:23.272276+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "International Energy Markets": {
-        "content_hash": "07e9f6ca4aab7379",
-        "enriched_at": "2026-01-01T03:58:37.659986+00:00",
+        "content_hash": "3c9e1f7d40c55172",
+        "enriched_at": "2026-01-03T10:01:23.272306+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "How Solar Energy Became Cheap": {
-        "content_hash": "6aa044e73376c9df",
-        "enriched_at": "2026-01-01T03:58:44.064096+00:00",
+        "content_hash": "58d101240f665533",
+        "enriched_at": "2026-01-03T10:01:23.272334+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Spot Pricing of Electricity": {
-        "content_hash": "bb969ebb629804ad",
-        "enriched_at": "2026-01-01T03:58:49.029443+00:00",
+        "content_hash": "dfb8c6d54e4ddef5",
+        "enriched_at": "2026-01-03T10:01:23.272362+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -9140,6 +9777,76 @@
       "Marketing Metrics: The Manager's Guide to Measuring Marketing Performance": {
         "content_hash": "cddc2a6d857a0805",
         "enriched_at": "2026-01-01T04:00:45.121095+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Machine Learning for Economics and Finance in TensorFlow 2": {
+        "content_hash": "008b1715b207828c",
+        "enriched_at": "2026-01-03T10:01:23.272391+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Business Data Science": {
+        "content_hash": "383293a88db49b77",
+        "enriched_at": "2026-01-03T10:01:23.272418+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Causal Inference and Machine Learning for Economists": {
+        "content_hash": "c173002251892b67",
+        "enriched_at": "2026-01-03T10:01:23.272446+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Agent-Based and Individual-Based Modeling: A Practical Introduction": {
+        "content_hash": "ca19159340853395",
+        "enriched_at": "2026-01-03T10:01:23.272472+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.8
+      },
+      "Growing Artificial Societies: Social Science from the Bottom Up": {
+        "content_hash": "98aef091016f4d19",
+        "enriched_at": "2026-01-03T10:01:23.272501+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Handbook of Computational Economics Vol. 2: Agent-Based Computational Economics": {
+        "content_hash": "2ff204e31da73361",
+        "enriched_at": "2026-01-03T10:01:23.272529+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Monte Carlo Methods in Financial Engineering": {
+        "content_hash": "bf38494e723806ef",
+        "enriched_at": "2026-01-03T10:01:23.272556+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Monte Carlo Simulation for Econometricians": {
+        "content_hash": "c35c223d3b48f8e2",
+        "enriched_at": "2026-01-03T10:01:23.272583+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Causal Inference in Python": {
+        "content_hash": "9e97b3d46fb5eb0b",
+        "enriched_at": "2026-01-03T10:01:23.272609+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Causal Inference for Statistics, Social, and Biomedical Sciences": {
+        "content_hash": "7bfc097128163c0e",
+        "enriched_at": "2026-01-03T10:01:23.272638+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -10930,6 +11637,97 @@
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
+      },
+      "Paul Krugman & Erik Brynjolfsson: How Should We Think About the Economics of AI?": {
+        "content_hash": "c3a81dbfc8f52cc5",
+        "enriched_at": "2026-01-03T10:01:23.272672+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Daron Acemoglu on AI (Capitalism and Freedom)": {
+        "content_hash": "39626bbc6b647101",
+        "enriched_at": "2026-01-03T10:01:23.272701+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Richmond Fed Interview with Anton Korinek": {
+        "content_hash": "592d0c19c46a8ca5",
+        "enriched_at": "2026-01-03T10:01:23.272729+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Rob Axtell: The Tipping Point for Agent-Based Modeling": {
+        "content_hash": "08abf20646f7ba95",
+        "enriched_at": "2026-01-03T10:01:23.272762+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Susan Athey: Machine Learning Methods for Causal Inference (NBER)": {
+        "content_hash": "81e4f018126fd28d",
+        "enriched_at": "2026-01-03T10:01:23.272790+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Matheus Facure: Causal Inference in Banking (UChicago Guest Lecture)": {
+        "content_hash": "462403ce4d0ae3a2",
+        "enriched_at": "2026-01-03T10:01:23.272817+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Apoorva Lal: Causal Econometrics in Tech (UChicago Guest Lecture)": {
+        "content_hash": "261ac8790f01a28d",
+        "enriched_at": "2026-01-03T10:01:23.272846+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Wenjing Zheng: Applications of Causal Machine Learning (UChicago Guest Lecture)": {
+        "content_hash": "d0668eda5469acbc",
+        "enriched_at": "2026-01-03T10:01:23.272872+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Huigang Chen: Estimating Network Effects (UChicago Guest Lecture)": {
+        "content_hash": "162ddcbd8e2d5f0e",
+        "enriched_at": "2026-01-03T10:01:23.272899+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Jing Pan: Ad Measurement & Causal ML at Snap (UChicago Guest Lecture)": {
+        "content_hash": "a3a35ff4bb858451",
+        "enriched_at": "2026-01-03T10:01:23.272926+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Sourav Sinha: Causal Inference in Multi-Sided Marketplaces (UChicago Guest Lecture)": {
+        "content_hash": "c51f2a211b5526f3",
+        "enriched_at": "2026-01-03T10:01:23.272952+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Totte Harinen: Three Fallacies of Applied Causal Inference (UChicago Guest Lecture)": {
+        "content_hash": "08e46099daad815b",
+        "enriched_at": "2026-01-03T10:01:23.272981+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Kevin Mercurio: Applied Causal Inference at Netflix (UChicago Guest Lecture)": {
+        "content_hash": "049404ebeb38ea7a",
+        "enriched_at": "2026-01-03T10:01:23.273009+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
       }
     },
     "career.json": {
@@ -11179,8 +11977,8 @@
         "confidence": 1.0
       },
       "Spotify": {
-        "content_hash": "d1507ee53cdb2460",
-        "enriched_at": "2026-01-01T04:05:43.543237+00:00",
+        "content_hash": "93ee2d3751bdac74",
+        "enriched_at": "2026-01-03T10:01:23.273133+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -12222,8 +13020,8 @@
         "confidence": 0.9
       },
       "Intel": {
-        "content_hash": "ae5eb36cb7f8f585",
-        "enriched_at": "2026-01-01T04:05:54.196265+00:00",
+        "content_hash": "27f3f3f1bd4debb6",
+        "enriched_at": "2026-01-03T10:01:23.273079+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -12236,8 +13034,8 @@
         "confidence": 1.0
       },
       "NVIDIA": {
-        "content_hash": "82b3da4b6de3abc4",
-        "enriched_at": "2026-01-01T04:06:00.441376+00:00",
+        "content_hash": "935675e575dcc315",
+        "enriched_at": "2026-01-03T10:01:23.273049+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -12250,8 +13048,8 @@
         "confidence": 1.0
       },
       "Qualcomm": {
-        "content_hash": "781412d688be07ef",
-        "enriched_at": "2026-01-01T04:06:06.016174+00:00",
+        "content_hash": "050eb6cca91f5be3",
+        "enriched_at": "2026-01-03T10:01:23.273106+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -12411,11 +13209,11 @@
         "confidence": 1.0
       },
       "Upstart": {
-        "content_hash": "9ed5e54814b6c737",
-        "enriched_at": "2026-01-01T04:06:12.469767+00:00",
+        "content_hash": "22f326f1e9b4f56f",
+        "enriched_at": "2026-01-03T10:01:23.273267+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 1.0
+        "confidence": 0.9
       },
       "Capital One": {
         "content_hash": "b019755da2e6b3d4",
@@ -12502,8 +13300,8 @@
         "confidence": 1.0
       },
       "CVS Health": {
-        "content_hash": "26845167595f4769",
-        "enriched_at": "2026-01-01T04:06:19.487484+00:00",
+        "content_hash": "0befa881d72b8edf",
+        "enriched_at": "2026-01-03T10:01:23.273189+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -12691,8 +13489,8 @@
         "confidence": 1.0
       },
       "Supercell": {
-        "content_hash": "07e1bca15c81664a",
-        "enriched_at": "2026-01-01T04:06:23.890967+00:00",
+        "content_hash": "beb6b0c0c6d44076",
+        "enriched_at": "2026-01-03T10:01:23.273161+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -12852,11 +13650,11 @@
         "confidence": 1.0
       },
       "Revolut": {
-        "content_hash": "c21c9b6d1e3eb821",
-        "enriched_at": "2026-01-01T04:06:28.682761+00:00",
+        "content_hash": "10c0ae4ba104b7a2",
+        "enriched_at": "2026-01-03T10:01:23.273215+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.7000000000000001
+        "confidence": 0.9
       },
       "Wise": {
         "content_hash": "fc6fc6e3300c5490",
@@ -12873,8 +13671,8 @@
         "confidence": 1.0
       },
       "N26": {
-        "content_hash": "0518939e36c4a407",
-        "enriched_at": "2026-01-01T04:06:37.407938+00:00",
+        "content_hash": "d7ea7b0a323035f3",
+        "enriched_at": "2026-01-03T10:01:23.273242+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -13111,8 +13909,8 @@
         "confidence": 0.9
       },
       "Hopper": {
-        "content_hash": "9a4e5c32d7933bfc",
-        "enriched_at": "2026-01-01T04:06:42.218458+00:00",
+        "content_hash": "fa882a30ca79e2e5",
+        "enriched_at": "2026-01-03T10:01:23.273297+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -15563,15 +16361,15 @@
         "confidence": 1.0
       },
       "ISMS Marketing Science Conference": {
-        "content_hash": "c9f2f038215d3431",
-        "enriched_at": "2026-01-01T04:09:54.184640+00:00",
+        "content_hash": "681d5b5ea8f867d0",
+        "enriched_at": "2026-01-03T10:01:23.273340+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "ARF Marketing Analytics Accelerator": {
-        "content_hash": "83ebb34baf708794",
-        "enriched_at": "2026-01-01T04:06:47.131669+00:00",
+        "content_hash": "b25084fb584a5ab6",
+        "enriched_at": "2026-01-03T10:01:23.273464+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -15598,15 +16396,15 @@
         "confidence": 1.0
       },
       "INFORMS Revenue Management and Pricing Conference": {
-        "content_hash": "afabfcbf163ada16",
-        "enriched_at": "2025-12-31T00:17:56.689291+00:00",
+        "content_hash": "85cc9940db0bcf83",
+        "enriched_at": "2026-01-03T10:01:23.273375+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
       },
       "MSOM Conference": {
-        "content_hash": "43d667c278328010",
-        "enriched_at": "2025-12-31T00:18:03.946672+00:00",
+        "content_hash": "2ae0e5c8a11ebf87",
+        "enriched_at": "2026-01-03T10:01:23.273404+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -15717,8 +16515,8 @@
         "confidence": 1.0
       },
       "ASHEcon (American Society of Health Economists)": {
-        "content_hash": "9356ef3eb9aa1353",
-        "enriched_at": "2026-01-01T04:08:15.813806+00:00",
+        "content_hash": "579ced7764dfb634",
+        "enriched_at": "2026-01-03T10:01:23.273433+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -15990,8 +16788,8 @@
         "confidence": 0.8
       },
       "INFORMS TSL Workshop": {
-        "content_hash": "cc4175627a98aa1c",
-        "enriched_at": "2025-12-31T00:24:23.123880+00:00",
+        "content_hash": "231252f0202738d5",
+        "enriched_at": "2026-01-03T10:01:23.273491+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -16326,8 +17124,8 @@
         "confidence": 1.0
       },
       "Michael Luca": {
-        "content_hash": "3084a4811008d0ec",
-        "enriched_at": "2026-01-01T04:06:54.507113+00:00",
+        "content_hash": "343c242f7fca238f",
+        "enriched_at": "2026-01-03T10:01:23.273600+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -16347,11 +17145,11 @@
         "confidence": 1.0
       },
       "Sangeet Paul Choudary": {
-        "content_hash": "162fbbfb3cf55a95",
-        "enriched_at": "2026-01-01T04:06:59.831561+00:00",
+        "content_hash": "5ab0d04c39e52835",
+        "enriched_at": "2026-01-03T10:01:23.273625+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 1.0
+        "confidence": 0.8
       },
       "Dan Hockenmaier": {
         "content_hash": "efa17ba25d47f09a",
@@ -16431,8 +17229,8 @@
         "confidence": 1.0
       },
       "Michael Kaminsky": {
-        "content_hash": "2cfaf2d512b0c290",
-        "enriched_at": "2026-01-01T04:07:05.810536+00:00",
+        "content_hash": "499a2a9e831e76bf",
+        "enriched_at": "2026-01-03T10:01:23.273674+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -16886,11 +17684,11 @@
         "confidence": 0.8
       },
       "INFORMS Communities": {
-        "content_hash": "bda104349e8b36c3",
-        "enriched_at": "2025-12-31T00:37:39.920734+00:00",
+        "content_hash": "9507f4898a6d59f2",
+        "enriched_at": "2026-01-03T10:01:23.273519+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.8
+        "confidence": 1.0
       },
       "AEA EconSpark": {
         "content_hash": "27ea98f159b60602",
@@ -17117,8 +17915,8 @@
         "confidence": 1.0
       },
       "INFORMS San Francisco Chapter": {
-        "content_hash": "d4acff8d06792b09",
-        "enriched_at": "2025-12-31T00:41:11.280914+00:00",
+        "content_hash": "ec69aef80beff9d2",
+        "enriched_at": "2026-01-03T10:01:23.273545+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
@@ -17159,11 +17957,11 @@
         "confidence": 1.0
       },
       "INFORMS PNW Chapter": {
-        "content_hash": "d9f17cc8db357227",
-        "enriched_at": "2025-12-31T00:41:48.042275+00:00",
+        "content_hash": "688fdb3e1b236a6f",
+        "enriched_at": "2026-01-03T10:01:23.273572+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.8
+        "confidence": 1.0
       },
       "Data Science Salon LA": {
         "content_hash": "fc78b5c73489972c",
@@ -17908,8 +18706,8 @@
         "confidence": 1.0
       },
       "Thomas Wiecki": {
-        "content_hash": "50b7baae62898811",
-        "enriched_at": "2026-01-01T04:07:19.186439+00:00",
+        "content_hash": "016816ebc5def9d5",
+        "enriched_at": "2026-01-03T10:01:23.273650+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -18335,15 +19133,15 @@
         "confidence": 1.0
       },
       "USAEE/IAEE North American Conference": {
-        "content_hash": "a953cda900e43ef2",
-        "enriched_at": "2026-01-01T04:08:59.743076+00:00",
+        "content_hash": "a2ce3c897119ea12",
+        "enriched_at": "2026-01-03T10:01:23.273702+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "POWER Conference (Berkeley)": {
-        "content_hash": "2f59d1aacaeba83b",
-        "enriched_at": "2026-01-01T04:09:06.501874+00:00",
+        "content_hash": "3db663a8748439f1",
+        "enriched_at": "2026-01-03T10:01:23.273730+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -18445,6 +19243,34 @@
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.8
+      },
+      "NBER Economics of AI Conference": {
+        "content_hash": "2dbb85f4e92077d9",
+        "enriched_at": "2026-01-03T10:01:23.273756+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "MLESI - Machine Learning in Economics Summer Institute": {
+        "content_hash": "22cb8474538f43e0",
+        "enriched_at": "2026-01-03T10:01:23.273782+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "SoFiE Financial Machine Learning Summer School": {
+        "content_hash": "d145b3016c6d977d",
+        "enriched_at": "2026-01-03T10:01:23.273808+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "ACM Economics and Computation (EC)": {
+        "content_hash": "ebdfd8de37f6059a",
+        "enriched_at": "2026-01-03T10:01:23.273834+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
       }
     },
     "papers.json": {
@@ -18554,15 +19380,15 @@
         "confidence": 0.9
       },
       "Inferring Causal Impact Using Bayesian Structural Time-Series Models": {
-        "content_hash": "65325be7942ed6a0",
-        "enriched_at": "2026-01-01T04:35:46.039701+00:00",
+        "content_hash": "19e38cde3bb23690",
+        "enriched_at": "2026-01-03T10:01:23.275706+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "Bayesian Methods for Media Mix Modeling with Carryover and Shape Effects": {
-        "content_hash": "51f6059e791a48c2",
-        "enriched_at": "2026-01-01T04:10:58.840724+00:00",
+        "content_hash": "e29dacd53dbfa32c",
+        "enriched_at": "2026-01-03T10:01:23.278329+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -19009,11 +19835,11 @@
         "confidence": 0.9
       },
       "Using Synthetic Controls: Feasibility, Data Requirements, and Methodological Aspects": {
-        "content_hash": "2f971b77d1266e07",
-        "enriched_at": "2026-01-01T04:11:38.567544+00:00",
+        "content_hash": "e1751b70a94e9829",
+        "enriched_at": "2026-01-03T10:01:23.274711+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Trimmed Match Design for Randomized Paired Geo Experiments": {
         "content_hash": "28bcef0913dbc76f",
@@ -19072,8 +19898,8 @@
         "confidence": 1.0
       },
       "Double/Debiased Machine Learning for Treatment and Structural Parameters": {
-        "content_hash": "567cf445ab01a4ea",
-        "enriched_at": "2026-01-01T04:16:25.597576+00:00",
+        "content_hash": "f82b5d6867e7767b",
+        "enriched_at": "2026-01-03T10:01:23.279210+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -19100,8 +19926,8 @@
         "confidence": 0.9
       },
       "What's Trending in Difference-in-Differences? A Synthesis of the Recent Econometrics Literature": {
-        "content_hash": "b4a63bc57f822dbf",
-        "enriched_at": "2026-01-01T04:11:22.537426+00:00",
+        "content_hash": "38f04c1f98f3a87d",
+        "enriched_at": "2026-01-03T10:01:23.274771+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -19114,8 +19940,8 @@
         "confidence": 1.0
       },
       "Difference-in-Differences with Multiple Time Periods": {
-        "content_hash": "f781502087661b0a",
-        "enriched_at": "2026-01-01T04:11:28.429764+00:00",
+        "content_hash": "0f1551b1fafe64aa",
+        "enriched_at": "2026-01-03T10:01:23.274740+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -19142,8 +19968,8 @@
         "confidence": 1.0
       },
       "Synthetic Control Methods for Comparative Case Studies": {
-        "content_hash": "50960e5741d16c78",
-        "enriched_at": "2026-01-01T04:11:34.984675+00:00",
+        "content_hash": "8e44ff3d77a09fee",
+        "enriched_at": "2026-01-03T10:01:23.274682+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -19254,11 +20080,11 @@
         "confidence": 1.0
       },
       "Estimation and Inference of Heterogeneous Treatment Effects using Random Forests": {
-        "content_hash": "0029d72cef49da37",
-        "enriched_at": "2026-01-01T04:18:34.867175+00:00",
+        "content_hash": "5f50e3178e7f63a5",
+        "enriched_at": "2026-01-03T10:01:23.279096+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Generic Machine Learning Inference on Heterogeneous Treatment Effects in Randomized Experiments": {
         "content_hash": "dffa8400c0113e5f",
@@ -19282,11 +20108,11 @@
         "confidence": 1.0
       },
       "Towards Optimal Doubly Robust Estimation of Heterogeneous Causal Effects": {
-        "content_hash": "d51de8e2ee94bad0",
-        "enriched_at": "2026-01-01T04:11:52.802260+00:00",
+        "content_hash": "96e33fce30e5c229",
+        "enriched_at": "2026-01-03T10:01:23.275648+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Policy Learning With Observational Data": {
         "content_hash": "4301c9a1f1d1b0cf",
@@ -19338,25 +20164,25 @@
         "confidence": 0.9
       },
       "Matrix Factorization Techniques for Recommender Systems": {
-        "content_hash": "358113dcd4f86da6",
-        "enriched_at": "2026-01-01T04:13:53.737432+00:00",
+        "content_hash": "7dbfc9a17f053ec3",
+        "enriched_at": "2026-01-03T10:01:23.277883+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Collaborative Filtering for Implicit Feedback Datasets": {
-        "content_hash": "359a0036d53e7b1c",
-        "enriched_at": "2026-01-01T04:12:05.256343+00:00",
+        "content_hash": "4e0662e9f120a898",
+        "enriched_at": "2026-01-03T10:01:23.274595+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "BPR: Bayesian Personalized Ranking from Implicit Feedback": {
-        "content_hash": "117348e8888ca739",
-        "enriched_at": "2026-01-01T04:12:10.724748+00:00",
+        "content_hash": "2656cf9802abc2a8",
+        "enriched_at": "2026-01-03T10:01:23.274624+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Factorization Meets the Neighborhood": {
         "content_hash": "4b3faf5db432323b",
@@ -19366,11 +20192,11 @@
         "confidence": 0.9
       },
       "Probabilistic Matrix Factorization": {
-        "content_hash": "ad8c0edbdaa118cd",
-        "enriched_at": "2025-12-31T01:15:07.513443+00:00",
+        "content_hash": "600ffba4bc198557",
+        "enriched_at": "2026-01-03T10:01:23.277913+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Factorization Machines": {
         "content_hash": "990347ee6592febf",
@@ -19387,8 +20213,8 @@
         "confidence": 0.9
       },
       "Deep Neural Networks for YouTube Recommendations": {
-        "content_hash": "e0539951c6c949bc",
-        "enriched_at": "2026-01-01T04:12:56.842960+00:00",
+        "content_hash": "9dbd419880165c81",
+        "enriched_at": "2026-01-03T10:01:23.274834+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -19422,25 +20248,25 @@
         "confidence": 0.9
       },
       "Wide & Deep Learning for Recommender Systems": {
-        "content_hash": "b2c8eb0af572197f",
-        "enriched_at": "2026-01-01T04:37:35.542176+00:00",
+        "content_hash": "fce85e2c87d74c50",
+        "enriched_at": "2026-01-03T10:01:23.274130+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "DeepFM: A Factorization-Machine based Neural Network for CTR Prediction": {
-        "content_hash": "8bc7368330734230",
-        "enriched_at": "2026-01-01T04:37:41.707510+00:00",
+        "content_hash": "250b863b4fbab623",
+        "enriched_at": "2026-01-03T10:01:23.274161+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "Deep Interest Network for Click-Through Rate Prediction": {
-        "content_hash": "713b710de8d37f42",
-        "enriched_at": "2026-01-01T04:37:48.649167+00:00",
+        "content_hash": "6193a9641f958b76",
+        "enriched_at": "2026-01-03T10:01:23.274193+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Recommendations as Treatments: Debiasing Learning and Evaluation": {
         "content_hash": "eef5e654df70554c",
@@ -19450,18 +20276,18 @@
         "confidence": 1.0
       },
       "Unbiased Learning-to-Rank with Biased Feedback": {
-        "content_hash": "bafaafca75eacd8d",
-        "enriched_at": "2026-01-01T04:13:07.552290+00:00",
+        "content_hash": "61b5fb89fb3d597b",
+        "enriched_at": "2026-01-03T10:01:23.274536+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
       "The Self-Normalized Estimator for Counterfactual Learning": {
-        "content_hash": "dc5d3f579772d757",
-        "enriched_at": "2026-01-01T04:12:25.980232+00:00",
+        "content_hash": "240f21eae5e91b43",
+        "enriched_at": "2026-01-03T10:01:23.274320+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Counterfactual Learning and Evaluation for Recommender Systems": {
         "content_hash": "2f6beb431c3d75ee",
@@ -19520,18 +20346,18 @@
         "confidence": 0.9
       },
       "A Contextual-Bandit Approach to Personalized News Article Recommendation": {
-        "content_hash": "f3adf8a0b6b71db5",
-        "enriched_at": "2026-01-01T04:12:32.227397+00:00",
+        "content_hash": "2d99e526faafd609",
+        "enriched_at": "2026-01-03T10:01:23.274288+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "An Empirical Evaluation of Thompson Sampling": {
-        "content_hash": "029e49d762123ffa",
-        "enriched_at": "2026-01-01T04:13:32.002865+00:00",
+        "content_hash": "576eb9034fa43e6a",
+        "enriched_at": "2026-01-03T10:01:23.275677+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Calibrated Recommendations": {
         "content_hash": "4360cf6c28998411",
@@ -19639,15 +20465,15 @@
         "confidence": 1.0
       },
       "Top-K Off-Policy Correction for a REINFORCE Recommender System": {
-        "content_hash": "4c9214263cfc109b",
-        "enriched_at": "2026-01-01T04:12:44.728154+00:00",
+        "content_hash": "8e544c56c2d00c3b",
+        "enriched_at": "2026-01-03T10:01:23.274382+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "SlateQ: A Tractable Decomposition for Reinforcement Learning with Recommendation Sets": {
-        "content_hash": "f52707d28532ff0c",
-        "enriched_at": "2026-01-01T04:12:51.476549+00:00",
+        "content_hash": "27578ea1e63dd79d",
+        "enriched_at": "2026-01-03T10:01:23.274414+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -19828,18 +20654,18 @@
         "confidence": 0.9
       },
       "An Experimental Comparison of Click Position-Bias Models": {
-        "content_hash": "5b65afceadb5fcc8",
-        "enriched_at": "2026-01-01T04:13:01.925432+00:00",
+        "content_hash": "14573dd571fd2e15",
+        "enriched_at": "2026-01-03T10:01:23.274507+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Click Models for Web Search": {
-        "content_hash": "03d94daea4648a66",
-        "enriched_at": "2026-01-01T04:13:13.689562+00:00",
+        "content_hash": "360ca9f8472fd12f",
+        "enriched_at": "2026-01-03T10:01:23.274566+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Unbiased LTR with Unbiased Propensity Estimation (DLA)": {
         "content_hash": "cffb98341a6d84a8",
@@ -20115,11 +20941,11 @@
         "confidence": 0.9
       },
       "Thompson Sampling for Contextual Bandits with Linear Payoffs": {
-        "content_hash": "bc13e5ecebe85e36",
-        "enriched_at": "2026-01-01T04:13:20.831439+00:00",
+        "content_hash": "309eb9b7021320f4",
+        "enriched_at": "2026-01-03T10:01:23.275122+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Taming the Monster: A Fast and Simple Algorithm for Contextual Bandits": {
         "content_hash": "705804f8c30efc44",
@@ -20143,11 +20969,11 @@
         "confidence": 0.9
       },
       "A Tutorial on Thompson Sampling": {
-        "content_hash": "912ef9f7a80c4ea9",
-        "enriched_at": "2026-01-01T04:13:26.712419+00:00",
+        "content_hash": "c394d8994cdd07f4",
+        "enriched_at": "2026-01-03T10:01:23.275085+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Analysis of Thompson Sampling for the Multi-armed Bandit Problem": {
         "content_hash": "0fd4ce78cd9c81f6",
@@ -20178,11 +21004,11 @@
         "confidence": 0.9
       },
       "Counterfactual Risk Minimization: Learning from Logged Bandit Feedback": {
-        "content_hash": "3daec56f676c6287",
-        "enriched_at": "2026-01-01T04:13:37.658005+00:00",
+        "content_hash": "f6d3ee4c908b652c",
+        "enriched_at": "2026-01-03T10:01:23.274477+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Optimal and Adaptive Off-policy Evaluation in Contextual Bandits": {
         "content_hash": "593f7516cbb1b905",
@@ -20255,11 +21081,11 @@
         "confidence": 0.9
       },
       "Real-Time Bidding by Reinforcement Learning in Display Advertising": {
-        "content_hash": "b0ba918e63b2b789",
-        "enriched_at": "2026-01-01T04:37:54.373302+00:00",
+        "content_hash": "c99f613e4b2fe203",
+        "enriched_at": "2026-01-03T10:01:23.274349+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Deep Reinforcement Learning for Sponsored Search Real-time Bidding": {
         "content_hash": "5e6265d57e3fd381",
@@ -20283,18 +21109,18 @@
         "confidence": 1.0
       },
       "Learning in Repeated Auctions with Budgets: Regret Minimization and Equilibrium": {
-        "content_hash": "be5bab05e9e927d8",
-        "enriched_at": "2026-01-01T04:13:43.199755+00:00",
+        "content_hash": "743c5b17ae086fef",
+        "enriched_at": "2026-01-03T10:01:23.275369+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "Optimal Auctions through Deep Learning": {
-        "content_hash": "e536d9eeb4f9bcb4",
-        "enriched_at": "2025-12-31T01:52:12.883419+00:00",
+        "content_hash": "6204e4f8828a3109",
+        "enriched_at": "2026-01-03T10:01:23.279867+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Contextual Bandits with Cross-Learning": {
         "content_hash": "0af570fc9727fa1e",
@@ -20528,8 +21354,8 @@
         "confidence": 0.9
       },
       "Conditional Logit Analysis of Qualitative Choice Behavior": {
-        "content_hash": "25f0016565156684",
-        "enriched_at": "2026-01-01T04:22:38.546083+00:00",
+        "content_hash": "904e96ad9da7ff5e",
+        "enriched_at": "2026-01-03T10:01:23.276533+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -20780,15 +21606,15 @@
         "confidence": 0.9
       },
       "DeepAR: Probabilistic Forecasting with Autoregressive Recurrent Networks": {
-        "content_hash": "99571c4bf1a12353",
-        "enriched_at": "2026-01-01T04:13:58.343864+00:00",
+        "content_hash": "695ec623341fa9cc",
+        "enriched_at": "2026-01-03T10:01:23.277182+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Forecasting at Scale (Prophet)": {
-        "content_hash": "8bffc47f9d3e0c5e",
-        "enriched_at": "2026-01-01T04:14:03.159495+00:00",
+        "content_hash": "4f477ed1a771f2f7",
+        "enriched_at": "2026-01-03T10:01:23.274798+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -20801,18 +21627,18 @@
         "confidence": 0.9
       },
       "Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting": {
-        "content_hash": "a70aebbef8bc765f",
-        "enriched_at": "2026-01-01T04:14:09.972314+00:00",
+        "content_hash": "1fcfaa4577c00028",
+        "enriched_at": "2026-01-03T10:01:23.277242+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "M5 Accuracy Competition: Results, Findings, and Conclusions": {
-        "content_hash": "a59a7255b0b41939",
-        "enriched_at": "2026-01-01T04:14:18.517602+00:00",
+        "content_hash": "ea82fb28aef5e985",
+        "enriched_at": "2026-01-03T10:01:23.277210+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Deep State Space Models for Time Series Forecasting": {
         "content_hash": "fe7a926bc647ba94",
@@ -21032,11 +21858,11 @@
         "confidence": 0.9
       },
       "Counting Your Customers: Who Are They and What Will They Do Next?": {
-        "content_hash": "3af9702e0ee7f352",
-        "enriched_at": "2025-12-31T02:05:05.333826+00:00",
+        "content_hash": "5d8e400388ca598f",
+        "enriched_at": "2026-01-03T10:01:23.277616+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "A Model of Customer Lifetime Value": {
         "content_hash": "f3cf5f986d8c16e3",
@@ -21298,8 +22124,8 @@
         "confidence": 1.0
       },
       "The Netflix Recommender System: Algorithms, Business Value, and Innovation": {
-        "content_hash": "405fbf3505e794a4",
-        "enriched_at": "2025-12-31T02:08:56.859034+00:00",
+        "content_hash": "fdfba139bdf58fda",
+        "enriched_at": "2026-01-03T10:01:23.277974+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -21438,11 +22264,11 @@
         "confidence": 0.9
       },
       "Optimal Dynamic Pricing of Inventories with Stochastic Demand over Finite Horizons": {
-        "content_hash": "4df51bbd172e2fc1",
-        "enriched_at": "2025-12-31T02:11:07.338174+00:00",
+        "content_hash": "3d94102aa230dd81",
+        "enriched_at": "2026-01-03T10:01:23.278626+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "A Multiproduct Dynamic Pricing Problem and Its Applications to Network Yield Management": {
         "content_hash": "6ed2adaef608c488",
@@ -21480,50 +22306,50 @@
         "confidence": 1.0
       },
       "Dynamic Pricing and Learning: Historical Origins, Current Research, and New Directions": {
-        "content_hash": "d257b0ae93c8656b",
-        "enriched_at": "2025-12-31T02:11:50.730752+00:00",
-        "model_version": "gpt-4o-mini",
-        "schema_version": "2.1",
-        "confidence": 0.9
-      },
-      "Dynamic Pricing and Matching in Ride-Hailing Platforms": {
-        "content_hash": "cc21f43ba722be36",
-        "enriched_at": "2026-01-01T04:14:29.891465+00:00",
-        "model_version": "gpt-4o-mini",
-        "schema_version": "2.1",
-        "confidence": 0.9
-      },
-      "Surge Pricing Solves the Wild Goose Chase": {
-        "content_hash": "83f408d88a43a87c",
-        "enriched_at": "2026-01-01T04:23:47.684168+00:00",
-        "model_version": "gpt-4o-mini",
-        "schema_version": "2.1",
-        "confidence": 0.9
-      },
-      "The Value of Flexible Work: Evidence from Uber Drivers": {
-        "content_hash": "d1ac75794577f6c6",
-        "enriched_at": "2026-01-01T04:23:35.286963+00:00",
+        "content_hash": "1a0f99f80f5abbcd",
+        "enriched_at": "2026-01-03T10:01:23.278479+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
       },
-      "Economics of a Bottleneck": {
-        "content_hash": "bfacba91f8758d3a",
-        "enriched_at": "2026-01-01T04:22:28.525735+00:00",
+      "Dynamic Pricing and Matching in Ride-Hailing Platforms": {
+        "content_hash": "769e49d6d89c4817",
+        "enriched_at": "2026-01-03T10:01:23.277148+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Surge Pricing Solves the Wild Goose Chase": {
+        "content_hash": "64e568e8c77bfe81",
+        "enriched_at": "2026-01-03T10:01:23.274895+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "The Value of Flexible Work: Evidence from Uber Drivers": {
+        "content_hash": "43ffe6b8e8d743b1",
+        "enriched_at": "2026-01-03T10:01:23.275913+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
+      "Economics of a Bottleneck": {
+        "content_hash": "f8c33efa44513b57",
+        "enriched_at": "2026-01-03T10:01:23.274959+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
       "Platform Competition in Two-Sided Markets": {
-        "content_hash": "c4ffe45da24c3e98",
-        "enriched_at": "2026-01-01T04:34:37.469501+00:00",
+        "content_hash": "c0557b603feea649",
+        "enriched_at": "2026-01-03T10:01:23.275736+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "Competition in Two-Sided Markets": {
-        "content_hash": "cc421d147b23258d",
-        "enriched_at": "2026-01-01T04:34:42.783850+00:00",
+        "content_hash": "0db96170f5174e1c",
+        "enriched_at": "2026-01-03T10:01:23.276814+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -21550,8 +22376,8 @@
         "confidence": 0.9
       },
       "The Economics of Privacy": {
-        "content_hash": "9c01f6f2de5623b9",
-        "enriched_at": "2026-01-01T04:15:10.019267+00:00",
+        "content_hash": "59c47f7ce68b891d",
+        "enriched_at": "2026-01-03T10:01:23.277118+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -21585,8 +22411,8 @@
         "confidence": 0.9
       },
       "Estimating Discrete-Choice Models of Product Differentiation": {
-        "content_hash": "855b24f3a978ad29",
-        "enriched_at": "2026-01-01T04:14:58.351594+00:00",
+        "content_hash": "c226bdeb5bca026c",
+        "enriched_at": "2026-01-03T10:01:23.276275+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -21676,11 +22502,11 @@
         "confidence": 0.9
       },
       "Artificial Intelligence, Algorithmic Pricing, and Collusion": {
-        "content_hash": "e2e5d489b6c079b4",
-        "enriched_at": "2026-01-01T04:15:03.079982+00:00",
+        "content_hash": "5f721f8890bf5d54",
+        "enriched_at": "2026-01-03T10:01:23.275943+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Autonomous Algorithmic Collusion: Q-learning Under Sequential Pricing": {
         "content_hash": "00e2e3dd06b9bf08",
@@ -21746,8 +22572,8 @@
         "confidence": 0.9
       },
       "Customer-Base Valuation in a Contractual Setting: The Perils of Ignoring Heterogeneity": {
-        "content_hash": "37754511c4dc8a7d",
-        "enriched_at": "2025-12-31T02:17:04.400634+00:00",
+        "content_hash": "708ff4e3ef8392ff",
+        "enriched_at": "2026-01-03T10:01:23.277732+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -21844,29 +22670,29 @@
         "confidence": 1.0
       },
       "Manage Marketing by the Customer Equity Test": {
-        "content_hash": "7ec6300f619bea37",
-        "enriched_at": "2026-01-01T04:38:28.481139+00:00",
+        "content_hash": "dc915a5a6f0caec3",
+        "enriched_at": "2026-01-03T10:01:23.275154+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "Return on Marketing: Using Customer Equity to Focus Marketing Strategy": {
-        "content_hash": "b69c33392c320bcd",
-        "enriched_at": "2026-01-01T04:38:17.732093+00:00",
+        "content_hash": "ef12cb736dc11421",
+        "enriched_at": "2026-01-03T10:01:23.275186+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "Valuing Customers": {
-        "content_hash": "5d5a8a5b00732811",
-        "enriched_at": "2026-01-01T04:38:10.972616+00:00",
+        "content_hash": "b54a4b64b5d59800",
+        "enriched_at": "2026-01-03T10:01:23.275217+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "Social Effects on Customer Retention": {
-        "content_hash": "ffd252fc82b40de8",
-        "enriched_at": "2025-12-31T02:19:05.103150+00:00",
+        "content_hash": "a771a3f3ca4bc889",
+        "enriched_at": "2026-01-03T10:01:23.278125+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -21886,22 +22712,22 @@
         "confidence": 0.9
       },
       "In Pursuit of Enhanced Customer Retention Management: Review, Key Issues, and Future Directions": {
-        "content_hash": "c6a4d1552709ec76",
-        "enriched_at": "2025-12-31T02:19:27.425355+00:00",
+        "content_hash": "bf838d8245f4a66f",
+        "enriched_at": "2026-01-03T10:01:23.278154+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "Internet Advertising and the Generalized Second-Price Auction": {
-        "content_hash": "7a412bcf4b101165",
-        "enriched_at": "2026-01-01T04:35:05.259845+00:00",
+        "content_hash": "04ddc3d0926c3473",
+        "enriched_at": "2026-01-03T10:01:23.280070+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "Position Auctions": {
-        "content_hash": "bae795fbf413a901",
-        "enriched_at": "2026-01-01T04:35:10.364339+00:00",
+        "content_hash": "c08944dd83863945",
+        "enriched_at": "2026-01-03T10:01:23.276213+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -21914,22 +22740,22 @@
         "confidence": 0.9
       },
       "Counterspeculation, Auctions, and Competitive Sealed Tenders": {
-        "content_hash": "df64805bebe188e0",
-        "enriched_at": "2026-01-01T04:34:48.426334+00:00",
+        "content_hash": "73066537c6da13a7",
+        "enriched_at": "2026-01-03T10:01:23.275976+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "Optimal Auction Design": {
-        "content_hash": "fa9ab7d34e0028f8",
-        "enriched_at": "2026-01-01T04:34:53.566755+00:00",
+        "content_hash": "b658308342c2a22f",
+        "enriched_at": "2026-01-03T10:01:23.276006+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "Budget Management Strategies in Repeated Auctions": {
-        "content_hash": "ae7d251863357194",
-        "enriched_at": "2026-01-01T04:15:34.199180+00:00",
+        "content_hash": "415aaefd4bdf0370",
+        "enriched_at": "2026-01-03T10:01:23.276064+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -21949,15 +22775,15 @@
         "confidence": 0.9
       },
       "Multiplicative Pacing Equilibria in Auction Markets": {
-        "content_hash": "4395afb0793a58ea",
-        "enriched_at": "2026-01-01T04:15:40.851676+00:00",
+        "content_hash": "d679b117d6084ce0",
+        "enriched_at": "2026-01-03T10:01:23.276124+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "Pacing Equilibrium in First Price Auction Markets": {
-        "content_hash": "5d51784e77d0bdbf",
-        "enriched_at": "2026-01-01T04:15:46.170770+00:00",
+        "content_hash": "1e6e5beeb7fbbd67",
+        "enriched_at": "2026-01-03T10:01:23.276094+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -21970,11 +22796,11 @@
         "confidence": 0.9
       },
       "Ghost Ads: Improving the Economics of Measuring Online Ad Effectiveness": {
-        "content_hash": "87be139799248a8e",
-        "enriched_at": "2026-01-01T04:35:41.349634+00:00",
+        "content_hash": "54af7cf8a53f8c91",
+        "enriched_at": "2026-01-03T10:01:23.275399+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Challenges and Opportunities in Media Mix Modeling": {
         "content_hash": "4dcf8094c63bc203",
@@ -21991,18 +22817,18 @@
         "confidence": 0.9
       },
       "The Unfavorable Economics of Measuring the Returns to Advertising": {
-        "content_hash": "ac03c5612ffe6059",
-        "enriched_at": "2026-01-01T04:35:29.383869+00:00",
+        "content_hash": "1c71327cb714437c",
+        "enriched_at": "2026-01-03T10:01:23.275430+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "A Comparison of Approaches to Advertising Measurement: Evidence from Big Field Experiments at Facebook": {
-        "content_hash": "896d26a33c989019",
-        "enriched_at": "2025-12-31T02:21:19.803023+00:00",
+        "content_hash": "eb783617668083eb",
+        "enriched_at": "2026-01-03T10:01:23.278300+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "TV Advertising Effectiveness and Profitability: Generalizable Results from 288 Brands": {
         "content_hash": "1691ccda767def5f",
@@ -22033,11 +22859,11 @@
         "confidence": 0.9
       },
       "Targeting and Privacy in Mobile Advertising": {
-        "content_hash": "b2d737d7a3baae08",
-        "enriched_at": "2026-01-01T04:36:47.455901+00:00",
+        "content_hash": "0a3262a7d0f9e2fb",
+        "enriched_at": "2026-01-03T10:01:23.275460+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Personalization in Email Marketing: The Role of Noninformative Advertising Content": {
         "content_hash": "a42518cd5191f98d",
@@ -22082,8 +22908,8 @@
         "confidence": 0.9
       },
       "Privacy Regulation and Online Advertising": {
-        "content_hash": "5d5833acdc1e97a5",
-        "enriched_at": "2026-01-01T04:18:40.029371+00:00",
+        "content_hash": "b4f8c9669399f94c",
+        "enriched_at": "2026-01-03T10:01:23.277367+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -22208,11 +23034,11 @@
         "confidence": 0.9
       },
       "Creating Social Contagion Through Viral Product Design: A Randomized Trial of Peer Influence in Networks": {
-        "content_hash": "a9644ed678cb0c7d",
-        "enriched_at": "2026-01-01T04:15:57.314610+00:00",
+        "content_hash": "304e1d614081fce4",
+        "enriched_at": "2026-01-03T10:01:23.276844+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Network Externalities, Competition, and Compatibility": {
         "content_hash": "68dce54433af606f",
@@ -22243,15 +23069,15 @@
         "confidence": 0.9
       },
       "Chicken and Egg: Competition Among Intermediation Service Providers": {
-        "content_hash": "e45285bd44d81f0a",
-        "enriched_at": "2026-01-01T04:16:14.685986+00:00",
+        "content_hash": "477d66d2d56870cb",
+        "enriched_at": "2026-01-03T10:01:23.275793+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "How Promotions Work": {
-        "content_hash": "91f46fb66ce74f57",
-        "enriched_at": "2025-12-31T02:25:47.986081+00:00",
+        "content_hash": "60f96532d8b59d29",
+        "enriched_at": "2026-01-03T10:01:23.278539+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -22460,15 +23286,15 @@
         "confidence": 0.9
       },
       "Two-Sided Markets: A Progress Report": {
-        "content_hash": "bd44fe64a70116bf",
-        "enriched_at": "2026-01-01T04:16:30.308628+00:00",
+        "content_hash": "cf74c7942a11491f",
+        "enriched_at": "2026-01-03T10:01:23.276408+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "A Price Theory of Multi-Sided Platforms": {
-        "content_hash": "0d02b053d466e4aa",
-        "enriched_at": "2026-01-01T04:17:45.279421+00:00",
+        "content_hash": "e9e758cfca56d52b",
+        "enriched_at": "2026-01-03T10:01:23.276437+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -22544,18 +23370,18 @@
         "confidence": 0.9
       },
       "College Admissions and the Stability of Marriage": {
-        "content_hash": "718870119886cd1a",
-        "enriched_at": "2026-01-01T04:16:48.321815+00:00",
+        "content_hash": "32c7a972cfc65b29",
+        "enriched_at": "2026-01-03T10:01:23.276151+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "Kidney Exchange": {
-        "content_hash": "6c7dbb40ffe8e70f",
-        "enriched_at": "2026-01-01T04:16:53.080619+00:00",
+        "content_hash": "f842416eee65b030",
+        "enriched_at": "2026-01-03T10:01:23.276182+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "The Redesign of the Matching Market for American Physicians": {
         "content_hash": "5d64db639f20cf8c",
@@ -22600,8 +23426,8 @@
         "confidence": 0.9
       },
       "Fake It Till You Make It: Reputation, Competition, and Yelp Review Fraud": {
-        "content_hash": "ba4e2973322f9656",
-        "enriched_at": "2026-01-01T04:16:59.434717+00:00",
+        "content_hash": "5087b76ec33a6e35",
+        "enriched_at": "2026-01-03T10:01:23.277059+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -22614,18 +23440,18 @@
         "confidence": 0.9
       },
       "The Limits of Reputation in Platform Markets: An Empirical Analysis and Field Experiment": {
-        "content_hash": "2564dfa9089c1edc",
-        "enriched_at": "2026-01-01T04:17:07.056306+00:00",
+        "content_hash": "797c59a3ca8de65f",
+        "enriched_at": "2026-01-03T10:01:23.276938+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Promotional Reviews: An Empirical Investigation of Online Review Manipulation": {
-        "content_hash": "87843d9463b78421",
-        "enriched_at": "2026-01-01T04:17:13.712208+00:00",
+        "content_hash": "2a3d8b4e9d570fd7",
+        "enriched_at": "2026-01-03T10:01:23.277089+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Asymmetric Information, Adverse Selection and Online Disclosure: The Case of eBay Motors": {
         "content_hash": "d985bcc815bcd3fe",
@@ -22635,11 +23461,11 @@
         "confidence": 0.9
       },
       "Using Big Data to Estimate Consumer Surplus: The Case of Uber": {
-        "content_hash": "7c98b4c092c3c3fd",
-        "enriched_at": "2026-01-01T04:23:20.379665+00:00",
+        "content_hash": "af74fef3e60c3f93",
+        "enriched_at": "2026-01-03T10:01:23.275855+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Who Benefits from Surge Pricing?": {
         "content_hash": "496a0627e450363b",
@@ -22670,11 +23496,11 @@
         "confidence": 0.9
       },
       "An Analysis of the Labor Market for Uber's Driver-Partners in the United States": {
-        "content_hash": "2452fc047a8cfd3b",
-        "enriched_at": "2026-01-01T04:23:28.032976+00:00",
+        "content_hash": "dfbf741c31cd33a8",
+        "enriched_at": "2026-01-03T10:01:23.275885+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Uber versus Taxi: A Driver's Eye View": {
         "content_hash": "c3c957f2dc84bf11",
@@ -22705,8 +23531,8 @@
         "confidence": 0.9
       },
       "The Role of Surge Pricing on a Service Platform with Self-Scheduling Capacity": {
-        "content_hash": "183c3b95de52ffc8",
-        "enriched_at": "2026-01-01T04:17:18.890539+00:00",
+        "content_hash": "9eaeace561d7fdee",
+        "enriched_at": "2026-01-03T10:01:23.277275+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -22789,18 +23615,18 @@
         "confidence": 0.9
       },
       "Consumer Price Search and Platform Design in Internet Commerce": {
-        "content_hash": "0122dd3d95ecf4e0",
-        "enriched_at": "2026-01-01T04:17:24.254065+00:00",
+        "content_hash": "21f8a44a874b6b34",
+        "enriched_at": "2026-01-03T10:01:23.276473+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "The Welfare Effects of Peer Entry: The Case of Airbnb and the Accommodation Industry": {
-        "content_hash": "66f302dd70801cc3",
-        "enriched_at": "2026-01-01T04:17:32.137423+00:00",
+        "content_hash": "57a181cbf0fae726",
+        "enriched_at": "2026-01-03T10:01:23.276338+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Peer-to-Peer Markets": {
         "content_hash": "ad380a84fe87f134",
@@ -22817,8 +23643,8 @@
         "confidence": 0.9
       },
       "A Theory of Auctions and Competitive Bidding": {
-        "content_hash": "1c536d84d5780a73",
-        "enriched_at": "2026-01-01T04:34:59.814923+00:00",
+        "content_hash": "aa249aaa6c177899",
+        "enriched_at": "2026-01-03T10:01:23.276035+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -23006,11 +23832,11 @@
         "confidence": 0.9
       },
       "Internet Advertising and the Generalized Second-Price Auction: Selling Billions of Dollars Worth of Keywords": {
-        "content_hash": "1a1d1fed3dc32672",
-        "enriched_at": "2026-01-01T04:17:38.383720+00:00",
+        "content_hash": "3c7bea9adf047b7c",
+        "enriched_at": "2026-01-03T10:01:23.276369+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Sponsored Search Auctions": {
         "content_hash": "1a6ef15844fa6c1b",
@@ -23020,11 +23846,11 @@
         "confidence": 0.9
       },
       "Reserve Prices in Internet Advertising Auctions: A Field Experiment": {
-        "content_hash": "9052d9dff7ad44c4",
-        "enriched_at": "2026-01-01T04:35:23.339030+00:00",
+        "content_hash": "d44e13a0982ab1d7",
+        "enriched_at": "2026-01-03T10:01:23.276242+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Optimal Real-Time Bidding for Display Advertising": {
         "content_hash": "8bb45f3f17847a91",
@@ -23153,8 +23979,8 @@
         "confidence": 1.0
       },
       "Automobile Prices in Market Equilibrium": {
-        "content_hash": "5f55ec26676fd15a",
-        "enriched_at": "2026-01-01T04:17:51.676542+00:00",
+        "content_hash": "79df0fba83176e99",
+        "enriched_at": "2026-01-03T10:01:23.276564+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -23181,11 +24007,11 @@
         "confidence": 0.9
       },
       "Valuing New Goods in a Model with Complementarity: Online Newspapers": {
-        "content_hash": "10a1a6259a49ed44",
-        "enriched_at": "2026-01-01T04:17:56.703791+00:00",
+        "content_hash": "c8ce43edc5c0ad1e",
+        "enriched_at": "2026-01-03T10:01:23.276623+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Estimating Demand for Mobile Applications in the New Economy": {
         "content_hash": "0e75695e0b516284",
@@ -23202,11 +24028,11 @@
         "confidence": 1.0
       },
       "Estimation of a Model of Entry in the Airline Industry": {
-        "content_hash": "8479979acb198707",
-        "enriched_at": "2026-01-01T04:24:07.586351+00:00",
+        "content_hash": "311d0bcd649cb7af",
+        "enriched_at": "2026-01-03T10:01:23.276307+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Empirical Models of Entry and Market Structure": {
         "content_hash": "7ff552eee80c88ef",
@@ -23237,11 +24063,11 @@
         "confidence": 1.0
       },
       "Conditional Choice Probabilities and the Estimation of Dynamic Models": {
-        "content_hash": "412bdebef05c8e00",
-        "enriched_at": "2026-01-01T04:18:02.550366+00:00",
+        "content_hash": "6cecfcd44ac8cfda",
+        "enriched_at": "2026-01-03T10:01:23.276687+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Sequential Estimation of Dynamic Discrete Games": {
         "content_hash": "789b7639a742ebaa",
@@ -23272,11 +24098,11 @@
         "confidence": 0.9
       },
       "State Dependence and Alternative Explanations for Consumer Inertia": {
-        "content_hash": "af021d576889e836",
-        "enriched_at": "2026-01-01T04:18:10.128043+00:00",
+        "content_hash": "0bf0f912570b5af6",
+        "enriched_at": "2026-01-03T10:01:23.276785+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Optimal Nonparametric Estimation of First-Price Auctions": {
         "content_hash": "bad064a133ca8d1a",
@@ -23433,11 +24259,11 @@
         "confidence": 0.9
       },
       "Testing Models of Consumer Search Using Data on Web Browsing and Purchasing Behavior": {
-        "content_hash": "88ae1f0993c005e0",
-        "enriched_at": "2026-01-01T04:18:16.309143+00:00",
+        "content_hash": "d78bb6bb435548ec",
+        "enriched_at": "2026-01-03T10:01:23.276752+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Auctions versus Posted Prices in Online Markets": {
         "content_hash": "5e0b0a64164a6d90",
@@ -23447,18 +24273,18 @@
         "confidence": 1.0
       },
       "Using Price Distributions to Estimate Search Costs": {
-        "content_hash": "c26c5f97dfe51877",
-        "enriched_at": "2026-01-01T04:18:23.439495+00:00",
+        "content_hash": "a58dc5ed5a22171a",
+        "enriched_at": "2026-01-03T10:01:23.276718+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "The Power of Rankings: Quantifying the Effect of Rankings on Online Consumer Search and Purchase Decisions": {
-        "content_hash": "c22038cff5b15d94",
-        "enriched_at": "2026-01-01T04:18:29.480848+00:00",
+        "content_hash": "c844c5eccf05adfb",
+        "enriched_at": "2026-01-03T10:01:23.276653+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Advertising, Consumer Awareness, and Choice: Evidence from the U.S. Banking Industry": {
         "content_hash": "27f736677b97defe",
@@ -23489,8 +24315,8 @@
         "confidence": 0.9
       },
       "Mixed MNL Models for Discrete Response": {
-        "content_hash": "bf29d6c981f89d5f",
-        "enriched_at": "2026-01-01T04:22:45.105644+00:00",
+        "content_hash": "6372bf11173de12e",
+        "enriched_at": "2026-01-03T10:01:23.276594+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -23888,15 +24714,15 @@
         "confidence": 0.9
       },
       "Estimating Welfare in Insurance Markets Using Variation in Prices": {
-        "content_hash": "4e0b54148a9337e8",
-        "enriched_at": "2026-01-01T04:19:55.192276+00:00",
+        "content_hash": "98fd791d8d585e03",
+        "enriched_at": "2026-01-03T10:01:23.276876+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Selection in Insurance Markets: Theory and Empirics in Pictures": {
-        "content_hash": "e29a145cda312deb",
-        "enriched_at": "2026-01-01T04:25:51.032762+00:00",
+        "content_hash": "308cd3049721531e",
+        "enriched_at": "2026-01-03T10:01:23.276905+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -23986,15 +24812,15 @@
         "confidence": 0.9
       },
       "Anomaly Detection: A Survey": {
-        "content_hash": "e8ed5494ca37e96f",
-        "enriched_at": "2026-01-01T04:18:45.455869+00:00",
+        "content_hash": "176a7d79c2c2562b",
+        "enriched_at": "2026-01-03T10:01:23.276969+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
-        "confidence": 0.9
+        "confidence": 1.0
       },
       "Credit Card Fraud, Credit and Claim Risk: A Realistic Modeling and a Novel Learning Strategy": {
-        "content_hash": "5c027b8b1c74691d",
-        "enriched_at": "2026-01-01T04:18:51.907833+00:00",
+        "content_hash": "16c3e8788cc9132b",
+        "enriched_at": "2026-01-03T10:01:23.277000+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -24035,8 +24861,8 @@
         "confidence": 0.9
       },
       "Detecting Insurance Fraud Using Supervised and Unsupervised Machine Learning": {
-        "content_hash": "5e81c87dd186cb9a",
-        "enriched_at": "2026-01-01T04:18:56.720111+00:00",
+        "content_hash": "34513fb5bd4f47ff",
+        "enriched_at": "2026-01-03T10:01:23.277028+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -24539,8 +25365,8 @@
         "confidence": 0.9
       },
       "ETA Prediction with Graph Neural Networks in Google Maps": {
-        "content_hash": "5a90984c244faed2",
-        "enriched_at": "2026-01-01T04:19:03.783647+00:00",
+        "content_hash": "84c4a7039477fc96",
+        "enriched_at": "2026-01-03T10:01:23.277400+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -24805,8 +25631,8 @@
         "confidence": 0.9
       },
       "RAPPOR: Randomized Aggregatable Privacy-Preserving Ordinal Response": {
-        "content_hash": "ce2b8bc733c86cc5",
-        "enriched_at": "2026-01-01T04:19:10.333212+00:00",
+        "content_hash": "61b3b1ca3ca8a220",
+        "enriched_at": "2026-01-03T10:01:23.277307+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -24910,8 +25736,8 @@
         "confidence": 0.9
       },
       "Semi-supervised Knowledge Transfer for Deep Learning from Private Training Data (PATE)": {
-        "content_hash": "96800df9bf5736d6",
-        "enriched_at": "2026-01-01T04:19:17.952240+00:00",
+        "content_hash": "027416d6d3a62d68",
+        "enriched_at": "2026-01-03T10:01:23.277337+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -24938,8 +25764,8 @@
         "confidence": 0.9
       },
       "PATE-GAN: Generating Synthetic Data with Differential Privacy Guarantees": {
-        "content_hash": "3959dee459065d7c",
-        "enriched_at": "2025-12-31T03:13:24.797157+00:00",
+        "content_hash": "c4e902966dbd639a",
+        "enriched_at": "2026-01-03T10:01:23.279806+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -25414,15 +26240,15 @@
         "confidence": 0.9
       },
       "Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information": {
-        "content_hash": "63077cec94488c18",
-        "enriched_at": "2026-01-01T04:25:38.230953+00:00",
+        "content_hash": "bb55357f7ebf4193",
+        "enriched_at": "2026-01-03T10:01:23.277464+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
       },
       "Uncertainty and the Welfare Economics of Medical Care": {
-        "content_hash": "0addfc71104a158f",
-        "enriched_at": "2026-01-01T04:25:13.518412+00:00",
+        "content_hash": "0ffdad1c005d2de9",
+        "enriched_at": "2026-01-03T10:01:23.277493+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
@@ -25442,8 +26268,8 @@
         "confidence": 0.9
       },
       "Health Insurance and the Demand for Medical Care: Evidence from a Randomized Experiment": {
-        "content_hash": "303232553549ef15",
-        "enriched_at": "2026-01-01T04:25:30.779175+00:00",
+        "content_hash": "22fd011f3853dc81",
+        "enriched_at": "2026-01-03T10:01:23.277524+00:00",
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 1.0
@@ -26476,6 +27302,489 @@
         "model_version": "gpt-4o-mini",
         "schema_version": "2.1",
         "confidence": 0.9
+      },
+      "On the Profitability of Long-Life Customers in a Noncontractual Setting": {
+        "content_hash": "37d54ad3e639ae94",
+        "enriched_at": "2026-01-03T10:01:23.277555+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "A Customer Lifetime Value Framework for Customer Selection and Resource Allocation Strategy": {
+        "content_hash": "966efa423195d586",
+        "enriched_at": "2026-01-03T10:01:23.277586+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Counting Your Customers the Easy Way: An Alternative to the Pareto/NBD Model": {
+        "content_hash": "e3dfe1fe5e472ccb",
+        "enriched_at": "2026-01-03T10:01:23.277645+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "RFM and CLV: Using Iso-Value Curves for Customer Base Analysis": {
+        "content_hash": "e0082ee0641fab37",
+        "enriched_at": "2026-01-03T10:01:23.277673+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Probability Models for Customer-Base Analysis": {
+        "content_hash": "941fbd35888fd688",
+        "enriched_at": "2026-01-03T10:01:23.277702+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "A Note on Deriving the Pareto/NBD Model and Related Expressions": {
+        "content_hash": "5664b373b34041f1",
+        "enriched_at": "2026-01-03T10:01:23.277762+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Using Collaborative Filtering to Weave an Information Tapestry": {
+        "content_hash": "aabae4a79d6ceae3",
+        "enriched_at": "2026-01-03T10:01:23.277790+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "GroupLens: An Open Architecture for Collaborative Filtering of Netnews": {
+        "content_hash": "34218be69ab3e387",
+        "enriched_at": "2026-01-03T10:01:23.277819+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Item-Based Collaborative Filtering Recommendation Algorithms": {
+        "content_hash": "6804fca4df709f0c",
+        "enriched_at": "2026-01-03T10:01:23.277852+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Hybrid Recommender Systems: Survey and Experiments": {
+        "content_hash": "2ef082249652df66",
+        "enriched_at": "2026-01-03T10:01:23.277944+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Retention Futility: Targeting High-Risk Customers Might Be Ineffective": {
+        "content_hash": "32e6d072ad1c76ef",
+        "enriched_at": "2026-01-03T10:01:23.278006+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Predicting Customer Lifetime Duration and Future Purchase Behavior": {
+        "content_hash": "6babff92a155ebb2",
+        "enriched_at": "2026-01-03T10:01:23.278035+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Bagging and Boosting Classification Trees to Predict Churn": {
+        "content_hash": "379d3e0d0556a7bf",
+        "enriched_at": "2026-01-03T10:01:23.278066+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "A Generalized Framework for Estimating Customer Lifetime Value When Customer Lifetimes Are Not Observed": {
+        "content_hash": "94c1884f7dfb2b95",
+        "enriched_at": "2026-01-03T10:01:23.278096+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Aggregate Advertising Models: The State of the Art": {
+        "content_hash": "93d3b8eb07137f5e",
+        "enriched_at": "2026-01-03T10:01:23.278184+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Sustained Spending and Persistent Response: A New Look at Long-Term Marketing Profitability": {
+        "content_hash": "b5238330a4d37e16",
+        "enriched_at": "2026-01-03T10:01:23.278213+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Return on Marketing Investment (ROMI): Definition, Uses, and Challenges": {
+        "content_hash": "56b273c32e77093a",
+        "enriched_at": "2026-01-03T10:01:23.278242+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Data-driven Multi-touch Attribution Models": {
+        "content_hash": "b47d52f0b3aaa166",
+        "enriched_at": "2026-01-03T10:01:23.278269+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "The Effectiveness of Triggered Email Marketing in Addressing Browse Abandonments": {
+        "content_hash": "94e09f35bc7a8e87",
+        "enriched_at": "2026-01-03T10:01:23.278358+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Personalization versus Privacy: An Empirical Examination of the Online Consumer's Dilemma": {
+        "content_hash": "98b06164fb2da1c5",
+        "enriched_at": "2026-01-03T10:01:23.278388+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "The Personalization-Privacy Paradox in the Attention Economy": {
+        "content_hash": "c4f94368031a8e81",
+        "enriched_at": "2026-01-03T10:01:23.278421+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Customization of Online Advertising: The Role of Intrusiveness": {
+        "content_hash": "13bf9b70873c19e6",
+        "enriched_at": "2026-01-03T10:01:23.278450+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Decomposing the Promotional Revenue Bump for Loyalty Program Members versus Nonmembers": {
+        "content_hash": "8572499d620197bb",
+        "enriched_at": "2026-01-03T10:01:23.278511+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "The Long-Term Impact of Loyalty Programs on Consumer Purchase Behavior and Loyalty": {
+        "content_hash": "1273919f4926d59e",
+        "enriched_at": "2026-01-03T10:01:23.278568+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Do Customer Loyalty Programs Really Work?": {
+        "content_hash": "e7e2315d3c99585c",
+        "enriched_at": "2026-01-03T10:01:23.278597+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Generative AI for Economic Research: Use Cases and Implications for Economists": {
+        "content_hash": "720c4c071bb81dae",
+        "enriched_at": "2026-01-03T10:01:23.278655+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "AI Agents for Economic Research": {
+        "content_hash": "0251955bd66f8c9f",
+        "enriched_at": "2026-01-03T10:01:23.278682+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Large Language Models: An Applied Econometric Framework": {
+        "content_hash": "46a307d67edcd273",
+        "enriched_at": "2026-01-03T10:01:23.278712+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Large Language Models: A Primer for Economists": {
+        "content_hash": "c03b972ea2e2c8ad",
+        "enriched_at": "2026-01-03T10:01:23.278743+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "How to Learn and Teach Economics with Large Language Models": {
+        "content_hash": "d3ce7a80c35f878c",
+        "enriched_at": "2026-01-03T10:01:23.278771+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?": {
+        "content_hash": "a92d23a02d259200",
+        "enriched_at": "2026-01-03T10:01:23.278802+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Automated Social Science: Language Models as Scientist and Subjects": {
+        "content_hash": "13cc9805961b9537",
+        "enriched_at": "2026-01-03T10:01:23.278830+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Out of One, Many: Using Language Models to Simulate Human Samples": {
+        "content_hash": "f66b7c90a2fb0591",
+        "enriched_at": "2026-01-03T10:01:23.278860+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Synthetic Replacements for Human Survey Data? The Perils of Large Language Models": {
+        "content_hash": "52a2d9ab92fb6528",
+        "enriched_at": "2026-01-03T10:01:23.278891+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives": {
+        "content_hash": "45612580613728b4",
+        "enriched_at": "2026-01-03T10:01:23.278921+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Machine Learning: An Applied Econometric Approach": {
+        "content_hash": "64be53ce84f9281b",
+        "enriched_at": "2026-01-03T10:01:23.278950+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Machine Learning Methods That Economists Should Know About": {
+        "content_hash": "9a3353f209d98792",
+        "enriched_at": "2026-01-03T10:01:23.278981+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Deep Learning for Economists": {
+        "content_hash": "93cfd47da53eaa83",
+        "enriched_at": "2026-01-03T10:01:23.279009+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Machine Learning as a Tool for Hypothesis Generation": {
+        "content_hash": "8f358ac18394f3be",
+        "enriched_at": "2026-01-03T10:01:23.279039+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Recursive Partitioning for Heterogeneous Causal Effects": {
+        "content_hash": "19031955e47b00e3",
+        "enriched_at": "2026-01-03T10:01:23.279068+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Generalized Random Forests": {
+        "content_hash": "4390cc3fe55709a3",
+        "enriched_at": "2026-01-03T10:01:23.279125+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Text as Data": {
+        "content_hash": "d53d576600878432",
+        "enriched_at": "2026-01-03T10:01:23.279241+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Measuring Group Differences in High-Dimensional Choices: Method and Application to Congressional Speech": {
+        "content_hash": "c7f34b83650c105c",
+        "enriched_at": "2026-01-03T10:01:23.279271+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Text Algorithms in Economics": {
+        "content_hash": "4af4538324d4d06a",
+        "enriched_at": "2026-01-03T10:01:23.279300+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Measuring Economic Growth from Outer Space": {
+        "content_hash": "d261220b318f5f18",
+        "enriched_at": "2026-01-03T10:01:23.279328+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Combining Satellite Imagery and Machine Learning to Predict Poverty": {
+        "content_hash": "4b90a18bea6e250b",
+        "enriched_at": "2026-01-03T10:01:23.279356+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Using Publicly Available Satellite Imagery and Deep Learning to Understand Economic Well-Being in Africa": {
+        "content_hash": "3e976b1335bce8ba",
+        "enriched_at": "2026-01-03T10:01:23.279385+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Using Deep Learning and Google Street View to Estimate the Demographic Makeup of Neighborhoods across the United States": {
+        "content_hash": "d8edae5483f0cc07",
+        "enriched_at": "2026-01-03T10:01:23.279415+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Agent-Based Computational Economics: A Constructive Approach to Economic Theory": {
+        "content_hash": "06a625ca8732d811",
+        "enriched_at": "2026-01-03T10:01:23.279451+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Agent-Based Modeling in Economics and Finance: Past, Present, and Future": {
+        "content_hash": "3289704cbbd3e9bf",
+        "enriched_at": "2026-01-03T10:01:23.279479+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Artificial Economic Life: A Simple Model of a Stockmarket": {
+        "content_hash": "31eb5668f4c25c8a",
+        "enriched_at": "2026-01-03T10:01:23.279508+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "The Economy Needs Agent-Based Modelling": {
+        "content_hash": "467bb63620a68cf5",
+        "enriched_at": "2026-01-03T10:01:23.279538+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Leverage Causes Fat Tails and Clustered Volatility": {
+        "content_hash": "5917a2eead44b6b4",
+        "enriched_at": "2026-01-03T10:01:23.279568+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Mesa: An Agent-Based Modeling Framework": {
+        "content_hash": "45c574084d249dd5",
+        "enriched_at": "2026-01-03T10:01:23.279597+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Econ-ARK and HARK: Open-Source Tools for Computational Economics": {
+        "content_hash": "ea87ddfd06a55633",
+        "enriched_at": "2026-01-03T10:01:23.279625+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "A Standard Protocol for Describing Individual-Based and Agent-Based Models": {
+        "content_hash": "b28b33e210edcb18",
+        "enriched_at": "2026-01-03T10:01:23.279652+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Modeling Tabular Data using Conditional GAN": {
+        "content_hash": "053d7512a7e34a9c",
+        "enriched_at": "2026-01-03T10:01:23.279687+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "DataSynthesizer: Privacy-Preserving Synthetic Datasets": {
+        "content_hash": "aa04e5cd506889c9",
+        "enriched_at": "2026-01-03T10:01:23.279716+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "synthpop: Bespoke Creation of Synthetic Data in R": {
+        "content_hash": "52a0a2bd7c0e55b7",
+        "enriched_at": "2026-01-03T10:01:23.279744+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "The Synthetic Data Vault": {
+        "content_hash": "fdfad96ea79cafc9",
+        "enriched_at": "2026-01-03T10:01:23.279775+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Anonymeter: A Python Library for Privacy Risk Assessment": {
+        "content_hash": "c0b72fafdb020b65",
+        "enriched_at": "2026-01-03T10:01:23.279835+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "The AI Economist: Taxation Policy Design via Two-Level Deep Reinforcement Learning": {
+        "content_hash": "c5070fd65cea1a4b",
+        "enriched_at": "2026-01-03T10:01:23.279896+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Multi-Agent Reinforcement Learning in Sequential Social Dilemmas": {
+        "content_hash": "517e90f22e01e597",
+        "enriched_at": "2026-01-03T10:01:23.279925+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Deep Reinforcement Learning for Optimal Execution": {
+        "content_hash": "a2faf8425ab9f30c",
+        "enriched_at": "2026-01-03T10:01:23.279953+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "Discovering Algorithmic Pricing in Practice: A Framework for Learning-Based Collusion": {
+        "content_hash": "dc26afcbbc9d1ff7",
+        "enriched_at": "2026-01-03T10:01:23.279986+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "ABIDES: Towards High-Fidelity Multi-Agent Market Simulation": {
+        "content_hash": "016003dc34b31b6b",
+        "enriched_at": "2026-01-03T10:01:23.280016+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Get Real: Realism Metrics for Robust Limit Order Book Market Simulations": {
+        "content_hash": "8a7fb3b134dc0d11",
+        "enriched_at": "2026-01-03T10:01:23.280043+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 0.9
+      },
+      "Limit Order Book Simulation Methods: A Review": {
+        "content_hash": "f0be8543cc9fa60f",
+        "enriched_at": "2026-01-03T10:01:23.280100+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
+      },
+      "AuctionGym: Simulating Online Advertising Auctions": {
+        "content_hash": "c4cc1a372a7c910a",
+        "enriched_at": "2026-01-03T10:01:23.280129+00:00",
+        "model_version": "gpt-4o-mini",
+        "schema_version": "2.1",
+        "confidence": 1.0
       }
     }
   }

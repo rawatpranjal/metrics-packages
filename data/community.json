@@ -87,7 +87,7 @@
     ],
     "event_format": "workshop",
     "geographic_focus": "Amazon",
-    "model_score": 0.007,
+    "model_score": 0.0069,
     "image_url": "https://assets.amazon.science/dims4/default/2eb32de/2147483647/strip/true/crop/1198x629+0+0/resize/1200x630!/quality/90/?url=http%3A%2F%2Famazon-topics-brightspot.s3.amazonaws.com%2Fscience%2Fa3%2Ff3%2F855c69f94f16a8803a91c00bdbbd%2Famazon-science-research-area-economics.jpg"
   },
   {
@@ -126,7 +126,7 @@
       "What are the benefits of attending MeasuringU?"
     ],
     "event_format": "online",
-    "model_score": 0.007,
+    "model_score": 0.0069,
     "subtopic": "Experimentation"
   },
   {
@@ -281,6 +281,52 @@
     "frequency": "annual",
     "model_score": 0.0023,
     "image_url": "https://cdn.prod.website-files.com/6521956630a53cecc9e188c3/66ed22ea77fcd2bfa70d51b5_Artboard.png"
+  },
+  {
+    "name": "INFORMS Marketing Science Conference",
+    "description": "Premier academic conference for quantitative marketing research. Covers customer analytics, pricing, advertising, and marketing models with strong industry participation.",
+    "category": "MarTech & Customer Analytics",
+    "url": "https://www.informs.org/Meetings-Conferences/INFORMS-Conference-Calendar/2025-INFORMS-Marketing-Science-Conference",
+    "type": "Academic Conference",
+    "tags": [
+      "Marketing Science",
+      "Conference",
+      "Academic"
+    ],
+    "domain": "Marketing",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "marketing-science",
+      "customer-analytics",
+      "academic-conference",
+      "industry-event"
+    ],
+    "summary": "The INFORMS Marketing Science Conference is a premier academic event focusing on quantitative marketing research. It attracts attendees from academia and industry who are interested in customer analytics, pricing, advertising, and marketing models.",
+    "use_cases": [
+      "Gain insights into quantitative marketing research",
+      "Network with industry professionals",
+      "Learn about the latest trends in customer analytics"
+    ],
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What is the INFORMS Marketing Science Conference?",
+      "Who should attend the Marketing Science Conference?",
+      "What topics are covered at the INFORMS conference?",
+      "How does the conference benefit industry professionals?",
+      "What networking opportunities are available at the conference?",
+      "When is the next Marketing Science Conference?"
+    ],
+    "community_type": "conference",
+    "engagement_level": "professional",
+    "event_format": "conference",
+    "frequency": "annual",
+    "model_score": 0.0001
   },
   {
     "name": "Nick Huntington-Klein",
@@ -876,52 +922,6 @@
     ],
     "event_format": "conference",
     "geographic_focus": "International",
-    "frequency": "annual",
-    "model_score": 0.0
-  },
-  {
-    "name": "INFORMS Marketing Science Conference",
-    "description": "Premier academic conference for quantitative marketing research. Covers customer analytics, pricing, advertising, and marketing models with strong industry participation.",
-    "category": "MarTech & Customer Analytics",
-    "url": "https://www.informs.org/Meetings-Conferences/INFORMS-Conference-Calendar/2025-INFORMS-Marketing-Science-Conference",
-    "type": "Academic Conference",
-    "tags": [
-      "Marketing Science",
-      "Conference",
-      "Academic"
-    ],
-    "domain": "Marketing",
-    "difficulty": "intermediate",
-    "prerequisites": [],
-    "topic_tags": [
-      "marketing-science",
-      "customer-analytics",
-      "academic-conference",
-      "industry-event"
-    ],
-    "summary": "The INFORMS Marketing Science Conference is a premier academic event focusing on quantitative marketing research. It attracts attendees from academia and industry who are interested in customer analytics, pricing, advertising, and marketing models.",
-    "use_cases": [
-      "Gain insights into quantitative marketing research",
-      "Network with industry professionals",
-      "Learn about the latest trends in customer analytics"
-    ],
-    "audience": [
-      "Early-PhD",
-      "Junior-DS",
-      "Mid-DS",
-      "Senior-DS"
-    ],
-    "synthetic_questions": [
-      "What is the INFORMS Marketing Science Conference?",
-      "Who should attend the Marketing Science Conference?",
-      "What topics are covered at the INFORMS conference?",
-      "How does the conference benefit industry professionals?",
-      "What networking opportunities are available at the conference?",
-      "When is the next Marketing Science Conference?"
-    ],
-    "community_type": "conference",
-    "engagement_level": "professional",
-    "event_format": "conference",
     "frequency": "annual",
     "model_score": 0.0
   },
@@ -2431,13 +2431,14 @@
     "prerequisites": [],
     "topic_tags": [
       "academic-conference",
-      "marketing-science",
-      "networking"
+      "networking",
+      "industry-event"
     ],
-    "summary": "The ISMS Marketing Science Conference is a premier academic venue for marketing professionals, featuring over 12 parallel tracks that cover a wide range of topics in marketing science. Attendees include researchers, academics, and industry professionals interested in the latest developments in marketing methodologies.",
+    "summary": "The ISMS Marketing Science Conference is a premier academic venue that brings together researchers, practitioners, and students in the field of marketing science. Attendees can expect a diverse range of topics, including choice models, game theory, and advertising effectiveness, making it an ideal event for those looking to deepen their understanding of marketing analytics.",
     "use_cases": [
-      "to learn about the latest marketing science research",
-      "to network with industry professionals and academics"
+      "Gain insights into advanced marketing techniques",
+      "Network with leading experts in marketing science",
+      "Learn about the latest research and trends in marketing"
     ],
     "audience": [
       "Early-PhD",
@@ -2446,20 +2447,21 @@
       "Senior-DS"
     ],
     "synthetic_questions": [
-      "What topics are covered at the ISMS Marketing Science Conference?",
-      "Who should attend the ISMS Marketing Science Conference?",
-      "What is the format of the ISMS Marketing Science Conference?",
-      "How many parallel tracks are there at the ISMS Marketing Science Conference?",
-      "Where is the ISMS Marketing Science Conference held?",
-      "When does the ISMS Marketing Science Conference take place?",
-      "What are the benefits of attending the ISMS Marketing Science Conference?",
-      "What kind of networking opportunities are available at the ISMS Marketing Science Conference?"
+      "What are the main topics covered at the ISMS Marketing Science Conference?",
+      "Who typically attends the ISMS Marketing Science Conference?",
+      "What networking opportunities are available at the ISMS Marketing Science Conference?",
+      "How does the ISMS Marketing Science Conference differ from other marketing conferences?",
+      "What types of sessions are included in the ISMS Marketing Science Conference?",
+      "What can attendees expect to gain from participating in the ISMS Marketing Science Conference?",
+      "Is the ISMS Marketing Science Conference more academic or industry-focused?",
+      "What is the location and date of the ISMS Marketing Science Conference?"
     ],
     "event_format": "conference",
     "geographic_focus": "Washington DC",
     "frequency": "annual",
     "model_score": 0.0,
-    "image_url": "https://www.informs.org/design/user_inform_v2/images/logo.png"
+    "image_url": "https://www.informs.org/design/user_inform_v2/images/logo.png",
+    "embedding_text": "The ISMS Marketing Science Conference is recognized as a leading academic event in the field of marketing science, providing a platform for researchers and practitioners to share their latest findings and insights. With over 12 parallel tracks spanning 2.5 days, the conference covers a wide array of topics including choice models, game theory, structural econometric models, randomized control trials, pricing strategies, advertising effectiveness, and causal inference. This diverse range of subjects makes the conference particularly appealing to both academic researchers and industry professionals who are keen to explore the intersection of theory and practice in marketing. Typically, attendees include early-stage PhD students, junior data scientists, mid-level data scientists, and senior data scientists, all of whom are eager to engage with cutting-edge research and methodologies. The conference format includes a mix of keynote talks, panel discussions, and networking sessions, providing ample opportunity for participants to connect with peers and industry leaders. The academic orientation of the conference is complemented by its relevance to real-world marketing challenges, making it a unique venue for knowledge exchange. Notable tracks may focus on emerging trends and methodologies in marketing analytics, offering attendees insights that are both theoretical and practical. Networking opportunities abound, allowing participants to forge valuable connections that can lead to collaborations and career advancements. Attendees typically leave the conference with a deeper understanding of the latest research, practical applications of marketing science, and a network of contacts that can support their professional growth. Compared to similar events, the ISMS Marketing Science Conference stands out due to its rigorous academic focus combined with its commitment to addressing real-world marketing issues, making it a must-attend for anyone serious about advancing their knowledge and expertise in the field."
   },
   {
     "name": "ARF Marketing Analytics Accelerator",
@@ -2694,18 +2696,18 @@
     "difficulty": null,
     "prerequisites": [],
     "topic_tags": [
-      "pricing analytics",
-      "dynamic pricing",
-      "demand forecasting",
-      "optimization algorithms",
-      "marketplace design",
-      "algorithmic pricing"
+      "pricing-analytics",
+      "dynamic-pricing",
+      "demand-forecasting",
+      "optimization-algorithms",
+      "marketplace-design",
+      "algorithmic-pricing"
     ],
-    "summary": "The INFORMS Revenue Management and Pricing Conference is a premier forum for pricing analytics held at top business schools. It attracts professionals and academics interested in dynamic pricing, demand forecasting, and optimization strategies.",
+    "summary": "The INFORMS Revenue Management and Pricing Conference is a premier forum that focuses on pricing analytics, bringing together experts from academia and industry. Attendees typically include pricing analysts, researchers, and business professionals interested in the latest trends and techniques in pricing strategies.",
     "use_cases": [
-      "to learn about the latest trends in pricing analytics",
-      "to network with industry professionals and academics",
-      "to gain insights into dynamic pricing strategies"
+      "Gain insights into the latest pricing strategies",
+      "Network with industry leaders and academics",
+      "Learn about advancements in pricing analytics"
     ],
     "audience": [
       "Mid-DS",
@@ -2713,20 +2715,21 @@
       "Curious-browser"
     ],
     "synthetic_questions": [
-      "What is the INFORMS Revenue Management and Pricing Conference?",
+      "What are the key topics discussed at the INFORMS Revenue Management and Pricing Conference?",
       "Who should attend the INFORMS Revenue Management and Pricing Conference?",
-      "What topics are covered at the INFORMS Revenue Management and Pricing Conference?",
-      "How can pricing analytics improve business outcomes?",
+      "What networking opportunities are available at the INFORMS Revenue Management and Pricing Conference?",
       "What are the benefits of attending the INFORMS Revenue Management and Pricing Conference?",
+      "How does the INFORMS Revenue Management and Pricing Conference compare to other pricing conferences?",
+      "What types of sessions can attendees expect at the INFORMS Revenue Management and Pricing Conference?",
       "Where is the INFORMS Revenue Management and Pricing Conference held?",
-      "When does the INFORMS Revenue Management and Pricing Conference take place?",
-      "What networking opportunities are available at the INFORMS Revenue Management and Pricing Conference?"
+      "When does the INFORMS Revenue Management and Pricing Conference take place?"
     ],
     "event_format": "conference",
     "geographic_focus": "Columbia",
     "frequency": "annual",
     "model_score": 0.0,
-    "image_url": "https://www.informs.org/design/user_inform_v2/images/logo.png"
+    "image_url": "https://www.informs.org/design/user_inform_v2/images/logo.png",
+    "embedding_text": "The INFORMS Revenue Management and Pricing Conference serves as a leading platform for professionals and researchers in the field of pricing analytics. This annual event is held at prestigious business schools, making it accessible to a wide range of attendees from both academia and industry. The conference focuses on critical themes such as dynamic pricing, demand forecasting, optimization algorithms, marketplace design, and algorithmic pricing. These topics are essential for understanding the complexities of pricing strategies in various markets. Attendees typically include pricing analysts, data scientists, business strategists, and academics who are keen to explore the latest methodologies and tools in pricing analytics. The conference features a mix of session formats, including keynote talks, panel discussions, workshops, and networking events, allowing participants to engage deeply with the material and with each other. The academic orientation of the conference is complemented by practical insights from industry leaders, providing a well-rounded perspective on the challenges and opportunities in pricing. Notable tracks may include case studies from leading companies, discussions on emerging trends, and workshops focused on hands-on applications of pricing techniques. Networking opportunities abound, as attendees can connect with peers, share experiences, and forge collaborations that extend beyond the conference. Participants typically leave with a wealth of knowledge, new contacts, and actionable insights that can be applied in their own organizations. Compared to similar events, the INFORMS Revenue Management and Pricing Conference stands out for its rigorous academic approach combined with practical industry applications, making it a must-attend for anyone involved in pricing analytics."
   },
   {
     "name": "MSOM Conference",
@@ -2749,16 +2752,18 @@
     "difficulty": "intermediate",
     "prerequisites": [],
     "topic_tags": [
+      "manufacturing",
       "service operations",
       "platform operations",
       "sharing economy",
       "operations-finance interface"
     ],
-    "summary": "The MSOM Conference focuses on the intersection of manufacturing and service operations management, attracting professionals and researchers interested in service operations, platform operations, and the sharing economy. Attendees typically include academics, industry practitioners, and students engaged in operations management.",
+    "summary": "The MSOM Conference is an annual event focused on the intersection of manufacturing and service operations management. It attracts a diverse audience including academics, industry professionals, and researchers interested in the latest developments in service operations, platform operations, and the sharing economy.",
     "use_cases": [
-      "Gain insights into service operations and platform management",
-      "Network with industry experts and academics",
-      "Explore the latest research in operations management"
+      "To learn about the latest research in service operations",
+      "To network with industry leaders and academics",
+      "To explore new trends in the sharing economy",
+      "To gain insights into the operations-finance interface"
     ],
     "audience": [
       "Early-PhD",
@@ -2767,20 +2772,21 @@
       "Senior-DS"
     ],
     "synthetic_questions": [
-      "What are the key topics covered at the MSOM Conference?",
+      "What topics are covered at the MSOM Conference?",
       "Who should attend the MSOM Conference?",
-      "What is the focus of the MSOM Conference?",
-      "How does the MSOM Conference address service operations?",
-      "What research areas are highlighted at the MSOM Conference?",
-      "Where is the MSOM Conference held?",
-      "When does the MSOM Conference take place?",
-      "What type of networking opportunities are available at the MSOM Conference?"
+      "What networking opportunities are available at the MSOM Conference?",
+      "How does the MSOM Conference differ from other industry events?",
+      "What are the main themes of the MSOM Conference?",
+      "What types of sessions can attendees expect at the MSOM Conference?",
+      "What benefits do attendees gain from participating in the MSOM Conference?",
+      "Where is the MSOM Conference held?"
     ],
     "event_format": "conference",
     "geographic_focus": "London",
     "frequency": "annual",
     "model_score": 0.0,
-    "image_url": "https://www.informs.org/design/user_inform_v2/images/logo.png"
+    "image_url": "https://www.informs.org/design/user_inform_v2/images/logo.png",
+    "embedding_text": "The MSOM Conference is a premier annual event that delves into the critical areas of manufacturing and service operations management. It serves as a platform for researchers, practitioners, and industry leaders to exchange ideas and insights on various themes such as service operations, platform operations, and the sharing economy. Attendees typically include early-stage PhD students, junior data scientists, mid-level data scientists, and senior data scientists, all of whom are eager to engage with the latest research and practical applications in the field. The conference features a variety of session formats, including keynote talks, panel discussions, and networking events, allowing participants to interact with thought leaders and peers. The academic orientation of the conference is complemented by a strong industry presence, making it a unique venue for bridging the gap between theory and practice. The geographic reach of the conference is primarily focused on London, but it attracts a global audience, enhancing accessibility for international participants. Notable tracks may include specialized sessions on emerging trends and technologies in operations management, providing attendees with targeted insights. Networking opportunities are abundant, with dedicated sessions designed to foster connections among attendees, which can lead to collaborative research and professional partnerships. Participants typically gain valuable knowledge about the latest advancements in their fields, as well as practical tools and frameworks that can be applied in their work. Compared to similar events, the MSOM Conference stands out for its rigorous academic focus combined with real-world applicability, making it an essential gathering for anyone involved in the operations management landscape."
   },
   {
     "name": "POMS Annual Conference",
@@ -3628,18 +3634,15 @@
     "difficulty": "intermediate",
     "prerequisites": [],
     "topic_tags": [
-      "healthcare",
-      "economics",
-      "research",
-      "policy",
-      "analytics"
+      "healthcare-economics",
+      "academic-conference",
+      "networking"
     ],
-    "summary": "ASHEcon is the premier US health economics research conference featuring over 180 sessions. It attracts researchers and professionals interested in theoretical and empirical studies on healthcare costs, insurance, pharmaceuticals, and policy.",
+    "summary": "ASHEcon is the premier US health economics research conference, featuring over 180 sessions that delve into both theoretical and empirical research on healthcare costs, insurance, pharmaceuticals, and policy. Attendees include researchers, policymakers, and practitioners interested in the application of analytics in health economics.",
     "use_cases": [
       "networking with professionals in health economics",
-      "learning about the latest research in healthcare",
-      "presenting research findings",
-      "exploring policy implications in health economics"
+      "learning about the latest research in healthcare costs and policy",
+      "engaging with industry experts and academics"
     ],
     "audience": [
       "Early-PhD",
@@ -3648,23 +3651,21 @@
       "Senior-DS"
     ],
     "synthetic_questions": [
-      "What is ASHEcon?",
-      "Who attends ASHEcon?",
-      "What topics are covered at ASHEcon?",
-      "How can I register for ASHEcon?",
-      "What are the dates for ASHEcon 2025 and 2026?",
-      "Where is ASHEcon held?",
-      "What is the focus of ASHEcon?",
-      "How many sessions are at ASHEcon?"
+      "What are the main themes of ASHEcon?",
+      "Who typically attends the ASHEcon conference?",
+      "What types of sessions are offered at ASHEcon?",
+      "How does ASHEcon compare to other health economics conferences?",
+      "What networking opportunities are available at ASHEcon?",
+      "What can attendees expect to gain from ASHEcon?",
+      "Where will ASHEcon be held in 2025 and 2026?",
+      "What topics are covered in the sessions at ASHEcon?"
     ],
     "event_format": "conference",
-    "geographic_focus": [
-      "Nashville",
-      "Minneapolis"
-    ],
+    "geographic_focus": "US",
     "frequency": "annual",
     "model_score": 0.0,
-    "image_url": "/images/logos/ashecon.png"
+    "image_url": "/images/logos/ashecon.png",
+    "embedding_text": "The ASHEcon (American Society of Health Economists) conference is a leading event in the field of health economics, showcasing a diverse array of research and discussions centered around healthcare costs, insurance, pharmaceuticals, and policy implications. With over 180 sessions, the conference caters to a wide range of interests within health economics, including both theoretical frameworks and empirical research. Attendees typically include a mix of researchers, policymakers, and practitioners, making it an ideal venue for those looking to engage with the latest findings and methodologies in the field. The conference format includes a variety of session types such as keynote talks, panel discussions, and networking events, providing ample opportunities for participants to connect and collaborate. The academic orientation of the conference is complemented by industry insights, making it a unique platform for exchanging ideas between academia and practice. The geographic reach of ASHEcon is primarily focused on the United States, with future events scheduled in Nashville for 2025 and Minneapolis for 2026, ensuring accessibility for a broad audience. Notable tracks often highlight emerging trends and critical issues in health economics, while dedicated networking sessions allow attendees to forge valuable connections. Participants can expect to gain insights into cutting-edge research, practical applications of health economics, and a deeper understanding of the challenges facing the healthcare sector today. Compared to similar events, ASHEcon stands out for its comprehensive approach to health economics, combining rigorous academic research with practical implications, making it a must-attend for anyone involved in the field."
   },
   {
     "name": "ISPOR (Health Economics and Outcomes Research)",
@@ -5350,13 +5351,15 @@
       "marketing",
       "advertising",
       "analytics",
-      "research"
+      "AI",
+      "cross-platform measurement"
     ],
-    "summary": "The ARF Marketing Analytics Accelerator is a flagship audience measurement conference that focuses on peer-reviewed research related to cross-platform measurement, attention metrics, and the role of AI in advertising. It attracts advertising researchers and professionals interested in the latest advancements in marketing science.",
+    "summary": "The ARF Marketing Analytics Accelerator is a flagship audience measurement conference that focuses on peer-reviewed research in cross-platform measurement, attention metrics, and the role of AI in advertising. It attracts advertising researchers and professionals who are interested in the latest advancements in marketing science.",
     "use_cases": [
-      "Learn about the latest research in marketing analytics",
-      "Network with industry professionals",
-      "Gain insights into AI applications in advertising"
+      "Gain insights into audience measurement techniques",
+      "Network with industry leaders and researchers",
+      "Learn about the application of AI in advertising",
+      "Understand the importance of attention metrics in marketing"
     ],
     "audience": [
       "Mid-DS",
@@ -5365,19 +5368,20 @@
     ],
     "synthetic_questions": [
       "What are the latest trends in audience measurement?",
-      "How is AI impacting advertising metrics?",
-      "What research is being presented at the ARF Marketing Analytics Accelerator?",
-      "Who are the key speakers at the conference?",
-      "What networking opportunities are available at the event?",
-      "How can I apply cross-platform measurement in my work?",
+      "How does AI impact advertising effectiveness?",
       "What are attention metrics and why are they important?",
-      "What should I expect from attending this conference?"
+      "Who are the leading researchers in marketing analytics?",
+      "What networking opportunities are available at ARF Marketing Analytics Accelerator?",
+      "How can I apply cross-platform measurement in my marketing strategy?",
+      "What sessions should I attend for the best insights?",
+      "What distinguishes ARF Marketing Analytics Accelerator from other conferences?"
     ],
     "event_format": "conference",
     "geographic_focus": "New York, NY",
     "frequency": "annual",
     "model_score": 0.0,
-    "image_url": "/images/logos/thearf.png"
+    "image_url": "/images/logos/thearf.png",
+    "embedding_text": "The ARF Marketing Analytics Accelerator serves as a premier venue for professionals and researchers in the field of marketing analytics, focusing on the critical themes of audience measurement, cross-platform measurement, attention metrics, and the integration of artificial intelligence in advertising strategies. This annual conference is designed for individuals who are deeply engaged in the marketing science domain, providing a platform for the exchange of innovative ideas and research findings. Attendees typically include mid-level and senior data scientists, as well as curious browsers who are eager to expand their knowledge in this rapidly evolving field. The conference features a variety of session formats, including keynote talks from industry leaders, panel discussions that foster dialogue among experts, and workshops that provide hands-on learning experiences. These sessions are carefully curated to balance academic rigor with practical applications, catering to both researchers and industry practitioners. The ARF Marketing Analytics Accelerator is characterized by its strong academic orientation, with a significant emphasis on peer-reviewed research, making it a unique gathering for those seeking to understand the theoretical underpinnings of marketing analytics while also exploring real-world applications. The geographic reach of the conference is primarily centered in New York, NY, making it accessible to a diverse audience of professionals from various sectors within the marketing landscape. Notable tracks may include discussions on the latest methodologies in audience measurement, case studies showcasing successful implementations of AI in advertising, and sessions dedicated to the exploration of attention metrics and their implications for marketing strategies. Networking opportunities abound at the conference, allowing attendees to connect with thought leaders, share insights, and establish valuable professional relationships. Participants typically gain a deeper understanding of the complexities involved in audience measurement and the transformative potential of AI in advertising, equipping them with actionable insights that can be applied in their respective roles. Compared to similar events, the ARF Marketing Analytics Accelerator stands out due to its rigorous academic focus, the quality of its research presentations, and the caliber of its attendees, making it an essential event for anyone serious about advancing their knowledge and skills in marketing analytics."
   },
   {
     "name": "Programmatic I/O",
@@ -5715,15 +5719,17 @@
     "prerequisites": [],
     "topic_tags": [
       "academic-conference",
+      "workshop",
       "transportation-optimization",
       "machine-learning",
       "operations-research"
     ],
-    "summary": "The INFORMS Transportation Science and Logistics workshop focuses on machine learning and operations research for transportation optimization. It is an academic-focused event that attracts professionals and researchers in the field.",
+    "summary": "The INFORMS TSL Workshop is an academic-focused event that delves into the intersection of machine learning and operations research, specifically tailored for transportation optimization. Attendees typically include researchers, practitioners, and students interested in advancing their knowledge and skills in these critical areas of transportation science and logistics.",
     "use_cases": [
-      "to learn about ML applications in transportation",
-      "to network with academic professionals",
-      "to gain insights into operations research methods"
+      "to learn about the latest research in transportation optimization",
+      "to network with experts in machine learning and operations research",
+      "to enhance skills in transportation science",
+      "to explore academic collaborations"
     ],
     "audience": [
       "Early-PhD",
@@ -5732,20 +5738,21 @@
       "Senior-DS"
     ],
     "synthetic_questions": [
-      "What is the focus of the INFORMS TSL Workshop?",
-      "Who should attend the INFORMS TSL Workshop?",
       "What topics will be covered at the INFORMS TSL Workshop?",
-      "How does the INFORMS TSL Workshop contribute to transportation optimization?",
+      "Who should attend the INFORMS TSL Workshop?",
       "What are the benefits of attending the INFORMS TSL Workshop?",
-      "Where is the INFORMS TSL Workshop being held?",
-      "When does the INFORMS TSL Workshop take place?",
-      "Is the INFORMS TSL Workshop suitable for beginners?"
+      "How does the INFORMS TSL Workshop differ from other conferences?",
+      "What networking opportunities are available at the INFORMS TSL Workshop?",
+      "What is the focus of the INFORMS TSL Workshop?",
+      "What types of sessions are included in the INFORMS TSL Workshop?",
+      "Where is the INFORMS TSL Workshop being held?"
     ],
     "event_format": "workshop",
     "geographic_focus": "Seoul, Korea",
     "frequency": "annual",
     "model_score": 0.0,
-    "image_url": "https://www.informs.org/design/user_inform_v2/images/logo.png"
+    "image_url": "https://www.informs.org/design/user_inform_v2/images/logo.png",
+    "embedding_text": "The INFORMS TSL Workshop is an annual event that focuses on the integration of machine learning (ML) and operations research (OR) within the realm of transportation optimization. This workshop is designed for academics, researchers, and industry professionals who are keen on exploring innovative methodologies and applications that enhance the efficiency and effectiveness of transportation systems. Attendees can expect a rich program that includes a variety of session formats such as keynote talks, panel discussions, and hands-on workshops, all aimed at fostering a collaborative learning environment. The workshop typically attracts a diverse audience, including early-stage PhD students, junior data scientists, and seasoned professionals in the field, providing ample opportunities for networking and knowledge exchange. Participants will gain insights into cutting-edge research, practical applications, and emerging trends in transportation science, making it an invaluable experience for those looking to deepen their expertise. The INFORMS TSL Workshop stands out among similar events due to its strong academic orientation, with a focus on rigorous methods and theoretical advancements, while also addressing practical challenges faced by the industry. The geographic location in Seoul, Korea, adds an international dimension, inviting participants from various regions to engage in discussions and collaborations that transcend borders. Overall, the workshop serves as a pivotal platform for advancing the field of transportation science and logistics, equipping attendees with the tools and connections necessary to drive innovation and improvement in their respective areas of work."
   },
   {
     "name": "ITC Vegas (InsureTech Connect)",
@@ -10693,39 +10700,43 @@
       "Online",
       "Professional Association"
     ],
-    "difficulty": null,
+    "difficulty": "beginner",
     "prerequisites": [],
     "topic_tags": [
       "networking",
       "academic-conference",
+      "industry-event",
       "operations-research",
       "analytics"
     ],
-    "summary": "INFORMS Communities is an operations research community that offers specialized groups focused on revenue management, decision analysis, and analytics. It serves as a platform for professionals and academics to network and engage, particularly during its annual meeting and analytics conference.",
+    "summary": "INFORMS Communities is an operations research community that brings together professionals and academics interested in specialized fields such as Revenue Management, Decision Analysis, and Analytics. Attendees include early-career researchers, junior faculty, and industry practitioners looking to enhance their skills and network with peers.",
     "use_cases": [
-      "networking opportunities",
-      "access to specialized knowledge",
-      "professional development"
+      "networking with industry professionals",
+      "gaining insights into operations research",
+      "connecting with academic peers",
+      "participating in specialized workshops"
     ],
     "audience": [
       "Early-PhD",
       "Junior-DS",
       "Mid-DS",
-      "Senior-DS"
+      "Senior-DS",
+      "Curious-browser"
     ],
     "synthetic_questions": [
       "What is INFORMS Communities?",
       "How can I join INFORMS Communities?",
-      "What events does INFORMS host?",
-      "What are the benefits of joining INFORMS?",
-      "Who can attend the annual meeting?",
-      "What topics are covered in the analytics conference?",
-      "How much is the membership fee?",
-      "What specialized groups are available in INFORMS?"
+      "What are the benefits of attending the Annual Meeting?",
+      "What topics are covered in the Analytics Conference?",
+      "Who should attend INFORMS Communities events?",
+      "What networking opportunities are available at INFORMS?",
+      "How does INFORMS support junior faculty?",
+      "What is the membership cost for INFORMS Communities?"
     ],
     "event_format": "online",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "embedding_text": "INFORMS Communities serves as a vital hub for professionals engaged in operations research, providing a platform for collaboration, knowledge sharing, and networking. The community encompasses specialized groups such as the Revenue Management & Pricing Section, Decision Analysis Section, and Analytics Section, catering to diverse interests within the field. Membership, which is approximately $170 per year, grants access to a wealth of resources, including the Annual Meeting and Analytics Conference, which are recognized as premier networking events in the industry. These events typically attract a mix of academics, industry practitioners, and early-career researchers, fostering an environment conducive to learning and professional growth. Attendees can expect a variety of session formats, including keynote talks, panel discussions, and interactive workshops, all designed to facilitate engagement and knowledge exchange. The focus on both academic and industry perspectives ensures that participants gain a well-rounded understanding of current trends and challenges in operations research. Networking opportunities abound, allowing attendees to connect with thought leaders and peers, share insights, and explore potential collaborations. The community's commitment to supporting junior faculty and early-career professionals is evident through dedicated sessions and resources aimed at helping them navigate their careers. Overall, INFORMS Communities stands out as a premier destination for those looking to deepen their understanding of operations research while building valuable connections in the field."
   },
   {
     "name": "AEA EconSpark",
@@ -12217,17 +12228,18 @@
     ],
     "lat": 37.7749,
     "lng": -122.4194,
-    "difficulty": "beginner|intermediate",
+    "difficulty": null,
     "prerequisites": [],
     "topic_tags": [
       "networking",
-      "industry-event"
+      "analytics",
+      "operations-research"
     ],
-    "summary": "The INFORMS San Francisco Chapter hosts monthly meetups for professionals in operations research and analytics. These events provide an opportunity for networking and sharing knowledge among attendees.",
+    "summary": "The INFORMS San Francisco Chapter hosts monthly meetups aimed at professionals in operations research and analytics. Attendees typically include data scientists, analysts, and researchers looking to network and share insights in the field.",
     "use_cases": [
-      "networking opportunities",
-      "professional development",
-      "learning about operations research"
+      "networking with industry professionals",
+      "learning about operations research",
+      "sharing analytics insights"
     ],
     "audience": [
       "Junior-DS",
@@ -12237,19 +12249,20 @@
     ],
     "synthetic_questions": [
       "What is the INFORMS San Francisco Chapter?",
-      "How can I network with operations research professionals?",
-      "What topics are discussed at the monthly meetups?",
-      "Who should attend the INFORMS meetups?",
-      "When are the next meetups scheduled?",
-      "How can I join the INFORMS San Francisco Chapter?",
+      "How can I network with operations research professionals in San Francisco?",
+      "What topics are covered in the monthly meetups?",
+      "Who typically attends the INFORMS San Francisco Chapter events?",
+      "Are there any workshops or talks at the meetups?",
+      "How often does the INFORMS San Francisco Chapter meet?",
       "What are the benefits of attending these meetups?",
-      "Are there any costs associated with attending?"
+      "How do I join the INFORMS San Francisco Chapter?"
     ],
     "event_format": "meetup",
     "geographic_focus": "San Francisco, CA",
     "frequency": "monthly",
     "model_score": 0.0,
-    "image_url": "https://secure.meetupstatic.com/photos/event/7/a/4/f/600_517171311.jpeg"
+    "image_url": "https://secure.meetupstatic.com/photos/event/7/a/4/f/600_517171311.jpeg",
+    "embedding_text": "The INFORMS San Francisco Chapter is dedicated to fostering a community for professionals engaged in operations research and analytics. This monthly meetup serves as a platform for individuals to connect, collaborate, and share knowledge in a rapidly evolving field. Attendees typically include data scientists, analysts, and researchers who are eager to engage with peers and industry leaders. The meetups often feature a mix of session formats, including informal talks, discussions, and networking opportunities, allowing participants to delve into current trends and challenges in operations research. The event is designed to cater to both academic and industry professionals, providing a balanced perspective on the applications of analytics in various sectors. The geographic focus on San Francisco ensures accessibility for local professionals while also attracting attendees from surrounding areas. Participants can expect to gain valuable insights, expand their professional networks, and stay updated on the latest developments in the field. Compared to similar events, the INFORMS San Francisco Chapter stands out for its commitment to community engagement and practical applications of operations research, making it an essential gathering for anyone interested in this domain."
   },
   {
     "name": "SF Bay Area ASA Chapter",
@@ -12499,40 +12512,41 @@
     ],
     "lat": 47.6062,
     "lng": -122.3321,
-    "difficulty": null,
+    "difficulty": "beginner",
     "prerequisites": [],
     "topic_tags": [
+      "operations-research",
       "networking",
-      "academic-conference",
-      "industry-event"
+      "professional-development"
     ],
-    "summary": "The INFORMS PNW Chapter is a regional gathering for operations research professionals in the Pacific Northwest. It hosts regular events that facilitate networking and knowledge sharing among attendees.",
+    "summary": "The INFORMS PNW Chapter event is focused on operations research and caters to professionals in the Pacific Northwest. Attendees typically include OR practitioners, academics, and students interested in the field, providing a platform for networking and knowledge sharing.",
     "use_cases": [
-      "networking with industry professionals",
-      "learning about operations research",
+      "networking with OR professionals",
+      "learning about operations research trends",
       "finding collaboration opportunities"
     ],
     "audience": [
-      "Early-PhD",
       "Junior-DS",
       "Mid-DS",
       "Senior-DS",
       "Curious-browser"
     ],
     "synthetic_questions": [
-      "What events does the INFORMS PNW Chapter host?",
-      "How can I network with operations research professionals in Seattle?",
+      "What is the INFORMS PNW Chapter?",
+      "Who should attend the INFORMS PNW events?",
+      "What networking opportunities are available at the INFORMS PNW Chapter?",
+      "What topics are covered in the INFORMS PNW Chapter events?",
+      "How often does the INFORMS PNW Chapter hold events?",
       "What is the focus of the INFORMS PNW Chapter?",
-      "Who can attend the INFORMS PNW Chapter events?",
-      "Are there regular meetups for operations research in Seattle?",
-      "What topics are covered in INFORMS PNW Chapter events?",
-      "How do I join the INFORMS PNW Chapter?",
-      "What benefits does the INFORMS PNW Chapter offer to its members?"
+      "Are there workshops at the INFORMS PNW Chapter events?",
+      "What can I gain from attending the INFORMS PNW Chapter?"
     ],
     "event_format": "meetup",
     "geographic_focus": "Seattle, WA",
     "model_score": 0.0,
-    "image_url": "https://secure.meetupstatic.com/photos/event/d/4/8/3/600_479274403.jpeg"
+    "image_url": "https://secure.meetupstatic.com/photos/event/d/4/8/3/600_479274403.jpeg",
+    "embedding_text": "The INFORMS PNW Chapter serves as a vital hub for operations research professionals in the Pacific Northwest, focusing on fostering collaboration, sharing knowledge, and enhancing the skills of its members. This chapter regularly organizes events that cater to a diverse audience, including early-career professionals, graduate students, and seasoned experts in the field of operations research. The events typically feature a mix of presentations, discussions, and networking opportunities, allowing attendees to engage with the latest developments in operations research and its applications across various industries. The format of these meetups encourages interaction, with sessions often designed to facilitate dialogue between speakers and participants, making it an ideal environment for learning and professional growth. The audience is primarily composed of individuals with a keen interest in operations research, including data scientists, analysts, and academics, all seeking to expand their knowledge and professional networks. The geographic focus on Seattle allows for accessibility to a wide range of professionals in the region, and the chapter's commitment to regular monthly meetings ensures that members have ample opportunities to connect and collaborate. Attendees can expect to gain insights into current trends, share best practices, and explore potential collaborations, making the INFORMS PNW Chapter a valuable resource for anyone involved in operations research. Compared to similar events, the INFORMS PNW Chapter stands out for its community-oriented approach, emphasizing the importance of networking and professional development within the operations research community.",
+    "frequency": "monthly"
   },
   {
     "name": "Data Science Salon LA",
@@ -15572,33 +15586,34 @@
       "academic-conference",
       "industry-event"
     ],
-    "summary": "Michael Luca, a leading academic in platform design and data-driven decision making, shares insights from his research and collaborations with major companies and governments. This event is likely to attract professionals and academics interested in the intersection of technology and economics.",
+    "summary": "This event features Michael Luca, a prominent figure in platform design and data-driven decision making, who shares insights from his research and collaborations with major organizations. Attendees typically include academics, industry professionals, and students interested in the intersection of technology and economics.",
     "use_cases": [
       "Gain insights into platform design",
       "Learn about data-driven decision making",
-      "Understand collaborations between academia and industry"
+      "Network with industry professionals and academics"
     ],
     "audience": [
       "Early-PhD",
       "Junior-DS",
       "Mid-DS",
-      "Senior-DS",
-      "Curious-browser"
+      "Senior-DS"
     ],
     "synthetic_questions": [
-      "What is Michael Luca's research focus?",
-      "How does platform design impact decision making?",
+      "What are the latest trends in platform design?",
+      "How does data-driven decision making impact businesses?",
       "What collaborations has Michael Luca been involved in?",
       "What insights can be gained from the 'Economists in Tech Companies' paper?",
       "Who should attend Michael Luca's talk?",
-      "What are the implications of data-driven decision making?",
-      "How does academia influence the tech industry?",
-      "What role do platforms like Yelp and Facebook play in research?"
+      "What is the significance of academic research in industry?",
+      "How can platform design influence user engagement?",
+      "What are the best practices for data-driven decision making?"
     ],
     "event_format": "conference",
     "geographic_focus": "Boston, MA",
     "model_score": 0.0,
-    "image_url": "/images/logos/hbs.png"
+    "image_url": "/images/logos/hbs.png",
+    "embedding_text": "The event featuring Michael Luca is centered around the themes of platform design and data-driven decision making, reflecting his extensive research and collaborations with notable organizations such as Yelp, Facebook, and the UK government. As a Lee J. Styslinger III Associate Professor at Harvard Business School, Luca brings a wealth of knowledge and experience, making this event particularly valuable for those in academia and industry alike. Attendees typically include early PhD students, junior data scientists, mid-level data scientists, and senior data scientists, all eager to explore the intersection of technology and economics. The format of the event is primarily a conference, which may include talks, panel discussions, and networking opportunities, allowing participants to engage directly with Luca and other thought leaders in the field. The academic orientation of the event is complemented by its relevance to industry, as Luca's work often bridges the gap between theoretical research and practical application. The geographic focus is on Boston, MA, providing accessibility to local attendees while also attracting participants from surrounding areas. Networking opportunities are a key component of the event, enabling attendees to connect with peers and experts, fostering collaboration and knowledge exchange. Participants can expect to gain valuable insights into the latest trends in platform design and the implications of data-driven decision making for businesses. This event stands out among similar conferences by emphasizing the practical applications of academic research, making it a must-attend for those interested in the evolving landscape of technology and economics.",
+    "frequency": "one-time"
   },
   {
     "name": "Peter Coles",
@@ -16464,18 +16479,19 @@
     "type": "Industry Leader",
     "location": "Singapore",
     "best_for": "Platform strategy, network effects, platform business models, digital transformation",
-    "difficulty": "intermediate",
+    "difficulty": null,
     "prerequisites": [],
     "topic_tags": [
       "platform strategy",
       "digital transformation",
       "industry leadership"
     ],
-    "summary": "Sangeet Paul Choudary is a notable figure in the realm of platform strategy and digital transformation. This event is likely to attract industry leaders, entrepreneurs, and professionals interested in the dynamics of platform-based business models.",
+    "summary": "Sangeet Paul Choudary is a prominent figure in the realm of platform strategy and digital transformation. This event attracts industry leaders, entrepreneurs, and professionals interested in understanding the dynamics of platform ecosystems and their impact on business models.",
     "use_cases": [
       "Gain insights into platform strategies",
-      "Learn from an industry leader",
-      "Network with professionals in the field"
+      "Learn about digital transformation",
+      "Network with industry leaders",
+      "Understand the impact of platforms on business"
     ],
     "audience": [
       "Mid-DS",
@@ -16486,15 +16502,16 @@
       "What is platform strategy?",
       "How does digital transformation impact businesses?",
       "Who is Sangeet Paul Choudary?",
-      "What are the key insights from Platform Revolution?",
-      "How can platforms drive innovation?",
-      "What are the challenges in platform strategy?",
-      "Why is platform thinking important for businesses?",
-      "What role does Sangeet Paul Choudary play in the industry?"
+      "What insights can be gained from platform ecosystems?",
+      "What are the key themes of the event?",
+      "How can platform thinking benefit my organization?",
+      "What networking opportunities are available at the event?",
+      "What is the significance of platform leadership in today's economy?"
     ],
     "event_format": "conference",
     "geographic_focus": "Singapore",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "embedding_text": "The event featuring Sangeet Paul Choudary focuses on the critical themes of platform strategy and digital transformation, drawing on his extensive experience as a co-author of the influential book 'Platform Revolution' and founder of Platform Thinking Labs. Attendees can expect a diverse mix of industry leaders, entrepreneurs, and professionals eager to explore the intricacies of platform ecosystems and their transformative effects on traditional business models. The event typically includes a variety of session formats, such as keynote talks, interactive workshops, and networking opportunities, allowing participants to engage deeply with the content and with each other. The orientation of the event leans towards industry, providing practical insights that can be readily applied in real-world scenarios. With Singapore as its geographic focus, the event is accessible to a wide audience, including those from neighboring regions, fostering an inclusive environment for discussion and collaboration. Notable tracks may include case studies of successful platform implementations, discussions on emerging trends in digital transformation, and sessions dedicated to networking among peers. Attendees typically gain valuable knowledge that can enhance their understanding of platform dynamics, as well as practical strategies for leveraging these insights within their own organizations. Compared to similar events, this gathering stands out due to its focus on actionable insights and the opportunity to learn directly from a leading expert in the field."
   },
   {
     "name": "Geoffrey Parker",
@@ -18415,16 +18432,12 @@
     "best_for": "PyMC development, Bayesian marketing, MMM methodology, PyMC Labs consulting",
     "difficulty": "intermediate",
     "prerequisites": [],
-    "topic_tags": [
-      "industry-event",
-      "marketing",
-      "Bayesian-methods"
-    ],
-    "summary": "This event features Thomas Wiecki, co-creator of PyMC and CEO of PyMC Labs, who shares insights on Bayesian approaches for marketing measurement. Attendees are likely to include data scientists, marketers, and professionals interested in advanced statistical methods.",
+    "topic_tags": [],
+    "summary": "This event features Thomas Wiecki, a prominent figure in the field of Bayesian approaches, particularly in marketing measurement. Attendees can expect insights into advanced statistical methods and their applications in industry.",
     "use_cases": [
-      "Gain insights into Bayesian marketing strategies",
-      "Learn from a leader in the field",
-      "Network with industry professionals"
+      "Gain insights into Bayesian marketing measurement",
+      "Learn from industry leaders",
+      "Network with professionals in data science"
     ],
     "audience": [
       "Mid-DS",
@@ -18432,19 +18445,20 @@
       "Curious-browser"
     ],
     "synthetic_questions": [
-      "What is Bayesian marketing measurement?",
+      "What are Bayesian approaches in marketing measurement?",
       "Who is Thomas Wiecki?",
-      "How can PyMC be used in marketing?",
-      "What are the benefits of Bayesian approaches?",
-      "What insights can be gained from this event?",
-      "How does strategic thought leadership impact marketing?",
-      "What is the role of PyMC Labs in the industry?",
-      "What are notable contributions in Bayesian statistics?"
+      "What insights can be gained from Thomas Wiecki's talk?",
+      "How can Bayesian methods improve marketing strategies?",
+      "What is the role of PyMC in data science?",
+      "What are the benefits of attending events with industry leaders?",
+      "How does Thomas Wiecki influence the field of data science?",
+      "What networking opportunities are available at this event?"
     ],
     "event_format": "conference",
     "geographic_focus": "Germany",
     "model_score": 0.0,
-    "image_url": "/images/logos/pymc-labs.png"
+    "image_url": "/images/logos/pymc-labs.png",
+    "embedding_text": "The event featuring Thomas Wiecki, co-creator of PyMC and CEO of PyMC Labs, focuses on the application of Bayesian approaches in marketing measurement. As a thought leader in the industry, Wiecki provides valuable insights into how these statistical methods can enhance marketing strategies and decision-making processes. Attendees typically include mid-level and senior data scientists, as well as curious individuals eager to learn about advanced statistical techniques. The event format is primarily a conference, offering a mix of talks and networking opportunities, allowing participants to engage directly with industry leaders and peers. Unlike traditional academic conferences, this event leans towards practical applications in the industry, making it accessible to professionals looking to implement these methodologies in real-world scenarios. The geographic focus is on Germany, but the insights shared are relevant to a global audience. Attendees can expect to gain a deeper understanding of Bayesian methods, learn about the latest trends in data science, and expand their professional network, making this event a valuable opportunity for those interested in the intersection of data science and marketing."
   },
   {
     "name": "Mike Taylor",
@@ -18520,15 +18534,12 @@
     "best_for": "MMM verification, hypothesis testing, model falsifiability, when MMM investment makes sense",
     "difficulty": "intermediate",
     "prerequisites": [],
-    "topic_tags": [
-      "industry-event"
-    ],
-    "summary": "Michael Kaminsky, Co-CEO of Recast and former Director of Analytics at Harry's, will share essential insights on Marketing Mix Modeling (MMM) verification and organizational adoption. This event is ideal for professionals interested in analytics and MMM.",
+    "topic_tags": [],
+    "summary": "Michael Kaminsky, Co-CEO of Recast and former Director of Analytics at Harry's, will share his insights on Marketing Mix Modeling (MMM) verification and organizational adoption. This event is aimed at professionals interested in analytics and MMM, particularly those in the tech and marketing sectors.",
     "use_cases": [
-      "to learn about MMM verification",
-      "to understand organizational adoption of analytics",
-      "to gain insights from industry leaders",
-      "to network with professionals in analytics"
+      "Gain insights from industry leaders",
+      "Learn about MMM verification",
+      "Understand organizational adoption of analytics"
     ],
     "audience": [
       "Mid-DS",
@@ -18537,18 +18548,20 @@
     ],
     "synthetic_questions": [
       "What is Marketing Mix Modeling?",
-      "How can organizations adopt MMM?",
+      "How can organizations adopt MMM effectively?",
       "What are the challenges in MMM verification?",
       "Who is Michael Kaminsky?",
-      "What insights can be gained from industry leaders?",
-      "What role does analytics play in business?",
-      "How to build an internal MMM?",
-      "What are the best practices for MMM?"
+      "What insights can be gained from industry leaders in analytics?",
+      "What is the role of analytics in marketing?",
+      "How does Recast approach MMM?",
+      "What are the best practices for implementing MMM in a company?"
     ],
     "event_format": "online",
     "geographic_focus": "USA",
     "model_score": 0.0,
-    "image_url": "/images/logos/getrecast.png"
+    "image_url": "/images/logos/getrecast.png",
+    "embedding_text": "The event featuring Michael Kaminsky focuses on the critical aspects of Marketing Mix Modeling (MMM), particularly its verification and the challenges organizations face in adopting such methodologies. As a notable contributor in the analytics field, Kaminsky brings a wealth of experience from his tenure as Co-CEO of Recast and his previous role as Director of Analytics at Harry's, where he was instrumental in developing their internal MMM framework. This event is designed for professionals in the data science and marketing sectors, particularly those at the mid to senior levels of their careers, who are looking to deepen their understanding of MMM and its practical applications in real-world scenarios. Attendees can expect a mix of insightful talks and discussions that delve into the intricacies of MMM, including its verification processes and how organizations can effectively integrate these models into their strategic planning. The session will also provide networking opportunities for participants to connect with peers and industry leaders, fostering an environment of collaboration and knowledge sharing. The event is accessible online, allowing for a broader geographic reach, particularly within the USA. Participants will gain valuable insights that can be applied directly to their work, enhancing their analytical capabilities and understanding of marketing strategies. Compared to similar events, this session stands out due to its focus on the intersection of analytics and organizational strategy, providing attendees with a unique perspective on the practical implications of MMM in the industry.",
+    "frequency": "one-time"
   },
   {
     "name": "Eric Seufert",
@@ -19536,14 +19549,15 @@
       "energy",
       "economics",
       "academic-conference",
-      "networking"
+      "networking",
+      "industry-event"
     ],
-    "summary": "The USAEE/IAEE North American Conference is the largest gathering of U.S. energy economists, featuring student paper competitions, networking opportunities, and presentations on various topics including electricity, oil/gas, and environmental economics. It attracts a diverse audience of professionals and students interested in the intersection of energy and economics.",
+    "summary": "The USAEE/IAEE North American Conference is the largest gathering of U.S. energy economists, featuring student paper competitions, networking opportunities, and presentations focused on electricity, oil and gas, and environmental economics. It attracts a diverse audience including students, academics, and industry professionals interested in the latest developments in energy economics.",
     "use_cases": [
-      "to learn about the latest trends in energy economics",
-      "to network with professionals in the field",
-      "to participate in student paper competitions",
-      "to gain insights from expert presentations"
+      "To network with professionals in energy economics",
+      "To present research and gain feedback",
+      "To learn about the latest trends in energy economics",
+      "To connect with potential collaborators or mentors"
     ],
     "audience": [
       "Early-PhD",
@@ -19554,19 +19568,20 @@
     ],
     "synthetic_questions": [
       "What topics are covered at the USAEE/IAEE North American Conference?",
-      "How can students participate in the paper competitions?",
-      "What networking opportunities are available at the conference?",
-      "Who are the key speakers at the USAEE/IAEE conference?",
-      "What is the significance of energy economics?",
+      "Who can attend the USAEE/IAEE North American Conference?",
+      "What networking opportunities are available at the USAEE/IAEE North American Conference?",
+      "How does the USAEE/IAEE North American Conference support student participation?",
+      "What are the main themes of the USAEE/IAEE North American Conference?",
       "Where is the USAEE/IAEE North American Conference held?",
-      "How often does the conference take place?",
-      "What are the benefits of attending the USAEE/IAEE conference?"
+      "What is the frequency of the USAEE/IAEE North American Conference?",
+      "What can attendees expect to gain from the USAEE/IAEE North American Conference?"
     ],
     "event_format": "conference",
     "geographic_focus": "Various US cities",
     "frequency": "annual",
     "model_score": 0.0,
-    "image_url": "/images/logos/usaee.png"
+    "image_url": "/images/logos/usaee.png",
+    "embedding_text": "The USAEE/IAEE North American Conference serves as a premier event for professionals and academics in the field of energy economics, focusing on critical themes such as electricity markets, oil and gas pricing, and environmental economics. This annual conference attracts a diverse group of attendees, including early-stage PhD students, junior data scientists, mid-level data scientists, senior data scientists, and curious browsers who are eager to expand their knowledge and network within the energy sector. The conference features a variety of session formats, including keynote talks from leading experts, panel discussions, and workshops that encourage interactive participation. Additionally, there are dedicated sessions for student paper competitions, providing an invaluable platform for emerging researchers to showcase their work and receive constructive feedback from seasoned professionals. The event has a strong academic orientation, yet it also draws significant participation from industry professionals, creating a rich environment for dialogue between theory and practice. Attendees can expect to gain insights into the latest research findings, industry trends, and policy discussions, making it an essential gathering for anyone involved in energy economics. The conference's geographic reach spans various cities across the United States, making it accessible to a wide audience. Notable tracks often include specialized sessions on renewable energy economics, energy policy analysis, and market dynamics, ensuring that participants can delve deeply into their areas of interest. Networking opportunities abound, with dedicated time for informal discussions, allowing attendees to forge connections that can lead to future collaborations or career advancements. Overall, the USAEE/IAEE North American Conference stands out among similar events due to its comprehensive approach to energy economics, blending academic rigor with practical insights, thereby providing attendees with a well-rounded experience that enhances their understanding and engagement in the field."
   },
   {
     "name": "POWER Conference (Berkeley)",
@@ -19591,15 +19606,15 @@
     "prerequisites": [],
     "topic_tags": [
       "academic-conference",
-      "research",
       "energy",
-      "electricity"
+      "electricity",
+      "research"
     ],
-    "summary": "The POWER Conference is an annual one-day event at UC Berkeley that showcases leading researchers in electricity economics. Attendees include academics and industry professionals interested in power sector research.",
+    "summary": "The POWER Conference is an annual event held at UC Berkeley that brings together leading researchers in electricity economics. Attendees include academics, industry professionals, and students interested in the power sector, providing a platform for knowledge sharing and networking.",
     "use_cases": [
-      "networking with researchers",
-      "learning about electricity economics",
-      "exploring power sector research"
+      "Gain insights into electricity economics",
+      "Network with leading researchers",
+      "Explore the latest research in the power sector"
     ],
     "audience": [
       "Early-PhD",
@@ -19608,19 +19623,20 @@
       "Senior-DS"
     ],
     "synthetic_questions": [
-      "What is the POWER Conference?",
-      "Who are the speakers at the POWER Conference?",
-      "What topics are covered at the POWER Conference?",
-      "When does the POWER Conference take place?",
-      "How can I attend the POWER Conference?",
-      "What is the focus of the POWER Conference?",
-      "Who should attend the POWER Conference?",
-      "What is the location of the POWER Conference?"
+      "What is the focus of the POWER Conference at UC Berkeley?",
+      "Who are the leading researchers featured at the POWER Conference?",
+      "What topics are covered in the electricity economics sessions?",
+      "How can I network with industry professionals at the POWER Conference?",
+      "What is the typical attendee profile for the POWER Conference?",
+      "Are there any workshops or special sessions at the POWER Conference?",
+      "What are the benefits of attending the POWER Conference?",
+      "How does the POWER Conference compare to other energy-focused conferences?"
     ],
     "event_format": "conference",
     "geographic_focus": "Berkeley, CA",
     "frequency": "annual",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "embedding_text": "The POWER Conference, hosted annually at UC Berkeley, serves as a premier gathering for researchers and practitioners in the field of electricity economics. This one-day event focuses on the latest research and developments within the power sector, featuring prominent figures such as Borenstein, Wolak, Allcott, and Fowlie, who are recognized for their contributions to the field. The conference typically attracts a diverse audience, including early-stage PhD students, junior data scientists, mid-level data scientists, and senior data scientists, all of whom share a keen interest in the economics of electricity and energy markets. Attendees can expect a mix of session formats, including keynote talks, panel discussions, and opportunities for networking, allowing for rich interactions between academia and industry. The conference emphasizes academic rigor while also addressing practical implications, making it relevant for both researchers and professionals in the energy sector. Networking opportunities abound, providing attendees with the chance to connect with leading experts, share ideas, and explore potential collaborations. Participants typically leave the conference with a deeper understanding of current trends and challenges in electricity economics, as well as new contacts that can enhance their professional networks. Compared to similar events, the POWER Conference stands out for its focused agenda on electricity economics and its strong ties to UC Berkeley, a leading institution in research and education. This unique positioning allows for a blend of theoretical insights and practical applications, making it a valuable experience for anyone involved in the energy sector."
   },
   {
     "name": "NBER Environment and Energy Economics",
@@ -20410,7 +20426,42 @@
       "Research"
     ],
     "model_score": 0.0,
-    "image_url": "https://www.nber.org/sites/default/files/2022-06/NBER-FB-Share-Tile-1200.jpg"
+    "image_url": "https://www.nber.org/sites/default/files/2022-06/NBER-FB-Share-Tile-1200.jpg",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "academic-conference",
+      "industry-event",
+      "AI",
+      "economics",
+      "research"
+    ],
+    "summary": "The NBER Economics of AI Conference is an annual event that brings together leading researchers to discuss the economic implications of artificial intelligence. Attendees include academics, industry professionals, and policymakers interested in understanding AI's impact on labor, productivity, and economic growth.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What are the main themes of the NBER Economics of AI Conference?",
+      "Who typically attends the NBER Economics of AI Conference?",
+      "What types of sessions are held at the NBER Economics of AI Conference?",
+      "How does the NBER Economics of AI Conference compare to other AI-focused events?",
+      "What networking opportunities are available at the NBER Economics of AI Conference?",
+      "What insights can attendees gain from the NBER Economics of AI Conference?",
+      "What is the geographic focus of the NBER Economics of AI Conference?",
+      "What topics are covered in the presentations at the NBER Economics of AI Conference?"
+    ],
+    "use_cases": [
+      "Gain insights into AI's economic impact",
+      "Network with leading researchers",
+      "Explore the intersection of AI and economics"
+    ],
+    "embedding_text": "The NBER Economics of AI Conference is a premier annual gathering that focuses on the intersection of artificial intelligence and economics. This event is organized by the National Bureau of Economic Research (NBER), a leading organization in economic research, and attracts a diverse group of participants, including economists, data scientists, industry leaders, and policymakers. The conference aims to explore the multifaceted impacts of AI on labor markets, productivity, and overall economic growth. Attendees can expect a rich program featuring keynote speeches, panel discussions, and research presentations that delve into the latest findings and theoretical advancements in the field. The conference typically features a mix of academic and industry-oriented sessions, providing a platform for researchers to present their work while also engaging with practical applications of AI in various sectors. Networking opportunities are abundant, allowing participants to connect with peers, share ideas, and foster collaborations that can lead to future research or business ventures. The geographic reach of the conference, while centered in Toronto, attracts international attendees, making it a hub for global discussions on AI economics. Participants often leave with a deeper understanding of how AI technologies are reshaping economic landscapes and the implications for future research and policy. Compared to similar events, the NBER Economics of AI Conference stands out for its rigorous academic focus combined with real-world applications, making it a must-attend for anyone interested in the economic dimensions of artificial intelligence.",
+    "event_format": "conference",
+    "geographic_focus": "Toronto",
+    "frequency": "annual"
   },
   {
     "name": "MLESI - Machine Learning in Economics Summer Institute",
@@ -20427,7 +20478,40 @@
       "Chicago Booth"
     ],
     "model_score": 0.0,
-    "image_url": "https://www.chicagobooth.edu/-/media/project/chicago-booth/centers/caai/events/2022/zich_20aug2022_86.jpg?w=1920&h=800&hash=A3451DF60D2167FF775295A3BECFE602"
+    "image_url": "https://www.chicagobooth.edu/-/media/project/chicago-booth/centers/caai/events/2022/zich_20aug2022_86.jpg?w=1920&h=800&hash=A3451DF60D2167FF775295A3BECFE602",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "Machine Learning",
+      "Economics",
+      "Summer School",
+      "Networking"
+    ],
+    "summary": "The MLESI - Machine Learning in Economics Summer Institute is a workshop hosted at Chicago Booth that brings together leading researchers in machine learning for economics and advanced graduate students. This event serves as a platform for knowledge exchange and collaboration, fostering connections between academia and emerging talent in the field.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What is the focus of the MLESI workshop?",
+      "Who should attend the Machine Learning in Economics Summer Institute?",
+      "What networking opportunities are available at MLESI?",
+      "What types of sessions are included in the MLESI program?",
+      "How does MLESI compare to other summer schools in machine learning?",
+      "What are the benefits of attending the MLESI workshop?",
+      "What topics are covered at the MLESI event?",
+      "Where is the MLESI workshop held?"
+    ],
+    "use_cases": [
+      "Gain insights into machine learning applications in economics",
+      "Network with leading researchers and peers",
+      "Enhance knowledge in advanced machine learning techniques"
+    ],
+    "embedding_text": "The MLESI - Machine Learning in Economics Summer Institute is a premier workshop held at Chicago Booth, designed to bridge the gap between advanced graduate students and leading researchers in the field of machine learning as it applies to economics. This event focuses on the intersection of machine learning techniques and economic theory, providing a unique platform for participants to engage with cutting-edge research and methodologies. Attendees typically include early-stage PhD students, junior data scientists, and mid-level data scientists who are keen to deepen their understanding of how machine learning can be leveraged to address complex economic questions. The workshop features a variety of session formats, including keynote talks from prominent figures in the field, hands-on workshops that allow for practical application of concepts, and ample networking opportunities that facilitate collaboration and discussion among participants. The academic orientation of the event is complemented by its relevance to industry applications, making it attractive to both researchers and practitioners alike. Notable tracks may include discussions on recent advancements in machine learning algorithms, case studies showcasing successful applications in economic research, and interactive sessions that encourage participant engagement. The geographic reach of the event is primarily focused on Chicago, but it attracts a diverse audience from various locations, enhancing the collaborative spirit of the workshop. Attendees typically gain valuable insights into the latest trends and techniques in machine learning, as well as opportunities to connect with established researchers and fellow students. The MLESI workshop stands out among similar events due to its specific focus on the application of machine learning within the economics domain, making it a distinctive and enriching experience for all participants.",
+    "event_format": "workshop",
+    "geographic_focus": "Chicago",
+    "frequency": "annual"
   },
   {
     "name": "SoFiE Financial Machine Learning Summer School",
@@ -20444,7 +20528,40 @@
       "Summer School"
     ],
     "model_score": 0.0,
-    "image_url": "https://som.yale.edu/sites/default/files/styles/open_graph/public/2024-08/Evans1_0.jpg?h=839433ec&itok=rMrQ4H0X"
+    "image_url": "https://som.yale.edu/sites/default/files/styles/open_graph/public/2024-08/Evans1_0.jpg?h=839433ec&itok=rMrQ4H0X",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "machine-learning",
+      "finance",
+      "academic-conference",
+      "workshop"
+    ],
+    "summary": "The SoFiE Financial Machine Learning Summer School is a Yale-hosted event focused on the applications of machine learning in asset pricing and financial econometrics. It attracts attendees from academia and industry, providing a platform for learning and networking in the intersection of finance and technology.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS"
+    ],
+    "synthetic_questions": [
+      "What is the focus of the SoFiE Financial Machine Learning Summer School?",
+      "Who should attend the SoFiE Summer School?",
+      "What topics are covered at the Yale-hosted summer school?",
+      "How does the SoFiE event facilitate networking?",
+      "What are the benefits of attending the SoFiE Financial Machine Learning Summer School?",
+      "Is the SoFiE Summer School more academic or industry-oriented?",
+      "What types of sessions are included in the SoFiE Summer School?",
+      "Where is the SoFiE Financial Machine Learning Summer School held?"
+    ],
+    "use_cases": [
+      "To learn about machine learning applications in finance",
+      "To network with professionals in finance and machine learning",
+      "To gain insights into asset pricing and financial econometrics"
+    ],
+    "embedding_text": "The SoFiE Financial Machine Learning Summer School is an esteemed event hosted by Yale University, focusing on the integration of machine learning techniques within the realms of asset pricing and financial econometrics. This workshop is designed for individuals with a keen interest in applying machine learning methodologies to financial data, making it particularly relevant for researchers, practitioners, and students in the fields of finance and data science. Attendees typically include early-stage PhD candidates, junior data scientists, and mid-level professionals who are eager to deepen their understanding of how machine learning can enhance financial analysis and decision-making processes. The event features a variety of session formats, including lectures, hands-on workshops, and opportunities for networking, allowing participants to engage directly with experts and peers. The academic orientation of the summer school is complemented by insights from industry practitioners, creating a balanced perspective that benefits all attendees. The geographic reach of the event is primarily centered around Yale, but it attracts participants from various locations, enhancing its accessibility to a wider audience. Networking opportunities abound, as attendees can connect with leading researchers and industry professionals, fostering collaborations and discussions that extend beyond the event itself. Participants typically gain valuable knowledge, practical skills, and a deeper understanding of the current trends and challenges in financial machine learning. Compared to similar events, the SoFiE Summer School stands out due to its focus on the intersection of finance and machine learning, providing a unique platform for learning and collaboration in this rapidly evolving field.",
+    "event_format": "workshop",
+    "geographic_focus": "Yale School of Management",
+    "frequency": "annual"
   },
   {
     "name": "ACM Economics and Computation (EC)",
@@ -20460,6 +20577,39 @@
       "Market Design",
       "ACM"
     ],
-    "model_score": 0.0
+    "model_score": 0.0,
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "topic_tags": [
+      "academic-conference",
+      "networking",
+      "industry-event"
+    ],
+    "summary": "The ACM Economics and Computation (EC) conference is a premier venue that brings together researchers and practitioners at the intersection of economics and computation. Attendees typically include academics, industry professionals, and students interested in market design, mechanism design, and algorithmic game theory.",
+    "audience": [
+      "Early-PhD",
+      "Junior-DS",
+      "Mid-DS",
+      "Senior-DS"
+    ],
+    "synthetic_questions": [
+      "What is the ACM Economics and Computation conference?",
+      "Who should attend the EC conference?",
+      "What topics are covered at the ACM EC conference?",
+      "How does the ACM EC conference facilitate networking?",
+      "What are the main themes of the ACM Economics and Computation conference?",
+      "What types of sessions are available at the ACM EC conference?",
+      "What can attendees gain from participating in the ACM EC conference?",
+      "Where is the ACM Economics and Computation conference held in 2024?"
+    ],
+    "use_cases": [
+      "Gain insights into market design and algorithmic game theory",
+      "Network with leading researchers and industry experts",
+      "Present and discuss cutting-edge research in economics and computation"
+    ],
+    "embedding_text": "The ACM Economics and Computation (EC) conference serves as a leading platform for research and discussion at the intersection of economics and computation. This annual event attracts a diverse group of participants, including researchers, practitioners, and students who are keen to explore the intricate relationships between economic theory and computational methods. The conference covers a wide array of topics, with a strong emphasis on market design, mechanism design, and algorithmic game theory, making it a vital gathering for those interested in the latest advancements in these fields. Attendees typically include early-stage PhD students, junior data scientists, mid-level data scientists, and senior data scientists, all of whom share a common interest in the theoretical and practical applications of economics in computational contexts. The conference format includes a mix of keynote talks, paper presentations, and workshops, providing ample opportunities for participants to engage with the material and with each other. The event is designed to foster networking, allowing attendees to connect with leading experts in the field, exchange ideas, and collaborate on future research initiatives. The ACM EC conference is known for its academic rigor, yet it also welcomes industry professionals who are looking to apply theoretical concepts to real-world problems. This blend of academia and industry creates a rich environment for discussion and innovation. Notable tracks and special sessions often highlight emerging trends and challenges in the field, encouraging participants to think critically about the implications of their work. Networking opportunities abound, with dedicated sessions for informal discussions and collaborations. Attendees can expect to gain valuable insights into the latest research, practical applications, and networking connections that can enhance their careers. Compared to similar events, the ACM Economics and Computation conference stands out for its focused approach to the intersection of economics and computation, making it a must-attend for anyone serious about these disciplines.",
+    "event_format": "conference",
+    "geographic_focus": "Yale",
+    "frequency": "annual"
   }
 ]

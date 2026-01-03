@@ -46,7 +46,7 @@
     "company_context": [
       "startup"
     ],
-    "model_score": 0.0155
+    "model_score": 0.0154
   },
   {
     "name": "Ace the Data Science Interview",
@@ -96,7 +96,7 @@
       "FAANG",
       "startup"
     ],
-    "model_score": 0.007
+    "model_score": 0.0069
   },
   {
     "name": "Nick Singh's 40 Stats Questions",
@@ -143,7 +143,7 @@
       "FAANG",
       "Wall-Street"
     ],
-    "model_score": 0.007
+    "model_score": 0.0069
   },
   {
     "name": "Shopee",
@@ -236,85 +236,6 @@
     "model_score": 0.0037
   },
   {
-    "name": "StatQuest with Josh Starmer",
-    "description": "Best resource for econ PhDs learning ML. Bias-variance, regularization, ensemble methods explained accessibly.",
-    "stage": "Interview Prep",
-    "category": "ML Fundamentals",
-    "url": "https://www.youtube.com/@statquest",
-    "type": "Video",
-    "tags": [
-      "visual-learning",
-      "beginner-friendly"
-    ],
-    "section": "interview",
-    "tab": "interview",
-    "subtab": "ml-fundamentals",
-    "archived": true,
-    "difficulty": "beginner",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "StatQuest with Josh Starmer provides accessible explanations of key machine learning concepts such as bias-variance, regularization, and ensemble methods, making it an excellent resource for econ PhDs looking to learn ML. The content is tailored to help beginners grasp complex topics in a straightforward manner.",
-    "use_cases": [
-      "when starting to learn machine learning concepts",
-      "to clarify complex ML topics"
-    ],
-    "audience": [
-      "Early-PhD",
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "What are the best resources for learning machine learning as an economist?",
-      "How can I understand bias-variance tradeoff in machine learning?",
-      "What are ensemble methods in machine learning?",
-      "What is regularization and why is it important in ML?",
-      "Where can I find beginner-friendly ML tutorials?",
-      "How can econ PhDs transition to data science roles?",
-      "What are the key concepts in machine learning that I should learn first?",
-      "What resources are available for visual learning in ML?"
-    ],
-    "role_type": [
-      "data-scientist",
-      "economist"
-    ],
-    "experience_level": "entry",
-    "model_score": 0.0014
-  },
-  {
-    "name": "Statsig",
-    "description": "Career portal",
-    "stage": "Discovery",
-    "category": "Company Lists",
-    "url": "https://www.statsig.com/careers",
-    "type": "Career Portal",
-    "tags": [
-      "experimentation",
-      "a-b-testing"
-    ],
-    "section": "companies",
-    "sector": "saas",
-    "tab": "find-jobs",
-    "subtab": "companies",
-    "vertical": "experimentation",
-    "difficulty": "beginner",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "Statsig serves as a career portal that provides resources and information for individuals looking to advance their careers in tech. It focuses on experimentation and A/B testing, which can be beneficial for those interested in data-driven decision-making.",
-    "use_cases": [],
-    "audience": [],
-    "synthetic_questions": [
-      "What are the best practices for A/B testing?",
-      "How can experimentation improve my career prospects?",
-      "What resources are available for learning about data science?",
-      "How do I prepare for a job in tech?",
-      "What skills are needed for a career in experimentation?",
-      "What are the latest trends in A/B testing?",
-      "How can I leverage data in my job search?",
-      "What companies are known for their experimentation culture?"
-    ],
-    "experience_level": "entry",
-    "model_score": 0.0008
-  },
-  {
     "name": "OpenAI",
     "description": "Career portal",
     "stage": "Discovery",
@@ -359,7 +280,7 @@
     "company_context": [
       "startup"
     ],
-    "model_score": 0.0008
+    "model_score": 0.0028
   },
   {
     "name": "Anthropic",
@@ -410,6 +331,85 @@
     "company_context": [
       "startup"
     ],
+    "model_score": 0.0028
+  },
+  {
+    "name": "StatQuest with Josh Starmer",
+    "description": "Best resource for econ PhDs learning ML. Bias-variance, regularization, ensemble methods explained accessibly.",
+    "stage": "Interview Prep",
+    "category": "ML Fundamentals",
+    "url": "https://www.youtube.com/@statquest",
+    "type": "Video",
+    "tags": [
+      "visual-learning",
+      "beginner-friendly"
+    ],
+    "section": "interview",
+    "tab": "interview",
+    "subtab": "ml-fundamentals",
+    "archived": true,
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "StatQuest with Josh Starmer provides accessible explanations of key machine learning concepts such as bias-variance, regularization, and ensemble methods, making it an excellent resource for econ PhDs looking to learn ML. The content is tailored to help beginners grasp complex topics in a straightforward manner.",
+    "use_cases": [
+      "when starting to learn machine learning concepts",
+      "to clarify complex ML topics"
+    ],
+    "audience": [
+      "Early-PhD",
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What are the best resources for learning machine learning as an economist?",
+      "How can I understand bias-variance tradeoff in machine learning?",
+      "What are ensemble methods in machine learning?",
+      "What is regularization and why is it important in ML?",
+      "Where can I find beginner-friendly ML tutorials?",
+      "How can econ PhDs transition to data science roles?",
+      "What are the key concepts in machine learning that I should learn first?",
+      "What resources are available for visual learning in ML?"
+    ],
+    "role_type": [
+      "data-scientist",
+      "economist"
+    ],
+    "experience_level": "entry",
+    "model_score": 0.0013
+  },
+  {
+    "name": "Statsig",
+    "description": "Career portal",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://www.statsig.com/careers",
+    "type": "Career Portal",
+    "tags": [
+      "experimentation",
+      "a-b-testing"
+    ],
+    "section": "companies",
+    "sector": "saas",
+    "tab": "find-jobs",
+    "subtab": "companies",
+    "vertical": "experimentation",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "Statsig serves as a career portal that provides resources and information for individuals looking to advance their careers in tech. It focuses on experimentation and A/B testing, which can be beneficial for those interested in data-driven decision-making.",
+    "use_cases": [],
+    "audience": [],
+    "synthetic_questions": [
+      "What are the best practices for A/B testing?",
+      "How can experimentation improve my career prospects?",
+      "What resources are available for learning about data science?",
+      "How do I prepare for a job in tech?",
+      "What skills are needed for a career in experimentation?",
+      "What are the latest trends in A/B testing?",
+      "How can I leverage data in my job search?",
+      "What companies are known for their experimentation culture?"
+    ],
+    "experience_level": "entry",
     "model_score": 0.0008
   },
   {
@@ -453,7 +453,7 @@
       "data-scientist"
     ],
     "experience_level": "entry|mid",
-    "model_score": 0.0004
+    "model_score": 0.0006
   },
   {
     "name": "Netflix: Experimentation Focus",
@@ -11665,33 +11665,34 @@
     "difficulty": "beginner",
     "prerequisites": [],
     "topic_tags": [],
-    "summary": "NVIDIA's career portal provides resources and information for individuals interested in pursuing careers in technology, particularly in hardware and AI. It serves as a platform for job seekers to explore opportunities within the company and the tech industry.",
+    "summary": "NVIDIA's career portal serves as a comprehensive resource for individuals seeking to explore various career paths within the tech industry, particularly in hardware and AI. It provides insights into the skills and qualifications needed for roles related to GPU technology and artificial intelligence, along with guidance on job search strategies and networking.",
     "use_cases": [
-      "when looking for job opportunities in tech",
-      "when researching company culture in the tech industry"
+      "when exploring career opportunities in tech and AI"
     ],
     "audience": [
       "Curious-browser"
     ],
     "synthetic_questions": [
-      "What careers are available at NVIDIA?",
-      "How can I apply for a job at NVIDIA?",
-      "What skills are needed for a career in AI?",
-      "What is the hiring process at NVIDIA?",
-      "What is the work culture like at NVIDIA?",
-      "What are the benefits of working at NVIDIA?",
-      "How does NVIDIA support career development?",
-      "What roles does NVIDIA offer in hardware?"
+      "What career opportunities are available at NVIDIA?",
+      "What skills are required for a role in AI at NVIDIA?",
+      "How can I prepare for an interview at NVIDIA?",
+      "What is the typical salary range for positions at NVIDIA?",
+      "What are the day-to-day responsibilities of a data scientist at NVIDIA?",
+      "How does one progress in their career at NVIDIA?",
+      "What networking strategies can help me land a job at NVIDIA?",
+      "What challenges might I face when applying to NVIDIA?"
     ],
     "role_type": [
-      "hardware",
-      "AI"
+      "data-scientist",
+      "ML-engineer"
     ],
     "experience_level": "entry",
     "company_context": [
-      "hardware"
+      "hardware",
+      "AI"
     ],
-    "model_score": 0.0
+    "model_score": 0.0,
+    "embedding_text": "NVIDIA is a leading company in the technology sector, renowned for its innovations in hardware, particularly graphics processing units (GPUs), and artificial intelligence (AI). The career portal offers a wealth of information for individuals interested in pursuing a career within this dynamic and rapidly evolving industry. Various career paths are highlighted, including roles such as data scientists and machine learning engineers, which are crucial in leveraging NVIDIA's cutting-edge technologies. The portal emphasizes the importance of specific skills and qualifications, such as proficiency in programming languages, understanding of machine learning algorithms, and familiarity with GPU architecture. These skills are essential for candidates looking to thrive in NVIDIA's fast-paced environment. Additionally, the portal provides valuable resources for interview preparation, offering insights into the types of questions candidates may face and the expectations for technical assessments. Salary and compensation insights are also discussed, giving potential applicants a realistic view of what they can expect in terms of remuneration. Day-to-day job responsibilities are outlined, helping candidates understand what a typical workday might look like in various roles. Career progression and growth paths are also a focus, with information on how employees can advance within the company and the skills they should develop to move up the ladder. Networking strategies are highlighted, encouraging candidates to connect with industry professionals and utilize platforms like LinkedIn to enhance their job search efforts. Common challenges faced by applicants, such as competition and the need for continuous learning in a rapidly changing field, are addressed, along with strategies to overcome these hurdles. Overall, NVIDIA's career portal serves as a vital resource for anyone looking to enter the tech industry, providing a comprehensive overview of the opportunities and challenges that lie ahead."
   },
   {
     "name": "AMD",
@@ -11751,24 +11752,35 @@
     "difficulty": "beginner",
     "prerequisites": [],
     "topic_tags": [],
-    "summary": "Intel's career portal provides resources and information for individuals looking to explore career opportunities within the company, particularly in the hardware and semiconductor sectors.",
-    "use_cases": [],
-    "audience": [],
+    "summary": "Intel's career portal serves as a comprehensive resource for individuals seeking to explore career opportunities within the semiconductor and hardware sectors. It provides insights into various roles, industry expectations, and the skills necessary for success in these fields.",
+    "use_cases": [
+      "when exploring career opportunities in the hardware and semiconductor industry",
+      "when preparing for interviews at Intel",
+      "when seeking information on skills required for roles at Intel"
+    ],
+    "audience": [
+      "Curious-browser"
+    ],
     "synthetic_questions": [
       "What career opportunities are available at Intel?",
-      "How can I prepare for a job interview at Intel?",
-      "What skills are required for a career in hardware at Intel?",
-      "What is the salary range for positions at Intel?",
-      "How does Intel support career development?",
-      "What are the benefits of working at Intel?",
-      "What is the company culture like at Intel?",
-      "How can I apply for a job at Intel?"
+      "How can I prepare for an interview at Intel?",
+      "What skills are essential for a career in hardware and semiconductors?",
+      "What is the salary range for roles at Intel?",
+      "How does Intel support career growth?",
+      "What are the day-to-day responsibilities of a semiconductor engineer?",
+      "What networking strategies can help in securing a job at Intel?",
+      "What challenges might I face when applying to Intel?"
     ],
     "experience_level": "entry",
     "company_context": [
       "semiconductor"
     ],
-    "model_score": 0.0
+    "model_score": 0.0,
+    "embedding_text": "Intel's career portal is an essential resource for individuals interested in pursuing careers in the semiconductor and hardware industries. The portal outlines various career paths available at Intel, including roles such as hardware engineers and semiconductor engineers. It emphasizes the importance of technical skills, such as knowledge of circuit design, programming, and systems integration, which are crucial for success in these roles. Additionally, the portal provides insights into the qualifications typically required for these positions, including relevant degrees and certifications. Interview preparation is a key focus of the portal, offering guidance on what candidates can expect during the interview process, including technical assessments and behavioral interviews. While specific salary information may not be disclosed, the portal suggests that compensation is competitive within the industry, reflecting the high demand for skilled professionals in the semiconductor field. Day-to-day responsibilities for roles at Intel often involve collaborating with cross-functional teams to develop innovative hardware solutions, conducting experiments, and analyzing data to improve product performance. The portal also discusses career progression opportunities, highlighting pathways for advancement within the company, which may include leadership roles or specialized technical positions. Networking strategies are encouraged, with tips on how to connect with current employees and industry professionals to enhance job search efforts. Common challenges faced by applicants, such as the competitive nature of the industry and the need for continuous learning, are addressed, along with strategies for overcoming these obstacles. Overall, Intel's career portal is a valuable tool for anyone looking to navigate the complexities of building a successful career in the semiconductor and hardware sectors.",
+    "role_type": [
+      "hardware-engineer",
+      "semiconductor-engineer"
+    ]
   },
   {
     "name": "Qualcomm",
@@ -11788,30 +11800,32 @@
     "difficulty": "beginner",
     "prerequisites": [],
     "topic_tags": [],
-    "summary": "Qualcomm's career portal provides resources for job seekers in the tech industry, focusing on opportunities in hardware and mobile sectors. It serves as a guide for individuals looking to explore career options within Qualcomm.",
+    "summary": "Qualcomm's career portal serves as a valuable resource for individuals interested in exploring career opportunities within the hardware and mobile technology sectors. It provides insights into various roles, skills required, and potential career paths within the company.",
     "use_cases": [
-      "when looking for job opportunities in the tech industry",
-      "when researching company career resources"
+      "when exploring career opportunities in hardware and mobile technology",
+      "when preparing for interviews at Qualcomm",
+      "when seeking insights on skills needed in the tech industry"
     ],
     "audience": [
       "Curious-browser"
     ],
     "synthetic_questions": [
       "What career opportunities are available at Qualcomm?",
-      "How can I apply for a job at Qualcomm?",
-      "What skills are needed for a career in mobile technology?",
-      "What is the company culture like at Qualcomm?",
-      "Are there internships available at Qualcomm?",
-      "What types of roles does Qualcomm offer in hardware?",
-      "How does Qualcomm support employee career development?",
-      "What is the salary range for positions at Qualcomm?"
+      "What skills are needed to work in mobile technology?",
+      "How can I prepare for an interview at Qualcomm?",
+      "What is the salary range for roles at Qualcomm?",
+      "What are the common career paths at Qualcomm?",
+      "How does Qualcomm support employee growth?",
+      "What networking strategies are effective for job seekers in tech?",
+      "What challenges might I face when applying to Qualcomm?"
     ],
     "experience_level": "entry",
     "company_context": [
       "hardware",
       "mobile"
     ],
-    "model_score": 0.0
+    "model_score": 0.0,
+    "embedding_text": "Qualcomm is a leading company in the hardware and mobile technology sectors, providing a career portal that offers a comprehensive overview of potential career paths and roles within the organization. The portal emphasizes the importance of specific skills and qualifications that are critical for success in these fields. Individuals interested in pursuing a career at Qualcomm can explore various roles ranging from entry-level positions to more advanced opportunities, each requiring a unique set of skills. The portal may also provide insights into the day-to-day responsibilities associated with these roles, helping candidates understand what to expect in their potential jobs. Interview preparation is a key focus, with resources that guide candidates on how to effectively present their qualifications and experiences during the hiring process. Additionally, the portal may offer insights into salary and compensation structures, giving candidates a clearer picture of what they can expect in terms of remuneration. Career progression and growth paths are also discussed, highlighting how employees can advance within the company and the opportunities available for professional development. Networking strategies are likely emphasized, as building connections within the industry can be crucial for job seekers. Lastly, the portal addresses common challenges faced by applicants and provides advice on how to overcome these obstacles, ensuring that candidates are well-prepared to navigate the competitive landscape of the tech industry."
   },
   {
     "name": "Broadcom",
@@ -12079,23 +12093,23 @@
     "difficulty": "beginner",
     "prerequisites": [],
     "topic_tags": [],
-    "summary": "Spotify's career portal provides insights into job opportunities and career paths within the company, particularly for those interested in roles related to experimentation and economics.",
+    "summary": "The Spotify career portal provides insights into various career paths within the company, emphasizing the importance of skills in experimentation and economics. It serves as a resource for job seekers interested in opportunities in Europe, particularly in Sweden, and offers guidance on navigating the job market.",
     "use_cases": [
-      "when looking for job opportunities in tech companies",
-      "when researching company culture in Europe"
+      "When looking for job opportunities in tech companies in Europe",
+      "When seeking information about career paths in economics and data science"
     ],
     "audience": [
       "Curious-browser"
     ],
     "synthetic_questions": [
-      "What job opportunities are available at Spotify?",
+      "What career opportunities are available at Spotify?",
       "How can I prepare for an interview at Spotify?",
+      "What skills are valued at Spotify?",
       "What is the salary range for economists at Spotify?",
-      "What skills are needed for a data scientist role at Spotify?",
-      "How does Spotify support experimentation in its work culture?",
-      "What is the career progression for a data scientist at Spotify?",
-      "What are the benefits of working at a company like Spotify?",
-      "How can I network with professionals at Spotify?"
+      "How does Spotify support career growth?",
+      "What networking strategies are effective for job seekers in tech?",
+      "What challenges do candidates face when applying to Spotify?",
+      "What roles are available for data scientists at Spotify?"
     ],
     "role_type": [
       "economist"
@@ -12104,7 +12118,8 @@
     "company_context": [
       "startup"
     ],
-    "model_score": 0.0
+    "model_score": 0.0,
+    "embedding_text": "The Spotify career portal serves as a comprehensive resource for individuals interested in pursuing careers within the tech industry, specifically in roles related to economics and data science. It highlights various career paths available at Spotify, including positions that require a strong foundation in experimentation and analytical skills. The portal emphasizes the importance of qualifications such as a degree in economics or a related field, along with practical experience in data analysis and experimentation methodologies. Job seekers can find valuable insights into the day-to-day responsibilities of roles at Spotify, which often involve data-driven decision-making, collaboration with cross-functional teams, and a focus on innovative solutions. Additionally, the portal provides guidance on interview preparation, including tips on how to effectively showcase relevant skills and experiences during the application process. While specific salary and compensation insights are not detailed, the portal encourages candidates to research industry standards and negotiate effectively based on their qualifications. Career progression at Spotify is supported through various development programs and mentorship opportunities, allowing employees to advance their careers within the company. Networking strategies are also discussed, emphasizing the importance of building connections within the tech community to enhance job search efforts. Common challenges faced by candidates, such as competition and the need for specialized skills, are addressed with practical advice on how to overcome these obstacles. Overall, the Spotify career portal is a valuable tool for those looking to navigate the job market in the tech industry, particularly in Europe."
   },
   {
     "name": "Klarna",
@@ -12492,29 +12507,35 @@
     "difficulty": "beginner",
     "prerequisites": [],
     "topic_tags": [],
-    "summary": "Supercell's career portal provides insights into job opportunities and career paths within the gaming industry, particularly in Finland. It serves as a resource for individuals interested in pursuing a career in a leading gaming company.",
+    "summary": "Supercell's career portal provides insights into various career paths within the gaming industry, particularly focusing on roles related to game development and design. It offers guidance on skills needed, interview preparation, and navigating job searches in the competitive gaming sector.",
     "use_cases": [
-      "when looking for job opportunities in the gaming industry",
-      "when researching company culture at Supercell"
+      "when exploring career opportunities in gaming",
+      "when seeking interview preparation resources",
+      "when looking for insights on salary and compensation in the gaming industry"
     ],
     "audience": [
       "Curious-browser"
     ],
     "synthetic_questions": [
       "What career opportunities are available at Supercell?",
-      "How can I apply for a job at Supercell?",
-      "What is the work culture like at Supercell?",
-      "What skills are needed to work in gaming?",
-      "How does Supercell support employee growth?",
-      "What are common career paths at Supercell?",
-      "What is the hiring process like at Supercell?",
-      "What benefits does Supercell offer to employees?"
+      "How can I prepare for an interview in the gaming industry?",
+      "What skills are essential for a career in game development?",
+      "What is the salary range for game developers in Finland?",
+      "How can I network effectively in the gaming industry?",
+      "What are common challenges faced by game developers?",
+      "What does a typical day look like for a game designer?",
+      "How can I progress my career in the gaming sector?"
     ],
     "experience_level": "entry",
     "company_context": [
       "startup"
     ],
-    "model_score": 0.0
+    "model_score": 0.0,
+    "embedding_text": "Supercell is a prominent gaming company based in Finland, known for its innovative approach to game development and its unique company culture. The Supercell career portal serves as a valuable resource for individuals interested in pursuing a career in the gaming industry. It outlines various career paths and roles available within the company, including positions such as game developer and game designer. The portal emphasizes the importance of specific skills and qualifications that are crucial for success in these roles, such as programming, creativity, and teamwork. Additionally, it provides insights into the day-to-day responsibilities that employees may face, highlighting the collaborative nature of game development and the iterative process involved in creating engaging gaming experiences. Interview preparation is a key focus, with resources aimed at helping candidates understand what to expect during the hiring process and how to effectively showcase their skills and passion for gaming. While specific salary information may not be detailed, the portal offers general insights into compensation trends within the gaming industry, particularly in the European context. Career progression and growth paths are also discussed, encouraging individuals to think about their long-term goals and how they can evolve within the company. Networking strategies are highlighted as essential for success in the gaming field, with tips on how to connect with industry professionals and leverage social media platforms. Common challenges faced by game developers, such as tight deadlines and creative blocks, are addressed, along with strategies for overcoming these obstacles. Overall, Supercell's career portal is a comprehensive guide for anyone looking to enter or advance in the gaming industry, providing a wealth of information on the skills, roles, and strategies necessary for a successful career.",
+    "role_type": [
+      "game-developer",
+      "game-designer"
+    ]
   },
   {
     "name": "King",
@@ -18703,32 +18724,39 @@
     "subtab": "companies",
     "difficulty": "beginner",
     "prerequisites": [],
-    "topic_tags": [],
-    "summary": "CVS Health's career portal provides resources and information for individuals interested in pursuing careers in the pharmacy and economics fields. It serves as a platform for job seekers to explore opportunities and gain insights into the industry.",
+    "topic_tags": [
+      "job-search",
+      "salary-negotiation"
+    ],
+    "summary": "CVS Health's career portal provides a comprehensive overview of job opportunities within the company, emphasizing roles in pharmacy and economics. It offers insights into the skills required for various positions, interview preparation tips, and guidance on salary negotiations.",
     "use_cases": [
-      "when looking for job opportunities in pharmacy or economics"
+      "when exploring career opportunities in pharmacy or economics",
+      "when preparing for interviews at CVS Health",
+      "when seeking salary negotiation tips"
     ],
     "audience": [
       "Curious-browser"
     ],
     "synthetic_questions": [
       "What career opportunities are available at CVS Health?",
-      "How can I prepare for a job interview at CVS Health?",
+      "How can I prepare for an interview at CVS Health?",
+      "What skills are needed for a pharmacy role?",
       "What is the salary range for economists at CVS Health?",
-      "What skills are required for a career in pharmacy?",
-      "How does CVS Health support career development?",
-      "What are the benefits of working at CVS Health?",
-      "What is the company culture like at CVS Health?",
-      "How can I apply for a job at CVS Health?"
+      "How can I negotiate my salary at CVS Health?",
+      "What are the day-to-day responsibilities of a pharmacist?",
+      "What career progression looks like at CVS Health?",
+      "What networking strategies can I use to connect with CVS Health employees?"
     ],
     "role_type": [
-      "economist"
+      "economist",
+      "pharmacist"
     ],
     "experience_level": "entry",
     "company_context": [
-      "Company Lists"
+      "healthcare"
     ],
-    "model_score": 0.0
+    "model_score": 0.0,
+    "embedding_text": "The CVS Health career portal serves as a vital resource for individuals interested in pursuing careers within the healthcare sector, particularly in pharmacy and economics. It outlines various career paths available at CVS Health, including roles such as pharmacists and economists, and provides detailed descriptions of the skills and qualifications necessary for these positions. The portal emphasizes the importance of relevant educational backgrounds, certifications, and practical experience in securing a role within the company. In addition to outlining job responsibilities, the portal offers valuable insights into interview preparation, equipping candidates with strategies to effectively showcase their skills and experiences. It also addresses salary and compensation insights, helping prospective employees understand the financial aspects of working at CVS Health. The resource discusses common challenges faced by candidates, such as navigating the competitive job market and effectively negotiating salaries, and provides actionable advice on overcoming these hurdles. Furthermore, the portal highlights the significance of networking and job search strategies, encouraging candidates to connect with current employees and industry professionals to enhance their job prospects. Overall, CVS Health's career portal is an essential tool for anyone looking to build a career in the healthcare industry, offering a wealth of information on career progression, skills development, and the unique opportunities available within the company."
   },
   {
     "name": "Kroger (84.51\u00b0)",
@@ -22115,28 +22143,25 @@
     "difficulty": "beginner",
     "prerequisites": [],
     "topic_tags": [],
-    "summary": "Revolut's career portal provides insights and resources for individuals seeking opportunities within the company. It serves as a platform for job seekers to explore available positions and understand the company culture.",
-    "use_cases": [
-      "when looking for job opportunities at Revolut",
-      "when researching company culture and values"
-    ],
-    "audience": [
-      "Curious-browser"
-    ],
+    "summary": "Revolut's career portal provides insights into various career paths within the neobank sector, emphasizing essential skills and qualifications needed for success. It serves as a resource for job seekers looking to navigate the competitive landscape of finance and technology.",
+    "use_cases": [],
+    "audience": [],
     "synthetic_questions": [
-      "What job openings are available at Revolut?",
-      "How can I prepare for an interview at Revolut?",
-      "What is the company culture like at Revolut?",
-      "What benefits does Revolut offer to employees?",
-      "How does Revolut support career growth?",
-      "What skills are valued at Revolut?",
-      "What is the salary range for data scientists at Revolut?",
-      "How can I apply for a job at Revolut?"
+      "What career opportunities are available at neobanks like Revolut?",
+      "How can I prepare for interviews in the fintech industry?",
+      "What skills are essential for a career in data science at a neobank?",
+      "What are the typical salary ranges for roles at Revolut?",
+      "How do I effectively network within the fintech sector?",
+      "What challenges do job seekers face when applying to tech companies?",
+      "What are the day-to-day responsibilities of a data scientist at a neobank?",
+      "How can I advance my career in the finance technology space?"
     ],
     "company_context": [
-      "startup"
+      "neobank"
     ],
-    "model_score": 0.0
+    "model_score": 0.0,
+    "embedding_text": "Revolut, a prominent player in the neobank sector, offers a comprehensive career portal that serves as a valuable resource for individuals seeking to build a career in finance and technology. The portal outlines various career paths available within the company, including roles in data science, product management, and customer experience. It emphasizes the importance of acquiring relevant skills and qualifications, such as proficiency in data analysis, programming languages, and an understanding of financial regulations. The portal also provides insights into the interview preparation process, offering tips on how to effectively showcase one's skills and experiences during interviews. Additionally, it highlights the typical salary ranges for different roles, helping job seekers set realistic expectations for compensation. The day-to-day responsibilities of employees at Revolut are discussed, giving potential candidates a clear picture of what to expect in their roles. Career progression and growth paths are also addressed, outlining the potential for advancement within the company. Networking strategies are emphasized, encouraging individuals to connect with industry professionals and leverage platforms like LinkedIn to enhance their job search. Common challenges faced by job seekers, such as competition and the need for continuous skill development, are acknowledged, along with strategies to overcome these obstacles. Overall, Revolut's career portal is a vital tool for anyone looking to enter or advance in the fintech industry.",
+    "experience_level": "entry"
   },
   {
     "name": "N26",
@@ -22156,29 +22181,31 @@
     "difficulty": "beginner",
     "prerequisites": [],
     "topic_tags": [],
-    "summary": "N26 provides a career portal that offers insights into job opportunities and career paths within the neobank sector. It is designed to help users navigate their career options in a growing financial technology company.",
+    "summary": "N26's career portal serves as a valuable resource for individuals seeking to explore career opportunities within the neobank sector. It provides insights into various roles, necessary skills, and the overall landscape of working in a modern financial technology company.",
     "use_cases": [
-      "when looking for job opportunities in fintech",
-      "when researching company culture in neobanks"
+      "when exploring career options in neobanking",
+      "when preparing for interviews in fintech",
+      "when researching salary expectations in the financial technology sector"
     ],
     "audience": [
       "Curious-browser"
     ],
     "synthetic_questions": [
       "What career opportunities are available at N26?",
-      "How can I prepare for a job interview at a neobank?",
-      "What skills are needed to work in a fintech company?",
+      "What skills are needed to work in a neobank?",
+      "How can I prepare for an interview at N26?",
       "What is the salary range for positions at N26?",
-      "How does N26 support employee career growth?",
-      "What is the company culture like at N26?",
-      "What are the typical roles in a neobank?",
-      "How can I network within the fintech industry?"
+      "What are the common challenges faced in fintech careers?",
+      "How can I network effectively in the neobank industry?",
+      "What does a day in the life of an employee at N26 look like?",
+      "What career progression opportunities exist at N26?"
     ],
     "experience_level": "entry",
     "company_context": [
-      "startup"
+      "neobank"
     ],
-    "model_score": 0.0
+    "model_score": 0.0,
+    "embedding_text": "The N26 career portal is an essential resource for individuals interested in pursuing a career in the neobank sector. It outlines various career paths available within the company, emphasizing roles that are critical to the success of a modern financial technology firm. The portal highlights the skills and qualifications necessary for these positions, including technical competencies, analytical abilities, and a strong understanding of the financial services landscape. As a neobank, N26 operates in a rapidly evolving industry, and the portal provides insights into the unique challenges and opportunities that come with working in such an innovative environment. Interview preparation content is also a key feature, offering guidance on what candidates can expect during the hiring process, including common interview questions and tips for presenting oneself effectively. While specific salary and compensation insights may not be detailed, the portal likely provides general information about industry standards and expectations for various roles. Day-to-day job responsibilities are discussed, giving potential applicants a clear picture of what to expect in their roles, from customer service to data analysis and product development. The portal may also address career progression and growth paths within N26, showcasing how employees can advance their careers in the neobank space. Networking strategies are emphasized, encouraging candidates to connect with industry professionals and leverage social media platforms to enhance their job search. Common challenges faced in fintech careers, such as keeping up with technological advancements and regulatory changes, are addressed, along with strategies for overcoming these hurdles. Overall, the N26 career portal serves as a comprehensive guide for those looking to enter the neobanking industry, providing valuable information and resources to support their career aspirations."
   },
   {
     "name": "Monzo",
@@ -22449,21 +22476,25 @@
     "difficulty": "beginner",
     "prerequisites": [],
     "topic_tags": [],
-    "summary": "Upstart is a career portal that provides resources related to lending and credit-risk. It aims to assist users in navigating their career paths in finance and related fields.",
+    "summary": "Upstart is a career portal that provides resources for individuals seeking to navigate their career paths in the lending and credit-risk sectors. It offers insights into various roles, skills required, and strategies for job searching and networking.",
     "use_cases": [],
     "audience": [],
     "synthetic_questions": [
-      "What is Upstart?",
-      "How can Upstart help with career development?",
-      "What resources does Upstart offer for job seekers?",
-      "Is Upstart suitable for beginners in finance?",
-      "What types of jobs can I find on Upstart?",
-      "How does Upstart assist with credit-risk careers?",
-      "What are the benefits of using Upstart for career advancement?",
-      "Can Upstart help with salary negotiation strategies?"
+      "What roles are available in the lending industry?",
+      "How can I prepare for an interview in credit-risk?",
+      "What skills are necessary for a career in lending?",
+      "What are the common challenges in the credit-risk field?",
+      "How do I negotiate my salary in the lending sector?",
+      "What are the best strategies for job searching in finance?",
+      "How can I network effectively in the lending industry?",
+      "What does a typical day look like for a credit-risk analyst?"
     ],
     "experience_level": "entry",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "embedding_text": "Upstart serves as a comprehensive career portal focused on the lending and credit-risk industries, providing valuable resources for job seekers at various stages of their careers. The platform highlights a range of career paths, including roles such as credit-risk analysts, lending specialists, and financial consultants. It emphasizes the importance of specific skills and qualifications that are essential for success in these fields, such as analytical thinking, risk assessment, and financial modeling. Users can find guidance on interview preparation, including common questions and best practices for presenting themselves effectively to potential employers. Additionally, Upstart offers insights into salary expectations and compensation trends within the lending sector, helping users to understand their worth and negotiate effectively. The platform also covers day-to-day job responsibilities, giving users a realistic view of what to expect in various roles. Career progression and growth paths are discussed, outlining how individuals can advance in their careers through skill development and networking opportunities. Networking strategies are emphasized, encouraging users to connect with industry professionals and leverage relationships to uncover job opportunities. Common challenges faced in the lending and credit-risk fields are addressed, along with practical advice on how to overcome these obstacles, ensuring that users are well-equipped to navigate their career journeys successfully.",
+    "company_context": [
+      "finance"
+    ]
   },
   {
     "name": "Oportun",
@@ -25002,25 +25033,31 @@
     "difficulty": "beginner",
     "prerequisites": [],
     "topic_tags": [],
-    "summary": "Hopper is a career portal that provides resources and tools for job seekers to navigate their career paths. It focuses on helping users understand job market trends and make informed decisions about their careers.",
+    "summary": "Hopper serves as a career portal that provides users with insights into various career paths, particularly in the tech and data science fields. It offers guidance on job searching, interview preparation, and salary negotiation, helping users navigate their career journeys effectively.",
     "use_cases": [
-      "when to use this resource"
+      "When looking for job opportunities in tech",
+      "When preparing for interviews",
+      "When negotiating salaries"
     ],
     "audience": [
       "Curious-browser"
     ],
     "synthetic_questions": [
-      "What is Hopper?",
-      "How can I use Hopper for job searching?",
-      "What resources does Hopper provide?",
-      "Is Hopper suitable for beginners?",
-      "What categories does Hopper cover?",
-      "How does Hopper help with career planning?",
-      "What are the benefits of using Hopper?",
-      "Can Hopper assist with salary predictions?"
+      "What are the best strategies for job searching in tech?",
+      "How can I prepare for a data science interview?",
+      "What salary can I expect as a data scientist?",
+      "What skills are essential for a career in data science?",
+      "How do I negotiate my salary?",
+      "What are common challenges faced in tech careers?",
+      "How can I network effectively in the tech industry?",
+      "What are the career progression paths for data scientists?"
     ],
     "experience_level": "entry",
-    "model_score": 0.0
+    "model_score": 0.0,
+    "embedding_text": "Hopper is a comprehensive career portal designed to assist individuals in navigating their career paths, particularly in the technology and data science sectors. The platform emphasizes the importance of understanding various career roles, including data scientists, and the skills and qualifications necessary to excel in these positions. Users can explore detailed descriptions of day-to-day job responsibilities that data scientists typically encounter, which may include data analysis, model building, and collaboration with cross-functional teams. Additionally, Hopper provides valuable insights into interview preparation, offering tips and strategies to help candidates effectively present their skills and experiences to potential employers. The portal also addresses salary and compensation insights, guiding users on what to expect in terms of remuneration based on their experience and industry standards. Career progression and growth paths are discussed, highlighting the potential for advancement within the tech industry and the skills that can facilitate this growth. Networking strategies are also a key focus, as building professional relationships is crucial for career development in tech. Users can learn about common challenges faced in tech careers, such as keeping up with rapid technological changes and competition, along with strategies to overcome these obstacles. Overall, Hopper serves as a vital resource for individuals looking to enhance their career prospects in the tech and data science fields.",
+    "role_type": [
+      "data-scientist"
+    ]
   },
   {
     "name": "Kiwi.com",
