@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-03T20:09:32.299459Z",
+  "updated": "2026-01-03T22:29:27.922733Z",
   "count": 12,
   "items": [
     {
@@ -12,9 +12,9 @@
       "cold_start": false,
       "signals": {
         "clicks": 1,
-        "impressions": 17,
-        "dwell_ms": 5389933,
-        "viewable_sec": 5445.6,
+        "impressions": 18,
+        "dwell_ms": 5458576,
+        "viewable_sec": 5514.1,
         "scroll_90": 0,
         "scroll_75": 0,
         "scroll_50": 0,
@@ -33,13 +33,13 @@
       "category": "Strategy & Digital Platforms",
       "description": "Keystone interview. How Amazon's Chief Scientist built applied research from scratch with 400+ PhD researchers.",
       "url": "https://www.keystone.ai/news-publications/patrick-bajari-qa",
-      "score": 0.9972,
+      "score": 0.9971,
       "cold_start": false,
       "signals": {
         "clicks": 1,
-        "impressions": 15,
-        "dwell_ms": 5370619,
-        "viewable_sec": 5410.700000000001,
+        "impressions": 16,
+        "dwell_ms": 5439474,
+        "viewable_sec": 5478.3,
         "scroll_90": 0,
         "scroll_75": 0,
         "scroll_50": 0,
@@ -58,7 +58,7 @@
       "category": "Strategy & Digital Platforms",
       "description": "AEA Research Highlights. Why companies like Airbnb need researchers to solve marketplace design problems.",
       "url": "https://www.aeaweb.org/research/athey-luca-interview-tech-economics",
-      "score": 0.9853,
+      "score": 0.9726,
       "cold_start": false,
       "signals": {
         "clicks": 0,
@@ -83,7 +83,7 @@
       "category": "Causal Inference",
       "description": "Substack and podcast 'The Mixtape with Scott' featuring interviews with leading causal inference researchers. Bridges academic methods and practical application.",
       "url": "https://causalinf.substack.com/",
-      "score": 0.1061,
+      "score": 0.1047,
       "cold_start": false,
       "signals": {
         "clicks": 2,
@@ -108,13 +108,13 @@
       "category": "Bayesian Methods",
       "description": "Richard McElreath's Bayesian approach to statistics. PyMC3 translations available. The book that changed how many think about inference.",
       "url": "https://xcelab.net/rm/statistical-rethinking/",
-      "score": 0.0935,
+      "score": 0.0947,
       "cold_start": false,
       "signals": {
         "clicks": 1,
-        "impressions": 34,
-        "dwell_ms": 126937,
-        "viewable_sec": 148.3,
+        "impressions": 36,
+        "dwell_ms": 132940,
+        "viewable_sec": 153.4,
         "scroll_90": 0,
         "scroll_75": 0,
         "scroll_50": 0,
@@ -133,7 +133,7 @@
       "category": "Causal Inference",
       "description": "Matheus Facure's comprehensive Python-based coverage of synthetic control, difference-in-differences, and other causal methods central to marketing science.",
       "url": "https://matheusfacure.github.io/python-causality-handbook/",
-      "score": 0.0902,
+      "score": 0.089,
       "cold_start": false,
       "signals": {
         "clicks": 3,
@@ -153,12 +153,37 @@
       "rank": 6
     },
     {
+      "name": "PyMC Labs Blog",
+      "type": "resource",
+      "category": "Bayesian Methods",
+      "description": "Bayesian causal inference done right. MCMC, probabilistic programming, and causal models from the PyMC team.",
+      "url": "https://www.pymc-labs.com/blog-posts/",
+      "score": 0.089,
+      "cold_start": false,
+      "signals": {
+        "clicks": 0,
+        "impressions": 32,
+        "dwell_ms": 199866,
+        "viewable_sec": 219.29999999999998,
+        "scroll_90": 0,
+        "scroll_75": 0,
+        "scroll_50": 0,
+        "search_clicks": 0,
+        "deep_sessions": 12,
+        "rage_clicks": 0,
+        "quick_bounces": 0,
+        "coviews": 0,
+        "coclicks": 0
+      },
+      "rank": 7
+    },
+    {
       "name": "PyMC-Marketing CLV Quickstart",
       "type": "resource",
       "category": "Bayesian Methods",
       "description": "CLV basics, RFM analysis, BG/NBD models \u2014 free official docs",
       "url": "https://www.pymc-marketing.io/en/latest/notebooks/clv/clv_quickstart.html",
-      "score": 0.0788,
+      "score": 0.0778,
       "cold_start": false,
       "signals": {
         "clicks": 0,
@@ -175,32 +200,32 @@
         "coviews": 0,
         "coclicks": 0
       },
-      "rank": 7
+      "rank": 8
     },
     {
-      "name": "PyMC Labs Blog",
+      "name": "PyMC-Marketing Documentation",
       "type": "resource",
       "category": "Bayesian Methods",
-      "description": "Bayesian causal inference done right. MCMC, probabilistic programming, and causal models from the PyMC team.",
-      "url": "https://www.pymc-labs.com/blog-posts/",
-      "score": 0.0754,
+      "description": "BG/NBD and Gamma-Gamma CLV tutorials",
+      "url": "https://www.pymc-marketing.io/en/stable/",
+      "score": 0.0768,
       "cold_start": false,
       "signals": {
         "clicks": 0,
-        "impressions": 30,
-        "dwell_ms": 125220,
-        "viewable_sec": 145.7,
+        "impressions": 29,
+        "dwell_ms": 182697,
+        "viewable_sec": 186.8,
         "scroll_90": 0,
         "scroll_75": 0,
         "scroll_50": 0,
         "search_clicks": 0,
-        "deep_sessions": 12,
+        "deep_sessions": 10,
         "rage_clicks": 0,
         "quick_bounces": 0,
         "coviews": 0,
         "coclicks": 0
       },
-      "rank": 8
+      "rank": 9
     },
     {
       "name": "Causal Inference: The Mixtape",
@@ -208,7 +233,7 @@
       "category": "Causal Inference",
       "description": "Scott Cunningham's academic-quality but accessible methodology covering causal methods essential for marketing measurement.",
       "url": "https://mixtape.scunning.com/",
-      "score": 0.0726,
+      "score": 0.0717,
       "cold_start": false,
       "signals": {
         "clicks": 1,
@@ -225,7 +250,7 @@
         "coviews": 0,
         "coclicks": 0
       },
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "Coding for Economists (Arthur Turrell)",
@@ -233,13 +258,13 @@
       "category": "Causal Inference",
       "description": "Python workflow for economists covering data transformation, econometrics, Bayesian inference, and ML. Modern Python-first approach.",
       "url": "https://aeturrell.github.io/coding-for-economists/",
-      "score": 0.0648,
+      "score": 0.0657,
       "cold_start": false,
       "signals": {
         "clicks": 3,
-        "impressions": 17,
-        "dwell_ms": 79613,
-        "viewable_sec": 89.3,
+        "impressions": 18,
+        "dwell_ms": 85616,
+        "viewable_sec": 94.39999999999999,
         "scroll_90": 0,
         "scroll_75": 0,
         "scroll_50": 0,
@@ -250,7 +275,7 @@
         "coviews": 0,
         "coclicks": 0
       },
-      "rank": 10
+      "rank": 11
     },
     {
       "name": "A/B Testing on Social Networks",
@@ -258,7 +283,7 @@
       "category": "Experimentation > A/B Test Design & Analysis",
       "description": "LinkedIn's landmark paper on network interference in A/B tests. Shows how social connections violate SUTVA, proposes cluster-based randomization and graph cluster metrics, and introduces the 'network A/B test' framework now used across social platforms.",
       "url": "https://content.linkedin.com/content/dam/engineering/site-assets/pdfs/ABTestingSocialNetwork_share.pdf",
-      "score": 0.0642,
+      "score": 0.0634,
       "cold_start": false,
       "signals": {
         "clicks": 5,
@@ -276,31 +301,6 @@
         "coclicks": 0
       },
       "citations": 200,
-      "rank": 11
-    },
-    {
-      "name": "PyMC-Marketing Documentation",
-      "type": "resource",
-      "category": "Bayesian Methods",
-      "description": "BG/NBD and Gamma-Gamma CLV tutorials",
-      "url": "https://www.pymc-marketing.io/en/stable/",
-      "score": 0.0631,
-      "cold_start": false,
-      "signals": {
-        "clicks": 0,
-        "impressions": 27,
-        "dwell_ms": 107046,
-        "viewable_sec": 113.30000000000001,
-        "scroll_90": 0,
-        "scroll_75": 0,
-        "scroll_50": 0,
-        "search_clicks": 0,
-        "deep_sessions": 10,
-        "rage_clicks": 0,
-        "quick_bounces": 0,
-        "coviews": 0,
-        "coclicks": 0
-      },
       "rank": 12
     }
   ]

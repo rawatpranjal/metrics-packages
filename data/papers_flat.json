@@ -17,7 +17,7 @@
     "category": "Experimentation > A/B Test Design & Analysis",
     "topic": "Experimentation",
     "subtopic": "A/B Test Design & Analysis",
-    "model_score": 0.0642
+    "model_score": 0.0634
   },
   {
     "id": "paper-the-theory-and-practice-of-revenue-management",
@@ -37,7 +37,7 @@
     "category": "Pricing > Dynamic Pricing & Revenue Management",
     "topic": "Pricing",
     "subtopic": "Dynamic Pricing & Revenue Management",
-    "model_score": 0.0065
+    "model_score": 0.0064
   },
   {
     "id": "paper-from-first-price-auctions-to-incentive-compatible-auctions",
@@ -77,6 +77,46 @@
     "category": "Advertising > Targeting & Lookalikes",
     "topic": "Advertising",
     "subtopic": "Targeting & Lookalikes",
+    "model_score": 0.0001
+  },
+  {
+    "id": "paper-peeking-at-a-b-tests-why-it-matters-and-what-to-do-about-it",
+    "name": "Peeking at A/B Tests: Why It Matters, and What to Do About It",
+    "title": "Peeking at A/B Tests: Why It Matters, and What to Do About It",
+    "authors": "Ramesh Johari, Pete Koomen, Leonid Pekelis, David Walsh",
+    "year": 2017,
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2925568",
+    "description": "Analyzes the peeking problem in A/B tests and introduces always-valid p-values for sequential testing.",
+    "citations": null,
+    "tag": "",
+    "tags": [
+      "Experimentation",
+      "Sequential & Adaptive Testing"
+    ],
+    "type": "paper",
+    "category": "Experimentation > Sequential & Adaptive Testing",
+    "topic": "Experimentation",
+    "subtopic": "Sequential & Adaptive Testing",
+    "model_score": 0.0001
+  },
+  {
+    "id": "paper-discrete-choice-methods-with-simulation-2nd-ed",
+    "name": "Discrete Choice Methods with Simulation (2nd ed.)",
+    "title": "Discrete Choice Methods with Simulation (2nd ed.)",
+    "authors": "Kenneth Train",
+    "year": 2009,
+    "url": "https://eml.berkeley.edu/books/train1201.pdf",
+    "description": "The definitive textbook covering logit variants and simulation methods; essential practitioner reference.",
+    "citations": null,
+    "tag": "",
+    "tags": [
+      "Choice Models & Dynamic Choice",
+      "Discrete Choice (Logit, Mixed Logit)"
+    ],
+    "type": "paper",
+    "category": "Choice Models & Dynamic Choice > Discrete Choice (Logit, Mixed Logit)",
+    "topic": "Choice Models & Dynamic Choice",
+    "subtopic": "Discrete Choice (Logit, Mixed Logit)",
     "model_score": 0.0001
   },
   {
@@ -1377,26 +1417,6 @@
     "category": "Experimentation > Variance Reduction",
     "topic": "Experimentation",
     "subtopic": "Variance Reduction",
-    "model_score": 0.0
-  },
-  {
-    "id": "paper-peeking-at-a-b-tests-why-it-matters-and-what-to-do-about-it",
-    "name": "Peeking at A/B Tests: Why It Matters, and What to Do About It",
-    "title": "Peeking at A/B Tests: Why It Matters, and What to Do About It",
-    "authors": "Ramesh Johari, Pete Koomen, Leonid Pekelis, David Walsh",
-    "year": 2017,
-    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2925568",
-    "description": "Analyzes the peeking problem in A/B tests and introduces always-valid p-values for sequential testing.",
-    "citations": null,
-    "tag": "",
-    "tags": [
-      "Experimentation",
-      "Sequential & Adaptive Testing"
-    ],
-    "type": "paper",
-    "category": "Experimentation > Sequential & Adaptive Testing",
-    "topic": "Experimentation",
-    "subtopic": "Sequential & Adaptive Testing",
     "model_score": 0.0
   },
   {
@@ -15628,26 +15648,6 @@
     "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/1099-1255(200009/10)15:5%3C447::AID-JAE570%3E3.0.CO;2-1",
     "description": "Proves mixed logit approximates any random utility model; establishes simulation-based estimation.",
     "citations": 3943,
-    "tag": "",
-    "tags": [
-      "Choice Models & Dynamic Choice",
-      "Discrete Choice (Logit, Mixed Logit)"
-    ],
-    "type": "paper",
-    "category": "Choice Models & Dynamic Choice > Discrete Choice (Logit, Mixed Logit)",
-    "topic": "Choice Models & Dynamic Choice",
-    "subtopic": "Discrete Choice (Logit, Mixed Logit)",
-    "model_score": 0.0
-  },
-  {
-    "id": "paper-discrete-choice-methods-with-simulation-2nd-ed",
-    "name": "Discrete Choice Methods with Simulation (2nd ed.)",
-    "title": "Discrete Choice Methods with Simulation (2nd ed.)",
-    "authors": "Kenneth Train",
-    "year": 2009,
-    "url": "https://eml.berkeley.edu/books/train1201.pdf",
-    "description": "The definitive textbook covering logit variants and simulation methods; essential practitioner reference.",
-    "citations": null,
     "tag": "",
     "tags": [
       "Choice Models & Dynamic Choice",
