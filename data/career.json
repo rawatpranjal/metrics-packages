@@ -51,7 +51,7 @@
     "company_context": [
       "startup"
     ],
-    "model_score": 0.0151,
+    "model_score": 0.015,
     "embedding_text": "Instacart's career portal serves as a comprehensive resource for individuals interested in pursuing careers within the company, particularly in roles that intersect with marketplace dynamics and pricing strategies. The portal outlines various career paths available, including positions for data scientists and economists, emphasizing the skills and qualifications necessary for success in these roles. Candidates are encouraged to familiarize themselves with the specific requirements for internships, especially those targeting PhD students, as these positions often demand a strong analytical background and familiarity with economic principles. The portal also provides valuable insights into the interview preparation process, offering tips on how to effectively present one's qualifications and experiences. Additionally, it highlights the importance of understanding salary expectations and compensation structures within the company, allowing potential candidates to negotiate effectively. Day-to-day responsibilities for roles at Instacart may include analyzing marketplace trends, developing pricing models, and collaborating with cross-functional teams to enhance product offerings. The portal discusses potential career progression paths, illustrating how entry-level positions can lead to more advanced roles within the organization. Networking strategies are also emphasized, guiding candidates on how to connect with current employees and industry professionals to enhance their job search efforts. Common challenges faced by interns and new hires are addressed, with suggestions on how to overcome these obstacles and thrive in a fast-paced startup environment. Overall, Instacart's career portal is a valuable tool for anyone looking to navigate their career in the tech and economics sectors.",
     "tfidf_keywords": [
       "marketplace",
@@ -79,6 +79,158 @@
       "labor-economics",
       "pricing",
       "marketplaces"
+    ]
+  },
+  {
+    "name": "OpenAI",
+    "description": "Career portal",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://openai.com/careers/",
+    "type": "Career Portal",
+    "tags": [
+      "emerging",
+      "residency",
+      "networking-required",
+      "economist-title"
+    ],
+    "section": "companies",
+    "sector": "ai",
+    "tab": "find-jobs",
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "OpenAI's career portal serves as a valuable resource for individuals seeking to navigate their career paths in the tech and economics fields. It provides insights into various roles, networking opportunities, and the skills required to succeed in these industries.",
+    "use_cases": [
+      "when exploring career opportunities in tech and economics",
+      "for networking advice",
+      "to understand required skills for roles at OpenAI"
+    ],
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What career paths are available at OpenAI?",
+      "How can I prepare for interviews in tech?",
+      "What skills are emphasized for economists?",
+      "What networking strategies should I use?",
+      "What are common challenges in tech careers?",
+      "How does salary negotiation work in tech?",
+      "What day-to-day responsibilities do data scientists have?",
+      "What growth paths exist in the tech industry?"
+    ],
+    "role_type": [
+      "economist"
+    ],
+    "experience_level": "entry",
+    "company_context": [
+      "startup"
+    ],
+    "model_score": 0.0087,
+    "embedding_text": "OpenAI's career portal is designed to assist individuals interested in pursuing careers in technology and economics. The portal outlines various career paths available within the organization, emphasizing roles such as economists and data scientists. It highlights the essential skills and qualifications needed for these positions, which often include strong analytical abilities, proficiency in programming languages, and a solid understanding of economic principles. The portal also provides valuable resources for interview preparation, including tips on how to effectively present oneself and common questions that candidates may encounter during the hiring process. Additionally, it offers insights into salary and compensation structures within the tech industry, helping candidates to negotiate effectively. The day-to-day responsibilities of roles at OpenAI are discussed, providing a clear picture of what to expect in these positions. Career progression and growth paths are also addressed, outlining potential advancements and the skills necessary to achieve them. Networking strategies are emphasized, encouraging candidates to build connections within the industry. Finally, the portal acknowledges common challenges faced by individuals in tech careers and offers advice on how to overcome these obstacles, making it a comprehensive resource for anyone looking to enter or advance in the field.",
+    "tfidf_keywords": [
+      "career-paths",
+      "networking-strategies",
+      "interview-preparation",
+      "salary-negotiation",
+      "data-science",
+      "economics",
+      "career-progression",
+      "job-responsibilities",
+      "skills-qualifications",
+      "common-challenges"
+    ],
+    "semantic_cluster": "career-resources-tech",
+    "content_format": "career",
+    "depth_level": "intro",
+    "related_concepts": [
+      "career-development",
+      "job-search",
+      "networking",
+      "interview-strategies",
+      "salary-negotiation"
+    ],
+    "canonical_topics": [
+      "labor-economics",
+      "data-engineering",
+      "econometrics"
+    ]
+  },
+  {
+    "name": "Anthropic",
+    "description": "Career portal",
+    "stage": "Discovery",
+    "category": "Company Lists",
+    "url": "https://www.anthropic.com/careers/",
+    "type": "Career Portal",
+    "tags": [
+      "emerging",
+      "no-internship",
+      "networking-required",
+      "economist-title"
+    ],
+    "section": "companies",
+    "sector": "ai",
+    "tab": "find-jobs",
+    "subtab": "companies",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "topic_tags": [],
+    "summary": "The Anthropic career portal provides insights into various career paths within the tech and economics sectors, emphasizing the importance of networking and the absence of internship opportunities. It caters to individuals seeking roles such as economists and data scientists, offering guidance on job search strategies and career progression.",
+    "use_cases": [
+      "When exploring career opportunities in tech and economics",
+      "When seeking networking strategies",
+      "When preparing for interviews in related fields"
+    ],
+    "audience": [
+      "Curious-browser"
+    ],
+    "synthetic_questions": [
+      "What roles are available at Anthropic?",
+      "How can I network effectively in tech?",
+      "What skills are needed for an economist title?",
+      "Are there internship opportunities at Anthropic?",
+      "What is the job search process like in tech?",
+      "How do I prepare for interviews in economics?",
+      "What are the common challenges in tech careers?",
+      "What career progression can I expect in data science?"
+    ],
+    "role_type": [
+      "economist"
+    ],
+    "experience_level": "entry",
+    "company_context": [
+      "startup"
+    ],
+    "model_score": 0.0087,
+    "embedding_text": "The Anthropic career portal serves as a valuable resource for individuals interested in pursuing careers in the tech and economics sectors. It highlights various career paths, particularly focusing on roles such as economists and data scientists. The portal emphasizes the significance of networking, which is crucial for success in these fields, especially given the absence of internship opportunities. Users can find guidance on essential skills and qualifications needed for these roles, including analytical thinking, problem-solving abilities, and familiarity with economic theories and data analysis techniques. The portal also provides insights into the day-to-day responsibilities of these positions, which may include conducting research, analyzing data, and developing economic models. Additionally, the resource offers advice on interview preparation, helping candidates understand what to expect during the hiring process and how to present their qualifications effectively. While specific salary and compensation insights are not provided, the portal encourages users to research industry standards and negotiate effectively. Career progression paths are discussed, outlining potential advancements from entry-level positions to more senior roles. Networking strategies are also emphasized, with tips on how to connect with professionals in the field and leverage those connections for job opportunities. Common challenges faced by individuals in tech and economics careers are acknowledged, with suggestions on how to overcome these obstacles, such as continuous learning and seeking mentorship. Overall, the Anthropic career portal is a comprehensive guide for those looking to navigate their career paths in these dynamic fields.",
+    "tfidf_keywords": [
+      "networking",
+      "economist",
+      "data-scientist",
+      "career-paths",
+      "job-search",
+      "interview-preparation",
+      "salary-negotiation",
+      "career-progression",
+      "skills-development",
+      "tech-economics"
+    ],
+    "semantic_cluster": "career-resources-tech-economics",
+    "content_format": "career",
+    "depth_level": "intro",
+    "related_concepts": [
+      "labor-economics",
+      "industrial-organization",
+      "data-engineering",
+      "consumer-behavior",
+      "policy-evaluation"
+    ],
+    "canonical_topics": [
+      "labor-economics",
+      "econometrics",
+      "finance"
     ]
   },
   {
@@ -133,7 +285,7 @@
       "startup",
       "finance"
     ],
-    "model_score": 0.0068,
+    "model_score": 0.0067,
     "embedding_text": "Ace the Data Science Interview is a vital resource for aspiring data scientists and those looking to advance their careers in this competitive field. It covers a range of career paths and roles within data science, emphasizing the skills and qualifications necessary for success. The resource is particularly focused on the expectations of high-profile companies such as FAANG and startups, providing insights into the interview preparation process. It outlines common interview questions, both technical and behavioral, that candidates can expect, along with strategies for effective preparation. Additionally, it discusses salary and compensation insights, helping candidates understand their worth in the job market. The day-to-day responsibilities of data scientists are also highlighted, giving readers a clear picture of what to expect in their roles. Career progression and growth paths are explored, offering guidance on how to advance within the field. Networking and job search strategies are included, emphasizing the importance of building connections in the industry. Common challenges faced by data scientists are addressed, along with practical advice on how to overcome them, making this resource a comprehensive guide for anyone looking to succeed in data science.",
     "tfidf_keywords": [
       "FAANG",
@@ -212,7 +364,7 @@
       "FAANG",
       "Wall-Street"
     ],
-    "model_score": 0.0068,
+    "model_score": 0.0067,
     "embedding_text": "Nick Singh's '40 Stats Questions' is a valuable resource for individuals preparing for interviews in data science and finance, particularly at prestigious companies like FAANG and Wall Street firms. This collection of probability and statistics questions is designed to help candidates familiarize themselves with the types of problems they may encounter during technical interviews. The questions cover essential topics such as Bayesian statistics and various probability distributions, which are crucial for success in these fields. Candidates can expect to enhance their understanding of statistical concepts that are frequently applied in real-world scenarios, making this resource not only beneficial for interview preparation but also for day-to-day job responsibilities in data-driven roles. The material emphasizes the importance of problem-solving skills and the ability to think critically about statistical data, which are key competencies for data scientists and economists alike. Furthermore, the resource provides insights into the expectations of interviewers in high-stakes environments, offering strategies for effectively communicating one's thought process and solutions. By engaging with these questions, candidates can improve their confidence and readiness for interviews, ultimately aiding in their career progression and growth within the competitive landscape of data science and finance.",
     "tfidf_keywords": [
       "Bayesian",
@@ -288,7 +440,7 @@
     "company_context": [
       "startup"
     ],
-    "model_score": 0.005,
+    "model_score": 0.0049,
     "embedding_text": "Shopee is a leading e-commerce platform in Asia, particularly known for its marketplace model that connects buyers and sellers. The career portal offers a wealth of resources for job seekers interested in pursuing a career in this vibrant industry. It highlights various career paths available within the company, including roles in marketing, operations, logistics, and technology. The portal emphasizes the importance of skills such as digital marketing, data analysis, and customer service, which are crucial for success in the e-commerce sector. Additionally, Shopee provides insights into the interview process, offering tips on how to prepare effectively and what to expect during interviews. Salary and compensation insights are also available, giving potential candidates a clearer picture of what they can expect in terms of remuneration. The day-to-day responsibilities of employees at Shopee vary by role but often include tasks related to product management, customer engagement, and performance analysis. The portal also discusses career progression opportunities, outlining potential growth paths within the organization. Networking strategies are encouraged, as building connections within the industry can significantly enhance job prospects. Lastly, common challenges faced by applicants, such as competition and the need for relevant experience, are addressed, along with strategies to overcome these hurdles.",
     "tfidf_keywords": [
       "e-commerce",
@@ -397,158 +549,6 @@
     ]
   },
   {
-    "name": "OpenAI",
-    "description": "Career portal",
-    "stage": "Discovery",
-    "category": "Company Lists",
-    "url": "https://openai.com/careers/",
-    "type": "Career Portal",
-    "tags": [
-      "emerging",
-      "residency",
-      "networking-required",
-      "economist-title"
-    ],
-    "section": "companies",
-    "sector": "ai",
-    "tab": "find-jobs",
-    "subtab": "companies",
-    "difficulty": "beginner",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "OpenAI's career portal serves as a valuable resource for individuals seeking to navigate their career paths in the tech and economics fields. It provides insights into various roles, networking opportunities, and the skills required to succeed in these industries.",
-    "use_cases": [
-      "when exploring career opportunities in tech and economics",
-      "for networking advice",
-      "to understand required skills for roles at OpenAI"
-    ],
-    "audience": [
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "What career paths are available at OpenAI?",
-      "How can I prepare for interviews in tech?",
-      "What skills are emphasized for economists?",
-      "What networking strategies should I use?",
-      "What are common challenges in tech careers?",
-      "How does salary negotiation work in tech?",
-      "What day-to-day responsibilities do data scientists have?",
-      "What growth paths exist in the tech industry?"
-    ],
-    "role_type": [
-      "economist"
-    ],
-    "experience_level": "entry",
-    "company_context": [
-      "startup"
-    ],
-    "model_score": 0.0027,
-    "embedding_text": "OpenAI's career portal is designed to assist individuals interested in pursuing careers in technology and economics. The portal outlines various career paths available within the organization, emphasizing roles such as economists and data scientists. It highlights the essential skills and qualifications needed for these positions, which often include strong analytical abilities, proficiency in programming languages, and a solid understanding of economic principles. The portal also provides valuable resources for interview preparation, including tips on how to effectively present oneself and common questions that candidates may encounter during the hiring process. Additionally, it offers insights into salary and compensation structures within the tech industry, helping candidates to negotiate effectively. The day-to-day responsibilities of roles at OpenAI are discussed, providing a clear picture of what to expect in these positions. Career progression and growth paths are also addressed, outlining potential advancements and the skills necessary to achieve them. Networking strategies are emphasized, encouraging candidates to build connections within the industry. Finally, the portal acknowledges common challenges faced by individuals in tech careers and offers advice on how to overcome these obstacles, making it a comprehensive resource for anyone looking to enter or advance in the field.",
-    "tfidf_keywords": [
-      "career-paths",
-      "networking-strategies",
-      "interview-preparation",
-      "salary-negotiation",
-      "data-science",
-      "economics",
-      "career-progression",
-      "job-responsibilities",
-      "skills-qualifications",
-      "common-challenges"
-    ],
-    "semantic_cluster": "career-resources-tech",
-    "content_format": "career",
-    "depth_level": "intro",
-    "related_concepts": [
-      "career-development",
-      "job-search",
-      "networking",
-      "interview-strategies",
-      "salary-negotiation"
-    ],
-    "canonical_topics": [
-      "labor-economics",
-      "data-engineering",
-      "econometrics"
-    ]
-  },
-  {
-    "name": "Anthropic",
-    "description": "Career portal",
-    "stage": "Discovery",
-    "category": "Company Lists",
-    "url": "https://www.anthropic.com/careers/",
-    "type": "Career Portal",
-    "tags": [
-      "emerging",
-      "no-internship",
-      "networking-required",
-      "economist-title"
-    ],
-    "section": "companies",
-    "sector": "ai",
-    "tab": "find-jobs",
-    "subtab": "companies",
-    "difficulty": "beginner",
-    "prerequisites": [],
-    "topic_tags": [],
-    "summary": "The Anthropic career portal provides insights into various career paths within the tech and economics sectors, emphasizing the importance of networking and the absence of internship opportunities. It caters to individuals seeking roles such as economists and data scientists, offering guidance on job search strategies and career progression.",
-    "use_cases": [
-      "When exploring career opportunities in tech and economics",
-      "When seeking networking strategies",
-      "When preparing for interviews in related fields"
-    ],
-    "audience": [
-      "Curious-browser"
-    ],
-    "synthetic_questions": [
-      "What roles are available at Anthropic?",
-      "How can I network effectively in tech?",
-      "What skills are needed for an economist title?",
-      "Are there internship opportunities at Anthropic?",
-      "What is the job search process like in tech?",
-      "How do I prepare for interviews in economics?",
-      "What are the common challenges in tech careers?",
-      "What career progression can I expect in data science?"
-    ],
-    "role_type": [
-      "economist"
-    ],
-    "experience_level": "entry",
-    "company_context": [
-      "startup"
-    ],
-    "model_score": 0.0027,
-    "embedding_text": "The Anthropic career portal serves as a valuable resource for individuals interested in pursuing careers in the tech and economics sectors. It highlights various career paths, particularly focusing on roles such as economists and data scientists. The portal emphasizes the significance of networking, which is crucial for success in these fields, especially given the absence of internship opportunities. Users can find guidance on essential skills and qualifications needed for these roles, including analytical thinking, problem-solving abilities, and familiarity with economic theories and data analysis techniques. The portal also provides insights into the day-to-day responsibilities of these positions, which may include conducting research, analyzing data, and developing economic models. Additionally, the resource offers advice on interview preparation, helping candidates understand what to expect during the hiring process and how to present their qualifications effectively. While specific salary and compensation insights are not provided, the portal encourages users to research industry standards and negotiate effectively. Career progression paths are discussed, outlining potential advancements from entry-level positions to more senior roles. Networking strategies are also emphasized, with tips on how to connect with professionals in the field and leverage those connections for job opportunities. Common challenges faced by individuals in tech and economics careers are acknowledged, with suggestions on how to overcome these obstacles, such as continuous learning and seeking mentorship. Overall, the Anthropic career portal is a comprehensive guide for those looking to navigate their career paths in these dynamic fields.",
-    "tfidf_keywords": [
-      "networking",
-      "economist",
-      "data-scientist",
-      "career-paths",
-      "job-search",
-      "interview-preparation",
-      "salary-negotiation",
-      "career-progression",
-      "skills-development",
-      "tech-economics"
-    ],
-    "semantic_cluster": "career-resources-tech-economics",
-    "content_format": "career",
-    "depth_level": "intro",
-    "related_concepts": [
-      "labor-economics",
-      "industrial-organization",
-      "data-engineering",
-      "consumer-behavior",
-      "policy-evaluation"
-    ],
-    "canonical_topics": [
-      "labor-economics",
-      "econometrics",
-      "finance"
-    ]
-  },
-  {
     "name": "Statsig",
     "description": "Career portal",
     "stage": "Discovery",
@@ -586,7 +586,7 @@
       "How do I search for jobs in tech?"
     ],
     "experience_level": "entry",
-    "model_score": 0.0008,
+    "model_score": 0.0007,
     "embedding_text": "Statsig is a career portal focused on providing resources for individuals interested in the field of experimentation, particularly in the context of tech companies. The platform emphasizes the importance of A/B testing as a critical component of product development and decision-making processes. Users can explore various career paths related to experimentation, including roles such as data scientists and product analysts. The portal outlines essential skills and qualifications needed for these roles, such as statistical analysis, familiarity with experimentation frameworks, and proficiency in programming languages commonly used in data science. Additionally, Statsig offers insights into the day-to-day responsibilities of professionals working in experimentation, which often include designing experiments, analyzing results, and collaborating with cross-functional teams to implement findings. The resource also touches on interview preparation strategies, providing tips on how to effectively showcase relevant skills and experiences during the hiring process. While specific salary and compensation insights are not detailed, the portal encourages users to research industry standards and negotiate effectively. Career progression opportunities in experimentation roles are highlighted, with a focus on continuous learning and skill development to advance within the field. Networking strategies are also discussed, emphasizing the importance of connecting with industry professionals and participating in relevant communities. Common challenges faced in experimentation roles, such as dealing with data quality issues and interpreting results accurately, are addressed with suggestions on how to overcome these obstacles. Overall, Statsig serves as a comprehensive resource for individuals looking to build a career in experimentation within the tech industry.",
     "role_type": [
       "data-scientist"
